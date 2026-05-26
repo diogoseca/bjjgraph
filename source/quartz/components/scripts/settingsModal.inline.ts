@@ -80,12 +80,12 @@ function renderTab(panel: HTMLElement, tab: Tab) {
     panel.innerHTML = `
       <div class="settings-modal-row settings-modal-row--column">
         <span class="settings-modal-label">
-          Game mode
-          <span class="settings-modal-hint">Dice-roll exploration when browsing technique pages</span>
+          Rolling simulation
+          <span class="settings-modal-hint">When you click a move on a position page, dice roll against an AI opponent — success depends on the move's win % (boosted by your mastery).</span>
         </span>
         <div class="settings-modal-pill-group" id="settings-game-mode-group">
-          <button type="button" class="settings-modal-pill" data-mode="off" title="No dice rolls, pure browsing">Off</button>
-          <button type="button" class="settings-modal-pill" data-mode="normal" title="Dice rolls with mastery bonus">Normal</button>
+          <button type="button" class="settings-modal-pill" data-mode="off" title="No dice rolls — just navigate when you click a move">Off</button>
+          <button type="button" class="settings-modal-pill" data-mode="normal" title="Dice rolls based on each move's win %, plus mastery bonus from flashcards">Normal</button>
           <button type="button" class="settings-modal-pill settings-modal-pill--locked" data-mode="hard" title="Coming soon" disabled>Hard &#x1F512;</button>
           <button type="button" class="settings-modal-pill settings-modal-pill--locked" data-mode="ultra" title="Coming soon" disabled>Ultra &#x1F512;</button>
         </div>
@@ -132,7 +132,7 @@ function open(defaultTab: Tab = "flashcards") {
       </header>
       <div class="settings-modal-tabs" role="tablist">
         <button type="button" class="settings-modal-tab" data-tab="flashcards" role="tab">Flashcards</button>
-        <button type="button" class="settings-modal-tab" data-tab="game" role="tab">Game</button>
+        <button type="button" class="settings-modal-tab" data-tab="game" role="tab">Rolling</button>
       </div>
       <div class="settings-modal-body" id="settings-modal-tabpanel" role="tabpanel"></div>
     </div>

@@ -30,7 +30,7 @@ interface DeckRow {
   enabled: boolean
 }
 
-function buildDeckRows(): DeckRow[] {
+async function buildDeckRows(): Promise<DeckRow[]> {
   const settings = loadSettings()
   const suggestionsCount = Math.min(settings.dailyGoal, 30)
 
@@ -44,8 +44,7 @@ function buildDeckRows(): DeckRow[] {
   // exact session-size we'd run getSuggestedTechniques here, but for a header
   // count the candidate pool is sufficient and faster.
   let suggestionsAvailable = 0
-  const bank = loadQuestionBank()
-  const adjacency = loadGraphAdjacency()
+  const [bank, adjacency] = await Promise.all([loadQuestionBank(), loadGraphAdjacency()])
   if (bank.length > 0 && adjacency) {
     const existing = new Set(loadSRSCards().map((c) => c.technique))
     const suggested = getSuggestedTechniques(bank, existing, adjacency, suggestionsCount)
@@ -81,18 +80,18 @@ function buildCtaState(): { label: string; enabled: boolean; source: SessionSour
   if (session && session.pages.length > 0) {
     const current = session.currentIndex + 1
     const total = session.pages.length
-    return { label: `Resume Session ${current}/${total} ▶`, enabled: true, source: "mixed" }
+    return { label: `Resume ${current}/${total} ▶`, enabled: true, source: "mixed" }
   }
 
   const due = getDueCards()
   if (due.length > 0) {
-    return { label: `Train Due (${due.length}) ▶`, enabled: true, source: "due" }
+    return { label: `Drill ${due.length} ▶`, enabled: true, source: "due" }
   }
 
   const settings = loadSettings()
   // 0 due — offer suggestions to fill to dailyGoal
   return {
-    label: `Train ${settings.dailyGoal} Suggested ▶`,
+    label: `Drill ${settings.dailyGoal} new ▶`,
     enabled: true,
     source: "suggested",
   }
@@ -110,7 +109,7 @@ function escapeHtml(s: string): string {
     .replace(/"/g, "&quot;")
 }
 
-function open() {
+async function open() {
   // If already open, do nothing
   if (document.getElementById(MODAL_ID)) return
 
@@ -119,7 +118,7 @@ function open() {
   const streak = loadStreak()
   const totalDone = progress.learned + progress.reviewed
 
-  const decks = buildDeckRows()
+  const decks = await buildDeckRows()
   const cta = buildCtaState()
 
   const streakBit =
@@ -152,7 +151,19 @@ function open() {
   overlay.innerHTML = `
     <div class="decks-modal-panel" role="dialog" aria-labelledby="decks-modal-title">
       <header class="decks-modal-header">
-        <h2 id="decks-modal-title" class="decks-modal-title">Pick a deck</h2>
+        <div class="decks-modal-header-titles">
+          <h2 id="decks-modal-title" class="decks-modal-title">
+            <span class="decks-modal-title-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </span>
+            <span class="decks-modal-title-text">Flashcards to drill</span>
+          </h2>
+          <p class="decks-modal-subtitle">Lock BJJ techniques into long-term memory.</p>
+        </div>
         <div class="decks-modal-header-actions">
           <button
             type="button"

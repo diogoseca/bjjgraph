@@ -13,6 +13,7 @@ import {
 } from "d3"
 import { Group as TweenGroup, Tween as Tweened } from "@tweenjs/tween.js"
 import { FullSlug, SimpleSlug, getFullSlug, resolveRelative, simplifySlug } from "../../util/path"
+import { crossfadeNavigate } from "./trainingSession"
 
 // --- Types ---
 type GlobalNode = { id: string; x: number; y: number; t: string; tags: string[] }
@@ -53,18 +54,12 @@ function getHubSlug(nodeId: string): string {
     lower.endsWith("/attacker") ||
     lower.endsWith("/defender")
   ) {
-    return nodeId
-      .split("/")
-      .slice(0, -1)
-      .join("/")
+    return nodeId.split("/").slice(0, -1).join("/")
   }
   return nodeId
 }
 
-function getContentTypeColor(
-  nodeId: string,
-  styles: Record<string, string>,
-): string {
+function getContentTypeColor(nodeId: string, styles: Record<string, string>): string {
   const lower = nodeId.toLowerCase()
   if (lower.startsWith("positions/")) return styles["--graphPosition"]
   if (lower.startsWith("transitions/")) return styles["--graphTransition"]
@@ -194,10 +189,7 @@ function animateVanWijk(
       } else {
         // Sync D3 zoom state
         if (d3ZoomBehavior && bgApp) {
-          select(bgApp.canvas as HTMLCanvasElement).call(
-            d3ZoomBehavior.transform,
-            currentTransform,
-          )
+          select(bgApp.canvas as HTMLCanvasElement).call(d3ZoomBehavior.transform, currentTransform)
         }
         resolve()
       }
@@ -265,13 +257,16 @@ function getCameraState(): [number, number, number] {
   const w = bgApp.canvas.width / (window.devicePixelRatio || 1)
   const scale = currentTransform.k || 1
   const cx = (w / 2 - (stage.position.x || 0)) / scale
-  const cy = (bgApp.canvas.height / (window.devicePixelRatio || 1) / 2 - (stage.position.y || 0)) / scale
+  const cy =
+    (bgApp.canvas.height / (window.devicePixelRatio || 1) / 2 - (stage.position.y || 0)) / scale
   return [cx, cy, w / scale]
 }
 
 // --- Calculate the padded bounding box of all graph nodes ---
-// Returns the bbox + 20% margin on each side. Used to clamp zoom-out and pan.
-function calculateBounds(): {
+// paddingFraction controls how much margin to add on each side (as a fraction
+// of the raw width/height). Default 0.05 (5%) gives a tight fit-all view;
+// callers wanting generous pan room pass a larger value (e.g., 0.5).
+function calculateBounds(paddingFraction: number = 0.05): {
   minX: number
   maxX: number
   minY: number
@@ -294,10 +289,8 @@ function calculateBounds(): {
   }
   const rawW = maxX - minX || 1
   const rawH = maxY - minY || 1
-  // Asymmetric padding: generous horizontally so users can pan left/right freely,
-  // tighter vertically so overscroll-up cleanly triggers the dismiss-to-content behavior.
-  const padX = rawW * 0.5 // 50% on each side → 2x graph width pan room
-  const padY = rawH * 0.2 // 20% on each side → tight vertical (preserves dismiss UX)
+  const padX = rawW * paddingFraction
+  const padY = rawH * paddingFraction
   return {
     minX: minX - padX,
     maxX: maxX + padX,
@@ -365,9 +358,7 @@ function updateFitAllBtnVisibility() {
 async function initializeBackgroundGraph(container: HTMLElement, slug: string) {
   // Fetch global layout data
   try {
-    const resp = await fetch(
-      new URL("/static/globalGraphLayout.json", window.location.origin).href,
-    )
+    const resp = await fetch(new URL("/static/globalGraphLayout.json", window.location.origin).href)
     if (!resp.ok) return
     layoutData = await resp.json()
   } catch {
@@ -552,19 +543,20 @@ function setupZoomPan() {
 
   const bgContainer = document.getElementById("background-graph")
 
-  // Calculate dynamic zoom/pan bounds from the padded bbox
-  const fit = calculateFitScale()
-  const bounds = calculateBounds()
+  // Fit-all uses tight bounds (5% margins, default) — graph fills viewport neatly.
+  // Pan extent uses generous bounds (50% margins) — user can drag well beyond the graph.
+  const fit = calculateFitScale() // uses default 0.05 padding internally
+  const panBounds = calculateBounds(0.5)
   const minScale = fit.scale // can't zoom out further than fit-all
   const maxScale = 6 // user can zoom in 6x past fit-all
 
   d3ZoomBehavior = zoom<HTMLCanvasElement, unknown>()
     .scaleExtent([minScale, maxScale])
     .translateExtent(
-      bounds
+      panBounds
         ? [
-            [bounds.minX, bounds.minY],
-            [bounds.maxX, bounds.maxY],
+            [panBounds.minX, panBounds.minY],
+            [panBounds.maxX, panBounds.maxY],
           ]
         : [
             [-Infinity, -Infinity],
@@ -599,6 +591,17 @@ async function onNodeClick(node: GlobalNode) {
   // Only respond if in graph-focused mode
   if (!document.body.classList.contains("graph-focused")) return
 
+  const fullSlug = getFullSlug(window)
+  const targ = resolveRelative(fullSlug, node.id as SimpleSlug)
+  const url = new URL(targ, window.location.toString())
+
+  // Warm the HTTP cache in parallel with the Van Wijk pan so that when
+  // crossfadeNavigate fires below, spaNavigate's internal fetch hits cache
+  // (~10ms) instead of waiting on the network. Without this, the view
+  // transition stalls between snapshot and animation while the fetch
+  // resolves, producing a visible pause before the drawer slides up.
+  fetch(url.toString(), { credentials: "same-origin" }).catch(() => {})
+
   const currentCam = getCameraState()
   const targetCam: [number, number, number] = [node.x, node.y, 400]
 
@@ -608,10 +611,11 @@ async function onNodeClick(node: GlobalNode) {
     emphasizeNeighborhood(node.id, 800),
   ])
 
-  // Navigate immediately (no pause)
-  const fullSlug = getFullSlug(window)
-  const targ = resolveRelative(fullSlug, node.id as SimpleSlug)
-  window.spaNavigate(new URL(targ, window.location.toString()))
+  // crossfadeNavigate wraps spaNavigate in document.startViewTransition so
+  // the .page drawer auto-interpolates its translateY (graph-mode bottom-peek
+  // → content-mode top) and cross-fades the article body to the new page in
+  // one smooth gesture.
+  crossfadeNavigate(url)
 }
 
 // --- Highlight current page's node + pan camera ---
@@ -640,7 +644,11 @@ function highlightCurrentNode(slug: string) {
     const zoomedViewportWidth = fitViewportWidth / 10 // 10x zoom
 
     const currentCam = getCameraState()
-    const targetCam: [number, number, number] = [current.data.x, current.data.y, zoomedViewportWidth]
+    const targetCam: [number, number, number] = [
+      current.data.x,
+      current.data.y,
+      zoomedViewportWidth,
+    ]
     animateVanWijk(currentCam, targetCam, 400)
   }
 

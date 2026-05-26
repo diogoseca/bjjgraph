@@ -15,13 +15,11 @@ document.addEventListener("nav", () => {
   setDrawerOpen(false)
 
   const treeBtn = document.getElementById("tree-toggle")
-  const closeBtn = document.getElementById("drawer-close")
 
   function onTreeClick() {
-    setDrawerOpen(true)
-  }
-  function onCloseClick() {
-    setDrawerOpen(false)
+    // Toggle (Claude-style): if drawer is open, close it; otherwise open.
+    const isOpen = document.body.classList.contains("drawer-open")
+    setDrawerOpen(!isOpen)
   }
 
   // data-persist makes buttons survive SPA navigations; avoid double-binding
@@ -29,9 +27,15 @@ document.addEventListener("nav", () => {
     treeBtn.addEventListener("click", onTreeClick)
     ;(treeBtn as any).__treeBound = true
   }
-  if (closeBtn && !(closeBtn as any).__closeBound) {
-    closeBtn.addEventListener("click", onCloseClick)
-    ;(closeBtn as any).__closeBound = true
+
+  // Graph-mode close button (×) → snap back to content via contentPanel's API
+  const graphCloseBtn = document.getElementById("graph-close-btn")
+  if (graphCloseBtn && !(graphCloseBtn as any).__closeGraphBound) {
+    graphCloseBtn.addEventListener("click", () => {
+      const snapToContent = (window as any).__snapToContent as (() => void) | undefined
+      if (snapToContent) snapToContent()
+    })
+    ;(graphCloseBtn as any).__closeGraphBound = true
   }
 
   // Backdrop click on mobile: tapping outside the drawer closes it

@@ -50,23 +50,33 @@ export interface SessionQueue {
   source?: SessionSource
 }
 
-// ── Build-time JSON injected by renderPage.tsx ────────────────────────────
+// ── Lazy training data loaders ────────────────────────────────────────────
+// Fetched on demand from /static/questionBank.json(.gz) and
+// /static/graphAdjacency.json(.gz). The fetch is cached per session via the
+// window.loadQuestionBank / window.loadGraphAdjacency Promise wrappers
+// installed by renderPage.tsx, so subsequent calls reuse the same Promise.
 
-export function loadQuestionBank(): QuestionBankEntry[] {
-  const el = document.getElementById("training-question-bank")
-  if (!el?.textContent) return []
+declare global {
+  interface Window {
+    loadQuestionBank?: () => Promise<QuestionBankEntry[]>
+    loadGraphAdjacency?: () => Promise<GraphAdjacency | null>
+  }
+}
+
+export async function loadQuestionBank(): Promise<QuestionBankEntry[]> {
+  if (typeof window === "undefined" || !window.loadQuestionBank) return []
   try {
-    return JSON.parse(el.textContent)
+    const data = await window.loadQuestionBank()
+    return Array.isArray(data) ? data : []
   } catch {
     return []
   }
 }
 
-export function loadGraphAdjacency(): GraphAdjacency | null {
-  const el = document.getElementById("training-graph-adjacency")
-  if (!el?.textContent) return null
+export async function loadGraphAdjacency(): Promise<GraphAdjacency | null> {
+  if (typeof window === "undefined" || !window.loadGraphAdjacency) return null
   try {
-    return JSON.parse(el.textContent)
+    return (await window.loadGraphAdjacency()) ?? null
   } catch {
     return null
   }
@@ -233,10 +243,10 @@ export function isInSession(): boolean {
  * Build a queue from one of the named decks. Default `mixed` source:
  * all due cards first (overdue first), then suggestions to fill to dailyGoal.
  */
-export function buildSessionQueue(
+export async function buildSessionQueue(
   source: SessionSource = "mixed",
   options: { autoExpand?: boolean } = {},
-): SessionQueue {
+): Promise<SessionQueue> {
   const settings = loadSettings()
   const pages: SessionPage[] = []
   const existingNames = new Set(loadSRSCards().map((c) => c.technique))
@@ -279,8 +289,10 @@ export function buildSessionQueue(
     const remainingSlots = Math.max(0, cap - pages.length)
 
     if (remainingSlots > 0) {
-      const questionBank = loadQuestionBank()
-      const adjacency = loadGraphAdjacency()
+      const [questionBank, adjacency] = await Promise.all([
+        loadQuestionBank(),
+        loadGraphAdjacency(),
+      ])
       if (questionBank.length > 0 && adjacency) {
         const suggestions = getSuggestedTechniques(
           questionBank,
@@ -313,13 +325,13 @@ export function buildSessionQueue(
  * one from the given source and persist it. Navigates the SPA to the current
  * page either way. Used by the strip's ▶ and the DecksModal's CTAs.
  */
-export function startOrResumeSession(
+export async function startOrResumeSession(
   source: SessionSource = "mixed",
   options: { autoExpand?: boolean; force?: boolean } = {},
 ) {
   let session = options.force ? null : getSession()
   if (!session || session.pages.length === 0) {
-    session = buildSessionQueue(source, { autoExpand: options.autoExpand ?? true })
+    session = await buildSessionQueue(source, { autoExpand: options.autoExpand ?? true })
     if (session.pages.length === 0) return
     saveSession(session)
   } else if (options.autoExpand !== undefined) {
@@ -361,6 +373,42 @@ export function slideNavigate(url: URL, direction: "forward" | "backward" = "for
     setTimeout(() => {
       delete document.documentElement.dataset.spaTransition
     }, 600)
+  } else {
+    spa(url, false)
+  }
+}
+
+/**
+ * SPA navigate with a default cross-fade view transition. Used for graph-node
+ * clicks where there's no left/right direction semantics — the browser
+ * auto-interpolates position + size + content of any element with a
+ * `view-transition-name` (e.g. the .page drawer), and cross-fades the rest.
+ * Falls back to plain SPA nav if View Transitions API isn't available.
+ */
+export function crossfadeNavigate(url: URL) {
+  const spa = (window as any).spaNavigate as ((url: URL, isBack?: boolean) => void) | undefined
+
+  if (!spa) {
+    window.location.href = url.toString()
+    return
+  }
+
+  // Warm the HTTP cache in parallel with the view transition setup. Inside
+  // the startViewTransition callback, spaNavigate's fetch() will dedupe to
+  // the in-flight or cached response (~10ms) rather than blocking the
+  // animation while a fresh network request resolves. Callers that already
+  // prefetched (e.g. background graph during its Van Wijk pan) will hit the
+  // browser's HTTP cache here.
+  fetch(url.toString(), { credentials: "same-origin" }).catch(() => {})
+
+  const doc = document as Document & {
+    startViewTransition?: (cb: () => unknown) => unknown
+  }
+
+  if (typeof doc.startViewTransition === "function") {
+    doc.startViewTransition(() => {
+      spa(url, false)
+    })
   } else {
     spa(url, false)
   }

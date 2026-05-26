@@ -18,6 +18,7 @@ import { Group as TweenGroup, Tween as Tweened } from "@tweenjs/tween.js"
 import { registerEscapeHandler, removeAllChildren } from "./util"
 import { FullSlug, SimpleSlug, getFullSlug, resolveRelative, simplifySlug } from "../../util/path"
 import { D3Config } from "../Graph"
+import { crossfadeNavigate } from "./trainingSession"
 
 type GraphicsInfo = {
   color: string
@@ -798,7 +799,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
           if (Date.now() - dragStartTime < 500) {
             const node = graphData.nodes.find((n) => n.id === event.subject.id) as NodeData
             const targ = resolveRelative(fullSlug, node.id)
-            window.spaNavigate(new URL(targ, window.location.toString()))
+            crossfadeNavigate(new URL(targ, window.location.toString()))
           }
         }),
     )
@@ -806,7 +807,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     for (const node of nodeRenderData) {
       node.gfx.on("click", () => {
         const targ = resolveRelative(fullSlug, node.simulationData.id)
-        window.spaNavigate(new URL(targ, window.location.toString()))
+        crossfadeNavigate(new URL(targ, window.location.toString()))
       })
     }
   }

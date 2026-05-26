@@ -198,6 +198,12 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
   // Use simple display name for category folders
   const displayName = hubPage ? node.name : node.displayName
 
+  // Build-time count populated client-side from window.__contentStats by the
+  // [data-folder-count] script injected in renderPage.tsx. Only the 5 main
+  // category folders (depth-1 with a hub page) get a count.
+  const countKey =
+    node.depth === 1 && hubPage !== undefined ? node.name.toLowerCase() : null
+
   // Determine role links for items under graph categories (not the categories themselves)
   const parentCategory = fullPath
     ? (["Positions", "Transitions", "Submissions"] as const).find(
@@ -233,10 +239,26 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
                     class="folder-title"
                   >
                     {displayName}
+                    {countKey && (
+                      <span
+                        class="folder-count"
+                        data-folder-count={countKey}
+                        aria-hidden="true"
+                      ></span>
+                    )}
                   </a>
                 ) : (
                   <button class="folder-button">
-                    <span class="folder-title">{displayName}</span>
+                    <span class="folder-title">
+                      {displayName}
+                      {countKey && (
+                        <span
+                          class="folder-count"
+                          data-folder-count={countKey}
+                          aria-hidden="true"
+                        ></span>
+                      )}
+                    </span>
                   </button>
                 )}
               </div>

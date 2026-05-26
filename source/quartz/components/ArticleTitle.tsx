@@ -15,9 +15,8 @@ const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzCompone
           BJJ Graph<span class="title-tld">.org</span>
         </h1>
         <p class="tagline">
-          BJJ game, mapped.
-          <br />
-          Find a position, or random roll.
+          <span class="tagline-line tagline-line-1">BJJ game, mapped.</span>
+          <span class="tagline-line tagline-line-2">Find a position, or try random roll.</span>
         </p>
       </>
     )
