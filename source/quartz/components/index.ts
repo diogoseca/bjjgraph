@@ -29,7 +29,6 @@ import Flashcard from "./Flashcard"
 import VictoryDisplay from "./VictoryDisplay"
 import TreeExplorer from "./TreeExplorer"
 import TopBar from "./TopBar"
-import SidebarResizer from "./SidebarResizer"
 import AuthUI from "./AuthUI"
 import ContentPanel from "./ContentPanel"
 import BackgroundGraph from "./BackgroundGraph"
@@ -39,6 +38,7 @@ import DecksModal from "./DecksModal"
 import SettingsModal from "./SettingsModal"
 import SessionChevrons from "./SessionChevrons"
 import FirstLoadHint from "./FirstLoadHint"
+import RollSessionButton from "./RollSessionButton"
 
 export {
   ArticleTitle,
@@ -72,7 +72,6 @@ export {
   VictoryDisplay,
   TreeExplorer,
   TopBar,
-  SidebarResizer,
   AuthUI,
   ContentPanel,
   BackgroundGraph,
@@ -82,4 +81,5 @@ export {
   SettingsModal,
   SessionChevrons,
   FirstLoadHint,
+  RollSessionButton,
 }
