@@ -3,7 +3,7 @@
   "slug": "side-control",
   "description": "Master Side Control in BJJ with complete guides for top pressure, submissions, escapes, and transitions. Techniques for dominant control and defensive recovery.",
   "variant_uniqueness": "Perpendicular alignment maximizes control",
-  "overview": "Side Control (also known as side mount or cross-side) is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player lies perpendicularly across the opponent's torso, controlling them without the opponent's legs interfering. This position offers significant control and multiple attacking opportunities while providing a stable base from which to advance to more dominant positions. As one of the fundamental controlling positions in Brazilian Jiu-Jitsu, Side Control serves as a critical gateway between guard passing and more dominant positions like mount or back control. The position is valued at 3 points in IBJJF competition and is considered one of the most versatile positions for both maintaining control and launching attacks. Mastery of Side Control requires understanding weight distribution, pressure application, and the ability to transition fluidly between variations while maintaining constant offensive pressure. The perpendicular body alignment creates maximum control surface area while minimizing the opponent's leverage options, making it one of the most efficient positions for control relative to energy expenditure. From this position, the top player can methodically work toward submissions including Americana, kimura, and arm triangle chokes, advance to more dominant positions such as mount, north-south, or knee on belly, or simply maintain control to manage energy and score points. The psychological advantage is also significant - being trapped under side control is one of the most uncomfortable experiences in BJJ, and the constant threat of submissions and position advancement forces the bottom player into reactive, often desperate escape attempts that can be countered and capitalized upon. Understanding both the top and bottom perspectives of this position is essential for all BJJ practitioners, as it represents a critical stage in the positional hierarchy and offers numerous opportunities for both offensive advancement and defensive recovery depending on your position.",
+  "overview": "Side Control (also known as side mount or cross-side) is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player lies perpendicularly across the opponent's torso, controlling them without the opponent's legs interfering. This position offers significant control and multiple attacking opportunities while providing a stable base from which to advance to more dominant positions. As a critical gateway between guard passing and positions like [[Positions/Mount]] or [[Positions/Back Control]], side control is valued at 3 points in IBJJF competition and is considered one of the most versatile positions in the BJJ positional hierarchy.\n\nMastery of Side Control requires understanding weight distribution, pressure application, and the ability to transition fluidly between variations while maintaining constant offensive pressure. The perpendicular body alignment creates maximum control surface area while minimizing the opponent's leverage options, making it one of the most efficient positions for control relative to energy expenditure. From this position, the top player can attack with the [[Transitions/Americana from Side Control]], the [[Transitions/Arm Triangle from Top]], and the [[Transitions/Kimura from Side Control]] while advancing toward [[Positions/Knee on Belly]] or [[Positions/North-South]] for positional variety.\n\nThe transition to [[Positions/Mount]] via [[Transitions/Side Control to Mount]] is the primary advancement goal from this position, as mount carries higher point value and greater submission potential. Alternatively, the [[Transitions/Side Control to North-South]] transition bypasses the bottom player's defensive frames entirely and provides direct access to the north-south choke. When the bottom player turns away to escape, this creates the most direct path to [[Positions/Back Control]] via harness and hook insertion.\n\nThe psychological advantage of side control is significant — being trapped under side control is one of the most uncomfortable experiences in BJJ, and the constant threat of submissions and position advancement forces the bottom player into reactive escape attempts. When bottom player attempts guard recovery, they typically pass through [[Positions/Half Guard]] first, creating a transition battle. If they turn into the top player to recover, the [[Positions/Turtle]] position becomes their defensive fallback. Understanding both the top and bottom perspectives of this position is essential for all BJJ practitioners, as it represents a critical stage in the positional hierarchy and offers numerous opportunities for both offensive advancement and defensive recovery.",
   "key_principles": [
     "Distribute weight strategically across opponent's chest and hips using shoulder pressure, chest weight, and hip positioning to maximize control while maintaining mobility",
     "Eliminate space between bodies through constant pressure and connection, preventing opponent from creating frames or inserting defensive structures",
@@ -385,7 +385,41 @@
         "description": "Probability of finishing submission directly from side control"
       },
       "average_time": "1-3 minutes for controlled work, 10-30 seconds for dynamic transitions"
-    }
+    },
+    "flashcards": [
+      {
+        "question": "What are the three simultaneous control requirements that must all be present to maintain effective side control?",
+        "answer": "First: crossface — forearm or bicep driving across opponent's jaw/neck, turning their head away and preventing rotation toward you. Second: hip connection — your hips low and heavy against their hips, eliminating the space guard recovery requires. Third: far-side arm control — underhook or hip block preventing their near arm from inserting a frame between your bodies. Remove any one of the three and the position becomes escapable."
+      },
+      {
+        "question": "When do you transition from side control to mount versus knee on belly, and what determines the choice?",
+        "answer": "Transition to mount when opponent is relatively flat and passive — step-over or knee-slide when their near arm is down and hip escape energy is low. Transition to knee on belly when opponent is actively framing with their inside arm — KOB makes that frame irrelevant and scores additional points while creating new submission angles. The rule: flat opponent → mount; framing opponent → knee on belly."
+      },
+      {
+        "question": "How does the kimura submission from side control work, and what position change maximizes the shoulder lock?",
+        "answer": "Isolate opponent's near arm in figure-four grip, then walk toward their head to north-south position. The north-south angle creates a straight line from their shoulder to the mat, maximizing torque. From regular side control the arm can escape by rolling toward you; north-south closes this exit. The kimura grip must be established before moving — establishing it en route gives them time to hide the arm."
+      },
+      {
+        "question": "What is the correct response when the opponent successfully creates a knee-elbow inside frame from side control bottom?",
+        "answer": "Don't fight the frame directly — that wastes energy against your own structure. Three options: (1) transition over the frame to north-south, which makes the frame useless; (2) apply knee on belly on their torso, which collapses the frame from above; (3) attack under the frame with an underhook and advance to mount. Choosing to push through a solid frame rewards the opponent's defensive technique."
+      },
+      {
+        "question": "How do you set up the arm triangle from side control and what position is needed to complete the finish?",
+        "answer": "The arm triangle sets up when opponent's near arm crosses their own neck during defensive movements. Thread your arm under their near arm and behind their head, connecting your hands to form the triangle grip. The choke is completed by moving to mount — from side control the angle is insufficient for full compression. Once mounted, drive your shoulder and arm down while blocking their escape. The choke works via the arm crushing their own carotid against your arm."
+      },
+      {
+        "question": "How do you prevent the opponent from recovering guard when they attempt a hip escape from side control bottom?",
+        "answer": "When they shrimp, immediately slide your near knee up toward their armpit (countering their knee insertion) and maintain crossface pressure. Their hip escape creates the same space that advancing to mount requires — follow the space rather than fighting it. If they insert a knee successfully, apply knee on belly immediately rather than trying to close the half guard — you score points and create new submission angles."
+      },
+      {
+        "question": "What is the Americana submission from side control, how do you secure it, and what makes the wrist pin critical?",
+        "answer": "Americana targets the near arm when opponent extends it to push. Pin their wrist to the mat at ear level — not lower, since dropping the wrist gives mechanical advantage back to them. Slide your forearm under their elbow forming the figure-four, and rotate the shoulder toward their feet. The wrist pin is non-negotiable: without pinning at ear level first, they simply bend their elbow and pull the arm back down."
+      },
+      {
+        "question": "Why is north-south a tactically valuable transition from side control and what does it specifically neutralize?",
+        "answer": "North-south bypasses the bottom player's defensive frames — those frames push against your hips/chest and have no effect when you're aligned with their spine rather than across their torso. Moving to north-south gives direct access to the north-south choke, far-side kimura (strong angle), and arm triangle setup. Use it when opponent has established two-on-one frames, when their crossface-side arm is hidden, or when you want to switch sides of attack."
+      }
+    ]
   },
   "bottom": {
     "name": "Side Control Bottom",
@@ -649,6 +683,40 @@
         "description": "Probability of submitting opponent from defensive position (very low)"
       },
       "average_time": "30-90 seconds for competent players attempting systematic escape"
-    }
+    },
+    "flashcards": [
+      {
+        "question": "What is the primary escape route from side control and what creates the opportunity to execute it?",
+        "answer": "Hip escape (shrimp) to recover guard — either re-closing to full guard as opponent shifts weight forward, or inserting knee to recover half guard as you create space. The opportunity appears when opponent's weight shifts forward (toward a submission) or sideways (for a position change), creating a brief window of reduced hip pressure. Multiple chained shrimps beat one explosive attempt — each creates space that frames preserve before the next."
+      },
+      {
+        "question": "What are proper inside frame mechanics from side control bottom, what does the frame protect, and where must the elbow be?",
+        "answer": "Elbow inside at opponent's hip/thigh level, forearm nearly vertical creating a structural brace between your bodies. This inside frame: prevents them from flattening their hips into yours (creating space), prevents the mount step-over (blocking their knee), and buys time for the outside arm to control collar against choke entries. The elbow must be inside their hip — outside their hip means the frame pushes against their torso and they simply drive through it."
+      },
+      {
+        "question": "Why is turning away from side control (exposing your back) the most dangerous escape mistake?",
+        "answer": "Turning to your stomach or knees immediately gives the top player harness access and hook insertion opportunity — converting to back control in under two seconds. Back control is the most dangerous position in BJJ with direct rear naked choke access. The only safe turn is belly-down into turtle if you've first created enough distance to prevent hook insertion. If in doubt, maintain the defensive side position and keep working the hip escape instead."
+      },
+      {
+        "question": "How do you create a hip escape from side control when the top player is heavy and flat against your hips?",
+        "answer": "Bridge slightly to shift their weight to one side, use that momentary hip freedom to shrimp hard away, and immediately reestablish the elbow-hip frame before they re-settle. One bridge creates space; the frame preserves that space. Chain: bridge → shrimp → frame → repeat. The bridge is not an attempt to roll them — it's a weight-shift tool to buy centimeters for the shrimp. Multiple cycles beat one big explosion."
+      },
+      {
+        "question": "What creates the opportunity for the underhook from side control bottom, and how does establishing it change your options?",
+        "answer": "The underhook opportunity appears when opponent pushes a crossface, creating momentary space under their armpit. Shoot your near arm through for the underhook on their far arm. The underhook immediately enables: standup to dogfight position, back take attempts from bottom, and single leg entries. Without underhook you're purely defensive; with underhook you have offensive initiatives that force them to react rather than attack."
+      },
+      {
+        "question": "What is the correct defensive response when the opponent transitions to knee on belly over you?",
+        "answer": "Frame on their shin with both hands, push the knee away and shrimp out simultaneously. KOB is less stable than side control — the top player has less contact with the mat making them more susceptible to being pushed away. React immediately, not after settling: push the shin away before they establish hip-level pressure. If they establish weight, frame with elbows inside at their knee and shrimp to create enough space to push the knee off."
+      },
+      {
+        "question": "How do you prevent the arm triangle from being locked from side control bottom?",
+        "answer": "Keep your near arm's elbow high and tight to your own ear, never letting it cross your neck centerline. Once their arm threads through and connects behind your head, the arm triangle is locked — prevention is the only option as escaping the locked position is extremely difficult. Defensive cue: any time they reach across your chest toward your far side, your near arm should simultaneously pull tight to your head to close the threading space."
+      },
+      {
+        "question": "What is the ghost escape from side control bottom and what makes it effective against heavy top players?",
+        "answer": "The ghost escape involves creating a slight frame, bridging to free the hips, then pulling your trapped arm out over your own head while simultaneously shrimping out from under. It's effective against heavy top players because it uses their weight against them — their downward pressure is momentarily redirected when you bridge, creating the window to extract the arm and slide out. The arm extraction over the head bypasses the crossface control that blocks traditional shrimping."
+      }
+    ]
   }
 }

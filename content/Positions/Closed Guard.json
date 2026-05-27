@@ -3,7 +3,7 @@
   "slug": "closed-guard",
   "description": "Master the closed guard in BJJ. Complete strategic guide to bottom player offensive control and top player defensive posture, guard opening, and passing.",
   "variant_uniqueness": "Bottom offensive despite being underneath",
-  "overview": "Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked behind the back. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.\n\nThe closed guard exemplifies BJJ's core principle of using leverage and technique to overcome positional disadvantage. From the bottom perspective, the closed guard serves as both a defensive barrier preventing advancement and an offensive platform for sweeps, submissions, and transitions. The locked legs create a closed kinetic chain that allows control of the opponent's hips while threatening their upper body, forcing them to defend multiple attack vectors simultaneously.\n\nFrom the top perspective, closed guard presents a challenging defensive scenario where maintaining posture, fighting grips, and working toward guard opening become essential survival skills before any passing attempts can succeed. The position tests fundamental concepts of base, balance, and defensive awareness while under constant submission and sweep threats.\n\nThe closed guard's versatility across gi and no-gi competition, its effectiveness in self-defense scenarios, and its presence at all skill levels from white belt through black belt make it arguably the most studied position in grappling. Understanding both perspectives - the bottom player's offensive control system and the top player's defensive escape progression - is essential for complete positional mastery. This position serves as the foundation for countless advanced guard systems and remains relevant even as modern leg entanglement and dynamic guard systems have evolved the sport.",
+  "overview": "Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked behind the back. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.\n\nThe closed guard exemplifies BJJ's core principle of using leverage and technique to overcome positional disadvantage. From the bottom perspective, the closed guard serves as both a defensive barrier preventing advancement and an offensive platform for sweeps, submissions, and transitions. The locked legs create a closed kinetic chain that allows control of the opponent's hips while threatening their upper body, forcing them to defend multiple attack vectors simultaneously. Classic sweeps like the [[Transitions/Hip Bump Sweep]] and [[Transitions/Scissor Sweep]] work because defending one opens the other, while attacks like the [[Transitions/Triangle from Guard]] and [[Transitions/Closed Guard to Omoplata]] punish any arm that crosses the centerline.\n\nFrom the top perspective, closed guard presents a challenging defensive scenario where maintaining posture, fighting grips, and working toward guard opening become essential survival skills before any passing attempts can succeed. The [[Transitions/Guard Opening Sequence]] and the [[Transitions/Stack Pass]] are the top player's primary tools for escaping this position and advancing toward [[Positions/Side Control]] or [[Positions/Mount]]. The [[Transitions/Posture Recovery]] is the most critical skill for the top player - without it, every submission entry from the bottom player becomes immediately available.\n\nThe closed guard's versatility across gi and no-gi competition, its effectiveness in self-defense scenarios, and its presence at all skill levels make it arguably the most studied position in grappling. Understanding both perspectives — the bottom player's offensive control system and the top player's defensive escape progression — is essential for complete positional mastery. This position serves as the foundation for countless advanced guard systems including [[Positions/Rubber Guard]], [[Positions/Spider Guard]], and [[Positions/De La Riva Guard]], and remains relevant even as modern leg entanglement and dynamic guard systems have evolved the sport. When the closed guard is opened or broken, the bottom player must transition to [[Positions/Open Guard]] or [[Positions/Half Guard]] to maintain defensive capability.",
   "key_principles": [
     "Bottom player controls distance and posture through combined leg squeeze and grip pressure",
     "Top player prioritizes structural integrity and posture maintenance above all passing attempts",
@@ -360,7 +360,41 @@
         "description": "Probability of finishing submission from top position"
       },
       "average_time": "1-3 minutes depending on skill level and guard opening strategy"
-    }
+    },
+    "flashcards": [
+      {
+        "question": "What is the correct posture structure when inside an opponent's closed guard, and why does it prevent submissions?",
+        "answer": "Spine upright with head stacked over hips, hands on opponent's hips or biceps to create and maintain distance. This prevents guard-breaking leverage by making your spine a rigid column the opponent cannot bend forward. Without broken posture, triangles cannot be locked and armbars cannot be properly extended — both submissions require your torso to come forward."
+      },
+      {
+        "question": "What is the systematic progression for escaping closed guard as the top player, and why must you follow these steps in order?",
+        "answer": "The sequence is: (1) establish upright posture, (2) grip fight to break opponent's grips, (3) open the guard using standing or knee-pressure methods, (4) pass the open guard. Skipping posture establishment and rushing to the guard break means you're fighting with compromised structural alignment, giving opponent immediate triangle and armbar opportunities during the opening sequence."
+      },
+      {
+        "question": "Why does standing up create a guard-breaking opportunity, and what threats must you defend against while rising?",
+        "answer": "Standing changes the leg-squeeze angle and removes opponent's ability to hip-bump, allowing you to step back and use bodyweight to pry the guard open. While rising, defend against: (1) collar grips dragging you back down, (2) ankle/sleeve grips that pull you forward into sweeps, (3) the hip-bump sweep before you've cleared their hips. Keep your back straight throughout the entire standup."
+      },
+      {
+        "question": "What grip combinations from closed guard bottom pose the greatest submission threat to the top player, and how do you break them?",
+        "answer": "Cross-collar plus sleeve grip enables triangle and armbar; double collar grip enables posture break for chokes; head-plus-collar grip enables back control entries. Break grips by attacking at the elbow (weakest point), rotating your whole body away rather than pulling with your arms alone. Break toward opponent's thumb side for maximum leverage. Address the collar grip first — it's the submission enabler."
+      },
+      {
+        "question": "How does the stack pass work from inside closed guard, and when does the opportunity present itself?",
+        "answer": "The stack pass works when you partially open the guard or opponent's legs are not tight. Scoop both legs and drive your bodyweight forward, stacking their hips over their head, eliminating the triangle angle. The opportunity is clearest when they're attacking with a triangle and overshoot — you're already in the stack position. The key is driving weight through your shoulder, not your hands, preventing arm exposure."
+      },
+      {
+        "question": "What is the single most common error when attempting to escape closed guard, and what should you do instead?",
+        "answer": "Attempting to pass while still inside the guard with ankles locked. The closed kinetic chain prevents hip clearance and you expose arms and neck during passing attempts. Always confirm the guard is fully open (ankles uncrossed, no leg pressure) before committing to a pass. If you feel leg tension, pause and complete the opening before advancing."
+      },
+      {
+        "question": "How do you defend against the hip-bump sweep as the top player in closed guard?",
+        "answer": "Keep your hips low and centered with weight distributed through knees. When opponent initiates the hip-bump, post a hand to the mat on the side they're rotating toward. The posted hand stops the sweep and creates a potential armbar on their posting arm — immediately look to attack that arm if they post during the hip bump attempt. Alternatively, base out with your free leg in the direction of the sweep."
+      },
+      {
+        "question": "What role does controlling the opponent's belt or waistband play when inside closed guard?",
+        "answer": "A belt/waist grip gives you direct contact with opponent's hip movement, letting you feel and pre-empt sweeps before they reach full commitment. It also prevents them from creating the lateral hip angles needed for triangles and omoplatas. The grip should be palm-down on the hip closest to the mat during guard-break attempts, giving you control during the critical opening moment when sweeps are most dangerous."
+      }
+    ]
   },
   "bottom": {
     "name": "Closed Guard Bottom",
@@ -706,6 +740,40 @@
         "description": "Probability of finishing submission directly from position"
       },
       "average_time": "1-3 minutes depending on skill differential and guard breaking proficiency"
-    }
+    },
+    "flashcards": [
+      {
+        "question": "What is the primary mechanical principle that makes closed guard bottom offensive despite being underneath?",
+        "answer": "The locked legs create a closed kinetic chain controlling opponent's hips while restricting their posture and mobility. Combined with collar or sleeve grips on the upper body, you control both their lower and upper body from below. This dual control reverses typical positional dynamics — the bottom player dictates distance, angle, and attack timing while the top player is reactive and defensive."
+      },
+      {
+        "question": "What is the posture-breaking mechanism in closed guard and what does it enable?",
+        "answer": "Pull down on collar or head while simultaneously driving heels into opponent's lower back. The combined downward collar pull and upward heel pressure creates a lever that bends the opponent's spine forward, bringing their chest toward yours. Broken posture is the prerequisite for virtually all closed guard submissions — triangles, armbars, and chokes all require the opponent's head and shoulders within your control range."
+      },
+      {
+        "question": "When does the hip-bump sweep work and what defensive reaction does it create that enables other attacks?",
+        "answer": "Hip-bump sweep works when opponent sits upright with weight on hands rather than on you. Sit up with cross grip on sleeve, hip into them, rotate through. It fails if opponent bases out immediately — but that posted hand creates the kimura opportunity. The hip-bump to kimura combination is essential: use hip-bump to force the post, then trap the posted arm in figure-four for the submission or back take."
+      },
+      {
+        "question": "How do you set up a triangle choke from closed guard, and why is hip angle critical to finishing it?",
+        "answer": "With posture broken and opponent's arm across your centerline, push on that arm while simultaneously rotating hips 45 degrees away from the arm side. Throw your leg across their head and lock the triangle. The angle is non-negotiable — square hips mean your thigh crosses the front of their neck rather than the side, dramatically reducing choke pressure. Lock the figure-four and pull down on their head to finish."
+      },
+      {
+        "question": "What combination dilemma do the scissor sweep and cross-collar choke create together?",
+        "answer": "The scissor sweep requires opponent to base out sideways to defend, while the cross-collar choke punishes staying square with posture upright. When you show scissor sweep threat, opponent widens stance and creates collar access for the choke. When they tuck their collar and posture defensively, the scissor sweep path opens. Present both threats in alternation until opponent commits to defending one, then execute the other."
+      },
+      {
+        "question": "How does the omoplata function as both a sweep and a submission from closed guard?",
+        "answer": "Create a 90-degree angle, throw your leg over their far shoulder trapping the arm in your armpit, and sit up. If they roll forward to escape the submission pressure, follow through and control their hips for submission. If they posture upright to resist, post your free hand and sweep toward their trapped arm side. The submission threat forces the posture reaction; the sweep punishes the posture."
+      },
+      {
+        "question": "What is the optimal ankle position in closed guard and what happens with incorrect placement?",
+        "answer": "Cross ankles at the small of the back, just above the hips. Too low (across the thighs): loses both posture-breaking leverage and hip control, as opponent can push legs down. Too high (across the spine): creates neck pressure on your own ankles and loses hip restriction, allowing opponent to walk their knees forward for guard breaking. The lower-back sweet spot maximizes control of both hip and upper body simultaneously."
+      },
+      {
+        "question": "How does the kimura from closed guard become a sweep, submission, and back take depending on opponent's reaction?",
+        "answer": "Establish figure-four on opponent's wrist and shoulder with their arm behind their back. If they stand to escape: follow them up, use their momentum for a sweep. If they stay down: rotate shoulder joint for submission finish. If they roll toward the trapped arm to escape: follow the roll and secure seatbelt grip for back control. The kimura is a three-way dilemma — each escape creates a worse position."
+      }
+    ]
   }
 }
