@@ -42,6 +42,30 @@
         "Master turtle position in BJJ. Strategic guide covering when to use turtle, defensive escapes, and offensive attacks with complete perspective analysis."
       ]
     },
+    "aliases": {
+      "type": "array",
+      "description": "Strict synonyms — other names for THIS EXACT position. Examples: ['Tate Shiho Gatame', 'Full Mount'] on Mount. DO NOT use for variants. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "family": {
+      "type": "string",
+      "description": "Name of the variant-family hub this position belongs to. Empty = standalone. Example: 'Side Control' (for Kesa Gatame, Kuzure Kesa-Gatame). See docs/Synonyms.md."
+    },
+    "disambiguations": {
+      "type": "array",
+      "description": "False-synonym callouts. Renders 'Often confused with X — reason'. Mutual: both pages should declare the other. See docs/Synonyms.md.",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "reason"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 10, "description": "Short reason this is distinct, completing 'differs because …'." }
+        }
+      }
+    },
     "variant_uniqueness": {
       "type": "string",
       "description": "What makes this DUAL position unique - distinguishes bottom from top perspective",

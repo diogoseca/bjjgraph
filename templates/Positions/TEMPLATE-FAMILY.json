@@ -33,6 +33,30 @@
       "minLength": 150,
       "maxLength": 160
     },
+    "aliases": {
+      "type": "array",
+      "description": "Strict synonyms — other names for THIS EXACT position family. DO NOT use for variants. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "family": {
+      "type": "string",
+      "description": "Name of the variant-family hub this position belongs to. Empty for top-level families. See docs/Synonyms.md."
+    },
+    "disambiguations": {
+      "type": "array",
+      "description": "False-synonym callouts. Renders 'Often confused with X — reason'. Mutual: both pages should declare the other. See docs/Synonyms.md.",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "reason"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 10 }
+        }
+      }
+    },
     "variant_uniqueness": {
       "type": "string",
       "description": "What makes this variant unique - strategic trade-off explanation (20-50 characters)",

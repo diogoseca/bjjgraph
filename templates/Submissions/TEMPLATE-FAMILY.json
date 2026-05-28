@@ -39,6 +39,30 @@
       "minItems": 3,
       "items": { "type": "string" }
     },
+    "aliases": {
+      "type": "array",
+      "description": "Strict synonyms — other names for THIS EXACT submission family. DO NOT use for variants. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "family": {
+      "type": "string",
+      "description": "Name of a parent family hub if this family rolls up further. Usually empty. See docs/Synonyms.md."
+    },
+    "disambiguations": {
+      "type": "array",
+      "description": "False-synonym callouts. Renders 'Often confused with X — reason'. Mutual. See docs/Synonyms.md.",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "reason"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 10 }
+        }
+      }
+    },
     "is_family": {
       "type": "boolean",
       "description": "Must be true for family hub submissions",

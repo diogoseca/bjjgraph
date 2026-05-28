@@ -42,6 +42,30 @@
         "type": "string"
       }
     },
+    "aliases": {
+      "type": "array",
+      "description": "Strict synonyms — other names for THIS EXACT submission. Examples: ['Mata Leão', 'Hadaka Jime', 'RNC'] on Rear Naked Choke. DO NOT use for variants. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "family": {
+      "type": "string",
+      "description": "Name of the variant-family hub this submission belongs to. Empty = standalone. Examples: 'Heel Hook' (for Inside/Outside/Reverse), 'Guillotine' (for High Elbow, Arm In, Chin Strap). See docs/Synonyms.md."
+    },
+    "disambiguations": {
+      "type": "array",
+      "description": "False-synonym callouts. Renders 'Often confused with X — reason'. Mutual: both pages should declare the other. See docs/Synonyms.md.",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "reason"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 10 }
+        }
+      }
+    },
     "submission_category": {
       "type": "string",
       "enum": [

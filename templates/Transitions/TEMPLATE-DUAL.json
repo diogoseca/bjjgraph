@@ -40,6 +40,30 @@
         "type": "string"
       }
     },
+    "aliases": {
+      "type": "array",
+      "description": "Strict synonyms — other names for THIS EXACT technique. Examples: ['Bullfighter Pass'] on Toreando Pass. DO NOT use for variants. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "family": {
+      "type": "string",
+      "description": "Name of the variant-family hub this technique belongs to. Empty = standalone. Example: 'Knee-Cut' (for Knee Cut Pass, Knee Slice Pass). See docs/Synonyms.md."
+    },
+    "disambiguations": {
+      "type": "array",
+      "description": "False-synonym callouts. Renders 'Often confused with X — reason'. Mutual: both pages should declare the other. See docs/Synonyms.md.",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "reason"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 10 }
+        }
+      }
+    },
     "from_position": {
       "type": "string",
       "description": "Position/Role where technique begins (format: Position/Role, e.g., 'Closed Guard/Bottom')",
