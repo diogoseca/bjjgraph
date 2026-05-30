@@ -57,6 +57,117 @@ def quartz_slug(name: str) -> str:
     return slug
 
 
+# ---------------------------------------------------------------------------
+# Alias resolution — old references to merged/renamed techniques still resolve
+# ---------------------------------------------------------------------------
+
+def build_alias_maps(content_dir: Path) -> tuple[dict, dict]:
+    """Scan every content JSON's aliases[] and build two lookup maps.
+
+    Returns (position_alias_map, technique_alias_map):
+      - position_alias_map: slug(alias) -> slug(canonical position node)
+      - technique_alias_map: slug(alias) -> {'slug': canonical_node_slug, 'name': canonical_name}
+
+    Used by rewrite_aliases() so that when a synonym is merged (e.g. Bullfighter
+    Pass folded into Toreando Pass with alias "Bullfighter Pass"), any edge that
+    still references the old slug resolves to the canonical node instead of
+    dangling. No-op until aliases[] arrays are populated (epic phase 12).
+    """
+    position_alias_map: dict[str, str] = {}
+    technique_alias_map: dict[str, dict] = {}
+
+    def _aliases_of(data: dict):
+        a = data.get('aliases')
+        return a if isinstance(a, list) else []
+
+    pos_dir = content_dir / 'Positions'
+    if pos_dir.exists():
+        for data in load_json_files(pos_dir):
+            name = data.get('name')
+            if not name:
+                continue
+            canonical_slug = slugify(data.get('slug', name))
+            for alias in _aliases_of(data):
+                if isinstance(alias, str) and alias.strip():
+                    position_alias_map[slugify(alias)] = canonical_slug
+
+    for subdir in ('Transitions', 'Submissions'):
+        d = content_dir / subdir
+        if not d.exists():
+            continue
+        for data in load_json_files(d):
+            name = data.get('name')
+            if not name:
+                continue
+            canonical_slug = slugify(name)
+            for alias in _aliases_of(data):
+                if isinstance(alias, str) and alias.strip():
+                    technique_alias_map[slugify(alias)] = {'slug': canonical_slug, 'name': name}
+
+    return position_alias_map, technique_alias_map
+
+
+def _resolve_pos_or_tech(ref: str, pos_map: dict, tech_map: dict) -> str:
+    """Resolve a position-or-submission reference (optionally with /role) through alias maps."""
+    if not ref or ref == 'game-over':
+        return ref
+    # Whole-slug submission alias (no role suffix on submissions)
+    if ref in tech_map:
+        return tech_map[ref]['slug']
+    if '/' in ref:
+        base, role = ref.split('/', 1)
+        if base in pos_map:
+            return f"{pos_map[base]}/{role}"
+        return ref
+    return pos_map.get(ref, ref)
+
+
+def rewrite_aliases(graph: dict, pos_map: dict, tech_map: dict) -> int:
+    """Rewrite every edge reference through the alias maps. Returns count rewritten."""
+    if not pos_map and not tech_map:
+        return 0
+
+    count = 0
+
+    def rewrite_technique_target(t: dict) -> None:
+        nonlocal count
+        entry = tech_map.get(t.get('target', ''))
+        if entry:
+            t['target'] = entry['slug']
+            t['targetPath'] = quartz_slug(entry['name'])
+            count += 1
+
+    for pos in graph.get('positions', {}).values():
+        for t in pos.get('transitions', []):
+            rewrite_technique_target(t)
+        for t in pos.get('opponentTransitions', []):
+            rewrite_technique_target(t)
+            so = t.get('successOutcome', '')
+            new_so = _resolve_pos_or_tech(so, pos_map, tech_map)
+            if new_so != so:
+                t['successOutcome'] = new_so
+                count += 1
+
+    for collection in ('transitions', 'submissions'):
+        for entry in graph.get(collection, {}).values():
+            for o in entry.get('outcomes', []):
+                new_to = _resolve_pos_or_tech(o.get('to', ''), pos_map, tech_map)
+                if new_to != o.get('to', ''):
+                    o['to'] = new_to
+                    count += 1
+            ep = entry.get('endingPosition', '')
+            new_ep = _resolve_pos_or_tech(ep, pos_map, tech_map)
+            if new_ep != ep:
+                entry['endingPosition'] = new_ep
+                count += 1
+            sp = entry.get('startingPosition', '')
+            if sp in pos_map:
+                entry['startingPosition'] = pos_map[sp]
+                count += 1
+
+    return count
+
+
 def load_json_files(directory: Path) -> list[dict]:
     """Load all JSON files from a directory recursively."""
     files = []
@@ -845,6 +956,19 @@ def generate_state_graph(project_root: Path) -> dict:
     for family_slug, family_entry in family_hubs.items():
         if family_slug not in submissions:
             submissions[family_slug] = family_entry
+
+    # Resolve alias references: any edge still pointing at a merged/renamed
+    # technique's old slug is rewritten to the canonical node. No-op until
+    # aliases[] are populated (epic phase 12).
+    pos_alias_map, tech_alias_map = build_alias_maps(content_dir)
+    assembled = {
+        'positions': positions,
+        'transitions': transitions,
+        'submissions': submissions,
+    }
+    rewritten = rewrite_aliases(assembled, pos_alias_map, tech_alias_map)
+    if rewritten:
+        print(f"  Resolved {rewritten} alias reference(s) to canonical nodes")
 
     return {
         'positions': positions,

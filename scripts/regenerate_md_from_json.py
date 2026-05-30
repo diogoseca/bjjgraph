@@ -15,6 +15,7 @@ import argparse
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 from jinja2 import Template, Environment, FileSystemLoader
 
@@ -39,15 +40,18 @@ CATEGORIES = {
 def slugify(s):
     """Convert a display name into a URL slug.
 
-    Lowercase, strip apostrophes, replace runs of non-alphanumeric chars with
-    hyphens, collapse repeats, trim leading/trailing hyphens. Matches the slug
-    format used elsewhere in the pipeline so frontmatter aliases line up with
-    the canonical URLs Quartz emits.
+    Transliterates accented characters to ASCII (Leão → leao, so the slug
+    matches what users actually type and search), lowercases, strips
+    apostrophes, replaces runs of non-alphanumerics with hyphens, collapses
+    repeats, and trims. Kept byte-identical to regenerate_redirects.slugify()
+    so frontmatter aliases line up with the Cloudflare 301 source paths.
     """
     if not isinstance(s, str):
         return ""
+    # NFKD-decompose then drop combining marks: ã→a, é→e, ç→c
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
     s = s.lower()
-    s = s.replace("'", "").replace("'", "").replace("`", "")
+    s = s.replace("'", "").replace("`", "")
     s = re.sub(r"[^a-z0-9]+", "-", s)
     s = re.sub(r"-+", "-", s).strip("-")
     return s
