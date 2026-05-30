@@ -8,6 +8,14 @@ html {
   width: 100% !important;
 }
 
+// Cap the overall article shell width and center it. Modals, drawers, FABs, and
+// the background graph are siblings of #quartz-root, so they keep full viewport.
+#quartz-root {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 // Constrain grid column on mobile — "auto" lets content push the page wider than
 // the viewport; "minmax(0, 1fr)" takes available space without exceeding it.
 @media (max-width: 800px) {
@@ -34,6 +42,8 @@ body[data-slug="index"] .content-meta {
 // intro backdrop: starts opaque, holds while text reads, then fades out together
 // with the title/tagline lines to reveal the live #background-graph behind.
 // A bottom-center Roll FAB fades in at the end as the primary CTA.
+// Home doesn't render #quartz-root / <Body> at all — see renderPage.tsx;
+// the title + tagline live in a flat #home-hero element instead.
 body[data-slug="index"] {
   // Drawer-handle UI stays hidden — the graph is the hero, not the panel.
   #panel-toggle,
@@ -41,15 +51,21 @@ body[data-slug="index"] {
     display: none !important;
   }
 
-  // The page card normally paints a semi-transparent dark scrim
-  // (rgba(22,22,24,0.9) at z-index 2) over the live #background-graph.
-  // Home has no article content, so drop the scrim AND make the .page
-  // pointer-transparent — wheel/drag pass through to the graph canvas
-  // behind, enabling pan/zoom. Re-enable pointer events on any
-  // descendant <a>/<button> defensively.
-  #quartz-root {
-    background: transparent;
+  // Centered hero shell (replaces the .center inside #quartz-root for home).
+  // Fixed-inset + pointer-events: none lets wheel/drag pass through to the
+  // graph canvas behind. Children re-enable pointer events for interactivity.
+  #home-hero {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
     pointer-events: none;
+    text-align: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
 
     a,
     button {
@@ -157,71 +173,9 @@ body[data-slug="index"] #search-container {
   pointer-events: auto;
 }
 
-// Collapse grid to single centered column with exactly 2 rows (matches areas).
-// Without grid-template-rows, the base "auto 1fr auto" leaks in and pushes
-// the document past 100vh, causing scroll-bounce.
-body[data-slug="index"] #quartz-body {
-  grid-template-columns: 1fr !important;
-  grid-template-rows: auto auto !important;
-  grid-template-areas:
-    "grid-center"
-    "grid-footer" !important;
-  row-gap: 0 !important; // base grid has a 5px row-gap that bleeds through even with footer hidden
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  box-sizing: border-box;
-}
-
-// Belt-and-suspenders: home is a single-screen experience, no scroll-bounce.
-body[data-slug="index"] {
-  overflow: hidden;
-}
-
-// Vertically center above-fold content
-body[data-slug="index"] .center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  text-align: center;
-}
-
-body[data-slug="index"] .page-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-body[data-slug="index"] .center > article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-// Hide afterBody (EditOnGithub etc) and hr on homepage
-body[data-slug="index"] .page-footer {
-  display: none;
-}
-
-body[data-slug="index"] hr {
-  display: none;
-}
-
-// Hide the BETA / GitHub-CTA / © footer on home — the home is a single-screen
-// experience. Footer stays visible on all other pages.
-body[data-slug="index"] footer {
-  display: none;
-}
-
-// Right sidebar isn't in the home's grid-template-areas ("grid-center"/"grid-footer"),
-// so it gets placed in an implicit grid row that pushes the document past 100vh.
-// Home has no TableOfContents anyway — hide the column entirely. !important
-// to override `.page > #quartz-body .sidebar { display: flex }` from base layout.
-body[data-slug="index"] .right.sidebar {
-  display: none !important;
-}
+// Home doesn't render the article shell (#quartz-root, #quartz-body, .center,
+// .page-footer, hr, footer, .right.sidebar) — see renderPage.tsx. The intro
+// title + tagline live in a flat #home-hero element instead.
 
 // Hero content
 .tagline {
@@ -4334,4 +4288,57 @@ body.graph-focused #roll-session-btn {
 // ============================================================================
 #sidebar-overlay .explorer {
   display: flex;
+}
+
+// ============================================================================
+// Synonym / Variant / False-Synonym surfaces (aliases, family, disambiguations)
+// Rendered as an <aside class="entity-relations"> at the top of <main>,
+// directly under the H1, mirroring Wikipedia's infobox-row + hatnote idiom.
+// ============================================================================
+.entity-relations {
+  margin: 0 0 1.25rem 0;
+  padding: 0.6rem 0.85rem;
+  border-left: 3px solid var(--lightgray);
+  background: var(--light);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--darkgray);
+
+  p {
+    margin: 0.15rem 0;
+  }
+
+  em {
+    color: var(--gray);
+    font-style: italic;
+  }
+
+  strong {
+    color: var(--dark);
+    font-weight: 600;
+  }
+
+  a {
+    color: var(--secondary);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .role-hint {
+    color: var(--gray);
+    font-size: 0.85em;
+    margin-left: 0.25rem;
+  }
+}
+
+// "Often confused with" hatnote gets a warning tint so it visually separates
+// from neutral alias/family lines.
+.entity-relations .often-confused-with {
+  border-left: 2px solid var(--secondary);
+  padding-left: 0.6rem;
+  margin-left: -0.6rem;
+  background: linear-gradient(to right, rgba(186, 38, 55, 0.04), transparent 30%);
 }
