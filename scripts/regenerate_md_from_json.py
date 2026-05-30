@@ -13,6 +13,7 @@ Usage:
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 from jinja2 import Template, Environment, FileSystemLoader
@@ -33,6 +34,28 @@ CATEGORIES = {
     "Systems": "content/Systems",
     "Learning": "content/Learning"
 }
+
+
+def slugify(s):
+    """Convert a display name into a URL slug.
+
+    Lowercase, strip apostrophes, replace runs of non-alphanumeric chars with
+    hyphens, collapse repeats, trim leading/trailing hyphens. Matches the slug
+    format used elsewhere in the pipeline so frontmatter aliases line up with
+    the canonical URLs Quartz emits.
+    """
+    if not isinstance(s, str):
+        return ""
+    s = s.lower()
+    s = s.replace("'", "").replace("'", "").replace("`", "")
+    s = re.sub(r"[^a-z0-9]+", "-", s)
+    s = re.sub(r"-+", "-", s).strip("-")
+    return s
+
+
+# Shared Jinja2 environment with custom filters
+_JINJA_ENV = Environment()
+_JINJA_ENV.filters["slugify"] = slugify
 
 
 def build_wikilink_resolver():
@@ -128,7 +151,12 @@ def detect_transition_template_type(json_file, data=None):
 
 
 def load_template(category, template_name):
-    """Load Jinja2 template from templates/"""
+    """Load Jinja2 template from templates/ using the shared environment.
+
+    Uses the shared _JINJA_ENV so templates have access to custom filters
+    (e.g. {{ alias | slugify }}). Falls back to flat-structure path for
+    legacy templates without category subdirectories.
+    """
     if category in ("Positions", "Transitions", "Submissions"):
         # These categories have templates in subdirectories
         template_path = Path(f"templates/{category}/{template_name}")
@@ -144,7 +172,7 @@ def load_template(category, template_name):
 
     try:
         with open(template_path, 'r', encoding='utf-8') as f:
-            return Template(f.read())
+            return _JINJA_ENV.from_string(f.read())
     except Exception as e:
         raise Exception(f"Failed to load template {template_path}: {e}")
 
@@ -387,6 +415,13 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
             write_markdown_file(hub_path, hub_content, dry_run)
             generated_files.append(hub_path)
 
+            # Synonym/variant/false-synonym surfaces shared by all role pages
+            role_extras = dict(
+                aliases=data.get('aliases', []),
+                family=data.get('family', ''),
+                disambiguations=data.get('disambiguations', []),
+            )
+
             # Render attacker page
             attacker_template = load_template(category, "TEMPLATE-ATTACKER.md.jinja2")
             attacker_content = attacker_template.render(
@@ -397,6 +432,7 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
                 safety_considerations=data.get('safety_considerations', {}),
                 target_area=data.get('target_area', ''),
                 resolve=resolve_fn,
+                **role_extras,
             )
             attacker_path = json_path.parent / json_path.stem / "Attacker.md"
             attacker_path.parent.mkdir(parents=True, exist_ok=True)
@@ -413,6 +449,7 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
                 safety_considerations=data.get('safety_considerations', {}),
                 target_area=data.get('target_area', ''),
                 resolve=resolve_fn,
+                **role_extras,
             )
             defender_path = json_path.parent / json_path.stem / "Defender.md"
             write_markdown_file(defender_path, defender_content, dry_run)
@@ -468,10 +505,22 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
         write_markdown_file(hub_path, hub_content, dry_run)
         generated_files.append(hub_path)
 
+        # Synonym/variant/false-synonym surfaces shared by role pages
+        position_extras = dict(
+            aliases=data.get('aliases', []),
+            family=data.get('family', ''),
+            disambiguations=data.get('disambiguations', []),
+        )
+
         # Render bottom page
         position_name = data.get('name', json_path.stem)  # Use position name for clean URLs
         bottom_template = load_template(category, "TEMPLATE-BOTTOM.md.jinja2")
-        bottom_content = bottom_template.render(bottom=data['bottom'], position_name=position_name, resolve=resolve_fn)
+        bottom_content = bottom_template.render(
+            bottom=data['bottom'],
+            position_name=position_name,
+            resolve=resolve_fn,
+            **position_extras,
+        )
         bottom_path = json_path.parent / position_name / "Bottom.md"
         bottom_path.parent.mkdir(parents=True, exist_ok=True)
         write_markdown_file(bottom_path, bottom_content, dry_run)
@@ -479,7 +528,12 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
 
         # Render top page
         top_template = load_template(category, "TEMPLATE-TOP.md.jinja2")
-        top_content = top_template.render(top=data['top'], position_name=position_name, resolve=resolve_fn)
+        top_content = top_template.render(
+            top=data['top'],
+            position_name=position_name,
+            resolve=resolve_fn,
+            **position_extras,
+        )
         top_path = json_path.parent / position_name / "Top.md"
         write_markdown_file(top_path, top_content, dry_run)
         generated_files.append(top_path)

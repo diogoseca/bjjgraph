@@ -6,7 +6,14 @@
 title: "{{ data.name }} | BJJ Position Guide | BJJ Graph"
 description: "{{ data.description }}"
 {% if data.graph is defined and data.graph == false %}graph: false
-{% endif %}---
+{% endif %}
+{%- if data.aliases is defined and data.aliases %}
+aliases:
+{%- for alias in data.aliases %}
+  - {{ alias | slugify }}
+{%- endfor %}
+{%- endif %}
+---
 
 {# PostHog A/B Testing Metadata #}
 <body data-content-type="positions">
@@ -59,11 +66,23 @@ description: "{{ data.description }}"
   "@type": "WebPage",
   "name": "{{ data.name.split('|')[0].strip() }}",
   "description": "{{ data.description }}",
+  {%- if data.aliases is defined and data.aliases %}
+  "alternateName": [{% for alias in data.aliases %}"{{ alias }}"{{ ", " if not loop.last else "" }}{% endfor %}],
+  {%- endif %}
+  {%- if data.disambiguations is defined and data.disambiguations %}
+  "disambiguatingDescription": "{% for d in data.disambiguations %}Often confused with {{ d.name }} — {{ d.reason }}.{{ ' ' if not loop.last else '' }}{% endfor %}",
+  {%- endif %}
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
     "url": "https://bjjgraph.org"
+  }{%- if data.family is defined and data.family %},
+  "mainEntityOfPage": {
+    "@type": "CollectionPage",
+    "name": "{{ data.family }}",
+    "url": "https://bjjgraph.org/Families/{{ data.family | slugify }}"
   }
+  {%- endif %}
 }
 </script>
 
@@ -97,6 +116,22 @@ description: "{{ data.description }}"
 
 {# Flexbox wrapper for CSS order-based A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+{% if (data.aliases is defined and data.aliases) or (data.family is defined and data.family) or (data.disambiguations is defined and data.disambiguations) -%}
+<aside class="entity-relations">
+{%- if data.aliases is defined and data.aliases %}
+<p class="also-known-as"><em>Also known as:</em> {% for alias in data.aliases %}<strong>{{ alias }}</strong>{{ ", " if not loop.last else "" }}{% endfor %}</p>
+{%- endif %}
+{%- if data.family is defined and data.family %}
+<p class="part-of-family"><em>Part of the</em> <strong>[[Families/{{ data.family }}|{{ data.family }}]]</strong> <em>family</em></p>
+{%- endif %}
+{%- if data.disambiguations is defined and data.disambiguations %}
+{%- for d in data.disambiguations %}
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[{{ resolve(d.name) if resolve is defined else d.name }}|{{ d.name }}]]</strong> — {{ d.reason }}</p>
+{%- endfor %}
+{%- endif %}
+</aside>
+{% endif -%}
 
 <section id="overview" class="content-section">
 

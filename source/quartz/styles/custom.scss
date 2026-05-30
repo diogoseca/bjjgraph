@@ -4342,3 +4342,56 @@ body.graph-focused #roll-session-btn {
   margin-left: -0.6rem;
   background: linear-gradient(to right, rgba(186, 38, 55, 0.04), transparent 30%);
 }
+
+// ============================================================================
+// Synonym / Variant / False-Synonym surfaces (aliases, family, disambiguations)
+// Rendered as an <aside class="entity-relations"> at the top of <main>,
+// directly under the H1, mirroring Wikipedia's infobox-row + hatnote idiom.
+// ============================================================================
+.entity-relations {
+  margin: 0 0 1.25rem 0;
+  padding: 0.6rem 0.85rem;
+  border-left: 3px solid var(--lightgray);
+  background: var(--light);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--darkgray);
+
+  p {
+    margin: 0.15rem 0;
+  }
+
+  em {
+    color: var(--gray);
+    font-style: italic;
+  }
+
+  strong {
+    color: var(--dark);
+    font-weight: 600;
+  }
+
+  a {
+    color: var(--secondary);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .role-hint {
+    color: var(--gray);
+    font-size: 0.85em;
+    margin-left: 0.25rem;
+  }
+}
+
+// "Often confused with" hatnote gets a warning tint so it visually separates
+// from neutral alias/family lines.
+.entity-relations .often-confused-with {
+  border-left: 2px solid var(--secondary);
+  padding-left: 0.6rem;
+  margin-left: -0.6rem;
+  background: linear-gradient(to right, rgba(186, 38, 55, 0.04), transparent 30%);
+}

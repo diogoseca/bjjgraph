@@ -5,6 +5,12 @@
 ---
 title: "{{ top.name }} | BJJ Position Guide | BJJ Graph"
 description: "{{ top.description }}"
+{%- if aliases is defined and aliases %}
+aliases:
+{%- for alias in aliases %}
+  - {{ alias | slugify }}-top
+{%- endfor %}
+{%- endif %}
 ---
 
 {# PostHog A/B Testing Metadata #}
@@ -58,11 +64,23 @@ description: "{{ top.description }}"
   "@type": "WebPage",
   "name": "{{ top.name }}",
   "description": "{{ top.description }}",
+  {%- if aliases is defined and aliases %}
+  "alternateName": [{% for alias in aliases %}"{{ alias }} Top"{{ ", " if not loop.last else "" }}{% endfor %}],
+  {%- endif %}
+  {%- if disambiguations is defined and disambiguations %}
+  "disambiguatingDescription": "{% for d in disambiguations %}Often confused with {{ d.name }} — {{ d.reason }}.{{ ' ' if not loop.last else '' }}{% endfor %}",
+  {%- endif %}
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
     "url": "https://bjjgraph.org"
+  }{%- if family is defined and family %},
+  "mainEntityOfPage": {
+    "@type": "CollectionPage",
+    "name": "{{ family }}",
+    "url": "https://bjjgraph.org/Families/{{ family | slugify }}"
   }
+  {%- endif %}
 }
 </script>
 
@@ -96,6 +114,22 @@ description: "{{ top.description }}"
 
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+{% if (aliases is defined and aliases) or (family is defined and family) or (disambiguations is defined and disambiguations) -%}
+<aside class="entity-relations">
+{%- if aliases is defined and aliases %}
+<p class="also-known-as"><em>Also known as:</em> {% for alias in aliases %}<strong>{{ alias }}</strong>{{ ", " if not loop.last else "" }}{% endfor %} <span class="role-hint">(top)</span></p>
+{%- endif %}
+{%- if family is defined and family %}
+<p class="part-of-family"><em>Part of the</em> <strong>[[Families/{{ family }}|{{ family }}]]</strong> <em>family</em></p>
+{%- endif %}
+{%- if disambiguations is defined and disambiguations %}
+{%- for d in disambiguations %}
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[{{ resolve(d.name) if resolve is defined else d.name }}|{{ d.name }}]]</strong> — {{ d.reason }}</p>
+{%- endfor %}
+{%- endif %}
+</aside>
+{% endif -%}
 
 <section id="overview" class="content-section">
 

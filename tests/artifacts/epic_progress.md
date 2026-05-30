@@ -4,20 +4,14 @@ The autonomous coding agent reads this on each session start and writes to it af
 
 ## Current phase
 
-**Phase 1** — Schema & taxonomy foundation (in progress)
+**Phase 4** — Redirects + alias-aware basic graph build (next)
 
 ## Phase status
 
-- [x] **Phase 1** — Schema & taxonomy foundation
-  - [x] Add `aliases`/`family`/`disambiguations` to 8 schemas (Positions DUAL/SINGLE/FAMILY, Transitions DUAL, Submissions DUAL/FAMILY, Principles, Systems)
-  - [x] Write `docs/Synonyms.md`
-  - [x] Write `tests/artifacts/do_not_merge.json`
-  - [x] Write this file + `escalations.md`
-  - [ ] `npm run regenerate:build` green
-  - [ ] `cd source && npm run check` green
-  - [ ] Version bump (MAJOR) + commit
-- [ ] **Phase 2** — Validator alias awareness
-- [ ] **Phase 3** — Template rendering for aliases/disambiguation/family
+- [x] **Phase 1** — Schema & taxonomy foundation — `v1.26.0` commit `c7c3a5f8`
+- [x] **Phase 2** — Validator alias awareness — `v1.26.1` commit `86d348ee`
+- [x] **Phase 3** — Template rendering for aliases/disambiguation/family — `v1.27.0`
+- [ ] **Phase 4** — Redirects + alias-aware basic graph build
 - [ ] **Phase 4** — Redirects + alias-aware basic graph build
 - [ ] **Phase 5** — Graph data model restructure (collapse role nodes)
 - [ ] **Phase 6** — Positional strength scoring
