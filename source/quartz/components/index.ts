@@ -37,7 +37,6 @@ import FlashcardsHeader from "./FlashcardsHeader"
 import DecksModal from "./DecksModal"
 import SettingsModal from "./SettingsModal"
 import SessionChevrons from "./SessionChevrons"
-import FirstLoadHint from "./FirstLoadHint"
 import RollSessionButton from "./RollSessionButton"
 
 export {
@@ -80,6 +79,5 @@ export {
   DecksModal,
   SettingsModal,
   SessionChevrons,
-  FirstLoadHint,
   RollSessionButton,
 }

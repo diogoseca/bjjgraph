@@ -56,7 +56,6 @@ export const sharedPageComponents: SharedLayout = {
     Component.DecksModal(),
     Component.SettingsModal(),
     Component.SessionChevrons(),
-    Component.FirstLoadHint(),
     Component.RollSessionButton(),
     Component.Search(),
   ],

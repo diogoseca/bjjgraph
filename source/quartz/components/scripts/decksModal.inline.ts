@@ -162,7 +162,7 @@ async function open() {
             </span>
             <span class="decks-modal-title-text">Flashcards to drill</span>
           </h2>
-          <p class="decks-modal-subtitle">Lock BJJ techniques into long-term memory.</p>
+          <p class="decks-modal-subtitle">Spaced-repetition Q&A on BJJ techniques.</p>
         </div>
         <div class="decks-modal-header-actions">
           <button

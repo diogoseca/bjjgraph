@@ -4041,56 +4041,6 @@ html[data-spa-transition="backward"]::view-transition-new(root) {
 }
 
 // ============================================================================
-// FirstLoadHint — one-time ghost tooltip under the Flashcards strip
-// Discrete dark pill that mirrors the strip's geometry (inverted colors).
-// Symmetrical cycle: 0.35s fade-in → 1.5s hold at 0.5 opacity → 0.35s fade-out → removed.
-// Manual dismiss (click anywhere / Esc) cuts straight to the 0.35s fade-out
-// from whatever opacity the hint is currently at — same speed, just sooner.
-// Positioned in JS (top/left set inline based on label rect).
-// ============================================================================
-
-.first-load-hint {
-  position: fixed;
-  z-index: 9988;
-  transform: translateX(-50%);
-  pointer-events: none;
-  display: inline-flex;
-  align-items: center;
-  height: 36px;
-  padding: 0 0.75rem;
-  background: var(--dark);
-  color: var(--light);
-  border-radius: 8px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  opacity: 0;
-  // 0.35s fade-in + 1.5s hold + 0.35s fade-out = 2.2s total
-  // Keyframe stops: 15.91% (0.35/2.2) and 84.09% (1.85/2.2)
-  animation: first-load-hint-cycle 2.2s ease-in-out forwards;
-}
-
-.first-load-hint.first-load-hint--leaving {
-  animation: none;
-  transition: opacity 0.35s ease-in-out;
-  opacity: 0;
-}
-
-@keyframes first-load-hint-cycle {
-  0% {
-    opacity: 0;
-  }
-  15.91% {
-    opacity: 0.5;
-  }
-  84.09% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-// ============================================================================
 // Active-session focus mode
 // While body[data-training-active], dim non-flashcard article content so the
 // user's attention lands on the flashcard area. Subtle highlight ring + slight
