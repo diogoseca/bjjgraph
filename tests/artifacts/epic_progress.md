@@ -35,8 +35,13 @@ Quota resets Monday → all token-spending scheduled jobs run on the **weekend**
 - [x] **§0.3 hub JSON-LD + sameAs** — `v1.32.0`.
 - [~] **§0.6 measurement baseline** — captured by the `seo-monitor` workflow's first run once merged to main (needs DataForSEO creds, already wired). No local code task.
 - [x] **§0.5 7-canonical alias minisprint + Toreando/Bullfighter merge** — `v1.33.0`. Aliases on RNC, Side Control, Toreando, Triangle, Armbar, Kimura, Mount; Bullfighter Pass merged into Toreando (alias + De La Riva edge folded + file deleted). Made `build_wikilink_resolver` alias-aware so references to merged names link to the canonical page. Graph back to 76-error baseline.
-- [ ] **§B-apply (remaining batches)** — apply the rest of the master report's high-confidence aliases (locks, judo throws, chokes, principles), sameAs (URL-verified), the other 4 merges (Knee Cut/Knee Slice, Darce/Brabo, Hip Bump V2 delete, Bridge/Upa), and the 11 disambiguation gaps.
-- [ ] **Epic B (phases 5-8)** — graph restructure.
+- [x] **§B-apply aliases** — 40 canonical techniques aliased (`v1.34.0`); collision guard dropped 4 (Honey Hole/Saddle/Whizzer/Straight Footlock = existing files → merge decisions).
+- [ ] **§B-apply tail (remaining)**:
+  - [ ] 11 disambiguation gaps (reciprocal `disambiguations[]` on denylisted pairs + Blood/Air chokes) — low-risk, well-defined.
+  - [ ] sameAs population (~22 verified Wikidata Q-ids + Wikipedia) — needs WebFetch URL verification before writing.
+  - [ ] Clean merges: Knee Cut/Knee Slice (both self-declare), Hip Bump Sweep V2 delete.
+  - [ ] Escalate merges (need canonical decision / GSC): Darce/Brabo, Bridge-and-Roll/Upa, Flower/Pendulum.
+- [ ] **Epic B (phases 5-8)** — graph restructure (collapse role nodes, per-role strength [-1,1], red↔white↔blue ramp, node-type shapes). High blast radius; own focused effort.
 
 ### Open items needing a GitHub secret (flagged to user)
 - **`POSTHOG_PERSONAL_API_KEY`** (phx_ personal key): votes-refresh + seo-monitor reference it; empty = graceful skip. The project key (phc_) `POSTHOG_API_KEY` 401s on the read APIs. (Also affects the existing analytics bot's HogQL reads.)
