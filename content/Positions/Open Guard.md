@@ -226,7 +226,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 - **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (17% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (9% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (18% of attempts)
 
 - **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (9% of attempts)
 
@@ -241,8 +241,6 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 - **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (9% of attempts)
 
 - **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
-
-- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (9% of attempts)
 
 - **[[Transitions/Float Passing/Attacker|Float Passing]]** (4% of attempts)
 

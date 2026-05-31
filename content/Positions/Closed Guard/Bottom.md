@@ -21,7 +21,7 @@ description: "Master closed guard bottom with offensive sweeps, submissions, and
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {

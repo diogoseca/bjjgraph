@@ -238,7 +238,7 @@ The guard pass from Williams Guard occupies a critical defensive-to-offensive tr
 
 - [[Transitions/Pressure Pass]] - Alternative passing approach integrating with extraction
 
-- [[Transitions/Knee Cut Pass]] - Follow-up pass option after successful arm extraction
+- [[Transitions/Knee Slice Pass]] - Follow-up pass option after successful arm extraction
 
 - [[Positions/Combat Base]] - Intermediate recovery position during extraction
 

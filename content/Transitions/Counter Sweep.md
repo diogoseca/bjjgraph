@@ -239,7 +239,7 @@ Counter-sweep ability is fundamental to all top position work in BJJ and serves 
 
 - [[Transitions/Leg Drag Pass]] - High-percentage pass after successful sweep defense
 
-- [[Transitions/Knee Cut Pass]] - Follow-up pass capitalizing on disrupted guard structure
+- [[Transitions/Knee Slice Pass]] - Follow-up pass capitalizing on disrupted guard structure
 
 - [[Positions/Open Guard]] - Starting position for many sweep attempts you must defend
 

@@ -17,6 +17,7 @@ description: "Master the Knee Slice Pass in BJJ. High-percentage guard passing t
   "@type": "WebPage",
   "name": "Knee Slice Pass",
   "description": "Master the Knee Slice Pass in BJJ. High-percentage guard passing technique from Half Guard to Side Control with systematic breakdowns for attackers and defenders.",
+  "alternateName": ["Knee Cut Pass", "Knee Cut", "Knee Slide Pass", "Knee Through Pass", "Knee Slide", "Knee Cut Through"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master the Knee Slice Pass in BJJ. High-percentage guard passing t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Knee Cut Pass</strong>, <strong>Knee Cut</strong>, <strong>Knee Slide Pass</strong>, <strong>Knee Through Pass</strong>, <strong>Knee Slide</strong>, <strong>Knee Cut Through</strong></p>
+</aside>
 <div class="role-links">
 
 [[Knee Slice Pass/Attacker|Play as Attacker]]
@@ -258,7 +262,7 @@ The knee slice pass is a cornerstone technique in any complete guard passing sys
 
 - [[Transitions/Back Step Pass]] - Alternative pass direction when knee slice is stuffed
 
-- [[Transitions/Knee Cut Pass]] - Alternative angle variation of the slicing motion
+- [[Transitions/Knee Slice Pass]] - Alternative angle variation of the slicing motion
 
 
 </section>

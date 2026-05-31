@@ -217,7 +217,7 @@ The X Pass represents a cornerstone technique in modern pressure passing systems
 ## Related Techniques
 
 
-- [[Transitions/Knee Cut Pass]] - Alternative pressure pass that can transition into X Pass when defended with strong frames
+- [[Transitions/Knee Slice Pass]] - Alternative pressure pass that can transition into X Pass when defended with strong frames
 
 - [[Transitions/Smash Pass]] - Complementary pressure pass with similar flattening principles but different leg clearing mechanics
 

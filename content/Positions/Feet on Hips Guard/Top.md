@@ -26,8 +26,8 @@ description: "Master feet on hips guard top position in BJJ. Complete passing st
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
@@ -356,7 +356,7 @@ Start with bottom player in feet on hips position with grips already established
 - **[[Positions/Spider Guard]]** - Common progression when sleeve grips are established by bottom player
 - **[[Positions/Combat Base]]** - Fundamental posture for this position
 - **[[Transitions/Toreando Pass]]** - Primary passing technique from this position
-- **[[Transitions/Knee Cut Pass]]** - High-percentage passing option when frames are broken
+- **[[Transitions/Knee Slice Pass]]** - High-percentage passing option when frames are broken
 - **[[Transitions/Leg Drag Pass]]** - Alternative passing strategy using lateral movement
 - **[[Positions/Standing Position]]** - Alternative posture for addressing feet-on-hips frames
 

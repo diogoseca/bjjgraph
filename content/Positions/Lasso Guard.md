@@ -207,7 +207,7 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 - **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (10% of attempts)
 
-- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (34% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (34% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 

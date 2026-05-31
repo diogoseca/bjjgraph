@@ -236,7 +236,7 @@ The bull pass from collar sleeve guard occupies a specialized niche within the g
 
 - [[Positions/Open Guard]] - Counter outcome position when opponent adjusts guard during pass attempt
 
-- [[Transitions/Knee Cut Pass]] - Complementary pass that chains effectively when opponent defends the lateral movement
+- [[Transitions/Knee Slice Pass]] - Complementary pass that chains effectively when opponent defends the lateral movement
 
 - [[Transitions/X Pass]] - Related speed pass sharing explosive lateral stepping patterns
 

@@ -229,7 +229,7 @@ The knee cut from feet on hips serves as a critical bridge in the guard passing 
 
 - [[Positions/Side Control]] - Ideal outcome when knee cut completes cleanly past all frames
 
-- [[Transitions/Knee Cut Pass]] - Parent technique category that this specific variation belongs to
+- [[Transitions/Knee Slice Pass]] - Parent technique category that this specific variation belongs to
 
 - [[Transitions/Toreando Pass]] - Alternative pass from same position using lateral redirection instead of linear cut
 

@@ -227,7 +227,7 @@ The Spider Guard Pass is a fundamental component of any comprehensive guard pass
 
 - [[Transitions/Toreando Pass]] - Alternative open guard passing approach that chains with spider pass
 
-- [[Transitions/Knee Cut Pass]] - Follow-up pass if spider guard transitions to half guard
+- [[Transitions/Knee Slice Pass]] - Follow-up pass if spider guard transitions to half guard
 
 - [[Transitions/Long Step Pass]] - Related passing variation with similar grip breaking sequence
 

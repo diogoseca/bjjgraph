@@ -224,7 +224,7 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 
 - **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (10% of attempts)
 
-- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (8% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (8% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
 

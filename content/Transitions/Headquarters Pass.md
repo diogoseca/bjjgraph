@@ -223,7 +223,7 @@ The headquarters pass is a fundamental component of modern half guard passing sy
 
 - [[Transitions/Smash Pass]] - Related pressure pass - uses similar shoulder pressure and control concepts
 
-- [[Transitions/Knee Cut Pass]] - Follow-up option - can be used to finish from headquarters position
+- [[Transitions/Knee Slice Pass]] - Follow-up option - can be used to finish from headquarters position
 
 - [[Transitions/Re-Guard from Headquarters]] - Counter technique - what the bottom player attempts to prevent this pass
 

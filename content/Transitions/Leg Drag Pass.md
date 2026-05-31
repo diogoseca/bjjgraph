@@ -219,7 +219,7 @@ The leg drag pass is a central technique in modern Brazilian Jiu-Jitsu passing s
 ## Related Techniques
 
 
-- [[Transitions/Knee Cut Pass]] - Alternative pass when opponent defends leg drag with frames
+- [[Transitions/Knee Slice Pass]] - Alternative pass when opponent defends leg drag with frames
 
 - [[Transitions/Knee Slice Pass]] - Complementary technique using similar angle creation principles
 

@@ -411,7 +411,7 @@
     "transitions": [
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 23
+        "attempt_probability": 24
       },
       {
         "transition": "Scissor Sweep",
@@ -479,10 +479,6 @@
       },
       {
         "transition": "Lumberjack Sweep",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Hip Bump Sweep V2",
         "attempt_probability": 1
       },
       {

@@ -255,15 +255,11 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 29
+        "attempt_probability": 40
       },
       {
         "transition": "Knee Slice from Half",
         "attempt_probability": 13
-      },
-      {
-        "transition": "Knee Cut Pass",
-        "attempt_probability": 11
       },
       {
         "transition": "Long Step Pass",

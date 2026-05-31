@@ -225,7 +225,7 @@ The Knee Slice from Half Guard serves as a central technique in virtually all mo
 
 - [[Transitions/Knee Slice Pass]] - Parent technique covering all knee slice variations
 
-- [[Transitions/Knee Cut Pass]] - Alternative pass from similar position with sharper angle
+- [[Transitions/Knee Slice Pass]] - Alternative pass from similar position with sharper angle
 
 - [[Transitions/Long Step Pass]] - Follow-up when knee slice is defended
 

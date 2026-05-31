@@ -32,8 +32,8 @@ description: "Master passing Lasso Guard from top position. Learn systematic cle
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 34% of exchanges from this position.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 34% of exchanges from this position.",
       "position": 3
     },
     {
@@ -235,7 +235,7 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 
 **If opponent's non-lasso leg becomes available or loses positional control:**
-- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 - Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 

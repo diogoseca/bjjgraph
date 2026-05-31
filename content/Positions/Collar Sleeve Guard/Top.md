@@ -32,8 +32,8 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
@@ -233,7 +233,7 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 **If opponent commits to pendulum or flower sweep with extended legs:**
 - Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
-- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent shoots triangle by bringing leg high around your neck:**
@@ -358,7 +358,7 @@ Partner plays collar sleeve guard with graded resistance: Round 1 (30% resistanc
 - **[[Positions/Headquarters Position]]** - Transitional position when passing around legs
 - **[[Transitions/Toreando Pass]]** - High-percentage distance passing technique against collar sleeve
 - **[[Transitions/Stack Pass]]** - Pressure passing option when opponent brings knees high
-- **[[Transitions/Knee Cut Pass]]** - Effective counter when opponent commits to sweeps
+- **[[Transitions/Knee Slice Pass]]** - Effective counter when opponent commits to sweeps
 - **[[Positions/Knee on Belly]]** - Intermediate control position when transitioning past guard
 - **[[Positions/Combat Base]]** - Starting stance for initiating passes against collar sleeve
 - **[[Transitions/Double Under Pass]]** - Pressure passing option when opponent's grips are compromised

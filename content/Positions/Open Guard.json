@@ -290,7 +290,7 @@
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 9
+        "attempt_probability": 18
       },
       {
         "transition": "Leg Drag Pass",
@@ -318,10 +318,6 @@
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Knee Cut Pass",
         "attempt_probability": 9
       },
       {

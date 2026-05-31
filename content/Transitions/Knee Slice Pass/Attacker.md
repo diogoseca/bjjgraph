@@ -137,6 +137,7 @@ description: "How to execute the Knee Slice Pass in BJJ. Complete attacking guid
   "@type": "WebPage",
   "name": "Knee Slice Pass Attacker",
   "description": "How to execute the Knee Slice Pass in BJJ. Complete attacking guide with setup requirements, step-by-step execution, counters, and training progressions.",
+  "alternateName": ["Knee Cut Pass", "Knee Cut", "Knee Slide Pass", "Knee Through Pass", "Knee Slide", "Knee Cut Through"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -182,6 +183,9 @@ description: "How to execute the Knee Slice Pass in BJJ. Complete attacking guid
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Knee Cut Pass</strong>, <strong>Knee Cut</strong>, <strong>Knee Slide Pass</strong>, <strong>Knee Through Pass</strong>, <strong>Knee Slide</strong>, <strong>Knee Cut Through</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 The Knee Slice Pass from the attacker's perspective is a systematic process of bisecting the opponent's guard structure through coordinated upper body control and knee-driven pressure. The passer must establish dominant grips and head position before initiating the slice, then maintain constant forward pressure while the knee cuts across the opponent's thighs at a diagonal angle. The technique rewards methodical execution over speed, as each phase of the pass builds upon the previous one to create compounding pressure that eventually overwhelms the defender's guard retention.

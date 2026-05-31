@@ -212,11 +212,9 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (29% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (40% of attempts)
 
 - **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (13% of attempts)
-
-- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (11% of attempts)
 
 - **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (10% of attempts)
 

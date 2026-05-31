@@ -229,7 +229,7 @@ The Toreando Pass serves as a cornerstone technique in modern guard passing syst
 ## Related Techniques
 
 
-- [[Transitions/Knee Cut Pass]] - Complementary technique - chain from Toreando when opponent turns to defend
+- [[Transitions/Knee Slice Pass]] - Complementary technique - chain from Toreando when opponent turns to defend
 
 - [[Transitions/Leg Drag Pass]] - Alternative finish - transition from Toreando motion to leg drag position
 

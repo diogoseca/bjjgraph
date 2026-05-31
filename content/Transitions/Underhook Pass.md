@@ -227,7 +227,7 @@ The underhook pass is a cornerstone technique in the pressure passing system and
 ## Related Techniques
 
 
-- [[Transitions/Knee Cut Pass]] - Alternative pass when knee shield prevents underhook pass
+- [[Transitions/Knee Slice Pass]] - Alternative pass when knee shield prevents underhook pass
 
 - [[Transitions/Knee Slice Pass]] - Combination option from underhook position
 

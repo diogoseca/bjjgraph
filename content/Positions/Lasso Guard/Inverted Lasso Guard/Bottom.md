@@ -221,7 +221,7 @@ Successful inverted lasso guard bottom requires understanding that inversion is 
 <p class="section-subtitle">What should you do from Inverted Lasso Guard (Bottom)?</p>
 
 **If opponent maintains upright posture with weight back, resisting the inversion:**
-- Execute **[[Transitions/Hip Bump Sweep V2/Attacker|Hip Bump Sweep V2]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Hip Bump Sweep V2/Attacker|Hip Bump Sweep V2]]** → [[Positions/Mount]] (Probability: 65%)
 - Execute **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
 
 

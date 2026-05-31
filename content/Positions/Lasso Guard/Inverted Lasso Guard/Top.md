@@ -50,8 +50,8 @@ description: "Master top inverted lasso guard defense. Complete guide to prevent
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -232,7 +232,7 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 
 **If lasso hook shows any looseness or bottom player adjusts grip:**
 - Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 70%)
-- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If bottom player remains inverted without initiating specific technique:**

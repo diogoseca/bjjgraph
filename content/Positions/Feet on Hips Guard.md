@@ -220,7 +220,7 @@ The position excels against standing and combat base opponents, using leg extens
 
 - **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (37% of attempts)
 
-- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (11% of attempts)
 
 - **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
 

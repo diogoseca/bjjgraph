@@ -226,7 +226,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 
 **If opponent maintains bent knee and creates strong defensive frames against finish:**
-- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 - Execute **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
@@ -242,7 +242,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 **If opponent attempts explosive bridge or reversal during finish commitment:**
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 65%)
-- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 
@@ -359,7 +359,7 @@ Start with practitioner in top kneebar control against defending opponent. Attac
 - **[[Positions/Side Control]]** - Positional advancement when kneebar finish is defended
 - **[[Positions/Turtle]]** - Defensive position where top kneebar entries frequently occur
 - **[[Positions/North-South]]** - Alternative top position accessible when transitioning from kneebar control
-- **[[Transitions/Knee Cut Pass]]** - Passing technique used to advance when kneebar is defended
+- **[[Transitions/Knee Slice Pass]]** - Passing technique used to advance when kneebar is defended
 - **[[Positions/Straight Ankle Lock Control]]** - Alternative leg attack when kneebar angle is unavailable
 - **[[Positions/Mount]]** - Dominant position accessible through positional advancement from kneebar control
 

@@ -123,7 +123,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (23% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (24% of attempts)
 
 - **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (10% of attempts)
 
@@ -158,8 +158,6 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 - **[[Monoplata from Guard/Attacker|Monoplata from Guard]]** (2% of attempts)
 
 - **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (1% of attempts)
-
-- **[[Transitions/Hip Bump Sweep V2/Attacker|Hip Bump Sweep V2]]** (1% of attempts)
 
 - **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (1% of attempts)
 

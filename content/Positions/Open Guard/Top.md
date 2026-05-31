@@ -27,7 +27,7 @@ description: "Master Open Guard Top in BJJ. Complete guide covering passing stra
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {

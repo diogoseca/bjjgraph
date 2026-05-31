@@ -21,7 +21,7 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 29% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,26 +32,26 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 11% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Long Step Pass",
       "text": "From this position, attempt Long Step Pass. This technique is attempted in 10% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
       "text": "From this position, attempt Smash Pass. This technique is attempted in 11% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
       "text": "From this position, attempt Back Step. This technique is attempted in 9% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Underhook Pass",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -232,7 +232,7 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 
 **If bottom player turns to their side to defend:**
 - Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If bottom player attempts to go inverted or create scramble:**

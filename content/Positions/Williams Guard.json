@@ -320,16 +320,12 @@
         "attempt_probability": 11
       },
       {
-        "transition": "Knee Cut Pass",
-        "attempt_probability": 13
-      },
-      {
         "transition": "Posture Recovery",
         "attempt_probability": 30
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 12
+        "attempt_probability": 25
       },
       {
         "transition": "Posture from Williams Guard",

@@ -220,7 +220,7 @@ The position demands active hip movement and constant angle adjustment to remain
 
 - **[[Transitions/Grip Break/Attacker|Grip Break]]** (12% of attempts)
 
-- **[[Transitions/Knee Cut Pass/Attacker|Knee Cut Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
 
 - **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (8% of attempts)
 
