@@ -15,6 +15,10 @@
     "Sankaku Jime",
     "Sankaku"
   ],
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Triangle_choke",
+    "https://www.wikidata.org/wiki/Q2375061"
+  ],
   "is_family": true,
   "submission_category": "Choke",
   "submission_type": "Blood Choke",

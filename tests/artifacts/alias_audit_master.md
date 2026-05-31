@@ -90,6 +90,17 @@ Confidence: **H** unambiguous/textbook · **M** common but regional/spelling · 
 ---
 
 ## 3. sameAs candidates (Wikipedia/Wikidata — re-verify URL at apply time)
+
+> **APPLY STATUS (v1.34.3):** Live WebFetch verification showed the audit's
+> Wikidata Q-ids below were **largely WRONG** (e.g. RNC audit Q2143960 → actual
+> Q4845233; Triangle Q1473270 → Q2375061; Guillotine Q5614342 → Q2889695), and
+> Armbar/Kimura/Omoplata/Kneebar/Heel Hook have **no dedicated article** (they
+> redirect to broad Armlock/Leglock pages — weak sameAs targets). Only the 3
+> confirmed dedicated-article submissions were applied with re-verified Q-ids:
+> **Rear Naked Choke (Q4845233), Triangle Choke (Q2375061), Guillotine Choke
+> (Q2889695).** The rest below is DEFERRED — every Q-id must be re-fetched
+> before writing; do NOT trust the table's original Q-ids.
+
 Verified live by auditors where a Q-id is shown; still re-check before writing.
 | Canonical | Wikipedia | Wikidata |
 |---|---|---|

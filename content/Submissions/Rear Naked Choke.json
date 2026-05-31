@@ -21,6 +21,10 @@
     "RNC",
     "Sleeper Hold"
   ],
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Rear_naked_choke",
+    "https://www.wikidata.org/wiki/Q4845233"
+  ],
   "is_family": true,
   "submission_category": "Choke",
   "submission_type": "Blood Choke",
