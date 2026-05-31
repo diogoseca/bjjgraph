@@ -216,7 +216,6 @@ jobs:
         id: prepare_paa
         uses: anthropics/claude-code-action@v1
         with:
-          model: claude-opus-4-6
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             You are a BJJ SEO analyst preparing "People Also Ask" (PAA) context for AI search optimization.
@@ -288,6 +287,8 @@ jobs:
 
             Begin processing. Focus on high-intent questions that match user search behavior.
           claude_args: |
+            --model claude-opus-4-8[1m]
+            --effort xhigh
             --mcp-config '{"mcpServers":{"dataforseo":{"command":"npx","args":["-y","@modelcontextprotocol/server-dataforseo"],"env":{"DATAFORSEO_LOGIN":"${{ secrets.DATAFORSEO_LOGIN }}","DATAFORSEO_PASSWORD":"${{ secrets.DATAFORSEO_PASSWORD }}"}}}}'
             --allowedTools 'Read,Write,Glob,Bash(mkdir:*),Bash(ls:*),mcp__dataforseo__serp_organic_live_advanced'
 
@@ -295,7 +296,6 @@ jobs:
         id: improve_content
         uses: anthropics/claude-code-action@v1
         with:
-          model: claude-opus-4-6
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             You are an elite BJJ black belt instructor AND Google AI search optimization expert.
@@ -453,7 +453,10 @@ jobs:
                f. Save updated file
 
             Begin optimization now. Make every article a top AI search result.
-          claude_args: "--allowedTools 'Read,Edit,Write,Bash(date:*),Bash(cat:*)'"
+          claude_args: |
+            --model claude-opus-4-8[1m]
+            --effort xhigh
+            --allowedTools 'Read,Edit,Write,Bash(date:*),Bash(cat:*)'
 
       - name: Validate and retry .json files
         id: validate_retry

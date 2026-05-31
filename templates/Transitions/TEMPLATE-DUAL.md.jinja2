@@ -5,12 +5,6 @@
 ---
 title: "{{ name }} | BJJ Technique | BJJ Graph"
 description: "{{ description }}"
-{%- if aliases is defined and aliases %}
-aliases:
-{%- for alias in aliases %}
-  - {{ alias | slugify }}
-{%- endfor %}
-{%- endif %}
 ---
 
 {# PostHog A/B Testing Metadata #}
@@ -22,14 +16,14 @@ aliases:
 {% if (aliases is defined and aliases) or (family is defined and family) or (disambiguations is defined and disambiguations) -%}
 <aside class="entity-relations">
 {%- if aliases is defined and aliases %}
-<p class="also-known-as"><em>Also known as:</em> {% for alias in aliases %}<strong>{{ alias }}</strong>{{ ", " if not loop.last else "" }}{% endfor %}</p>
+<p class="also-known-as"><em>Also known as:</em> {% for alias in aliases %}<strong>{{ alias | e }}</strong>{{ ", " if not loop.last else "" }}{% endfor %}</p>
 {%- endif %}
 {%- if family is defined and family %}
-<p class="part-of-family"><em>Part of the</em> <strong>[[Families/{{ family }}|{{ family }}]]</strong> <em>family</em></p>
+<p class="part-of-family"><em>Part of the</em> <strong>{% if resolve.family_exists(family) %}[[Families/{{ family }}|{{ family | e }}]]{% else %}{{ family | e }}{% endif %}</strong> <em>family</em></p>
 {%- endif %}
 {%- if disambiguations is defined and disambiguations %}
 {%- for d in disambiguations %}
-<p class="often-confused-with"><em>Often confused with</em> <strong>[[{{ resolve(d.name) if resolve is defined else d.name }}|{{ d.name }}]]</strong> — {{ d.reason }}</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>{% if resolve.page_exists(d.name) %}[[{{ resolve(d.name) }}|{{ d.name | e }}]]{% else %}{{ d.name | e }}{% endif %}</strong> — {{ d.reason | e }}</p>
 {%- endfor %}
 {%- endif %}
 </aside>

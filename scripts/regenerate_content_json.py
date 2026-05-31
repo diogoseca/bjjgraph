@@ -52,8 +52,12 @@ LEARNING_PATH = CONTENT_PATH / "Learning"
 TEMPLATES_PATH = Path("templates")
 LOGS_PATH = Path("logs/regenerate_json")
 
-# Model to use for all Claude calls
-CLAUDE_MODEL = "claude-opus-4-6"
+# Model to use for all Claude calls.
+# Opus 4.8 with the 1M-context variant ([1m] suffix) for the largest context window.
+CLAUDE_MODEL = "claude-opus-4-8[1m]"
+# Reasoning effort for content generation (low|medium|high|xhigh|max). Content
+# regeneration is quality-critical and intermittent, so we run near the top.
+CLAUDE_EFFORT = "xhigh"
 
 # =============================================================================
 # STATS (thread-safe)
@@ -1211,6 +1215,7 @@ def call_claude(prompt: str, response_schema: dict, timeout: int = 1800) -> Tupl
                 "claude",
                 "-p", "-",
                 "--model", CLAUDE_MODEL,
+                "--effort", CLAUDE_EFFORT,
                 "--output-format", "json",
                 "--json-schema", json.dumps(response_schema)
             ],

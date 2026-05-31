@@ -40,7 +40,10 @@ SUBMISSIONS_PATH = CONTENT_PATH / "Submissions"
 LOGS_PATH = Path("logs/proofread")
 SUGGESTIONS_CSV = Path("tests/artifacts/suggested_new_files.csv")
 
-CLAUDE_MODEL = "claude-opus-4-6"
+CLAUDE_MODEL = "claude-opus-4-8[1m]"
+# Reasoning effort (low|medium|high|xhigh|max). Bulk audit is one call per file
+# (~25h for the full corpus at xhigh); scope with --file/--category as needed.
+CLAUDE_EFFORT = "xhigh"
 
 # =============================================================================
 # REFERENCE LIST BUILDING (matches regenerate_content_json.py pattern)
@@ -91,6 +94,7 @@ def call_claude(prompt: str, response_schema: dict, timeout: int = 300) -> Tuple
                 "claude",
                 "-p", prompt,
                 "--model", CLAUDE_MODEL,
+                "--effort", CLAUDE_EFFORT,
                 "--output-format", "json",
                 "--json-schema", json.dumps(response_schema),
             ],

@@ -20,6 +20,9 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _slug import slugify  # shared single-source slugify (node keys + alias map)
+
 
 # Neutral positions don't have top/bottom roles
 NEUTRAL_POSITIONS = {
@@ -32,19 +35,6 @@ TERMINAL_POSITIONS = {'game-over'}
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-
-def slugify(name: str) -> str:
-    """Convert a name to a lowercase URL-friendly slug (for dictionary keys/lookups)."""
-    slug = name.lower().strip()
-    slug = slug.replace('%', ' percent ')
-    slug = slug.replace('&', ' and ')
-    slug = slug.replace("'", '')
-    slug = slug.replace('"', '')
-    slug = re.sub(r'[^\w\s-]', '', slug)
-    slug = re.sub(r'[\s_]+', '-', slug)
-    slug = re.sub(r'-+', '-', slug)
-    return slug.strip('-')
-
 
 def quartz_slug(name: str) -> str:
     """Convert name to URL path matching Quartz's sluggify (case-preserving)."""

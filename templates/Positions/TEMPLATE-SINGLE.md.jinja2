@@ -6,14 +6,7 @@
 title: "{{ data.name }} | BJJ Position Guide | BJJ Graph"
 description: "{{ data.description }}"
 {% if data.graph is defined and data.graph == false %}graph: false
-{% endif %}
-{%- if data.aliases is defined and data.aliases %}
-aliases:
-{%- for alias in data.aliases %}
-  - {{ alias | slugify }}
-{%- endfor %}
-{%- endif %}
----
+{% endif %}---
 
 {# PostHog A/B Testing Metadata #}
 <body data-content-type="positions">
@@ -67,10 +60,12 @@ aliases:
   "name": "{{ data.name.split('|')[0].strip() }}",
   "description": "{{ data.description }}",
   {%- if data.aliases is defined and data.aliases %}
-  "alternateName": [{% for alias in data.aliases %}"{{ alias }}"{{ ", " if not loop.last else "" }}{% endfor %}],
+  "alternateName": [{% for alias in data.aliases %}{{ alias | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
   {%- endif %}
   {%- if data.disambiguations is defined and data.disambiguations %}
-  "disambiguatingDescription": "{% for d in data.disambiguations %}Often confused with {{ d.name }} — {{ d.reason }}.{{ ' ' if not loop.last else '' }}{% endfor %}",
+  {%- set _ns = namespace(dd='') %}
+  {%- for d in data.disambiguations %}{% set _ns.dd = _ns.dd + 'Often confused with ' + d.name + ' — ' + d.reason + '.' + (' ' if not loop.last else '') %}{% endfor %}
+  "disambiguatingDescription": {{ _ns.dd | tojson }},
   {%- endif %}
   "isPartOf": {
     "@type": "WebSite",
@@ -120,14 +115,14 @@ aliases:
 {% if (data.aliases is defined and data.aliases) or (data.family is defined and data.family) or (data.disambiguations is defined and data.disambiguations) -%}
 <aside class="entity-relations">
 {%- if data.aliases is defined and data.aliases %}
-<p class="also-known-as"><em>Also known as:</em> {% for alias in data.aliases %}<strong>{{ alias }}</strong>{{ ", " if not loop.last else "" }}{% endfor %}</p>
+<p class="also-known-as"><em>Also known as:</em> {% for alias in data.aliases %}<strong>{{ alias | e }}</strong>{{ ", " if not loop.last else "" }}{% endfor %}</p>
 {%- endif %}
 {%- if data.family is defined and data.family %}
-<p class="part-of-family"><em>Part of the</em> <strong>[[Families/{{ data.family }}|{{ data.family }}]]</strong> <em>family</em></p>
+<p class="part-of-family"><em>Part of the</em> <strong>{% if resolve.family_exists(data.family) %}[[Families/{{ data.family }}|{{ data.family | e }}]]{% else %}{{ data.family | e }}{% endif %}</strong> <em>family</em></p>
 {%- endif %}
 {%- if data.disambiguations is defined and data.disambiguations %}
 {%- for d in data.disambiguations %}
-<p class="often-confused-with"><em>Often confused with</em> <strong>[[{{ resolve(d.name) if resolve is defined else d.name }}|{{ d.name }}]]</strong> — {{ d.reason }}</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>{% if resolve.page_exists(d.name) %}[[{{ resolve(d.name) }}|{{ d.name | e }}]]{% else %}{{ d.name | e }}{% endif %}</strong> — {{ d.reason | e }}</p>
 {%- endfor %}
 {%- endif %}
 </aside>

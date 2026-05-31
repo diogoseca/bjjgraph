@@ -15,9 +15,11 @@ import argparse
 import json
 import re
 import sys
-import unicodedata
 from pathlib import Path
 from jinja2 import Template, Environment, FileSystemLoader
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _slug import slugify  # shared single-source slugify
 
 try:
     import jsonschema
@@ -37,33 +39,21 @@ CATEGORIES = {
 }
 
 
-def slugify(s):
-    """Convert a display name into a URL slug.
-
-    Transliterates accented characters to ASCII (Leão → leao, so the slug
-    matches what users actually type and search), lowercases, strips
-    apostrophes, replaces runs of non-alphanumerics with hyphens, collapses
-    repeats, and trims. Kept byte-identical to regenerate_redirects.slugify()
-    so frontmatter aliases line up with the Cloudflare 301 source paths.
-    """
-    if not isinstance(s, str):
-        return ""
-    # NFKD-decompose then drop combining marks: ã→a, é→e, ç→c
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
-    s = s.lower()
-    s = s.replace("'", "").replace("`", "")
-    s = re.sub(r"[^a-z0-9]+", "-", s)
-    s = re.sub(r"-+", "-", s).strip("-")
-    return s
-
-
-# Shared Jinja2 environment with custom filters
+# Shared Jinja2 environment with custom filters. slugify comes from scripts/_slug.py
+# (single source of truth shared with the graph, redirect, and validation scripts).
 _JINJA_ENV = Environment()
 _JINJA_ENV.filters["slugify"] = slugify
 
 
 def build_wikilink_resolver():
-    """Build name->category lookup for unambiguous wikilinks."""
+    """Build name->category lookup for unambiguous wikilinks.
+
+    Returns the `resolve` callable, with two predicates attached as attributes:
+    `resolve.page_exists(name)` and `resolve.family_exists(name)`. Templates use
+    these to render a wikilink ONLY when its target file actually exists,
+    falling back to plain text otherwise — so `family:` and `disambiguations[]`
+    entries that point at not-yet-created pages don't emit dangling links (H6).
+    """
     index = {}
     for category, folder in CATEGORIES.items():
         folder_path = Path(folder)
@@ -77,6 +67,14 @@ def build_wikilink_resolver():
                     index[name] = category
                 else:
                     index[name] = f"{category}/{rel}"
+
+    # Family hubs live under content/Families/ (created in epic phase 14). Track
+    # them separately so the "Part of the X family" link only fires once the hub exists.
+    family_names = set()
+    families_dir = Path("content/Families")
+    if families_dir.exists():
+        for json_file in families_dir.rglob("*.json"):
+            family_names.add(json_file.stem)
 
     def resolve(name):
         if not name:
@@ -92,6 +90,18 @@ def build_wikilink_resolver():
             return f"{index[name]}/{name}"
         return name  # fallback: bare name
 
+    def page_exists(name):
+        if isinstance(name, dict):
+            name = name.get('name', '')
+        if not isinstance(name, str) or not name:
+            return False
+        return name in index or name in family_names
+
+    def family_exists(name):
+        return isinstance(name, str) and name in family_names
+
+    resolve.page_exists = page_exists
+    resolve.family_exists = family_exists
     return resolve
 
 

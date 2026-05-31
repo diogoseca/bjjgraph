@@ -42,7 +42,6 @@ jobs:
         id: improve_content
         uses: anthropics/claude-code-action@v1
         with:
-          model: claude-opus-4-6
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             You are a BJJ content expert improving pages based on real user analytics data.
@@ -127,7 +126,10 @@ jobs:
             - Which pages were selected and why (include traffic numbers, bounce rate, session duration)
             - What improvements were made to each file
             - Before/after content quality comparison
-          claude_args: "--allowedTools 'Read,Edit,Write,Bash(date:*),Bash(cat:*),Bash(python3:*),Bash(find:*),Glob,Grep'"
+          claude_args: |
+            --model claude-opus-4-8[1m]
+            --effort xhigh
+            --allowedTools 'Read,Edit,Write,Bash(date:*),Bash(cat:*),Bash(python3:*),Bash(find:*),Glob,Grep'
         env:
           POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
 

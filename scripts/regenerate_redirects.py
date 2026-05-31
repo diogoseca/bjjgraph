@@ -16,9 +16,7 @@ Runs automatically after `npm run build` via the `postbuild` hook.
 from __future__ import annotations
 
 import json
-import re
 import sys
-import unicodedata
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -26,24 +24,12 @@ CONTENT_DIR = PROJECT_ROOT / "content"
 PUBLIC_DIR = PROJECT_ROOT / "source" / "public"
 OUTPUT = PUBLIC_DIR / "_redirects"
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _slug import slugify  # shared single-source slugify (alias 301 source paths)
+
 CATEGORIES = ("Positions", "Transitions", "Submissions")
 ROLE_PAGES = {"Top", "Bottom", "Attacker", "Defender"}
 CLOUDFLARE_STATIC_RULE_LIMIT = 2000
-
-
-def slugify(s: str) -> str:
-    """Lowercase kebab slug, byte-identical to regenerate_md_from_json.slugify().
-
-    Transliterates accents to ASCII (Leão → leao) so alias-redirect FROM paths
-    line up with the frontmatter `aliases:` slugs, the Quartz alias pages, and
-    hand-typed alias URLs.
-    """
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
-    s = s.lower()
-    s = s.replace("'", "").replace("`", "")
-    s = re.sub(r"[^a-z0-9]+", "-", s)
-    s = re.sub(r"-+", "-", s).strip("-")
-    return s
 
 
 def canonical_url_for(json_file: Path) -> str:
@@ -53,15 +39,23 @@ def canonical_url_for(json_file: Path) -> str:
 
 
 def collect_alias_rules(seen: set[str]) -> list[str]:
-    """Emit `/<Category>/<alias-slug> /<Category>/<Canonical> 301` for each alias.
+    """Emit one lowercase `/<canonical-parent>/<alias-slug> /<Canonical> 301` per alias.
 
-    Reads `aliases[]` from every content JSON. For each alias we emit BOTH the
-    category-cased path (matches the Quartz alias page location) and the
-    fully-lowercased path (matches hand-typed URLs and the case-correction
-    convention used by the canonical lowercase rules). True HTTP 301s are the
-    strongest dedup signal per Google's canonical guidance.
+    Reads `aliases[]` from every content JSON. The alias source is derived from
+    the canonical URL's PARENT path (H4): for a hub like
+    content/Submissions/Rear Naked Choke.json the source is
+    /submissions/<alias> ; for a nested variant under
+    content/Submissions/Inside Heel Hook/ the source keeps the subdir
+    (/submissions/inside-heel-hook/<alias>) instead of collapsing to the
+    category root where it could 301-hijack an unrelated top-level slug.
 
-    NOTE: until aliases[] arrays are populated (epic phase 12), this is a no-op.
+    One LOWERCASE source per alias (H5) — Cloudflare path matching plus the
+    existing lowercase case-correction rules cover the cased form, so the
+    cased+lowercase doubling was wasteful. True HTTP 301s are the strongest
+    dedup signal per Google's canonical guidance, and `_redirects` is the single
+    owner of alias redirects (frontmatter `aliases:` emission was dropped).
+
+    NOTE: no-op until aliases[] arrays are populated (epic phase 12).
     """
     rules: list[str] = []
     for cat in CATEGORIES:
@@ -69,7 +63,6 @@ def collect_alias_rules(seen: set[str]) -> list[str]:
         if not cat_dir.exists():
             continue
         for json_file in cat_dir.rglob("*.json"):
-            # Skip schema templates that may have leaked into content (defensive)
             try:
                 with open(json_file, "r", encoding="utf-8") as f:
                     data = json.load(f)
@@ -81,27 +74,33 @@ def collect_alias_rules(seen: set[str]) -> list[str]:
             if not isinstance(aliases, list) or not aliases:
                 continue
 
-            canonical = canonical_url_for(json_file)
-            canonical_low = canonical.lower()
+            canonical = canonical_url_for(json_file)           # case-preserved TO
+            parent = canonical.rsplit("/", 1)[0]               # keep subdir (H4)
             for alias in aliases:
                 if not isinstance(alias, str) or not alias.strip():
                     continue
                 alias_slug = slugify(alias)
                 if not alias_slug:
                     continue
-                for src in (f"/{cat}/{alias_slug}", f"/{cat.lower()}/{alias_slug}"):
-                    # Never shadow the canonical URL itself, and dedupe.
-                    if src == canonical or src == canonical_low or src in seen:
-                        continue
-                    seen.add(src)
-                    rules.append(f"{src} {canonical} 301")
+                src = f"{parent}/{alias_slug}".lower()          # single lowercase source (H5)
+                if src == canonical.lower() or src in seen:
+                    continue
+                seen.add(src)
+                rules.append(f"{src} {canonical} 301")
     return rules
 
 
 def main() -> None:
-    rules: list[str] = []
     seen: set[str] = set()
 
+    # Alias 301s FIRST (H5): if the file is ever truncated at Cloudflare's 2000-rule
+    # limit, the high-value synonym redirects survive; only low-value case-correction
+    # rules at the tail would be dropped. `seen` is shared so the classes never collide.
+    alias_rules = collect_alias_rules(seen)
+    if alias_rules:
+        print(f"[regenerate_redirects] {len(alias_rules)} alias 301 rule(s)")
+
+    case_rules: list[str] = []
     for cat in CATEGORIES:
         cat_dir = CONTENT_DIR / cat
         if not cat_dir.exists():
@@ -115,21 +114,20 @@ def main() -> None:
             if lower == canonical or lower in seen:
                 continue
             seen.add(lower)
-            rules.append(f"{lower} {canonical} 301")
+            case_rules.append(f"{lower} {canonical} 301")
 
-    # Alias → canonical 301s (synonym redirects). Appended after the lowercase
-    # case-correction rules; `seen` is shared so the two classes never collide.
-    alias_rules = collect_alias_rules(seen)
-    if alias_rules:
-        print(f"[regenerate_redirects] Added {len(alias_rules)} alias 301 rule(s)")
-    rules.extend(alias_rules)
+    rules = alias_rules + case_rules
 
     if len(rules) > CLOUDFLARE_STATIC_RULE_LIMIT:
+        # Hard failure (H5): a silently-truncated _redirects must not ship.
         print(
-            f"[regenerate_redirects] WARNING: {len(rules)} rules exceeds Cloudflare's "
-            f"{CLOUDFLARE_STATIC_RULE_LIMIT}-static-rule limit. Excess will be ignored.",
+            f"[regenerate_redirects] ERROR: {len(rules)} rules exceeds Cloudflare's "
+            f"{CLOUDFLARE_STATIC_RULE_LIMIT}-static-rule limit — Cloudflare would silently "
+            f"ignore the overflow. Reduce rules (e.g. fold case-correction into a Cloudflare "
+            f"redirect rule) before shipping.",
             file=sys.stderr,
         )
+        sys.exit(1)
 
     PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text("\n".join(rules) + "\n")

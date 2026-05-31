@@ -16,6 +16,9 @@ import json
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _slug import slugify as _slugify  # shared single-source slugify
+
 try:
     import jsonschema
     from jsonschema import validate, ValidationError
@@ -110,8 +113,17 @@ def build_content_index():
 
 
 def _normalize_alias_key(s):
-    """Normalize a name for alias-map comparison: lowercase, hyphen/underscore→space, trimmed."""
-    return s.lower().replace('-', ' ').replace('_', ' ').strip()
+    """Normalize a name for alias/disambiguation comparison.
+
+    Delegates to the shared slugify so accented synonyms compare equal to their
+    unaccented references ("Mata Leão" == "Mata Leao") and so this comparison
+    key can never diverge from the slugs the graph/redirect/template pipeline
+    uses. Both sides of every comparison pass through here, so the kebab form
+    is fine — it only needs to be a consistent canonical key.
+    """
+    if not isinstance(s, str):
+        return ""
+    return _slugify(s)
 
 
 def build_alias_index():
