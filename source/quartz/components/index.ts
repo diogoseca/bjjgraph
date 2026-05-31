@@ -21,7 +21,6 @@ import NotDesktop from "./NotDesktop"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
-import EditOnGithub from "./EditOnGithub"
 import MoveCards from "./MoveCards"
 import OutcomeCards from "./OutcomeCards"
 import Snackbar from "./Snackbar"
@@ -63,7 +62,6 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
-  EditOnGithub,
   MoveCards,
   OutcomeCards,
   Snackbar,

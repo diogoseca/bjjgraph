@@ -45,7 +45,6 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [
     Component.ContentMeta({ showReadingTime: false }),
-    Component.EditOnGithub(),
     Component.Snackbar(),
     Component.TopBar(),
     Component.AuthUI(),
