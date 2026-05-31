@@ -4162,47 +4162,6 @@ body[data-training-active] {
 }
 
 // ============================================================================
-// Graph-close button (×) — top-right corner in graph mode
-// Conventional exit affordance; complements the bottom-center chevron metaphor.
-// ============================================================================
-#graph-close-btn {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  z-index: 10;
-  width: 44px;
-  height: 36px;
-  border-radius: 8px;
-  border: 1px solid var(--lightgray);
-  background: var(--light);
-  color: var(--dark);
-  cursor: pointer;
-  opacity: 0;
-  pointer-events: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  transition:
-    opacity 0.25s ease,
-    background-color 0.2s;
-
-  &:hover,
-  &:focus-visible {
-    background: var(--lightgray);
-    outline: none;
-  }
-}
-
-body.graph-focused #graph-close-btn {
-  opacity: 0.85;
-  pointer-events: auto;
-}
-body.graph-focused #graph-close-btn:hover {
-  opacity: 1;
-}
-
-// ============================================================================
 // RollSessionButton — play icon, graph-mode-only, top-center
 // In content mode it is hidden entirely. In graph mode it pins to top-center
 // and fades in with a 200ms delay so the panel-toggle chevron (which animates

@@ -179,7 +179,7 @@ document.addEventListener("nav", () => {
   //                  #quartz-root, lifted above the drawer via the z4 rule in
   //                  custom.scss) → resume (snap back to content).
   const TOP_STRIPE_BTN_SELECTOR =
-    "#tree-toggle, #search-button, #flashcards-header, #roll-session-btn, #panel-toggle, #topbar-auth, #graph-close-btn, #fit-all-btn"
+    "#tree-toggle, #search-button, #flashcards-header, #roll-session-btn, #panel-toggle, #topbar-auth, #fit-all-btn"
   function onStripeClick(e: MouseEvent) {
     const target = e.target as HTMLElement | null
     if (!target) return
