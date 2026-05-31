@@ -17,6 +17,7 @@ description: "Master the Triangle Choke in BJJ. Complete safety guide with setup
   "@type": "CollectionPage",
   "name": "Triangle Choke",
   "description": "Master the Triangle Choke in BJJ. Complete safety guide with setup, execution, and defense. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "alternateName": ["Sankaku Jime", "Sankaku"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Triangle Choke in BJJ. Complete safety guide with setup
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Sankaku Jime</strong>, <strong>Sankaku</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

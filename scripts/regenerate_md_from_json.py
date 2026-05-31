@@ -76,6 +76,30 @@ def build_wikilink_resolver():
         for json_file in families_dir.rglob("*.json"):
             family_names.add(json_file.stem)
 
+    # Alias map: a reference to a merged/renamed technique's name (e.g. "Bullfighter
+    # Pass" after it merged into Toreando Pass) should wikilink to the CANONICAL page,
+    # not dangle. Map slugify(alias) -> canonical resolved path ("Category/Name").
+    alias_to_canonical = {}
+    for category, folder in CATEGORIES.items():
+        folder_path = Path(folder)
+        if not folder_path.exists():
+            continue
+        for json_file in folder_path.rglob("*.json"):
+            try:
+                data = json.loads(json_file.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                continue
+            aliases = data.get("aliases") if isinstance(data, dict) else None
+            if not isinstance(aliases, list) or not aliases:
+                continue
+            canonical_name = json_file.stem
+            rel = json_file.relative_to(folder_path).parent
+            canonical_path = canonical_name if str(rel) == '.' else None
+            cat_prefix = category if str(rel) == '.' else f"{category}/{rel}"
+            for alias in aliases:
+                if isinstance(alias, str) and alias.strip():
+                    alias_to_canonical.setdefault(slugify(alias), f"{cat_prefix}/{canonical_name}")
+
     def resolve(name):
         if not name:
             return name
@@ -88,6 +112,10 @@ def build_wikilink_resolver():
             return 'game-over'
         if name in index:
             return f"{index[name]}/{name}"
+        # Alias fallback: link a merged/renamed name to its canonical page.
+        canon = alias_to_canonical.get(slugify(name))
+        if canon:
+            return canon
         return name  # fallback: bare name
 
     def page_exists(name):
@@ -95,7 +123,7 @@ def build_wikilink_resolver():
             name = name.get('name', '')
         if not isinstance(name, str) or not name:
             return False
-        return name in index or name in family_names
+        return name in index or name in family_names or slugify(name) in alias_to_canonical
 
     def family_exists(name):
         return isinstance(name, str) and name in family_names

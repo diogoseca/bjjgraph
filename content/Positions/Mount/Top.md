@@ -116,6 +116,7 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
   "@type": "WebPage",
   "name": "Mount Top",
   "description": "Master offensive strategies from top Mount in BJJ. Learn control mechanics, submission chains, and systematic positional progression to finish from mount.",
+  "alternateName": ["Full Mount", "Tate Shiho Gatame"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Full Mount</strong>, <strong>Tate Shiho Gatame</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 The top Mount position represents the pinnacle of positional dominance in Brazilian Jiu-Jitsu, offering maximum control with diverse submission opportunities. Awarded 4 points in IBJJF competition, this position places the top practitioner astride the opponent's torso with the ability to distribute weight strategically while maintaining mobility for attacks. Effective mount control creates a system where every defensive movement from the bottom player opens new offensive pathways, forming submission chains that flow naturally from one attack to the next.

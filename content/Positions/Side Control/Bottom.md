@@ -116,6 +116,7 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
   "@type": "WebPage",
   "name": "Side Control Bottom",
   "description": "Master escaping Side Control Bottom in BJJ. Systematic defensive frameworks covering frames, guard recovery, and escape techniques for all skill levels.",
+  "alternateName": ["Side Mount", "Yoko Shiho Gatame", "100 Kilos", "Cem Quilos"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Side Mount</strong>, <strong>Yoko Shiho Gatame</strong>, <strong>100 Kilos</strong>, <strong>Cem Quilos</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Side Control Bottom is one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where you are pinned on your back with your opponent's chest perpendicular to your torso, controlling your upper body and hips. This position represents a critical moment where effective defense can prevent submission and enable escape or guard recovery. Understanding the systematic approach to escaping side control is essential for all practitioners, as it directly impacts your ability to survive and counter dominant positions. The bottom player must focus on creating frames, generating space through hip movement, and systematically working toward guard recovery or escape while defending against constant submission threats. Success from this position requires technical precision, timing, patience, and the ability to recognize and exploit small windows of opportunity when the top player transitions or attacks. The defensive hierarchy prioritizes first preventing submissions, second preventing position advancement to mount or back, and third creating escape opportunities through systematic space creation and guard recovery sequences. The mechanical principle that makes side control escapes possible is the creation of space through hip movement combined with framing structures that prevent the opponent from following your movement. When you shrimp your hips away, you must simultaneously create a frame with your forearms against the opponent's shoulders or hips to prevent them from simply following your movement and maintaining the pin. The timing element is critical - attempts to escape when the opponent has stable base and settled weight will fail regardless of technique quality.

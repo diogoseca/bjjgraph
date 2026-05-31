@@ -228,7 +228,7 @@ The Lasso Guard Pass is a fundamental component of any comprehensive passing sys
 
 - [[Transitions/Leg Drag Pass]] - Alternative finish after neutralizing lasso control
 
-- [[Transitions/Bullfighter Pass]] - Alternative toreando-style approach to defeat lasso guard
+- [[Transitions/Toreando Pass]] - Alternative toreando-style approach to defeat lasso guard
 
 - [[Positions/Collar Sleeve Guard]] - Related position opponent may transition to during pass attempt
 

@@ -223,7 +223,7 @@ The Lapel Clear to Toreando Pass occupies a crucial position in modern gi guard 
 
 - [[Positions/Side Control]] - Primary target position upon successful pass completion
 
-- [[Transitions/Bullfighter Pass]] - Core passing mechanic used after clearing lapel configuration
+- [[Transitions/Toreando Pass]] - Core passing mechanic used after clearing lapel configuration
 
 - [[Transitions/Backstep Around Worm Guard]] - Alternative passing solution for worm guard configurations
 

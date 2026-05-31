@@ -233,7 +233,7 @@ The Spider Guard Pass is a fundamental component of any comprehensive guard pass
 
 - [[Transitions/Leg Drag Pass]] - High-percentage pass when opponent releases foot pressure for attacks
 
-- [[Transitions/Bullfighter Pass]] - Complementary toreando-style pass used after grip breaks
+- [[Transitions/Toreando Pass]] - Complementary toreando-style pass used after grip breaks
 
 - [[Positions/De La Riva Guard]] - Common guard transition opponent may attempt during grip break
 

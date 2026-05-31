@@ -243,7 +243,7 @@ Float passing serves as a primary guard passing strategy that integrates seamles
 
 - [[Positions/Open Guard]] - Starting position where float passing is initiated
 
-- [[Transitions/Bullfighter Pass]] - Related lateral passing technique with similar grip control principles
+- [[Transitions/Toreando Pass]] - Related lateral passing technique with similar grip control principles
 
 - [[Transitions/Back Step Pass]] - Complementary technique using direction reversal during floating movement
 

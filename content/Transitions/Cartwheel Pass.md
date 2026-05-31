@@ -225,7 +225,7 @@ The Cartwheel Pass occupies a specialized niche in the guard passing hierarchy, 
 
 - [[Positions/Inverted Guard]] - Parent guard category that cartwheel pass addresses
 
-- [[Transitions/Bullfighter Pass]] - Ground-based alternative for passing inverted guards with leg control
+- [[Transitions/Toreando Pass]] - Ground-based alternative for passing inverted guards with leg control
 
 - [[Positions/North-South]] - Alternative landing position when opponent rotates during pass
 

@@ -196,7 +196,7 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (22% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (25% of attempts)
 
 - **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
 
@@ -213,8 +213,6 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 - **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (7% of attempts)
 
 - **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (2% of attempts)
-
-- **[[Transitions/Bullfighter Pass/Attacker|Bullfighter Pass]]** (3% of attempts)
 
 - **[[Transitions/Toreando Pass from De La Riva/Attacker|Toreando Pass from De La Riva]]** (8% of attempts)
 

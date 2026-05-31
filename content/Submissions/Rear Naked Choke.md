@@ -17,6 +17,7 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
   "@type": "CollectionPage",
   "name": "Rear Naked Choke",
   "description": "Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "alternateName": ["Mata Le\u00e3o", "Mata Leao", "Hadaka Jime", "RNC", "Sleeper Hold"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Mata Leão</strong>, <strong>Mata Leao</strong>, <strong>Hadaka Jime</strong>, <strong>RNC</strong>, <strong>Sleeper Hold</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

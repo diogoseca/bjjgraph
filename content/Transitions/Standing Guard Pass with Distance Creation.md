@@ -243,7 +243,7 @@ The Standing Guard Pass with Distance Creation occupies a critical role in the t
 
 - [[Transitions/Berimbolo Entry]] - Counter threat - inversion-based back take the opponent may attempt during extraction
 
-- [[Transitions/Bullfighter Pass]] - Follow-up technique - toreando variant available after creating distance and clearing lapel
+- [[Transitions/Toreando Pass]] - Follow-up technique - toreando variant available after creating distance and clearing lapel
 
 - [[Positions/Back Control]] - Counter threat position - where you end up if opponent successfully takes your back during extraction
 

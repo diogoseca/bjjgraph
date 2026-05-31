@@ -131,6 +131,7 @@ description: "How to execute Toreando Pass in BJJ. Attacking perspective with se
   "@type": "WebPage",
   "name": "Toreando Pass Attacker",
   "description": "How to execute Toreando Pass in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "alternateName": ["Bullfighter Pass", "Matador Pass", "Toreada Pass", "Toreador Pass"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -176,6 +177,9 @@ description: "How to execute Toreando Pass in BJJ. Attacking perspective with se
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Bullfighter Pass</strong>, <strong>Matador Pass</strong>, <strong>Toreada Pass</strong>, <strong>Toreador Pass</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 The Toreando Pass is a standing guard pass built on bilateral leg control and explosive lateral movement. The passer grips both of the opponent's knees or pant legs, then simultaneously steps to one side while redirecting the opponent's legs to the opposite side. This opposing-vector motion breaks the guard player's hip connection and clears a direct path to side control. The technique rewards practitioners who develop strong grip fighting, explosive footwork, and the ability to read defensive reactions in real time. Because the Toreando creates a binary choice for the defender — either allow the pass or turn and expose the back — it functions as both a standalone pass and a forcing mechanism that opens chain-passing opportunities.

@@ -111,6 +111,7 @@ description: "How to defend against Toreando Pass in BJJ. Recognition cues, defe
   "@type": "WebPage",
   "name": "Toreando Pass Defender",
   "description": "How to defend against Toreando Pass in BJJ. Recognition cues, defensive options, and escape strategies.",
+  "alternateName": ["Bullfighter Pass", "Matador Pass", "Toreada Pass", "Toreador Pass"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -156,6 +157,9 @@ description: "How to defend against Toreando Pass in BJJ. Recognition cues, defe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Bullfighter Pass</strong>, <strong>Matador Pass</strong>, <strong>Toreada Pass</strong>, <strong>Toreador Pass</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending the Toreando Pass requires early recognition, disciplined grip fighting, and active hip engagement to prevent the passer from establishing the bilateral leg control and lateral angle that make this pass so effective. The guard player's primary objective is to deny the passer's knee or pant grips, maintain at least one foot-on-hip frame, and keep the hips aligned toward the passer so that any lateral movement can be tracked. Because the Toreando relies on explosive speed and simultaneous leg redirection, the defender must respond in the earliest stages of the pass — once the passer has committed to the lateral step with strong grips, the window for effective defense narrows dramatically. Successful defense creates opportunities to either retain open guard through hip tracking and re-framing, or to capitalize on the passer's lateral commitment by attacking with sweeps that exploit their displaced base. The best defenders treat Toreando defense not as a passive survival exercise but as an offensive opportunity: the passer's movement creates predictable angles that can be countered with well-timed inversions, hip switches, and collar drags.

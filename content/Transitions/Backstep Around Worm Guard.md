@@ -238,7 +238,7 @@ The backstep around worm guard occupies a critical role in modern gi passing str
 
 - [[Transitions/Back Step Pass]] - Related passing technique using similar rotational mechanics
 
-- [[Transitions/Bullfighter Pass]] - Complementary pass that may combine with backstep movement
+- [[Transitions/Toreando Pass]] - Complementary pass that may combine with backstep movement
 
 - [[Transitions/Long Step Pass]] - Related passing concept sharing distance-creation principles
 

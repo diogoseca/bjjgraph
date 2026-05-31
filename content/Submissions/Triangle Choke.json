@@ -11,6 +11,10 @@
     "hub",
     "finishing-guide"
   ],
+  "aliases": [
+    "Sankaku Jime",
+    "Sankaku"
+  ],
   "is_family": true,
   "submission_category": "Choke",
   "submission_type": "Blood Choke",
@@ -19,7 +23,7 @@
   "from_position": "Triangle Control/Top",
   "success_rate": 65,
   "variant_uniqueness": "Legs create blood choke using opponent's own shoulder as fulcrum",
-  "overview": "The Triangle Choke is one of Brazilian Jiu-Jitsu's most fundamental and high-percentage blood chokes, typically executed from the bottom position in closed guard. By trapping the opponent's head and one arm between your legs while using your shin to compress the neck, you create a triangle configuration that occludes the carotid arteries and restricts blood flow to the brain. The effectiveness of the triangle lies in its mechanical efficiency\u2014once properly locked, it requires minimal strength to finish and becomes progressively tighter as the opponent struggles.\n\nHistorically developed from judo's sankaku-jime, the triangle choke has become a cornerstone technique in modern BJJ competition, especially in gi grappling where grips facilitate control. The submission works through a combination of structural alignment and proper angle creation, with the practitioner's body position and hip angle being more critical than leg strength. When executed correctly, the triangle creates an inescapable mechanical trap where the opponent's own shoulder acts as a fulcrum to compress their neck.\n\nThe triangle choke's strategic value extends beyond its finishing potential\u2014it serves as a gateway to multiple transitions including armbars, omoplatas, and sweeps. High-level practitioners use the triangle position as a control platform, maintaining the configuration while attacking multiple submissions in sequence. This makes the triangle one of the most versatile offensive tools in BJJ, equally effective in both training and competition contexts across all skill levels.",
+  "overview": "The Triangle Choke is one of Brazilian Jiu-Jitsu's most fundamental and high-percentage blood chokes, typically executed from the bottom position in closed guard. By trapping the opponent's head and one arm between your legs while using your shin to compress the neck, you create a triangle configuration that occludes the carotid arteries and restricts blood flow to the brain. The effectiveness of the triangle lies in its mechanical efficiency—once properly locked, it requires minimal strength to finish and becomes progressively tighter as the opponent struggles.\n\nHistorically developed from judo's sankaku-jime, the triangle choke has become a cornerstone technique in modern BJJ competition, especially in gi grappling where grips facilitate control. The submission works through a combination of structural alignment and proper angle creation, with the practitioner's body position and hip angle being more critical than leg strength. When executed correctly, the triangle creates an inescapable mechanical trap where the opponent's own shoulder acts as a fulcrum to compress their neck.\n\nThe triangle choke's strategic value extends beyond its finishing potential—it serves as a gateway to multiple transitions including armbars, omoplatas, and sweeps. High-level practitioners use the triangle position as a control platform, maintaining the configuration while attacking multiple submissions in sequence. This makes the triangle one of the most versatile offensive tools in BJJ, equally effective in both training and competition contexts across all skill levels.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -137,7 +141,7 @@
     },
     {
       "name": "Omoplata",
-      "relationship": "Alternative finish when triangle is defended\u2014opponent's defensive movements open omoplata"
+      "relationship": "Alternative finish when triangle is defended—opponent's defensive movements open omoplata"
     },
     {
       "name": "Closed Guard",
@@ -149,7 +153,7 @@
     },
     {
       "name": "Guillotine Choke",
-      "relationship": "Complementary guard submission\u2014similar head control principles"
+      "relationship": "Complementary guard submission—similar head control principles"
     },
     {
       "name": "Triangle Control",

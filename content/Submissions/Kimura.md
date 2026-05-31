@@ -17,6 +17,7 @@ description: "Master the Kimura shoulder lock in BJJ. Complete guide covering gr
   "@type": "CollectionPage",
   "name": "Kimura",
   "description": "Master the Kimura shoulder lock in BJJ. Complete guide covering grip mechanics, finishing technique, defensive escapes, and applications from multiple positions.",
+  "alternateName": ["Gyaku Ude Garami", "Double Wristlock"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Kimura shoulder lock in BJJ. Complete guide covering gr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Gyaku Ude Garami</strong>, <strong>Double Wristlock</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

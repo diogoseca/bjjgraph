@@ -239,7 +239,7 @@ The Back Step Pass is a cornerstone technique in the guard passing toolkit again
 
 - [[Transitions/Back Step]] - Related back step transition used in other passing contexts
 
-- [[Transitions/Bullfighter Pass]] - Alternative standing pass that shares leg control clearing mechanics
+- [[Transitions/Toreando Pass]] - Alternative standing pass that shares leg control clearing mechanics
 
 
 </section>

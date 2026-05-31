@@ -116,6 +116,7 @@ description: "Master defensive strategies from bottom Mount in BJJ. Learn system
   "@type": "WebPage",
   "name": "Mount Bottom",
   "description": "Master defensive strategies from bottom Mount in BJJ. Learn systematic escape sequences, frame creation, and guard recovery techniques from this position.",
+  "alternateName": ["Full Mount", "Tate Shiho Gatame"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master defensive strategies from bottom Mount in BJJ. Learn system
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Full Mount</strong>, <strong>Tate Shiho Gatame</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Being mounted represents the most challenging defensive position in Brazilian Jiu-Jitsu, requiring systematic knowledge, mental composure, and technical precision to escape safely. The bottom Mount position places the defender in immediate danger of both positional advancement and submission attacks, making structured escape methodology essential for survival in competition and training. Understanding the mechanics of why mount is so oppressive is the first step toward developing reliable escapes.

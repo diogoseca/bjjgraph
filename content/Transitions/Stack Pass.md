@@ -234,7 +234,7 @@ The stack pass occupies a central position within pressure passing systems and i
 
 - [[Transitions/Knee Slice Pass]] - Common follow-up when opponent defends the stack by turning their knees to one side
 
-- [[Transitions/Bullfighter Pass]] - Alternative speed-based pass when opponent keeps knees wide to prevent stacking
+- [[Transitions/Toreando Pass]] - Alternative speed-based pass when opponent keeps knees wide to prevent stacking
 
 - [[Transitions/Pressure Pass]] - Related pressure-based passing approach often used in combination with stack mechanics
 

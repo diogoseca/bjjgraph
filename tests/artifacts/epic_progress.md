@@ -31,7 +31,12 @@ Quota resets Monday → all token-spending scheduled jobs run on the **weekend**
 - [x] **§A.6 votes refresh** (`votes-refresh.yml`, Sat 02:00) — no Claude, votes-only change detection, PR.
 - [x] **Adversarial review** (47-agent workflow, 39/40 verified) → applied 2 blockers + 5 highs + cheap nits; also fixed a latent positional-arg bug in the existing content bot.
 - [x] **§A.5 bot improvements** — `bot_metadata` added to all 8 schemas (fixes a latent bug: the bots already wrote it but `additionalProperties:false` rejected it); `select_oldest_files.sh` skips files improved within `SKIP_RECENT_DAYS` (default 14) so Sat content-bot + Sun analytics-bot don't double-touch; both bot prompts now write `bot_metadata` to the JSON source explicitly. — `v1.31.0`
-- [ ] **§B one-off corpus alias/sameAs audit** (after §A).
+- [x] **§B corpus alias/sameAs audit** — report `tests/artifacts/alias_audit_master.md` (+7 chunks) — `v1.32.1`.
+- [x] **§0.3 hub JSON-LD + sameAs** — `v1.32.0`.
+- [~] **§0.6 measurement baseline** — captured by the `seo-monitor` workflow's first run once merged to main (needs DataForSEO creds, already wired). No local code task.
+- [x] **§0.5 7-canonical alias minisprint + Toreando/Bullfighter merge** — `v1.33.0`. Aliases on RNC, Side Control, Toreando, Triangle, Armbar, Kimura, Mount; Bullfighter Pass merged into Toreando (alias + De La Riva edge folded + file deleted). Made `build_wikilink_resolver` alias-aware so references to merged names link to the canonical page. Graph back to 76-error baseline.
+- [ ] **§B-apply (remaining batches)** — apply the rest of the master report's high-confidence aliases (locks, judo throws, chokes, principles), sameAs (URL-verified), the other 4 merges (Knee Cut/Knee Slice, Darce/Brabo, Hip Bump V2 delete, Bridge/Upa), and the 11 disambiguation gaps.
+- [ ] **Epic B (phases 5-8)** — graph restructure.
 
 ### Open items needing a GitHub secret (flagged to user)
 - **`POSTHOG_PERSONAL_API_KEY`** (phx_ personal key): votes-refresh + seo-monitor reference it; empty = graceful skip. The project key (phc_) `POSTHOG_API_KEY` 401s on the read APIs. (Also affects the existing analytics bot's HogQL reads.)

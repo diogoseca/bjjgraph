@@ -116,6 +116,7 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
   "@type": "WebPage",
   "name": "Side Control Top",
   "description": "Master Side Control Top in BJJ. Complete guide to submissions, transitions, pressure control, and positional advancement from the dominant side position.",
+  "alternateName": ["Side Mount", "Yoko Shiho Gatame", "100 Kilos", "Cem Quilos"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Side Mount</strong>, <strong>Yoko Shiho Gatame</strong>, <strong>100 Kilos</strong>, <strong>Cem Quilos</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Side Control Top is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player pins the opponent from the side with their chest perpendicular to the opponent's torso while controlling their hips and head. Worth 3 points in IBJJF competition for passing the guard, this position offers exceptional control with minimal energy expenditure when executed correctly. It provides numerous submission opportunities, transitions to even more dominant positions like mount or back control, and presents significant defensive challenges for the bottom player. Side control is often considered the home base of top position work, as it offers stability, control, and offensive options while maintaining relatively low risk of reversal. The position's effectiveness comes from the mechanical advantage of perpendicular body positioning combined with strategic weight distribution that limits the opponent's movement while preserving the top player's mobility. Mastery of side control is essential for all BJJ practitioners, as it represents a critical stage in the positional hierarchy between guard passing and mount. From this position, the top player can methodically work toward submissions, advance to more dominant positions, or simply maintain control to manage energy and score points. The psychological advantage is also significant - being trapped under side control is one of the most uncomfortable experiences in BJJ, and the constant threat of submissions and position advancement forces the bottom player into reactive, often desperate escape attempts that can be countered and capitalized upon.

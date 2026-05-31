@@ -231,7 +231,7 @@ The Pressure Pass through Center occupies a specific niche in the guard passing 
 
 - [[Transitions/Cartwheel Pass]] - Alternative dynamic passing option against inverted guards
 
-- [[Transitions/Bullfighter Pass]] - Alternative speed-based pass using leg control from standing
+- [[Transitions/Toreando Pass]] - Alternative speed-based pass using leg control from standing
 
 
 </section>

@@ -17,6 +17,7 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
   "@type": "WebPage",
   "name": "Toreando Pass",
   "description": "Master the Toreando Pass in BJJ. Control opponent\u0027s legs, create angles, pass to dominant position. Success: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "alternateName": ["Bullfighter Pass", "Matador Pass", "Toreada Pass", "Toreador Pass"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Bullfighter Pass</strong>, <strong>Matador Pass</strong>, <strong>Toreada Pass</strong>, <strong>Toreador Pass</strong></p>
+</aside>
 <div class="role-links">
 
 [[Toreando Pass/Attacker|Play as Attacker]]
@@ -249,7 +253,7 @@ The Toreando Pass serves as a cornerstone technique in modern guard passing syst
 
 - [[Positions/Knee on Belly]] - Alternative end position - can transition here instead of side control
 
-- [[Transitions/Bullfighter Pass]] - Alternate name reference - Bullfighter Pass and Toreando Pass are the same technique
+- [[Transitions/Toreando Pass]] - Alternate name reference - Bullfighter Pass and Toreando Pass are the same technique
 
 - [[Positions/Open Guard]] - Starting position - primary guard configuration the Toreando is designed to pass
 

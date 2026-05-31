@@ -17,6 +17,7 @@ description: "Master Side Control in BJJ with complete guides for top pressure, 
   "@type": "WebPage",
   "name": "Side Control",
   "description": "Master Side Control in BJJ with complete guides for top pressure, submissions, escapes, and transitions. Techniques for dominant control and defensive recovery.",
+  "alternateName": ["Side Mount", "Yoko Shiho Gatame", "100 Kilos", "Cem Quilos"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Side Control in BJJ with complete guides for top pressure, 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Side Mount</strong>, <strong>Yoko Shiho Gatame</strong>, <strong>100 Kilos</strong>, <strong>Cem Quilos</strong></p>
+</aside>
 <div class="role-links">
 
 [[Side Control/Bottom|Play as Bottom]]

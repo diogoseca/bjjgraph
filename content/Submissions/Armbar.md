@@ -17,6 +17,7 @@ description: "Master the Armbar submission in BJJ. Complete guide covering setup
   "@type": "CollectionPage",
   "name": "Armbar",
   "description": "Master the Armbar submission in BJJ. Complete guide covering setups from mount, guard, back control, and side control with detailed mechanics and defense strategies.",
+  "alternateName": ["Juji Gatame", "Arm Bar", "Straight Armbar"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Armbar submission in BJJ. Complete guide covering setup
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Juji Gatame</strong>, <strong>Arm Bar</strong>, <strong>Straight Armbar</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

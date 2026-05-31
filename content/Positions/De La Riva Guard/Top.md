@@ -21,7 +21,7 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
