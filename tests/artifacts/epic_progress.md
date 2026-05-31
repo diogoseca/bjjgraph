@@ -20,6 +20,15 @@ The autonomous coding agent reads this on each session start and writes to it af
 - [ ] **§0.5** — 7-canonical alias minisprint (after §0.6 GSC baseline)
 - [ ] **Phase 5** — Graph data model restructure (collapse role nodes)
 
+## Automation strategy (plan §A/§B) — recurring Claude jobs
+
+Quota resets Monday → all token-spending scheduled jobs run on the **weekend** (leftover quota), lightest→heaviest. Uncommitted, ready for review/commit:
+- [x] **§A.1 graph-integrity CI gate** — `.github/workflows/ci-validate.yml` + `tests/artifacts/graph_validation_baseline.json` (ratchet @ max_errors 76). No Claude.
+- [x] **Cron moves** — content-bot Mon→**Sat 18:00** (`0 18 * * 6`); analytics-bot Wed→**Sun 06:00** (`0 6 * * 0`).
+- [x] **§A.2 proofread bot** — `.github/workflows/proofread-bot.yml` (**Sun 18:00**, raw `claude` CLI via `curl …install.sh`, `CLAUDE_CODE_OAUTH_TOKEN` auth, `--permission-mode dontAsk`); category rotation `tests/artifacts/proofread_state.json`; continue-on-error so quota-exhaustion is a clean no-op that doesn't advance the pointer; PR on success only.
+- [ ] **§A.3 validation-fixer** (Sat 12:00) · **§A.4 SEO monitor** (Sat 06:00, DataForSEO+PostHog) · **§A.5 bot improvements** (last_improved + dedup) · **§A.6 votes refresh** (Sat 02:00)
+- [ ] **§B one-off corpus alias/sameAs audit** (after §A)
+
 ## Open design questions surfaced during implementation (for reevaluation)
 
 1. **Cloudflare 301 vs Quartz alias-HTML precedence.** Phase 3 frontmatter

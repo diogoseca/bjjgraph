@@ -2,7 +2,7 @@ name: Analytics-Driven Content Improvement
 
 on:
   schedule:
-    - cron: '0 8 * * 3'  # Wednesday 8:00 AM UTC (mid-week, separate from Monday content bot)
+    - cron: '0 6 * * 0'  # Weekly Sunday 06:00 UTC. Quota resets Monday; weekends run on leftover tokens (plan §A.7).
   workflow_dispatch:
     inputs:
       num_files:

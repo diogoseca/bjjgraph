@@ -1,0 +1,5 @@
+{
+  "max_errors": 76,
+  "note": "Ratchet baseline for the ci-validate workflow. CI fails if validate_graph_integrity.py's error-severity count exceeds max_errors. This tolerates the existing backlog but blocks any NEW errors. As the validation-fixer bot (plan §A.3) drains the backlog, lower this number so the gate ratchets down and the debt cannot return.",
+  "captured": "2026-05-31 (v1.28.0): total_issues 651, errors 76, warnings 9, info 566; outcome_errors 70, orphaned_submissions 126, attempt_outliers 440"
+}

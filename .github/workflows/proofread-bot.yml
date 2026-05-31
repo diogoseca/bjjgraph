@@ -1,0 +1,172 @@
+name: Proofread Bot (weekly graph-edge audit)
+
+# Plan §A.2 — wires the manual proofread_all_transitions.py into a weekly,
+# category-rotating audit. Runs the raw `claude` CLI headlessly (the script
+# shells out to it) on Opus 4.8 1M @ xhigh, mutating JSON in place, then opens
+# a reviewed PR. Sunday 18:00 UTC is the LAST weekend slot (quota resets Monday;
+# this only sips leftover tokens — see plan §A.7). Token-exhaustion is safe:
+# the audit step is continue-on-error, so a dry/failed run produces no changes,
+# no PR, and does NOT advance the rotation pointer — it simply retries next week.
+
+on:
+  schedule:
+    - cron: "0 18 * * 0" # Sunday 18:00 UTC — leftover-quota slot (plan §A.7)
+  workflow_dispatch:
+    inputs:
+      category:
+        description: "Force category (Submissions|Transitions|Positions); blank = rotate"
+        required: false
+        default: ""
+      max_files:
+        description: "Max files to audit this run"
+        required: false
+        default: "30"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: proofread-bot
+  cancel-in-progress: false
+
+jobs:
+  proofread:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install jsonschema jinja2
+
+      - name: Install Claude CLI
+        run: |
+          curl -fsSL https://claude.ai/install.sh | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Determine category (rotation pointer)
+        id: rot
+        env:
+          FORCED_CATEGORY: ${{ github.event.inputs.category }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          order = ["Submissions", "Transitions", "Positions"]
+          forced = (os.environ.get("FORCED_CATEGORY") or "").strip()
+          state = Path("tests/artifacts/proofread_state.json")
+          if forced in order:
+              cat = forced
+          else:
+              try:
+                  cat = json.loads(state.read_text()).get("next", "Submissions")
+              except Exception:
+                  cat = "Submissions"
+              if cat not in order:
+                  cat = "Submissions"
+          nxt = order[(order.index(cat) + 1) % len(order)]
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"category={cat}\n")
+              f.write(f"next={nxt}\n")
+          print(f"Auditing category: {cat} (next rotation: {nxt})")
+          PY
+
+      - name: Proofread audit (mutates JSON in place)
+        id: audit
+        continue-on-error: true # quota exhaustion / partial run must not fail the job loudly
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          python3 scripts/proofread_all_transitions.py \
+            --category "${{ steps.rot.outputs.category }}" \
+            --max-files "${{ github.event.inputs.max_files || '30' }}" \
+            --batch
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if git diff --quiet -- content/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No JSON changes — no fixes needed or quota exhausted. Clean no-op; retries next Sunday."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected in content/ — validating and regenerating."
+          fi
+
+      - name: Validate + regenerate markdown (changed files only)
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          # Schema-validate every changed JSON; abort the PR if any is invalid.
+          # Process substitution keeps the loop in the current shell so `fail`
+          # persists; `IFS= read -r` handles the spaces in BJJ filenames.
+          fail=0
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            echo "Validating $f"
+            if python3 scripts/validate_json.py --file "$f" 2>&1 | grep -q "Valid"; then
+              python3 scripts/regenerate_md_from_json.py --file "$f"
+            else
+              echo "::error::Proofread produced invalid JSON ($f). Aborting PR; will retry next run."
+              fail=1
+            fi
+          done < <(git diff --name-only -- content/ | grep '\.json$')
+          [ "$fail" -eq 0 ]
+
+      - name: Advance rotation pointer (success only)
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          NEXT: ${{ steps.rot.outputs.next }}
+        run: |
+          mkdir -p tests/artifacts
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          Path("tests/artifacts/proofread_state.json").write_text(
+              json.dumps({"next": os.environ["NEXT"]}, indent=2) + "\n"
+          )
+          PY
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CATEGORY: ${{ steps.rot.outputs.category }}
+          NEXT: ${{ steps.rot.outputs.next }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          BRANCH="proofread-bot/${CATEGORY,,}-$(date +%Y%m%d-%H%M%S)"
+          git checkout -b "$BRANCH"
+          git add content/ tests/artifacts/proofread_state.json
+          JSON_N=$(git diff --cached --name-only -- content/ | grep -c '\.json$' || true)
+          git commit -m "Proofread audit: ${CATEGORY} (${JSON_N} files) — graph-edge/probability review"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+          git push origin "$BRANCH"
+          cat > /tmp/pr-body.md <<EOFBODY
+          ## Proofread audit — ${CATEGORY}
+
+          Automated graph-edge / probability audit by \`proofread_all_transitions.py\`
+          on **Opus 4.8 (1M) @ xhigh**, capped at ${{ github.event.inputs.max_files || '30' }} files.
+          Rotation pointer advanced to **${NEXT}**.
+
+          **Review focus:** outcome probabilities sum to 100, success rates are realistic,
+          and \`from_position\` / outcome targets are sane. The \`ci-validate\` gate runs on this PR.
+
+          JSON files changed: ${JSON_N}
+
+          🤖 Generated by the proofread-bot workflow (plan §A.2).
+          EOFBODY
+          gh pr create \
+            --title "Proofread audit: ${CATEGORY} ($(date +%Y-%m-%d))" \
+            --body-file /tmp/pr-body.md \
+            --base main \
+            --head "$BRANCH" \
+            --label automated
