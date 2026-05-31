@@ -2880,27 +2880,63 @@ body[data-slug="training"] .explorer-faded {
 // Background Graph — full-viewport graph behind content
 // ============================================================================
 
+// Scroll-driven drawer mechanic. Body scrollY is the source of truth.
+// contentPanel.inline.ts writes --drawer-progress (0..1) to :root on every
+// scroll frame (rAF-coalesced, passive). CSS reads it and paints the drawer
+// transform + overlay opacity directly. No JS-driven transitions on the hot
+// path — the only smooth-scroll comes from window.scrollTo({behavior:'smooth'})
+// on Ctrl+G / Escape / panel-toggle / graph-node-click.
+:root {
+  --drawer-progress: 0; // 0 = content (docked), 1 = graph (fully expanded)
+  --graph-peek: 50px;
+  --content-peek: 60px;
+}
+
+// Don't fight transform-positioned drawer on layout shifts.
+html {
+  overflow-anchor: none;
+  scroll-behavior: auto;
+  scroll-padding-top: 60px;
+}
+
+// 100svh sentinel above #quartz-root. Gives <body> scrollable height that the
+// drawer transform latches onto. Empty, decorative, never receives events.
+#scroll-runway {
+  height: 100svh;
+  width: 1px;
+  pointer-events: none;
+  position: relative;
+  z-index: -1;
+}
+
 // Dark blur overlay between graph and content (dark-mode only, hardcoded).
-// Opacity transition is injected per-direction by contentPanel.inline.ts so
-// the overlay can lead the card fade-out and lag its fade-in.
+// Opacity is a pure expression over --drawer-progress — no transition.
 #graph-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100svh;
   z-index: 1;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   pointer-events: none;
   will-change: opacity;
+  opacity: var(--drawer-progress);
 }
 
 // Content card floats above graph — 80% opaque drawer with rounded top bevel.
-// Transform transition is injected per-direction by contentPanel.inline.ts:
-// 450ms cubic-bezier(0.34, 1.56, 0.64, 1) forward (drawer thunks into dock),
-// 380ms cubic-bezier(0.4, 0, 0.2, 1) reverse (snappy return, no overshoot).
+// Transform is a pure expression over --drawer-progress. The card sits one
+// runway-height (100svh, via #scroll-runway above it) down the document, so at
+// the dock (scrollY = innerHeight) it renders at the viewport top. From there:
+//   progress 0 (content): translateY(content-peek)  → card top peeks below the
+//                          graph by content-peek px.
+//   progress 1 (graph):   translateY(-graph-peek)   → card slid fully down so
+//                          only its top graph-peek px (the title bar) peeks at
+//                          the bottom of the viewport.
+// Rendered top = naturalTop(100svh) - scrollY + translateY, which lands at
+// content-peek when docked and at (innerHeight - graph-peek) in graph mode.
 .page {
   background: color-mix(in srgb, var(--light) 80%, transparent);
   border-radius: 16px 16px 0 0;
@@ -2912,6 +2948,9 @@ body[data-slug="training"] .explorer-faded {
   position: relative;
   z-index: 2;
   will-change: transform;
+  transform: translateY(
+    calc(var(--content-peek) - (var(--graph-peek) + var(--content-peek)) * var(--drawer-progress))
+  );
 
   // Fluid side gap so the drawer floats over the graph (graph peeks on the
   // left/right, mirroring the top peek). 0 at/below the 800px mobile
@@ -2961,26 +3000,92 @@ html:not([data-spa-transition]) .page {
   }
 }
 
-// In content mode the graph is purely visual — pointer-events off so D3's
-// zoom-on-wheel handler can't intercept scroll events when the cursor hovers
-// over the 60px graph-peek strip above the article. Re-enabled in graph mode
-// AND on the home page (where the graph IS the hero — always interactive).
+// In content/transitioning modes the graph is purely visual — pointer-events
+// off so D3's zoom-on-wheel handler can't intercept scroll events when the
+// cursor hovers over the 60px graph-peek strip above the article. Re-enabled
+// in graph mode AND on the home page (where the graph IS the hero).
 #background-graph {
   pointer-events: none;
 }
 
 body[data-slug="index"] #background-graph,
+body[data-mode="graph"] #background-graph,
 body.graph-focused #background-graph {
   pointer-events: auto;
 }
 
-// Graph mode: full graph visible, title always peeks at the bottom (~50px)
+// Graph mode latch: freezes body scroll so wheel falls through to D3-zoom on
+// the canvas (mutual exclusion — exactly one handler owns wheel at any time).
+// .page transform is already driven by --drawer-progress which the scroll
+// listener pins at 1 when scrollY=0; no transform rule needed here.
+body[data-mode="graph"],
 body.graph-focused {
-  .page {
-    transform: translateY(calc(100vh - 50px));
+  overflow: hidden;
+}
+
+// Minimized (graph mode): the peeking title strip becomes a clickable title bar.
+// Lift it above the auto-opened tree drawer (#sidebar-overlay z3) so the title
+// reads clearly and clicks land on it (→ resume). Scoped to graph mode only; in
+// content mode the drawer stays on top (z3 > .page z2) while the user scrolls.
+body[data-mode="graph"] .page {
+  z-index: 4;
+  cursor: pointer;
+}
+
+// Collapse the title's dead top margin so the full line centers in the ~50px
+// peek — its 2rem top margin otherwise pushes the bottom half below the fold.
+// The transition lives on the base rule so the shift rides the mode latch
+// smoothly (both directions) instead of popping.
+.article-title {
+  transition: margin-top 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+body[data-mode="graph"] .article-title {
+  margin-top: 0.4rem;
+}
+
+// On mobile the canvas needs touch-action: none in graph mode so two-finger
+// pinches reach D3 instead of being captured for layout pan/zoom. Outside
+// graph mode, pan-y lets vertical swipes drive body scroll (the drawer).
+#background-graph {
+  touch-action: pan-y;
+}
+body[data-mode="graph"] #background-graph,
+body.graph-focused #background-graph,
+body[data-slug="index"] #background-graph {
+  touch-action: none;
+}
+
+// Anchor links land below the drawer dock (matches --content-peek).
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a[id] {
+  scroll-margin-top: 60px;
+}
+
+// Reduced-motion: parallax via native scroll is the user's gesture (allowed),
+// but explicit JS-driven smooth-scrolls collapse to instant (handled in JS).
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto; // belt-and-suspenders; JS already passes 'instant'
   }
-  #graph-overlay {
-    opacity: 0;
+}
+
+// Print: drawer is a static article; graph + runway hidden.
+@media print {
+  .page {
+    transform: none !important;
+    position: static !important;
+    box-shadow: none !important;
+    background: var(--light) !important;
+  }
+  #background-graph,
+  #graph-overlay,
+  #scroll-runway {
+    display: none !important;
   }
 }
 
@@ -3043,7 +3148,7 @@ body.graph-focused {
 body.graph-focused #panel-toggle {
   top: auto;
   right: auto;
-  bottom: calc(50px + 0.5rem); // sits just above the 50px title-peek strip
+  bottom: calc(var(--graph-peek) + 0.5rem); // sits just above the title-peek strip
   left: 50%;
   transform: translateX(-50%);
 
@@ -3148,6 +3253,15 @@ body.graph-focused #panel-toggle {
 body.drawer-open #sidebar-overlay {
   transform: translateX(0);
   pointer-events: auto;
+}
+
+// In graph mode the minimized title bar is lifted above the drawer's bottom edge
+// (body[data-mode="graph"] .page z4). Reserve that strip in the drawer's scroll
+// content so explorer items end above the bar instead of hiding under it — they
+// fade out cleanly via the sidebar's existing bottom mask. Height = the peeking
+// title strip + a UX margin.
+body[data-mode="graph"] #sidebar-overlay > .sidebar.left {
+  padding-bottom: calc(var(--graph-peek) + 1rem);
 }
 
 // Tree toggle button — top-left, mirrors the search button on top-right

@@ -25,10 +25,22 @@
   min-height: 0;
   position: relative;
 
+  // Render the scrollbar on the LEFT edge of the panel (visually adjacent to
+  // the article) by flipping direction; restore LTR on children so text reads
+  // normally. Mirrors the Explorer's .scrollable-list "categories scrollbar".
+  direction: rtl;
+
+  // Contain scroll so reaching top/bottom doesn't chain into the drawer.
+  overscroll-behavior: contain;
+
   // Shadow indicators for scrollable content
   box-shadow:
     inset 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.12),
     inset 0 -0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.12);
+
+  & > ul {
+    direction: ltr;
+  }
 
   & ul {
     list-style: none;

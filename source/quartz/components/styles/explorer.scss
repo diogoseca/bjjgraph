@@ -39,8 +39,10 @@
   // Render the webkit/Firefox scrollbar on the LEFT edge of the list while
   // keeping child layout LTR. Vertical mask gradient is unaffected.
   direction: rtl;
-  // Default `overscroll-behavior: auto` — when this inner list reaches its
-  // top/bottom edge, the scroll continues into the parent .explorer.
+  // Contain scroll: when this inner list reaches its top/bottom edge, do NOT
+  // chain to the parent .sidebar or <body> — otherwise reading the bottom of
+  // a long category list would expand the drawer / move the article.
+  overscroll-behavior: contain;
 
   // Fade mask: transparent at top/bottom edges, opaque in middle
   mask-image: linear-gradient(
