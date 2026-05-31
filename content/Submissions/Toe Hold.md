@@ -41,6 +41,7 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Ashi Dori Garami</strong>, <strong>American Toe Hold</strong></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Heel Hook|Heel Hook]]</strong> — the Heel Hook attacks the knee via the heel — a different joint</p>
 </aside>
 
 <section id="variants" class="content-section">

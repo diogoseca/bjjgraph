@@ -117,6 +117,7 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
   "name": "Side Control Bottom",
   "description": "Master escaping Side Control Bottom in BJJ. Systematic defensive frameworks covering frames, guard recovery, and escape techniques for all skill levels.",
   "alternateName": ["Side Mount", "Yoko Shiho Gatame", "100 Kilos", "Cem Quilos"],
+  "disambiguatingDescription": "Often confused with Shoulder of Justice \u2014 Shoulder of Justice is a high-pressure cross-face/jaw variant, not the general side-control position.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -158,6 +159,7 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Side Mount</strong>, <strong>Yoko Shiho Gatame</strong>, <strong>100 Kilos</strong>, <strong>Cem Quilos</strong> <span class="role-hint">(bottom)</span></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Shoulder of Justice|Shoulder of Justice]]</strong> — Shoulder of Justice is a high-pressure cross-face/jaw variant, not the general side-control position</p>
 </aside>
 <section id="overview" class="content-section">
 

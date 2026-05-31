@@ -38,6 +38,9 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/North-South|North-South]]</strong> — North-South is the control POSITION, not the choke finished from it</p>
+</aside>
 
 <section id="variants" class="content-section">
 

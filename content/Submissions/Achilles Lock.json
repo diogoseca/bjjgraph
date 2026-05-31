@@ -9,6 +9,12 @@
     "ankle-lock",
     "joint-lock"
   ],
+  "disambiguations": [
+    {
+      "name": "Straight Ankle Lock",
+      "reason": "the Straight Ankle Lock hyperextends the ankle joint rather than compressing the tendon"
+    }
+  ],
   "is_family": true,
   "submission_category": "Joint Lock",
   "submission_type": "Leg Lock",

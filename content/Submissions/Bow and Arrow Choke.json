@@ -12,6 +12,12 @@
     "hub",
     "finishing-guide"
   ],
+  "disambiguations": [
+    {
+      "name": "Loop Choke",
+      "reason": "the Loop Choke wraps the collar over the head from the front/side"
+    }
+  ],
   "is_family": true,
   "submission_category": "Choke",
   "submission_type": "Blood Choke",

@@ -13,6 +13,12 @@
     "guard",
     "blood-choke"
   ],
+  "disambiguations": [
+    {
+      "name": "Bow and Arrow Choke",
+      "reason": "the Bow and Arrow Choke uses a collar grip with a leg/lapel pull from the back"
+    }
+  ],
   "is_family": true,
   "submission_category": "Choke",
   "submission_type": "Blood Choke",

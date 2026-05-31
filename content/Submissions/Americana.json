@@ -13,6 +13,12 @@
     "hub",
     "finishing-guide"
   ],
+  "disambiguations": [
+    {
+      "name": "Kimura",
+      "reason": "the Kimura rotates the shoulder backward (opposite figure-four direction)"
+    }
+  ],
   "aliases": [
     "Ude Garami",
     "Key Lock",

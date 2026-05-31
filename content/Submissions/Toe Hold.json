@@ -12,6 +12,12 @@
     "hub",
     "finishing-guide"
   ],
+  "disambiguations": [
+    {
+      "name": "Heel Hook",
+      "reason": "the Heel Hook attacks the knee via the heel — a different joint"
+    }
+  ],
   "aliases": [
     "Ashi Dori Garami",
     "American Toe Hold"

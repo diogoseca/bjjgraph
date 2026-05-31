@@ -2,6 +2,12 @@
   "name": "North-South",
   "slug": "north-south",
   "description": "Master North-South position in BJJ. Complete guide covering top control dominance, bottom escape strategies, submission attacks, and positional transitions with expert analysis.",
+  "disambiguations": [
+    {
+      "name": "North-South Choke",
+      "reason": "the North-South Choke is a submission finished from this position, not the position itself"
+    }
+  ],
   "aliases": [
     "Kami Shiho Gatame",
     "North South Position",

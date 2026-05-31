@@ -18,6 +18,7 @@ description: "Master Side Control in BJJ with complete guides for top pressure, 
   "name": "Side Control",
   "description": "Master Side Control in BJJ with complete guides for top pressure, submissions, escapes, and transitions. Techniques for dominant control and defensive recovery.",
   "alternateName": ["Side Mount", "Yoko Shiho Gatame", "100 Kilos", "Cem Quilos"],
+  "disambiguatingDescription": "Often confused with Shoulder of Justice \u2014 Shoulder of Justice is a high-pressure cross-face/jaw variant, not the general side-control position.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -39,6 +40,7 @@ description: "Master Side Control in BJJ with complete guides for top pressure, 
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Side Mount</strong>, <strong>Yoko Shiho Gatame</strong>, <strong>100 Kilos</strong>, <strong>Cem Quilos</strong></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Shoulder of Justice|Shoulder of Justice]]</strong> — Shoulder of Justice is a high-pressure cross-face/jaw variant, not the general side-control position</p>
 </aside>
 <div class="role-links">
 

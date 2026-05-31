@@ -2,6 +2,12 @@
   "name": "Side Control",
   "slug": "side-control",
   "description": "Master Side Control in BJJ with complete guides for top pressure, submissions, escapes, and transitions. Techniques for dominant control and defensive recovery.",
+  "disambiguations": [
+    {
+      "name": "Shoulder of Justice",
+      "reason": "Shoulder of Justice is a high-pressure cross-face/jaw variant, not the general side-control position"
+    }
+  ],
   "aliases": [
     "Side Mount",
     "Yoko Shiho Gatame",

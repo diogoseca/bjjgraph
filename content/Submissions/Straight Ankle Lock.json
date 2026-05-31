@@ -10,6 +10,12 @@
     "ashi-garami",
     "lower-body-submission"
   ],
+  "disambiguations": [
+    {
+      "name": "Achilles Lock",
+      "reason": "the Achilles Lock compresses the Achilles tendon rather than hyperextending the ankle joint"
+    }
+  ],
   "is_family": true,
   "submission_category": "Joint Lock",
   "submission_type": "Ankle Lock",

@@ -38,6 +38,9 @@ description: "Master the Heel Hook in BJJ. Complete safety-first guide covering 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Toe Hold|Toe Hold]]</strong> — the Toe Hold attacks the ankle/foot via rotation — a different joint</p>
+</aside>
 
 <section id="variants" class="content-section">
 

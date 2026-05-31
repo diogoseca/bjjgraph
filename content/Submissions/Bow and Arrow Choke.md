@@ -38,6 +38,9 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Loop Choke|Loop Choke]]</strong> — the Loop Choke wraps the collar over the head from the front/side</p>
+</aside>
 
 <section id="variants" class="content-section">
 

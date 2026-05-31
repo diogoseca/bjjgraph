@@ -41,6 +41,7 @@ description: "Master the Americana shoulder lock from mount and side control. Co
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Ude Garami</strong>, <strong>Key Lock</strong>, <strong>Keylock</strong>, <strong>V-Lock</strong>, <strong>Figure-Four Armlock</strong></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Kimura|Kimura]]</strong> — the Kimura rotates the shoulder backward (opposite figure-four direction)</p>
 </aside>
 
 <section id="variants" class="content-section">

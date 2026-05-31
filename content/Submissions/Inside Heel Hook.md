@@ -38,6 +38,9 @@ description: "Master Inside Heel Hook in BJJ. Complete guide with safety protoco
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Outside Heel Hook|Outside Heel Hook]]</strong> — the Outside Heel Hook uses the opposite leg configuration and finishing rotation</p>
+</aside>
 
 <section id="variants" class="content-section">
 

@@ -38,6 +38,9 @@ description: "Master the Loop Choke in BJJ - deceptive collar choke from guard, 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Bow and Arrow Choke|Bow and Arrow Choke]]</strong> — the Bow and Arrow Choke uses a collar grip with a leg/lapel pull from the back</p>
+</aside>
 
 <section id="variants" class="content-section">
 

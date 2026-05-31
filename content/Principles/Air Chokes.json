@@ -12,6 +12,12 @@
     "windpipe",
     "intermediate"
   ],
+  "disambiguations": [
+    {
+      "name": "Blood Chokes",
+      "reason": "Blood Chokes compress the carotid arteries (vascular), a different mechanism"
+    }
+  ],
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Intermediate to Advanced",

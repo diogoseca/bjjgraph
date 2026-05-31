@@ -18,6 +18,7 @@ description: "Master North-South position in BJJ. Complete guide covering top co
   "name": "North-South",
   "description": "Master North-South position in BJJ. Complete guide covering top control dominance, bottom escape strategies, submission attacks, and positional transitions with expert analysis.",
   "alternateName": ["Kami Shiho Gatame", "North South Position", "69 Position"],
+  "disambiguatingDescription": "Often confused with North-South Choke \u2014 the North-South Choke is a submission finished from this position, not the position itself.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -39,6 +40,7 @@ description: "Master North-South position in BJJ. Complete guide covering top co
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Kami Shiho Gatame</strong>, <strong>North South Position</strong>, <strong>69 Position</strong></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/North-South Choke|North-South Choke]]</strong> — the North-South Choke is a submission finished from this position, not the position itself</p>
 </aside>
 <div class="role-links">
 

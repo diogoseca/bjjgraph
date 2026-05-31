@@ -12,6 +12,12 @@
     "vascular",
     "fundamental"
   ],
+  "disambiguations": [
+    {
+      "name": "Air Chokes",
+      "reason": "Air Chokes compress the trachea/windpipe (airway), a different mechanism"
+    }
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Expert",

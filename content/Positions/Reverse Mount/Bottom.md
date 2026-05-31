@@ -116,6 +116,7 @@ description: "Master defensive strategies from Reverse Mount Bottom. Learn syste
   "@type": "WebPage",
   "name": "Reverse Mount Bottom",
   "description": "Master defensive strategies from Reverse Mount Bottom. Learn systematic escapes, re-guards, and survival tactics from this critical defensive position.",
+  "disambiguatingDescription": "Often confused with Mount \u2014 Mount faces toward your opponent, not away.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master defensive strategies from Reverse Mount Bottom. Learn syste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Mount|Mount]]</strong> — Mount faces toward your opponent, not away</p>
+</aside>
 <section id="overview" class="content-section">
 
 Reverse Mount Bottom is a highly defensive position where the practitioner is mounted but facing away from their opponent, with the opponent's hips on their back or lower torso. This is an extremely vulnerable position that requires immediate defensive action to prevent submissions, particularly rear naked chokes and back takes. Unlike traditional mount bottom, the defender cannot use frames or visual cues as effectively, making this position particularly dangerous.

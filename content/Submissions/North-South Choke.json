@@ -14,6 +14,12 @@
     "hub",
     "finishing-guide"
   ],
+  "disambiguations": [
+    {
+      "name": "North-South",
+      "reason": "North-South is the control POSITION, not the choke finished from it"
+    }
+  ],
   "is_family": true,
   "submission_category": "Choke",
   "submission_type": "Blood Choke",

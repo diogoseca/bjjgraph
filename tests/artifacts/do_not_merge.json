@@ -2,19 +2,65 @@
   "$schema": "https://bjjgraph.org/schemas/do-not-merge.json",
   "description": "False-synonym pairs that the validator and content bot refuse to collapse into aliases, even if some external source suggests they're the same. Each pair MUST have reciprocal disambiguations[] entries on both files. See docs/Synonyms.md.",
   "pairs": [
-    ["Mount", "Reverse Mount"],
-    ["Ankle Lock", "Achilles Lock"],
-    ["Straight Ankle Lock", "Achilles Lock"],
-    ["Ankle Lock", "Straight Ankle Lock"],
-    ["Half Guard", "Half Mount"],
-    ["Turtle", "Crackhead Control"],
-    ["D'Arce Choke", "Anaconda Choke"],
-    ["Darce Choke", "Anaconda Choke"],
-    ["Toe Hold", "Heel Hook"],
-    ["Kimura", "Americana"],
-    ["North-South", "North-South Choke"],
-    ["Inside Heel Hook", "Outside Heel Hook"],
-    ["Side Control", "Shoulder of Justice"],
-    ["Bow and Arrow Choke", "Loop Choke"]
+    [
+      "Mount",
+      "Reverse Mount"
+    ],
+    [
+      "Ankle Lock",
+      "Achilles Lock"
+    ],
+    [
+      "Straight Ankle Lock",
+      "Achilles Lock"
+    ],
+    [
+      "Ankle Lock",
+      "Straight Ankle Lock"
+    ],
+    [
+      "Half Guard",
+      "Half Mount"
+    ],
+    [
+      "Turtle",
+      "Crackhead Control"
+    ],
+    [
+      "D'Arce Choke",
+      "Anaconda Choke"
+    ],
+    [
+      "Darce Choke",
+      "Anaconda Choke"
+    ],
+    [
+      "Toe Hold",
+      "Heel Hook"
+    ],
+    [
+      "Kimura",
+      "Americana"
+    ],
+    [
+      "North-South",
+      "North-South Choke"
+    ],
+    [
+      "Inside Heel Hook",
+      "Outside Heel Hook"
+    ],
+    [
+      "Side Control",
+      "Shoulder of Justice"
+    ],
+    [
+      "Bow and Arrow Choke",
+      "Loop Choke"
+    ],
+    [
+      "Blood Chokes",
+      "Air Chokes"
+    ]
   ]
 }

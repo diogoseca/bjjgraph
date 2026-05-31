@@ -116,6 +116,7 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
   "@type": "WebPage",
   "name": "Reverse Mount Top",
   "description": "Master Reverse Mount position in BJJ. Learn transitional control mechanics, conversions to mount and back control with strategic positioning.",
+  "disambiguatingDescription": "Often confused with Mount \u2014 Mount faces toward your opponent, not away.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Reverse Mount position in BJJ. Learn transitional control m
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Mount|Mount]]</strong> — Mount faces toward your opponent, not away</p>
+</aside>
 <section id="overview" class="content-section">
 
 Reverse Mount Top is a transitional dominant position where the practitioner sits on the opponent's chest or abdomen while facing away from their head, essentially mounted in the opposite direction from standard mount. This position scores 4 points (same as standard mount in IBJJF) but is inherently less stable and more difficult to maintain long-term. It typically occurs during scrambles, failed back take attempts, or when opponents turn away during standard mount control.

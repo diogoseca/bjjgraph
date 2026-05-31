@@ -38,6 +38,9 @@ description: "Master the Achilles Lock leg submission in BJJ. Complete guide cov
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Straight Ankle Lock|Straight Ankle Lock]]</strong> — the Straight Ankle Lock hyperextends the ankle joint rather than compressing the tendon</p>
+</aside>
 
 <section id="variants" class="content-section">
 

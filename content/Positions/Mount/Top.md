@@ -117,6 +117,7 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
   "name": "Mount Top",
   "description": "Master offensive strategies from top Mount in BJJ. Learn control mechanics, submission chains, and systematic positional progression to finish from mount.",
   "alternateName": ["Full Mount", "Tate Shiho Gatame"],
+  "disambiguatingDescription": "Often confused with Reverse Mount \u2014 Reverse Mount faces away from your opponent, not toward them.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -158,6 +159,7 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Full Mount</strong>, <strong>Tate Shiho Gatame</strong> <span class="role-hint">(top)</span></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Reverse Mount|Reverse Mount]]</strong> — Reverse Mount faces away from your opponent, not toward them</p>
 </aside>
 <section id="overview" class="content-section">
 

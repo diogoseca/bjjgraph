@@ -2,6 +2,12 @@
   "name": "Mount",
   "slug": "mount",
   "description": "Master the Mount position in BJJ. Complete guide to control, submission chains, escape systems, and mount variations for top and bottom practitioners.",
+  "disambiguations": [
+    {
+      "name": "Reverse Mount",
+      "reason": "Reverse Mount faces away from your opponent, not toward them"
+    }
+  ],
   "aliases": [
     "Full Mount",
     "Tate Shiho Gatame"

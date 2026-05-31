@@ -38,6 +38,9 @@ description: "Master the Straight Ankle Lock in BJJ. Complete guide with safety 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Achilles Lock|Achilles Lock]]</strong> — the Achilles Lock compresses the Achilles tendon rather than hyperextending the ankle joint</p>
+</aside>
 
 <section id="variants" class="content-section">
 

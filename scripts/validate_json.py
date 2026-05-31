@@ -248,10 +248,17 @@ def validate_disambiguations_reciprocal(data, category, json_path):
         other_name = (entry.get('name') or '').strip()
         if not other_name:
             continue
+        # Disambiguation targets can be cross-category (e.g. the North-South Choke
+        # submission points at the North-South position), so search every category.
         other_file = find_file_in_category(category, other_name)
         if not other_file:
+            for other_cat in CATEGORIES:
+                other_file = find_file_in_category(other_cat, other_name)
+                if other_file:
+                    break
+        if not other_file:
             warnings.append(
-                f"disambiguations: target '{other_name}' not found in {category}/"
+                f"disambiguations: target '{other_name}' not found in any category"
             )
             continue
         try:

@@ -15,6 +15,12 @@
     "hub",
     "finishing-guide"
   ],
+  "disambiguations": [
+    {
+      "name": "Darce Choke",
+      "reason": "the D'Arce threads under the opponent's near arm — opposite arm threading"
+    }
+  ],
   "is_family": true,
   "submission_category": "Choke",
   "submission_type": "Blood Choke",

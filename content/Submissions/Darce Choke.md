@@ -38,6 +38,9 @@ description: "Master the Darce Choke in BJJ. Complete guide covering setup requi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Anaconda Choke|Anaconda Choke]]</strong> — the Anaconda threads through toward the far/neck side — opposite arm threading</p>
+</aside>
 
 <section id="variants" class="content-section">
 

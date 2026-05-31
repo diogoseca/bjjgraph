@@ -13,6 +13,12 @@
     "finishing-guide",
     "no-gi"
   ],
+  "disambiguations": [
+    {
+      "name": "Inside Heel Hook",
+      "reason": "the Inside Heel Hook uses the opposite leg configuration and finishing rotation"
+    }
+  ],
   "is_family": true,
   "submission_category": "Joint Lock",
   "submission_type": "Leg Lock",

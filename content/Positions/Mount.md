@@ -18,6 +18,7 @@ description: "Master the Mount position in BJJ. Complete guide to control, submi
   "name": "Mount",
   "description": "Master the Mount position in BJJ. Complete guide to control, submission chains, escape systems, and mount variations for top and bottom practitioners.",
   "alternateName": ["Full Mount", "Tate Shiho Gatame"],
+  "disambiguatingDescription": "Often confused with Reverse Mount \u2014 Reverse Mount faces away from your opponent, not toward them.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -39,6 +40,7 @@ description: "Master the Mount position in BJJ. Complete guide to control, submi
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Full Mount</strong>, <strong>Tate Shiho Gatame</strong></p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Reverse Mount|Reverse Mount]]</strong> — Reverse Mount faces away from your opponent, not toward them</p>
 </aside>
 <div class="role-links">
 

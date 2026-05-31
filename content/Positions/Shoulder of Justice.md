@@ -17,6 +17,7 @@ description: "Master Shoulder of Justice side control in BJJ. Strategic guide co
   "@type": "WebPage",
   "name": "Shoulder of Justice",
   "description": "Master Shoulder of Justice side control in BJJ. Strategic guide covering shoulder pressure control, submissions, and transitions. Complete perspective analysis with 92% retention rate.",
+  "disambiguatingDescription": "Often confused with Side Control \u2014 Side Control is the general position; Shoulder of Justice is its concentrated shoulder-pressure variant.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Shoulder of Justice side control in BJJ. Strategic guide co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Side Control|Side Control]]</strong> — Side Control is the general position; Shoulder of Justice is its concentrated shoulder-pressure variant</p>
+</aside>
 <div class="role-links">
 
 [[Shoulder of Justice/Bottom|Play as Bottom]]

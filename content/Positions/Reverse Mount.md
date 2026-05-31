@@ -17,6 +17,7 @@ description: "Master Reverse Mount position in BJJ. Strategic guide covering tra
   "@type": "WebPage",
   "name": "Reverse Mount",
   "description": "Master Reverse Mount position in BJJ. Strategic guide covering transitional control mechanics, conversion to mount and back control, with complete perspective analysis.",
+  "disambiguatingDescription": "Often confused with Mount \u2014 Mount faces toward your opponent, not away.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Reverse Mount position in BJJ. Strategic guide covering tra
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Mount|Mount]]</strong> — Mount faces toward your opponent, not away</p>
+</aside>
 <div class="role-links">
 
 [[Reverse Mount/Bottom|Play as Bottom]]
