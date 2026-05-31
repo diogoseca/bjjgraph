@@ -63,6 +63,13 @@ const config: QuartzConfig = {
           graphPrinciple: "#66CCEE",
           graphSystem: "#4477AA",
           graphTag: "#CCBB44",
+          // Per-role strength ramp (graph fill: red = bad for viewer → blue = dominant).
+          // Zero is a warm neutral just off the page bg so neutral nodes recede.
+          strengthMinus1: "#c2331c",
+          strengthMinusHalf: "#e57878",
+          strengthZero: "#efe7dd",
+          strengthPlusHalf: "#6da3e8",
+          strengthPlus1: "#1f5fb8",
         },
         darkMode: {
           light: "#161618",
@@ -81,6 +88,13 @@ const config: QuartzConfig = {
           graphPrinciple: "#66CCEE",
           graphSystem: "#4477AA",
           graphTag: "#CCBB44",
+          // Per-role strength ramp (brightened for the dark canvas; zero recedes
+          // just above the dark page bg).
+          strengthMinus1: "#ff6f57",
+          strengthMinusHalf: "#d4574a",
+          strengthZero: "#2a2a2f",
+          strengthPlusHalf: "#5e9be0",
+          strengthPlus1: "#8fb6ff",
         },
       },
     },

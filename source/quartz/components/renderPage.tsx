@@ -834,10 +834,20 @@ export function renderPage(
   const graphPositionsJson = computePageGraphLayout(componentData.allFiles, slug)
 
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
+  // Viewer's role drives the graph's per-role strength colouring (red↔blue).
+  // Role pages carry it in the URL suffix; hub pages default to "top".
+  const currentRole = (() => {
+    const s = String(slug).toLowerCase()
+    if (s.endsWith("/top")) return "top"
+    if (s.endsWith("/bottom")) return "bottom"
+    if (s.endsWith("/attacker")) return "attacker"
+    if (s.endsWith("/defender")) return "defender"
+    return "top"
+  })()
   const doc = (
     <html lang={lang}>
       <Head {...componentData} />
-      <body data-slug={slug}>
+      <body data-slug={slug} data-current-role={currentRole}>
         {pageGraphDataJson && (
           <script
             type="application/json"
@@ -1055,33 +1065,48 @@ export function renderPage(
             <line x1="6" y1="6" x2="18" y2="18"></line>
           </svg>
         </button>
-        <div id="quartz-root" class="page">
-          <Body {...componentData}>
-            <div class="center">
-              <div class="page-header">
-                <Header {...componentData}>
-                  {header.map((HeaderComponent) => (
-                    <HeaderComponent {...componentData} />
-                  ))}
-                </Header>
-                <div class="popover-hint">
-                  {beforeBody.map((BodyComponent) => (
-                    <BodyComponent {...componentData} />
-                  ))}
+        {slug === ("index" as FullSlug) ? (
+          <div id="home-hero" class="home-hero">
+            <h1 class="article-title homepage-title">
+              BJJ Graph<span class="title-tld">.org</span>
+            </h1>
+            <p class="tagline">
+              <span class="tagline-line tagline-line-1">BJJ game, mapped.</span>
+              <span class="tagline-line tagline-line-2">Find a position, or try random roll.</span>
+            </p>
+          </div>
+        ) : (
+          <>
+            <div id="scroll-runway" aria-hidden="true" role="presentation"></div>
+            <div id="quartz-root" class="page">
+              <Body {...componentData}>
+                <div class="center">
+                  <div class="page-header">
+                    <Header {...componentData}>
+                      {header.map((HeaderComponent) => (
+                        <HeaderComponent {...componentData} />
+                      ))}
+                    </Header>
+                    <div class="popover-hint">
+                      {beforeBody.map((BodyComponent) => (
+                        <BodyComponent {...componentData} />
+                      ))}
+                    </div>
+                  </div>
+                  <Content {...componentData} />
+                  <hr />
+                  <div class="page-footer">
+                    {afterBody.map((BodyComponent) => (
+                      <BodyComponent {...componentData} />
+                    ))}
+                  </div>
                 </div>
-              </div>
-              <Content {...componentData} />
-              <hr />
-              <div class="page-footer">
-                {afterBody.map((BodyComponent) => (
-                  <BodyComponent {...componentData} />
-                ))}
-              </div>
+                {RightComponent}
+                <Footer {...componentData} />
+              </Body>
             </div>
-            {RightComponent}
-            <Footer {...componentData} />
-          </Body>
-        </div>
+          </>
+        )}
       </body>
       {pageResources.js
         .filter((resource) => resource.loadTime === "afterDOMReady")

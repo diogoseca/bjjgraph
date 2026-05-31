@@ -15,6 +15,12 @@ export interface ColorScheme {
   graphPrinciple: string
   graphSystem: string
   graphTag: string
+  // Per-role strength ramp (graph fill, red↔neutral↔blue, plan §6.7)
+  strengthMinus1: string
+  strengthMinusHalf: string
+  strengthZero: string
+  strengthPlusHalf: string
+  strengthPlus1: string
 }
 
 interface Colors {
@@ -64,6 +70,11 @@ ${stylesheet.join("\n\n")}
   --graphPrinciple: ${theme.colors.lightMode.graphPrinciple};
   --graphSystem: ${theme.colors.lightMode.graphSystem};
   --graphTag: ${theme.colors.lightMode.graphTag};
+  --strengthMinus1: ${theme.colors.lightMode.strengthMinus1};
+  --strengthMinusHalf: ${theme.colors.lightMode.strengthMinusHalf};
+  --strengthZero: ${theme.colors.lightMode.strengthZero};
+  --strengthPlusHalf: ${theme.colors.lightMode.strengthPlusHalf};
+  --strengthPlus1: ${theme.colors.lightMode.strengthPlus1};
 
   --headerFont: "${theme.typography.header}", ${DEFAULT_SANS_SERIF};
   --bodyFont: "${theme.typography.body}", ${DEFAULT_SANS_SERIF};
@@ -86,6 +97,11 @@ ${stylesheet.join("\n\n")}
   --graphPrinciple: ${theme.colors.darkMode.graphPrinciple};
   --graphSystem: ${theme.colors.darkMode.graphSystem};
   --graphTag: ${theme.colors.darkMode.graphTag};
+  --strengthMinus1: ${theme.colors.darkMode.strengthMinus1};
+  --strengthMinusHalf: ${theme.colors.darkMode.strengthMinusHalf};
+  --strengthZero: ${theme.colors.darkMode.strengthZero};
+  --strengthPlusHalf: ${theme.colors.darkMode.strengthPlusHalf};
+  --strengthPlus1: ${theme.colors.darkMode.strengthPlus1};
 }
 `
 }

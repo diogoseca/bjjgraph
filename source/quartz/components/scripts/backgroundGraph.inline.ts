@@ -13,10 +13,11 @@ import {
 } from "d3"
 import { Group as TweenGroup, Tween as Tweened } from "@tweenjs/tween.js"
 import { FullSlug, SimpleSlug, getFullSlug, resolveRelative, simplifySlug } from "../../util/path"
-import { crossfadeNavigate } from "./trainingSession"
 
 // --- Types ---
-type GlobalNode = { id: string; x: number; y: number; t: string; tags: string[] }
+// `s` = precomputed per-role strength pair injected by scripts/enrich_graph_strength.py:
+//   positions → [top, bottom]; transitions/submissions → [attacker, defender].
+type GlobalNode = { id: string; x: number; y: number; t: string; tags: string[]; s?: number[] }
 type GlobalLink = { source: string; target: string }
 type LayoutData = { nodes: GlobalNode[]; links: GlobalLink[] }
 type NodeEntry = {
@@ -36,6 +37,10 @@ let labelsContainer: Container | null = null
 let currentHighlight: string | null = null
 let currentTransform: ZoomTransform = zoomIdentity
 let d3ZoomBehavior: ZoomBehavior<HTMLCanvasElement, unknown> | null = null
+// The viewer's current role ("top"|"bottom"|"attacker"|"defender"), from
+// <body data-current-role>. Drives which half of each node's strength pair
+// colours it. Re-read on every SPA nav (highlightCurrentNode).
+let currentRole = "top"
 
 // Animation
 let animationRunning = false
@@ -68,6 +73,94 @@ function getContentTypeColor(nodeId: string, styles: Record<string, string>): st
   if (lower.startsWith("systems/")) return styles["--graphSystem"]
   if (lower.startsWith("tags/")) return styles["--graphTag"]
   return styles["--gray"]
+}
+
+// --- Per-role strength colouring (plan §6.7): map strength ∈ [-1,+1] onto a
+// red↔neutral↔blue ramp. Replaces category fill; type is now signalled by shape
+// (drawNode). Nodes without a strength pair (tags, stale/merged) fall back to
+// the category colour so the graph never shows an undrawn node. ---
+function parseColor(c: string): [number, number, number] {
+  const s = (c || "").trim()
+  if (s.startsWith("#")) {
+    let h = s.slice(1)
+    if (h.length === 3)
+      h = h
+        .split("")
+        .map((x) => x + x)
+        .join("")
+    return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)]
+  }
+  const m = s.match(/[\d.]+/g)
+  if (m && m.length >= 3) return [+m[0], +m[1], +m[2]]
+  return [128, 128, 128]
+}
+
+function rampColor(strength: number, styles: Record<string, string>): string {
+  const stops: Array<[number, string]> = [
+    [-1, styles["--strengthMinus1"]],
+    [-0.5, styles["--strengthMinusHalf"]],
+    [0, styles["--strengthZero"]],
+    [0.5, styles["--strengthPlusHalf"]],
+    [1, styles["--strengthPlus1"]],
+  ]
+  const v = Math.max(-1, Math.min(1, strength))
+  let lo = stops[0]
+  let hi = stops[stops.length - 1]
+  for (let i = 0; i < stops.length - 1; i++) {
+    if (v >= stops[i][0] && v <= stops[i + 1][0]) {
+      lo = stops[i]
+      hi = stops[i + 1]
+      break
+    }
+  }
+  const span = hi[0] - lo[0] || 1
+  const t = (v - lo[0]) / span
+  const a = parseColor(lo[1])
+  const b = parseColor(hi[1])
+  const mix = (i: number) => Math.round(a[i] + (b[i] - a[i]) * t)
+  return `rgb(${mix(0)},${mix(1)},${mix(2)})`
+}
+
+function pickStrength(node: GlobalNode, role: string): number | null {
+  if (!node.s || node.s.length < 2) return null
+  return role === "bottom" || role === "defender" ? node.s[1] : node.s[0]
+}
+
+function nodeTypeOf(id: string): "position" | "transition" | "submission" | "other" {
+  const l = id.toLowerCase()
+  if (l.startsWith("positions/")) return "position"
+  if (l.startsWith("transitions/")) return "transition"
+  if (l.startsWith("submissions/")) return "submission"
+  return "other"
+}
+
+function strengthColor(node: GlobalNode, role: string, styles: Record<string, string>): string {
+  const s = pickStrength(node, role)
+  return s === null ? getContentTypeColor(node.id, styles) : rampColor(s, styles)
+}
+
+// --- Draw a node: fill = per-role strength colour, shape/outline = type
+// (plan §6.8). Submissions wear a white "game-over portal" outline; transitions
+// are rounded rectangles ("verbs"); positions are plain circles ("states"). ---
+function drawNode(
+  gfx: Graphics,
+  node: GlobalNode,
+  role: string,
+  styles: Record<string, string>,
+): void {
+  gfx.clear()
+  const color = strengthColor(node, role, styles)
+  switch (nodeTypeOf(node.id)) {
+    case "submission":
+      gfx.circle(0, 0, 3).fill({ color })
+      gfx.circle(0, 0, 3).stroke({ width: 1.2, color: styles["--light"] || "#ffffff", alpha: 0.95 })
+      break
+    case "transition":
+      gfx.roundRect(-3.4, -2.2, 6.8, 4.4, 1.3).fill({ color })
+      break
+    default:
+      gfx.circle(0, 0, 3).fill({ color })
+  }
 }
 
 function startAnimation() {
@@ -138,6 +231,11 @@ function readCssVars(): Record<string, string> {
     "--graphPrinciple",
     "--graphSystem",
     "--graphTag",
+    "--strengthMinus1",
+    "--strengthMinusHalf",
+    "--strengthZero",
+    "--strengthPlusHalf",
+    "--strengthPlus1",
   ] as const
   return cssVars.reduce(
     (acc, key) => {
@@ -207,7 +305,7 @@ function emphasizeNeighborhood(centerId: string, duration: number): Promise<void
 
     for (const [id, node] of nodesMap) {
       if (id === centerId) {
-        tweenGroup.add(new Tweened(node.gfx.scale).to({ x: 2.5, y: 2.5 }, duration))
+        tweenGroup.add(new Tweened(node.gfx.scale).to({ x: 2.1, y: 2.1 }, duration))
         tweenGroup.add(new Tweened<Graphics>(node.gfx).to({ alpha: 1 }, duration))
         node.label.visible = true
       } else if (neighborIds.has(id)) {
@@ -249,6 +347,95 @@ function resetEmphasis() {
     node.gfx.scale.set(1, 1)
     node.label.visible = false
   }
+}
+
+// --- Animated settle: ease nodes from a click emphasis back toward rest,
+// keeping the just-navigated node at its 1.8x highlight (no instant pop). ---
+function settleEmphasis(keepId: string, duration: number) {
+  tweens.get("emphasis")?.stop()
+  const tweenGroup = new TweenGroup()
+  for (const [id, node] of nodesMap) {
+    const targetScale = id === keepId ? 1.8 : 1
+    if (node.gfx.scale.x !== targetScale) {
+      tweenGroup.add(new Tweened(node.gfx.scale).to({ x: targetScale, y: targetScale }, duration))
+    }
+    if (node.gfx.alpha !== 1) {
+      tweenGroup.add(new Tweened<Graphics>(node.gfx).to({ alpha: 1 }, duration))
+    }
+  }
+
+  // Current node label stays visible; the rest hide once the settle finishes.
+  const keep = nodesMap.get(keepId)
+  if (keep) keep.label.visible = true
+
+  if (tweenGroup.getAll().length === 0) {
+    for (const [id, node] of nodesMap) {
+      if (id !== keepId) node.label.visible = false
+    }
+    return
+  }
+
+  tweenGroup.getAll().forEach((tw) => tw.start())
+  tweens.set("emphasis", {
+    update(time: number) {
+      tweenGroup.update(time)
+      if (tweenGroup.allStopped()) {
+        for (const [id, node] of nodesMap) {
+          if (id !== keepId) node.label.visible = false
+        }
+        tweens.delete("emphasis")
+      }
+    },
+    stop() {
+      tweenGroup.getAll().forEach((tw) => tw.stop())
+      tweens.delete("emphasis")
+    },
+  })
+  startAnimation()
+}
+
+// --- Controlled drawer rise after a graph-click nav: tween body scrollY from
+// its current value to the dock (innerHeight) over `duration`, easing
+// cubic-bezier(0.4, 0, 0.2, 1). contentPanel's scroll listener turns each step
+// into --drawer-progress, so the drawer slides up and #graph-overlay fades while
+// the live WebGL graph stays on screen (never snapshotted). ---
+function riseToContent(duration: number) {
+  const startY = window.scrollY
+  const endY = window.innerHeight
+  if (Math.abs(endY - startY) < 1) return
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    window.scrollTo({ top: endY, behavior: "instant" as ScrollBehavior })
+    return
+  }
+  // cubic-bezier(0.4, 0, 0.2, 1) sampler (x -> y) via Newton-Raphson on t.
+  const ease = (x: number): number => {
+    const p1x = 0.4
+    const p2x = 0.2
+    const cx = 3 * p1x
+    const bx = 3 * (p2x - p1x) - cx
+    const ax = 1 - cx - bx
+    const cy = 0 // 3 * p1y, with p1y = 0
+    const by = 3 * 1 - cy // 3 * (p2y - p1y), with p1y = 0 and p2y = 1
+    const ay = 1 - cy - by
+    const sampleX = (t: number) => ((ax * t + bx) * t + cx) * t
+    const sampleY = (t: number) => ((ay * t + by) * t + cy) * t
+    let t = x
+    for (let i = 0; i < 5; i++) {
+      const err = sampleX(t) - x
+      if (Math.abs(err) < 1e-4) break
+      const slope = (3 * ax * t + 2 * bx) * t + cx
+      if (Math.abs(slope) < 1e-6) break
+      t -= err / slope
+    }
+    return sampleY(t)
+  }
+  const start = performance.now()
+  function frame(now: number) {
+    const t = Math.min(1, (now - start) / duration)
+    window.scrollTo(0, startY + (endY - startY) * ease(t))
+    if (t < 1) requestAnimationFrame(frame)
+  }
+  requestAnimationFrame(frame)
 }
 
 // --- Get camera state as [x, y, viewportWidth] ---
@@ -412,11 +599,13 @@ async function initializeBackgroundGraph(container: HTMLElement, slug: string) {
   // Read CSS vars
   const styles = readCssVars()
 
+  // Viewer's role drives per-role strength colouring (re-read on nav below).
+  currentRole = document.body.dataset.currentRole || "top"
+
   // Render all nodes
   for (const node of layoutData.nodes) {
-    const nodeColor = getContentTypeColor(node.id, styles)
     const gfx = new Graphics()
-    gfx.circle(0, 0, 3).fill({ color: nodeColor })
+    drawNode(gfx, node, currentRole, styles)
     gfx.position.set(node.x, node.y)
     gfx.eventMode = "static"
     gfx.cursor = "pointer"
@@ -474,6 +663,13 @@ async function initializeBackgroundGraph(container: HTMLElement, slug: string) {
   // Center on current node
   highlightCurrentNode(slug)
 
+  // Home: graph IS the hero — center via fit-all on first paint. Article pages
+  // don't need this; they center via __zoomOutReveal() when the user enters
+  // graph-focused mode.
+  if (document.body.dataset.slug === "index") {
+    fitAll(0)
+  }
+
   // Fade in: stage alpha 0 → 1 over 4s. Completes instantly if user goes to graph mode.
   const fadeDuration = 4000
   const fadeStart = performance.now()
@@ -516,10 +712,8 @@ async function initializeBackgroundGraph(container: HTMLElement, slug: string) {
   // Theme change listener
   document.addEventListener("themechange", () => {
     const newStyles = readCssVars()
-    for (const [id, node] of nodesMap) {
-      const color = getContentTypeColor(id, newStyles)
-      node.gfx.clear()
-      node.gfx.circle(0, 0, 3).fill({ color })
+    for (const [, node] of nodesMap) {
+      drawNode(node.gfx, node.data, currentRole, newStyles)
     }
     bgApp!.renderer.render(stage!)
   })
@@ -590,16 +784,16 @@ function setupZoomPan() {
 async function onNodeClick(node: GlobalNode) {
   // Only respond if in graph-focused mode
   if (!document.body.classList.contains("graph-focused")) return
+  // Re-entrancy guard: ignore extra clicks while a graph-click nav is in flight.
+  if ((window as any).__graphClickNav) return
 
   const fullSlug = getFullSlug(window)
   const targ = resolveRelative(fullSlug, node.id as SimpleSlug)
   const url = new URL(targ, window.location.toString())
 
-  // Warm the HTTP cache in parallel with the Van Wijk pan so that when
-  // crossfadeNavigate fires below, spaNavigate's internal fetch hits cache
-  // (~10ms) instead of waiting on the network. Without this, the view
-  // transition stalls between snapshot and animation while the fetch
-  // resolves, producing a visible pause before the drawer slides up.
+  // Warm the HTTP cache in parallel with the Van Wijk pan so spaNavigate's
+  // fetch below hits cache (~10ms) instead of the network — the new content
+  // morphs in immediately, with no stall before the drawer rise.
   fetch(url.toString(), { credentials: "same-origin" }).catch(() => {})
 
   const currentCam = getCameraState()
@@ -611,25 +805,62 @@ async function onNodeClick(node: GlobalNode) {
     emphasizeNeighborhood(node.id, 800),
   ])
 
-  // crossfadeNavigate wraps spaNavigate in document.startViewTransition so
-  // the .page drawer auto-interpolates its translateY (graph-mode bottom-peek
-  // → content-mode top) and cross-fades the article body to the new page in
-  // one smooth gesture.
-  crossfadeNavigate(url)
+  // Keep the WebGL graph live (no view transition): morph the new article into
+  // the drawer while it stays docked at the bottom (the bottom title peek shows
+  // the new page), then animate the drawer up with a controlled rise. The
+  // __graphClickNav flag tells contentPanel's nav handler to stay in graph mode
+  // and highlightCurrentNode to skip its own snap, so we own the single rise.
+  const spa = (window as any).spaNavigate as
+    | ((u: URL, isBack?: boolean) => Promise<void>)
+    | undefined
+  if (typeof spa !== "function") {
+    window.location.href = url.toString()
+    return
+  }
+  ;(window as any).__graphClickNav = true
+  try {
+    await spa(url, false)
+  } finally {
+    ;(window as any).__graphClickNav = false
+  }
+  riseToContent(550)
 }
 
 // --- Highlight current page's node + pan camera ---
 // Zooms 10x into the current node so it shows in the peek strip above the content card.
 function highlightCurrentNode(slug: string) {
-  resetEmphasis()
+  const graphClick = !!(window as any).__graphClickNav
 
   const simpleSlug = simplifySlug(slug as FullSlug).replace(/\/$/, "")
   const hubSlug = getHubSlug(simpleSlug)
   currentHighlight = hubSlug
 
+  // Re-read the viewer's role on nav; recolour all nodes when it flips (e.g.
+  // navigating /Mount/Top → /Mount/Bottom turns the Mount node blue → red).
+  const role = document.body.dataset.currentRole || "top"
+  if (role !== currentRole && stage && bgApp) {
+    currentRole = role
+    const styles = readCssVars()
+    for (const [, node] of nodesMap) drawNode(node.gfx, node.data, currentRole, styles)
+    bgApp.renderer.render(stage)
+  }
+
   // Reset first-reveal flag on each navigation
   firstRevealDone = false
   userHasInteractedWithZoom = false
+
+  if (graphClick) {
+    // Graph-click nav: ease the click emphasis (clicked node 2.1x) down to the
+    // 1.8x highlight and neighbors back to rest — no instant pop. onNodeClick
+    // owns the camera framing (already panned) and the drawer rise, so skip the
+    // re-pan and the snap here.
+    settleEmphasis(hubSlug, 350)
+    const settled = nodesMap.get(hubSlug)
+    if (settled) settled.label.visible = true
+    return
+  }
+
+  resetEmphasis()
 
   const current = nodesMap.get(hubSlug)
   if (current) {
