@@ -261,7 +261,7 @@ jobs:
           ---
           **Workflow**: Analytics-Driven Content Improvement
           **Run ID**: ${{ github.run_id }}
-          **Model**: Claude Opus 4.6
+          **Model**: Claude Opus 4.8 (1M) @ xhigh
           **Data Source**: PostHog (last 14 days)
           EOFBODY
 

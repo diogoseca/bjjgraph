@@ -103,7 +103,7 @@ jobs:
                 echo "  → Running regenerate_content_json.py to fill template..."
 
                 chmod +x ./scripts/regenerate_content_json.py
-                if ./scripts/regenerate_content_json.py "$file"; then
+                if ./scripts/regenerate_content_json.py --file "$file" --batch; then
                   echo "  ✓ Template filled successfully"
                 else
                   echo "  ✗ regenerate_content_json.py failed - skipping this file"
@@ -489,7 +489,7 @@ jobs:
                 ((++attempts))
                 echo "    Attempt $attempts/3..."
 
-                if ./scripts/regenerate_content_json.py "$file"; then
+                if ./scripts/regenerate_content_json.py --file "$file" --batch; then
                   if python3 scripts/validate_json.py --file "$file" 2>&1 | grep -q "Valid"; then
                     echo "    ✓ Fixed successfully"
                     UPDATED_FILES="${UPDATED_FILES}${file}"$'\n'
@@ -673,7 +673,7 @@ jobs:
           **Run ID**: ${{ github.run_id }}
           **Timestamp**: $(date -u '+%Y-%m-%dT%H:%M:%SZ')
           **Selection**: Git creation date (oldest files)
-          **Model**: Claude Opus 4.6
+          **Model**: Claude Opus 4.8 (1M) @ xhigh
           EOFBODY
 
           PR_URL=$(gh pr create \

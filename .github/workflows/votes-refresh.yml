@@ -1,0 +1,79 @@
+name: Votes Refresh (weekly)
+
+# Plan §A.6 — weekly community-vote sync. No Claude. Sat 02:00 UTC is the cheapest
+# weekend slot (plan §A.7). Opens a PR rather than pushing to main directly, because
+# deploy.yaml redeploys on ANY push to main — a reviewed/auto-mergeable PR keeps the
+# vote refresh from silently triggering a production deploy.
+
+on:
+  schedule:
+    - cron: "0 2 * * 6" # Saturday 02:00 UTC (plan §A.7)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: votes-refresh
+  cancel-in-progress: false
+
+jobs:
+  votes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install jsonschema jinja2
+
+      - name: Refresh votes (PostHog) + regenerate graph
+        env:
+          # regenerate_votes.py needs a PostHog PERSONAL key (phx_) for the Events API.
+          # POSTHOG_API_KEY is the project/capture key (phc_) and would 401, so we
+          # reference a dedicated POSTHOG_PERSONAL_API_KEY secret. If it doesn't exist
+          # the value is empty and the script takes its genuine unset-skip path
+          # (seed-only, no sync) — set the secret to enable real vote sync.
+          POSTHOG_PERSONAL_API_KEY: ${{ secrets.POSTHOG_PERSONAL_API_KEY }}
+          POSTHOG_PROJECT_ID: "236155"
+        run: |
+          python3 scripts/regenerate_votes.py
+          python3 scripts/regenerate_graph.py
+
+      - name: Detect changes
+        id: changes
+        run: |
+          # Gate on votes.json only — graph.json carries an always-changing
+          # meta.generated timestamp, so diffing it would open a no-op PR every week.
+          if git diff --quiet -- templates/votes.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No vote changes this week — clean no-op."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          BRANCH="votes-refresh/$(date +%Y%m%d-%H%M%S)"
+          git checkout -b "$BRANCH"
+          git add templates/votes.json graph.json
+          git commit -m "Votes refresh ($(date +%Y-%m-%d)) — PostHog community-vote sync + graph regen"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "Votes refresh ($(date +%Y-%m-%d))" \
+            --body "Mechanical weekly community-vote sync (PostHog) + graph regeneration. No Claude. Validated inline; safe to merge." \
+            --base main \
+            --head "$BRANCH"
+          gh pr edit "$BRANCH" --add-label automated || true

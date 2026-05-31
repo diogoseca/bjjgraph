@@ -1216,6 +1216,7 @@ def call_claude(prompt: str, response_schema: dict, timeout: int = 1800) -> Tupl
                 "-p", "-",
                 "--model", CLAUDE_MODEL,
                 "--effort", CLAUDE_EFFORT,
+                "--permission-mode", "dontAsk",  # locked-down: pure inference, no tools (CI-safe)
                 "--output-format", "json",
                 "--json-schema", json.dumps(response_schema)
             ],

@@ -26,8 +26,17 @@ Quota resets Monday → all token-spending scheduled jobs run on the **weekend**
 - [x] **§A.1 graph-integrity CI gate** — `.github/workflows/ci-validate.yml` + `tests/artifacts/graph_validation_baseline.json` (ratchet @ max_errors 76). No Claude.
 - [x] **Cron moves** — content-bot Mon→**Sat 18:00** (`0 18 * * 6`); analytics-bot Wed→**Sun 06:00** (`0 6 * * 0`).
 - [x] **§A.2 proofread bot** — `.github/workflows/proofread-bot.yml` (**Sun 18:00**, raw `claude` CLI via `curl …install.sh`, `CLAUDE_CODE_OAUTH_TOKEN` auth, `--permission-mode dontAsk`); category rotation `tests/artifacts/proofread_state.json`; continue-on-error so quota-exhaustion is a clean no-op that doesn't advance the pointer; PR on success only.
-- [ ] **§A.3 validation-fixer** (Sat 12:00) · **§A.4 SEO monitor** (Sat 06:00, DataForSEO+PostHog) · **§A.5 bot improvements** (last_improved + dedup) · **§A.6 votes refresh** (Sat 02:00)
-- [ ] **§B one-off corpus alias/sameAs audit** (after §A)
+- [x] **§A.3 validation-fixer** (`validation-fixer.yml`, Sat 12:00) — deterministic fix_from_position + capped Claude pass on missing_outcomes.
+- [x] **§A.4 SEO monitor** (`seo-monitor.yml`, Sat 06:00) — DataForSEO SERP + PostHog HogQL → report on `seo-reports` side branch (no deploy trigger) + artifact.
+- [x] **§A.6 votes refresh** (`votes-refresh.yml`, Sat 02:00) — no Claude, votes-only change detection, PR.
+- [x] **Adversarial review** (47-agent workflow, 39/40 verified) → applied 2 blockers + 5 highs + cheap nits; also fixed a latent positional-arg bug in the existing content bot.
+- [ ] **§A.5 bot improvements** (last_improved + dedup) — DEFERRED.
+- [ ] **§B one-off corpus alias/sameAs audit** (after §A).
+
+### Open items needing a GitHub secret (flagged to user)
+- **`POSTHOG_PERSONAL_API_KEY`** (phx_ personal key): votes-refresh + seo-monitor reference it; empty = graceful skip. The project key (phc_) `POSTHOG_API_KEY` 401s on the read APIs. (Also affects the existing analytics bot's HogQL reads.)
+- **`BOT_PR_TOKEN`** (repo PAT): bot PRs opened with the default `github.token` do NOT trigger `ci-validate` (GitHub suppresses workflow-triggered events). Bot PRs are validated INLINE; a PAT would also let `ci-validate` run on them. Until then, rely on inline validation + human review on bot PRs; `ci-validate` covers human PRs.
+- Nits left: `setup-python@v4`→`v5` (deprecation warning), `grep "Valid"` gates in the two existing bots (work by luck), `timeout-minutes` hygiene.
 
 ## Open design questions surfaced during implementation (for reevaluation)
 

@@ -28,7 +28,11 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
-from tqdm import tqdm
+try:
+    from tqdm import tqdm
+except ImportError:  # CI / minimal envs without tqdm — degrade to a plain iterator
+    def tqdm(iterable=None, *args, **kwargs):
+        return iterable if iterable is not None else []
 
 # =============================================================================
 # CONSTANTS

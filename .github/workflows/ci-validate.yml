@@ -41,30 +41,33 @@ jobs:
           python-version: "3.11"
 
       - name: Install Python dependencies
-        run: pip install jsonschema jinja2
+        run: pip install jsonschema
 
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
 
       - name: Graph integrity (ratchet against baseline)
         run: |
-          # The validator exits non-zero on the existing backlog, so don't let its
-          # exit code fail the job directly — we ratchet against the baseline below.
+          # Remove any committed/stale report first: the validator exits non-zero on
+          # the existing backlog (so we can't gate on its exit code), and `|| true`
+          # would otherwise let a CRASHED validator fall through to a stale report and
+          # pass. With the file gone, a crash makes json.load raise -> step fails.
+          rm -f tests/artifacts/audit_report.json
           python3 scripts/validate_graph_integrity.py || true
           python3 - <<'PY'
           import json, os, sys
 
-          report = json.load(open("tests/artifacts/audit_report.json"))
+          report = json.load(open("tests/artifacts/audit_report.json"))  # FileNotFoundError if validator crashed
           baseline = json.load(open("tests/artifacts/graph_validation_baseline.json"))
           s = report["summary"]
-          errs, cap = s["errors"], baseline["max_errors"]
+          errs, cap = s["errors"], baseline["max_errors"]  # strict: missing core field -> fail closed
 
           summary = (
               "## Graph validation\n"
               f"- **errors: {errs}** (baseline cap {cap})\n"
-              f"- warnings: {s['warnings']} · info: {s['info']} · total: {s['total_issues']}\n"
-              f"- orphaned_submissions: {s['orphaned_submissions']} · "
-              f"outcome_errors: {s['outcome_errors']} · attempt_outliers: {s['attempt_outliers']}\n"
+              f"- warnings: {s.get('warnings','?')} · info: {s.get('info','?')} · total: {s.get('total_issues','?')}\n"
+              f"- orphaned_submissions: {s.get('orphaned_submissions','?')} · "
+              f"outcome_errors: {s.get('outcome_errors','?')} · attempt_outliers: {s.get('attempt_outliers','?')}\n"
           )
           with open(os.environ.get("GITHUB_STEP_SUMMARY", "/dev/stdout"), "a") as f:
               f.write(summary + "\n")
@@ -72,9 +75,10 @@ jobs:
 
           if errs > cap:
               print(
-                  f"::error::Graph error-severity issues rose to {errs}, exceeding the "
-                  f"baseline of {cap}. Fix the new error(s) before merging. (The ratchet "
-                  f"in tests/artifacts/graph_validation_baseline.json only moves DOWN.)"
+                  f"::error::Graph error-severity issues rose to {errs}, exceeding the baseline "
+                  f"of {cap}. Fix the new error(s) before merging. (The baseline in "
+                  f"tests/artifacts/graph_validation_baseline.json is lowered by a human as the "
+                  f"backlog drains — it never auto-raises.)"
               )
               sys.exit(1)
           print(f"OK: {errs} error(s) <= baseline {cap}")
