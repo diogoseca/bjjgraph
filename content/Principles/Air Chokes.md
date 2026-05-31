@@ -142,18 +142,21 @@ description: "Understand air choke mechanics in BJJ. Learn tracheal compression 
 }
 </script>
 
-> Air Chokes is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Intermediate to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Intermediate to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Intermediate to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Air Chokes?
+## What are Air Chokes?
 
 Air chokes restrict the opponent's breathing by compressing the trachea (windpipe), preventing airflow to the lungs. Unlike blood chokes that cut circulation to the brain and cause unconsciousness in seconds, air chokes create a suffocation effect that forces a tap through oxygen deprivation and the panic of being unable to breathe. This makes air chokes generally slower to finish than blood chokes, but they remain a viable and sometimes unavoidable finishing mechanic, particularly when the choking angle compresses the front of the throat rather than the sides of the neck.
 

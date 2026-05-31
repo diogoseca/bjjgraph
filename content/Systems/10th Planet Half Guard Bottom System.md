@@ -134,10 +134,13 @@ description: "Master 10th Planet Half Guard Bottom System with Lockdown, Electri
 }
 </script>
 
-> 10th Planet Half Guard Bottom System is a intermediate difficulty Guard System system. Integrates 5 components.
 
-**System Type**: Guard System
-**Difficulty Level**: Intermediate
+
+
+<div class="principle-meta">
+<span class="meta-chip">Guard System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

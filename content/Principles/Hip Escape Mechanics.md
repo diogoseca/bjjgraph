@@ -142,18 +142,21 @@ description: "Master hip escape mechanics in BJJ. Learn coordinated bridging, fr
 }
 </script>
 
-> Hip Escape Mechanics is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Hip Escape Mechanics?
+## What are Hip Escape Mechanics?
 
 Hip Escape Mechanics represents the fundamental biomechanical framework for creating space and escaping inferior positions through coordinated hip movement, bridging, and frame utilization. Unlike specific escape techniques, hip escape mechanics is a comprehensive conceptual system that applies across all bottom positions where the practitioner must create distance from the opponent's pressure and control. This concept encompasses the coordinated sequence of bridging to create initial space, framing to maintain separation, hip rotation to generate distance, and leg recovery to reestablish defensive positioning. Hip escape mechanics serves as both the primary escape methodology from pins and mounted positions, and the foundational movement pattern for guard recovery and defensive repositioning. The ability to execute effective hip escapes often determines whether a practitioner remains trapped in inferior positions or successfully recovers to neutral or advantageous states, making it one of the most essential survival skills in BJJ.
 

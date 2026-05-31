@@ -142,18 +142,21 @@ description: "Understand crank mechanics in BJJ. Learn spinal rotation risks, ne
 }
 </script>
 
-> Cranks is a high complexity BJJ principle applicable at the Intermediate level. Develop over Intermediate to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: High
-**Development Timeline**: Intermediate to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">High complexity</span>
+<span class="meta-chip">Intermediate to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Cranks?
+## What are Cranks?
 
 Cranks are submissions that force the spine, neck, or jaw beyond their safe range of motion through rotational, lateral, or compressive force. Unlike chokes that target blood vessels or airflow, and unlike joint locks that hyperextend limbs, cranks attack the vertebral column and surrounding structures directly. The twister, can opener, neck cranks from back control, and various spine locks all operate through this mechanism. Cranks are among the most controversial techniques in Brazilian Jiu-Jitsu because they carry a high risk of serious injury to the cervical spine, including herniated discs, ligament tears, and nerve damage.
 

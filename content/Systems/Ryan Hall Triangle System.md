@@ -148,10 +148,13 @@ description: "Master Ryan Hall's Triangle System. Comprehensive framework connec
 }
 </script>
 
-> Ryan Hall Triangle System is a advanced difficulty Submission Chain system. Integrates 6 components.
 
-**System Type**: Submission Chain
-**Difficulty Level**: Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Submission Chain</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

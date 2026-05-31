@@ -134,10 +134,13 @@ description: "Master standing defense with systematic framework for takedown pre
 }
 </script>
 
-> Standing Defense Strategy is a intermediate difficulty Defense System system. Integrates 4 components.
 
-**System Type**: Defense System
-**Difficulty Level**: Intermediate
+
+
+<div class="principle-meta">
+<span class="meta-chip">Defense System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

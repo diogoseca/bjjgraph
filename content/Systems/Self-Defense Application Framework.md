@@ -134,10 +134,13 @@ description: "Master self-defense applications of BJJ with systematic framework 
 }
 </script>
 
-> Self-Defense Application Framework is a intermediate difficulty Training Methodology system. Integrates 4 components.
 
-**System Type**: Training Methodology
-**Difficulty Level**: Intermediate
+
+
+<div class="principle-meta">
+<span class="meta-chip">Training Methodology</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

@@ -142,11 +142,14 @@ description: "Master Leg Entanglement principles in BJJ. Learn systematic lower 
 }
 </script>
 
-> Leg Entanglement is a high complexity BJJ principle applicable at the Intermediate level. Develop over Intermediate to Expert.
 
-**Application Level**: Intermediate
-**Complexity**: High
-**Development Timeline**: Intermediate to Expert
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">High complexity</span>
+<span class="meta-chip">Intermediate to Expert</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

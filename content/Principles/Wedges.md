@@ -142,18 +142,21 @@ description: "Master wedges in BJJ. Learn to insert knees, elbows, shins, and fo
 }
 </script>
 
-> Wedges is a low complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Low
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Low complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Wedges?
+## What are Wedges?
 
 Wedges are one of the oldest mechanical principles in human toolmaking, and they appear everywhere in Brazilian Jiu-Jitsu. A wedge is any body part inserted into a gap to pry space open, redirect force along a new vector, or block an opponent's movement path. The knee shield in half guard is a wedge. The elbow driven inside an opponent's thigh during a guard pass is a wedge. The shin inserted across an opponent's hip line to retain guard is a wedge. Every time you slide a forearm under a chin, post a knee between entangled legs, or drive an elbow into the crease of someone's hip, you are applying wedge mechanics.
 

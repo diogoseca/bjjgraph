@@ -134,10 +134,13 @@ description: "Master Garry Tonon's leg lock to back system. Learn seamless trans
 }
 </script>
 
-> Garry Tonon Leg Lock to Back System is a advanced difficulty Attack System system. Integrates 5 components.
 
-**System Type**: Attack System
-**Difficulty Level**: Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Attack System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

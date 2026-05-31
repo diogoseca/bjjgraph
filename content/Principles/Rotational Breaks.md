@@ -142,18 +142,21 @@ description: "Master rotational submission mechanics in BJJ. Learn how twisting 
 }
 </script>
 
-> Rotational Breaks is a high complexity BJJ principle applicable at the Intermediate level. Develop over Intermediate to Expert.
 
-**Application Level**: Intermediate
-**Complexity**: High
-**Development Timeline**: Intermediate to Expert
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">High complexity</span>
+<span class="meta-chip">Intermediate to Expert</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Rotational Breaks?
+## What are Rotational Breaks?
 
 Rotational breaks are the submission mechanic that exploits a joint's limited rotational range of motion by applying twisting force past its anatomical limit. While hyperextension attacks like armbars push a joint in one linear plane, rotational breaks twist the joint along its rotational axis, attacking ligaments and tendons that resist rotation. The shoulder's internal and external rotation limits are exploited by the Kimura and Americana respectively. The knee's rotational vulnerability is exploited by inside and outside heel hooks. Even the spine's rotational limits come into play with twisting attacks like the Twister.
 

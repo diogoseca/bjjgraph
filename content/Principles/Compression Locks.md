@@ -142,18 +142,21 @@ description: "Master compression lock mechanics in BJJ. Learn how crushing muscl
 }
 </script>
 
-> Compression Locks is a high complexity BJJ principle applicable at the Advanced level. Develop over Intermediate to Expert.
 
-**Application Level**: Advanced
-**Complexity**: High
-**Development Timeline**: Intermediate to Expert
+
+
+<div class="principle-meta">
+<span class="meta-chip">Advanced</span>
+<span class="meta-chip">High complexity</span>
+<span class="meta-chip">Intermediate to Expert</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Compression Locks?
+## What are Compression Locks?
 
 Compression locks are submissions that cause pain and potential injury by crushing soft tissue — muscle, tendons, or nerves — against bone using a wedging or scissoring action. Unlike joint locks that attack ligaments at a joint's end range, compression locks work by trapping a limb segment and driving a hard surface (typically a shin, forearm, or wrist bone) into the soft tissue on the opposite side. The classic examples are the calf slicer (shin driven into the calf muscle against the femur), the bicep slicer (forearm driven into the bicep against the humerus), and chest compression attacks where the ribcage is used as a crushing surface.
 

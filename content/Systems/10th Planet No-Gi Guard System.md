@@ -134,10 +134,13 @@ description: "Master 10th Planet No-Gi Guard System with rubber guard, lockdown,
 }
 </script>
 
-> 10th Planet No-Gi Guard System is a advanced difficulty Guard System system. Integrates 4 components.
 
-**System Type**: Guard System
-**Difficulty Level**: Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Guard System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

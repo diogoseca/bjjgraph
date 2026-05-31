@@ -142,10 +142,13 @@ description: "Master Rubber Guard to Triangle System. Framework connecting rubbe
 }
 </script>
 
-> Rubber Guard to Triangle System is a advanced difficulty Submission Chain system. Integrates 5 components.
 
-**System Type**: Submission Chain
-**Difficulty Level**: Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Submission Chain</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

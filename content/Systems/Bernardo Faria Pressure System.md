@@ -140,10 +140,13 @@ description: "Master Bernardo Faria's legendary pressure passing system. Learn s
 }
 </script>
 
-> Bernardo Faria Pressure System is a intermediate difficulty Passing System system. Integrates 5 components.
 
-**System Type**: Passing System
-**Difficulty Level**: Intermediate
+
+
+<div class="principle-meta">
+<span class="meta-chip">Passing System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

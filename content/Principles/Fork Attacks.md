@@ -142,18 +142,21 @@ description: "Master Fork Attacks in BJJ. Learn simultaneous multi-threat constr
 }
 </script>
 
-> Fork Attacks is a high complexity BJJ principle applicable at the Intermediate level. Develop over Intermediate to Expert.
 
-**Application Level**: Intermediate
-**Complexity**: High
-**Development Timeline**: Intermediate to Expert
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">High complexity</span>
+<span class="meta-chip">Intermediate to Expert</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Fork Attacks?
+## What are Fork Attacks?
 
 Fork Attacks represents the advanced strategic principle of simultaneously presenting multiple offensive threats that cannot be defended concurrently, forcing opponent into binary or limited-option choices where every defensive response creates a different but equally significant vulnerability. Unlike simple action-reaction sequences that exploit single defensive commitments, dilemma creation is a sophisticated offensive framework that applies across positions where practitioner has established sufficient control to develop layered attack systems. This concept encompasses the construction of multi-threat structures, the strategic coverage of defensive options, and the systematic exploitation of forced defensive choices through pre-planned branching sequences. Dilemma creation serves as both a finishing mechanism that dramatically increases submission success rates through multiple simultaneous threats, and an efficiency strategy that guarantees productive outcomes regardless of opponent's defensive choices. The ability to construct and execute effective dilemmas often determines whether a practitioner can finish elite defensive opponents who rarely succumb to single-threat attacks, making it one of the most sophisticated and powerful offensive concepts in modern BJJ.
 

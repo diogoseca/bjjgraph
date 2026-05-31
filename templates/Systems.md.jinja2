@@ -76,18 +76,35 @@ description: "{{description}}"
 }
 </script>
 
-> {{name}} is a {{difficulty_level|lower}} difficulty {{system_type}} system. Integrates {{key_components|length}} components.
+{% if summary %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "{{name}}",
+  "description": "{{summary}}",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+{% endif %}
 
-**System Type**: {{system_type}}
-**Difficulty Level**: {{difficulty_level}}
+{# Metadata chips — single scannable row (replaces the old filler blockquote + duplicate bold lines) #}
+<div class="principle-meta">
+<span class="meta-chip">{{system_type}}</span>
+<span class="meta-chip">{{difficulty_level}} difficulty</span>
+</div>
 
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is {{name}}?
+{% set is_plural = name.endswith('s') and not name.endswith('ss') -%}
+## What {{ 'are' if is_plural else 'is' }} {{name}}?
 
+{% if summary %}**{{summary}}**
+
+{% endif -%}
 {{overview}}
 
 </section>

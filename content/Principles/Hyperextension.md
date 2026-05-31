@@ -142,11 +142,14 @@ description: "Master hyperextension mechanics in BJJ. Learn joint lock principle
 }
 </script>
 
-> Hyperextension is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Expert.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Expert
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Expert</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

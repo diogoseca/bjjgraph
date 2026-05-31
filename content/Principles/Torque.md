@@ -142,11 +142,14 @@ description: "Master torque and rotational force in BJJ. Learn ratchet mechanics
 }
 </script>
 
-> Torque is a high complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Expert.
 
-**Application Level**: Intermediate
-**Complexity**: High
-**Development Timeline**: Beginner to Expert
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">High complexity</span>
+<span class="meta-chip">Beginner to Expert</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

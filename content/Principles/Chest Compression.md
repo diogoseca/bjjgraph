@@ -142,11 +142,14 @@ description: "Master chest compression mechanics in BJJ. Learn diaphragm restric
 }
 </script>
 
-> Chest Compression is a low complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Low
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Low complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

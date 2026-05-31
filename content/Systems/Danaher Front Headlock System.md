@@ -142,10 +142,13 @@ description: "Master the Front Headlock System in BJJ. Comprehensive control fra
 }
 </script>
 
-> Danaher Front Headlock System is a advanced difficulty Control System system. Integrates 6 components.
 
-**System Type**: Control System
-**Difficulty Level**: Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Control System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

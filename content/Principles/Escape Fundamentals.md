@@ -142,18 +142,21 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
 }
 </script>
 
-> Escape Fundamentals is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Escape Fundamentals?
+## What are Escape Fundamentals?
 
 Escape Fundamentals represent the core principles and mechanical patterns underlying all successful escapes from inferior positions in BJJ, providing systematic framework for defensive survival and position improvement. Unlike specific escape techniques, escape fundamentals are comprehensive conceptual guidelines that apply across all defensive scenarios and determine overall defensive capability. This concept encompasses the biomechanical understanding that successful escapes follow predictable patterns: creating frames, generating space, creating angles, and transitioning to improved positions through sequential movements. Escape fundamentals serve as both immediate survival mechanism enabling defense against submissions and long-term strategic framework for escaping dominant positions. The ability to apply escape fundamentals consistently under pressure often determines defensive success and overall BJJ survivability, making it one of the most essential conceptual elements for practitioners at all levels.
 

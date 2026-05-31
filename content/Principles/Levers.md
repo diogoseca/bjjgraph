@@ -142,18 +142,21 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
 }
 </script>
 
-> Levers is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Levers?
+## What are Levers?
 
 Levers represent the fundamental biomechanical framework of using mechanical advantage to multiply force application, enabling practitioners to overcome size, strength, and weight disadvantages through optimal positioning, angle creation, and efficient force vectors. Unlike specific techniques, leverage principles are comprehensive conceptual frameworks that apply across all positions, submissions, sweeps, and control scenarios in BJJ. This concept encompasses the physics of fulcrums, lever arms, force multiplication, and compound leverage systems, serving as both the theoretical foundation for technique effectiveness and the practical methodology for efficient movement. The ability to recognize and create leverage opportunities often determines whether techniques succeed against stronger opponents, making it one of the most essential conceptual elements in Brazilian Jiu-Jitsu. Leverage principles explain why smaller practitioners can control larger opponents and why proper technique overcomes strength.
 

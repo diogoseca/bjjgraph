@@ -28,11 +28,6 @@ html {
 // Landing Page (Homepage)
 // ============================================================================
 
-// Google-style homepage: hide sidebar, meta; center content vertically
-body[data-slug="index"] .content-meta {
-  display: none;
-}
-
 // Note: previously this section forcibly hid `.sidebar` on the homepage with
 // width:0/height:0/etc. That predated the tree-drawer pattern. Now the drawer
 // is closed by default everywhere (including the homepage) via JS state; opening
@@ -1432,6 +1427,27 @@ article {
 .content-section {
   // Order values injected dynamically via inline <style> tag from edge
   order: 0; // Default fallback
+}
+
+// Metadata chip row at the top of Principle / System pages
+// (replaces the old filler blockquote + duplicate bold metadata lines)
+.principle-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1.25rem;
+}
+
+.meta-chip {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.2em 0.6em;
+  border-radius: 999px;
+  white-space: nowrap;
+  background: rgba(132, 165, 157, 0.15);
+  color: var(--secondary);
 }
 
 // Question-based subtitles below section headings (SEO + readability)
@@ -2976,6 +2992,15 @@ html {
 .page > #quartz-body .center article,
 .page > #quartz-body > footer {
   padding-inline: var(--content-gutter);
+}
+
+// Tables: align the table box with the article content gutter. Quartz's default
+// (.table-container > table in base.scss) adds margin:1rem + padding:1.5rem, pushing
+// tables ~2.5rem further in than body paragraphs. Drop the horizontal offset (keep
+// vertical rhythm); th/td cell padding still provides the inner spacing.
+.page > #quartz-body .center article .table-container > table {
+  margin-inline: 0;
+  padding: 0;
 }
 
 // When wrapped in document.startViewTransition() (graph-node clicks via

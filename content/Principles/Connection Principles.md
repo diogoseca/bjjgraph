@@ -142,18 +142,21 @@ description: "Master connection principles in BJJ. Learn grip management, frame 
 }
 </script>
 
-> Connection Principles is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Connection Principles?
+## What are Connection Principles?
 
 Connection Principles constitute one of the most fundamental yet nuanced concepts in Brazilian Jiu-Jitsu, governing how practitioners establish, maintain, and break physical contact points with their opponents. At its core, this concept recognizes that grappling is fundamentally about controlling another person's body through strategic points of contact - connections that can either enable control or create vulnerability depending on their application. Understanding connection principles transforms random grabbing into systematic control, allowing practitioners to dictate their opponent's movement possibilities while preserving their own mobility and options.
 

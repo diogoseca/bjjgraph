@@ -134,10 +134,13 @@ description: "Master MMA Crossover Strategy for BJJ. Comprehensive framework ada
 }
 </script>
 
-> MMA Crossover Strategy is a advanced difficulty Competition Strategy system. Integrates 5 components.
 
-**System Type**: Competition Strategy
-**Difficulty Level**: Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Competition Strategy</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

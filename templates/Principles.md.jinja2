@@ -76,19 +76,36 @@ description: "{{description}}"
 }
 </script>
 
-> {{name}} is a {{complexity_level|lower}} complexity BJJ principle applicable at the {{application_level}} level. Develop over {{development_timeline}}.
+{% if summary %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "{{name}}",
+  "description": "{{summary}}",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+{% endif %}
 
-**Application Level**: {{application_level}}
-**Complexity**: {{complexity_level}}
-**Development Timeline**: {{development_timeline}}
+{# Metadata chips — single scannable row (replaces the old filler blockquote + duplicate bold lines) #}
+<div class="principle-meta">
+<span class="meta-chip">{{application_level}}</span>
+<span class="meta-chip">{{complexity_level}} complexity</span>
+<span class="meta-chip">{{development_timeline}}</span>
+</div>
 
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is {{name}}?
+{% set is_plural = name.endswith('s') and not name.endswith('ss') -%}
+## What {{ 'are' if is_plural else 'is' }} {{name}}?
 
+{% if summary %}**{{summary}}**
+
+{% endif -%}
 {{overview}}
 
 </section>

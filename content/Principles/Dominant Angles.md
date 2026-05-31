@@ -142,18 +142,21 @@ description: "Master Dominant Angles in BJJ. Learn strategic principles of gener
 }
 </script>
 
-> Dominant Angles is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Dominant Angles?
+## What are Dominant Angles?
 
 Dominant Angles represents the strategic principle of generating off-axis positions relative to opponent's alignment to create mechanical advantages, compromise their structure, and create offensive opportunities. Unlike linear movements, angle creation is a comprehensive conceptual framework that applies across all positions and determines success in both offensive and defensive scenarios. This concept encompasses the biomechanical understanding that moving perpendicular or diagonal to opponent's force vectors multiplies effectiveness while minimizing energy expenditure, making angle creation fundamental to efficient BJJ. Angle creation serves as both an offensive mechanism that opens attack pathways and compromises opponent's defenses, and a defensive tool that nullifies opponent's pressure and creates escape opportunities. The ability to consistently create and exploit angles often determines technical success against similar-skilled opponents, making it one of the most essential conceptual elements in advanced BJJ development.
 

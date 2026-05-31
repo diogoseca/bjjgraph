@@ -142,18 +142,21 @@ description: "Master defensive concepts in BJJ with systematic frameworks for su
 }
 </script>
 
-> Defensive Concepts is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Defensive Concepts?
+## What are Defensive Concepts?
 
 Defensive Concepts represents the comprehensive philosophical and strategic framework that governs all defensive decision-making, prioritization, and execution in Brazilian Jiu-Jitsu. Unlike specific defensive techniques, defensive concepts constitute the overarching principles and mental models that enable practitioners to navigate defensive scenarios effectively across all positions and circumstances. This conceptual framework encompasses the hierarchical prioritization of defensive objectives, the strategic approach to resource allocation under pressure, and the psychological framework that enables calm technical execution despite being in disadvantageous positions. Defensive concepts serve as both a strategic philosophy that informs all defensive choices and a practical decision-making framework that guides technique selection and timing. The ability to internalize sound defensive concepts often determines whether a practitioner can maintain competitive viability from inferior positions or becomes overwhelmed by opponent pressure, making it one of the most sophisticated and essential conceptual elements in BJJ.
 

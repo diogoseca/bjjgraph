@@ -134,10 +134,13 @@ description: "Master Marcelo Garcia's revolutionary butterfly guard system. Lear
 }
 </script>
 
-> Marcelo Garcia Butterfly Guard System is a intermediate difficulty Guard System system. Integrates 5 components.
 
-**System Type**: Guard System
-**Difficulty Level**: Intermediate
+
+
+<div class="principle-meta">
+<span class="meta-chip">Guard System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

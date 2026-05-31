@@ -134,10 +134,13 @@ description: "Master Keenan Cornelius Lapel Guard System in BJJ. Comprehensive f
 }
 </script>
 
-> Keenan Cornelius Lapel Guard System is a advanced difficulty Guard System system. Integrates 4 components.
 
-**System Type**: Guard System
-**Difficulty Level**: Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Guard System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

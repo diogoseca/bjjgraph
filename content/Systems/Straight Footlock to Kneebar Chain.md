@@ -142,10 +142,13 @@ description: "Master the fundamental leg lock chain connecting straight ankle lo
 }
 </script>
 
-> Straight Footlock to Kneebar Chain is a advanced difficulty Submission Chain system. Integrates 5 components.
 
-**System Type**: Submission Chain
-**Difficulty Level**: Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Submission Chain</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

@@ -142,18 +142,21 @@ description: "Master submission chains in BJJ. Learn systematic attack sequences
 }
 </script>
 
-> Submission Chains is a high complexity BJJ principle applicable at the Intermediate level. Develop over Intermediate to Expert.
 
-**Application Level**: Intermediate
-**Complexity**: High
-**Development Timeline**: Intermediate to Expert
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">High complexity</span>
+<span class="meta-chip">Intermediate to Expert</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Submission Chains?
+## What are Submission Chains?
 
 Submission Chains represent the systematic linking of multiple submission attempts into cohesive offensive sequences where each defensive response opens a new attacking opportunity. Rather than viewing submissions as isolated techniques, chain thinking creates a web of interconnected attacks where the opponent's escape from one submission feeds directly into the setup for another. This conceptual framework transforms submission attempts from binary win-lose scenarios into continuous offensive pressure systems that compound defensive errors and create submission inevitability.
 

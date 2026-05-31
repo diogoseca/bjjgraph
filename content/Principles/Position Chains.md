@@ -142,18 +142,21 @@ description: "Master position chains in BJJ. Learn systematic progression throug
 }
 </script>
 
-> Position Chains is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Position Chains?
+## What are Position Chains?
 
 Position Chains represents the strategic principle of linking multiple positional transitions into planned sequences that systematically advance toward dominant control or submission outcomes. Unlike isolated technique execution, position chains involve pre-planned pathways through the state machine where each successful transition creates the setup for the next position in the sequence. This concept encompasses the strategic planning, pattern recognition, and sequential thinking required to navigate from disadvantageous or neutral positions toward dominant control through multiple intermediary states. Position chains serve as both an offensive roadmap that guides systematic advancement and a defensive framework that helps practitioners recognize and interrupt opponent's progression patterns. The ability to construct and execute position chains often determines whether a practitioner fights reactively technique-by-technique or strategically with coordinated multi-step plans, making it one of the most important conceptual elements for intermediate and advanced development.
 

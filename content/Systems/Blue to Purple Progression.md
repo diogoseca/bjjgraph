@@ -134,10 +134,13 @@ description: "Master the blue to purple belt progression in BJJ. Comprehensive f
 }
 </script>
 
-> Blue to Purple Progression is a intermediate difficulty Training Methodology system. Integrates 5 components.
 
-**System Type**: Training Methodology
-**Difficulty Level**: Intermediate
+
+
+<div class="principle-meta">
+<span class="meta-chip">Training Methodology</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

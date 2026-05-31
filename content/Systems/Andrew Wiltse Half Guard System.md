@@ -140,10 +140,13 @@ description: "Master Andrew Wiltse's modern half guard system. Comprehensive fra
 }
 </script>
 
-> Andrew Wiltse Half Guard System is a advanced difficulty Guard System system. Integrates 5 components.
 
-**System Type**: Guard System
-**Difficulty Level**: Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Guard System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

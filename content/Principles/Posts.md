@@ -142,18 +142,21 @@ description: "Master posts in BJJ. Learn to plant extended limbs against the mat
 }
 </script>
 
-> Posts is a low complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Low
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Low complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Posts?
+## What are Posts?
 
 A post is an extended limb — hand, foot, elbow, or head — planted firmly against the mat or against the opponent's body to prevent displacement. When someone tries to sweep you and you shoot your hand out to catch yourself, that is a post. When a wrestler sprawls and drives their hips down while their hands brace against the mat, those hands are posts. When a judo player steps wide during a throw attempt to catch their balance, that foot is a post. Posting is the emergency base recovery system of grappling, and also the proactive balance maintenance system that keeps you upright and stable during every exchange.
 

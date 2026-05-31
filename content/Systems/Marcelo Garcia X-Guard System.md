@@ -140,10 +140,13 @@ description: "Master Marcelo Garcia's X-Guard System. Complete framework from en
 }
 </script>
 
-> Marcelo Garcia X-Guard System is a advanced difficulty Guard System system. Integrates 6 components.
 
-**System Type**: Guard System
-**Difficulty Level**: Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Guard System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

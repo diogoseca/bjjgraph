@@ -142,18 +142,21 @@ description: "Master Frames in BJJ. Learn skeletal alignment, force distribution
 }
 </script>
 
-> Frames is a medium complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Frames?
+## What are Frames?
 
 Frames represents the fundamental defensive skill of establishing structural barriers using the arms, legs, and torso to manage pressure, create space, and prevent an opponent from advancing position. Unlike specific techniques, framing is a conceptual framework applicable across all positions and phases of BJJ. Frames function as temporary structural supports that redirect force, create defensive space, and establish the foundation for subsequent escapes, transitions, or offensive opportunities. The concept encompasses understanding proper skeletal alignment, force distribution, connection points, and the strategic timing of frame establishment. Frame creation serves as the primary defensive mechanism that enables a practitioner to survive disadvantageous positions and create the opportunity for positional improvement, making it one of the most essential conceptual elements for both beginners and advanced practitioners. Mastery of framing transforms defensive situations from desperate struggles into calculated defensive structures that systematically neutralize opponent pressure while creating pathways for recovery.
 

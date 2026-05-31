@@ -142,18 +142,21 @@ description: "Master Making Smaller Circles in BJJ. Learn depth-before-breadth t
 }
 </script>
 
-> Making Smaller Circles is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Intermediate to Expert.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Intermediate to Expert
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Intermediate to Expert</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Making Smaller Circles?
+## What are Making Smaller Circles?
 
 Making Smaller Circles is a learning principle popularized by Josh Waitzkin in The Art of Learning, and it maps perfectly onto Brazilian Jiu-Jitsu. The idea is simple but profoundly counterintuitive: instead of learning many techniques at a surface level, take one technique — one movement, one sweep, one pass — and refine it to an absurd degree of precision. Strip it down to its essential mechanics. Practice it until the movement becomes smaller, tighter, and more efficient. Then practice it more until it works against resistance, against speed, against people who know it is coming. Only then expand outward to the next variation.
 

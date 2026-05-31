@@ -154,10 +154,13 @@ description: "Master BJJ competition preparation. Systematic framework covering 
 }
 </script>
 
-> Competition Preparation System is a intermediate difficulty Competition Strategy system. Integrates 5 components.
 
-**System Type**: Competition Strategy
-**Difficulty Level**: Intermediate
+
+
+<div class="principle-meta">
+<span class="meta-chip">Competition Strategy</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

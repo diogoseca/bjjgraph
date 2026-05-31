@@ -126,10 +126,13 @@ description: "Master systematic back attack sequences in BJJ. Comprehensive fram
 }
 </script>
 
-> Back Attack System is a intermediate difficulty Attack System system. Integrates 4 components.
 
-**System Type**: Attack System
-**Difficulty Level**: Intermediate
+
+
+<div class="principle-meta">
+<span class="meta-chip">Attack System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

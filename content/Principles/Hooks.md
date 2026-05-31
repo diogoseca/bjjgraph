@@ -142,18 +142,21 @@ description: "Master hooks in BJJ. Learn curved foot and hand attachments for re
 }
 </script>
 
-> Hooks is a low complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Low
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Low complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Hooks?
+## What are Hooks?
 
 A hook is a curved attachment — a foot wrapped behind a knee, a hand threaded under an armpit, an instep tucked inside a thigh. Hooks are the attachment mechanic of BJJ. Unlike grips, which rely on grabbing and squeezing, hooks use the natural curve of feet, hands, and limbs to wrap around the opponent's body and create connection points that resist removal through their geometry. You cannot simply pull a hook off by yanking — you must change the angle, peel it away, or create enough space to disengage the curve. This geometric resilience makes hooks one of the most reliable control mechanisms in grappling.
 

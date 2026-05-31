@@ -122,9 +122,15 @@
         "Intermediate to Expert"
       ]
     },
+    "summary": {
+      "type": "string",
+      "description": "One-sentence, self-contained definition that leads the page (answer-first for AI/featured snippets). ~15-40 words, e.g. 'A wedge is any body part inserted into a gap to pry space open or redirect force.' If present, the overview should NOT repeat it.",
+      "minLength": 30,
+      "maxLength": 300
+    },
     "overview": {
       "type": "string",
-      "description": "2-3 paragraph principle description (400+ characters)",
+      "description": "2-3 paragraph principle description (400+ characters). LEAD with a self-contained one-sentence definition that directly answers 'what is X' before adding history/context — AI answer engines quote the first sentence. If a `summary` field is present, start the overview with context instead, to avoid duplicating it.",
       "minLength": 400,
       "examples": [
         "Base Maintenance is a fundamental principle describing the ability to maintain stable positioning..."

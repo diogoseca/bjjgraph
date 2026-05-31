@@ -134,10 +134,13 @@ description: "Master Marcelo Garcia's high-percentage guillotine system. Learn s
 }
 </script>
 
-> Marcelo Garcia Guillotine System is a intermediate difficulty Submission Chain system. Integrates 5 components.
 
-**System Type**: Submission Chain
-**Difficulty Level**: Intermediate
+
+
+<div class="principle-meta">
+<span class="meta-chip">Submission Chain</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

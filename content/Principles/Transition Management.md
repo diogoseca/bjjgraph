@@ -142,11 +142,14 @@ description: "Master transition management in BJJ. Learn timing recognition, ris
 }
 </script>
 
-> Transition Management is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

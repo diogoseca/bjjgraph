@@ -148,10 +148,13 @@ description: "Master BJJ teaching with systematic instruction framework. Progres
 }
 </script>
 
-> Teaching Methodology Framework is a advanced difficulty Training Methodology system. Integrates 4 components.
 
-**System Type**: Training Methodology
-**Difficulty Level**: Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Training Methodology</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

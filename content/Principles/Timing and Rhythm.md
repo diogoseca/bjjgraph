@@ -142,11 +142,14 @@ description: "Master timing and rhythm in BJJ. Learn to read opponent reactions,
 }
 </script>
 
-> Timing and Rhythm is a high complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Expert.
 
-**Application Level**: Fundamental
-**Complexity**: High
-**Development Timeline**: Beginner to Expert
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">High complexity</span>
+<span class="meta-chip">Beginner to Expert</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

@@ -134,10 +134,13 @@ description: "Master defensive BJJ strategy with systematic prioritization frame
 }
 </script>
 
-> Defensive Prioritization Framework is a intermediate difficulty Defense System system. Integrates 5 components.
 
-**System Type**: Defense System
-**Difficulty Level**: Intermediate
+
+
+<div class="principle-meta">
+<span class="meta-chip">Defense System</span>
+<span class="meta-chip">Intermediate difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

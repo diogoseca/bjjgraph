@@ -142,18 +142,21 @@ description: "Master clamps in BJJ. Learn to use paired limbs for squeezing cont
 }
 </script>
 
-> Clamps is a low complexity BJJ principle applicable at the Fundamental level. Develop over Beginner to Advanced.
 
-**Application Level**: Fundamental
-**Complexity**: Low
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Fundamental</span>
+<span class="meta-chip">Low complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Clamps?
+## What are Clamps?
 
 A clamp is the act of squeezing two body parts together — legs around a torso, arms around a neck, knees against ribs — to restrict the opponent's movement, maintain a position, or finish a submission. Clamps are among the most intuitive mechanics in grappling. A child wrapping their legs around someone's waist is using a clamp. The closed guard is a clamp. The triangle choke is a clamp. The body lock from back control is a clamp. Every squeeze-based control or submission in BJJ is built on clamp mechanics.
 

@@ -134,10 +134,13 @@ description: "Master Mikey Musumeci's berimbolo system with technical precision.
 }
 </script>
 
-> Mikey Musumeci Berimbolo System is a advanced difficulty Attack System system. Integrates 5 components.
 
-**System Type**: Attack System
-**Difficulty Level**: Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Attack System</span>
+<span class="meta-chip">Advanced difficulty</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">

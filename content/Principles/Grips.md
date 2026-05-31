@@ -142,18 +142,21 @@ description: "Master grip fighting in BJJ. Learn strategic hand engagement, grip
 }
 </script>
 
-> Grips is a medium complexity BJJ principle applicable at the Intermediate level. Develop over Beginner to Advanced.
 
-**Application Level**: Intermediate
-**Complexity**: Medium
-**Development Timeline**: Beginner to Advanced
+
+
+<div class="principle-meta">
+<span class="meta-chip">Intermediate</span>
+<span class="meta-chip">Medium complexity</span>
+<span class="meta-chip">Beginner to Advanced</span>
+</div>
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
-## What is Grips?
+## What are Grips?
 
 Grips represents the fundamental tactical battle for control through hand engagement that occurs throughout all phases of Brazilian Jiu-Jitsu. Unlike specific techniques or positions, grip fighting encompasses a comprehensive system of establishing, maintaining, breaking, and preventing grips that apply across all positions and transitions. This skill set serves as the foundation for both offensive and defensive BJJ, as grip control largely determines who can impose their game and dictate the direction of exchanges. Grip fighting occurs continuously throughout matches and is often considered the "invisible game within the game" that significantly influences outcomes despite being less visually apparent than techniques like sweeps or submissions. The ability to systematically dominate grip exchanges allows practitioners to control tempo, create offensive opportunities, and deny opponents their preferred attacking sequences. Understanding grip hierarchies, biomechanical advantages, and strategic sequencing transforms grip fighting from random hand battling into a sophisticated control system that multiplies the effectiveness of all subsequent techniques.
 
