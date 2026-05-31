@@ -44,7 +44,6 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.ContentMeta({ showReadingTime: false }),
     Component.Snackbar(),
     Component.TopBar(),
     Component.AuthUI(),
