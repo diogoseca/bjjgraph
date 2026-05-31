@@ -17,6 +17,7 @@ description: "Master the Spine Lock submission in BJJ. Learn advanced spinal com
   "@type": "CollectionPage",
   "name": "Spine Lock",
   "description": "Master the Spine Lock submission in BJJ. Learn advanced spinal compression techniques from truck and twister control positions targeting the lumbar spine.",
+  "alternateName": ["Spinal Lock"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Spine Lock submission in BJJ. Learn advanced spinal com
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Spinal Lock</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

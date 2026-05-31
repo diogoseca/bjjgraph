@@ -17,6 +17,7 @@ description: "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation cov
   "@type": "WebPage",
   "name": "Ippon Seoi Nage",
   "description": "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation covering grip fighting, entry mechanics, throwing execution, and ground transitions.",
+  "alternateName": ["One-Arm Shoulder Throw"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation cov
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>One-Arm Shoulder Throw</strong></p>
+</aside>
 <div class="role-links">
 
 [[Ippon Seoi Nage/Attacker|Play as Attacker]]

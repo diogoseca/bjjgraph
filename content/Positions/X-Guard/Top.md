@@ -116,6 +116,7 @@ description: "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard
   "@type": "WebPage",
   "name": "X-Guard Top",
   "description": "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard with pressure-based techniques, leg entanglement counters, and systematic hook removal.",
+  "alternateName": ["X Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master X-Guard Top in BJJ. Comprehensive guide for passing X-Guard
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>X Guard</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 X-Guard Top represents the top player's position when facing an opponent who has established X-Guard, where the bottom player controls one of your legs with both of theirs in an X-configuration. This is fundamentally a guard passing scenario requiring systematic dismantling of the opponent's leverage-based control system. The primary challenge lies in maintaining balance and posture while preventing the bottom player from generating the hip elevation and angular pressure that powers their sweeps. From the top position, success depends on understanding the structural weaknesses inherent to X-Guard. The bottom player requires both a deep inside hook behind your knee and an active outside leg frame across your hip. Removing either component collapses the entire guard structure. The inside hook is the load-bearing element that creates elevation, while the outside leg maintains distance and prevents forward pressure. Systematically attacking these two control points, rather than attempting to pass around them, is the highest-percentage approach. The top player possesses significant advantages including gravity, downward pressure generation, and the ability to threaten leg entanglement counters. When the bottom player inverts deeply to maintain hooks, they expose themselves to saddle entries, outside ashi transitions, and back step counters. This creates a strategic tension where the bottom player must choose between maintaining strong X-Guard structure and protecting against leg entanglement attacks. Strategic passing options from X-Guard Top include pressure-based approaches like the smash pass and knee slice, which use forward weight commitment to flatten the guard structure. Movement-based approaches like the long step pass and leg weave exploit moments when hooks are shallow. Counter-attacking approaches enter leg entanglements when the bottom player overcommits to sweeping angles. The ability to read the opponent's hook depth, grip strength, and hip position determines which passing strategy offers the highest percentage in each moment. This position appears frequently in modern competition, particularly in no-gi grappling where X-Guard has become a staple of many guard systems. Developing proficiency in navigating X-Guard from the top is essential for any serious competitor who faces guard players with leg entanglement-based games.

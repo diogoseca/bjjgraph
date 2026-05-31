@@ -116,6 +116,7 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
   "@type": "WebPage",
   "name": "North-South Bottom",
   "description": "Escape North-South bottom position in BJJ. Comprehensive guide to hip movement, frame creation, and escape timing from this crushing pin with technical breakdowns and drilling protocols.",
+  "alternateName": ["Kami Shiho Gatame", "North South Position", "69 Position"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Kami Shiho Gatame</strong>, <strong>North South Position</strong>, <strong>69 Position</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 North-South bottom represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where you face your opponent while trapped beneath their chest-to-chest pressure with heads pointing in opposite directions. The crushing weight across your upper body, combined with limited arm mobility and restricted breathing, makes this position particularly difficult to escape without proper technique and timing.

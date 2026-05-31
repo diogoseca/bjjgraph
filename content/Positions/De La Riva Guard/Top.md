@@ -116,6 +116,7 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
   "@type": "WebPage",
   "name": "De La Riva Guard Top",
   "description": "Master De La Riva Guard Top passing in BJJ. Complete guide covering DLR hook removal, pressure strategies, mobile passing, and modern guard passing systems.",
+  "alternateName": ["De La Riva", "DLR Guard", "DLR"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>De La Riva</strong>, <strong>DLR Guard</strong>, <strong>DLR</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 De La Riva Guard Top position occurs when the top practitioner is facing an opponent playing De La Riva (DLR) guard, where the bottom player has their outside leg hooked behind the top player's near leg while controlling the pants or ankle, with their other leg typically managing distance or controlling the opposite side. The top player's goal is to neutralize the DLR hooks and leg controls, pass the guard, and establish a dominant position. This requires understanding DLR mechanics, applying appropriate pressure, and choosing the right passing strategy based on the bottom player's grips and positioning.

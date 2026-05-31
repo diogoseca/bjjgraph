@@ -17,6 +17,7 @@ description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi g
   "@type": "CollectionPage",
   "name": "Cross Collar Choke",
   "description": "Master the Cross Collar Choke in BJJ. Complete guide covering gi grips, proper hand placement, finishing mechanics, and defense strategies for all levels.",
+  "alternateName": ["Cross Choke", "Juji Jime", "X-Choke"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi g
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Cross Choke</strong>, <strong>Juji Jime</strong>, <strong>X-Choke</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

@@ -17,6 +17,7 @@ description: "Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step sacrifice th
   "@type": "WebPage",
   "name": "Tani Otoshi",
   "description": "Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step sacrifice throw execution from standing to side control with setup, timing, and defensive strategies.",
+  "alternateName": ["Valley Drop"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step sacrifice th
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Valley Drop</strong></p>
+</aside>
 <div class="role-links">
 
 [[Tani Otoshi/Attacker|Play as Attacker]]

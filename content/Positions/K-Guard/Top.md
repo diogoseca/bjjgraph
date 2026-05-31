@@ -116,6 +116,7 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
   "@type": "WebPage",
   "name": "K-Guard Top",
   "description": "Master K-Guard Top in BJJ. Navigate inverted hook systems while maintaining passing pressure. Systematic approach to overcoming dynamic retention mechanics. Success rates: Beginner 50%, Intermediate 65%, Advanced 80%.",
+  "alternateName": ["K Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master K-Guard Top in BJJ. Navigate inverted hook systems while ma
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>K Guard</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 K-Guard Top is the top position in the K-Guard system, where the passer faces a bottom player who has configured their legs in an inverted butterfly hook structure creating the characteristic 'K' shape. From the top perspective, this position requires careful navigation of the bottom player's active hook system and upper body frames while maintaining forward pressure and working toward guard passing opportunities. The position demands systematic pressure application, grip dominance, and awareness of the bottom player's sweep and back-take threats.

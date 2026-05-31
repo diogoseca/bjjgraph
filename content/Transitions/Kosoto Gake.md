@@ -17,6 +17,7 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
   "@type": "WebPage",
   "name": "Kosoto Gake",
   "description": "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw from standing to dominant top position. Complete guide with setup, execution, and defense.",
+  "alternateName": ["Minor Outer Hook", "Ko Soto Gake"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Minor Outer Hook</strong>, <strong>Ko Soto Gake</strong></p>
+</aside>
 <div class="role-links">
 
 [[Kosoto Gake/Attacker|Play as Attacker]]

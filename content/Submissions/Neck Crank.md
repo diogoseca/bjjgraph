@@ -17,6 +17,7 @@ description: "Master the Neck Crank submission in BJJ. A cervical spine compress
   "@type": "CollectionPage",
   "name": "Neck Crank",
   "description": "Master the Neck Crank submission in BJJ. A cervical spine compression applied from Twister Control that forces the tap through spinal pressure.",
+  "alternateName": ["Cervical Lock", "Spinal Crank"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Neck Crank submission in BJJ. A cervical spine compress
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Cervical Lock</strong>, <strong>Spinal Crank</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

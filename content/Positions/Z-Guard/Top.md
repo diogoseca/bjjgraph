@@ -116,6 +116,7 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
   "@type": "WebPage",
   "name": "Z-Guard Top",
   "description": "Master Z-Guard Top in BJJ. Complete guide covering passing strategies, pressure tactics, and transitions. Offensive passing position with systematic breakdown techniques.",
+  "alternateName": ["Z Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Z Guard</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Z-Guard Top represents the passing position where the top player faces an opponent utilizing the Z-guard (knee shield half guard) variation. From this position, the top player aims to neutralize the bottom player's knee shield frame while establishing dominant passing angles. The position is characterized by the bottom player's shin creating a horizontal barrier across the top player's upper chest or shoulder, using their top leg to frame and create distance. The top player must systematically break down this defensive structure through a combination of pressure, grip fighting, and angle creation. Success in this position requires understanding how to collapse the knee shield, control the underhook battle, and transition to more dominant positions like side control, mount, or back control. The Z-Guard Top position is fundamental in modern BJJ as it represents one of the most common defensive frames encountered during the passing game, particularly against skilled guard players who excel at maintaining distance and threatening sweeps.

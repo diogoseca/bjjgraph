@@ -116,6 +116,7 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
   "@type": "WebPage",
   "name": "Knee on Belly Bottom",
   "description": "Master escaping Knee on Belly Bottom in BJJ. Defensive position requiring immediate frame creation and hip escape mechanics. Complete guide covering pressure management and re-guard strategies.",
+  "alternateName": ["Knee Mount", "Knee on Stomach", "Knee on Chest", "KOB", "Uki Gatame", "Joelho na Barriga"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Knee Mount</strong>, <strong>Knee on Stomach</strong>, <strong>Knee on Chest</strong>, <strong>KOB</strong>, <strong>Uki Gatame</strong>, <strong>Joelho na Barriga</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Knee on Belly Bottom is a highly disadvantageous defensive position where the practitioner is flat on their back with the opponent's knee driving into their diaphragm or solar plexus. This position represents one of the most pressure-intensive scenarios in Brazilian Jiu-Jitsu, requiring immediate defensive action to prevent both submission attacks and further positional deterioration. The bottom player must manage overwhelming chest pressure while protecting their neck and arms from various submission threats including armbars, Americanas, and collar chokes. Understanding proper defensive framing, hip escape mechanics, and re-guard strategies is essential for survival and escape. The position scores 2 points for the top player in IBJJF competition and creates a significant advantage in the control hierarchy. Success from this position is measured not by offensive capability but by the speed and efficiency of escape back to guard or neutral positions. The key to effective defense lies in immediate frame creation, hip movement to create angles, and systematic pressure management that prevents the opponent from consolidating control or advancing to mount.

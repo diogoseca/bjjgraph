@@ -17,6 +17,7 @@ description: "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, exe
   "@type": "WebPage",
   "name": "Sumi Gaeshi",
   "description": "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, execution, and sweep mechanics from standing or seated guard with complete attacker and defender guides.",
+  "alternateName": ["Corner Throw", "Corner Reversal"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Sumi Gaeshi sacrifice throw in BJJ. Learn proper entry, exe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Corner Throw</strong>, <strong>Corner Reversal</strong></p>
+</aside>
 <div class="role-links">
 
 [[Sumi Gaeshi/Attacker|Play as Attacker]]

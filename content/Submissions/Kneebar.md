@@ -17,6 +17,7 @@ description: "Master the Kneebar in BJJ. Complete guide covering safety protocol
   "@type": "CollectionPage",
   "name": "Kneebar",
   "description": "Master the Kneebar in BJJ. Complete guide covering safety protocols, setup from ashi garami, finishing mechanics, and defensive escapes for all skill levels.",
+  "alternateName": ["Knee Bar", "Hiza Juji Gatame", "Leg Bar"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Kneebar in BJJ. Complete guide covering safety protocol
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Knee Bar</strong>, <strong>Hiza Juji Gatame</strong>, <strong>Leg Bar</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

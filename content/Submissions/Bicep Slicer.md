@@ -17,6 +17,7 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
   "@type": "CollectionPage",
   "name": "Bicep Slicer",
   "description": "Master the Bicep Slicer in BJJ. Complete guide with safety protocols, setup from crucifix and truck positions. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
+  "alternateName": ["Biceps Slicer", "Bicep Crusher", "Biceps Crush"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Biceps Slicer</strong>, <strong>Bicep Crusher</strong>, <strong>Biceps Crush</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

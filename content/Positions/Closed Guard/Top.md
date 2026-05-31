@@ -116,6 +116,7 @@ description: "Master closed guard top with defensive posture strategies, systema
   "@type": "WebPage",
   "name": "Closed Guard Top",
   "description": "Master closed guard top with defensive posture strategies, systematic guard opening techniques, and high-percentage passing. Complete BJJ positional guide.",
+  "alternateName": ["Full Guard", "Guarda Fechada"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master closed guard top with defensive posture strategies, systema
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Full Guard</strong>, <strong>Guarda Fechada</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Closed Guard Top Position represents one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu, where you find yourself trapped inside your opponent's closed guard with their legs wrapped around your waist and ankles locked behind your back. Despite being the top player, this position places you at a significant strategic disadvantage, as your opponent possesses numerous sweep and submission options while your primary objective must be maintaining defensive posture, avoiding attacks, and working systematically toward guard opening and passing.

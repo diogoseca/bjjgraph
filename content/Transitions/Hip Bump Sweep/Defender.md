@@ -97,6 +97,7 @@ description: "How to defend against Hip Bump Sweep in BJJ. Recognition cues, def
   "@type": "WebPage",
   "name": "Hip Bump Sweep Defender",
   "description": "How to defend against Hip Bump Sweep in BJJ. Recognition cues, defensive options, posture maintenance, and counter strategies from closed guard top.",
+  "alternateName": ["Sit-up Sweep", "Sitting Up Sweep"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -142,6 +143,9 @@ description: "How to defend against Hip Bump Sweep in BJJ. Recognition cues, def
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Sit-up Sweep</strong>, <strong>Sitting Up Sweep</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending the Hip Bump Sweep requires understanding the attacker's mechanics and recognizing the setup before full commitment. As the top player in closed guard, you are the defender in this scenario, and the Hip Bump represents one of the most common and dangerous sweeps you will face. The sweep exploits broken posture and forward weight distribution, so your primary defensive strategy centers on maintaining structural integrity through proper spinal alignment and base width.

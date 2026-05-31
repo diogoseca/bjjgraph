@@ -17,6 +17,7 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
   "@type": "WebPage",
   "name": "Knee on Belly",
   "description": "Master Knee on Belly in BJJ. Strategic control position balancing mobility with pressure. Complete guide covering both top control and bottom escapes.",
+  "alternateName": ["Knee Mount", "Knee on Stomach", "Knee on Chest", "KOB", "Uki Gatame", "Joelho na Barriga"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Knee Mount</strong>, <strong>Knee on Stomach</strong>, <strong>Knee on Chest</strong>, <strong>KOB</strong>, <strong>Uki Gatame</strong>, <strong>Joelho na Barriga</strong></p>
+</aside>
 <div class="role-links">
 
 [[Knee on Belly/Bottom|Play as Bottom]]

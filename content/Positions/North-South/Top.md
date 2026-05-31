@@ -116,6 +116,7 @@ description: "Master North-South top position in BJJ. Complete guide to establis
   "@type": "WebPage",
   "name": "North-South Top",
   "description": "Master North-South top position in BJJ. Complete guide to establishing crushing pressure control, submission attacks, and positional transitions from this dominant pinning position.",
+  "alternateName": ["Kami Shiho Gatame", "North South Position", "69 Position"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master North-South top position in BJJ. Complete guide to establis
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Kami Shiho Gatame</strong>, <strong>North South Position</strong>, <strong>69 Position</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 North-South top is one of Brazilian Jiu-Jitsu's most dominant pinning positions, characterized by perpendicular chest-to-chest alignment where you distribute your entire body weight across your opponent's upper body while your heads point in opposite directions. This position offers exceptional control with relatively low energy expenditure once properly established, making it ideal for recovering stamina while maintaining offensive pressure.

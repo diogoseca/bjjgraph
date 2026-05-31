@@ -17,6 +17,7 @@ description: "Master North-South position in BJJ. Complete guide covering top co
   "@type": "WebPage",
   "name": "North-South",
   "description": "Master North-South position in BJJ. Complete guide covering top control dominance, bottom escape strategies, submission attacks, and positional transitions with expert analysis.",
+  "alternateName": ["Kami Shiho Gatame", "North South Position", "69 Position"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master North-South position in BJJ. Complete guide covering top co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Kami Shiho Gatame</strong>, <strong>North South Position</strong>, <strong>69 Position</strong></p>
+</aside>
 <div class="role-links">
 
 [[North-South/Bottom|Play as Bottom]]

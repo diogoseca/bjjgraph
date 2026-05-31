@@ -10,6 +10,10 @@
     "guard",
     "fundamentals"
   ],
+  "aliases": [
+    "Off-balancing",
+    "Breaking Balance"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Expert",

@@ -17,6 +17,7 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
   "@type": "WebPage",
   "name": "K-Guard",
   "description": "Master K-Guard position in BJJ. Dynamic half guard variation with inverted hook mechanics, sweep chains, and back-take opportunities. Complete perspective analysis.",
+  "alternateName": ["K Guard"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>K Guard</strong></p>
+</aside>
 <div class="role-links">
 
 [[K-Guard/Bottom|Play as Bottom]]

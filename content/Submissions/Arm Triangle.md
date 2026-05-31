@@ -17,6 +17,7 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
   "@type": "CollectionPage",
   "name": "Arm Triangle",
   "description": "Master the Arm Triangle choke in BJJ. Setup from side control, execution mechanics, finishing details. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "alternateName": ["Kata Gatame", "Head and Arm Choke", "Arm Triangle Choke", "Side Choke"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Kata Gatame</strong>, <strong>Head and Arm Choke</strong>, <strong>Arm Triangle Choke</strong>, <strong>Side Choke</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

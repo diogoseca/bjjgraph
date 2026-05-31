@@ -125,6 +125,7 @@ description: "How to execute Ippon Seoi Nage in BJJ. Attacking perspective cover
   "@type": "WebPage",
   "name": "Ippon Seoi Nage Attacker",
   "description": "How to execute Ippon Seoi Nage in BJJ. Attacking perspective covering kuzushi, entry mechanics, loading, throwing execution, and ground transition.",
+  "alternateName": ["One-Arm Shoulder Throw"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,6 +171,9 @@ description: "How to execute Ippon Seoi Nage in BJJ. Attacking perspective cover
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>One-Arm Shoulder Throw</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 As the attacker executing Ippon Seoi Nage, your objective is to break your opponent's balance forward, rotate beneath their center of gravity, load their weight onto your back and shoulders, and complete a powerful forward rotation that deposits them on the mat while you maintain grip control to immediately establish a dominant ground position. This throw rewards precise timing and coordinated body mechanics over raw strength. The entry must be decisive and committed once you recognize the opening, because hesitation allows defensive reactions that neutralize your positional advantage.

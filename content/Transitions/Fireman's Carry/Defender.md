@@ -105,6 +105,7 @@ description: "How to defend against Fireman's Carry in BJJ. Recognition cues, de
   "@type": "WebPage",
   "name": "Fireman's Carry Defender",
   "description": "How to defend against Fireman's Carry in BJJ. Recognition cues, defensive options, and escape strategies.",
+  "alternateName": ["Kata Guruma", "Shoulder Wheel"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -150,6 +151,9 @@ description: "How to defend against Fireman's Carry in BJJ. Recognition cues, de
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Kata Guruma</strong>, <strong>Shoulder Wheel</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending the Fireman's Carry requires understanding the technique's sequential mechanics so you can disrupt it at the earliest possible stage. The Fireman's Carry follows a predictable chain - grip establishment, level change, penetration step, carry position, lift, rotation, and landing - and your defensive effectiveness decreases dramatically the further the attacker progresses through this sequence. The most effective defenses occur during the initial level change and penetration phases, where a well-timed sprawl or hip drop can completely shut down the technique before the attacker establishes the carry position. Once the attacker has you across their shoulders, your defensive options narrow significantly and the technique becomes much harder to stop. Developing sensitivity to the early recognition cues - the sudden level drop, the arm pull across the body, the head driving toward your far hip - allows you to react before the attacker commits to the lift. The defender must maintain constant awareness of their own posture, weight distribution, and arm positioning in the clinch, as these factors determine vulnerability to the Fireman's Carry. A low, defensive stance with bent knees and hips back makes the carry nearly impossible, while an upright posture with weight forward creates the ideal conditions for the attacker. Understanding these dynamics transforms your clinch game from reactive to proactive, allowing you to dictate terms rather than simply responding to the attacker's initiative.

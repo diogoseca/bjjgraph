@@ -116,6 +116,7 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
   "@type": "WebPage",
   "name": "Knee on Belly Top",
   "description": "Master Knee on Belly Top control in BJJ. Dynamic offensive position balancing mobility with pressure. Complete guide covering setup, transitions, and submission attacks.",
+  "alternateName": ["Knee Mount", "Knee on Stomach", "Knee on Chest", "KOB", "Uki Gatame", "Joelho na Barriga"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Knee Mount</strong>, <strong>Knee on Stomach</strong>, <strong>Knee on Chest</strong>, <strong>KOB</strong>, <strong>Uki Gatame</strong>, <strong>Joelho na Barriga</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Knee on Belly Top is a highly effective transitional control position where the top practitioner places one knee across the opponent's torso while maintaining a wide base with the other leg extended. This position creates immense pressure on the bottom player's diaphragm and solar plexus, making it difficult to breathe and forcing defensive reactions. The top player maintains constant forward pressure while staying light on their feet, ready to transition to mount, side control, or submission attacks. From a strategic standpoint, Knee on Belly Top serves as an excellent position for consolidating control after passing the guard, scoring IBJJF points, and setting up a variety of attacks. The mobility inherent in this position allows the top player to quickly respond to escape attempts while maintaining dominant pressure. Unlike more static positions like mount or side control, Knee on Belly requires active weight distribution and constant micro-adjustments to maintain effectiveness. This position is particularly valuable in competition settings where maintaining pressure while remaining mobile is essential. The threat of submissions, transitions to mount, and back takes forces the bottom player into a reactive defensive posture, allowing the top player to dictate the pace and direction of the match.

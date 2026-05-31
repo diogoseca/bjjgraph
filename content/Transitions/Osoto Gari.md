@@ -17,6 +17,7 @@ description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Ste
   "@type": "WebPage",
   "name": "Osoto Gari",
   "description": "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Step-by-step takedown from Standing Position to Side Control with complete attacker and defender guides.",
+  "alternateName": ["Major Outer Reap", "O Soto Gari"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Ste
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Major Outer Reap</strong>, <strong>O Soto Gari</strong></p>
+</aside>
 <div class="role-links">
 
 [[Osoto Gari/Attacker|Play as Attacker]]

@@ -17,6 +17,7 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
   "@type": "WebPage",
   "name": "Kosoto Gari",
   "description": "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step execution from standing clinch to dominant position with setup, timing, and chain attacks.",
+  "alternateName": ["Minor Outer Reap", "Ko Soto Gari"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Minor Outer Reap</strong>, <strong>Ko Soto Gari</strong></p>
+</aside>
 <div class="role-links">
 
 [[Kosoto Gari/Attacker|Play as Attacker]]

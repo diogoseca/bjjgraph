@@ -125,6 +125,7 @@ description: "How to execute the Hip Bump Sweep in BJJ. Attacking perspective wi
   "@type": "WebPage",
   "name": "Hip Bump Sweep Attacker",
   "description": "How to execute the Hip Bump Sweep in BJJ. Attacking perspective with setup, execution steps, chain attacks, and counters from closed guard.",
+  "alternateName": ["Sit-up Sweep", "Sitting Up Sweep"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,6 +171,9 @@ description: "How to execute the Hip Bump Sweep in BJJ. Attacking perspective wi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Sit-up Sweep</strong>, <strong>Sitting Up Sweep</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 The Hip Bump Sweep is a fundamental and high-percentage sweep from closed guard that capitalizes on the opponent's forward posture and broken base. This technique is particularly effective when the opponent attempts to establish strong posture or begins to stand in your guard. By controlling one arm, bumping your hips explosively toward the same side, and using your opponent's reaction, you can reverse position and establish mount.

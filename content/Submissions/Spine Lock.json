@@ -12,6 +12,9 @@
     "twister-system",
     "spinal-compression"
   ],
+  "aliases": [
+    "Spinal Lock"
+  ],
   "is_family": true,
   "submission_category": "Compression",
   "submission_type": "Spinal Compression",

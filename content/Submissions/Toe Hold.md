@@ -17,6 +17,7 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
   "@type": "CollectionPage",
   "name": "Toe Hold",
   "description": "Master the Toe Hold leg lock in BJJ. Complete guide with safety protocols, setup from leg entanglements, execution mechanics, and defense strategies.",
+  "alternateName": ["Ashi Dori Garami", "American Toe Hold"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Ashi Dori Garami</strong>, <strong>American Toe Hold</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

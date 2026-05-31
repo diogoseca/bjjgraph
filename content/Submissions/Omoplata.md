@@ -17,6 +17,7 @@ description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering 
   "@type": "CollectionPage",
   "name": "Omoplata",
   "description": "Master the Omoplata shoulder lock in BJJ. Complete guide covering setup, execution, safety protocols, and variations from guard positions with sweep options.",
+  "alternateName": ["Omo Plata", "Coil Lock"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Omo Plata</strong>, <strong>Coil Lock</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

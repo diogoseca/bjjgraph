@@ -131,6 +131,7 @@ description: "How to execute Tomoe Nage in BJJ. Attacking perspective with setup
   "@type": "WebPage",
   "name": "Tomoe Nage Attacker",
   "description": "How to execute Tomoe Nage in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "alternateName": ["Circle Throw", "Wheel Throw"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -176,6 +177,9 @@ description: "How to execute Tomoe Nage in BJJ. Attacking perspective with setup
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Circle Throw</strong>, <strong>Wheel Throw</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Tomoe Nage from the attacker's perspective is a commitment-based sacrifice throw that converts standing grip advantage into immediate positional dominance. The technique requires decisive action: you sacrifice your standing base to generate a lever system using your foot on the opponent's hip, your grips controlling their upper body, and their own forward momentum completing the arc. Successful execution demands precise timing of the drop, coordinated pulling force through your grips, and explosive leg extension to launch the opponent overhead. The attacker must understand that half-measures fail catastrophically with this technique. A committed drop with proper mechanics produces either a clean throw to mount or a controlled guard pull with broken posture, while hesitation leaves you flat on your back with an opponent ready to pass. Master practitioners use Tomoe Nage as both a primary scoring technique and a guard pull upgrade that forces the opponent to deal with immediate threats upon landing.

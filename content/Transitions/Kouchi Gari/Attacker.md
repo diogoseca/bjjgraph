@@ -125,6 +125,7 @@ description: "How to execute Kouchi Gari in BJJ. Attacking perspective with setu
   "@type": "WebPage",
   "name": "Kouchi Gari Attacker",
   "description": "How to execute Kouchi Gari in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "alternateName": ["Minor Inner Reap", "Ko Uchi Gari"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -170,6 +171,9 @@ description: "How to execute Kouchi Gari in BJJ. Attacking perspective with setu
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Minor Inner Reap</strong>, <strong>Ko Uchi Gari</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 As the attacker executing Kouchi Gari, your primary objective is to remove your opponent's base through a coordinated upper-body pull and lower-body reap that dumps them diagonally backward onto the mat. The technique demands precise timing: you must read when your opponent's weight settles onto the target leg, generate diagonal kuzushi with your grips, and execute the small reaping motion in a single fluid sequence. Unlike power throws, Kouchi Gari rewards sensitivity and combination thinking over brute force. The attacker who treats this as the opening move in a series—rather than a standalone throw—will find dramatically higher returns, because every defensive reaction your opponent makes opens a clear follow-up attack.

@@ -17,6 +17,7 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete guide coverin
   "@type": "WebPage",
   "name": "Fireman\u0027s Carry",
   "description": "Master the Fireman\u0027s Carry takedown in BJJ. Complete guide covering setup from clinch, explosive lifting mechanics, and landing in side control.",
+  "alternateName": ["Kata Guruma", "Shoulder Wheel"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete guide coverin
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Kata Guruma</strong>, <strong>Shoulder Wheel</strong></p>
+</aside>
 <div class="role-links">
 
 [[Fireman's Carry/Attacker|Play as Attacker]]

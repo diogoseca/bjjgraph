@@ -116,6 +116,7 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
   "@type": "WebPage",
   "name": "X-Guard Bottom",
   "description": "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entries, and guard retention. Powerful off-balancing position with 70% advanced sweep rate.",
+  "alternateName": ["X Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>X Guard</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 X-Guard Bottom is a powerful open guard position where the bottom practitioner controls the opponent using their legs in an X-configuration around one of the opponent's legs. The position is characterized by the inside leg hooking deeply behind the opponent's near knee while the outside leg extends across the opponent's hip line, creating a crossing pattern that gives the position its name. This dual-leg control system provides exceptional off-balancing capability and sweep opportunities that are among the highest-percentage in modern BJJ. The X-Guard emerged as a revolutionary position in contemporary grappling, demonstrated at the highest levels of competition where it proved devastatingly effective against even the best guard passers. The position offers a systematic approach to dealing with standing opponents and is particularly effective as a counter to knee slice passes, toreando attempts, and other pressure-based attacks. Unlike traditional guards that rely on gi grips for retention, X-Guard derives its power entirely from leg positioning and hip mechanics, making it equally effective in gi and no-gi competition. The mechanical advantage of X-Guard stems from three simultaneous forces: the inside hook creates upward elevation that lifts the opponent's base, the outside leg frame maintains distance and prevents forward pressure, and the hand grips control the trapped ankle to prevent backward extraction. These three control points work together to create a system where the opponent cannot effectively address all threats simultaneously. From a strategic standpoint, X-Guard Bottom serves as both a sweeping platform and a transitional hub to leg entanglement positions. When the opponent maintains upright posture, powerful elevation sweeps become available. When they attempt to disengage by sitting back or stepping away, transitions to Single Leg X, ashi garami, and other leg entanglement positions emerge naturally. This dual-threat capability, threatening both sweeps to top position and entries to submission-oriented leg entanglements, makes X-Guard one of the most strategically valuable guard positions available. Advanced practitioners integrate X-Guard into a broader system that includes Butterfly Guard as the primary entry vehicle, Single Leg X as the natural follow-up when hooks become shallow, Reverse X-Guard when the opponent circles to the opposite side, and Deep Half Guard as a recovery option when forward pressure collapses the X-structure. Fluency in transitioning between these interconnected positions creates a guard retention system that is extremely difficult to pass.

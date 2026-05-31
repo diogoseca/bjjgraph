@@ -116,6 +116,7 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
   "@type": "WebPage",
   "name": "De La Riva Guard Bottom",
   "description": "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard with berimbolo entries, sweeps, and back takes. Complete guide with 65% advanced success.",
+  "alternateName": ["De La Riva", "DLR Guard", "DLR"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>De La Riva</strong>, <strong>DLR Guard</strong>, <strong>DLR</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 De La Riva Guard Bottom is one of the most dynamic and versatile open guard positions in modern Brazilian Jiu-Jitsu. Named after Ricardo De La Riva who revolutionized its use in the 1980s, this position is characterized by the bottom player hooking their opponent's leg from the outside while controlling the opposite sleeve or collar. The De La Riva hook, created by threading your leg around the outside of your opponent's near leg and hooking behind their knee, creates powerful off-balancing opportunities and serves as the foundation for numerous sweeps, back takes, and leg entanglements.

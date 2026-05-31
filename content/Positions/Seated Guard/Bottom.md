@@ -237,7 +237,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 **If opponent establishes chest-to-chest pressure:**
 - Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Hip Escape/Attacker|Hip Escape]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Principles/Hip Escape Mechanics/Attacker|Hip Escape]]** → [[Positions/Half Guard]] (Probability: 50%)
 - Execute **[[Frame and Shrimp/Attacker|Frame and Shrimp]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 

@@ -17,6 +17,7 @@ description: "Master the Calf Slicer in BJJ. Complete guide with safety protocol
   "@type": "CollectionPage",
   "name": "Calf Slicer",
   "description": "Master the Calf Slicer in BJJ. Complete guide with safety protocols, setup from 50-50 and Truck, execution steps, and defense strategies for this compression lock.",
+  "alternateName": ["Calf Crusher", "Calf Cutter"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Calf Slicer in BJJ. Complete guide with safety protocol
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Calf Crusher</strong>, <strong>Calf Cutter</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

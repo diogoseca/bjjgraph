@@ -116,6 +116,7 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
   "@type": "WebPage",
   "name": "Back Control Top",
   "description": "Master attacking from back control in BJJ. Learn hook control, harness grip, submission entries, and systematic breakdown of this dominant 4-point position.",
+  "alternateName": ["Back Mount", "Rear Mount"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Back Mount</strong>, <strong>Rear Mount</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Back control top represents the most dominant offensive position in Brazilian Jiu-Jitsu, where you control your opponent from behind with chest-to-back connection, leg hooks or body triangle, and upper body control through harness grip or alternative configurations. This position scores 4 points in IBJJF competition and provides the highest percentage submission opportunities in grappling, combining maximum control with maximum attacking potential while minimizing your defensive risks. Your opponent cannot see your attacks, has limited mobility, and faces immediate submission threats including rear naked choke, arm attacks, and various choke variations.

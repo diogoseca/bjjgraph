@@ -105,6 +105,7 @@ description: "How to defend against Tomoe Nage in BJJ. Recognition cues, defensi
   "@type": "WebPage",
   "name": "Tomoe Nage Defender",
   "description": "How to defend against Tomoe Nage in BJJ. Recognition cues, defensive options, and escape strategies.",
+  "alternateName": ["Circle Throw", "Wheel Throw"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -150,6 +151,9 @@ description: "How to defend against Tomoe Nage in BJJ. Recognition cues, defensi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Circle Throw</strong>, <strong>Wheel Throw</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending Tomoe Nage requires early recognition of the sacrifice throw setup and immediate postural adjustments to deny the conditions the thrower needs. As the defender, your primary advantage is that Tomoe Nage requires the attacker to sacrifice their own base, meaning a failed throw leaves them in an inferior position on their back. The key defensive challenge is reading the timing correctly: if you react too late, the throw is already loaded and difficult to stop mid-flight. Effective defense begins in the grip fighting phase by denying the dominant collar and sleeve combination that powers the technique, continues through postural awareness to prevent your weight from being pulled forward over your toes, and concludes with specific counters that punish the sacrifice attempt. Understanding that Tomoe Nage exploits forward momentum means your defensive framework should center on hip positioning, weight distribution, and the ability to disengage or redirect when you sense the drop beginning.

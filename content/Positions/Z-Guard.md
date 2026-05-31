@@ -17,6 +17,7 @@ description: "Master Z-Guard in BJJ. Advanced knee shield variation with high sh
   "@type": "WebPage",
   "name": "Z-Guard",
   "description": "Master Z-Guard in BJJ. Advanced knee shield variation with high shoulder framing. Complete guide covering setup, control, sweeps, and transitions.",
+  "alternateName": ["Z Guard"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Z-Guard in BJJ. Advanced knee shield variation with high sh
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Z Guard</strong></p>
+</aside>
 <div class="role-links">
 
 [[Z-Guard/Bottom|Play as Bottom]]

@@ -17,6 +17,7 @@ description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step executio
   "@type": "WebPage",
   "name": "Hip Bump Sweep",
   "description": "Master the Hip Bump Sweep from Closed Guard. Step-by-step execution, chain attacks to Kimura and Guillotine, and defensive counters for BJJ practitioners.",
+  "alternateName": ["Sit-up Sweep", "Sitting Up Sweep"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step executio
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Sit-up Sweep</strong>, <strong>Sitting Up Sweep</strong></p>
+</aside>
 <div class="role-links">
 
 [[Hip Bump Sweep/Attacker|Play as Attacker]]

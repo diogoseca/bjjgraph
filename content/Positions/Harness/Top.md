@@ -116,6 +116,7 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
   "@type": "WebPage",
   "name": "Harness Top",
   "description": "Master Harness Top Position in BJJ - dominant back control with seat belt grip. Learn retention strategies, submission paths, and counter-escapes with 85% advanced retention rate.",
+  "alternateName": ["Seatbelt", "Seat Belt", "Seatbelt Control", "Seat Belt Control"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Seatbelt</strong>, <strong>Seat Belt</strong>, <strong>Seatbelt Control</strong>, <strong>Seat Belt Control</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Harness Top Position, also known as the seat belt grip from back control, represents one of the most dominant controlling positions in Brazilian Jiu-Jitsu. This position is characterized by the top practitioner having their body positioned behind their opponent with both hooks in (or at least one hook), while maintaining a seat belt grip configuration - one arm over the shoulder and one arm under the opposite armpit, with hands clasped together on the opponent's chest or sternum. The harness grip is the fundamental control mechanism for maintaining back control and is the foundation from which elite grapplers launch their most devastating submission attacks.

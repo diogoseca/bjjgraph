@@ -105,6 +105,7 @@ description: "How to defend against Kouchi Gari in BJJ. Recognition cues, defens
   "@type": "WebPage",
   "name": "Kouchi Gari Defender",
   "description": "How to defend against Kouchi Gari in BJJ. Recognition cues, defensive options, and escape strategies.",
+  "alternateName": ["Minor Inner Reap", "Ko Uchi Gari"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -150,6 +151,9 @@ description: "How to defend against Kouchi Gari in BJJ. Recognition cues, defens
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Minor Inner Reap</strong>, <strong>Ko Uchi Gari</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending Kouchi Gari requires understanding that the throw's power comes primarily from upper body kuzushi, not the reaping leg. As the defender, your priority is to deny the diagonal off-balance by maintaining strong posture, active grip fighting, and awareness of your weight distribution. The moment you feel your collar being pulled diagonally and sense a foot approaching your ankle, you must react immediately—Kouchi Gari's window of execution is extremely short, and late reactions result in clean takedowns. Effective defense combines pre-emptive grip denial, reactive footwork, and the ability to convert failed Kouchi Gari attempts into your own offensive opportunities through counter throws or level changes.

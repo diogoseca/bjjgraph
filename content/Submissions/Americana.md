@@ -17,6 +17,7 @@ description: "Master the Americana shoulder lock from mount and side control. Co
   "@type": "CollectionPage",
   "name": "Americana",
   "description": "Master the Americana shoulder lock from mount and side control. Complete safety protocols, systematic setup, and controlled execution. Beginner 45%, Intermediate 60%, Advanced 75%.",
+  "alternateName": ["Ude Garami", "Key Lock", "Keylock", "V-Lock", "Figure-Four Armlock"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Americana shoulder lock from mount and side control. Co
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Ude Garami</strong>, <strong>Key Lock</strong>, <strong>Keylock</strong>, <strong>V-Lock</strong>, <strong>Figure-Four Armlock</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

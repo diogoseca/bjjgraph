@@ -105,6 +105,7 @@ description: "How to defend against Kosoto Gari in BJJ. Recognition cues, defens
   "@type": "WebPage",
   "name": "Kosoto Gari Defender",
   "description": "How to defend against Kosoto Gari in BJJ. Recognition cues, defensive options, and escape strategies.",
+  "alternateName": ["Minor Outer Reap", "Ko Soto Gari"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -150,6 +151,9 @@ description: "How to defend against Kosoto Gari in BJJ. Recognition cues, defens
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Minor Outer Reap</strong>, <strong>Ko Soto Gari</strong> <span class="role-hint">(defender)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending Kosoto Gari requires a combination of early recognition, proper weight distribution management, and prepared counter-responses. The technique's effectiveness depends on catching your weight committed to the rear leg while your upper body is pulled off-balance, so defensive strategy centers on denying these two conditions simultaneously. As the defender, your primary objective is to recognize the attack in its setup phase - before the reap contacts your heel - and execute one of several defensive responses that either neutralize the throw completely or convert it into a counter-opportunity. The most dangerous moment is when your opponent has established grips, created the initial forward-then-backward kuzushi sequence, and stepped to the 45-degree angle beside your weighted leg. Understanding the biomechanics of the attack allows you to identify the optimal defensive window, which exists between their angle adjustment and the coordinated pull-sweep execution. Skilled defenders do not merely block Kosoto Gari but use the attacker's commitment against them, creating opportunities for counter-throws, takedowns, or at minimum a return to neutral standing engagement. The key defensive principle is maintaining dynamic weight distribution that never allows both feet to become statically loaded, combined with active grip fighting that denies the opponent the collar control necessary for effective kuzushi.

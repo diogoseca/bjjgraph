@@ -17,6 +17,7 @@ description: "Master Harness Position in BJJ - back control with seat belt grip.
   "@type": "WebPage",
   "name": "Harness",
   "description": "Master Harness Position in BJJ - back control with seat belt grip. Complete strategic guide covering defensive escape strategies and dominant submission paths.",
+  "alternateName": ["Seatbelt", "Seat Belt", "Seatbelt Control", "Seat Belt Control"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Harness Position in BJJ - back control with seat belt grip.
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Seatbelt</strong>, <strong>Seat Belt</strong>, <strong>Seatbelt Control</strong>, <strong>Seat Belt Control</strong></p>
+</aside>
 <div class="role-links">
 
 [[Harness/Bottom|Play as Bottom]]

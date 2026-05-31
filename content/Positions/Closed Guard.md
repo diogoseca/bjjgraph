@@ -17,6 +17,7 @@ description: "Master the closed guard in BJJ. Complete strategic guide to bottom
   "@type": "WebPage",
   "name": "Closed Guard",
   "description": "Master the closed guard in BJJ. Complete strategic guide to bottom player offensive control and top player defensive posture, guard opening, and passing.",
+  "alternateName": ["Full Guard", "Guarda Fechada"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master the closed guard in BJJ. Complete strategic guide to bottom
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Full Guard</strong>, <strong>Guarda Fechada</strong></p>
+</aside>
 <div class="role-links">
 
 [[Closed Guard/Bottom|Play as Bottom]]

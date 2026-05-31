@@ -116,6 +116,7 @@ description: "Master closed guard bottom with offensive sweeps, submissions, and
   "@type": "WebPage",
   "name": "Closed Guard Bottom",
   "description": "Master closed guard bottom with offensive sweeps, submissions, and guard retention. Complete BJJ guide with combination attacks and systematic strategy.",
+  "alternateName": ["Full Guard", "Guarda Fechada"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master closed guard bottom with offensive sweeps, submissions, and
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Full Guard</strong>, <strong>Guarda Fechada</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Closed Guard Bottom represents the foundational offensive guard position in Brazilian Jiu-Jitsu where you control your opponent from underneath by wrapping your legs around their waist with ankles crossed behind their back. Despite being the bottom player, this position grants you significant control, multiple offensive opportunities, and defensive security against advancement. The closed guard serves as the cornerstone of guard play from white belt through black belt, offering a versatile platform for sweeps, submissions, and transitions while maintaining a defensive barrier that prevents your opponent from advancing position.

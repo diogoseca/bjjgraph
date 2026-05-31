@@ -131,6 +131,7 @@ description: "How to execute Uchi Mata in BJJ. Attacking perspective with setup,
   "@type": "WebPage",
   "name": "Uchi Mata Attacker",
   "description": "How to execute Uchi Mata in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "alternateName": ["Inner Thigh Throw"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -176,6 +177,9 @@ description: "How to execute Uchi Mata in BJJ. Attacking perspective with setup,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Inner Thigh Throw</strong> <span class="role-hint">(attacker)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile throwing techniques, highly effective in both gi and no-gi grappling. Translated as 'inner thigh reap,' this technique involves using your inner thigh to sweep your opponent's supporting leg while simultaneously rotating them over your hip. The Uchi Mata is particularly effective against taller opponents or those who stand upright in the clinch, as it exploits their high center of gravity. When executed properly, this throw generates tremendous force and typically results in a direct transition to side control or mount, making it one of the highest-percentage scoring techniques in BJJ competition. The technique requires precise timing, proper kuzushi (off-balancing), and coordinated hip and leg movement. Unlike some throws that rely purely on strength, Uchi Mata is a technical throw that uses rotational momentum and leverage to amplify your power. Its effectiveness has made it a staple in the arsenals of many high-level BJJ competitors who incorporate judo into their standing game.

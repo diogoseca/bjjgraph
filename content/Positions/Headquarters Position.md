@@ -17,6 +17,7 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
   "@type": "WebPage",
   "name": "Headquarters Position",
   "description": "Master Headquarters Position in BJJ. Strategic passing control position with multiple offensive pathways and 70% advancement rate for systematic guard passing.",
+  "alternateName": ["HQ", "Headquarters"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>HQ</strong>, <strong>Headquarters</strong></p>
+</aside>
 <div class="role-links">
 
 [[Headquarters Position/Bottom|Play as Bottom]]

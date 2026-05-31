@@ -17,6 +17,7 @@ description: "Master De La Riva Guard in BJJ. Hook-based open guard with berimbo
   "@type": "WebPage",
   "name": "De La Riva Guard",
   "description": "Master De La Riva Guard in BJJ. Hook-based open guard with berimbolo entries, sweeps, back takes, and 65% advanced success rates. Complete technical guide.",
+  "alternateName": ["De La Riva", "DLR Guard", "DLR"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master De La Riva Guard in BJJ. Hook-based open guard with berimbo
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>De La Riva</strong>, <strong>DLR Guard</strong>, <strong>DLR</strong></p>
+</aside>
 <div class="role-links">
 
 [[De La Riva Guard/Bottom|Play as Bottom]]

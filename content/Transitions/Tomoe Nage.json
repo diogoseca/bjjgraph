@@ -11,6 +11,10 @@
     "sweep",
     "guard pull"
   ],
+  "aliases": [
+    "Circle Throw",
+    "Wheel Throw"
+  ],
   "from_position": "Standing Position/Top",
   "outcomes": [
     {

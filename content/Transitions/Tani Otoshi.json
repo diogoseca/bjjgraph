@@ -10,6 +10,9 @@
     "sacrifice-throw",
     "valley-drop"
   ],
+  "aliases": [
+    "Valley Drop"
+  ],
   "from_position": "Standing Position/Top",
   "outcomes": [
     {

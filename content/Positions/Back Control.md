@@ -17,6 +17,7 @@ description: "Master back control in BJJ. Complete guide to hooks, harness grip,
   "@type": "WebPage",
   "name": "Back Control",
   "description": "Master back control in BJJ. Complete guide to hooks, harness grip, body triangle, submissions, and escapes from this dominant 4-point scoring position.",
+  "alternateName": ["Back Mount", "Rear Mount"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master back control in BJJ. Complete guide to hooks, harness grip,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Back Mount</strong>, <strong>Rear Mount</strong></p>
+</aside>
 <div class="role-links">
 
 [[Back Control/Bottom|Play as Bottom]]

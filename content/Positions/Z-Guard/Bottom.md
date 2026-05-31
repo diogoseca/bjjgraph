@@ -116,6 +116,7 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
   "@type": "WebPage",
   "name": "Z-Guard Bottom",
   "description": "Master Z-Guard Bottom position in BJJ. Complete guide covering knee shield retention, sweeps, and back takes. Defensive half guard variation with exceptional retention capabilities.",
+  "alternateName": ["Z Guard"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Z-Guard Bottom position in BJJ. Complete guide covering kne
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Z Guard</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Z-Guard Bottom is a dynamic half guard variation characterized by an active knee shield that creates distance and frames against the top player's pressure. This position, also known as Knee Shield Half Guard in some systems, represents one of the most versatile defensive positions in modern BJJ, offering exceptional retention capabilities while maintaining offensive sweep and back-take options. The fundamental structure involves trapping one of the opponent's legs with your inside leg while your outside leg creates a shield with the knee pressed into the opponent's shoulder or upper chest, preventing them from settling their weight and establishing effective passing pressure.

@@ -17,6 +17,7 @@ description: "Learn Tomoe Nage sacrifice throw for BJJ. Master execution from st
   "@type": "WebPage",
   "name": "Tomoe Nage",
   "description": "Learn Tomoe Nage sacrifice throw for BJJ. Master execution from standing, guard transitions, and follow-up attacks. Complete guide with defense strategies.",
+  "alternateName": ["Circle Throw", "Wheel Throw"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Learn Tomoe Nage sacrifice throw for BJJ. Master execution from st
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Circle Throw</strong>, <strong>Wheel Throw</strong></p>
+</aside>
 <div class="role-links">
 
 [[Tomoe Nage/Attacker|Play as Attacker]]

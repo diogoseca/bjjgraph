@@ -17,6 +17,7 @@ description: "Master the Ezekiel Choke in BJJ. Complete guide to sleeve-based bl
   "@type": "CollectionPage",
   "name": "Ezekiel Choke",
   "description": "Master the Ezekiel Choke in BJJ. Complete guide to sleeve-based blood choke mechanics, bilateral pressure, safety protocols, and finishing from mount and side control.",
+  "alternateName": ["Sode Guruma Jime", "Ezequiel Choke"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Ezekiel Choke in BJJ. Complete guide to sleeve-based bl
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Sode Guruma Jime</strong>, <strong>Ezequiel Choke</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

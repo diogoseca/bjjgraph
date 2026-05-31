@@ -17,6 +17,7 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Si
   "@type": "WebPage",
   "name": "Uchi Mata",
   "description": "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Side Control with setup, execution, and defense. Judo-based inner thigh technique.",
+  "alternateName": ["Inner Thigh Throw"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Si
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Inner Thigh Throw</strong></p>
+</aside>
 <div class="role-links">
 
 [[Uchi Mata/Attacker|Play as Attacker]]

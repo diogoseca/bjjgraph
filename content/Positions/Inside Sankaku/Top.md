@@ -116,6 +116,7 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
   "@type": "WebPage",
   "name": "Inside Sankaku Top",
   "description": "Master Inside Sankaku top perspective. Complete control mechanics, submission paths, and systematic breakdown of defensive barriers.",
+  "alternateName": ["411", "Inside Senkaku"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>411</strong>, <strong>Inside Senkaku</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Inside Sankaku from the top perspective represents one of the most dominant and highly-controlled positions in modern leg lock systems, offering exceptional mechanical advantage for inside heel hook attacks while severely limiting the opponent's defensive and escape options. From this position, the top player has established a figure-four leg entanglement around the opponent's leg with the heel exposed toward their centerline, creating optimal biomechanical alignment for devastating submissions. The position's effectiveness derives from its multi-layered control system - hip-to-hip connection prevents the opponent from creating escape distance, knee line dominance prevents defensive rotation, and the leg configuration itself isolates the trapped limb from defensive resources. Understanding the systematic approach to this position is critical: first establish the fundamental entanglement structure, then secure hip connection, next dominate the knee line, and finally isolate heel exposure before attempting the submission. Many practitioners fail by rushing to the submission before establishing complete positional control, which allows skilled opponents to escape or counter-attack. The top player must also maintain awareness of their own leg positioning, as engagement in leg entanglements creates mutual vulnerability that must be managed through superior positioning and control. Modern competition has proven Inside Sankaku to be among the highest percentage finishing positions, with success rates climbing significantly as practitioners develop systematic understanding of the position's control mechanics. The strategic depth of the position extends beyond simple submission hunting - it can be used to force opponents into bad positions, drain their energy through defensive efforts, and create multiple attack pathways that form dilemmas where every defensive choice opens different offensive opportunities.

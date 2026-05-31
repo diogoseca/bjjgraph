@@ -17,6 +17,7 @@ description: "Master the Guillotine Choke in BJJ with step-by-step execution, sa
   "@type": "CollectionPage",
   "name": "Guillotine Choke",
   "description": "Master the Guillotine Choke in BJJ with step-by-step execution, safety protocols, and variations. Complete guide for attacking and defending this versatile choke.",
+  "alternateName": ["Mae Hadaka Jime"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Guillotine Choke in BJJ with step-by-step execution, sa
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Mae Hadaka Jime</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

@@ -13,6 +13,10 @@
     "head-control",
     "passing"
   ],
+  "aliases": [
+    "Crossface",
+    "Cross-Face"
+  ],
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",

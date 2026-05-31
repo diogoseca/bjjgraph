@@ -17,6 +17,7 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
   "@type": "WebPage",
   "name": "Kouchi Gari",
   "description": "Master Kouchi Gari in BJJ. Small inner reap takedown from standing clinch with diagonal off-balancing. Complete guide with execution steps and combinations.",
+  "alternateName": ["Minor Inner Reap", "Ko Uchi Gari"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Minor Inner Reap</strong>, <strong>Ko Uchi Gari</strong></p>
+</aside>
 <div class="role-links">
 
 [[Kouchi Gari/Attacker|Play as Attacker]]

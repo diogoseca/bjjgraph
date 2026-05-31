@@ -116,6 +116,7 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hand 
   "@type": "WebPage",
   "name": "Back Control Bottom",
   "description": "Master escaping back control in BJJ. Learn defensive frames, hand fighting, hip escapes, survival tactics, and systematic escape sequences from this position.",
+  "alternateName": ["Back Mount", "Rear Mount"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master escaping back control in BJJ. Learn defensive frames, hand 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Back Mount</strong>, <strong>Rear Mount</strong> <span class="role-hint">(bottom)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Back control bottom represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where you are being controlled from behind by an opponent who has established chest-to-back connection, hooks or body triangle, and upper body control through harness or similar grips. This position carries significant disadvantage as you cannot see your opponent's attacks, have limited mobility, and face immediate submission threats including rear naked choke, arm attacks, and various choke variations. In IBJJF competition, your opponent scores 4 points for achieving this position, and you face the additional pressure of defending against high-percentage submission attempts.

@@ -17,6 +17,7 @@ description: "Master Ouchi Gari inner reap takedown in BJJ. Step-by-step executi
   "@type": "WebPage",
   "name": "Ouchi Gari",
   "description": "Master Ouchi Gari inner reap takedown in BJJ. Step-by-step execution from standing clinch to side control with combinations, counters, and defense strategies.",
+  "alternateName": ["Major Inner Reap", "O Uchi Gari"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Ouchi Gari inner reap takedown in BJJ. Step-by-step executi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Major Inner Reap</strong>, <strong>O Uchi Gari</strong></p>
+</aside>
 <div class="role-links">
 
 [[Ouchi Gari/Attacker|Play as Attacker]]

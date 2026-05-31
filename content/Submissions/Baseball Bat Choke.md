@@ -17,6 +17,7 @@ description: "Master the Baseball Bat Choke in BJJ. Devastating collar choke fro
   "@type": "CollectionPage",
   "name": "Baseball Bat Choke",
   "description": "Master the Baseball Bat Choke in BJJ. Devastating collar choke from top positions with tight control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "alternateName": ["Baseball Choke"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -38,6 +39,9 @@ description: "Master the Baseball Bat Choke in BJJ. Devastating collar choke fro
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>Baseball Choke</strong></p>
+</aside>
 
 <section id="variants" class="content-section">
 

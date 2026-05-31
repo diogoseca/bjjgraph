@@ -116,6 +116,7 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
   "@type": "WebPage",
   "name": "Headquarters Position Top",
   "description": "Master Headquarters Position in BJJ. Strategic passing control position with multiple offensive pathways and 70% advancement rate for systematic guard passing.",
+  "alternateName": ["HQ", "Headquarters"],
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -155,6 +156,9 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>HQ</strong>, <strong>Headquarters</strong> <span class="role-hint">(top)</span></p>
+</aside>
 <section id="overview" class="content-section">
 
 Headquarters Position is a fundamental guard passing control position where the top player establishes dominant leg control while maintaining strong base and upright posture. This position serves as the central hub of modern systematic guard passing, acting as a strategic decision point from which the passer selects optimal passing routes based on opponent reactions. The position creates exceptional control with relatively low risk, limiting the bottom player's defensive options while maintaining multiple offensive pathways.

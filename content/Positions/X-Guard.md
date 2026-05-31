@@ -17,6 +17,7 @@ description: "Master X-Guard in BJJ with comprehensive analysis covering sweeps,
   "@type": "WebPage",
   "name": "X-Guard",
   "description": "Master X-Guard in BJJ with comprehensive analysis covering sweeps, entries, and guard retention from both perspectives. Advanced position for all levels.",
+  "alternateName": ["X Guard"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master X-Guard in BJJ with comprehensive analysis covering sweeps,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>X Guard</strong></p>
+</aside>
 <div class="role-links">
 
 [[X-Guard/Bottom|Play as Bottom]]

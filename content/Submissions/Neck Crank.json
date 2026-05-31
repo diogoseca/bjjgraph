@@ -12,6 +12,10 @@
     "gi",
     "cervical-spine"
   ],
+  "aliases": [
+    "Cervical Lock",
+    "Spinal Crank"
+  ],
   "is_family": true,
   "submission_category": "Compression",
   "submission_type": "Spinal Compression",
@@ -20,7 +24,7 @@
   "from_position": "Twister Control/Top",
   "success_rate": 40,
   "variant_uniqueness": "Cervical spine compression bypasses chin tuck defenses",
-  "overview": "The Neck Crank is a cervical spine compression submission applied primarily from Twister Control. Unlike chokes that target the carotid arteries or trachea, the neck crank generates a tap through direct mechanical pressure on the cervical vertebrae and surrounding musculature. The attacker uses the body triangle to lock the opponent's torso in place while applying lateral or rotational force to the head, creating a shearing effect on the spine that becomes rapidly unbearable.\n\nThis submission occupies a unique space in the grappling hierarchy. While some competition rulesets restrict or ban neck cranks, they remain a legitimate and high-percentage finish in no-gi grappling, particularly from twister control where the opponent's movement is severely limited. The key strategic advantage of the neck crank is that it requires less precision than many other submissions\u2014once the body is locked and the head is controlled, the finishing mechanics are straightforward. However, this same potency demands exceptional training discipline, as the cervical spine is vulnerable to permanent injury when force is applied carelessly.\n\nFrom a game planning perspective, the neck crank pairs naturally with the twister and banana split as finishing threats from the truck position. The defender must choose which attack to prioritize defending, and each defensive commitment opens vulnerability to the others. Advanced practitioners use the neck crank as both a primary finish and a setup tool to create submission chains from twister control.",
+  "overview": "The Neck Crank is a cervical spine compression submission applied primarily from Twister Control. Unlike chokes that target the carotid arteries or trachea, the neck crank generates a tap through direct mechanical pressure on the cervical vertebrae and surrounding musculature. The attacker uses the body triangle to lock the opponent's torso in place while applying lateral or rotational force to the head, creating a shearing effect on the spine that becomes rapidly unbearable.\n\nThis submission occupies a unique space in the grappling hierarchy. While some competition rulesets restrict or ban neck cranks, they remain a legitimate and high-percentage finish in no-gi grappling, particularly from twister control where the opponent's movement is severely limited. The key strategic advantage of the neck crank is that it requires less precision than many other submissions—once the body is locked and the head is controlled, the finishing mechanics are straightforward. However, this same potency demands exceptional training discipline, as the cervical spine is vulnerable to permanent injury when force is applied carelessly.\n\nFrom a game planning perspective, the neck crank pairs naturally with the twister and banana split as finishing threats from the truck position. The defender must choose which attack to prioritize defending, and each defensive commitment opens vulnerability to the others. Advanced practitioners use the neck crank as both a primary finish and a setup tool to create submission chains from twister control.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -43,16 +47,16 @@
     "tap_signals": [
       "Physical tap on partner's body, legs, or the mat (minimum two distinct taps)",
       "Verbal submission ('tap', 'stop', or any verbal indication of distress)",
-      "Any sign of distress including grunting, gasping, or going limp\u2014treat as an immediate tap"
+      "Any sign of distress including grunting, gasping, or going limp—treat as an immediate tap"
     ],
     "release_protocol": [
-      "Release ALL pressure immediately and completely upon any tap signal\u2014do not 'finish the rep'",
+      "Release ALL pressure immediately and completely upon any tap signal—do not 'finish the rep'",
       "Gently return the opponent's head to neutral alignment before disengaging the body triangle",
       "Check on your training partner verbally after every neck crank attempt, even if they did not tap"
     ],
     "training_restrictions": [
       "Prohibited for white and blue belts in most academies; purple belt and above with instructor supervision recommended",
-      "Never apply full force in training\u2014use controlled progressive pressure at 50-70% intensity maximum",
+      "Never apply full force in training—use controlled progressive pressure at 50-70% intensity maximum",
       "Do not drill on partners with pre-existing cervical spine injuries, neck surgery history, or active neck pain"
     ]
   },
@@ -70,7 +74,7 @@
     {
       "variation_name": "Chin Strap Crank",
       "description": "Thread the top arm under the opponent's chin and lock a chin strap grip. Pull the head laterally while the body triangle anchors the torso. This is the highest-percentage variation because the grip under the jaw provides maximum rotational leverage on the cervical spine.",
-      "when_to_use": "When you can access the chin and thread your arm underneath\u2014the default finishing grip from twister control"
+      "when_to_use": "When you can access the chin and thread your arm underneath—the default finishing grip from twister control"
     },
     {
       "variation_name": "Forehead Push Crank",

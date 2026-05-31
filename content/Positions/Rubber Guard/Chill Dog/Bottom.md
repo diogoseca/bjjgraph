@@ -225,7 +225,7 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 **If opponent establishes strong chest pressure and attempts to flatten turtle:**
 - Execute **[[Granby Roll/Attacker|Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 45%)
-- Execute **[[Hip Escape/Attacker|Hip Escape]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Principles/Hip Escape Mechanics/Attacker|Hip Escape]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent circles to attack back or attempts to establish hooks:**

@@ -17,6 +17,7 @@ description: "Master Inside Sankaku (Honey Hole) in BJJ. Complete guide covering
   "@type": "WebPage",
   "name": "Inside Sankaku",
   "description": "Master Inside Sankaku (Honey Hole) in BJJ. Complete guide covering setup, control mechanics, escapes, and finishing sequences with systematic breakdown.",
+  "alternateName": ["411", "Inside Senkaku"],
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -36,6 +37,9 @@ description: "Master Inside Sankaku (Honey Hole) in BJJ. Complete guide covering
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="also-known-as"><em>Also known as:</em> <strong>411</strong>, <strong>Inside Senkaku</strong></p>
+</aside>
 <div class="role-links">
 
 [[Inside Sankaku/Bottom|Play as Bottom]]
