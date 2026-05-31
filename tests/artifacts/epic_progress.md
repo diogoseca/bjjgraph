@@ -41,7 +41,12 @@ Quota resets Monday → all token-spending scheduled jobs run on the **weekend**
   - [ ] sameAs population (~22 verified Wikidata Q-ids + Wikipedia) — needs WebFetch URL verification before writing.
   - [ ] Clean merges: Knee Cut/Knee Slice (both self-declare), Hip Bump Sweep V2 delete.
   - [ ] Escalate merges (need canonical decision / GSC): Darce/Brabo, Bridge-and-Roll/Upa, Flower/Pendulum.
-- [ ] **Epic B (phases 5-8)** — graph restructure (collapse role nodes, per-role strength [-1,1], red↔white↔blue ramp, node-type shapes). High blast radius; own focused effort.
+- [~] **Epic B (phases 5-8)** — graph restructure (collapse role nodes, per-role strength [-1,1], red↔white↔blue ramp, node-type shapes). High blast radius; own focused effort.
+  - [x] **Phase 6 scoring module** — `scripts/score_graph_nodes.py` (`v1.34.4`). Standalone, shape-agnostic (reads source JSON), validated against real data. **NOT yet wired into `regenerate_graph.py`** — that wiring is atomic with Phase 5's hub-shape and is BLOCKED on a clean graph-frontend base (see below). Findings:
+    - The plan §6.6.1 sanity-table magnitudes were eyeballed and are unreachable (max point_value term is ±0.40 → Mount/top computes to **+0.63**, not +1.00). Self-check rewritten to assert **ordering invariants** (the real coloring contract), all of which PASS.
+    - Closed Guard paradox holds **relatively** (bottom −0.03 > top −0.24), not absolutely (+0.27).
+    - `submission_probability` is a "risk of being submitted" metric on 2 defensive bottoms (Mount/bottom, Back Control/bottom) — scored as a finish rate. Ordering survives; logged as a data fix, not blocking.
+  - [ ] **Phases 5 / 7 / 8 — BLOCKED** on uncommitted graph-frontend work (`renderPage.tsx`, `backgroundGraph.inline.ts`, `globalGraphLayout.json`, `custom.scss`). Phase 5 changes `graph.json`'s shape and the frontend readers must change in the same commit; phases 7-8 are pure frontend. Cannot proceed without clobbering the user's in-flight changes. Needs: user commits/stashes that work, OR explicitly hands the frontend to me.
 
 ### Open items needing a GitHub secret (flagged to user)
 - **`POSTHOG_PERSONAL_API_KEY`** (phx_ personal key): votes-refresh + seo-monitor reference it; empty = graceful skip. The project key (phc_) `POSTHOG_API_KEY` 401s on the read APIs. (Also affects the existing analytics bot's HogQL reads.)
