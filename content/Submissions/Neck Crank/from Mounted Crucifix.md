@@ -10,6 +10,29 @@ description: "Master the Neck Crank from Mounted Crucifix in BJJ. Learn the cerv
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Neck Crank from Mounted Crucifix",
+  "description": "Master the Neck Crank from Mounted Crucifix in BJJ. Learn the cervical spine compression finish using arm-trapped control for high-percentage taps.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Neck Crank from Mounted Crucifix", "item": "https://bjjgraph.org/Submissions/Neck-Crank-from-Mounted-Crucifix" }
+  ]
+}
+</script>
+
 > **SAFETY**: Neck Crank from Mounted Crucifix targets the Cervical spine and neck muscles. Risk: Cervical disc herniation or vertebral fracture from excessive rotational force. Release immediately upon tap.
 
 

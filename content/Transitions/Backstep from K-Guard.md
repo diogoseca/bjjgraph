@@ -10,6 +10,29 @@ description: "Master the Backstep from K-Guard in BJJ. Extract your trapped leg 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Backstep from K-Guard",
+  "description": "Master the Backstep from K-Guard in BJJ. Extract your trapped leg using backstep mechanics to clear the inverted hook system and advance to dominant passing positions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Backstep from K-Guard", "item": "https://bjjgraph.org/Transitions/Backstep-from-K-Guard" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

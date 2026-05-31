@@ -10,6 +10,29 @@ description: "Master Elbow Escape to Remove Hooks from back control. Step-by-ste
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Elbow Escape to Remove Hooks",
+  "description": "Master Elbow Escape to Remove Hooks from back control. Step-by-step hook removal mechanics with elbow wedge framing and systematic hip escape sequences.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Elbow Escape to Remove Hooks", "item": "https://bjjgraph.org/Transitions/Elbow-Escape-to-Remove-Hooks" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

@@ -10,6 +10,29 @@ description: "Master the transition from Anaconda Control to Dead Orchard Contro
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anaconda Control to Dead Orchard Control",
+  "description": "Master the transition from Anaconda Control to Dead Orchard Control in BJJ. Grip adjustments, weight redistribution, and patient pressure mechanics for extended dominance.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Anaconda Control to Dead Orchard Control", "item": "https://bjjgraph.org/Transitions/Anaconda-Control-to-Dead-Orchard-Control" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

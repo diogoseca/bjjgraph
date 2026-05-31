@@ -10,6 +10,29 @@ description: "Master the reversal from flattened half guard in BJJ. Learn underh
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Reversal from Flattened Half Guard",
+  "description": "Master the reversal from flattened half guard in BJJ. Learn underhook-based sweeps, bridge mechanics, and timing to escape bottom and achieve top position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Reversal from Flattened Half Guard", "item": "https://bjjgraph.org/Transitions/Reversal-from-Flattened-Half-Guard" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

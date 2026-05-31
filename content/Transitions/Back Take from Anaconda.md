@@ -10,6 +10,29 @@ description: "Master the Back Take from Anaconda in BJJ. Learn to convert front 
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Back Take from Anaconda",
+  "description": "Master the Back Take from Anaconda in BJJ. Learn to convert front headlock choke control into dominant back position with hooks and systematic grip exchange.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Back Take from Anaconda", "item": "https://bjjgraph.org/Transitions/Back-Take-from-Anaconda" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

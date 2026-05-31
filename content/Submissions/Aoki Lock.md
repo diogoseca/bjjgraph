@@ -10,6 +10,29 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Aoki Lock",
+  "description": "Master the Aoki Lock leg compression in BJJ. Safety guide with setup, execution, and defense. Success rates: Beginner 25%, Intermediate 40%, Advanced 60%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Aoki Lock", "item": "https://bjjgraph.org/Submissions/Aoki-Lock" }
+  ]
+}
+</script>
+
 > **SAFETY**: Aoki Lock targets the Shin and ankle compression. Risk: Severe plantar fascia strain or tear. Release immediately upon tap.
 
 

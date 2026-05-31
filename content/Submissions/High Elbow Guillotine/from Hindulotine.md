@@ -10,6 +10,29 @@ description: "Master the High Elbow Guillotine from Hindulotine. Learn elevated 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "High Elbow Guillotine from Hindulotine",
+  "description": "Master the High Elbow Guillotine from Hindulotine. Learn elevated elbow finishing mechanics, rotational pressure setups, and defensive counters for this blood choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "High Elbow Guillotine from Hindulotine", "item": "https://bjjgraph.org/Submissions/High-Elbow-Guillotine-from-Hindulotine" }
+  ]
+}
+</script>
+
 > **SAFETY**: High Elbow Guillotine from Hindulotine targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Cross Collar Choke in BJJ. Complete guide covering gi g
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Cross Collar Choke",
+  "description": "Master the Cross Collar Choke in BJJ. Complete guide covering gi grips, proper hand placement, finishing mechanics, and defense strategies for all levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cross Collar Choke", "item": "https://bjjgraph.org/Submissions/Cross-Collar-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Cross Collar Choke targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
 
 

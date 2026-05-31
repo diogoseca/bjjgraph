@@ -10,6 +10,29 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Rear Naked Choke",
+  "description": "Master the Rear Naked Choke in BJJ. Complete safety guide with proper execution, defense patterns, and training progressions. Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rear Naked Choke", "item": "https://bjjgraph.org/Submissions/Rear-Naked-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Rear Naked Choke targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 

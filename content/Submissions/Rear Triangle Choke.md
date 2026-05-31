@@ -10,6 +10,29 @@ description: "Master the Rear Triangle Choke in BJJ. Complete guide to finishing
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Rear Triangle Choke",
+  "description": "Master the Rear Triangle Choke in BJJ. Complete guide to finishing mechanics, defensive escapes, and safety protocols for this high-percentage back attack.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rear Triangle Choke", "item": "https://bjjgraph.org/Submissions/Rear-Triangle-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Rear Triangle Choke targets the Neck. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
 
 

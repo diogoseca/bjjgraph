@@ -434,6 +434,7 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
                 aliases=data.get('aliases', []),
                 family=data.get('family', ''),
                 disambiguations=data.get('disambiguations', []),
+                sameAs=data.get('sameAs', []),
             )
 
             # Render attacker page
@@ -524,6 +525,7 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
             aliases=data.get('aliases', []),
             family=data.get('family', ''),
             disambiguations=data.get('disambiguations', []),
+            sameAs=data.get('sameAs', []),
         )
 
         # Render bottom page

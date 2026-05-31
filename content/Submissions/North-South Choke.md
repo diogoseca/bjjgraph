@@ -10,6 +10,29 @@ description: "Master North-South Choke in BJJ. Complete guide with setup from to
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "North-South Choke",
+  "description": "Master North-South Choke in BJJ. Complete guide with setup from top control, execution mechanics, safety protocols. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "North-South Choke", "item": "https://bjjgraph.org/Submissions/North-South-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: North-South Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

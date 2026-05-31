@@ -10,6 +10,29 @@ description: "Master the North-South Choke from Shoulder of Justice with detaile
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North-South Choke from Shoulder of Justice",
+  "description": "Master the North-South Choke from Shoulder of Justice with detailed grip mechanics, transition steps, and finishing pressure. Complete BJJ submission guide.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "North-South Choke from Shoulder of Justice", "item": "https://bjjgraph.org/Submissions/North-South-Choke-from-Shoulder-of-Justice" }
+  ]
+}
+</script>
+
 > **SAFETY**: North-South Choke from Shoulder of Justice targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

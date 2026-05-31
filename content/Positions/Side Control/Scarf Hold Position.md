@@ -10,6 +10,29 @@ description: "Master Scarf Hold (Kesa Gatame) in BJJ. Traditional judo pinning p
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Scarf Hold Position",
+  "description": "Master Scarf Hold (Kesa Gatame) in BJJ. Traditional judo pinning position with perpendicular control angle. Complete guide covering bottom escapes and top control strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Scarf Hold Position", "item": "https://bjjgraph.org/Positions/Scarf-Hold-Position" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

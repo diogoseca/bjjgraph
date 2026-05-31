@@ -10,6 +10,29 @@ description: "Master the Straight Ankle Lock in BJJ. Complete guide with safety 
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Straight Ankle Lock",
+  "description": "Master the Straight Ankle Lock in BJJ. Complete guide with safety protocols, setup from Ashi Garami, finishing mechanics, and defensive strategies for all levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Straight Ankle Lock", "item": "https://bjjgraph.org/Submissions/Straight-Ankle-Lock" }
+  ]
+}
+</script>
+
 > **SAFETY**: Straight Ankle Lock targets the Ankle joint, Achilles tendon, and foot ligaments. Risk: Ankle sprain or ligament damage. Release immediately upon tap.
 
 

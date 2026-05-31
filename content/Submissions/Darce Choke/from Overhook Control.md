@@ -10,6 +10,29 @@ description: "Master the Darce Choke from Overhook Control with expert finishing
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Darce Choke from Overhook Control",
+  "description": "Master the Darce Choke from Overhook Control with expert finishing mechanics, defensive strategies, and training progressions for this arm triangle variant.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Darce Choke from Overhook Control", "item": "https://bjjgraph.org/Submissions/Darce-Choke-from-Overhook-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Darce Choke from Overhook Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 

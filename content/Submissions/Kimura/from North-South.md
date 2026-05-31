@@ -10,6 +10,29 @@ description: "Master Kimura from North-South in BJJ. Complete safety guide with 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from North-South",
+  "description": "Master Kimura from North-South in BJJ. Complete safety guide with setup, execution, variations. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from North-South", "item": "https://bjjgraph.org/Submissions/Kimura-from-North-South" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kimura from North-South targets the Shoulder joint, rotator cuff, and surrounding ligaments. Risk: Rotator cuff tear (supraspinatus, infraspinatus, subscapularis damage). Release immediately upon tap.
 
 

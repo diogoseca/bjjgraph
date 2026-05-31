@@ -10,6 +10,29 @@ description: "Master the Meathook position in BJJ. Strategic Rubber Guard contro
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Meathook",
+  "description": "Master the Meathook position in BJJ. Strategic Rubber Guard control that isolates the opponent\u0027s arm while breaking posture for high-percentage attacks.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Meathook", "item": "https://bjjgraph.org/Positions/Meathook" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

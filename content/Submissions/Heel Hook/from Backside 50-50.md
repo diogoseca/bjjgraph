@@ -10,6 +10,29 @@ description: "Master the heel hook from Backside 50-50 in BJJ. Complete guide to
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Hook from Backside 50-50",
+  "description": "Master the heel hook from Backside 50-50 in BJJ. Complete guide to opportunistic leg lock finishing from disadvantaged entanglement with expert breakdowns.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Heel Hook from Backside 50-50", "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Backside-50-50" }
+  ]
+}
+</script>
+
 > **SAFETY**: Heel Hook from Backside 50-50 targets the Knee (MCL, LCL, ACL, meniscus). Risk: MCL tear from medial rotational force transmitted through the heel to the knee joint. Release immediately upon tap.
 
 

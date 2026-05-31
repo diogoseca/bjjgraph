@@ -10,6 +10,29 @@ description: "Master the Rear Naked Choke from Crucifix position in BJJ. High-pe
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rear Naked Choke from Crucifix",
+  "description": "Master the Rear Naked Choke from Crucifix position in BJJ. High-percentage blood choke finish with bilateral arm control, setup mechanics, and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rear Naked Choke from Crucifix", "item": "https://bjjgraph.org/Submissions/Rear-Naked-Choke-from-Crucifix" }
+  ]
+}
+</script>
+
 > **SAFETY**: Rear Naked Choke from Crucifix targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 

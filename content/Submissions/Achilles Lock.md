@@ -10,6 +10,29 @@ description: "Master the Achilles Lock leg submission in BJJ. Complete guide cov
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Achilles Lock",
+  "description": "Master the Achilles Lock leg submission in BJJ. Complete guide covering setup mechanics, finishing details, and safety protocols from Ashi Garami positions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Achilles Lock", "item": "https://bjjgraph.org/Submissions/Achilles-Lock" }
+  ]
+}
+</script>
+
 > **SAFETY**: Achilles Lock targets the Achilles tendon and ankle joint. Risk: Achilles tendon rupture or tear. Release immediately upon tap.
 
 

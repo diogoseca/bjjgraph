@@ -10,6 +10,29 @@ description: "Master Body Lock position in BJJ. Complete guide covering standing
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Body Lock",
+  "description": "Master Body Lock position in BJJ. Complete guide covering standing control, mat returns, back takes, and throws with detailed mechanics for both perspectives.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Body Lock", "item": "https://bjjgraph.org/Positions/Body-Lock" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

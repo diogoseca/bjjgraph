@@ -10,6 +10,29 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Grasshopper Guard",
+  "description": "Master grasshopper guard in BJJ. Strategic guide covering elevation mechanics, leg attacks, and sweep chains with complete offensive and defensive analysis.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Grasshopper Guard", "item": "https://bjjgraph.org/Positions/Grasshopper-Guard" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

@@ -10,6 +10,29 @@ description: "Master the Short Choke from Cross Body Ride in BJJ. Complete guide
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Short Choke from Cross Body",
+  "description": "Master the Short Choke from Cross Body Ride in BJJ. Complete guide covering forearm choke mechanics, finishing pressure, and defensive strategies with safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Short Choke from Cross Body", "item": "https://bjjgraph.org/Submissions/Short-Choke-from-Cross-Body" }
+  ]
+}
+</script>
+
 > **SAFETY**: Short Choke from Cross Body targets the Neck. Risk: Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia. Release immediately upon tap.
 
 

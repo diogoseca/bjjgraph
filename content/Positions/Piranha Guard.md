@@ -10,6 +10,29 @@ description: "Master Piranha Guard in BJJ. Advanced lapel-based guard with power
 
 <body data-content-type="positions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Piranha Guard",
+  "description": "Master Piranha Guard in BJJ. Advanced lapel-based guard with powerful sweeps and back takes. Complete strategic guide covering both bottom and top perspectives with 65% sweep success rate.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Positions", "item": "https://bjjgraph.org/Positions/" },
+    { "@type": "ListItem", "position": 3, "name": "Piranha Guard", "item": "https://bjjgraph.org/Positions/Piranha-Guard" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

@@ -10,6 +10,29 @@ description: "Learn the Twister Finish from Russian Cowboy in BJJ. Spinal lock s
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Twister from Russian Cowboy",
+  "description": "Learn the Twister Finish from Russian Cowboy in BJJ. Spinal lock submission with step-by-step execution, defense strategies, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Twister from Russian Cowboy", "item": "https://bjjgraph.org/Submissions/Twister-from-Russian-Cowboy" }
+  ]
+}
+</script>
+
 > **SAFETY**: Twister from Russian Cowboy targets the Thoracic and Cervical Spine. Risk: Thoracic spine herniated disc from opposed rotational compression. Release immediately upon tap.
 
 

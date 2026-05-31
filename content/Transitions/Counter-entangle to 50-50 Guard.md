@@ -10,6 +10,29 @@ description: "Learn Counter-entangle to 50-50 Guard in BJJ. Defensive leg revers
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter-entangle to 50-50 Guard",
+  "description": "Learn Counter-entangle to 50-50 Guard in BJJ. Defensive leg reversal from Leg Knot to symmetric 50-50 position. Complete execution and defense guide.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter-entangle to 50-50 Guard", "item": "https://bjjgraph.org/Transitions/Counter-entangle-to-50-50-Guard" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

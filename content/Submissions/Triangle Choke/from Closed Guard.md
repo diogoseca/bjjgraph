@@ -10,6 +10,29 @@ description: "Master triangle choke from closed guard in BJJ. Complete guide cov
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke from Closed Guard",
+  "description": "Master triangle choke from closed guard in BJJ. Complete guide covering setup, angle creation, finishing mechanics, and defense with safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle Choke from Closed Guard", "item": "https://bjjgraph.org/Submissions/Triangle-Choke-from-Closed-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Triangle Choke from Closed Guard targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from carotid compression. Release immediately upon tap.
 
 

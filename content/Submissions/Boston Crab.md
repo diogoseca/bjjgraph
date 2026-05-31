@@ -10,6 +10,29 @@ description: "Master Boston Crab submission in BJJ. Complete guide covering setu
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Boston Crab",
+  "description": "Master Boston Crab submission in BJJ. Complete guide covering setup, execution, safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Boston Crab", "item": "https://bjjgraph.org/Submissions/Boston-Crab" }
+  ]
+}
+</script>
+
 > **SAFETY**: Boston Crab targets the Lumbar spine and hip flexors. Risk: Lumbar spine strain or disc herniation. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master Kimura from Turtle in BJJ. Complete guide with safety proto
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Turtle",
+  "description": "Master Kimura from Turtle in BJJ. Complete guide with safety protocols, setup, execution steps. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Turtle", "item": "https://bjjgraph.org/Submissions/Kimura-from-Turtle" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kimura from Turtle targets the Shoulder joint, rotator cuff, and associated ligaments. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
 
 

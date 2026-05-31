@@ -10,6 +10,29 @@ description: "Master the Kimura shoulder lock from front headlock in BJJ. Learn 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Front Headlock",
+  "description": "Master the Kimura shoulder lock from front headlock in BJJ. Learn grip transitions, figure-four mechanics, and finishing details from this dominant control position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Front Headlock", "item": "https://bjjgraph.org/Submissions/Kimura-from-Front-Headlock" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kimura from Front Headlock targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
 
 

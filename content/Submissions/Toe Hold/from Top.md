@@ -10,6 +10,29 @@ description: "Master Toe Hold from Top in BJJ. Complete guide with safety protoc
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toe Hold from Top",
+  "description": "Master Toe Hold from Top in BJJ. Complete guide with safety protocols, setup, execution steps. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Toe Hold from Top", "item": "https://bjjgraph.org/Submissions/Toe-Hold-from-Top" }
+  ]
+}
+</script>
+
 > **SAFETY**: Toe Hold from Top targets the Ankle and knee ligaments (lateral ankle complex, medial collateral ligament). Risk: Ankle ligament tears (lateral collateral ligament complex). Release immediately upon tap.
 
 

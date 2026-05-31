@@ -10,6 +10,29 @@ description: "Master the triangle choke finish from triangle control. Learn prec
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke from Triangle Control",
+  "description": "Master the triangle choke finish from triangle control. Learn precise angle adjustments, hip elevation, and squeeze mechanics to tap opponents consistently.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle Choke from Triangle Control", "item": "https://bjjgraph.org/Submissions/Triangle-Choke-from-Triangle-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Triangle Choke from Triangle Control targets the Carotid arteries and brachial plexus. Risk: Loss of consciousness from bilateral carotid artery compression. Release immediately upon tap.
 
 

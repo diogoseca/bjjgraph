@@ -10,6 +10,29 @@ description: "Master the calf slicer from Carni position in BJJ. Learn compressi
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Carni",
+  "description": "Master the calf slicer from Carni position in BJJ. Learn compression lock mechanics, shin placement, and how to chain this finish with heel hook threats.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from Carni", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Carni" }
+  ]
+}
+</script>
+
 > **SAFETY**: Calf Slicer from Carni targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the outside heel hook from outside ashi-garami with complet
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Outside Heel Hook from Outside Ashi-Garami",
+  "description": "Master the outside heel hook from outside ashi-garami with complete finishing mechanics, defensive strategies, and safety protocols for leg lock practitioners.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Outside Heel Hook from Outside Ashi-Garami", "item": "https://bjjgraph.org/Submissions/Outside-Heel-Hook-from-Outside-Ashi-Garami" }
+  ]
+}
+</script>
+
 > **SAFETY**: Outside Heel Hook from Outside Ashi-Garami targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
 
 

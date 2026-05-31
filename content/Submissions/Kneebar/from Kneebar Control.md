@@ -10,6 +10,29 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Kneebar Control",
+  "description": "Master the kneebar finish from kneebar control in BJJ. Step-by-step execution guide covering hip mechanics, leg control, defensive counters, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar from Kneebar Control", "item": "https://bjjgraph.org/Submissions/Kneebar-from-Kneebar-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kneebar from Kneebar Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
 
 

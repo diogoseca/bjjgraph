@@ -10,6 +10,29 @@ description: "Master the Von Flue Choke counter in BJJ. Complete safety guide wi
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Von Flue Choke from Side Control",
+  "description": "Master the Von Flue Choke counter in BJJ. Complete safety guide with setup and execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Von Flue Choke from Side Control", "item": "https://bjjgraph.org/Submissions/Von-Flue-Choke-from-Side-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Von Flue Choke from Side Control targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Arm Triangle from Side Control in BJJ. Complete finishi
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle from Side Control",
+  "description": "Master the Arm Triangle from Side Control in BJJ. Complete finishing mechanics, defensive counters, and progressive training drills for this high-percentage blood choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Triangle from Side Control", "item": "https://bjjgraph.org/Submissions/Arm-Triangle-from-Side-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Arm Triangle from Side Control targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Monoplata submission in BJJ. Complete guide covering se
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Monoplata",
+  "description": "Master the Monoplata submission in BJJ. Complete guide covering setup from guard, execution steps, safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 55%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Monoplata", "item": "https://bjjgraph.org/Submissions/Monoplata" }
+  ]
+}
+</script>
+
 > **SAFETY**: Monoplata targets the Shoulder joint and rotator cuff. Risk: Shoulder dislocation or subluxation. Release immediately upon tap.
 
 

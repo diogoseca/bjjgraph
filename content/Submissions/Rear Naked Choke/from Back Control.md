@@ -10,6 +10,29 @@ description: "Master the rear naked choke from back control. Complete guide to h
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rear Naked Choke from Back Control",
+  "description": "Master the rear naked choke from back control. Complete guide to hand fighting, grip mechanics, choking sequences, and defensive strategies in BJJ.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rear Naked Choke from Back Control", "item": "https://bjjgraph.org/Submissions/Rear-Naked-Choke-from-Back-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Rear Naked Choke from Back Control targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 

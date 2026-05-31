@@ -10,6 +10,29 @@ description: "Master the triangle choke from mounted triangle position. Learn fi
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke from Mounted Triangle",
+  "description": "Master the triangle choke from mounted triangle position. Learn finishing mechanics, angle adjustments, and defensive counters for this high-percentage BJJ submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle Choke from Mounted Triangle", "item": "https://bjjgraph.org/Submissions/Triangle-Choke-from-Mounted-Triangle" }
+  ]
+}
+</script>
+
 > **SAFETY**: Triangle Choke from Mounted Triangle targets the Carotid arteries and brachial plexus. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 

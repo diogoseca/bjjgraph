@@ -10,6 +10,29 @@ description: "Master Paper Cutter Choke in BJJ. Complete guide with safety proto
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Paper Cutter Choke",
+  "description": "Master Paper Cutter Choke in BJJ. Complete guide with safety protocols, setup from side control, execution details and defensive strategies for all levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Paper Cutter Choke", "item": "https://bjjgraph.org/Submissions/Paper-Cutter-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Paper Cutter Choke targets the Carotid arteries (bilateral compression). Risk: Loss of consciousness from carotid artery compression. Release immediately upon tap.
 
 

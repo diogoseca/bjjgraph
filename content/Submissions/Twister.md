@@ -10,6 +10,29 @@ description: "Master the Twister spinal lock in BJJ. Complete guide covering Tru
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Twister",
+  "description": "Master the Twister spinal lock in BJJ. Complete guide covering Truck position setup, spine rotation mechanics, safety protocols, and defense strategies for advanced practitioners.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Twister", "item": "https://bjjgraph.org/Submissions/Twister" }
+  ]
+}
+</script>
+
 > **SAFETY**: Twister targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine damage (neck injury). Release immediately upon tap.
 
 

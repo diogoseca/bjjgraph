@@ -10,6 +10,29 @@ description: "Master the short choke from body triangle in BJJ. Learn lapel feed
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Short Choke from Body Triangle",
+  "description": "Master the short choke from body triangle in BJJ. Learn lapel feeding mechanics, grip positioning, and finishing details for this high-percentage gi choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Short Choke from Body Triangle", "item": "https://bjjgraph.org/Submissions/Short-Choke-from-Body-Triangle" }
+  ]
+}
+</script>
+
 > **SAFETY**: Short Choke from Body Triangle targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

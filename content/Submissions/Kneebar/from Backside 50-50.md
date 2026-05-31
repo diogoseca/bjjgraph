@@ -10,6 +10,29 @@ description: "Master the kneebar from Backside 50-50 in BJJ. Complete guide to l
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Backside 50-50",
+  "description": "Master the kneebar from Backside 50-50 in BJJ. Complete guide to leg isolation, finishing mechanics, and defense from this dominant leg entanglement position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar from Backside 50-50", "item": "https://bjjgraph.org/Submissions/Kneebar-from-Backside-50-50" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kneebar from Backside 50-50 targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear or rupture. Release immediately upon tap.
 
 

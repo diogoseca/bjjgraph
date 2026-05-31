@@ -10,6 +10,29 @@ description: "Master the Leg Drag to Crucifix transition in BJJ. Capitalize on o
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag to Crucifix",
+  "description": "Master the Leg Drag to Crucifix transition in BJJ. Capitalize on opponent\u0027s turn-in defense to trap both arms. Success rates: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag to Crucifix", "item": "https://bjjgraph.org/Transitions/Leg-Drag-to-Crucifix" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

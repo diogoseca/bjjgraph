@@ -10,6 +10,29 @@ description: "Master the heel hook from saddle position in BJJ. Complete guide t
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Hook from Saddle",
+  "description": "Master the heel hook from saddle position in BJJ. Complete guide to setup, finishing mechanics, defense, and safety protocols for this devastating leg lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Heel Hook from Saddle", "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Saddle" }
+  ]
+}
+</script>
+
 > **SAFETY**: Heel Hook from Saddle targets the Knee and ankle joint. Risk: ACL (anterior cruciate ligament) tear from rotational force. Release immediately upon tap.
 
 

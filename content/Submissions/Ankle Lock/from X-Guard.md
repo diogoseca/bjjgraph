@@ -10,6 +10,29 @@ description: "Master the ankle lock from X-Guard in BJJ. Complete guide to setup
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ankle Lock from X-Guard",
+  "description": "Master the ankle lock from X-Guard in BJJ. Complete guide to setup, grip mechanics, finishing details, and defense for this versatile leg lock submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ankle Lock from X-Guard", "item": "https://bjjgraph.org/Submissions/Ankle-Lock-from-X-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Ankle Lock from X-Guard targets the Ankle. Risk: Ankle ligament sprain or tear (anterior talofibular ligament, calcaneofibular ligament). Release immediately upon tap.
 
 

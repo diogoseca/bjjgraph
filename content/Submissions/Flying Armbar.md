@@ -10,6 +10,29 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Flying Armbar",
+  "description": "Master the Flying Armbar technique in BJJ. High-risk aerial submission targeting elbow joint with dynamic entry. Complete guide with safety protocols and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Flying Armbar", "item": "https://bjjgraph.org/Submissions/Flying-Armbar" }
+  ]
+}
+</script>
+
 > **SAFETY**: Flying Armbar targets the Elbow joint and shoulder. Risk: Elbow hyperextension or ligament tears (opponent). Release immediately upon tap.
 
 

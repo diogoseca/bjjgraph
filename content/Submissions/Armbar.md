@@ -10,6 +10,29 @@ description: "Master the Armbar submission in BJJ. Complete guide covering setup
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Armbar",
+  "description": "Master the Armbar submission in BJJ. Complete guide covering setups from mount, guard, back control, and side control with detailed mechanics and defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar", "item": "https://bjjgraph.org/Submissions/Armbar" }
+  ]
+}
+</script>
+
 > **SAFETY**: Armbar targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
 
 

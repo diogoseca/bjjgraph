@@ -10,6 +10,29 @@ description: "Master the cross collar choke from 3-4 mount in BJJ. Complete guid
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Collar Choke from 3-4 Mount",
+  "description": "Master the cross collar choke from 3-4 mount in BJJ. Complete guide covering grip mechanics, finishing details, and defensive counters for gi grapplers.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cross Collar Choke from 3-4 Mount", "item": "https://bjjgraph.org/Submissions/Cross-Collar-Choke-from-3-4-Mount" }
+  ]
+}
+</script>
+
 > **SAFETY**: Cross Collar Choke from 3-4 Mount targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
 
 

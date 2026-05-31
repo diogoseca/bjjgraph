@@ -10,6 +10,29 @@ description: "Master the Triangle Choke from Open Guard in BJJ. Expert guide cov
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke from Open Guard",
+  "description": "Master the Triangle Choke from Open Guard in BJJ. Expert guide covering setup, angle creation, finishing mechanics, defensive escapes, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle Choke from Open Guard", "item": "https://bjjgraph.org/Submissions/Triangle-Choke-from-Open-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Triangle Choke from Open Guard targets the Neck. Risk: Carotid artery compression causing loss of consciousness. Release immediately upon tap.
 
 

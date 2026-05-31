@@ -10,6 +10,29 @@ description: "Master the Peruvian Necktie from front headlock. Learn leg-over-he
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Peruvian Necktie from Front Headlock",
+  "description": "Master the Peruvian Necktie from front headlock. Learn leg-over-head blood choke mechanics, grip details, and finishing techniques for competitive BJJ.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Peruvian Necktie from Front Headlock", "item": "https://bjjgraph.org/Submissions/Peruvian-Necktie-from-Front-Headlock" }
+  ]
+}
+</script>
+
 > **SAFETY**: Peruvian Necktie from Front Headlock targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Can Opener",
+  "description": "Understand Can Opener neck crank in BJJ: safety risks, legal status, defensive counters. Success rates: Beginner 15%, Intermediate 25%, Advanced 35%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Can Opener", "item": "https://bjjgraph.org/Submissions/Can-Opener" }
+  ]
+}
+</script>
+
 > **SAFETY**: Can Opener targets the Cervical spine and neck muscles. Risk: Cervical spine compression. Release immediately upon tap.
 
 

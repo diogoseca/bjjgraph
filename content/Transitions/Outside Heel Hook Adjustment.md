@@ -10,6 +10,29 @@ description: "Master the Outside Heel Hook Adjustment from Ushiro Ashi-Garami. G
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Outside Heel Hook Adjustment",
+  "description": "Master the Outside Heel Hook Adjustment from Ushiro Ashi-Garami. Grip changes, hip repositioning, and finishing mechanics for advanced leg lock systems.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Outside Heel Hook Adjustment", "item": "https://bjjgraph.org/Transitions/Outside-Heel-Hook-Adjustment" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

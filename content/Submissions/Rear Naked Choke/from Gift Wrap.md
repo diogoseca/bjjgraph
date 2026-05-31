@@ -10,6 +10,29 @@ description: "Master the Rear Naked Choke from Gift Wrap in BJJ. Learn how the a
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rear Naked Choke from Gift Wrap",
+  "description": "Master the Rear Naked Choke from Gift Wrap in BJJ. Learn how the arm trap eliminates neck defense, creating a high-percentage blood choke finish.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rear Naked Choke from Gift Wrap", "item": "https://bjjgraph.org/Submissions/Rear-Naked-Choke-from-Gift-Wrap" }
+  ]
+}
+</script>
+
 > **SAFETY**: Rear Naked Choke from Gift Wrap targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step e
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from Armbar Control",
+  "description": "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step elbow hyperextension mechanics, grip details, and counters. Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar from Armbar Control", "item": "https://bjjgraph.org/Submissions/Armbar-from-Armbar-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Armbar from Armbar Control targets the Elbow. Risk: Elbow hyperextension with collateral ligament sprain or tear. Release immediately upon tap.
 
 

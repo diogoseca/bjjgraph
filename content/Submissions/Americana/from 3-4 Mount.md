@@ -10,6 +10,29 @@ description: "Master the Americana from 3-4 Mount in BJJ. Step-by-step shoulder 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from 3-4 Mount",
+  "description": "Master the Americana from 3-4 Mount in BJJ. Step-by-step shoulder lock setup, grip mechanics, finishing details, defensive counters, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Americana from 3-4 Mount", "item": "https://bjjgraph.org/Submissions/Americana-from-3-4-Mount" }
+  ]
+}
+</script>
+
 > **SAFETY**: Americana from 3-4 Mount targets the Shoulder joint (rotator cuff and glenohumeral complex). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits. Release immediately upon tap.
 
 

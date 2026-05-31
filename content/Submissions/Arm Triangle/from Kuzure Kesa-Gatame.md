@@ -10,6 +10,29 @@ description: "Master the arm triangle from Kuzure Kesa-Gatame with setup mechani
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle from Kuzure Kesa-Gatame",
+  "description": "Master the arm triangle from Kuzure Kesa-Gatame with setup mechanics, finishing angles, and escape strategies for this powerful modified scarf hold choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Triangle from Kuzure Kesa-Gatame", "item": "https://bjjgraph.org/Submissions/Arm-Triangle-from-Kuzure-Kesa-Gatame" }
+  ]
+}
+</script>
+
 > **SAFETY**: Arm Triangle from Kuzure Kesa-Gatame targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 

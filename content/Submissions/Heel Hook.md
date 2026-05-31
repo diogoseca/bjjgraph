@@ -10,6 +10,29 @@ description: "Master the Heel Hook in BJJ. Complete safety-first guide covering 
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Heel Hook",
+  "description": "Master the Heel Hook in BJJ. Complete safety-first guide covering inside/outside variations, setup from Ashi Garami positions, anatomical targets, and defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Heel Hook", "item": "https://bjjgraph.org/Submissions/Heel-Hook" }
+  ]
+}
+</script>
+
 > **SAFETY**: Heel Hook targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
 
 

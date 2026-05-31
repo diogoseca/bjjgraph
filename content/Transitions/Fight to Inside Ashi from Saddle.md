@@ -10,6 +10,29 @@ description: "Master the fight from Saddle bottom to Inside Ashi-Garami. Systema
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Fight to Inside Ashi from Saddle",
+  "description": "Master the fight from Saddle bottom to Inside Ashi-Garami. Systematic leg pummeling, hip clearing, and entanglement degradation for safer positioning in BJJ.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Fight to Inside Ashi from Saddle", "item": "https://bjjgraph.org/Transitions/Fight-to-Inside-Ashi-from-Saddle" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

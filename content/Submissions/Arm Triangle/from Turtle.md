@@ -10,6 +10,29 @@ description: "Master the arm triangle choke from turtle position in BJJ. Learn s
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle from Turtle",
+  "description": "Master the arm triangle choke from turtle position in BJJ. Learn setup mechanics, grip transitions, and finishing details for this blood choke attack.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Triangle from Turtle", "item": "https://bjjgraph.org/Submissions/Arm-Triangle-from-Turtle" }
+  ]
+}
+</script>
+
 > **SAFETY**: Arm Triangle from Turtle targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 

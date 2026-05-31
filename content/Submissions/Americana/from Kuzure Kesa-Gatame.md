@@ -10,6 +10,29 @@ description: "Master the Americana shoulder lock from Kuzure Kesa-Gatame. Comple
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from Kuzure Kesa-Gatame",
+  "description": "Master the Americana shoulder lock from Kuzure Kesa-Gatame. Complete guide covering finishing mechanics, defensive counters, and progressive training drills for BJJ.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Americana from Kuzure Kesa-Gatame", "item": "https://bjjgraph.org/Submissions/Americana-from-Kuzure-Kesa-Gatame" }
+  ]
+}
+</script>
+
 > **SAFETY**: Americana from Kuzure Kesa-Gatame targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Americana shoulder lock from Kesa Gatame in BJJ. Comple
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from Kesa Gatame",
+  "description": "Master the Americana shoulder lock from Kesa Gatame in BJJ. Complete guide covering figure-four mechanics, finishing details, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Americana from Kesa Gatame", "item": "https://bjjgraph.org/Submissions/Americana-from-Kesa-Gatame" }
+  ]
+}
+</script>
+
 > **SAFETY**: Americana from Kesa Gatame targets the Shoulder joint (glenohumeral). Risk: Rotator cuff tear from forced lateral rotation beyond shoulder's natural range of motion. Release immediately upon tap.
 
 

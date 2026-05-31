@@ -10,6 +10,29 @@ description: "Master the Kimura Trap to Reverse Scarf Hold transition in BJJ. Le
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura Trap to Reverse Scarf Hold",
+  "description": "Master the Kimura Trap to Reverse Scarf Hold transition in BJJ. Learn hip rotation mechanics, arm control retention, and pressure transfer for dominant pinning control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura Trap to Reverse Scarf Hold", "item": "https://bjjgraph.org/Transitions/Kimura-Trap-to-Reverse-Scarf-Hold" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

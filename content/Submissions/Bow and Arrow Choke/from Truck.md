@@ -10,6 +10,29 @@ description: "Master the Bow and Arrow Choke from Truck. Learn collar grip setup
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bow and Arrow Choke from Truck",
+  "description": "Master the Bow and Arrow Choke from Truck. Learn collar grip setup from perpendicular control, leg leverage through entanglement, and finishing details for this gi choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bow and Arrow Choke from Truck", "item": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Choke-from-Truck" }
+  ]
+}
+</script>
+
 > **SAFETY**: Bow and Arrow Choke from Truck targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 

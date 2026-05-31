@@ -10,6 +10,29 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Crotch Ripper",
+  "description": "Master the Crotch Ripper leg lock in BJJ. Groin compression submission from lockdown with safety protocols. Success rates: Beginner 20%, Intermediate 35%, Advanced 50%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Crotch Ripper", "item": "https://bjjgraph.org/Submissions/Crotch-Ripper" }
+  ]
+}
+</script>
+
 > **SAFETY**: Crotch Ripper targets the Hip flexors, groin muscles, and inner thigh adductors. Risk: Groin strain or muscle tear. Release immediately upon tap.
 
 

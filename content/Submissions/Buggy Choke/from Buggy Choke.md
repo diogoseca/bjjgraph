@@ -10,6 +10,29 @@ description: "Master the Buggy Choke finish from turtle top. Complete guide to c
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Buggy Choke from Buggy Choke",
+  "description": "Master the Buggy Choke finish from turtle top. Complete guide to collar grip tightening, progressive pressure application, and competition finishing mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Buggy Choke from Buggy Choke", "item": "https://bjjgraph.org/Submissions/Buggy-Choke-from-Buggy-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Buggy Choke from Buggy Choke targets the Neck. Risk: Carotid artery compression causing loss of consciousness. Release immediately upon tap.
 
 

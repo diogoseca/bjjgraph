@@ -10,6 +10,29 @@ description: "Complete guide to the straight ankle lock finish from ankle lock c
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Straight Ankle Lock from Straight Ankle Lock Control",
+  "description": "Complete guide to the straight ankle lock finish from ankle lock control. Breaking mechanics, grip placement, defensive counters, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Straight Ankle Lock from Straight Ankle Lock Control", "item": "https://bjjgraph.org/Submissions/Straight-Ankle-Lock-from-Straight-Ankle-Lock-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Straight Ankle Lock from Straight Ankle Lock Control targets the Ankle joint, Achilles tendon, and foot ligaments. Risk: Ankle sprain or ligament damage. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Inside Sankaku heel hook finish with detailed grip mech
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Heel Hook from Inside Sankaku",
+  "description": "Master the Inside Sankaku heel hook finish with detailed grip mechanics, rotational pressure application, defensive counters, and essential safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inside Heel Hook from Inside Sankaku", "item": "https://bjjgraph.org/Submissions/Inside-Heel-Hook-from-Inside-Sankaku" }
+  ]
+}
+</script>
+
 > **SAFETY**: Inside Heel Hook from Inside Sankaku targets the Knee ligaments (MCL, ACL, meniscus) via rotational heel manipulation. Risk: MCL (medial collateral ligament) tear from rotational force on the knee. Release immediately upon tap.
 
 

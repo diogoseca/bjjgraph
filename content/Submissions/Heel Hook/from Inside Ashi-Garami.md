@@ -10,6 +10,29 @@ description: "Master the heel hook from Inside Ashi-Garami with expert finishing
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Hook from Inside Ashi-Garami",
+  "description": "Master the heel hook from Inside Ashi-Garami with expert finishing mechanics, grip configurations, safety protocols, and defensive strategies for serious BJJ practitioners.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Heel Hook from Inside Ashi-Garami", "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Inside-Ashi-Garami" }
+  ]
+}
+</script>
+
 > **SAFETY**: Heel Hook from Inside Ashi-Garami targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
 
 

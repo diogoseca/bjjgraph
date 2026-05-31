@@ -10,6 +10,29 @@ description: "Master the Chin Strap Guillotine in BJJ. High-control choke target
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Chin Strap Guillotine",
+  "description": "Master the Chin Strap Guillotine in BJJ. High-control choke targeting the neck from front headlock positions with figure-four grip and shoulder drive mechanics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Chin Strap Guillotine", "item": "https://bjjgraph.org/Submissions/Chin-Strap-Guillotine" }
+  ]
+}
+</script>
+
 > **SAFETY**: Chin Strap Guillotine targets the Carotid arteries and windpipe. Risk: Neck strain or cervical spine stress from excessive cranking. Release immediately upon tap.
 
 

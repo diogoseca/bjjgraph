@@ -10,6 +10,29 @@ description: "Master the calf slicer from twister control in BJJ. Learn setup me
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Twister Control",
+  "description": "Master the calf slicer from twister control in BJJ. Learn setup mechanics, finishing details, and safety protocols for this advanced compression submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from Twister Control", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Twister-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Calf Slicer from Twister Control targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Spinning Armbar in BJJ. Dynamic rotational submission t
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Spinning Armbar",
+  "description": "Master the Spinning Armbar in BJJ. Dynamic rotational submission targeting the elbow from guard, mount, and scrambles. Complete guide with attack and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Spinning Armbar", "item": "https://bjjgraph.org/Submissions/Spinning-Armbar" }
+  ]
+}
+</script>
+
 > **SAFETY**: Spinning Armbar targets the Elbow joint. Risk: Elbow hyperextension with ligament damage (UCL/MCL tears). Release immediately upon tap.
 
 

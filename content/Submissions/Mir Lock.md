@@ -10,6 +10,29 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Mir Lock",
+  "description": "Master the Mir Lock shoulder submission in BJJ. Complete guide with safety protocols, setup from top control, execution, and defensive strategies for all levels.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mir Lock", "item": "https://bjjgraph.org/Submissions/Mir-Lock" }
+  ]
+}
+</script>
+
 > **SAFETY**: Mir Lock targets the Shoulder joint (glenohumeral joint). Risk: Shoulder dislocation (anterior or posterior). Release immediately upon tap.
 
 

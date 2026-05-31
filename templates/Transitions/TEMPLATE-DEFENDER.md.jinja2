@@ -60,12 +60,15 @@ description: "{{ defender.description }}"
   "name": "{{ name }} Defender",
   "description": "{{ defender.description }}",
   {%- if aliases is defined and aliases %}
-  "alternateName": [{% for alias in aliases %}{{ (alias ~ " Defender") | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
+  "alternateName": [{% for alias in aliases %}{{ alias | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
   {%- endif %}
   {%- if disambiguations is defined and disambiguations %}
   {%- set _ns = namespace(dd='') %}
   {%- for d in disambiguations %}{% set _ns.dd = _ns.dd + 'Often confused with ' + d.name + ' — ' + d.reason + '.' + (' ' if not loop.last else '') %}{% endfor %}
   "disambiguatingDescription": {{ _ns.dd | tojson }},
+  {%- endif %}
+  {%- if sameAs is defined and sameAs %}
+  "sameAs": [{% for u in sameAs %}{{ u | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
   {%- endif %}
   "isPartOf": {
     "@type": "WebSite",

@@ -10,6 +10,29 @@ description: "Master the bridge-and-roll reversal from scarf hold in BJJ. Step-b
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bridge from Scarf Hold Position",
+  "description": "Master the bridge-and-roll reversal from scarf hold in BJJ. Step-by-step guide to arm trapping, leg hooking, and explosive bridging for a full kesa gatame reversal.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bridge from Scarf Hold Position", "item": "https://bjjgraph.org/Transitions/Bridge-from-Scarf-Hold-Position" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

@@ -10,6 +10,29 @@ description: "Master the Darce Choke from Twister Side Control with detailed fin
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Darce Choke from Twister Side Control",
+  "description": "Master the Darce Choke from Twister Side Control with detailed finishing mechanics, defensive counters, and safety protocols for serious BJJ practitioners.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Darce Choke from Twister Side Control", "item": "https://bjjgraph.org/Submissions/Darce-Choke-from-Twister-Side-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Darce Choke from Twister Side Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 

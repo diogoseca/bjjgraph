@@ -10,6 +10,29 @@ description: "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based bloo
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Clock Choke from Rodeo Ride",
+  "description": "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based blood choke mechanics using dynamic turtle control and circular walking pressure to finish.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Clock Choke from Rodeo Ride", "item": "https://bjjgraph.org/Submissions/Clock-Choke-from-Rodeo-Ride" }
+  ]
+}
+</script>
+
 > **SAFETY**: Clock Choke from Rodeo Ride targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

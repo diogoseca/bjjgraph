@@ -10,6 +10,29 @@ description: "Master the Feet on Hips Tripod Sweep in BJJ. Learn setup, executio
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Feet on Hips Tripod Sweep",
+  "description": "Master the Feet on Hips Tripod Sweep in BJJ. Learn setup, execution, timing, and counter strategies for this foundational high-percentage open guard sweep.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Feet on Hips Tripod Sweep", "item": "https://bjjgraph.org/Transitions/Feet-on-Hips-Tripod-Sweep" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

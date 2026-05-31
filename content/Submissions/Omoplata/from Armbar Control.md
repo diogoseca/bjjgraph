@@ -10,6 +10,29 @@ description: "Master the omoplata from armbar control in BJJ. Complete guide cov
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata from Armbar Control",
+  "description": "Master the omoplata from armbar control in BJJ. Complete guide covering chain attack mechanics, finishing details, defensive strategies, and training drills.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Omoplata from Armbar Control", "item": "https://bjjgraph.org/Submissions/Omoplata-from-Armbar-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Omoplata from Armbar Control targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 

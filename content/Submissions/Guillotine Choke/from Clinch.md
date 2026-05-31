@@ -10,6 +10,29 @@ description: "Master the Guillotine Choke from Clinch in BJJ. Complete guide to 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Choke from Clinch",
+  "description": "Master the Guillotine Choke from Clinch in BJJ. Complete guide to the standing guillotine variation covering grip mechanics, finishing details, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guillotine Choke from Clinch", "item": "https://bjjgraph.org/Submissions/Guillotine-Choke-from-Clinch" }
+  ]
+}
+</script>
+
 > **SAFETY**: Guillotine Choke from Clinch targets the Neck. Risk: Tracheal damage from direct pressure on the windpipe when grip slides to front of throat. Release immediately upon tap.
 
 

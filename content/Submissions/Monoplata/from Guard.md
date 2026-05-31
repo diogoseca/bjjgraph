@@ -10,6 +10,29 @@ description: "Master the Monoplata from Guard in BJJ. Complete guide with safety
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Monoplata from Guard",
+  "description": "Master the Monoplata from Guard in BJJ. Complete guide with safety protocols, setup, and execution steps. Success rates: Beginner 25%, Intermediate 40%, Advanced 55%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Monoplata from Guard", "item": "https://bjjgraph.org/Submissions/Monoplata-from-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Monoplata from Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Rear Naked Choke from Rodeo Ride in BJJ. Complete guide
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rear Naked Choke from Rodeo",
+  "description": "Master the Rear Naked Choke from Rodeo Ride in BJJ. Complete guide covering finishing mechanics, control strategies, and defensive escapes from this turtle attack position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rear Naked Choke from Rodeo", "item": "https://bjjgraph.org/Submissions/Rear-Naked-Choke-from-Rodeo" }
+  ]
+}
+</script>
+
 > **SAFETY**: Rear Naked Choke from Rodeo targets the Neck. Risk: Loss of consciousness from sustained compression of carotid arteries cutting blood supply to the brain. Release immediately upon tap.
 
 

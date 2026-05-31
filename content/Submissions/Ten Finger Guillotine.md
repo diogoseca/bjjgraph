@@ -10,6 +10,29 @@ description: "Master the Ten Finger Guillotine in BJJ. Comprehensive guide cover
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Ten Finger Guillotine",
+  "description": "Master the Ten Finger Guillotine in BJJ. Comprehensive guide covering setup, execution, and safety protocols. Success rates: Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ten Finger Guillotine", "item": "https://bjjgraph.org/Submissions/Ten-Finger-Guillotine" }
+  ]
+}
+</script>
+
 > **SAFETY**: Ten Finger Guillotine targets the Carotid arteries and trachea. Risk: Trachea damage from excessive crushing pressure. Release immediately upon tap.
 
 

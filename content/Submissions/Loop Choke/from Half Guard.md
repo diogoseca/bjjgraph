@@ -10,6 +10,29 @@ description: "Master the Loop Choke from Half Guard Top in BJJ. Learn deep colla
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Loop Choke from Half Guard",
+  "description": "Master the Loop Choke from Half Guard Top in BJJ. Learn deep collar grip timing, sprawl finishing mechanics, and setups that exploit guard recovery attempts.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Loop Choke from Half Guard", "item": "https://bjjgraph.org/Submissions/Loop-Choke-from-Half-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Loop Choke from Half Guard targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid artery compression. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Armbar from High Mount in BJJ. Complete guide to setup 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from High Mount",
+  "description": "Master the Armbar from High Mount in BJJ. Complete guide to setup mechanics, finishing sequences, defensive escapes, and progressive training methods.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar from High Mount", "item": "https://bjjgraph.org/Submissions/Armbar-from-High-Mount" }
+  ]
+}
+</script>
+
 > **SAFETY**: Armbar from High Mount targets the Elbow joint (hyperextension) and shoulder girdle. Risk: Elbow hyperextension causing ligament tears (UCL, LCL, annular ligament). Release immediately upon tap.
 
 

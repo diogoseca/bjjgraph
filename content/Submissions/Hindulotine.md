@@ -10,6 +10,29 @@ description: "Learn the Hindulotine choke, an advanced guillotine variation usin
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Hindulotine",
+  "description": "Learn the Hindulotine choke, an advanced guillotine variation using a chin strap grip from front headlock control. Complete guide with setups, mechanics, and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Hindulotine", "item": "https://bjjgraph.org/Submissions/Hindulotine" }
+  ]
+}
+</script>
+
 > **SAFETY**: Hindulotine targets the Carotid arteries and trachea. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the toe hold from Inside Sankaku. Learn grip mechanics, rot
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toe Hold from Inside Sankaku",
+  "description": "Master the toe hold from Inside Sankaku. Learn grip mechanics, rotational finishing details, defensive counters, and safety protocols for this leg lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Toe Hold from Inside Sankaku", "item": "https://bjjgraph.org/Submissions/Toe-Hold-from-Inside-Sankaku" }
+  ]
+}
+</script>
+
 > **SAFETY**: Toe Hold from Inside Sankaku targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
 
 

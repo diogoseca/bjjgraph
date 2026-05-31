@@ -10,6 +10,29 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Bow and Arrow Choke",
+  "description": "Master the Bow and Arrow Choke in BJJ. Complete guide with safety protocols, setup from back control, finishing mechanics. Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bow and Arrow Choke", "item": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Bow and Arrow Choke targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 

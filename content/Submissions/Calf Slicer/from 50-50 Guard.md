@@ -10,6 +10,29 @@ description: "Master the calf slicer from 50-50 Guard. Complete guide covering s
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from 50-50 Guard",
+  "description": "Master the calf slicer from 50-50 Guard. Complete guide covering setup, finishing mechanics, defense, and safety for this advanced compression submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from 50-50 Guard", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-50-50-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Calf Slicer from 50-50 Guard targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Learn Ushiro Ashi-Garami to Deep Half Guard transition in BJJ. Esc
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ushiro Ashi-Garami to Deep Half",
+  "description": "Learn Ushiro Ashi-Garami to Deep Half Guard transition in BJJ. Escape reversed leg entanglement to sweeping position. Success: Beginner 25%, Intermediate 45%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ushiro Ashi-Garami to Deep Half", "item": "https://bjjgraph.org/Transitions/Ushiro-Ashi-Garami-to-Deep-Half" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

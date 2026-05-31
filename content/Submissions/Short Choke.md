@@ -10,6 +10,29 @@ description: "Master the Short Choke in BJJ. Devastating lapel strangle from top
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Short Choke",
+  "description": "Master the Short Choke in BJJ. Devastating lapel strangle from top positions with minimal space. Complete guide with finishing mechanics, defense, and safety.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Short Choke", "item": "https://bjjgraph.org/Submissions/Short-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Short Choke targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

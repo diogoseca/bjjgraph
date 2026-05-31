@@ -10,6 +10,29 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Buggy Choke",
+  "description": "Master the Buggy Choke in BJJ. Powerful half guard compression choke targeting the carotid arteries from bottom position with detailed attack and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Buggy Choke", "item": "https://bjjgraph.org/Submissions/Buggy-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Buggy Choke targets the Carotid arteries and neck compression. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 

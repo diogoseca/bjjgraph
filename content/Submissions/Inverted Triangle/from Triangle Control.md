@@ -10,6 +10,29 @@ description: "Master the Inverted Triangle from Triangle Control. Learn setup me
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inverted Triangle from Triangle Control",
+  "description": "Master the Inverted Triangle from Triangle Control. Learn setup mechanics, finishing details, and defensive counters for this advanced blood choke variation.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inverted Triangle from Triangle Control", "item": "https://bjjgraph.org/Submissions/Inverted-Triangle-from-Triangle-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Inverted Triangle from Triangle Control targets the Carotid arteries and trachea. Risk: Cervical spine compression from improper rotation during setup. Release immediately upon tap.
 
 

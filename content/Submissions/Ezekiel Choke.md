@@ -10,6 +10,29 @@ description: "Master the Ezekiel Choke in BJJ. Complete guide to sleeve-based bl
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Ezekiel Choke",
+  "description": "Master the Ezekiel Choke in BJJ. Complete guide to sleeve-based blood choke mechanics, bilateral pressure, safety protocols, and finishing from mount and side control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ezekiel Choke", "item": "https://bjjgraph.org/Submissions/Ezekiel-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Ezekiel Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the calf slicer from backside 50-50 with expert finishing m
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Backside 50-50",
+  "description": "Master the calf slicer from backside 50-50 with expert finishing mechanics, defensive strategies, safety protocols, and progressive training methods.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from Backside 50-50", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Backside-50-50" }
+  ]
+}
+</script>
+
 > **SAFETY**: Calf Slicer from Backside 50-50 targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Anaconda Choke from Anaconda Control",
+  "description": "Master the Anaconda Choke in BJJ. Complete guide covering setup from turtle and front headlock, finishing mechanics, safety protocols, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Anaconda Choke from Anaconda Control", "item": "https://bjjgraph.org/Submissions/Anaconda-Choke-from-Anaconda-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Anaconda Choke from Anaconda Control targets the Carotid arteries and trachea. Risk: Loss of consciousness from carotid artery compression. Release immediately upon tap.
 
 

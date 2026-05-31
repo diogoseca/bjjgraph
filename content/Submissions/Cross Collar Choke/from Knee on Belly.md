@@ -10,6 +10,29 @@ description: "Master the cross collar choke from knee on belly. Learn grip seque
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cross Collar Choke from Knee on Belly",
+  "description": "Master the cross collar choke from knee on belly. Learn grip sequencing, pressure-to-choke transitions, and finishing mechanics for this devastating gi attack.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Cross Collar Choke from Knee on Belly", "item": "https://bjjgraph.org/Submissions/Cross-Collar-Choke-from-Knee-on-Belly" }
+  ]
+}
+</script>
+
 > **SAFETY**: Cross Collar Choke from Knee on Belly targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
 
 

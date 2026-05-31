@@ -10,6 +10,29 @@ description: "Master the Breadcutter Choke from Kuzure Kesa-Gatame with expert c
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Breadcutter Choke from Kuzure Kesa-Gatame",
+  "description": "Master the Breadcutter Choke from Kuzure Kesa-Gatame with expert collar grip mechanics, finishing sequences, and defensive strategies for purple to brown belts.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Breadcutter Choke from Kuzure Kesa-Gatame", "item": "https://bjjgraph.org/Submissions/Breadcutter-Choke-from-Kuzure-Kesa-Gatame" }
+  ]
+}
+</script>
+
 > **SAFETY**: Breadcutter Choke from Kuzure Kesa-Gatame targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

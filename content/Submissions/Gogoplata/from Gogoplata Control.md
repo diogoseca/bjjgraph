@@ -10,6 +10,29 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Gogoplata from Gogoplata Control",
+  "description": "Master the Gogoplata shin choke in BJJ. Complete guide with safety protocols, rubber guard setup, and execution steps. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Gogoplata from Gogoplata Control", "item": "https://bjjgraph.org/Submissions/Gogoplata-from-Gogoplata-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Gogoplata from Gogoplata Control targets the Trachea and carotid arteries. Risk: Tracheal damage or crushing. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Truck",
+  "description": "Master the Calf Slicer from Truck in BJJ. Complete guide with safety protocols, setup, execution from the 10th Planet system. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from Truck", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Truck" }
+  ]
+}
+</script>
+
 > **SAFETY**: Calf Slicer from Truck targets the Calf muscle and knee joint. Risk: Calf muscle tear or rupture (gastrocnemius/soleus). Release immediately upon tap.
 
 

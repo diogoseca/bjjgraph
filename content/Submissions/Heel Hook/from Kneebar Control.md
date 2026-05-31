@@ -10,6 +10,29 @@ description: "Learn the heel hook from kneebar control in BJJ. Complete guide co
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Hook from Kneebar Control",
+  "description": "Learn the heel hook from kneebar control in BJJ. Complete guide covering grip transition mechanics, finishing details, defensive counters, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Heel Hook from Kneebar Control", "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Kneebar-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Heel Hook from Kneebar Control targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
 
 

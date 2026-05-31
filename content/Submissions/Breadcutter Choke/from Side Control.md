@@ -10,6 +10,29 @@ description: "Master the Breadcutter Choke from Side Control. Learn gi collar gr
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Breadcutter Choke from Side Control",
+  "description": "Master the Breadcutter Choke from Side Control. Learn gi collar grip mechanics, finishing details, and defensive counters for this high-percentage blood choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Breadcutter Choke from Side Control", "item": "https://bjjgraph.org/Submissions/Breadcutter-Choke-from-Side-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Breadcutter Choke from Side Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

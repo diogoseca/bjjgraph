@@ -10,6 +10,29 @@ description: "Master the Americana shoulder lock from Modified Scarf Hold. Compl
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from Modified Scarf Hold",
+  "description": "Master the Americana shoulder lock from Modified Scarf Hold. Complete guide covering figure-four grip mechanics, finishing details, and defensive counters for BJJ.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Americana from Modified Scarf Hold", "item": "https://bjjgraph.org/Submissions/Americana-from-Modified-Scarf-Hold" }
+  ]
+}
+</script>
+
 > **SAFETY**: Americana from Modified Scarf Hold targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
 
 

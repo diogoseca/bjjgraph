@@ -10,6 +10,29 @@ description: "Master the arm-in guillotine from front headlock with expert grip 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm in Guillotine from Front Headlock",
+  "description": "Master the arm-in guillotine from front headlock with expert grip mechanics, step-by-step finishing sequences, and proven defensive strategies for BJJ.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm in Guillotine from Front Headlock", "item": "https://bjjgraph.org/Submissions/Arm-in-Guillotine-from-Front-Headlock" }
+  ]
+}
+</script>
+
 > **SAFETY**: Arm in Guillotine from Front Headlock targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

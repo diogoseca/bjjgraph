@@ -10,6 +10,29 @@ description: "Master the Omoplata from Spider Guard in BJJ. Complete guide cover
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata from Spider Guard",
+  "description": "Master the Omoplata from Spider Guard in BJJ. Complete guide covering entry mechanics, shoulder lock finish, defense strategies, and competition tactics.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Omoplata from Spider Guard", "item": "https://bjjgraph.org/Submissions/Omoplata-from-Spider-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Omoplata from Spider Guard targets the Shoulder. Risk: Shoulder dislocation or subluxation from excessive rotational force on the glenohumeral joint. Release immediately upon tap.
 
 

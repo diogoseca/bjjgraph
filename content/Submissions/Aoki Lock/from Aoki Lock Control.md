@@ -10,6 +10,29 @@ description: "Complete guide to finishing the Aoki Lock submission from Aoki Loc
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Aoki Lock from Aoki Lock Control",
+  "description": "Complete guide to finishing the Aoki Lock submission from Aoki Lock control. Shoulder lock mechanics, progressive pressure application, and key defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Aoki Lock from Aoki Lock Control", "item": "https://bjjgraph.org/Submissions/Aoki-Lock-from-Aoki-Lock-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Aoki Lock from Aoki Lock Control targets the Shoulder joint (glenohumeral complex and rotator cuff). Risk: Shoulder dislocation (glenohumeral subluxation or complete dislocation from excessive rotational force). Release immediately upon tap.
 
 

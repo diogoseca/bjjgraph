@@ -10,6 +10,29 @@ description: "Master the Loop Choke from Mount in BJJ. Complete guide with safet
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Loop Choke from Mount",
+  "description": "Master the Loop Choke from Mount in BJJ. Complete guide with safety protocols, setup requirements, and execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Loop Choke from Mount", "item": "https://bjjgraph.org/Submissions/Loop-Choke-from-Mount" }
+  ]
+}
+</script>
+
 > **SAFETY**: Loop Choke from Mount targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from carotid artery compression. Release immediately upon tap.
 
 

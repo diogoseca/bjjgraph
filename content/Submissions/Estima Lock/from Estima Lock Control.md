@@ -10,6 +10,29 @@ description: "Master the Estima Lock finish from Estima Lock control. Complete g
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Estima Lock from Estima Lock Control",
+  "description": "Master the Estima Lock finish from Estima Lock control. Complete guide to foot lock mechanics, grip configuration, rotational pressure, and safe application.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Estima Lock from Estima Lock Control", "item": "https://bjjgraph.org/Submissions/Estima-Lock-from-Estima-Lock-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Estima Lock from Estima Lock Control targets the Foot and ankle joints (dorsiflexion of foot). Risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Release immediately upon tap.
 
 

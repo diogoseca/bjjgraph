@@ -10,6 +10,29 @@ description: "Master the guillotine choke from Twister Control. Learn setup mech
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guillotine Choke from Twister Control",
+  "description": "Master the guillotine choke from Twister Control. Learn setup mechanics, finishing sequences, and defensive strategies for this 10th Planet submission chain.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guillotine Choke from Twister Control", "item": "https://bjjgraph.org/Submissions/Guillotine-Choke-from-Twister-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Guillotine Choke from Twister Control targets the Carotid arteries and windpipe. Risk: Trachea damage or crush injury from misaligned choking pressure. Release immediately upon tap.
 
 

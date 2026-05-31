@@ -10,6 +10,29 @@ description: "Master Outside Ashi to Inside Ashi counter-entanglement in BJJ. Gu
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Outside Ashi to Inside Ashi",
+  "description": "Master Outside Ashi to Inside Ashi counter-entanglement in BJJ. Guide to reversing leg lock position through leg threading, hip mechanics, and systematic reversal.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Outside Ashi to Inside Ashi", "item": "https://bjjgraph.org/Transitions/Outside-Ashi-to-Inside-Ashi" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

@@ -10,6 +10,29 @@ description: "Master the Banana Split compression submission in BJJ. Complete gu
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Banana Split",
+  "description": "Master the Banana Split compression submission in BJJ. Complete guide covering setup from truck and deep half guard, execution, and safety. 48% success rate.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Banana Split", "item": "https://bjjgraph.org/Submissions/Banana-Split" }
+  ]
+}
+</script>
+
 > **SAFETY**: Banana Split targets the Hip adductors, groin, and lower back. Risk: Groin muscle tear or strain. Release immediately upon tap.
 
 

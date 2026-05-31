@@ -10,6 +10,29 @@ description: "Master the Electric Chair in BJJ. Complete lockdown submission gui
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Electric Chair from Electric Chair",
+  "description": "Master the Electric Chair in BJJ. Complete lockdown submission guide targeting the hip and groin. Systematic setup, execution, and defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Electric Chair from Electric Chair", "item": "https://bjjgraph.org/Submissions/Electric-Chair-from-Electric-Chair" }
+  ]
+}
+</script>
+
 > **SAFETY**: Electric Chair from Electric Chair targets the Hip joint and groin. Risk: Groin strain or adductor muscle tear from forced hyperabduction of the hip. Release immediately upon tap.
 
 

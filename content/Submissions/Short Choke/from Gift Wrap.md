@@ -10,6 +10,29 @@ description: "Master the Short Choke from Gift Wrap in BJJ. Complete guide to fi
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Short Choke from Gift Wrap",
+  "description": "Master the Short Choke from Gift Wrap in BJJ. Complete guide to finishing this forearm choke using arm trap control, with safety protocols and defense strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Short Choke from Gift Wrap", "item": "https://bjjgraph.org/Submissions/Short-Choke-from-Gift-Wrap" }
+  ]
+}
+</script>
+
 > **SAFETY**: Short Choke from Gift Wrap targets the Carotid arteries. Risk: Loss of consciousness from bilateral carotid artery compression causing cerebral hypoxia. Release immediately upon tap.
 
 

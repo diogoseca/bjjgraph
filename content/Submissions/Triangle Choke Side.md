@@ -10,6 +10,29 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Triangle Choke Side",
+  "description": "Master Triangle Choke Side from top position in BJJ. Complete safety guide covering setup from side control, execution mechanics, and defense patterns.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle Choke Side", "item": "https://bjjgraph.org/Submissions/Triangle-Choke-Side" }
+  ]
+}
+</script>
+
 > **SAFETY**: Triangle Choke Side targets the Carotid arteries and jugular veins. Risk: Carotid artery compression causing unconsciousness. Release immediately upon tap.
 
 

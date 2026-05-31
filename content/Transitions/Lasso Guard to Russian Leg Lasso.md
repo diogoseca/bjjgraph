@@ -10,6 +10,29 @@ description: "Master the transition to Russian Leg Lasso in BJJ. Learn double-le
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lasso Guard to Russian Leg Lasso",
+  "description": "Master the transition to Russian Leg Lasso in BJJ. Learn double-leg threading mechanics, grip reconfiguration, timing cues, and sweep setups from lasso guard.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Lasso Guard to Russian Leg Lasso", "item": "https://bjjgraph.org/Transitions/Lasso-Guard-to-Russian-Leg-Lasso" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

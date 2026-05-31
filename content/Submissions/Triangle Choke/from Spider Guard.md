@@ -10,6 +10,29 @@ description: "Master Triangle from Spider Guard. Setup from spider hooks, angle 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Triangle Choke from Spider Guard",
+  "description": "Master Triangle from Spider Guard. Setup from spider hooks, angle creation, finish mechanics. Success rates: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle Choke from Spider Guard", "item": "https://bjjgraph.org/Submissions/Triangle-Choke-from-Spider-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Triangle Choke from Spider Guard targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 

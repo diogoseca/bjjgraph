@@ -10,6 +10,29 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rolling Omoplata from Omoplata Control",
+  "description": "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from failed sweeps or scrambles. Complete guide with finishing mechanics and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rolling Omoplata from Omoplata Control", "item": "https://bjjgraph.org/Submissions/Rolling-Omoplata-from-Omoplata-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Rolling Omoplata from Omoplata Control targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 

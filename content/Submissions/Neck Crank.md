@@ -10,6 +10,29 @@ description: "Master the Neck Crank submission in BJJ. A cervical spine compress
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Neck Crank",
+  "description": "Master the Neck Crank submission in BJJ. A cervical spine compression applied from Twister Control that forces the tap through spinal pressure.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Neck Crank", "item": "https://bjjgraph.org/Submissions/Neck-Crank" }
+  ]
+}
+</script>
+
 > **SAFETY**: Neck Crank targets the Cervical spine and neck muscles. Risk: Cervical disc herniation or vertebral fracture from excessive rotational force. Release immediately upon tap.
 
 

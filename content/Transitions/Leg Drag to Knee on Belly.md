@@ -10,6 +10,29 @@ description: "Master Leg Drag to Knee on Belly transition in BJJ. Execute from L
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Leg Drag to Knee on Belly",
+  "description": "Master Leg Drag to Knee on Belly transition in BJJ. Execute from Leg Drag Control to dominant pressure. Success rates: Beginner 50%, Intermediate 70%, Advanced 85%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Leg Drag to Knee on Belly", "item": "https://bjjgraph.org/Transitions/Leg-Drag-to-Knee-on-Belly" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

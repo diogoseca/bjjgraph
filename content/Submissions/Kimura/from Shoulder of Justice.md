@@ -10,6 +10,29 @@ description: "Master the Kimura from Shoulder of Justice in BJJ. Complete guide 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Shoulder of Justice",
+  "description": "Master the Kimura from Shoulder of Justice in BJJ. Complete guide covering shoulder lock mechanics, grip sequences, finishing details, and escape strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Shoulder of Justice", "item": "https://bjjgraph.org/Submissions/Kimura-from-Shoulder-of-Justice" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kimura from Shoulder of Justice targets the Shoulder joint (glenohumeral) and elbow. Risk: Shoulder dislocation or subluxation from forced internal rotation beyond anatomical limits of the glenohumeral joint. Release immediately upon tap.
 
 

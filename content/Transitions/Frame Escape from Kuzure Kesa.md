@@ -10,6 +10,29 @@ description: "Master the frame escape from Kuzure Kesa-Gatame in BJJ. Learn syst
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Frame Escape from Kuzure Kesa",
+  "description": "Master the frame escape from Kuzure Kesa-Gatame in BJJ. Learn systematic framing mechanics, hip escape timing, and guard recovery from modified scarf hold.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Frame Escape from Kuzure Kesa", "item": "https://bjjgraph.org/Transitions/Frame-Escape-from-Kuzure-Kesa" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

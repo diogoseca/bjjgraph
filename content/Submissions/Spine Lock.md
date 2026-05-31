@@ -10,6 +10,29 @@ description: "Master the Spine Lock submission in BJJ. Learn advanced spinal com
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Spine Lock",
+  "description": "Master the Spine Lock submission in BJJ. Learn advanced spinal compression techniques from truck and twister control positions targeting the lumbar spine.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Spine Lock", "item": "https://bjjgraph.org/Submissions/Spine-Lock" }
+  ]
+}
+</script>
+
 > **SAFETY**: Spine Lock targets the Lumbar spine, thoracic vertebrae, spinal column. Risk: Lumbar spine strain or disc herniation. Release immediately upon tap.
 
 

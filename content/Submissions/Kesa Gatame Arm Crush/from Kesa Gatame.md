@@ -10,6 +10,29 @@ description: "Master the Kesa Gatame Arm Crush in BJJ. Complete guide covering e
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kesa Gatame Arm Crush from Kesa Gatame",
+  "description": "Master the Kesa Gatame Arm Crush in BJJ. Complete guide covering execution, defense, and safety for this powerful compression lock from scarf hold position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kesa Gatame Arm Crush from Kesa Gatame", "item": "https://bjjgraph.org/Submissions/Kesa-Gatame-Arm-Crush-from-Kesa-Gatame" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kesa Gatame Arm Crush from Kesa Gatame targets the Elbow/Forearm. Risk: Elbow hyperextension or dislocation from excessive pressure against the fulcrum point. Release immediately upon tap.
 
 

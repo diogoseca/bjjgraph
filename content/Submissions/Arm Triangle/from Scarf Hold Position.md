@@ -10,6 +10,29 @@ description: "Master the Arm Triangle from Scarf Hold Position. Learn grip trans
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle from Scarf Hold Position",
+  "description": "Master the Arm Triangle from Scarf Hold Position. Learn grip transitions from kesa gatame to head-and-arm choke with detailed finishing mechanics and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Triangle from Scarf Hold Position", "item": "https://bjjgraph.org/Submissions/Arm-Triangle-from-Scarf-Hold-Position" }
+  ]
+}
+</script>
+
 > **SAFETY**: Arm Triangle from Scarf Hold Position targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 

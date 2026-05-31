@@ -10,6 +10,29 @@ description: "Master the Baseball Bat Choke from Knee on Belly in BJJ. Learn gi 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Baseball Bat Choke from Knee on Belly",
+  "description": "Master the Baseball Bat Choke from Knee on Belly in BJJ. Learn gi collar grip mechanics, spinning finish details, and pressure-based setups unique to KOB.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Baseball Bat Choke from Knee on Belly", "item": "https://bjjgraph.org/Submissions/Baseball-Bat-Choke-from-Knee-on-Belly" }
+  ]
+}
+</script>
+
 > **SAFETY**: Baseball Bat Choke from Knee on Belly targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
 
 

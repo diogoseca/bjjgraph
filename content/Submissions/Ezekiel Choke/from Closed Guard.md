@@ -10,6 +10,29 @@ description: "Master the Ezekiel Choke from inside closed guard top. Gi sleeve g
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Ezekiel Choke from Closed Guard",
+  "description": "Master the Ezekiel Choke from inside closed guard top. Gi sleeve grip setup, surprise attack timing, finishing mechanics, and complete defensive counter guide.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Ezekiel Choke from Closed Guard", "item": "https://bjjgraph.org/Submissions/Ezekiel-Choke-from-Closed-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Ezekiel Choke from Closed Guard targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

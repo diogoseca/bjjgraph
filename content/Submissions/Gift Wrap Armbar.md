@@ -10,6 +10,29 @@ description: "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking th
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Gift Wrap Armbar",
+  "description": "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking the isolated arm from gift wrap control with finishing mechanics, defenses, and safety.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Gift Wrap Armbar", "item": "https://bjjgraph.org/Submissions/Gift-Wrap-Armbar" }
+  ]
+}
+</script>
+
 > **SAFETY**: Gift Wrap Armbar targets the Elbow joint. Risk: Elbow hyperextension causing damage to the ulnar collateral ligament, radial collateral ligament, or joint capsule. Release immediately upon tap.
 
 

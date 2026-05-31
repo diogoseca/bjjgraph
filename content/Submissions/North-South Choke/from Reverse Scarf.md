@@ -10,6 +10,29 @@ description: "Master the North-South Choke from Reverse Scarf Hold. Complete fin
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North-South Choke from Reverse Scarf",
+  "description": "Master the North-South Choke from Reverse Scarf Hold. Complete finishing mechanics, escape strategies, and progressive training drills for BJJ grapplers.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "North-South Choke from Reverse Scarf", "item": "https://bjjgraph.org/Submissions/North-South-Choke-from-Reverse-Scarf" }
+  ]
+}
+</script>
+
 > **SAFETY**: North-South Choke from Reverse Scarf targets the Neck (Carotid Arteries). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
 
 

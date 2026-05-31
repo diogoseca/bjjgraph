@@ -10,6 +10,29 @@ description: "Master the Clock Choke from Invisible Collar with concealed collar
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Clock Choke from Invisible Collar",
+  "description": "Master the Clock Choke from Invisible Collar with concealed collar grip setup, walking pressure mechanics, and finishing details for gi competition success.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Clock Choke from Invisible Collar", "item": "https://bjjgraph.org/Submissions/Clock-Choke-from-Invisible-Collar" }
+  ]
+}
+</script>
+
 > **SAFETY**: Clock Choke from Invisible Collar targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

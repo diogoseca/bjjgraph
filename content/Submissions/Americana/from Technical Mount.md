@@ -10,6 +10,29 @@ description: "Master the Americana shoulder lock from Technical Mount in BJJ. Co
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from Technical Mount",
+  "description": "Master the Americana shoulder lock from Technical Mount in BJJ. Complete guide with grip mechanics, finishing sequences, defensive counters, and training progressions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Americana from Technical Mount", "item": "https://bjjgraph.org/Submissions/Americana-from-Technical-Mount" }
+  ]
+}
+</script>
+
 > **SAFETY**: Americana from Technical Mount targets the Shoulder joint (rotator cuff and glenohumeral complex). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits. Release immediately upon tap.
 
 

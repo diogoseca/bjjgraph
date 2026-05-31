@@ -10,6 +10,29 @@ description: "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm i
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Mounted Crucifix Armbar",
+  "description": "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm isolation finishing mechanics, step-by-step execution, escape defense, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Mounted Crucifix Armbar", "item": "https://bjjgraph.org/Submissions/Mounted-Crucifix-Armbar" }
+  ]
+}
+</script>
+
 > **SAFETY**: Mounted Crucifix Armbar targets the Shoulder and elbow joint. Risk: Elbow hyperextension with ligament tear (UCL/LCL damage). Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Kimura from Modified Scarf Hold in BJJ. Complete guide 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Modified Scarf Hold",
+  "description": "Master the Kimura from Modified Scarf Hold in BJJ. Complete guide covering setup mechanics, finishing details, defensive escapes, and safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Modified Scarf Hold", "item": "https://bjjgraph.org/Submissions/Kimura-from-Modified-Scarf-Hold" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kimura from Modified Scarf Hold targets the Shoulder and elbow joint. Risk: Shoulder dislocation or torn rotator cuff from excessive external rotation. Release immediately upon tap.
 
 

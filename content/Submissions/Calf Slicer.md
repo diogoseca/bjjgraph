@@ -10,6 +10,29 @@ description: "Master the Calf Slicer in BJJ. Complete guide with safety protocol
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Calf Slicer",
+  "description": "Master the Calf Slicer in BJJ. Complete guide with safety protocols, setup from 50-50 and Truck, execution steps, and defense strategies for this compression lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer", "item": "https://bjjgraph.org/Submissions/Calf-Slicer" }
+  ]
+}
+</script>
+
 > **SAFETY**: Calf Slicer targets the Calf muscle and Achilles tendon. Risk: Calf muscle tear or rupture. Release immediately upon tap.
 
 

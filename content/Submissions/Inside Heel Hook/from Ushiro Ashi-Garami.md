@@ -10,6 +10,29 @@ description: "Master the inside heel hook from ushiro ashi-garami with detailed 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Heel Hook from Ushiro Ashi-Garami",
+  "description": "Master the inside heel hook from ushiro ashi-garami with detailed finishing mechanics, grip adjustments, and safety protocols for this advanced leg lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inside Heel Hook from Ushiro Ashi-Garami", "item": "https://bjjgraph.org/Submissions/Inside-Heel-Hook-from-Ushiro-Ashi-Garami" }
+  ]
+}
+</script>
+
 > **SAFETY**: Inside Heel Hook from Ushiro Ashi-Garami targets the Ankle, knee ligaments, and surrounding connective tissue. Risk: ACL, MCL, or LCL tear or rupture. Release immediately upon tap.
 
 

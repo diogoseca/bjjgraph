@@ -10,6 +10,29 @@ description: "Learn the Estima Lock from Saddle position with expert finishing m
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Estima Lock from Saddle",
+  "description": "Learn the Estima Lock from Saddle position with expert finishing mechanics, grip details, safety protocols, and defensive strategies for BJJ practitioners.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Estima Lock from Saddle", "item": "https://bjjgraph.org/Submissions/Estima-Lock-from-Saddle" }
+  ]
+}
+</script>
+
 > **SAFETY**: Estima Lock from Saddle targets the Foot and ankle joints (forced dorsiflexion targeting tarsometatarsal and ankle ligaments). Risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Release immediately upon tap.
 
 

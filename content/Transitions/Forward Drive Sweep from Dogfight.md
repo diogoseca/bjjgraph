@@ -10,6 +10,29 @@ description: "Master the Forward Drive Sweep from Dogfight in BJJ. High-percenta
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Forward Drive Sweep from Dogfight",
+  "description": "Master the Forward Drive Sweep from Dogfight in BJJ. High-percentage half guard sweep using underhook pressure to achieve mount with 55% success rate.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Forward Drive Sweep from Dogfight", "item": "https://bjjgraph.org/Transitions/Forward-Drive-Sweep-from-Dogfight" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

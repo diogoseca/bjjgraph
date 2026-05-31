@@ -10,6 +10,29 @@ description: "Master the Spinning Armbar from Closed Guard in BJJ. Complete guid
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Spinning Armbar from Closed Guard",
+  "description": "Master the Spinning Armbar from Closed Guard in BJJ. Complete guide to this dynamic rotational armbar entry with attack strategies and defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Spinning Armbar from Closed Guard", "item": "https://bjjgraph.org/Submissions/Spinning-Armbar-from-Closed-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Spinning Armbar from Closed Guard targets the Elbow joint. Risk: Elbow hyperextension with ligament damage (UCL/MCL tears). Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Outside Heel Hook from Backside 50-50",
+  "description": "Master the Outside Heel Hook from Backside 50-50. Complete guide to rotational heel hook mechanics, safety protocols, and competition finishing strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Outside Heel Hook from Backside 50-50", "item": "https://bjjgraph.org/Submissions/Outside-Heel-Hook-from-Backside-50-50" }
+  ]
+}
+</script>
+
 > **SAFETY**: Outside Heel Hook from Backside 50-50 targets the Knee and ankle joint. Risk: Lateral collateral ligament (LCL) tear from rotational torque exceeding tissue tolerance. Release immediately upon tap.
 
 

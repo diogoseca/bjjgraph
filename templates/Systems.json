@@ -74,6 +74,12 @@
         "last_improved_by": { "type": "string" }
       }
     },
+    "sameAs": {
+      "type": "array",
+      "description": "Authoritative external URLs for THIS system (Wikipedia/Wikidata). schema.org sameAs. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "format": "uri" }
+    },
     "disambiguations": {
       "type": "array",
       "description": "False-synonym callouts. Renders 'Often confused with X — reason'. See docs/Synonyms.md.",

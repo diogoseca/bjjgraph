@@ -10,6 +10,29 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Flying Armbar from Closed Guard",
+  "description": "Master the Flying Armbar technique in BJJ. High-risk aerial submission targeting elbow joint with dynamic entry. Complete guide with safety protocols and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Flying Armbar from Closed Guard", "item": "https://bjjgraph.org/Submissions/Flying-Armbar-from-Closed-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Flying Armbar from Closed Guard targets the Elbow joint and shoulder. Risk: Elbow hyperextension or ligament tears (opponent). Release immediately upon tap.
 
 

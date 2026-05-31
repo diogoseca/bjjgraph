@@ -10,6 +10,29 @@ description: "Master the Kimura from Knee Shield Half Guard. Complete guide to s
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Knee Shield Half Guard",
+  "description": "Master the Kimura from Knee Shield Half Guard. Complete guide to setup, grip mechanics, finishing sequence, and defensive counters for this bottom half guard shoulder lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Knee Shield Half Guard", "item": "https://bjjgraph.org/Submissions/Kimura-from-Knee-Shield-Half-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kimura from Knee Shield Half Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
 
 

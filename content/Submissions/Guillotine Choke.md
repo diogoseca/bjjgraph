@@ -10,6 +10,29 @@ description: "Master the Guillotine Choke in BJJ with step-by-step execution, sa
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Guillotine Choke",
+  "description": "Master the Guillotine Choke in BJJ with step-by-step execution, safety protocols, and variations. Complete guide for attacking and defending this versatile choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Guillotine Choke", "item": "https://bjjgraph.org/Submissions/Guillotine-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Guillotine Choke targets the Carotid arteries and windpipe. Risk: Trachea damage or crush injury. Release immediately upon tap.
 
 

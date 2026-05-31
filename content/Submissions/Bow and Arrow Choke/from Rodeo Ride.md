@@ -10,6 +10,29 @@ description: "Master the Bow and Arrow Choke from Rodeo Ride. Learn gi lapel cho
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bow and Arrow Choke from Rodeo Ride",
+  "description": "Master the Bow and Arrow Choke from Rodeo Ride. Learn gi lapel choke setup, cross-collar grip mechanics, and finishing details from this advanced turtle attack position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bow and Arrow Choke from Rodeo Ride", "item": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Choke-from-Rodeo-Ride" }
+  ]
+}
+</script>
+
 > **SAFETY**: Bow and Arrow Choke from Rodeo Ride targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 

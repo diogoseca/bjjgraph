@@ -10,6 +10,29 @@ description: "Master the toe hold from Ashi Garami leg entanglement. Complete gu
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Toe Hold from Ashi Garami",
+  "description": "Master the toe hold from Ashi Garami leg entanglement. Complete guide to figure-four grip mechanics, rotational finishing, defense, and safe training protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Toe Hold from Ashi Garami", "item": "https://bjjgraph.org/Submissions/Toe-Hold-from-Ashi-Garami" }
+  ]
+}
+</script>
+
 > **SAFETY**: Toe Hold from Ashi Garami targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
 
 

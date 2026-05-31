@@ -10,6 +10,29 @@ description: "Master the Triangle Choke in BJJ. Complete safety guide with setup
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Triangle Choke",
+  "description": "Master the Triangle Choke in BJJ. Complete safety guide with setup, execution, and defense. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Triangle Choke", "item": "https://bjjgraph.org/Submissions/Triangle-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Triangle Choke targets the Carotid arteries and brachial plexus. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 

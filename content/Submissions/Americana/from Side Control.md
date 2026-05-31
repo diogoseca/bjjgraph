@@ -10,6 +10,29 @@ description: "Master the Americana from Side Control in BJJ. Complete guide to s
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from Side Control",
+  "description": "Master the Americana from Side Control in BJJ. Complete guide to setup, execution, defense, and safety for this fundamental shoulder lock submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Americana from Side Control", "item": "https://bjjgraph.org/Submissions/Americana-from-Side-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Americana from Side Control targets the Shoulder joint (specifically rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
 
 

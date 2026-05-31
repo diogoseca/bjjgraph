@@ -10,6 +10,29 @@ description: "Master the bow and arrow choke from body triangle in BJJ. Learn de
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bow and Arrow Choke from Body Triangle",
+  "description": "Master the bow and arrow choke from body triangle in BJJ. Learn deep collar grip mechanics, body extension finishing details, and proven defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bow and Arrow Choke from Body Triangle", "item": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Choke-from-Body-Triangle" }
+  ]
+}
+</script>
+
 > **SAFETY**: Bow and Arrow Choke from Body Triangle targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 

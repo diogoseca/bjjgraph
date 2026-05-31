@@ -10,6 +10,29 @@ description: "Master the Twister spinal lock from Twister Side Control with step
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Twister from Twister Side Control",
+  "description": "Master the Twister spinal lock from Twister Side Control with step-by-step finishing mechanics, safety protocols, and proven defensive strategies for grapplers.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Twister from Twister Side Control", "item": "https://bjjgraph.org/Submissions/Twister-from-Twister-Side-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Twister from Twister Side Control targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine damage (neck injury). Release immediately upon tap.
 
 

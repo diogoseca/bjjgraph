@@ -10,6 +10,29 @@ description: "Master the Arm Crush submission in BJJ. Learn shoulder lock mechan
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Arm Crush",
+  "description": "Master the Arm Crush submission in BJJ. Learn shoulder lock mechanics, setup from side control, and safe application for training and competition.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Crush", "item": "https://bjjgraph.org/Submissions/Arm-Crush" }
+  ]
+}
+</script>
+
 > **SAFETY**: Arm Crush targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear. Release immediately upon tap.
 
 

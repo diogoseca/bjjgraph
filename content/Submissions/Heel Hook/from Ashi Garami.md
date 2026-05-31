@@ -10,6 +10,29 @@ description: "Master the heel hook from Ashi Garami with systematic grip mechani
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Hook from Ashi Garami",
+  "description": "Master the heel hook from Ashi Garami with systematic grip mechanics, rotational finishing details, and hierarchy-based attack strategy for no-gi grappling.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Heel Hook from Ashi Garami", "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Ashi-Garami" }
+  ]
+}
+</script>
+
 > **SAFETY**: Heel Hook from Ashi Garami targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
 
 

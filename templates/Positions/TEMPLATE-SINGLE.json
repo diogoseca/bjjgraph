@@ -77,6 +77,12 @@
         "last_improved_by": { "type": "string" }
       }
     },
+    "sameAs": {
+      "type": "array",
+      "description": "Authoritative external URLs for THIS technique (Wikipedia article and/or Wikidata entity). schema.org sameAs — feeds Google's Knowledge Graph entity reconciliation and surfaces cross-language names. See docs/Synonyms.md.",
+      "uniqueItems": true,
+      "items": { "type": "string", "format": "uri" }
+    },
     "disambiguations": {
       "type": "array",
       "description": "False-synonym callouts. Renders 'Often confused with X — reason'. Mutual: both pages should declare the other. See docs/Synonyms.md.",

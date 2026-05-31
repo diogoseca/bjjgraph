@@ -10,6 +10,29 @@ description: "Master the Inverted Triangle choke in BJJ. Complete guide covering
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Inverted Triangle",
+  "description": "Master the Inverted Triangle choke in BJJ. Complete guide covering setup from guard and scrambles, perpendicular finishing mechanics, and defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inverted Triangle", "item": "https://bjjgraph.org/Submissions/Inverted-Triangle" }
+  ]
+}
+</script>
+
 > **SAFETY**: Inverted Triangle targets the Carotid arteries and trachea. Risk: Cervical spine compression from improper rotation during setup. Release immediately upon tap.
 
 

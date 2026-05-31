@@ -10,6 +10,29 @@ description: "Master Armbar from Crucifix in BJJ. Complete guide with safety pro
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from Crucifix",
+  "description": "Master Armbar from Crucifix in BJJ. Complete guide with safety protocols, setup, execution steps, finishing mechanics. Beginner 40%, Intermediate 55%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar from Crucifix", "item": "https://bjjgraph.org/Submissions/Armbar-from-Crucifix" }
+  ]
+}
+</script>
+
 > **SAFETY**: Armbar from Crucifix targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
 
 

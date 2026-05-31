@@ -10,6 +10,29 @@ description: "Master the Belly Down Armbar in BJJ. Complete guide with safety pr
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Belly Down Armbar",
+  "description": "Master the Belly Down Armbar in BJJ. Complete guide with safety protocols, precise setup from turtle and scrambles, and finishing mechanics for this high-percentage joint lock.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Belly Down Armbar", "item": "https://bjjgraph.org/Submissions/Belly-Down-Armbar" }
+  ]
+}
+</script>
+
 > **SAFETY**: Belly Down Armbar targets the Elbow joint and shoulder girdle. Risk: Elbow hyperextension and ligament damage (MCL/LCL/joint capsule tears). Release immediately upon tap.
 
 

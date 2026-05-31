@@ -10,6 +10,29 @@ description: "Master Estima Lock foot submission with safety protocols, setup fr
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Estima Lock",
+  "description": "Master Estima Lock foot submission with safety protocols, setup from 50-50 guard, execution steps, defense patterns. Success rates: Beginner 30%, Intermediate 45%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Estima Lock", "item": "https://bjjgraph.org/Submissions/Estima-Lock" }
+  ]
+}
+</script>
+
 > **SAFETY**: Estima Lock targets the Foot and ankle joints (dorsiflexion of foot). Risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Release immediately upon tap.
 
 

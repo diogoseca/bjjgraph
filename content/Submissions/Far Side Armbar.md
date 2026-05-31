@@ -10,6 +10,29 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Far Side Armbar",
+  "description": "Master Far Side Armbar from top positions. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Far Side Armbar", "item": "https://bjjgraph.org/Submissions/Far-Side-Armbar" }
+  ]
+}
+</script>
+
 > **SAFETY**: Far Side Armbar targets the Elbow joint (hyperextension). Risk: Elbow hyperextension (ligament damage). Release immediately upon tap.
 
 

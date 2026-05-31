@@ -10,6 +10,29 @@ description: "Master the Williams Shoulder Lock in BJJ. Complete guide covering 
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Williams Shoulder Lock",
+  "description": "Master the Williams Shoulder Lock in BJJ. Complete guide covering safety protocols, setup from Williams Guard, execution steps, and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Williams Shoulder Lock", "item": "https://bjjgraph.org/Submissions/Williams-Shoulder-Lock" }
+  ]
+}
+</script>
+
 > **SAFETY**: Williams Shoulder Lock targets the Shoulder joint (glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
 
 

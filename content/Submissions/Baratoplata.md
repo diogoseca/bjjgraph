@@ -10,6 +10,29 @@ description: "Master the Baratoplata shoulder lock in BJJ. Advanced submission f
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Baratoplata",
+  "description": "Master the Baratoplata shoulder lock in BJJ. Advanced submission from rubber guard combining omoplata mechanics with arm weave isolation for devastating finishing pressure.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Baratoplata", "item": "https://bjjgraph.org/Submissions/Baratoplata" }
+  ]
+}
+</script>
+
 > **SAFETY**: Baratoplata targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 

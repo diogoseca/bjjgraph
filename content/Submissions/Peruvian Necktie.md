@@ -10,6 +10,29 @@ description: "Master the Peruvian Necktie in BJJ. Complete guide covering front 
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Peruvian Necktie",
+  "description": "Master the Peruvian Necktie in BJJ. Complete guide covering front headlock setup, leg threading mechanics, finishing sequence, and defensive escapes with safety protocols.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Peruvian Necktie", "item": "https://bjjgraph.org/Submissions/Peruvian-Necktie" }
+  ]
+}
+</script>
+
 > **SAFETY**: Peruvian Necktie targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

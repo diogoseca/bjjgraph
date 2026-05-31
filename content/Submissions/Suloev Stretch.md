@@ -10,6 +10,29 @@ description: "Master the Suloev Stretch in BJJ. Devastating knee compression sub
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Suloev Stretch",
+  "description": "Master the Suloev Stretch in BJJ. Devastating knee compression submission from top half guard and leg control positions. Complete attacker and defender guide.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Suloev Stretch", "item": "https://bjjgraph.org/Submissions/Suloev-Stretch" }
+  ]
+}
+</script>
+
 > **SAFETY**: Suloev Stretch targets the Knee joint and calf muscle. Risk: Posterior knee ligament damage (PCL tear or strain). Release immediately upon tap.
 
 

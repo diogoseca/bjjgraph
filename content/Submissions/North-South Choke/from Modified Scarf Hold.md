@@ -10,6 +10,29 @@ description: "Master the North-South Choke from Modified Scarf Hold with step-by
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "North-South Choke from Modified Scarf Hold",
+  "description": "Master the North-South Choke from Modified Scarf Hold with step-by-step entry mechanics, shoulder pressure finishing details, and proven defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "North-South Choke from Modified Scarf Hold", "item": "https://bjjgraph.org/Submissions/North-South-Choke-from-Modified-Scarf-Hold" }
+  ]
+}
+</script>
+
 > **SAFETY**: North-South Choke from Modified Scarf Hold targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

@@ -10,6 +10,29 @@ description: "Master the Americana from Shoulder of Justice in BJJ. Step-by-step
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Americana from Shoulder of Justice",
+  "description": "Master the Americana from Shoulder of Justice in BJJ. Step-by-step finishing guide with shoulder pressure setup, grip mechanics, and defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Americana from Shoulder of Justice", "item": "https://bjjgraph.org/Submissions/Americana-from-Shoulder-of-Justice" }
+  ]
+}
+</script>
+
 > **SAFETY**: Americana from Shoulder of Justice targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
 
 

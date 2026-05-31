@@ -10,6 +10,29 @@ description: "Master the Breadcutter Choke in BJJ. Devastating collar choke from
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Breadcutter Choke",
+  "description": "Master the Breadcutter Choke in BJJ. Devastating collar choke from turtle and back control using the gi. Complete guide with setup, finishing mechanics, and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Breadcutter Choke", "item": "https://bjjgraph.org/Submissions/Breadcutter-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Breadcutter Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

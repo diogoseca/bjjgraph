@@ -10,6 +10,29 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Flying Kneebar from Standing Position",
+  "description": "Master the Flying Kneebar in BJJ. Complete guide with safety protocols, setup, execution, and counters. Success rates: Beginner 15%, Intermediate 30%, Advanced 50%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Flying Kneebar from Standing Position", "item": "https://bjjgraph.org/Submissions/Flying-Kneebar-from-Standing-Position" }
+  ]
+}
+</script>
+
 > **SAFETY**: Flying Kneebar from Standing Position targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
 
 

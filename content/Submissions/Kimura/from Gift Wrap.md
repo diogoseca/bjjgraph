@@ -10,6 +10,29 @@ description: "Master the Kimura from Gift Wrap in BJJ. Complete guide to transit
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Gift Wrap",
+  "description": "Master the Kimura from Gift Wrap in BJJ. Complete guide to transitioning the trapped arm into a high-percentage shoulder lock with step-by-step finishing details.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Gift Wrap", "item": "https://bjjgraph.org/Submissions/Kimura-from-Gift-Wrap" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kimura from Gift Wrap targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
 
 

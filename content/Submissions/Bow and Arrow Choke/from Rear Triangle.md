@@ -10,6 +10,29 @@ description: "Master the Bow and Arrow Choke from Rear Triangle in BJJ. Learn co
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Bow and Arrow Choke from Rear Triangle",
+  "description": "Master the Bow and Arrow Choke from Rear Triangle in BJJ. Learn collar grip mechanics, leg extension finish, and defensive strategies for this gi technique.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bow and Arrow Choke from Rear Triangle", "item": "https://bjjgraph.org/Submissions/Bow-and-Arrow-Choke-from-Rear-Triangle" }
+  ]
+}
+</script>
+
 > **SAFETY**: Bow and Arrow Choke from Rear Triangle targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 

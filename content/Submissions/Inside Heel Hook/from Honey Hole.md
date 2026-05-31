@@ -10,6 +10,29 @@ description: "Master the Inside Heel Hook from Honey Hole in BJJ. Complete guide
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Inside Heel Hook from Honey Hole",
+  "description": "Master the Inside Heel Hook from Honey Hole in BJJ. Complete guide covering grip mechanics, rotational finishing, defense protocols, and training safety.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Inside Heel Hook from Honey Hole", "item": "https://bjjgraph.org/Submissions/Inside-Heel-Hook-from-Honey-Hole" }
+  ]
+}
+</script>
+
 > **SAFETY**: Inside Heel Hook from Honey Hole targets the Knee and ankle joint. Risk: ACL (anterior cruciate ligament) tear from rotational force exceeding joint tolerance. Release immediately upon tap.
 
 

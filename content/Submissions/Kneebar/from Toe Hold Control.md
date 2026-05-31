@@ -10,6 +10,29 @@ description: "Master the kneebar from toe hold control in BJJ. Complete guide to
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Toe Hold Control",
+  "description": "Master the kneebar from toe hold control in BJJ. Complete guide to reading defensive reactions, transitioning attacks, and finishing the knee hyperextension.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar from Toe Hold Control", "item": "https://bjjgraph.org/Submissions/Kneebar-from-Toe-Hold-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kneebar from Toe Hold Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
 
 

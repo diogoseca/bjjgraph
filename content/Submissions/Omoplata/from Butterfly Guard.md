@@ -10,6 +10,29 @@ description: "Master the Omoplata from Butterfly Guard. Learn hook elevation ent
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata from Butterfly Guard",
+  "description": "Master the Omoplata from Butterfly Guard. Learn hook elevation entries, overhook setups, and finishing mechanics for this dynamic BJJ shoulder lock submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Omoplata from Butterfly Guard", "item": "https://bjjgraph.org/Submissions/Omoplata-from-Butterfly-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Omoplata from Butterfly Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 

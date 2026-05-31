@@ -10,6 +10,29 @@ description: "Master the Arm Triangle from Shoulder of Justice. Learn how intens
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Arm Triangle from Shoulder of Justice",
+  "description": "Master the Arm Triangle from Shoulder of Justice. Learn how intense jaw pressure forces the defensive reaction that creates this high-percentage blood choke finish.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Arm Triangle from Shoulder of Justice", "item": "https://bjjgraph.org/Submissions/Arm-Triangle-from-Shoulder-of-Justice" }
+  ]
+}
+</script>
+
 > **SAFETY**: Arm Triangle from Shoulder of Justice targets the Carotid arteries (compressed by opponent's own shoulder and attacker's arm). Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
 
 

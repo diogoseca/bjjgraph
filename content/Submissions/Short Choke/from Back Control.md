@@ -10,6 +10,29 @@ description: "Master the Short Choke from Back Control in BJJ. Learn cross-colla
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Short Choke from Back Control",
+  "description": "Master the Short Choke from Back Control in BJJ. Learn cross-collar grip mechanics, finishing sequences, and defensive counters for this tight gi blood choke.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Short Choke from Back Control", "item": "https://bjjgraph.org/Submissions/Short-Choke-from-Back-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: Short Choke from Back Control targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

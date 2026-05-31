@@ -10,6 +10,29 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kimura from Kimura Trap",
+  "description": "Master the Kimura from Kimura Trap in BJJ. Complete guide to finishing the shoulder lock from figure-four control with attacking and defensive strategies.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kimura from Kimura Trap", "item": "https://bjjgraph.org/Submissions/Kimura-from-Kimura-Trap" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kimura from Kimura Trap targets the Shoulder joint (glenohumeral) and elbow. Risk: Shoulder dislocation (glenohumeral subluxation or full anterior dislocation). Release immediately upon tap.
 
 

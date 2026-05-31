@@ -10,6 +10,29 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Electric Chair",
+  "description": "Master the Electric Chair from lockdown. Complete guide with compression mechanics, setup, and safety. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Electric Chair", "item": "https://bjjgraph.org/Submissions/Electric-Chair" }
+  ]
+}
+</script>
+
 > **SAFETY**: Electric Chair targets the Knee joint, hip flexors, and posterior chain. Risk: Medial collateral ligament (MCL) sprain or tear. Release immediately upon tap.
 
 

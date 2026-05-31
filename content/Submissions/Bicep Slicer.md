@@ -10,6 +10,29 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Bicep Slicer",
+  "description": "Master the Bicep Slicer in BJJ. Complete guide with safety protocols, setup from crucifix and truck positions. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Bicep Slicer", "item": "https://bjjgraph.org/Submissions/Bicep-Slicer" }
+  ]
+}
+</script>
+
 > **SAFETY**: Bicep Slicer targets the Bicep muscle and elbow joint. Risk: Bicep muscle tear or severe contusion. Release immediately upon tap.
 
 

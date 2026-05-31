@@ -10,6 +10,29 @@ description: "Master the omoplata from inverted guard in BJJ. Complete guide to 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata from Inverted Guard",
+  "description": "Master the omoplata from inverted guard in BJJ. Complete guide to setup, execution, and finishing this advanced shoulder lock from the inverted position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Omoplata from Inverted Guard", "item": "https://bjjgraph.org/Submissions/Omoplata-from-Inverted-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Omoplata from Inverted Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 

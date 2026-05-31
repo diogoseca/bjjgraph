@@ -10,6 +10,29 @@ description: "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide cover
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Heel Hook from Ushiro Ashi",
+  "description": "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide covering reversed leg entanglement finishing mechanics, grip adjustments, safety, and defense.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Heel Hook from Ushiro Ashi", "item": "https://bjjgraph.org/Submissions/Heel-Hook-from-Ushiro-Ashi" }
+  ]
+}
+</script>
+
 > **SAFETY**: Heel Hook from Ushiro Ashi targets the Knee ligaments (MCL, LCL, meniscus) via rotational force through heel. Risk: MCL/LCL tear from rotational force exceeding ligament tolerance. Release immediately upon tap.
 
 

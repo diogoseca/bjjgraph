@@ -10,6 +10,29 @@ description: "Master the High Elbow Guillotine from Guillotine Control. Complete
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "High Elbow Guillotine from Guillotine Control",
+  "description": "Master the High Elbow Guillotine from Guillotine Control. Complete guide covering ceiling-elbow mechanics, carotid compression, and proven defensive counters.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "High Elbow Guillotine from Guillotine Control", "item": "https://bjjgraph.org/Submissions/High-Elbow-Guillotine-from-Guillotine-Control" }
+  ]
+}
+</script>
+
 > **SAFETY**: High Elbow Guillotine from Guillotine Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
 
 

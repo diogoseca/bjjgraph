@@ -10,6 +10,29 @@ description: "Learn Counter Entry to Opponent's Leg in BJJ. Neutralize ankle loc
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Counter Entry to Opponent\u0027s Leg",
+  "description": "Learn Counter Entry to Opponent\u0027s Leg in BJJ. Neutralize ankle lock attacks by entering 50-50 Guard with counter-offense from defensive position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Counter Entry to Opponent\u0027s Leg", "item": "https://bjjgraph.org/Transitions/Counter-Entry-to-Opponent\u0027s-Leg" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

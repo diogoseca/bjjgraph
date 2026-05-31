@@ -10,6 +10,29 @@ description: "Master the Kneebar from Half Guard in BJJ. Complete guide covering
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kneebar from Half Guard",
+  "description": "Master the Kneebar from Half Guard in BJJ. Complete guide covering setup, execution, defense, and safety protocols for this powerful leg lock submission.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kneebar from Half Guard", "item": "https://bjjgraph.org/Submissions/Kneebar-from-Half-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Kneebar from Half Guard targets the Knee joint and posterior cruciate ligament. Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
 
 

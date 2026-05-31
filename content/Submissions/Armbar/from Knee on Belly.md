@@ -10,6 +10,29 @@ description: "Master the armbar from knee on belly in BJJ. Complete guide to set
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Armbar from Knee on Belly",
+  "description": "Master the armbar from knee on belly in BJJ. Complete guide to setup, execution, defense, and finishing mechanics from this dynamic dominant position.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Armbar from Knee on Belly", "item": "https://bjjgraph.org/Submissions/Armbar-from-Knee-on-Belly" }
+  ]
+}
+</script>
+
 > **SAFETY**: Armbar from Knee on Belly targets the Shoulder and elbow joint. Risk: Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and medial structures. Release immediately upon tap.
 
 

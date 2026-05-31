@@ -10,6 +10,29 @@ description: "Master the Calf Slicer from Rodeo Ride in BJJ. Complete guide to c
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Calf Slicer from Rodeo Ride",
+  "description": "Master the Calf Slicer from Rodeo Ride in BJJ. Complete guide to compression lock mechanics, defensive escapes, and training progressions from turtle control.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Calf Slicer from Rodeo Ride", "item": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Rodeo-Ride" }
+  ]
+}
+</script>
+
 > **SAFETY**: Calf Slicer from Rodeo Ride targets the Calf muscle and knee joint. Risk: Knee ligament damage (MCL/LCL tears) from hyperextension force applied through the compression lock. Release immediately upon tap.
 
 

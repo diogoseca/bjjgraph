@@ -10,6 +10,29 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Outside Heel Hook",
+  "description": "Master Outside Heel Hook in BJJ. Safety guide covering proper application, knee rotation mechanics, injury prevention, and defensive strategies from leg entanglements.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Outside Heel Hook", "item": "https://bjjgraph.org/Submissions/Outside-Heel-Hook" }
+  ]
+}
+</script>
+
 > **SAFETY**: Outside Heel Hook targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
 
 

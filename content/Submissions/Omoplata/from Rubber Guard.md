@@ -10,6 +10,29 @@ description: "Master the omoplata from Rubber Guard with entries from Mission Co
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Omoplata from Rubber Guard",
+  "description": "Master the omoplata from Rubber Guard with entries from Mission Control and New York. Complete guide covering setup, execution, counters, and defense for no-gi.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Omoplata from Rubber Guard", "item": "https://bjjgraph.org/Submissions/Omoplata-from-Rubber-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Omoplata from Rubber Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
 
 

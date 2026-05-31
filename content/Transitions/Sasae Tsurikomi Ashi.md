@@ -10,6 +10,29 @@ description: "Master Sasae Tsurikomi Ashi for BJJ. Complete guide to this judo f
 
 <body data-content-type="transitions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Sasae Tsurikomi Ashi",
+  "description": "Master Sasae Tsurikomi Ashi for BJJ. Complete guide to this judo foot sweep with kuzushi setup, timing, foot placement, and combination attacks from standing.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Sasae Tsurikomi Ashi", "item": "https://bjjgraph.org/Transitions/Sasae-Tsurikomi-Ashi" }
+  ]
+}
+</script>
+
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 

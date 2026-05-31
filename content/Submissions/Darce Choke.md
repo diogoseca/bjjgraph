@@ -10,6 +10,29 @@ description: "Master the Darce Choke in BJJ. Complete guide covering setup requi
 
 <body data-content-type="submissions-family">
 
+<!-- Schema Markup - CollectionPage (family hub entity) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Darce Choke",
+  "description": "Master the Darce Choke in BJJ. Complete guide covering setup requirements, finishing mechanics, safety protocols, and defensive strategies from multiple positions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Darce Choke", "item": "https://bjjgraph.org/Submissions/Darce-Choke" }
+  ]
+}
+</script>
+
 > **SAFETY**: Darce Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
 
 

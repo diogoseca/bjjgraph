@@ -10,6 +10,29 @@ description: "Master the Rolling Armbar in BJJ. Dynamic submission from guard an
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rolling Armbar from Closed Guard",
+  "description": "Master the Rolling Armbar in BJJ. Dynamic submission from guard and scrambles with technical precision. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rolling Armbar from Closed Guard", "item": "https://bjjgraph.org/Submissions/Rolling-Armbar-from-Closed-Guard" }
+  ]
+}
+</script>
+
 > **SAFETY**: Rolling Armbar from Closed Guard targets the Elbow joint. Risk: Elbow hyperextension or dislocation. Release immediately upon tap.
 
 

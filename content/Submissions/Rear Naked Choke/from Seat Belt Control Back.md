@@ -10,6 +10,29 @@ description: "Master the Rear Naked Choke from Seat Belt Control Back. Complete 
 
 <body data-content-type="submissions-hub">
 
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rear Naked Choke from Seat Belt Control Back",
+  "description": "Master the Rear Naked Choke from Seat Belt Control Back. Complete guide covering grip transitions, choking mechanics, defense, and training progressions.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Submissions", "item": "https://bjjgraph.org/Submissions/" },
+    { "@type": "ListItem", "position": 3, "name": "Rear Naked Choke from Seat Belt Control Back", "item": "https://bjjgraph.org/Submissions/Rear-Naked-Choke-from-Seat-Belt-Control-Back" }
+  ]
+}
+</script>
+
 > **SAFETY**: Rear Naked Choke from Seat Belt Control Back targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 
