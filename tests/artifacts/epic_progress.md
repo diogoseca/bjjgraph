@@ -30,7 +30,7 @@ Quota resets Monday → all token-spending scheduled jobs run on the **weekend**
 - [x] **§A.4 SEO monitor** (`seo-monitor.yml`, Sat 06:00) — DataForSEO SERP + PostHog HogQL → report on `seo-reports` side branch (no deploy trigger) + artifact.
 - [x] **§A.6 votes refresh** (`votes-refresh.yml`, Sat 02:00) — no Claude, votes-only change detection, PR.
 - [x] **Adversarial review** (47-agent workflow, 39/40 verified) → applied 2 blockers + 5 highs + cheap nits; also fixed a latent positional-arg bug in the existing content bot.
-- [ ] **§A.5 bot improvements** (last_improved + dedup) — DEFERRED.
+- [x] **§A.5 bot improvements** — `bot_metadata` added to all 8 schemas (fixes a latent bug: the bots already wrote it but `additionalProperties:false` rejected it); `select_oldest_files.sh` skips files improved within `SKIP_RECENT_DAYS` (default 14) so Sat content-bot + Sun analytics-bot don't double-touch; both bot prompts now write `bot_metadata` to the JSON source explicitly. — `v1.31.0`
 - [ ] **§B one-off corpus alias/sameAs audit** (after §A).
 
 ### Open items needing a GitHub secret (flagged to user)

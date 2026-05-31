@@ -105,7 +105,10 @@ jobs:
                - Add [[Wikilinks]] throughout (6-15 minimum, validated against catalog)
                - Improve flashcards (clear, specific, practical Q&A pairs)
                - Ensure success rates: beginner <= intermediate <= advanced
-               - Add bot_metadata.last_improved with today's date
+               - In the JSON SOURCE (not the generated .md), set a top-level
+                 `bot_metadata` object with `last_improved` = today's date YYYY-MM-DD
+                 (and `last_improved_by: "analytics-bot"`). The schema allows it; it
+                 lets the selector skip recently-improved files.
             4. Focus improvements on what analytics suggest is weak:
                - High bounce rate → improve overview/first paragraph (this is what users see first)
                - Low session duration → add depth to key_principles and decision_tree sections

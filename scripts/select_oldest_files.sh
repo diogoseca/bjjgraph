@@ -8,6 +8,10 @@
 set -e
 
 NUM_FILES=${1:-10}
+# Dedup guard: skip files a bot improved within this many days, so the Saturday
+# content bot and Sunday analytics bot don't double-touch the same file in one
+# quota week. Override with env SKIP_RECENT_DAYS.
+SKIP_RECENT_DAYS=${SKIP_RECENT_DAYS:-14}
 cd "$(dirname "$0")/.."
 CONTENT_DIR="content"
 
@@ -25,6 +29,24 @@ get_creation_timestamp() {
     git log --format="%ct" --diff-filter=A -- "$file" 2>/dev/null | tail -1
 }
 
+# Returns 0 (true) if the file was bot-improved within SKIP_RECENT_DAYS.
+# Reads top-level bot_metadata.last_improved (ISO date). Files without it, or
+# unparseable, are treated as eligible (exit 1).
+is_recently_improved() {
+    python3 - "$1" "$SKIP_RECENT_DAYS" <<'PY' 2>/dev/null
+import json, sys, datetime
+try:
+    data = json.load(open(sys.argv[1]))
+    li = (data.get("bot_metadata") or {}).get("last_improved")
+    if not li:
+        sys.exit(1)
+    dt = datetime.date.fromisoformat(str(li)[:10])
+    sys.exit(0 if (datetime.date.today() - dt).days < int(sys.argv[2]) else 1)
+except Exception:
+    sys.exit(1)
+PY
+}
+
 # Find all JSON files and get their creation dates
 json_files=$(find "$CONTENT_DIR" -type f -name "*.json" \
     ! -name "CONTRIBUTING-*.json" \
@@ -33,13 +55,19 @@ json_files=$(find "$CONTENT_DIR" -type f -name "*.json" \
 
 echo "  Collecting creation dates for JSON files..." >&2
 json_with_dates=""
+skipped_recent=0
 while IFS= read -r file; do
     [ -z "$file" ] && continue
+    if is_recently_improved "$file"; then
+        skipped_recent=$((skipped_recent + 1))
+        continue
+    fi
     timestamp=$(get_creation_timestamp "$file")
     # If no git history, use 0 (oldest possible)
     [ -z "$timestamp" ] && timestamp=0
     json_with_dates="${json_with_dates}${timestamp} ${file}"$'\n'
 done <<< "$json_files"
+[ "$skipped_recent" -gt 0 ] && echo "  Skipped $skipped_recent file(s) improved within ${SKIP_RECENT_DAYS}d" >&2
 
 # Find orphaned .md files (no .json sibling)
 echo "  Collecting orphaned .md files..." >&2

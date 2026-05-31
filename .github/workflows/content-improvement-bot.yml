@@ -425,13 +425,16 @@ jobs:
             - Internal paths: `/tests/artifacts/`, `/docs/`
             - Incomplete sentences or "..." trails
 
-            **ADD if missing:**
-            - Bot metadata in YAML:
-              ```yaml
-              bot_metadata:
-                last_improved: "$(date +%Y-%m-%d)"
-                optimization_pass: "ai_seo_v1"
+            **ADD if missing — to the JSON SOURCE file you are editing (NOT the generated .md):**
+            - A top-level `bot_metadata` object (the schema now allows it). Use today's date:
+              ```json
+              "bot_metadata": {
+                "last_improved": "<today YYYY-MM-DD>",
+                "optimization_pass": "ai_seo_v1"
+              }
               ```
+              This lets select_oldest_files.sh skip recently-improved files so bots
+              don't re-touch the same page within a quota week.
 
             ## New Article Suggestions
 
