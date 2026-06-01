@@ -7,17 +7,20 @@
 // to the first card. The sticky bottom CTA always trains the Due cards
 // (or 30 suggested if 0 due, or resumes a session if one's active).
 
-import { registerEscapeHandler } from "./util"
-import { loadSRSCards, getDueCards, getUpcomingCards, getMasteredCards } from "./srs"
+import { getDueCards, getUpcomingCards, getMasteredCards } from "./srs"
 import { loadSettings, loadDailyProgress, loadStreak } from "./settings"
 import { loadExplored } from "./explored"
 import {
   loadQuestionBank,
   loadGraphAdjacency,
   getSuggestedTechniques,
+  buildMasteryLookup,
+  buildSuggestionContext,
   startOrResumeSession,
   getSession,
   type SessionSource,
+  type SuggestedTechnique,
+  type SuggestionFactor,
 } from "./trainingSession"
 
 const MODAL_ID = "decks-modal-overlay"
@@ -30,7 +33,10 @@ interface DeckRow {
   enabled: boolean
 }
 
-async function buildDeckRows(): Promise<DeckRow[]> {
+// How many picks to preview with factor chips when the Suggested row expands.
+const SUGGESTED_PREVIEW_LIMIT = 6
+
+async function buildDeckRows(): Promise<{ rows: DeckRow[]; suggestedPicks: SuggestedTechnique[] }> {
   const settings = loadSettings()
   const suggestionsCount = Math.min(settings.dailyGoal, 30)
 
@@ -39,19 +45,20 @@ async function buildDeckRows(): Promise<DeckRow[]> {
   const mastered = getMasteredCards()
   const explored = loadExplored().filter((e) => e.type === "transition" || e.type === "submission")
 
-  // Suggestions can be expensive to fully compute; just show the raw count of
-  // suggestion candidates (the pool, not the picked set). If we wanted the
-  // exact session-size we'd run getSuggestedTechniques here, but for a header
-  // count the candidate pool is sufficient and faster.
-  let suggestionsAvailable = 0
+  // Compute the actual picked set (gap-filling, mastery-graded) so the row count
+  // and the expandable preview share one ranking.
+  let suggestedPicks: SuggestedTechnique[] = []
   const [bank, adjacency] = await Promise.all([loadQuestionBank(), loadGraphAdjacency()])
   if (bank.length > 0 && adjacency) {
-    const existing = new Set(loadSRSCards().map((c) => c.technique))
-    const suggested = getSuggestedTechniques(bank, existing, adjacency, suggestionsCount)
-    suggestionsAvailable = suggested.length
+    const mastery = buildMasteryLookup()
+    const ctx = buildSuggestionContext()
+    suggestedPicks = getSuggestedTechniques(bank, mastery, adjacency, suggestionsCount, {
+      exploredHubs: ctx.exploredHubs,
+      exploredNames: ctx.exploredNames,
+    })
   }
 
-  return [
+  const rows: DeckRow[] = [
     { key: "due", label: "Due Today", count: due.length, enabled: due.length > 0 },
     {
       key: "reviewing",
@@ -63,8 +70,8 @@ async function buildDeckRows(): Promise<DeckRow[]> {
     {
       key: "suggested",
       label: "Suggested for you",
-      count: suggestionsAvailable,
-      enabled: suggestionsAvailable > 0,
+      count: suggestedPicks.length,
+      enabled: suggestedPicks.length > 0,
     },
     {
       key: "explored",
@@ -73,6 +80,58 @@ async function buildDeckRows(): Promise<DeckRow[]> {
       enabled: explored.length > 0,
     },
   ]
+  return { rows, suggestedPicks }
+}
+
+const FACTOR_LABELS: Record<SuggestionFactor, string> = {
+  common: "Common",
+  effective: "Effective",
+  newground: "New ground",
+  fitsyourgame: "Fits your game",
+}
+
+// At least this share of the score to earn a chip; no single factor dominates,
+// so we surface the top ≤2 meaningful contributors rather than one "reason".
+const CHIP_SHARE_THRESHOLD = 0.18
+
+function chipsHtml(s: SuggestedTechnique): string {
+  return s.factors
+    .filter((f) => f.share >= CHIP_SHARE_THRESHOLD)
+    .slice(0, 2)
+    .map((f) => {
+      const label = FACTOR_LABELS[f.factor]
+      const pct = Math.round(f.share * 100)
+      let title = `${label} — ~${pct}% of why this was picked`
+      if (f.factor === "effective") title += ` · ${Math.round(f.raw * 100)}% success rate`
+      return `<span class="suggestion-chip suggestion-chip--${f.factor}" title="${escapeHtml(title)}">${escapeHtml(label)}</span>`
+    })
+    .join("")
+}
+
+function suggestedPreviewHtml(picks: SuggestedTechnique[]): string {
+  const cards = picks
+    .slice(0, SUGGESTED_PREVIEW_LIMIT)
+    .map(
+      (s) => `
+      <div class="suggestion-card">
+        <div class="suggestion-card-head">
+          <span class="suggestion-card-title">${escapeHtml(s.entry.name)}</span>
+          <span class="suggestion-card-type">${s.entry.type === "submission" ? "Submission" : "Transition"}</span>
+        </div>
+        <div class="suggestion-chips">${chipsHtml(s)}</div>
+      </div>`,
+    )
+    .join("")
+  const more =
+    picks.length > SUGGESTED_PREVIEW_LIMIT
+      ? `<p class="suggestion-more">+ ${picks.length - SUGGESTED_PREVIEW_LIMIT} more in this session</p>`
+      : ""
+  return `
+    <div class="decks-suggested-preview" id="decks-suggested-preview" hidden>
+      <div class="decks-suggested-cards">${cards}</div>
+      ${more}
+      <button type="button" class="decks-suggested-drill" id="decks-suggested-drill">Drill these ${picks.length} ▶</button>
+    </div>`
 }
 
 function buildCtaState(): { label: string; enabled: boolean; source: SessionSource } {
@@ -97,8 +156,18 @@ function buildCtaState(): { label: string; enabled: boolean; source: SessionSour
   }
 }
 
+// Esc is bound on document, so it must be torn down explicitly on close —
+// otherwise repeated open/close leaks a keydown listener each time (ui-1). The
+// click-outside listener is bound to the overlay element and dies when it's
+// removed, so it needs no explicit cleanup.
+let escHandler: ((e: KeyboardEvent) => void) | null = null
+
 function close() {
   document.getElementById(MODAL_ID)?.remove()
+  if (escHandler) {
+    document.removeEventListener("keydown", escHandler)
+    escHandler = null
+  }
 }
 
 function escapeHtml(s: string): string {
@@ -118,7 +187,7 @@ async function open() {
   const streak = loadStreak()
   const totalDone = progress.learned + progress.reviewed
 
-  const decks = await buildDeckRows()
+  const { rows: decks, suggestedPicks } = await buildDeckRows()
   const cta = buildCtaState()
 
   const streakBit =
@@ -130,18 +199,26 @@ async function open() {
     .map((d) => {
       const disabledAttr = d.enabled ? "" : "disabled"
       const disabledClass = d.enabled ? "" : "decks-modal-row--disabled"
-      return `
+      // The Suggested row expands an inline preview (with factor chips) instead
+      // of immediately starting a session; everything else is one-click.
+      const isExpandable = d.key === "suggested" && d.enabled
+      const chev = isExpandable ? "⌄" : "›"
+      const expandAttrs = isExpandable
+        ? ` aria-expanded="false" aria-controls="decks-suggested-preview"`
+        : ""
+      const row = `
         <button
           type="button"
           class="decks-modal-row ${disabledClass}"
           data-deck="${d.key}"
-          ${disabledAttr}
+          ${disabledAttr}${expandAttrs}
         >
           <span class="decks-modal-row-label">${escapeHtml(d.label)}</span>
           <span class="decks-modal-row-count">${d.count}</span>
-          <span class="decks-modal-row-chev" aria-hidden="true">›</span>
+          <span class="decks-modal-row-chev" aria-hidden="true">${chev}</span>
         </button>
       `
+      return isExpandable ? row + suggestedPreviewHtml(suggestedPicks) : row
     })
     .join("")
 
@@ -208,7 +285,23 @@ async function open() {
   `
 
   document.body.appendChild(overlay)
-  registerEscapeHandler(overlay, close)
+
+  // Click-outside (bound to the overlay, GC'd with it) + Esc (bound to
+  // document, removed in close()). Plus a nav safety net.
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) {
+      e.preventDefault()
+      close()
+    }
+  })
+  escHandler = (e: KeyboardEvent) => {
+    if (e.key.startsWith("Esc")) {
+      e.preventDefault()
+      close()
+    }
+  }
+  document.addEventListener("keydown", escHandler)
+  window.addCleanup(close)
 
   document.getElementById("decks-modal-close")?.addEventListener("click", close)
 
@@ -226,16 +319,37 @@ async function open() {
     startOrResumeSession(src, { autoExpand: true })
   })
 
-  // Per-row click — start a session from that deck
+  // Per-row click — start a session from that deck (Suggested toggles its
+  // preview instead).
   overlay.querySelectorAll(".decks-modal-row").forEach((rowEl) => {
     rowEl.addEventListener("click", (e) => {
       const target = e.currentTarget as HTMLButtonElement
       if (target.disabled) return
       const deck = (target.dataset.deck ?? "mixed") as SessionSource
+
+      if (deck === "suggested") {
+        const preview = document.getElementById("decks-suggested-preview")
+        if (preview) {
+          const nowHidden = !preview.hasAttribute("hidden")
+          if (nowHidden) preview.setAttribute("hidden", "")
+          else preview.removeAttribute("hidden")
+          target.setAttribute("aria-expanded", String(!nowHidden))
+          target.classList.toggle("decks-modal-row--expanded", !nowHidden)
+        }
+        return
+      }
+
       document.body.setAttribute("data-training-active", "true")
       close()
       startOrResumeSession(deck, { autoExpand: true, force: true })
     })
+  })
+
+  // Suggested preview → "Drill these N" starts the suggested session.
+  document.getElementById("decks-suggested-drill")?.addEventListener("click", () => {
+    document.body.setAttribute("data-training-active", "true")
+    close()
+    startOrResumeSession("suggested", { autoExpand: true, force: true })
   })
 }
 

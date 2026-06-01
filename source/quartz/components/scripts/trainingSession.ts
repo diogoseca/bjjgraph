@@ -21,11 +21,26 @@ export interface QuestionBankEntry {
   flashcards: Array<{ question: string; answer: string }>
 }
 
+export interface PosTech {
+  /** bank index of the technique */
+  i: number
+  /** attemptProbability (0–100) from this position-role */
+  ap: number
+  role: "top" | "bottom" | "hub"
+}
+
 export interface GraphAdjacency {
-  /** positionHub → array of bank indices of techniques from that position */
-  positions: Record<string, number[]>
+  version?: number
+  /** position hub → techniques attempted from it (both roles folded in) */
+  posTechs: Record<string, PosTech[]>
   /** bank[index] → array of position hubs this technique leads to */
   outcomes: string[][]
+  /** position hub → importance weight W(hub), Σ≈1 */
+  weights: Record<string, number>
+  /** bank[index] → successRate/100 (effectiveness) */
+  effectiveness: number[]
+  /** bank[index] → the position hub this technique primarily starts from */
+  startHub: string[]
 }
 
 export interface SessionPage {
@@ -83,95 +98,316 @@ export async function loadGraphAdjacency(): Promise<GraphAdjacency | null> {
 }
 
 // ── Suggestion engine ─────────────────────────────────────────────────────
+//
+// Expected-value gap-filling scorer. Each candidate technique is scored by:
+//   commonness   — how often you land where it applies (W·attemptProbability)
+//   newground    — how under-covered those positions currently are for you
+//   effectiveness — its success rate
+//   fitsyourgame — how well it slots into techniques you already know
+// graded by mastery (mastered 1.0 · in-SRS 0.5 · explored 0.2 · unknown 0), then
+// a greedy submodular pass spreads picks across positions so a session builds a
+// *complete* game rather than piling onto one position.
+
+export type SuggestionFactor = "common" | "effective" | "newground" | "fitsyourgame"
+
+export interface SuggestionFactorContribution {
+  factor: SuggestionFactor
+  /** this factor's normalized share of the card's score, 0..1 */
+  share: number
+  /** underlying factor value, for hover/expand */
+  raw: number
+}
+
+export interface SuggestedTechnique {
+  entry: QuestionBankEntry
+  score: number
+  /** hub this pick chiefly fills */
+  filledHub: string
+  /** factors ordered desc by share */
+  factors: SuggestionFactorContribution[]
+}
+
+/** technique name → m(t): 1 mastered · 0.5 in-SRS · 0.2 explored-only · 0 unknown */
+export interface MasteryLookup {
+  get(name: string): number
+}
+
+export interface SuggestionContext {
+  /** position hubs the user has recently visited (recency boost) */
+  exploredHubs?: Set<string>
+  /** technique names the user has recently visited (recency boost) */
+  exploredNames?: Set<string>
+  /** technique names to exclude as candidates (e.g. already queued this session) */
+  exclude?: Set<string>
+}
+
+const GAP_FLOOR = 0.25 // a well-covered position still scores, just down-weighted
+const GAP_DECAY = 0.5 // covering a hub halves its remaining gap (greedy spread)
+const LEARN_GAIN = 1.0
+const LEARN_SCALE = 2.0
+const RECENCY_GAIN = 0.15
+const EFF_FLOOR = 0.1 // a 0%/missing-rate technique isn't fully excluded
+// In-SRS (0.5) and mastered (1.0) techniques aren't themselves suggested — they
+// live in the Due/Reviewing/Mastered decks. Unknown (0) and explored-only (0.2)
+// are eligible candidates.
+const CANDIDATE_CUTOFF = 0.5
+
+/** Build a graded mastery lookup from SRS + explored state. Memoized per call. */
+export function buildMasteryLookup(): MasteryLookup {
+  const mastered = new Set(getMasteredCards().map((c) => c.technique))
+  const inSrs = new Set(loadSRSCards().map((c) => c.technique))
+  const explored = new Set(
+    loadExplored()
+      .filter((e) => e.type === "transition" || e.type === "submission")
+      .map((e) => e.name),
+  )
+  const cache = new Map<string, number>()
+  return {
+    get(name: string): number {
+      const c = cache.get(name)
+      if (c !== undefined) return c
+      let v = 0
+      if (mastered.has(name)) v = 1
+      else if (inSrs.has(name)) v = 0.5
+      else if (explored.has(name)) v = 0.2
+      cache.set(name, v)
+      return v
+    },
+  }
+}
+
+/** Recency context: recently-visited technique names + position hubs. */
+export function buildSuggestionContext(): {
+  exploredHubs: Set<string>
+  exploredNames: Set<string>
+} {
+  const exploredHubs = new Set<string>()
+  const exploredNames = new Set<string>()
+  for (const e of loadExplored()) {
+    if (e.type === "transition" || e.type === "submission") exploredNames.add(e.name)
+    else if (e.type === "position") exploredHubs.add(e.name.toLowerCase().replace(/\s+/g, "-"))
+  }
+  return { exploredHubs, exploredNames }
+}
 
 export function getSuggestedTechniques(
   questionBank: QuestionBankEntry[],
-  existingNames: Set<string>,
+  mastery: MasteryLookup,
   adjacency: GraphAdjacency,
   count: number,
-): Array<{ entry: QuestionBankEntry; score: number; reason: string }> {
-  const coldStart = existingNames.size === 0
+  ctx: SuggestionContext = {},
+): SuggestedTechnique[] {
+  if (count <= 0) return []
+  // Guard against a stale/old-shape cached adjacency (e.g. a tab loaded before
+  // the v2 emit): degrade gracefully rather than throw.
+  if (!adjacency || !adjacency.posTechs || !adjacency.weights) return []
 
-  const knownIndices = new Set<number>()
-  questionBank.forEach((entry, idx) => {
-    if (existingNames.has(entry.name)) knownIndices.add(idx)
-  })
+  const { posTechs, weights, outcomes } = adjacency
+  const effectiveness = adjacency.effectiveness || []
+  const startHub = adjacency.startHub || []
+  const exploredHubs = ctx.exploredHubs ?? new Set<string>()
+  const exploredNames = ctx.exploredNames ?? new Set<string>()
+  const exclude = ctx.exclude ?? new Set<string>()
 
-  const idxToPositions: string[][] = []
-  for (let i = 0; i < questionBank.length; i++) idxToPositions.push([])
-  for (const [pos, indices] of Object.entries(adjacency.positions)) {
-    for (const idx of indices) {
-      if (idx < idxToPositions.length) idxToPositions[idx].push(pos)
+  // index → [{hub, ap}] (a technique may be attempted from several hubs).
+  // Aggregate per hub (sum ap across roles) so each (technique, hub) appears
+  // once — otherwise a technique listed by both roles of one hub would decay
+  // that hub's gap twice per pick and double-count its known-mass (CS-3).
+  const idxToPosMap: Array<Map<string, number>> = questionBank.map(() => new Map())
+  for (const [hub, techs] of Object.entries(posTechs)) {
+    for (const t of techs) {
+      if (t.i >= 0 && t.i < idxToPosMap.length) {
+        const m = idxToPosMap[t.i]
+        m.set(hub, (m.get(hub) || 0) + t.ap)
+      }
     }
   }
+  const idxToPos: Array<Array<{ hub: string; ap: number }>> = idxToPosMap.map((m) =>
+    Array.from(m, ([hub, ap]) => ({ hub, ap })),
+  )
 
-  const scored: Array<{ entry: QuestionBankEntry; score: number; reason: string }> = []
+  // Per-hub: base gap (1 − graded coverage ratio) and mastery-weighted known mass.
+  const gapBase: Record<string, number> = {}
+  const knownMass: Record<string, number> = {}
+  for (const [hub, techs] of Object.entries(posTechs)) {
+    let num = 0
+    let den = 0
+    let known = 0
+    for (const t of techs) {
+      const m = mastery.get(questionBank[t.i].name)
+      const w = t.ap / 100
+      den += w
+      num += w * m
+      known += m
+    }
+    gapBase[hub] = den > 0 ? 1 - num / den : 1
+    knownMass[hub] = known
+  }
 
+  // Fixed per-candidate factor values (newground depends on the decaying liveGap
+  // and is computed during selection).
+  type Cand = {
+    i: number
+    type: string
+    hubs: Array<{ hub: string; ap: number }>
+    vCommon: number
+    vEffective: number
+    effRaw: number
+    vFits: number
+    recency: number
+    startHub: string
+  }
+  const candidates: Cand[] = []
   for (let i = 0; i < questionBank.length; i++) {
     const entry = questionBank[i]
-    if (existingNames.has(entry.name)) continue
+    if (entry.type !== "transition" && entry.type !== "submission") continue
+    if (mastery.get(entry.name) >= CANDIDATE_CUTOFF) continue
+    if (exclude.has(entry.name)) continue
+    const hubs = idxToPos[i]
+    if (hubs.length === 0) continue
 
-    let siblingScore = 0
-    let chainScore = 0
+    let vCommon = 0
+    for (const { hub, ap } of hubs) vCommon += (weights[hub] || 0) * (ap / 100)
+    if (vCommon <= 0) continue
 
-    for (const pos of idxToPositions[i]) {
-      const siblings = adjacency.positions[pos] || []
-      for (const sibIdx of siblings) {
-        if (sibIdx !== i && (coldStart || knownIndices.has(sibIdx))) siblingScore++
+    const effRaw = effectiveness[i] ?? 0
+    const vEffective = EFF_FLOOR + (1 - EFF_FLOOR) * effRaw
+
+    const mSelf = mastery.get(entry.name)
+    let rawLearn = 0
+    for (const { hub } of hubs) {
+      rawLearn += (weights[hub] || 0) * Math.max(0, (knownMass[hub] || 0) - mSelf)
+    }
+    for (const outHub of outcomes[i] || []) {
+      rawLearn += (weights[outHub] || 0) * (knownMass[outHub] || 0)
+    }
+    const vFits = 1 + LEARN_GAIN * (1 - Math.exp(-rawLearn / LEARN_SCALE))
+
+    const recency =
+      exploredNames.has(entry.name) || hubs.some(({ hub }) => exploredHubs.has(hub))
+        ? 1 + RECENCY_GAIN
+        : 1
+
+    candidates.push({
+      i,
+      type: entry.type,
+      hubs,
+      vCommon,
+      vEffective,
+      effRaw,
+      vFits,
+      recency,
+      startHub: startHub[i] || (hubs[0] ? hubs[0].hub : ""),
+    })
+  }
+  if (candidates.length === 0) return []
+
+  const newground = (c: Cand, gap: Record<string, number>): number => {
+    let gapWeighted = 0
+    for (const { hub, ap } of c.hubs) {
+      gapWeighted += (weights[hub] || 0) * (ap / 100) * (gap[hub] ?? 1)
+    }
+    const gapMult = gapWeighted / Math.max(c.vCommon, 1e-9)
+    return GAP_FLOOR + (1 - GAP_FLOOR) * gapMult
+  }
+
+  // Multi-factor attribution. The score is multiplicative, so a factor's
+  // "share" is how far above the pool it sits — but factors have wildly
+  // different natural log-spreads (vCommon spans ~400×, vFits only [1,2]), so a
+  // raw above-mean-log share lets commonness dominate every card. We instead
+  // STANDARDIZE each factor's log by its own pool spread (z-score), making the
+  // factors comparable so the top ≤2 genuinely vary card to card (CS-1). This
+  // is display-only; selection below uses the raw multiplicative score.
+  const LN = (x: number) => Math.log(Math.max(x, 1e-9))
+  const lnCommon: number[] = []
+  const lnEff: number[] = []
+  const lnNew: number[] = []
+  const lnFits: number[] = []
+  for (const c of candidates) {
+    lnCommon.push(LN(c.vCommon))
+    lnEff.push(LN(c.vEffective))
+    lnNew.push(LN(newground(c, gapBase)))
+    lnFits.push(LN(c.vFits))
+  }
+  const stats = (arr: number[]): { mean: number; std: number } => {
+    const len = arr.length
+    const mean = arr.reduce((a, b) => a + b, 0) / len
+    const variance = arr.reduce((a, b) => a + (b - mean) * (b - mean), 0) / len
+    const std = Math.sqrt(variance)
+    return { mean, std: std > 1e-9 ? std : 1 }
+  }
+  const st = {
+    common: stats(lnCommon),
+    effective: stats(lnEff),
+    newground: stats(lnNew),
+    fitsyourgame: stats(lnFits),
+  }
+
+  const attribute = (c: Cand, vNew: number): SuggestionFactorContribution[] => {
+    const z = (v: number, s: { mean: number; std: number }) => Math.max(0, (LN(v) - s.mean) / s.std)
+    const contribs = {
+      common: z(c.vCommon, st.common),
+      effective: z(c.vEffective, st.effective),
+      newground: z(vNew, st.newground),
+      fitsyourgame: z(c.vFits, st.fitsyourgame),
+    }
+    const total = contribs.common + contribs.effective + contribs.newground + contribs.fitsyourgame
+    const raw: Record<SuggestionFactor, number> = {
+      common: c.vCommon,
+      effective: c.effRaw,
+      newground: vNew,
+      fitsyourgame: c.vFits,
+    }
+    return (["common", "effective", "newground", "fitsyourgame"] as SuggestionFactor[])
+      .map((f) => ({ factor: f, share: total > 0 ? contribs[f] / total : 0, raw: raw[f] }))
+      .sort((a, b) => b.share - a.share)
+  }
+
+  // Greedy submodular selection with a soft submission quota. Submissions have
+  // a ~3× lower commonness than transitions, so the multiplicative score starves
+  // them; a flat penalty can't close that gap. Instead, whenever submissions are
+  // under SUB_TARGET of the picks so far, restrict that pick to the best
+  // remaining submission — fills the quota with the strongest finishes while
+  // leaving the commonness-driven transition ranking intact (CS-2).
+  const SUB_TARGET = 0.3
+  const liveGap: Record<string, number> = { ...gapBase }
+  const remaining = candidates.slice()
+  const result: SuggestedTechnique[] = []
+  let nTrans = 0
+  let nSub = 0
+
+  while (result.length < count && remaining.length > 0) {
+    const total = result.length
+    const forceSub =
+      total > 0 && nSub / total < SUB_TARGET && remaining.some((c) => c.type === "submission")
+    let bestPos = -1
+    let bestScore = -Infinity
+    let bestVNew = 0
+    for (let p = 0; p < remaining.length; p++) {
+      const c = remaining[p]
+      if (forceSub && c.type !== "submission") continue
+      const vNew = newground(c, liveGap)
+      const score = c.vCommon * vNew * c.vEffective * c.vFits * c.recency
+      if (score > bestScore) {
+        bestScore = score
+        bestPos = p
+        bestVNew = vNew
       }
     }
-
-    const outPositions = adjacency.outcomes[i] || []
-    for (const pos of outPositions) {
-      const targets = adjacency.positions[pos] || []
-      for (const tIdx of targets) {
-        if (tIdx !== i && (coldStart || knownIndices.has(tIdx))) chainScore++
-      }
-    }
-
-    const score = siblingScore + chainScore
-    if (score === 0) continue
-
-    const reason = coldStart
-      ? `${score} connected techniques`
-      : siblingScore > 0 && chainScore > 0
-        ? `${siblingScore} from same position, ${chainScore} chained`
-        : siblingScore > 0
-          ? `${siblingScore} from same position`
-          : `${chainScore} chained techniques`
-
-    scored.push({ entry, score, reason })
+    if (bestPos < 0) break
+    const c = remaining[bestPos]
+    result.push({
+      entry: questionBank[c.i],
+      score: bestScore,
+      filledHub: c.startHub,
+      factors: attribute(c, bestVNew),
+    })
+    for (const { hub } of c.hubs) liveGap[hub] = (liveGap[hub] ?? 1) * GAP_DECAY
+    if (c.type === "submission") nSub++
+    else nTrans++
+    remaining.splice(bestPos, 1)
   }
 
-  // Cold-start: boost half-guard-adjacent techniques so new users start there
-  if (coldStart) {
-    for (const s of scored) {
-      const idx = questionBank.indexOf(s.entry)
-      const positions = idxToPositions[idx] || []
-      if (positions.some((p) => p.includes("half-guard"))) s.score += 1000
-    }
-  }
-
-  scored.sort((a, b) => b.score - a.score)
-
-  // Type-balanced selection: interleave transitions and submissions
-  const transitions = scored.filter((s) => s.entry.type === "transition")
-  const submissions = scored.filter((s) => s.entry.type === "submission")
-  const result: typeof scored = []
-  let ti = 0
-  let si = 0
-  while (result.length < count) {
-    const t = transitions[ti]
-    const s = submissions[si]
-    if (!t && !s) break
-    if (!s || (t && t.score >= s.score * 0.5)) {
-      result.push(t!)
-      ti++
-    } else {
-      result.push(s!)
-      si++
-    }
-  }
   return result
 }
 
@@ -249,7 +485,6 @@ export async function buildSessionQueue(
 ): Promise<SessionQueue> {
   const settings = loadSettings()
   const pages: SessionPage[] = []
-  const existingNames = new Set(loadSRSCards().map((c) => c.technique))
 
   const addCard = (card: SRSCard) => {
     pages.push({ slug: toRoleSlug(card.slug, card.type), name: card.technique, type: card.type })
@@ -271,8 +506,7 @@ export async function buildSessionQueue(
 
   if (source === "explored") {
     // Ad-hoc session over recently visited pages — does NOT auto-add to SRS.
-    // The per-card Flashcard component still surfaces its "+ Add to Training"
-    // button so the user can opt in.
+    // Rating a card Hard/Easy during the session is what enrolls it.
     const trainableTypes = new Set(["transition", "submission"])
     const explored = loadExplored().filter((e) => trainableTypes.has(e.type))
     for (const e of explored.slice(0, settings.dailyGoal)) {
@@ -294,11 +528,19 @@ export async function buildSessionQueue(
         loadGraphAdjacency(),
       ])
       if (questionBank.length > 0 && adjacency) {
+        const mastery = buildMasteryLookup()
+        const explored = buildSuggestionContext()
         const suggestions = getSuggestedTechniques(
           questionBank,
-          existingNames,
+          mastery,
           adjacency,
           remainingSlots,
+          {
+            exploredHubs: explored.exploredHubs,
+            exploredNames: explored.exploredNames,
+            // Don't re-suggest cards already queued this session (due cards in mixed).
+            exclude: new Set(pages.map((p) => p.name)),
+          },
         )
         for (const { entry } of suggestions) {
           pages.push({

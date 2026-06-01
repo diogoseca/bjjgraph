@@ -3629,6 +3629,116 @@ body[data-mode="graph"] #sidebar-overlay > .sidebar.left {
   color: var(--gray);
   font-size: 1.1rem;
   line-height: 1;
+  transition: transform 0.15s;
+}
+
+.decks-modal-row--expanded .decks-modal-row-chev {
+  transform: rotate(180deg);
+}
+
+// ── Suggested-for-you inline preview (factor chips) ─────────────────────────
+.decks-suggested-preview {
+  margin: 0 0.25rem 0.5rem 1rem;
+  padding: 0.25rem 0 0.5rem;
+  border-left: 2px solid color-mix(in srgb, var(--secondary) 30%, transparent);
+  padding-left: 0.85rem;
+}
+
+.decks-suggested-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.suggestion-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--lightgray) 35%, transparent);
+}
+
+.suggestion-card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.suggestion-card-title {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--dark);
+}
+
+.suggestion-card-type {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--gray);
+  white-space: nowrap;
+}
+
+.suggestion-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.suggestion-chip {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.12em 0.55em;
+  border-radius: 999px;
+  white-space: nowrap;
+  cursor: help;
+  background: color-mix(in srgb, var(--secondary) 14%, transparent);
+  color: var(--secondary);
+
+  &--effective {
+    background: color-mix(in srgb, #16a34a 14%, transparent);
+    color: #16a34a;
+  }
+
+  &--newground {
+    background: color-mix(in srgb, #d97706 16%, transparent);
+    color: #d97706;
+  }
+
+  &--fitsyourgame {
+    background: color-mix(in srgb, #6366f1 14%, transparent);
+    color: #6366f1;
+  }
+}
+
+.suggestion-more {
+  margin: 0.5rem 0 0;
+  font-size: 0.78rem;
+  color: var(--gray);
+}
+
+.decks-suggested-drill {
+  margin-top: 0.6rem;
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--secondary);
+  border-radius: 8px;
+  background: var(--secondary);
+  color: var(--light);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    opacity 0.15s,
+    filter 0.15s;
+
+  &:hover,
+  &:focus-visible {
+    filter: brightness(1.08);
+    outline: none;
+  }
 }
 
 .decks-modal-footer {
