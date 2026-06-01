@@ -57,7 +57,7 @@ Strategically, the straight ankle lock from established control serves dual purp
 **Type**: Ankle Lock
 **Target Area**: Ankle joint, Achilles tendon, and foot ligaments
 **Starting Position**: [[Positions/Straight Ankle Lock Control]]
-**From Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 **Success Rate**: 58%
 
 </section>

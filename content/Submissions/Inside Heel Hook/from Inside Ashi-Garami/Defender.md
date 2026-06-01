@@ -156,7 +156,7 @@ description: "Defend the Inside Heel Hook from Inside Ashi-Garami in BJJ. Recogn
 
 Defending the Inside Heel Hook from Inside Ashi-Garami is one of the most critical survival skills in modern no-gi Brazilian Jiu-Jitsu. The defender faces significant mechanical disadvantage with their leg trapped between the opponent's legs—inside leg across the hip and outside leg hooked behind the knee—while the heel is exposed to rotational attack targeting the knee's ligamentous structures. The defensive hierarchy is absolute: protect the heel first by hiding it against your own hip, fight grips to prevent the finishing configuration, create hip mobility through framing and pushing, and extract the leg only when space permits. Compared to defending from Honey Hole, the defender has slightly more mobility because there is no full triangle locking the leg, but the attack can come faster from this less-controlled position. Most critically, the defender must recognize when the submission is locked and tap immediately—the inside heel hook attacks structures with virtually no proprioceptive warning, meaning ligament damage occurs before pain is perceived. Survival and intelligent defense always take priority over ego.
 
-**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 
 </section>

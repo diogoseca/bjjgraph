@@ -10,7 +10,7 @@
     "body-compression",
     "squeeze"
   ],
-  "from_position": "Body Triangle/Bottom",
+  "from_position": "Body Triangle/Top",
   "outcomes": [
     {
       "to": "game-over",

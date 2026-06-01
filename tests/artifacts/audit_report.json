@@ -3,18 +3,18 @@
     "transition_files": 1034,
     "submission_files": 371,
     "position_files": 136,
-    "total_issues": 650,
-    "errors": 76,
+    "total_issues": 546,
+    "errors": 0,
     "warnings": 9,
-    "info": 565,
+    "info": 537,
     "orphaned_transitions": 0,
-    "orphaned_submissions": 126,
+    "orphaned_submissions": 98,
     "missing_transitions": 0,
     "naming_matches": 0,
     "probability_errors": 0,
     "orphaned_positions": 0,
     "invalid_from_positions": 0,
-    "outcome_errors": 70,
+    "outcome_errors": 0,
     "outcome_warnings": 2,
     "attempt_outliers": 439
   },
@@ -26,14 +26,6 @@
       "file": "content/Submissions/Achilles Lock/from Inside Ashi-Garami.json",
       "from_position": "Inside Ashi-Garami/Bottom",
       "message": "Orphaned submission: 'Achilles Lock from Inside Ashi-Garami' (from: Inside Ashi-Garami/Bottom)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Americana",
-      "file": "content/Submissions/Americana.json",
-      "from_position": "Mount/Top",
-      "message": "Orphaned submission: 'Americana' (from: Mount/Top)"
     },
     {
       "type": "orphaned_submission",
@@ -78,26 +70,10 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "Arm in Guillotine",
-      "file": "content/Submissions/Arm in Guillotine.json",
-      "from_position": "Front Headlock/Top",
-      "message": "Orphaned submission: 'Arm in Guillotine' (from: Front Headlock/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
       "name": "Arm in Guillotine from Guillotine Control",
       "file": "content/Submissions/Arm in Guillotine/from Guillotine Control.json",
       "from_position": "Guillotine Control/Top",
       "message": "Orphaned submission: 'Arm in Guillotine from Guillotine Control' (from: Guillotine Control/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Armbar",
-      "file": "content/Submissions/Armbar.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Armbar' (from: NONE)"
     },
     {
       "type": "orphaned_submission",
@@ -178,30 +154,6 @@
       "file": "content/Submissions/Banana Split/from Truck.json",
       "from_position": "Truck/Top",
       "message": "Orphaned submission: 'Banana Split from Truck' (from: Truck/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Baratoplata",
-      "file": "content/Submissions/Baratoplata.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Baratoplata' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Baseball Bat Choke",
-      "file": "content/Submissions/Baseball Bat Choke.json",
-      "from_position": "Side Control/Top",
-      "message": "Orphaned submission: 'Baseball Bat Choke' (from: Side Control/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Belly Down Armbar",
-      "file": "content/Submissions/Belly Down Armbar.json",
-      "from_position": "Turtle/Top",
-      "message": "Orphaned submission: 'Belly Down Armbar' (from: Turtle/Top)"
     },
     {
       "type": "orphaned_submission",
@@ -334,14 +286,6 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "Bow and Arrow Choke",
-      "file": "content/Submissions/Bow and Arrow Choke.json",
-      "from_position": "Back Control/Top",
-      "message": "Orphaned submission: 'Bow and Arrow Choke' (from: Back Control/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
       "name": "Brabo Choke from Front Headlock",
       "file": "content/Submissions/Brabo Choke/from Front Headlock.json",
       "from_position": "Front Headlock/Top",
@@ -350,26 +294,10 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "Breadcutter Choke",
-      "file": "content/Submissions/Breadcutter Choke.json",
-      "from_position": "Turtle/Top",
-      "message": "Orphaned submission: 'Breadcutter Choke' (from: Turtle/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
       "name": "Buggy Choke from Half Guard",
       "file": "content/Submissions/Buggy Choke/from Half Guard.json",
       "from_position": "Half Guard/Bottom",
       "message": "Orphaned submission: 'Buggy Choke from Half Guard' (from: Half Guard/Bottom)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Calf Slicer",
-      "file": "content/Submissions/Calf Slicer.json",
-      "from_position": "50-50 Guard/Top",
-      "message": "Orphaned submission: 'Calf Slicer' (from: 50-50 Guard/Top)"
     },
     {
       "type": "orphaned_submission",
@@ -398,14 +326,6 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "Cross Collar Choke",
-      "file": "content/Submissions/Cross Collar Choke.json",
-      "from_position": "Closed Guard/Bottom",
-      "message": "Orphaned submission: 'Cross Collar Choke' (from: Closed Guard/Bottom)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
       "name": "Crotch Ripper from Lockdown",
       "file": "content/Submissions/Crotch Ripper/from Lockdown.json",
       "from_position": "Lockdown/Bottom",
@@ -426,14 +346,6 @@
       "file": "content/Submissions/Electric Chair/from Deep Half Guard.json",
       "from_position": "Deep Half Guard/Bottom",
       "message": "Orphaned submission: 'Electric Chair from Deep Half Guard' (from: Deep Half Guard/Bottom)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Ezekiel Choke",
-      "file": "content/Submissions/Ezekiel Choke.json",
-      "from_position": "Mount/Top",
-      "message": "Orphaned submission: 'Ezekiel Choke' (from: Mount/Top)"
     },
     {
       "type": "orphaned_submission",
@@ -494,14 +406,6 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "High Elbow Guillotine",
-      "file": "content/Submissions/High Elbow Guillotine.json",
-      "from_position": "Front Headlock/Top",
-      "message": "Orphaned submission: 'High Elbow Guillotine' (from: Front Headlock/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
       "name": "High Elbow Guillotine from Guillotine Control",
       "file": "content/Submissions/High Elbow Guillotine/from Guillotine Control.json",
       "from_position": "Guillotine Control/Top",
@@ -514,22 +418,6 @@
       "file": "content/Submissions/High Elbow Guillotine/from Hindulotine.json",
       "from_position": "Hindulotine/Bottom",
       "message": "Orphaned submission: 'High Elbow Guillotine from Hindulotine' (from: Hindulotine/Bottom)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Hindulotine",
-      "file": "content/Submissions/Hindulotine.json",
-      "from_position": "Hindulotine/Top",
-      "message": "Orphaned submission: 'Hindulotine' (from: Hindulotine/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Inside Heel Hook",
-      "file": "content/Submissions/Inside Heel Hook.json",
-      "from_position": "Inside Ashi-Garami/Bottom",
-      "message": "Orphaned submission: 'Inside Heel Hook' (from: Inside Ashi-Garami/Bottom)"
     },
     {
       "type": "orphaned_submission",
@@ -554,14 +442,6 @@
       "file": "content/Submissions/Kesa Gatame Arm Crush/from Kesa Gatame.json",
       "from_position": "Kesa Gatame/Top",
       "message": "Orphaned submission: 'Kesa Gatame Arm Crush from Kesa Gatame' (from: Kesa Gatame/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Kimura",
-      "file": "content/Submissions/Kimura.json",
-      "from_position": "Side Control/Top",
-      "message": "Orphaned submission: 'Kimura' (from: Side Control/Top)"
     },
     {
       "type": "orphaned_submission",
@@ -686,14 +566,6 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "Loop Choke",
-      "file": "content/Submissions/Loop Choke.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Loop Choke' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
       "name": "Loop Choke from Closed Guard",
       "file": "content/Submissions/Loop Choke/from Closed Guard.json",
       "from_position": "Closed Guard/Bottom",
@@ -742,34 +614,10 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "Monoplata",
-      "file": "content/Submissions/Monoplata.json",
-      "from_position": "Closed Guard/Bottom",
-      "message": "Orphaned submission: 'Monoplata' (from: Closed Guard/Bottom)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
       "name": "Mounted Crucifix Armbar from Mounted Crucifix",
       "file": "content/Submissions/Mounted Crucifix Armbar/from Mounted Crucifix.json",
       "from_position": "Mounted Crucifix/Top",
       "message": "Orphaned submission: 'Mounted Crucifix Armbar from Mounted Crucifix' (from: Mounted Crucifix/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Neck Crank",
-      "file": "content/Submissions/Neck Crank.json",
-      "from_position": "Twister Control/Top",
-      "message": "Orphaned submission: 'Neck Crank' (from: Twister Control/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Omoplata",
-      "file": "content/Submissions/Omoplata.json",
-      "from_position": "Omoplata Control/Top",
-      "message": "Orphaned submission: 'Omoplata' (from: Omoplata Control/Top)"
     },
     {
       "type": "orphaned_submission",
@@ -798,30 +646,6 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "Paper Cutter Choke",
-      "file": "content/Submissions/Paper Cutter Choke.json",
-      "from_position": "Side Control/Top",
-      "message": "Orphaned submission: 'Paper Cutter Choke' (from: Side Control/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Peruvian Necktie",
-      "file": "content/Submissions/Peruvian Necktie.json",
-      "from_position": "NONE",
-      "message": "Orphaned submission: 'Peruvian Necktie' (from: NONE)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Rear Naked Choke",
-      "file": "content/Submissions/Rear Naked Choke.json",
-      "from_position": "Back Control/Top",
-      "message": "Orphaned submission: 'Rear Naked Choke' (from: Back Control/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
       "name": "Rear Naked Choke from Rodeo",
       "file": "content/Submissions/Rear Naked Choke/from Rodeo.json",
       "from_position": "Rodeo Ride/Top",
@@ -842,14 +666,6 @@
       "file": "content/Submissions/Reverse Kimura/from Standing Position.json",
       "from_position": "Standing Position/Top",
       "message": "Orphaned submission: 'Reverse Kimura from Standing Position' (from: Standing Position/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Short Choke",
-      "file": "content/Submissions/Short Choke.json",
-      "from_position": "Side Control/Top",
-      "message": "Orphaned submission: 'Short Choke' (from: Side Control/Top)"
     },
     {
       "type": "orphaned_submission",
@@ -894,14 +710,6 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "Straight Ankle Lock",
-      "file": "content/Submissions/Straight Ankle Lock.json",
-      "from_position": "Straight Ankle Lock Control/Top",
-      "message": "Orphaned submission: 'Straight Ankle Lock' (from: Straight Ankle Lock Control/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
       "name": "Suloev Stretch from Half Guard",
       "file": "content/Submissions/Suloev Stretch/from Half Guard.json",
       "from_position": "Half Guard/Top",
@@ -918,26 +726,10 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "Ten Finger Guillotine",
-      "file": "content/Submissions/Ten Finger Guillotine.json",
-      "from_position": "Front Headlock/Top",
-      "message": "Orphaned submission: 'Ten Finger Guillotine' (from: Front Headlock/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
       "name": "Ten Finger Guillotine from Guillotine Control",
       "file": "content/Submissions/Ten Finger Guillotine/from Guillotine Control.json",
       "from_position": "Guillotine Control/Top",
       "message": "Orphaned submission: 'Ten Finger Guillotine from Guillotine Control' (from: Guillotine Control/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Toe Hold",
-      "file": "content/Submissions/Toe Hold.json",
-      "from_position": "Toe Hold Control/Top",
-      "message": "Orphaned submission: 'Toe Hold' (from: Toe Hold Control/Top)"
     },
     {
       "type": "orphaned_submission",
@@ -998,14 +790,6 @@
     {
       "type": "orphaned_submission",
       "severity": "info",
-      "name": "Twister",
-      "file": "content/Submissions/Twister.json",
-      "from_position": "Twister Control/Top",
-      "message": "Orphaned submission: 'Twister' (from: Twister Control/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
       "name": "Twister from Twister Side Control",
       "file": "content/Submissions/Twister/from Twister Side Control.json",
       "from_position": "Twister Side Control/Top",
@@ -1018,14 +802,6 @@
       "file": "content/Submissions/Von Flue Choke/from Side Control.json",
       "from_position": "Side Control/Top",
       "message": "Orphaned submission: 'Von Flue Choke from Side Control' (from: Side Control/Top)"
-    },
-    {
-      "type": "orphaned_submission",
-      "severity": "info",
-      "name": "Williams Shoulder Lock",
-      "file": "content/Submissions/Williams Shoulder Lock.json",
-      "from_position": "Williams Guard/Bottom",
-      "message": "Orphaned submission: 'Williams Shoulder Lock' (from: Williams Guard/Bottom)"
     },
     {
       "type": "from_position_mismatch",
@@ -1046,36 +822,6 @@
       "actual_from": "Aoki Lock Control/Top",
       "referencing_position": "content/Positions/Ashi Garami.json",
       "message": "Use specific variant: 'Ashi Garami/bottom' references 'Aoki Lock' but 'Aoki Lock from Ashi Garami' exists"
-    },
-    {
-      "type": "from_position_mismatch",
-      "severity": "error",
-      "name": "Inside Heel Hook from Inside Ashi-Garami",
-      "file": "content/Submissions/Inside Heel Hook/from Inside Ashi-Garami.json",
-      "expected_from": "Inside Ashi-Garami/Bottom",
-      "actual_from": "Inside Ashi-Garami/Top",
-      "referencing_position": "content/Positions/Ashi Garami/Inside Ashi-Garami.json",
-      "message": "Single-ref mismatch: 'Inside Heel Hook from Inside Ashi-Garami' referenced by Inside Ashi-Garami/bottom but from_position is 'Inside Ashi-Garami/Top'"
-    },
-    {
-      "type": "from_position_mismatch",
-      "severity": "error",
-      "name": "Body Triangle Squeeze",
-      "file": "content/Transitions/Body Triangle Squeeze.json",
-      "expected_from": "Body Triangle/Top",
-      "actual_from": "Body Triangle/Bottom",
-      "referencing_position": "content/Positions/Back Control/Body Triangle.json",
-      "message": "Single-ref mismatch: 'Body Triangle Squeeze' referenced by Body Triangle/top but from_position is 'Body Triangle/Bottom'"
-    },
-    {
-      "type": "from_position_mismatch",
-      "severity": "error",
-      "name": "Gogoplata to Armbar",
-      "file": "content/Transitions/Gogoplata to Armbar.json",
-      "expected_from": "Gogoplata Control/Top",
-      "actual_from": "Gogoplata Control/Bottom",
-      "referencing_position": "content/Positions/Gogoplata Control.json",
-      "message": "Single-ref mismatch: 'Gogoplata to Armbar' referenced by Gogoplata Control/top but from_position is 'Gogoplata Control/Bottom'"
     },
     {
       "type": "from_position_mismatch",
@@ -1128,36 +874,6 @@
       "message": "Use specific variant: 'Triangle Control/bottom' references 'Triangle Choke' but 'Triangle Choke from Triangle Control' exists"
     },
     {
-      "type": "from_position_mismatch",
-      "severity": "error",
-      "name": "Straight Ankle Lock from Straight Ankle Lock Control",
-      "file": "content/Submissions/Straight Ankle Lock/from Straight Ankle Lock Control.json",
-      "expected_from": "Straight Ankle Lock Control/Top",
-      "actual_from": "Straight Ankle Lock Control/Bottom",
-      "referencing_position": "content/Positions/Straight Ankle Lock Control.json",
-      "message": "Single-ref mismatch: 'Straight Ankle Lock from Straight Ankle Lock Control' referenced by Straight Ankle Lock Control/top but from_position is 'Straight Ankle Lock Control/Bottom'"
-    },
-    {
-      "type": "from_position_mismatch",
-      "severity": "error",
-      "name": "Triangle Choke from Triangle Control",
-      "file": "content/Submissions/Triangle Choke/from Triangle Control.json",
-      "expected_from": "Triangle Control/Top",
-      "actual_from": "Triangle Control/Bottom",
-      "referencing_position": "content/Positions/Triangle Control.json",
-      "message": "Single-ref mismatch: 'Triangle Choke from Triangle Control' referenced by Triangle Control/top but from_position is 'Triangle Control/Bottom'"
-    },
-    {
-      "type": "from_position_mismatch",
-      "severity": "error",
-      "name": "Triangle from Guard",
-      "file": "content/Transitions/Triangle from Guard.json",
-      "expected_from": "Worm Guard/Bottom",
-      "actual_from": "Mission Control/Bottom",
-      "referencing_position": "content/Positions/Worm Guard.json",
-      "message": "Single-ref mismatch: 'Triangle from Guard' referenced by Worm Guard/bottom but from_position is 'Mission Control/Bottom'"
-    },
-    {
       "file": "content/Transitions/Lapel Sweep to Back.json",
       "name": "Lapel Sweep to Back",
       "type": "technique_range_low",
@@ -1172,496 +888,6 @@
       "message": "Success 20% below expected min 25% for takedown",
       "severity": "warning",
       "current": 20
-    },
-    {
-      "file": "content/Submissions/Achilles Lock.json",
-      "name": "Achilles Lock",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Americana.json",
-      "name": "Americana",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Anaconda Choke.json",
-      "name": "Anaconda Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Aoki Lock.json",
-      "name": "Aoki Lock",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Arm Crush.json",
-      "name": "Arm Crush",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Arm Triangle.json",
-      "name": "Arm Triangle",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Arm in Guillotine.json",
-      "name": "Arm in Guillotine",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Armbar.json",
-      "name": "Armbar",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Banana Split.json",
-      "name": "Banana Split",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Baratoplata.json",
-      "name": "Baratoplata",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Baseball Bat Choke.json",
-      "name": "Baseball Bat Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Belly Down Armbar.json",
-      "name": "Belly Down Armbar",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Bicep Slicer.json",
-      "name": "Bicep Slicer",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Boston Crab.json",
-      "name": "Boston Crab",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Bow and Arrow Choke.json",
-      "name": "Bow and Arrow Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Brabo Choke.json",
-      "name": "Brabo Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Breadcutter Choke.json",
-      "name": "Breadcutter Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Buggy Choke.json",
-      "name": "Buggy Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Calf Slicer.json",
-      "name": "Calf Slicer",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Can Opener.json",
-      "name": "Can Opener",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Chin Strap Guillotine.json",
-      "name": "Chin Strap Guillotine",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Clock Choke.json",
-      "name": "Clock Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Cross Collar Choke.json",
-      "name": "Cross Collar Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Crotch Ripper.json",
-      "name": "Crotch Ripper",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Darce Choke.json",
-      "name": "Darce Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Electric Chair.json",
-      "name": "Electric Chair",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Estima Lock.json",
-      "name": "Estima Lock",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Ezekiel Choke.json",
-      "name": "Ezekiel Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Far Side Armbar.json",
-      "name": "Far Side Armbar",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Flying Armbar.json",
-      "name": "Flying Armbar",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Flying Kneebar.json",
-      "name": "Flying Kneebar",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Gift Wrap Armbar.json",
-      "name": "Gift Wrap Armbar",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Gogoplata.json",
-      "name": "Gogoplata",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Guillotine Choke.json",
-      "name": "Guillotine Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Heel Hook.json",
-      "name": "Heel Hook",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/High Elbow Guillotine.json",
-      "name": "High Elbow Guillotine",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Hindulotine.json",
-      "name": "Hindulotine",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Inside Heel Hook.json",
-      "name": "Inside Heel Hook",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Inverted Triangle.json",
-      "name": "Inverted Triangle",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Japanese Necktie.json",
-      "name": "Japanese Necktie",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Kesa Gatame Arm Crush.json",
-      "name": "Kesa Gatame Arm Crush",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Kimura.json",
-      "name": "Kimura",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Kneebar.json",
-      "name": "Kneebar",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Loop Choke.json",
-      "name": "Loop Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Marce Choke.json",
-      "name": "Marce Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Mir Lock.json",
-      "name": "Mir Lock",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Monoplata.json",
-      "name": "Monoplata",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Mounted Crucifix Armbar.json",
-      "name": "Mounted Crucifix Armbar",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Neck Crank.json",
-      "name": "Neck Crank",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/North-South Choke.json",
-      "name": "North-South Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Omoplata.json",
-      "name": "Omoplata",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Outside Heel Hook.json",
-      "name": "Outside Heel Hook",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Paper Cutter Choke.json",
-      "name": "Paper Cutter Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Peruvian Necktie.json",
-      "name": "Peruvian Necktie",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Rear Naked Choke.json",
-      "name": "Rear Naked Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Rear Triangle Choke.json",
-      "name": "Rear Triangle Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Reverse Kimura.json",
-      "name": "Reverse Kimura",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Short Choke.json",
-      "name": "Short Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Spine Lock.json",
-      "name": "Spine Lock",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Spinning Armbar.json",
-      "name": "Spinning Armbar",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Straight Ankle Lock.json",
-      "name": "Straight Ankle Lock",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Suloev Stretch.json",
-      "name": "Suloev Stretch",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Tarikoplata.json",
-      "name": "Tarikoplata",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Ten Finger Guillotine.json",
-      "name": "Ten Finger Guillotine",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Toe Hold.json",
-      "name": "Toe Hold",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Triangle Choke Side.json",
-      "name": "Triangle Choke Side",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Triangle Choke.json",
-      "name": "Triangle Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Twister.json",
-      "name": "Twister",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Von Flue Choke.json",
-      "name": "Von Flue Choke",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
-    },
-    {
-      "file": "content/Submissions/Williams Shoulder Lock.json",
-      "name": "Williams Shoulder Lock",
-      "type": "missing_outcomes",
-      "message": "Submission has no outcomes array",
-      "severity": "error"
     },
     {
       "file": "content/Positions/Anaconda Control.json",

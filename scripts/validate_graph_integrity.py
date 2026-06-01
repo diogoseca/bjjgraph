@@ -219,6 +219,26 @@ def build_reachable_positions(position_names):
     return reachable
 
 
+def build_outcome_targets():
+    """Collect every `to` target across all transition + submission outcomes.
+
+    Used to detect submissions reachable via Position -> Transition -> Submission
+    (a transition's outcome lands on the submission), not only those listed
+    directly in a position's transitions[]. Returns a set of target names.
+    """
+    targets = set()
+    for cat_path in [TRANSITIONS_PATH, SUBMISSIONS_PATH]:
+        for path in sorted(cat_path.rglob("*.json")):
+            data = load_json(path)
+            if not data:
+                continue
+            for outcome in data.get("outcomes", []):
+                to = outcome.get("to", "")
+                if to:
+                    targets.add(to)
+    return targets
+
+
 def find_naming_inconsistencies(orphaned_names, missing_names, max_distance=3):
     """Find near-matches between orphaned transition names and missing references."""
     matches = []
@@ -245,6 +265,13 @@ def check_outcome_probabilities():
                 continue
 
             name = data.get("name", path.stem)
+
+            # Family hubs are aggregator pages, not graph nodes — their variants
+            # carry the outcomes (TEMPLATE-FAMILY.json has no `outcomes` field).
+            # Skip them so they aren't false-flagged as "missing outcomes".
+            if data.get("is_family"):
+                continue
+
             outcomes = data.get("outcomes", [])
 
             # Missing outcomes array
@@ -688,6 +715,31 @@ def write_files_to_create_csv(all_issues):
     return csv_path
 
 
+def write_orphaned_submissions_csv(all_issues):
+    """Write the genuinely-stranded submission variants (hubs already excluded) to
+    a triage CSV. Each row suggests the host position/role parsed from from_position
+    so the connection work (add to that position's transitions[]) is actionable.
+    """
+    import csv
+    orphans = [i for i in all_issues if i["type"] == "orphaned_submission"]
+    csv_path = Path("tests/artifacts/orphaned_submissions.csv")
+    csv_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["name", "from_position", "suggested_host_position", "suggested_role", "file"])
+        for item in sorted(orphans, key=lambda i: i.get("name", "")):
+            from_pos = item.get("from_position", "") or ""
+            host, role = (from_pos.split("/", 1) + [""])[:2] if "/" in from_pos else (from_pos, "")
+            writer.writerow([
+                item.get("name", ""),
+                from_pos,
+                host,
+                role,
+                item.get("file", ""),
+            ])
+    return csv_path, len(orphans)
+
+
 def write_suggested_new_files_csv(all_issues):
     """Append audit findings to suggested_new_files.csv (shared with proofreader).
 
@@ -748,6 +800,8 @@ def main():
                         help=f"Save JSON report to file (default: {REPORT_PATH})")
     parser.add_argument("--errors-only", "-e", action="store_true",
                         help="Only report error-severity issues (suppress warnings/info)")
+    parser.add_argument("--verbose", "-v", action="store_true",
+                        help="List every attempt-probability outlier (otherwise only the count is shown)")
     args = parser.parse_args()
 
     total_steps = 13
@@ -768,10 +822,13 @@ def main():
 
     # Step 2b: Build submission file index
     submission_index = {}
+    family_hub_names = set()
     for path in sorted(SUBMISSIONS_PATH.rglob("*.json")):
         data = load_json(path)
         if data and data.get("name"):
             submission_index[data["name"]] = str(path)
+            if data.get("is_family"):
+                family_hub_names.add(data["name"])
     submission_file_names = set(submission_index.keys())
 
     # Step 3: Compute orphaned and missing transitions
@@ -783,9 +840,15 @@ def main():
     print(f"  Orphaned transitions (file exists, not referenced): {len(orphaned)}")
     print(f"  Missing transitions (referenced, no file): {len(missing)}")
 
-    # Step 4: Compute orphaned submissions
+    # Step 4: Compute orphaned submissions.
+    # A submission counts as "referenced" (reachable) if it is either listed
+    # directly in a position's transitions[] (all_refs) OR is the `to` target of
+    # some transition/submission outcome (Position -> Transition -> Submission).
+    # Family hubs are aggregator pages reached via their variants / category page,
+    # not graph nodes, so they are exempt rather than reported as orphans.
     print(f"[4/{total_steps}] Computing orphaned submissions...")
-    orphaned_submissions = submission_file_names - all_refs
+    outcome_targets = build_outcome_targets()
+    orphaned_submissions = submission_file_names - all_refs - family_hub_names - outcome_targets
     print(f"  Orphaned submissions (file exists, not referenced): {len(orphaned_submissions)}")
 
     # Step 5: Fuzzy matching
@@ -1015,10 +1078,17 @@ def main():
             print(f"  ... and {len(outcome_warns) - 20} more")
 
         print(f"\n--- ATTEMPT PROBABILITY OUTLIERS ({len(attempt_outliers)}) ---")
-        for o in attempt_outliers[:20]:
-            print(f"  {o['message']}")
-        if len(attempt_outliers) > 20:
-            print(f"  ... and {len(attempt_outliers) - 20} more")
+        if args.verbose:
+            for o in attempt_outliers[:20]:
+                print(f"  {o['message']}")
+            if len(attempt_outliers) > 20:
+                print(f"  ... and {len(attempt_outliers) - 20} more")
+        else:
+            negligible = sum(1 for o in attempt_outliers if o["type"] == "attempt_negligible")
+            dominant = sum(1 for o in attempt_outliers if o["type"] == "attempt_dominant")
+            print(f"  {negligible} negligible (<{THRESHOLDS['attempt_too_low']}%), {dominant} dominant "
+                  f"(>{THRESHOLDS['attempt_too_high']}%) — expected for long transition lists that sum to 100%.")
+            print("  (info-level; pass --verbose to list each one)")
 
     # Summary
     error_count = len(by_severity["error"])
@@ -1076,6 +1146,10 @@ def main():
     # Write CSV of files to create
     csv_path = write_files_to_create_csv(all_issues)
     print(f"CSV of missing files saved to: {csv_path}")
+
+    # Write triage CSV of genuinely-stranded submission variants (hubs excluded)
+    orphan_csv_path, orphan_csv_count = write_orphaned_submissions_csv(all_issues)
+    print(f"Stranded submissions triage saved to: {orphan_csv_path} ({orphan_csv_count} entries)")
 
     # Append to shared suggested_new_files.csv
     result = write_suggested_new_files_csv(all_issues)

@@ -126,7 +126,7 @@ Attacker/Defender content (execution steps, counters, defensive options) is **ge
 ### Submission Differences
 
 Submissions use the same attacker/defender pattern with additions:
-- `outcomes[]` is **required** (all submissions must have probabilistic outcomes)
+- `outcomes[]` is **required on executable submission variants** (the graph nodes — e.g. `Armbar from Mount`), which must have probabilistic outcomes. **Family hubs** (`is_family: true`, e.g. `Armbar`) are aggregator pages, **not** graph nodes, and have **no** `outcomes` — their variants carry them. `validate_graph_integrity.py` therefore exempts `is_family` files from the outcomes check.
 - `safety_considerations` stays at **hub level** (shared between roles)
 - Defender has `escape_paths[]` (submission-specific escape routes)
 

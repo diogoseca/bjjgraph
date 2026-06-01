@@ -164,7 +164,7 @@ As the defender trapped in a body triangle, recognizing when your opponent trans
 
 Unlike defending a choke where the threat is binary, defending the squeeze requires managing progressive discomfort while executing systematic escape sequences. The squeeze degrades your cardiovascular capacity with every second under compression, creating urgency to escape before your defensive ability is eroded below the threshold needed for technical escape execution. Understanding the mechanics of how the triangle generates pressure allows you to find structural weaknesses in the lock and work toward breaking the figure-four configuration while protecting against the combined choke-squeeze threat.
 
-**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 

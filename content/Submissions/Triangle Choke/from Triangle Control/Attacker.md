@@ -182,7 +182,7 @@ description: "Complete guide to finishing the triangle choke from triangle contr
 
 Finishing the triangle choke from triangle control requires mastering three simultaneous mechanical actions: angle optimization to maximize carotid compression, sustained hip elevation to create a downward pressure vector, and constant head control to prevent posture recovery. The position begins with the triangle already locked, so the technical challenge shifts from establishing the lock to optimizing the finishing geometry. The attacker must read the opponent's defensive reactions in real time—each escape attempt opens a different transition opportunity, making the triangle finish the hub of a complete submission chain. Success depends on patience and progressive tightening rather than explosive force, using the mechanical advantage of the legs against the neck to create an inescapable compression.
 
-**From Position**: [[Positions/Triangle Control]] (Bottom)
+**From Position**: [[Positions/Triangle Control]] (Top)
 
 
 </section>

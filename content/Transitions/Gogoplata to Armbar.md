@@ -51,7 +51,7 @@ The mechanical basis of this transition lies in the hip pivot. The bottom player
 
 Strategically, the gogoplata to armbar chain creates a powerful offensive dilemma. Opponents who defend the gogoplata by keeping arms tight remain vulnerable to the choke finish. Those who extend arms to create distance provide the opening for the armbar transition. This no-win scenario for the defender is the hallmark of effective chain attack systems. The transition demands hip flexibility, precise timing, and the ability to recognize defensive patterns that signal the optimal moment to switch attacks.
 
-**From Position**: [[Positions/Gogoplata Control]] (Bottom)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 **Success Rate**: 55%
 
 </section>

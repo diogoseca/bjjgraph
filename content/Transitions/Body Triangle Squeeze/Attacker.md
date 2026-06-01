@@ -16,7 +16,7 @@ description: "Complete guide to executing the body triangle squeeze submission i
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Body Triangle Squeeze in BJJ",
-  "description": "Step-by-step guide for executing Body Triangle Squeeze from Body Triangle/Bottom.",
+  "description": "Step-by-step guide for executing Body Triangle Squeeze from Body Triangle/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,7 +180,7 @@ description: "Complete guide to executing the body triangle squeeze submission i
 
 From the attacker's perspective, the Body Triangle Squeeze transforms a dominant control position into an active submission attempt. Your locked legs are not merely holding the opponent in place but actively compressing their ribcage to force a tap. The transition from passive control to active finishing requires specific mechanical engagement of your posterior chain, strategic angle adjustment, and coordination with upper body threats. Success depends on understanding that the squeeze works through accumulated pressure rather than explosive force, demanding patience and precise body mechanics to convert positional dominance into a submission finish. The squeeze creates a unique dynamic where time is your ally and your opponent's enemy, as every second under compression degrades their respiratory capacity and defensive willpower.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 

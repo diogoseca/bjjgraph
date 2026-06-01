@@ -57,7 +57,7 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and brachial plexus
 **Starting Position**: [[Positions/Triangle Control]]
-**From Position**: [[Positions/Triangle Control]] (Bottom)
+**From Position**: [[Positions/Triangle Control]] (Top)
 **Success Rate**: 65%
 
 </section>

@@ -16,7 +16,7 @@ description: "Execute the gogoplata to armbar chain attack from bottom position.
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Gogoplata to Armbar in BJJ",
-  "description": "Step-by-step guide for executing Gogoplata to Armbar from Gogoplata Control/Bottom.",
+  "description": "Step-by-step guide for executing Gogoplata to Armbar from Gogoplata Control/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,7 +180,7 @@ description: "Execute the gogoplata to armbar chain attack from bottom position.
 
 The gogoplata to armbar transition exploits a fundamental defensive dilemma. When opponents defend the gogoplata by extending their arms or posturing up, they expose the very limbs that the bottom player can attack with an armbar. The attacker must develop sensitivity to recognize these defensive patterns and execute a precise hip pivot that transitions from shin-across-throat compression to perpendicular arm isolation. Success depends on securing wrist control before abandoning the gogoplata configuration, ensuring continuity of offensive pressure throughout the transition. The transition rewards patience and pattern recognition over explosive athleticism, as the correct timing window is created by the opponent's own defensive reactions rather than forced by the attacker.
 
-**From Position**: [[Positions/Gogoplata Control]] (Bottom)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 

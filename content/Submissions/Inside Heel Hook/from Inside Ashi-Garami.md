@@ -57,7 +57,7 @@ In modern no-gi competition, the Inside Heel Hook from Inside Ashi-Garami serves
 **Type**: Leg Lock
 **Target Area**: Knee and ankle joint
 **Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
-**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 **Success Rate**: 50%
 
 </section>
