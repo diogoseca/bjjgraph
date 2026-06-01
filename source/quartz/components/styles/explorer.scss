@@ -1,19 +1,5 @@
 @use "../../styles/variables.scss" as *;
 
-// Render the explorer's outer scrollbar on the LEFT edge of the drawer (the
-// drawer sits at the screen's left, and the inner category lists already put
-// their scrollbar on the left). `direction: rtl` flips the scroll container's
-// scrollbar to the left; direct children are reset to ltr so text, indentation
-// and layout are unaffected. The inner .scrollable-list keeps its own rtl
-// handling (it's nested deeper, not a direct child here).
-.sidebar.left {
-  direction: rtl;
-
-  > * {
-    direction: ltr;
-  }
-}
-
 .explorer {
   display: flex;
   flex-direction: column;
@@ -150,6 +136,29 @@
 
   > #explorer-ul {
     max-height: none;
+
+    // This <ul> is the drawer's real scroll container: inside #sidebar-overlay the base
+    // `.sidebar { overflow-y: auto }` rule doesn't apply (it's scoped to the page grid the
+    // drawer is lifted out of), so scrolling falls to this `ul.overflow`. Flip its direction
+    // so the scrollbar sits on the LEFT edge of the drawer, matching the inner
+    // .scrollable-list scrollbars; restore ltr on the items so text/indentation are intact.
+    direction: rtl;
+
+    > li {
+      direction: ltr;
+    }
+
+    // Subtle 4px scrollbar to match .scrollable-list / .sidebar (instead of the chunky default)
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: var(--lightgray);
+      border-radius: 4px;
+    }
+    &:hover::-webkit-scrollbar-thumb {
+      background: var(--gray);
+    }
   }
 }
 
