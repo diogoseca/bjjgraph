@@ -14,6 +14,7 @@ html {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid var(--lightgray);
 }
 
 // Constrain grid column on mobile — "auto" lets content push the page wider than
@@ -2349,79 +2350,6 @@ summary::-webkit-details-marker {
   #toc-content ul > li > a:hover {
     color: #fff !important;
   }
-}
-
-// ── Title add-to-training button ─────────────────────────────────────
-.title-add-training {
-  display: inline-flex;
-  align-items: center;
-  vertical-align: middle;
-  margin-left: 0.4em;
-  font-size: 0.5em;
-  line-height: 1;
-}
-
-.title-add-btn {
-  background: none;
-  border: none;
-  padding: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  color: var(--gray);
-  font-size: 1em;
-  transition:
-    color 0.15s,
-    opacity 0.15s;
-
-  &:hover {
-    color: var(--secondary);
-  }
-
-  // Green filled bookmark for "added" state
-  &--added {
-    color: #16a34a;
-
-    &:hover {
-      color: #dc2626;
-    }
-  }
-}
-
-// Counter scroll animation
-.title-add-counter {
-  display: inline-flex;
-  flex-direction: column;
-  overflow: hidden;
-  height: 1.4em;
-  line-height: 1.4em;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-}
-
-.title-add-counter span {
-  display: block;
-  height: 1.4em;
-  transition: transform 0.4s ease-out;
-}
-
-.title-add-counter.animate span {
-  transform: translateY(-100%);
-}
-
-// Green for add counter
-.title-add-counter .count-new {
-  color: #16a34a;
-}
-
-// Red for remove counter
-.title-add-counter.counter-remove .count-new {
-  color: #dc2626;
-}
-
-.title-add-counter.counter-remove .count-old {
-  color: inherit;
 }
 
 // ── Explorer SRS overlay (Training page) ────────────────────────────
