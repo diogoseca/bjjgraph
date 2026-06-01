@@ -394,48 +394,46 @@ function settleEmphasis(keepId: string, duration: number) {
   startAnimation()
 }
 
-// --- Controlled drawer rise after a graph-click nav: tween body scrollY from
-// its current value to the dock (innerHeight) over `duration`, easing
-// cubic-bezier(0.4, 0, 0.2, 1). contentPanel's scroll listener turns each step
-// into --drawer-progress, so the drawer slides up and #graph-overlay fades while
-// the live WebGL graph stays on screen (never snapshotted). ---
-function riseToContent(duration: number) {
-  const startY = window.scrollY
-  const endY = window.innerHeight
-  if (Math.abs(endY - startY) < 1) return
+// --- Controlled drawer rise after a graph-click nav. The drawer position is a
+// CSS transform over --drawer-progress (scroll-driven), but tweening scrollY
+// per-frame paints two frames late (via contentPanel's scroll→rAF chain) and
+// stutters. Instead, set an <html data-drawer-rising> marker and let CSS
+// transition .page's transform and #graph-overlay's opacity to their content
+// values on the compositor — smooth, and immune to the main-thread graph render.
+// The overlay's backdrop-filter is dropped for the duration (its per-frame
+// full-viewport re-blur over the live WebGL graph is the dominant cost). On
+// transitionend we reconcile scrollY + --drawer-progress to the content dock
+// before clearing the marker, so the base var-driven rules resume seamlessly. ---
+function riseToContent() {
+  const de = document.documentElement
+  const dockTo = () =>
+    window.scrollTo({ top: window.innerHeight, behavior: "instant" as ScrollBehavior })
+
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    window.scrollTo({ top: endY, behavior: "instant" as ScrollBehavior })
+    de.style.setProperty("--drawer-progress", "0")
+    dockTo()
     return
   }
-  // cubic-bezier(0.4, 0, 0.2, 1) sampler (x -> y) via Newton-Raphson on t.
-  const ease = (x: number): number => {
-    const p1x = 0.4
-    const p2x = 0.2
-    const cx = 3 * p1x
-    const bx = 3 * (p2x - p1x) - cx
-    const ax = 1 - cx - bx
-    const cy = 0 // 3 * p1y, with p1y = 0
-    const by = 3 * 1 - cy // 3 * (p2y - p1y), with p1y = 0 and p2y = 1
-    const ay = 1 - cy - by
-    const sampleX = (t: number) => ((ax * t + bx) * t + cx) * t
-    const sampleY = (t: number) => ((ay * t + by) * t + cy) * t
-    let t = x
-    for (let i = 0; i < 5; i++) {
-      const err = sampleX(t) - x
-      if (Math.abs(err) < 1e-4) break
-      const slope = (3 * ax * t + 2 * bx) * t + cx
-      if (Math.abs(slope) < 1e-6) break
-      t -= err / slope
-    }
-    return sampleY(t)
+
+  const page = document.getElementById("quartz-root")
+  de.dataset.drawerRising = "1" // CSS transitions .page transform + overlay opacity to content
+
+  let done = false
+  const finish = () => {
+    if (done) return
+    done = true
+    // Reconcile the scroll-driven source of truth to content BEFORE clearing the
+    // marker, so the base (var-driven) rules resume at the identical position.
+    de.style.setProperty("--drawer-progress", "0")
+    dockTo() // instant: window.scrollY becomes innerHeight synchronously
+    delete de.dataset.drawerRising
+    page?.removeEventListener("transitionend", onEnd)
   }
-  const start = performance.now()
-  function frame(now: number) {
-    const t = Math.min(1, (now - start) / duration)
-    window.scrollTo(0, startY + (endY - startY) * ease(t))
-    if (t < 1) requestAnimationFrame(frame)
+  const onEnd = (e: TransitionEvent) => {
+    if (e.propertyName === "transform") finish()
   }
-  requestAnimationFrame(frame)
+  page?.addEventListener("transitionend", onEnd)
+  setTimeout(finish, 650) // safety fallback if transitionend doesn't fire
 }
 
 // --- Get camera state as [x, y, viewportWidth] ---
@@ -823,7 +821,7 @@ async function onNodeClick(node: GlobalNode) {
   } finally {
     ;(window as any).__graphClickNav = false
   }
-  riseToContent(550)
+  riseToContent()
 }
 
 // --- Highlight current page's node + pan camera ---

@@ -2981,6 +2981,31 @@ html {
   margin-inline: auto;
 }
 
+// Graph-click drawer rise: a real CSS transition instead of a JS scroll tween.
+// backgroundGraph.inline.ts sets [data-drawer-rising] on <html> for the rise's
+// duration; .page's transform and #graph-overlay's opacity animate to their
+// content-mode values on the compositor (immune to the main-thread WebGL
+// render), and the full-viewport backdrop-filter is dropped while it plays (its
+// per-frame re-blur over the live graph is the dominant rise cost). On
+// transitionend the JS reconciles scrollY/--drawer-progress to the dock and
+// clears the marker, so these base values match and there's no snap.
+html[data-drawer-rising] .page {
+  transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(var(--content-peek)); // == base transform at progress 0
+}
+html[data-drawer-rising] #graph-overlay {
+  transition: opacity 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  html[data-drawer-rising] .page,
+  html[data-drawer-rising] #graph-overlay {
+    transition-duration: 0.001s;
+  }
+}
+
 // Symmetric inner gutters so content no longer hugs the card's left edge
 // (previously only the 320px right sidebar padded the right side). Applied
 // consistently to the title (`.page-header`), the body article, and the
