@@ -19,7 +19,9 @@
     "common_errors",
     "training_drills",
     "related_content",
-    "position_metrics"
+    "position_metrics",
+    "summary",
+    "flashcards"
   ],
   "properties": {
     "name": {

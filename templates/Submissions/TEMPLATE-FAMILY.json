@@ -6,6 +6,7 @@
   "additionalProperties": false,
   "required": [
     "name",
+    "summary",
     "description",
     "tags",
     "is_family",

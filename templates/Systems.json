@@ -17,7 +17,9 @@
     "common_obstacles",
     "assessment_metrics",
     "training_methodology",
-    "related_content"
+    "related_content",
+    "summary",
+    "flashcards"
   ],
   "properties": {
     "name": {
@@ -331,7 +333,7 @@
     "flashcards": {
       "type": "array",
       "description": "Q&A flashcards for self-assessment and SRS training (optional, 6-12 recommended)",
-      "minItems": 0,
+      "minItems": 6,
       "maxItems": 20,
       "items": {
         "type": "object",

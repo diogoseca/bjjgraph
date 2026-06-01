@@ -8,6 +8,7 @@
     "name",
     "slug",
     "description",
+    "summary",
     "variant_uniqueness",
     "overview",
     "key_principles",

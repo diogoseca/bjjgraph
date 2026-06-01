@@ -9,6 +9,7 @@
     "slug",
     "description",
     "variant_uniqueness",
+    "summary",
     "overview",
     "key_principles",
     "related_positions",
@@ -152,6 +153,7 @@
       "additionalProperties": false,
       "required": [
         "overview",
+        "flashcards",
         "state_properties",
         "state_invariants",
         "prerequisites",
@@ -231,6 +233,7 @@
       "additionalProperties": false,
       "required": [
         "overview",
+        "flashcards",
         "state_properties",
         "state_invariants",
         "prerequisites",
