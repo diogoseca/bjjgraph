@@ -307,6 +307,14 @@ def needs_enrichment(data: dict, category: str) -> bool:
     if has_todos(data):
         return True
 
+    # Answer-first SEO: Principles/Systems must carry a one-sentence `summary`.
+    # It is OPTIONAL in the schema (so validation never hard-fails), but its
+    # absence is treated as "needs enrichment" so the regenerate pipeline
+    # backfills it via Claude. Self-terminating: once `summary` is present this
+    # returns False again, so the file is skipped on subsequent runs.
+    if category in ("Principles", "Systems") and not str(data.get("summary", "")).strip():
+        return True
+
     # Check for placeholder outcomes (Transitions/Submissions)
     outcomes = data.get("outcomes", [])
     for o in outcomes:
@@ -521,6 +529,7 @@ REFERENCES:
 - related_content[] -> Array of objects with name/content_type/relationship (3-15 items, any type)
 
 KEY FIELDS:
+- summary: ONE self-contained definition sentence (~15-40 words, "A {filename} is..." / "{filename} are...") that leads the page for AI answer engines / featured snippets. The overview must NOT duplicate it.
 - overview: 2-3 paragraphs, 400+ characters
 - key_principles: 6-9 fundamental principles
 - component_skills: 5-8 discrete sub-skills with 50+ char descriptions
@@ -536,6 +545,7 @@ REFERENCES:
 - related_content[] -> Array of objects with name/content_type/relationship (10-30 items for comprehensive SEO)
 
 KEY FIELDS:
+- summary: ONE self-contained definition sentence (~15-40 words, "The {filename} is...") that leads the page for AI answer engines / featured snippets. The overview must NOT duplicate it.
 - overview: 2-3 paragraphs, 400+ characters
 - key_principles: 5-8 core principles
 - key_components: 4+ main elements with 50+ char descriptions
@@ -928,6 +938,11 @@ PRINCIPLES_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instruct
 - decision_framework should have 6-8 actionable steps
 - developmental_metrics must have exactly 4 levels with 3+ observable behaviors each
 
+### 4. Author the Answer-First `summary` (REQUIRED for AI/LLM SEO)
+- Add a `summary` field: ONE self-contained sentence (~15-40 words) that directly DEFINES the principle, e.g. "A wedge is any body part inserted into a gap to pry space open, redirect force, or block an opponent's movement."
+- It must read as a standalone definition an AI answer engine can quote verbatim — lead with "A {name} is..." or "{name} are...".
+- The `overview` must NOT repeat the summary sentence; start the overview with broader context/history instead.
+
 ## Valid References by Category (ONLY use names from these lists):
 
 **Positions ({positions_count} available):**
@@ -996,6 +1011,11 @@ SYSTEMS_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor 
 - key_components descriptions must be 50+ characters each
 - training_methodology.drilling_approach must be 200+ characters
 - training_methodology.progression_path must have 4+ stages
+
+### 4. Author the Answer-First `summary` (REQUIRED for AI/LLM SEO)
+- Add a `summary` field: ONE self-contained sentence (~15-40 words) that directly DEFINES the system, e.g. "The Kimura Trap System is a control-and-submission framework that uses the figure-four grip to chain back takes, sweeps, and kimura finishes."
+- It must read as a standalone definition an AI answer engine can quote verbatim — lead with "The {name} is...".
+- The `overview` must NOT repeat the summary sentence; start the overview with broader context/history instead.
 
 ## Valid References by Category (ONLY use names from these lists):
 
