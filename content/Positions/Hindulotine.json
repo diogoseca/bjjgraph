@@ -262,31 +262,31 @@
     "transitions": [
       {
         "transition": "Guillotine Choke from Hindulotine",
-        "attempt_probability": 31
+        "attempt_probability": 29
       },
       {
         "transition": "Hindulotine to Darce Choke",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Hindulotine to Anaconda Choke",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Back Take from Top",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Front Headlock to Back",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Arm Triangle from Top",
         "attempt_probability": 9
       },
       {
+        "transition": "Hindulotine to Anaconda Choke",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Back Take from Top",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Front Headlock to Back",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Arm Triangle from Top",
+        "attempt_probability": 8
+      },
+      {
         "transition": "Snap Down to Front Headlock",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Hindulotine from Hindulotine",
@@ -295,6 +295,10 @@
       {
         "transition": "Finish from Hindulotine",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Arm Triangle from Hindulotine",
+        "attempt_probability": 8
       }
     ],
     "flashcards": [
@@ -533,11 +537,11 @@
     "transitions": [
       {
         "transition": "Guillotine Choke from Hindulotine",
-        "attempt_probability": 32
+        "attempt_probability": 30
       },
       {
         "transition": "Hindulotine to Darce Choke",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Hindulotine to Anaconda Choke",
@@ -545,19 +549,19 @@
       },
       {
         "transition": "Back Take from Bottom",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "High Elbow Guillotine Variation",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Butterfly Sweep with Guillotine",
-        "attempt_probability": 20
+        "attempt_probability": 19
       },
       {
         "transition": "Guard Recovery from Hindulotine",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Arm Triangle Transition",
@@ -566,6 +570,10 @@
       {
         "transition": "Sweep to Mount",
         "attempt_probability": 2
+      },
+      {
+        "transition": "High Elbow Guillotine from Hindulotine",
+        "attempt_probability": 7
       }
     ],
     "flashcards": [

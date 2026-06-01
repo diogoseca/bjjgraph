@@ -264,11 +264,11 @@
     "transitions": [
       {
         "transition": "Kimura from Kesa Gatame",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Far Side Armbar",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "North-South Choke from Kesa Gatame",
@@ -276,11 +276,11 @@
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 32
+        "attempt_probability": 30
       },
       {
         "transition": "Arm Triangle from Kesa Gatame",
@@ -296,10 +296,18 @@
       },
       {
         "transition": "Americana from Kesa Gatame",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Kesa Gatame Arm Crush",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Belly Down Armbar from Kesa Gatame",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Kesa Gatame Arm Crush from Kesa Gatame",
         "attempt_probability": 2
       }
     ],

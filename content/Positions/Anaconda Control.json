@@ -276,7 +276,7 @@
     },
     "transitions": [
       {
-        "transition": "Anaconda Choke",
+        "transition": "Anaconda Choke from Anaconda Control",
         "attempt_probability": 50
       },
       {

@@ -601,15 +601,15 @@
     "transitions": [
       {
         "transition": "Ankle Lock Finish",
-        "attempt_probability": 31
+        "attempt_probability": 29
       },
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "X-Guard to Ashi Garami",
@@ -621,7 +621,7 @@
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Kneebar Finish",
@@ -629,7 +629,7 @@
       },
       {
         "transition": "Ankle Pick Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Straight Footlock",
@@ -638,6 +638,10 @@
       {
         "transition": "Ankle Lock Escape to Standing",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Kneebar from Straight Ankle Lock Control",
+        "attempt_probability": 6
       }
     ]
   }

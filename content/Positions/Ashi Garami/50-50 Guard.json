@@ -275,11 +275,11 @@
     "transitions": [
       {
         "transition": "Heel Hook from 50-50 Guard",
-        "attempt_probability": 31
+        "attempt_probability": 28
       },
       {
         "transition": "Kneebar entry",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Straight Ankle Lock Entry",
@@ -291,7 +291,7 @@
       },
       {
         "transition": "Back Take from 50-50",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "50-50 Guard to Outside Ashi",
@@ -299,7 +299,7 @@
       },
       {
         "transition": "50-50 Guard to Inside Ashi",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Outside Heel Hook from 50-50 Guard",
@@ -307,7 +307,7 @@
       },
       {
         "transition": "50-50 Pass",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Toe Hold from 50-50 Guard",
@@ -315,11 +315,15 @@
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "50-50 Guard to Backside 50-50",
         "attempt_probability": 5
+      },
+      {
+        "transition": "Kneebar from 50-50",
+        "attempt_probability": 8
       }
     ]
   },
@@ -535,19 +539,19 @@
     "transitions": [
       {
         "transition": "Position reversal sweep to top",
-        "attempt_probability": 22
+        "attempt_probability": 21
       },
       {
         "transition": "Counter heel hook",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "50-50 Guard to Single Leg X-Guard",
-        "attempt_probability": 22
+        "attempt_probability": 20
       },
       {
         "transition": "Extract legs and stand up",
-        "attempt_probability": 22
+        "attempt_probability": 20
       },
       {
         "transition": "Straight Ankle Lock Entry",
@@ -559,7 +563,7 @@
       },
       {
         "transition": "Toe Hold from 50-50 Guard",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
@@ -567,7 +571,11 @@
       },
       {
         "transition": "Aoki Lock",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Toe Hold from 50-50",
+        "attempt_probability": 6
       }
     ]
   }

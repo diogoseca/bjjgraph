@@ -296,11 +296,11 @@
     "transitions": [
       {
         "transition": "Armbar from Crucifix",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
         "transition": "Rear Naked Choke from Mounted Crucifix",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Back Control to Crucifix",
@@ -308,11 +308,11 @@
       },
       {
         "transition": "Armbar on Free Arm",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Gift Wrap to Technical Mount",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Neck Crank from Mounted Crucifix",
@@ -320,11 +320,11 @@
       },
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Mounted Crucifix to S Mount",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Gift Wrap Transition",
@@ -332,7 +332,7 @@
       },
       {
         "transition": "Back Take from Top",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Seat Belt Control Back",
@@ -341,6 +341,14 @@
       {
         "transition": "Mounted Crucifix Armbar",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Belly Down Armbar from Mounted Crucifix",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Mounted Crucifix Armbar from Mounted Crucifix",
+        "attempt_probability": 4
       }
     ],
     "flashcards": [

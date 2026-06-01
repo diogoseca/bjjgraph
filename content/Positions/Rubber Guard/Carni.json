@@ -592,39 +592,43 @@
     "transitions": [
       {
         "transition": "Heel Hook from Carni",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 17
+        "attempt_probability": 15
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Roll to Truck",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Calf Slicer from Carni",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Kneebar Finish",
         "attempt_probability": 11
       },
       {
+        "transition": "Kneebar Finish",
+        "attempt_probability": 10
+      },
+      {
         "transition": "Side Control to North-South",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Carni to Gogoplata Setup",
-        "attempt_probability": 5
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Kneebar from Carni",
+        "attempt_probability": 10
       }
     ],
     "flashcards": [

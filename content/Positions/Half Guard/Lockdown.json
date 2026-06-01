@@ -582,7 +582,7 @@
     "transitions": [
       {
         "transition": "Whip-up Sweep",
-        "attempt_probability": 26
+        "attempt_probability": 25
       },
       {
         "transition": "Old School Sweep",
@@ -590,7 +590,7 @@
       },
       {
         "transition": "Electric Chair Transition",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Underhook Sweep from Half",
@@ -606,7 +606,7 @@
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Kimura from Lockdown",
@@ -631,6 +631,10 @@
       {
         "transition": "Crotch Ripper",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Crotch Ripper from Lockdown",
+        "attempt_probability": 3
       }
     ]
   }

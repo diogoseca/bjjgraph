@@ -549,27 +549,27 @@
     "transitions": [
       {
         "transition": "Waiter Sweep",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 41
+        "attempt_probability": 39
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 11
+        "attempt_probability": 9
       },
       {
-        "transition": "Electric Chair",
+        "transition": "Electric Chair from Deep Half Guard",
         "attempt_probability": 6
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Single Leg X Entry",
@@ -581,15 +581,19 @@
       },
       {
         "transition": "Deep Half to X-Guard",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Electric Chair Entry from Deep Half",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Homer Simpson Sweep",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Electric Chair",
+        "attempt_probability": 3
       }
     ]
   }

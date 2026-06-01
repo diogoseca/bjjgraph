@@ -119,47 +119,47 @@
     "transitions": [
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 38
+        "attempt_probability": 34
       },
       {
         "transition": "Knee on Belly",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Arm Triangle from Side Control",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Ezekiel Choke from Side Control",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Side Control to Kesa Gatame",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Side Control to Shoulder of Justice",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "North-South Choke from Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Breadcutter Choke from Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Side Control to Scarf Hold Position",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Americana from Side Control",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Arm Crush",
@@ -170,12 +170,12 @@
         "attempt_probability": 1
       },
       {
-        "transition": "Far Side Armbar",
+        "transition": "Far Side Armbar from Side Control",
         "attempt_probability": 1
       },
       {
         "transition": "Kimura from Side Control",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Kneebar Finish",
@@ -195,10 +195,46 @@
       },
       {
         "transition": "Von Flue Choke",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Side Control to Knee on Belly",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Arm Crush from Side Control",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Armbar from Side Control",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Belly Down Armbar from Side Control",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Kneebar from Top",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Loop Choke from Side Control",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Marce Choke from Side Control",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Mir Lock from Side Control",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Triangle Choke Side from Side Control",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Von Flue Choke from Side Control",
         "attempt_probability": 1
       }
     ],

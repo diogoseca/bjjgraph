@@ -292,7 +292,7 @@
     "transitions": [
       {
         "transition": "Americana from Kuzure Kesa-Gatame",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Far Side Armbar",
@@ -304,11 +304,11 @@
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Paper Cutter Choke from Kuzure Kesa-Gatame",
@@ -328,7 +328,11 @@
       },
       {
         "transition": "Gift Wrap Control",
-        "attempt_probability": 10
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Belly Down Armbar from Kuzure Kesa-Gatame",
+        "attempt_probability": 4
       }
     ]
   },

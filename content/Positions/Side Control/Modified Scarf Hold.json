@@ -263,15 +263,15 @@
     "transitions": [
       {
         "transition": "Americana from Modified Scarf Hold",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Armbar on Free Arm",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 21
+        "attempt_probability": 20
       },
       {
         "transition": "Side Control to North-South",
@@ -295,7 +295,11 @@
       },
       {
         "transition": "Kimura from Modified Scarf Hold",
-        "attempt_probability": 15
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Belly Down Armbar from Modified Scarf Hold",
+        "attempt_probability": 4
       }
     ]
   },

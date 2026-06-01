@@ -347,15 +347,15 @@
     "transitions": [
       {
         "transition": "Sickle Sweep",
-        "attempt_probability": 48
+        "attempt_probability": 47
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "De La Riva Sweep",
@@ -395,7 +395,11 @@
       },
       {
         "transition": "Lasso Guard to Russian Leg Lasso",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Belly Down Armbar from Lasso Guard",
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [

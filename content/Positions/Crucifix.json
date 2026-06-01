@@ -273,15 +273,15 @@
       },
       {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 19
+        "attempt_probability": 18
       },
       {
         "transition": "Choke from Crucifix",
-        "attempt_probability": 39
+        "attempt_probability": 38
       },
       {
         "transition": "Armbar from Crucifix",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
         "transition": "Side Control to Mount",
@@ -297,7 +297,11 @@
       },
       {
         "transition": "Bicep Slicer",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Bicep Slicer from Crucifix",
+        "attempt_probability": 2
       }
     ],
     "flashcards": [

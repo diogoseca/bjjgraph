@@ -285,7 +285,7 @@
     "transitions": [
       {
         "transition": "Triangle Choke from Mounted Triangle",
-        "attempt_probability": 22
+        "attempt_probability": 21
       },
       {
         "transition": "Armbar on Free Arm",
@@ -301,7 +301,7 @@
       },
       {
         "transition": "Consolidate Mount",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Gift Wrap",
@@ -313,11 +313,11 @@
       },
       {
         "transition": "S-Mount Transition",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Triangle to Armbar",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Triangle to Back",
@@ -334,6 +334,10 @@
       {
         "transition": "Triangle Choke",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Belly Down Armbar from Mounted Triangle",
+        "attempt_probability": 4
       }
     ],
     "flashcards": [

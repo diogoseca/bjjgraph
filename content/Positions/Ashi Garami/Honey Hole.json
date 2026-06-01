@@ -342,31 +342,31 @@
     "transitions": [
       {
         "transition": "Outside Heel Hook from Honey Hole",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Heel Hook from Honey Hole",
-        "attempt_probability": 42
+        "attempt_probability": 37
       },
       {
         "transition": "Kneebar Finish",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Toe Hold from Honey Hole",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Back Take from Ashi",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Estima Lock from Honey Hole",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Backside 50-50 Entry from Ashi",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Calf Slicer from Honey Hole",
@@ -374,11 +374,15 @@
       },
       {
         "transition": "Honey Hole to Saddle",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Inside Heel Hook from Honey Hole",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Kneebar from Honey Hole",
+        "attempt_probability": 12
       }
     ]
   },

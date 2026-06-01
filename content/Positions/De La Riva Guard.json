@@ -346,15 +346,15 @@
     "transitions": [
       {
         "transition": "De La Riva Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "De La Riva to X-Guard Transition",
-        "attempt_probability": 21
+        "attempt_probability": 20
       },
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Kiss of the Dragon",
@@ -362,7 +362,7 @@
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Waiter Sweep",
@@ -390,6 +390,10 @@
       },
       {
         "transition": "Triangle Setup from De La Riva",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Triangle Choke from De La Riva",
         "attempt_probability": 4
       }
     ],

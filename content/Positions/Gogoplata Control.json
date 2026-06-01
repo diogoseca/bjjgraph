@@ -298,7 +298,7 @@
     "transitions": [
       {
         "transition": "Head Extraction to Posture",
-        "attempt_probability": 32
+        "attempt_probability": 29
       },
       {
         "transition": "Shin Removal to Pass",
@@ -310,35 +310,39 @@
       },
       {
         "transition": "Stack Defense",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Angle Change Escape",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Hand Control to Extract",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Roll to Turtle",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Explosive Bridge to Guard Recovery",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Gogoplata to Armbar",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Posture Up from Gogoplata",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Gogoplata from Gogoplata Control",
+        "attempt_probability": 7
       }
     ]
   },

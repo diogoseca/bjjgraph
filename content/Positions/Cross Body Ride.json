@@ -323,11 +323,11 @@
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 52
+        "attempt_probability": 50
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 18
+        "attempt_probability": 17
       },
       {
         "transition": "Twister from Cross Body Ride",
@@ -335,31 +335,35 @@
       },
       {
         "transition": "Turtle Flatten to Side Control",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Turtle to Truck",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Darce from Turtle",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Cross Body to Back Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Cross Body to Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Twister Entry",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Short Choke from Cross Body",
+        "attempt_probability": 2
       }
     ]
   },

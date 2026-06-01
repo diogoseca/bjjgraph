@@ -351,19 +351,19 @@
     "transitions": [
       {
         "transition": "Heel Hook from Inside Sankaku",
-        "attempt_probability": 40
+        "attempt_probability": 37
       },
       {
         "transition": "Toe Hold from Inside Sankaku",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "50-50 Entry",
@@ -371,7 +371,7 @@
       },
       {
         "transition": "Kneebar Finish",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Calf Slicer from Inside Sankaku",
@@ -379,23 +379,27 @@
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Inside Ashi-Garami to Honey Hole",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Inside Sankaku Heel Hook",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Inside Sankaku to Saddle",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Inside Heel Hook from Inside Sankaku",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Kneebar from Inside Sankaku",
+        "attempt_probability": 7
       }
     ]
   },

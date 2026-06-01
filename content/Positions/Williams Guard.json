@@ -594,7 +594,7 @@
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Triangle Setup",
@@ -602,7 +602,7 @@
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 18
+        "attempt_probability": 17
       },
       {
         "transition": "Back Take from Bottom",
@@ -614,11 +614,15 @@
       },
       {
         "transition": "Rolling Armbar from Closed Guard",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Williams Guard Sweep",
         "attempt_probability": 6
+      },
+      {
+        "transition": "Belly Down Armbar from Williams Guard",
+        "attempt_probability": 3
       }
     ]
   }

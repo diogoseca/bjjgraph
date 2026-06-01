@@ -112,19 +112,19 @@
       },
       {
         "transition": "Single Leg Takedown",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Snap Down to Front Headlock",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Duck Under",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Fireman's Carry",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Kouchi Gari",
@@ -161,6 +161,10 @@
       {
         "transition": "Two-on-One to Back Take",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Guillotine Choke from Clinch",
+        "attempt_probability": 4
       }
     ],
     "decision_tree": [

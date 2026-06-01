@@ -105,111 +105,111 @@
     "transitions": [
       {
         "transition": "Guard Pull",
-        "attempt_probability": 44
+        "attempt_probability": 39
       },
       {
         "transition": "Double Leg Setup",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Single Leg Entry",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Sprawl",
         "attempt_probability": 7
       },
       {
+        "transition": "Sprawl",
+        "attempt_probability": 6
+      },
+      {
         "transition": "Double Leg Entry",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Snap Down to Front Headlock",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Arm Drag",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Ankle Pick",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Body Lock Takedown",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Jumping Guard",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Osoto Gari",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Ouchi Gari",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Tomoe Nage",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Deashi Harai",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Harai Goshi",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Ippon Seoi Nage",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Russian Tie to Back Take",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Sumi Gaeshi",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Tani Otoshi",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "50-50 Entry from Standing",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Body Lock Pass",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Kosoto Gake",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Kosoto Gari",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Morote Seoi Nage",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Sasae Tsurikomi Ashi",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Tai Otoshi",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Flying Kneebar",
@@ -217,10 +217,22 @@
       },
       {
         "transition": "Reverse Kimura",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Single Leg to Back Take",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Flying Kneebar from Standing Position",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Kimura from Standing",
+        "attempt_probability": 1
+      },
+      {
+        "transition": "Reverse Kimura from Standing Position",
         "attempt_probability": 1
       }
     ],

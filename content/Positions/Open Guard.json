@@ -620,7 +620,7 @@
     "transitions": [
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 25
+        "attempt_probability": 23
       },
       {
         "transition": "De La Riva Sweep",
@@ -656,15 +656,15 @@
       },
       {
         "transition": "Open Guard to Deep Half",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Open Guard to Collar Sleeve Guard",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Open Guard to De La Riva",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Open Guard to Double Sleeve Guard",
@@ -672,7 +672,7 @@
       },
       {
         "transition": "Open Guard to Feet on Hips Guard",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Collar Drag from Open Guard",
@@ -684,11 +684,19 @@
       },
       {
         "transition": "Technical Stand Up from Open Guard",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Transition to Clamp Guard",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Belly Down Armbar from Open Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Triangle Choke from Open Guard",
+        "attempt_probability": 4
       }
     ],
     "flashcards": [

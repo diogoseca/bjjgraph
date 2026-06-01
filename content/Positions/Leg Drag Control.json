@@ -310,11 +310,11 @@
     "transitions": [
       {
         "transition": "Leg Drag Pass to Side Control",
-        "attempt_probability": 23
+        "attempt_probability": 22
       },
       {
         "transition": "Leg Drag to Back Take",
-        "attempt_probability": 21
+        "attempt_probability": 20
       },
       {
         "transition": "Leg Drag to Mount",
@@ -322,7 +322,7 @@
       },
       {
         "transition": "Leg Drag to Knee on Belly",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Leg Drag to North-South",
@@ -343,6 +343,10 @@
       {
         "transition": "Leg Drag to Darce Setup",
         "attempt_probability": 7
+      },
+      {
+        "transition": "Darce Choke from Leg Drag",
+        "attempt_probability": 3
       }
     ]
   },

@@ -291,7 +291,7 @@
     "transitions": [
       {
         "transition": "Americana from Scarf Hold Position",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Kimura from Scarf Hold Position",
@@ -299,11 +299,11 @@
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 24
+        "attempt_probability": 23
       },
       {
         "transition": "Far Side Armbar",
@@ -311,7 +311,7 @@
       },
       {
         "transition": "Arm Triangle from Scarf Hold Position",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Scarf Hold to Mount",
@@ -324,6 +324,10 @@
       {
         "transition": "Back Take from Kesa Gatame",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Belly Down Armbar from Scarf Hold Position",
+        "attempt_probability": 4
       }
     ]
   },

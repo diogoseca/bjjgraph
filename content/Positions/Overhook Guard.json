@@ -541,15 +541,15 @@
     "transitions": [
       {
         "transition": "Overhook Sweep",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 21
+        "attempt_probability": 20
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Arm Drag to Back",
@@ -557,15 +557,15 @@
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Kimura Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Flower Sweep",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Overhook Guard Sweep",
@@ -574,6 +574,10 @@
       {
         "transition": "Overhook to Closed Guard",
         "attempt_probability": 3
+      },
+      {
+        "transition": "Omoplata from Guard",
+        "attempt_probability": 6
       }
     ],
     "flashcards": [

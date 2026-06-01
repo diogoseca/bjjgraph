@@ -293,11 +293,11 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 35
+        "attempt_probability": 32
       },
       {
         "transition": "Triangle from Mount",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Americana from S Mount",
@@ -309,15 +309,15 @@
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Mounted Crucifix Entry",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Gift Wrap to Back",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "S Mount Armbar Setup",
@@ -326,6 +326,10 @@
       {
         "transition": "S Mount to Mounted Triangle",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Armbar from S Mount",
+        "attempt_probability": 7
       }
     ],
     "flashcards": [

@@ -308,15 +308,15 @@
     "transitions": [
       {
         "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": 43
+        "attempt_probability": 40
       },
       {
         "transition": "Heel Hook from Inside Ashi-Garami",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Toe Hold from Inside Ashi-Garami",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Kneebar Finish",
@@ -324,7 +324,7 @@
       },
       {
         "transition": "Inside Ashi-Garami to Honey Hole",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Back Take from Ashi",
@@ -332,15 +332,15 @@
       },
       {
         "transition": "Inside Ashi-Garami to Cross Ashi",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "50-50 Entry",
@@ -348,15 +348,19 @@
       },
       {
         "transition": "Backside 50-50 Entry from Ashi",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Inside Ashi to Outside Ashi",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Inside Ashi-Garami to Ushiro Ashi",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Kneebar from Inside Ashi-Garami",
+        "attempt_probability": 4
       }
     ]
   },
@@ -627,19 +631,19 @@
     "transitions": [
       {
         "transition": "Heel Hook from Inside Ashi-Garami",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": 35
+        "attempt_probability": 33
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Kneebar Finish",
@@ -647,35 +651,35 @@
       },
       {
         "transition": "Toe Hold from Inside Ashi-Garami",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "50-50 Entry",
-        "attempt_probability": 4
-      },
-      {
-        "transition": "Inside Ashi-Garami to Honey Hole",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Inside Ashi-Garami to Cross Ashi",
-        "attempt_probability": 4
-      },
-      {
-        "transition": "Guard Recovery from Inside Ashi-Garami",
         "attempt_probability": 6
       },
       {
+        "transition": "50-50 Entry",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Inside Ashi-Garami to Honey Hole",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Inside Ashi-Garami to Cross Ashi",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Guard Recovery from Inside Ashi-Garami",
+        "attempt_probability": 5
+      },
+      {
         "transition": "Counter Entangle to 50-50 from Ashi",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Leg Extraction from Inside Ashi",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Standing Up from Inside Ashi",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Achilles Lock",
@@ -683,11 +687,19 @@
       },
       {
         "transition": "Inside Heel Hook from Inside Ashi-Garami",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Aoki Lock",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Achilles Lock from Inside Ashi-Garami",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Toe Hold from Top",
+        "attempt_probability": 2
       }
     ]
   }

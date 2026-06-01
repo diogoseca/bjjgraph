@@ -336,23 +336,23 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 32
+        "attempt_probability": 30
       },
       {
         "transition": "Cross Collar Choke from High Mount",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Americana from High Mount",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Triangle from Mount",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Kimura from High Mount",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Arm Triangle from High Mount",
@@ -380,7 +380,11 @@
       },
       {
         "transition": "Arm Triangle",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Armbar from High Mount",
+        "attempt_probability": 5
       }
     ]
   },

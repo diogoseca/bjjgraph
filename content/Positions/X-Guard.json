@@ -347,15 +347,15 @@
     "transitions": [
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 37
+        "attempt_probability": 35
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
         "transition": "X-Guard to Ashi Garami",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Technical Stand Up to Single Leg",
@@ -371,7 +371,7 @@
       },
       {
         "transition": "Tomahawk Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "X-Guard Technical Stand Up",
@@ -379,7 +379,11 @@
       },
       {
         "transition": "X-Guard to Single Leg X",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Ankle Lock from X-Guard",
+        "attempt_probability": 4
       }
     ],
     "decision_tree": [

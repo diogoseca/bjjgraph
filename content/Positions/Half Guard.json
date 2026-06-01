@@ -133,19 +133,19 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 28
+        "attempt_probability": 27
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Crossface Pass",
@@ -197,6 +197,14 @@
       },
       {
         "transition": "Suloev Stretch",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Loop Choke from Half Guard",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Suloev Stretch from Half Guard",
         "attempt_probability": 2
       }
     ],
@@ -435,19 +443,19 @@
     "transitions": [
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 19
+        "attempt_probability": 18
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Knee Shield Retention",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Lockdown Recovery",
@@ -455,15 +463,15 @@
       },
       {
         "transition": "Kimura Sweep",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Deep Half Entry from Half Guard",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
         "transition": "Knee Torque Sweep",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Half Guard to X-Guard",
@@ -496,6 +504,14 @@
       {
         "transition": "Buggy Choke",
         "attempt_probability": 2
+      },
+      {
+        "transition": "Buggy Choke from Half Guard",
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Kneebar from Half Guard",
+        "attempt_probability": 3
       }
     ],
     "decision_tree": [

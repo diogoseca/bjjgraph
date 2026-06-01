@@ -293,23 +293,23 @@
     "transitions": [
       {
         "transition": "Turtle to Back Take",
-        "attempt_probability": 30
+        "attempt_probability": 28
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 14
+        "attempt_probability": 13
       },
       {
         "transition": "Turtle to Truck",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Clock Choke from Rodeo Ride",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Bow and Arrow Choke from Rodeo Ride",
@@ -317,7 +317,7 @@
       },
       {
         "transition": "Consolidate Mount",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Rolling Back Take",
@@ -333,7 +333,15 @@
       },
       {
         "transition": "Rodeo Ride to Turtle",
-        "attempt_probability": 1
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Calf Slicer from Rodeo Ride",
+        "attempt_probability": 2
+      },
+      {
+        "transition": "Rear Naked Choke from Rodeo",
+        "attempt_probability": 4
       }
     ],
     "flashcards": [
