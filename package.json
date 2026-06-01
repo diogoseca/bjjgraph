@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.37.8",
+  "version": "1.37.9",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -15,12 +15,13 @@
     "regenerate:explode": "python3 scripts/explode_graph_connections.py",
     "regenerate:md": "python3 scripts/regenerate_md_from_json.py --all",
     "regenerate:hubs": "python3 scripts/regenerate_category_hub_pages.py",
-    "regenerate:graph": "python3 scripts/regenerate_graph.py",
+    "regenerate:graph-base": "python3 scripts/regenerate_graph.py",
     "regenerate:graph-layout": "python3 scripts/regenerate_graph_layout.py",
     "regenerate:graph-strength": "python3 scripts/enrich_graph_strength.py",
+    "regenerate:graph": "npm run regenerate:graph-base && npm run regenerate:graph-layout && npm run regenerate:graph-strength",
     "regenerate:votes": "python3 scripts/regenerate_votes.py",
     "regenerate:explorer": "python3 scripts/regenerate_explorer_tree.py",
-    "regenerate": "npm run regenerate:issues && npm run regenerate:json && npm run regenerate:explode && npm run regenerate:md && npm run regenerate:hubs && npm run regenerate:votes && npm run regenerate:graph && npm run regenerate:graph-layout && npm run regenerate:graph-strength && npm run regenerate:explorer && npm run validate:graph",
+    "regenerate": "npm run regenerate:issues && npm run regenerate:json && npm run regenerate:explode && npm run validate:graph && npm run regenerate:md && npm run regenerate:hubs && npm run regenerate:votes && npm run regenerate:graph && npm run regenerate:explorer",
     "proofread": "python3 scripts/proofread_all_transitions.py",
     "build": "cd source && npx quartz build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_llms_txt.py",
     "regenerate:redirects": "python3 scripts/regenerate_redirects.py",
