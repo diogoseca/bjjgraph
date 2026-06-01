@@ -69,6 +69,8 @@ jobs:
         run: |
           npm install
           npx quartz build -d ../content
+          python3 ../scripts/regenerate_redirects.py
+          python3 ../scripts/regenerate_llms_txt.py
         working-directory: ./source
 
       - name: Copy raw HTML folder
