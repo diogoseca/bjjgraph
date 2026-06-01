@@ -1,12 +1,12 @@
 {
   "summary": {
-    "transition_files": 1037,
+    "transition_files": 1034,
     "submission_files": 371,
     "position_files": 136,
-    "total_issues": 651,
+    "total_issues": 650,
     "errors": 76,
     "warnings": 9,
-    "info": 566,
+    "info": 565,
     "orphaned_transitions": 0,
     "orphaned_submissions": 126,
     "missing_transitions": 0,
@@ -16,7 +16,7 @@
     "invalid_from_positions": 0,
     "outcome_errors": 70,
     "outcome_warnings": 2,
-    "attempt_outliers": 440
+    "attempt_outliers": 439
   },
   "issues": [
     {
@@ -2831,16 +2831,6 @@
       "message": "bottom: 'Lumberjack Sweep' has only 1% attempt probability",
       "severity": "info",
       "transition": "Lumberjack Sweep",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Closed Guard.json",
-      "position": "Closed Guard",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Hip Bump Sweep V2' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Hip Bump Sweep V2",
       "current": 1
     },
     {

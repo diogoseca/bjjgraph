@@ -109,3 +109,4 @@ validate_graph_integrity,Transitions,Kneebar from Single Leg X-Guard,Missing tra
 validate_graph_integrity,Transitions,Standing RNC from Standing Back Control,Missing transition: 'Standing RNC from Standing Back Control' (referenced but no file)
 validate_graph_integrity,Transitions,Ten Finger Guillotine from Front Headlock,Missing transition: 'Ten Finger Guillotine from Front Headlock' (referenced but no file)
 validate_graph_integrity,Transitions,Twister from Cross Body Ride,Missing transition: 'Twister from Cross Body Ride' (referenced but no file)
+validate_graph_integrity,Transitions,Bullfighter Pass,Missing transition: 'Bullfighter Pass' (referenced but no file)
