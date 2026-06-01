@@ -1532,6 +1532,67 @@ def check_structural_preservation(original: dict, fixed: dict, category: str) ->
     return errors
 
 
+def _largest_remainder_round(values: List[float], target: int = 100) -> List[int]:
+    """Round floats to ints summing EXACTLY to target (largest-remainder method).
+
+    Preserves relative proportions; the leftover units go to the largest fractional
+    parts. Degenerate all-zero input is distributed as evenly as possible.
+    """
+    n = len(values)
+    if n == 0:
+        return []
+    total = sum(values)
+    if total <= 0:
+        base, rem = divmod(target, n)
+        return [base + (1 if i < rem else 0) for i in range(n)]
+    scaled = [v * target / total for v in values]
+    floored = [int(s) for s in scaled]
+    remainder = target - sum(floored)
+    order = sorted(range(n), key=lambda i: scaled[i] - floored[i], reverse=True)
+    for k in range(remainder):
+        floored[order[k % n]] += 1
+    return floored
+
+
+def normalize_probabilities(data: dict, category: str) -> bool:
+    """2D: rescale probabilities to sum EXACTLY 100 per group, preserving Claude's
+    relative weighting — fixes only the sum so a near-miss never forces a retry.
+
+    Positions: `attempt_probability` per role (top/bottom, or root for SINGLE).
+    Transitions/Submissions: outcome `probability`. Returns True if it changed anything.
+    """
+    if not isinstance(data, dict):
+        return False
+    changed = False
+
+    def fix_group(items, key):
+        nonlocal changed
+        if not isinstance(items, list) or not items:
+            return
+        vals = []
+        for it in items:
+            try:
+                vals.append(max(0.0, float(it.get(key, 0)))) if isinstance(it, dict) else vals.append(0.0)
+            except (TypeError, ValueError):
+                vals.append(0.0)
+        if round(sum(vals)) == 100:
+            return
+        for it, nv in zip(items, _largest_remainder_round(vals, 100)):
+            if isinstance(it, dict) and it.get(key) != nv:
+                it[key] = nv
+                changed = True
+
+    if category == "Positions":
+        for role in ("top", "bottom"):
+            rd = data.get(role)
+            if isinstance(rd, dict):
+                fix_group(rd.get("transitions", []), "attempt_probability")
+        fix_group(data.get("transitions", []), "attempt_probability")  # SINGLE positions
+    elif category in ("Transitions", "Submissions"):
+        fix_group(data.get("outcomes", []), "probability")
+    return changed
+
+
 def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = False,
                  max_retries: int = 2, verbose: bool = False, label: str = "") -> dict:
     """Process a single file with severity-aware validation loop.
@@ -1675,6 +1736,12 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
         elif fixed_content["name"] != expected_name:
             tprint(f"{tag}Correcting name '{fixed_content['name']}' -> '{expected_name}'")
             fixed_content["name"] = expected_name
+
+        # Curation-safety (2D): auto-normalize probabilities to sum exactly 100 instead
+        # of failing/retrying on a near-miss. Preserves Claude's relative weighting and
+        # leaves all transitions intact (so the 2B preservation check still holds).
+        if normalize_probabilities(fixed_content, category):
+            tprint(f"{tag}Normalized probabilities to sum 100")
 
         # Save to disk
         if not save_json(file_path, fixed_content):
