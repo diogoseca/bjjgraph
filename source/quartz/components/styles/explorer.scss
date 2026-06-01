@@ -1,5 +1,19 @@
 @use "../../styles/variables.scss" as *;
 
+// Render the explorer's outer scrollbar on the LEFT edge of the drawer (the
+// drawer sits at the screen's left, and the inner category lists already put
+// their scrollbar on the left). `direction: rtl` flips the scroll container's
+// scrollbar to the left; direct children are reset to ltr so text, indentation
+// and layout are unaffected. The inner .scrollable-list keeps its own rtl
+// handling (it's nested deeper, not a direct child here).
+.sidebar.left {
+  direction: rtl;
+
+  > * {
+    direction: ltr;
+  }
+}
+
 .explorer {
   display: flex;
   flex-direction: column;
@@ -39,10 +53,11 @@
   // Render the webkit/Firefox scrollbar on the LEFT edge of the list while
   // keeping child layout LTR. Vertical mask gradient is unaffected.
   direction: rtl;
-  // Contain scroll: when this inner list reaches its top/bottom edge, do NOT
-  // chain to the parent .sidebar or <body> — otherwise reading the bottom of
-  // a long category list would expand the drawer / move the article.
-  overscroll-behavior: contain;
+  // overscroll-behavior intentionally left `auto`: when this inner list reaches
+  // its top/bottom edge, the wheel CHAINS up to the outer .sidebar.left so the
+  // explorer keeps scrolling. The body-leak guard lives one layer up on
+  // .sidebar.left { overscroll-behavior-y: contain } (base.scss), so the chain
+  // stops there and never moves <body> / the --drawer-progress graph mechanic.
 
   // Fade mask: transparent at top/bottom edges, opaque in middle
   mask-image: linear-gradient(
