@@ -623,6 +623,7 @@ REQUIREMENTS:
 - For Position references: ALWAYS use specific child variant names when available (e.g., 'Mount Top' not 'Mount')
 - Match the TEMPLATE structure exactly
 - Author a root-level `summary`: ONE self-contained sentence (~15-40 words) that directly DEFINES this entity (answer-first — AI answer engines quote the first sentence). It must read standalone and be distinct from `overview`, which must NOT repeat it.
+- PRESERVE the existing graph structure: never drop or rename `transitions[]` entries (positions), and never change `from_position` or drop `outcomes[].to` targets (transitions/submissions). Probabilities may be retuned (sum=100), but graph edges must not be removed.
 - All content must be technically accurate and reflect BJJ best practices
 - Safety sections must be comprehensive (especially for submissions)
 """
@@ -658,10 +659,10 @@ POSITION_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor
 ### 1. Fix All Validation Errors
 {error_guidance}
 
-### 2. Review attempt_probability Values
-- MUST sum to 100% per role (top/bottom)
-- Reflect realistic training choices for advanced hobbyists
-- Consider what techniques are actually attempted vs theoretically possible
+### 2. Preserve transitions; review attempt_probability
+- PRESERVE every existing entry in `transitions[]`. Dropping one RE-ORPHANS a submission and is NOT allowed — keep all original transition names for both roles.
+- You MAY re-tune `attempt_probability` to reflect realistic training choices, but every original transition must remain and the values MUST sum to exactly 100% per role (top/bottom).
+- Do NOT invent transitions that lack a content file; only adjust probabilities across the existing set.
 
 ### 3. Add/Improve flashcards (8-12 Q&A pairs)
 **Focus: RETENTION (maintaining this stable position)**
@@ -1488,6 +1489,49 @@ def save_json(path: Path, data: dict) -> bool:
         return False
 
 
+def _transition_names(data: dict) -> set:
+    """Every transition name a Position references (outgoing graph edges), across roles."""
+    names: set = set()
+    lists = [r.get("transitions", []) for r in (data.get("top"), data.get("bottom")) if isinstance(r, dict)]
+    lists.append(data.get("transitions", []))  # SINGLE positions keep transitions[] at root
+    for lst in lists:
+        if isinstance(lst, list):
+            for t in lst:
+                if isinstance(t, dict) and t.get("transition"):
+                    names.add(t["transition"])
+    return names
+
+
+def check_structural_preservation(original: dict, fixed: dict, category: str) -> List[str]:
+    """Blocking errors if the regen dropped graph structure that must survive.
+
+    Positions: every original transition must remain — dropping one re-orphans a
+    submission (the v1.36.7 orphan-connection work). Transitions/Submissions:
+    from_position must be unchanged and no outcome `to` target dropped.
+    attempt_probability MAY change; its sum=100 is enforced by the schema validator.
+    """
+    errors: List[str] = []
+    if not isinstance(original, dict) or not isinstance(fixed, dict):
+        return errors
+    if category == "Positions":
+        dropped = _transition_names(original) - _transition_names(fixed)
+        if dropped:
+            errors.append(
+                "PRESERVATION: dropped transitions [" + ", ".join(sorted(dropped)) + "] — this "
+                "re-orphans submissions. Restore EVERY original transition; you may retune "
+                "attempt_probability but keep all transitions (sum=100 per role)."
+            )
+    elif category in ("Transitions", "Submissions"):
+        of, nf = str(original.get("from_position", "")).strip(), str(fixed.get("from_position", "")).strip()
+        if of and of != nf:
+            errors.append(f"PRESERVATION: from_position changed '{of}' -> '{nf or '(missing)'}'; keep the original.")
+        orig_to = {o.get("to") for o in original.get("outcomes", []) if isinstance(o, dict) and o.get("to")}
+        dropped = {t for t in (orig_to - {o.get("to") for o in fixed.get("outcomes", []) if isinstance(o, dict)}) if t}
+        if dropped:
+            errors.append("PRESERVATION: dropped outcome targets [" + ", ".join(sorted(map(str, dropped))) + "]; keep the original graph edges.")
+    return errors
+
+
 def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = False,
                  max_retries: int = 2, verbose: bool = False, label: str = "") -> dict:
     """Process a single file with severity-aware validation loop.
@@ -1505,6 +1549,7 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
         return result_info
 
     category = detect_category(file_path)
+    original_data = copy.deepcopy(data)  # pre-regen snapshot for the structural-preservation check
 
     # Pre-validation
     is_valid, has_blocking, blocking_errs, non_blocking_errs = run_validation(file_path)
@@ -1638,6 +1683,15 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
 
         # Validate with severity
         is_valid, has_blocking, blocking_errs, non_blocking_errs = run_validation(file_path)
+
+        # Curation-safety (2B): never drop graph structure the orphan-connection work
+        # added — a dropped transition re-orphans a submission. Treat as blocking so the
+        # existing revert+retry loop re-prompts Claude (with the dropped names) to restore it.
+        preservation_errs = check_structural_preservation(original_data, fixed_content, category)
+        if preservation_errs:
+            blocking_errs = preservation_errs + blocking_errs
+            has_blocking = True
+            is_valid = False
 
         if is_valid:
             # Fully valid
