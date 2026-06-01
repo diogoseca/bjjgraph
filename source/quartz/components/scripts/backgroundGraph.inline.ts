@@ -398,12 +398,10 @@ function settleEmphasis(keepId: string, duration: number) {
 // CSS transform over --drawer-progress (scroll-driven), but tweening scrollY
 // per-frame paints two frames late (via contentPanel's scroll→rAF chain) and
 // stutters. Instead, set an <html data-drawer-rising> marker and let CSS
-// transition .page's transform and #graph-overlay's opacity to their content
-// values on the compositor — smooth, and immune to the main-thread graph render.
-// The overlay's backdrop-filter is dropped for the duration (its per-frame
-// full-viewport re-blur over the live WebGL graph is the dominant cost). On
-// transitionend we reconcile scrollY + --drawer-progress to the content dock
-// before clearing the marker, so the base var-driven rules resume seamlessly. ---
+// transition .page's transform to its content value on the compositor — smooth,
+// and immune to the main-thread graph render. On transitionend we reconcile
+// scrollY + --drawer-progress to the content dock before clearing the marker, so
+// the base var-driven rules resume seamlessly. ---
 function riseToContent() {
   const de = document.documentElement
   const dockTo = () =>

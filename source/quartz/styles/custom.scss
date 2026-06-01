@@ -68,8 +68,13 @@ body[data-slug="index"] {
     }
   }
 
+  // The base #graph-overlay is inert (no tint); the cinematic intro repaints it
+  // here as the dark backdrop that holds, then fades to reveal the live graph.
   #graph-overlay {
     display: block !important;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     opacity: 1;
     animation: home-overlay-fade 5s ease-out forwards;
     pointer-events: none;
@@ -2925,8 +2930,9 @@ html {
   z-index: -1;
 }
 
-// Dark blur overlay between graph and content (dark-mode only, hardcoded).
-// Opacity is a pure expression over --drawer-progress — no transition.
+// Full-viewport layer between graph and content. Inert by default — no tint, no
+// blur, so scrolling up reveals the live graph (and its nodes) cleanly. Only the
+// cinematic home intro repaints it (see body[data-slug="index"] #graph-overlay).
 #graph-overlay {
   position: fixed;
   top: 0;
@@ -2934,12 +2940,8 @@ html {
   width: 100vw;
   height: 100svh;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
   pointer-events: none;
-  will-change: opacity;
-  opacity: var(--drawer-progress);
+  opacity: 0;
 }
 
 // Content card floats above graph — 80% opaque drawer with rounded top bevel.
@@ -2983,25 +2985,16 @@ html {
 
 // Graph-click drawer rise: a real CSS transition instead of a JS scroll tween.
 // backgroundGraph.inline.ts sets [data-drawer-rising] on <html> for the rise's
-// duration; .page's transform and #graph-overlay's opacity animate to their
-// content-mode values on the compositor (immune to the main-thread WebGL
-// render), and the full-viewport backdrop-filter is dropped while it plays (its
-// per-frame re-blur over the live graph is the dominant rise cost). On
-// transitionend the JS reconciles scrollY/--drawer-progress to the dock and
-// clears the marker, so these base values match and there's no snap.
+// duration; .page's transform animates to its content-mode value on the
+// compositor (immune to the main-thread WebGL render). On transitionend the JS
+// reconciles scrollY/--drawer-progress to the dock and clears the marker, so the
+// base value matches and there's no snap.
 html[data-drawer-rising] .page {
   transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(var(--content-peek)); // == base transform at progress 0
 }
-html[data-drawer-rising] #graph-overlay {
-  transition: opacity 0.55s cubic-bezier(0.4, 0, 0.2, 1);
-  opacity: 0;
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-}
 @media (prefers-reduced-motion: reduce) {
-  html[data-drawer-rising] .page,
-  html[data-drawer-rising] #graph-overlay {
+  html[data-drawer-rising] .page {
     transition-duration: 0.001s;
   }
 }
