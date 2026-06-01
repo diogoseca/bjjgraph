@@ -109,6 +109,18 @@ description: "{{ data.description }}"
 }
 </script>
 
+{% if data.summary %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "{{ data.name }}",
+  "description": "{{ data.summary }}",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+{% endif %}
+
 {# Flexbox wrapper for CSS order-based A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -130,6 +142,9 @@ description: "{{ data.description }}"
 
 <section id="overview" class="content-section">
 
+{% if data.summary %}**{{ data.summary }}**
+
+{% endif -%}
 {{ data.overview }}
 
 </section>

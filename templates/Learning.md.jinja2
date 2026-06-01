@@ -56,6 +56,18 @@ description: "{{description}}"
 }
 </script>
 
+{% if summary %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "{{ name }}",
+  "description": "{{ summary }}",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+{% endif %}
+
 > **Category**: {{category}}
 
 {# Flexbox wrapper #}
@@ -65,7 +77,10 @@ description: "{{description}}"
 
 ## What is {{name}}?
 
-{{overview}}
+{% if summary %}**{{ summary }}**
+
+{% endif -%}
+{{ overview }}
 
 </section>
 

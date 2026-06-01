@@ -78,6 +78,18 @@ description: "{{description}}"
 }
 </script>
 
+{% if summary %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "{{ name }}",
+  "description": "{{ summary }}",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+{% endif %}
+
 > ⚠️ **SAFETY**: {{name}} targets the {{target_area}}. Risk: {{safety_considerations.injury_risks[0].injury}}. Release immediately upon tap.
 
 {# Flexbox wrapper for A/B testing #}
@@ -85,7 +97,10 @@ description: "{{description}}"
 
 <section id="overview" class="content-section">
 
-{{overview}}
+{% if summary %}**{{ summary }}**
+
+{% endif -%}
+{{ overview }}
 
 **Category**: {{submission_category}}
 **Type**: {{submission_type}}

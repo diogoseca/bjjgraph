@@ -44,6 +44,18 @@ description: "{{ description }}"
 }
 </script>
 
+{% if summary %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "{{ name }}",
+  "description": "{{ summary }}",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+{% endif %}
+
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
@@ -72,6 +84,9 @@ description: "{{ description }}"
 
 <section id="overview" class="content-section">
 
+{% if summary %}**{{ summary }}**
+
+{% endif -%}
 {{ overview }}
 
 **From Position**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})

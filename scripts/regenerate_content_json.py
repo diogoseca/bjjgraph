@@ -622,6 +622,7 @@ REQUIREMENTS:
 - Fix all broken references using ONLY flat names from the valid reference lists above
 - For Position references: ALWAYS use specific child variant names when available (e.g., 'Mount Top' not 'Mount')
 - Match the TEMPLATE structure exactly
+- Author a root-level `summary`: ONE self-contained sentence (~15-40 words) that directly DEFINES this entity (answer-first — AI answer engines quote the first sentence). It must read standalone and be distinct from `overview`, which must NOT repeat it.
 - All content must be technically accurate and reflect BJJ best practices
 - Safety sections must be comprehensive (especially for submissions)
 """
@@ -940,8 +941,12 @@ PRINCIPLES_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instruct
 
 ### 4. Author the Answer-First `summary` (REQUIRED for AI/LLM SEO)
 - Add a `summary` field: ONE self-contained sentence (~15-40 words) that directly DEFINES the principle, e.g. "A wedge is any body part inserted into a gap to pry space open, redirect force, or block an opponent's movement."
-- It must read as a standalone definition an AI answer engine can quote verbatim — lead with "A {name} is..." or "{name} are...".
+- It must read as a standalone definition an AI answer engine can quote verbatim — lead with "A {filename} is..." or "{filename} are...".
 - The `overview` must NOT repeat the summary sentence; start the overview with broader context/history instead.
+
+### 5. Author flashcards (6-12 Q&A pairs — REQUIRED for the training deck)
+- Add a `flashcards` array of 6-12 {{question, answer}} pairs covering recognition, application, key mechanics, and common errors of this principle.
+- Each `answer` must be 50+ characters and self-contained; each `question` ends with "?".
 
 ## Valid References by Category (ONLY use names from these lists):
 
@@ -1014,8 +1019,12 @@ SYSTEMS_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor 
 
 ### 4. Author the Answer-First `summary` (REQUIRED for AI/LLM SEO)
 - Add a `summary` field: ONE self-contained sentence (~15-40 words) that directly DEFINES the system, e.g. "The Kimura Trap System is a control-and-submission framework that uses the figure-four grip to chain back takes, sweeps, and kimura finishes."
-- It must read as a standalone definition an AI answer engine can quote verbatim — lead with "The {name} is...".
+- It must read as a standalone definition an AI answer engine can quote verbatim — lead with "The {filename} is...".
 - The `overview` must NOT repeat the summary sentence; start the overview with broader context/history instead.
+
+### 5. Author flashcards (6-12 Q&A pairs — REQUIRED for the training deck)
+- Add a `flashcards` array of 6-12 {{question, answer}} pairs covering recognition, application, key mechanics, and common errors of this system.
+- Each `answer` must be 50+ characters and self-contained; each `question` ends with "?".
 
 ## Valid References by Category (ONLY use names from these lists):
 
