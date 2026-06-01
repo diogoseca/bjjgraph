@@ -68,6 +68,7 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     ...breadcrumbs,
     Component.ArticleTitle(),
+    Component.ContentMeta({ showReadingTime: false }),
     Component.VictoryDisplay(),
     Component.TreeExplorer(),
     Component.MoveCards(),

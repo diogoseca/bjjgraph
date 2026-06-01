@@ -36,6 +36,30 @@ export default (() => {
     // Get extracted schemas from SchemaExtractor transformer
     const extractedSchemas = fileData.schemas || []
 
+    // Brand/site as the institutional publisher — an Organization, never a Person
+    // (content is co-authored). Plus freshness dates from CreatedModifiedDate.
+    const publisher = {
+      "@type": "Organization",
+      name: "BJJ Graph",
+      url: `https://${cfg.baseUrl}`,
+    }
+    const published = fileData.dates?.created?.toISOString()
+    const modified = fileData.dates?.modified?.toISOString()
+    // Stamp page-level entities with publisher + dates (signals AI answer engines
+    // use). CollectionPage covers the submission family hubs.
+    const enrichSchema = (schema: any) => {
+      const t = schema?.["@type"]
+      if (t === "WebPage" || t === "Article" || t === "CollectionPage") {
+        return {
+          ...schema,
+          ...(published ? { datePublished: published } : {}),
+          ...(modified ? { dateModified: modified } : {}),
+          publisher,
+        }
+      }
+      return schema
+    }
+
     return (
       <head>
         <title>{title}</title>
@@ -83,7 +107,7 @@ export default (() => {
             key={`schema-${i}`}
             type="application/ld+json"
             dangerouslySetInnerHTML={{
-              __html: JSON.stringify(schema),
+              __html: JSON.stringify(enrichSchema(schema)),
             }}
           />
         ))}

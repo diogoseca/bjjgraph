@@ -103,7 +103,11 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
+        // "git" = last-commit date per file (real, per-page). Without it, generated
+        // .md share one filesystem birth time → identical "Last updated" everywhere
+        // (the bug that got ContentMeta removed in v1.36.1). Needs git history at
+        // build time (fetch-depth: 0); falls back to filesystem if unavailable.
+        priority: ["frontmatter", "git", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
