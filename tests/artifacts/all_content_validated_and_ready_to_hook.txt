@@ -764,7 +764,6 @@ content/Transitions/Bridge to Mount from High Mount.json
 content/Transitions/Buggy Choke to Front Headlock.json
 content/Transitions/Buggy Choke to North-South.json
 content/Transitions/Buggy Choke to Side Control.json
-content/Transitions/Bullfighter Pass.json
 content/Transitions/Bull Pass from Collar Sleeve.json
 content/Transitions/Bull Pass from Seated.json
 content/Transitions/Butterfly Guard Pull.json
@@ -1044,7 +1043,6 @@ content/Transitions/High Mount Transition.json
 content/Transitions/Hindulotine to Anaconda Choke.json
 content/Transitions/Hindulotine to Darce Choke.json
 content/Transitions/Hip Bump Sweep.json
-content/Transitions/Hip Bump Sweep V2.json
 content/Transitions/Hip Escape from Back Control.json
 content/Transitions/Hip Escape from Cross Body Ride.json
 content/Transitions/Hip Escape from Crucifix.json
@@ -1117,7 +1115,6 @@ content/Transitions/Kneebar to 50-50 Transition.json
 content/Transitions/Kneebar to Ashi Garami.json
 content/Transitions/Knee Cut from Feet on Hips.json
 content/Transitions/Knee Cut from Headquarters.json
-content/Transitions/Knee Cut Pass.json
 content/Transitions/Knee Extraction.json
 content/Transitions/Knee on Belly.json
 content/Transitions/Knee Pin from X-Guard.json
