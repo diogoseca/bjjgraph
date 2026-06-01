@@ -18,8 +18,12 @@ jobs:
             echo "SUPABASE_URL not set, skipping"
             exit 0
           fi
+          # Query a real table (RLS filters rows -> empty 200 for the publishable key)
+          # rather than the /rest/v1/ root, which now rejects publishable keys (401)
+          # under Supabase's new sb_publishable_/sb_secret_ key format. This also
+          # exercises PostgREST + Postgres, registering genuine activity.
           STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
-            "${{ secrets.SUPABASE_URL }}/rest/v1/" \
+            "${{ secrets.SUPABASE_URL }}/rest/v1/user_training_data?select=id&limit=1" \
             -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}")
           echo "Supabase ping status: $STATUS"
           if [ "$STATUS" -ge 400 ]; then
