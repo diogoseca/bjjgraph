@@ -28,6 +28,9 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # make the shared helper importable
+from claude_infer import call_claude as _infer_call_claude
+
 try:
     from tqdm import tqdm
 except ImportError:  # CI / minimal envs without tqdm — degrade to a plain iterator
@@ -91,44 +94,9 @@ def detect_category(file_path: Path) -> str:
 # =============================================================================
 
 def call_claude(prompt: str, response_schema: dict, timeout: int = 300) -> Tuple[Optional[str], Optional[str]]:
-    """Call Claude CLI with structured JSON output."""
-    try:
-        result = subprocess.run(
-            [
-                "claude",
-                "-p", prompt,
-                "--model", CLAUDE_MODEL,
-                "--effort", CLAUDE_EFFORT,
-                "--permission-mode", "dontAsk",  # locked-down: pure inference, no tools (CI-safe)
-                "--output-format", "json",
-                "--json-schema", json.dumps(response_schema),
-            ],
-            capture_output=True,
-            text=True,
-            timeout=timeout,
-            cwd=Path.cwd(),
-        )
-
-        if result.returncode != 0:
-            return None, f"Claude CLI error: {result.stderr}"
-
-        try:
-            cli_output = json.loads(result.stdout)
-            structured = cli_output.get("structured_output")
-            if structured is not None:
-                if isinstance(structured, dict):
-                    return json.dumps(structured), None
-                return structured, None
-            return cli_output.get("result", result.stdout.strip()), None
-        except (json.JSONDecodeError, KeyError):
-            return result.stdout.strip(), None
-
-    except subprocess.TimeoutExpired:
-        return None, "Claude CLI timeout"
-    except FileNotFoundError:
-        return None, "Claude CLI not found - ensure 'claude' is in PATH"
-    except Exception as e:
-        return None, f"Claude CLI exception: {e}"
+    """Structured Claude inference via the shared helper (scripts/claude_infer.py):
+    read-only tools (explore but never write), forced structured output, usage-limit backoff."""
+    return _infer_call_claude(prompt, response_schema, CLAUDE_MODEL, CLAUDE_EFFORT, timeout=timeout)
 
 
 def extract_json(response: str) -> Tuple[Optional[dict], Optional[str]]:

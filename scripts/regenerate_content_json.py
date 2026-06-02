@@ -38,6 +38,7 @@ if _repo_root not in sys.path:
     sys.path.insert(0, _repo_root)
 
 from scripts.validate_json import validate_json_file as _validate_json_file, load_schema, detect_position_template_type, detect_transition_template_type
+from scripts.claude_infer import call_claude as _infer_call_claude
 
 # =============================================================================
 # PATHS
@@ -1237,61 +1238,10 @@ def build_prompt(file_path: Path, data: dict, validation_errors: str, refs: Dict
 # =============================================================================
 
 def call_claude(prompt: str, response_schema: dict, timeout: int = 1800) -> Tuple[Optional[str], Optional[str]]:
-    """Call Claude CLI with structured JSON output."""
-    proc = None
-    try:
-        proc = subprocess.Popen(
-            [
-                "claude",
-                "-p", "-",
-                "--model", CLAUDE_MODEL,
-                "--effort", CLAUDE_EFFORT,
-                "--permission-mode", "dontAsk",  # locked-down: pure inference, no tools (CI-safe)
-                "--output-format", "json",
-                "--json-schema", json.dumps(response_schema)
-            ],
-            stdin=subprocess.PIPE,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True,
-            cwd=Path.cwd()
-        )
-
-        stdout, stderr = proc.communicate(input=prompt, timeout=timeout)
-
-        if proc.returncode != 0:
-            return None, f"Claude CLI error: {stderr}"
-
-        # --output-format json wraps response in {"type":"result","result":"...","structured_output":...}
-        # When using --json-schema, the schema-constrained JSON is in "structured_output"
-        # The "result" field contains plain text explanation
-        try:
-            cli_output = json.loads(stdout)
-            # Check structured_output first (for --json-schema), fall back to result
-            structured = cli_output.get("structured_output")
-            if structured is not None:
-                # structured_output is already a dict/object when present
-                if isinstance(structured, dict):
-                    return json.dumps(structured), None
-                return structured, None
-            return cli_output.get("result", stdout.strip()), None
-        except (json.JSONDecodeError, KeyError):
-            return stdout.strip(), None
-
-    except subprocess.TimeoutExpired:
-        if proc:
-            proc.kill()
-            proc.wait()
-        return None, "Claude CLI timeout"
-    except KeyboardInterrupt:
-        if proc:
-            proc.kill()
-            proc.wait()
-        raise
-    except FileNotFoundError:
-        return None, "Claude CLI not found - ensure 'claude' is in PATH"
-    except Exception as e:
-        return None, f"Claude CLI exception: {e}"
+    """Structured Claude inference via the shared helper (scripts/claude_infer.py):
+    read-only tools (explore but never write), a forced structured-output contract, and
+    usage-limit backoff. Returns (structured_json_str, None) or (None, error)."""
+    return _infer_call_claude(prompt, response_schema, CLAUDE_MODEL, CLAUDE_EFFORT, timeout=timeout, log=tprint)
 
 
 def extract_json_from_response(response: str) -> Tuple[Optional[dict], Optional[str]]:
