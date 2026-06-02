@@ -43,6 +43,44 @@ def is_peak(now_pt: datetime) -> bool:
     return now_pt.weekday() in PEAK_DAYS and PEAK_START_HOUR <= now_pt.hour < PEAK_END_HOUR
 
 
+def throttle_if_peak(minutes: int = 30, until_offpeak: bool = False, log=print) -> bool:
+    """If it's currently peak (weekday 05:00-11:00 PT), announce + wait; return True iff it
+    waited. Off-peak / disabled → returns False silently (so callers in a loop don't spam).
+    Reusable from the regenerate batch loop as well as the CLI."""
+    if os.environ.get("PEAK_THROTTLE_DISABLE") == "1" or PACIFIC is None:
+        return False
+    now = datetime.now(PACIFIC)
+    if not is_peak(now):
+        return False
+    if until_offpeak:
+        resume = now.replace(hour=PEAK_END_HOUR, minute=0, second=0, microsecond=0)
+        wait = max(0, int((resume - now).total_seconds()))
+        why = f"until {resume:%H:%M} PT (peak window ends)"
+    else:
+        wait = max(0, minutes) * 60
+        resume = now + timedelta(seconds=wait)
+        why = f"{minutes} min"
+    bar = "=" * 70
+    for line in (
+        bar,
+        f"[peak-throttle] PEAK HOURS  —  {now:%a %Y-%m-%d %H:%M} PT",
+        "[peak-throttle] Anthropic peak window is 05:00-11:00 PT on weekdays: the rolling",
+        "[peak-throttle] 5-hour SESSION limit drains faster now (weekly cap unchanged). This is",
+        f"[peak-throttle] a token-intensive run, so THROTTLING {why} before the next generation,",
+        "[peak-throttle] to avoid burning the session budget in a burst.",
+        f"[peak-throttle] Resuming ~{resume:%H:%M} PT  ·  Ctrl-C to skip the wait.",
+        bar,
+    ):
+        log(line)
+    try:
+        time.sleep(wait)
+    except KeyboardInterrupt:
+        log("[peak-throttle] wait skipped by user — proceeding.")
+        return True
+    log(f"[peak-throttle] resumed at {datetime.now(PACIFIC):%H:%M} PT — proceeding.")
+    return True
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Throttle gate for Anthropic peak hours (05:00-11:00 PT, Mon-Fri).")
     ap.add_argument("--minutes", type=int, default=int(os.environ.get("PEAK_THROTTLE_MIN", "30")),
@@ -51,40 +89,12 @@ def main() -> int:
                     help="Wait until 11:00 PT instead of a fixed nap.")
     args = ap.parse_args()
 
-    if os.environ.get("PEAK_THROTTLE_DISABLE") == "1" or PACIFIC is None:
-        print("[peak-throttle] disabled — proceeding immediately.", flush=True)
-        return 0
+    def _log(m):
+        print(m, flush=True)
 
-    now = datetime.now(PACIFIC)
-    if not is_peak(now):
-        print(f"[peak-throttle] {now:%a %H:%M} PT — OFF-PEAK, proceeding immediately.", flush=True)
-        return 0
-
-    if args.until_offpeak:
-        resume = now.replace(hour=PEAK_END_HOUR, minute=0, second=0, microsecond=0)
-        wait = max(0, int((resume - now).total_seconds()))
-        why = f"until {resume:%H:%M} PT (peak window ends)"
-    else:
-        wait = max(0, args.minutes) * 60
-        resume = now + timedelta(seconds=wait)
-        why = f"{args.minutes} min"
-
-    bar = "=" * 70
-    print(bar, flush=True)
-    print(f"[peak-throttle] PEAK HOURS  —  {now:%a %Y-%m-%d %H:%M} PT", flush=True)
-    print("[peak-throttle] Anthropic peak window is 05:00-11:00 PT on weekdays: the rolling", flush=True)
-    print("[peak-throttle] 5-hour SESSION limit drains faster now (weekly cap unchanged). This is", flush=True)
-    print(f"[peak-throttle] a token-intensive run, so THROTTLING {why} before the next generation,", flush=True)
-    print("[peak-throttle] to avoid burning the session budget in a burst.", flush=True)
-    print(f"[peak-throttle] Resuming ~{resume:%H:%M} PT  ·  Ctrl-C to skip the wait.", flush=True)
-    print(bar, flush=True)
-
-    try:
-        time.sleep(wait)
-    except KeyboardInterrupt:
-        print("\n[peak-throttle] wait skipped by user — proceeding.", flush=True)
-        return 0
-    print(f"[peak-throttle] resumed at {datetime.now(PACIFIC):%H:%M} PT — proceeding.", flush=True)
+    if not throttle_if_peak(args.minutes, args.until_offpeak, log=_log):
+        when = f"{datetime.now(PACIFIC):%a %H:%M} PT — " if PACIFIC else ""
+        _log(f"[peak-throttle] {when}OFF-PEAK, proceeding immediately.")
     return 0
 
 

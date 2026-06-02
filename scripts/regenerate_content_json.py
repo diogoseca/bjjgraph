@@ -39,6 +39,7 @@ if _repo_root not in sys.path:
 
 from scripts.validate_json import validate_json_file as _validate_json_file, load_schema, detect_position_template_type, detect_transition_template_type
 from scripts.claude_infer import call_claude as _infer_call_claude
+from scripts.peak_throttle import throttle_if_peak
 
 # =============================================================================
 # PATHS
@@ -1875,6 +1876,15 @@ Examples:
                        help="Number of parallel workers (default: 1, use with --batch)")
     parser.add_argument("--verbose", "-v", action="store_true",
                        help="Verbose output")
+    parser.add_argument("--peak-throttle", action="store_true",
+                       help="During Anthropic peak hours (weekday 05:00-11:00 PT) pause for "
+                            "--peak-throttle-min minutes every --peak-throttle-every files, so an "
+                            "intensive run spreads across the 5h session window. Set "
+                            "PEAK_THROTTLE_DISABLE=1 to force off.")
+    parser.add_argument("--peak-throttle-every", type=int, default=25,
+                       help="Files between peak-hours throttle checks (default 25).")
+    parser.add_argument("--peak-throttle-min", type=int, default=30,
+                       help="Minutes to pause when peak (default 30).")
 
     args = parser.parse_args()
 
@@ -1981,6 +1991,13 @@ Domain-specific prompts:
                     file_result = process_file(file_path, refs, args.dry_run, args.max_retries, args.verbose,
                                                label=f"{i+1}/{len(files)}")
                     run_summary["files"].append({"file": str(file_path), **file_result})
+
+                    # Proactive peak-hours throttle: every N files, pause if we're in the
+                    # Anthropic peak window (weekday 05:00-11:00 PT) so an intensive run doesn't
+                    # burn the 5h session budget in a burst. No-op off-peak / non-batch.
+                    if (args.peak_throttle and not args.dry_run and i < len(files) - 1
+                            and (i + 1) % max(1, args.peak_throttle_every) == 0):
+                        throttle_if_peak(args.peak_throttle_min, log=tprint)
 
                     # Wait between files (skip in batch mode)
                     if i < len(files) - 1 and not args.dry_run and not args.batch:

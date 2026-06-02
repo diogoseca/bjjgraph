@@ -93,7 +93,7 @@ def detect_category(file_path: Path) -> str:
 # CLAUDE INTERACTION (matches regenerate_content_json.py pattern)
 # =============================================================================
 
-def call_claude(prompt: str, response_schema: dict, timeout: int = 300) -> Tuple[Optional[str], Optional[str]]:
+def call_claude(prompt: str, response_schema: dict, timeout: int = 900) -> Tuple[Optional[str], Optional[str]]:
     """Structured Claude inference via the shared helper (scripts/claude_infer.py):
     read-only tools (explore but never write), forced structured output, usage-limit backoff."""
     return _infer_call_claude(prompt, response_schema, CLAUDE_MODEL, CLAUDE_EFFORT, timeout=timeout)
