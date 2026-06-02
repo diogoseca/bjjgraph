@@ -4,12 +4,15 @@
 Replaces the raw, backoff-less `call_claude` previously copy-pasted into
 regenerate_content_json.py and proofread_all_transitions.py. Three guarantees:
 
-1. READ-ONLY tools — Claude may explore context (Read/Grep/Glob) but cannot write
-   anything (Write/Edit/MultiEdit/NotebookEdit/Bash are denied). The ONLY output is
-   the structured JSON, which the *caller* persists — never Claude.
-2. FORCED structured output — an explicit output contract plus prose-detection retry,
-   so Claude never returns "nothing to change" prose (or an empty object) instead of
-   the JSON.
+1. TOOL-LESS by default — a single-turn structured-inference call (fast + reliable; the
+   prompt already injects the file's content + related context + reference lists). With
+   tools the call goes multi-turn/agentic and much slower for little gain. Opt into
+   read-only exploration via CLAUDE_INFER_TOOLS=readonly; writes are ALWAYS denied. The
+   only thing written is the JSON output — by the *caller*, never Claude.
+2. JSON output — returns `structured_output` when the CLI populates it (small schemas);
+   otherwise returns the `result` text (for large schemas claude emits the JSON as a
+   ```json block and leaves structured_output null) so the caller's extractor parses it.
+   An output contract discourages "nothing to change" prose.
 3. USAGE-LIMIT BACKOFF — ports scripts/retry-claude.zsh: on a real usage/rate limit,
    parse the server-stated reset (retry-after / epoch / "in 2h 14m" / "resets at 3pm")
    and wait until it (+buffer); never honor a multi-day weekly block or two parsed
@@ -33,9 +36,15 @@ import time
 from datetime import datetime
 from typing import Optional, Tuple
 
-# Writes denied; read-only exploration allowed (Read/Grep/Glob remain auto-approved
-# under dontAsk). Bash is denied because it can write via redirection.
-DENY_TOOLS = "Write,Edit,MultiEdit,NotebookEdit,Bash"
+# Tool policy. DEFAULT = no tools: a single-turn structured-inference call. That is fast
+# and reliable, and the prompt already injects the file's content + related context +
+# reference lists, so Claude rarely needs to read anything live. With tools enabled the
+# call goes multi-turn/agentic (Read/Grep/Glob), which is much slower and offers little
+# extra signal here. Set CLAUDE_INFER_TOOLS=readonly to allow read-only exploration
+# (writes — Write/Edit/MultiEdit/NotebookEdit/Bash — are denied either way).
+_WRITE_TOOLS = "Write,Edit,MultiEdit,NotebookEdit,Bash"
+_ALL_TOOLS = _WRITE_TOOLS + ",Read,Grep,Glob,WebFetch,WebSearch,Task,TodoWrite"
+DENY_TOOLS = _WRITE_TOOLS if os.environ.get("CLAUDE_INFER_TOOLS") == "readonly" else _ALL_TOOLS
 
 # Backoff tunables (mirror retry-claude.zsh). Override via env — e.g. CI sets a short
 # BACKOFF_CAP / MAX_PARSED_WAIT so a limit wait can't blow the Actions job timeout.
@@ -45,15 +54,13 @@ BUFFER = int(os.environ.get("CLAUDE_BUFFER", "15"))
 BACKOFF_BASE = int(os.environ.get("CLAUDE_BACKOFF_BASE", "30"))
 BACKOFF_CAP = int(os.environ.get("CLAUDE_BACKOFF_CAP", "900"))
 MAX_PARSED_WAIT = int(os.environ.get("CLAUDE_MAX_PARSED_WAIT", "18000"))  # ~5h session window
-PROSE_RETRIES = int(os.environ.get("CLAUDE_PROSE_RETRIES", "2"))
 
 _OUTPUT_CONTRACT = (
     "\n\n## OUTPUT CONTRACT (mandatory)\n"
-    "Return the COMPLETE object via the structured output every time — including when the "
-    "input already looks valid (in that case return the current content unchanged as "
-    "`fixed_content`). NEVER reply with prose, an explanation, or 'nothing to change'. "
-    "You MAY use read-only tools (Read/Grep/Glob) to gather context, but you may not write "
-    "any file — the only thing you produce is the structured JSON."
+    "Return the COMPLETE object as JSON (the `fixed_content` plus the other required "
+    "fields), even when the input already looks valid — in that case return the current "
+    "content unchanged as `fixed_content`. NEVER reply with prose, an explanation, or "
+    "'nothing to change'; the only thing you produce is the JSON object."
 )
 
 
@@ -166,7 +173,6 @@ def call_claude(
     cur_prompt = prompt + _OUTPUT_CONTRACT
     attempt = 0
     backoff_n = 0
-    prose_n = 0
     last_was_parsed = False
     last_err = "(no attempts)"
     while attempt < MAX_ATTEMPTS:
@@ -192,30 +198,23 @@ def call_claude(
             raise
 
         structured, result_text, is_err = _extract_cli(stdout)
-
-        # SUCCESS: exit 0 with a non-empty structured object (empty {} is NOT success).
-        if rc == 0 and structured:
-            return (json.dumps(structured) if isinstance(structured, (dict, list)) else structured), None
-
-        # Classify the non-success outcome. A limit can be a non-zero exit OR exit-0 with
-        # is_error + a limit message in `result`. Everything else with no structured output
-        # but a clean exit is prose → force-retry.
         scan = (stdout or "") + "\n" + (stderr or "") + "\n" + result_text
         is_limit = _looks_like_limit(scan)
-        hard_error = (rc != 0) or is_err
 
-        if rc == 0 and not hard_error and not is_limit:
-            if prose_n < PROSE_RETRIES:
-                prose_n += 1
-                log(f"  [claude] prose/empty instead of JSON — re-prompting ({prose_n}/{PROSE_RETRIES})")
-                cur_prompt = (
-                    prompt + _OUTPUT_CONTRACT
-                    + "\n\nYour previous reply was prose/empty and was REJECTED. Emit ONLY the complete structured JSON now."
-                )
-                continue
-            return None, "Claude returned prose/empty instead of structured output (after force-retries)"
+        if rc == 0 and not is_err:
+            # Preferred: a populated structured_output (small/simple schemas).
+            if structured:
+                return (json.dumps(structured) if isinstance(structured, (dict, list)) else structured), None
+            # Common for large schemas: claude emits the JSON in `result` (usually a ```json
+            # block) and leaves structured_output null. Hand it back so the caller's
+            # extract_json_from_response (which strips code fences) + retry loop parse it.
+            if result_text:
+                return result_text, None
+            if not is_limit:
+                return None, "Claude returned an empty response"
+            # empty + limit-flavored → fall through to backoff
 
-        # Error / limit → back off and retry the same prompt.
+        # rc != 0, is_error, or empty+limit → back off and retry the same prompt.
         last_err = (result_text or stderr or stdout or "").strip() or "(empty)"
         if attempt >= MAX_ATTEMPTS:
             break
