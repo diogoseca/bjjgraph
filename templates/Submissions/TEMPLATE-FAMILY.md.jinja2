@@ -51,10 +51,43 @@ description: "{{ description }}"
 </script>
 {% endif %}
 
-> **SAFETY**: {{ name }} targets the {{ target_area }}. Risk: {{ safety_considerations.injury_risks[0].injury }}. Release immediately upon tap.
+{# FAQPage schema — answer-first summary + the drillable variants + the top safety risk (template-available data only) #}
+{% if summary or variants_comparison %}
+{%- set faqns = namespace(positions=[]) %}
+{%- for v in variants_comparison %}{% set _ = faqns.positions.append(v.from_position.split('/')[0] if '/' in v.from_position else v.from_position) %}{% endfor %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+{%- if summary %}
+    { "@type": "Question", "name": "What is the {{ name }}?", "acceptedAnswer": { "@type": "Answer", "text": {{ summary | tojson }} } },
+{%- endif %}
+{%- if variants_comparison %}
+    { "@type": "Question", "name": "What positions can you finish the {{ name }} from?", "acceptedAnswer": { "@type": "Answer", "text": {{ ("You can finish the " ~ name ~ " from " ~ (faqns.positions | unique | join(", ")) ~ ".") | tojson }} } },
+{%- endif %}
+    { "@type": "Question", "name": "Is the {{ name }} dangerous?", "acceptedAnswer": { "@type": "Answer", "text": {{ (name ~ " targets the " ~ target_area ~ ". Primary risk: " ~ safety_considerations.injury_risks[0].injury ~ ". Tap early and release immediately on the tap.") | tojson }} } }
+  ]
+}
+</script>
+{% endif %}
 
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+{# Answer-first summary leads the page (guarded so pages render before the summary backfill lands) #}
+{% if summary %}**{{ summary }}**
+{% endif -%}
+
+<div class="principle-meta">
+<span class="meta-chip">{{ submission_category }}</span>
+<span class="meta-chip">{{ submission_type }}</span>
+<span class="meta-chip">Targets {{ target_area }}</span>
+<span class="meta-chip">~{{ success_rate }}% avg</span>
+</div>
+
+> [!danger] Safety
+> {{ name }} targets the {{ target_area }}. Primary risk: {{ safety_considerations.injury_risks[0].injury }}. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 {% if (aliases is defined and aliases) or (family is defined and family) or (disambiguations is defined and disambiguations) -%}
 <aside class="entity-relations">
@@ -72,32 +105,57 @@ description: "{{ description }}"
 </aside>
 {% endif -%}
 
+<section id="overview" class="content-section">
+
+{{ overview }}
+
+</section>
+
 {% if variants_comparison %}
 <section id="variants" class="content-section">
 
-## Position Variants
+## What positions can you finish from?
 
-| From Position | Success Rate | Top Injury Risk | Key Difference |
-|---------------|-------------|-----------------|----------------|
+{# From Position label is role-stripped (split('/')[0]); the wikilink slug uses v.variant_name verbatim (e.g. label "Rodeo Ride" but slug "from Rodeo"). Both are correct — do not "fix" the mismatch. Play-as cells are gated on v.is_dual so non-dual families degrade to "—" instead of dangling links. #}
+<div class="variants-table">
+
+| From Position | Seat | Success | Play as Attacker | Play as Defender |
+|---|---|---|---|---|
 {% for v in variants_comparison -%}
-| [[{{ name }}/{{ v.variant_name }}|{{ v.from_position.split('/')[0] if '/' in v.from_position else v.from_position }}]] | {{ v.success_rate }}% | {{ v.top_risk }} | {{ v.uniqueness }} |
+| [[Submissions/{{ name }}/{{ v.variant_name }}|{{ v.from_position.split('/')[0] if '/' in v.from_position else v.from_position }}]] | {{ v.seat }} | {{ v.success_rate }}% | {% if v.is_dual %}[[Submissions/{{ name }}/{{ v.variant_name }}/Attacker|Attack →]]{% else %}—{% endif %} | {% if v.is_dual %}[[Submissions/{{ name }}/{{ v.variant_name }}/Defender|Defend →]]{% else %}—{% endif %} |
 {% endfor %}
+
+</div>
+
+{% if variations_and_setups is defined and variations_and_setups %}
+<details class="mechanical-variations">
+<summary>Mechanical variations (how the choke is finished)</summary>
+
+{% for variant in variations_and_setups -%}
+- **{{ variant.variation_name }}**: {{ variant.description }}{% if variant.when_to_use %} (When to use: {{ variant.when_to_use }}){% endif %}
+{% endfor %}
+
+</details>
+{% endif %}
 
 </section>
 {% endif %}
 
-<section id="overview" class="content-section">
+<section id="related" class="content-section">
 
-{% if summary %}**{{ summary }}**
+## Related
 
-{% endif -%}
-{{ overview }}
-
-**Category**: {{ submission_category }}
-**Type**: {{ submission_type }}
-**Target Area**: {{ target_area }}
-**Success Rate**: {{ success_rate }}% (average across variants)
-
+{%- set relns = namespace(items=[], seen=[]) %}
+{%- for item in (related_submissions + related_content) %}
+{%- set iname = item.name if item is mapping else item %}
+{%- if iname | lower != name | lower and iname | lower not in relns.seen and resolve.page_exists(iname) %}
+{%- set _ = relns.seen.append(iname | lower) %}
+{%- set _ = relns.items.append(item) %}
+{%- endif %}
+{%- endfor %}
+{% for item in relns.items -%}
+- [[{{ resolve(item.name if item is mapping else item) }}]]{% if item is mapping and item.relationship %} - {{ item.relationship }}{% endif %}
+{% endfor %}
 </section>
 
 <section id="safety-considerations" class="content-section">
@@ -128,59 +186,6 @@ description: "{{ description }}"
 {% for restriction in safety_considerations.training_restrictions -%}
 - {{ restriction }}
 {% endfor %}
-
-</section>
-
-{% if variations_and_setups is defined and variations_and_setups %}
-<section id="variation-details" class="content-section hide-minimal">
-
-## Variation Details
-
-{% for variant in variations_and_setups %}
-**{{ variant.variation_name }}**: {{ variant.description }}{% if variant.when_to_use %} (When to use: {{ variant.when_to_use }}){% endif %}
-
-{% endfor %}
-
-</section>
-{% endif %}
-
-<section id="from-positions" class="content-section">
-
-## From Which Positions?
-
-{% for position in from_positions -%}
-- [[{{ resolve(position) }}]]
-{% endfor %}
-
-</section>
-
-<section id="related-submissions" class="content-section">
-
-## Related Submissions
-
-{% for submission in related_submissions -%}
-- [[{{ resolve(submission.name if submission is mapping else submission) }}]]{% if submission is mapping and submission.relationship %} - {{ submission.relationship }}{% endif %}
-{% endfor %}
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-{% for item in related_content -%}
-- [[{{ resolve(item.name) }}]] - {{ item.relationship }}
-{% endfor %}
-
-</section>
-
-<section id="terminal-state" class="content-section">
-
-## Match Outcome
-
-Successful execution of {{ name }} leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

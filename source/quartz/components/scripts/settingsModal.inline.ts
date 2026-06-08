@@ -75,6 +75,9 @@ function renderTab(panel: HTMLElement, tab: Tab) {
       const s = loadSettings()
       s.showFlashcards = showFlashcardsCheckbox.checked
       saveSettings(s)
+      // Reflect the change on the current page immediately instead of waiting for
+      // the next SPA navigation (re-runs the flashcard pill's nav handler).
+      document.dispatchEvent(new CustomEvent("nav", { detail: { url: window.location.pathname } }))
     })
   } else {
     panel.innerHTML = `

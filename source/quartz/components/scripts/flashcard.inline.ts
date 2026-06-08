@@ -1,7 +1,7 @@
 // Flashcard - Anki-style 3-button model (Again/Hard/Easy) with SRS.
 // Reads per-page graph data injected at build time (no runtime fetch).
 import { findCard, addCard, reviewCard, masterFlashcard } from "./srs"
-import { incrementLearned, incrementReviewed, updateStreak } from "./settings"
+import { incrementLearned, incrementReviewed, updateStreak, loadSettings } from "./settings"
 import { isInSession, advanceSession, getSession } from "./trainingSession"
 
 type FlashcardPageType = "transition" | "submission" | "position" | "principle" | "system"
@@ -154,6 +154,14 @@ document.addEventListener("nav", () => {
   }
 
   const currentPath = window.location.pathname
+
+  // Respect the "Show flashcards on pages" setting: hide the idle on-page pill
+  // when off, but never while a training session is active (the same nav handler
+  // renders the in-session card below — gating unconditionally would break ▶).
+  if (!loadSettings().showFlashcards && !isInSession()) {
+    container.style.display = "none"
+    return
+  }
 
   if (!data.flashcards || data.flashcards.length === 0) {
     container.style.display = "none"

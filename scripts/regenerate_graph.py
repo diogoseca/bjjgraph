@@ -217,6 +217,59 @@ def dedupe_flashcards(cards: list[dict]) -> list[dict]:
     return out
 
 
+# Family-hub flashcard curation. A family hub (e.g. "rear-naked-choke") aggregates
+# the flashcards of all its from-position variants; raw aggregation yields ~200
+# cards, far more than one trainable session. Curate to a capped, breadth-balanced
+# deck weighted toward the highest-percentage / most-canonical positions.
+HUB_FLASHCARD_CAP = 45
+MIN_PER_VARIANT = 2
+
+# Strips a trailing "from <position>" clause so the same question re-asked per
+# variant position collapses to one card. Conservative + used only as a dedup key.
+_HUB_FROM_CLAUSE = re.compile(r'\s+from\s+[\w\s\-/]+\??$', re.IGNORECASE)
+
+
+def _hub_dedupe_key(question: str) -> str:
+    """Loose normalized key for hub-only near-duplicate collapse (key only —
+    the original card text is preserved)."""
+    q = _HUB_FROM_CLAUSE.sub('', (question or '').strip())
+    return re.sub(r'[^a-z0-9]+', ' ', q.lower()).strip()
+
+
+def curate_hub_flashcards(variants: list[dict]) -> list[dict]:
+    """Curate a family-hub deck from its variants' (already exact-deduped) decks.
+
+    Weighted Top-K per variant (more cards from higher-successRate positions) with
+    a per-variant floor, round-robin interleaved for positional breadth, then a
+    hub-only near-duplicate collapse, hard-capped at HUB_FLASHCARD_CAP.
+    """
+    rates = [max(0.0, float(v.get('successRate') or 0)) for v in variants]
+    total = sum(rates)
+    kept: list[list[dict]] = []
+    for v, rate in zip(variants, rates):
+        cards = v.get('flashcards', [])
+        keep = max(MIN_PER_VARIANT, round(HUB_FLASHCARD_CAP * rate / total)) if total > 0 else MIN_PER_VARIANT
+        kept.append(cards[:keep])
+
+    out: list[dict] = []
+    seen: set[str] = set()
+    i = 0
+    while len(out) < HUB_FLASHCARD_CAP and any(i < len(k) for k in kept):
+        for k in kept:
+            if i >= len(k):
+                continue
+            card = k[i]
+            key = _hub_dedupe_key(card.get('question', ''))
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            out.append(card)
+            if len(out) >= HUB_FLASHCARD_CAP:
+                break
+        i += 1
+    return out
+
+
 def is_neutral_position(slug: str) -> bool:
     base_slug = slug.split('/')[0] if '/' in slug else slug
     return base_slug in NEUTRAL_POSITIONS
@@ -611,16 +664,15 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
     family_hubs: dict[str, dict] = {}
     for family_slug, meta in family_hub_metadata.items():
         prefix = f"{family_slug}-from-"
-        aggregated: list[dict] = []
-        for key, variant in submissions.items():
-            if not key.startswith(prefix):
-                continue
-            aggregated.extend(variant.get('flashcards', []))
+        variant_decks = [
+            variant for key, variant in submissions.items()
+            if key.startswith(prefix)
+        ]
         family_hubs[family_slug] = {
             **meta,
             'isFamily': True,
             'isTerminal': True,
-            'flashcards': dedupe_flashcards(aggregated),
+            'flashcards': curate_hub_flashcards(variant_decks),
         }
 
     return submissions, hub_slugs, family_hubs

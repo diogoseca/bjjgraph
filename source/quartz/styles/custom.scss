@@ -2300,6 +2300,102 @@ summary::-webkit-details-marker {
 }
 
 // ============================================================================
+// Submission family "What positions can you finish from?" variants table
+// ============================================================================
+
+.variants-table {
+  overflow-x: auto; // graceful horizontal scroll on mid-width screens
+
+  // Play-as cells (cols 4 & 5) read as tappable launchers, matching .role-links.
+  td:nth-child(4) a,
+  td:nth-child(5) a {
+    display: inline-block;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid var(--secondary);
+    border-radius: 8px;
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 0.85rem;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 0.15s;
+
+    &:hover {
+      background: var(--secondary);
+      color: var(--light) !important;
+    }
+  }
+}
+
+.mechanical-variations {
+  margin: 0.5rem 0 1.25rem;
+
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--secondary);
+  }
+}
+
+// Mobile: stack each variant row into a self-contained card (no horizontal scroll).
+@media (max-width: 600px) {
+  .variants-table {
+    overflow-x: visible;
+
+    table,
+    thead,
+    tbody,
+    tr,
+    td {
+      display: block;
+      width: auto;
+    }
+
+    thead {
+      display: none;
+    }
+
+    tr {
+      border: 1px solid var(--lightgray);
+      border-radius: 8px;
+      padding: 0.6rem 0.8rem;
+      margin-bottom: 0.6rem;
+    }
+
+    td {
+      border: none;
+      padding: 0.15rem 0;
+    }
+
+    td:nth-child(1) {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    td:nth-child(2),
+    td:nth-child(3) {
+      display: inline-block;
+      font-size: 0.75rem;
+      opacity: 0.7;
+      margin-right: 0.75rem;
+    }
+
+    td:nth-child(4),
+    td:nth-child(5) {
+      display: inline-block;
+      margin: 0.4rem 0.4rem 0 0;
+
+      a {
+        min-height: 44px;
+        line-height: 44px;
+        padding: 0 1rem;
+      }
+    }
+  }
+}
+
+// ============================================================================
 // Dark Mode Adjustments for A/B Testing Variants
 // ============================================================================
 

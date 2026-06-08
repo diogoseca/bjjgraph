@@ -28,9 +28,10 @@ echo ""
 echo "Validating..."
 echo ""
 
-# Build file list first
+# Build file list, shuffled so candidates are analyzed in random order.
+# (The pass/fail output files are re-sorted by name at the end.)
 TEMP_FILELIST="/tmp/filelist_$$.txt"
-find content/{Positions,Transitions,Submissions,Principles,Systems,Learning} -name "*.json" | grep -v TEMPLATE | sort > "$TEMP_FILELIST"
+find content/{Positions,Transitions,Submissions,Principles,Systems,Learning} -name "*.json" | grep -v TEMPLATE | shuf > "$TEMP_FILELIST"
 
 # Validate all files
 current=0
@@ -65,6 +66,11 @@ done < "$TEMP_FILELIST"
 
 # Clean up temp file list
 rm "$TEMP_FILELIST"
+
+# Re-sort output files by name in natural/numeric order ("50" before "100"),
+# so the written lists are stable and readable despite the shuffled run order.
+sort -V -o "$OUTPUT_FAILED" "$OUTPUT_FAILED"
+sort -V -o "$OUTPUT_PASSED" "$OUTPUT_PASSED"
 
 echo ""
 echo ""

@@ -56,10 +56,22 @@ description: "{{ description }}"
 </script>
 {% endif %}
 
-> **SAFETY**: {{ name }} targets the {{ target_area }}. Risk: {{ safety_considerations.injury_risks[0].injury }}. Release immediately upon tap.
-
 {# Flexbox wrapper for A/B testing #}
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+{# Answer-first summary leads the page (guarded so pages render before the summary backfill lands) #}
+{% if summary %}**{{ summary }}**
+{% endif -%}
+
+<div class="principle-meta">
+<span class="meta-chip">{{ submission_category }}</span>
+<span class="meta-chip">{{ submission_type }}</span>
+<span class="meta-chip">Targets {{ target_area }}</span>
+<span class="meta-chip">{{ success_rate }}% success</span>
+</div>
+
+> [!danger] Safety
+> {{ name }} targets the {{ target_area }}. Primary risk: {{ safety_considerations.injury_risks[0].injury }}. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 {% if (aliases is defined and aliases) or (family is defined and family) or (disambiguations is defined and disambiguations) -%}
 <aside class="entity-relations">
@@ -86,50 +98,9 @@ description: "{{ description }}"
 
 <section id="overview" class="content-section">
 
-{% if summary %}**{{ summary }}**
-
-{% endif -%}
 {{ overview }}
 
-**Category**: {{ submission_category }}
-**Type**: {{ submission_type }}
-**Target Area**: {{ target_area }}
-**Starting Position**: [[{{ resolve(starting_position) }}]]
-{% if from_position is defined and from_position -%}
-**From Position**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
-{% endif -%}
-**Success Rate**: {{ success_rate }}%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-{% for risk in safety_considerations.injury_risks -%}
-| {{ risk.injury }} | {{ risk.severity }} | {{ risk.recovery_time }} |
-{% endfor %}
-
-**Application Speed**: {{ safety_considerations.application_speed }}
-
-**Tap Signals**:
-{% for signal in safety_considerations.tap_signals -%}
-- {{ signal }}
-{% endfor %}
-
-**Release Protocol**:
-{% for step in safety_considerations.release_protocol -%}
-{{ loop.index }}. {{ step }}
-{% endfor %}
-
-**Training Restrictions**:
-{% for restriction in safety_considerations.training_restrictions -%}
-- {{ restriction }}
-{% endfor %}
+**Starting Position**: [[{{ resolve(starting_position) }}]]{% if from_position is defined and from_position %} · **From**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }}){% endif %}
 
 </section>
 
@@ -234,33 +205,51 @@ description: "{{ description }}"
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
+## Related
 
-{% for submission in related_submissions -%}
-- [[{{ resolve(submission.name if submission is mapping else submission) }}]]{% if submission is mapping and submission.relationship %} - {{ submission.relationship }}{% endif %}
+{%- set relns = namespace(items=[], seen=[]) %}
+{%- for item in (related_submissions + related_content) %}
+{%- set iname = item.name if item is mapping else item %}
+{%- if iname | lower != name | lower and iname | lower not in relns.seen and resolve.page_exists(iname) %}
+{%- set _ = relns.seen.append(iname | lower) %}
+{%- set _ = relns.items.append(item) %}
+{%- endif %}
+{%- endfor %}
+{% for item in relns.items -%}
+- [[{{ resolve(item.name if item is mapping else item) }}]]{% if item is mapping and item.relationship %} - {{ item.relationship }}{% endif %}
 {% endfor %}
-
 </section>
 
-<section id="related-content" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Additional Related Content
+## Safety Guide
 
-{% for item in related_content -%}
-- [[{{ resolve(item.name) }}]] - {{ item.relationship }}
+**Injury Risks**:
+
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+{% for risk in safety_considerations.injury_risks -%}
+| {{ risk.injury }} | {{ risk.severity }} | {{ risk.recovery_time }} |
 {% endfor %}
 
-</section>
+**Application Speed**: {{ safety_considerations.application_speed }}
 
-<section id="terminal-state" class="content-section">
+**Tap Signals**:
+{% for signal in safety_considerations.tap_signals -%}
+- {{ signal }}
+{% endfor %}
 
-## Match Outcome
+**Release Protocol**:
+{% for step in safety_considerations.release_protocol -%}
+{{ loop.index }}. {{ step }}
+{% endfor %}
 
-Successful execution of {{ name }} leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+**Training Restrictions**:
+{% for restriction in safety_considerations.training_restrictions -%}
+- {{ restriction }}
+{% endfor %}
 
 </section>
 

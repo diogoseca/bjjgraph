@@ -338,6 +338,11 @@ def aggregate_submission_variants(data, json_path):
             variants_comparison.append({
                 'variant_name': variant_ref['name'],
                 'from_position': from_pos,
+                # Seat the attacker plays from (Top/Bottom), parsed from "Position/Role".
+                'seat': from_pos.split('/')[1] if '/' in from_pos else '',
+                # Whether this variant generates Attacker/Defender role pages, so the
+                # hub variants table only emits Play-as links where targets exist.
+                'is_dual': 'attacker' in variant_data and 'defender' in variant_data,
                 'success_rate': variant_data.get('success_rate', 0),
                 'top_risk': top_risk,
                 'uniqueness': variant_data.get('variant_uniqueness', ''),
@@ -345,6 +350,10 @@ def aggregate_submission_variants(data, json_path):
         except Exception as e:
             print(f"⚠️  Error loading submission variant {variant_file}: {e}")
             continue
+
+    # Highest-percentage / most-canonical variants first. Python's sort is stable,
+    # so equal rates keep their source order -> deterministic regeneration diffs.
+    variants_comparison.sort(key=lambda v: v['success_rate'], reverse=True)
 
     return variants_comparison
 
