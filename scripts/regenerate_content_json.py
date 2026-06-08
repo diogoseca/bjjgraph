@@ -22,6 +22,7 @@ Usage:
 import argparse
 import copy
 import json
+import os
 import subprocess
 import sys
 import time
@@ -39,7 +40,14 @@ if _repo_root not in sys.path:
 
 from scripts.validate_json import validate_json_file as _validate_json_file, load_schema, detect_position_template_type, detect_transition_template_type
 from scripts.claude_infer import call_claude as _infer_call_claude
-from scripts.peak_throttle import throttle_if_peak
+from scripts.peak_throttle import is_peak as _is_peak, PACIFIC as _PEAK_PACIFIC
+
+
+def _is_peak_now() -> bool:
+    """True iff we're in Anthropic's weekday 05:00-11:00 PT peak window (unless disabled)."""
+    if os.environ.get("PEAK_THROTTLE_DISABLE") == "1" or _PEAK_PACIFIC is None:
+        return False
+    return _is_peak(datetime.now(_PEAK_PACIFIC))
 
 # =============================================================================
 # PATHS
@@ -1877,14 +1885,12 @@ Examples:
     parser.add_argument("--verbose", "-v", action="store_true",
                        help="Verbose output")
     parser.add_argument("--peak-throttle", action="store_true",
-                       help="During Anthropic peak hours (weekday 05:00-11:00 PT) pause for "
-                            "--peak-throttle-min minutes every --peak-throttle-every files, so an "
-                            "intensive run spreads across the 5h session window. Set "
-                            "PEAK_THROTTLE_DISABLE=1 to force off.")
-    parser.add_argument("--peak-throttle-every", type=int, default=25,
-                       help="Files between peak-hours throttle checks (default 25).")
+                       help="After EACH file, if we're in Anthropic's peak window (weekday "
+                            "05:00-11:00 PT) wait --peak-throttle-min minutes before the next file, "
+                            "so the run trickles through peak and does the bulk off-peak. Off-peak "
+                            "the wait is zero and silent. Set PEAK_THROTTLE_DISABLE=1 to force off.")
     parser.add_argument("--peak-throttle-min", type=int, default=30,
-                       help="Minutes to pause when peak (default 30).")
+                       help="Minutes to wait after a file when peak (default 30).")
 
     args = parser.parse_args()
 
@@ -1992,17 +1998,20 @@ Domain-specific prompts:
                                                label=f"{i+1}/{len(files)}")
                     run_summary["files"].append({"file": str(file_path), **file_result})
 
-                    # Proactive peak-hours throttle: every N files, pause if we're in the
-                    # Anthropic peak window (weekday 05:00-11:00 PT) so an intensive run doesn't
-                    # burn the 5h session budget in a burst. No-op off-peak / non-batch.
-                    if (args.peak_throttle and not args.dry_run and i < len(files) - 1
-                            and (i + 1) % max(1, args.peak_throttle_every) == 0):
-                        throttle_if_peak(args.peak_throttle_min, log=tprint)
-
-                    # Wait between files (skip in batch mode)
+                    # Sustainable inter-call pacing: sleep after EVERY file (incl. the first) to
+                    # keep the weekly budget on target. During Anthropic's peak window (weekday
+                    # 05:00-11:00 PT) enforce at least the peak floor — the LONGER of the two wins
+                    # (they do NOT stack). Skipped in --batch / --dry-run / on the last file.
                     if i < len(files) - 1 and not args.dry_run and not args.batch:
-                        tprint(f"\nWaiting {args.interval}s before next file...")
-                        time.sleep(args.interval)
+                        wait = max(0, args.interval)
+                        peak_floor = args.peak_throttle_min * 60 if (args.peak_throttle and _is_peak_now()) else 0
+                        if peak_floor > wait:
+                            wait = peak_floor
+                            tprint(f"\n[pace] PEAK HOURS (weekday 05:00-11:00 PT) — waiting {wait // 60} min before next file...")
+                        elif wait > 0:
+                            tprint(f"\n[pace] sleeping ~{wait // 60} min ({wait}s) before next file...")
+                        if wait > 0:
+                            time.sleep(wait)
             except KeyboardInterrupt:
                 tprint(f"\n\nInterrupted after {i+1}/{len(files)} files.")
 
