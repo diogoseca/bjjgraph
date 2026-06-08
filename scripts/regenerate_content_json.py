@@ -593,6 +593,9 @@ KEY FIELDS:
 
 REFERENCE_FORMAT_RULES = """
 REFERENCE FORMAT (CRITICAL - Hub-and-Spoke Architecture):
+- These rules govern REFERENCES TO OTHER ENTITIES (related_content[], related_submissions[],
+  transition targets, etc.) ONLY. They DO NOT apply to this entity's own top-level `name`,
+  which must stay verbatim (see REQUIREMENTS).
 - Use ONLY the base filename (no paths, no extensions): 'Inside Ashi-Garami', 'Deep Half Guard'
 - NEVER use Category/Name format: 'Positions/Inside Ashi-Garami' ❌
 - NEVER use folder paths with slashes ❌
@@ -634,6 +637,7 @@ REQUIREMENTS:
 - Match the TEMPLATE structure exactly
 - Author a root-level `summary`: ONE self-contained sentence (~15-40 words) that directly DEFINES this entity (answer-first — AI answer engines quote the first sentence). It must read standalone and be distinct from `overview`, which must NOT repeat it.
 - PRESERVE the existing graph structure: never drop or rename `transitions[]` entries (positions), and never change `from_position` or drop `outcomes[].to` targets (transitions/submissions). Probabilities may be retuned (sum=100), but graph edges must not be removed.
+- NEVER change this entity's own top-level `name`. For a nested submission variant (file lives in a `<Family>/` subfolder), `name` MUST stay the FULL `"<Family> from <Position>"` form (e.g. "Americana from Mount") — do NOT shorten it to the filename (e.g. "from Mount"). The graph keys submissions by this `name`; shortening it collides every family's same-position variant onto one node and breaks aggregation and edges.
 - All content must be technically accurate and reflect BJJ best practices
 - Safety sections must be comprehensive (especially for submissions)
 """
