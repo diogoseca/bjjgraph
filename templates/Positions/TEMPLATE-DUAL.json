@@ -257,6 +257,21 @@
           }
         }
       }
+    },
+    "bot_metadata": {
+      "type": "object",
+      "description": "Bot improvement tracking metadata",
+      "properties": {
+        "last_improved": {
+          "type": "string",
+          "description": "ISO date of last bot improvement (YYYY-MM-DD)"
+        },
+        "improvement_notes": {
+          "type": "string",
+          "description": "Notes on what was improved"
+        }
+      },
+      "additionalProperties": true
     }
   },
   "$defs": {
