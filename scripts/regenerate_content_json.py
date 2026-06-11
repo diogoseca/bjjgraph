@@ -1905,7 +1905,7 @@ BJJ Graph Unified Content Fixer
 {'=' * 70}
 Mode: {'SINGLE FILE' if args.file else 'QUEUE'}
 Model: {CLAUDE_MODEL}
-{'File: ' + args.file if args.file else ('Batch: no delay' if args.batch else f'Interval: {args.interval}s ({86400 // args.interval} files/day)')}
+{'File: ' + args.file if args.file else ('Batch: no delay' if args.batch else (f'Interval: {args.interval}s ({86400 // args.interval} files/day)' if args.interval > 0 else 'Interval: 0s (no delay, back-to-back)'))}
 Parallel: {args.parallel} worker{'s' if args.parallel > 1 else ''}
 Category: {args.category}
 Dry Run: {args.dry_run}

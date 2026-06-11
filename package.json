@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.38.9",
+  "version": "1.38.10",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -11,7 +11,8 @@
     "audit:from-position": "python3 scripts/audit_from_position.py",
     "fix:from-position": "python3 scripts/fix_from_position.py",
     "regenerate:issues": "./scripts/regenerate_list_of_content_files_to_fix.sh",
-    "regenerate:json": "python3 scripts/regenerate_content_json.py --interval 2000 --peak-throttle",
+    "regenerate:json": "python3 scripts/regenerate_content_json.py --interval 600",
+    "regenerate:json:fast": "python3 scripts/regenerate_content_json.py --interval 0",
     "regenerate:explode": "python3 scripts/explode_graph_connections.py",
     "regenerate:md": "python3 scripts/regenerate_md_from_json.py --all",
     "regenerate:hubs": "python3 scripts/regenerate_category_hub_pages.py",
