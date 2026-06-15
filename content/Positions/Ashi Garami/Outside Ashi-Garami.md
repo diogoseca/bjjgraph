@@ -22,11 +22,11 @@ description: "Master Outside Ashi-Garami position in BJJ. Strategic guide coveri
 
 <section id="overview" class="content-section">
 
-Outside Ashi-Garami is a foundational leg entanglement position in modern Brazilian Jiu-Jitsu where the practitioner controls their opponent's leg from the outside angle, creating opportunities for heel hooks, ankle locks, and transitions to more dominant leg entanglements. This position serves as the gateway to advanced leg lock systems and represents a critical skill set for no-gi and submission-only competition.
+**Outside Ashi-Garami** (outside leg entanglement) is the foundational entry position of the modern no-gi leg lock system, directly threatening [[Outside Heel Hook]], [[Straight Ankle Lock]], and transitions to more dominant entanglements — achieving a **42% submission probability** from bottom at advanced levels. The position is characterized by a figure-4 leg configuration: the attacker's outside leg crosses over the opponent's thigh while the inside leg triangles underneath the knee, creating a locked clamp that isolates the limb from the exterior angle. The attacker maintains a perpendicular or diagonal body angle (45–90 degrees) to maximize leverage for submissions and control.
 
-The position is characterized by a figure-4 leg configuration where the attacking practitioner's outside leg crosses over the opponent's thigh while their inside leg triangles underneath the opponent's knee, creating a locked clamp that isolates and controls the limb. The attacking practitioner maintains a perpendicular or diagonal body angle (45-90 degrees) to maximize leverage for submissions and control.
+Outside Ashi-Garami serves as the gateway to the full leg lock hierarchy. From bottom, practitioners threaten [[Outside Heel Hook]] and [[Straight Ankle Lock]], while using the opponent's escape reactions to transition to more dominant positions: external rotation attempts flow into [[Inside Ashi-Garami]] entries; forward pressure creates [[Kneebar Setup]] and [[Saddle]] transitions; and static opponents receive immediate submission pressure. The position's value lies not in its finish percentage — which is lower than [[Inside Ashi-Garami]] or [[Saddle]] — but in its versatility as a gateway that forces defensive reactions which open every other leg lock.
 
-Outside Ashi-Garami exists as both an offensive attacking position (bottom perspective) and a defensive survival position (top perspective). From bottom, practitioners threaten outside heel hooks, straight ankle locks, and transitions to more dominant positions like saddle and inside ashi. From top, practitioners must work systematic escapes to prevent submissions while extracting their trapped leg and recovering advantageous position. Understanding both perspectives is essential for modern no-gi competition where leg entanglements have become increasingly prevalent and sophisticated.
+Outside Ashi-Garami exists as both an offensive attacking position (bottom perspective) and a defensive survival situation (top perspective). From the top, immediate systematic escape is required: protecting the heel from the [[Outside Heel Hook]] grip is the absolute first priority, followed by maintaining elevated posture to limit the opponent's leverage, and then executing internal hip rotation to thread the leg free. Understanding both perspectives is essential for modern no-gi competition, where this position appears in virtually every high-level leg entanglement exchange.
 
 </section>
 
@@ -35,19 +35,19 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ## Key Principles
 
 
-- Leg triangle configuration must remain tight with no space - constant squeezing and adjustment essential
+- The leg triangle must remain tight with zero space — constant squeezing and micro-adjustments are essential, as any gap allows hip rotation for escape
 
-- Hip angle dictates control effectiveness - maintain perpendicular or diagonal angle (45-90 degrees)
+- Hip angle is the control foundation — maintain perpendicular or diagonal angle (45–90 degrees) to the opponent's leg line; flat body position loses all submission leverage
 
-- Upper body grips determine available attacks - heel control enables heel hooks, ankle control enables ankle locks
+- Upper body grips dictate available attacks — heel/Achilles control enables [[Outside Heel Hook]]; ankle/shin control enables [[Straight Ankle Lock]]; knee/thigh control blocks escape rotation
 
-- Position is transitional not terminal - view as gateway to more dominant entanglements rather than primary finish position
+- Treat Outside Ashi-Garami as a gateway, not a finish position — its value is creating defensive reactions that open [[Inside Ashi-Garami]], [[Saddle]], and [[Kneebar Setup]] transitions
 
-- Height differential creates escape opportunities when on top - standing position dramatically increases escape success rate
+- From the top (defensive), standing posture is the most important escape variable — height differential dramatically increases escape success rate and limits the opponent's finishing leverage
 
-- Submission threats from bottom prevent escapes - constant offensive pressure keeps opponent defensive
+- Submission threats from the bottom prevent escapes — flowing between [[Outside Heel Hook]] and [[Straight Ankle Lock]] setups keeps the opponent in a defensive mindset rather than focused on escape
 
-- Systematic progression through leg lock hierarchy - outside ashi → inside ashi → saddle represents optimal advancement path
+- Follow the leg lock hierarchy: outside ashi → [[Inside Ashi-Garami]] → [[Saddle]] represents the optimal advancement path, with each transition triggered by the opponent's specific escape attempt
 
 
 </section>
