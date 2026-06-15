@@ -161,7 +161,7 @@ Knee Shield Half Guard Bottom is one of the most fundamental and effective defen
 
 Unlike traditional half guard where the top player can establish heavy crossface and underhook control, the knee shield creates a fundamental structural problem for the passer. The bottom player's shin becomes a rigid barrier that prevents the top player from settling their weight and advancing their position. This distance allows the bottom player to work their grips, create angles, and maintain the mobility necessary for effective guard retention. The position is particularly effective in both gi and no-gi contexts, though grip fighting strategies differ significantly between the two.
 
-The knee shield half guard has become a cornerstone position in modern competitive BJJ, with world-class competitors demonstrating its effectiveness at the highest levels. The position offers multiple pathways to success: maintaining retention against pressure passers, sweeping aggressive opponents, or transitioning to more offensive guard systems when opportunities arise. Understanding the knee shield is essential for developing a complete defensive guard game.
+The knee shield half guard has become a cornerstone position in modern competitive BJJ, with world-class competitors demonstrating its effectiveness at the highest levels. The position offers multiple pathways to success: maintaining retention against pressure passers, sweeping with the [[Old School Sweep]] or [[Underhook Sweep from Half]], or transitioning to [[Deep Half Guard]], [[X-Guard]], or [[Back Control]] when opportunities arise. Understanding the knee shield is essential for developing a complete defensive guard game.
 
 </section>
 
@@ -206,7 +206,7 @@ The knee shield half guard has become a cornerstone position in modern competiti
 - Use bottom leg actively to control opponent's posture and prevent them from standing or creating advantageous passing angles
 - Adjust knee shield height based on opponent's pressure—higher against standing passes, lower against knee slice attempts
 - Combine frames with hip movement to create angles for sweeps and prevent opponent from consolidating position
-- Maintain ready position for quick transitions to deep half, x-guard, or other guard systems when opportunities present
+- Maintain ready position for quick transitions to [[Deep Half Guard]], [[X-Guard]], or other guard systems when opportunities present
 
 
 </section>
@@ -217,7 +217,7 @@ The knee shield half guard has become a cornerstone position in modern competiti
 
 <p class="section-subtitle">What should you do from Knee Shield Half Guard (Bottom)?</p>
 
-**If opponent attempts to smash knee shield down and flatten position with heavy pressure:**
+**If opponent attempts to smash ([[Smash Pass]]) knee shield down and flatten position with heavy pressure:**
 - Execute **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 60%)
 - Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
 

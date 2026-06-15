@@ -4,7 +4,7 @@
 
 ---
 title: "Knee Shield Half Guard | BJJ Position Guide | BJJ Graph"
-description: "Master Knee Shield Half Guard in BJJ. Strategic guide covering setup, defensive retention, passing strategies, and transitions with complete bottom and top perspective analysis."
+description: "Knee Shield Half Guard uses shin-as-frame to prevent pressure in BJJ half guard. Guard retention: 72% advanced. Master defensive retention, sweeps, and back takes in this complete guide."
 ---
 
 
@@ -22,13 +22,13 @@ description: "Master Knee Shield Half Guard in BJJ. Strategic guide covering set
 
 <section id="overview" class="content-section">
 
-Knee Shield Half Guard is a fundamental variation of half guard characterized by the bottom player using their top leg's shin as a defensive frame across the opponent's torso. This creates critical distance that prevents the crushing pressure typical of traditional half guard, fundamentally altering the position's dynamics for both players. The knee shield acts as both a defensive barrier preventing the pass and an offensive launching point for sweeps, back takes, and guard transitions.
+**Knee Shield Half Guard** is a fundamental [[Half Guard]] variation characterized by the bottom player using their top leg's shin as a defensive frame across the opponent's torso. Guard retention rate: 72% advanced. This creates critical distance that prevents the crushing pressure typical of traditional half guard, fundamentally altering the position's dynamics for both players. The knee shield acts as both a defensive barrier preventing the pass and an offensive launching point for sweeps, back takes, and guard transitions.
 
-From the bottom perspective, the knee shield provides superior defensive security compared to flat half guard while maintaining offensive capabilities. The frame prevents the top player from settling their weight and establishing dominant grips, allowing the bottom player to maintain mobility and create angles for attacks. The position requires active management—constantly adjusting shield height and angle based on opponent pressure while threatening sweeps to keep the passer defensive.
+From the bottom perspective, the knee shield provides superior defensive security compared to [[Flattened Half Guard]] while maintaining offensive capabilities. The frame prevents the top player from settling their weight and establishing dominant grips, allowing the bottom player to maintain mobility and create angles for attacks. The position requires active management—constantly adjusting shield height and angle based on opponent pressure while threatening sweeps to keep the passer defensive.
 
 From the top perspective, passing the knee shield presents a strategic challenge requiring patience, systematic pressure, and grip dominance. The top player must collapse, redirect, or bypass the shield while preventing sweeps and guard recoveries. Success depends on understanding the biomechanical weaknesses of the knee shield structure and recognizing when to switch between different passing approaches. The position demands careful weight distribution to maintain forward pressure without overcommitting to vulnerable positions.
 
-The knee shield half guard has become essential in modern competitive BJJ, with world-class practitioners demonstrating its effectiveness at the highest levels. Understanding both perspectives of this position is critical for developing a complete guard game and passing system.
+The knee shield half guard has become essential in modern competitive BJJ, with world-class practitioners demonstrating its effectiveness at the highest levels. It connects to [[Deep Half Guard]], [[Lockdown]], and [[X-Guard]] as transition targets, making it critical for any complete guard game and passing system.
 
 </section>
 
@@ -43,13 +43,13 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 - Top player must control distance to prevent shield from becoming offensive launching point
 
-- Shield height adjusts dynamically based on passing approach—higher against standing, lower against knee slice
+- Shield height adjusts dynamically based on passing approach—higher against standing passes, lower against [[Knee Slice from Half]]
 
 - Grip fighting determines position outcome—control prevents dominant passing or sweeping grips
 
 - Position requires constant micro-adjustments and active management from both players
 
-- Successful play demands balancing defensive security with offensive threat creation
+- Successful play demands balancing defensive security with offensive threat creation while threatening [[Old School Sweep]] and back takes
 
 
 </section>
@@ -96,7 +96,7 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 - Combine frames with hip movement to create angles for sweeps and prevent opponent from consolidating position
 
-- Maintain ready position for quick transitions to deep half, x-guard, or other guard systems when opportunities present
+- Maintain ready position for quick transitions to [[Deep Half Guard]], [[X-Guard]], or other guard systems when opportunities present
 
 
 ### Available Transitions
@@ -114,7 +114,7 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 - **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (5% of attempts)
 
-- **[[Kimura from Knee Shield Half Guard/Attacker|Kimura from Knee Shield Half Guard]]** (4% of attempts)
+- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (4% of attempts)
 
 - **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (51% of attempts)
 
