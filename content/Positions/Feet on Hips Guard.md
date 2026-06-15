@@ -4,7 +4,7 @@
 
 ---
 title: "Feet on Hips Guard | BJJ Position Guide | BJJ Graph"
-description: "Master feet on hips guard in BJJ. Strategic guide covering distance management, sweep mechanics, and guard retention with complete bottom and top perspective analysis."
+description: "Feet on Hips Guard places both feet on opponent's hips for controlled distance in BJJ open guard. Master sweeps, guard retention (72% advanced), and transitions in this complete guide."
 ---
 
 
@@ -22,13 +22,13 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
 
 <section id="overview" class="content-section">
 
-Feet on Hips Guard represents one of the most fundamental distance management positions in Brazilian Jiu-Jitsu, where the guard player places both feet on the opponent's hip bones to create controllable space. This position serves as a critical gateway between closed guard and more advanced open guard systems, teaching practitioners the essential principle that effective guard play relies on leg frames rather than grip strength alone. The feet-on-hips configuration provides immediate defensive structure while maintaining maximum mobility for transitions, sweeps, and submissions.
+**Feet on Hips Guard** is a foundational [[Open Guard]] variation in Brazilian Jiu-Jitsu where the guard player places both feet on the opponent's hip bones to create controlled, manageable distance. Guard retention rate: 72% advanced; sweep success: 55–65%. This position serves as a critical gateway between [[Closed Guard]] and advanced open guard systems, teaching the essential principle that effective guard play relies on leg frames rather than grip strength alone. The feet-on-hips configuration provides immediate defensive structure while maintaining maximum mobility for transitions, sweeps, and submissions.
 
 The position's strategic value lies in its dual nature as both a retention mechanism and an offensive platform. When under pressure, the feet-on-hips frame creates instant distance that prevents the opponent from consolidating passing position. When attacking, the same frame provides the structural foundation for off-balancing, creating angles, and launching sweep attempts. The hip bones serve as ideal contact points because they offer bony landmarks that maximize force transmission while minimizing the energy required to maintain frames.
 
-From a pedagogical standpoint, feet on hips guard teaches beginners the fundamental concept that open guard is an active, dynamic state rather than a passive defensive posture. The position requires constant hip movement, angle adjustment, and grip fighting—skills that translate directly to all advanced guard variations including Spider Guard, De La Riva, X-Guard, and beyond. Understanding feet on hips mechanics provides the foundation for guard retention theory and creates the technical vocabulary needed for sophisticated open guard play.
+From a pedagogical standpoint, feet on hips guard teaches beginners the fundamental concept that open guard is an active, dynamic state rather than a passive defensive posture. The position requires constant hip movement, angle adjustment, and grip fighting—skills that translate directly to all advanced guard variations including [[Spider Guard]], [[De La Riva Guard]], [[X-Guard]], and beyond. Understanding feet on hips mechanics provides the foundation for guard retention theory and creates the technical vocabulary needed for sophisticated open guard play.
 
-The position excels against standing and combat base opponents, using leg extension to manage engagement distance. However, its effectiveness depends on active implementation—static feet-on-hips frames eventually succumb to persistent pressure and grip control. Successful practitioners use this position as a transitional hub, constantly threatening attacks and guard changes that prevent the opponent from settling into passing sequences. The position's low risk profile and medium energy cost make it sustainable for extended periods, but its true power emerges when used dynamically as part of a comprehensive guard system.
+The position excels against standing and [[Combat Base]] opponents, using leg extension to manage engagement distance. However, its effectiveness depends on active implementation—static feet-on-hips frames eventually succumb to persistent pressure and grip control. Successful practitioners use this position as a transitional hub, constantly threatening attacks and guard changes that prevent the opponent from settling into passing sequences. The position's low risk profile and medium energy cost make it sustainable for extended periods, but its true power emerges when used dynamically as part of a comprehensive guard system that includes [[Lasso Guard]], [[Butterfly Guard]], and [[Double Sleeve Guard]] connections.
 
 </section>
 
@@ -92,7 +92,7 @@ The position excels against standing and combat base opponents, using leg extens
 
 - Grip fight aggressively to prevent opponent from controlling ankles or pant legs, which would compromise the distance management system
 
-- Stay ready to transition to other guards (Spider, De La Riva, X-Guard) when opponent attempts to pass or creates openings
+- Stay ready to transition to other guards ([[Spider Guard]], [[De La Riva Guard]], [[X-Guard]]) when opponent attempts to pass or creates openings
 
 - Create angles by walking hips laterally while maintaining foot pressure on hips, setting up sweeps and off-balancing opportunities
 
@@ -189,7 +189,7 @@ The position excels against standing and combat base opponents, using leg extens
 
 - Timing is critical - pass when bottom player adjusts their frames or attempts guard transitions
 
-- Protect against De La Riva hooks and lasso guards during frame breaking process
+- Protect against [[De La Riva Guard]] hooks and [[Lasso Guard]] connections during frame breaking process
 
 
 ### Available Transitions
@@ -232,7 +232,7 @@ The position excels against standing and combat base opponents, using leg extens
   - ✅ Correction: Maintain low, athletic stance with weight distributed evenly and hips engaged for stability
 
 - ❌ **Allowing bottom player to establish sleeve grips without fighting**
-  - Consequence: Bottom player transitions to spider guard or lasso guard with increased control and sweep opportunities
+  - Consequence: Bottom player transitions to [[Spider Guard]] or [[Lasso Guard]] with increased control and sweep opportunities
   - ✅ Correction: Fight grips aggressively and keep elbows tight to prevent sleeve control while establishing pants grips
 
 - ❌ **Rushing the pass without breaking frames methodically**

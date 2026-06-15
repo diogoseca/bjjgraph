@@ -86,7 +86,7 @@ description: "Master feet on hips guard top position in BJJ. Complete passing st
       "name": "What happens if you allowing bottom player to establish sleeve grips without fighting?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bottom player transitions to spider guard or lasso guard with increased control and sweep opportunities The correct approach is: Fight grips aggressively and keep elbows tight to prevent sleeve control while establishing pants grips"
+        "text": "Bottom player transitions to [[Spider Guard]] or [[Lasso Guard]] with increased control and sweep opportunities The correct approach is: Fight grips aggressively and keep elbows tight to prevent sleeve control while establishing pants grips"
       }
     },
     {
@@ -201,7 +201,7 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 - Keep hips low and weight distributed to prevent being pushed backward or off-balanced
 - Use angle changes and lateral movement to create passing opportunities when frames adjust
 - Timing is critical - pass when bottom player adjusts their frames or attempts guard transitions
-- Protect against De La Riva hooks and lasso guards during frame breaking process
+- Protect against [[De La Riva Guard]] hooks and [[Lasso Guard]] connections during frame breaking process
 
 
 </section>
@@ -232,7 +232,7 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 - Execute **[[Step around to leg drag/Attacker|Step around to leg drag]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
 
 
-**If bottom player attempts to establish De La Riva or lasso hooks during frame breaking:**
+**If bottom player attempts to establish [[De La Riva Guard]] or [[Lasso Guard]] hooks during frame breaking:**
 - Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 - Execute **[[Clear hooks and knee cut/Attacker|Clear hooks and knee cut]]** → [[Positions/Side Control]] (Probability: 60%)
 
@@ -259,7 +259,7 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 
 ### 3. Allowing bottom player to establish sleeve grips without fighting
 
-- ❌ **Consequence**: Bottom player transitions to spider guard or lasso guard with increased control and sweep opportunities
+- ❌ **Consequence**: Bottom player transitions to [[Spider Guard]] or [[Lasso Guard]] with increased control and sweep opportunities
 - ✅ **Correction**: Fight grips aggressively and keep elbows tight to prevent sleeve control while establishing pants grips
 
 ### 4. Rushing the pass without breaking frames methodically
@@ -308,7 +308,7 @@ From feet on hips position, top player waits for bottom player to adjust their f
 
 ### Passing Flow Drill
 
-Top player cycles through different passing options (toreando, knee cut, leg drag, long step) from feet on hips position. Bottom player provides moderate resistance. Focus on smooth transitions between passing attempts when initial pass is defended. Build fluidity in passing chains.
+Top player cycles through different passing options ([[Toreando Pass]], [[Knee Cut Pass]], [[Leg Drag Pass]], [[Long Step Pass]]) from feet on hips position. Bottom player provides moderate resistance. Focus on smooth transitions between passing attempts when initial pass is defended. Build fluidity in passing chains.
 
 **Duration**: 4 minutes per person
 
