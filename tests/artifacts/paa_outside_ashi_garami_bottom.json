@@ -1,0 +1,122 @@
+{
+  "article_path": "content/Positions/Ashi Garami/Outside Ashi-Garami/Bottom.md",
+  "seed_keyword": "Outside Ashi-Garami Bottom BJJ",
+  "note": "PAA data sourced from training-knowledge synthesis (DataForSEO MCP unavailable). Verify with live SERP before publishing.",
+  "paa_questions": [
+    {
+      "question": "What is outside ashi garami in BJJ?",
+      "answer_snippet": "Outside ashi garami is a leg entanglement position where the attacker controls an opponent's single leg from the outside with a figure-four leg configuration. The outside leg crosses over the thigh while the inside leg hooks under the knee, with the attacker's hips angled perpendicular to the opponent. It is the primary entry point for outside heel hooks.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What is the difference between ashi garami and outside ashi garami?",
+      "answer_snippet": "Standard inside ashi garami positions the attacker's hip on the inside of the opponent's leg with the top leg hooking inside the thigh. Outside ashi garami positions the attacker's hip to the outside, with the top leg crossing over the thigh. The hip-to-leg relationship determines which heel hook direction is available: inside ashi for inside heel hooks, outside ashi for outside heel hooks.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you finish an outside heel hook from outside ashi garami?",
+      "answer_snippet": "Secure the heel between your armpit and bicep, pin the foot with your elbow, and rotate your upper body away from the opponent (driving internal knee rotation). Maintain perpendicular hip angle and tight figure-four leg pressure. Generate rotation from the hips and upper body together rather than arms alone. Apply smooth progressive pressure — not explosive force — and release immediately at the tap.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is outside ashi garami legal in BJJ competitions?",
+      "answer_snippet": "Outside heel hooks — the primary submission from outside ashi garami — are legal in IBJJF competitions only at brown and black belt no-gi and in high-level gi divisions. They are legal for all adults in ADCC, EBI, and most submission-only promotions. Reaping rules vary by organization; always check the specific ruleset before competing.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you escape or defend outside ashi garami?",
+      "answer_snippet": "Primary escapes include: tucking the heel before it is gripped and standing up, rotating the knee inward (toward ceiling) to follow the heel hook rotation and relieve torque, knee-rolling toward the attacker to escape heel pressure, and inverting to recover guard before the attacker establishes perpendicular hip position. Never straighten the leg or pull the heel directly away from the grip.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How dangerous is the outside heel hook?",
+      "answer_snippet": "The outside heel hook targets the ACL, MCL, and LCL simultaneously through external knee rotation. It can cause ligament tears with very little warning pain, making it one of the most injury-dangerous submissions in BJJ. Practitioners must tap early at the first sensation of knee torque, and training partners must apply pressure slowly and release immediately at the tap.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What submissions can you attack from outside ashi garami?",
+      "answer_snippet": "Primary submissions: outside heel hook (most common, targets ACL/MCL/LCL via external rotation), straight ankle lock (when opponent tucks heel defensively), kneebar (when leg straightens during scramble), and calf slicer (from deep figure-four when knee flexion is achieved). Outside heel hook accounts for approximately 31% of submission attempts from this position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you enter outside ashi garami?",
+      "answer_snippet": "Common entries include: sitting outside from a failed single-leg takedown, hip-switching from inside ashi garami, leg-dragging across to sit to outside ashi, transitioning from a kneebar scramble, and catching the leg during a guard pass or inversion. The 'sit to outside' from a single-leg is the most foundational entry for beginners.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the 'saddle' position and how does it relate to outside ashi garami?",
+      "answer_snippet": "The saddle (also called 411, honey hole, or inside sankaku) is an advanced leg entanglement where both legs fully control a single leg in a cross-body figure-four. Outside ashi garami is a common entry path to the saddle — when the opponent is defending outside ashi, leaning back or creating space often allows the transition to saddle (65% probability) for more secure heel hook control.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you maintain control in outside ashi garami so the opponent cannot escape?",
+      "answer_snippet": "Critical control details: keep legs in a tight figure-four with no space (pull inside foot toward buttocks), maintain perpendicular or diagonal hip angle (45-90 degrees) to the opponent's leg line, use upper body grips to block hip external rotation (hand on knee/thigh), and constantly threaten submissions to keep opponent defensive. Static positions allow systematic escape — never stop threatening.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What are common mistakes beginners make in outside ashi garami?",
+      "answer_snippet": "Top mistakes: loose leg triangle allowing leg extraction, flat body position losing leverage, failing to block opponent's hip external rotation with hand grips, remaining static without submission threats, attempting heel hook without first establishing hip angle and tight figure-four, and ignoring the opponent's free leg which can be used to post and stand.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "When should you transition from outside ashi garami to inside ashi or saddle?",
+      "answer_snippet": "Transition to inside ashi when the opponent externally rotates their knee to escape (follow their rotation into inside ashi — 60% probability). Transition to saddle when they lean back or create distance (65% probability). Outside ashi garami is best treated as a transitional entry position rather than a primary finish position — the saddle and inside ashi offer higher control and finish rates.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What is Outside Ashi-Garami in BJJ? (Position Definition)",
+      "rationale": "Targets the highest-volume definitional PAA query for this position"
+    },
+    {
+      "current": "Key Defensive Principles",
+      "suggested": "How Do You Control Outside Ashi-Garami? (Key Attacking Principles)",
+      "rationale": "This page is the Bottom (attacker) perspective — 'Defensive' is confusing. 'Attacking/Control' better matches search intent for 'how to control ashi garami'"
+    },
+    {
+      "current": "Common Defensive Mistakes",
+      "suggested": "What Are Common Outside Ashi-Garami Mistakes? (And How to Fix Them)",
+      "rationale": "FAQ heading targets 'outside ashi garami not working' and beginner mistake queries"
+    },
+    {
+      "current": "Success Rates and Statistics",
+      "suggested": "What Is the Outside Ashi-Garami Success Rate in Competition?",
+      "rationale": "High-intent query for competitors evaluating whether to invest training time in this position"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: How dangerous is the outside heel hook? (injury risk, tap protocols) — required for submissions per content standards AND answers high-volume safety PAA query",
+    "Add section: How to defend outside ashi garami (from attacker's perspective — understanding defender's options improves attack)",
+    "Add section: How do you enter outside ashi garami? (most-searched entry question has no dedicated section)",
+    "Add section: Gi vs no-gi outside ashi garami — heel hook legality by ruleset",
+    "Add FAQ entry: Is outside ashi garami legal in BJJ competitions? (frequent query with ruleset nuance)",
+    "Add comparison: Outside ashi garami vs inside ashi garami — when to choose each",
+    "Clarify 'Bottom' role label confusion: this page describes the attacking player who is physically on the bottom — add a brief note clarifying the role convention"
+  ]
+}

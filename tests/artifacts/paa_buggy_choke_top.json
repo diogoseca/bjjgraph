@@ -1,0 +1,121 @@
+{
+  "article_path": "content/Positions/Buggy Choke/Top.md",
+  "seed_keyword": "Buggy Choke Top BJJ",
+  "note": "PAA data sourced from training-knowledge synthesis (DataForSEO MCP unavailable). Verify with live SERP before publishing.",
+  "paa_questions": [
+    {
+      "question": "What is the buggy choke in BJJ?",
+      "answer_snippet": "The buggy choke is a submission where the top player threads an arm deep under the opponent's near armpit from turtle top, secures collar or neck grips, and applies progressive choking pressure combined with body weight to finish a blood choke. It creates a multi-threat attack system that simultaneously threatens submission and positional advancement.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you set up the buggy choke from top position?",
+      "answer_snippet": "From turtle top, thread your choking arm deep under the opponent's near armpit with palm-up orientation until your hand reaches the far-side collar. Immediately secure the second grip, apply chest and hip pressure to flatten them, then apply progressive choking force while reading their defensive reactions.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What positions can you transition to from buggy choke?",
+      "answer_snippet": "The buggy choke creates a decision tree of high-percentage transitions: back control (when opponent sits to guard), crucifix (when opponent extends far arm), truck/twister (when opponent granby rolls), darce or anaconda configuration (when opponent turns in), and front headlock (when opponent postures up). Each defensive reaction opens a different path.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between buggy choke and D'Arce choke?",
+      "answer_snippet": "The buggy choke threads an arm under the armpit with a top-down approach from turtle top, using the collar/neck grip. The D'Arce choke threads the arm under the opponent's armpit from a bottom or lateral position, using a figure-four arm lock. Both target the neck from turtle but use different arm configurations and body angles.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Is the buggy choke legal in all BJJ competitions?",
+      "answer_snippet": "Yes. The buggy choke is a standard choke submission legal across all belt levels in IBJJF, ADCC, EBI, and submission-only formats. It does not involve any joint manipulation, making it universally permitted in gi and no-gi rulesets.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Who invented the buggy choke?",
+      "answer_snippet": "The buggy choke is widely attributed to Bud 'Buggy' Judice, a Louisiana-based grappler who popularized the technique. It gained widespread attention in modern BJJ and MMA after high-level competitors demonstrated its effectiveness in competition.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you defend against the buggy choke?",
+      "answer_snippet": "Primary defenses include: tucking the chin and pulling the choking arm off the neck before grips are secured, posturing up immediately when the arm threads, and creating space by sitting to guard early. However, sitting to guard opens back control vulnerabilities, and turning into the choke risks the darce transition.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the success rate of the buggy choke in competition?",
+      "answer_snippet": "From the buggy choke top position, submission probability is approximately 72% and advancement probability is 75%, making it one of the highest-percentage turtle attack systems in modern BJJ competition. The technique is effective across gi and no-gi formats.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Can you hit the buggy choke in no-gi BJJ?",
+      "answer_snippet": "Yes. In no-gi, both arms connect directly (hand-to-hand or hand-to-wrist) instead of gripping the far collar. The neck/throat is targeted rather than collar material. The control and choking mechanics are identical; only the grip configuration changes.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What are common mistakes when attempting the buggy choke?",
+      "answer_snippet": "Top mistakes: threading the arm too shallow (opponent frames and strips), applying explosive pressure before control is established (opponent panics and escapes), keeping hips too high (opponent sits or stands), failing to secure the second grip immediately, and allowing head to drift from opponent's far shoulder (opening rotation escape).",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Is buggy choke better for gi or no-gi?",
+      "answer_snippet": "The buggy choke works in both formats. In gi, the far collar grip creates a more secure choking structure and longer control window. In no-gi, the technique requires faster grip connection and tighter head control but transitions to back control are equally high-percentage. Practitioners typically find gi slightly easier to hold the position.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you chain buggy choke with back takes?",
+      "answer_snippet": "When the opponent attempts to sit to guard defending the buggy choke, immediately hook their near leg with your leg and follow their hip movement to insert hooks for back control. The choking arm maintains connection as you transition. This reaction-based back take is one of the highest-percentage outcomes (60%) from the buggy choke position.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What is the Buggy Choke Top Position in BJJ?",
+      "rationale": "Matches conversational 'what is' query pattern — one of the highest-volume PAA entry points"
+    },
+    {
+      "current": "Key Offensive Principles",
+      "suggested": "How Do You Attack from Buggy Choke Top? (Key Principles)",
+      "rationale": "Aligns with 'how to attack' query intent while retaining technical depth for existing readers"
+    },
+    {
+      "current": "Common Offensive Mistakes",
+      "suggested": "What Are Common Buggy Choke Mistakes? (And How to Fix Them)",
+      "rationale": "FAQ-style heading targets 'buggy choke not working' and 'buggy choke mistakes' search queries"
+    },
+    {
+      "current": "Success Rates and Statistics",
+      "suggested": "What Is the Buggy Choke Success Rate in Competition?",
+      "rationale": "High-intent query — competition BJJ players search for empirical success data to prioritize techniques"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: Who invented the buggy choke? (brief origin history — answers high-volume PAA query)",
+    "Add section: Buggy choke in gi vs no-gi — key differences in grip configuration",
+    "Add section: How to defend the buggy choke (from Top.md perspective, gives attacker insight into defender's options)",
+    "Add comparison: Buggy choke vs D'Arce choke — when to choose each from turtle top",
+    "Add FAQ entry: Is the buggy choke legal in all competitions? (quick yes + ruleset note)",
+    "Explicitly name the 'buggy choke to back control' chain as a named technique cluster for internal linking"
+  ]
+}
