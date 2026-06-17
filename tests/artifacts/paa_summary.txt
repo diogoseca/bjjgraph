@@ -1,0 +1,107 @@
+PAA (People Also Ask) Analysis Summary
+Generated: 2026-03-28
+Articles processed: 2
+Data source: Knowledge-based PAA analysis
+Note: DataForSEO MCP tool unavailable; WebSearch permission not granted.
+       Analysis based on BJJ domain knowledge and common SERP PAA patterns.
+
+=============================================================
+TOTALS
+=============================================================
+Total articles analyzed:         2
+Total PAA questions identified:  23
+  - 50-50 Guard:                 12 questions
+  - Backside 50-50:              11 questions
+
+Priority breakdown (combined):
+  HIGH:   14 questions
+  MEDIUM:  7 questions
+  LOW:     2 questions
+
+=============================================================
+HIGH-PRIORITY QUESTIONS (direct answers needed)
+=============================================================
+
+50-50 GUARD
+-----------
+1.  "What is the 50-50 guard in BJJ?"
+    → Strategy: improve_heading (position-zero target for hub page)
+2.  "How do you escape the 50-50 position in BJJ?"
+    → Strategy: add_section (escape summary on hub page)
+3.  "Is the 50-50 guard legal in IBJJF competitions?"
+    → Strategy: add_section (belt-level submission legality table)
+4.  "What is the difference between 50-50 and ashi garami?"
+    → Strategy: add_section (drives internal links to Ashi Garami family)
+5.  "How do you get inside position in 50-50 guard?"
+    → Strategy: improve_heading (FAQ heading on existing key_principles content)
+6.  "What heel hooks can you do from 50-50?"
+    → Strategy: dedicated_faq
+7.  "How do you get out of 50-50 heel hook?"
+    → Strategy: add_section (safety-critical; very high search volume)
+
+BACKSIDE 50-50
+--------------
+8.  "What is backside 50-50 in BJJ?"
+    → Strategy: improve_heading (position-zero target for hub page)
+9.  "How is backside 50-50 different from regular 50-50?"
+    → Strategy: add_section
+10. "How do you escape backside 50-50?"
+    → Strategy: add_section (hub-level escape overview)
+11. "What submissions can you do from backside 50-50?"
+    → Strategy: dedicated_faq
+12. "How do you take the back from backside 50-50?"
+    → Strategy: dedicated_faq (4-point position, highest-value transition)
+13. "How do you defend the heel hook in backside 50-50?"
+    → Strategy: add_section (safety-critical)
+14. "Is backside 50-50 legal in IBJJF?"
+    → Strategy: add_section (belt-level submission legality table)
+
+=============================================================
+CONTENT GAP ANALYSIS
+=============================================================
+
+SHARED GAPS (affect both articles):
+  • No competition/ruleset legality sections (IBJJF, ADCC belt-level submission rules)
+  • No hub-level FAQ sections (role-page content not surfaced on hub page)
+  • No heel hook defense guidance at hub level (safety-critical gap)
+  • No historical/origin context for EAT signals
+
+50-50 GUARD specific gaps:
+  • No 'Ashi Garami vs 50-50' comparison section
+  • No scoring explanation (0 points, why, and how to score from it)
+  • No definitional FAQ ('What does 50-50 mean in BJJ?')
+
+BACKSIDE 50-50 specific gaps:
+  • No comparison with standard 50-50 on hub page
+  • No 'What is inside position in leg locks?' definitional section
+  • No saddle/honey hole differentiation on hub page
+
+=============================================================
+SUGGESTED NEW ARTICLES (from PAA chain analysis)
+=============================================================
+
+These topics appeared as PAA followups but have no dedicated pages:
+
+1. "Leg Lock Rules in BJJ Competitions"
+   Path: content/Principles/Leg Lock Competition Rules.json
+   Rationale: IBJJF/ADCC/EBI submission legality by belt level;
+              referenced across 10+ position pages; high SEO value
+
+2. "Inside Position in Leg Locks"
+   Path: content/Principles/Inside Position in Leg Locks.json
+   Rationale: Foundational concept used across all leg entanglement
+              positions; definitional PAA query appearing on 50-50,
+              Ashi Garami, Honey Hole, and Backside 50-50 searches
+
+3. "Leg Entanglement Hierarchy"
+   Path: content/Principles/Leg Entanglement Hierarchy.json
+   Rationale: Contextualizes how 50-50 → Backside 50-50 → Saddle →
+              Honey Hole relate; addresses 'which is better' PAA
+              questions across the leg lock system
+
+=============================================================
+FILES CREATED
+=============================================================
+  tests/artifacts/paa_50-50_guard.json
+  tests/artifacts/paa_backside_50-50.json
+  tests/artifacts/paa_summary.txt  (this file)

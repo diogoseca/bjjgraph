@@ -1,0 +1,122 @@
+{
+  "article_path": "content/Positions/Ashi Garami/Backside 50-50.json",
+  "seed_keyword": "Backside 50-50",
+  "data_source": "knowledge-based PAA analysis (DataForSEO unavailable; WebSearch permission not granted)",
+  "paa_questions": [
+    {
+      "question": "What is backside 50-50 in BJJ?",
+      "answer_snippet": "Backside 50-50 is a leg entanglement variation where both players maintain mirrored leg positioning like standard 50-50, but one player faces away from their opponent (back to chest) instead of the traditional face-to-face alignment. This asymmetrical orientation creates clear positional hierarchy favoring the top player.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Current overview answers this but no H2 directly targets 'What is backside 50-50?' Add a question-format heading to the intro section to target position zero."
+    },
+    {
+      "question": "How is backside 50-50 different from regular 50-50?",
+      "answer_snippet": "In regular 50-50 both players face each other with equal visual access and mechanical leverage. In backside 50-50 one player faces away, creating a dominant top player with chest-to-back pressure, clearer leg visibility, and simultaneous back-control threats—while the bottom player has limited visibility and defensive challenges.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "No explicit comparison section exists. A 'Backside 50-50 vs Regular 50-50: Key Differences' section is a high-priority content gap given how many searchers find backside 50-50 after learning standard 50-50."
+    },
+    {
+      "question": "How do you escape backside 50-50?",
+      "answer_snippet": "Escaping backside 50-50 from bottom requires: maintaining hip mobility to avoid being flattened, using frames against opponent's chest/shoulder, and choosing between turning to face opponent, extracting legs to stand, or using a rolling back take. The moment opponent releases pressure is the primary escape window.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Escape mechanics are covered in the bottom role's knowledge_assessment and decision_tree but no hub-level FAQ section exists. High-volume query that should be answered directly on the hub page."
+    },
+    {
+      "question": "What submissions can you do from backside 50-50?",
+      "answer_snippet": "From backside 50-50 top, available submissions include: inside heel hook (primary), outside heel hook, toe hold, kneebar, straight ankle lock, and calf slicer. The back-facing orientation provides superior angles for heel attacks compared to standard 50-50.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Submissions are listed in the transitions array but no FAQ-style explanation on the hub page. A 'Submissions from Backside 50-50' section would capture high-intent queries."
+    },
+    {
+      "question": "How do you take the back from backside 50-50?",
+      "answer_snippet": "From backside 50-50 top, taking the back involves walking your hips up the opponent's body while maintaining leg entanglement, then establishing seat belt grip (over/under on shoulders) and securing rear hooks. Opponent's defensive leg movements and frames often aid this advancement.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Back take is the highest-value transition from this position (4 points in most rulesets). A dedicated FAQ entry targeting 'back take from backside 50-50' matches a common search pattern."
+    },
+    {
+      "question": "What is the saddle position in BJJ?",
+      "answer_snippet": "The saddle (also called honey hole or inside sankaku) is an advanced leg entanglement where the attacker controls both of the opponent's legs, providing superior heel hook and kneebar angles. It is a common transition target from backside 50-50 top when opponent defends the back.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "Saddle is listed as a related position but not defined on this page. Since many users encounter 'saddle' for the first time from backside 50-50 searches, a brief explanation with an internal link to the Saddle position page would capture this PAA."
+    },
+    {
+      "question": "How do you defend the heel hook in backside 50-50?",
+      "answer_snippet": "To defend heel hooks in backside 50-50 bottom: rotate your knee inward (not outward) to remove rotational tension, fight the attacker's grips two-on-one to strip heel control, and stay mobile to prevent being flattened. Consider counter-attacking opponent's exposed heel when they overcommit.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Safety-critical content that exists in the bottom role JSON but needs a hub-level FAQ section. Given this is an injury-risk position, prominent heel hook defense guidance is essential."
+    },
+    {
+      "question": "What is inside position in leg locks?",
+      "answer_snippet": "Inside position in leg locks means having your leg threaded inside your opponent's leg structure, giving you the mechanical advantage for heel hook attacks while limiting their offensive options. Whoever has inside position controls the submission hierarchy in most leg entanglements.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "The concept is referenced throughout both articles but never explicitly defined in a FAQ. A 'What is Inside Position in Leg Locks?' FAQ section (potentially shareable across multiple position pages) would capture this definitional query."
+    },
+    {
+      "question": "When did backside 50-50 become popular in BJJ?",
+      "answer_snippet": "Backside 50-50 gained prominence with the rise of modern leg lock systems in the 2010s, particularly through the Danaher Death Squad's leg lock curriculum. Practitioners like Gordon Ryan and Craig Jones demonstrated its effectiveness in high-level no-gi competition.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "No history section exists. Adds EAT signals. Lower priority than technical content but valuable for long-form completeness."
+    },
+    {
+      "question": "Is backside 50-50 legal in IBJJF?",
+      "answer_snippet": "The backside 50-50 position itself is legal in IBJJF. Heel hooks from it remain restricted by belt level (illegal for most belts in gi, and below brown belt in no-gi). Toe holds require control and are allowed from purple belt up. Straight ankle locks are broadly permitted.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Same competition legality gap as with 50-50 Guard. A 'Competition Rules: Backside 50-50 Submissions by Belt Level' section directly addresses a high-volume, high-intent query."
+    },
+    {
+      "question": "What is the difference between backside 50-50 and the saddle?",
+      "answer_snippet": "Backside 50-50 is a transitional position with mirrored leg entanglement where one player faces away; the saddle is a more controlled, non-mirrored position where the attacker controls both of opponent's legs from the side. The saddle offers superior submission angles and is typically reached by advancing from backside 50-50.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Directly addresses a sequential PAA—users who ask about backside 50-50 commonly also ask this. Drives an internal link to the Saddle position page."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is Backside 50-50 in BJJ?",
+      "rationale": "Question-format heading directly targets PAA/featured snippet for 'what is backside 50-50' query"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "7 Key Principles for Mastering Backside 50-50",
+      "rationale": "Number + action phrase increases click-through rate; matches list-format PAA answers"
+    },
+    {
+      "current": "Related Positions",
+      "suggested": "Backside 50-50 Connections: Key Positions and Transitions",
+      "rationale": "More descriptive and keyword-rich; clarifies what this section covers for SEO"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Backside 50-50 vs Regular 50-50: Key Differences' (high-volume comparison query)",
+    "Add section: 'How to Escape Backside 50-50' (hub-level escape overview from bottom role content)",
+    "Add section: 'Submissions Available from Backside 50-50' (clear FAQ list with brief descriptions)",
+    "Add section: 'How to Take the Back from Backside 50-50' (highest-value transition, 4 points)",
+    "Add section: 'Heel Hook Defense in Backside 50-50' (safety-critical, high search volume)",
+    "Add section: 'Competition Legality: What Submissions are Legal from Backside 50-50?' (IBJJF belt-level breakdown)",
+    "Add FAQ: 'What is the difference between backside 50-50 and the saddle?' (drives internal link to Saddle page)",
+    "Add FAQ: 'What does inside position mean in leg locks?' (foundational definitional query recurring across leg lock pages)"
+  ]
+}
