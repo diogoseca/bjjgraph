@@ -3,8 +3,11 @@
 
 
 ---
-title: "Half Butterfly Top | BJJ Position Guide | BJJ Graph"
-description: "Master Half Butterfly Top position in BJJ. Top player control against bottom's butterfly hook with passing options. Key position for guard passing with 60-70% pass success rate."
+title: "How to Pass Half Butterfly Top in BJJ | Position Guide | BJJ Graph"
+description: "Master Half Butterfly Top in BJJ: neutralize the butterfly hook, use knee slice, smash pass, or leg weave to reach side control. 68% advancement rate. Complete guide with drills and decision tree."
+bot_metadata:
+  last_improved: "2026-03-21"
+  optimization_pass: "ai_seo_v1"
 ---
 
 
@@ -157,6 +160,8 @@ description: "Master Half Butterfly Top position in BJJ. Top player control agai
 
 <section id="overview" class="content-section">
 
+**Half Butterfly Top** is a guard-passing position where the top player has cleared one side of [[Positions/Butterfly Guard]] but the bottom player retains one butterfly hook. **Advancement probability: 68%. Average time in position: 30–90 seconds.** Requires: chest pressure, wide base, crossface control. Primary paths to [[Positions/Side Control]]: [[Transitions/Knee Slice Pass]] (35%), [[Transitions/Smash Pass]] (18%), [[Transitions/Leg Weave Pass]] on sweep attempts (65% success).
+
 Half Butterfly Top is a transitional position where the top player has passed one side of the butterfly guard but the bottom player retains one butterfly hook. This creates a dynamic half guard variant where the top player aims to complete the pass while the bottom player attempts to recover full butterfly guard or sweep. The position requires careful weight distribution from the top player to prevent the butterfly hook from generating lifting power while simultaneously advancing the pass.
 
 This is a critical juncture in modern guard passing, as many high-level players use butterfly-based guards and the top player must understand how to neutralize the remaining hook while maintaining forward pressure. The position often arises during knee slice attempts, smash passes, or when passing aggressive butterfly guard players who fight to retain at least one hook. Success in this position requires understanding both pressure passing principles and the biomechanics of how the butterfly hook generates leverage.
@@ -167,7 +172,7 @@ The top player must establish upper body control first through crossface or unde
 
 <section id="state-invariants" class="content-section">
 
-## Position Definition
+## What is Half Butterfly Top?
 
 <p class="section-subtitle">What is Half Butterfly (Top)?</p>
 
@@ -181,7 +186,7 @@ The top player must establish upper body control first through crossface or unde
 
 <section id="prerequisites" class="content-section">
 
-## Prerequisites
+## How Does Half Butterfly Top Occur?
 
 <p class="section-subtitle">What do you need before playing Half Butterfly (Top)?</p>
 
@@ -195,7 +200,7 @@ The top player must establish upper body control first through crossface or unde
 
 <section id="key-principles" class="content-section">
 
-## Key Offensive Principles
+## What Are the Key Principles for Passing Half Butterfly Top?
 
 <p class="section-subtitle">What are the key principles for attacking from Half Butterfly?</p>
 
@@ -212,7 +217,7 @@ The top player must establish upper body control first through crossface or unde
 
 <section id="decision-tree" class="content-section">
 
-## Decision Making from This Position
+## Which Pass Should You Use from Half Butterfly Top?
 
 <p class="section-subtitle">What should you do from Half Butterfly (Top)?</p>
 
@@ -242,7 +247,7 @@ The top player must establish upper body control first through crossface or unde
 
 <section id="common-mistakes" class="content-section hide-minimal">
 
-## Common Offensive Mistakes
+## What Mistakes Should You Avoid in Half Butterfly Top?
 
 <p class="section-subtitle">What mistakes should you avoid when attacking from Half Butterfly?</p>
 
@@ -282,7 +287,7 @@ The top player must establish upper body control first through crossface or unde
 
 <section id="training-drills" class="content-section hide-minimal">
 
-## Training Drills for Attacks
+## How to Practice Half Butterfly Top Passing (Training Drills)
 
 <p class="section-subtitle">How do you train Half Butterfly attacks?</p>
 
@@ -322,7 +327,7 @@ Top player maintains half butterfly top while bottom player randomly chooses bet
 
 <section id="position-metrics" class="content-section">
 
-## Success Rates and Statistics
+## What Are the Success Rates for Half Butterfly Top?
 
 | Metric | Rate |
 |--------|------|
@@ -348,6 +353,44 @@ Top player maintains half butterfly top while bottom player randomly chooses bet
 - **[[Transitions/Underhook Pass]]** - Counter technique - used when bottom player gets underhook
 - **[[Positions/Half Guard/Deep Half Guard]]** - Common transition - where bottom player escapes
 
+
+</section>
+
+<section id="faq" class="content-section">
+
+## Frequently Asked Questions About Half Butterfly Top
+
+### What is Half Butterfly Top in BJJ?
+
+Half Butterfly Top is a transitional guard-passing position. The top player has cleared one side of [[Positions/Butterfly Guard]] but the bottom player retains a single butterfly hook on the opposite side. The top player's goal is to neutralize that hook and complete the pass to [[Positions/Side Control]] or [[Positions/Mount]].
+
+### What is the best pass to use from Half Butterfly Top?
+
+The [[Transitions/Knee Slice Pass]] is attempted most frequently (35% of exchanges) and is most effective when the bottom player tries to recover full butterfly guard. The [[Transitions/Leg Weave Pass]] has the highest individual success rate (65%) and should be used when the bottom player extends their hook for a sweep attempt. The [[Transitions/Smash Pass]] (18% of exchanges) works against high-hip guard players.
+
+### How do you stop the butterfly hook from sweeping you in Half Butterfly Top?
+
+Drive your chest forward and down onto the bottom player's upper body while lowering your hips toward the mat. This moves your weight away from the hook's optimal fulcrum point under your thigh. Simultaneously spread your knees wide to create a stable, low base. Never sit upright — that position gives the hook full mechanical advantage to elevate and sweep.
+
+### How do you prevent the bottom player from entering Deep Half Guard?
+
+Keep your inside knee blocking their head's path under your hips. Maintain constant chest-to-chest pressure to limit the angular space they need to shoot their outside arm under you. When you feel them diving, drive your hips down and sprawl forward to flatten them before the entry completes. See [[Positions/Half Guard/Deep Half Guard]] for the escape mechanics to understand what you're preventing.
+
+### What is the difference between Half Butterfly Top and standard Half Guard Top?
+
+In standard [[Positions/Half Guard]], the bottom player only has leg control on one of your legs. **Half Butterfly Top** adds a butterfly hook on the free side, creating a second offensive vector — the hook can elevate your weight independently of the trapped leg. This forces you to manage two threats simultaneously, making it more complex than pure half guard passing.
+
+### How important is crossface control in Half Butterfly Top?
+
+Crossface control is critical. Establishing your shoulder or forearm across the bottom player's face limits their ability to turn into you, prevents them from creating the angle needed to elevate with the hook, and enables you to flatten them for [[Transitions/Smash Pass]] entries. Prioritize crossface before committing to any pass direction.
+
+### What grip controls work best in Half Butterfly Top?
+
+Control the bottom player's near-side arm with an underhook or overhook to prevent framing. Use crossface or head control to limit rotation. In gi, a cross-collar grip combined with crossface creates strong positional control. In no-gi, underhook on the far side with head pressure is the primary control. Without upper body control, any pass attempt can be countered by the hook sweep.
+
+### How does Half Butterfly Top connect to the Knee Shield Half Guard?
+
+The [[Positions/Half Guard/Knee Shield Half Guard]] often appears as the bottom player's defensive response when you begin applying pressure in Half Butterfly Top — they insert the knee shield to create a frame and prevent your chest pressure. Recognizing this transition early is key: address the knee shield by stepping around it or using a knee slice before it becomes fully established.
 
 </section>
 
