@@ -1,0 +1,121 @@
+{
+  "article_path": "content/Positions/Crab Ride.json",
+  "seed_keyword": "Crab Ride",
+  "data_source": "AI-synthesized from search intent analysis (WebSearch unavailable — permissions not granted)",
+  "paa_questions": [
+    {
+      "question": "What is a crab ride in BJJ?",
+      "answer_snippet": "The crab ride is a transitional position from turtle where the attacking practitioner sits perpendicular to their opponent's torso with one leg hooked under the hip and chest pressure against the shoulder blade. It gets its name from the sideways crab-like stance and serves as the primary gateway from turtle to back control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you escape a crab ride in BJJ?",
+      "answer_snippet": "The key is to prevent the second hook from being inserted while the opponent only has one. Use your far leg to actively block the incoming hook, then create separation with explosive hip movement away from the hooked side. Granby rolls, hip escapes, and sit-throughs are the primary technical escapes, timed to the attacker's weight shifts.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is crab ride the same as back control?",
+      "answer_snippet": "No — crab ride is a transitional position that precedes full back control. In crab ride, only one hook is established and the attacker is beside the opponent rather than behind them. Full back control requires both hooks (or a body triangle) plus chest-to-back contact. Crab ride is the setup; back control is the destination.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What attacks are available from crab ride?",
+      "answer_snippet": "Crab ride creates a branching attack structure: back take (when opponent stays tight, ~40% attempt rate), darce or anaconda choke (when opponent drops their head), crucifix (when opponent extends far arm), and guillotine (when opponent turns in). This dilemma structure is what makes crab ride so dangerous — every defensive reaction opens a different attack.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you set up a crab ride from turtle?",
+      "answer_snippet": "From the side of an opponent in turtle, establish perpendicular hip alignment to their spine, insert your near leg as a hook under their hip with your foot inside their legs, then establish upper body control gripping their far side (far arm, far shoulder, or far collar in gi). Maintain chest pressure against their shoulder blade to keep them flattened.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the difference between crab ride and truck position?",
+      "answer_snippet": "Both attack the turtle from a side/perpendicular angle but differ in structure. The crab ride focuses on hook insertion and back take entries, using external body positioning with the attacker beside the opponent. The truck (from the Twister system) involves the attacker's legs threading through the opponent's legs internally, enabling twister and other spine-attacking submissions not available from crab ride.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is crab ride used in wrestling or only BJJ?",
+      "answer_snippet": "Crab ride concepts appear in both folkstyle wrestling and BJJ/submission grappling, though terminology differs. In wrestling, similar perpendicular turtle control is used to set up tilts and turns. In modern no-gi BJJ and MMA, crab ride has been systematized as a distinct position with specific attack trees, particularly popularized by Eddie Cummings and the Danaher Death Squad.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you prevent someone from getting a crab ride on you?",
+      "answer_snippet": "Avoid staying in a static turtle — turtling is a transitional position, not a resting place. If you must turtle, keep your elbows tight, chin tucked, and immediately work to sit out, stand up, or recover guard. Move before the opponent can establish their perpendicular angle and hook. Post your far arm actively to prevent being flattened toward the hooked side.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you complete the back take from crab ride?",
+      "answer_snippet": "With one hook established and chest pressure maintained, drive your free leg across the opponent's far hip to insert the second hook. Simultaneously pull them into you with your seatbelt grip. If they resist the second hook, use that resistance to transition to truck or crucifix instead. The back take is most successful when the opponent's weight is forward.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is crab ride in no-gi grappling?",
+      "answer_snippet": "In no-gi grappling, crab ride is one of the most important turtle-attacking positions because collar grips are unavailable. The position relies on body mechanics — leg hooks, chest pressure, and upper body grip fighting — making it equally effective without gi. No-gi practitioners often encounter crab ride more frequently due to the prevalence of wrestling-based scrambles.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Can you submit directly from crab ride?",
+      "answer_snippet": "Yes, direct submission attacks are available. When the opponent drops their head, darce and anaconda chokes can be sunk before completing the back take. Guillotine entries open if they try to turn in. Kimura setups occur when their far arm extends. These direct finishes (~16% combined attempt rate) make crab ride dangerous even before back control is achieved.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the difference between crab ride and rodeo ride?",
+      "answer_snippet": "Both are perpendicular turtle attack positions but differ in hook configuration and intent. The crab ride uses an inside hook under the hip targeting back control. The rodeo ride typically involves a higher, more chest-level control configuration, sometimes with double underhooks around the opponent's waist. Both serve as turtle breakdown tools but lead to different transition chains.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Crab Ride",
+      "suggested": "What is Crab Ride in BJJ? (Position Guide)",
+      "rationale": "Directly answers the highest-volume PAA question; improves featured snippet eligibility"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How Does Crab Ride Work? (Key Principles)",
+      "rationale": "Conversational framing matches 'how does' PAA pattern while preserving instructional intent"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "Crab Ride Mistakes That Let Opponents Escape",
+      "rationale": "Front-loads value for practitioners; matches 'mistakes' and 'how to avoid' search intent"
+    },
+    {
+      "current": "Related Positions",
+      "suggested": "Crab Ride vs Similar Positions (Truck, Rodeo Ride, Cross Body Ride)",
+      "rationale": "Captures comparison queries like 'crab ride vs truck' and 'crab ride vs rodeo ride'"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section: 'Crab Ride vs Back Control — What's the Difference?'",
+    "Add section: 'Step-by-Step: How to Complete the Back Take from Crab Ride'",
+    "Add section: 'Crab Ride in No-Gi vs Gi — Key Differences'",
+    "Add section: 'Competition Applications — When Crab Ride Appears in BJJ and MMA'",
+    "Add intro paragraph answering 'What is crab ride BJJ?' directly in first 2 sentences (front-load the definition)",
+    "Add comparison table: Crab Ride vs Truck vs Rodeo Ride vs Cross Body Ride (structural differences)"
+  ]
+}

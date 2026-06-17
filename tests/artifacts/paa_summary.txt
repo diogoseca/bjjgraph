@@ -1,0 +1,114 @@
+PAA SEO Analysis Summary
+Generated: 2026-03-29
+Data source: AI-synthesized from search intent analysis
+Note: WebSearch permission was not granted; questions derived from BJJ search patterns,
+      article content analysis, and known user intent categories.
+
+=============================================================================
+ARTICLES PROCESSED: 2
+=============================================================================
+
+1. Body Triangle (content/Positions/Back Control/Body Triangle.json)
+2. Crab Ride (content/Positions/Crab Ride.json)
+
+=============================================================================
+PAA QUESTIONS FOUND
+=============================================================================
+
+Body Triangle — 12 questions
+  HIGH priority (direct answers needed): 6
+    - What is a body triangle in BJJ?
+    - How do you escape a body triangle in BJJ?
+    - Is a body triangle better than hooks in BJJ back control?
+    - Can you submit someone with a body triangle in BJJ?
+    - How do you set up a body triangle from back control?
+    - [implied: What submissions work best from body triangle?]
+
+  MEDIUM priority: 4
+    - Is body triangle legal in BJJ competition?
+    - Why is the body triangle so hard to escape?
+    - Where should you position the body triangle on the torso?
+    - How is body triangle different from a rear triangle choke?
+
+  LOW priority: 2
+    - Does body triangle work in no-gi BJJ?
+    - How do you prevent someone from getting a body triangle on you?
+
+Crab Ride — 12 questions
+  HIGH priority (direct answers needed): 5
+    - What is a crab ride in BJJ?
+    - How do you escape a crab ride in BJJ?
+    - Is crab ride the same as back control?
+    - What attacks are available from crab ride?
+    - How do you set up a crab ride from turtle?
+
+  MEDIUM priority: 5
+    - What is the difference between crab ride and truck position?
+    - Is crab ride used in wrestling or only BJJ?
+    - How do you prevent someone from getting a crab ride on you?
+    - How do you complete the back take from crab ride?
+    - What is crab ride in no-gi grappling?
+
+  LOW priority: 2
+    - Can you submit directly from crab ride?
+    - What is the difference between crab ride and rodeo ride?
+
+=============================================================================
+CONTENT GAP ANALYSIS
+=============================================================================
+
+BODY TRIANGLE — Missing content:
+  1. Direct definition in opening paragraph (first 2 sentences must answer "what is")
+  2. Body Triangle vs Hooks comparison section (high search volume comparison query)
+  3. Step-by-step setup guide (how to get into body triangle from back control)
+  4. Competition legality FAQ entry
+  5. Size/flexibility considerations (accessibility for smaller practitioners)
+  6. Prevention section (how to stop opponent getting body triangle)
+
+CRAB RIDE — Missing content:
+  1. Direct definition in opening paragraph (first 2 sentences must answer "what is")
+  2. Crab Ride vs Back Control distinction (highest confusion point for beginners)
+  3. Step-by-step back take completion from crab ride
+  4. Gi vs No-gi differences section
+  5. Comparison table: Crab Ride vs Truck vs Rodeo Ride vs Cross Body Ride
+  6. Competition/MMA context section
+
+=============================================================================
+HEADING OPTIMIZATION OPPORTUNITIES
+=============================================================================
+
+Body Triangle:
+  - "Body Triangle Position" → "What is the Body Triangle Position in BJJ?"
+  - "Key Principles" → "Why Is Body Triangle So Effective? (Key Principles)"
+  - "Common Errors" → "Body Triangle Mistakes That Cost You the Position"
+  - "Training Drills" → "How to Train Body Triangle: Drills for Retention and Escape"
+
+Crab Ride:
+  - "Crab Ride" → "What is Crab Ride in BJJ? (Position Guide)"
+  - "Key Principles" → "How Does Crab Ride Work? (Key Principles)"
+  - "Common Errors" → "Crab Ride Mistakes That Let Opponents Escape"
+  - "Related Positions" → "Crab Ride vs Similar Positions (Truck, Rodeo Ride, Cross Body Ride)"
+
+=============================================================================
+SUGGESTED NEW ARTICLES
+=============================================================================
+
+1. content/Positions/Back Control/Body Triangle vs Hooks.md
+   Plan: Comparison article — when to use body triangle vs standard hooks from back control,
+         size considerations, energy cost trade-offs, competition vs training contexts.
+
+2. content/Positions/Crab Ride/Crab Ride vs Truck.md
+   Plan: Comparison article — structural differences, when to use each, transition paths,
+         no-gi vs gi applicability, beginner vs advanced suitability.
+
+3. content/Positions/Crab Ride/Crab Ride to Back Take.md
+   Plan: Dedicated transition guide — step-by-step back take completion, hook insertion
+         timing, upper body control during transition, common counters and answers.
+
+=============================================================================
+OUTPUT FILES
+=============================================================================
+  tests/artifacts/paa_body_triangle.json   — Full PAA data for Body Triangle
+  tests/artifacts/paa_crab_ride.json       — Full PAA data for Crab Ride
+  tests/artifacts/paa_summary.txt          — This file
+  tests/artifacts/suggested_new_files.csv  — Updated with new article suggestions

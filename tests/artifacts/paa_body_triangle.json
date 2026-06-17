@@ -1,0 +1,121 @@
+{
+  "article_path": "content/Positions/Back Control/Body Triangle.json",
+  "seed_keyword": "Body Triangle",
+  "data_source": "AI-synthesized from search intent analysis (WebSearch unavailable — permissions not granted)",
+  "paa_questions": [
+    {
+      "question": "What is a body triangle in BJJ?",
+      "answer_snippet": "A body triangle is a variation of back control where instead of using standard leg hooks, the attacker locks their legs in a figure-four configuration around the opponent's torso. The crossing leg creates constant squeezing pressure on the ribcage and diaphragm, restricting breathing and preventing hip-based escape strategies.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you escape a body triangle in BJJ?",
+      "answer_snippet": "The primary escape targets the structural weakness of the lock: the foot tucked behind the attacker's own knee. Create space with hip movement first, then use your hand to push that ankle out of the figure-four configuration. Avoid explosive scrambling — work methodically while protecting your neck throughout.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is a body triangle better than hooks in BJJ back control?",
+      "answer_snippet": "The body triangle offers higher retention and requires less energy to maintain than standard hooks because it is a passive mechanical lock that cannot be cleared with hip movement. However, it requires sufficient leg length relative to the opponent's torso, so hooks may be more versatile for smaller practitioners.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Can you submit someone with a body triangle in BJJ?",
+      "answer_snippet": "The body triangle itself is a controlling position, not a submission. However, its breathing restriction and immobilization significantly increase submission success rates for rear naked choke, bow-and-arrow choke, and armbar from the back, as opponents are forced into defensive errors.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is body triangle legal in BJJ competition?",
+      "answer_snippet": "Yes, the body triangle is legal in all major BJJ and no-gi grappling competitions including IBJJF, ADCC, and EBI. It is not a joint lock or choke — it is a controlling position. Rules around submissions from back control apply, but the position itself has no special restrictions.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you set up a body triangle from back control?",
+      "answer_snippet": "From standard back control with hooks, thread one leg across the opponent's torso at lower rib/diaphragm level, cross it over your other leg, and tuck your foot behind your own knee creating the figure-four lock. Maintain seatbelt or collar grip with your upper body throughout the transition.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Why is the body triangle so hard to escape?",
+      "answer_snippet": "Unlike standard hooks which can be cleared by pushing the ankle with hip movement, the body triangle's figure-four lock has no exposed ankle to grab. The lock tightens under resistance and the constant breathing restriction creates psychological urgency that causes defenders to make mistakes before escaping.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Where should you position the body triangle on the torso?",
+      "answer_snippet": "Position the triangle around the lower ribcage and diaphragm — roughly just above the belly button. Too high allows freer breathing and easier clearing; too low provides less control and risks slipping. The lower rib position also anchors against the hip bones to prevent downward slippage.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What submissions work best from body triangle position?",
+      "answer_snippet": "The rear naked choke is the highest-percentage finish (~42% attempt rate) because the breathing restriction creates urgency that forces opponents to lower their chin defense. The bow-and-arrow choke, short choke, and armbar from back transition are also effective, especially when opponents reach for the triangle to escape.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How is body triangle different from a rear triangle choke?",
+      "answer_snippet": "The body triangle locks the legs around the torso to create control and breathing restriction — it is a positional tool, not a submission. The rear triangle (or rear naked triangle) wraps the legs around the neck and one arm to create a blood choke submission. Both are used from back control but target different body parts with different goals.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Does body triangle work in no-gi BJJ?",
+      "answer_snippet": "Yes, the body triangle is equally effective in both gi and no-gi contexts. Because it relies on leg mechanics rather than fabric grips, the position may actually be more reliable in no-gi than certain collar-based back control setups.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you prevent someone from getting a body triangle on you?",
+      "answer_snippet": "When defending back control, keep your hips mobile and do not allow your opponent to align their legs at your midsection. Once you feel them threading a leg across your torso, rotate into them immediately — turning reduces the angle they need to complete the lock. Early prevention is far easier than escaping an established triangle.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Body Triangle Position",
+      "suggested": "What is the Body Triangle Position in BJJ?",
+      "rationale": "Matches the highest-volume conversational query pattern; directly answers the primary PAA question"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "Why Is Body Triangle So Effective? (Key Principles)",
+      "rationale": "Addresses the 'why is body triangle so hard to escape' PAA question while preserving section clarity"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "Body Triangle Mistakes That Cost You the Position",
+      "rationale": "Front-loads value; matches 'how to' and 'mistakes' search intent patterns"
+    },
+    {
+      "current": "Training Drills",
+      "suggested": "How to Train Body Triangle: Drills for Retention and Escape",
+      "rationale": "Converts generic section header into a question-answering heading that captures instructional search intent"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section: 'Body Triangle vs Hooks — Which is Better for Back Control?'",
+    "Add section: 'How to Set Up the Body Triangle from Standard Back Control (Step-by-Step)'",
+    "Add section: 'Legal Status — Is Body Triangle Allowed in IBJJF, ADCC, Submission Wrestling?'",
+    "Add section: 'Body Triangle for Smaller Practitioners — Size and Flexibility Considerations'",
+    "Add section: 'Preventing the Body Triangle Before It's Established'",
+    "Add intro paragraph answering 'What is body triangle BJJ?' directly in first 2 sentences (front-load the definition)"
+  ]
+}
