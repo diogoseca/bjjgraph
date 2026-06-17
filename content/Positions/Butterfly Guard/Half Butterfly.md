@@ -22,9 +22,9 @@ description: "Master Half Butterfly guard in BJJ. Hybrid position combining butt
 
 <section id="overview" class="content-section">
 
-Half Butterfly is a dynamic hybrid guard position that combines elements of traditional butterfly guard with half guard retention mechanics. The bottom practitioner uses one butterfly hook on the opponent's inner thigh while maintaining half guard control on the opposite leg, creating a powerful platform for sweeps and transitions. This position offers superior mobility compared to traditional half guard while providing more structural control than standard butterfly guard.
+Half Butterfly is a dynamic hybrid guard position that combines elements of traditional [[Positions/Butterfly Guard]] with [[Positions/Half Guard]] retention mechanics. The bottom practitioner uses one butterfly hook on the opponent's inner thigh while maintaining half guard control on the opposite leg, creating a powerful platform for sweeps and transitions. This position offers superior mobility compared to traditional [[Positions/Half Guard]] while providing more structural control than standard [[Positions/Butterfly Guard]].
 
-The asymmetric nature of Half Butterfly creates natural leverage advantages for sweeps and allows seamless transitions to deep half guard, x-guard, or traditional butterfly guard. Originally popularized by wrestlers transitioning to BJJ, this position has become fundamental to modern no-gi grappling and is particularly effective against pressure passers who attempt to flatten the bottom player.
+The asymmetric nature of Half Butterfly creates natural leverage advantages for sweeps and allows seamless transitions to [[Positions/Deep Half Guard]], [[Positions/X-Guard]], or traditional [[Positions/Butterfly Guard]]. Originally popularized by wrestlers transitioning to BJJ, this position has become fundamental to modern no-gi grappling and is particularly effective against pressure passers who attempt to flatten the bottom player.
 
 From the top perspective, Half Butterfly Top represents a critical transitional moment in the guard passing sequence where the passer has achieved partial success but not complete control. The top player must neutralize the remaining butterfly hook's lifting mechanism through precise weight distribution and pressure angles while simultaneously advancing the pass. This position requires careful weight distribution to prevent the butterfly hook from generating lifting power while maintaining forward pressure to complete the pass. Understanding both perspectives is essential for modern competitive grappling, as this position frequently appears in high-level matches and represents a key battleground between guard player and passer.
 
@@ -47,7 +47,7 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 
 - Coordinate both guard components - tighten half guard when elevating butterfly hook to create dual threats
 
-- Transition fluidly between half butterfly, deep half, and full butterfly based on opponent's pressure and weight distribution
+- Transition fluidly between half butterfly, [[Positions/Deep Half Guard]], and full [[Positions/Butterfly Guard]] based on opponent's pressure and weight distribution
 
 
 </section>
