@@ -87,6 +87,16 @@
         "additionalProperties": false
       }
     },
+    "bot_metadata": {
+      "type": "object",
+      "description": "Bot improvement tracking metadata",
+      "properties": {
+        "last_improved": {
+          "type": "string",
+          "description": "Date when bot last improved this file (YYYY-MM-DD)"
+        }
+      }
+    },
     "related_positions": {
       "type": "array",
       "description": "Related positions with relationship descriptions",
@@ -136,6 +146,29 @@
           "type": "string",
           "description": "Position overview from bottom perspective (400+ words minimum)",
           "minLength": 400
+        },
+        "flashcards": {
+          "type": "array",
+          "description": "6-8 Q&A pairs about this position (how to escape, common mistakes, etc.)",
+          "minItems": 6,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["question", "answer"],
+            "properties": {
+              "question": {
+                "type": "string",
+                "pattern": ".*\\?$",
+                "description": "Question about position mechanics, strategy, or technique"
+              },
+              "answer": {
+                "type": "string",
+                "minLength": 50,
+                "description": "Detailed answer (50+ characters)"
+              }
+            }
+          }
         },
         "state_properties": {
           "type": "object",
@@ -459,6 +492,29 @@
           "type": "string",
           "description": "Position overview from top perspective (400+ words minimum)",
           "minLength": 400
+        },
+        "flashcards": {
+          "type": "array",
+          "description": "6-8 Q&A pairs about this position (how to maintain, common mistakes, etc.)",
+          "minItems": 6,
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["question", "answer"],
+            "properties": {
+              "question": {
+                "type": "string",
+                "pattern": ".*\\?$",
+                "description": "Question about position mechanics, strategy, or technique"
+              },
+              "answer": {
+                "type": "string",
+                "minLength": 50,
+                "description": "Detailed answer (50+ characters)"
+              }
+            }
+          }
         },
         "state_properties": {
           "type": "object",

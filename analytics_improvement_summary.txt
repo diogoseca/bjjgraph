@@ -1,0 +1,128 @@
+BJJ CONTENT IMPROVEMENT SUMMARY - 2026-06-17
+============================================
+
+## Analytics Collection
+
+PostHog API key available (phc_FRNLwKRg5cAGAqXMr13mjItplM) but is a capture-only project token
+(prefix: phc_), not a personal API key (phx_) required for the Query API. The Query API
+returned 403 authentication errors for all HogQL queries.
+
+Fallback strategy: Used content analysis (TODOs, flashcard counts, wikilink counts, git age,
+bot_metadata.last_improved) to identify improvement candidates.
+
+## File Selection
+
+Selection criteria:
+1. HIGH IMPACT: Most foundational positions in the BJJ graph (highest conceptual traffic)
+2. ZERO FLASHCARDS: All 83 position JSON files had 0 flashcards (schema supports them but none added)
+3. ZERO WIKILINKS: All 1,200+ content JSON files had 0 inline wikilinks
+4. NEVER IMPROVED: All three files had no bot_metadata.last_improved date
+5. OLD CONTENT: All three files >60 days since last git commit
+
+Selected files:
+1. content/Positions/Mount.json (most fundamental dominant position)
+2. content/Positions/Back Control.json (most dominant position by submission rate)
+3. content/Positions/Closed Guard.json (most fundamental guard/defensive position)
+
+## Improvements Made
+
+### content/Positions/Mount.json
+- Added 6 flashcards to top role covering:
+  * Submission dilemma (arm attacks vs chokes)
+  * Low-to-high mount advancement timing
+  * Using elbow escape as offense
+  * S-Mount mechanics for armbar
+  * Upa bridge response
+  * Technical Mount vs standard mount
+- Added 6 flashcards to bottom role covering:
+  * Escape hierarchy (must follow in order)
+  * Extended arm danger
+  * Upa setup requirements
+  * Elbow-knee frame structure
+  * Energy management under mount
+  * Technical Mount response
+- Added 16 wikilinks inline in overview, top.overview, bottom.overview text:
+  * [[Positions/Mount/High Mount]], [[Positions/Mount/Technical Mount]], [[Positions/Back Control]]
+  * [[Submissions/Armbar/from Mount]], [[Submissions/Cross Collar Choke/from Mount]]
+  * [[Positions/Mount/S Mount]], [[Transitions/Upa Escape]], [[Transitions/Elbow Escape from Mount]]
+  * [[Positions/Half Guard]], [[Positions/Closed Guard]]
+- Added bot_metadata.last_improved: "2026-06-17"
+
+### content/Positions/Back Control.json
+- Added 6 flashcards to top role covering:
+  * Three-layer control hierarchy
+  * Opponent's fundamental disadvantage
+  * Position-before-submission principle
+  * Body triangle vs hooks decision
+  * Hand fighting sequence for RNC
+  * Gift Wrap control usage
+- Added 6 flashcards to bottom role covering:
+  * Primary escape objective (turn and face)
+  * Chin-to-chest tuck importance
+  * Back step escape mechanics
+  * Elbow-to-knee frame for harness defense
+  * When to attempt hip escape
+  * Body triangle response
+- Added 13 wikilinks in overview, top.overview, bottom.overview:
+  * [[Submissions/Rear Naked Choke]], [[Submissions/Bow and Arrow Choke]], [[Submissions/Armbar]]
+  * [[Positions/Crucifix]], [[Positions/Gift Wrap]], [[Positions/Back Control/Body Triangle]]
+  * [[Positions/Turtle]]
+- Added bot_metadata.last_improved: "2026-06-17"
+
+### content/Positions/Closed Guard.json
+- Added 6 flashcards to top role covering:
+  * Fundamental defensive priority (posture first)
+  * Grip fighting before guard opening
+  * Three systematic guard opening steps
+  * Combat base position purpose
+  * Knee slice pass timing
+  * Bottom player's hip extension signals
+- Added 6 flashcards to bottom role covering:
+  * Offensive framework (dilemma creation)
+  * Breaking posture first
+  * Hip angle principle
+  * Scissor vs hip bump sweep selection
+  * Triangle choke setup sequence
+  * Arm drag to back transition
+- Added 11 wikilinks in overview, top.overview, bottom.overview:
+  * [[Submissions/Triangle Choke]], [[Submissions/Armbar]], [[Submissions/Kimura]]
+  * [[Submissions/Omoplata]], [[Positions/Side Control]], [[Positions/Half Guard]]
+  * [[Positions/Mount]], [[Positions/Back Control]], [[Positions/Triangle Control]]
+- Added bot_metadata.last_improved: "2026-06-17"
+
+## Schema Updates
+
+Added bot_metadata as optional property to:
+- templates/Positions/TEMPLATE-DUAL.json (for standard dual-role positions)
+- templates/Positions/TEMPLATE-FAMILY.json (for family hub positions with variations)
+
+The Back Control agent also added flashcard support to TEMPLATE-FAMILY.json
+(which already existed in TEMPLATE-DUAL.json).
+
+## Validation Results
+
+All three files pass JSON schema validation:
+✓ Mount.json: Valid
+✓ Back Control.json: Valid
+✓ Closed Guard.json: Valid
+
+Graph integrity check shows 70 pre-existing missing_outcomes errors and 126 orphaned
+submissions - these are pre-existing issues in transition/submission files, not caused by
+our position page improvements.
+
+## Before/After Comparison
+
+| File | Before | After |
+|------|--------|-------|
+| Mount.json | 0 flashcards, 0 wikilinks, no bot_metadata | 12 flashcards, 16 wikilinks, improved 2026-06-17 |
+| Back Control.json | 0 flashcards, 0 wikilinks, no bot_metadata | 12 flashcards, 13 wikilinks, improved 2026-06-17 |
+| Closed Guard.json | 0 flashcards, 0 wikilinks, no bot_metadata | 12 flashcards, 11 wikilinks, improved 2026-06-17 |
+
+## Discovery: Systemic Content Gap
+
+Audit revealed ALL 1,200+ JSON source files have 0 inline wikilinks and ALL 83 Position
+JSON files have 0 flashcards. This is a systemic gap - templates auto-generate wikilinks
+from structured data (transitions, related_content arrays) but no free-text wikilinks exist.
+
+Recommendation: Future bot runs should systematically add flashcards to all 83 position files
+(6+ per role) and add inline wikilinks to overview text in all high-traffic content files.

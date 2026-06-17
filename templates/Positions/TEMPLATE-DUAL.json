@@ -74,6 +74,16 @@
         ]
       ]
     },
+    "bot_metadata": {
+      "type": "object",
+      "description": "Bot improvement tracking metadata",
+      "properties": {
+        "last_improved": {
+          "type": "string",
+          "description": "Date when bot last improved this file (YYYY-MM-DD)"
+        }
+      }
+    },
     "related_positions": {
       "type": "array",
       "description": "Related positions/states/techniques for hub (3-15 items)",

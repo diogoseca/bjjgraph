@@ -3,7 +3,7 @@
   "slug": "closed-guard",
   "description": "Master the closed guard in BJJ. Complete strategic guide to bottom player offensive control and top player defensive posture, guard opening, and passing.",
   "variant_uniqueness": "Bottom offensive despite being underneath",
-  "overview": "Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked behind the back. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.\n\nThe closed guard exemplifies BJJ's core principle of using leverage and technique to overcome positional disadvantage. From the bottom perspective, the closed guard serves as both a defensive barrier preventing advancement and an offensive platform for sweeps, submissions, and transitions. The locked legs create a closed kinetic chain that allows control of the opponent's hips while threatening their upper body, forcing them to defend multiple attack vectors simultaneously.\n\nFrom the top perspective, closed guard presents a challenging defensive scenario where maintaining posture, fighting grips, and working toward guard opening become essential survival skills before any passing attempts can succeed. The position tests fundamental concepts of base, balance, and defensive awareness while under constant submission and sweep threats.\n\nThe closed guard's versatility across gi and no-gi competition, its effectiveness in self-defense scenarios, and its presence at all skill levels from white belt through black belt make it arguably the most studied position in grappling. Understanding both perspectives - the bottom player's offensive control system and the top player's defensive escape progression - is essential for complete positional mastery. This position serves as the foundation for countless advanced guard systems and remains relevant even as modern leg entanglement and dynamic guard systems have evolved the sport.",
+  "overview": "Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked behind the back. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.\n\nThe closed guard exemplifies BJJ's core principle of using leverage and technique to overcome positional disadvantage. From the bottom perspective, the closed guard serves as both a defensive barrier preventing advancement and an offensive platform for sweeps, [[Submissions/Triangle Choke|triangle choke]], [[Submissions/Armbar|armbar]], and [[Submissions/Kimura|kimura]] submissions, and transitions. The locked legs create a closed kinetic chain that allows control of the opponent's hips while threatening their upper body, forcing them to defend multiple attack vectors simultaneously.\n\nFrom the top perspective, closed guard presents a challenging defensive scenario where maintaining posture, fighting grips, and working toward guard opening become essential survival skills before any passing attempts can succeed. The position tests fundamental concepts of base, balance, and defensive awareness while under constant submission and sweep threats. Successful guard passers systematically progress toward [[Positions/Side Control|side control]] after opening the guard.\n\nThe closed guard's versatility across gi and no-gi competition, its effectiveness in self-defense scenarios, and its presence at all skill levels from white belt through black belt make it arguably the most studied position in grappling. Understanding both perspectives - the bottom player's offensive control system and the top player's defensive escape progression - is essential for complete positional mastery. This position serves as the foundation for countless advanced guard systems and remains relevant even as modern leg entanglement and dynamic guard systems have evolved the sport.",
   "key_principles": [
     "Bottom player controls distance and posture through combined leg squeeze and grip pressure",
     "Top player prioritizes structural integrity and posture maintenance above all passing attempts",
@@ -75,7 +75,7 @@
       "grip fighting defense",
       "posture maintenance bjj"
     ],
-    "overview": "Closed Guard Top Position represents one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu, where you find yourself trapped inside your opponent's closed guard with their legs wrapped around your waist and ankles locked behind your back. Despite being the top player, this position places you at a significant strategic disadvantage, as your opponent possesses numerous sweep and submission options while your primary objective must be maintaining defensive posture, avoiding attacks, and working systematically toward guard opening and passing.\n\nSuccess in closed guard top requires understanding that this is fundamentally a defensive position that must be escaped through systematic progression rather than a passing position offering immediate offensive opportunity. Your ability to maintain proper posture prevents your opponent from breaking you down for attacks, while strategic grip fighting denies them the control necessary to execute sweeps and submissions. The position tests your patience, technical precision, and defensive awareness as you navigate constant threats while working toward the guard opening that enables actual passing attempts.\n\nThe closed guard top position exemplifies the strategic complexity of Brazilian Jiu-Jitsu, where being on top does not automatically confer advantage. Understanding the systematic approach to guard opening - establishing posture, controlling grips, creating space, and opening the guard before attempting passes - separates effective guard passers from those who become trapped in defensive cycles or caught in submissions. Your success depends on balancing defensive awareness with offensive progression, creating a complex positional dynamic that requires both technical skill and strategic understanding to navigate effectively toward dominant position.",
+    "overview": "Closed Guard Top Position represents one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu, where you find yourself trapped inside your opponent's closed guard with their legs wrapped around your waist and ankles locked behind your back. Despite being the top player, this position places you at a significant strategic disadvantage, as your opponent possesses numerous sweep and submission options while your primary objective must be maintaining defensive posture, avoiding attacks, and working systematically toward guard opening and passing.\n\nSuccess in closed guard top requires understanding that this is fundamentally a defensive position that must be escaped through systematic progression rather than a passing position offering immediate offensive opportunity. Your ability to maintain proper posture prevents your opponent from breaking you down for attacks, while strategic grip fighting denies them the control necessary to execute sweeps and submissions. The position tests your patience, technical precision, and defensive awareness as you navigate constant threats while working toward the guard opening that enables actual passing attempts. When the guard is opened, the primary targets are [[Positions/Side Control|side control]] or [[Positions/Half Guard|half guard]] control during the transition.\n\nThe closed guard top position exemplifies the strategic complexity of Brazilian Jiu-Jitsu, where being on top does not automatically confer advantage. Understanding the systematic approach to guard opening - establishing posture, controlling grips, creating space, and opening the guard before attempting passes - separates effective guard passers from those who become trapped in defensive cycles or caught in submissions. Your success depends on balancing defensive awareness with offensive progression, creating a complex positional dynamic that requires both technical skill and strategic understanding to navigate effectively toward dominant position.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive",
@@ -296,6 +296,32 @@
         "duration": "15 minutes"
       }
     ],
+    "flashcards": [
+      {
+        "question": "What is the fundamental defensive priority from closed guard top?",
+        "answer": "Maintain posture first above everything else. An upright posture with head up, back straight, and hips forward prevents the bottom player from breaking you down for choke and sweep entries. Without posture, every defensive and offensive option becomes unavailable, making posture maintenance the prerequisite for any other technical work."
+      },
+      {
+        "question": "Why must you fight grips before attempting to open or pass the guard?",
+        "answer": "Without grip control, the bottom player can control your posture, create angles for sweeps and submissions, and prevent your guard-opening mechanics from working. Allowing collar and sleeve grips before opening the guard means every opening attempt will be countered by off-balancing pulls. Winning the grip fight is prerequisite to any systematic guard opening progression."
+      },
+      {
+        "question": "What are the three systematic steps to open closed guard?",
+        "answer": "Step 1: Establish posture and break any collar or sleeve grips holding your head or arms down. Step 2: Create space by posting one hand on their hip and one on their knee while standing up incrementally. Step 3: Use the standing position or specific knee-cut mechanics to separate their ankles and open the guard before initiating your pass."
+      },
+      {
+        "question": "What is the combat base position and why is it used from closed guard top?",
+        "answer": "Combat base is a kneeling position with one knee up and one knee down inside the closed guard, providing a lower center of gravity and better base resistance against sweeps compared to sitting flat or kneeling upright. It allows hip mobility for guard opening while reducing the leverage the bottom player can apply for upa sweeps."
+      },
+      {
+        "question": "When is the knee slice pass appropriate after opening closed guard?",
+        "answer": "The knee slice pass is appropriate when you have successfully created a crossface control and the opponent's guard is open with their knee down. Drive your passing knee toward their hip while flattening their opposite shoulder, using your crossface to prevent their hips from following. The pass is most effective when their defensive frames are neutralized through your grip control."
+      },
+      {
+        "question": "How does the bottom player's hip extension affect your guard passing options?",
+        "answer": "When the bottom player extends their hips to create distance, it actually benefits your guard opening as it reduces their leg squeeze on your torso. However, it often signals they are creating space for a triangle setup or arm drag. Use the hip extension moment to establish your standing posture and initiate guard opening before they can complete their offensive setup."
+      }
+    ],
     "related_content": [
       {
         "name": "Closed Guard",
@@ -375,7 +401,7 @@
       "guard retention defense",
       "closed guard sweeps"
     ],
-    "overview": "Closed Guard Bottom represents the foundational offensive guard position in Brazilian Jiu-Jitsu where you control your opponent from underneath by wrapping your legs around their waist with ankles crossed behind their back. Despite being the bottom player, this position grants you significant control, multiple offensive opportunities, and defensive security against advancement. The closed guard serves as the cornerstone of guard play from white belt through black belt, offering a versatile platform for sweeps, submissions, and transitions while maintaining a defensive barrier that prevents your opponent from advancing position.\n\nThe power of closed guard bottom lies in its dual nature: it simultaneously provides defensive protection while enabling aggressive offense. Your locked legs create a closed kinetic chain controlling your opponent's hips, while your arms control their upper body through strategic grips on collar, sleeves, or wrists. This combination allows you to break their posture, create angles, and threaten multiple attack vectors that force constant defensive reactions. The position works equally well in gi and no-gi competition, self-defense scenarios, and mixed martial arts applications, making it one of the most universally applicable positions in grappling.\n\nMaster practitioners understand that closed guard is not a passive holding position but an active offensive platform. Success requires constant hip movement to create angles, aggressive posture breaking to prevent defensive frames, and systematic combination attacks that create dilemmas where defending one technique opens another. The position rewards technical precision, timing, and strategic planning, allowing smaller practitioners to control and submit larger opponents through superior leverage and technique. Your ability to threaten sweeps and submissions simultaneously while maintaining defensive security makes closed guard bottom one of the most strategically advantageous positions available to the bottom player in BJJ.",
+    "overview": "Closed Guard Bottom represents the foundational offensive guard position in Brazilian Jiu-Jitsu where you control your opponent from underneath by wrapping your legs around their waist with ankles crossed behind their back. Despite being the bottom player, this position grants you significant control, multiple offensive opportunities, and defensive security against advancement. The closed guard serves as the cornerstone of guard play from white belt through black belt, offering a versatile platform for sweeps to [[Positions/Mount|mount]] or [[Positions/Back Control|back control]], [[Submissions/Triangle Choke|triangle choke]] and [[Submissions/Omoplata|omoplata]] submissions, and transitions while maintaining a defensive barrier that prevents your opponent from advancing position.\n\nThe power of closed guard bottom lies in its dual nature: it simultaneously provides defensive protection while enabling aggressive offense. Your locked legs create a closed kinetic chain controlling your opponent's hips, while your arms control their upper body through strategic grips on collar, sleeves, or wrists. This combination allows you to break their posture, create angles, and threaten multiple attack vectors that force constant defensive reactions. The position works equally well in gi and no-gi competition, self-defense scenarios, and mixed martial arts applications, making it one of the most universally applicable positions in grappling.\n\nMaster practitioners understand that closed guard is not a passive holding position but an active offensive platform. Success requires constant hip movement to create angles, aggressive posture breaking to prevent defensive frames, and systematic combination attacks that create dilemmas where defending one technique opens another. A broken posture leads directly to [[Positions/Triangle Control|triangle control]] entries and armbar setups. The position rewards technical precision, timing, and strategic planning, allowing smaller practitioners to control and submit larger opponents through superior leverage and technique. Your ability to threaten sweeps and submissions simultaneously while maintaining defensive security makes closed guard bottom one of the most strategically advantageous positions available to the bottom player in BJJ.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive",
@@ -646,6 +672,32 @@
         "duration": "5 minute rounds, 3-4 rounds"
       }
     ],
+    "flashcards": [
+      {
+        "question": "What is the fundamental offensive framework from closed guard bottom?",
+        "answer": "Create a submission or sweep dilemma where every defensive reaction opens a different attack pathway. When the opponent postures up to defend chokes, sweeps become available as their balance is compromised. When they flatten to defend sweeps, choke and armbar entries open. Maintaining active threat forces constant defensive decisions that create openings."
+      },
+      {
+        "question": "Why is breaking posture the first objective from closed guard bottom?",
+        "answer": "An opponent with good posture can defend all closed guard attacks from a safe distance, making sweeps and submissions difficult. Breaking their posture by pulling their head down with collar grips removes their defensive stability, allows you to create the angles needed for triangle and guillotine setups, and limits their ability to work toward guard opening."
+      },
+      {
+        "question": "What is the hip angle principle and why does it determine closed guard effectiveness?",
+        "answer": "Creating a hip angle by turning onto your side shifts your guard from flat (low threat) to angled (high threat), enabling triangle choke entries, omoplata setups, and armbar attempts that are unavailable from a flat guard. The angled guard also improves your ability to break posture and control the opponent's arm. Staying flat limits you to basic sweeps and reduces submission threat."
+      },
+      {
+        "question": "When should you use the scissor sweep versus the hip bump sweep from closed guard?",
+        "answer": "Use the scissor sweep when the opponent is sitting upright with their weight back and you can create an angle to cut their base with your shin. Use the hip bump sweep when they are low and flat with their weight forward, as the explosive sit-up creates an off-balance momentum you can capitalize on. Both require grip fighting to establish the required collar and sleeve grips first."
+      },
+      {
+        "question": "What is the triangle choke setup sequence and what defensive reaction does it target?",
+        "answer": "The triangle choke targets the moment when the opponent posts one arm to base or their elbow flares outward. Create the angle by pulling their head down to break posture, secure their same-side wrist, then swing your leg over their head while pulling their arm across your centerline. Lock the triangle by catching your shin behind their neck and squeezing your knees while angling your hips away."
+      },
+      {
+        "question": "How does the arm drag transition from closed guard work to take the back?",
+        "answer": "The arm drag converts a wrist or sleeve control into a back take by pulling the opponent's arm across their body while simultaneously rotating your body toward that arm and establishing chest-to-back connection. From closed guard, open your guard as you pull their arm to create hip mobility, then drive off your outside foot to rotate behind them before they can face you again."
+      }
+    ],
     "related_content": [
       {
         "name": "Open Guard",
@@ -707,5 +759,8 @@
       },
       "average_time": "1-3 minutes depending on skill differential and guard breaking proficiency"
     }
+  },
+  "bot_metadata": {
+    "last_improved": "2026-06-17"
   }
 }
