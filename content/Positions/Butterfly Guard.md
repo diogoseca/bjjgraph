@@ -22,13 +22,19 @@ description: "Master Butterfly Guard in BJJ. Dynamic open guard with powerful sw
 
 <section id="overview" class="content-section">
 
-Butterfly Guard is a dynamic open guard variation where the bottom player inserts hooks (feet) under the opponent's thighs while sitting up, creating powerful leverage for sweeps and upper body control. This position allows for explosive elevation of the opponent and offers exceptional offensive options while maintaining defensive capabilities. Butterfly Guard serves as both a powerful position in its own right and as a connector between various guard configurations.
+Butterfly Guard is an open guard variation in Brazilian Jiu-Jitsu where the bottom player inserts both feet — called butterfly hooks — under the opponent's inner thighs while sitting upright. The hooks create powerful lever points for explosive sweeps and back takes, while the seated posture enables dynamic transitions to [[X-Guard]], [[Single Leg X-Guard]], and [[Deep Half Guard]]. Success rate: Beginner 50%, Intermediate 65%, Advanced 80%. Prerequisites: hip mobility, core strength, and coordination between upper-body grip control and lower-body hook pressure.
 
-The position derives its name from the appearance of the legs with knees flared outward like butterfly wings. It is particularly effective against opponents in combat base or on their knees, where the hooks can generate maximum elevation. The butterfly guard practitioner maintains an upright seated posture, using grips and upper body control to manipulate the opponent's balance while the hooks create lifting power from below. This combination of upper body control and lower body elevation makes butterfly guard one of the most dynamic sweeping platforms in Brazilian Jiu-Jitsu, favored by competitors who excel at aggressive, offensive guard play.
+How does butterfly guard differ from closed guard? [[Closed Guard]] locks both legs around the opponent's waist, prioritizing control and submissions from a relatively passive defensive shell. Butterfly guard, by contrast, is an active open guard where hooks under the thighs provide mechanical elevation rather than body lock control. Butterfly guard is more offensive and dynamic — rewarding explosive sweep attempts, back takes, and leg entanglement entries — but requires constant active maintenance that closed guard does not. Closed guard suits beginners learning to control and submit; butterfly guard suits aggressive, sweeping-focused practitioners who want to dictate the pace.
 
-Biomechanically, butterfly guard operates on the principle of inside position and mechanical advantage through elevation. The hooks create a fulcrum point directly under the opponent's center of mass, allowing the guard player to generate significant lifting force with minimal energy expenditure. When combined with proper upper body control through collar grips, sleeve grips, or underhooks, this creates a powerful system for off-balancing and sweeping opponents. The seated posture provides mobility and reaction capability while maintaining constant pressure through the hooks, keeping opponents defensive and preventing them from establishing dominant passing grips or posture.
+The butterfly hook is the core mechanical unit of this guard. The instep or ball of the foot presses against the opponent's inner thigh, creating a lever point directly under their center of mass. When the guard player drives the hook upward — coordinated with upper-body pulling — this generates significant elevation force with minimal energy expenditure. Both hooks together form the 'butterfly' silhouette that gives the position its name. Deep hook insertion, close to the opponent's hips rather than the knee, maximizes leverage.
 
-Modern butterfly guard has evolved significantly, particularly in no-gi grappling where the absence of gi grips requires adaptations in control strategies. Contemporary practitioners emphasize the integration of butterfly guard with leg entanglement systems, using it as an entry point to X-Guard, Single Leg X-Guard, and ashi garami positions. The position has also become central to many competition strategies as a counter to modern pressure passing, where the hooks and seated posture provide excellent defensive retention capabilities while maintaining offensive threat.
+Grips in butterfly guard vary by context. In gi: a collar grip breaks the opponent's posture forward for sweeps; a sleeve grip controls one arm for the elevator sweep and prevents base posting; an underhook on one side sets up the arm drag to [[Back Control]] and the sumi gaeshi. In no-gi: wrist control replaces sleeve grips, head or neck control replaces collar grips, and a seatbelt grip transitions directly to back takes. The no-gi grip game centers on wrist-and-head combinations that break posture without relying on friction.
+
+The best sweeps from butterfly guard, ranked by attempt frequency: (1) [[Butterfly Sweep]] — 39% of attempts, executed with an underhook and hook elevation to roll opponent to [[Mount]]; (2) [[Arm Drag to Back]] — 11%, exploiting opponent's arm extension to enter [[Back Control]]; (3) [[Elevator Sweep]] — 7%, using a seatbelt or collar grip for larger elevation arc; (4) [[Sumi Gaeshi]] — 6%, a sacrifice back-fall sweep that catches opponents leaning forward. Each sweep targets a different defensive reaction, creating an interlocking offensive system.
+
+Butterfly guard is one of the most effective no-gi open guards. Without gi friction, the hooks provide mechanical control independent of cloth grip, and the wrist-and-head control game replaces collar-and-sleeve work. Many elite no-gi competitors — particularly those with wrestling backgrounds accustomed to upright posture — use butterfly guard as their primary position. The seated posture also translates directly to shot defense, making it a natural fit for wrestlers transitioning to submission grappling.
+
+Biomechanically, butterfly guard operates on inside position and mechanical advantage through elevation. The seated posture provides mobility and reaction capability while maintaining constant hook pressure that keeps opponents defensive. Modern practitioners use butterfly guard as a transitional hub — entering [[X-Guard]] when opponents stand, diving to [[Deep Half Guard]] under heavy pressure, and chaining sweeps to leg entanglement entries through [[Single Leg X Entry]]. Who benefits most: offensive-minded practitioners, smaller grapplers who need leverage to off-balance larger opponents, wrestlers comfortable in upright posture, and no-gi competitors.
 
 </section>
 
@@ -37,17 +43,17 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ## Key Principles
 
 
-- Maintain active elevator pressure through hooks to compromise opponent's base constantly
+- Hooks are active weapons, not passive barriers — drive insteps upward into opponent's inner thighs with constant elevator pressure to compromise their base
 
-- Control inside space and prevent opponent from establishing outside control or distance
+- Inside position determines everything — keep hooks deep (close to opponent's hips) and prevent them from establishing outside control that breaks hook contact
 
-- Coordinate upper body pulling and lower body elevation in unified directional force
+- Coordinate upper-body pull and lower-body elevation as a single unified force in the same direction — split intent produces no sweep power
 
-- Time attacks with opponent's forward pressure and weight distribution shifts
+- Time attacks with opponent's weight shifts and forward pressure, not against them — wait for the moment when their defensive reaction creates the sweep angle
 
-- Chain multiple attack options together to create compound offensive dilemmas
+- Chain sweep attempts in sequence: when the [[Butterfly Sweep]] is defended, immediately transition to [[Arm Drag to Back]] or [[Butterfly Guard to X-Guard]] — never stall in a failed sweep attempt
 
-- Use butterfly as transitional hub to X-Guard, back attacks, and leg entanglements
+- Treat butterfly guard as a transitional hub, not a fixed position — enter [[X-Guard]] when opponents stand, dive to [[Deep Half Guard]] under pressure, and return to butterfly when those positions are defended
 
 
 </section>
@@ -257,15 +263,19 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ## Related Positions
 
 
-- **[[Positions/X-Guard]]** - Common progression when opponent stands or attempts to create distance from hooks
+- **[[Positions/X-Guard]]** - Primary progression when opponent stands or creates distance — butterfly hooks extend into X-Guard configuration
 
-- **[[Positions/X-Guard/Single Leg X-Guard]]** - Natural transition when one hook is cleared or opponent stands asymmetrically
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Natural transition when one hook is cleared or opponent stands asymmetrically — one hook follows the posted leg
 
-- **[[Positions/Half Guard/Deep Half Guard]]** - Defensive transition when opponent applies heavy forward pressure to flatten guard
+- **[[Positions/Half Guard/Deep Half Guard]]** - Defensive transition under heavy forward pressure — dive under opponent's hips when being flattened from butterfly
 
-- **[[Positions/Half Guard]]** - Fallback position when one hook is cleared during opponent passing attempts
+- **[[Positions/Half Guard]]** - Fallback position when one butterfly hook is cleared — retain one hook as half guard hook to rebuild
 
-- **[[Positions/Seated Guard]]** - Related open guard variation sharing similar seated posture mechanics
+- **[[Positions/Closed Guard]]** - Contrasting guard style — closed guard prioritizes control and submissions while butterfly guard prioritizes explosive sweeps and transitions; butterfly is the offensive open-guard alternative
+
+- **[[Positions/Back Control]]** - Primary target from arm drag and sumi gaeshi — butterfly guard's back-take sequences are among the position's highest-percentage attacks
+
+- **[[Positions/Half Guard/Butterfly Half Guard]]** - Hybrid variation combining one butterfly hook with half guard retention — common intermediate position when one hook is threatened
 
 
 </section>
