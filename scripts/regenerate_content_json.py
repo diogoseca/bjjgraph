@@ -41,6 +41,8 @@ if _repo_root not in sys.path:
 from scripts.validate_json import validate_json_file as _validate_json_file, load_schema, detect_position_template_type, detect_transition_template_type
 from scripts.claude_infer import call_claude as _infer_call_claude
 from scripts.peak_throttle import is_peak as _is_peak, PACIFIC as _PEAK_PACIFIC
+from scripts._atomic_io import atomic_write_json
+from scripts._prob_norm import largest_remainder_round as _largest_remainder_round
 
 
 def _is_peak_now() -> bool:
@@ -1417,9 +1419,7 @@ def save_transition_stub(stub: dict) -> bool:
         return False
 
     try:
-        with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(stub, f, indent=2, ensure_ascii=False)
-            f.write('\n')
+        atomic_write_json(file_path, stub, indent=2, ensure_ascii=False)
         return True
     except Exception as e:
         stats_append_error(f"Failed to save stub {name}: {e}")
@@ -1441,11 +1441,9 @@ def load_json(path: Path) -> Optional[dict]:
 
 
 def save_json(path: Path, data: dict) -> bool:
-    """Save JSON file."""
+    """Save JSON file atomically."""
     try:
-        with open(path, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
-            f.write('\n')
+        atomic_write_json(path, data, indent=2, ensure_ascii=False)
         return True
     except Exception as e:
         stats_append_error(f"Failed to save {path}: {e}")
@@ -1495,26 +1493,9 @@ def check_structural_preservation(original: dict, fixed: dict, category: str) ->
     return errors
 
 
-def _largest_remainder_round(values: List[float], target: int = 100) -> List[int]:
-    """Round floats to ints summing EXACTLY to target (largest-remainder method).
-
-    Preserves relative proportions; the leftover units go to the largest fractional
-    parts. Degenerate all-zero input is distributed as evenly as possible.
-    """
-    n = len(values)
-    if n == 0:
-        return []
-    total = sum(values)
-    if total <= 0:
-        base, rem = divmod(target, n)
-        return [base + (1 if i < rem else 0) for i in range(n)]
-    scaled = [v * target / total for v in values]
-    floored = [int(s) for s in scaled]
-    remainder = target - sum(floored)
-    order = sorted(range(n), key=lambda i: scaled[i] - floored[i], reverse=True)
-    for k in range(remainder):
-        floored[order[k % n]] += 1
-    return floored
+# _largest_remainder_round is imported from scripts._prob_norm so this module and
+# proofread_all_transitions.py share one correct normalizer (clamps negatives,
+# rescales proportionally to sum 100, even-distributes the all-zero case).
 
 
 def normalize_probabilities(data: dict, category: str) -> bool:

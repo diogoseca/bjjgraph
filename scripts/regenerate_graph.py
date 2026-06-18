@@ -22,6 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import slugify  # shared single-source slugify (node keys + alias map)
+from _atomic_io import atomic_write_json
 
 
 # Neutral positions don't have top/bottom roles
@@ -30,6 +31,13 @@ NEUTRAL_POSITIONS = {
 }
 
 TERMINAL_POSITIONS = {'game-over'}
+
+
+# Collects (path, error) for every source JSON that failed to parse during a run.
+# A single corrupt content/*.json must NOT be silently dropped from the graph
+# (that orphans everything referencing it). In strict mode (default) main() prints
+# these and exits non-zero BEFORE graph.json is written.
+_PARSE_FAILURES: list[tuple[str, str]] = []
 
 
 # ---------------------------------------------------------------------------
@@ -175,7 +183,10 @@ def load_json_files(directory: Path) -> list[dict]:
                 data['_source_file'] = str(json_file)
                 files.append(data)
         except (json.JSONDecodeError, IOError) as e:
-            print(f"Warning: Could not load {json_file}: {e}")
+            # Don't silently drop: record the failure so main() can hard-fail
+            # before graph.json is written (a dropped node orphans its references).
+            print(f"ERROR: Could not load {json_file}: {e}")
+            _PARSE_FAILURES.append((str(json_file), str(e)))
 
     return files
 
@@ -1035,6 +1046,13 @@ def main():
                         help='Print every missing/orphan node')
     parser.add_argument('--strict', action='store_true',
                         help='Exit non-zero if missing nodes are found (for CI)')
+    parser.add_argument('--strict-sources', dest='strict_sources',
+                        action=argparse.BooleanOptionalAction, default=True,
+                        help='Hard-fail (exit non-zero) if any source JSON failed '
+                             'to parse, before writing graph.json (default: on; '
+                             'use --no-strict-sources / --lenient to opt out)')
+    parser.add_argument('--lenient', dest='strict_sources', action='store_false',
+                        help='Alias for --no-strict-sources: skip unparseable files')
     args = parser.parse_args()
 
     script_dir = Path(__file__).parent
@@ -1042,13 +1060,27 @@ def main():
 
     state_graph = generate_state_graph(project_root)
 
+    # Hard-fail on corrupt source files BEFORE writing graph.json so a single
+    # malformed content/*.json never silently vanishes (orphaning its references)
+    # while the script still exits 0.
+    if _PARSE_FAILURES:
+        print(f"\nERROR: {len(_PARSE_FAILURES)} source JSON file(s) failed to parse:")
+        for path, err in _PARSE_FAILURES:
+            print(f"  - {path}: {err}")
+        if args.strict_sources:
+            print("\n  Refusing to write graph.json with missing source files. "
+                  "(use --no-strict-sources / --lenient to override)")
+            sys.exit(1)
+        else:
+            print("\n  --lenient: continuing with these files omitted from the graph.")
+
     # Validate graph integrity
     report = validate_graph(state_graph, verbose=args.verbose)
 
-    # Write output
+    # Write output (atomic: never leave a truncated graph.json on crash/Ctrl-C)
     output_file = project_root / 'graph.json'
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(state_graph, f, indent=2, ensure_ascii=False)
+    atomic_write_json(output_file, state_graph, indent=2, ensure_ascii=False,
+                      trailing_newline=False)
 
     print(f"\nGenerated: {output_file}")
     print(f"  Positions: {len(state_graph['positions'])}")

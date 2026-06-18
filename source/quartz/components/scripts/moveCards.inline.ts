@@ -3,7 +3,7 @@
 import { removeAllChildren } from "./util"
 import { loadSettings, saveSettings } from "./settings"
 import type { GameMode } from "./settings"
-import { findCard } from "./srs"
+import { findCard, isMastered } from "./srs"
 import {
   fetchExplorerTree,
   appendToRollHistory,
@@ -237,7 +237,7 @@ document.addEventListener("nav", () => {
   let masteredCount = 0
   for (const t of positionData.transitions) {
     const c = findCard(t.technique)
-    if (c && c.repetitions >= 5 && c.easeFactor >= 2.5) masteredCount++
+    if (c && isMastered(c)) masteredCount++
   }
   currentModifier = Math.min(masteredCount * 3, 15)
 
@@ -256,7 +256,7 @@ document.addEventListener("nav", () => {
     const srsCard = findCard(transition.technique)
     let srsClass = ""
     if (srsCard) {
-      if (srsCard.repetitions >= 5 && srsCard.easeFactor >= 2.5) {
+      if (isMastered(srsCard)) {
         srsClass = " mastered"
       } else if (srsCard.nextReview <= new Date().toISOString().slice(0, 10)) {
         srsClass = " srs-due"
@@ -277,7 +277,7 @@ document.addEventListener("nav", () => {
       : ""
 
     const masteryBadge =
-      srsCard && srsCard.repetitions >= 5 && srsCard.easeFactor >= 2.5
+      srsCard && isMastered(srsCard)
         ? '<span class="move-card-badge move-card-badge--mastered">&#10022; Mastered</span>'
         : srsCard && srsCard.nextReview <= new Date().toISOString().slice(0, 10)
           ? '<span class="move-card-badge move-card-badge--review">Review</span>'

@@ -26,6 +26,41 @@ function addDays(dateStr: string, days: number): string {
   return d.toISOString().slice(0, 10)
 }
 
+// SM-2 tuning. Ease is bounded so "easy" streaks cannot run away; intervals use
+// fixed graduating steps for the first reps, then grow by ease, with an absolute
+// ceiling so a card can never disappear from review for years.
+const MIN_EASE = 1.3
+const MAX_EASE = 3.0
+const HARD_FACTOR = 1.2
+const GRADUATING_INTERVAL = 1 // days — first successful review
+const SECOND_INTERVAL = 6 // days — second successful review
+const MAX_INTERVAL = 365 // days — absolute ceiling
+
+function clampEase(ease: number): number {
+  return Math.min(MAX_EASE, Math.max(MIN_EASE, ease))
+}
+
+function clampInterval(days: number): number {
+  return Math.min(MAX_INTERVAL, Math.max(1, Math.round(days)))
+}
+
+/** The interval (days) a rating would produce from the card's CURRENT state.
+ * Pure — used by both reviewCard and the on-button interval preview so they
+ * can never disagree. */
+export function nextInterval(card: SRSCard, rating: "again" | "hard" | "easy"): number {
+  if (rating === "again") return GRADUATING_INTERVAL
+  if (card.repetitions <= 0) return GRADUATING_INTERVAL
+  if (card.repetitions === 1) return SECOND_INTERVAL
+  const factor = rating === "hard" ? HARD_FACTOR : card.easeFactor
+  return clampInterval(card.interval * factor)
+}
+
+/** Single source of truth for "mastered" — used by getMasteredCards, the
+ * flashcard badge, the move-card badge, and the dice mastery bonus. */
+export function isMastered(card: SRSCard): boolean {
+  return card.repetitions >= 5 && card.easeFactor >= 2.5
+}
+
 export function loadSRSCards(): SRSCard[] {
   try {
     const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]") as Array<
@@ -90,21 +125,22 @@ export function reviewCard(technique: string, rating: "again" | "hard" | "easy")
   card.lastReview = now
   card.history.push({ date: now, rating })
 
+  // Compute the new interval from the CURRENT state, before mutating repetitions.
+  const newInterval = nextInterval(card, rating)
+
   if (rating === "easy") {
-    card.interval = Math.max(1, card.interval * card.easeFactor)
-    card.easeFactor += 0.15
+    card.easeFactor = clampEase(card.easeFactor + 0.15)
     card.repetitions++
   } else if (rating === "hard") {
-    card.interval = Math.max(1, card.interval * 1.2)
-    card.easeFactor = Math.max(1.3, card.easeFactor - 0.15)
+    card.easeFactor = clampEase(card.easeFactor - 0.15)
     card.repetitions++
   } else {
-    // again
-    card.interval = 1
+    // again — lapse: reset progress and drop ease
     card.repetitions = 0
-    card.easeFactor = Math.max(1.3, card.easeFactor - 0.2)
+    card.easeFactor = clampEase(card.easeFactor - 0.2)
   }
 
+  card.interval = newInterval
   card.nextReview = addDays(now, card.interval)
   saveSRSCards(cards)
 }
@@ -122,7 +158,7 @@ export function getUpcomingCards(): SRSCard[] {
 }
 
 export function getMasteredCards(): SRSCard[] {
-  return loadSRSCards().filter((c) => c.repetitions >= 5 && c.easeFactor >= 2.5)
+  return loadSRSCards().filter(isMastered)
 }
 
 export function masterFlashcard(technique: string, flashcardIndex: number) {

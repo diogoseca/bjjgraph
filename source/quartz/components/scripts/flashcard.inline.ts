@@ -1,6 +1,6 @@
 // Flashcard - Anki-style 3-button model (Again/Hard/Easy) with SRS.
 // Reads per-page graph data injected at build time (no runtime fetch).
-import { findCard, addCard, reviewCard, masterFlashcard } from "./srs"
+import { findCard, addCard, reviewCard, masterFlashcard, nextInterval, isMastered } from "./srs"
 import { incrementLearned, incrementReviewed, updateStreak, loadSettings } from "./settings"
 import { isInSession, advanceSession, getSession } from "./trainingSession"
 
@@ -103,15 +103,13 @@ function formatInterval(days: number): string {
 function getIntervalPreviews(techniqueName: string): { again: string; hard: string; easy: string } {
   const card = findCard(techniqueName)
   if (!card) {
-    return { again: "1d", hard: "1d", easy: "3d" }
+    // No card yet: the first successful review graduates to 1 day either way.
+    return { again: "1d", hard: "1d", easy: "1d" }
   }
-  const againInterval = 1
-  const hardInterval = Math.max(1, card.interval * 1.2)
-  const easyInterval = Math.max(1, card.interval * card.easeFactor)
   return {
-    again: formatInterval(againInterval),
-    hard: formatInterval(hardInterval),
-    easy: formatInterval(easyInterval),
+    again: formatInterval(nextInterval(card, "again")),
+    hard: formatInterval(nextInterval(card, "hard")),
+    easy: formatInterval(nextInterval(card, "easy")),
   }
 }
 
@@ -171,7 +169,7 @@ document.addEventListener("nav", () => {
   // Check SRS status for this technique
   const srsCard = findCard(data.name)
   const isSRSDue = srsCard && srsCard.nextReview <= new Date().toISOString().slice(0, 10)
-  const isMastered = srsCard && srsCard.repetitions >= 5 && srsCard.easeFactor >= 2.5
+  const mastered = !!srsCard && isMastered(srsCard)
 
   // Show the container, reset to minimized state on every page load
   container.style.display = "block"
@@ -299,7 +297,7 @@ document.addEventListener("nav", () => {
   function showQuestionInFull() {
     // Called for subsequent questions after the first — stays in full UI state.
     // If mastered, show mastered message briefly
-    if (isMastered && isTechniqueType) {
+    if (mastered && isTechniqueType) {
       questionEl!.textContent = `${data!.name} — all flashcards mastered!`
       answerEl!.style.display = "none"
       revealBtn!.style.display = "none"

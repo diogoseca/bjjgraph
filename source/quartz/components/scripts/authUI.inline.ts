@@ -10,6 +10,7 @@ import {
   isAuthenticated,
   onAuthChange,
   syncOnLoad,
+  ensureClientInitialized,
 } from "./supabase"
 
 // ── State ──────────────────────────────────────────────────────────────────────
@@ -345,21 +346,41 @@ function setLoading(loading: boolean) {
 
 // ── Init ───────────────────────────────────────────────────────────────────────
 
+/** True when the current URL looks like an OAuth/recovery redirect-back that the
+ * Supabase SDK must process (PKCE ?code=, implicit #access_token=, or an error). */
+function hasAuthRedirectParams(): boolean {
+  const q = window.location.search + window.location.hash
+  return /[?&#](code|access_token|error_description)=/.test(q)
+}
+
 document.addEventListener("nav", async () => {
   if (!window.__SUPABASE_URL) return
 
+  // Eagerly create the client when there's a session to track or an OAuth
+  // redirect to process, so detectSessionInUrl exchanges the code and the
+  // onAuthStateChange subscription is live. Without this a Google redirect-back
+  // is never processed and sign-in silently never completes.
+  if (isAuthenticated() || hasAuthRedirectParams()) {
+    await ensureClientInitialized()
+  }
+
   await renderTopBarAuth()
 
-  // Sync on load for authenticated users
+  // Sync on load for authenticated users (pull runs once per session)
   if (isAuthenticated()) {
     await syncOnLoad()
     await renderTopBarAuth()
   }
 })
 
-// Listen for auth state changes (e.g. Google OAuth redirect return)
-onAuthChange(async (event, _user) => {
-  if (event === "SIGNED_IN" || event === "SIGNED_OUT") {
+// Listen for auth state changes (e.g. Google OAuth redirect return). On a fresh
+// sign-in the PKCE code is exchanged asynchronously, so this is where the OAuth
+// flow actually completes — pull cloud data and refresh the avatar.
+onAuthChange(async (event) => {
+  if (event === "SIGNED_IN") {
+    await syncOnLoad()
+    await renderTopBarAuth()
+  } else if (event === "SIGNED_OUT") {
     await renderTopBarAuth()
   }
 })
