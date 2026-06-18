@@ -205,7 +205,14 @@ function renderReportList(
     const li = document.createElement("li")
     li.className = `report-item ${cssClass}`
     const pct = Math.round((tech.successes / tech.attempts) * 100)
-    li.innerHTML = `<span class="report-technique">${tech.name}</span><span class="report-rate">${pct}%</span>`
+    const nameEl = document.createElement("span")
+    nameEl.className = "report-technique"
+    nameEl.textContent = tech.name
+    const rateEl = document.createElement("span")
+    rateEl.className = "report-rate"
+    rateEl.textContent = `${pct}%`
+    li.appendChild(nameEl)
+    li.appendChild(rateEl)
     list.appendChild(li)
   }
   if (records.length === 0) {

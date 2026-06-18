@@ -1,0 +1,16 @@
+# Security headers for all routes (Cloudflare Pages serves this from the site root,
+# same as _redirects). The headers below are non-breaking and enforced immediately.
+#
+# The Content-Security-Policy is shipped in REPORT-ONLY mode first so it cannot break
+# the site (PixiJS/D3 graph, FlexSearch, the inline bootstrap scripts and JSON blobs).
+# Promote it to an enforcing "Content-Security-Policy" header after verifying there are
+# no legitimate violations in the browser console — in particular watch for whether any
+# bundled library needs 'unsafe-eval' or a wider worker-src. 'unsafe-inline' for scripts
+# is currently required because Quartz emits inline <script> bootstraps; tightening to
+# nonces/hashes is the follow-up that lets us drop it.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()
+  Content-Security-Policy-Report-Only: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; img-src 'self' data: https: blob:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://*.posthog.com https://*.i.posthog.com https://www.clarity.ms; connect-src 'self' https://*.supabase.co https://*.posthog.com https://*.i.posthog.com https://www.clarity.ms; worker-src 'self' blob:; manifest-src 'self'

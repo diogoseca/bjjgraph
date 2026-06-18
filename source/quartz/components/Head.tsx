@@ -2,6 +2,7 @@ import { i18n } from "../i18n"
 import { FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref } from "../util/theme"
+import { escapeScriptContent } from "../util/escape"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 export default (() => {
@@ -99,7 +100,7 @@ export default (() => {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationSchema),
+            __html: escapeScriptContent(JSON.stringify(organizationSchema)),
           }}
         />
         {extractedSchemas.map((schema: object, i: number) => (
@@ -107,7 +108,7 @@ export default (() => {
             key={`schema-${i}`}
             type="application/ld+json"
             dangerouslySetInnerHTML={{
-              __html: JSON.stringify(enrichSchema(schema)),
+              __html: escapeScriptContent(JSON.stringify(enrichSchema(schema))),
             }}
           />
         ))}

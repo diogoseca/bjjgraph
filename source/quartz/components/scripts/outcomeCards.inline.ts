@@ -45,6 +45,11 @@ function buildPositionUrl(toPath: string): string {
   return `/Positions/${toPath.replace(/\s+/g, "-")}`
 }
 
+// Only accept leading-slash relative paths (no protocol, no javascript:, no "<").
+function safeRelPath(p: string): string {
+  return typeof p === "string" && /^\/[A-Za-z0-9/_%.-]*$/.test(p) ? p : "#"
+}
+
 function resultLabel(result: string): string {
   switch (result) {
     case "success":
@@ -81,7 +86,16 @@ document.addEventListener("nav", () => {
       const displayRole = role ? ` (${role.charAt(0).toUpperCase() + role.slice(1)})` : ""
       // Derive display name from path
       const posName = data.startingPositionPath.split("/")[0]
-      fromLink.innerHTML = `<span class="outcome-from-label">From </span><a href="${url}" class="outcome-from-position internal">${posName}${displayRole}</a>`
+
+      const label = document.createElement("span")
+      label.className = "outcome-from-label"
+      label.textContent = "From "
+      const link = document.createElement("a")
+      link.className = "outcome-from-position internal"
+      link.setAttribute("href", safeRelPath(url))
+      link.textContent = `${posName}${displayRole}`
+      fromLink.appendChild(label)
+      fromLink.appendChild(link)
     }
   }
 
@@ -99,14 +113,29 @@ document.addEventListener("nav", () => {
     const targetUrl = buildPositionUrl(outcome.toPath || outcome.to)
     const displayName = outcome.toName || outcome.to
 
-    card.innerHTML = `
-      <div class="outcome-card-result ${outcome.result}">${resultLabel(outcome.result)}</div>
-      <div class="outcome-card-target">${displayName}</div>
-      <div class="outcome-card-probability">${outcome.probability}%</div>
-      <div class="probability-bar">
-        <div class="probability-fill" style="width: ${outcome.probability}%"></div>
-      </div>
-    `
+    const resultEl = document.createElement("div")
+    resultEl.className = `outcome-card-result ${outcome.result}`
+    resultEl.textContent = resultLabel(outcome.result)
+
+    const targetEl = document.createElement("div")
+    targetEl.className = "outcome-card-target"
+    targetEl.textContent = displayName
+
+    const probEl = document.createElement("div")
+    probEl.className = "outcome-card-probability"
+    probEl.textContent = `${outcome.probability}%`
+
+    const bar = document.createElement("div")
+    bar.className = "probability-bar"
+    const fill = document.createElement("div")
+    fill.className = "probability-fill"
+    fill.style.width = `${outcome.probability}%`
+    bar.appendChild(fill)
+
+    card.appendChild(resultEl)
+    card.appendChild(targetEl)
+    card.appendChild(probEl)
+    card.appendChild(bar)
 
     const navigate = async () => {
       // Add to journey (localStorage)

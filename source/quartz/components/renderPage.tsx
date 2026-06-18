@@ -3,6 +3,7 @@ import { QuartzComponent, QuartzComponentProps } from "./types"
 import HeaderConstructor from "./Header"
 import BodyConstructor from "./Body"
 import { JSResourceToScriptElement, StaticResources } from "../util/resources"
+import { escapeScriptContent } from "../util/escape"
 import {
   clone,
   FullSlug,
@@ -645,7 +646,7 @@ export function renderPage(
     loadTime: "beforeDOMReady",
     contentType: "inline",
     spaPreserve: true,
-    script: `window.__rollPositions=${rollData}`,
+    script: `window.__rollPositions=${escapeScriptContent(rollData)}`,
   })
 
   // Inject content stats on every page (build-time counts of .json files per
@@ -656,7 +657,7 @@ export function renderPage(
     loadTime: "beforeDOMReady",
     contentType: "inline",
     spaPreserve: true,
-    script: `window.__contentStats=${stats};document.addEventListener("nav",()=>{const s=window.__contentStats;if(!s)return;document.querySelectorAll("[data-folder-count]").forEach(el=>{const k=el.getAttribute("data-folder-count");if(k&&s[k]!=null)el.textContent=String(s[k])})})`,
+    script: `window.__contentStats=${escapeScriptContent(stats)};document.addEventListener("nav",()=>{const s=window.__contentStats;if(!s)return;document.querySelectorAll("[data-folder-count]").forEach(el=>{const k=el.getAttribute("data-folder-count");if(k&&s[k]!=null)el.textContent=String(s[k])})})`,
   })
 
   // Only deep-clone the tree if transclusions exist (saves ~1-15ms per page)
@@ -852,14 +853,14 @@ export function renderPage(
           <script
             type="application/json"
             id="page-graph-data"
-            dangerouslySetInnerHTML={{ __html: pageGraphDataJson }}
+            dangerouslySetInnerHTML={{ __html: escapeScriptContent(pageGraphDataJson) }}
           />
         )}
         {graphPositionsJson && (
           <script
             type="application/json"
             id="graph-positions"
-            dangerouslySetInnerHTML={{ __html: graphPositionsJson }}
+            dangerouslySetInnerHTML={{ __html: escapeScriptContent(graphPositionsJson) }}
           />
         )}
         <div id="background-graph" data-persist></div>

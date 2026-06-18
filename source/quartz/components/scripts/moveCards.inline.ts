@@ -1,6 +1,11 @@
 // Move Cards - Display available moves on position pages
 // Reads per-page graph data injected at build time (no runtime fetch)
 import { removeAllChildren } from "./util"
+
+// Only accept leading-slash relative paths (no protocol, no javascript:, no "<").
+function safeRelPath(p: string): string {
+  return typeof p === "string" && /^\/[A-Za-z0-9/_%.-]*$/.test(p) ? p : "#"
+}
 import { loadSettings, saveSettings } from "./settings"
 import type { GameMode } from "./settings"
 import { findCard, isMastered } from "./srs"
@@ -272,55 +277,93 @@ document.addEventListener("nav", () => {
     const successRate = savedRate !== undefined ? savedRate : baseRate
     const nudge = successRate - baseRate
 
-    const rarityBadge = rarity
-      ? `<span class="move-card-badge move-card-badge--${rarity}">${rarity === "common" ? "Common Move" : "Rare Move"}</span>`
-      : ""
-
-    const masteryBadge =
-      srsCard && isMastered(srsCard)
-        ? '<span class="move-card-badge move-card-badge--mastered">&#10022; Mastered</span>'
-        : srsCard && srsCard.nextReview <= new Date().toISOString().slice(0, 10)
-          ? '<span class="move-card-badge move-card-badge--review">Review</span>'
-          : ""
-
     const techniquePath = transition.isSubmission ? "Submissions" : "Transitions"
     const techniqueUrl = `/${techniquePath}/${transition.targetPath ?? transition.target}/Attacker`
-
-    // Show modifier on success rate if active
-    const modifierHtml =
-      currentModifier > 0
-        ? ` <span class="vote-nudge positive">(+${currentModifier}% mastery)</span>`
-        : ""
 
     card.setAttribute("tabindex", "0")
     card.setAttribute("role", "button")
 
     const showDiceUI = gameMode !== "off"
 
-    card.innerHTML = `
-      <div class="move-card-header">
-        <a href="${techniqueUrl}" class="move-card-technique internal" data-no-navigate="true">${displayName(transition.technique)}</a>
-        ${rarityBadge}${masteryBadge}
-      </div>
-      <div class="move-card-probability">${successRate}% success${nudge !== 0 ? ` <span class="vote-nudge ${nudge > 0 ? "positive" : "negative"}">(${nudge > 0 ? "+" : ""}${nudge}%)</span>` : ""}${modifierHtml}</div>
-      <div class="probability-bar">
-        <div class="probability-fill" style="width: ${Math.min(successRate + currentModifier, 100)}%"></div>
-      </div>
-      ${
-        showDiceUI
-          ? `<div class="move-card-votes">
-        <button class="vote-btn vote-up" aria-label="Upvote ${transition.technique}" title="Upvote">&#x25B2;</button>
-        <button class="vote-btn vote-down" aria-label="Downvote ${transition.technique}" title="Downvote">&#x25BC;</button>
-      </div>`
-          : ""
-      }
-    `
+    // --- Header: technique link + optional rarity/mastery badges (static badge text) ---
+    const header = document.createElement("div")
+    header.className = "move-card-header"
+
+    const techniqueLink = document.createElement("a")
+    techniqueLink.className = "move-card-technique internal"
+    techniqueLink.setAttribute("href", safeRelPath(techniqueUrl))
+    techniqueLink.setAttribute("data-no-navigate", "true")
+    techniqueLink.textContent = displayName(transition.technique)
+    header.appendChild(techniqueLink)
+
+    if (rarity) {
+      const rarityBadge = document.createElement("span")
+      rarityBadge.className = `move-card-badge move-card-badge--${rarity}`
+      rarityBadge.textContent = rarity === "common" ? "Common Move" : "Rare Move"
+      header.appendChild(rarityBadge)
+    }
+
+    if (srsCard && isMastered(srsCard)) {
+      const masteryBadge = document.createElement("span")
+      masteryBadge.className = "move-card-badge move-card-badge--mastered"
+      // Static icon markup only (no data interpolation)
+      masteryBadge.innerHTML = "&#10022; Mastered"
+      header.appendChild(masteryBadge)
+    } else if (srsCard && srsCard.nextReview <= new Date().toISOString().slice(0, 10)) {
+      const reviewBadge = document.createElement("span")
+      reviewBadge.className = "move-card-badge move-card-badge--review"
+      reviewBadge.textContent = "Review"
+      header.appendChild(reviewBadge)
+    }
+
+    // --- Probability row (numbers + static nudge/modifier markup, no content data) ---
+    const probEl = document.createElement("div")
+    probEl.className = "move-card-probability"
+    const nudgeHtml =
+      nudge !== 0
+        ? ` <span class="vote-nudge ${nudge > 0 ? "positive" : "negative"}">(${nudge > 0 ? "+" : ""}${nudge}%)</span>`
+        : ""
+    const modifierHtml =
+      currentModifier > 0
+        ? ` <span class="vote-nudge positive">(+${currentModifier}% mastery)</span>`
+        : ""
+    probEl.innerHTML = `${successRate}% success${nudgeHtml}${modifierHtml}`
+
+    // --- Probability bar ---
+    const bar = document.createElement("div")
+    bar.className = "probability-bar"
+    const fill = document.createElement("div")
+    fill.className = "probability-fill"
+    fill.style.width = `${Math.min(successRate + currentModifier, 100)}%`
+    bar.appendChild(fill)
+
+    card.appendChild(header)
+    card.appendChild(probEl)
+    card.appendChild(bar)
+
+    if (showDiceUI) {
+      const votes = document.createElement("div")
+      votes.className = "move-card-votes"
+
+      const upBtnEl = document.createElement("button")
+      upBtnEl.className = "vote-btn vote-up"
+      upBtnEl.setAttribute("aria-label", `Upvote ${transition.technique}`)
+      upBtnEl.setAttribute("title", "Upvote")
+      upBtnEl.innerHTML = "&#x25B2;" // static icon
+
+      const downBtnEl = document.createElement("button")
+      downBtnEl.className = "vote-btn vote-down"
+      downBtnEl.setAttribute("aria-label", `Downvote ${transition.technique}`)
+      downBtnEl.setAttribute("title", "Downvote")
+      downBtnEl.innerHTML = "&#x25BC;" // static icon
+
+      votes.appendChild(upBtnEl)
+      votes.appendChild(downBtnEl)
+      card.appendChild(votes)
+    }
 
     // Clicking the technique name navigates to Attacker page (stop card dice roll)
-    const techniqueLink = card.querySelector(".move-card-technique") as HTMLAnchorElement
-    if (techniqueLink) {
-      techniqueLink.addEventListener("click", (e) => e.stopPropagation())
-    }
+    techniqueLink.addEventListener("click", (e) => e.stopPropagation())
 
     // Keyboard accessibility
     card.addEventListener("keydown", (e) => {
