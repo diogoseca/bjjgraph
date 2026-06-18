@@ -34,6 +34,18 @@ description: "Master the Dogfight Position transition in BJJ. Escape leg weave b
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Dogfight Position",
+  "description": "The Dogfight Position transition is a scramble-based escape from leg-weave bottom in which the trapped player frames, hip-escapes, and rises onto an elbow into a chest-to-chest kneeling underhook battle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Dogfight Position transition in BJJ. Escape leg weave b
 </div>
 
 <section id="overview" class="content-section">
+
+**The Dogfight Position transition is a scramble-based escape from leg-weave bottom in which the trapped player frames, hip-escapes, and rises onto an elbow into a chest-to-chest kneeling underhook battle.**
 
 The Dogfight Position transition is a critical escape pathway from disadvantageous bottom positions in half guard, particularly when trapped under leg weave pressure. This scramble-initiating movement occurs when the bottom player generates enough hip movement and frame pressure to rise onto their elbow and eventually their posting hand, creating a kneeling position where both players compete for underhook dominance.
 

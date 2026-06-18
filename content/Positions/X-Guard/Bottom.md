@@ -21,19 +21,19 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Garami",
-      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard to Ashi Garami. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {

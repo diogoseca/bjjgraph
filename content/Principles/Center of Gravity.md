@@ -143,6 +143,16 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Center of Gravity",
+  "description": "Center of Gravity is the principle of strategically allocating bodyweight across contact points—concentrating pressure on control targets while preserving base—to pin an opponent, prevent escapes, and enable techniques with minimal energy expenditure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
 
 ## What is Center of Gravity?
 
-Center of Gravity represents the strategic management of bodyweight allocation across contact points to maximize control effectiveness, minimize escape opportunities, and optimize technical execution in top positions. Unlike simple heavy pressure, weight distribution is a sophisticated conceptual framework encompassing the biomechanical principles of leverage and balance, strategic decisions about where to concentrate or disperse weight, dynamic adjustment of distribution based on opponent responses, and the integration of weight allocation with technical objectives. This concept recognizes that effective top control depends not on maximum weight application but on intelligent weight distribution that simultaneously achieves multiple objectives: preventing escapes, enabling technique execution, maintaining base integrity, and conserving energy. Weight distribution serves as both a control mechanism that pins opponent effectively and a strategic tool that creates specific reactions enabling technical advancement. The ability to distribute weight intelligently often determines whether a practitioner can maintain dominant positions against resistance or loses control through predictable, rigid pressure patterns, making it one of the most essential conceptual elements in top game development.
+**Center of Gravity is the principle of strategically allocating bodyweight across contact points—concentrating pressure on control targets while preserving base—to pin an opponent, prevent escapes, and enable techniques with minimal energy expenditure.**
+
+In top-position control the practitioner who dominates is rarely the heaviest, but the one who organizes weight most intelligently, and that organization is precisely the domain Center of Gravity governs. Unlike simple heavy pressure, weight distribution is a sophisticated conceptual framework encompassing the biomechanical principles of leverage and balance, strategic decisions about where to concentrate or disperse weight, dynamic adjustment of distribution based on opponent responses, and the integration of weight allocation with technical objectives. This concept recognizes that effective top control depends not on maximum weight application but on intelligent weight distribution that simultaneously achieves multiple objectives: preventing escapes, enabling technique execution, maintaining base integrity, and conserving energy. Weight distribution serves as both a control mechanism that pins opponent effectively and a strategic tool that creates specific reactions enabling technical advancement. The ability to distribute weight intelligently often determines whether a practitioner can maintain dominant positions against resistance or loses control through predictable, rigid pressure patterns, making it one of the most essential conceptual elements in top game development.
 
 </section>
 

@@ -34,6 +34,18 @@ description: "Master the Frame and Shrimp escape from Knee on Belly in BJJ. Comp
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame and Shrimp from Knee on Belly",
+  "description": "Frame and Shrimp from Knee on Belly is a fundamental bottom escape where the trapped player frames against the controlling knee and hip, then bridges and shrimps to displace their hips laterally and recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,9 +57,11 @@ description: "Master the Frame and Shrimp escape from Knee on Belly in BJJ. Comp
 
 <section id="overview" class="content-section">
 
-The Frame and Shrimp from Knee on Belly is a fundamental escape technique that addresses one of the most pressure-intensive positions in Brazilian Jiu-Jitsu. When an opponent establishes Knee on Belly, the crushing weight through their knee onto the solar plexus creates respiratory distress and severely limits defensive options. This escape employs the universal defensive principles of structural framing and hip escaping to systematically create space and recover to half guard, transforming a dire defensive situation into a position with legitimate offensive capability.
+**Frame and Shrimp from Knee on Belly is a fundamental bottom escape where the trapped player frames against the controlling knee and hip, then bridges and shrimps to displace their hips laterally and recover half guard.**
 
-The technique works by first establishing structural frames against the opponent's knee and hip to manage the downward pressure, then using a coordinated bridge-and-shrimp sequence to move the hips away from under the knee. The critical detail lies in the direction and timing of the shrimp — moving away from the knee rather than into it, and timing the hip escape to coincide with the opponent's weight commitment. Once sufficient lateral displacement is achieved, the bottom player inserts their near-side knee between the bodies and locks half guard, immediately transitioning from a severely disadvantaged scoring position to one rich with sweeping and back-taking opportunities.
+Knee on Belly is among the most respiratory-punishing control positions in Brazilian Jiu-Jitsu, and the escapes available from beneath it separate practitioners who panic from those who solve the problem methodically. The crushing weight channeled through the opponent's knee into the solar plexus creates urgency that tempts wild bench-pressing and bridging, yet the highest-percentage answer relies on structure and timing rather than raw strength. The escape works by first establishing structural frames against the opponent's knee and hip to manage the downward pressure, then using a coordinated bridge-and-shrimp sequence to move the hips away from under the knee.
+
+The critical detail lies in the direction and timing of the shrimp — moving away from the knee rather than into it, and timing the hip escape to coincide with the opponent's weight commitment. Once sufficient lateral displacement is achieved, the bottom player inserts their near-side knee between the bodies and locks half guard, immediately transitioning from a severely disadvantaged scoring position to one rich with sweeping and back-taking opportunities.
 
 Strategically, this escape represents disciplined, methodical KOB defense. Rather than panicking under pressure or wasting energy pushing against the knee with extended arms, the practitioner uses proper biomechanics — frames create structure, the bridge creates momentary space, and the shrimp creates the angle needed for guard recovery. The technique chains naturally with knee shield insertions, underhook battles, and the full half guard offensive system. Against opponents who follow the hip escape aggressively, the space created during their pursuit often enables even more favorable guard recoveries.
 

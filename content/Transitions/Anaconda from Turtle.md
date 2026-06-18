@@ -34,6 +34,18 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Anaconda from Turtle",
+  "description": "Anaconda from Turtle is a front-headlock attack from turtle top where you thread an arm under the opponent's neck, trap their near arm, lock a figure-four grip, and roll to secure anaconda control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 </div>
 
 <section id="overview" class="content-section">
+
+**Anaconda from Turtle is a front-headlock attack from turtle top where you thread an arm under the opponent's neck, trap their near arm, lock a figure-four grip, and roll to secure anaconda control.**
 
 The Anaconda from Turtle is a dynamic submission setup that transitions from turtle top position to anaconda control through a committed rolling motion. This technique is mechanically related to the Darce choke but distinguished by trapping the near arm instead of the far arm, and it requires rolling to your side or back rather than finishing from top position. The anaconda exploits the opponent's defensive turtle posture by threading your arm under their neck while trapping their near arm, then using a figure-four grip and rolling motion to secure the optimal choking angle.
 

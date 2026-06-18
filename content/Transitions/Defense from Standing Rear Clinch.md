@@ -34,6 +34,18 @@ description: "Master Defense from Standing Rear Clinch in BJJ. Essential escape 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Defense from Standing Rear Clinch",
+  "description": "Defense from Standing Rear Clinch is the escape sequence a grappler uses to break an opponent's standing chest-to-back control by fighting the grip, lowering the base, and creating hip angle to turn, throw, or disengage before a takedown or standing choke lands.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Defense from Standing Rear Clinch in BJJ. Essential escape 
 </div>
 
 <section id="overview" class="content-section">
+
+**Defense from Standing Rear Clinch is the escape sequence a grappler uses to break an opponent's standing chest-to-back control by fighting the grip, lowering the base, and creating hip angle to turn, throw, or disengage before a takedown or standing choke lands.**
 
 Defense from Standing Rear Clinch encompasses the systematic techniques used to escape when an opponent has established chest-to-back control in a standing position. This is one of the most critical defensive skills in grappling because the standing rear clinch funnels directly into high-percentage takedowns, standing chokes, and transitions to dominant ground positions like back control with hooks. The escape requires addressing three layers of control simultaneously: the opponent's grip configuration around your upper body, their chest-to-back pressure driving you forward, and their hip positioning that enables lifting or dragging takedowns. Failure to address all three layers results in either maintained clinch control or, worse, a transition to ground-based back control where escape becomes significantly more difficult.
 

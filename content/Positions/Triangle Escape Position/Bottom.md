@@ -346,7 +346,7 @@ Partner locks triangle at moderate pressure while defender practices stepping in
 - **[[Positions/Combat Base]]** - Critical posture position for triangle escape execution
 - **[[Positions/Armbar Control]]** - Common transition threat from triangle position
 - **[[Principles/Frames]]** - Fundamental defensive skill required for all triangle escapes
-- **[[Escape Hierarchy]]** - Conceptual framework for prioritizing escape objectives
+- **[[Principles/Escape Fundamentals]]** - Conceptual framework for prioritizing escape objectives
 - **[[Transitions/Posture Recovery]]** - Essential transition technique for triangle escape success
 - **[[Transitions/Armbar Defense]]** - Required defensive skill when opponent transitions from triangle to armbar
 

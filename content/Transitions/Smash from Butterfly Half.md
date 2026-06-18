@@ -34,6 +34,18 @@ description: "Master the smash pass from butterfly half guard. Learn to kill the
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Smash from Butterfly Half",
+  "description": "Smash from Butterfly Half is a pressure-based guard pass in which the top player pins and kills the opponent's butterfly hook with heavy hip and chest weight, then extracts the trapped leg to advance into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the smash pass from butterfly half guard. Learn to kill the
 </div>
 
 <section id="overview" class="content-section">
+
+**Smash from Butterfly Half is a pressure-based guard pass in which the top player pins and kills the opponent's butterfly hook with heavy hip and chest weight, then extracts the trapped leg to advance into side control.**
 
 The Smash from Butterfly Half is a direct pressure-based passing technique executed from butterfly half guard top, designed to systematically neutralize the bottom player's butterfly hook through crushing weight distribution and controlled hip positioning before completing the pass to side control. Unlike speed-based or backstep passing approaches that attempt to circumvent the butterfly hook, this technique attacks the hook's mechanical foundation directly by eliminating the space underneath the top player's body that allows the hook to generate elevation and sweeping force. The smash approach converts a complex guard problem into a manageable half guard extraction sequence by first removing the butterfly hook threat entirely.
 

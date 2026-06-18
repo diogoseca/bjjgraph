@@ -34,6 +34,18 @@ description: "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, ba
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Deep Half Guard",
+  "description": "Deep Half Guard is a bottom half-guard position where the player burrows their shoulder and head beneath the opponent's hips with a deep underhook on the far leg, turning the top player's own weight into leverage for sweeps and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Deep Half Guard in BJJ. Strategic guide covering sweeps, ba
 
 <section id="overview" class="content-section">
 
-Deep Half Guard is an advanced guard position where the bottom player positions themselves underneath one of the opponent's legs, creating a powerful leverage point for sweeps and back takes. Unlike traditional half guard where the opponent's leg is trapped between the bottom player's legs, deep half involves the bottom player getting their entire upper body underneath the opponent's center of gravity, often with the shoulder positioned at the opponent's far hip. This position offers exceptional sweeping leverage and is particularly effective for smaller practitioners against larger opponents.
+**Deep Half Guard is a bottom half-guard position where the player burrows their shoulder and head beneath the opponent's hips with a deep underhook on the far leg, turning the top player's own weight into leverage for sweeps and back takes.**
+
+Among half guard variations, deep half guard inverts the usual top-bottom dynamic by sending the bottom player beneath the opponent's base rather than fighting for distance, a leverage-first approach that made it a competitive staple for smaller grapplers. Unlike traditional half guard where the opponent's leg is trapped between the bottom player's legs, deep half involves the bottom player getting their entire upper body underneath the opponent's center of gravity, often with the shoulder positioned at the opponent's far hip. This position offers exceptional sweeping leverage and is particularly effective for smaller practitioners against larger opponents.
 
 The deep half guard represents a fundamental shift in guard philosophy, moving from traditional frames and distance management to an inverted leverage-based approach. By positioning underneath the opponent's center of gravity, the bottom player gains mechanical advantage that transcends size and strength differences. The position is characterized by extreme proximity and connection, with the bottom player using their entire body as a lever to disrupt the opponent's base. This creates opportunities for powerful sweeps that can lead directly to dominant positions or back control.
 
@@ -123,27 +137,29 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 ### Available Transitions
 
 
-- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (14% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (12% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (41% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (39% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (9% of attempts)
 
-- **[[Positions/Half Guard/Electric Chair/Attacker|Electric Chair]]** (6% of attempts)
+- **[[Electric Chair from Deep Half Guard/Attacker|Electric Chair from Deep Half Guard]]** (6% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (9% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (8% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (9% of attempts)
 
 - **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (6% of attempts)
 
 - **[[Transitions/Deep Half Sweep/Attacker|Deep Half Sweep]]** (2% of attempts)
 
-- **[[Transitions/Deep Half to X-Guard/Attacker|Deep Half to X-Guard]]** (0% of attempts)
+- **[[Transitions/Deep Half to X-Guard/Attacker|Deep Half to X-Guard]]** (2% of attempts)
 
-- **[[Transitions/Electric Chair Entry from Deep Half/Attacker|Electric Chair Entry from Deep Half]]** (0% of attempts)
+- **[[Transitions/Electric Chair Entry from Deep Half/Attacker|Electric Chair Entry from Deep Half]]** (2% of attempts)
 
-- **[[Transitions/Homer Simpson Sweep/Attacker|Homer Simpson Sweep]]** (1% of attempts)
+- **[[Transitions/Homer Simpson Sweep/Attacker|Homer Simpson Sweep]]** (2% of attempts)
+
+- **[[Positions/Half Guard/Electric Chair/Attacker|Electric Chair]]** (3% of attempts)
 
 
 ### Common Mistakes

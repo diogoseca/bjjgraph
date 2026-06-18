@@ -34,6 +34,18 @@ description: "Learn Roll to Guard escape from back control in BJJ. Forward roll 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll to Guard",
+  "description": "Roll to Guard is an explosive back escape from Harness Bottom in which the defender secures the choking arm and commits to a diagonal forward roll, reversing the position to recover closed or open guard facing the opponent.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,11 +57,13 @@ description: "Learn Roll to Guard escape from back control in BJJ. Forward roll 
 
 <section id="overview" class="content-section">
 
-The Roll to Guard escape is a dynamic defensive technique executed from harness bottom position that utilizes forward momentum and rotational mechanics to escape back control and recover a guard position. This technique exploits momentary weight shifts or grip lapses by the attacking player to create the space necessary for a controlled forward roll that deposits the defender facing their opponent in guard.
+**Roll to Guard is an explosive back escape from Harness Bottom in which the defender secures the choking arm and commits to a diagonal forward roll, reversing the position to recover closed or open guard facing the opponent.**
+
+Within the back-control defense system, Roll to Guard sits at the aggressive end of the escape spectrum: rather than chipping away at control incrementally like the elbow escape or hip escape, it aims to reverse the entire positional hierarchy in a single explosive movement. It is the escape of choice when methodical hand-fighting has stalled or when the attacker briefly over-commits their weight, and it pairs naturally with the grip-fighting sequences that precede every sound back defense.
 
 The biomechanical foundation of this escape relies on timing the roll precisely when the opponent's weight distribution shifts or when their grip structure weakens. The defender tucks their chin, rounds their spine, and initiates forward rotation while simultaneously breaking or slipping the harness grip. The roll must be executed with committed momentum - hesitation typically results in the opponent riding the motion and re-establishing superior back control.
 
-Strategically, Roll to Guard represents a high-risk, high-reward escape option that should be employed when more conservative escape methods have stalled or when the opponent presents a timing window. Unlike methodical escapes that chip away at control incrementally, this technique aims to completely reverse the positional hierarchy in a single explosive movement. It pairs particularly well with grip fighting that baits the opponent into adjusting their seat belt configuration.
+Direction matters as much as timing: the roll is driven diagonally toward the underhook side at roughly 45 degrees so the attacker cannot simply track the rotation and re-take the back. Throughout the movement the defender maintains a death grip on the controlled arm, which doubles as both choke insurance and the anchor that pulls the opponent into the recovered guard. Upon completion the defender enters the closed guard or an open-guard frame, where the offensive sweep-and-submission game becomes available.
 
 **From Position**: [[Positions/Harness]] (Bottom)
 **Success Rate**: 58%

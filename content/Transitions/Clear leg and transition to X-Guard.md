@@ -34,6 +34,18 @@ description: "Master Clear Leg to X-Guard from Leg Knot. Escape leg entanglement
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Clear leg and transition to X-Guard",
+  "description": "Clear Leg and Transition to X-Guard is a leg-entanglement escape in which the bottom player uses hip rotation to extract the trapped leg from Leg Knot while inserting hooks to establish X-Guard, converting defense into an attacking sweep position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Clear Leg to X-Guard from Leg Knot. Escape leg entanglement
 </div>
 
 <section id="overview" class="content-section">
+
+**Clear Leg and Transition to X-Guard is a leg-entanglement escape in which the bottom player uses hip rotation to extract the trapped leg from Leg Knot while inserting hooks to establish X-Guard, converting defense into an attacking sweep position.**
 
 The Clear Leg and Transition to X-Guard represents a high-value escape pathway from leg entanglement scenarios that transforms defensive necessity into offensive opportunity. When trapped in Leg Knot Bottom, practitioners face immediate submission threats to the lower body. Rather than simply extracting the leg and returning to neutral, this technique leverages the extraction movement to establish X-Guard—a powerful sweeping and attacking position that immediately reverses the momentum of the exchange.
 

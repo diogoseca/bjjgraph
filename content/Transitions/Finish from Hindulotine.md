@@ -34,6 +34,18 @@ description: "Master the Finish from Hindulotine in BJJ. Learn rotational squeez
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Finish from Hindulotine",
+  "description": "The Finish from Hindulotine is the choke-completion phase of the Hindulotine guillotine, where the top attacker generates rotational hip torque rather than linear pulling to compress both carotid arteries and force the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Finish from Hindulotine in BJJ. Learn rotational squeez
 </div>
 
 <section id="overview" class="content-section">
+
+**The Finish from Hindulotine is the choke-completion phase of the Hindulotine guillotine, where the top attacker generates rotational hip torque rather than linear pulling to compress both carotid arteries and force the tap.**
 
 The Finish from Hindulotine represents the terminal phase of this specialized guillotine variation, where the attacker converts established Hindulotine control into a completed choke from top position. Unlike standard guillotine finishes that rely primarily on linear pulling force, the Hindulotine finish generates its choking power through rotational torque created by perpendicular hip positioning relative to the opponent's spine. This biomechanical advantage means the finish requires less raw grip strength and can be maintained over longer periods while the opponent fatigues against the choke.
 

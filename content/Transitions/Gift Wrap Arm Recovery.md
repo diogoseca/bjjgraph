@@ -34,6 +34,18 @@ description: "Master Gift Wrap Arm Recovery in BJJ. Step-by-step escape from tra
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap Arm Recovery",
+  "description": "Gift Wrap Arm Recovery is a defensive escape from the Gift Wrap back-control variation in which the bottom player frees the trapped arm using coordinated hip escape and shoulder rotation to restore full defensive capability.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Gift Wrap Arm Recovery in BJJ. Step-by-step escape from tra
 </div>
 
 <section id="overview" class="content-section">
+
+**Gift Wrap Arm Recovery is a defensive escape from the Gift Wrap back-control variation in which the bottom player frees the trapped arm using coordinated hip escape and shoulder rotation to restore full defensive capability.**
 
 Gift Wrap Arm Recovery is an essential defensive technique that addresses one of the most compromised positions in Brazilian Jiu-Jitsu. When an opponent secures the Gift Wrap from back control, they effectively neutralize half of your defensive capability by trapping one arm across your body. This recovery technique focuses on systematically freeing that trapped limb to restore your defensive options.
 

@@ -34,6 +34,18 @@ description: "Master arm recovery from crucifix in BJJ. Systematic guide to free
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Recovery from Crucifix",
+  "description": "Arm Recovery from Crucifix is a bottom-player escape that frees the leg-trapped arm through hip-escape angle changes rather than direct pulling, then chains frames into hip movement to recover closed guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master arm recovery from crucifix in BJJ. Systematic guide to free
 </div>
 
 <section id="overview" class="content-section">
+
+**Arm Recovery from Crucifix is a bottom-player escape that frees the leg-trapped arm through hip-escape angle changes rather than direct pulling, then chains frames into hip movement to recover closed guard.**
 
 Arm Recovery from Crucifix is a critical defensive transition where the bottom player systematically works to free their trapped arm from the opponent's leg configuration and recover to closed guard. The crucifix represents one of the most dangerous control positions in Brazilian Jiu-Jitsu, with both arms isolated and the neck fully exposed to chokes. This technique addresses the fundamental problem of arm extraction through hip mechanics and angular displacement rather than direct force against the leg trap.
 

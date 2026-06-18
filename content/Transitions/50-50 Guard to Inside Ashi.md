@@ -34,6 +34,18 @@ description: "Learn the 50-50 Guard to Inside Ashi transition. Extract from symm
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "50-50 Guard to Inside Ashi",
+  "description": "The 50-50 Guard to Inside Ashi transition extracts your inside leg from the symmetrical 50-50 entanglement and drives it across the opponent's near hip to establish dominant inside ashi-garami with superior heel control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn the 50-50 Guard to Inside Ashi transition. Extract from symm
 </div>
 
 <section id="overview" class="content-section">
+
+**The 50-50 Guard to Inside Ashi transition extracts your inside leg from the symmetrical 50-50 entanglement and drives it across the opponent's near hip to establish dominant inside ashi-garami with superior heel control.**
 
 The 50-50 Guard to Inside Ashi transition represents a critical pathway for escaping the symmetrical stalemate that often characterizes 50-50 engagements. When both practitioners mirror each other's leg entanglement, neither has clear offensive advantage. This transition breaks that parity by extracting your inside leg from the entanglement and repositioning it across your opponent's hip, converting from mirror configuration to the dominant inside ashi-garami position.
 

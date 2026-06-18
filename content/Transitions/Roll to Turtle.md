@@ -34,6 +34,18 @@ description: "Learn Roll to Turtle escape in BJJ. Defensive technique from Side 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll to Turtle",
+  "description": "Roll to Turtle is a defensive escape from Side Control Bottom in which you turn into the opponent's crossface pressure and rotate onto a four-point base, trading temporary back exposure for a mobile turtle platform to recover guard or stand.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn Roll to Turtle escape in BJJ. Defensive technique from Side 
 
 <section id="overview" class="content-section">
 
-Roll to Turtle is a fundamental defensive escape technique executed from Side Control Bottom when other escape options are blocked or unavailable. This technique involves turning away from the opponent and assuming the turtle position, which serves as a transitional platform for guard recovery or standing. Unlike shrimping escapes that require space creation, the roll to turtle works by accepting the turn but establishing a strong defensive posture before the opponent can secure back control.
+**Roll to Turtle is a defensive escape from Side Control Bottom in which you turn into the opponent's crossface pressure and rotate onto a four-point base, trading temporary back exposure for a mobile turtle platform to recover guard or stand.**
+
+Within the side-control defensive hierarchy, the roll to turtle sits below hip escapes and elbow escapes as a fallback you reach for once those primary recoveries have already been shut down. The technique involves turning away from the opponent and assuming the turtle position, which serves as a transitional platform for guard recovery or standing. Unlike shrimping escapes that require space creation, the roll to turtle works by accepting the turn but establishing a strong defensive posture before the opponent can secure back control.
 
 The strategic value of this escape lies in its reliability when the opponent has established heavy crossface pressure that prevents traditional hip escapes. By turning into the pressure rather than fighting against it, you redirect the opponent's energy and create a momentary window to establish defensive frames. The turtle position, while exposing your back, provides a stable base from which you can execute granby rolls, sit-outs, or technical standups.
 
@@ -225,7 +239,7 @@ Roll to Turtle fits into the BJJ positional hierarchy as a secondary escape opti
 
 - [[Transitions/Granby Roll to Guard]] - Primary follow-up technique from turtle
 
-- [[Transitions/Ghost Escape]] - Alternative escape with similar mechanics
+- [[Transitions/Ghost Escape from Side Control]] - Alternative escape with similar mechanics
 
 - [[Transitions/Hip Escape to Guard]] - Alternative escape when space is available
 

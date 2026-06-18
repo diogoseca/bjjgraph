@@ -33,10 +33,32 @@ description: "Master Armbar from Mount in BJJ. Complete safety protocols, setup,
 }
 </script>
 
-> **SAFETY**: Armbar from Mount targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from Mount",
+  "description": "The Armbar from Mount is an elbow-hyperextension joint lock attacked from the dominant mount, isolating one of the opponent's arms and swinging a leg over their head to extend the trapped elbow against your hips until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Armbar from Mount is an elbow-hyperextension joint lock attacked from the dominant mount, isolating one of the opponent's arms and swinging a leg over their head to extend the trapped elbow against your hips until they tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint</span>
+<span class="meta-chip">68% success</span>
+</div>
+
+> [!danger] Safety
+> Armbar from Mount targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,54 +75,7 @@ This technique exemplifies the core BJJ principle of using an opponent's energy 
 
 The armbar from mount serves as a gateway submission that opens pathways to multiple other attacks including triangles, Americanas, and back takes, making it essential for developing a complete offensive game from top position. Its high success rate at all levels of competition stems from the fact that mount itself forces defensive reactions that expose the arms, creating a natural funnel toward armbar opportunities.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint
-**Starting Position**: [[Positions/Mount]]
-**From Position**: [[Positions/Mount]] (Top)
-**Success Rate**: 68%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension | Medium | 2-4 weeks |
-| Elbow dislocation | High | 6-12 weeks |
-| Ligament tears (UCL/MCL) | CRITICAL | 3-6 months or surgical repair |
-| Bicep tendon strain | Medium | 3-6 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from capture to full extension
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap (minimum 2 taps on partner or mat)
-- Physical foot tap (stomping or tapping with foot)
-- Any distress vocalization or signal
-- Frantic hand waving if arms trapped
-
-
-**Release Protocol**:
-1. Immediately release hip pressure and lower hips to mat
-2. Open legs and remove leg pressure from opponent's head/shoulder
-3. Release grip on opponent's wrist/arm
-4. Allow opponent to pull arm back to safety
-5. Check verbally that partner is okay before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - always allow minimum 3-5 seconds
-- Always ensure training partner has at least one hand free to tap
-- Never fully extend the joint in training - stop at first sign of resistance
-- Never practice on partners with existing elbow injuries without instructor supervision
-
+**Starting Position**: [[Positions/Mount]] · **From**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -277,10 +252,9 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Americana]]
 - [[Submissions/Ezekiel Choke]]
@@ -290,35 +264,57 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 - [[Submissions/Flying Armbar]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Belly Down Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount]] - Primary starting position for this submission
 - [[Positions/Mount/High Mount]] - Advanced variation providing better armbar setup
 - [[Positions/Mount/S Mount]] - Transitional position offering excellent armbar control
 - [[Positions/Triangle Control]] - Alternative submission when armbar is defended
 - [[Positions/Mount/Mounted Triangle]] - Submission chain option from mount attacks
 - [[Positions/Kimura Trap]] - Alternative submission targeting opposite arm
-- [[Submissions/Americana]] - Lower-risk joint lock alternative from mount
 - [[Positions/Armbar Control]] - Control position for finishing the armbar
 - [[Positions/Mount/Technical Mount]] - Transitional position for armbar setup
 - [[Positions/Back Control]] - Alternative position when opponent turns during armbar
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Armbar from Mount leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension | Medium | 2-4 weeks |
+| Elbow dislocation | High | 6-12 weeks |
+| Ligament tears (UCL/MCL) | CRITICAL | 3-6 months or surgical repair |
+| Bicep tendon strain | Medium | 3-6 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from capture to full extension
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap (minimum 2 taps on partner or mat)
+- Physical foot tap (stomping or tapping with foot)
+- Any distress vocalization or signal
+- Frantic hand waving if arms trapped
+
+
+**Release Protocol**:
+1. Immediately release hip pressure and lower hips to mat
+2. Open legs and remove leg pressure from opponent's head/shoulder
+3. Release grip on opponent's wrist/arm
+4. Allow opponent to pull arm back to safety
+5. Check verbally that partner is okay before continuing
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - apply smooth, progressive pressure only
+- Never use competition speed in training - always allow minimum 3-5 seconds
+- Always ensure training partner has at least one hand free to tap
+- Never fully extend the joint in training - stop at first sign of resistance
+- Never practice on partners with existing elbow injuries without instructor supervision
+
 
 </section>
 

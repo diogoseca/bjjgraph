@@ -34,6 +34,18 @@ description: "Master guard recovery from Double Sleeve Guard in BJJ. Step-by-ste
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Recovery from Double Sleeve Guard",
+  "description": "Guard Recovery from Double Sleeve Guard is a defensive transition where the bottom player, after sleeve grips are stripped, retracts the legs and closes guard around the passer's torso before they can establish combat base or complete a pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master guard recovery from Double Sleeve Guard in BJJ. Step-by-ste
 
 <section id="overview" class="content-section">
 
-Guard Recovery from Double Sleeve Guard is a defensive transition where the bottom player reestablishes closed guard when bilateral sleeve control becomes compromised. When the opponent breaks one or both sleeve grips and begins advancing with passing pressure, the bottom player must abandon the open guard distance game and close the guard before the opponent can establish combat base or initiate passing sequences. This recovery requires releasing sleeve grips, retracting legs from hip or bicep frames, and closing guard around the opponent's torso while preventing them from establishing combat base or initiating passing sequences.
+**Guard Recovery from Double Sleeve Guard is a defensive transition where the bottom player, after sleeve grips are stripped, retracts the legs and closes guard around the passer's torso before they can establish combat base or complete a pass.**
+
+Grip failure against a competent passer is inevitable, and this transition is the bottom player's rehearsed answer to it—reestablishing closed guard the instant bilateral sleeve control is compromised. When the opponent breaks one or both sleeve grips and begins advancing with passing pressure, the bottom player must abandon the open guard distance game and close the guard before the opponent can establish combat base or initiate passing sequences. This recovery requires releasing sleeve grips, retracting legs from hip or bicep frames, and closing guard around the opponent's torso while preventing them from establishing combat base or initiating passing sequences.
 
 The technique exploits a narrow timing window created by the opponent's grip-stripping momentum. As the top player commits energy and body position to breaking sleeve grips, their weight often shifts forward or their hands become temporarily occupied, creating the opening the bottom player needs to retract legs and close distance. Skilled practitioners learn to read the grip-stripping pattern and initiate recovery proactively rather than reactively, turning a defensive emergency into a controlled transition that often catches the passer mid-movement with broken posture ideal for immediate closed guard attacks.
 

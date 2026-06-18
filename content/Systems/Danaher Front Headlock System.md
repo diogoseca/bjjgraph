@@ -143,6 +143,16 @@ description: "Master the Front Headlock System in BJJ. Comprehensive control fra
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Danaher Front Headlock System",
+  "description": "The Danaher Front Headlock System is a control-and-submission framework that uses head-and-arm control from the front headlock to chain guillotine, anaconda, and darce chokes with back-exposure attacks, forcing opponents into continuous defensive dilemmas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,11 +167,13 @@ description: "Master the Front Headlock System in BJJ. Comprehensive control fra
 
 ## What is Danaher Front Headlock System?
 
-The Danaher Front Headlock System represents one of the most comprehensive and dominant control frameworks in modern Brazilian Jiu-Jitsu. Developed by John Danaher and proven at the highest levels of competition by his athletes, this system transforms the front headlock position from a transitional control into a complete offensive ecosystem. The system operates on the principle that the front headlock offers unparalleled control over an opponent's movement while simultaneously providing access to multiple high-percentage finishing sequences.
+**The Danaher Front Headlock System is a control-and-submission framework that uses head-and-arm control from the front headlock to chain guillotine, anaconda, and darce chokes with back-exposure attacks, forcing opponents into continuous defensive dilemmas.**
+
+Developed by John Danaher and proven at the highest levels of competition by his athletes, the front headlock framework transforms a traditionally transitional control into a complete offensive ecosystem. Rather than treating the front headlock as a brief stop on the way to a takedown or guard pass, the system treats it as a destination from which the match can be won. It operates on the principle that head-and-arm control offers unparalleled influence over an opponent's movement and posture while simultaneously opening access to multiple high-percentage finishing sequences.
 
 At its core, the front headlock system is built around three primary finishing pathways: the guillotine choke family, the anaconda/darce choke family, and back exposure sequences. Each pathway contains multiple variations and entries, creating a decision tree that forces opponents into continuous defensive dilemmas. The beauty of the system lies in its interconnectedness - defensive reactions to one attack directly feed into setups for others, creating a self-reinforcing cycle of offensive pressure.
 
-What distinguishes Danaher's approach is the emphasis on systematic progression through clearly defined stages: entry, consolidation, breaking structure, and finishing. This methodical framework removes guesswork and provides practitioners with clear decision points based on opponent reactions. The system has produced exceptional results in both gi and no-gi competition, with athletes like Gordon Ryan, Garry Tonon, and Gary Tonon using it to dominate opponents at the highest levels of the sport.
+What distinguishes Danaher's approach is the emphasis on systematic progression through clearly defined stages: entry, consolidation, breaking structure, and finishing. This methodical framework removes guesswork and provides practitioners with clear decision points based on opponent reactions. The system has produced exceptional results in both gi and no-gi competition, with athletes like Gordon Ryan and Garry Tonon using it to dominate opponents at the highest levels of the sport.
 
 </section>
 
@@ -385,7 +397,7 @@ The front headlock system requires layered drilling that progressively builds fr
 - [[Head Position]] (Principle) - Fundamental principle underlying all front headlock control mechanics
 - [[Control Maintenance]] (Principle) - Core principle for retaining dominant position throughout attack sequences
 - [[Positional Hierarchy]] (Principle) - Guides decision-making about when to pursue submissions vs position advancement
-- [[Submission Chains]] (Principle) - Principle of linking attacks to create continuous offensive pressure
+- [[Position Chains]] (Principle) - Principle of linking attacks to create continuous offensive pressure
 - [[Fork Attacks]] (Principle) - Core principle where every defensive choice leads to new offensive opportunity
 
 

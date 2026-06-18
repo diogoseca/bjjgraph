@@ -34,6 +34,18 @@ description: "Learn Kneebar entry from 50-50 Guard in BJJ. Step-by-step leg cont
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar entry",
+  "description": "Kneebar entry from 50-50 Guard is a leg-attack transition in which the top player isolates and hyperextends the opponent's knee joint, redirecting offense to Kneebar Control when heel hooks are defended.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,9 +57,11 @@ description: "Learn Kneebar entry from 50-50 Guard in BJJ. Step-by-step leg cont
 
 <section id="overview" class="content-section">
 
-The Kneebar entry from 50-50 Guard Bottom represents a strategic offensive option when heel hook attacks are defended or unavailable. This transition exploits the inherent vulnerability of your opponent's knee joint when their leg is already entangled in the 50-50 configuration. Rather than fighting for heel exposure against a savvy defender, the kneebar entry redirects your attack to target the hyperextension of the knee joint.
+**Kneebar entry from 50-50 Guard is a leg-attack transition in which the top player isolates and hyperextends the opponent's knee joint, redirecting offense to Kneebar Control when heel hooks are defended.**
 
-From the bottom 50-50 position, you use hip movement and leg control to isolate opponent's leg above the knee while transitioning your body perpendicular to their leg line. The key mechanical principle involves trapping their foot in your armpit or against your shoulder while creating hip pressure against the back of their knee. This forces the knee into hyperextension when you bridge your hips upward.
+The Kneebar entry from 50-50 Guard is a strategic offensive option for the top player when heel hook attacks are defended or unavailable. This transition exploits the inherent vulnerability of your opponent's knee joint when their leg is already entangled in the 50-50 configuration. Rather than fighting for heel exposure against a savvy defender, the kneebar entry redirects your attack to target hyperextension of the knee joint.
+
+From the top 50-50 position, you use hip movement and leg control to isolate the opponent's leg above the knee while rotating your body perpendicular to their leg line. The key mechanical principle involves trapping their foot against your shoulder or deep in your armpit while creating hip pressure against the back of their knee. This forces the knee into hyperextension when you bridge your hips upward and arch, landing you in Kneebar Control to hunt the finish.
 
 This entry is particularly effective against opponents who focus entirely on heel defense by hiding their heel or rotating their knee inward. Their defensive posture actually facilitates the kneebar entry by presenting their leg in an extended position. The transition also serves as an excellent chain attack when heel hooks are stalled, creating offensive pressure that prevents opponents from establishing comfortable defensive positions.
 
@@ -205,7 +219,7 @@ This entry is particularly effective against opponents who focus entirely on hee
 
 ## Position Integration
 
-The Kneebar entry from 50-50 represents a critical branch in the leg lock decision tree. When you establish 50-50 Guard bottom and opponent successfully defends heel hook attacks by hiding their heel, the kneebar entry provides an alternative submission pathway that keeps you on offense. This creates a dilemma for your opponent: defend the heel and expose the knee, or defend the knee and expose the heel. The position chains naturally with heel hook attempts, calf slicer attacks, and back take opportunities, making it an essential component of a complete 50-50 offensive system. Understanding this entry prevents you from getting stuck in stalemate positions where neither practitioner can advance.
+The Kneebar entry from 50-50 represents a critical branch in the leg lock decision tree. When you establish 50-50 Guard top and opponent successfully defends heel hook attacks by hiding their heel, the kneebar entry provides an alternative submission pathway that keeps you on offense. This creates a dilemma for your opponent: defend the heel and expose the knee, or defend the knee and expose the heel. The position chains naturally with heel hook attempts, calf slicer attacks, and back take opportunities, making it an essential component of a complete 50-50 offensive system. Understanding this entry prevents you from getting stuck in stalemate positions where neither practitioner can advance.
 
 </section>
 

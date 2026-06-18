@@ -34,6 +34,18 @@ description: "Master the Sweep from Knee Shield in BJJ. Complete guide covering 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Knee Shield",
+  "description": "Sweep from Knee Shield is a half-guard bottom reversal that turns the knee-shield frame and a deep underhook into a push-pull lever, off-balancing a forward-pressuring top passer and carrying the bottom player up to a dominant top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Sweep from Knee Shield in BJJ. Complete guide covering 
 
 <section id="overview" class="content-section">
 
-The Sweep from Knee Shield is a fundamental offensive technique executed from the knee shield half guard bottom position, where the bottom player leverages their knee shield frame and underhook to off-balance and topple the top player. This sweep capitalizes on the structural advantage that the knee shield provides—maintaining distance while simultaneously serving as a lever point for generating sweeping force. The technique represents the offensive evolution of the knee shield, transforming a primarily defensive frame into a dynamic attacking platform that punishes forward pressure.
+**Sweep from Knee Shield is a half-guard bottom reversal that turns the knee-shield frame and a deep underhook into a push-pull lever, off-balancing a forward-pressuring top passer and carrying the bottom player up to a dominant top position.**
+
+Within the knee shield half guard system, this sweep is the offensive counterpart to what is too often treated as a purely defensive frame, punishing the top player at the exact moment they commit weight forward to collapse the shield. It capitalizes on the structural advantage that the knee shield provides—maintaining distance while simultaneously serving as a lever point for generating sweeping force. The technique represents the offensive evolution of the knee shield, transforming a primarily defensive frame into a dynamic attacking platform that punishes forward pressure.
 
 The sweep operates on a push-pull principle that exploits the top player's weight distribution. The knee shield creates an outward push that manages distance and prevents the top player from settling their weight, while the underhook generates an inward pull that breaks their posture and creates rotational momentum. When these opposing forces combine with proper hip angle and timing, the top player cannot maintain equilibrium. The most effective application occurs when the opponent commits weight forward against the knee shield, inadvertently loading the sweep with their own momentum and making the reversal feel almost effortless.
 

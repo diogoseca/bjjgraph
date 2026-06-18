@@ -34,6 +34,18 @@ description: "Master the S Mount Armbar Setup in BJJ. Complete guide to transiti
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "S Mount Armbar Setup",
+  "description": "The S Mount Armbar Setup is the committing fall-back transition where the top player drops from perpendicular S Mount control into armbar control, converting isolated near-arm trapping into direct elbow-hyperextension leverage.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the S Mount Armbar Setup in BJJ. Complete guide to transiti
 
 <section id="overview" class="content-section">
 
-The S Mount Armbar Setup is the critical transition that converts S Mount positional dominance into armbar finishing position. This technique represents the commitment point where the top practitioner transitions from a seated perpendicular control position into the supine armbar control configuration, sacrificing mount stability in exchange for direct joint attack leverage. The setup demands precise timing and mechanical execution because once initiated, returning to mount becomes increasingly difficult if the armbar attempt fails.
+**The S Mount Armbar Setup is the committing fall-back transition where the top player drops from perpendicular S Mount control into armbar control, converting isolated near-arm trapping into direct elbow-hyperextension leverage.**
+
+Within BJJ's mount-based attacking hierarchy, the S Mount Armbar Setup represents the commitment point where the top practitioner transitions from a seated perpendicular control position into the supine armbar control configuration, sacrificing mount stability in exchange for direct joint attack leverage. The setup demands precise timing and mechanical execution because once initiated, returning to mount becomes increasingly difficult if the armbar attempt fails.
 
 From a strategic standpoint, the S Mount Armbar Setup exploits the arm isolation that S Mount naturally creates. The perpendicular seating position already has one leg over the opponent's head and the other across their torso, with the near arm trapped between the attacker's legs. The setup completes this architecture by falling back into the armbar finishing position while maintaining continuous wrist control and hip-to-shoulder pressure. The technique's high success rate reflects the fact that S Mount provides perhaps the most mechanically advantaged entry into armbar control in the entire BJJ positional hierarchy.
 

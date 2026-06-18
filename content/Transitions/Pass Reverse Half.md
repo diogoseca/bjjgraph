@@ -34,6 +34,18 @@ description: "Master passing Reverse Half Guard in BJJ. Complete guide to leg ex
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Reverse Half",
+  "description": "Pass Reverse Half is the top-game transition that completes a guard pass from Reverse Half Guard, extracting the trapped leg with hip-switch mechanics and chest pressure to consolidate Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master passing Reverse Half Guard in BJJ. Complete guide to leg ex
 </div>
 
 <section id="overview" class="content-section">
+
+**Pass Reverse Half is the top-game transition that completes a guard pass from Reverse Half Guard, extracting the trapped leg with hip-switch mechanics and chest pressure to consolidate Side Control.**
 
 Passing the Reverse Half Guard is a critical transitional skill that capitalizes on the angular advantage established when the top player circles behind the bottom player's half guard retention. The passer has already disrupted traditional defensive structures by achieving the reverse angle, and now must systematically extract the trapped leg while maintaining constant pressure to prevent guard recovery. This technique represents the completion phase of backstep passing sequences and scramble-based guard passing, converting a transitional advantage into dominant side control.
 

@@ -34,6 +34,18 @@ description: "Master the Lapel Strip from Worm Guard in BJJ. Systematic guide to
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel Strip from Worm Guard",
+  "description": "The Lapel Strip from Worm Guard is a top-position grip-fighting sequence that systematically peels the bottom player's lapel grip and extracts the trapped leg, collapsing worm guard's lapel control into a passable open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Lapel Strip from Worm Guard in BJJ. Systematic guide to
 </div>
 
 <section id="overview" class="content-section">
+
+**The Lapel Strip from Worm Guard is a top-position grip-fighting sequence that systematically peels the bottom player's lapel grip and extracts the trapped leg, collapsing worm guard's lapel control into a passable open guard.**
 
 The Lapel Strip from Worm Guard is the primary defensive technique for top players facing one of modern BJJ's most frustrating lapel-based guard systems. Rather than attempting to pass through or around the lapel entanglement, this technique addresses the root cause of worm guard's effectiveness by systematically removing the lapel wrap that creates the bottom player's mechanical advantage. A successful strip converts a complex lapel guard passing problem into a standard open guard scenario where traditional passing techniques become immediately viable.
 

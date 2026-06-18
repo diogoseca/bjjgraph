@@ -143,6 +143,16 @@ description: "Master control point hierarchy in BJJ. Learn systematic control ac
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Control Point Hierarchy",
+  "description": "Control Point Hierarchy is the ranking of grips, frames, and contact points within a position by how much positional dominance and submission access each provides, telling you which controls to prioritize, upgrade, and defend.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,6 +167,8 @@ description: "Master control point hierarchy in BJJ. Learn systematic control ac
 <section id="overview" class="content-section">
 
 ## What is Control Point Hierarchy?
+
+**Control Point Hierarchy is the ranking of grips, frames, and contact points within a position by how much positional dominance and submission access each provides, telling you which controls to prioritize, upgrade, and defend.**
 
 Control Point Hierarchy is a systematic framework for understanding and applying positional dominance in Brazilian Jiu-Jitsu. This concept organizes the progression of control from minimal contact to complete submission control, providing practitioners with a clear roadmap for advancing position and maintaining dominance. The hierarchy recognizes that certain control points provide greater positional advantage and submission opportunities than others, allowing practitioners to prioritize their efforts and make strategic decisions during live rolling and competition.
 
@@ -222,21 +234,21 @@ Mastery of Control Point Hierarchy requires understanding both the offensive and
 
 **Half Guard**: Half guard hierarchy prioritizes underhook control as the highest value, followed by head control or whizzer defense. The underhook represents the gateway to sweeps and back takes, making it the primary control point objective.
 
-**Turtle**: When attacking turtle, hierarchy prioritizes seatbelt control or far arm control, then transitions to back control or front headlock. Each control point represents progressive dominance and submission opportunity escalation.
+**Front Headlock**: When attacking turtle via the front headlock, hierarchy prioritizes seatbelt control or far arm control, then transitions to back control or chin-strap. Each control point represents progressive dominance and submission opportunity escalation.
 
 **Technical Mount**: Technical mount emphasizes arm triangle control points or direct arm control, with the trapped arm representing the highest-value control. This position demonstrates how control density creates submission opportunities from partial positions.
 
 **Crucifix**: Crucifix represents near-perfect control point hierarchy execution with both arms controlled and back control established. This position illustrates the apex of hierarchical control where submissions become extremely high percentage.
 
-**S Mount**: S-mount hierarchy prioritizes the trapped near arm, then transitions to head control for armbar finishing. The position demonstrates how upgrading from standard mount to S-mount represents hierarchical advancement.
+**3-4 Mount**: S-mount style hierarchy prioritizes the trapped near arm, then transitions to head control for armbar finishing. The position demonstrates how upgrading from standard mount to a leg-over configuration represents hierarchical advancement.
 
 **Kesa Gatame**: Kesa Gatame emphasizes head control combined with far arm control, with the hierarchy recognizing that controlling both simultaneously creates submission opportunities while preventing escape routes.
 
 **Deep Half Guard**: From deep half guard bottom, the hierarchy prioritizes securing the lockdown or outside leg hook, then establishing shoulder control or underhook to enable sweeps and back takes from this unconventional position.
 
-**X-Guard**: X-guard hierarchy focuses on establishing both hooks on the same leg, then controlling opponent's sleeve or collar to break posture. This creates the control density needed for powerful sweeps and transitions.
+**Reverse X-Guard**: X-guard style hierarchy focuses on establishing both hooks controlling the opponent's leg and hip, then controlling the sleeve or collar to break posture. This creates the control density needed for powerful sweeps and transitions.
 
-**Ashi Garami**: Ashi garami positions prioritize controlling the trapped leg at multiple points (ankle, knee, hip), then establishing upper body control through grips. The hierarchical leg control enables leg lock attacks while preventing escapes.
+**Inside Ashi-Garami**: Ashi garami positions prioritize controlling the trapped leg at multiple points (ankle, knee, hip), then establishing upper body control through grips. The hierarchical leg control enables leg lock attacks while preventing escapes.
 
 
 
@@ -360,9 +372,9 @@ Compare maintenance of position with dispersed control (six different grip/conta
 - **[[Control Maintenance]]** (Extension): Control Maintenance focuses on sustaining established control, while Control Point Hierarchy provides the strategic framework for determining which controls to establish and upgrade
 - **[[Pressure]]** (Complementary): Pressure provides the mechanical means to enforce control points identified as high-value within the hierarchy
 - **[[Frames]]** (Alternative): From the defensive perspective, Frames represents the inverse of Control Point Hierarchy, focusing on building structural barriers to prevent opponent control point acquisition
-- **[[Submission Chains]]** (Advanced form): Submission Chains represent the culmination of Control Point Hierarchy where sufficient control points have been acquired to safely attempt and link finishing techniques in sequence
+- **[[Position Chains]]** (Advanced form): Position Chains represent the culmination of Control Point Hierarchy where sufficient control points have been acquired to safely link finishing techniques and positional advances in sequence
 - **[[Defensive Concepts]]** (Complementary): Defensive Concepts from bottom positions apply hierarchical understanding to prevent opponent's control point acquisition during guard passing and top pressure attempts
-- **[[Transition Management]]** (Extension): Transition Management governs how practitioners move between positions while maintaining established control points identified by the hierarchy
+- **[[Inside Position]]** (Extension): Inside Position governs the grip and angle battle that establishes and maintains the control points identified by the hierarchy as high-value
 - **[[Base]]** (Prerequisite): Base provides the foundational stability required to establish and maintain control points without being swept or reversed
 
 
@@ -372,13 +384,13 @@ Compare maintenance of position with dispersed control (six different grip/conta
 - [[Control Maintenance]] (Principle) - Complementary concept focusing on sustaining controls identified as high-value by hierarchy
 - [[Mount]] (Position) - Premier position where control point hierarchy manifests through head control, high mount, and arm isolation progression
 - [[Back Control]] (Position) - Highest-value position where seatbelt, hooks, and head control hierarchy determines submission success
-- [[Side Control]] (Position) - Common position demonstrating hierarchy from chest pressure to crossface to head and arm control
+- [[North-South]] (Position) - Top position demonstrating hierarchy from shoulder pressure to head control to arm and kimura control
 - [[Pressure]] (Principle) - Mechanical means of enforcing control points identified within hierarchy
 - [[Frames]] (Principle) - Defensive inverse of control point hierarchy focused on building structural barriers to prevent opponent's control acquisition
-- [[Submission Chains]] (Principle) - Advanced application where sufficient control point acquisition enables safe chaining of finishing techniques in sequence
+- [[Position Chains]] (Principle) - Advanced application where sufficient control point acquisition enables safe chaining of finishing and positional advances in sequence
 - [[Half Guard]] (Position) - Position where underhook control represents apex of hierarchy for bottom player
 - [[Crucifix]] (Position) - Exemplifies maximum control point density with both arms and back simultaneously controlled
-- [[Transition Management]] (Principle) - Governs how practitioners move between positions while maintaining established control points
+- [[Inside Position]] (Principle) - Governs the grip and angle battle that establishes the control points the hierarchy ranks as high-value
 
 
 </section>

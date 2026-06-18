@@ -2,6 +2,7 @@
   "name": "Matrix",
   "slug": "matrix",
   "description": "Master the Matrix back take in BJJ. Complete guide to the dynamic rolling technique for taking the back from turtle or scrambles with expert analysis and drill progressions.",
+  "summary": "The Matrix is a dynamic, inverted rolling back take in Brazilian Jiu-Jitsu that uses rotational momentum to flow underneath or around a turtled or scrambling opponent and arrive at back control.",
   "variant_uniqueness": "Inverted rolling motion for dynamic back access",
   "overview": "The Matrix back take represents one of Brazilian Jiu-Jitsu's most dynamic and spectacular transitions to back control. Named for its cinematic appearance—where the practitioner inverts and rolls underneath or around the opponent—this technique transforms defensive or neutral positions into dominant back control through fluid rotational movement.\n\nThe Matrix is fundamentally a rolling back take that capitalizes on moments when the opponent is in turtle, on their knees, or during scrambles. Unlike traditional back takes that rely on grip fighting and gradual advancement, the Matrix uses momentum, inversion, and precise timing to achieve instantaneous position change. The technique creates a visual effect where the attacker appears to flow around the defender like liquid, entering their back from unexpected angles.\n\nFrom the bottom perspective, the Matrix functions as an aggressive counter-attack from disadvantaged positions. When an opponent is attempting to pass guard or consolidate top control, the Matrix practitioner uses their defensive positioning as a launching point for offensive action. The key mechanical elements include hip elevation, shoulder posting, rotational momentum, and precise hook placement during the roll. The movement requires significant body awareness, as practitioners must maintain spatial orientation while inverted and continue the motion smoothly into back control establishment.\n\nFrom the top perspective, defending against the Matrix requires constant awareness of the opponent's hip movement and immediate response to rotation attempts. Top players must recognize the early indicators—hip elevation, shoulder posting, grip changes—and counter with weight distribution adjustments, base widening, or transitional movements that prevent the completion of the roll. Understanding the Matrix as a top player is essential for modern guard passing, as the technique has become increasingly common in contemporary competition.\n\nThe technique gained prominence through practitioners like Marcelo Garcia, who demonstrated its effectiveness at the highest levels of competition. The Matrix exemplifies modern BJJ's evolution toward dynamic, momentum-based transitions that blur the lines between positions. It represents a shift from static positional grappling toward fluid, continuous movement systems.\n\nStrategically, the Matrix creates dilemmas for opponents. Defending against the initial rotation often requires posture changes that open other attacking opportunities. The technique works synergistically with other back-take systems, as opponents defending traditional back attacks become vulnerable to the Matrix, and vice versa. This complementary relationship makes the Matrix an essential component of comprehensive back attack systems rather than an isolated technique.\n\nThe position's learning curve is steep, requiring months of dedicated drilling to develop the necessary body awareness, timing, and spatial orientation. However, once mastered, the Matrix becomes one of the highest-percentage back takes available, particularly against opponents with strong turtle defense or those who rely on static defensive postures.",
   "key_principles": [
@@ -577,7 +578,7 @@
     "transitions": [
       {
         "transition": "Matrix Back Take",
-        "attempt_probability": 52
+        "attempt_probability": 50
       },
       {
         "transition": "Rolling Back Take",
@@ -609,11 +610,11 @@
       },
       {
         "transition": "Counter Roll from Matrix",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Escape Matrix Position",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Sweep from Matrix",

@@ -21,13 +21,13 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass to Side Control",
-      "text": "From this position, attempt Leg Drag Pass to Side Control. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass to Side Control. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Back Take",
-      "text": "From this position, attempt Leg Drag to Back Take. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to Back Take. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "Master leg drag control from top position. Complete strategic guid
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag to Knee on Belly",
-      "text": "From this position, attempt Leg Drag to Knee on Belly. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag to Knee on Belly. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {

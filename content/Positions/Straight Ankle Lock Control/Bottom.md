@@ -21,19 +21,19 @@ description: "Master the attacking perspective of straight ankle lock control. C
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Lock Finish",
-      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Ankle Lock Finish. This technique is attempted in 29% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
@@ -51,7 +51,7 @@ description: "Master the attacking perspective of straight ankle lock control. C
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

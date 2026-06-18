@@ -1,6 +1,7 @@
 {
   "name": "Triangle Setup from De La Riva",
   "description": "Master the Triangle Setup from De La Riva Guard in BJJ. Complete guide to arm isolation, posture breaking, and triangle lock mechanics using DLR hooks.",
+  "summary": "The Triangle Setup from De La Riva is a bottom-guard submission entry that uses the DLR hook and a cross-sleeve grip to isolate the opponent's far arm and break their posture, then shoots a leg across the neck into a triangle lock.",
   "tags": [
     "triangle",
     "de-la-riva",
@@ -79,7 +80,7 @@
       "relationship": "Primary submission follow-up from the triangle control position this setup creates"
     },
     {
-      "name": "Kiss of the Dragon from RDLR",
+      "name": "Kiss of the Dragon",
       "relationship": "Related inversion-based back take from the DLR guard family sharing similar angular mechanics"
     },
     {
@@ -91,8 +92,8 @@
       "relationship": "Related open guard system with strong triangle setup options sharing grip principles"
     },
     {
-      "name": "Omoplata from Lasso",
-      "relationship": "Related submission attack using similar hip rotation mechanics from a complementary guard position"
+      "name": "Omoplata from De La Riva Guard",
+      "relationship": "Related submission attack using similar hip rotation and arm-isolation mechanics from the same guard"
     }
   ],
   "attacker": {

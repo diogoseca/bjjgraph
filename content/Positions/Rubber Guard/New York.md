@@ -34,6 +34,18 @@ description: "Master New York position control in 10th Planet's Rubber Guard sys
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "New York",
+  "description": "New York is a deep Rubber Guard control in the 10th Planet system where the bottom player pairs an overhook with a shin across the opponent's back to break posture and chain into chokes, gogoplata, and omoplata attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master New York position control in 10th Planet's Rubber Guard sys
 </div>
 
 <section id="overview" class="content-section">
+
+**New York is a deep Rubber Guard control in the 10th Planet system where the bottom player pairs an overhook with a shin across the opponent's back to break posture and chain into chokes, gogoplata, and omoplata attacks.**
 
 New York is a fundamental control position within 10th Planet's Rubber Guard system, serving as a critical gateway between Mission Control and advanced attacking positions like Invisible Collar and Zombie. The position is characterized by the bottom practitioner establishing a strong overhook on one arm while simultaneously controlling their own shin across the opponent's back using the opposite hand, creating a flexible yet controlling frame that neutralizes posture and opens multiple submission pathways.
 
@@ -141,19 +155,21 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 
 - **[[Transitions/Rotate to Carni/Attacker|Rotate to Carni]]** (9% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (18% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (17% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
 
 - **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (6% of attempts)
 
-- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (10% of attempts)
+- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (9% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (10% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (9% of attempts)
 
 - **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (9% of attempts)
 
 - **[[Transitions/Sweep from New York/Attacker|Sweep from New York]]** (3% of attempts)
+
+- **[[Belly Down Armbar from New York/Attacker|Belly Down Armbar from New York]]** (3% of attempts)
 
 
 ### Common Mistakes

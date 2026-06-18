@@ -34,6 +34,18 @@ description: "Master guard recovery from double unders in BJJ. Learn frame creat
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Recovery from Double Unders",
+  "description": "Guard Recovery from Double Unders is the bottom player's defensive sequence of framing, hip-escaping, and sequentially extracting both trapped legs to break the bilateral-underhook stack and reclaim closed or open guard before the pass completes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master guard recovery from double unders in BJJ. Learn frame creat
 
 <section id="overview" class="content-section">
 
-Guard Recovery from Double Unders is a critical defensive transition executed by the bottom player when trapped in the double unders passing position. The top player has established bilateral underhook control under both legs with hands clasped behind the back, creating tremendous forward pressure that stacks the bottom player's weight onto their shoulders. This guard recovery sequence represents the bottom player's systematic response to reclaim leg positioning and re-establish a functional guard, most commonly closed guard or open guard.
+**Guard Recovery from Double Unders is the bottom player's defensive sequence of framing, hip-escaping, and sequentially extracting both trapped legs to break the bilateral-underhook stack and reclaim closed or open guard before the pass completes.**
+
+This recovery sits at one of the most pressure-intensive crossroads in guard retention: the moment a passer has buried both underhooks and begun stacking. The top player has established bilateral underhook control under both legs with hands clasped behind the back, creating tremendous forward pressure that stacks the bottom player's weight onto their shoulders. The bottom player's window to reclaim leg positioning and re-establish a functional guard — most commonly closed guard or open guard — is narrow and closes the instant the passer's knees clear the hips.
 
 The technique centers on frame creation and hip escape mechanics working in concert. The bottom player must first establish skeletal frames against the top player's face, neck, or shoulders to create enough separation to begin hip movement. Once minimal space exists, the bottom player hip escapes laterally while fighting to free one or both legs from the underhook control. The freed legs are then repositioned between the bodies, either closing around the opponent's waist for closed guard or establishing feet-on-hips positioning for open guard retention.
 

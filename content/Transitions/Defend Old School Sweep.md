@@ -34,6 +34,18 @@ description: "Master defending the Old School Sweep in BJJ half guard. Counter l
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Defend Old School Sweep",
+  "description": "Defend Old School Sweep is the half guard top counter to the lockdown-based Old School Sweep, neutralizing the bottom player's underhook and head control with a deep whizzer, heavy crossface, and a wide base to recover passing position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master defending the Old School Sweep in BJJ half guard. Counter l
 </div>
 
 <section id="overview" class="content-section">
+
+**Defend Old School Sweep is the half guard top counter to the lockdown-based Old School Sweep, neutralizing the bottom player's underhook and head control with a deep whizzer, heavy crossface, and a wide base to recover passing position.**
 
 Defend Old School Sweep is a critical defensive transition for the top player caught in an opponent's Old School half guard setup. When the bottom player has established lockdown, deep underhook, and head control, the top player faces an immediate sweeping threat that requires decisive counter-measures to neutralize. This defense centers on three pillars: establishing a deep whizzer to control the underhook arm, driving heavy crossface pressure to break posture and prevent rotation, and posting the free leg wide to create a stable base that resists the sweeping force.
 

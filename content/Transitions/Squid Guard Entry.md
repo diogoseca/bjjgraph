@@ -34,6 +34,18 @@ description: "Learn Squid Guard Entry in BJJ. Step-by-step lapel wrap around opp
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Squid Guard Entry",
+  "description": "Squid Guard Entry is a gi-specific lapel guard transition where the bottom player threads the opponent's own lapel around their posting arm, trapping it to neutralize pressure passing and open sweeps, back takes, and omoplatas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Squid Guard Entry in BJJ. Step-by-step lapel wrap around opp
 </div>
 
 <section id="overview" class="content-section">
+
+**Squid Guard Entry is a gi-specific lapel guard transition where the bottom player threads the opponent's own lapel around their posting arm, trapping it to neutralize pressure passing and open sweeps, back takes, and omoplatas.**
 
 Squid Guard Entry represents a critical transition within the modern lapel guard system, establishing arm control that fundamentally changes the guard passing equation. Unlike worm guard which wraps the lapel around the opponent's leg, squid guard redirects the fabric around their posting arm, creating a persistent barrier that neutralizes their ability to base and pressure pass.
 

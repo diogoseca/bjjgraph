@@ -12,7 +12,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Dominant Angles represents the strategic principle of generating off-axis positions relative to opponent's alignment to create mechanical advantages, compromise their structure, and create offensive opportunities. Unlike linear movements, angle creation is a comprehensive conceptual framework that applies across all positions and determines success in both offensive and defensive scenarios. This concept encompasses the biomechanical understanding that moving perpendicular or diagonal to opponent's force vectors multiplies effectiveness while minimizing energy expenditure, making angle creation fundamental to efficient BJJ. Angle creation serves as both an offensive mechanism that opens attack pathways and compromises opponent's defenses, and a defensive tool that nullifies opponent's pressure and creates escape opportunities. The ability to consistently create and exploit angles often determines technical success against similar-skilled opponents, making it one of the most essential conceptual elements in advanced BJJ development.",
+  "summary": "Dominant Angles are off-axis body positions created perpendicular or diagonal to an opponent's alignment and force vectors, multiplying mechanical leverage while compromising their structure and nullifying their strongest defenses.",
+  "overview": "Across every grappling exchange, the practitioner who controls the angle controls the dilemma. Angle creation is a comprehensive conceptual framework rather than a single movement, applying across all positions and determining success in both offensive and defensive scenarios. The biomechanical core is that moving perpendicular or diagonal to an opponent's force vectors multiplies effectiveness while minimizing energy expenditure, making angle creation fundamental to efficient BJJ. It serves as both an offensive mechanism that opens attack pathways and compromises an opponent's defenses, and a defensive tool that nullifies pressure and creates escape opportunities. The ability to consistently create and exploit angles often determines technical success against similar-skilled opponents, making it one of the most essential conceptual elements in advanced BJJ development.",
   "key_principles": [
     "Move perpendicular to opponent's pressure rather than directly against it for maximum efficiency",
     "Create angles to expose opponent's structural vulnerabilities and weak defensive zones",
@@ -85,9 +86,9 @@
       "description": "Understanding leverage mechanics explains why angles multiply force effectiveness—angles position practitioner's force perpendicular to opponent's defensive structure where it has maximum mechanical advantage."
     },
     {
-      "principle_name": "Timing and Rhythm",
+      "principle_name": "Kuzushi",
       "relationship_type": "Complementary",
-      "description": "Proper timing determines angle creation effectiveness—same angular movement succeeds or fails based on whether it coincides with opponent's weight commitment or transition moments."
+      "description": "Proper off-balancing determines angle creation effectiveness—the same angular movement succeeds or fails based on whether it coincides with the opponent's weight commitment or compromised base."
     },
     {
       "principle_name": "Frames",
@@ -103,11 +104,6 @@
       "principle_name": "Guard Passing",
       "relationship_type": "Extension",
       "description": "Successful guard passing fundamentally depends on creating angles that circumvent rather than penetrate opponent's defensive structure, making angle creation an essential passing skill."
-    },
-    {
-      "principle_name": "Kuzushi",
-      "relationship_type": "Extension",
-      "description": "Most sweeps rely on angular positioning to compromise opponent's base and create directional vulnerability, making angle creation a prerequisite for effective sweeping."
     },
     {
       "principle_name": "Hip Escape Mechanics",
@@ -339,9 +335,9 @@
       "relationship": "Essential element enabling angle creation by preventing opponent realignment"
     },
     {
-      "name": "Hip Bump Sweep",
-      "content_type": "Transition",
-      "relationship": "Classic technique exemplifying angle creation from closed guard through perpendicular hip movement"
+      "name": "Kuzushi",
+      "content_type": "Principle",
+      "relationship": "Off-balancing principle that angles produce—most sweeps rely on angular positioning to compromise the opponent's base"
     },
     {
       "name": "Scissor Sweep",
@@ -372,6 +368,44 @@
       "name": "Berimbolo Entry",
       "content_type": "Transition",
       "relationship": "Advanced transition demonstrating extreme angular inversion to circumvent opponent's defensive structure"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What defines a dominant angle in BJJ?",
+      "answer": "A dominant angle is an off-axis position—perpendicular or diagonal to the opponent's alignment—that places your force outside their strongest defensive structure while compromising their base."
+    },
+    {
+      "question": "Why is moving perpendicular to an opponent's pressure more effective than resisting it directly?",
+      "answer": "Perpendicular movement avoids meeting force head-on, redirecting the opponent's energy and placing your leverage where their structure is weakest, so you spend far less energy for greater positional displacement."
+    },
+    {
+      "question": "What is the most common error when creating angles, and how do you correct it?",
+      "answer": "Creating angles without anchoring grips lets the opponent rotate and follow you. Establish grips or frames that pin them in place before initiating the angular movement so they cannot re-square."
+    },
+    {
+      "question": "How does grip control enable angle creation?",
+      "answer": "Grips anchor the opponent so they cannot realign or follow your movement, letting you rotate off their centerline while they stay fixed—turning a shared rotation into a one-sided angular advantage."
+    },
+    {
+      "question": "When is the optimal moment to initiate an angular movement?",
+      "answer": "During the opponent's weight shifts, transitions, or attacking commitments, when their base is momentarily compromised and they cannot easily follow or re-square to your new position."
+    },
+    {
+      "question": "Why must you exploit an angle immediately after creating it?",
+      "answer": "Angular advantages are temporary because opponents recover alignment quickly. Launching an attack or positional advance before they re-square is what converts the created angle into a real outcome."
+    },
+    {
+      "question": "What is the difference between creating an angle with the upper body versus the hips?",
+      "answer": "Upper-body-only angles are superficial and don't change structural dynamics. Driving the angle through hip movement and lower-body displacement produces the meaningful off-axis position that opens attacks."
+    },
+    {
+      "question": "How should you respond when an opponent tries to create a dominant angle against you?",
+      "answer": "Recognize the off-axis threat early and counter by widening your base, fighting their anchoring grips, or following their movement to re-square your alignment with their centerline before they can attack."
+    },
+    {
+      "question": "How do small, progressive angular adjustments lead to dominant positions?",
+      "answer": "Individually minor angle changes compound when chained patiently, each adding structural disruption until the opponent's base is broken enough to open a decisive sweep, pass, or submission."
     }
   ]
 }

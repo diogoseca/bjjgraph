@@ -33,10 +33,32 @@ description: "Master the Ten Finger Guillotine from Front Headlock position. Com
 }
 </script>
 
-> **SAFETY**: Ten Finger Guillotine from Front Headlock targets the Carotid arteries and trachea. Risk: Trachea damage from excessive crushing pressure. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ten Finger Guillotine from Front Headlock",
+  "description": "The Ten Finger Guillotine from Front Headlock is a no-gi blood choke that interlaces all ten fingers in a palm-to-palm grip around a bent-forward opponent's neck, compressing both carotid arteries from the dominant front headlock control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Ten Finger Guillotine from Front Headlock is a no-gi blood choke that interlaces all ten fingers in a palm-to-palm grip around a bent-forward opponent's neck, compressing both carotid arteries from the dominant front headlock control.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Ten Finger Guillotine from Front Headlock targets the Carotid arteries and trachea. Primary risk: Trachea damage from excessive crushing pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,53 +75,7 @@ The ten finger grip—where all fingers interlace in a palm-to-palm configuratio
 
 Strategically, this submission sits at the intersection of front headlock control and guillotine finishing mechanics. The front headlock provides multiple secondary attacks—anaconda, darce, back take—that create a dilemma for the defender. Focusing too heavily on preventing the ten finger guillotine exposes them to alternative submissions, while attempting to escape the front headlock itself often exposes the neck to the guillotine entry. This attack chain dynamic makes the ten finger guillotine from front headlock a cornerstone technique in any comprehensive front headlock system, particularly effective in no-gi contexts where collar grips are unavailable and head-and-arm control becomes the primary offensive platform.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Front Headlock]]
-**From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Trachea damage from excessive crushing pressure | High | 2-4 weeks with severe cases requiring medical attention |
-| Neck strain or cervical spine stress from jerking motions | Medium | 1-2 weeks |
-| Loss of consciousness from carotid compression | High | Immediate recovery but repeated incidents can cause long-term damage |
-| Jaw or temporomandibular joint (TMJ) injury from improper chin positioning | Medium | 2-6 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress sound)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any unusual body stiffening or loss of resistance indicating unconsciousness
-
-
-**Release Protocol**:
-1. Immediately release the choking hand grip while maintaining head control
-2. Lower opponent's head gently to prevent whiplash or neck strain
-3. Create space by stepping back or opening guard to remove all pressure
-4. Check partner's awareness and allow recovery time before continuing
-5. If partner was unconscious, elevate legs and monitor breathing
-
-
-**Training Restrictions**:
-- Never apply full pressure at competition speed in training - always give partner time to tap
-- Never jerk or spike the choke with explosive movements
-- Never continue pressure after partner taps or shows distress
-- Never practice on partners with neck injuries without medical clearance
-- Always ensure partner has access to tap with at least one hand free
-
+**Starting Position**: [[Positions/Front Headlock]] · **From**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -263,23 +239,14 @@ Strategically, this submission sits at the intersection of front headlock contro
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Ten Finger Guillotine]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Chin Strap Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Guillotine Control]] - Intermediate control position established during grip transition from front headlock
 - [[Positions/Front Headlock]] - Starting control position before establishing guillotine grip and ten finger configuration
 - [[Positions/Closed Guard]] - Common consolidation position used to amplify finishing pressure
@@ -287,16 +254,46 @@ Strategically, this submission sits at the intersection of front headlock contro
 - [[Positions/Anaconda Control]] - Alternative submission path when opponent turns into guillotine
 - [[Submissions/Von Flue Choke]] - Counter-submission opponent may attempt if attacker holds guillotine too long from bottom
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Ten Finger Guillotine from Front Headlock leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Trachea damage from excessive crushing pressure | High | 2-4 weeks with severe cases requiring medical attention |
+| Neck strain or cervical spine stress from jerking motions | Medium | 1-2 weeks |
+| Loss of consciousness from carotid compression | High | Immediate recovery but repeated incidents can cause long-term damage |
+| Jaw or temporomandibular joint (TMJ) injury from improper chin positioning | Medium | 2-6 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress sound)
+- Physical hand tap on partner's body or mat
+- Physical foot tap on mat or partner
+- Any unusual body stiffening or loss of resistance indicating unconsciousness
+
+
+**Release Protocol**:
+1. Immediately release the choking hand grip while maintaining head control
+2. Lower opponent's head gently to prevent whiplash or neck strain
+3. Create space by stepping back or opening guard to remove all pressure
+4. Check partner's awareness and allow recovery time before continuing
+5. If partner was unconscious, elevate legs and monitor breathing
+
+
+**Training Restrictions**:
+- Never apply full pressure at competition speed in training - always give partner time to tap
+- Never jerk or spike the choke with explosive movements
+- Never continue pressure after partner taps or shows distress
+- Never practice on partners with neck injuries without medical clearance
+- Always ensure partner has access to tap with at least one hand free
+
 
 </section>
 

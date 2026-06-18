@@ -143,6 +143,16 @@ description: "Master grip fighting in BJJ. Learn strategic hand engagement, grip
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Grips",
+  "description": "Grips are the continuous battle to establish, break, retain, and prevent points of hand-and-cloth control that determine who can impose their game, dictate exchanges, and access offense across every BJJ position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,6 +167,8 @@ description: "Master grip fighting in BJJ. Learn strategic hand engagement, grip
 <section id="overview" class="content-section">
 
 ## What are Grips?
+
+**Grips are the continuous battle to establish, break, retain, and prevent points of hand-and-cloth control that determine who can impose their game, dictate exchanges, and access offense across every BJJ position.**
 
 Grips represents the fundamental tactical battle for control through hand engagement that occurs throughout all phases of Brazilian Jiu-Jitsu. Unlike specific techniques or positions, grip fighting encompasses a comprehensive system of establishing, maintaining, breaking, and preventing grips that apply across all positions and transitions. This skill set serves as the foundation for both offensive and defensive BJJ, as grip control largely determines who can impose their game and dictate the direction of exchanges. Grip fighting occurs continuously throughout matches and is often considered the "invisible game within the game" that significantly influences outcomes despite being less visually apparent than techniques like sweeps or submissions. The ability to systematically dominate grip exchanges allows practitioners to control tempo, create offensive opportunities, and deny opponents their preferred attacking sequences. Understanding grip hierarchies, biomechanical advantages, and strategic sequencing transforms grip fighting from random hand battling into a sophisticated control system that multiplies the effectiveness of all subsequent techniques.
 
@@ -366,12 +378,12 @@ Cooperative flow drilling where partners alternate establishing and breaking gri
 - **[[Connection Principles]]** (Extension): Connection principles provide the overarching tactical framework for grip fighting execution. While grip fighting encompasses the technical mechanics, connection principles determine which points of contact to pursue and maintain in specific contexts.
 - **[[Hand Fighting]]** (Complementary): Hand fighting encompasses the broader category of hand engagement including grip fighting, framing, and posting. Grip fighting represents the offensive control aspects within hand fighting.
 - **[[Collar Control]]** (Extension): Collar control represents a specific application of grip fighting principles focused on establishing and maintaining collar grips for control and submission opportunities.
-- **[[Sleeve Control]]** (Extension): Sleeve control applies grip fighting principles to establishing arm and sleeve grips that restrict opponent mobility and create attacking opportunities.
+- **[[Connection Principles]]** (Complementary): Connection principles govern how grip-derived contact points are linked into a coherent control web, guiding which sleeve, collar, or limb grips to chain together to restrict opponent mobility and create attacking opportunities.
 - **[[Base]]** (Complementary): Strong base maintenance makes grip fighting more effective by providing stable platform for grip battles. Conversely, winning grip exchanges helps establish and maintain superior base positions.
 
 
 ### Related Content
-- [[Timing and Rhythm]] (Principle) - Grip fighting timing and rhythm determine success of grip acquisition, breaking, and prevention sequences
+- [[Hand Fighting]] (Principle) - Broader category of hand engagement; grip fighting is the offensive control aspect within hand fighting
 - [[Connection Principles]] (Principle) - Strategic approach to establishing and maintaining points of contact that govern grip selection and sequencing
 - [[Levers]] (Principle) - Biomechanical leverage underpins efficient grip breaking and the ability to exploit superior grip positions
 - [[Defensive Concepts]] (Principle) - Defensive grip fighting supports guard retention, escape attempts, and overall positional defense
@@ -382,7 +394,7 @@ Cooperative flow drilling where partners alternate establishing and breaking gri
 - [[Spider Guard]] (Position) - Guard type entirely dependent on winning and maintaining specific grip battles
 - [[Standing Position]] (Position) - Initial grip fighting exchanges in standing determine takedown initiative
 - [[Collar Sleeve Guard]] (Position) - Guard built on fundamental grip fighting principle of collar-and-sleeve control
-- [[Guard Opening Sequence]] (Transition) - Grip fighting determines success of guard opening attempts from top position
+- [[Collar Control]] (Principle) - Specialized application of grip fighting focused on establishing and retaining collar grips
 
 
 </section>

@@ -33,10 +33,32 @@ description: "Master Triangle from Spider Guard. Setup from spider hooks, angle 
 }
 </script>
 
-> **SAFETY**: Triangle Choke from Spider Guard targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Choke from Spider Guard",
+  "description": "The Triangle Choke from Spider Guard is a gi blood choke where the bottom player uses sleeve and feet-on-biceps control to isolate an arm, throw a leg over the shoulder, and compress the carotid arteries until the opponent taps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Triangle Choke from Spider Guard is a gi blood choke where the bottom player uses sleeve and feet-on-biceps control to isolate an arm, throw a leg over the shoulder, and compress the carotid arteries until the opponent taps.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Triangle Choke from Spider Guard targets the Carotid arteries and jugular veins. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,56 +69,9 @@ description: "Master Triangle from Spider Guard. Setup from spider hooks, angle 
 
 <section id="overview" class="content-section">
 
-The Triangle from Spider Guard is a high-percentage finishing sequence that capitalizes on the distance control and posture breaking inherent to spider guard. By using the feet-on-biceps position to control opponent posture and arm placement, you create ideal conditions for triangle entry while preventing your opponent from establishing defensive grips or posture. This submission represents the natural evolution of spider guard control into a finishing position, where the same mechanical advantages that make spider guard effective for sweeps translate directly into submission opportunities. The key is understanding that spider guard already establishes many of the prerequisites for triangle success: broken posture, controlled arm positioning, and angles that favor the guard player. What makes this variation particularly effective is that opponents defending against spider guard sweeps often create the exact defensive reactions—posting hands, driving forward into guard—that expose them to the triangle. The transition from spider guard to triangle is fluid and natural, often catching opponents by surprise as they focus on passing rather than submission defense.
+Building directly on spider guard's distance control and posture breaking, this triangle turns the same feet-on-biceps mechanics that threaten sweeps into a finishing sequence. By using the feet-on-biceps position to control opponent posture and arm placement, you create ideal conditions for triangle entry while preventing your opponent from establishing defensive grips or posture. This submission represents the natural evolution of spider guard control into a finishing position, where the same mechanical advantages that make spider guard effective for sweeps translate directly into submission opportunities. The key is understanding that spider guard already establishes many of the prerequisites for triangle success: broken posture, controlled arm positioning, and angles that favor the guard player. What makes this variation particularly effective is that opponents defending against spider guard sweeps often create the exact defensive reactions—posting hands, driving forward into guard—that expose them to the triangle. The transition from spider guard to triangle is fluid and natural, often catching opponents by surprise as they focus on passing rather than submission defense.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Spider Guard]]
-**From Position**: [[Positions/Spider Guard]] (Bottom)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | High | Immediate upon release, but repeated unconsciousness can cause brain damage |
-| Neck strain or cervical spine stress from improper angle | Medium | 2-7 days with rest |
-| Shoulder hyperextension from trapped arm | Medium | 1-2 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to finish. Never snap or jerk the triangle closed.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal including gurgling sounds
-- Loss of resistance or going limp
-
-
-**Release Protocol**:
-1. Immediately open legs and release figure-four lock
-2. Pull trapped arm out from triangle space
-3. Release head and neck control
-4. Move hips away to create space
-5. Check partner's consciousness and breathing
-6. Allow partner time to recover before resuming training
-
-
-**Training Restrictions**:
-- Never apply full pressure in drilling—focus on position and angle
-- Never hold the choke after partner taps or goes unconscious
-- Always allow clear tap access with at least one free hand
-- Never use competition speed when training with less experienced partners
-- Stop immediately if partner shows any signs of distress beyond normal discomfort
-
+**Starting Position**: [[Positions/Spider Guard]] · **From**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -271,10 +246,9 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Far Side Armbar]]
@@ -285,14 +259,6 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Cross Collar Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Spider Guard]] - Primary starting position for this triangle variation
 - [[Positions/Triangle Control]] - Control position reached upon successful entry
 - [[Positions/Omoplata Control]] - Alternative submission when triangle is defended
@@ -304,16 +270,47 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 - [[Positions/Armbar Control]] - Transition target when triangle arm is exposed
 - [[Positions/Closed Guard]] - Alternative guard for triangle attacks when spider fails
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Triangle Choke from Spider Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | High | Immediate upon release, but repeated unconsciousness can cause brain damage |
+| Neck strain or cervical spine stress from improper angle | Medium | 2-7 days with rest |
+| Shoulder hyperextension from trapped arm | Medium | 1-2 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to finish. Never snap or jerk the triangle closed.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on partner's body or mat
+- Physical foot tap on mat or partner
+- Any distress signal including gurgling sounds
+- Loss of resistance or going limp
+
+
+**Release Protocol**:
+1. Immediately open legs and release figure-four lock
+2. Pull trapped arm out from triangle space
+3. Release head and neck control
+4. Move hips away to create space
+5. Check partner's consciousness and breathing
+6. Allow partner time to recover before resuming training
+
+
+**Training Restrictions**:
+- Never apply full pressure in drilling—focus on position and angle
+- Never hold the choke after partner taps or goes unconscious
+- Always allow clear tap access with at least one free hand
+- Never use competition speed when training with less experienced partners
+- Stop immediately if partner shows any signs of distress beyond normal discomfort
+
 
 </section>
 

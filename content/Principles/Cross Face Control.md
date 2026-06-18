@@ -143,6 +143,16 @@ description: "Master cross face control mechanics in BJJ. Learn forearm position
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Face Control",
+  "description": "Cross Face Control is the application of forearm and shoulder pressure driven across an opponent's face from the near side toward the far side, turning their head away from escape angles to dominate top positions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master cross face control mechanics in BJJ. Learn forearm position
 
 ## What is Cross Face Control?
 
-Cross Face Control represents the tactical application of arm and shoulder pressure across opponent's face and neck to control head positioning, restrict rotation toward escape directions, and establish dominant upper body control in top positions. Unlike general shoulder pressure, crossface control focuses specifically on driving arm and shoulder from opponent's near side across their face toward the far side, creating a lever that turns their head away from optimal escape angles and significantly restricts their ability to face into the position for defensive frames. This concept integrates biomechanical understanding of how head rotation affects overall body movement with strategic decisions about crossface establishment timing, pressure intensity, and coordination with other control elements. Crossface control serves as both an immediate restriction mechanism that prevents opponent from creating effective defensive frames and an enabling tool that allows position maintenance and technical advancement with minimal effort through superior head control. The ability to establish and maintain effective crossface control often determines whether a practitioner can dominate side control and passing positions or allows opponent to turn into position and escape, making it one of the most essential technical elements in top control and passing development.
+**Cross Face Control is the application of forearm and shoulder pressure driven across an opponent's face from the near side toward the far side, turning their head away from escape angles to dominate top positions.**
+
+Rooted in the grappling truism that where the head goes the body follows, crossface control weaponizes that relationship to lock down top positions and passing sequences. Unlike general shoulder pressure, crossface control focuses specifically on driving arm and shoulder from opponent's near side across their face toward the far side, creating a lever that turns their head away from optimal escape angles and significantly restricts their ability to face into the position for defensive frames. This concept integrates biomechanical understanding of how head rotation affects overall body movement with strategic decisions about crossface establishment timing, pressure intensity, and coordination with other control elements. Crossface control serves as both an immediate restriction mechanism that prevents opponent from creating effective defensive frames and an enabling tool that allows position maintenance and technical advancement with minimal effort through superior head control. The ability to establish and maintain effective crossface control often determines whether a practitioner can dominate side control and passing positions or allows opponent to turn into position and escape, making it one of the most essential technical elements in top control and passing development.
 
 </section>
 

@@ -34,6 +34,18 @@ description: "Master the Leg Drag to Darce Setup transition. Step-by-step execut
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag to Darce Setup",
+  "description": "Leg Drag to Darce Setup is a transitional attack that exploits an opponent's turtle escape from leg drag control, threading the choking arm under their near armpit and across the neck to establish Darce Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Leg Drag to Darce Setup transition. Step-by-step execut
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag to Darce Setup is a transitional attack that exploits an opponent's turtle escape from leg drag control, threading the choking arm under their near armpit and across the neck to establish Darce Control.**
 
 The Leg Drag to Darce Setup is a powerful transitional attack that capitalizes on a common defensive reaction from leg drag control. When the bottom player attempts to escape by turtling or turning away to protect their back, they inadvertently create the arm and head configuration necessary for Darce choke entries. This transition exemplifies the concept of attacking your opponent's escape routes rather than simply chasing positional dominance.
 

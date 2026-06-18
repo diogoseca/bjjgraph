@@ -34,6 +34,18 @@ description: "Master twister side control in BJJ. Complete strategic guide cover
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister Side Control",
+  "description": "Twister Side Control is a 10th Planet lateral pin where the top player entangles the legs and drives shoulder pressure to rotate the spine, prioritizing twister and spinal submission threats over conventional positional stability.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master twister side control in BJJ. Complete strategic guide cover
 </div>
 
 <section id="overview" class="content-section">
+
+**Twister Side Control is a 10th Planet lateral pin where the top player entangles the legs and drives shoulder pressure to rotate the spine, prioritizing twister and spinal submission threats over conventional positional stability.**
 
 Twister Side Control represents a unique positional variant within the 10th Planet system, distinguished by its emphasis on lateral spinal torque and submission-oriented control. Unlike traditional side control positions that prioritize chest-to-chest pressure and immobilization, Twister Side Control leverages leg entanglement and rotational mechanics to create devastating submission threats.
 
@@ -210,21 +224,21 @@ The learning curve for Twister Side Control is significant, requiring practition
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (14% of attempts)
+- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (13% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (12% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (11% of attempts)
 
-- **[[Darce Choke from Twister Side Control/Attacker|Darce Choke from Twister Side Control]]** (10% of attempts)
+- **[[Darce Choke from Twister Side Control/Attacker|Darce Choke from Twister Side Control]]** (9% of attempts)
 
-- **[[Kimura from Twister Side Control/Attacker|Kimura from Twister Side Control]]** (10% of attempts)
+- **[[Kimura from Twister Side Control/Attacker|Kimura from Twister Side Control]]** (9% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
 
-- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (8% of attempts)
+- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (7% of attempts)
 
 - **[[Arm Triangle from Twister Side Control/Attacker|Arm Triangle from Twister Side Control]]** (7% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (8% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (7% of attempts)
 
 - **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (7% of attempts)
 
@@ -233,6 +247,8 @@ The learning curve for Twister Side Control is significant, requiring practition
 - **[[Transitions/Twister SC to Back Take/Attacker|Twister SC to Back Take]]** (4% of attempts)
 
 - **[[Transitions/Twister SC to Truck/Attacker|Twister SC to Truck]]** (3% of attempts)
+
+- **[[Twister from Twister Side Control/Attacker|Twister from Twister Side Control]]** (7% of attempts)
 
 
 ### Common Mistakes

@@ -34,6 +34,18 @@ description: "Master Knee Shield Half Guard in BJJ. Strategic guide covering set
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Shield Half Guard",
+  "description": "Knee Shield Half Guard is a half guard variation where the bottom player wedges their top-leg shin across the opponent's torso, creating distance that blocks pressure passing while opening sweeps, back takes, and guard transitions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Knee Shield Half Guard in BJJ. Strategic guide covering set
 
 <section id="overview" class="content-section">
 
-Knee Shield Half Guard is a fundamental variation of half guard characterized by the bottom player using their top leg's shin as a defensive frame across the opponent's torso. This creates critical distance that prevents the crushing pressure typical of traditional half guard, fundamentally altering the position's dynamics for both players. The knee shield acts as both a defensive barrier preventing the pass and an offensive launching point for sweeps, back takes, and guard transitions.
+**Knee Shield Half Guard is a half guard variation where the bottom player wedges their top-leg shin across the opponent's torso, creating distance that blocks pressure passing while opening sweeps, back takes, and guard transitions.**
+
+As a specialized expression of half guard, Knee Shield Half Guard reshapes the position by turning the bottom player's top-leg shin into a load-bearing frame against the opponent's torso. This creates critical distance that prevents the crushing pressure typical of traditional half guard, fundamentally altering the position's dynamics for both players. The knee shield acts as both a defensive barrier preventing the pass and an offensive launching point for sweeps, back takes, and guard transitions.
 
 From the bottom perspective, the knee shield provides superior defensive security compared to flat half guard while maintaining offensive capabilities. The frame prevents the top player from settling their weight and establishing dominant grips, allowing the bottom player to maintain mobility and create angles for attacks. The position requires active management—constantly adjusting shield height and angle based on opponent pressure while threatening sweeps to keep the passer defensive.
 

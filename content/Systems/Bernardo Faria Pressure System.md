@@ -141,6 +141,16 @@ description: "Master Bernardo Faria's legendary pressure passing system. Learn s
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bernardo Faria Pressure System",
+  "description": "The Bernardo Faria Pressure System is a gi-focused top game framework that uses relentless forward weight, knee slice, over-under, and bodylock passing to exhaust opponents and systematically advance to dominant pinning positions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -155,7 +165,9 @@ description: "Master Bernardo Faria's legendary pressure passing system. Learn s
 
 ## What is Bernardo Faria Pressure System?
 
-The Bernardo Faria Pressure System is a comprehensive top game framework built on relentless forward pressure, precise weight distribution, and systematic guard passing principles. Developed through years of elite competition, this system prioritizes making opponents carry your weight while maintaining dominant control positions. The methodology emphasizes knee slice variations, over-under passing, and bodylock control as primary weapons, combined with strategic grip fighting and base management. Rather than speed or explosiveness, this system relies on technical precision, timing, and pressure application to systematically break down guards and achieve dominant positions. The framework is particularly effective in gi competition where grips and control can be maximized, though the fundamental pressure principles translate effectively to no-gi contexts. This system represents a masterclass in making opponents exhausted through constant pressure while conserving your own energy through proper technique and weight placement.
+**The Bernardo Faria Pressure System is a gi-focused top game framework that uses relentless forward weight, knee slice, over-under, and bodylock passing to exhaust opponents and systematically advance to dominant pinning positions.**
+
+Forged across years of elite gi competition that produced five IBJJF World Championships, this top game emerged from a deliberate rejection of speed and athleticism in favor of weight, timing, and relentless patience. Rather than scrambling to pass, the practitioner makes opponents carry bodyweight on their hips, chest, and shoulders until their guard collapses from exhaustion. The methodology emphasizes knee slice variations, over-under passing, and bodylock control as primary weapons, combined with strategic grip fighting and base management. Rather than speed or explosiveness, this system relies on technical precision, timing, and pressure application to systematically break down guards and achieve dominant positions. The framework is particularly effective in gi competition where grips and control can be maximized, though the fundamental pressure principles translate effectively to no-gi contexts. This system represents a masterclass in making opponents exhausted through constant pressure while conserving your own energy through proper technique and weight placement.
 
 </section>
 

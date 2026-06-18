@@ -1,7 +1,15 @@
 {
   "name": "Technique Chaining",
   "description": "Learn why chaining techniques together creates unstoppable offense in BJJ. Master attack sequences, combination principles, and how to flow between sweeps, passes, and submissions.",
-  "tags": ["bjj", "strategy", "technique-chaining", "combinations", "attack-sequences", "offense"],
+  "summary": "Technique chaining is the practice of linking attacks in sequence so that each defensive reaction your opponent gives creates a predictable opening for your next move, turning isolated techniques into continuous offense.",
+  "tags": [
+    "bjj",
+    "strategy",
+    "technique-chaining",
+    "combinations",
+    "attack-sequences",
+    "offense"
+  ],
   "category": "Strategy",
   "overview": "A single attack in BJJ is a question. A chain of attacks is a conversation your opponent cannot keep up with. When you attempt an armbar from mount and your opponent defends, that defense creates a new opening -- perhaps a triangle, a back take, or a collar choke. Technique chaining means planning for the defense before you even launch the first attack.\n\nThe best grapplers in the world rarely finish with their first attempt. Instead, they use the initial attack to provoke a specific defensive reaction, then capitalize on the opening that reaction creates. The armbar forces the opponent to turn. The turn exposes the back. The back take threatens the choke. The choke defense opens the armbar again. This cyclical pressure is what separates a blue belt who knows twenty techniques from a black belt who chains three.\n\nBuilding effective chains requires understanding cause and effect on the mat. Every technique you attempt changes the position, your opponent's posture, and their available defenses. Your job is to map those changes and have a planned follow-up for each defensive response. The chain does not need to be long -- two or three linked techniques with clear triggers for each transition will overwhelm most training partners.",
   "key_takeaways": [
@@ -103,49 +111,54 @@
   ],
   "related_content": [
     {
-      "name": "Principles/Fork Attacks",
+      "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Fork attacks force opponents to choose between two bad options, creating the dilemma that makes chains effective"
     },
     {
-      "name": "Principles/Action and Reaction",
+      "name": "Action and Reaction",
       "content_type": "Principle",
       "relationship": "Chains exploit the predictable reactions opponents have to specific attacks"
     },
     {
-      "name": "Principles/Submission Chains",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Submission-specific chaining principles for linking finishing sequences"
+      "relationship": "Positional advancement chains apply the same trigger-and-follow-up logic to improving position rather than finishing"
     },
     {
-      "name": "Principles/Position Chains",
+      "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Positional advancement chains that complement submission chains"
+      "relationship": "Managing the connection between linked techniques is the moment where chains succeed or fail"
     },
     {
-      "name": "Principles/Transition Management",
-      "content_type": "Principle",
-      "relationship": "Managing the moments between techniques where chains succeed or fail"
-    },
-    {
-      "name": "Positions/Closed Guard",
+      "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Classic position for building first attack chains with sweeps and submissions"
+      "relationship": "Classic position for building first-attack chains with sweeps and submissions"
     },
     {
-      "name": "Positions/Mount",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Dominant position where submission chains are most effective"
     },
     {
-      "name": "Learning/Predictable Responses",
+      "name": "Predictable Responses",
       "content_type": "Learning",
       "relationship": "Understanding predictable defensive reactions is the foundation of effective chains"
     },
     {
-      "name": "Learning/Funneling",
+      "name": "Funneling",
       "content_type": "Learning",
       "relationship": "Chains can funnel opponents into increasingly narrow defensive options"
+    },
+    {
+      "name": "Mask Your Intentions",
+      "content_type": "Learning",
+      "relationship": "Disguising the first attack as the real threat makes the follow-up in a chain land cleanly"
+    },
+    {
+      "name": "Pattern Interrupts",
+      "content_type": "Learning",
+      "relationship": "Breaking an opponent's defensive rhythm complements chaining by denying them a predictable counter"
     }
   ],
   "references": [

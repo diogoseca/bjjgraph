@@ -1,5 +1,6 @@
 {
   "name": "Kneebar from Estima Lock",
+  "summary": "Kneebar from Estima Lock is a leg-lock chain attack that converts a defended inverted footlock into a knee hyperextension by switching the hips from the ankle to across the opponent's knee while maintaining continuous leg isolation.",
   "description": "Master the Kneebar from Estima Lock in BJJ. Convert defended footlock attempts into devastating kneebar attacks through hip repositioning and chain attacks.",
   "tags": [
     "bjj",
@@ -58,7 +59,7 @@
   "position_integration": "The Kneebar from Estima Lock occupies a pivotal position within modern leg lock chain attack systems. It connects the Estima Lock—an inverted footlock attacking below the knee—to the kneebar—a hyperextension attack on the knee joint itself. This vertical chain along the same limb creates a powerful offensive framework where defending one attack exposes vulnerability to the next. The transition integrates naturally with the broader Estima Lock attack tree that includes toe hold conversions, saddle entries, and ashi garami transitions, making the Estima Lock position a genuine multi-threat hub rather than a single-attack dead end. Understanding this transition is essential for any practitioner building a comprehensive leg lock game, as it punishes the most common Estima Lock defenses and maintains offensive momentum through positional changes.",
   "related_content": [
     {
-      "name": "Estima Lock",
+      "name": "Estima Lock Control",
       "relationship": "Source position from which this kneebar transition initiates"
     },
     {

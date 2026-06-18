@@ -33,10 +33,32 @@ description: "Master the Arm Triangle from Modified Scarf Hold. Learn setup mech
 }
 </script>
 
-> **SAFETY**: Arm Triangle from Modified Scarf Hold targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Triangle from Modified Scarf Hold",
+  "description": "The Arm Triangle from Modified Scarf Hold is a head-and-arm blood choke that uses the pin's chest pressure to trap the opponent's near arm across their own neck, compressing both carotid arteries until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Arm Triangle from Modified Scarf Hold is a head-and-arm blood choke that uses the pin's chest pressure to trap the opponent's near arm across their own neck, compressing both carotid arteries until they tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries (compressed by opponent's own shoulder and your arm)</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Arm Triangle from Modified Scarf Hold targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,53 +75,7 @@ When the defender's near arm becomes trapped against their own neck—whether th
 
 This variant is particularly effective because Modified Scarf Hold allows the attacker to maintain dominant control throughout the entire submission sequence. Unlike arm triangles initiated from more neutral positions, the transition from pin to choke requires minimal positional risk. The defender faces a compounding problem: the pressure that restricts their breathing also drives the mechanics that complete the choke, making simultaneous defense of both threats nearly impossible. The position rewards patient, methodical attackers who build control before hunting the finish.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries (compressed by opponent's own shoulder and your arm)
-**Starting Position**: [[Positions/Side Control/Modified Scarf Hold]]
-**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from blood choke | High | Immediate recovery if released promptly; potential stroke risk if held too long |
-| Neck strain from improper pressure angle | Medium | 3-7 days with rest |
-| Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap (multiple taps on opponent or mat)
-- Physical foot tap (multiple taps with foot)
-- Any distress signal or loss of resistance
-- Immediately release if opponent goes limp
-
-
-**Release Protocol**:
-1. Immediately release arm squeeze and remove head pressure
-2. Step back from opponent's head and shoulders
-3. Allow opponent to breathe and recover (30-60 seconds)
-4. Check for consciousness and normal breathing
-5. If unconscious: position on side, elevate legs, monitor breathing until conscious
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth progressive pressure only
-- Never hold after tap signal - release immediately upon any tap
-- Always allow tap access - do not trap both arms in training
-- Never use competition speed in training - practice control first
-- Stop immediately if opponent's face changes color (purple/red indicates excessive pressure)
-
+**Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] · **From**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 </section>
 
@@ -263,43 +239,58 @@ This variant is particularly effective because Modified Scarf Hold allows the at
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Arm Triangle]]
-- [[Arm Triangle from Side Control]]
-- [[Arm Triangle from Kesa Gatame]]
-- [[Arm Triangle from Hindulotine]]
-- [[Americana from Modified Scarf Hold]]
 - [[Submissions/Arm in Guillotine]]
 - [[Transitions/Anaconda Choke]]
-- [[Arm Triangle from Reverse Scarf Hold]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Modified Scarf Hold]] - Starting pin position for this submission
 - [[Positions/Side Control]] - Common transition position for arm triangle finishes
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with similar arm triangle mechanics
-- [[Transitions/Arm Triangle]] - Parent submission family
 - [[Positions/North-South]] - Alternative pressure position accessible from Modified Scarf Hold
 - [[Positions/Front Headlock]] - Related head-and-arm control position
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Arm Triangle from Modified Scarf Hold leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from blood choke | High | Immediate recovery if released promptly; potential stroke risk if held too long |
+| Neck strain from improper pressure angle | Medium | 3-7 days with rest |
+| Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' clearly)
+- Physical hand tap (multiple taps on opponent or mat)
+- Physical foot tap (multiple taps with foot)
+- Any distress signal or loss of resistance
+- Immediately release if opponent goes limp
+
+
+**Release Protocol**:
+1. Immediately release arm squeeze and remove head pressure
+2. Step back from opponent's head and shoulders
+3. Allow opponent to breathe and recover (30-60 seconds)
+4. Check for consciousness and normal breathing
+5. If unconscious: position on side, elevate legs, monitor breathing until conscious
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - apply smooth progressive pressure only
+- Never hold after tap signal - release immediately upon any tap
+- Always allow tap access - do not trap both arms in training
+- Never use competition speed in training - practice control first
+- Stop immediately if opponent's face changes color (purple/red indicates excessive pressure)
+
 
 </section>
 

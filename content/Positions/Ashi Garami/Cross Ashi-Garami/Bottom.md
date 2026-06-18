@@ -39,7 +39,7 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook Defense Escape",
-      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 47% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook Defense Escape. This technique is attempted in 43% of exchanges from this position.",
       "position": 4
     },
     {

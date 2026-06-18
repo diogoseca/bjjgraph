@@ -21,37 +21,37 @@ description: "Offensive guillotine variation from top position using body weight
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke from Hindulotine",
-      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 29% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hindulotine to Darce Choke",
-      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hindulotine to Anaconda Choke",
-      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Top",
-      "text": "From this position, attempt Back Take from Top. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Top. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Top",
-      "text": "From this position, attempt Arm Triangle from Top. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Top. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],

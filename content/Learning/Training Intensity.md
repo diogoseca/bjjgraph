@@ -94,6 +94,18 @@ description: "How to manage speed, energy, and intensity across BJJ training, co
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Training Intensity",
+  "description": "Training intensity in BJJ is the deliberate calibration of speed, effort, and resistance across drilling, sparring, and competition prep, anchored by the 80% principle and stress inoculation so technique holds up under adrenaline.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Training
 
 
@@ -102,6 +114,8 @@ description: "How to manage speed, energy, and intensity across BJJ training, co
 <section id="overview" class="content-section">
 
 ## What is Training Intensity?
+
+**Training intensity in BJJ is the deliberate calibration of speed, effort, and resistance across drilling, sparring, and competition prep, anchored by the 80% principle and stress inoculation so technique holds up under adrenaline.**
 
 Your brain does not work the same way under adrenaline as it does when you are relaxed. The prefrontal cortex, the part responsible for decision-making, pattern recognition, and technique selection, degrades significantly under stress. Heart rate spikes above 145 BPM and your fine motor skills start to erode. Above 175 BPM and complex decision-making becomes unreliable. If you have never trained at intensity levels that produce these physiological responses, your first experience with them will be in competition or a self-defense situation, and that is the worst possible time to discover that your technique collapses under pressure.
 
@@ -221,16 +235,17 @@ A: Mismatched intensity expectations cause injuries and damage trust. If one per
 <section id="related" class="content-section">
 
 ## Related
-- [[Principles/Energy Conservation]] (Principle) - Energy conservation principles directly govern how you allocate effort across different intensity levels
-- [[Principles/Positional Sparring]] (Principle) - Positional sparring is the primary format for training at controlled intensity with specific technical goals
-- [[Principles/Flow Rolling]] (Principle) - Flow rolling represents the low end of the intensity spectrum, used for technique exploration and recovery sessions
-- [[Principles/Competition Mindset]] (Principle) - Competition mindset requires training at match-level intensity to build neural pathways that function under adrenaline
-- [[Systems/Competition Preparation System]] (System) - Competition preparation requires systematic intensity escalation leading up to match day
-- [[Principles/Timing and Rhythm]] (Principle) - Timing and rhythm change at different intensity levels, requiring practice across the full spectrum
-- [[Principles/Defensive Concepts]] (Principle) - Defensive techniques must be stress-tested at high intensity to verify they work under real pressure
-- [[Learning/Training Partner Diversity]] (Learning) - Diverse training partners naturally create varied intensity levels that prepare you for unknown opponents
-- [[Positions/Mount]] (Position) - Mount escapes are commonly the first techniques to fail under high-intensity pressure, making them key stress-test positions
-- [[Positions/Back Control]] (Position) - Defending back control under competition-pace attacks requires stress inoculation to prevent panic
+- [[Energy Conservation]] (Principle) - Energy conservation principles directly govern how you allocate effort across different intensity levels
+- [[Positional Sparring]] (Principle) - Positional sparring is the primary format for training at controlled intensity with specific technical goals
+- [[Flow Rolling]] (Principle) - Flow rolling represents the low end of the intensity spectrum, used for technique exploration and recovery sessions
+- [[Competition Mindset]] (Principle) - Competition mindset requires training at match-level intensity to build neural pathways that function under adrenaline
+- [[Competition Preparation System]] (System) - Competition preparation requires systematic intensity escalation leading up to match day
+- [[Timing Windows]] (Learning) - Recognizing and exploiting timing windows depends on having trained at the speeds where those windows actually appear, which only higher-intensity rolling provides
+- [[Dealing with Pressure]] (Principle) - Managing physical and psychological pressure is the core competency that stress-inoculation training is designed to build
+- [[Defensive Concepts]] (Principle) - Defensive techniques must be stress-tested at high intensity to verify they work under real pressure
+- [[Training Partner Diversity]] (Learning) - Diverse training partners naturally create varied intensity levels that prepare you for unknown opponents
+- [[Mount]] (Position) - Mount escapes are commonly the first techniques to fail under high-intensity pressure, making them key stress-test positions
+- [[Back Control]] (Position) - Defending back control under competition-pace attacks requires stress inoculation to prevent panic
 
 
 

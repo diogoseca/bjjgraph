@@ -200,7 +200,7 @@ The most effective defensive window is during grip establishment. Tucking the ch
 ### 1. Two-on-one grip strip on the choking hand before it sinks deep into the collar
 
 - **When to use**: Immediately upon feeling the attacker's hand entering your collar, before the grip is fully established
-- **Targets**: [[Positions/Turtle]]
+- **Targets**: [[Transitions/Clock Choke]]
 - **If successful**: Attacker loses their primary choking grip and must re-establish, resetting to neutral turtle top position
 - **Risk**: Lifting your arm to grip fight briefly exposes your back to potential hook insertion or harness control
 

@@ -34,6 +34,18 @@ description: "Master the Lasso Guard Backstep Pass in BJJ. Learn rotational pass
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lasso Guard Backstep Pass",
+  "description": "The Lasso Guard Backstep Pass is a rotational gi guard pass in which the top player steps the free leg behind and turns away from the lasso, erasing the perpendicular shin angle that traps the arm and clearing toward side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Lasso Guard Backstep Pass in BJJ. Learn rotational pass
 
 <section id="overview" class="content-section">
 
-The Lasso Guard Backstep Pass is a rotational passing technique that exploits the lasso guard's directional vulnerability. The lasso's power comes from the perpendicular angle of the guard player's shin against the trapped arm, creating a lever that restricts mobility and base. The backstep defeats this mechanism by rotating away from the lasso, removing the perpendicular angle entirely as the passer's body turns in line with the guard player's shin. Rather than fighting the lasso's leverage through direct grip breaking or forward pressure, the backstep changes the geometric relationship between bodies to neutralize the position structurally.
+**The Lasso Guard Backstep Pass is a rotational gi guard pass in which the top player steps the free leg behind and turns away from the lasso, erasing the perpendicular shin angle that traps the arm and clearing toward side control.**
+
+Among lasso guard passing options, the backstep stands apart from linear, pressure-based passes by attacking the position's directional vulnerability rather than its grip strength. The lasso's power comes from the perpendicular angle of the guard player's shin against the trapped arm, creating a lever that restricts mobility and base. The backstep defeats this mechanism by rotating away from the lasso, removing the perpendicular angle entirely as the passer's body turns in line with the guard player's shin. Rather than fighting the lasso's leverage through direct grip breaking or forward pressure, the backstep changes the geometric relationship between bodies to neutralize the position structurally.
 
 Execution requires precise coordination between grip management and rotational movement. The passer must reduce sleeve grip tension before or during the backstep to allow the trapped arm to slide free during rotation. The free leg steps behind in a deep arc while maintaining low hips, and the free hand controls the opponent's non-lasso leg to prevent reguarding. The technique's primary challenge is the vulnerability window during mid-rotation, when the passer's weight is transitioning between feet and their base is narrowest—this is where sweep counters and back takes are most likely.
 

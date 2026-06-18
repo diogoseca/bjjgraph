@@ -236,8 +236,9 @@ The Darce Choke is particularly effective because it attacks from a position whe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Darce Choke]] | 65% |
-| Failure | [[Positions/Darce Control]] | 25% |
+| Success | [[game-over]] | 60% |
+| Failure | [[Positions/Darce Control]] | 22% |
+| Failure | [[Transitions/Darce Choke]] | 8% |
 | Counter | [[Positions/Half Guard]] | 10% |
 
 

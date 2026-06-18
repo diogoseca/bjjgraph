@@ -34,6 +34,18 @@ description: "Master the Guard Pull transition in BJJ. Complete guide from stand
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Pull",
+  "description": "The Guard Pull is a Brazilian Jiu-Jitsu transition where a standing grappler uses grips to sit down and pull their opponent into a chosen bottom guard, deliberately conceding top position to start the fight from their preferred guard game.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Guard Pull transition in BJJ. Complete guide from stand
 </div>
 
 <section id="overview" class="content-section">
+
+**The Guard Pull is a Brazilian Jiu-Jitsu transition where a standing grappler uses grips to sit down and pull their opponent into a chosen bottom guard, deliberately conceding top position to start the fight from their preferred guard game.**
 
 The Guard Pull is a fundamental BJJ transition that allows practitioners to move from standing position directly into their guard game, bypassing the takedown exchange entirely. This technique is particularly valuable in sport BJJ contexts where bottom guard position offers numerous attacking opportunities and where takedown exchanges may not align with a practitioner's strengths. The guard pull requires precise grip establishment, proper body positioning, and excellent timing to execute safely and effectively. When performed correctly, it allows the practitioner to immediately begin implementing their guard strategy while controlling distance and grips.
 
@@ -247,8 +261,6 @@ The guard pull serves as the primary entry point into bottom guard game from sta
 - [[Transitions/Arm Drag]] - Alternative entry method combining drag with seated pull
 
 - [[Positions/Standing Position]] - Starting position for guard pull transition
-
-- [[Transitions/Guard Pull]] - Self-reference for guard pull hub page
 
 
 </section>

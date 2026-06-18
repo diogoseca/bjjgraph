@@ -34,6 +34,18 @@ description: "Master clearing Rubber Guard from top position and passing to Side
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rubber Guard Clear to Pass",
+  "description": "Rubber Guard Clear to Pass is the top player's systematic escape from an opponent's Rubber Guard that clears leg control first to safely extract the trapped arm, recover posture, and pass to Side Control without feeding triangles or omoplatas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master clearing Rubber Guard from top position and passing to Side
 
 <section id="overview" class="content-section">
 
-Rubber Guard Clear to Pass is the systematic escape and passing sequence from the top position when trapped in an opponent's Rubber Guard. This technique addresses one of the most challenging defensive scenarios in modern no-gi grappling, where the bottom player has established Mission Control or a similar Rubber Guard configuration with your arm trapped against their chest. The fundamental challenge lies in the dual-threat control system: your posture is severely compromised while one arm is isolated, limiting defensive options. The pass requires methodical progression through posture recovery, arm extraction, and guard opening before completing the pass to Side Control.
+**Rubber Guard Clear to Pass is the top player's systematic escape from an opponent's Rubber Guard that clears leg control first to safely extract the trapped arm, recover posture, and pass to Side Control without feeding triangles or omoplatas.**
+
+For top players, escaping the 10th Planet Rubber Guard is among the most challenging defensive scenarios in modern no-gi grappling, where the bottom player has established Mission Control or a similar Rubber Guard configuration with your arm trapped against their chest. The fundamental challenge lies in the dual-threat control system: your posture is severely compromised while one arm is isolated, limiting defensive options. The pass requires methodical progression through posture recovery, arm extraction, and guard opening before completing the pass to Side Control.
 
 Success depends on understanding that aggressive pulling of the trapped arm triggers triangle entries, while sitting back creates space for omoplata attacks. Instead, the technique uses frame creation with the free hand, controlled pressure redistribution, and systematic leg clearing to neutralize the position's unique control mechanisms. The pass works by addressing the leg control first rather than fighting the arm trap directly, allowing you to recover posture and break open the guard configuration before completing standard passing mechanics.
 

@@ -34,6 +34,18 @@ description: "Master the Open Guard to De La Riva Guard transition in BJJ. DLR h
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Open Guard to De La Riva",
+  "description": "Open Guard to De La Riva is a guard-upgrade transition where the bottom player threads their outside foot around the opponent's lead leg to establish the De La Riva hook, turning a neutral open guard into an attacking platform for sweeps, back takes, and leg entanglements.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Open Guard to De La Riva Guard transition in BJJ. DLR h
 </div>
 
 <section id="overview" class="content-section">
+
+**Open Guard to De La Riva is a guard-upgrade transition where the bottom player threads their outside foot around the opponent's lead leg to establish the De La Riva hook, turning a neutral open guard into an attacking platform for sweeps, back takes, and leg entanglements.**
 
 The Open Guard to De La Riva transition is one of the most fundamental guard upgrades in modern BJJ. From a generic open guard position, the bottom player threads their outside leg around the opponent's lead leg, hooking behind the knee to establish the signature De La Riva hook. This transition transforms a neutral open guard into a powerful attacking platform with systematic sweep chains, back take entries, and leg entanglement pathways that form the backbone of contemporary guard play.
 

@@ -13,7 +13,8 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Intermediate",
-  "overview": "The 10th Planet Half Guard Bottom System represents Eddie Bravo's revolutionary approach to bottom half guard, transforming what was traditionally a defensive position into a powerful offensive platform. At its core, the system centers around the Lockdown control mechanism - a unique leg configuration that traps the opponent's leg and disrupts their base while creating multiple offensive pathways. This systematic framework connects control positions like the Lockdown and Deep Half Guard to powerful sweeps, back takes, and the signature Electric Chair submission. Unlike traditional half guard systems that rely primarily on underhooks and conventional sweeps, the 10th Planet approach emphasizes leg control, creating leverage through the Lockdown to off-balance opponents and generate explosive attacking opportunities. The system is particularly effective in no-gi grappling where traditional gi grips are unavailable, making it a cornerstone of modern submission grappling competition. Through systematic application of the Lockdown's control principles, practitioners learn to dominate from what opponents perceive as a neutral or defensive position, consistently generating submission threats and positional advances.",
+  "summary": "The 10th Planet Half Guard Bottom System is Eddie Bravo's no-gi framework that weaponizes the Lockdown leg trap to off-balance opponents and chain whip-up sweeps, the Old School, back takes, and the Electric Chair submission from bottom half guard.",
+  "overview": "Developed by Eddie Bravo as a cornerstone of 10th Planet Jiu-Jitsu, this framework grew out of the no-gi competition era where conventional gi-grip half guard sweeps were unavailable, forcing innovation around leg control rather than collar and sleeve grips. Historically, bottom half guard was treated as a defensive holding pattern; the 10th Planet approach reframes it as an offensive platform built on the Lockdown control mechanism - a unique figure-four leg configuration that traps the opponent's leg, disrupts their base, and creates multiple offensive pathways. This systematic framework connects control positions like the Lockdown and Deep Half Guard to powerful sweeps, back takes, and the signature Electric Chair submission. Unlike traditional half guard systems that rely primarily on underhooks and conventional sweeps, the 10th Planet approach emphasizes leg control, creating leverage through the Lockdown to off-balance opponents and generate explosive attacking opportunities. Through systematic application of the Lockdown's control principles, practitioners learn to dominate from what opponents perceive as a neutral or defensive position, consistently generating submission threats and positional advances.",
   "key_principles": [
     "Lockdown control as the foundation - establish and maintain the leg trap to disrupt opponent's base and posture",
     "Active bottom position - constantly attacking and creating dilemmas rather than passively defending",
@@ -252,9 +253,9 @@
       "relationship": "Transitional position reached when coming up on underhook from bottom half guard"
     },
     {
-      "name": "Rubber Guard",
+      "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Connected 10th Planet system that shares control principles and can be accessed from half guard transitions"
+      "relationship": "Base position from which the Lockdown and the entire bottom system is established"
     },
     {
       "name": "Lockdown Recovery",
@@ -267,24 +268,14 @@
       "relationship": "Signature sweep of the system using underhook and arm triangle from Lockdown"
     },
     {
-      "name": "Underhook Sweep from Half",
+      "name": "Back Door Escape from Half Guard",
       "content_type": "Transition",
-      "relationship": "Traditional half guard sweep that complements the Lockdown-based attacks"
+      "relationship": "Deep Half Guard escape and reversal pathway integrated when Lockdown is countered"
     },
     {
-      "name": "Deep Half Entry",
+      "name": "Back Take from Lockdown Defense",
       "content_type": "Transition",
-      "relationship": "Escape route and alternative attack platform when Lockdown is countered"
-    },
-    {
-      "name": "Half Guard to Back Take",
-      "content_type": "Transition",
-      "relationship": "Common result of successful Old School sweeps and whip-up attacks"
-    },
-    {
-      "name": "Whizzer",
-      "content_type": "Transition",
-      "relationship": "Opponent's common defensive response that must be countered within the system"
+      "relationship": "Common back-take result of successful Old School sweeps and whip-up attacks"
     },
     {
       "name": "Electric Chair",
@@ -292,14 +283,14 @@
       "relationship": "Primary submission finish from the Lockdown position"
     },
     {
-      "name": "Kimura from Half Guard",
-      "content_type": "Submission",
-      "relationship": "Alternative submission option when opponent extends arm during Lockdown battles"
+      "name": "Kimura Trap",
+      "content_type": "Position",
+      "relationship": "Alternative attacking control when opponent extends their arm during Lockdown battles"
     },
     {
-      "name": "Triangle from Guard",
-      "content_type": "Submission",
-      "relationship": "Possible transition when opponent posts arm during sweep defense"
+      "name": "Butterfly Half Guard",
+      "content_type": "Position",
+      "relationship": "Related hybrid bottom configuration that feeds the underhook and elevation game"
     },
     {
       "name": "Grips",
@@ -307,14 +298,14 @@
       "relationship": "Critical principle for winning the underhook battle and controlling grips from bottom half guard"
     },
     {
-      "name": "Whizzer Control",
+      "name": "Hooks",
       "content_type": "Principle",
-      "relationship": "Understanding opponent's whizzer defense to counter it effectively"
+      "relationship": "Underlying principle of the Lockdown leg trap and the hooking control it establishes"
     },
     {
       "name": "Kuzushi",
       "content_type": "Principle",
-      "relationship": "Fundamental principles underlying all Lockdown-based sweeps"
+      "relationship": "Fundamental off-balancing principle underlying all Lockdown-based sweeps"
     },
     {
       "name": "Frames",
@@ -329,7 +320,7 @@
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "The Lockdown as an ultimate guard retention tool that prevents passing and maintains bottom position control"
+      "relationship": "The Lockdown as a guard retention tool that prevents passing and maintains bottom position control"
     },
     {
       "name": "Position Chains",
@@ -355,6 +346,40 @@
       "name": "Andrew Wiltse Half Guard System",
       "content_type": "System",
       "relationship": "Modern half guard system that offers alternative approaches and comparisons"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What control position forms the foundation of the 10th Planet Half Guard Bottom System?",
+      "answer": "The Lockdown - a figure-four leg trap where the bottom player threads their inside leg under and around the opponent's trapped leg and grabs their own shin, disrupting the opponent's base and enabling hip extension for sweeps."
+    },
+    {
+      "question": "How does the Electric Chair function within the system beyond being a submission?",
+      "answer": "Beyond finishing as a crotch-ripper, the Electric Chair is a constant threat that forces opponents to lean back or posture defensively, which opens the Old School sweep and back-take pathways when they react."
+    },
+    {
+      "question": "When is the Old School sweep the correct attack from the Lockdown?",
+      "answer": "When the opponent defends the Electric Chair by driving low and forward with a flat posture - that forward pressure creates the ideal angle to secure the underhook and arm triangle and roll them over the shoulder."
+    },
+    {
+      "question": "What are whip-up mechanics and why do they matter?",
+      "answer": "The whip-up is an explosive hip extension from the Lockdown timed to the opponent's forward pressure, generating the off-balancing momentum needed to complete sweeps and scrambles without relying on raw strength."
+    },
+    {
+      "question": "What is the most common mistake practitioners make with the Lockdown?",
+      "answer": "Holding the Lockdown statically as a resting place rather than a launching platform, which lets the opponent settle, flatten you, and develop counters; you should attack or transition within 10-15 seconds."
+    },
+    {
+      "question": "How should you respond when the opponent stands up or moves to combat base against the Lockdown?",
+      "answer": "Switch to Deep Half Guard entries or elevate on the underhook to a dogfight position; the Lockdown still controls the trapped leg, allowing single-leg attacks or technical standups as they change levels."
+    },
+    {
+      "question": "Why is winning the underhook battle critical in this system?",
+      "answer": "The underhook controls the opponent's upper body while the Lockdown controls the lower body; without it the opponent establishes a dominant crossface, flattens you, and shuts down both sweeps and the Electric Chair."
+    },
+    {
+      "question": "What role does Deep Half Guard play in the system?",
+      "answer": "Deep Half is both a defensive safety valve when the Lockdown is threatened and an alternative attacking platform with its own sweep series, letting you maintain offense by flowing between the two configurations."
     }
   ]
 }

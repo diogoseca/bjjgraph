@@ -33,10 +33,32 @@ description: "Master the High Elbow Guillotine from Hindulotine. Learn elevated 
 }
 </script>
 
-> **SAFETY**: High Elbow Guillotine from Hindulotine targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "High Elbow Guillotine from Hindulotine",
+  "description": "The High Elbow Guillotine from Hindulotine is a no-gi blood choke that elevates the choking elbow above the opponent's shoulder while the Hindulotine's rotational hip angle wedges the forearm under the chin, compressing both carotid arteries for a rapid tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The High Elbow Guillotine from Hindulotine is a no-gi blood choke that elevates the choking elbow above the opponent's shoulder while the Hindulotine's rotational hip angle wedges the forearm under the chin, compressing both carotid arteries for a rapid tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> High Elbow Guillotine from Hindulotine targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,55 +75,7 @@ From Hindulotine bottom, the practitioner has already established the rotational
 
 Strategically, this submission thrives when the opponent attempts to defend the standard Hindulotine finish by tucking their chin or creating distance. The high elbow adjustment bypasses chin tuck defenses by attacking from above rather than laterally, and the Hindulotine base prevents the space creation that would normally allow escape from a high elbow guillotine in open guard.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Hindulotine]]
-**From Position**: [[Positions/Hindulotine]] (Bottom)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate if released promptly; potential for serious complications if held past unconsciousness |
-| Tracheal damage from excessive pressure or improper angle | CRITICAL | 2-6 weeks for minor trauma; months for severe damage requiring medical intervention |
-| Cervical spine stress from rotational torque combined with elevated elbow pressure | High | 1-3 weeks for minor strain; 3-6 months for significant injury |
-| Jaw and temporomandibular joint stress from high elbow angle forcing chin upward | Medium | 1-2 weeks for minor inflammation |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time with constant awareness of partner's response. The compound pressure from elevated elbow plus Hindulotine rotation can produce unconsciousness rapidly once locked.
-
-**Tap Signals**:
-- Verbal tap or any verbal sound of distress
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat or opponent
-- Any loss of resistance or body going limp
-- Unusual gurgling or breathing sounds
-
-
-**Release Protocol**:
-1. Immediately release choking arm grip upon any tap signal
-2. Lower choking elbow and remove shoulder pressure simultaneously
-3. Release head control and create space by opening guard and moving hips away
-4. Monitor partner's breathing and consciousness for 10-15 seconds
-5. Never reapply pressure once released, even if partner signals they are okay
-
-
-**Training Restrictions**:
-- Never apply at competition speed during drilling or positional training
-- Never spike or jerk the elbow elevation—always apply smooth progressive pressure
-- Never continue pressure if partner's face changes color or shows signs of oxygen deprivation
-- Always maintain verbal communication during slow drilling phases
-- Never practice on partners with neck or throat injuries without explicit instructor approval
-- Always allow clear tap access—never trap both arms while finishing
-
+**Starting Position**: [[Positions/Hindulotine]] · **From**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -250,10 +224,9 @@ Strategically, this submission thrives when the opponent attempts to defend the 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/High Elbow Guillotine]]
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
@@ -262,31 +235,54 @@ Strategically, this submission thrives when the opponent attempts to defend the 
 - [[Submissions/Chin Strap Guillotine]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Von Flue Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Hindulotine]] - Starting position providing rotational hip mechanics for this finish
 - [[Positions/Guillotine Control]] - Parent control position with standard guillotine mechanics
-- [[Submissions/High Elbow Guillotine]] - Parent submission—this is the Hindulotine-specific variant
 - [[Positions/Closed Guard]] - Common guard recovery position after failed defense
 - [[Positions/Back Control]] - Transition target when opponent turns to escape neck pressure
 - [[Positions/Darce Control]] - Alternative control when opponent frames and creates near-side space
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of High Elbow Guillotine from Hindulotine leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate if released promptly; potential for serious complications if held past unconsciousness |
+| Tracheal damage from excessive pressure or improper angle | CRITICAL | 2-6 weeks for minor trauma; months for severe damage requiring medical intervention |
+| Cervical spine stress from rotational torque combined with elevated elbow pressure | High | 1-3 weeks for minor strain; 3-6 months for significant injury |
+| Jaw and temporomandibular joint stress from high elbow angle forcing chin upward | Medium | 1-2 weeks for minor inflammation |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time with constant awareness of partner's response. The compound pressure from elevated elbow plus Hindulotine rotation can produce unconsciousness rapidly once locked.
+
+**Tap Signals**:
+- Verbal tap or any verbal sound of distress
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat or opponent
+- Any loss of resistance or body going limp
+- Unusual gurgling or breathing sounds
+
+
+**Release Protocol**:
+1. Immediately release choking arm grip upon any tap signal
+2. Lower choking elbow and remove shoulder pressure simultaneously
+3. Release head control and create space by opening guard and moving hips away
+4. Monitor partner's breathing and consciousness for 10-15 seconds
+5. Never reapply pressure once released, even if partner signals they are okay
+
+
+**Training Restrictions**:
+- Never apply at competition speed during drilling or positional training
+- Never spike or jerk the elbow elevation—always apply smooth progressive pressure
+- Never continue pressure if partner's face changes color or shows signs of oxygen deprivation
+- Always maintain verbal communication during slow drilling phases
+- Never practice on partners with neck or throat injuries without explicit instructor approval
+- Always allow clear tap access—never trap both arms while finishing
+
 
 </section>
 

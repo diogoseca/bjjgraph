@@ -34,6 +34,18 @@ description: "Master the Matrix Back Take from turtle. Step-by-step execution wi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Matrix Back Take",
+  "description": "The Matrix Back Take is an advanced no-gi turtle attack where the attacker threads an arm and leg through the opponent's elbow-knee gap and slides the hips underneath to surface on the far side with back-control hooks already set.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Matrix Back Take from turtle. Step-by-step execution wi
 </div>
 
 <section id="overview" class="content-section">
+
+**The Matrix Back Take is an advanced no-gi turtle attack where the attacker threads an arm and leg through the opponent's elbow-knee gap and slides the hips underneath to surface on the far side with back-control hooks already set.**
 
 The Matrix Back Take is an advanced transition from turtle top position that uses a dynamic hip slide to bypass the opponent's defensive frames and establish back control. Rather than fighting through the tight elbow-to-knee structure of a well-defended turtle, the attacker threads an arm and leg through available space, then slides the hips underneath the opponent's center of gravity to emerge on the far side with hooks already in position. The technique derives its name from the characteristic backward lean during the hip slide phase, and it is particularly effective when the opponent is tightly defending their turtle with good base and posture that makes traditional seat belt back takes difficult.
 

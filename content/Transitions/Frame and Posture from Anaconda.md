@@ -34,6 +34,18 @@ description: "Master the Frame and Posture escape from Anaconda Control in BJJ. 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame and Posture from Anaconda",
+  "description": "Frame and Posture from Anaconda is a defensive escape from anaconda control bottom that wedges a forearm frame against the opponent's body to break the chest-on-shoulder compression powering the choke, then recovers posture to extract the head into front headlock.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Frame and Posture escape from Anaconda Control in BJJ. 
 
 <section id="overview" class="content-section">
 
-Frame and Posture from Anaconda is a structural defensive escape from anaconda control bottom that uses forearm frames against the opponent's body combined with posture recovery to relieve the constricting pressure of the anaconda configuration. Unlike the grip break approach that targets the opponent's hand junction directly, this technique addresses the compression mechanism itself by creating space between your body and the opponent's chest through bone-on-bone framing structures. The frame disrupts the chest-on-shoulder compression that powers the anaconda choke, loosening the constricting loop without requiring you to separate the opponent's hands.
+**Frame and Posture from Anaconda is a defensive escape from anaconda control bottom that wedges a forearm frame against the opponent's body to break the chest-on-shoulder compression powering the choke, then recovers posture to extract the head into front headlock.**
+
+Within a complete anaconda defense, this escape serves as the structural counterpart to the grip break, addressing the compression mechanism itself rather than the opponent's clasped hands. It creates space between your body and the opponent's chest through bone-on-bone framing structures, attacking the source of the choking force directly. The frame disrupts the chest-on-shoulder compression that powers the anaconda choke, loosening the constricting loop without requiring you to separate the opponent's hands.
 
 The technique works by establishing a forearm frame against the opponent's far shoulder or hip, creating a structural wall that prevents them from driving their chest into your trapped shoulder. As the frame generates separation, you begin recovering your posture by lifting your head and torso upward and away from the compression angle. This posture recovery progressively reduces the effectiveness of the anaconda choke by changing the angle of compression and expanding the space within the constricting loop for eventual head extraction.
 

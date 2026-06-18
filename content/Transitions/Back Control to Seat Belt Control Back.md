@@ -34,6 +34,18 @@ description: "Learn to transition from back control to seat belt configuration i
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Control to Seat Belt Control Back",
+  "description": "Back Control to Seat Belt is the grip upgrade from general back control to the over-under harness—one arm over the shoulder, the other under the far armpit, hands joined—that locks the opponent's torso against rotation and unlocks the systematic back-attack system.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn to transition from back control to seat belt configuration i
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Control to Seat Belt is the grip upgrade from general back control to the over-under harness—one arm over the shoulder, the other under the far armpit, hands joined—that locks the opponent's torso against rotation and unlocks the systematic back-attack system.**
 
 The transition from Back Control to Seat Belt Control Back represents the critical grip upgrade that transforms general back control into the gold-standard attacking configuration in Brazilian Jiu-Jitsu. While having the back is inherently dominant, the specific arrangement of the seat belt grip—one arm over the opponent's shoulder and the other threading under the opposite armpit with hands connected—creates diagonal pressure vectors that are biomechanically superior to any other upper body control method from the back. This transition converts raw positional dominance into systematic submission architecture, enabling the entire back attack chain from rear naked choke to armbar to bow and arrow.
 

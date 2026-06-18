@@ -33,10 +33,32 @@ description: "Master the High Elbow Guillotine from Guillotine Control. Complete
 }
 </script>
 
-> **SAFETY**: High Elbow Guillotine from Guillotine Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "High Elbow Guillotine from Guillotine Control",
+  "description": "The High Elbow Guillotine from Guillotine Control is a blood-choke finish that drives the choking elbow skyward to clamp both carotid arteries beneath the jawline, bypassing the chin-tuck defense that neutralizes the standard guillotine.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The High Elbow Guillotine from Guillotine Control is a blood-choke finish that drives the choking elbow skyward to clamp both carotid arteries beneath the jawline, bypassing the chin-tuck defense that neutralizes the standard guillotine.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> High Elbow Guillotine from Guillotine Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,61 +69,13 @@ description: "Master the High Elbow Guillotine from Guillotine Control. Complete
 
 <section id="overview" class="content-section">
 
-The High Elbow Guillotine from Guillotine Control is a blood choke variation that redirects the choking forearm upward by driving the elbow toward the ceiling, creating a tighter compression angle across the carotid arteries than the standard guillotine. Starting from an established Guillotine Control position provides a significant mechanical advantage because the head is already trapped and posture is already broken, allowing the attacker to focus entirely on converting the grip configuration and finishing. The position eliminates the most difficult phase of any guillotine attack—securing the initial head control—and reduces the technique to a grip transition and squeeze.
+Few finishing situations in no-gi offer a more favorable risk-to-reward profile than this one: the choke threatens an immediate tap, while most failed attempts simply return the attacker to the same dominant Guillotine Control they started from. Starting from an established Guillotine Control position provides a significant mechanical advantage because the head is already trapped and posture is already broken, allowing the attacker to focus entirely on converting the grip configuration and finishing. The position eliminates the most difficult phase of any guillotine attack—securing the initial head control—and reduces the technique to a grip transition and squeeze.
 
 The critical distinction from other guillotine entries is that the grip change happens from a position of existing control rather than during a scramble or shot defense. The attacker rotates the choking wrist so the blade of the forearm presses directly into the near-side carotid artery while the elbow climbs vertically, closing the far-side artery against the attacker's chest and shoulder. This dual compression produces a pure blood choke that can cause unconsciousness within seconds of full application, often before the defender recognizes the severity of the threat.
 
 Strategically, the high elbow variation is the primary answer to the chin tuck defense that neutralizes standard guillotines. When the defender drops their chin to protect the trachea, the high elbow angle attacks behind and beneath the jaw, making chin position largely irrelevant. This forces defenders into secondary defense layers—posture recovery and hand fighting—which opens opportunities for the attacker to chain into sweeps or positional advancement when the choke itself is defended.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Guillotine Control]]
-**From Position**: [[Positions/Guillotine Control]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate if released promptly; potential for serious complications if held past unconsciousness |
-| Tracheal damage from excessive pressure or improper angle | CRITICAL | 2-6 weeks for minor trauma; months for severe damage requiring medical intervention |
-| Cervical spine stress from defensive bridging or improper application | High | 1-3 weeks for minor strain; 3-6 months for significant injury |
-| Jaw and temporomandibular joint stress | Medium | 1-2 weeks for minor inflammation |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time with constant awareness of partner's response
-
-**Tap Signals**:
-- Verbal tap or any verbal sound of distress
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat or opponent
-- Any loss of resistance or body going limp
-- Unusual gurgling or breathing sounds
-
-
-**Release Protocol**:
-1. Immediately release choking arm grip upon any tap signal
-2. Lower choking elbow and remove shoulder pressure simultaneously
-3. Release head control and create space by stepping back or opening guard
-4. Monitor partner's breathing and consciousness for 10-15 seconds
-5. Never reapply pressure once released, even if partner signals they are okay
-
-
-**Training Restrictions**:
-- Never apply at competition speed during drilling or positional training
-- Never spike or jerk the submission—always apply smooth progressive pressure
-- Never continue pressure if partner's face changes color or shows signs of oxygen deprivation
-- Always maintain verbal communication during slow drilling phases
-- Never practice on partners with neck or throat injuries without explicit instructor approval
-- Always allow clear tap access—never trap both arms while finishing
-
+**Starting Position**: [[Positions/Guillotine Control]] · **From**: [[Positions/Guillotine Control]] (Top)
 
 </section>
 
@@ -264,10 +238,9 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/High Elbow Guillotine]]
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
@@ -276,31 +249,52 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Von Flue Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Guillotine Control]] - Starting position providing established head control and broken posture
-- [[Submissions/High Elbow Guillotine]] - Parent submission family—generic version applied from multiple positions
 - [[Positions/Front Headlock]] - Precursor control position before securing guillotine grip
 - [[Positions/Closed Guard]] - Common guard position used to maintain control while finishing
-- [[Transitions/Darce Choke]] - Chain submission when opponent turns into the choke to defend
-- [[Transitions/Anaconda Choke]] - Chain submission when opponent rotates away from choking pressure
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of High Elbow Guillotine from Guillotine Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate if released promptly; potential for serious complications if held past unconsciousness |
+| Tracheal damage from excessive pressure or improper angle | CRITICAL | 2-6 weeks for minor trauma; months for severe damage requiring medical intervention |
+| Cervical spine stress from defensive bridging or improper application | High | 1-3 weeks for minor strain; 3-6 months for significant injury |
+| Jaw and temporomandibular joint stress | Medium | 1-2 weeks for minor inflammation |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time with constant awareness of partner's response
+
+**Tap Signals**:
+- Verbal tap or any verbal sound of distress
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat or opponent
+- Any loss of resistance or body going limp
+- Unusual gurgling or breathing sounds
+
+
+**Release Protocol**:
+1. Immediately release choking arm grip upon any tap signal
+2. Lower choking elbow and remove shoulder pressure simultaneously
+3. Release head control and create space by stepping back or opening guard
+4. Monitor partner's breathing and consciousness for 10-15 seconds
+5. Never reapply pressure once released, even if partner signals they are okay
+
+
+**Training Restrictions**:
+- Never apply at competition speed during drilling or positional training
+- Never spike or jerk the submission—always apply smooth progressive pressure
+- Never continue pressure if partner's face changes color or shows signs of oxygen deprivation
+- Always maintain verbal communication during slow drilling phases
+- Never practice on partners with neck or throat injuries without explicit instructor approval
+- Always allow clear tap access—never trap both arms while finishing
+
 
 </section>
 

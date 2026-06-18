@@ -21,7 +21,7 @@ description: "Dominant back-attack position combining leg entanglement with perp
     {
       "@type": "HowToStep",
       "name": "Execute Twister Entry",
-      "text": "From this position, attempt Twister Entry. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Twister Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,19 +33,19 @@ description: "Dominant back-attack position combining leg entanglement with perp
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Truck",
-      "text": "From this position, attempt Bow and Arrow Choke from Truck. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Truck. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {

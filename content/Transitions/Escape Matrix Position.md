@@ -34,6 +34,18 @@ description: "Master escaping the Matrix position in BJJ. Technical guide to rec
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Matrix Position",
+  "description": "The Escape Matrix Position is the defensive bail-out from a stalled or defended Matrix back-take rotation, redirecting the failed inversion into turtle or guard recovery before the opponent capitalizes on the exposed back.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master escaping the Matrix position in BJJ. Technical guide to rec
 
 <section id="overview" class="content-section">
 
-The Escape Matrix Position represents the critical bail-out transition available when a Matrix back take rotation is successfully defended or stalls mid-execution. When the dynamic rolling motion of the Matrix is blocked by the opponent's base adjustments, sprawling, or counter-pressure, the attacking practitioner finds themselves in one of BJJ's most vulnerable transitional states—partially inverted with their back potentially exposed and rotational momentum dissipated.
+**The Escape Matrix Position is the defensive bail-out from a stalled or defended Matrix back-take rotation, redirecting the failed inversion into turtle or guard recovery before the opponent capitalizes on the exposed back.**
+
+When a Matrix back take rotation is successfully defended or stalls mid-execution, the attacking practitioner finds themselves in one of BJJ's most vulnerable transitional states—partially inverted with their back potentially exposed and rotational momentum dissipated. The dynamic rolling motion of the Matrix, once blocked by the opponent's base adjustments, sprawling, or counter-pressure, demands an immediate, pre-planned response rather than continued attempts to force the failed roll.
 
 This escape requires rapid recognition that the attack has failed and immediate commitment to position recovery rather than continued attempts to complete the rotation. The primary recovery path leads to turtle position, where the practitioner can re-establish a defensive base before working toward guard recovery or standup. A secondary path redirects remaining momentum into a guard pull recovery, threading directly into closed guard rather than stopping at turtle. The critical window for this transition is extremely narrow—delaying the bail-out by even half a second can allow the defender to capitalize with back control or dominant positioning.
 

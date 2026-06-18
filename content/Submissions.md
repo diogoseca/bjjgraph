@@ -3315,7 +3315,7 @@ Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm isolation finis
 
 ### [[Neck Crank]]
 
-Master the Neck Crank submission in BJJ. A cervical spine compression applied from Twister Control that forces the tap through spinal pressure.
+Master the Neck Crank submission in BJJ — a cervical-spine compression applied from Twister Control that forces the tap through progressive spinal pressure.
 
 ### [[Neck Crank from Mounted Crucifix]]
 
@@ -3575,7 +3575,7 @@ Master the Spine Lock submission in BJJ. Learn advanced spinal compression techn
 
 ### [[Spine Lock from Truck]]
 
-Master the Spine Lock submission in BJJ. Advanced spinal compression from truck and twister control positions targeting the lumbar vertebrae.
+Master the Spine Lock submission in BJJ. Advanced spinal compression applied from the truck and twister control positions, targeting the lumbar vertebrae.
 
 ### [[Spinning Armbar]]
 
@@ -3751,7 +3751,7 @@ Master the Twister spinal lock from Twister Side Control with step-by-step finis
 
 ### [[Von Flue Choke]]
 
-Master the Von Flue Choke counter in BJJ. Complete safety guide with setup and execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
+Counter a committed guillotine with the Von Flue Choke from side control. Learn shoulder-pressure mechanics, finishing steps, and defense. Success: 35/50/65%.
 
 ### [[Von Flue Choke from Side Control]]
 

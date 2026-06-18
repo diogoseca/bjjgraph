@@ -3,6 +3,7 @@
   "slug": "triangle-escape-position",
   "description": "Master triangle escape techniques in BJJ. Complete defensive guide covering posture recovery, systematic escape sequences, and counter-passing strategies with success rates from 25-70% across skill levels.",
   "variant_uniqueness": "Defensive urgency balances survival priority",
+  "summary": "Triangle Escape Position is the defensive scenario where a grappler caught in an opponent's triangle choke works through posture recovery, stacking pressure, and arm extraction to survive and convert the escape into a guard pass.",
   "overview": "Triangle Escape Position represents one of the most critical defensive scenarios in Brazilian Jiu-Jitsu, where a practitioner finds themselves caught in an opponent's triangle choke configuration and must execute immediate, systematic defensive techniques to prevent submission while creating opportunities for positional recovery. This position demands mastery of defensive hierarchy: first maintaining consciousness through breathing space preservation, then establishing posture to reduce choking pressure, then systematically dismantling the triangle structure through proper mechanical understanding. Unlike many defensive positions where time can work in the defender's favor, the triangle escape scenario becomes progressively more dangerous as the attacking practitioner refines their angle and tightness, making decisive technical action essential within a narrow window of opportunity.\n\nThe position exists in two distinct perspectives: from bottom (typically standing or kneeling while defending the choke, with options to stack and pass) and from top (caught while attempting guard passing or control, requiring posture recovery and extraction). Both perspectives share common defensive principles but require different mechanical solutions based on positional geometry and available leverage points. Success requires deep understanding of the triangle's structural mechanics - how the legs create a closed loop that combines blood restriction with structural control, how angle optimization dramatically increases finishing probability, and how the trapped arm serves as both a fulcrum for the choke and a potential target for armbar transitions.\n\nThe escape methodology follows a strict hierarchy that cannot be shortcut without dramatically reducing success probability: emergency space creation to maintain blood flow and consciousness, postural recovery to establish defensive structure and reduce immediate danger, hip control to prevent angle optimization that perfects the submission, systematic weakening of the triangle lock through proper pressure application, arm extraction only after sufficient space is created, and finally transition to improved position or guard passing to convert defense into offense. Each phase must be executed with technical precision, as attempting to skip phases or rush the escape typically results in either submission or exposure to secondary attacks including armbars and omoplatas.\n\nTriangle escape training serves broader pedagogical purposes beyond the specific technique, teaching practitioners critical lessons about remaining calm under extreme submission pressure, executing systematic defensive sequences when panic would be the natural response, understanding biomechanical principles that apply across multiple submission escapes, and developing the mental toughness required for high-level competition where defensive competence often determines match outcomes. The position also teaches the importance of prevention over cure, as escaping triangles from fully locked positions against skilled opponents remains among the lowest percentage defensive scenarios in BJJ.",
   "key_principles": [
     "Prioritize breathing space and blood flow preservation above all other defensive objectives - unconsciousness ends all escape possibilities",
@@ -212,7 +213,7 @@
         "relationship": "Common transition opponent attempts from triangle if escape is defended"
       },
       {
-        "name": "Defensive Posture",
+        "name": "Posture",
         "relationship": "Fundamental concept for maintaining structure under submission pressure"
       },
       {
@@ -493,7 +494,7 @@
         "relationship": "Fundamental defensive skill required for all triangle escapes"
       },
       {
-        "name": "Escape Hierarchy",
+        "name": "Escape Fundamentals",
         "relationship": "Conceptual framework for prioritizing escape objectives"
       },
       {

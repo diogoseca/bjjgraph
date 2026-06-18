@@ -34,6 +34,18 @@ description: "Master standing back control in BJJ. Strategic guide covering when
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Back Control",
+  "description": "Standing Back Control is a transitional back-attack position where one grappler stays chest-to-back behind a standing opponent using harness or body-lock control, threatening rear chokes while setting up a mat return to grounded back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master standing back control in BJJ. Strategic guide covering when
 </div>
 
 <section id="overview" class="content-section">
+
+**Standing Back Control is a transitional back-attack position where one grappler stays chest-to-back behind a standing opponent using harness or body-lock control, threatening rear chokes while setting up a mat return to grounded back control.**
 
 Standing Back Control represents a critical transitional position in Brazilian Jiu-Jitsu where one practitioner has achieved back exposure on an opponent while both remain on their feet. This position bridges the gap between standing grappling and ground fighting, combining elements of wrestling-style back takes with traditional BJJ back control mechanics. The standing variant is characterized by chest-to-back connection, some form of upper body control (harness, seat belt, or body lock), and often hook or leg control attempting to break the opponent's base.
 
@@ -202,7 +216,7 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Standing Back Control/Attacker|Rear Naked Choke from Standing Back Control]]** (28% of attempts)
+- **[[Rear Naked Choke from Standing Back Control/Attacker|Rear Naked Choke from Standing Back Control]]** (30% of attempts)
 
 - **[[Transitions/Takedown to Grounded Back Control/Attacker|Takedown to Grounded Back Control]]** (18% of attempts)
 
@@ -223,8 +237,6 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 - **[[Transitions/Back Control to Seat Belt Control Back/Attacker|Back Control to Seat Belt Control Back]]** (2% of attempts)
 
 - **[[Transitions/Bow and Arrow Setup from Standing Back/Attacker|Bow and Arrow Setup from Standing Back]]** (2% of attempts)
-
-- **[[Rear Naked Choke from Standing Back Control/Attacker|Rear Naked Choke from Standing Back Control]]** (2% of attempts)
 
 
 ### Common Mistakes

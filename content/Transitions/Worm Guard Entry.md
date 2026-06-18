@@ -34,6 +34,18 @@ description: "Learn Worm Guard Entry in BJJ. Step-by-step lapel threading from L
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Worm Guard Entry",
+  "description": "Worm Guard Entry is the gi-only transition where the bottom player threads the opponent's extracted lapel under their lead thigh and wraps it to their own shin, locking that leg to set up Worm Guard sweeps and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Worm Guard Entry in BJJ. Step-by-step lapel threading from L
 </div>
 
 <section id="overview" class="content-section">
+
+**Worm Guard Entry is the gi-only transition where the bottom player threads the opponent's extracted lapel under their lead thigh and wraps it to their own shin, locking that leg to set up Worm Guard sweeps and back takes.**
 
 Worm Guard Entry is the foundational transition within the lapel guard system that transforms a basic lapel grip into one of modern gi grappling's most powerful control configurations. From Lapel Guard bottom, the practitioner feeds the opponent's extracted lapel under and around their lead leg, threading it through to the far side and connecting it to their own shin or foot. This creates the characteristic Worm Guard weave that pins the opponent's leg to the bottom player's lower body, generating massive mechanical advantage for sweeps and back takes.
 

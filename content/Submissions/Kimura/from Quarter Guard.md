@@ -33,10 +33,32 @@ description: "Master the Kimura shoulder lock from Quarter Guard top. Expert gui
 }
 </script>
 
-> **SAFETY**: Kimura from Quarter Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Quarter Guard",
+  "description": "The Kimura from Quarter Guard is a figure-four shoulder lock applied from the dominant top passing position, attacking the bottom player's near arm with forced internal rotation as their underhook or framing attempts expose the wrist.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Quarter Guard is a figure-four shoulder lock applied from the dominant top passing position, attacking the bottom player's near arm with forced internal rotation as their underhook or framing attempts expose the wrist.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Quarter Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,54 +75,7 @@ This submission capitalizes on the bottom player's defensive urgency. As they fi
 
 The Kimura from Quarter Guard is particularly effective because it punishes the bottom player's primary defensive tool—the underhook. When the defender commits their arm to the underhook seeking sweeps or back takes, they expose the exact wrist and forearm angles needed for the figure-four grip. This creates a tactical dilemma where the bottom player must choose between defending the pass without their strongest tool or risking the submission by fighting for the underhook.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Quarter Guard]]
-**From Position**: [[Positions/Quarter Guard]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
-| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
-| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
-| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+**Starting Position**: [[Positions/Quarter Guard]] · **From**: [[Positions/Quarter Guard]] (Top)
 
 </section>
 
@@ -262,39 +237,60 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Darce Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Reverse Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Quarter Guard]] - Primary starting position for this submission variant
 - [[Positions/Half Guard]] - Related guard position where kimura opportunities also arise during passing
 - [[Positions/Kimura Trap]] - Control position accessible when opponent defends the initial kimura finish
 - [[Positions/Side Control]] - Adjacent position where kimura grip can be maintained if pass completes during attack
-- [[Submissions/Americana]] - Related shoulder lock that can be transitioned to if opponent defends kimura rotation direction
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kimura from Quarter Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
+| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
+| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
+| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making any verbal distress sound)
+- Physical hand tap (multiple taps with free hand)
+- Physical foot tap (multiple taps with either foot)
+- Any distress signal including screaming or unusual sounds
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant tap is felt or heard
+2. Return the arm toward neutral position (externally rotate back to starting position)
+3. Release the figure-four grip completely
+4. Allow partner to self-assess shoulder mobility before continuing
+5. Never release suddenly or allow arm to spring back forcefully
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled
+- Never use competition speed or surprise attacks in training
+- Always ensure partner has at least one hand free to tap
+- Do not apply while partner is in awkward body position that prevents tapping
+- Never combine with weight pressure that restricts breathing while finishing
+- Respect immediate taps without testing partner's pain tolerance
+
 
 </section>
 

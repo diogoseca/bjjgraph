@@ -34,6 +34,18 @@ description: "Learn the Stack Pass with Lapel Control Negation in BJJ. Nullify R
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Pass with Lapel Control Negation",
+  "description": "The Stack Pass with Lapel Control Negation is a Ringworm Guard counter that uses forward stacking pressure to fold the bottom player, slackening their lapel wrap so you can strip the grip, extract your trapped leg, and pass to Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn the Stack Pass with Lapel Control Negation in BJJ. Nullify R
 </div>
 
 <section id="overview" class="content-section">
+
+**The Stack Pass with Lapel Control Negation is a Ringworm Guard counter that uses forward stacking pressure to fold the bottom player, slackening their lapel wrap so you can strip the grip, extract your trapped leg, and pass to Side Control.**
 
 The Stack Pass with Lapel Control Negation is a specialized pressure passing technique designed to defeat Ringworm Guard by combining stacking mechanics with systematic lapel grip neutralization. When trapped in Ringworm Guard, the opponent's lapel wrap around your leg creates severe mobility restrictions that render most conventional passes ineffective. This technique addresses the problem directly by using forward pressure to fold the bottom player, simultaneously reducing the tension on the lapel wrap and compressing their defensive structure into a position where the wrap loses its mechanical advantage.
 

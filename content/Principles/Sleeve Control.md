@@ -143,6 +143,16 @@ description: "Master sleeve control in BJJ. Learn grip mechanics, posture breaki
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sleeve Control",
+  "description": "Sleeve Control is the practice of gripping and manipulating an opponent's sleeve—ideally deep at the wrist—to govern their arm, break posture, deny posting and framing, and open sweep and submission opportunities.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master sleeve control in BJJ. Learn grip mechanics, posture breaki
 
 ## What is Sleeve Control?
 
-Sleeve Control is a fundamental gripping concept in Brazilian Jiu-Jitsu that involves securing and manipulating an opponent's sleeve to control their arm position, break posture, prevent base establishment, and create offensive opportunities. This concept forms the foundation of most guard systems, particularly in gi training, where fabric grips provide mechanical advantages for controlling distance, angles, and transitions.
+**Sleeve Control is the practice of gripping and manipulating an opponent's sleeve—ideally deep at the wrist—to govern their arm, break posture, deny posting and framing, and open sweep and submission opportunities.**
+
+Sleeve control is one of the foundational grip-fighting concepts of gi Brazilian Jiu-Jitsu, where the cuff of the jacket gives the guard player a durable mechanical handle that no-gi grips can only approximate. It underpins the collar-and-sleeve game that dominates IBJJF competition and serves as the gateway into nearly every open-guard system, from spider to De La Riva.
 
 The strategic value of sleeve control extends beyond simple grip fighting - it represents a systematic approach to manipulating an opponent's ability to post, base, and defend. By controlling the sleeve, you control the endpoint of their kinetic chain, effectively neutralizing their ability to generate power, establish frames, or execute techniques. Proper sleeve control creates a constant dilemma: if the opponent focuses on breaking your grip, they cannot advance their position; if they ignore the grip to advance, they move into vulnerable positions where sweeps and submissions become available.
 
@@ -380,10 +392,10 @@ Studying high-level competition footage specifically focusing on sleeve grip pat
 - [[Collar Sleeve Guard]] (Position) - Dedicated guard system optimizing the synergy between collar and sleeve grip combinations
 - [[Closed Guard]] (Position) - Foundational position where cross-sleeve and collar control creates primary closed guard control system
 - [[De La Riva Guard]] (Position) - Open guard position using far-side sleeve control combined with DLR hook to prevent guard passing
-- [[Grip Break]] (Transition) - Defensive technique for breaking opponent's sleeve control on your arms to regain freedom of movement
-- [[Pass to Side Control]] (Transition) - Opponent's primary goal when you have sleeve control - your grips prevent passing by controlling their arms
-- [[Defensive Concepts]] (Principle) - Defensive framework where sleeve control plays critical role in preventing opponent from establishing passing grips and maintaining guard integrity
 - [[Grips]] (Principle) - Hand fighting framework that determines success in establishing and maintaining sleeve grips against resistance
+- [[Defensive Concepts]] (Principle) - Defensive framework where sleeve control plays critical role in preventing opponent from establishing passing grips and maintaining guard integrity
+- [[Distance Control]] (Principle) - Sleeve control is the primary mechanism for regulating distance in guard - pulling to close range for attacks or extending to create defensive space
+- [[Butterfly Guard]] (Position) - Position where two-on-one sleeve control combines with butterfly hooks to create a high-percentage elevation sweep platform
 
 
 </section>

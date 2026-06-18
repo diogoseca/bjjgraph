@@ -143,6 +143,16 @@ description: "Master Dominant Angles in BJJ. Learn strategic principles of gener
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Dominant Angles",
+  "description": "Dominant Angles are off-axis body positions created perpendicular or diagonal to an opponent's alignment and force vectors, multiplying mechanical leverage while compromising their structure and nullifying their strongest defenses.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master Dominant Angles in BJJ. Learn strategic principles of gener
 
 ## What are Dominant Angles?
 
-Dominant Angles represents the strategic principle of generating off-axis positions relative to opponent's alignment to create mechanical advantages, compromise their structure, and create offensive opportunities. Unlike linear movements, angle creation is a comprehensive conceptual framework that applies across all positions and determines success in both offensive and defensive scenarios. This concept encompasses the biomechanical understanding that moving perpendicular or diagonal to opponent's force vectors multiplies effectiveness while minimizing energy expenditure, making angle creation fundamental to efficient BJJ. Angle creation serves as both an offensive mechanism that opens attack pathways and compromises opponent's defenses, and a defensive tool that nullifies opponent's pressure and creates escape opportunities. The ability to consistently create and exploit angles often determines technical success against similar-skilled opponents, making it one of the most essential conceptual elements in advanced BJJ development.
+**Dominant Angles are off-axis body positions created perpendicular or diagonal to an opponent's alignment and force vectors, multiplying mechanical leverage while compromising their structure and nullifying their strongest defenses.**
+
+Across every grappling exchange, the practitioner who controls the angle controls the dilemma. Angle creation is a comprehensive conceptual framework rather than a single movement, applying across all positions and determining success in both offensive and defensive scenarios. The biomechanical core is that moving perpendicular or diagonal to an opponent's force vectors multiplies effectiveness while minimizing energy expenditure, making angle creation fundamental to efficient BJJ. It serves as both an offensive mechanism that opens attack pathways and compromises an opponent's defenses, and a defensive tool that nullifies pressure and creates escape opportunities. The ability to consistently create and exploit angles often determines technical success against similar-skilled opponents, making it one of the most essential conceptual elements in advanced BJJ development.
 
 </section>
 
@@ -345,11 +357,10 @@ Full-intensity sparring with coaching feedback specifically highlighting success
 - **[[Fork Attacks]]** (Extension): Advanced angle creation intentionally presents opponent with multiple threats from angular positions, forcing defensive choices that open additional angular opportunities and cascading advantages.
 - **[[Grips]]** (Complementary): Grips and angle creation function as interdependent elements—winning grip exchanges enables angle creation by anchoring opponent while preventing their realignment during angular movements.
 - **[[Levers]]** (Prerequisite): Understanding leverage mechanics explains why angles multiply force effectiveness—angles position practitioner's force perpendicular to opponent's defensive structure where it has maximum mechanical advantage.
-- **[[Timing and Rhythm]]** (Complementary): Proper timing determines angle creation effectiveness—same angular movement succeeds or fails based on whether it coincides with opponent's weight commitment or transition moments.
+- **[[Kuzushi]]** (Complementary): Proper off-balancing determines angle creation effectiveness—the same angular movement succeeds or fails based on whether it coincides with the opponent's weight commitment or compromised base.
 - **[[Frames]]** (Complementary): Frames enable safe angle creation by maintaining defensive barriers during angular movements, preventing opponent from capitalizing on transitional moments of vulnerability.
 - **[[Distance Control]]** (Extension): Angle creation is a primary mechanism for space generation—perpendicular movements create gaps in opponent's control while linear movements often compress space.
 - **[[Guard Passing]]** (Extension): Successful guard passing fundamentally depends on creating angles that circumvent rather than penetrate opponent's defensive structure, making angle creation an essential passing skill.
-- **[[Kuzushi]]** (Extension): Most sweeps rely on angular positioning to compromise opponent's base and create directional vulnerability, making angle creation a prerequisite for effective sweeping.
 - **[[Hip Escape Mechanics]]** (Prerequisite): Hip escape movements are fundamental technical mechanisms through which angular positions are created, particularly from bottom defensive positions.
 - **[[Bridge and Shrimp]]** (Complementary): Bridging creates vertical angles that complement lateral hip movements, enabling three-dimensional angular positioning that is more difficult to counter than single-plane movements.
 
@@ -359,7 +370,7 @@ Full-intensity sparring with coaching feedback specifically highlighting success
 - [[Levers]] (Principle) - Theoretical framework explaining why perpendicular angles multiply force effectiveness
 - [[Fork Attacks]] (Principle) - Advanced application where angles intentionally present multiple threats that force defensive choices opening additional opportunities
 - [[Grips]] (Principle) - Essential element enabling angle creation by preventing opponent realignment
-- [[Hip Bump Sweep]] (Transition) - Classic technique exemplifying angle creation from closed guard through perpendicular hip movement
+- [[Kuzushi]] (Principle) - Off-balancing principle that angles produce—most sweeps rely on angular positioning to compromise the opponent's base
 - [[Scissor Sweep]] (Transition) - Sweep utilizing angular body positioning to compromise opponent's base through off-axis alignment
 - [[Pendulum Sweep]] (Transition) - Demonstrates angle creation through combined lateral and rotational movements from guard
 - [[Toreando Pass]] (Transition) - Guard pass requiring precise angular control to move around rather than through opponent's defenses

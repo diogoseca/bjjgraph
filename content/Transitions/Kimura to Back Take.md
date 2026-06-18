@@ -34,6 +34,18 @@ description: "Master the Kimura to Back Take transition in BJJ. Learn to convert
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura to Back Take",
+  "description": "The Kimura to Back Take is a high-percentage BJJ transition that converts figure-four Kimura grip control into dominant back control by following the opponent's defensive roll and inserting hooks before securing the seat belt.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Kimura to Back Take transition in BJJ. Learn to convert
 </div>
 
 <section id="overview" class="content-section">
+
+**The Kimura to Back Take is a high-percentage BJJ transition that converts figure-four Kimura grip control into dominant back control by following the opponent's defensive roll and inserting hooks before securing the seat belt.**
 
 The Kimura to Back Take is a fundamental transition that exemplifies the principle of using submission threats to advance position. When an opponent defends the Kimura finish by pulling their elbow tight to their body or rolling with the lock, this creates a predictable defensive pathway that can be exploited to transition to back control. This transition is particularly effective because the opponent's defensive instinct to protect their shoulder naturally exposes their back.
 

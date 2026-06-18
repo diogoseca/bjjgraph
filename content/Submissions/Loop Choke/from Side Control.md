@@ -33,10 +33,32 @@ description: "Master the Loop Choke from Side Control in BJJ. Complete guide to 
 }
 </script>
 
-> **SAFETY**: Loop Choke from Side Control targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid artery compression. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Loop Choke from Side Control",
+  "description": "The Loop Choke from Side Control is a gi blood choke that converts the attacker's crossface into a deep far-collar grip, then sprawls the hips back to draw the lapel tight across both carotid arteries for the finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Loop Choke from Side Control is a gi blood choke that converts the attacker's crossface into a deep far-collar grip, then sprawls the hips back to draw the lapel tight across both carotid arteries for the finish.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">55% success</span>
+</div>
+
+> [!danger] Safety
+> Loop Choke from Side Control targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,51 +75,7 @@ The perpendicular body alignment creates unique finishing mechanics compared to 
 
 Practitioners who develop this technique gain a powerful addition to their side control submission chain, threatening the loop choke alongside Americanas, kimuras, and arm triangles to create a multi-layered attacking system that forces opponents into increasingly desperate escape attempts where each defensive reaction exposes a new vulnerability.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 55%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid artery compression | High | Immediate with proper release, potential for confusion lasting 30-60 seconds |
-| Trachea damage from improper collar placement or crushing across the windpipe | Medium | 3-7 days for minor bruising, weeks for significant damage |
-| Neck strain from defensive bridging or turning against a locked collar grip | Low | 1-3 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure
-
-**Tap Signals**:
-- Verbal tap or verbal statement of submission
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal including unusual sounds or loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release both collar grips completely
-2. Remove all chest pressure and disengage to neutral position
-3. Check partner's alertness and awareness before continuing
-4. Allow minimum 60 seconds recovery time before resuming training
-
-
-**Training Restrictions**:
-- Never apply sudden jerking or yanking motions with collar grips
-- Never use competition speed in training - always give partner time to recognize and tap
-- Never continue pressure after tap is felt or heard
-- Always ensure training partner can freely tap with at least one hand
-- Never practice on partners who are visibly fatigued or disoriented
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -267,10 +245,9 @@ Practitioners who develop this technique gain a powerful addition to their side 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Transitions/Arm Triangle]]
@@ -281,35 +258,50 @@ Practitioners who develop this technique gain a powerful addition to their side 
 - [[Submissions/Brabo Choke]]
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control]] - Primary starting position providing perpendicular alignment and crossface access for collar attacks
 - [[Positions/North-South]] - Alternative finishing position when opponent turns during loop choke attempt from side control
 - [[Positions/Side Control/Kesa Gatame]] - Side control variation that provides alternative collar access angles for loop choke entry
-- [[Submissions/Cross Collar Choke]] - Complementary collar attack that creates defensive reactions exploitable by the loop choke
-- [[Submissions/Americana]] - Primary arm attack from side control that forces collar exposure when opponent defends the shoulder lock
-- [[Transitions/Arm Triangle]] - Head and arm choke available when opponent frames against the loop choke attempt
-- [[Submissions/Baseball Bat Choke]] - Alternative collar choke from side control using similar grip mechanics
-- [[Submissions/Breadcutter Choke]] - Near-side collar choke that pairs with loop choke to create dual collar threat system
 - [[Positions/Half Guard]] - Common recovery position for defender who partially escapes during loop choke attempt
 - [[Positions/Closed Guard]] - Full guard recovery target for defender who successfully counters the choke attempt
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Loop Choke from Side Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid artery compression | High | Immediate with proper release, potential for confusion lasting 30-60 seconds |
+| Trachea damage from improper collar placement or crushing across the windpipe | Medium | 3-7 days for minor bruising, weeks for significant damage |
+| Neck strain from defensive bridging or turning against a locked collar grip | Low | 1-3 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure
+
+**Tap Signals**:
+- Verbal tap or verbal statement of submission
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Any distress signal including unusual sounds or loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release both collar grips completely
+2. Remove all chest pressure and disengage to neutral position
+3. Check partner's alertness and awareness before continuing
+4. Allow minimum 60 seconds recovery time before resuming training
+
+
+**Training Restrictions**:
+- Never apply sudden jerking or yanking motions with collar grips
+- Never use competition speed in training - always give partner time to recognize and tap
+- Never continue pressure after tap is felt or heard
+- Always ensure training partner can freely tap with at least one hand
+- Never practice on partners who are visibly fatigued or disoriented
+
 
 </section>
 

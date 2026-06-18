@@ -34,6 +34,18 @@ description: "Master the Inside Ashi-Garami to Cross Ashi transition in BJJ. Ste
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Ashi-Garami to Cross Ashi",
+  "description": "Inside Ashi-Garami to Cross Ashi is a leg-lock reconfiguration that switches your entanglement from parallel inside-ashi to a crossed figure-four wedge, trading position to chase superior heel-hook finishing angles when the opponent hides their heel.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Inside Ashi-Garami to Cross Ashi transition in BJJ. Ste
 </div>
 
 <section id="overview" class="content-section">
+
+**Inside Ashi-Garami to Cross Ashi is a leg-lock reconfiguration that switches your entanglement from parallel inside-ashi to a crossed figure-four wedge, trading position to chase superior heel-hook finishing angles when the opponent hides their heel.**
 
 The Inside Ashi-Garami to Cross Ashi transition is a fundamental positional advancement within modern leg lock systems that allows the attacker to shift from Inside Ashi-Garami to Cross Ashi-Garami when the opponent's defensive positioning creates better finishing angles from the crossed configuration. This transition becomes essential when the opponent rotates their knee inward to defend heel exposure from Inside Ashi, effectively hiding the heel but exposing vulnerability from a perpendicular cross-body angle.
 

@@ -34,6 +34,18 @@ description: "Master Advance to Chill Dog transition in BJJ. Progress from New Y
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Advance to Chill Dog",
+  "description": "Advance to Chill Dog is a 10th Planet Rubber Guard transition where the bottom player threads their shin from across the opponent's back to hook around the neck, converting New York control into a gogoplata-threatening Chill Dog position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Advance to Chill Dog transition in BJJ. Progress from New Y
 </div>
 
 <section id="overview" class="content-section">
+
+**Advance to Chill Dog is a 10th Planet Rubber Guard transition where the bottom player threads their shin from across the opponent's back to hook around the neck, converting New York control into a gogoplata-threatening Chill Dog position.**
 
 Advance to Chill Dog represents a critical progression within the 10th Planet Rubber Guard system, moving from the foundational New York control into a deeper attacking position that sets up the gogoplata and other high-percentage finishes. This transition capitalizes on the broken posture and overhook control established in New York, threading the controlling leg deeper across the opponent's back to create the distinctive Chill Dog configuration.
 

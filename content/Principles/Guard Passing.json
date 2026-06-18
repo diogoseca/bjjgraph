@@ -16,6 +16,7 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
+  "summary": "Guard passing is the systematic process of advancing from inside an opponent's guard to a dominant pinning position by neutralizing their retention tools—grips, frames, hooks, and hip mobility—through sequential control rather than a single explosive movement.",
   "overview": "Guard Passing represents the fundamental strategic and biomechanical concepts underlying all successful guard passing, providing systematic framework for advancing from guard to dominant pinning positions. Unlike specific passing techniques, guard passing principles are comprehensive conceptual guidelines that apply across all guard types and determine overall passing effectiveness. This concept encompasses the tactical understanding that successful passing requires neutralizing guard retention mechanics, establishing control points, and progressing through stages from open guard to consolidated side control or mount. Guard passing principles serve as both offensive framework enabling position advancement and strategic guide for pass selection based on opponent's defensive patterns. The ability to apply guard passing principles consistently determines offensive effectiveness against guard players, making it one of the most essential conceptual elements for top game development.",
   "key_principles": [
     "Maintain strong posture preventing opponent from breaking your structure and establishing offensive control",
@@ -87,16 +88,6 @@
       "principle_name": "Action and Reaction",
       "relationship_type": "Advanced form",
       "description": "Represents higher-level passing application where the passer deliberately provokes defensive reactions to create passing openings, incorporating bait-and-counter strategies against the guard player's responses"
-    },
-    {
-      "principle_name": "Timing and Rhythm",
-      "relationship_type": "Extension",
-      "description": "Specific passing dimension emphasizing rapid movement, tempo changes, and precise timing windows rather than sustained pressure, demonstrating alternative expression of core passing principles"
-    },
-    {
-      "principle_name": "Transition Management",
-      "relationship_type": "Extension",
-      "description": "Technical framework for managing positional changes during passing sequences, enabling smooth progression through intermediate positions and effective chaining between passing systems"
     },
     {
       "principle_name": "Forward Pressure",
@@ -407,6 +398,48 @@
       "name": "Double Under Pass",
       "content_type": "Transition",
       "relationship": "Heavy pressure passing technique demonstrating systematic hip control and leg management principles"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the single best predictor of guard passing success before any movement begins?",
+      "answer": "Grip dominance—winning the grip-fighting exchange typically determines whether a pass succeeds or fails, because superior grips let you control posture, distance, and the opponent's hips before passing even starts."
+    },
+    {
+      "question": "Why should you control the opponent's hips before clearing their legs?",
+      "answer": "Hip mobility is the primary engine of guard retention; if the hips stay free the opponent re-pommels and recovers guard despite cleared legs, creating endless passing cycles without consolidation."
+    },
+    {
+      "question": "How do you decide which pressure type to apply against a given guard?",
+      "answer": "Match pressure to the guard's retention mechanics: heavy smashing pressure collapses connected guards like closed and half guard, while light floating pressure beats mobility-based guards such as De La Riva and spider that feed off your weight."
+    },
+    {
+      "question": "What is the correct response when a passing attempt stalls against strong resistance?",
+      "answer": "Commit long enough to read the defense, but if the approach is genuinely shut down, switch to an alternative passing system rather than abandoning instantly or grinding a dead pass—balance persistence with strategic change."
+    },
+    {
+      "question": "Why is consolidating each passing stage more efficient than rushing to side control?",
+      "answer": "Skipping consolidation leaves control gaps the opponent exploits to recover guard, wasting energy on repeated cycles; methodical stage-by-stage control actually accelerates overall passing by preventing re-guards."
+    },
+    {
+      "question": "What does the Headquarters position represent in a passing sequence?",
+      "answer": "Headquarters is a critical intermediate passing stage where hip control, base, and leg management converge, serving as a launch point for knee slice, leg drag, or back-step passes before final side control consolidation."
+    },
+    {
+      "question": "How does maintaining base relate to passing offense?",
+      "answer": "Base is the prerequisite that prevents sweeps during advancement; without a stable wide base and managed weight distribution, the opponent reverses you mid-pass regardless of your technical passing knowledge."
+    },
+    {
+      "question": "Why does using the same pass against every guard limit a passer's effectiveness?",
+      "answer": "Each guard has distinct retention mechanics, so a pass that beats one guard fails against another; elite passers carry a varied arsenal and select the approach matched to the specific guard type they face."
+    },
+    {
+      "question": "What is the role of posture while inside an opponent's guard?",
+      "answer": "Maintaining upright spinal alignment and structural integrity prevents the forward collapse that fuels guard attacks like chokes, armbars, and sweeps, keeping you safe while preserving the mobility needed to pass."
+    },
+    {
+      "question": "How should a passer treat the transition from a successful pass to a submission?",
+      "answer": "Prioritize position over submission—secure and consolidate side control or mount with hip control and base before hunting submissions, since premature attacking opens escape and re-guard opportunities."
     }
   ]
 }

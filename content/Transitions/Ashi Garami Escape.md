@@ -34,6 +34,18 @@ description: "Master Ashi Garami escape techniques in BJJ. Learn systematic leg 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ashi Garami Escape",
+  "description": "The Ashi Garami Escape is a systematic leg-extraction sequence that frees a trapped leg from an opponent's leg entanglement by fighting grips, creating hip angle, and clearing both legs in order before extracting and creating distance.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Ashi Garami escape techniques in BJJ. Learn systematic leg 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Ashi Garami Escape is a systematic leg-extraction sequence that frees a trapped leg from an opponent's leg entanglement by fighting grips, creating hip angle, and clearing both legs in order before extracting and creating distance.**
 
 The Ashi Garami escape is a fundamental defensive skill in modern leg lock grappling, requiring precise understanding of leg entanglement mechanics and a systematic approach to extracting the trapped leg. This escape addresses one of the most common leg entanglement positions in no-gi competition, where the opponent controls your leg while maintaining inside position with their hips and hooks. The primary goal is to extract the trapped leg while preventing the opponent from advancing to more dangerous positions like the saddle or securing submission attacks such as heel hooks, toe holds, or straight ankle locks.
 

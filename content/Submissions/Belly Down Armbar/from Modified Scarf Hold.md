@@ -33,10 +33,32 @@ description: "Master the belly down armbar finish from modified scarf hold. Expe
 }
 </script>
 
-> **SAFETY**: Belly Down Armbar from Modified Scarf Hold targets the Elbow joint hyperextension and ulnar collateral ligament. Risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Belly Down Armbar from Modified Scarf Hold",
+  "description": "The belly down armbar from modified scarf hold is a prone elbow lock where the attacker isolates the near arm, steps over the head, and rotates belly-down to hyperextend the elbow while eliminating the hitchhiker escape.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The belly down armbar from modified scarf hold is a prone elbow lock where the attacker isolates the near arm, steps over the head, and rotates belly-down to hyperextend the elbow while eliminating the hitchhiker escape.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint hyperextension and ulnar collateral ligament</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Belly Down Armbar from Modified Scarf Hold targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,51 +75,7 @@ The setup begins with deepening near-arm isolation while maintaining modified sc
 
 Strategically, this submission excels when opponents defend the standard supine armbar through stacking or hitchhiking. The transition to belly down removes those defensive options entirely. Competition data shows significantly higher finish rates from belly-down compared to supine armbar positions, particularly at advanced levels where opponents are skilled at standard armbar defense.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint hyperextension and ulnar collateral ligament
-**Starting Position**: [[Positions/Side Control/Modified Scarf Hold]]
-**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension with ligament damage to the ulnar collateral ligament | CRITICAL | 3-6 months, may require surgical reconstruction |
-| Elbow joint capsule sprain or partial tear from forced extension | High | 4-12 weeks depending on severity |
-| Biceps tendon strain or partial tear from resisting extension under load | Medium | 2-6 weeks with progressive rehabilitation |
-| Distal humerus stress fracture from sustained pressure against locked elbow | High | 6-10 weeks with immobilization |
-
-
-**Application Speed**: SLOW and progressive. The belly down position creates significant mechanical advantage that can damage the elbow extremely quickly. Apply extension gradually and allow adequate time for the tap. Never jerk or spike the arm. The prone position amplifies force beyond what most practitioners expect.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' or any distress vocalization
-- Physical hand tap on partner, mat, or own body
-- Physical foot tap on mat with either leg
-- Any screaming, grunting, or unusual vocalization indicating distress
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without waiting for confirmation or repetition
-2. If in doubt whether a tap occurred, release immediately - the position can be re-established safely
-3. Release extension pressure first by lowering the wrist, then release knee squeeze, then disengage completely
-4. Monitor training partner's arm mobility after release and check for signs of injury before continuing
-
-
-**Training Restrictions**:
-- Beginners should practice mechanics at 50% pressure maximum until transition control is consistent
-- Always apply extension slowly in training - never jerk or spike the arm during the belly down finish
-- Do not apply this technique on training partners with known elbow injuries or recent arm submissions
-- Practice the transition rotation separately from the finishing pressure until both components are reliable
-
+**Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] · **From**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 </section>
 
@@ -242,39 +220,57 @@ Strategically, this submission excels when opponents defend the standard supine 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Kimura]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Modified Scarf Hold]] - Starting position for this submission variant
 - [[Positions/Armbar Control]] - Intermediate control position during arm isolation
-- [[Submissions/Belly Down Armbar]] - Parent submission technique
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold variant with similar arm attack setups
 - [[Positions/Side Control]] - Parent position family for modified scarf hold
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Belly Down Armbar from Modified Scarf Hold leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension with ligament damage to the ulnar collateral ligament | CRITICAL | 3-6 months, may require surgical reconstruction |
+| Elbow joint capsule sprain or partial tear from forced extension | High | 4-12 weeks depending on severity |
+| Biceps tendon strain or partial tear from resisting extension under load | Medium | 2-6 weeks with progressive rehabilitation |
+| Distal humerus stress fracture from sustained pressure against locked elbow | High | 6-10 weeks with immobilization |
+
+
+**Application Speed**: SLOW and progressive. The belly down position creates significant mechanical advantage that can damage the elbow extremely quickly. Apply extension gradually and allow adequate time for the tap. Never jerk or spike the arm. The prone position amplifies force beyond what most practitioners expect.
+
+**Tap Signals**:
+- Verbal tap saying 'tap' or any distress vocalization
+- Physical hand tap on partner, mat, or own body
+- Physical foot tap on mat with either leg
+- Any screaming, grunting, or unusual vocalization indicating distress
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without waiting for confirmation or repetition
+2. If in doubt whether a tap occurred, release immediately - the position can be re-established safely
+3. Release extension pressure first by lowering the wrist, then release knee squeeze, then disengage completely
+4. Monitor training partner's arm mobility after release and check for signs of injury before continuing
+
+
+**Training Restrictions**:
+- Beginners should practice mechanics at 50% pressure maximum until transition control is consistent
+- Always apply extension slowly in training - never jerk or spike the arm during the belly down finish
+- Do not apply this technique on training partners with known elbow injuries or recent arm submissions
+- Practice the transition rotation separately from the finishing pressure until both components are reliable
+
 
 </section>
 

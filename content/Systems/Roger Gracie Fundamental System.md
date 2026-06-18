@@ -135,6 +135,16 @@ description: "Master Roger Gracie's fundamental system: positional dominance thr
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roger Gracie Fundamental System",
+  "description": "The Roger Gracie Fundamental System is a gi-based, position-first framework that wins by chaining flawless basics — methodical guard passing to mount to the cross collar choke — executed so precisely opponents cannot escape even knowing what is coming.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -149,9 +159,11 @@ description: "Master Roger Gracie's fundamental system: positional dominance thr
 
 ## What is Roger Gracie Fundamental System?
 
-The Roger Gracie Fundamental System represents the pinnacle of fundamental Brazilian Jiu-Jitsu executed at the highest level. Built on a foundation of flawless basic techniques performed with exceptional precision, this system demonstrates that mastery of fundamentals trumps complex techniques. Roger's approach centers on achieving dominant positions through methodical advancement, maintaining overwhelming control, and finishing with basic submissions executed so perfectly that opponents cannot escape despite knowing exactly what is coming. The system's philosophy rejects flashy or exotic techniques in favor of high-percentage moves drilled to absolute perfection.
+**The Roger Gracie Fundamental System is a gi-based, position-first framework that wins by chaining flawless basics — methodical guard passing to mount to the cross collar choke — executed so precisely opponents cannot escape even knowing what is coming.**
 
-At its core, this system emphasizes positional progression following the classical hierarchy: guard pass to side control, side control to mount, mount to submission. Roger's implementation of these fundamentals proved so dominant that he submitted multiple world champions with basic techniques they had defended thousands of times before. The key lies not in the techniques themselves but in the precision of execution, timing, pressure application, and understanding of leverage that Roger developed through countless hours of deliberate practice. Every movement serves a purpose, every grip is optimized, and every position transition follows mechanical principles that maximize efficiency while minimize risk.
+Roger Gracie is widely regarded as the greatest gi competitor in BJJ history, winning ten World Championships largely by submitting elite opponents with the most basic techniques in the art. His approach rejects flashy or exotic moves in favor of high-percentage fundamentals drilled to absolute perfection, proving that depth of mastery in a small number of techniques outperforms breadth of technical knowledge. The method centers on achieving dominant positions through methodical advancement, maintaining overwhelming control, and finishing with basic submissions executed so cleanly that opponents cannot escape despite knowing exactly what is coming.
+
+At its core, the system follows the classical positional hierarchy religiously: guard pass to side control, side control to mount, mount to submission. Roger's implementation proved so dominant that he tapped multiple world champions with techniques they had defended thousands of times before. The edge lies not in the techniques themselves but in precision of execution — timing, pressure application, leverage, and grip optimization developed through countless hours of deliberate practice. Every movement serves a purpose, every grip is optimized, and every position transition follows mechanical principles that maximize efficiency while minimizing risk.
 
 </section>
 

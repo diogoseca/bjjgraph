@@ -34,6 +34,18 @@ description: "Master the Homer Simpson Sweep from deep half guard. Detailed tech
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Homer Simpson Sweep",
+  "description": "The Homer Simpson Sweep is a forward-driving come-up sweep from deep half guard bottom that uses a deep underhook and an over-the-back grip to topple the top player straight backward through the centerline into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Homer Simpson Sweep from deep half guard. Detailed tech
 
 <section id="overview" class="content-section">
 
-The Homer Simpson Sweep is a direct come-up sweep from deep half guard where the bottom player rises from underneath the opponent using a combination of deep underhook control and an over-the-back grip to drive the top player backward onto their back. Unlike the waiter sweep which redirects the opponent laterally through hip elevation, or the old school sweep which involves coming up to a single-leg position, the Homer Simpson Sweep drives straight through the centerline, using the bottom player's head and shoulder as the primary contact points to off-balance and topple the opponent directly backward into mount.
+**The Homer Simpson Sweep is a forward-driving come-up sweep from deep half guard bottom that uses a deep underhook and an over-the-back grip to topple the top player straight backward through the centerline into mount.**
+
+Within the deep half guard sweeping arsenal, the Homer Simpson Sweep is the centerline-attacking option that complements the lateral waiter and old school sweeps. Unlike the waiter sweep which redirects the opponent laterally through hip elevation, or the old school sweep which involves coming up to a single-leg position, the Homer Simpson Sweep drives straight through the centerline, using the bottom player's head and shoulder as the primary contact points to off-balance and topple the opponent directly backward into mount. The bottom player rises from underneath the opponent using a combination of deep underhook control and an over-the-back grip to drive the top player backward onto their back.
 
 The sweep derives its mechanical power from the bottom player's positioning completely underneath the opponent's center of gravity. By maintaining a deep underhook on the far leg while reaching over the opponent's back with the free hand to grip the belt, waistband, or far hip, the bottom player creates a closed kinetic chain that prevents the top player from basing or circling away. The come-up motion then converts the bottom player's hip drive and forward momentum into a sweeping force that the top player cannot resist without abandoning their position entirely.
 

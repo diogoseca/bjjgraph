@@ -34,6 +34,18 @@ description: "Master the Triangle from Clamp Guard in BJJ. Complete guide to con
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle from Clamp Guard",
+  "description": "Triangle from Clamp Guard is a high-percentage submission entry that converts the clamp's shin-on-bicep arm isolation into a triangle — as the opponent circles their trapped arm free, the bottom player shoots the choking leg over the shoulder to reach Triangle Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Triangle from Clamp Guard in BJJ. Complete guide to con
 </div>
 
 <section id="overview" class="content-section">
+
+**Triangle from Clamp Guard is a high-percentage submission entry that converts the clamp's shin-on-bicep arm isolation into a triangle — as the opponent circles their trapped arm free, the bottom player shoots the choking leg over the shoulder to reach Triangle Control.**
 
 The Triangle from Clamp Guard exploits the existing arm isolation of the clamp position to establish a triangle choke configuration. Because the clamp already traps one arm between the legs with shin-on-bicep pressure, the guard player has completed the most difficult prerequisite for any triangle entry — isolating a single arm from the opponent's defensive framework. The transition hinges on reading the opponent's extraction direction: when they circle their trapped arm outward or attempt to withdraw it, the space between their neck and shoulder widens, creating the window for the choking leg to shoot over.
 

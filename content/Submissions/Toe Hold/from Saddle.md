@@ -33,10 +33,32 @@ description: "Master the toe hold from saddle with expert grip mechanics, finish
 }
 </script>
 
-> **SAFETY**: Toe Hold from Saddle targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toe Hold from Saddle",
+  "description": "The toe hold from saddle is a rotational ankle lock attacked from the saddle leg entanglement, twisting the opponent's foot toward their centerline to punish a hidden heel while threatening the ankle ligaments and midfoot joints.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The toe hold from saddle is a rotational ankle lock attacked from the saddle leg entanglement, twisting the opponent's foot toward their centerline to punish a hidden heel while threatening the ankle ligaments and midfoot joints.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle, toes, and foot ligaments</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Toe Hold from Saddle targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,57 +75,7 @@ The strategic value of the toe hold from saddle lies in its role within the subm
 
 Technically, the saddle amplifies the toe hold's effectiveness compared to other positions because the leg entanglement prevents the opponent from straightening their leg or rolling to relieve pressure. The attacker's legs control the opponent's knee line, ensuring the rotational force translates directly into joint stress rather than being dissipated through body movement. This mechanical advantage makes the toe hold from saddle significantly more dangerous than the same submission applied from loose ashi garami configurations.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle, toes, and foot ligaments
-**Starting Position**: [[Positions/Ashi Garami/Saddle]]
-**From Position**: [[Positions/Ashi Garami/Saddle]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Ankle ligament tears (lateral and medial collateral ligaments) | High | 6-12 weeks with potential for chronic instability |
-| Toe fractures and dislocations | Medium | 4-8 weeks |
-| Plantar fascia rupture | High | 8-16 weeks |
-| Lisfranc joint injury (midfoot dislocation) | CRITICAL | 3-6 months, may require surgery |
-| Achilles tendon strain | Medium | 4-6 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. This is NOT a technique to 'snap on' in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure
-2. Release toe grip completely
-3. Release heel control
-4. Allow opponent's foot to return to neutral position naturally
-5. Do not let go abruptly - maintain light contact until opponent signals they are okay
-6. Check with training partner before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine with explosive hip extension
-- Always allow clear tap access for both hands
-- Stop immediately at any sign of discomfort
-- Never train this submission at competition speed
-
+**Starting Position**: [[Positions/Ashi Garami/Saddle]] · **From**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
 
@@ -249,41 +221,64 @@ Technically, the saddle amplifies the toe hold's effectiveness compared to other
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Estima Lock]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Achilles Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Saddle]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the same starting position in 10th Planet system
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Common entry position and fallback when saddle control is partially lost
-- [[Transitions/Heel Hook]] - Primary submission alternative from the same position, creates the dilemma that opens toe hold
-- [[Submissions/Inside Heel Hook]] - Highest-percentage finishing attack from saddle that the toe hold complements
 - [[Positions/Leg Entanglement]] - Parent concept for understanding the positional control hierarchy
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Toe Hold from Saddle leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Ankle ligament tears (lateral and medial collateral ligaments) | High | 6-12 weeks with potential for chronic instability |
+| Toe fractures and dislocations | Medium | 4-8 weeks |
+| Plantar fascia rupture | High | 8-16 weeks |
+| Lisfranc joint injury (midfoot dislocation) | CRITICAL | 3-6 months, may require surgery |
+| Achilles tendon strain | Medium | 4-6 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. This is NOT a technique to 'snap on' in training.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' loudly)
+- Physical hand tap on partner or mat (multiple taps)
+- Physical foot tap with free leg
+- Any verbal distress signal
+- Slapping the mat with hand
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure
+2. Release toe grip completely
+3. Release heel control
+4. Allow opponent's foot to return to neutral position naturally
+5. Do not let go abruptly - maintain light contact until opponent signals they are okay
+6. Check with training partner before continuing
+
+
+**Training Restrictions**:
+- Never apply sudden rotational force - all pressure must be gradual
+- Never grip individual toes - always grip across multiple toes and ball of foot
+- Never combine with explosive hip extension
+- Always allow clear tap access for both hands
+- Stop immediately at any sign of discomfort
+- Never train this submission at competition speed
+
 
 </section>
 

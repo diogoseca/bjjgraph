@@ -34,6 +34,18 @@ description: "Master Escape Double Jump in BJJ. Safely retreat from a failed dou
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Double Jump",
+  "description": "Escape Double Jump is a bottom-player bailout that retreats from a failed double jump entry back to half guard, using sequential leg extraction and defensive frames to avoid being flattened or passed to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Escape Double Jump in BJJ. Safely retreat from a failed dou
 </div>
 
 <section id="overview" class="content-section">
+
+**Escape Double Jump is a bottom-player bailout that retreats from a failed double jump entry back to half guard, using sequential leg extraction and defensive frames to avoid being flattened or passed to side control.**
 
 Escape Double Jump is a critical recovery technique in Brazilian Jiu-Jitsu that addresses the tactical problem of safely retreating from a committed but unsuccessful double jump guard entry. When the explosive bilateral leg insertion fails to achieve deep half guard position—whether due to the opponent's sprawl defense, base widening, or upper body control establishment—the bottom player must systematically disengage and return to a stable half guard without conceding a pass.
 

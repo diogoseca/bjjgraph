@@ -137,6 +137,11 @@ description: "Learn to attack the heel hook from outside Ashi Garami with proper
     "@type": "WebSite",
     "name": "BJJ Graph",
     "url": "https://bjjgraph.org"
+  },
+  "mainEntityOfPage": {
+    "@type": "CollectionPage",
+    "name": "Heel Hook",
+    "url": "https://bjjgraph.org/Families/heel-hook"
   }
 }
 </script>
@@ -178,6 +183,9 @@ description: "Learn to attack the heel hook from outside Ashi Garami with proper
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="part-of-family"><em>Part of the</em> <strong>Heel Hook</strong> <em>family</em></p>
+</aside>
 <section id="overview" class="content-section">
 
 Attacking the heel hook from outside Ashi Garami requires understanding that this represents an opportunistic finish from the base of the leg lock hierarchy. Your primary goal is securing heel exposure through proper grip fighting and angle management while maintaining enough positional control to either complete the submission or transition to a more dominant entanglement when the initial attack is defended. The grip configuration—figure-four with heel bone seated in the wrist crook—knee line management through pinching knees, and rotational mechanics through hip turning must coordinate precisely to generate finishing pressure from a position with inherent structural limitations compared to Saddle or Cross Ashi. Treat the heel hook threat as both a finishing tool and a forcing function that creates advancement opportunities when the opponent's defensive reactions open transitional pathways.

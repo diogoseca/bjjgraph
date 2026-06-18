@@ -34,6 +34,18 @@ description: "Master turning into your opponent from back control in BJJ. Comple
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turn into Opponent from Back",
+  "description": "Turn into Opponent from Back is a back-control escape where the bottom player strips the seatbelt, clears the bottom hook, and rotates toward the underhook side to face the opponent and recover closed guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master turning into your opponent from back control in BJJ. Comple
 
 <section id="overview" class="content-section">
 
-Turn into Opponent from Back is a fundamental back control escape where the bottom player rotates their body to face the opponent, transitioning from the highly disadvantageous back control position into closed guard. This escape addresses the core defensive problem of back control: the inability to see or directly counter the opponent's attacks. By systematically stripping the opponent's grips, clearing hooks, and executing a controlled rotation, the escaping player converts a position of maximum vulnerability into one of offensive potential.
+**Turn into Opponent from Back is a back-control escape where the bottom player strips the seatbelt, clears the bottom hook, and rotates toward the underhook side to face the opponent and recover closed guard.**
+
+As the most direct escape from back control to a neutral guard, Turn into Opponent from Back is a cornerstone of any serious back-defense system. This escape addresses the core defensive problem of back control: the inability to see or directly counter the opponent's attacks. By systematically stripping the opponent's grips, clearing hooks, and executing a controlled rotation, the escaping player converts a position of maximum vulnerability into one of offensive potential.
 
 The technique operates on the principle that back control depends on three interconnected control mechanisms: hooks for hip control, seatbelt grip for upper body control, and chest-to-back connection for weight distribution. The turn into opponent escape attacks these mechanisms sequentially rather than simultaneously. First, the defender secures their neck through hand fighting and chin protection. Second, they strip or weaken the seatbelt grip using two-on-one control. Third, they clear the bottom hook through hip movement. Finally, they execute the rotation toward the underhook side, completing the turn before the opponent can re-establish control or transition to mount.
 

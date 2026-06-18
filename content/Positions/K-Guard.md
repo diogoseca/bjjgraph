@@ -35,6 +35,18 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "K-Guard",
+  "description": "K-Guard is a dynamic half-guard variation where the bottom player threads an inverted inside hook across the opponent's trapped leg while a butterfly hook elevates, forming a 'K' shape that powers sweeps and back-takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -49,7 +61,9 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
 
 <section id="overview" class="content-section">
 
-K-Guard is a dynamic half guard variation characterized by an inverted butterfly hook configuration that creates a distinct 'K' shape with the legs. This position combines elements of deep half guard retention with butterfly guard mechanics, allowing the bottom practitioner to maintain distance control while threatening immediate sweeps and back-takes. From the top perspective, it presents unique passing challenges requiring systematic pressure and grip dominance to overcome the bottom player's active hook system and framing structures.
+**K-Guard is a dynamic half-guard variation where the bottom player threads an inverted inside hook across the opponent's trapped leg while a butterfly hook elevates, forming a 'K' shape that powers sweeps and back-takes.**
+
+Sitting at the intersection of deep half guard and butterfly guard, K-Guard weaponizes an inverted hook configuration to convert an opponent's passing pressure into sweep and back-take chains. This position combines elements of deep half guard retention with butterfly guard mechanics, allowing the bottom practitioner to maintain distance control while threatening immediate sweeps and back-takes. From the top perspective, it presents unique passing challenges requiring systematic pressure and grip dominance to overcome the bottom player's active hook system and framing structures.
 
 The position excels as both a retention platform and an offensive launching point, particularly effective against pressure passers who attempt to flatten or smash through traditional half guard structures. The inverted hook configuration naturally creates angles that disrupt the top player's base while maintaining connection points that prevent disengagement. This makes K-Guard particularly valuable in modern no-gi competition where traditional half guard grips may be unavailable.
 

@@ -34,6 +34,18 @@ description: "Master the Stack Pass from Carni in BJJ. Aggressive pressure escap
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Pass from Carni",
+  "description": "The Stack Pass from Carni is an aggressive top-side counter-escape that drives heavy forward stacking pressure into the bottom player's leg entanglement to collapse it and pass directly to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Stack Pass from Carni in BJJ. Aggressive pressure escap
 
 <section id="overview" class="content-section">
 
-The Stack Pass from Carni is an aggressive pressure-based counter-escape used by the top player whose leg is trapped in the Carni leg entanglement. Unlike the more conservative posture recovery that resets to closed guard, the stack pass commits fully to driving through the bottom player's guard structure with the explicit goal of passing directly to side control. This technique exploits a fundamental vulnerability in the Carni position: the bottom player's legs generate control through angular leverage, and heavy forward stacking pressure eliminates the space and angles required for that leverage to function.
+**The Stack Pass from Carni is an aggressive top-side counter-escape that drives heavy forward stacking pressure into the bottom player's leg entanglement to collapse it and pass directly to side control.**
+
+Practitioners caught in Carni typically reach for conservative escapes — posture recovery back to closed guard or a technical stand-up to disengage — yet the stack pass inverts that defensive instinct by weaponizing forward pressure against the entanglement itself. Unlike the more conservative posture recovery that resets to closed guard, the stack pass commits fully to driving through the bottom player's guard structure with the explicit goal of passing directly to side control. This technique exploits a fundamental vulnerability in the Carni position: the bottom player's legs generate control through angular leverage, and heavy forward stacking pressure eliminates the space and angles required for that leverage to function.
 
 The strategic calculus of choosing the stack pass over simpler Carni escapes involves a risk-reward tradeoff. The reward is significant: converting a dangerous defensive position directly into one of the most dominant top positions in grappling. The risk is equally significant: committing to forward pressure while your leg remains partially entangled creates a window where the bottom player can thread deeper for saddle entry if they recognize the pass attempt early. The stack pass is therefore most effective as a surprise technique, deployed when the bottom player expects a standard leg extraction or rolling escape rather than aggressive forward engagement.
 

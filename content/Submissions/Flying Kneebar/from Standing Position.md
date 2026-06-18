@@ -33,10 +33,32 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 }
 </script>
 
-> **SAFETY**: Flying Kneebar from Standing Position targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Flying Kneebar from Standing Position",
+  "description": "The Flying Kneebar is a dynamic leg-lock submission where the attacker leaps onto a standing opponent's leg and spins into a kneebar in mid-air, driving the hip behind the knee to hyperextend the joint and threaten the PCL, MCL, and LCL.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Flying Kneebar is a dynamic leg-lock submission where the attacker leaps onto a standing opponent's leg and spins into a kneebar in mid-air, driving the hip behind the knee to hyperextend the joint and threaten the PCL, MCL, and LCL.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Flying Kneebar from Standing Position targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,61 +69,9 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 
 <section id="overview" class="content-section">
 
-The Flying Kneebar is an advanced, dynamic leg lock submission that involves jumping onto the opponent's leg while standing and immediately transitioning to a kneebar position mid-air. This spectacular technique combines athleticism, timing, and technical precision to catch opponents off-guard during standup exchanges or guard pulls. While visually impressive and highly effective when executed properly, the Flying Kneebar carries significant risk for both practitioners and requires extensive drilling before live application. The submission targets the knee joint through hyperextension, attacking the posterior cruciate ligament (PCL), medial collateral ligament (MCL), and lateral collateral ligament (LCL) simultaneously. Due to the dynamic nature of the entry and the potential for awkward landings, this technique demands exceptional body control and spatial awareness. The Flying Kneebar is most commonly seen in no-gi competition where grips don't interfere with the rotational mechanics, though gi variations exist using lapel and sleeve grips to control the descent. This submission represents the intersection of takedown artistry and leg lock expertise, requiring practitioners to master both the aerial component and the finishing mechanics to achieve consistent success.
+The Flying Kneebar combines athleticism, timing, and technical precision to catch opponents off-guard during standup exchanges or guard pulls. While visually impressive and highly effective when executed properly, it carries significant risk for both practitioners and requires extensive drilling before live application. The submission targets the knee joint through hyperextension, attacking the posterior cruciate ligament (PCL), medial collateral ligament (MCL), and lateral collateral ligament (LCL) simultaneously. Due to the dynamic nature of the entry and the potential for awkward landings, this technique demands exceptional body control and spatial awareness. It is most commonly seen in no-gi competition where grips don't interfere with the rotational mechanics, though gi variations exist using lapel and sleeve grips to control the descent. This submission represents the intersection of takedown artistry and leg lock expertise, requiring practitioners to master both the aerial component and the finishing mechanics to achieve consistent success.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)
-**Starting Position**: [[Positions/Standing Guard]]
-**From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Posterior cruciate ligament (PCL) tear | CRITICAL | 6-12 months with surgical reconstruction |
-| Medial collateral ligament (MCL) sprain or tear | High | 6-12 weeks for grade 2 sprain, 3-6 months for complete tear |
-| Lateral collateral ligament (LCL) damage | High | 4-8 weeks for partial tear, up to 6 months for complete tear |
-| Meniscus tear from rotational forces during entry | High | 6-12 weeks with possible surgical intervention |
-| Hyperextension injury to knee joint capsule | Medium | 2-6 weeks |
-| Landing injuries (ankle sprains, hip impact, head trauma from failed entries) | Medium | Variable: 2-8 weeks depending on severity |
-
-
-**Application Speed**: EXTREMELY SLOW and controlled - 5-7 seconds minimum in training, NEVER use competition speed during practice
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap (tap partner's body or mat repeatedly)
-- Physical foot tap (tap mat with free foot)
-- Any distress signal or unusual sounds
-- Loss of resistance or sudden relaxation (treat as emergency tap)
-
-
-**Release Protocol**:
-1. Immediately release hip pressure and stop extending the knee
-2. Release leg grip and allow partner's leg to return to neutral position
-3. Roll away from the leg to create space
-4. Check with partner verbally before continuing training
-5. If uncertain about injury, stop training and assess knee stability
-
-
-**Training Restrictions**:
-- NEVER practice at full speed or with live resistance until brown belt level minimum
-- NEVER spike or jerk the submission - slow, progressive pressure only
-- NEVER practice on training partners with existing knee injuries
-- Always crash pad training for initial learning phases (weeks 1-8)
-- Beginners and intermediates should ONLY practice the entry with zero resistance
-- Always allow partner full tap access - never control both arms during finish
-- Require explicit consent before attempting this submission on training partners
-- Competition-banned in many rulesets (IBJJF white/blue belt) - know your tournament rules
-
+**Starting Position**: [[Positions/Standing Guard]] · **From**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -275,10 +245,9 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Flying Armbar]]
 - [[Submissions/Straight Ankle Lock]]
@@ -289,35 +258,59 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Belly Down Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Submissions/Inside Heel Hook]] - Common transition when opponent defends by turning into kneebar
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Landing position after successful flying kneebar entry
 - [[Positions/X-Guard/Single Leg X-Guard]] - Alternative leg entanglement with similar control structure
-- [[Submissions/Flying Armbar]] - Similar dynamic aerial submission with comparable risk/reward profile
 - [[Positions/Ashi Garami]] - Static entry to same leg lock position system
 - [[Positions/Leg Entanglement]] - Core concept governing all leg lock positions and transitions
 - [[Positions/Kneebar Control]] - Control position for ground-based kneebar finish
 - [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement with kneebar finishing options
-- [[Submissions/Straight Ankle Lock]] - Alternative leg lock from similar leg configurations
-- [[Submissions/Calf Slicer]] - Transition option when opponent bends knee defensively
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Flying Kneebar from Standing Position leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Posterior cruciate ligament (PCL) tear | CRITICAL | 6-12 months with surgical reconstruction |
+| Medial collateral ligament (MCL) sprain or tear | High | 6-12 weeks for grade 2 sprain, 3-6 months for complete tear |
+| Lateral collateral ligament (LCL) damage | High | 4-8 weeks for partial tear, up to 6 months for complete tear |
+| Meniscus tear from rotational forces during entry | High | 6-12 weeks with possible surgical intervention |
+| Hyperextension injury to knee joint capsule | Medium | 2-6 weeks |
+| Landing injuries (ankle sprains, hip impact, head trauma from failed entries) | Medium | Variable: 2-8 weeks depending on severity |
+
+
+**Application Speed**: EXTREMELY SLOW and controlled - 5-7 seconds minimum in training, NEVER use competition speed during practice
+
+**Tap Signals**:
+- Verbal tap (say 'tap' clearly)
+- Physical hand tap (tap partner's body or mat repeatedly)
+- Physical foot tap (tap mat with free foot)
+- Any distress signal or unusual sounds
+- Loss of resistance or sudden relaxation (treat as emergency tap)
+
+
+**Release Protocol**:
+1. Immediately release hip pressure and stop extending the knee
+2. Release leg grip and allow partner's leg to return to neutral position
+3. Roll away from the leg to create space
+4. Check with partner verbally before continuing training
+5. If uncertain about injury, stop training and assess knee stability
+
+
+**Training Restrictions**:
+- NEVER practice at full speed or with live resistance until brown belt level minimum
+- NEVER spike or jerk the submission - slow, progressive pressure only
+- NEVER practice on training partners with existing knee injuries
+- Always crash pad training for initial learning phases (weeks 1-8)
+- Beginners and intermediates should ONLY practice the entry with zero resistance
+- Always allow partner full tap access - never control both arms during finish
+- Require explicit consent before attempting this submission on training partners
+- Competition-banned in many rulesets (IBJJF white/blue belt) - know your tournament rules
+
 
 </section>
 

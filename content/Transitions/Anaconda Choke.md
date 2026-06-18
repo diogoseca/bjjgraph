@@ -34,6 +34,18 @@ description: "Master the Anaconda Choke in BJJ. Step-by-step execution from Fron
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Anaconda Choke",
+  "description": "The Anaconda Choke is a no-gi blood strangle finished from the front headlock by threading your choking arm under the opponent's near armpit and around their neck, then gator-rolling to compress the carotids against their own trapped shoulder.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Anaconda Choke in BJJ. Step-by-step execution from Fron
 </div>
 
 <section id="overview" class="content-section">
+
+**The Anaconda Choke is a no-gi blood strangle finished from the front headlock by threading your choking arm under the opponent's near armpit and around their neck, then gator-rolling to compress the carotids against their own trapped shoulder.**
 
 The Anaconda Choke is a powerful arm-in head-and-arm choke that creates devastating compression against the carotid arteries. Unlike the Darce which threads from under the armpit, the anaconda grip enters from the front by threading under the opponent's near arm and around their neck, with hands clasped on the far side. This creates a constricting loop that tightens as you pull your choking elbow toward your hip while driving chest pressure into their trapped shoulder.
 

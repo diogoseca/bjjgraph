@@ -34,6 +34,18 @@ description: "Master the Jailbreak position in BJJ. Advanced half guard escape s
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Jailbreak",
+  "description": "The Jailbreak is a dynamic half guard junction where the bottom player explosively inverts off an underhook to escape crushing pressure while the top player navigates extended leg frames to finish the pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Jailbreak position in BJJ. Advanced half guard escape s
 </div>
 
 <section id="overview" class="content-section">
+
+**The Jailbreak is a dynamic half guard junction where the bottom player explosively inverts off an underhook to escape crushing pressure while the top player navigates extended leg frames to finish the pass.**
 
 The Jailbreak position represents a critical dynamic state in the half guard game, characterized by explosive movement and strategic risk-taking to escape dominant pressure. This position manifests in two distinct perspectives: from bottom, it is an advanced escape technique using inversion and momentum to break free from crushing pressure, while from top, it is a transitional passing position where maintaining control through extended leg barriers determines success.
 

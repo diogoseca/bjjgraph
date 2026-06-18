@@ -34,6 +34,18 @@ description: "Master the Stack Pass from Double Unders in BJJ. Learn to stack op
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Pass from Double Unders",
+  "description": "The Stack Pass from Double Unders is a pressure-passing finish where the top player, having secured both underhooks, walks their knees forward to fold the opponent onto their shoulders and clears the legs into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Stack Pass from Double Unders in BJJ. Learn to stack op
 
 <section id="overview" class="content-section">
 
-The Stack Pass from Double Unders is a high-pressure guard passing technique that exploits bilateral underhook control to fold the opponent's body onto their shoulders, eliminating hip mobility and creating an unstoppable forward drive toward side control. Once both underhooks are secured beneath the opponent's legs, the passer drives forward through the hips, walking the knees toward the opponent's head while maintaining a tight grip connection behind their back. This vertical stacking pressure compresses the opponent's spine, severely restricts breathing, and removes all leverage for guard recovery or hip escape.
+**The Stack Pass from Double Unders is a pressure-passing finish where the top player, having secured both underhooks, walks their knees forward to fold the opponent onto their shoulders and clears the legs into side control.**
+
+Sitting at the finishing end of the double unders pressure system, the Stack Pass converts established bilateral underhook control into a vertical fold that loads the opponent onto their own shoulders and removes every avenue of hip recovery. Once both underhooks are secured beneath the opponent's legs, the passer drives forward through the hips, walking the knees toward the opponent's head while maintaining a tight grip connection behind their back. This vertical stacking pressure compresses the opponent's spine, severely restricts breathing, and removes all leverage for guard recovery or hip escape.
 
 The technique operates on a fundamental biomechanical principle: when the opponent's hips are elevated above their shoulders, they lose the ability to generate lateral hip movement, which is the foundation of all guard retention. The passer converts horizontal double unders pressure into a vertical stack, pinning the opponent's weight onto their upper back and neck. From this compressed position, the passer then chooses a side to pass, clearing the legs and settling into side control. The stack pass is particularly effective against opponents who maintain a flat back and rely on framing rather than hip mobility for defense, as their frames become structurally compromised once they are loaded onto their shoulders.
 

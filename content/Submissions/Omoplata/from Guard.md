@@ -33,10 +33,32 @@ description: "Master Omoplata from Guard in BJJ. Complete shoulder lock guide wi
 }
 </script>
 
-> **SAFETY**: Omoplata from Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata from Guard",
+  "description": "The Omoplata from Guard is a bottom-guard shoulder lock that traps the opponent's arm with your legs and rotates their shoulder through forward hip extension, doubling as a high-percentage sweep and back-take launchpad.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Omoplata from Guard is a bottom-guard shoulder lock that traps the opponent's arm with your legs and rotates their shoulder through forward hip extension, doubling as a high-percentage sweep and back-take launchpad.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint and rotator cuff</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Omoplata from Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,55 +69,11 @@ description: "Master Omoplata from Guard in BJJ. Complete shoulder lock guide wi
 
 <section id="overview" class="content-section">
 
-The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's rotator cuff and shoulder joint through hip extension and shoulder rotation. This submission originated from Brazilian Jiu-Jitsu's guard-playing traditions and has evolved into a central hub technique that connects sweeps, back takes, and other submissions. The Omoplata creates a mechanical advantage by using the legs to control the opponent's arm while the hips generate rotational pressure on the shoulder. Unlike many submissions that finish quickly, the Omoplata is often used as a position to create movement and opportunity - sweeps when opponent defends by rolling, back takes when they turn away, or transitions to triangles and armbars when they posture. The technique requires excellent hip mobility, timing, and understanding of how to maintain control throughout the finish. As a fundamental guard submission, the Omoplata teaches important principles about using legs for control, creating angles, and maintaining offensive pressure from bottom positions.
+Although it lives in the submission category, the Omoplata from Guard earns its place in a serious guard game as a positional hub rather than a pure finishing hold. By threading a leg over the opponent's shoulder and trapping the arm against your hip, you force a dilemma: defend the shoulder lock and concede a sweep, or roll and surrender the back. The finish itself comes from rotating the shoulder past its range through forward hip extension while the leg triangle and hip-to-back connection deny every escape lane.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Overhook Guard]] (Bottom)
-**Success Rate**: 60%
+What makes the Omoplata so valuable for the developing player is its connectivity. A well-defended Triangle flows into it, a posture-up defense opens the armbar, a forward roll becomes a sweep to mount, and a turn-away becomes a back take. This web of follow-ups means the position keeps paying dividends even when the tap never comes, which is why it remains a staple from blue belt through the black-belt competition scene. Mastery rewards hip mobility, precise angle creation, and the discipline to maintain offensive pressure from underneath rather than chasing a single outcome.
 
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear or strain | High | 6-12 weeks for strain, 3-6 months for tear |
-| Shoulder dislocation | CRITICAL | 3-6 months, potential permanent instability |
-| AC joint separation | Medium | 4-8 weeks |
-| Labrum tear | High | 4-6 months with surgery |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum extension, pause at resistance
-
-**Tap Signals**:
-- Verbal tap or 'tap' call
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress vocalization or irregular movement
-
-
-**Release Protocol**:
-1. Immediately stop hip extension and forward pressure
-2. Retract hips backward to reduce shoulder rotation
-3. Release leg triangle and remove leg from over opponent's shoulder
-4. Allow opponent to safely extract arm and assess shoulder mobility
-5. Check with partner verbally before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission with sudden hip extension
-- Never use competition speed or explosive finishing in training
-- Always allow partner's hand access to tap throughout the sequence
-- Never finish the submission fully in training - stop at light pressure
-- Prohibit training with partners who have pre-existing shoulder injuries without medical clearance
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Overhook Guard]] (Bottom)
 
 </section>
 
@@ -279,12 +257,10 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Omoplata]]
-- [[Submissions/Triangle Choke]]
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Kimura]]
@@ -292,14 +268,6 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 - [[Submissions/Baratoplata]]
 - [[Submissions/Monoplata]]
 - [[Transitions/Inverted Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Transitions/Omoplata Sweep]] - Primary sweep when opponent rolls forward to escape submission pressure
 - [[Transitions/Omoplata to Back]] - Transition when opponent turns away from shoulder pressure to expose their back
 - [[Positions/Spider Guard]] - High-percentage entry using foot-on-bicep control to facilitate leg swing
@@ -312,16 +280,46 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 - [[Positions/Back Control]] - Alternative finish when opponent turns away from shoulder pressure
 - [[Positions/Mount]] - Sweep destination when opponent rolls forward to escape
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Omoplata from Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear or strain | High | 6-12 weeks for strain, 3-6 months for tear |
+| Shoulder dislocation | CRITICAL | 3-6 months, potential permanent instability |
+| AC joint separation | Medium | 4-8 weeks |
+| Labrum tear | High | 4-6 months with surgery |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum extension, pause at resistance
+
+**Tap Signals**:
+- Verbal tap or 'tap' call
+- Physical hand tap on partner or mat
+- Physical foot tap on mat
+- Any distress vocalization or irregular movement
+
+
+**Release Protocol**:
+1. Immediately stop hip extension and forward pressure
+2. Retract hips backward to reduce shoulder rotation
+3. Release leg triangle and remove leg from over opponent's shoulder
+4. Allow opponent to safely extract arm and assess shoulder mobility
+5. Check with partner verbally before continuing training
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission with sudden hip extension
+- Never use competition speed or explosive finishing in training
+- Always allow partner's hand access to tap throughout the sequence
+- Never finish the submission fully in training - stop at light pressure
+- Prohibit training with partners who have pre-existing shoulder injuries without medical clearance
+
 
 </section>
 

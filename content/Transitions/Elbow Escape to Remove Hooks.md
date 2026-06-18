@@ -34,6 +34,18 @@ description: "Master Elbow Escape to Remove Hooks from back control. Step-by-ste
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Elbow Escape to Remove Hooks",
+  "description": "The Elbow Escape to Remove Hooks is a systematic back-control escape where the bottom player wedges an elbow against each hook and shrimps free one hook at a time, clearing leg control to recover guard while keeping the neck defended.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Elbow Escape to Remove Hooks from back control. Step-by-ste
 
 <section id="overview" class="content-section">
 
-The Elbow Escape to Remove Hooks is a systematic defensive technique used to escape back control by methodically clearing the opponent's hooks using elbow-based framing and hip movement. When trapped in the invisible collar position, the defender faces both positional disadvantage and immediate submission threat. This escape addresses the hook control that anchors back position before dealing with upper body attacks.
+**The Elbow Escape to Remove Hooks is a systematic back-control escape where the bottom player wedges an elbow against each hook and shrimps free one hook at a time, clearing leg control to recover guard while keeping the neck defended.**
+
+Because back control rests on the opponent's hooks anchoring your hips, no rotation or guard recovery is possible until those hooks are cleared—this escape attacks that foundation first. When trapped in the invisible collar position, the defender faces both positional disadvantage and immediate submission threat, so this escape addresses the hook control that anchors back position before dealing with upper body attacks.
 
 The fundamental concept involves using your elbows as wedges against your opponent's hooks while creating space through hip escapes. Rather than fighting the choking grip directly, this technique attacks the foundation of their control—the hooks that prevent you from turning. By systematically removing hooks one at a time, you create rotational freedom that eventually allows guard recovery.
 

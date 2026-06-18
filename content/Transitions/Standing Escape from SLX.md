@@ -34,6 +34,18 @@ description: "Master the Standing Escape from Single Leg X-Guard. Learn proper b
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Escape from SLX",
+  "description": "The Standing Escape from SLX is a defensive disengagement in which the top player, trapped in Single Leg X-Guard, systematically clears the opponent's hooks and extracts the trapped leg to return to neutral standing instead of passing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Standing Escape from Single Leg X-Guard. Learn proper b
 </div>
 
 <section id="overview" class="content-section">
+
+**The Standing Escape from SLX is a defensive disengagement in which the top player, trapped in Single Leg X-Guard, systematically clears the opponent's hooks and extracts the trapped leg to return to neutral standing instead of passing.**
 
 The Standing Escape from Single Leg X-Guard is a fundamental defensive technique for the top player trapped in an opponent's SLX configuration. Rather than engaging in the complex passing game that SLX demands, this escape prioritizes complete disengagement by returning to a neutral standing position. The technique centers on systematic hook clearing, proper base management with the free leg, and controlled extraction of the trapped leg without exposing yourself to sweeps or leg lock entries during the withdrawal.
 

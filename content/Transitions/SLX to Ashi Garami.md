@@ -34,6 +34,18 @@ description: "Master SLX to Ashi Garami in BJJ. Complete guide to transitioning 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "SLX to Ashi Garami",
+  "description": "SLX to Ashi Garami is a leg-entanglement transition that converts Single Leg X-Guard control into Inside Ashi-Garami by securing heel control before threading the inside leg across the opponent's hip, opening direct leg-lock attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master SLX to Ashi Garami in BJJ. Complete guide to transitioning 
 </div>
 
 <section id="overview" class="content-section">
+
+**SLX to Ashi Garami is a leg-entanglement transition that converts Single Leg X-Guard control into Inside Ashi-Garami by securing heel control before threading the inside leg across the opponent's hip, opening direct leg-lock attacks.**
 
 The SLX to Ashi Garami transition represents one of the most fundamental pathways in modern leg lock systems, connecting the sweeping-oriented Single Leg X-Guard with the submission-focused Inside Ashi-Garami. This transition allows the bottom player to shift from a guard retention and sweeping platform into a dedicated leg attack configuration without passing through neutral scramble positions. The mechanics rely on controlled leg repositioning while maintaining continuous contact with the opponent's trapped leg, ensuring no gap exists for escape during the positional change.
 

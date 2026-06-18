@@ -34,6 +34,18 @@ description: "Escape Dead Orchard Control in BJJ with systematic frame defense a
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Dead Orchard Control",
+  "description": "Escaping Dead Orchard Control is a frame-first defensive sequence that wedges the choking arm at the elbow, then hip-escapes perpendicular to the opponent's force to relieve the anaconda compression and recover toward front headlock or half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Escape Dead Orchard Control in BJJ with systematic frame defense a
 </div>
 
 <section id="overview" class="content-section">
+
+**Escaping Dead Orchard Control is a frame-first defensive sequence that wedges the choking arm at the elbow, then hip-escapes perpendicular to the opponent's force to relieve the anaconda compression and recover toward front headlock or half guard.**
 
 The Escape Dead Orchard Control is a systematic defensive sequence designed to extract the practitioner from one of the most dangerous front headlock variations in modern grappling. The Dead Orchard position, developed within the 10th Planet system, combines anaconda grip mechanics with sustained positional pressure that creates both immediate submission threat and progressive positional deterioration. Escaping requires methodical frame establishment, precise timing, and disciplined energy management rather than explosive movements that typically worsen the position.
 

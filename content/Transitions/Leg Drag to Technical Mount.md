@@ -34,6 +34,18 @@ description: "Master the Leg Drag to Technical Mount transition in BJJ. Step-by-
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag to Technical Mount",
+  "description": "Leg Drag to Technical Mount is a guard-passing advancement where the top player converts leg drag hip control into technical mount, sliding a knee behind the turned opponent's back to arrive with immediate armbar and arm-triangle threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Leg Drag to Technical Mount transition in BJJ. Step-by-
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag to Technical Mount is a guard-passing advancement where the top player converts leg drag hip control into technical mount, sliding a knee behind the turned opponent's back to arrive with immediate armbar and arm-triangle threats.**
 
 The Leg Drag to Technical Mount transition represents a highly efficient pathway from guard passing to a dominant top position. Unlike the standard mount transition which requires clearing the opponent's hips completely, technical mount allows you to secure a controlling position while the opponent remains partially on their side—the exact orientation created by effective leg drag pressure.
 

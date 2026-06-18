@@ -1,5 +1,6 @@
 {
   "name": "Reverse Mount to Side Control",
+  "summary": "Reverse Mount to Side Control is a top-position conversion in which the mounted player drives a controlled 90-degree hip rotation out of the backward-facing reverse mount into perpendicular, chest-to-chest side control for a more stable, submission-rich pin.",
   "description": "Master the Reverse Mount to Side Control transition in BJJ. Step-by-step hip rotation, weight transfer, and crossface techniques for dominant side control.",
   "tags": [
     "bjj",
@@ -73,12 +74,8 @@
       "relationship": "Alternative transition from the same starting position, converting to standard mount instead of side control"
     },
     {
-      "name": "Bridge from Reverse Mount",
-      "relationship": "Primary defensive counter the bottom player uses to disrupt this transition"
-    },
-    {
-      "name": "Escape Reverse Mount",
-      "relationship": "Defender's escape technique that the attacker must prevent before initiating rotation"
+      "name": "Armbar from Reverse Mount",
+      "relationship": "Submission option from source position that may be attempted before deciding to convert to side control"
     },
     {
       "name": "Mount",
@@ -89,12 +86,12 @@
       "relationship": "Alternative progression from reverse mount offering superior control but requiring hook insertion"
     },
     {
-      "name": "Armbar from Reverse Mount",
-      "relationship": "Submission option from source position that may be attempted before deciding to convert to side control"
-    },
-    {
       "name": "North-South",
       "relationship": "Follow-up position accessible from side control after completing this transition"
+    },
+    {
+      "name": "Side Control to Mount",
+      "relationship": "Natural follow-up transition that advances from the side control reached here to standard mount"
     }
   ],
   "attacker": {

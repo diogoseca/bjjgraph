@@ -34,6 +34,18 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard",
+  "description": "Half Guard is an asymmetric BJJ position where one player traps a single leg of their opponent between both of their own legs, creating a contested platform for sweeps, passes, submissions, and back takes from either top or bottom.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
 </div>
 
 <section id="overview" class="content-section">
+
+**Half Guard is an asymmetric BJJ position where one player traps a single leg of their opponent between both of their own legs, creating a contested platform for sweeps, passes, submissions, and back takes from either top or bottom.**
 
 Half Guard represents one of the most strategically complex positions in Brazilian Jiu-Jitsu, existing at the critical intersection between guard retention and being passed. This position is characterized by one player trapping a single leg of their opponent between their own legs, creating an asymmetric control structure that offers unique offensive and defensive possibilities for both practitioners. Unlike symmetric guard positions where both legs are either inside or outside the opponent's legs, Half Guard's one-leg-in, one-leg-out configuration creates distinct mechanical advantages and vulnerabilities that require specialized technical knowledge.
 
@@ -128,21 +142,21 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (19% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (18% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (12% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (11% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (8% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (7% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (8% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (7% of attempts)
 
 - **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (5% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (5% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
 
-- **[[Transitions/Deep Half Entry from Half Guard/Attacker|Deep Half Entry from Half Guard]]** (16% of attempts)
+- **[[Transitions/Deep Half Entry from Half Guard/Attacker|Deep Half Entry from Half Guard]]** (15% of attempts)
 
-- **[[Transitions/Knee Torque Sweep/Attacker|Knee Torque Sweep]]** (5% of attempts)
+- **[[Transitions/Knee Torque Sweep/Attacker|Knee Torque Sweep]]** (4% of attempts)
 
 - **[[Transitions/Half Guard to X-Guard/Attacker|Half Guard to X-Guard]]** (4% of attempts)
 
@@ -159,6 +173,10 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Transitions/Half Guard to Old School/Attacker|Half Guard to Old School]]** (2% of attempts)
 
 - **[[Positions/Buggy Choke/Attacker|Buggy Choke]]** (2% of attempts)
+
+- **[[Buggy Choke from Half Guard/Attacker|Buggy Choke from Half Guard]]** (4% of attempts)
+
+- **[[Kneebar from Half Guard/Attacker|Kneebar from Half Guard]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -219,13 +237,13 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (28% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (27% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (15% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (14% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (11% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (7% of attempts)
 
 - **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (5% of attempts)
 
@@ -252,6 +270,10 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Transitions/Half Guard to Triangle Escape Position/Attacker|Half Guard to Triangle Escape Position]]** (2% of attempts)
 
 - **[[Submissions/Suloev Stretch/Attacker|Suloev Stretch]]** (2% of attempts)
+
+- **[[Loop Choke from Half Guard/Attacker|Loop Choke from Half Guard]]** (2% of attempts)
+
+- **[[Suloev Stretch from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

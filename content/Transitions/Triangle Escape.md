@@ -34,6 +34,18 @@ description: "Master Triangle Escape in BJJ. Defensive strategies to escape tria
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Escape",
+  "description": "The Triangle Escape is the trapped player's defensive sequence for breaking out of a triangle choke by recovering posture, pinning the trapped arm, stacking the opponent's hips, and circling toward the trapped-arm side to free the head.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Triangle Escape in BJJ. Defensive strategies to escape tria
 
 <section id="overview" class="content-section">
 
-The Triangle Escape is a critical defensive technique for escaping one of Brazilian Jiu-Jitsu's most dominant submission positions. When caught in a triangle choke, the defender faces a race against time as blood flow to the brain becomes restricted. Understanding the mechanics of the triangle allows practitioners to identify escape windows and execute proper defensive sequences. The escape requires a combination of posture management, pressure redirection, and strategic positioning to break the configuration before the choke becomes fully locked. Early recognition and immediate defensive action dramatically increase escape success rates, making this skill essential for all practitioners. The triangle escape encompasses multiple strategies depending on the stage of the attack, from preventing the initial lock to escaping fully secured positions. Advanced practitioners develop sensitivity to triangle entries and can abort attacks before they materialize, while beginners must focus on fundamental escape mechanics and preventing the worst-case scenario of a fully locked submission.
+**The Triangle Escape is the trapped player's defensive sequence for breaking out of a triangle choke by recovering posture, pinning the trapped arm, stacking the opponent's hips, and circling toward the trapped-arm side to free the head.**
+
+As one of the highest-percentage submissions in Brazilian Jiu-Jitsu, the triangle choke forces every top player and guard passer to develop a dependable escape that functions before the lock fully matures. When caught in a triangle choke, the defender faces a race against time as blood flow to the brain becomes restricted. Understanding the mechanics of the triangle allows practitioners to identify escape windows and execute proper defensive sequences. The escape requires a combination of posture management, pressure redirection, and strategic positioning to break the configuration before the choke becomes fully locked. Early recognition and immediate defensive action dramatically increase escape success rates, making this skill essential for all practitioners. The triangle escape encompasses multiple strategies depending on the stage of the attack, from preventing the initial lock to escaping fully secured positions. Advanced practitioners develop sensitivity to triangle entries and can abort attacks before they materialize, while beginners must focus on fundamental escape mechanics and preventing the worst-case scenario of a fully locked submission.
 
 **From Position**: [[Positions/Triangle Control]] (Top)
 **Success Rate**: 60%

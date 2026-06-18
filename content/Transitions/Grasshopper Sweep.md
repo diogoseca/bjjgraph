@@ -34,6 +34,18 @@ description: "Master Grasshopper Sweep in BJJ. Inverted guard sweep using hip el
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Grasshopper Sweep",
+  "description": "The Grasshopper Sweep is an inverted-guard elevation sweep where the bottom player bases on their shoulders, hooks behind the opponent's knees, and drives the hips upward to lift and dump them backward, landing directly in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Grasshopper Sweep in BJJ. Inverted guard sweep using hip el
 
 <section id="overview" class="content-section">
 
-The Grasshopper Sweep is a dynamic elevation sweep executed from the inverted Grasshopper Guard position, designed to off-balance a standing or kneeling opponent and transition directly to Mount. This technique leverages the unique mechanics of inverted guards where the bottom practitioner uses their shoulders as a base while driving their hips upward into the opponent's center of mass.
+**The Grasshopper Sweep is an inverted-guard elevation sweep where the bottom player bases on their shoulders, hooks behind the opponent's knees, and drives the hips upward to lift and dump them backward, landing directly in mount.**
+
+Within the Grasshopper Guard system, this elevation sweep is the high-reward "come up" option that converts the inverted leg-attack threat into a dominant top position. It leverages the unique mechanics of inverted guards where the bottom practitioner uses their shoulders as a base while driving their hips upward into the opponent's center of mass.
 
 The sweep capitalizes on the opponent's forward commitment or narrow base, using leg hooks behind their knees combined with explosive hip elevation to lift and dump them backward. Unlike traditional sweeps that rely on lateral off-balancing, the Grasshopper Sweep works primarily in the vertical plane, making it particularly effective when opponents attempt to pressure forward into the guard.
 

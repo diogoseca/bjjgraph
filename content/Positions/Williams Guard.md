@@ -34,6 +34,18 @@ description: "Master Williams Guard in BJJ. Innovative shoulder lock guard with 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Williams Guard",
+  "description": "Williams Guard is a bottom open guard that traps one of the opponent's arms in a shoulder-lock grip, weaponizing the joint threat to break posture, deny posts, and force reactions that open sweeps, omoplatas, and back-takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Williams Guard in BJJ. Innovative shoulder lock guard with 
 
 <section id="overview" class="content-section">
 
-Williams Guard is an innovative open guard position characterized by controlling one of the opponent's arms in a shoulder lock configuration while maintaining guard structure. Named after creator Roy Williams, this position combines elements of traditional guard retention with unique shoulder manipulation that creates both offensive and defensive opportunities. The practitioner on bottom secures the opponent's arm in a shoulder lock grip while using their legs to maintain distance and create angles for sweeps and submissions. This guard is particularly effective against opponents who attempt aggressive passing strategies, as it neutralizes their posting ability and creates immediate submission threats.
+**Williams Guard is a bottom open guard that traps one of the opponent's arms in a shoulder-lock grip, weaponizing the joint threat to break posture, deny posts, and force reactions that open sweeps, omoplatas, and back-takes.**
+
+Named after its creator Roy Williams, Williams Guard emerged from the modern no-gi era as a method of weaponizing a shoulder lock for positional control rather than relying on collar-and-sleeve grips. It combines traditional guard retention with unique shoulder manipulation that creates both offensive and defensive opportunities. The practitioner on bottom secures the opponent's arm in a shoulder lock grip while using their legs to maintain distance and create angles for sweeps and submissions. This guard is particularly effective against opponents who attempt aggressive passing strategies, as it neutralizes their posting ability and creates immediate submission threats.
 
 The position exemplifies the evolution of modern BJJ guard systems by integrating joint manipulation with positional control, forcing opponents into defensive reactions that open sweep opportunities. Williams Guard functions as a control hub from which multiple attacking sequences emerge—the shoulder lock itself serves primarily as a control mechanism rather than a finishing hold, though the submission remains a legitimate threat. Opponents face a mechanical dilemma: defending the shoulder lock opens sweeping opportunities, while attempting to pass guard intensifies submission danger.
 
@@ -125,19 +139,21 @@ From the top perspective, Williams Guard presents significant challenges requiri
 
 - **[[Williams Shoulder Lock from Williams Guard/Attacker|Williams Shoulder Lock from Williams Guard]]** (13% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (15% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (14% of attempts)
 
 - **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (12% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (18% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (17% of attempts)
 
 - **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (11% of attempts)
 
 - **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (12% of attempts)
 
-- **[[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Rolling Armbar from Closed Guard]]** (13% of attempts)
+- **[[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Rolling Armbar from Closed Guard]]** (12% of attempts)
 
 - **[[Transitions/Williams Guard Sweep/Attacker|Williams Guard Sweep]]** (6% of attempts)
+
+- **[[Belly Down Armbar from Williams Guard/Attacker|Belly Down Armbar from Williams Guard]]** (3% of attempts)
 
 
 ### Common Mistakes

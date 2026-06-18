@@ -35,6 +35,18 @@ description: "Master X-Guard in BJJ with comprehensive analysis covering sweeps,
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "X-Guard",
+  "description": "X-Guard is a bottom open-guard position where you trap one of a standing opponent's legs between both of your own in an X-shaped configuration, removing a posting base to power high-percentage elevation sweeps and leg-lock entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -49,7 +61,9 @@ description: "Master X-Guard in BJJ with comprehensive analysis covering sweeps,
 
 <section id="overview" class="content-section">
 
-X-Guard is an advanced open guard position where the bottom practitioner entangles one of the opponent's legs using both of their own legs in an 'X' configuration, creating powerful leverage for sweeps and transitions. This position provides exceptional control over the opponent's balance and mobility by eliminating one of their posting bases while creating strong elevating forces. Developed and popularized by Marcelo Garcia, X-Guard has become a fundamental component of modern BJJ guard systems, particularly in no-gi competition where it offers high-percentage sweeps against standing opponents. The position serves as a critical junction point between traditional sweeping guards and modern leg entanglement systems, offering both offensive sweep opportunities and pathways to ashi garami positions. The mechanical advantage stems from creating a fulcrum underneath the opponent's center of gravity while simultaneously removing one of their two posting bases, resulting in a dramatic reduction in their base stability. The X-Guard configuration uses the inside leg to hook deeply behind the opponent's near knee while the outside leg crosses their hip line, forming the characteristic 'X' pattern. This dual-leg control system creates three simultaneous mechanical advantages: elevation through the inside hook, distance management through the outside leg frame, and rotational control through the combined angular pressure of both legs working in opposition. The position fundamentally changes the dynamics of a standing-versus-guard engagement because the bottom player's legs are stronger than any grip-based retention system. Unlike guards that rely on sleeve, collar, or pant grips for control, X-Guard derives its power entirely from structural leg placement and hip positioning. This makes it uniquely resistant to grip-breaking strategies and equally effective in gi and no-gi competition. The guard integrates naturally with Single Leg X-Guard, Reverse X-Guard, and Butterfly Guard, creating an interconnected system where defensive reactions to one variation expose vulnerabilities to another. For advanced practitioners, X-Guard represents more than just a sweeping position. It serves as an entry platform to modern leg entanglement systems including ashi garami, honey hole, and outside ashi positions. When the opponent attempts to sit back or disengage from sweeps, they often expose their legs to entanglement entries that lead directly to heel hooks, kneebars, and other lower body submissions. This dual-threat nature, combining sweeps with leg lock entries, makes X-Guard one of the most strategically valuable open guard positions in contemporary grappling.
+**X-Guard is a bottom open-guard position where you trap one of a standing opponent's legs between both of your own in an X-shaped configuration, removing a posting base to power high-percentage elevation sweeps and leg-lock entries.**
+
+Few bottom positions reshape a standing exchange as decisively as X-Guard, which turns the bottom player's legs into the strongest control structure on the mat. This position provides exceptional control over the opponent's balance and mobility by eliminating one of their posting bases while creating strong elevating forces. Developed and popularized by Marcelo Garcia, X-Guard has become a fundamental component of modern BJJ guard systems, particularly in no-gi competition where it offers high-percentage sweeps against standing opponents. The position serves as a critical junction point between traditional sweeping guards and modern leg entanglement systems, offering both offensive sweep opportunities and pathways to ashi garami positions. The mechanical advantage stems from creating a fulcrum underneath the opponent's center of gravity while simultaneously removing one of their two posting bases, resulting in a dramatic reduction in their base stability. The X-Guard configuration uses the inside leg to hook deeply behind the opponent's near knee while the outside leg crosses their hip line, forming the characteristic 'X' pattern. This dual-leg control system creates three simultaneous mechanical advantages: elevation through the inside hook, distance management through the outside leg frame, and rotational control through the combined angular pressure of both legs working in opposition. The position fundamentally changes the dynamics of a standing-versus-guard engagement because the bottom player's legs are stronger than any grip-based retention system. Unlike guards that rely on sleeve, collar, or pant grips for control, X-Guard derives its power entirely from structural leg placement and hip positioning. This makes it uniquely resistant to grip-breaking strategies and equally effective in gi and no-gi competition. The guard integrates naturally with Single Leg X-Guard, Reverse X-Guard, and Butterfly Guard, creating an interconnected system where defensive reactions to one variation expose vulnerabilities to another. For advanced practitioners, X-Guard represents more than just a sweeping position. It serves as an entry platform to modern leg entanglement systems including ashi garami, honey hole, and outside ashi positions. When the opponent attempts to sit back or disengage from sweeps, they often expose their legs to entanglement entries that lead directly to heel hooks, kneebars, and other lower body submissions. This dual-threat nature, combining sweeps with leg lock entries, makes X-Guard one of the most strategically valuable open guard positions in contemporary grappling.
 
 </section>
 
@@ -120,11 +134,11 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (37% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (35% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (16% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (15% of attempts)
 
-- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (14% of attempts)
+- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (13% of attempts)
 
 - **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (7% of attempts)
 
@@ -132,11 +146,13 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 
 - **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (6% of attempts)
 
-- **[[Transitions/Tomahawk Sweep/Attacker|Tomahawk Sweep]]** (11% of attempts)
+- **[[Transitions/Tomahawk Sweep/Attacker|Tomahawk Sweep]]** (10% of attempts)
 
 - **[[Transitions/X-Guard Technical Stand Up/Attacker|X-Guard Technical Stand Up]]** (2% of attempts)
 
-- **[[Transitions/X-Guard to Single Leg X/Attacker|X-Guard to Single Leg X]]** (1% of attempts)
+- **[[Transitions/X-Guard to Single Leg X/Attacker|X-Guard to Single Leg X]]** (2% of attempts)
+
+- **[[Ankle Lock from X-Guard/Attacker|Ankle Lock from X-Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -197,27 +213,27 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (61% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (16% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (6% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (4% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (7% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (2% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (5% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (6% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (9% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (2% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (5% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (6% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
 
-- **[[Transitions/Knee Pin from X-Guard/Attacker|Knee Pin from X-Guard]]** (0% of attempts)
+- **[[Transitions/Knee Pin from X-Guard/Attacker|Knee Pin from X-Guard]]** (7% of attempts)
 
-- **[[Transitions/Step Over from X-Guard/Attacker|Step Over from X-Guard]]** (0% of attempts)
+- **[[Transitions/Step Over from X-Guard/Attacker|Step Over from X-Guard]]** (6% of attempts)
 
-- **[[Transitions/Smash Pass from X-Guard/Attacker|Smash Pass from X-Guard]]** (12% of attempts)
+- **[[Transitions/Smash Pass from X-Guard/Attacker|Smash Pass from X-Guard]]** (18% of attempts)
 
-- **[[Transitions/Standing Escape from X-Guard/Attacker|Standing Escape from X-Guard]]** (1% of attempts)
+- **[[Transitions/Standing Escape from X-Guard/Attacker|Standing Escape from X-Guard]]** (10% of attempts)
 
 
 ### Common Mistakes

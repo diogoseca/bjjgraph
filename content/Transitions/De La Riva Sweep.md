@@ -34,6 +34,18 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La R
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "De La Riva Sweep",
+  "description": "The De La Riva Sweep is a hook-based off-balancing sweep from De La Riva Guard where the bottom player extends the DLR hook while pulling the sleeve and collar to topple a posturing passer and come up to top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La R
 
 <section id="overview" class="content-section">
 
-The De La Riva Sweep is a fundamental attacking technique from the De La Riva Guard position that allows the bottom player to off-balance and sweep their opponent to achieve top position. This sweep exploits the mechanical disadvantage created when the opponent's weight is distributed across a compromised base, using the De La Riva hook and strategic grips to control and manipulate their center of gravity. The technique is highly effective in gi-based Brazilian Jiu-Jitsu and forms the foundation of an entire guard system.
+**The De La Riva Sweep is a hook-based off-balancing sweep from De La Riva Guard where the bottom player extends the DLR hook while pulling the sleeve and collar to topple a posturing passer and come up to top position.**
+
+As the foundational off-balancing attack of the De La Riva system, this sweep turns a passer's forward commitment or attempt to clear the hook into a clean path to the top position. It exploits the mechanical disadvantage created when the opponent's weight is distributed across a compromised base, using the De La Riva hook and strategic grips to control and manipulate their center of gravity. The technique is highly effective in gi-based Brazilian Jiu-Jitsu and forms the foundation of an entire guard system.
 
 The De La Riva Sweep works by creating a powerful lever system using the De La Riva hook (leg wrapped around opponent's leg from outside), combined with strategic sleeve and collar grips. By extending the hooked leg while pulling with the grips, the practitioner generates rotational force that disrupts the opponent's base and drives them to the mat. The sweep can lead to various dominant positions including side control, mount, or back control, depending on how the opponent reacts and falls.
 

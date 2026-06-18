@@ -34,6 +34,18 @@ description: "Master the Transition to Rodeo Ride from turtle top in BJJ. Learn 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turtle to Rodeo Ride",
+  "description": "Turtle to Rodeo Ride is an advanced turtle-top transition where the attacker abandons symmetric chest-to-back pressure to load their hips perpendicular across a turtled opponent's torso, unlocking back takes, clock chokes, and crucifix entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Transition to Rodeo Ride from turtle top in BJJ. Learn 
 
 <section id="overview" class="content-section">
 
-The Transition to Rodeo Ride is an advanced positional advancement from turtle top that shifts from standard turtle control into a dynamic, asymmetric riding position. Rather than maintaining traditional chest-to-back pressure with equal weight distribution, this transition involves deliberately angling your body perpendicular to your opponent's spine while loading your hips onto their torso and establishing near-arm control. The result is a position that offers significantly more offensive options than standard turtle top while making it harder for the bottom player to execute conventional turtle escapes.
+**Turtle to Rodeo Ride is an advanced turtle-top transition where the attacker abandons symmetric chest-to-back pressure to load their hips perpendicular across a turtled opponent's torso, unlocking back takes, clock chokes, and crucifix entries.**
+
+Within the turtle attack hierarchy, the Transition to Rodeo Ride occupies the bridge between basic top control and high-percentage back attacks, converting standard turtle pressure into a dynamic, asymmetric riding position. Rather than maintaining traditional chest-to-back pressure with equal weight distribution, this transition involves deliberately angling your body perpendicular to your opponent's spine while loading your hips onto their torso and establishing near-arm control. The result is a position that offers significantly more offensive options than standard turtle top while making it harder for the bottom player to execute conventional turtle escapes.
 
 The key mechanical distinction is the shift from bilateral to unilateral pressure. In standard turtle control, your weight distributes evenly across the opponent's back. In Rodeo Ride, you deliberately create asymmetric pressure by posting one leg for base while driving hip pressure through the opposite side of their body. This asymmetry forces the bottom player to defend multiple vectors simultaneously—they cannot simply bridge or granby in one direction because your posted leg anchors you against movement toward that side, while your loaded hip prevents movement the other way.
 

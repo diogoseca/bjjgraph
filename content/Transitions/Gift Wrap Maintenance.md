@@ -34,6 +34,18 @@ description: "Master Gift Wrap Maintenance in BJJ. Learn arm trap retention, con
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap Maintenance",
+  "description": "Gift Wrap Maintenance is the back-control retention transition where the attacker continuously readjusts the trapped-arm wrap, hooks, and chest connection to deny limb recovery and keep the dominant Gift Wrap position alive between submission attempts.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Gift Wrap Maintenance in BJJ. Learn arm trap retention, con
 
 <section id="overview" class="content-section">
 
-Gift Wrap Maintenance is the control-retention cycle that keeps the arm trap secured while preventing the bottom player from recovering their trapped limb or escaping back control entirely. Unlike offensive transitions that seek to advance position or attack submissions, maintenance focuses on the micro-adjustments necessary to sustain dominance: tightening wrist control as it loosens, driving hips forward when the opponent bridges, and cycling between hook pressure and chest connection to deny escape angles.
+**Gift Wrap Maintenance is the back-control retention transition where the attacker continuously readjusts the trapped-arm wrap, hooks, and chest connection to deny limb recovery and keep the dominant Gift Wrap position alive between submission attempts.**
+
+Within the back-attack hierarchy, maintenance is what separates a fleeting arm trap from a sustained submission platform. Unlike offensive transitions that seek to advance position or attack submissions, maintenance focuses on the micro-adjustments necessary to sustain dominance: tightening wrist control as it loosens, driving hips forward when the opponent bridges, and cycling between hook pressure and chest connection to deny escape angles.
 
 This transition represents the defensive backbone of the Gift Wrap system. Every submission chain from Gift Wrap—rear naked choke, armbar on the free arm, transition to crucifix—depends on reliable maintenance between attacks. Without it, each failed submission attempt degrades into standard seat belt back control or worse, as the opponent capitalizes on momentary looseness to recover their trapped arm. The ability to reset to solid Gift Wrap control after each offensive foray separates effective back attackers from those who achieve dominant position but cannot convert.
 

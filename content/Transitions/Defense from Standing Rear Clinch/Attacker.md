@@ -339,7 +339,7 @@ Begin from neutral standing position. Partner works to establish rear clinch thr
 
 <p class="section-subtitle">What are the safety concerns for Defense from Standing Rear Clinch?</p>
 
-Standing rear clinch escapes involve explosive rotational movements, throwing mechanics, and potential impacts with the ground that can cause injury if performed incorrectly. Always practice grip breaks and throws at controlled speed before increasing intensity. Suplex defense drills should be conducted with crash pats until both partners understand the mechanics. Communicate clearly with training partners about intensity levels, particularly during lifting and throwing components. Be aware of surrounding training space to prevent collisions with other practitioners or walls during the dynamic standing exchanges.
+Standing rear clinch escapes involve explosive rotational movements, throwing mechanics, and potential impacts with the ground that can cause injury if performed incorrectly. Always practice grip breaks and throws at controlled speed before increasing intensity. Suplex defense drills should be conducted with crash pads until both partners understand the mechanics. Communicate clearly with training partners about intensity levels, particularly during lifting and throwing components. Be aware of surrounding training space to prevent collisions with other practitioners or walls during the dynamic standing exchanges.
 
 </section>
 

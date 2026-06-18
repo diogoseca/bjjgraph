@@ -34,6 +34,18 @@ description: "Master the Butterfly Smash pass in BJJ. Collapse butterfly hooks w
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Smash",
+  "description": "The Butterfly Smash is a pressure-based guard pass that flattens a seated butterfly player by driving forward chest weight to collapse their posture, then clearing the hooks one at a time to reach side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Butterfly Smash pass in BJJ. Collapse butterfly hooks w
 </div>
 
 <section id="overview" class="content-section">
+
+**The Butterfly Smash is a pressure-based guard pass that flattens a seated butterfly player by driving forward chest weight to collapse their posture, then clearing the hooks one at a time to reach side control.**
 
 The Butterfly Smash is a fundamental pressure passing technique designed to neutralize and collapse the butterfly guard structure. This pass exploits the inherent weakness of butterfly hooks when met with forward pressure and proper weight distribution. By driving your weight through specific points of control while systematically removing the bottom player's frames and hooks, you create a pathway to dominant top positions.
 

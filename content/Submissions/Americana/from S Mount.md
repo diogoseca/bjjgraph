@@ -33,10 +33,32 @@ description: "Master the Americana shoulder lock from S Mount. Step-by-step guid
 }
 </script>
 
-> **SAFETY**: Americana from S Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Americana from S Mount",
+  "description": "The Americana from S Mount is a figure-four shoulder lock that uses the perpendicular S Mount angle to pin the opponent's bent near arm and paint the wrist toward the mat, torquing the shoulder joint until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Americana from S Mount is a figure-four shoulder lock that uses the perpendicular S Mount angle to pin the opponent's bent near arm and paint the wrist toward the mat, torquing the shoulder joint until they tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (specifically glenohumeral joint and rotator cuff)</span>
+<span class="meta-chip">68% success</span>
+</div>
+
+> [!danger] Safety
+> Americana from S Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,57 +75,7 @@ The key mechanical difference lies in how S Mount positions your hips directly o
 
 Strategically, the Americana from S Mount serves as a powerful secondary attack in the S Mount submission chain. When the opponent defends the armbar by keeping their elbow bent and hugging tight, the Americana capitalizes on that exact defensive posture. The bent-arm position that protects against armbar extension becomes the starting configuration for the keylock, creating a true dilemma: straighten the arm and face the armbar, or keep it bent and expose the Americana.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (specifically glenohumeral joint and rotator cuff)
-**Starting Position**: [[Positions/Mount/S Mount]]
-**From Position**: [[Positions/Mount/S Mount]] (Top)
-**Success Rate**: 68%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
-| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
-| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
-| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
-| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum. The S Mount hip pressure amplifies rotational force, so even less effort is needed compared to standard mount Americana.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat or opponent
-- Any distress vocalization or unusual sound
-- Slapping mat with free hand repeatedly
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip on the wrist
-3. Carefully lower the arm back to neutral position (do not drop suddenly)
-4. Release control of the elbow and allow opponent to move freely
-5. Check with partner verbally to ensure they are okay
-6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden rotational force
-- Never use competition speed or full pressure in training
-- Always allow clear access to tap with free hand
-- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
-- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
-- Avoid repeated submissions on the same shoulder in a single training session
-
+**Starting Position**: [[Positions/Mount/S Mount]] · **From**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
 
@@ -248,38 +220,63 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Reverse Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/S Mount]] - Primary starting position for this submission variant
 - [[Positions/Mount]] - Parent position - S Mount transitions from standard mount
 - [[Positions/Armbar Control]] - Alternative submission setup from same position when arm extends
 - [[Positions/Kimura Trap]] - Related shoulder lock control position with shared grip mechanics
 - [[Positions/Mount/Modified Mount]] - Similar perpendicular position where Americana mechanics apply
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Americana from S Mount leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
+| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
+| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
+| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
+| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum. The S Mount hip pressure amplifies rotational force, so even less effort is needed compared to standard mount Americana.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on opponent or mat (minimum 2 taps)
+- Physical foot tap on mat or opponent
+- Any distress vocalization or unusual sound
+- Slapping mat with free hand repeatedly
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the shoulder
+2. Release the figure-four grip on the wrist
+3. Carefully lower the arm back to neutral position (do not drop suddenly)
+4. Release control of the elbow and allow opponent to move freely
+5. Check with partner verbally to ensure they are okay
+6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
+
+
+**Training Restrictions**:
+- Never spike, jerk, or apply sudden rotational force
+- Never use competition speed or full pressure in training
+- Always allow clear access to tap with free hand
+- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
+- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
+- Avoid repeated submissions on the same shoulder in a single training session
+
 
 </section>
 

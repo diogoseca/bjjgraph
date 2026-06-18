@@ -149,6 +149,16 @@ description: "Master BJJ teaching with systematic instruction framework. Progres
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Teaching Methodology Framework",
+  "description": "The Teaching Methodology Framework is a systematic BJJ instruction model that sequences learning through the positional hierarchy and a five-tier progressive-resistance protocol, building defensive survival before offense and conceptual understanding before technique.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -163,7 +173,9 @@ description: "Master BJJ teaching with systematic instruction framework. Progres
 
 ## What is Teaching Methodology Framework?
 
-The Teaching Methodology Framework represents a comprehensive systematic approach to Brazilian Jiu-Jitsu instruction that synthesizes the most effective pedagogical principles from elite-level coaches. This framework emphasizes progressive resistance training, positional hierarchy understanding, and technical precision over athleticism. The system recognizes that effective BJJ instruction requires more than demonstrating techniques - it demands a structured progression that develops both technical knowledge and problem-solving abilities. The methodology integrates three critical components: conceptual understanding of fundamental principles, systematic drilling progressions that build muscle memory, and controlled sparring environments that allow safe experimentation. Unlike traditional approaches that focus on memorizing large numbers of techniques, this framework emphasizes depth over breadth, ensuring students develop robust foundational skills before progressing to advanced material. The system also addresses the critical relationship between instruction methodology and student retention, recognizing that properly structured classes create confident practitioners who remain engaged long-term.
+**The Teaching Methodology Framework is a systematic BJJ instruction model that sequences learning through the positional hierarchy and a five-tier progressive-resistance protocol, building defensive survival before offense and conceptual understanding before technique.**
+
+Synthesizing the most effective pedagogical principles from elite-level coaches, this framework treats instruction as more than demonstrating techniques: it demands a structured progression that develops both technical knowledge and problem-solving ability. It emphasizes progressive resistance training, positional hierarchy understanding, and technical precision over athleticism. The methodology integrates three critical components: conceptual understanding of fundamental principles, systematic drilling progressions that build muscle memory, and controlled sparring environments that allow safe experimentation. Unlike traditional approaches that focus on memorizing large numbers of techniques, this framework emphasizes depth over breadth, ensuring students develop robust foundational skills before progressing to advanced material. The system also addresses the critical relationship between instruction methodology and student retention, recognizing that properly structured classes create confident practitioners who remain engaged long-term. By organizing the curriculum around defensive survival first, neutral control second, and offensive dominance third, instructors give students a logical map that mirrors actual fighting priorities and prevents the formation of incomplete games with positional gaps.
 
 </section>
 

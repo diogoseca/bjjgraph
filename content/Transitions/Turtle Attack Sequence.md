@@ -34,6 +34,18 @@ description: "Master Turtle Transition attacks in BJJ. Complete guide to back ta
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turtle Attack Sequence",
+  "description": "The Turtle Attack Sequence is the systematic top-turtle assault in BJJ where the attacker converts positional advantage into back control, front headlock submissions, or crucifix entries before the bottom player can roll, sit through, or stand to recover.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Turtle Transition attacks in BJJ. Complete guide to back ta
 
 <section id="overview" class="content-section">
 
-The Turtle Transition encompasses the systematic approach to attacking an opponent who has assumed turtle position, where the top player works to convert positional advantage into back control, front headlock submissions, or crucifix entries. This transition represents one of the most common and important attacking sequences in competitive grappling, occurring frequently after guard passes, failed takedown attempts, and scramble exchanges where the bottom player turtles defensively rather than conceding side control or mount.
+**The Turtle Attack Sequence is the systematic top-turtle assault in BJJ where the attacker converts positional advantage into back control, front headlock submissions, or crucifix entries before the bottom player can roll, sit through, or stand to recover.**
+
+In competitive grappling, the turtle is one of the most frequently contested junctions on the mat, and the player who reaches top turtle holds only a fleeting window to capitalize before the defender recovers. This attacking sequence occurs constantly after guard passes, failed takedown attempts, and scramble exchanges where the bottom player turtles defensively rather than conceding side control or mount, making it an essential skill set for anyone advancing through the upper belts.
 
 From top turtle, the attacker faces a time-sensitive challenge: the turtled player is actively working to escape through granby rolls, sit-throughs, or technical standups, so the top player must establish dominant grips and execute attacking sequences before these escape windows open. The seat belt grip serves as the primary control mechanism, enabling systematic hook insertion for back control. When the bottom player defends the back take effectively, the attacker chains into front headlock attacks, crucifix entries, or flattening sequences to side control.
 

@@ -34,6 +34,18 @@ description: "Master Mounted Triangle from Modified Mount. Step-by-step entry fr
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mounted Triangle",
+  "description": "The Mounted Triangle is a mount-attack transition in which you isolate the opponent's head and one arm from Modified Mount, then swing a leg over to lock a figure-four triangle, fusing top control with an immediate strangle and armbar threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Mounted Triangle from Modified Mount. Step-by-step entry fr
 </div>
 
 <section id="overview" class="content-section">
+
+**The Mounted Triangle is a mount-attack transition in which you isolate the opponent's head and one arm from Modified Mount, then swing a leg over to lock a figure-four triangle, fusing top control with an immediate strangle and armbar threat.**
 
 The Mounted Triangle represents one of the most dominant submission setups in Brazilian Jiu-Jitsu, combining the positional dominance of mount with the strangling power of the triangle choke. This transition begins from Modified Mount where the asymmetric positioning naturally facilitates leg insertion around the opponent's head and arm. Unlike the triangle from closed guard, the Mounted Triangle benefits from gravitational pressure and superior control, making defensive responses significantly more difficult for the bottom practitioner. The technique emerges organically when opponents use frames against mount attacks—their arms naturally create the space and isolation needed for triangle entry.
 
@@ -227,7 +241,7 @@ The Mounted Triangle functions as a cornerstone submission setup within the moun
 
 - [[Positions/Mount/Mounted Triangle]] - Target control position when transition succeeds
 
-- [[Submissions/Triangle Choke]] - Same strangling mechanics applied from different position
+- [[Submissions/Triangle Choke]] - Same strangling mechanics applied from the mounted control position to finish
 
 - [[Transitions/Mount to Armbar]] - Chain attack when opponent defends triangle by posturing
 
@@ -241,7 +255,7 @@ The Mounted Triangle functions as a cornerstone submission setup within the moun
 
 - [[Positions/Half Guard]] - Position opponent may recover to if counter is successful
 
-- [[Submissions/Triangle Choke]] - Submission finish accessible from mounted triangle control
+- [[Positions/Back Control]] - Back take available when the opponent turns away to escape the triangle, converting their defensive turn into a dominant transition
 
 
 </section>

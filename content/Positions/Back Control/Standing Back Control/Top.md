@@ -21,7 +21,7 @@ description: "Master offensive strategies for standing back control top position
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Standing Back Control",
-      "text": "From this position, attempt Rear Naked Choke from Standing Back Control. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Standing Back Control. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {

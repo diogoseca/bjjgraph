@@ -21,13 +21,13 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Crucifix",
-      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Mounted Crucifix",
-      "text": "From this position, attempt Rear Naked Choke from Mounted Crucifix. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Mounted Crucifix. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,13 +39,13 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap to Technical Mount",
-      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {

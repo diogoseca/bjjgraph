@@ -21,13 +21,13 @@ description: "Master 50-50 Guard Top position in BJJ. Complete guide covering le
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from 50-50 Guard",
-      "text": "From this position, attempt Heel Hook from 50-50 Guard. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from 50-50 Guard. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar entry",
-      "text": "From this position, attempt Kneebar entry. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
@@ -45,7 +45,7 @@ description: "Master 50-50 Guard Top position in BJJ. Complete guide covering le
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from 50-50",
-      "text": "From this position, attempt Back Take from 50-50. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from 50-50. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {

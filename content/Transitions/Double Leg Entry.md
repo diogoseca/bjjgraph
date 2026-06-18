@@ -34,6 +34,18 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standin
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Leg Entry",
+  "description": "The Double Leg Entry is a wrestling-based takedown setup where you level-change, drive a deep penetration step between your opponent's legs, and capture both legs simultaneously to break their base and convert a standing exchange into top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standin
 
 <section id="overview" class="content-section">
 
-The Double Leg Entry is a fundamental wrestling-based takedown that serves as a cornerstone technique for standing grappling exchanges in Brazilian Jiu-Jitsu. This technique involves penetrating your opponent's defensive space, securing both legs simultaneously, and driving through to establish a dominant position on the ground. The double leg entry is distinguished from the finish itself - it focuses on the critical initial phases of level change, penetration step, and leg capture that create the conditions for a successful takedown. Understanding proper entry mechanics is essential because even perfect finishing technique cannot compensate for poor penetration and positioning.
+**The Double Leg Entry is a wrestling-based takedown setup where you level-change, drive a deep penetration step between your opponent's legs, and capture both legs simultaneously to break their base and convert a standing exchange into top position.**
+
+Rooted in folkstyle and freestyle wrestling and increasingly central to modern gi and no-gi grappling, the Double Leg Entry is most often attempted from neutral standing or clinch exchanges where neither player has established control. This technique involves penetrating your opponent's defensive space, securing both legs simultaneously, and driving through to establish a dominant position on the ground. The double leg entry is distinguished from the finish itself - it focuses on the critical initial phases of level change, penetration step, and leg capture that create the conditions for a successful takedown. Understanding proper entry mechanics is essential because even perfect finishing technique cannot compensate for poor penetration and positioning.
 
 The double leg entry requires precise timing, explosive movement, and tactical deception to bypass an opponent's defensive posture. Unlike other takedown approaches that rely on upper body control, the double leg entry commits fully to attacking the opponent's base by removing both legs from the equation simultaneously. This creates an unavoidable mechanical disadvantage for the defender once proper penetration is achieved.
 

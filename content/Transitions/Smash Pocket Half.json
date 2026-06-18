@@ -1,5 +1,6 @@
 {
   "name": "Smash Pocket Half",
+  "summary": "The Smash Pocket Half is a pressure-passing technique from Pocket Half Guard Top that progressively collapses the bottom player's deep underhook and hip-frame pocket, flattening them into Flattened Half Guard where conventional passes open up.",
   "description": "Master the Smash Pocket Half pass in BJJ. Pressure-based technique to neutralize the deep underhook pocket half guard and flatten the opponent for passing.",
   "tags": [
     "bjj",
@@ -29,7 +30,7 @@
     }
   ],
   "success_rate": 55,
-  "overview": "The Smash Pocket Half is a pressure-based transitional technique used from Pocket Half Guard Top to neutralize the bottom player's deep underhook advantage and collapse their pocket frame. Unlike general smash passes that work from standard half guard configurations, this technique specifically targets the structural elements that make Pocket Half Guard dangerous - the deep underhook reaching across the back and the active hip frame that creates sweeping leverage. By systematically eliminating these control points through directed pressure, the top player transitions the position into a Flattened Half Guard where conventional passing becomes significantly easier.\n\nThe technique centers on redirecting chest pressure to collapse the pocket space while simultaneously stripping or neutralizing the bottom player's underhook. This requires coordinated application of crossface pressure, shoulder driving force, and hip control that overwhelms the bottom player's ability to maintain their offensive structure. The smash is not a single explosive movement but rather a progressive compression that methodically removes each element of the pocket configuration - first the hip frame, then the underhook depth, and finally the bottom player's angle on the mat.\n\nStrategically, the Smash Pocket Half serves as a critical link in pressure-passing chains from half guard. When the bottom player establishes a strong pocket position that resists conventional knee slice or underhook passes, the smash provides an alternative pathway that uses overwhelming pressure to reset the positional dynamic. Advanced practitioners use this technique as a setup for subsequent passes by first removing the pocket advantages before transitioning to their preferred passing sequence from the resulting flattened position.",
+  "overview": "Pocket Half Guard is one of the most stubborn half guards to pass because the bottom player's deep cross-back underhook and active hip-frame 'pocket' generate constant sweep and back-take threats. The Smash Pocket Half is the dedicated response: rather than relying on speed or angle, it uses directed, progressive pressure to dismantle the pocket structure - eliminating the hip frame and the underhook depth - and collapse the bottom player into a Flattened Half Guard where conventional passing becomes significantly easier. Unlike general smash passes that work from standard half guard configurations, this technique specifically targets the structural elements that make Pocket Half Guard dangerous - the deep underhook reaching across the back and the active hip frame that creates sweeping leverage.\n\nThe technique centers on redirecting chest pressure to collapse the pocket space while simultaneously stripping or neutralizing the bottom player's underhook. This requires coordinated application of crossface pressure, shoulder driving force, and hip control that overwhelms the bottom player's ability to maintain their offensive structure. The smash is not a single explosive movement but rather a progressive compression that methodically removes each element of the pocket configuration - first the hip frame, then the underhook depth, and finally the bottom player's angle on the mat.\n\nStrategically, the Smash Pocket Half serves as a critical link in pressure-passing chains from half guard. When the bottom player establishes a strong pocket position that resists conventional knee slice or underhook passes, the smash provides an alternative pathway that uses overwhelming pressure to reset the positional dynamic. Advanced practitioners use this technique as a setup for subsequent passes by first removing the pocket advantages before transitioning to their preferred passing sequence from the resulting flattened position.",
   "conditions": [
     "Top player has established Pocket Half Guard Top position with at least partial underhook control",
     "Bottom player has active deep underhook and hip frame creating pocket space",
@@ -93,8 +94,8 @@
       "relationship": "Alternative follow-up pass using crossface from the flattened position"
     },
     {
-      "name": "Smash Pass from Knee Shield",
-      "relationship": "Related smash technique applied to different half guard variation"
+      "name": "Smash Pass",
+      "relationship": "Related smash technique applied to standard half guard without the pocket structure"
     },
     {
       "name": "Knee Shield Half Guard",
@@ -249,6 +250,10 @@
         "answer": "The pocket space created by the bottom player's hip frame provides the structural foundation for their underhook-based sweeps. If you try to strip the underhook while the hip frame is intact, you must lift or shift your weight to fight the grip, which gives the bottom player leverage to execute sweeps like the Old School. Collapsing the hip frame first removes the sweeping foundation, making the underhook progressively weaker and safer to strip without exposing yourself to counters."
       },
       {
+        "question": "What is the optimal timing window to initiate the Smash Pocket Half rather than another pass?",
+        "answer": "Initiate the smash the moment you have your own connection - chest contact plus a head or crossface threat - but before the bottom player has fully consolidated their deep underhook behind your back and loaded their hip frame. The ideal window is right after you flatten them slightly or when they pause to re-grip. If you wait until their underhook is locked to your far lat and their bottom-leg frame is actively driving into your hip, the pocket is at full strength and the smash becomes a strength battle you are likely to lose to their sweeps."
+      },
+      {
         "question": "Your opponent begins scooting their hips underneath you for a Deep Half entry during your smash - how do you respond?",
         "answer": "Immediately sprawl your hips back and drive your trapped knee toward the mat to prevent them from getting underneath your center of gravity. If you feel their hips shifting under you, abandon the smash temporarily and address the deep half threat by maintaining your hips above their centerline. Once you have prevented the entry, re-establish chest pressure and restart the smash sequence from the chest connection step."
       },
@@ -263,6 +268,10 @@
       {
         "question": "How should you adjust your base if the opponent bridges explosively during the smash?",
         "answer": "Do not fight the bridge directly with downward force, as this creates a strength contest that wastes energy and may compromise your position. Instead, widen your base immediately in the direction of the bridge by posting your free leg further out. Maintain chest-to-chest connection and ride the bridge rather than resisting it. Bridges are energetically expensive and self-limiting, typically lasting one to two seconds before the opponent must return to the mat, at which point you re-apply the smash."
+      },
+      {
+        "question": "Your smash stalls because the bottom player defends the flattening - what attacks can you chain to instead?",
+        "answer": "When the smash stalls, use the bottom player's defensive reactions as entries. If they turn hard into their underhook to defend, attack the Darce Choke or back-step toward their back as their shoulder exposes. If they extend their free arm to frame against you, attack a Kimura on that arm. If they give up the underhook battle to scoot underneath for deep half, switch to a back-step or sprawl-and-spin to stay on top. The smash is one prong of a dilemma - threatening it forces commitments that open these secondary attacks."
       },
       {
         "question": "What are the critical differences between the Smash Pocket Half and a general smash pass from standard half guard?",

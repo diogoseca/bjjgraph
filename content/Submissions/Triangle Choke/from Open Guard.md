@@ -33,10 +33,32 @@ description: "Master the Triangle Choke from Open Guard in BJJ. Expert guide cov
 }
 </script>
 
-> **SAFETY**: Triangle Choke from Open Guard targets the Neck. Risk: Carotid artery compression causing loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Choke from Open Guard",
+  "description": "The Triangle Choke from Open Guard is a blood choke that traps one of the opponent's arms and their neck inside a figure-four leg configuration, compressing both carotid arteries with the legs and the opponent's own trapped shoulder.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Triangle Choke from Open Guard is a blood choke that traps one of the opponent's arms and their neck inside a figure-four leg configuration, compressing both carotid arteries with the legs and the opponent's own trapped shoulder.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Triangle Choke</span>
+<span class="meta-chip">Targets Neck</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Triangle Choke from Open Guard targets the Neck. Primary risk: Carotid artery compression causing loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,49 +75,7 @@ Setting up the triangle from open guard requires creating a perpendicular angle,
 
 The critical finishing mechanics rely on three elements working in concert: perpendicular angle cutting to properly align the choking leg across the neck, squeezing the knees together to compress the carotid arteries, and pulling the opponent's head down to eliminate remaining space. Without all three elements, the triangle becomes a holding position rather than a finishing submission. At advanced levels, the triangle serves as a positional hub connecting to armbar, omoplata, and gogoplata transitions when the initial choke is defended, creating a submission chain that punishes every defensive response.
 
-**Category**: Choke
-**Type**: Triangle Choke
-**Target Area**: Neck
-**Starting Position**: [[Positions/Open Guard]]
-**From Position**: [[Positions/Open Guard]] (Bottom)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression causing loss of consciousness | CRITICAL | Immediate recovery if released promptly; prolonged compression can cause brain damage within 10-15 seconds of unconsciousness |
-| Cervical spine strain from stacking pressure during defense | Medium | 1-4 weeks depending on severity of strain |
-| Tracheal compression from improperly applied triangle pressing on windpipe | High | 1-3 weeks for soft tissue bruising; longer for cartilage damage |
-
-
-**Application Speed**: SLOW and progressive. Apply squeeze gradually, allowing opponent time to recognize the choke and tap. Never explosively crank the head down or spike the squeeze. Blood chokes can cause unconsciousness within 4-6 seconds of full application.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat with either leg
-- Any unusual vocalization, gurgling, or signs of distress
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation
-2. If opponent goes limp or stops resisting suddenly, release immediately and check consciousness
-3. If in doubt whether a tap occurred, release - position can always be re-established
-4. After release, maintain awareness of partner's condition and be prepared to call for medical assistance
-
-
-**Training Restrictions**:
-- Beginners should drill the position and lock mechanics before applying any finishing squeeze; focus on angle and position before pressure
-- Never hold a fully locked triangle with finishing pressure for extended periods during drilling; apply, partner taps, release, reset
-- Practitioners with neck injuries or cardiovascular conditions should consult medical professionals before training triangle chokes
-
+**Starting Position**: [[Positions/Open Guard]] · **From**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -242,42 +222,56 @@ The critical finishing mechanics rely on three elements working in concert: perp
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Omoplata]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Rear Triangle Choke]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Open Guard]] - Primary starting position providing hip mobility for triangle entries
 - [[Positions/Spider Guard]] - Common guard variation with sleeve control that sets up triangle through arm isolation
 - [[Positions/Closed Guard]] - Alternative starting position with classic triangle setup sequences
 - [[Positions/Collar Sleeve Guard]] - Guard variation where collar-sleeve grip configuration directly feeds triangle entries
-- [[Submissions/Far Side Armbar]] - Primary chain submission when triangle angle is defended or opponent postures, transitioning to armbar on the isolated arm
-- [[Submissions/Omoplata]] - Alternative submission when triangle angle is blocked and opponent hides arm, transitioning through the omoplata position
-- [[Submissions/Triangle Choke]] - Related triangle variation executed from mount position using same choking mechanics
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Triangle Choke from Open Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression causing loss of consciousness | CRITICAL | Immediate recovery if released promptly; prolonged compression can cause brain damage within 10-15 seconds of unconsciousness |
+| Cervical spine strain from stacking pressure during defense | Medium | 1-4 weeks depending on severity of strain |
+| Tracheal compression from improperly applied triangle pressing on windpipe | High | 1-3 weeks for soft tissue bruising; longer for cartilage damage |
+
+
+**Application Speed**: SLOW and progressive. Apply squeeze gradually, allowing opponent time to recognize the choke and tap. Never explosively crank the head down or spike the squeeze. Blood chokes can cause unconsciousness within 4-6 seconds of full application.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat
+- Physical foot tap on mat with either leg
+- Any unusual vocalization, gurgling, or signs of distress
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without hesitation
+2. If opponent goes limp or stops resisting suddenly, release immediately and check consciousness
+3. If in doubt whether a tap occurred, release - position can always be re-established
+4. After release, maintain awareness of partner's condition and be prepared to call for medical assistance
+
+
+**Training Restrictions**:
+- Beginners should drill the position and lock mechanics before applying any finishing squeeze; focus on angle and position before pressure
+- Never hold a fully locked triangle with finishing pressure for extended periods during drilling; apply, partner taps, release, reset
+- Practitioners with neck injuries or cardiovascular conditions should consult medical professionals before training triangle chokes
+
 
 </section>
 

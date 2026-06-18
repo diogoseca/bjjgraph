@@ -33,10 +33,32 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
 }
 </script>
 
-> **SAFETY**: Triangle Choke Side from Side Control targets the Carotid arteries and jugular veins. Risk: Carotid artery compression causing unconsciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Choke Side from Side Control",
+  "description": "The Triangle Choke Side from Side Control is a blood choke where the top player traps the opponent's near arm across their neck and locks a figure-four from a perpendicular angle, compressing both carotid arteries to force the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Triangle Choke Side from Side Control is a blood choke where the top player traps the opponent's near arm across their neck and locks a figure-four from a perpendicular angle, compressing both carotid arteries to force the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">59% success</span>
+</div>
+
+> [!danger] Safety
+> Triangle Choke Side from Side Control targets the Carotid arteries and jugular veins. Primary risk: Carotid artery compression causing unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,57 +75,7 @@ This submission represents a sophisticated understanding of triangle mechanics, 
 
 The side triangle is particularly valuable in no-gi grappling and MMA contexts where traditional collar chokes are unavailable, and it serves as an excellent counter to common defensive reactions from bottom positions. Mastery of this technique demonstrates advanced technical knowledge and the ability to recognize and capitalize on dynamic positional transitions.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 59%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression causing unconsciousness | CRITICAL | Immediate with proper release; potential for concussion if unconscious |
-| Neck strain from torque and pressure | Medium | 3-7 days with rest |
-| Shoulder hyperextension from trapped arm | Medium | 1-2 weeks with proper care |
-| Jaw compression and TMJ stress | Low | 2-5 days |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time in training. Blood chokes can cause unconsciousness in 3-8 seconds under competition pressure.
-
-**Tap Signals**:
-- Verbal tap (any vocal signal)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal or change in breathing pattern
-- Loss of resistance or body tension
-
-
-**Release Protocol**:
-1. Immediately release leg pressure and open triangle configuration
-2. Remove all pressure from neck and trapped arm
-3. Allow opponent to turn head to restore blood flow
-4. Check partner's consciousness and breathing immediately
-5. If unconscious: elevate legs, monitor airway, ensure medical attention if needed
-6. Never apply additional pressure after tap signal
-7. Maintain awareness of partner's neck angle throughout release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply gradual, controlled pressure
-- Never use competition-speed application in training scenarios
-- Always ensure partner has at least one hand free to tap
-- Never practice on partners with pre-existing neck, jaw, or shoulder injuries without explicit clearance
-- White belts should only practice with supervision and on willing, experienced partners
-- Stop immediately at any sign of partner distress beyond normal defensive reactions
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -263,17 +235,14 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 - [[Positions/Side Control]]
 - [[Positions/North-South]]
-- [[Positions/Standing Position]]
-- [[Positions/Side Control]]
 - [[Positions/Side Control/Kesa Gatame]]
 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Triangle Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Kimura]]
@@ -283,33 +252,55 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Rear Triangle Choke]]
 - [[Transitions/Inverted Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Submissions/Triangle Choke]] - Traditional bottom variation - shares finishing mechanics but different angle and entry
 - [[Positions/Side Control]] - Primary starting position for this submission
 - [[Positions/North-South]] - Alternative starting position for north-south triangle variation
-- [[Transitions/Arm Triangle]] - Similar blood choke from top position that can be combined with side triangle mechanics
-- [[Submissions/Kimura]] - Alternative submission when opponent defends by extracting trapped arm from side control
 - [[Positions/Triangle Control]] - Control position used to maintain and finish the triangle
-- [[Submissions/Far Side Armbar]] - Alternative attack when triangle setup creates arm isolation opportunities from side control
 - [[Positions/Mount/Mounted Triangle]] - Related triangle control variation from mount position
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Triangle Choke Side from Side Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression causing unconsciousness | CRITICAL | Immediate with proper release; potential for concussion if unconscious |
+| Neck strain from torque and pressure | Medium | 3-7 days with rest |
+| Shoulder hyperextension from trapped arm | Medium | 1-2 weeks with proper care |
+| Jaw compression and TMJ stress | Low | 2-5 days |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time in training. Blood chokes can cause unconsciousness in 3-8 seconds under competition pressure.
+
+**Tap Signals**:
+- Verbal tap (any vocal signal)
+- Physical hand tap on partner or mat
+- Physical foot tap on mat
+- Any distress signal or change in breathing pattern
+- Loss of resistance or body tension
+
+
+**Release Protocol**:
+1. Immediately release leg pressure and open triangle configuration
+2. Remove all pressure from neck and trapped arm
+3. Allow opponent to turn head to restore blood flow
+4. Check partner's consciousness and breathing immediately
+5. If unconscious: elevate legs, monitor airway, ensure medical attention if needed
+6. Never apply additional pressure after tap signal
+7. Maintain awareness of partner's neck angle throughout release
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - always apply gradual, controlled pressure
+- Never use competition-speed application in training scenarios
+- Always ensure partner has at least one hand free to tap
+- Never practice on partners with pre-existing neck, jaw, or shoulder injuries without explicit clearance
+- White belts should only practice with supervision and on willing, experienced partners
+- Stop immediately at any sign of partner distress beyond normal defensive reactions
+
 
 </section>
 

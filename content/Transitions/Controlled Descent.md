@@ -34,6 +34,18 @@ description: "Learn Controlled Descent from standing back control in BJJ. Strate
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Controlled Descent",
+  "description": "Controlled Descent is a defensive transition from standing back control where the bottom player deliberately drops to the mat on their own terms, choosing the angle and timing to reach turtle or guard rather than being thrown or slammed.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Controlled Descent from standing back control in BJJ. Strate
 </div>
 
 <section id="overview" class="content-section">
+
+**Controlled Descent is a defensive transition from standing back control where the bottom player deliberately drops to the mat on their own terms, choosing the angle and timing to reach turtle or guard rather than being thrown or slammed.**
 
 Controlled Descent is a critical defensive technique executed when an opponent has achieved standing back control and you need to transition the fight to the ground on your own terms rather than being thrown or slammed. The technique involves strategically dropping your base while maintaining defensive frames, allowing you to reach turtle or guard positions where you have significantly more defensive options than standing with your back exposed.
 

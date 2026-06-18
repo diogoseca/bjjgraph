@@ -34,6 +34,18 @@ description: "Master the Standing Guard Pass with Distance Creation from Ringwor
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Guard Pass with Distance Creation",
+  "description": "The Standing Guard Pass with Distance Creation is a top guard pass against Ringworm Guard where you stand fully upright to nullify the lapel wrap's leverage, strip it with both hands while circling away, then pass to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Standing Guard Pass with Distance Creation from Ringwor
 </div>
 
 <section id="overview" class="content-section">
+
+**The Standing Guard Pass with Distance Creation is a top guard pass against Ringworm Guard where you stand fully upright to nullify the lapel wrap's leverage, strip it with both hands while circling away, then pass to side control.**
 
 The Standing Guard Pass with Distance Creation is a methodical passing approach used when trapped in Ringworm Guard, one of the most restrictive lapel guard configurations in modern gi jiu-jitsu. Rather than fighting the lapel wrap on the ground where the bottom player's mechanical advantage is greatest, this technique uses elevation and distance to nullify the lapel's leverage, systematically extracting the trapped leg while maintaining defensive posture against sweeps and back takes.
 

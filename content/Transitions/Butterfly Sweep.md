@@ -34,6 +34,18 @@ description: "Master the Butterfly Sweep in BJJ. Complete guide covering setup, 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Sweep",
+  "description": "The Butterfly Sweep is a foundational reversal from Butterfly Guard bottom where active hooks under the opponent's thighs combine with an upper-body grip and a base-hand post to elevate and roll a forward-weighted opponent over into Mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Butterfly Sweep in BJJ. Complete guide covering setup, 
 
 <section id="overview" class="content-section">
 
-The Butterfly Sweep is a fundamental attacking technique from butterfly guard that exploits opponent's weight distribution and base. By using butterfly hooks (feet positioned on opponent's inner thighs) combined with precise hip movement and off-balancing mechanics, the practitioner elevates and destabilizes the opponent, reversing position from bottom to top. This sweep is particularly effective when the opponent commits their weight forward or attempts to pass, creating the perfect opportunity for the guard player to capitalize on compromised balance. The technique exemplifies efficient use of leverage over strength, making it accessible to practitioners of all sizes and suitable against larger opponents. The butterfly sweep serves as a cornerstone technique in modern Brazilian Jiu-Jitsu, forming the foundation for numerous guard systems and serving as a gateway to more advanced butterfly guard attacks.
+**The Butterfly Sweep is a foundational reversal from Butterfly Guard bottom where active hooks under the opponent's thighs combine with an upper-body grip and a base-hand post to elevate and roll a forward-weighted opponent over into Mount.**
+
+As the cornerstone attack of the Butterfly Guard system, the sweep converts inside-hook leverage and upper-body control into a full positional reversal that lands in a dominant top position. By using butterfly hooks (feet positioned on opponent's inner thighs) combined with precise hip movement and off-balancing mechanics, the practitioner elevates and destabilizes the opponent, reversing position from bottom to top. This sweep is particularly effective when the opponent commits their weight forward or attempts to pass, creating the perfect opportunity for the guard player to capitalize on compromised balance. The technique exemplifies efficient use of leverage over strength, making it accessible to practitioners of all sizes and suitable against larger opponents. The butterfly sweep serves as a foundation for numerous guard systems and a gateway to more advanced butterfly guard attacks, including X-Guard entries, arm drags to the back, and guillotine threats when the opponent postures to defend.
 
 **From Position**: [[Positions/Butterfly Guard]] (Bottom)
 **Success Rate**: 62%

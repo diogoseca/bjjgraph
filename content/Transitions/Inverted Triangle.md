@@ -34,6 +34,18 @@ description: "Master the Inverted Triangle in BJJ. Reverse-angle triangle choke 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inverted Triangle",
+  "description": "The Inverted Triangle is a reverse-angle triangle choke launched from triangle control when the opponent turns their trapped shoulder inward, requiring a 180-degree hip rotation to compress the carotids from behind their neck.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Inverted Triangle in BJJ. Reverse-angle triangle choke 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Inverted Triangle is a reverse-angle triangle choke launched from triangle control when the opponent turns their trapped shoulder inward, requiring a 180-degree hip rotation to compress the carotids from behind their neck.**
 
 The Inverted Triangle is an advanced submission variation that attacks the opponent from a reverse angle when they defend the standard front triangle by turning their shoulder inward. Rather than maintaining the traditional triangle configuration with legs wrapped around the neck and one arm, the inverted variation requires rotating your body 180 degrees to attack from the opposite side, placing your legs in a reverse configuration that catches many opponents off guard. This technique transforms a defensive reaction into a submission opportunity by capitalizing on the opponent's movement away from the standard choking angle.
 

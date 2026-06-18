@@ -34,6 +34,18 @@ description: "Master the Harness to Body Lock transition in BJJ. Learn grip swit
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Harness to Body Lock",
+  "description": "Harness to Body Lock is a transition that converts a seated or grounded seat belt (harness) grip into a standing body lock around the opponent's waist, preserving chest-to-back connection as they stand to unlock mat returns, throws, and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Harness to Body Lock transition in BJJ. Learn grip swit
 
 <section id="overview" class="content-section">
 
-The Transition to Body Lock converts a seated or grounded harness (seat belt) grip into a standing body lock control, repositioning your locked grip from the upper torso to around the opponent's waist while maintaining unbroken chest-to-back connection. This transition occurs when your opponent stands up from back control or when you deliberately elevate them to pursue standing finishing sequences. The mechanical challenge lies in switching from a harness configuration optimized for choking to a body lock configuration optimized for mat returns, throws, and re-establishing ground back control.
+**Harness to Body Lock is a transition that converts a seated or grounded seat belt (harness) grip into a standing body lock around the opponent's waist, preserving chest-to-back connection as they stand to unlock mat returns, throws, and back takes.**
+
+This transition sits at the boundary between ground-based back control and standing grappling, arising the moment a defender abandons hook-fighting and stands to disengage. Rather than chase the lost hooks against a rising opponent, the top player redirects the seat belt grip downward to the waist, transforming a configuration optimized for choking into one optimized for mat returns, throws, and re-establishing ground back control while the chest-to-back connection never breaks. This transition occurs when your opponent stands up from back control or when you deliberately elevate them to pursue standing finishing sequences.
 
 Strategically, this transition addresses a common defensive pathway where skilled opponents escape back hooks and begin standing to disengage. Rather than fighting to re-establish hooks against a standing opponent, the body lock allows you to maintain dominant control while accessing an entirely different attack tree: mat returns to back mount, trips, throws, and body lock passing sequences. Elite no-gi competitors treat this as a seamless continuation of back control rather than a concession, because the body lock preserves your positional advantage while the opponent believes they are escaping.
 

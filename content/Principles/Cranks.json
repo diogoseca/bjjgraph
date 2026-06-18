@@ -15,7 +15,8 @@
   "application_level": "Intermediate",
   "complexity_level": "High",
   "development_timeline": "Intermediate to Advanced",
-  "overview": "Cranks are submissions that force the spine, neck, or jaw beyond their safe range of motion through rotational, lateral, or compressive force. Unlike chokes that target blood vessels or airflow, and unlike joint locks that hyperextend limbs, cranks attack the vertebral column and surrounding structures directly. The twister, can opener, neck cranks from back control, and various spine locks all operate through this mechanism. Cranks are among the most controversial techniques in Brazilian Jiu-Jitsu because they carry a high risk of serious injury to the cervical spine, including herniated discs, ligament tears, and nerve damage.\n\nThe controversy surrounding cranks stems from the narrow margin between an effective submission and a dangerous injury. With joint locks like armbars, there is usually a progressive pain signal that gives the defender time to tap. With blood chokes, the defender feels pressure and dimming before losing consciousness. Cranks often produce sudden, sharp pain that can arrive simultaneously with structural damage. The cervical spine is not designed to be twisted or compressed under load, and the small vertebrae, discs, and ligaments of the neck are vulnerable to forces that the larger joints of the body can tolerate. This makes cranks a submission category that demands exceptional control from the attacker and immediate tap response from the defender.\n\nDespite the controversy, understanding crank mechanics is essential for all BJJ practitioners. Many chokes have crank components that affect the jaw and neck. Submissions like the can opener from closed guard are commonly encountered even at beginner levels. Defensive awareness requires knowing when spinal force is being applied so you can tap before injury occurs. Practitioners should train crank awareness with extreme caution, applying these techniques slowly and with constant communication. Many competition rulesets ban specific cranks, and most experienced practitioners reserve cranks for controlled drilling rather than full-resistance sparring.",
+  "summary": "Cranks are submissions that force the spine, neck, or jaw beyond their safe range of motion through rotational, lateral, or compressive force, attacking the vertebral column directly rather than blood vessels or joints.",
+  "overview": "Among the submission categories in Brazilian Jiu-Jitsu, cranks occupy a uniquely controversial place because of how directly they threaten the vertebral column. Unlike chokes that target blood vessels or airflow, and unlike joint locks that hyperextend limbs, cranks attack the spine and surrounding structures through rotation, lateral bending, or axial compression. The twister, can opener, neck cranks from back control, and various spine locks all operate through this mechanism. They carry a high risk of serious injury to the cervical spine, including herniated discs, ligament tears, and nerve damage.\n\nThe controversy surrounding cranks stems from the narrow margin between an effective submission and a dangerous injury. With joint locks like armbars, there is usually a progressive pain signal that gives the defender time to tap. With blood chokes, the defender feels pressure and dimming before losing consciousness. Cranks often produce sudden, sharp pain that can arrive simultaneously with structural damage. The cervical spine is not designed to be twisted or compressed under load, and the small vertebrae, discs, and ligaments of the neck are vulnerable to forces that the larger joints of the body can tolerate. This makes cranks a submission category that demands exceptional control from the attacker and immediate tap response from the defender.\n\nDespite the controversy, understanding crank mechanics is essential for all BJJ practitioners. Many chokes have crank components that affect the jaw and neck. Submissions like the can opener from closed guard are commonly encountered even at beginner levels. Defensive awareness requires knowing when spinal force is being applied so you can tap before injury occurs. Practitioners should train crank awareness with extreme caution, applying these techniques slowly and with constant communication. Many competition rulesets ban specific cranks, and most experienced practitioners reserve cranks for controlled drilling rather than full-resistance sparring.",
   "key_principles": [
     "Cranks force the spine or neck beyond its safe range of motion through rotation, lateral bending, or axial compression, targeting vertebral structures rather than blood vessels or airways",
     "The cervical spine is extremely vulnerable to rotational and compressive forces, making cranks the highest-injury-risk submission category in BJJ",
@@ -58,7 +59,7 @@
   ],
   "principle_relationships": [
     {
-      "principle_name": "Submission Defense",
+      "principle_name": "Defensive Concepts",
       "relationship_type": "Complementary",
       "description": "Crank defense requires specific awareness and response protocols that differ from choke and joint lock defense. The primary crank defense is immediate tapping rather than progressive escape, because the injury window is much narrower than for other submission types."
     },
@@ -98,7 +99,7 @@
       "description": "Frames provide structural barriers that prevent opponents from establishing the head and body control necessary for crank applications. Effective framing keeps the attacker's leverage points away from the head and spine."
     },
     {
-      "principle_name": "Submission Chains",
+      "principle_name": "Position Chains",
       "relationship_type": "Extension",
       "description": "Cranks are sometimes used as chain elements that force defensive reactions opening other submissions. A neck crank threat from back control may force hand movement that exposes the neck for a blood choke."
     }
@@ -133,7 +134,7 @@
       "how_applied": "Mounted neck cranks can occur when the attacker controls the head and applies rotational force while the body is pinned under their weight. The mount's stability gives the attacker sustained leverage against the cervical spine."
     },
     {
-      "context": "Triangle Control",
+      "context": "Mounted Triangle",
       "how_applied": "When a triangle choke is applied with the head pulled laterally rather than straight down, it can function partially as a neck crank. The opponent's head is forced into lateral flexion by the angle of the leg configuration, adding spinal force to the vascular compression."
     },
     {
@@ -288,11 +289,6 @@
       "relationship": "The most commonly encountered crank at beginner levels, using cervical flexion force to attack the neck from inside closed guard"
     },
     {
-      "name": "Spine Lock",
-      "content_type": "Submission",
-      "relationship": "Direct spinal attack using compressive force against the lumbar or thoracic vertebrae"
-    },
-    {
       "name": "Banana Split",
       "content_type": "Submission",
       "relationship": "Groin and lower back attack that includes spinal compression and rotation components from leg entanglement positions"
@@ -303,9 +299,9 @@
       "relationship": "The specific control position from which the twister lateral spinal rotation crank is applied"
     },
     {
-      "name": "Submission Defense",
+      "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Crank defense requires immediate tapping rather than progressive escape, representing a distinct defensive protocol within the broader submission defense framework"
+      "relationship": "Crank defense requires immediate tapping rather than progressive escape, representing a distinct defensive protocol within the broader defensive framework"
     },
     {
       "name": "Chin Protection",
@@ -341,6 +337,48 @@
       "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Common context for can opener cranks and defensive neck pressure situations"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What distinguishes a crank from a choke or a joint lock?",
+      "answer": "A crank forces the spine, neck, or jaw beyond its safe range through rotational, lateral, or compressive force, attacking the vertebral column directly rather than the blood vessels, airway, or limb joints that chokes and joint locks target."
+    },
+    {
+      "question": "Why are cranks considered the highest-injury-risk submission category in BJJ?",
+      "answer": "The cervical spine is not built to be twisted or compressed under load, and its small vertebrae, discs, and ligaments can suffer structural damage before the sharp pain signal gives the defender any time to tap."
+    },
+    {
+      "question": "How should a crank be applied in training?",
+      "answer": "Always slowly and progressively, never explosively, giving your partner clear time to feel the force and tap, because spinal injuries can occur at relatively low force levels when applied suddenly."
+    },
+    {
+      "question": "What is the correct defensive response the instant you feel spinal rotation or compression?",
+      "answer": "Tap immediately and without hesitation. Unlike joint locks or chokes there is no safe window to muscle through a crank, and cervical injuries can be permanent or career-ending, so there is no upside to enduring the pressure."
+    },
+    {
+      "question": "How does the can opener crank work and why does it matter for beginners?",
+      "answer": "From inside closed guard the attacker clasps both hands behind the head and forcibly flexes the cervical spine forward and down. It is commonly encountered early and is banned in most lower-belt gi rulesets."
+    },
+    {
+      "question": "How can a choke attempt unintentionally turn into a crank?",
+      "answer": "When a guillotine, crossface, or rear naked choke slides off the arteries onto the jaw, the force redirects into the cervical spine. If a partner reports jaw or neck pain rather than a choking sensation, adjust the angle."
+    },
+    {
+      "question": "What is the primary defensive principle that prevents most cranks from materializing?",
+      "answer": "Maintaining good posture keeps the spine in neutral alignment and resistant to rotational and compressive force, which is why breaking posture is usually the first step an attacker takes in any crank setup."
+    },
+    {
+      "question": "Why should you often convert a crank angle into a choke when the option exists?",
+      "answer": "Many head-control positions can produce either a crank or a choke; the choke applies vascular compression that is both far safer for the partner and a more reliable, repeatable finishing mechanic."
+    },
+    {
+      "question": "What communication should precede any crank-adjacent training?",
+      "answer": "Confirm with your partner before the round whether cranks are included, ask about any neck injury history, and agree that both partners will apply force slowly and tap early at the first sign of spinal pressure."
+    },
+    {
+      "question": "How does the twister generate force against the spine?",
+      "answer": "The twister controls the opponent's leg and head simultaneously to create full-body lateral rotation that twists the spine. It requires specific entanglement and should only be drilled with extreme caution."
     }
   ]
 }

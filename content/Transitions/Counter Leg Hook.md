@@ -34,6 +34,18 @@ description: "Master the Counter Leg Hook in BJJ. Defensive counter from leg hoo
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Leg Hook",
+  "description": "The Counter Leg Hook is a defensive transition from leg hook bottom where the bottom player strips the top player's controlling hook using hip movement and frames to escape to turtle or recover half guard before the pass completes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Counter Leg Hook in BJJ. Defensive counter from leg hoo
 
 <section id="overview" class="content-section">
 
-The Counter Leg Hook is a defensive transition executed from leg hook bottom position when the top player has established a controlling hook during the half guard passing sequence. Rather than passively accepting the pass, the bottom player actively disrupts the hook control through a combination of hip movement, frame creation, and explosive directional changes designed to either turtle up before the pass completes or recover to a more defensible half guard configuration.
+**The Counter Leg Hook is a defensive transition from leg hook bottom where the bottom player strips the top player's controlling hook using hip movement and frames to escape to turtle or recover half guard before the pass completes.**
+
+Sitting at a high-pressure junction of the half guard passing sequence, the Counter Leg Hook gives the bottom player a proactive answer to a top player who has already established a controlling hook. Rather than passively accepting the pass, the bottom player actively disrupts the hook control through a combination of hip movement, frame creation, and explosive directional changes designed to either turtle up before the pass completes or recover to a more defensible half guard configuration.
 
 This counter relies on precise timing and understanding of the top player's weight distribution. The optimal window occurs when the top player commits their weight forward to advance the pass or shifts their base to consolidate the hook. During these moments of transitional instability, the bottom player can exploit the weight commitment by moving perpendicular to the pressure, creating enough space to either pull the hooked leg free and turtle defensively, or re-establish guard hooks for half guard recovery.
 

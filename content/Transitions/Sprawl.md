@@ -34,6 +34,18 @@ description: "Master the Sprawl takedown defense in BJJ. Essential defensive tec
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sprawl",
+  "description": "The Sprawl is a takedown defense where you explosively drive your hips back and down while dropping chest weight onto a shooting opponent's shoulders, stuffing single- and double-leg attacks and transitioning to front headlock control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Sprawl takedown defense in BJJ. Essential defensive tec
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sprawl is a takedown defense where you explosively drive your hips back and down while dropping chest weight onto a shooting opponent's shoulders, stuffing single- and double-leg attacks and transitioning to front headlock control.**
 
 The Sprawl is a fundamental defensive technique in Brazilian Jiu-Jitsu and wrestling, designed to counter opponent takedown attempts, particularly single leg and double leg attacks. When executed properly, the sprawl allows you to stuff the opponent's shot, prevent them from completing the takedown, and transition to a dominant position such as front headlock control. The sprawl works by explosively driving your hips down and back while simultaneously driving your weight onto the opponent's shoulders and head, breaking their posture and eliminating their ability to lift or drive forward. This creates an immediate shift in positional hierarchy, turning a potentially dangerous defensive situation into an offensive opportunity.
 

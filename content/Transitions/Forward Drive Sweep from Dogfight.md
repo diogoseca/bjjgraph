@@ -34,6 +34,18 @@ description: "Master the Forward Drive Sweep from Dogfight in BJJ. High-percenta
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Forward Drive Sweep from Dogfight",
+  "description": "The Forward Drive Sweep from Dogfight is a power half guard sweep where the bottom player uses a deep underhook and explosive forward leg drive to topple the top player backward and follow through to mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Forward Drive Sweep from Dogfight in BJJ. High-percenta
 </div>
 
 <section id="overview" class="content-section">
+
+**The Forward Drive Sweep from Dogfight is a power half guard sweep where the bottom player uses a deep underhook and explosive forward leg drive to topple the top player backward and follow through to mount.**
 
 The Forward Drive Sweep from Dogfight is a fundamental power sweep that capitalizes on the bottom player's established underhook to drive the top player backward and achieve mount. This technique represents one of the most direct offensive options from the Dogfight Position, requiring the bottom player to generate forward momentum through their underhook while simultaneously controlling the opponent's far-side posting options. The sweep rewards committed, aggressive forward pressure and punishes opponents who sit back on their heels or fail to maintain active whizzer defense.
 

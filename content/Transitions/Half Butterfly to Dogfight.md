@@ -34,6 +34,18 @@ description: "Master the Half Butterfly to Dogfight transition. Learn underhook 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Butterfly to Dogfight",
+  "description": "Half Butterfly to Dogfight is a bottom-half-guard transition where the player coordinates a deep underhook with butterfly-hook elevation to rise from half butterfly onto their knees into the dynamic dogfight position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Half Butterfly to Dogfight transition. Learn underhook 
 </div>
 
 <section id="overview" class="content-section">
+
+**Half Butterfly to Dogfight is a bottom-half-guard transition where the player coordinates a deep underhook with butterfly-hook elevation to rise from half butterfly onto their knees into the dynamic dogfight position.**
 
 The Half Butterfly to Dogfight transition is one of the most important positional improvements available from bottom half guard. By combining the underhook battle with butterfly hook elevation, the bottom player rises from a relatively passive half butterfly position to the dynamic dogfight, where both practitioners compete on roughly equal terms. This transition epitomizes the modern half guard philosophy of coming up rather than fighting from your back, and it creates immediate offensive threats including sweeps, back takes, and further positional advances.
 

@@ -34,6 +34,18 @@ description: "Master Pocket Half Guard in BJJ. Deep underhook half guard positio
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pocket Half Guard",
+  "description": "Pocket Half Guard is a half guard variation where a deep underhook into the opponent's hip-to-rib 'pocket' forces a sweep-or-pass dilemma - offensively dominant from bottom, control-heavy from top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Pocket Half Guard in BJJ. Deep underhook half guard positio
 
 <section id="overview" class="content-section">
 
-Pocket Half Guard is a specialized half guard variation defined by deep underhook control combined with tight shoulder connection in the opponent's 'pocket' - the space between hip and ribcage. This position emerged from modern half guard evolution as practitioners sought more offensive options while maintaining defensive integrity. The defining characteristic is the deep underhook that controls the opponent's far hip, combined with strategic shoulder positioning that creates a barrier against passes from bottom or flattening control from top.
+**Pocket Half Guard is a half guard variation where a deep underhook into the opponent's hip-to-rib 'pocket' forces a sweep-or-pass dilemma - offensively dominant from bottom, control-heavy from top.**
+
+Emerging from the modern half guard evolution, Pocket Half Guard developed as practitioners sought more offensive options while maintaining defensive integrity. The defining characteristic is the deep underhook reaching into the opponent's 'pocket' - the space between hip and ribcage - controlling their far hip while strategic shoulder positioning creates a barrier against passes from bottom or flattening control from top.
 
 From the bottom perspective, Pocket Half Guard excels at generating powerful sweeps and back-takes because the deep underhook compromises the opponent's base while tight leg control prevents them from advancing position. The 'pocket' refers to the space created by pulling the opponent's shoulder down with the underhook while using the bottom leg to create a frame against their near hip. This position gained prominence through the 10th Planet system and has been refined by competition specialists who recognize its effectiveness against pressure passers.
 

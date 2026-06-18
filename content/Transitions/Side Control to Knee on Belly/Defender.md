@@ -4,7 +4,7 @@
 
 ---
 title: "Side Control to Knee on Belly Defender | BJJ Defense Guide | BJJ Graph"
-description: "Master defending the Consolidation to Knee on Belly transition. Learn recognition cues, frame timing, and escape sequences to prevent positional advancement from side control."
+description: "Master defending the Side Control to Knee on Belly transition. Learn recognition cues, frame timing, and escape sequences to prevent positional advancement from side control."
 ---
 
 
@@ -96,7 +96,7 @@ description: "Master defending the Consolidation to Knee on Belly transition. Le
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Side Control to Knee on Belly Defender",
-  "description": "Master defending the Consolidation to Knee on Belly transition. Learn recognition cues, frame timing, and escape sequences to prevent positional advancement from side control.",
+  "description": "Master defending the Side Control to Knee on Belly transition. Learn recognition cues, frame timing, and escape sequences to prevent positional advancement from side control.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -144,7 +144,7 @@ description: "Master defending the Consolidation to Knee on Belly transition. Le
 
 <section id="overview" class="content-section">
 
-Defending the Consolidation to Knee on Belly transition requires recognizing the brief moment when the top player sacrifices chest pressure to elevate their hips for knee insertion. This transitional window is paradoxically both the most dangerous moment and the best escape opportunity: if the defender misses it, they end up under the crushing concentrated pressure of knee on belly, but the top player's control is momentarily weakened during the movement. The defender must develop sensitivity to the attacker's weight shifts, breathing patterns, and grip adjustments that signal the impending transition, then execute practiced defensive responses that exploit the inherent vulnerability of positional advancement. Success requires proactive frame creation before the knee lands rather than reactive escape attempts after the position is established.
+Defending the Side Control to Knee on Belly transition requires recognizing the brief moment when the top player sacrifices chest pressure to elevate their hips for knee insertion. This transitional window is paradoxically both the most dangerous moment and the best escape opportunity: if the defender misses it, they end up under the crushing concentrated pressure of knee on belly, but the top player's control is momentarily weakened during the movement. The defender must develop sensitivity to the attacker's weight shifts, breathing patterns, and grip adjustments that signal the impending transition, then execute practiced defensive responses that exploit the inherent vulnerability of positional advancement. Success requires proactive frame creation before the knee lands rather than reactive escape attempts after the position is established.
 
 **Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 

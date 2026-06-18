@@ -33,10 +33,32 @@ description: "Master the Darce Choke from Twister Side Control with detailed fin
 }
 </script>
 
-> **SAFETY**: Darce Choke from Twister Side Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Darce Choke from Twister Side Control",
+  "description": "The Darce Choke from Twister Side Control is a no-gi blood choke where the top player threads an arm under the chin and through the far armpit, using the position's leg entanglement and shoulder pressure to compress both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Darce Choke from Twister Side Control is a no-gi blood choke where the top player threads an arm under the chin and through the far armpit, using the position's leg entanglement and shoulder pressure to compress both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Darce Choke from Twister Side Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,56 +75,7 @@ The key mechanical advantage stems from the bottom player's severely compromised
 
 In competition, this variant carries a higher finishing rate than standard Darce entries because positional control is already established before the choke attempt begins. The attacker does not sacrifice position to pursue the submission, as the transition from Twister Side Control to Darce maintains the existing leg entanglement and pressure framework throughout the entire attack sequence.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Twister Control/Twister Side Control]]
-**From Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | CRITICAL | Immediate if released; prolonged compression can cause stroke |
-| Neck muscle strain from improper resistance | Medium | 7-14 days |
-| Shoulder impingement from trapped arm position | Medium | 5-10 days |
-| Tracheal compression if applied incorrectly | High | 14-21 days with medical attention |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or 'stop')
-- Physical hand tap on partner's body
-- Physical foot tap on mat
-- Any distress signal or loss of resistance
-- Unconscious body going limp (IMMEDIATE RELEASE)
-
-
-**Release Protocol**:
-1. Immediately unclasp hands and release figure-four grip
-2. Remove shoulder pressure from neck first
-3. Extract choking arm slowly to avoid neck jerk
-4. Allow partner to recover in seated or supine position
-5. Monitor for 30+ seconds for dizziness or disorientation
-6. If unconsciousness occurred, keep airway clear and seek medical evaluation
-
-
-**Training Restrictions**:
-- Never apply full pressure in drilling - use positional control only
-- Never use competition speed or intensity in training
-- Always allow clear tap access with free hand
-- Never spike or jerk the choke - apply smooth progressive pressure
-- Stop immediately at any tap signal without waiting for confirmation
-- Never train this technique while fatigued or with impaired judgment
-
+**Starting Position**: [[Positions/Twister Control/Twister Side Control]] · **From**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 </section>
 
@@ -264,39 +237,61 @@ In competition, this variant carries a higher finishing rate than standard Darce
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Brabo Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Twister Control/Twister Side Control]] - Starting position providing lateral control and leg entanglement for this variant
 - [[Positions/Darce Control]] - Control position reached when Darce grip is partially locked before finishing
 - [[Positions/Twister Control/Truck]] - Related position within the 10th Planet twister system and alternative entry point
-- [[Transitions/Darce Choke]] - Parent submission with generic mechanics applicable from all positions
-- [[Transitions/Anaconda Choke]] - Alternative head-and-arm choke accessible from similar lateral angle
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Darce Choke from Twister Side Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | CRITICAL | Immediate if released; prolonged compression can cause stroke |
+| Neck muscle strain from improper resistance | Medium | 7-14 days |
+| Shoulder impingement from trapped arm position | Medium | 5-10 days |
+| Tracheal compression if applied incorrectly | High | 14-21 days with medical attention |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
+
+**Tap Signals**:
+- Verbal tap (say 'tap' or 'stop')
+- Physical hand tap on partner's body
+- Physical foot tap on mat
+- Any distress signal or loss of resistance
+- Unconscious body going limp (IMMEDIATE RELEASE)
+
+
+**Release Protocol**:
+1. Immediately unclasp hands and release figure-four grip
+2. Remove shoulder pressure from neck first
+3. Extract choking arm slowly to avoid neck jerk
+4. Allow partner to recover in seated or supine position
+5. Monitor for 30+ seconds for dizziness or disorientation
+6. If unconsciousness occurred, keep airway clear and seek medical evaluation
+
+
+**Training Restrictions**:
+- Never apply full pressure in drilling - use positional control only
+- Never use competition speed or intensity in training
+- Always allow clear tap access with free hand
+- Never spike or jerk the choke - apply smooth progressive pressure
+- Stop immediately at any tap signal without waiting for confirmation
+- Never train this technique while fatigued or with impaired judgment
+
 
 </section>
 

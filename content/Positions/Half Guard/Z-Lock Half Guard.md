@@ -34,6 +34,18 @@ description: "Master Z-Lock Half Guard in BJJ. Advanced lockdown variation with 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Z-Lock Half Guard",
+  "description": "Z-Lock Half Guard is an advanced 10th Planet lockdown variation where the bottom player forms a 'Z' with their legs - one securing the lockdown, the other a butterfly hook - creating simultaneous sweep, back-take, and Electric Chair threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Z-Lock Half Guard in BJJ. Advanced lockdown variation with 
 </div>
 
 <section id="overview" class="content-section">
+
+**Z-Lock Half Guard is an advanced 10th Planet lockdown variation where the bottom player forms a 'Z' with their legs - one securing the lockdown, the other a butterfly hook - creating simultaneous sweep, back-take, and Electric Chair threats.**
 
 Z-Lock Half Guard represents an advanced variation of the lockdown system where the practitioner creates a unique leg configuration resembling the letter 'Z' while controlling the opponent's trapped leg. This position combines elements of traditional lockdown mechanics with enhanced mobility and offensive capabilities, creating a versatile attacking platform that can neutralize larger, stronger opponents through superior positioning and leverage.
 

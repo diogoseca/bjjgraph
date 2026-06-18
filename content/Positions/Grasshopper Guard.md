@@ -34,6 +34,18 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Grasshopper Guard",
+  "description": "Grasshopper Guard is an inverted open guard where the bottom player bases on their shoulders and elevates the hips to thread their legs around a standing passer, hunting kneebars, ankle locks, and elevation sweeps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 
 <section id="overview" class="content-section">
 
-Grasshopper Guard represents an unorthodox open guard position where the bottom practitioner inverts their body positioning, placing their shoulders near the mat while elevating their hips and legs toward the opponent. This inverted guard creates unique angles for leg attacks, especially kneebars and ankle locks, while simultaneously offering powerful sweeping mechanics through hip elevation and leg entanglement.
+**Grasshopper Guard is an inverted open guard where the bottom player bases on their shoulders and elevates the hips to thread their legs around a standing passer, hunting kneebars, ankle locks, and elevation sweeps.**
+
+Among modern inverted guards, Grasshopper Guard stands out as a transitional, submission-hunting platform rather than a place to settle and rest. The bottom practitioner inverts their body positioning, placing their shoulders near the mat while elevating their hips and legs toward the opponent. This inverted guard creates unique angles for leg attacks, especially kneebars and ankle locks, while simultaneously offering powerful sweeping mechanics through hip elevation and leg entanglement.
 
 The position is characterized by the bottom player essentially "hopping" or transitioning between different leg configurations while maintaining an inverted posture. Unlike traditional open guards that rely on upright seated positioning, grasshopper guard leverages the practitioner's back and shoulders as base points, freeing the hips and legs for dynamic offensive actions.
 

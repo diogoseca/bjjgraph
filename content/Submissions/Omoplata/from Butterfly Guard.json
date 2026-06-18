@@ -1,5 +1,6 @@
 {
   "name": "Omoplata from Butterfly Guard",
+  "summary": "The Omoplata from Butterfly Guard is a shoulder lock launched from the seated bottom position, using butterfly-hook elevation and an overhook to clear a leg over the opponent's trapped shoulder and apply rotational pressure.",
   "description": "Master the Omoplata from Butterfly Guard. Learn hook elevation entries, overhook setups, and finishing mechanics for this dynamic BJJ shoulder lock submission.",
   "tags": [
     "bjj",
@@ -126,7 +127,7 @@
     }
   ],
   "attacker": {
-    "name": "from Butterfly Guard Attacker",
+    "name": "Omoplata from Butterfly Guard Attacker",
     "description": "Execute the Omoplata from Butterfly Guard with hook elevation setups, overhook entries, and systematic finishing sequences for this shoulder lock.",
     "overview": "Attacking the Omoplata from Butterfly Guard requires mastery of the transition from hook elevation to leg-over-shoulder mechanics. The key distinction from other omoplata entries is the use of the butterfly hook as both an off-balancing tool and a space-creation mechanism. The attacker must coordinate the overhook grip, hook elevation, and hip rotation into a single fluid motion, timing the attack with the opponent's defensive weight shifts. Success depends on maintaining the overhook throughout the transition and immediately controlling the opponent's posture once the leg clears over the shoulder to prevent the forward roll escape.",
     "key_principles": [
@@ -283,6 +284,11 @@
         "safety_critical": false
       },
       {
+        "question": "What tactile and visual cues indicate the omoplata has reached the shoulder's end range and a tap is imminent?",
+        "answer": "As you walk your hips away and lean forward, the opponent's shoulder reaches its rotational limit when their elbow points upward and the upper arm can no longer internally rotate. Their torso pins flat with the trapped arm wound tight; at this point even small increments of forward lean generate sharp pressure, so apply the final degrees slowly and expect the tap immediately.",
+        "safety_critical": true
+      },
+      {
         "question": "What is the proper speed for applying finishing pressure in training, and why is this critical?",
         "answer": "Finishing pressure must be applied slowly and progressively over a minimum of 4-6 seconds, gradually increasing the forward lean and rotational torque. The shoulder joint is vulnerable to sudden catastrophic damage including rotator cuff tears and labrum injuries requiring surgical intervention. Competition-speed application must never be used in training.",
         "safety_critical": true
@@ -301,11 +307,16 @@
         "question": "What body angle relative to your opponent produces maximum finishing leverage in the omoplata?",
         "answer": "A perpendicular 90-degree angle to the opponent's body produces maximum finishing leverage. After the leg clears, sit through and walk your hips away to achieve this angle. A parallel or shallow angle reduces rotational torque and allows the opponent to resist by turning into you or establishing defensive frames against the finish.",
         "safety_critical": false
+      },
+      {
+        "question": "In competition against a resisting opponent, what finishing detail most reliably converts the omoplata into a fast tap?",
+        "answer": "Kill the forward roll first by clamping the far hip or belt, then flatten the opponent's chest to the mat before applying any rotation. Most competition omoplatas stall because the attacker rotates the shoulder while the opponent still has space to roll or sit up; eliminating that escape route and pinning the swimming free arm before adding torque is what turns a controlled position into a finish.",
+        "safety_critical": false
       }
     ]
   },
   "defender": {
-    "name": "from Butterfly Guard Defender",
+    "name": "Omoplata from Butterfly Guard Defender",
     "description": "Defend the Omoplata from Butterfly Guard with early recognition, posture recovery, and stack escapes to neutralize this shoulder lock.",
     "overview": "Defending the Omoplata from Butterfly Guard requires recognizing the attack earlier than with standard omoplata entries because the butterfly hook elevation accelerates the transition significantly. The seated posture of the butterfly guard player means the leg swing can happen quickly once the overhook is established and the hook drives upward. Defenders must prioritize preventing the overhook from deepening and maintaining strong posture against the hook elevation. Once the leg begins to clear over the shoulder, defensive options narrow rapidly, making early recognition and immediate response essential for successful defense against this submission.",
     "key_principles": [

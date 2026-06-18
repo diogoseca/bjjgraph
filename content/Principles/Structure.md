@@ -143,6 +143,16 @@ description: "Master skeletal structure in BJJ. Learn bone stacking, joint align
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Structure",
+  "description": "Structure is the skeletal alignment of your whole body so that force travels through stacked bone rather than muscle, letting you transmit pressure, resist load, or redirect momentum with minimal energy.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,9 +168,11 @@ description: "Master skeletal structure in BJJ. Learn bone stacking, joint align
 
 ## What is Structure?
 
-Structure in BJJ refers to the skeletal alignment of your entire body for efficient force transmission or resistance. While Posture specifically addresses spinal alignment, Structure encompasses how every bone and joint in your body connects to form a unified system that either transmits force to the opponent or resists force from them. When your structure is sound, you can apply heavy pressure while feeling light, maintain defensive frames that do not collapse, and execute techniques that seem effortless. When your structure breaks, even simple techniques fail and you burn energy fighting against your own misalignment.
+**Structure is the skeletal alignment of your whole body so that force travels through stacked bone rather than muscle, letting you transmit pressure, resist load, or redirect momentum with minimal energy.**
 
-The core concept is bone stacking — aligning skeletal segments so that force travels through bone rather than requiring muscles to bridge structural gaps. A straight arm frame where the bones are stacked from shoulder to wrist transmits opponent pressure directly to your skeleton, costing almost no energy. A bent arm frame where the bones are not aligned requires your muscles to hold the shape, and those muscles fatigue. Every position in BJJ has structural configurations that are efficient and configurations that are wasteful. Learning to recognize and establish good structure is what separates practitioners who can roll for an hour from those who gas in five minutes.
+While most practitioners first learn to think about alignment through the narrow lens of Posture — keeping the spine stacked — Structure is the broader whole-body concept that determines whether your skeleton works for you or against you. It encompasses how every bone and joint in your body connects to form a unified system that either transmits force to the opponent or resists force from them. When your structure is sound, you can apply heavy pressure while feeling light, maintain defensive frames that do not collapse, and execute techniques that seem effortless. When your structure breaks, even simple techniques fail and you burn energy fighting against your own misalignment.
+
+The core mechanism is bone stacking — aligning skeletal segments so that force travels through bone rather than requiring muscles to bridge structural gaps. A straight arm frame where the bones are stacked from shoulder to wrist transmits opponent pressure directly to your skeleton, costing almost no energy. A bent arm frame where the bones are not aligned requires your muscles to hold the shape, and those muscles fatigue. Every position in BJJ has structural configurations that are efficient and configurations that are wasteful. Learning to recognize and establish good structure is what separates practitioners who can roll for an hour from those who gas in five minutes.
 
 Structure also has a dynamic dimension. While static bone stacking matters, understanding when to be rigid versus flexible is equally important. A rigid structure resists force effectively but cannot absorb or redirect it. A flexible structure yields to force but can be used to redirect momentum and create openings. The expert practitioner alternates between rigid and flexible structural states depending on whether they need to resist, transmit, redirect, or absorb force in any given moment.
 

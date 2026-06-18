@@ -94,6 +94,18 @@ description: "Master the three phases of guard passing in BJJ: disentangle, cont
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Phases of Passing",
+  "description": "Phases of Passing is a framework that breaks guard passing into three sequential stages — disentangle (clear grips and hooks), control (pin the hips and legs), and consolidate (settle into a dominant position) — each of which must be completed before the next can succeed.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -102,6 +114,8 @@ description: "Master the three phases of guard passing in BJJ: disentangle, cont
 <section id="overview" class="content-section">
 
 ## What is Phases of Passing?
+
+**Phases of Passing is a framework that breaks guard passing into three sequential stages — disentangle (clear grips and hooks), control (pin the hips and legs), and consolidate (settle into a dominant position) — each of which must be completed before the next can succeed.**
 
 The number one reason guard passes fail is skipping steps. A grappler tries to jump straight from standing in someone's guard to side control, and the guard player catches them mid-flight with a sweep or re-guard. Passing has three distinct phases, and each one must be completed before the next can succeed. Rushing through a phase or skipping it entirely is the most common and most costly mistake in the top game.
 

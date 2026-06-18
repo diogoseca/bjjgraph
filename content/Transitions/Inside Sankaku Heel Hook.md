@@ -34,6 +34,18 @@ description: "Master the Inside Sankaku Heel Hook in BJJ. Comprehensive guide to
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Sankaku Heel Hook",
+  "description": "Executed from the Inside Sankaku (Honey Hole) leg entanglement, the Inside Sankaku Heel Hook isolates the opponent's exposed inside heel with a two-on-one blade grip and applies rotational torque to the knee, making it one of no-gi grappling's highest-percentage finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Inside Sankaku Heel Hook in BJJ. Comprehensive guide to
 </div>
 
 <section id="overview" class="content-section">
+
+**Executed from the Inside Sankaku (Honey Hole) leg entanglement, the Inside Sankaku Heel Hook isolates the opponent's exposed inside heel with a two-on-one blade grip and applies rotational torque to the knee, making it one of no-gi grappling's highest-percentage finishes.**
 
 The Inside Sankaku Heel Hook is the primary finishing technique from the Inside Sankaku leg entanglement, widely regarded as one of the highest-percentage submissions in modern no-gi grappling. This transition represents the culmination of the leg lock attack sequence where established positional control converts into a match-ending submission. The attacker leverages the structural advantages of the Inside Sankaku figure-four configuration to isolate the opponent's heel and apply devastating rotational force to the knee joint through precise breaking mechanics.
 
@@ -228,8 +242,6 @@ The Inside Sankaku Heel Hook sits at the apex of the modern leg lock system as t
 - [[Submissions/Inside Heel Hook]] - The submission type being applied in this transition
 
 - [[Inside Heel Hook from Honey Hole]] - Same submission from the alternative name position
-
-- [[Submissions/Inside Heel Hook]] - Submission finish page for this technique
 
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the Inside Sankaku position
 

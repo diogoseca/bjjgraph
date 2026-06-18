@@ -11,7 +11,8 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Intermediate",
-  "overview": "The Dynamic Guard System represents a modern approach to guard play that prioritizes constant movement, position switching, and grip fighting over static positions. Unlike traditional guard systems that focus on maintaining a single guard type, this system teaches practitioners to fluidly transition between multiple guard positions based on opponent reactions and opportunities. The core philosophy centers on making it extremely difficult for opponents to establish stable passing grips or pressure by constantly changing angles, grips, and guard types. This creates a moving target that frustrates passers and opens up sweep and submission opportunities. The system is built on the principle that movement creates opportunities - by staying dynamic and unpredictable, you force your opponent into defensive reactions rather than allowing them to execute their preferred passing sequences.",
+  "summary": "The Dynamic Guard System is a guard-retention framework that prioritizes constant movement, grip fighting, and fluid switching between open guards to deny passers stable grips while generating sweep and submission opportunities.",
+  "overview": "Emerging from the modern competitive guard game, the Dynamic Guard System rejects the idea that a guard player should anchor to a single position and instead treats the guard as a continuous flow of interchangeable frames and grips. Unlike traditional guard systems that focus on maintaining one guard type, it teaches practitioners to fluidly transition between multiple guard positions based on opponent reactions and opportunities. The core philosophy centers on making it extremely difficult for opponents to establish stable passing grips or pressure by constantly changing angles, grips, and guard types. This creates a moving target that frustrates passers and opens up sweep and submission opportunities. The system is built on the principle that movement creates opportunities - by staying dynamic and unpredictable, you force your opponent into defensive reactions rather than allowing them to execute their preferred passing sequences.",
   "key_principles": [
     "Constant movement prevents opponent from establishing stable passing positions",
     "Grip fighting determines the pace and direction of engagement",
@@ -291,34 +292,24 @@
       "relationship": "Classic sweep integrated into guard switching sequences"
     },
     {
-      "name": "Butterfly Sweep",
+      "name": "Basic Butterfly Sweep",
       "content_type": "Transition",
       "relationship": "High-percentage sweep from butterfly guard position"
     },
     {
-      "name": "De La Riva Sweep",
-      "content_type": "Transition",
-      "relationship": "Primary offensive technique from DLR position"
-    },
-    {
-      "name": "Spider Guard Pass",
-      "content_type": "Transition",
-      "relationship": "Collection of sweeps from spider guard position"
-    },
-    {
-      "name": "X-Guard Sweep",
-      "content_type": "Transition",
-      "relationship": "Powerful elevation sweep from X-guard"
-    },
-    {
       "name": "Berimbolo Entry",
       "content_type": "Transition",
-      "relationship": "Advanced back-take option from DLR position"
+      "relationship": "Advanced back-take option from De La Riva position"
     },
     {
-      "name": "Guard Pull",
+      "name": "Backstep from De La Riva",
       "content_type": "Transition",
-      "relationship": "Entry method for initiating dynamic guard engagement"
+      "relationship": "Counter-movement option when switching out of De La Riva engagement"
+    },
+    {
+      "name": "Arm Drag from Standing",
+      "content_type": "Transition",
+      "relationship": "Entry method for initiating dynamic guard engagement and back exposure"
     },
     {
       "name": "Marcelo Garcia Butterfly Guard System",
@@ -334,6 +325,50 @@
       "name": "Caio Terra Guard Retention System",
       "content_type": "System",
       "relationship": "Alternative guard retention methodology with different emphasis"
+    },
+    {
+      "name": "10th Planet No-Gi Guard System",
+      "content_type": "System",
+      "relationship": "No-gi guard framework with overlapping switching and retention concepts"
+    },
+    {
+      "name": "Keenan Cornelius Lapel Guard System",
+      "content_type": "System",
+      "relationship": "Gi-specific guard system extending the dynamic switching concept with lapel control"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core philosophy of the Dynamic Guard System?",
+      "answer": "It treats the guard as a continuously moving target, using constant position switching, grip fighting, and angle changes to deny passers the stable grips and pressure they need to complete a pass."
+    },
+    {
+      "question": "How does the Dynamic Guard System prevent opponents from passing?",
+      "answer": "By constantly changing guard types, grips, and angles, it forces the passer into reactive defense and never lets them settle into a preferred passing sequence or establish stabilizing pressure."
+    },
+    {
+      "question": "What is the Guard Switching Matrix component?",
+      "answer": "A decision framework of guard-to-guard transition trees that tells you which guard to switch to based on the opponent's grips, posture, and pressure direction, while preserving frames throughout."
+    },
+    {
+      "question": "Why is grip fighting central to this system?",
+      "answer": "Grips dictate distance, pace, and direction of engagement; winning the grip battle lets you control the exchange, break passing grips early, and set up sweeps before the passer can advance."
+    },
+    {
+      "question": "What is the most common mistake when applying the Dynamic Guard System?",
+      "answer": "Moving constantly without purpose, which burns energy and opens passing lanes. Effective movement is deliberate and reactive, switching only when the opponent's grips or pressure demand it."
+    },
+    {
+      "question": "How should a practitioner drill this system in the early stages?",
+      "answer": "Begin with solo hip-mobility and switching drills, then add cooperative feeds of specific passes, progressing to increasing resistance and positional sparring that rewards switching over holding one guard."
+    },
+    {
+      "question": "How do you maintain guard integrity during a transition between guards?",
+      "answer": "Establish the new grip or frame before releasing the old one, keeping at least one strong frame connected to the opponent so they cannot capitalize on the momentary gap during the switch."
+    },
+    {
+      "question": "How does the Dynamic Guard System convert defense into offense?",
+      "answer": "Position switches and grip battles off-balance the passer, and timing-based sweeps and submissions are launched the instant the opponent reacts to movement, turning retention into attack."
     }
   ]
 }

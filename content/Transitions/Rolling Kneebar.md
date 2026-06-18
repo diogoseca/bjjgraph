@@ -34,6 +34,18 @@ description: "Master the Rolling Kneebar from Grasshopper Guard. Dynamic leg att
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rolling Kneebar",
+  "description": "The Rolling Kneebar is a dynamic leg attack from Grasshopper Guard where the bottom player uses rotational momentum to roll through the opponent's base, capturing and hyperextending the knee in a belly-down finishing position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Rolling Kneebar from Grasshopper Guard. Dynamic leg att
 
 <section id="overview" class="content-section">
 
-The Rolling Kneebar is a dynamic leg attack initiated from Grasshopper Guard that uses rotational momentum to capture and hyperextend the opponent's knee. This technique leverages the inverted positioning inherent to grasshopper guard, converting the guard player's elevated hips and leg entanglement into an aggressive rolling submission entry.
+**The Rolling Kneebar is a dynamic leg attack from Grasshopper Guard where the bottom player uses rotational momentum to roll through the opponent's base, capturing and hyperextending the knee in a belly-down finishing position.**
+
+Within the modern leg-lock game, the Rolling Kneebar is the most aggressive committed entry available from the inverted grasshopper platform, trading positional safety for a high-momentum attack that becomes difficult to defend once launched. This technique leverages the inverted positioning inherent to grasshopper guard, converting the guard player's elevated hips and leg entanglement into an aggressive rolling submission entry.
 
 The attack works by using the bottom player's existing leg contact as an anchor point while rolling underneath and through the opponent's base. As you roll, your legs trap the opponent's leg while your hips rotate to create the breaking angle across their knee joint. The momentum of the roll makes this attack difficult to defend once initiated properly, as the opponent must deal with both the rotational force and the sudden positional change.
 

@@ -34,6 +34,18 @@ description: "Master collar sleeve guard in BJJ. Comprehensive guide covering gr
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Collar Sleeve Guard",
+  "description": "Collar sleeve guard is a gi open guard where the bottom player pairs a cross-collar grip with a same-side sleeve grip, using the asymmetric grip structure to break posture, control distance, and chain sweeps with triangle attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master collar sleeve guard in BJJ. Comprehensive guide covering gr
 
 <section id="overview" class="content-section">
 
-Collar sleeve guard is a fundamental open guard variation that combines a collar grip (typically cross-collar) with a same-side sleeve grip to create powerful off-balancing and sweeping opportunities. This guard is characterized by its asymmetric grip structure, which generates rotational forces that disrupt the opponent's base while maintaining distance control through the extended sleeve grip.
+**Collar sleeve guard is a gi open guard where the bottom player pairs a cross-collar grip with a same-side sleeve grip, using the asymmetric grip structure to break posture, control distance, and chain sweeps with triangle attacks.**
+
+As one of the most accessible hubs of the gi guard game, collar sleeve guard rewards grip discipline and constant angle adjustment far more than flexibility or athleticism. Its defining asymmetry, a collar pull paired with a same-side sleeve grip, generates rotational forces that disrupt the opponent's base while the extended sleeve grip governs engagement distance and prevents posting.
 
 The position represents one of the most accessible entries into systematic guard play for practitioners at all levels. Unlike more complex guards that require specific flexibility or body type advantages, collar sleeve guard relies on fundamental principles of leverage, angle creation, and grip fighting that translate across all body types and competitive formats. The cross-collar grip provides direct control over the opponent's posture and upper body rotation, while the sleeve grip manages distance and prevents posting.
 

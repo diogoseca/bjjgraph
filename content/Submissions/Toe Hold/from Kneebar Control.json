@@ -1,5 +1,6 @@
 {
   "name": "Toe Hold from Kneebar Control",
+  "summary": "The Toe Hold from Kneebar Control is a rotational footlock applied when an opponent bends their knee to defend the kneebar, attacking the ankle and foot ligaments while forming a chain attack where defending one submission exposes the other.",
   "description": "Master the toe hold from kneebar control in BJJ. Learn grip transitions, rotational finishing mechanics, and safe application for this essential leg lock chain attack.",
   "tags": [
     "bjj",
@@ -82,7 +83,7 @@
     "Inside Heel Hook",
     "Achilles Lock",
     "Calf Slicer",
-    "Estima Lock Control"
+    "Estima Lock"
   ],
   "related_content": [
     {
@@ -136,7 +137,7 @@
     }
   ],
   "attacker": {
-    "name": "from Kneebar Control Attacker",
+    "name": "Toe Hold from Kneebar Control Attacker",
     "description": "Learn to attack with the toe hold from kneebar control. Step-by-step grip transitions, execution sequence, and finishing mechanics for BJJ leg lock practitioners.",
     "overview": "Attacking with the toe hold from kneebar control exploits a fundamental defensive dilemma in leg lock systems. When the opponent bends their knee to defend the kneebar, their foot becomes accessible for the toe hold grip. The attacker must maintain hip connection and leg entanglement throughout the grip transition, switching from the kneebar arm configuration to the toe hold figure-four without creating escape windows. The key is reading the opponent's defensive posture and timing the grip switch to coincide with their commitment to knee defense. Successful execution requires seamless integration of the kneebar threat as a setup, precise hand placement over the forefoot, and controlled rotational pressure that allows the opponent adequate time to tap.",
     "key_principles": [
@@ -311,7 +312,7 @@
       },
       {
         "question": "Why must rotational pressure be applied gradually rather than quickly when finishing the toe hold?",
-        "answer": "Toe holds attack small ligaments and joints that can fail suddenly and catastrophically with minimal warning. Unlike chokes where the opponent gradually loses consciousness, ankle ligaments can tear instantly under sudden rotational load. The 5-7 second minimum application window gives the defender adequate time to recognize the submission threat and signal a tap before structural damage occurs. Snapping the toe hold risks severe, potentially career-ending ankle injury.",
+        "answer": "Toe holds attack small ligaments and joints that can fail suddenly and catastrophically with minimal warning. Unlike chokes where the opponent gradually loses consciousness, ankle ligaments can tear instantly under sudden rotational load. The 5-7 second minimum application window gives the defender adequate time to recognize the submission threat and tap before structural damage occurs. Snapping the toe hold risks severe, potentially career-ending ankle injury.",
         "safety_critical": true
       },
       {
@@ -327,7 +328,7 @@
     ]
   },
   "defender": {
-    "name": "from Kneebar Control Defender",
+    "name": "Toe Hold from Kneebar Control Defender",
     "description": "Defend the toe hold from kneebar control in BJJ. Recognition cues, grip stripping techniques, escape paths, and survival strategies for effective leg lock defense.",
     "overview": "Defending the toe hold from kneebar control demands early recognition of the grip transition and immediate action during the brief window when the attacker switches configurations. The defender's primary advantage is that the grip change creates a moment of reduced control where the attacker's hands are between positions. Effective defense begins with preventing the toe hold grip from being established by managing foot position, dorsiflexing the ankle, and hiding the toes. If the grip is secured, the defender must address the rotational pressure through hip rotation toward the attacker while working to disentangle their leg. Understanding when to tap is critical, as toe holds can cause sudden, catastrophic ankle damage with less warning than many other submissions.",
     "key_principles": [

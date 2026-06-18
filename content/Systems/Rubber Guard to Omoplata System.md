@@ -143,6 +143,16 @@ description: "Master the Rubber Guard to Omoplata System in BJJ. Learn systemati
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rubber Guard to Omoplata System",
+  "description": "The Rubber Guard to Omoplata System is a flexibility-based 10th Planet attacking framework that uses high-guard control positions like Mission Control and New York to chain omoplata shoulder locks, sweeps, and back takes from closed guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -156,6 +166,8 @@ description: "Master the Rubber Guard to Omoplata System in BJJ. Learn systemati
 <section id="overview" class="content-section">
 
 ## What is Rubber Guard to Omoplata System?
+
+**The Rubber Guard to Omoplata System is a flexibility-based 10th Planet attacking framework that uses high-guard control positions like Mission Control and New York to chain omoplata shoulder locks, sweeps, and back takes from closed guard.**
 
 The Rubber Guard to Omoplata System represents one of the most sophisticated submission chains in modern Brazilian Jiu-Jitsu, bridging Eddie Bravo's innovative 10th Planet methodology with classical shoulder lock finishing mechanics. This system leverages extreme hip flexibility and systematic control positions to create a network of attacking options that flow seamlessly from rubber guard's high-control positions into omoplata shoulder locks, sweeps, and back takes. Unlike isolated techniques, this system teaches practitioners to view rubber guard not as a static position but as a dynamic control framework that naturally progresses toward omoplata-based attacks. The methodology emphasizes posture breaking from closed guard, establishing rubber guard control points like Mission Control and New York, then transitioning through specific pathways that exploit opponent reactions to set up omoplata attacks with multiple finishing variations. Mastery of this system requires substantial flexibility training, understanding of leverage principles in both rubber guard maintenance and omoplata mechanics, and the ability to chain attacks when opponents defend the primary submission. Advanced practitioners can integrate this system with triangle attacks and back takes, creating a complete offensive framework from closed guard that keeps opponents constantly defending against interconnected threats.
 

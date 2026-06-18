@@ -1,5 +1,6 @@
 {
   "name": "Old School Position Sweep",
+  "summary": "The Old School Position Sweep is the 10th Planet half guard's signature reversal, where the bottom player chains lockdown leg control, a deep underhook, and head control to rotate the opponent over and land directly in mount.",
   "description": "Master the Old School Position Sweep from half guard lockdown. Expert guide to sweep mechanics, timing, counters, and drilling progressions for BJJ athletes.",
   "tags": [
     "bjj",
@@ -30,7 +31,7 @@
     }
   ],
   "success_rate": 46,
-  "overview": "The Old School Position Sweep is the signature technique from the 10th Planet half guard system, utilizing the lockdown's immobilizing power combined with underhook and head control to execute a powerful rotational sweep. This technique transforms half guard bottom from a defensive holding pattern into an immediate offensive launching pad, threatening a direct path to mount through precise biomechanical leverage rather than athletic explosiveness. The sweep relies on a three-point control system where the lockdown removes the opponent's base, the underhook provides rotational leverage, and the head control prevents defensive posting.\n\nThe sweep's effectiveness derives from simultaneous neutralization of the opponent's base recovery options. The lockdown figure-four immobilizes the trapped leg, the deep underhook controls the far-side shoulder and creates the sweeping fulcrum, and the head wrap prevents posture recovery and defensive hand posting. When these three controls converge with proper timing during the opponent's forward weight shift, the sweep becomes extremely difficult to defend because all stabilization points are compromised at once. The circular sweeping motion carries the opponent over the bottom player's body directly into mount.\n\nStrategic positioning within the broader half guard game makes this sweep particularly dangerous. The Electric Chair submission lurks as a chain attack when the opponent defends the sweep by extending their trapped leg, creating a genuine dilemma where defending one threat directly exposes the other. Advanced practitioners exploit this binary threat system to force opponents into choosing between two losing options, making the Old School sweep the cornerstone technique that powers the entire lockdown-based half guard offensive system.",
+  "overview": "Popularized through Eddie Bravo's 10th Planet system, this sweep weaponizes the lockdown's immobilizing power alongside a deep underhook and head control to turn half guard bottom from a defensive holding pattern into an immediate offensive launching pad. It threatens a direct path to mount through precise biomechanical leverage rather than athletic explosiveness, relying on a three-point control system where the lockdown removes the opponent's base, the underhook provides rotational leverage, and the head control prevents defensive posting.\n\nThe sweep's effectiveness derives from simultaneous neutralization of the opponent's base recovery options. The lockdown figure-four immobilizes the trapped leg, the deep underhook controls the far-side shoulder and creates the sweeping fulcrum, and the head wrap prevents posture recovery and defensive hand posting. When these three controls converge with proper timing during the opponent's forward weight shift, the sweep becomes extremely difficult to defend because all stabilization points are compromised at once. The circular sweeping motion carries the opponent over the bottom player's body directly into mount.\n\nStrategic positioning within the broader half guard game makes this sweep particularly dangerous. The Electric Chair submission lurks as a chain attack when the opponent defends the sweep by extending their trapped leg, creating a genuine dilemma where defending one threat directly exposes the other. Advanced practitioners exploit this binary threat system to force opponents into choosing between two losing options, making the Old School sweep the cornerstone technique that powers the entire lockdown-based half guard offensive system.",
   "conditions": [
     "Lockdown figure-four must be established on opponent's trapped leg with active extension",
     "Deep underhook secured under opponent's far armpit with elbow tight to ribs",
@@ -92,14 +93,6 @@
     {
       "name": "Back Control",
       "relationship": "Alternative target position via back take variation of the sweep"
-    },
-    {
-      "name": "Defend Old School Sweep",
-      "relationship": "Direct counter-technique from the top player's perspective"
-    },
-    {
-      "name": "Crossface from Old School",
-      "relationship": "Top player's primary defensive tool to shut down the sweep"
     }
   ],
   "attacker": {

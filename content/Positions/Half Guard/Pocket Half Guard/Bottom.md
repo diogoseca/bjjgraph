@@ -355,7 +355,7 @@ Start in Pocket Half Guard Bottom with deep underhook and pocket space establish
 - **[[Positions/Half Guard/Lockdown]]** - Can be combined with Pocket Half Guard for additional leg control
 - **[[Positions/Back Control]]** - Common advancement target via back-take from underhook
 - **[[Positions/Twister Control/Truck]]** - Advanced transition when opponent defends Old School Sweep
-- **[[Positions/X-Guard]]** - Alternative guard transition when pocket space is compromised
+- **[[Positions/X-Guard/Reverse X-Guard]]** - Alternative guard transition when pocket space is compromised
 - **[[Positions/Butterfly Guard]]** - Transition option when half guard retention becomes difficult
 
 

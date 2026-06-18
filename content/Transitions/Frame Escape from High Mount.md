@@ -34,6 +34,18 @@ description: "Master the Frame Escape from High Mount in BJJ. Learn frame creati
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame Escape from High Mount",
+  "description": "Frame Escape from High Mount is a defensive transition where the bottom player uses short forearm frames and timed hip movement to walk a knees-to-armpits high mount back down to standard mount, where conventional escapes become viable.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Frame Escape from High Mount in BJJ. Learn frame creati
 </div>
 
 <section id="overview" class="content-section">
+
+**Frame Escape from High Mount is a defensive transition where the bottom player uses short forearm frames and timed hip movement to walk a knees-to-armpits high mount back down to standard mount, where conventional escapes become viable.**
 
 The Frame Escape from High Mount is a fundamental defensive technique used when trapped under an opponent who has walked their knees high toward the armpits, creating maximum submission proximity. Rather than attempting a full escape directly from this extremely disadvantaged position, this technique focuses on reducing the severity of the mount by using skeletal frames to push the opponent's hips back down toward the waist, converting high mount into standard mount where traditional escape methods become mechanically viable.
 

@@ -10,6 +10,7 @@
     "positional improvement"
   ],
   "from_position": "Modified Mount/Bottom",
+  "summary": "The Bridge Escape from Modified Mount is a directional bottom escape that drives an explosive bridge toward the opponent's posted leg, exploiting the asymmetric base to capture that leg and recover half guard.",
   "outcomes": [
     {
       "to": "Half Guard/Bottom",

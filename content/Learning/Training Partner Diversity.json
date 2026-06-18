@@ -1,7 +1,15 @@
 {
   "name": "Training Partner Diversity",
   "description": "Why training with the same partners creates blind spots in your BJJ game. Seek varied body types, styles, and skill levels to build a complete game.",
-  "tags": ["bjj", "training", "partner-selection", "skill-development", "blind-spots", "gym-culture"],
+  "summary": "Training partner diversity is the deliberate practice of rolling with varied body types, styles, and skill levels so your techniques become universally effective rather than calibrated to the specific habits of a few familiar partners.",
+  "tags": [
+    "bjj",
+    "training",
+    "partner-selection",
+    "skill-development",
+    "blind-spots",
+    "gym-culture"
+  ],
   "category": "Training",
   "overview": "Your A-game is only as good as the range of opponents it has been tested against. If you only roll with your regular training partners, you learn to exploit their specific habits and weaknesses rather than developing genuinely effective technique. You know that your partner always defends the armbar by turning into you, so you time your attack around that reaction. But when a visitor walks in and defends by stacking and pulling their elbow free, your armbar suddenly stops working. The technique was never broken. Your calibration was just too narrow.\n\nThis is the equivalent of studying for an exam by only reviewing the questions you already know. You feel prepared, but the test exposes everything you skipped. Regular partners become comfortable puzzles. You know their grips, their tendencies, their timing. You stop problem-solving and start pattern-matching against a small dataset. The result is a game that looks sharp in your home gym and falls apart the first time you compete or visit another academy.\n\nThe fix is deliberate exposure. Seek out partners who are taller, shorter, heavier, lighter, more flexible, stronger, more technical, or more athletic than you. Roll with wrestlers, judo players, leg lock specialists, and pressure passers. Each unfamiliar body and style forces your brain to solve new problems in real time, and that is where genuine skill lives.",
   "key_takeaways": [
@@ -113,49 +121,59 @@
   ],
   "related_content": [
     {
-      "name": "Positions/Closed Guard",
+      "name": "Closed Guard",
       "content_type": "Position",
       "relationship": "Common position where partner-specific habits create false confidence in sweeps and submissions"
     },
     {
-      "name": "Positions/Half Guard",
+      "name": "Half Guard",
       "content_type": "Position",
       "relationship": "Position where body type differences dramatically change the effectiveness of sweeps and underhook battles"
     },
     {
-      "name": "Positions/Mount",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "Dominant position where weight and body type differences significantly affect control and escape dynamics"
     },
     {
-      "name": "Principles/Positional Sparring",
+      "name": "Positional Sparring",
       "content_type": "Principle",
       "relationship": "Structured sparring format that can be used to practice against specific styles and body types"
     },
     {
-      "name": "Principles/Flow Rolling",
+      "name": "Flow Rolling",
       "content_type": "Principle",
       "relationship": "Low-intensity rolling format ideal for building comfort with unfamiliar training partners"
     },
     {
-      "name": "Systems/Competition Preparation System",
+      "name": "Competition Preparation System",
       "content_type": "System",
       "relationship": "Competition preparation requires diverse training partners to simulate unknown opponents"
     },
     {
-      "name": "Principles/Guard Passing",
+      "name": "Guard Passing",
       "content_type": "Principle",
       "relationship": "Guard passing techniques must be tested against varied guard styles to develop reliable passing sequences"
     },
     {
-      "name": "Principles/Escape Fundamentals",
+      "name": "Escape Fundamentals",
       "content_type": "Principle",
       "relationship": "Escape techniques calibrated to one partner's control style may fail against different grips and pressure angles"
     },
     {
-      "name": "Positions/De La Riva Guard",
+      "name": "De La Riva Guard",
       "content_type": "Position",
       "relationship": "Specialized guards like De La Riva require exposure to dedicated guard players to develop effective passing responses"
+    },
+    {
+      "name": "Investing in Loss",
+      "content_type": "Learning",
+      "relationship": "Rolling with harder, unfamiliar partners means accepting short-term losses to fuel long-term skill development"
+    },
+    {
+      "name": "Training Intensity",
+      "content_type": "Learning",
+      "relationship": "Pairs with partner diversity to govern how hard and against whom you should roll to maximize learning"
     }
   ],
   "references": [

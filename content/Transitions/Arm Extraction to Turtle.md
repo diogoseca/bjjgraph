@@ -34,6 +34,18 @@ description: "Learn Arm Extraction to Turtle escape from Aoki Lock. Step-by-step
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Extraction to Turtle",
+  "description": "Arm Extraction to Turtle is a defensive escape from Aoki Lock bottom that neutralizes the leg-entangled shoulder lock by destabilizing the attacker's base and sliding the trapped arm free along the ribcage to recover turtle position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn Arm Extraction to Turtle escape from Aoki Lock. Step-by-step
 
 <section id="overview" class="content-section">
 
-Arm Extraction to Turtle is a critical defensive escape executed when caught in the Aoki Lock bottom position, where your opponent has secured leg entanglement control over your shoulder with omoplata-style pressure. This escape addresses one of the most dangerous submission control positions by systematically addressing the leg entanglement before extracting the trapped arm, ultimately recovering to turtle position where you can work toward guard recovery or standing.
+**Arm Extraction to Turtle is a defensive escape from Aoki Lock bottom that neutralizes the leg-entangled shoulder lock by destabilizing the attacker's base and sliding the trapped arm free along the ribcage to recover turtle position.**
+
+Within the broader landscape of shoulder-lock defense, this escape occupies a critical niche: it is the highest-percentage answer to the Aoki Lock, a position that has surged in popularity as no-gi competitors adopt leg-entangled shoulder attacks. The escape addresses one of the most dangerous submission control positions by systematically dismantling the leg entanglement before extracting the trapped arm, ultimately recovering to turtle position where you can work toward guard recovery or standing.
 
 The technique exploits a fundamental vulnerability in the Aoki Lock: the attacker must maintain both leg entanglement tightness and hip pressure simultaneously. By creating angles through hip movement and attacking the opponent's base stability, you generate windows where the leg entanglement loosens enough to permit arm extraction. The key insight is that you must address the leg control first rather than attempting to muscle your arm free against the entanglement.
 

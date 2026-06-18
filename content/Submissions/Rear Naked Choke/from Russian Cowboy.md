@@ -33,10 +33,32 @@ description: "Master the Rear Naked Choke from Russian Cowboy. Learn setup mecha
 }
 </script>
 
-> **SAFETY**: Rear Naked Choke from Russian Cowboy targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Naked Choke from Russian Cowboy",
+  "description": "The Rear Naked Choke from Russian Cowboy is a blood strangle applied from asymmetric single-hook back control, using the leg hook's diagonal stretch to expose the neck while the choking arm closes both carotid arteries for the finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Rear Naked Choke from Russian Cowboy is a blood strangle applied from asymmetric single-hook back control, using the leg hook's diagonal stretch to expose the neck while the choking arm closes both carotid arteries for the finish.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">65% success</span>
+</div>
+
+> [!danger] Safety
+> Rear Naked Choke from Russian Cowboy targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,56 +75,7 @@ The setup sequence requires careful grip transition from the riding seatbelt to 
 
 Strategically, the RNC threat serves as the primary fork in the Russian Cowboy attack tree. When the opponent prioritizes neck defense, they expose truck entries, calf slicers, and crucifix transitions. When they prioritize escaping the hook, the neck opens for the choke. This constant threat cycling between upper and lower body attacks makes Russian Cowboy a complete offensive position rather than merely a transitional state.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Russian Cowboy]]
-**From Position**: [[Positions/Russian Cowboy]] (Top)
-**Success Rate**: 65%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from blood choke | High | Immediate to 30 seconds with proper release |
-| Trachea damage from improper forearm placement | CRITICAL | 2-6 weeks, potential permanent damage |
-| Neck strain or muscle damage | Medium | 3-7 days |
-| Carotid artery injury from excessive force | CRITICAL | Immediate medical attention required |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or make any verbal sound)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Going limp or loss of consciousness
-- Any distress signal or unusual sound
-
-
-**Release Protocol**:
-1. Immediately release choking arm upon tap signal
-2. Remove hooks and body triangle if present
-3. Gently guide partner to side-lying recovery position
-4. Monitor consciousness and breathing for 30 seconds
-5. If partner was unconscious, keep them lying down until fully alert
-6. Never allow unconscious partner to stand immediately
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity in drilling
-- Never apply the choke to the trachea or windpipe
-- Always ensure partner has clear tap access with both hands
-- Stop immediately if partner makes any distress sound
-- Never hold a choke past the tap for any reason
-- Beginners must practice with extremely slow progression only
-
+**Starting Position**: [[Positions/Russian Cowboy]] · **From**: [[Positions/Russian Cowboy]] (Top)
 
 </section>
 
@@ -247,38 +220,62 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Transitions/Darce Choke]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Russian Cowboy]] - Starting position providing single-hook back control for this submission variant
 - [[Positions/Back Control]] - Related back control position with standard RNC application and both hooks
 - [[Positions/Twister Control/Truck]] - Alternative attack pathway accessible when opponent defends the RNC from Russian Cowboy
 - [[Positions/Gift Wrap]] - Upper body control variation that assists arm isolation for RNC setup
 - [[Submissions/Calf Slicer]] - Complementary leg attack available when opponent prioritizes neck defense
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Rear Naked Choke from Russian Cowboy leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from blood choke | High | Immediate to 30 seconds with proper release |
+| Trachea damage from improper forearm placement | CRITICAL | 2-6 weeks, potential permanent damage |
+| Neck strain or muscle damage | Medium | 3-7 days |
+| Carotid artery injury from excessive force | CRITICAL | Immediate medical attention required |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' or make any verbal sound)
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Going limp or loss of consciousness
+- Any distress signal or unusual sound
+
+
+**Release Protocol**:
+1. Immediately release choking arm upon tap signal
+2. Remove hooks and body triangle if present
+3. Gently guide partner to side-lying recovery position
+4. Monitor consciousness and breathing for 30 seconds
+5. If partner was unconscious, keep them lying down until fully alert
+6. Never allow unconscious partner to stand immediately
+
+
+**Training Restrictions**:
+- Never use competition speed or intensity in drilling
+- Never apply the choke to the trachea or windpipe
+- Always ensure partner has clear tap access with both hands
+- Stop immediately if partner makes any distress sound
+- Never hold a choke past the tap for any reason
+- Beginners must practice with extremely slow progression only
+
 
 </section>
 

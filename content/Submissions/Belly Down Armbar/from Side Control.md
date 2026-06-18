@@ -33,10 +33,32 @@ description: "Master the belly down armbar finish from side control in BJJ. Lear
 }
 </script>
 
-> **SAFETY**: Belly Down Armbar from Side Control targets the Elbow joint hyperextension and ulnar collateral ligament. Risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Belly Down Armbar from Side Control",
+  "description": "The belly down armbar from side control is a prone elbow lock where the attacker isolates an arm, steps over the opponent's head, and rotates face-down to hyperextend the elbow while eliminating the stacking and hitchhiker escapes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The belly down armbar from side control is a prone elbow lock where the attacker isolates an arm, steps over the opponent's head, and rotates face-down to hyperextend the elbow while eliminating the stacking and hitchhiker escapes.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint hyperextension and ulnar collateral ligament</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Belly Down Armbar from Side Control targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,51 +75,7 @@ From side control specifically, the setup involves isolating the near or far arm
 
 This technique is particularly effective in competition because opponents defending standard side control submissions like americana and kimura often expose the arm in ways that create direct entries to the belly down armbar. The prone finishing position eliminates the two most common armbar escapes, making it a reliable closer when the arm is successfully isolated.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint hyperextension and ulnar collateral ligament
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension with ligament damage to the ulnar collateral ligament | CRITICAL | 3-6 months, may require surgical reconstruction |
-| Elbow joint capsule sprain or partial tear from forced extension | High | 4-12 weeks depending on severity |
-| Biceps tendon strain or partial tear from resisting extension under load | Medium | 2-6 weeks with progressive rehabilitation |
-| Distal humerus stress fracture from sustained pressure against locked elbow | High | 6-10 weeks with immobilization |
-
-
-**Application Speed**: SLOW and progressive. The belly down position creates significant mechanical advantage that can damage the elbow extremely quickly. Apply extension gradually and allow adequate time for the tap. Never jerk or spike the arm. The prone position amplifies force beyond what most practitioners expect.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' or any distress vocalization
-- Physical hand tap on partner, mat, or own body
-- Physical foot tap on mat with either leg
-- Any screaming, grunting, or unusual vocalization indicating distress
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without waiting for confirmation or repetition
-2. If in doubt whether a tap occurred, release immediately - the position can be re-established safely
-3. Release extension pressure first by lowering the wrist, then release knee squeeze, then disengage completely
-4. Monitor training partner's arm mobility after release and check for signs of injury before continuing
-
-
-**Training Restrictions**:
-- Beginners should practice mechanics at 50% pressure maximum until transition control is consistent
-- Always apply extension slowly in training - never jerk or spike the arm during the belly down finish
-- Do not apply this technique on training partners with known elbow injuries or recent arm submissions
-- Practice the transition rotation separately from the finishing pressure until both components are reliable
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -259,40 +237,58 @@ This technique is particularly effective in competition because opponents defend
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Arm Crush]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control]] - Starting position providing the dominant control base for arm isolation and rotation
 - [[Positions/Armbar Control]] - Intermediate control position used during the transition to belly down finish
 - [[Positions/North-South]] - Alternative top position that can also lead to belly down armbar entries
-- [[Submissions/Belly Down Armbar]] - Parent submission family covering the belly down armbar finish from all positions
 - [[Positions/Knee on Belly]] - Transitional position that can create arm isolation opportunities for this finish
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Belly Down Armbar from Side Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension with ligament damage to the ulnar collateral ligament | CRITICAL | 3-6 months, may require surgical reconstruction |
+| Elbow joint capsule sprain or partial tear from forced extension | High | 4-12 weeks depending on severity |
+| Biceps tendon strain or partial tear from resisting extension under load | Medium | 2-6 weeks with progressive rehabilitation |
+| Distal humerus stress fracture from sustained pressure against locked elbow | High | 6-10 weeks with immobilization |
+
+
+**Application Speed**: SLOW and progressive. The belly down position creates significant mechanical advantage that can damage the elbow extremely quickly. Apply extension gradually and allow adequate time for the tap. Never jerk or spike the arm. The prone position amplifies force beyond what most practitioners expect.
+
+**Tap Signals**:
+- Verbal tap saying 'tap' or any distress vocalization
+- Physical hand tap on partner, mat, or own body
+- Physical foot tap on mat with either leg
+- Any screaming, grunting, or unusual vocalization indicating distress
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without waiting for confirmation or repetition
+2. If in doubt whether a tap occurred, release immediately - the position can be re-established safely
+3. Release extension pressure first by lowering the wrist, then release knee squeeze, then disengage completely
+4. Monitor training partner's arm mobility after release and check for signs of injury before continuing
+
+
+**Training Restrictions**:
+- Beginners should practice mechanics at 50% pressure maximum until transition control is consistent
+- Always apply extension slowly in training - never jerk or spike the arm during the belly down finish
+- Do not apply this technique on training partners with known elbow injuries or recent arm submissions
+- Practice the transition rotation separately from the finishing pressure until both components are reliable
+
 
 </section>
 

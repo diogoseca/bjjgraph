@@ -34,6 +34,18 @@ description: "Master sweeps against Combat Base in BJJ. Complete guide to exploi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Combat Base",
+  "description": "Sweep from Combat Base is a bottom-player reversal that exploits the asymmetric stance's diagonal weakness by loading the passer's weight onto the posted knee or planted foot, then removing that support to topple them into a top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master sweeps against Combat Base in BJJ. Complete guide to exploi
 </div>
 
 <section id="overview" class="content-section">
+
+**Sweep from Combat Base is a bottom-player reversal that exploits the asymmetric stance's diagonal weakness by loading the passer's weight onto the posted knee or planted foot, then removing that support to topple them into a top position.**
 
 The Sweep from Combat Base exploits the inherent directional vulnerability of the asymmetric combat base stance, where one knee is posted and the opposite foot is planted flat. While this stance provides strong forward-backward stability, it creates a diagonal weakness running from the planted foot toward the posted knee. The guard player's objective is to load the top player's weight onto one of these supports, then remove it through hook elevation, foot attacks, or angular displacement, toppling them along the line of least resistance.
 
@@ -235,19 +249,15 @@ The Sweep from Combat Base sits at the intersection of guard retention and guard
 
 - [[Positions/Open Guard]] - Parent guard category from which sweeps against combat base are initiated
 
-- [[Transitions/Butterfly Hook Sweep]] - Closely related transition sharing hook elevation mechanics and sweep direction principles
-
 - [[Transitions/Guard Recovery from Combat Base]] - Complementary technique used when sweep fails but guard retention succeeds
 
 - [[Transitions/Pull Guard from Combat Base]] - Alternative guard engagement strategy when sweep setup conditions are not met
 
 - [[Transitions/Combat Base to Headquarters]] - Opponent's advancement option that sweep attempts are designed to prevent
 
-- [[Transitions/Shin-to-Shin Sweep]] - Related sweep using shin-to-shin contact as an alternative entry against combat base
-
-- [[Transitions/Homer Simpson Sweep]] - Creative sweep variant that can catch combat base players off-guard with unexpected angles
-
 - [[Positions/De La Riva Guard]] - Alternative guard that targets the posted leg and chains with combat base sweep attempts
+
+- [[Transitions/Knee Slide from Combat Base]] - Primary passing threat the sweep races against and disrupts when the passer commits weight forward
 
 
 </section>

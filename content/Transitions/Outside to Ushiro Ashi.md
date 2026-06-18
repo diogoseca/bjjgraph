@@ -34,6 +34,18 @@ description: "Master the Outside to Ushiro Ashi-Garami transition. Complete guid
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Outside to Ushiro Ashi",
+  "description": "Outside to Ushiro Ashi is a leg-lock transition where the attacker follows an opponent's hip-inversion escape from Outside Ashi-Garami, rotating their own hips to preserve the figure-four and arrive in the reversed Ushiro Ashi-Garami entanglement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Outside to Ushiro Ashi-Garami transition. Complete guid
 
 <section id="overview" class="content-section">
 
-Outside to Ushiro Ashi-Garami is a critical transition within modern leg lock systems that occurs when an attacker in Outside Ashi-Garami follows their opponent's hip inversion or rotation to maintain leg entanglement in a reversed configuration. Rather than losing control when the defender inverts, the attacker adapts their figure-four leg configuration and grip positioning to arrive in Ushiro Ashi-Garami, preserving offensive pressure and creating new submission angles from the reversed orientation.
+**Outside to Ushiro Ashi is a leg-lock transition where the attacker follows an opponent's hip-inversion escape from Outside Ashi-Garami, rotating their own hips to preserve the figure-four and arrive in the reversed Ushiro Ashi-Garami entanglement.**
+
+Within modern leg lock systems, this transition answers one of the most common escape attempts from Outside Ashi-Garami: the hip inversion. Rather than losing control when the defender inverts, the attacker adapts their figure-four leg configuration and grip positioning to follow the rotation and arrive in Ushiro Ashi-Garami, preserving offensive pressure and creating new submission angles from the reversed orientation.
 
 This transition represents one of the key differentiators between intermediate and advanced leg lock practitioners. Intermediate players often lose entanglement entirely when opponents begin inverting, while advanced players use this movement to flow into Ushiro Ashi-Garami, maintaining continuous control throughout the opponent's escape attempt. The ability to follow rotation while keeping the leg triangle intact requires precise hip coordination, grip awareness, and an understanding of how the reversed angle changes available submissions and control options.
 

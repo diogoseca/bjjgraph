@@ -34,6 +34,18 @@ description: "Master the Transition to Z-Lock Half Guard from Lockdown top in BJ
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown to Z-Lock Half Guard",
+  "description": "Lockdown to Z-Lock Half Guard is a top-side leg reconfiguration that escapes the 10th Planet lockdown by circling the trapped knee inward and driving it across the opponent's hip to establish dominant Z-Lock control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Transition to Z-Lock Half Guard from Lockdown top in BJ
 
 <section id="overview" class="content-section">
 
-The Transition to Z-Lock Half Guard is a systematic leg reconfiguration technique that converts an unfavorable trapped position inside the lockdown into the dominant Z-Lock Half Guard top control. When caught in lockdown, the top player faces constant sweep threats from whip-ups, Old School sweeps, and Electric Chair attacks. Rather than attempting a brute-force leg extraction that often fails against skilled lockdown players, this transition uses precise knee positioning and weight redistribution to step the knee across the opponent's hip, creating the characteristic Z-shape that neutralizes the lockdown's primary mechanics.
+**Lockdown to Z-Lock Half Guard is a top-side leg reconfiguration that escapes the 10th Planet lockdown by circling the trapped knee inward and driving it across the opponent's hip to establish dominant Z-Lock control.**
+
+For a top player stuck inside the 10th Planet lockdown, this transition is the highest-percentage path back to control. When caught in lockdown, the top player faces constant sweep threats from whip-ups, Old School sweeps, and Electric Chair attacks. Rather than attempting a brute-force leg extraction that often fails against skilled lockdown players, this transition uses precise knee positioning and weight redistribution to step the knee across the opponent's hip, creating the characteristic Z-shape that neutralizes the lockdown's primary mechanics.
 
 The technique works by exploiting the brief window when the top player establishes heavy upper body pressure to suppress lockdown attacks. With the opponent temporarily unable to extend or whip up, the top player circles the trapped knee inward, breaking the figure-four configuration and immediately driving the knee across the opponent's hip crease. This single movement transforms the position from one of vulnerability into one of dominance, as the Z-Lock prevents both lockdown re-establishment and knee shield recovery.
 

@@ -14,6 +14,7 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
+  "summary": "The Mikey Musumeci Berimbolo System is a gi guard framework that uses precise grip control and inverted rotation from De La Riva and Reverse De La Riva to chain back takes, sweeps, and X-Guard entries through technique over athleticism.",
   "overview": "The Mikey Musumeci Berimbolo System represents one of the most technically sophisticated guard systems in modern Brazilian Jiu-Jitsu. Built around the berimbolo movement from De La Riva and Reverse De La Riva positions, this system creates a seamless connection between guard retention, sweeping, and back-taking. Unlike traditional berimbolo approaches that rely purely on speed and athleticism, Musumeci's methodology emphasizes precise technical execution, grip management, and systematic problem-solving. The system functions as a complete attacking framework where every defensive response from the opponent opens a new offensive pathway. At its core, the system uses the berimbolo as both a sweeping mechanism and a direct route to back control, while simultaneously providing multiple backup options including X-Guard entries, single leg attacks, and kiss of the dragon variations. What distinguishes this system is its emphasis on control and technical precision over explosive movement, making it accessible to practitioners who prioritize technique over raw athleticism.",
   "key_principles": [
     "Grip control hierarchy - establishing and maintaining critical grips on collar, sleeve, and pant leg before initiating movement",
@@ -239,17 +240,17 @@
       "relationship": "Primary target position achieved through successful berimbolo execution"
     },
     {
-      "name": "X-Guard",
+      "name": "Reverse X-Guard",
       "content_type": "Position",
       "relationship": "Key backup position when berimbolo entry is blocked by heavy base defense"
     },
     {
-      "name": "Single Leg X-Guard",
+      "name": "Butterfly Guard",
       "content_type": "Position",
       "relationship": "Secondary backup system providing sweeping options from failed berimbolo attempts"
     },
     {
-      "name": "Seated Guard",
+      "name": "Open Guard",
       "content_type": "Position",
       "relationship": "Alternative starting position for berimbolo entries requiring less flexibility"
     },
@@ -264,37 +265,27 @@
       "relationship": "Core technical movement connecting DLR guard to back control positions"
     },
     {
-      "name": "Kiss of the Dragon",
-      "content_type": "Transition",
-      "relationship": "Critical backup technique when berimbolo rotation is defended or countered"
-    },
-    {
-      "name": "Rolling Back Take",
+      "name": "Back Take",
       "content_type": "Transition",
       "relationship": "Alternative back taking method when standard berimbolo path is unavailable"
     },
     {
-      "name": "De La Riva Sweep",
+      "name": "Backstep from De La Riva",
       "content_type": "Transition",
-      "relationship": "Complementary sweeping option from same grip configuration as berimbolo"
+      "relationship": "Complementary option from same grip configuration as berimbolo"
     },
     {
-      "name": "X-Guard Sweep",
+      "name": "Balloon Sweep",
       "content_type": "Transition",
-      "relationship": "Primary offensive action from X-Guard backup position"
+      "relationship": "Sweeping action available from the open guard backup positions"
     },
     {
-      "name": "Single Leg X Sweep",
+      "name": "Basic Butterfly Sweep",
       "content_type": "Transition",
-      "relationship": "Sweeping mechanism from Single Leg X backup position"
+      "relationship": "Sweeping mechanism from butterfly backup position"
     },
     {
-      "name": "De La Riva to X-Guard Transition",
-      "content_type": "Transition",
-      "relationship": "Technical pathway connecting primary and backup systems seamlessly"
-    },
-    {
-      "name": "Turtle to Back Take",
+      "name": "Back Take from Bottom",
       "content_type": "Transition",
       "relationship": "Back attack completion when opponent turtles during berimbolo sequence"
     },
@@ -309,12 +300,12 @@
       "relationship": "Essential skill for establishing and maintaining critical grips throughout system"
     },
     {
-      "name": "Timing and Rhythm",
+      "name": "Dominant Angles",
       "content_type": "Principle",
-      "relationship": "Critical for recognizing optimal berimbolo entry moments and preventing telegraphing"
+      "relationship": "Critical for recognizing optimal berimbolo entry moments and creating geometric advantage"
     },
     {
-      "name": "Transition Management",
+      "name": "Position Chains",
       "content_type": "Principle",
       "relationship": "Underlies smooth movement between DLR, berimbolo, X-Guard, and back control"
     },
@@ -326,12 +317,17 @@
     {
       "name": "Kuzushi",
       "content_type": "Principle",
-      "relationship": "Governs technical execution of sweeps from backup X-Guard positions"
+      "relationship": "Governs technical execution of sweeps from backup positions"
     },
     {
-      "name": "Position Chains",
+      "name": "Hooks",
       "content_type": "Principle",
-      "relationship": "Framework for connecting berimbolo with backup options into cohesive attacking sequences"
+      "relationship": "Core to hook insertion sequencing when establishing back control after the rotation"
+    },
+    {
+      "name": "Position-Over-Submission Approach",
+      "content_type": "Principle",
+      "relationship": "Guides consolidating back control fully before chasing finishes"
     },
     {
       "name": "Berimbolo",
@@ -352,6 +348,48 @@
       "name": "Dynamic Guard System",
       "content_type": "System",
       "relationship": "Broader guard framework within which berimbolo system operates"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What positions does the Mikey Musumeci berimbolo system primarily launch from?",
+      "answer": "It launches mainly from De La Riva and Reverse De La Riva guard, where collar, sleeve, and pant-leg grips combined with an active DLR hook set up the inverted rotation to the back."
+    },
+    {
+      "question": "How does Musumeci's berimbolo approach differ from traditional speed-based berimbolos?",
+      "answer": "It prioritizes technical precision, grip management, and base disruption over explosive athleticism, making the rotation succeed by off-balancing the opponent rather than out-speeding them."
+    },
+    {
+      "question": "What should you do when the opponent establishes a heavy base and blocks the shoulder insertion?",
+      "answer": "Transition to X-Guard or Single Leg X-Guard by converting the DLR hook, use the collar grip to break posture and sweep, then return to the berimbolo when their base shifts forward again."
+    },
+    {
+      "question": "What is the kiss of the dragon used for in this system?",
+      "answer": "It is a controlled backward roll while keeping the pants grip, used when the opponent sprawls back to counter the berimbolo, letting you emerge on top or recover guard with an improved angle."
+    },
+    {
+      "question": "Why is grip retention considered critical to the berimbolo system?",
+      "answer": "Losing the collar or sleeve grip mid-rotation typically collapses the technique, so maintaining layered, automatic grips is what allows the off-balancing and back-take to complete reliably."
+    },
+    {
+      "question": "In what order should you secure back control after completing the berimbolo rotation?",
+      "answer": "Establish the first hook to stop the opponent sitting back, then secure upper-body or seat-belt control, then insert the second hook, consolidating position fully before chasing any submission."
+    },
+    {
+      "question": "What common mistake do practitioners make against a strong-base opponent?",
+      "answer": "Forcing the rotation against resistance instead of flowing to a backup system like X-Guard or kiss of the dragon, which wastes energy and frequently surrenders the position."
+    },
+    {
+      "question": "How do you create the off-balance needed to initiate the berimbolo?",
+      "answer": "Pull the collar and sleeve to break the opponent's posture forward while elevating their base leg with the DLR hook, making them heavy on their hands before you begin to rotate."
+    },
+    {
+      "question": "What is the guiding philosophy when finishing from the back in this system?",
+      "answer": "Position over submission: fully secure the seat belt and both hooks and neutralize defensive frames before initiating systematic, sequenced submission chains rather than random attacks."
+    },
+    {
+      "question": "Which backup positions integrate with the berimbolo when the back take is unavailable?",
+      "answer": "X-Guard, Single Leg X-Guard, De La Riva sweeps, and the kiss of the dragon, all reachable from the same grip configuration so offensive pressure is maintained without resetting."
     }
   ]
 }

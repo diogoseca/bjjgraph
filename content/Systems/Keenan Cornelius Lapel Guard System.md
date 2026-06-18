@@ -135,6 +135,16 @@ description: "Master Keenan Cornelius Lapel Guard System in BJJ. Comprehensive f
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Keenan Cornelius Lapel Guard System",
+  "description": "The Keenan Cornelius Lapel Guard System is a gi-based framework that weaponizes the opponent's own lapel — threading it under their legs and around their limbs to power Worm Guard, Squid Guard, sweeps, back takes, and near-impassable guard retention.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -148,6 +158,8 @@ description: "Master Keenan Cornelius Lapel Guard System in BJJ. Comprehensive f
 <section id="overview" class="content-section">
 
 ## What is Keenan Cornelius Lapel Guard System?
+
+**The Keenan Cornelius Lapel Guard System is a gi-based framework that weaponizes the opponent's own lapel — threading it under their legs and around their limbs to power Worm Guard, Squid Guard, sweeps, back takes, and near-impassable guard retention.**
 
 The Keenan Cornelius Lapel Guard System represents one of the most innovative developments in modern gi-based Brazilian Jiu-Jitsu. This comprehensive framework revolutionizes guard play by utilizing the opponent's gi lapel as a primary control mechanism, creating unprecedented levels of control and offensive opportunities. The system encompasses multiple interconnected guard positions including Worm Guard, Squid Guard, and various lapel-based configurations that work synergistically to create a nearly impenetrable guard retention structure while simultaneously offering powerful sweeping and submission sequences. What distinguishes this system from traditional guard approaches is its emphasis on using fabric control to compensate for physical disadvantages, making it particularly effective for practitioners who may lack size or strength advantages. The lapel becomes an extension of your grips, allowing you to control distance, break posture, and create off-balancing scenarios that traditional hand grips cannot achieve. The system's effectiveness has been proven at the highest levels of competition, with Keenan himself and his students achieving remarkable success against elite-level opposition.
 
@@ -342,10 +354,10 @@ The lapel guard system requires a structured drilling progression that builds fr
 - [[Lasso Guard Pass]] (Transition) - Similar mechanical principles that complement lapel-based sweep mechanics
 - [[Back Take]] (Transition) - General back taking principles applied through lapel control advantages
 - [[Triangle to Back]] (Transition) - Secondary attacking sequence available from certain lapel entanglements
-- [[Grips]] (Principle) - Fundamental principle governing all lapel control and fighting sequences
+- [[Grips]] (Principle) - Fundamental principle governing all lapel control, grip-fighting, and lapel-feeding sequences
 - [[Collar Control]] (Principle) - Core control principle that extends to lapel manipulation and grip fighting
 - [[Defensive Concepts]] (Principle) - Primary defensive framework achieved through systematic lapel guard application and retention
-- [[Grips]] (Principle) - Essential skill for establishing and maintaining lapel-based controls
+- [[Hand Fighting]] (Principle) - Grip-fighting skill essential for winning the lapel exchange and securing controls before the opponent can strip them
 - [[Connection Principles]] (Principle) - Biomechanical foundations explaining why lapel controls create superior leverage
 - [[Posture]] (Principle) - Fundamental off-balancing principle amplified through lapel tension mechanics
 - [[Position Chains]] (Principle) - Meta-principle guiding how individual positions connect into cohesive systematic frameworks

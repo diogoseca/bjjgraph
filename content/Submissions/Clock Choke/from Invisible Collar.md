@@ -33,10 +33,32 @@ description: "Master the Clock Choke from Invisible Collar with concealed collar
 }
 </script>
 
-> **SAFETY**: Clock Choke from Invisible Collar targets the Carotid arteries and jugular veins. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Clock Choke from Invisible Collar",
+  "description": "The Clock Choke from Invisible Collar is a gi blood choke from back control where a pre-seated, concealed collar grip lets the attacker transition into the clock choke's rotational walking pressure, finishing before the opponent recognizes the threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Clock Choke from Invisible Collar is a gi blood choke from back control where a pre-seated, concealed collar grip lets the attacker transition into the clock choke's rotational walking pressure, finishing before the opponent recognizes the threat.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Clock Choke from Invisible Collar targets the Carotid arteries and jugular veins. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,50 +75,7 @@ This variant is particularly effective because the invisible collar grip disguis
 
 In competition, this technique punishes opponents who prioritize hook defense over grip monitoring. The invisible collar establishes choking infrastructure while the opponent focuses on removing hooks or preventing the seat belt switch. When the attacker initiates the clock walk, the choke tightens rapidly because the collar material is already seated against the carotid arteries rather than needing to be drawn across the neck during the walk itself.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Rubber Guard/Invisible Collar]]
-**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held after unconsciousness |
-| Neck strain or cervical spine stress from rotational pressure | Medium | 3-7 days for minor strains; 2-4 weeks for more severe cases |
-| Jaw or temporomandibular joint (TMJ) compression | Medium | 1-2 weeks for minor discomfort; longer for existing TMJ issues |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the choke and tap
-
-**Tap Signals**:
-- Verbal tap or verbal submission signal
-- Physical hand tap on attacker's body or mat
-- Physical foot tap on mat
-- Any rapid or frantic movement indicating distress
-
-
-**Release Protocol**:
-1. Immediately release the lapel grip upon receiving tap signal
-2. Remove your weight from opponent's back and create space
-3. Allow partner to recover in a neutral position without pressure
-4. Check on partner's condition before continuing training
-
-
-**Training Restrictions**:
-- Never apply the choke rapidly or explosively in training
-- Never maintain pressure after partner taps or shows distress
-- Always ensure partner has clear access to tap with hands or feet
-- Avoid training this technique with partners who have neck injuries or cardiovascular conditions
-
+**Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] · **From**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
 
 </section>
 
@@ -245,39 +224,55 @@ In competition, this technique punishes opponents who prioritize hook defense ov
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Clock Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Darce Choke]]
 - [[Submissions/Breadcutter Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Rubber Guard/Invisible Collar]] - Starting position providing concealed collar grip for this submission
 - [[Positions/Back Control]] - Parent control position from which invisible collar is established
-- [[Transitions/Clock Choke]] - Parent submission family using same walking pressure mechanics
 - [[Positions/Turtle]] - Common opponent position during clock choke application
-- [[Submissions/Bow and Arrow Choke]] - Alternative collar-based choke from similar grip configuration
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Clock Choke from Invisible Collar leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held after unconsciousness |
+| Neck strain or cervical spine stress from rotational pressure | Medium | 3-7 days for minor strains; 2-4 weeks for more severe cases |
+| Jaw or temporomandibular joint (TMJ) compression | Medium | 1-2 weeks for minor discomfort; longer for existing TMJ issues |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize the choke and tap
+
+**Tap Signals**:
+- Verbal tap or verbal submission signal
+- Physical hand tap on attacker's body or mat
+- Physical foot tap on mat
+- Any rapid or frantic movement indicating distress
+
+
+**Release Protocol**:
+1. Immediately release the lapel grip upon receiving tap signal
+2. Remove your weight from opponent's back and create space
+3. Allow partner to recover in a neutral position without pressure
+4. Check on partner's condition before continuing training
+
+
+**Training Restrictions**:
+- Never apply the choke rapidly or explosively in training
+- Never maintain pressure after partner taps or shows distress
+- Always ensure partner has clear access to tap with hands or feet
+- Avoid training this technique with partners who have neck injuries or cardiovascular conditions
+
 
 </section>
 

@@ -34,6 +34,18 @@ description: "Master the hip escape from consolidated side control. Learn shrimp
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape from Side Control",
+  "description": "The hip escape from side control is a bottom escape that frames, bridges, and laterally shrimps to create space under a consolidated pin, then inserts a knee shield to recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the hip escape from consolidated side control. Learn shrimp
 </div>
 
 <section id="overview" class="content-section">
+
+**The hip escape from side control is a bottom escape that frames, bridges, and laterally shrimps to create space under a consolidated pin, then inserts a knee shield to recover half guard.**
 
 The hip escape from consolidated side control is the foundational escape technique for recovering guard when pinned under heavy top pressure. Unlike escapes attempted during transitional scrambles, this technique addresses the specific challenge of a fully settled opponent who has established crossface control, chest pressure, and hip connection. The bottom player must create space through coordinated framing, bridging, and shrimping movements to insert a knee shield and recover half guard, all while managing energy expenditure under sustained pressure.
 
@@ -243,8 +257,6 @@ The hip escape from consolidated side control sits at the critical junction betw
 - [[Transitions/Elbow Escape from Mount]] - Related technique applying identical hip escape mechanics from mount position
 
 - [[Positions/Open Guard]] - Alternative guard recovery target if escape creates significant distance
-
-- [[Positions/Side Control]] - Parent position category for the consolidated variation
 
 
 </section>

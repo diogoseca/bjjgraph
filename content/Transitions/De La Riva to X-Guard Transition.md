@@ -34,6 +34,18 @@ description: "Master the De La Riva to X-Guard transition in BJJ. Convert DLR ho
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "De La Riva to X-Guard Transition",
+  "description": "The De La Riva to X-Guard transition is a bottom-player sequence that swaps a De La Riva hook for an X-Guard leg entanglement beneath a standing opponent, trading horizontal off-balancing for vertical elevation sweeps and leg-lock entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the De La Riva to X-Guard transition in BJJ. Convert DLR ho
 
 <section id="overview" class="content-section">
 
-The De La Riva to X-Guard Transition represents the systematic framework for converting the controlling mechanics of De La Riva Guard into the elevating and sweeping power of X-Guard position. Unlike isolated techniques, this concept encompasses the biomechanical principles, timing considerations, and strategic decision-making that enable seamless positional flow between these two fundamental guard systems. This transition serves as both an offensive adaptation when initial De La Riva attacks are defended and a proactive entry strategy that leverages opponent's posture and base positioning to create superior sweeping opportunities.
+**The De La Riva to X-Guard transition is a bottom-player sequence that swaps a De La Riva hook for an X-Guard leg entanglement beneath a standing opponent, trading horizontal off-balancing for vertical elevation sweeps and leg-lock entries.**
+
+Within the modern open-guard ecosystem, this transition is the bottom player's primary answer when a based-out, upright passer stalls direct De La Riva sweeps and refuses to be pulled forward. Unlike isolated techniques, this concept encompasses the biomechanical principles, timing considerations, and strategic decision-making that enable seamless positional flow between these two fundamental guard systems. This transition serves as both an offensive adaptation when initial De La Riva attacks are defended and a proactive entry strategy that leverages opponent's posture and base positioning to create superior sweeping opportunities.
 
 The ability to flow between these positions transforms static guard retention into dynamic offensive pressure, making it one of the most powerful conceptual frameworks in modern guard play. When the top player maintains upright posture and resists DLR sweeps, the guard player converts underneath into X-Guard where the elevation mechanics become dominant. This reaction-based entry is what separates competent DLR players from dangerous ones: every defensive reaction opens a different offensive pathway.
 

@@ -34,6 +34,18 @@ description: "Master the bridge-and-roll reversal from scarf hold in BJJ. Step-b
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge from Scarf Hold Position",
+  "description": "The Bridge from Scarf Hold Position is a bottom-player reversal that traps the opponent's head-wrapping arm, hooks their near leg, and explodes into a 45-degree bridge to roll them over their shoulder into closed guard on top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the bridge-and-roll reversal from scarf hold in BJJ. Step-b
 </div>
 
 <section id="overview" class="content-section">
+
+**The Bridge from Scarf Hold Position is a bottom-player reversal that traps the opponent's head-wrapping arm, hooks their near leg, and explodes into a 45-degree bridge to roll them over their shoulder into closed guard on top.**
 
 The Bridge from Scarf Hold Position is the definitive bridge-and-roll reversal targeting a complete position reversal from underneath kesa gatame to landing inside the opponent's closed guard on top. Unlike the bridge escape variant that seeks half guard recovery, this technique commits to rolling the top player entirely over their shoulder line, producing a full reversal where the bottom player emerges in top position. The technique exploits the fundamental structural weakness of scarf hold: the top player's back is partially exposed due to their perpendicular seating angle, creating a viable roll line when their posting ability is compromised through arm trapping and leg hooking.
 
@@ -228,10 +242,6 @@ The bridge from scarf hold sits within the scarf hold bottom escape hierarchy as
 - [[Positions/Mount]] - Counter outcome position if opponent steps over during failed bridge attempt
 
 - [[Transitions/Bridge Escape from Scarf Hold]] - Related bridge escape targeting half guard recovery rather than full reversal
-
-- [[Transitions/Bridge Escape from Kesa Gatame]] - Closely related bridge escape from the traditional judo kesa gatame variant
-
-- [[Transitions/Bridge Escape from Modified Scarf Hold]] - Similar bridge mechanics applied to modified scarf hold configuration
 
 - [[Positions/Side Control/Kesa Gatame]] - Traditional judo variant of scarf hold with identical reversal mechanics
 

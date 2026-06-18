@@ -34,6 +34,18 @@ description: "Master the Crossface from Old School in BJJ. Flatten your opponent
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crossface from Old School",
+  "description": "The Crossface from Old School is a pressure-based half guard pass where the top player drives shoulder pressure across the trapped opponent's jaw to turn their head, flatten their posture, and break the lockdown en route to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Crossface from Old School in BJJ. Flatten your opponent
 
 <section id="overview" class="content-section">
 
-The Crossface from Old School is a pressure-based passing technique employed by the top player when caught in the opponent's lockdown half guard. This technique addresses the fundamental challenge of Old School bottom: the bottom player's underhook, head control, and lockdown create powerful sweep threats that must be systematically dismantled before any pass can succeed. The crossface serves as the primary weapon for breaking this control structure, driving the opponent's head away to eliminate their sweeping angle while simultaneously flattening their torso posture.
+**The Crossface from Old School is a pressure-based half guard pass where the top player drives shoulder pressure across the trapped opponent's jaw to turn their head, flatten their posture, and break the lockdown en route to side control.**
+
+This technique addresses the fundamental challenge of passing Old School bottom: the bottom player's underhook, head control, and lockdown combine to create powerful sweep threats that must be systematically dismantled before any pass can succeed. The crossface serves as the primary weapon for breaking this control structure, driving the opponent's head away to eliminate their sweeping angle while simultaneously flattening their torso posture. Rather than forcing a path through the lockdown directly, the top player attacks the upper-body alignment that makes the lockdown dangerous in the first place.
 
 The technique works by leveraging shoulder and forearm pressure across the bottom player's face and jaw, forcing their head to turn away from the underhook side. This single action cascades through the bottom player's entire control system: turning the head breaks the head control grip, flattens the torso angle required for sweeps, and reduces the mechanical effectiveness of the lockdown extension. Once the bottom player is flattened, the top player can systematically address the lockdown through hip pressure and ankle manipulation to extract the trapped leg and complete the pass to side control.
 

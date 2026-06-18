@@ -34,6 +34,18 @@ description: "Master Smash Pass Counter from Ringworm Guard Top. Extract leg fro
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Smash Pass Counter",
+  "description": "Smash Pass Counter is a pressure-based guard pass from the top of Ringworm Guard in which you collapse forward into the lapel wrap, strip the grip, and extract the trapped leg to advance into Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Smash Pass Counter from Ringworm Guard Top. Extract leg fro
 </div>
 
 <section id="overview" class="content-section">
+
+**Smash Pass Counter is a pressure-based guard pass from the top of Ringworm Guard in which you collapse forward into the lapel wrap, strip the grip, and extract the trapped leg to advance into Side Control.**
 
 The Smash Pass Counter is a pressure-based response to Ringworm Guard that prioritizes extracting the trapped leg from the lapel configuration while simultaneously driving forward with heavy shoulder and hip pressure. Unlike standing extraction methods that create distance, this approach uses proximity and weight to nullify the guard player's leverage while systematically breaking down their lapel control.
 

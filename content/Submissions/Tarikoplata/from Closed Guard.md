@@ -33,10 +33,32 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
 }
 </script>
 
-> **SAFETY**: Tarikoplata from Closed Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Tarikoplata from Closed Guard",
+  "description": "The Tarikoplata from Closed Guard is a compound shoulder lock that augments an omoplata with wrist control and rotation, trapping the opponent's arm while torquing the wrist to attack the shoulder joint and rotator cuff from the bottom.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Tarikoplata from Closed Guard is a compound shoulder lock that augments an omoplata with wrist control and rotation, trapping the opponent's arm while torquing the wrist to attack the shoulder joint and rotator cuff from the bottom.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint and rotator cuff</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Tarikoplata from Closed Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -49,55 +71,7 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
 
 The Tarikoplata is an advanced shoulder lock submission that combines the mechanics of the omoplata with additional wrist control and torque. Named after Tarik Hopstock, this technique represents an evolution of the traditional omoplata position, adding a second lever through wrist manipulation to create a devastating shoulder attack. The submission works by trapping the opponent's arm in an omoplata configuration while simultaneously controlling and twisting their wrist, creating a compound lock that attacks both the shoulder joint and rotator cuff. This technique is particularly effective when the opponent attempts to defend the traditional omoplata by posturing or rolling, as the added wrist control prevents these common escape routes. The Tarikoplata has gained significant traction in modern no-gi grappling and is a staple of innovative guard systems, particularly within the 10th Planet Jiu-Jitsu methodology. The submission requires excellent hip mobility, precise timing, and thorough understanding of omoplata mechanics before attempting the wrist control variation.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with surgical intervention possible |
-| Shoulder dislocation (glenohumeral joint) | High | 6-12 weeks, potential chronic instability |
-| Wrist hyperextension and ligament damage | Medium | 2-6 weeks |
-| Labrum tear (glenoid labrum) | CRITICAL | 4-6 months post-surgery, career-threatening |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time, never spike or jerk
-
-**Tap Signals**:
-- Verbal tap (primary)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any verbal distress signal
-- Frantic movement or panic response
-
-
-**Release Protocol**:
-1. Immediately release wrist grip upon tap signal
-2. Remove leg from over opponent's shoulder smoothly
-3. Release hip pressure gradually
-4. Allow opponent to extract arm naturally without resistance
-5. Check for injury before continuing training
-
-
-**Training Restrictions**:
-- Never use competition speed in training
-- Never spike or jerk the submission - apply progressive pressure only
-- Always allow tap access - opponent must have free hand available
-- Restrict to advanced practitioners only (minimum purple belt recommended)
-- Avoid practicing on training partners with existing shoulder injuries
-- Never combine with explosive movements or sudden adjustments
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -271,10 +245,9 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Inverted Triangle]]
 - [[Submissions/Baratoplata]]
 - [[Transitions/Gogoplata]]
@@ -285,18 +258,9 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 - [[Submissions/Americana]]
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Reverse Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Omoplata Control]] - Parent position - tarikoplata is variation with added wrist control
 - [[Positions/Rubber Guard/Mission Control]] - Optimal rubber guard position for transitioning to tarikoplata
 - [[Positions/Triangle Control]] - Alternative transition when triangle is defended - flow to tarikoplata
-- [[Submissions/Baratoplata]] - Related shoulder lock variation using similar mechanics
 - [[Positions/Gogoplata Control]] - Complementary rubber guard submission, creates submission chain
 - [[Positions/Closed Guard]] - Primary starting position for tarikoplata entries
 - [[Positions/Rubber Guard]] - Guard system containing optimal tarikoplata entry positions
@@ -304,16 +268,48 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 - [[Positions/Rubber Guard/New York]] - Advanced rubber guard position for tarikoplata transitions
 - [[Positions/Kimura Trap]] - Related shoulder isolation control position sharing wrist and shoulder attack mechanics
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Tarikoplata from Closed Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with surgical intervention possible |
+| Shoulder dislocation (glenohumeral joint) | High | 6-12 weeks, potential chronic instability |
+| Wrist hyperextension and ligament damage | Medium | 2-6 weeks |
+| Labrum tear (glenoid labrum) | CRITICAL | 4-6 months post-surgery, career-threatening |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time, never spike or jerk
+
+**Tap Signals**:
+- Verbal tap (primary)
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat
+- Any verbal distress signal
+- Frantic movement or panic response
+
+
+**Release Protocol**:
+1. Immediately release wrist grip upon tap signal
+2. Remove leg from over opponent's shoulder smoothly
+3. Release hip pressure gradually
+4. Allow opponent to extract arm naturally without resistance
+5. Check for injury before continuing training
+
+
+**Training Restrictions**:
+- Never use competition speed in training
+- Never spike or jerk the submission - apply progressive pressure only
+- Always allow tap access - opponent must have free hand available
+- Restrict to advanced practitioners only (minimum purple belt recommended)
+- Avoid practicing on training partners with existing shoulder injuries
+- Never combine with explosive movements or sudden adjustments
+
 
 </section>
 

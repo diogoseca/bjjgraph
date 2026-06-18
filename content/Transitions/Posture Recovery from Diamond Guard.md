@@ -34,6 +34,18 @@ description: "Learn posture recovery from diamond guard in BJJ. Systematic appro
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture Recovery from Diamond Guard",
+  "description": "Posture Recovery from Diamond Guard is the top player's defensive sequence to break the overhook and head-control frame, restore upright posture, and escape the diamond's converging pulls back to closed guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn posture recovery from diamond guard in BJJ. Systematic appro
 
 <section id="overview" class="content-section">
 
-Posture Recovery from Diamond Guard is a critical defensive transition for the top player trapped inside the diamond guard configuration, where the bottom player has established an overhook on one arm combined with head control behind the neck. The diamond frame creates converging force vectors that pull the top player's posture down and forward, eliminating the structural base required for guard passing or even basic survival. Without successful posture recovery, the top player faces an escalating chain of triangle, omoplata, and kimura threats that become increasingly difficult to defend as fatigue accumulates.
+**Posture Recovery from Diamond Guard is the top player's defensive sequence to break the overhook and head-control frame, restore upright posture, and escape the diamond's converging pulls back to closed guard top.**
+
+Inside the diamond guard, the bottom player has trapped the top player with an overhook on one arm and head control behind the neck — two independent grips that converge to pull the top player's posture down and forward. This frame eliminates the structural base required for guard passing or even basic survival, and without recovery the top player faces an escalating chain of triangle, omoplata, and kimura threats that become increasingly difficult to defend as fatigue accumulates.
 
 The fundamental challenge of this recovery lies in the dual-point control system. Unlike standard closed guard posture breaks that rely on a single collar grip or head pull, the diamond frame uses two independent but mutually reinforcing controls. The overhook eliminates one posting arm entirely, while head control drives the spine into flexion. Addressing either control point in isolation is insufficient because the remaining control compensates. Successful recovery therefore requires a sequenced approach: first neutralize the more dangerous control (head control), then address the overhook, and finally drive the hips backward to restore spinal alignment.
 

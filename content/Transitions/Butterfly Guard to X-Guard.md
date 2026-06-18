@@ -34,6 +34,18 @@ description: "Master the Butterfly Guard to X-Guard transition in BJJ. Learn set
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Guard to X-Guard",
+  "description": "Butterfly Guard to X-Guard is a bottom-player transition that uses butterfly-hook elevation to force the opponent to post a leg forward, then slides the hips underneath to capture that posted leg in an X-Guard leg entanglement for high-percentage sweeps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Butterfly Guard to X-Guard transition in BJJ. Learn set
 </div>
 
 <section id="overview" class="content-section">
+
+**Butterfly Guard to X-Guard is a bottom-player transition that uses butterfly-hook elevation to force the opponent to post a leg forward, then slides the hips underneath to capture that posted leg in an X-Guard leg entanglement for high-percentage sweeps.**
 
 The Butterfly Guard to X-Guard transition represents a fundamental evolution in modern guard play, connecting dynamic elevation mechanics with sophisticated off-balancing systems. This transition capitalizes on the opponent's forward pressure and posture, using butterfly hooks as launching mechanisms to establish the powerful X-Guard position. The technique exploits the natural reaction of opponents who base wide or post their weight forward while defending butterfly sweeps, creating the perfect opportunity to slide underneath and capture the standing leg.
 

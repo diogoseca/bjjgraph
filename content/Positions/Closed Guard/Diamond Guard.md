@@ -34,6 +34,18 @@ description: "Master Diamond Guard in BJJ. Closed guard variation using overhook
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Diamond Guard",
+  "description": "Diamond Guard is a closed guard variation that pairs an overhook on one arm with head control to build a diamond-shaped frame, amplifying posture breaks and chaining triangle, omoplata, and kimura attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Diamond Guard in BJJ. Closed guard variation using overhook
 
 <section id="overview" class="content-section">
 
-Diamond Guard is a specialized closed guard variation where the guard player establishes an overhook on one of the opponent's arms while simultaneously controlling the opponent's head with the other hand, creating a diamond-shaped frame between the arms, head, and chest. This configuration dramatically amplifies posture-breaking effectiveness and creates direct pathways to high-percentage submissions including triangles, omoplatas, and kimuras.
+**Diamond Guard is a closed guard variation that pairs an overhook on one arm with head control to build a diamond-shaped frame, amplifying posture breaks and chaining triangle, omoplata, and kimura attacks.**
+
+Born from modern high-control guard systems, Diamond Guard answers a recurring closed-guard problem: how to break the opponent's posture and keep it broken long enough to chain submissions. The guard player establishes an overhook on one of the opponent's arms while simultaneously controlling the opponent's head with the other hand, locking the arms, head, and chest into a tight enclosed frame. This configuration dramatically amplifies posture-breaking effectiveness and creates direct pathways to high-percentage submissions including triangles, omoplatas, and kimuras.
 
 The position derives its name from the geometric shape formed when the overhook arm, the head-controlling arm, the opponent's trapped arm, and the opponent's head create a diamond-shaped enclosed space. This structure provides exceptional control over the opponent's upper body posture and shoulder alignment, making it nearly impossible for the top player to posture up without first addressing both control points simultaneously.
 

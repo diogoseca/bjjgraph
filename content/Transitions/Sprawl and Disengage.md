@@ -34,6 +34,18 @@ description: "Learn Sprawl and Disengage in BJJ. Escape inverted guards safely b
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sprawl and Disengage",
+  "description": "Sprawl and Disengage is a defensive guard-passing reaction where the top player drives their hips back and down to strip their legs out of an inverting opponent's grasshopper guard, resetting to a standing base rather than risking leg entanglements.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn Sprawl and Disengage in BJJ. Escape inverted guards safely b
 
 <section id="overview" class="content-section">
 
-The Sprawl and Disengage is a fundamental defensive technique used when facing grasshopper guard and other inverted guard positions. When an opponent inverts and threatens leg entanglements, the sprawl creates immediate distance by driving your hips backward and down toward the mat, removing your legs from their attacking range before they can establish hooks or grips.
+**Sprawl and Disengage is a defensive guard-passing reaction where the top player drives their hips back and down to strip their legs out of an inverting opponent's grasshopper guard, resetting to a standing base rather than risking leg entanglements.**
+
+Within the inverted-guard passing game, the Sprawl and Disengage functions as the high-percentage "eject button" against leg-hunting bottom players. When an opponent inverts and threatens leg entanglements, the sprawl creates immediate distance by driving your hips backward and down toward the mat, removing your legs from their attacking range before they can establish hooks or grips.
 
 This technique prioritizes safety and position reset over direct passing. Rather than fighting through the inverted guard and risking leg entanglements, you recognize when engagement is unfavorable and strategically disengage to reset from standing. The sprawl mechanic—borrowed from wrestling defense—is adapted here specifically to counter the elevation and leg control attempts inherent to inverted guards.
 

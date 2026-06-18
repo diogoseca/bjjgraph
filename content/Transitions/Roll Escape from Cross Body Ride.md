@@ -34,6 +34,18 @@ description: "Master the Roll Escape from Cross Body Ride in BJJ. Complete guide
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll Escape from Cross Body Ride",
+  "description": "The Roll Escape from Cross Body Ride is a high-commitment, momentum-based turtle-bottom escape where the trapped player rolls into the rider's committed weight to displace it and recover half guard before the back can be taken.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Roll Escape from Cross Body Ride in BJJ. Complete guide
 
 <section id="overview" class="content-section">
 
-The Roll Escape from Cross Body Ride is a dynamic, momentum-based escape technique employed by the bottom player when trapped underneath perpendicular back pressure in the cross body ride configuration. Unlike the more conservative hip escape, the roll escape uses rotational momentum to redirect the rider's committed weight past the point of recovery, creating space to insert legs and establish half guard. The technique exploits a structural vulnerability inherent in cross body positioning: the rider's perpendicular weight commitment creates directional instability that a correctly timed roll can convert into decisive separation.
+**The Roll Escape from Cross Body Ride is a high-commitment, momentum-based turtle-bottom escape where the trapped player rolls into the rider's committed weight to displace it and recover half guard before the back can be taken.**
+
+Within the turtle-bottom escape repertoire, the roll escape occupies the high-risk, high-reward end of the spectrum, standing in contrast to the incremental hip escape and sit-through. Rather than grinding out lateral space, it weaponizes rotational momentum to redirect the rider's committed weight past the point of recovery, creating space to insert legs and establish half guard. The technique exploits a structural vulnerability inherent in cross body positioning: the rider's perpendicular weight commitment creates directional instability that a correctly timed roll can convert into decisive separation.
 
 Strategically, this escape occupies a specialized niche as a secondary option behind hip escapes and sit-throughs. Its value lies in unpredictability—opponents who have adapted to lateral hip escape patterns are often caught off guard by the rotational vector of the roll. The technique becomes the preferred choice when the rider has neutralized lateral hip movement through tight hip control but has left the rotational axis unguarded. Timing is the critical variable: initiating the roll during the rider's weight transition or grip adjustment window transforms a moderate-percentage escape into a high-reliability positional recovery.
 

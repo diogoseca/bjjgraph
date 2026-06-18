@@ -1,6 +1,7 @@
 {
   "name": "Asymmetric Warfare",
   "description": "Master the BJJ strategy of attacking where your opponent is weakest. Learn to identify defensive gaps, exploit skill imbalances, and funnel the match into your strengths.",
+  "summary": "Asymmetric warfare in BJJ is the strategy of deliberately funneling a match into the areas where your strengths meet your opponent's weaknesses, refusing to fight on their terms and imposing the exchange that maximizes your advantage.",
   "tags": [
     "bjj",
     "strategy",
@@ -163,6 +164,16 @@
       "name": "Double Down on Strengths",
       "content_type": "Learning",
       "relationship": "Complementary strategy -- doubling down on strengths gives you a weapon to impose in asymmetric matchups"
+    },
+    {
+      "name": "Funneling",
+      "content_type": "Learning",
+      "relationship": "Funneling is the tactical mechanism for forcing an opponent into the favorable territory asymmetric warfare targets"
+    },
+    {
+      "name": "Predictable Responses",
+      "content_type": "Learning",
+      "relationship": "Exploiting predictable defensive reactions is how asymmetric attacks convert identified weaknesses into finishes"
     }
   ]
 }

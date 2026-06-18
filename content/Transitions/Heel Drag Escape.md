@@ -34,6 +34,18 @@ description: "Master the Heel Drag Escape from mount in BJJ. Learn precise heel 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Drag Escape",
+  "description": "The Heel Drag Escape is a low-energy mount escape where the bottom player hooks the top player's planted foot with their heel and drags it across the centerline to recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Heel Drag Escape from mount in BJJ. Learn precise heel 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Heel Drag Escape is a low-energy mount escape where the bottom player hooks the top player's planted foot with their heel and drags it across the centerline to recover half guard.**
 
 The Heel Drag Escape is one of the most energy-efficient and mechanically elegant methods of escaping the mount position. Rather than relying on explosive bridging power or complex multi-step sequences, this technique leverages a precise foot movement to recover half guard by hooking the top player's foot with your heel and dragging it across your body. The simplicity of the movement belies its effectiveness: when properly timed, the heel drag creates an inescapable leg entanglement that immediately transitions the position from full mount to half guard.
 

@@ -34,6 +34,18 @@ description: "Learn Knee Extraction defense from straight ankle lock control. St
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Extraction",
+  "description": "Knee Extraction is a leg-lock escape from straight ankle lock control where the trapped player bends the knee toward the chest, breaks the heel grip, and clears the leg before the attacker consolidates the entanglement, recovering to standing or open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Knee Extraction defense from straight ankle lock control. St
 </div>
 
 <section id="overview" class="content-section">
+
+**Knee Extraction is a leg-lock escape from straight ankle lock control where the trapped player bends the knee toward the chest, breaks the heel grip, and clears the leg before the attacker consolidates the entanglement, recovering to standing or open guard.**
 
 The Knee Extraction is a fundamental defensive technique used to escape straight ankle lock control by systematically freeing the trapped knee and creating distance. When caught in ankle lock control, the defender's primary objective is to extract the knee toward their chest while preventing the attacker from completing their leg triangle or transitioning to more dominant entanglements like inside ashi-garami or the saddle position.
 

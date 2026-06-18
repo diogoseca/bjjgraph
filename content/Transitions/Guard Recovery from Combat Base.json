@@ -1,5 +1,6 @@
 {
   "name": "Guard Recovery from Combat Base",
+  "summary": "Guard Recovery from Combat Base is a defensive transition where the bottom player chains frames, hip escapes, and leg reattachment to rebuild closed guard against a passer kneeling in combat base inside their legs.",
   "description": "Master guard recovery from combat base in BJJ. Step-by-step guide to reestablishing closed guard using frames, hip escapes, and leg reattachment.",
   "tags": [
     "bjj",
@@ -262,6 +263,14 @@
       {
         "question": "What is the critical direction of force when using your frame against a combat base player's forward pressure?",
         "answer": "Direct your frame at a forty-five degree angle toward the opponent's chin and away from your centerline rather than pushing straight back into their chest. Straight-back frames engage a strength battle you will lose against forward driving pressure. The angled frame redirects their weight past your body, converting their energy into rotational movement that carries them off-balance while creating the lateral space your hip escape needs."
+      },
+      {
+        "question": "Your opponent posts a strong straight-arm to your hip to block your hip escape—how do you clear it and continue the recovery?",
+        "answer": "Attack the posted arm rather than fighting its line of strength: grip the wrist with your near hand and use your far-side knee or shin to bump the elbow off your hip line, collapsing the post. As the arm folds you regain hip-escape room, so immediately shrimp into the space you just created and insert your shin frame before they can re-post. If the arm stays heavy, a quick two-on-one pull of the wrist toward your centerline kills the post and feeds directly into a collar drag recovery."
+      },
+      {
+        "question": "If your shin frame and far-leg reattachment are stuffed, what is the highest-percentage chain attack to keep the recovery alive?",
+        "answer": "Convert the failed closed-guard recovery into a butterfly hook insertion or a collar drag rather than forcing the lock. If your near knee cannot cross to a shin frame, drop it into a butterfly hook under the passer's near thigh and elevate to off-balance them; if they over-rotate to defend, hit a collar drag across your centerline to spin behind them. Both keep at least one leg or grip controlling distance, so a stuffed recovery flows into a sweep or back-take instead of a flat pin."
       }
     ],
     "safety_considerations": "Guard recovery from combat base is a low-injury-risk transition, but practitioners should be mindful of neck strain when bridging under heavy crossface pressure. Avoid explosive bridging when the opponent has a deep crossface, as this can compress cervical vertebrae. If the opponent's weight fully pins your hips, abandon the recovery attempt and work incrementally rather than forcing explosive movements that risk lower back injury. During training, communicate with your partner about pressure intensity to prevent rib compression injuries from sustained combat base pressure."

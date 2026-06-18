@@ -34,6 +34,18 @@ description: "Master standing up from Inside Ashi-Garami in BJJ. Complete guide 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Up from Inside Ashi",
+  "description": "Standing Up from Inside Ashi is a positional reset where the bottom leg-entanglement player posts a hand, rebuilds base, and rises to their feet to escape a stalled ashi garami or convert into a standing ankle lock.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master standing up from Inside Ashi-Garami in BJJ. Complete guide 
 
 <section id="overview" class="content-section">
 
-Standing Up from Inside Ashi-Garami is a strategic positional transition where the bottom ashi garami player rises from their back to a standing position while managing the opponent's trapped leg. While Inside Ashi-Garami is primarily an attacking platform for leg submissions, situations arise where standing up becomes the tactically superior option—to apply submissions from a standing posture with improved leverage, to disengage from a defensive stalemate, or to reset the engagement entirely when the opponent's defense proves impenetrable.
+**Standing Up from Inside Ashi is a positional reset where the bottom leg-entanglement player posts a hand, rebuilds base, and rises to their feet to escape a stalled ashi garami or convert into a standing ankle lock.**
+
+Within modern leg-lock systems, the standup is the bottom ashi player's tactical off-ramp from the ground. While Inside Ashi-Garami is primarily an attacking platform for leg submissions, situations arise where standing up becomes the tactically superior option—to apply submissions from a standing posture with improved leverage, to disengage from a defensive stalemate, or to reset the engagement entirely when the opponent's defense proves impenetrable.
 
 The standup requires careful balance management during the intermediate phase where the player transitions from supine to upright. The most vulnerable moment occurs when one hand releases the heel grip to post on the mat, creating a brief window where both submission control and base are compromised. Timing the standup when the opponent is absorbed in defending the heel rather than monitoring your posture significantly increases success probability.
 

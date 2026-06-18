@@ -34,6 +34,18 @@ description: "Master the Baratoplata Setup from Meathook. Step-by-step shoulder 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Baratoplata Setup",
+  "description": "The Baratoplata Setup is a rotational shoulder-lock entry from the Meathook position that threads the attacker's arm through the opponent's isolated limb to build a figure-four grip, attacking the shoulder through internal rotation rather than the elbow.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Baratoplata Setup from Meathook. Step-by-step shoulder 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Baratoplata Setup is a rotational shoulder-lock entry from the Meathook position that threads the attacker's arm through the opponent's isolated limb to build a figure-four grip, attacking the shoulder through internal rotation rather than the elbow.**
 
 The Baratoplata Setup is an advanced shoulder lock entry that capitalizes on the arm isolation inherent in the Meathook position. This technique transforms the Meathook's control advantage into a devastating rotational shoulder attack by threading your arm through the opponent's trapped limb and creating a figure-four configuration that attacks the shoulder joint through internal rotation.
 

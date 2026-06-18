@@ -149,6 +149,16 @@ description: "Complete strategic framework for no-gi grappling. Master body lock
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "No-Gi Tactical Framework",
+  "description": "The No-Gi Tactical Framework is a strategic system for grip-free grappling that replaces gi controls with body locks, underhooks, and front-headlock pressure to chain takedowns, leg entanglements, and back attacks into competition-ready submission sequences.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -163,7 +173,9 @@ description: "Complete strategic framework for no-gi grappling. Master body lock
 
 ## What is No-Gi Tactical Framework?
 
-The No-Gi Tactical Framework is a comprehensive strategic approach to Brazilian Jiu-Jitsu practiced without the traditional gi. This system addresses the unique challenges and opportunities presented by no-gi grappling, where the absence of collar and sleeve grips fundamentally changes position control, submission mechanics, and transitional strategies. The framework emphasizes body lock controls, underhook battles, and explosive movements that capitalize on reduced friction and grip security. Unlike gi-based systems that rely heavily on fabric manipulation, this tactical approach prioritizes frames, body positioning, and dynamic transitions that account for the slippery nature of skin-on-skin or rashguard contact. The system integrates modern leg attack entries, back exposure opportunities, and submission chains optimized for no-gi competition rules, making it essential for MMA fighters, submission grappling competitors, and practitioners seeking a well-rounded grappling game applicable across rule sets.
+**The No-Gi Tactical Framework is a strategic system for grip-free grappling that replaces gi controls with body locks, underhooks, and front-headlock pressure to chain takedowns, leg entanglements, and back attacks into competition-ready submission sequences.**
+
+As submission grappling and MMA have surged in popularity, the demands of competing without collar and sleeve grips have reshaped how serious practitioners build their games. This system addresses the unique challenges and opportunities presented by no-gi grappling, where the absence of collar and sleeve grips fundamentally changes position control, submission mechanics, and transitional strategies. The framework emphasizes body lock controls, underhook battles, and explosive movements that capitalize on reduced friction and grip security. Unlike gi-based systems that rely heavily on fabric manipulation, this tactical approach prioritizes frames, body positioning, and dynamic transitions that account for the slippery nature of skin-on-skin or rashguard contact. The system integrates modern leg attack entries, back exposure opportunities, and submission chains optimized for no-gi competition rules, making it essential for MMA fighters, submission grappling competitors, and practitioners seeking a well-rounded grappling game applicable across rule sets.
 
 </section>
 

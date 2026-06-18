@@ -34,6 +34,18 @@ description: "Escape back control to turtle position in BJJ. Step-by-step guide 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turtle from Back Control",
+  "description": "Turtle from Back Control is a defensive escape where the bottom player neutralizes the choke, strips the back controller's hooks through hip movement, and turns to a four-point turtle base to remove immediate submission danger.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Escape back control to turtle position in BJJ. Step-by-step guide 
 
 <section id="overview" class="content-section">
 
-Turtle from Back Control is a fundamental escape transition where the bottom player works to strip the back controller's hooks and turn their hips to establish a defensive turtle position. This transition represents a critical survival skill, as back control is the most dominant position in BJJ, carrying immediate submission threats from rear naked choke, bow and arrow, and arm attacks. Successfully reaching turtle removes the immediate choking danger and provides multiple paths to further improve position through guard recovery, sit-outs, or technical stand-ups.
+**Turtle from Back Control is a defensive escape where the bottom player neutralizes the choke, strips the back controller's hooks through hip movement, and turns to a four-point turtle base to remove immediate submission danger.**
+
+Back control is widely regarded as the most dominant position in BJJ, carrying immediate submission threats from rear naked choke, bow and arrow, and arm attacks, which makes a reliable path to turtle one of the most important survival skills a bottom player can own. Successfully reaching turtle removes the immediate choking danger and provides multiple paths to further improve position through guard recovery, sit-outs, or technical stand-ups. Treating this as a positional-improvement transition rather than a complete escape is the mindset that keeps the bottom player calm and methodical under pressure.
 
 The escape requires a systematic approach that prioritizes neck defense before any positional movement. The bottom player must first neutralize the choking arm through hand fighting, then address the hooks sequentially, beginning with the near-side hook before working to clear the far-side hook. Hip movement and angle creation are essential throughout the sequence, as simply trying to pull hooks off without repositioning the hips rarely succeeds against a skilled back controller. The transition demands patience and composure under significant pressure, as rushing the escape typically results in the opponent capitalizing on defensive gaps to improve their control or transition to mount.
 

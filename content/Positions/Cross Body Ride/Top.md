@@ -21,13 +21,13 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 52% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Flatten to Side Control",
-      "text": "From this position, attempt Turtle Flatten to Side Control. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Turtle Flatten to Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -34,6 +34,18 @@ description: "Master Double Unders position in BJJ. Strategic guide covering whe
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Unders",
+  "description": "Double Unders is a guard-passing control where the top player threads both arms under the opponent's legs and clasps behind their back, stacking the hips to kill frames and force the pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Double Unders position in BJJ. Strategic guide covering whe
 </div>
 
 <section id="overview" class="content-section">
+
+**Double Unders is a guard-passing control where the top player threads both arms under the opponent's legs and clasps behind their back, stacking the hips to kill frames and force the pass.**
 
 Double Unders Position is a critical control state in Brazilian Jiu-Jitsu where both practitioners are engaged in a bilateral underhook battle with dramatically different strategic objectives. From the top perspective, securing both underhooks creates one of the most dominant pressure passing positions available, eliminating the opponent's ability to create effective frames while applying crushing chest-to-chest pressure that forces them onto their shoulders. From the bottom perspective, this represents a crisis position requiring immediate defensive action to prevent complete flattening and inevitable pass completion.
 

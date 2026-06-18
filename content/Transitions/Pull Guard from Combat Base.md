@@ -34,6 +34,18 @@ description: "Learn to pull closed guard from combat base bottom in BJJ. Complet
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pull Guard from Combat Base",
+  "description": "Pull Guard from Combat Base is a bottom-player transition where the guard player breaks the kneeling passer's posture and wraps their legs to establish closed guard, converting a contested open-guard exchange into an offensive guard platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn to pull closed guard from combat base bottom in BJJ. Complet
 
 <section id="overview" class="content-section">
 
-Pulling guard from combat base bottom is a fundamental guard retention and improvement technique where the bottom player actively works to close their guard around an opponent who has established combat base. Rather than passively accepting the combat base player's passing pressure, the bottom player uses strategic grips, posture breaking, and hip movement to bring their legs around the opponent's waist and establish closed guard — a position offering significantly more control and offensive options than remaining underneath combat base.
+**Pull Guard from Combat Base is a bottom-player transition where the guard player breaks the kneeling passer's posture and wraps their legs to establish closed guard, converting a contested open-guard exchange into an offensive guard platform.**
+
+Within the broader combat base battle, this transition represents the bottom player's decision to re-establish a complete closed guard instead of trading sweeps and recoveries in the open-guard exchange. Rather than passively accepting the combat base player's passing pressure, the bottom player uses strategic grips, posture breaking, and hip movement to bring their legs around the opponent's waist and establish closed guard — a position offering significantly more control and offensive options than remaining underneath combat base.
 
 This transition represents a critical decision point for the bottom player. Combat base is designed as a guard passing platform, so remaining underneath it without establishing guard closure allows the top player to select from multiple high-percentage passes including knee slices, toreando, and leg drags. By actively working to close guard, the bottom player disrupts the passer's rhythm, denies them the distance and angles needed for effective passing, and transitions to a position where they can threaten sweeps, submissions, and off-balancing techniques. The key challenge lies in overcoming the combat base player's strong triangulated base and active hand control designed to prevent exactly this guard closure.
 
@@ -229,17 +243,17 @@ Pulling guard from combat base bottom occupies a critical juncture in the BJJ po
 
 - [[Positions/Half Guard]] - Counter outcome position — opponent may advance to half guard if guard pull is countered during execution
 
-- [[Transitions/Posture Recovery]] - Opposing technique — top player uses posture recovery to resist the guard pull's posture-breaking mechanics
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Recovery destination — fallback closed-position when full guard closure fails and the pass develops
 
 - [[Transitions/Combat Base to Headquarters]] - Top player alternative — advancing to headquarters instead of fighting guard closure
 
-- [[Transitions/Guard Pull from Clinch]] - Related technique — similar guard establishment mechanics from a different starting position
-
-- [[Transitions/Knee Shield to Closed Guard]] - Alternative guard closure path — using knee shield as intermediate step to closed guard
+- [[Transitions/Sweep from Combat Base]] - Related offensive technique — alternative bottom attack from the same starting position when closure is not available
 
 - [[Positions/Butterfly Guard]] - Alternative guard option — butterfly hooks provide sweeping threats if closed guard cannot be established
 
 - [[Transitions/Guard Recovery from Combat Base]] - Related defensive technique — broader guard recovery concept that includes guard pull as a specific option
+
+- [[Transitions/Hip Bump Sweep]] - Follow-up attack — primary closed guard sweep that chains directly off a failed or completed guard pull
 
 
 </section>

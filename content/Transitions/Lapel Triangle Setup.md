@@ -34,6 +34,18 @@ description: "Master the Lapel Triangle Setup from Lapel Guard. Use lapel contro
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel Triangle Setup",
+  "description": "The Lapel Triangle Setup is a gi-specific submission entry from lapel guard that uses the wrapped lapel to isolate one of the opponent's arms, creating the one-arm-in, one-arm-out configuration needed to swing a leg over into triangle control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Lapel Triangle Setup from Lapel Guard. Use lapel contro
 </div>
 
 <section id="overview" class="content-section">
+
+**The Lapel Triangle Setup is a gi-specific submission entry from lapel guard that uses the wrapped lapel to isolate one of the opponent's arms, creating the one-arm-in, one-arm-out configuration needed to swing a leg over into triangle control.**
 
 The Lapel Triangle Setup represents a sophisticated fusion of modern lapel guard innovation with classical triangle mechanics. This technique exploits the unique control properties of lapel configurations to create angle and arm isolation that would be difficult to achieve with traditional grips alone. By using the opponent's own gi fabric as a barrier and control point, the bottom player can manipulate posture and arm position with remarkable efficiency.
 

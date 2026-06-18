@@ -34,6 +34,18 @@ description: "Master the Backside 50-50 Entry from Ashi Garami. Learn rotation m
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backside 50-50 Entry from Ashi",
+  "description": "The Backside 50-50 Entry from Ashi is a leg-lock transition where the attacker rotates from Inside Ashi-Garami behind the opponent and threads into a mirrored 50-50, establishing dominant chest-to-back Backside 50-50 control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Backside 50-50 Entry from Ashi Garami. Learn rotation m
 </div>
 
 <section id="overview" class="content-section">
+
+**The Backside 50-50 Entry from Ashi is a leg-lock transition where the attacker rotates from Inside Ashi-Garami behind the opponent and threads into a mirrored 50-50, establishing dominant chest-to-back Backside 50-50 control.**
 
 The Backside 50-50 Entry from Ashi Garami is a critical positional advancement in modern leg lock systems that elevates the attacker from basic single-leg control into one of the most dominant leg entanglements available. From Inside Ashi-Garami, the attacker rotates their body behind the opponent while threading their legs into a mirrored 50-50 configuration, establishing chest-to-back pressure that creates significant mechanical and tactical advantages. This transition represents the systematic progression from foundational leg control to an advanced entanglement platform that offers both superior submission angles and the constant threat of transitioning to full back control.
 

@@ -21,7 +21,7 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Harness",
-      "text": "From this position, attempt Rear Naked Choke from Harness. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Harness. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {

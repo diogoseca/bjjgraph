@@ -34,6 +34,18 @@ description: "Learn Front Headlock to Anaconda in BJJ. Step-by-step execution fr
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Front Headlock to Anaconda",
+  "description": "Front Headlock to Anaconda is a finishing sequence where you thread your choking arm across a bent-over opponent's neck, trap their near arm inside the loop, and roll to lock the constricting anaconda choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Front Headlock to Anaconda in BJJ. Step-by-step execution fr
 </div>
 
 <section id="overview" class="content-section">
+
+**Front Headlock to Anaconda is a finishing sequence where you thread your choking arm across a bent-over opponent's neck, trap their near arm inside the loop, and roll to lock the constricting anaconda choke.**
 
 The Front Headlock to Anaconda transition represents one of the highest-percentage finishing sequences from the front headlock position. This technique exploits the opponent's defensive posture in turtle or standing positions by converting head and arm control into a devastating choking attack. The anaconda choke, characterized by its distinctive rolling motion and figure-four arm configuration, creates simultaneous pressure on both the carotid artery and the shoulder, making it extremely difficult to defend once properly locked.
 

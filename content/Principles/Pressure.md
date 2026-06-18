@@ -143,6 +143,16 @@ description: "Master strategic pressure application in BJJ. Learn bodyweight dis
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pressure",
+  "description": "Pressure is the disciplined transfer of bodyweight through skeletal alignment and deliberate connection points, directing sustained force into an opponent to restrict movement, collapse defensive frames, and compound control across every top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master strategic pressure application in BJJ. Learn bodyweight dis
 
 ## What is Pressure?
 
-Pressure represents the strategic utilization of bodyweight, positioning, and connection points to create discomfort, restriction, and control against an opponent. Unlike specific techniques, pressure application is a comprehensive conceptual framework that governs how force is directed, maintained, and intensified to serve specific strategic objectives across all positions. This concept encompasses understanding optimal weight distribution, directional force application, connection management, and the psychological aspects of pressure-based control. Pressure application serves as both an offensive weapon that compromises opponent's defensive structures and a control mechanism that limits mobility and creates submission opportunities. The ability to apply effective pressure often determines whether a practitioner can break through sophisticated defenses or merely maintains positional stalemates, making it one of the most nuanced yet fundamental conceptual elements in BJJ.
+**Pressure is the disciplined transfer of bodyweight through skeletal alignment and deliberate connection points, directing sustained force into an opponent to restrict movement, collapse defensive frames, and compound control across every top position.**
+
+Unlike a discrete technique with a defined start and finish, pressure is a conceptual framework that practitioners feel long before they can articulate it. It governs how force is directed, maintained, and intensified to serve strategic objectives across every position, encompassing optimal weight distribution, directional force application, connection management, and the psychological dimension of sustained discomfort. Pressure serves simultaneously as an offensive weapon that compromises an opponent's defensive structures and as a control mechanism that limits mobility and manufactures submission opportunities. The ability to apply it well often determines whether a practitioner breaks through sophisticated defenses or merely maintains positional stalemates, making it one of the most nuanced yet fundamental conceptual elements in BJJ.
 
 </section>
 

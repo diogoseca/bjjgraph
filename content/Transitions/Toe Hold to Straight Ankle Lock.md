@@ -34,6 +34,18 @@ description: "Master the Toe Hold to Straight Ankle Lock transition in BJJ. Comp
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toe Hold to Straight Ankle Lock",
+  "description": "The Toe Hold to Straight Ankle Lock is a leg-lock chain attack in which the attacker abandons rotational ankle pressure and re-grips across the Achilles, switching to extension-based compression once the defender's boot defense neutralizes the toe hold.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Toe Hold to Straight Ankle Lock transition in BJJ. Comp
 
 <section id="overview" class="content-section">
 
-The Toe Hold to Straight Ankle Lock transition represents a fundamental grip reconfiguration within the leg lock chain attack system, where the attacker abandons rotational ankle pressure in favor of extension-based Achilles compression. This switch exploits a critical principle in submission grappling: when a defender successfully neutralizes one attack vector, switching to a mechanically distinct threat on the same limb often catches them unprepared. The toe hold attacks through ankle rotation via a figure-four grip on the foot, while the straight ankle lock attacks through Achilles compression and ankle hyperextension using a forearm blade across the tendon. These two submissions target different defensive responses, making the transition between them a high-percentage chain attack.
+**The Toe Hold to Straight Ankle Lock is a leg-lock chain attack in which the attacker abandons rotational ankle pressure and re-grips across the Achilles, switching to extension-based compression once the defender's boot defense neutralizes the toe hold.**
+
+This transition sits at the heart of the leg lock chain attack system, where keeping continuous offensive pressure on a single limb matters more than committing to any one finish. It exploits a critical principle in submission grappling: when a defender successfully neutralizes one attack vector, switching to a mechanically distinct threat on the same limb often catches them unprepared. The toe hold attacks through ankle rotation via a figure-four grip on the foot, while the straight ankle lock attacks through Achilles compression and ankle hyperextension using a forearm blade across the tendon. These two submissions target different defensive responses, making the transition between them a high-percentage chain attack.
 
 The tactical reasoning behind this transition centers on the defender's boot defense and internal rotation mechanics used to neutralize the toe hold. When the defender successfully hides their heel and internally rotates their foot, the toe hold's rotational leverage diminishes significantly. However, this same defensive posture often exposes the Achilles tendon and creates favorable geometry for straight ankle lock application. The attacker who recognizes this opening can smoothly reconfigure their grips from the figure-four foot wrap to a forearm-across-Achilles configuration, maintaining continuous threat throughout the transition.
 

@@ -135,6 +135,16 @@ description: "Master no-gi competition strategy in BJJ. Complete framework cover
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "No-Gi Competition Approach",
+  "description": "The No-Gi Competition Approach is a strategic framework for no-gi grappling that fuses underhook-and-bodylock grip fighting, pressure passing, leg-entanglement systems, back attacks, and front-headlock chains with deliberate pacing and tactical match management.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -149,7 +159,9 @@ description: "Master no-gi competition strategy in BJJ. Complete framework cover
 
 ## What is No-Gi Competition Approach?
 
-The No-Gi Competition Approach is a comprehensive strategic framework designed specifically for success in no-gi grappling competitions. Unlike gi-based competition where grips and control are established through fabric manipulation, no-gi competition demands a fundamentally different tactical approach centered on body position, underhooks, overhooks, and dynamic movement. This system addresses the unique challenges of slippery surfaces, faster transitions, and the necessity for more active, aggressive control mechanisms. The framework emphasizes positional dominance through systematic pressure passing, leg entanglement systems, and submission chains that exploit the reduced friction environment. Success in no-gi competition requires understanding energy management across rounds, recognizing when to explode versus when to conserve, and developing a game plan that maximizes your physical attributes while minimizing opponent strengths. This approach integrates modern leg lock systems, back attack sequences, and front headlock series that have become essential in contemporary no-gi competition.
+**The No-Gi Competition Approach is a strategic framework for no-gi grappling that fuses underhook-and-bodylock grip fighting, pressure passing, leg-entanglement systems, back attacks, and front-headlock chains with deliberate pacing and tactical match management.**
+
+Modern no-gi competition has matured into a discipline with its own rule sets — ADCC, EBI overtime, submission-only, and IBJJF no-gi points — each rewarding distinct tactical priorities. Unlike gi-based competition where grips and control are established through fabric manipulation, no-gi demands control built from body position, underhooks, overhooks, and dynamic movement on a low-friction, slippery surface that speeds transitions and scrambles. This framework addresses those demands directly: positional dominance through systematic pressure passing, leg-entanglement systems serving as both control and attack, and submission chains engineered for the reduced-friction environment. Success also hinges on energy management across rounds — knowing when to explode versus when to conserve — and on a game plan that maximizes your physical attributes while neutralizing the opponent's strengths. The approach integrates contemporary leg lock systems, back-attack sequences, and front-headlock series that have become indispensable in high-level no-gi competition.
 
 </section>
 

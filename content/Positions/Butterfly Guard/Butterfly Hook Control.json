@@ -3,6 +3,7 @@
   "slug": "butterfly-hook-control",
   "description": "Master Butterfly Hook Control in BJJ. Strategic guide covering hook mechanics, sweeps, back takes, and defensive strategies with complete bottom and top perspective analysis.",
   "variant_uniqueness": "Active elevation hooks create instability",
+  "summary": "Butterfly Hook Control is a dynamic seated guard where the bottom player wedges both insteps inside the opponent's thighs as active elevation hooks, creating off-balancing leverage for sweeps and back takes while the top player fights to flatten the hooks and pass.",
   "overview": "Butterfly Hook Control represents one of the most dynamic and offensive guard positions in Brazilian Jiu-Jitsu, characterized by the bottom practitioner's use of butterfly hooks—feet positioned inside the opponent's thighs—to create constant elevation and off-balancing opportunities. This position excels in both gi and no-gi grappling due to its reliance on fundamental leverage mechanics rather than grip-dependent controls.\n\nThe position is fundamentally asymmetric, creating distinct strategic challenges and opportunities for both practitioners. The bottom player operates from an offensive posture, using active hook elevation to threaten sweeps in multiple directions while maintaining transition options to X-guard, deep half, or back control. The top player faces the challenge of maintaining base and posture while working to neutralize the hooks and establish passing control.\n\nWhat makes butterfly hook control particularly effective is its ability to redirect an opponent's forward pressure into sweeping momentum. Unlike guard positions that rely on creating distance, butterfly guard thrives when the opponent engages closely, converting their weight and movement into mechanical disadvantages. The position teaches critical concepts of timing, leverage amplification, and reading opponent reactions—skills that translate across all areas of grappling.\n\nFrom the top perspective, butterfly hook control presents a unique passing puzzle. The top player must balance the need to maintain forward pressure (to prevent the bottom player from creating angles) with the requirement to keep weight distributed properly (to avoid being swept). Success on top requires understanding how to systematically remove hooks, control distance, and transition to more stable passing positions without exposing the back.\n\nThe position serves as a crucial gateway in modern BJJ, connecting standing positions to ground-based guards and providing seamless transitions to leg entanglement systems, back attacks, and traditional top positions. Mastery of butterfly hook control—from both perspectives—is essential for developing well-rounded grappling skills and understanding the flow of positional chess that defines high-level competition.",
   "key_principles": [
     "Active hook elevation creates constant off-balancing pressure that prevents opponent from settling weight and establishing stable base",
@@ -584,7 +585,7 @@
     "transitions": [
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 42
+        "attempt_probability": 41
       },
       {
         "transition": "Arm Drag to Back",
@@ -644,7 +645,7 @@
       },
       {
         "transition": "Butterfly Hook Sweep",
-        "attempt_probability": 0
+        "attempt_probability": 1
       },
       {
         "transition": "Reguard to Butterfly Guard",

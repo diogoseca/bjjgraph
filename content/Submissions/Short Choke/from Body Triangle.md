@@ -33,10 +33,32 @@ description: "Master the short choke from body triangle in BJJ. Learn lapel feed
 }
 </script>
 
-> **SAFETY**: Short Choke from Body Triangle targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Short Choke from Body Triangle",
+  "description": "The short choke from body triangle is a high-percentage gi blood choke from back control in which the attacker feeds the opponent's own lapel diagonally across both carotid arteries while a figure-four leg lock restricts breathing and prevents escape.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The short choke from body triangle is a high-percentage gi blood choke from back control in which the attacker feeds the opponent's own lapel diagonally across both carotid arteries while a figure-four leg lock restricts breathing and prevents escape.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Short Choke from Body Triangle targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,58 +69,13 @@ description: "Master the short choke from body triangle in BJJ. Learn lapel feed
 
 <section id="overview" class="content-section">
 
-The short choke from body triangle combines one of the most secure controlling positions in Brazilian Jiu-Jitsu with a high-percentage lapel choke that attacks both carotid arteries simultaneously. From the body triangle, the attacker has their legs locked in a figure-four configuration around the opponent's torso, creating constant pressure that restricts breathing and prevents the hip movement necessary for most back escapes. This immobilizing platform frees both hands to systematically work the lapel across the opponent's neck without concern for positional maintenance.
+Sitting at the apex of the back-attack hierarchy, this finish is what elite back players turn to when they want to convert positional dominance into a tap without ever surrendering control of the back. From the body triangle, the attacker has their legs locked in a figure-four configuration around the opponent's torso, creating constant pressure that restricts breathing and prevents the hip movement necessary for most back escapes. This immobilizing platform frees both hands to systematically work the lapel across the opponent's neck without concern for positional maintenance.
 
 The mechanics of this choke rely on feeding the opponent's own gi lapel across their throat in a diagonal line that crosses both carotid arteries. The body triangle serves as a force multiplier—the constant ribcage compression creates physiological urgency that divides the defender's attention between breathing management and choke defense. Most opponents cannot simultaneously address the lapel feed and the breathing restriction, creating a persistent offensive advantage that compounds over time.
 
 What distinguishes this variant from other short choke entries is the stability of the body triangle platform. Standard back control with hooks requires ongoing positional adjustment that can interrupt choke setups, while the body triangle provides a mechanical lock that grows tighter as the opponent struggles. The combination of breathing restriction from the legs and blood flow restriction from the lapel creates dual pressure that accelerates the finish timeline significantly.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Back Control/Body Triangle]]
-**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for confusion lasting 30-60 seconds |
-| Trachea compression if technique is misapplied with lapel across windpipe | Medium | 1-3 days of throat soreness; seek medical attention if breathing difficulty persists |
-| Neck strain from rotational pressure combined with body triangle immobilization | Low | 2-5 days with rest |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. The body triangle already restricts breathing, so the choke compounds pressure rapidly. Apply lapel tension gradually and monitor partner closely.
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal including body going limp
-
-
-**Release Protocol**:
-1. Immediately release lapel grip and remove all pressure from neck upon any tap signal
-2. Unlock body triangle and remove leg pressure from torso to restore breathing capacity
-3. Check partner's consciousness and breathing status before moving
-4. If partner is unconscious, place in recovery position, elevate legs, and monitor airway
-5. Never reapply the choke in the same training session if unconsciousness occurred
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions with the lapel across the neck
-- Never continue pressure after any tap signal—the dual pressure from body triangle and choke can cause rapid unconsciousness
-- Never practice on partners with neck injuries, cardiovascular conditions, or carotid artery issues
-- Always ensure partner can signal a tap with at least one hand or verbally
-- Never use competition speed during initial learning phases
-
+**Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -256,40 +233,58 @@ What distinguishes this variant from other short choke entries is the stability 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Transitions/Darce Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control/Body Triangle]] - Primary control position providing the immobilizing platform for this choke
 - [[Positions/Back Control]] - Parent position family for back-based choke attacks
-- [[Submissions/Rear Naked Choke]] - Primary alternative submission from the same controlling position, used as a chain threat to open lapel access
-- [[Submissions/Bow and Arrow Choke]] - Related gi collar choke from back control that shares grip mechanics
 - [[Positions/Back Control/Seat Belt Control Back]] - Upper body control configuration used to set up the lapel feed
 - [[Positions/Crucifix]] - Transition target when defender reaches back to strip the choking grip
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Short Choke from Body Triangle leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for confusion lasting 30-60 seconds |
+| Trachea compression if technique is misapplied with lapel across windpipe | Medium | 1-3 days of throat soreness; seek medical attention if breathing difficulty persists |
+| Neck strain from rotational pressure combined with body triangle immobilization | Low | 2-5 days with rest |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. The body triangle already restricts breathing, so the choke compounds pressure rapidly. Apply lapel tension gradually and monitor partner closely.
+
+**Tap Signals**:
+- Verbal tap or verbal signal
+- Physical hand tap on partner or mat
+- Physical foot tap on mat
+- Any distress signal including body going limp
+
+
+**Release Protocol**:
+1. Immediately release lapel grip and remove all pressure from neck upon any tap signal
+2. Unlock body triangle and remove leg pressure from torso to restore breathing capacity
+3. Check partner's consciousness and breathing status before moving
+4. If partner is unconscious, place in recovery position, elevate legs, and monitor airway
+5. Never reapply the choke in the same training session if unconsciousness occurred
+
+
+**Training Restrictions**:
+- Never apply sudden jerking motions with the lapel across the neck
+- Never continue pressure after any tap signal—the dual pressure from body triangle and choke can cause rapid unconsciousness
+- Never practice on partners with neck injuries, cardiovascular conditions, or carotid artery issues
+- Always ensure partner can signal a tap with at least one hand or verbally
+- Never use competition speed during initial learning phases
+
 
 </section>
 

@@ -21,13 +21,13 @@ description: "Learn systematic saddle escapes prioritizing heel protection, hip 
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 55% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 1% of exchanges from this position.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 2% of exchanges from this position.",
       "position": 2
     },
     {
@@ -51,7 +51,7 @@ description: "Learn systematic saddle escapes prioritizing heel protection, hip 
     {
       "@type": "HowToStep",
       "name": "Execute Inversion Escape",
-      "text": "From this position, attempt Inversion Escape. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Inversion Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

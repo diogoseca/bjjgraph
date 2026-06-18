@@ -34,6 +34,18 @@ description: "Master the Technical Stand Up from Ground in BJJ. Essential guide 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technical Stand Up from Ground",
+  "description": "The Technical Stand Up from Ground is BJJ's foundational method for safely returning to standing from the ground, posting a hand behind the hip and kicking a leg through while maintaining a defensive frame against the opponent.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Technical Stand Up from Ground in BJJ. Essential guide 
 
 <section id="overview" class="content-section">
 
-The Technical Stand Up from Ground is one of the most fundamental movements in Brazilian Jiu-Jitsu, enabling a practitioner to safely transition from a seated or grounded position to full standing while maintaining defensive awareness and structural integrity. Built on the principle of posting a hand behind the hip for structural support combined with a kick-through leg motion, this technique creates the elevation needed to reach standing without exposing the practitioner to takedowns or submissions during the vulnerable transition phase.
+**The Technical Stand Up from Ground is BJJ's foundational method for safely returning to standing from the ground, posting a hand behind the hip and kicking a leg through while maintaining a defensive frame against the opponent.**
+
+Few skills are more foundational in Brazilian Jiu-Jitsu than the technical stand up, the bridge that lets a grounded practitioner reclaim a standing posture without surrendering position. Built on the principle of posting a hand behind the hip for structural support combined with a kick-through leg motion, this technique creates the elevation needed to reach standing without exposing the practitioner to takedowns or submissions during the vulnerable transition phase.
 
 Strategically, the technical stand up serves dual purposes in competition and self-defense contexts. In competition, it allows guard players to reset unfavorable exchanges, deny opponents their preferred passing game, or create new engagement opportunities from standing. In self-defense, the ability to safely return to standing against a standing adversary is among the most critical skills, as remaining grounded presents significant tactical disadvantage. The movement prioritizes maintaining a defensive frame with the non-posting hand while keeping the center of gravity low throughout the transition.
 

@@ -34,6 +34,18 @@ description: "Master the guard pass from triangle escape in BJJ. Convert triangl
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Pass from Triangle Escape",
+  "description": "Guard Pass from Triangle Escape is a defense-to-offense transition where the top player, having survived a triangle attempt through stacking and posture recovery, drives directly through the opponent's disorganized legs to establish side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the guard pass from triangle escape in BJJ. Convert triangl
 </div>
 
 <section id="overview" class="content-section">
+
+**Guard Pass from Triangle Escape is a defense-to-offense transition where the top player, having survived a triangle attempt through stacking and posture recovery, drives directly through the opponent's disorganized legs to establish side control.**
 
 The guard pass from triangle escape is a high-value transition that converts defensive triangle survival into offensive guard passing, culminating in side control establishment. After neutralizing the triangle choke threat through posture recovery, stacking pressure, and systematic space creation, the top player exploits the narrow window where the bottom player's legs are disorganized and their guard structure is compromised. Rather than simply escaping the triangle and resetting to a neutral guard engagement, this transition chains the defensive escape directly into a completed guard pass, punishing the failed triangle attempt with significant positional loss.
 

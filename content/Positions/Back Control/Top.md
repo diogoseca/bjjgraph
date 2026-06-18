@@ -21,37 +21,37 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Back Control",
-      "text": "From this position, attempt Rear Naked Choke from Back Control. This technique is attempted in 49% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Back Control. This technique is attempted in 43% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Back Control",
-      "text": "From this position, attempt Bow and Arrow Choke from Back Control. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Back Control. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap from Back",
-      "text": "From this position, attempt Gift Wrap from Back. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap from Back. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Triangle Lock",
-      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Body Triangle Lock. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],

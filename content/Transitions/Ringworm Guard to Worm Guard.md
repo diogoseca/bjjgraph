@@ -34,6 +34,18 @@ description: "Learn Ringworm Guard to Worm Guard transition in BJJ. Lapel reconf
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ringworm Guard to Worm Guard",
+  "description": "Ringworm Guard to Worm Guard is a gi lapel-guard reconfiguration in which the bottom player rethreads the opponent's lapel from around their leg to deep underneath it, upgrading into Worm Guard's tighter control and higher-percentage sweeps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Ringworm Guard to Worm Guard transition in BJJ. Lapel reconf
 </div>
 
 <section id="overview" class="content-section">
+
+**Ringworm Guard to Worm Guard is a gi lapel-guard reconfiguration in which the bottom player rethreads the opponent's lapel from around their leg to deep underneath it, upgrading into Worm Guard's tighter control and higher-percentage sweeps.**
 
 The Ringworm Guard to Worm Guard transition is a fundamental reconfiguration within the lapel guard system that allows the bottom player to upgrade their lapel control for deeper entanglement and enhanced mechanical advantage. This transition occurs when the Ringworm configuration becomes compromised or when the practitioner recognizes an opportunity to establish the more dominant Worm Guard position with its superior sweeping and back-taking opportunities.
 

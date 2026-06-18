@@ -34,6 +34,18 @@ description: "Master the Toreando pass from Double Sleeve Guard. Step-by-step gu
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toreando from Double Sleeve",
+  "description": "The Toreando from Double Sleeve is a gi guard pass where the top player breaks bilateral sleeve grips, seizes both pant legs, and swings the opponent's legs aside to circle into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Toreando pass from Double Sleeve Guard. Step-by-step gu
 </div>
 
 <section id="overview" class="content-section">
+
+**The Toreando from Double Sleeve is a gi guard pass where the top player breaks bilateral sleeve grips, seizes both pant legs, and swings the opponent's legs aside to circle into side control.**
 
 The Toreando from Double Sleeve is a lateral guard pass executed from the top position of double sleeve guard, where the passer transitions from defending bilateral sleeve grips to controlling the opponent's legs and swinging them laterally to achieve side control. This technique addresses one of the fundamental challenges of passing open guard in the gi: converting a grip-fighting exchange into a decisive passing movement. The pass derives its name from the bullfighter's lateral redirection of the charging bull, and the mechanics mirror this concept precisely—you redirect the opponent's defensive leg structures to one side while your body circles to the opposite side.
 
@@ -228,11 +242,11 @@ The Toreando from Double Sleeve connects the double sleeve guard passing game to
 
 - [[Positions/Closed Guard]] - Counter destination when opponent closes guard during pass attempt
 
-- [[Transitions/Toreando Pass from De La Riva]] - Similar toreando mechanics applied from different guard position
+- [[Transitions/Toreando Pass]] - General lateral pass that this technique specializes for the double sleeve configuration
 
-- [[Transitions/Toreando Pass from Seated Guard]] - Toreando variation against seated guard configuration
+- [[Transitions/Knee Slice Pass]] - High-percentage chain pass when the toreando is defended
 
-- [[Transitions/Pass Double Sleeve Guard]] - General passing approach from same starting position
+- [[Transitions/Pass Double Sleeve Guard]] - General passing approach from the same starting position
 
 - [[Positions/Spider Guard]] - Related guard that opponent may transition to during grip fight
 

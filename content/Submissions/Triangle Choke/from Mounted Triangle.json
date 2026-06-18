@@ -1,5 +1,6 @@
 {
   "name": "Triangle Choke from Mounted Triangle",
+  "summary": "Triangle Choke from Mounted Triangle is a top-position blood choke where the attacker, mounted with one leg over the opponent's shoulder and that arm trapped, squeezes a figure-four lock to compress both carotid arteries until the opponent taps.",
   "description": "Master the triangle choke from mounted triangle position. Learn finishing mechanics, angle adjustments, and defensive counters for this high-percentage BJJ submission.",
   "tags": [
     "bjj",
@@ -65,10 +66,11 @@
   ],
   "related_submissions": [
     "Triangle Choke",
-    "Triangle Choke",
-    "Mounted Crucifix Armbar",
+    "Armbar",
     "Gogoplata",
-    "Arm Triangle"
+    "Arm Triangle",
+    "Inverted Triangle",
+    "Cross Collar Choke"
   ],
   "related_content": [
     {
@@ -131,7 +133,7 @@
     }
   ],
   "attacker": {
-    "name": "from Mounted Triangle Attacker",
+    "name": "Triangle Choke from Mounted Triangle Attacker",
     "description": "Learn to finish the triangle choke from mounted triangle. Step-by-step execution, angle adjustments, and counters to common defenses for BJJ competition and training.",
     "overview": "Finishing the triangle choke from mounted triangle demands precise angle control, patient pressure application, and the ability to read defensive reactions. The top position provides gravity assistance and superior leverage compared to guard-based triangles, but the attacker must balance submission pressure with mount retention. Success requires methodical tightening of the triangle structure, proper head control to prevent posture recovery, and readiness to transition to armbar or back take when the defender commits to specific escape patterns.",
     "key_principles": [
@@ -332,7 +334,7 @@
     ]
   },
   "defender": {
-    "name": "from Mounted Triangle Defender",
+    "name": "Triangle Choke from Mounted Triangle Defender",
     "description": "Defend and escape the triangle choke from mounted triangle. Recognition cues, defensive frames, escape sequences, and survival strategies for BJJ practitioners.",
     "overview": "Defending the triangle choke from mounted triangle is among the most challenging defensive situations in grappling, combining the weight disadvantage of bottom mount with active blood choke mechanics. The defender must prioritize chin protection and trapped arm management while creating frames to generate space. Unlike defending triangles from guard, stacking and posturing are not available. Survival depends on lateral hip movement, precise timing of bridge escapes, and exploiting the attacker's positional instability when they commit to finishing.",
     "key_principles": [

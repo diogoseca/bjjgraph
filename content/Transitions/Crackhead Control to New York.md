@@ -34,6 +34,18 @@ description: "Master the Crackhead Control to New York transition in 10th Planet
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crackhead Control to New York",
+  "description": "Crackhead Control to New York is a 10th Planet rubber guard transition where the bottom player slides the controlling shin from neck pressure to across the shoulder blades, keeping the deep overhook to trade submission threat for positional stability and fresh attack chains.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Crackhead Control to New York transition in 10th Planet
 </div>
 
 <section id="overview" class="content-section">
+
+**Crackhead Control to New York is a 10th Planet rubber guard transition where the bottom player slides the controlling shin from neck pressure to across the shoulder blades, keeping the deep overhook to trade submission threat for positional stability and fresh attack chains.**
 
 The Crackhead Control to New York transition represents a fundamental angle adjustment within the 10th Planet Rubber Guard system, allowing practitioners to shift from the high-risk, submission-dense Crackhead Control to the more stable New York position. This transition becomes essential when the deep overhook of Crackhead Control creates excessive back exposure, when the opponent's defensive posture makes Crackhead submissions difficult, or when you need to reset your offensive chain from a different angle.
 

@@ -14,7 +14,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Frames represents the fundamental defensive skill of establishing structural barriers using the arms, legs, and torso to manage pressure, create space, and prevent an opponent from advancing position. Unlike specific techniques, framing is a conceptual framework applicable across all positions and phases of BJJ. Frames function as temporary structural supports that redirect force, create defensive space, and establish the foundation for subsequent escapes, transitions, or offensive opportunities. The concept encompasses understanding proper skeletal alignment, force distribution, connection points, and the strategic timing of frame establishment. Frame creation serves as the primary defensive mechanism that enables a practitioner to survive disadvantageous positions and create the opportunity for positional improvement, making it one of the most essential conceptual elements for both beginners and advanced practitioners. Mastery of framing transforms defensive situations from desperate struggles into calculated defensive structures that systematically neutralize opponent pressure while creating pathways for recovery.",
+  "summary": "Frames are rigid skeletal barriers — bones stacked and braced against an opponent's pressure — used to manage distance, create space, and stop positional advancement without relying on muscular strength.",
+  "overview": "Within BJJ's defensive hierarchy, framing sits alongside distance management and hip movement as one of the three pillars that keep a defending player alive under a heavier, more dominant opponent. Unlike specific techniques, framing is a conceptual framework applicable across all positions and phases of the art — it is taught on day one yet refined across an entire career. Frames function as temporary structural supports that redirect force, create defensive space, and establish the foundation for subsequent escapes, transitions, or offensive opportunities. The concept encompasses understanding proper skeletal alignment, force distribution, connection points, and the strategic timing of frame establishment. Frame creation serves as the primary defensive mechanism that enables a practitioner to survive disadvantageous positions and create the opportunity for positional improvement, making it one of the most essential conceptual elements for both beginners and advanced practitioners. Mastery of framing transforms defensive situations from desperate struggles into calculated defensive structures that systematically neutralize opponent pressure while creating pathways for recovery.",
   "key_principles": [
     "Establish frames using proper skeletal alignment to maximize structural integrity",
     "Create and maintain perpendicular force distribution relative to opponent's pressure",
@@ -400,6 +401,44 @@
       "name": "Escape Fundamentals",
       "content_type": "Principle",
       "relationship": "Frames serves as a core component of escape fundamentals, providing the initial space for movement"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is a frame in Brazilian Jiu-Jitsu?",
+      "answer": "A frame is a rigid skeletal barrier — typically the forearms, shin, or knee — braced against an opponent to manage distance, create space, and block positional advancement using bone structure rather than muscle."
+    },
+    {
+      "question": "Why should frames rely on skeletal alignment rather than muscular strength?",
+      "answer": "Bones stacked in line transmit force at almost no energy cost, so an aligned frame holds against a much heavier opponent and resists fatigue, whereas a muscle-powered frame collapses as soon as the arms tire."
+    },
+    {
+      "question": "Which direction should a frame point relative to the opponent's pressure?",
+      "answer": "Frames should be positioned perpendicular to the incoming force vector so they redirect pressure laterally instead of opposing it head-on, using leverage rather than a strength-versus-strength contest you will usually lose."
+    },
+    {
+      "question": "How do you build effective frames from bottom side control?",
+      "answer": "Frame the near arm into the opponent's neck or shoulder and the far hand on the hip, keeping your elbows connected to your own torso, to prevent chest-to-chest compression and open the channel for a hip escape."
+    },
+    {
+      "question": "What is the relationship between framing and escaping a bad position?",
+      "answer": "Frames are the first step of most escapes — they generate the initial space, which is then exploited by hip movement such as shrimping or bridging to recover guard or reverse the position."
+    },
+    {
+      "question": "What common error causes frames to collapse under pressure?",
+      "answer": "Overextending the arms or framing parallel to the opponent's pressure removes structural integrity, letting the opponent flatten and bypass the frame; keep a slight bend and stay perpendicular to the force."
+    },
+    {
+      "question": "How does breathing affect frame effectiveness?",
+      "answer": "Holding the breath creates muscular tension and rapid fatigue that breaks a frame, so you should exhale to engage the core when establishing it and breathe steadily to sustain the structure under prolonged pressure."
+    },
+    {
+      "question": "Why are multiple coordinated frames better than a single isolated frame?",
+      "answer": "A single frame leaves alternative angles open for the opponent to advance, while coordinated arm, leg, and knee-shield frames build a layered barrier that closes off multiple advancement paths at once."
+    },
+    {
+      "question": "How does the knee shield function as a frame in half guard?",
+      "answer": "The knee shield is a leg frame — the shin and knee are wedged across the opponent's torso or hip to block crossface and flattening pressure, buying space and time to underhook, recover, or attack."
     }
   ]
 }

@@ -33,10 +33,32 @@ description: "Master Boston Crab submission in BJJ. Complete guide covering setu
 }
 </script>
 
-> **SAFETY**: Boston Crab from Turtle targets the Lumbar spine and hip flexors. Risk: Lumbar spine strain or disc herniation. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Boston Crab from Turtle",
+  "description": "The Boston Crab from Turtle is a spinal-compression submission where the attacker captures both of a turtled opponent's ankles, steps over the body, and sits back to hyperextend their lumbar spine into a forced backward arch.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Boston Crab from Turtle is a spinal-compression submission where the attacker captures both of a turtled opponent's ankles, steps over the body, and sits back to hyperextend their lumbar spine into a forced backward arch.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Spinal Compression</span>
+<span class="meta-chip">Targets Lumbar spine and hip flexors</span>
+<span class="meta-chip">42% success</span>
+</div>
+
+> [!danger] Safety
+> Boston Crab from Turtle targets the Lumbar spine and hip flexors. Primary risk: Lumbar spine strain or disc herniation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -49,55 +71,7 @@ description: "Master Boston Crab submission in BJJ. Complete guide covering setu
 
 The Boston Crab is a compression submission that targets the opponent's lumbar spine and hip flexors by creating extreme hyperextension of the lower back. Originating from catch wrestling and professional wrestling, this technique has limited application in modern sport BJJ due to rule restrictions in many competition formats, but remains valuable for understanding spinal mechanics and no-gi scenarios where it can create legitimate finishing pressure. The submission works by controlling both of the opponent's legs, typically from turtle or back control positions, then sitting back to create a bridge-like arch in the opponent's spine. The effectiveness comes from the combination of hip flexor strain, lower back compression, and the opponent's inability to effectively defend while both legs are controlled. This technique requires careful application due to the significant spinal stress involved and is most commonly seen in catch wrestling competitions or MMA scenarios where back control is established but traditional chokes are defended. Understanding the Boston Crab provides insight into compression-based submission mechanics and the importance of protecting your lower back when opponent has leg control from behind.
 
-**Category**: Compression
-**Type**: Spinal Compression
-**Target Area**: Lumbar spine and hip flexors
-**Starting Position**: [[Positions/Turtle]]
-**From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 42%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Lumbar spine strain or disc herniation | CRITICAL | 6-12 months for severe cases |
-| Hip flexor tears | High | 4-8 weeks |
-| Lower back muscle strains | Medium | 2-4 weeks |
-| Knee ligament stress from leg control | Medium | 3-6 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression to finishing position
-
-**Tap Signals**:
-- Verbal tap (critical as hands may be trapped)
-- Repeated hand tap on mat or opponent
-- Foot tap on mat
-- Any vocal distress signal
-- Frantic movement or panic signals
-
-
-**Release Protocol**:
-1. Immediately release leg grips and sit forward
-2. Lower opponent's hips gently back to mat
-3. Allow opponent to flatten out completely before moving
-4. Check opponent's condition and allow recovery time
-5. Never release explosively or drop opponent
-
-
-**Training Restrictions**:
-- Never apply sudden or explosive pressure to the spine
-- Never use competition speed in training
-- Never bridge higher once opponent shows discomfort
-- Always ensure training partner can verbally tap
-- Prohibited in many IBJJF competitions - verify rule compliance
-- Never apply to training partners with known back issues
-
+**Starting Position**: [[Positions/Turtle]] · **From**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -270,10 +244,9 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Twister]]
 - [[Submissions/Banana Split]]
 - [[Submissions/Calf Slicer]]
@@ -284,34 +257,56 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Turtle]] - Primary starting position for Boston Crab entries
 - [[Positions/Twister Control/Truck]] - Alternative leg control position that can transition to Boston Crab
 - [[Positions/Crab Ride]] - Back control position with leg control access to Boston Crab setup
-- [[Submissions/Twister]] - Similar compression submission targeting spinal rotation
 - [[Transitions/Turtle to Back Control]] - Entry pathway where Boston Crab becomes option if traditional back control is defended
 - [[Positions/Back Control]] - Can transition to Boston Crab if opponent defends traditional choke attacks
 - [[Positions/Half Guard/Lockdown]] - Half guard control that shares leg control principles with Boston Crab mechanics
-- [[Submissions/Banana Split]] - Another compression submission involving hip and groin pressure with leg control
 - [[Positions/Twister Control]] - Spinal lock position that shares anatomical targets with Boston Crab
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Boston Crab from Turtle leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Lumbar spine strain or disc herniation | CRITICAL | 6-12 months for severe cases |
+| Hip flexor tears | High | 4-8 weeks |
+| Lower back muscle strains | Medium | 2-4 weeks |
+| Knee ligament stress from leg control | Medium | 3-6 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression to finishing position
+
+**Tap Signals**:
+- Verbal tap (critical as hands may be trapped)
+- Repeated hand tap on mat or opponent
+- Foot tap on mat
+- Any vocal distress signal
+- Frantic movement or panic signals
+
+
+**Release Protocol**:
+1. Immediately release leg grips and sit forward
+2. Lower opponent's hips gently back to mat
+3. Allow opponent to flatten out completely before moving
+4. Check opponent's condition and allow recovery time
+5. Never release explosively or drop opponent
+
+
+**Training Restrictions**:
+- Never apply sudden or explosive pressure to the spine
+- Never use competition speed in training
+- Never bridge higher once opponent shows discomfort
+- Always ensure training partner can verbally tap
+- Prohibited in many IBJJF competitions - verify rule compliance
+- Never apply to training partners with known back issues
+
 
 </section>
 

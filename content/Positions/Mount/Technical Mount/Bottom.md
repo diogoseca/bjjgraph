@@ -21,25 +21,25 @@ description: "Technical Mount Bottom escape guide in BJJ. Comprehensive defense 
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 50% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Technical Mount Bottom escape guide in BJJ. Comprehensive defense 
     {
       "@type": "HowToStep",
       "name": "Execute Back Turn from Technical Mount",
-      "text": "From this position, attempt Back Turn from Technical Mount. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Back Turn from Technical Mount. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -34,6 +34,18 @@ description: "Master the Butterfly Half Guard Sweep in BJJ. Learn setup, executi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Half Guard Sweep",
+  "description": "The Butterfly Half Guard Sweep is a bottom-position sweep that combines a butterfly hook under the opponent's free leg with a half-guard trap on their other leg, elevating and toppling them over the trapped leg into side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Butterfly Half Guard Sweep in BJJ. Learn setup, executi
 </div>
 
 <section id="overview" class="content-section">
+
+**The Butterfly Half Guard Sweep is a bottom-position sweep that combines a butterfly hook under the opponent's free leg with a half-guard trap on their other leg, elevating and toppling them over the trapped leg into side control top.**
 
 The Butterfly Half Guard Sweep is a fundamental sweep technique executed from butterfly half guard bottom, leveraging the unique mechanical advantages of this hybrid position. The sweep utilizes the butterfly hook inserted under the opponent's free leg to generate upward elevation force while the half guard trap on the other leg prevents the opponent from posting or stepping to base out. This combination of elevation and entanglement creates a powerful sweeping platform that disrupts the top player's balance along a diagonal line, forcing them to topple over the trapped leg.
 

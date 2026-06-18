@@ -1,6 +1,7 @@
 {
   "name": "Kimura from Knee on Belly",
   "description": "Master the Kimura from Knee on Belly in BJJ. Learn how KOB pressure creates shoulder lock opportunities through forced defensive reactions and grip exposure.",
+  "summary": "The Kimura from Knee on Belly is a figure-four shoulder lock applied from top, where crushing knee pressure forces the bottom player to expose an arm that is then trapped and rotated against the shoulder joint.",
   "tags": [
     "bjj",
     "submission",
@@ -133,7 +134,7 @@
     }
   ],
   "attacker": {
-    "name": "from Knee on Belly Attacker",
+    "name": "Kimura from Knee on Belly Attacker",
     "description": "Learn to attack the Kimura from Knee on Belly. Step-by-step guide covering grip capture, pressure maintenance, and finishing mechanics from the dominant top position.",
     "overview": "Attacking the Kimura from Knee on Belly requires understanding how to weaponize positional pressure as a submission setup. The top player uses the crushing diaphragm pressure of KOB to force defensive arm reactions, then captures the exposed limb in a figure-four grip. The elevated hip position provides a mechanical advantage over ground-level kimura entries because gravity assists both the grip capture and the rotational finish. The attacker must balance maintaining enough KOB pressure to provoke reactions while staying light enough to transition into the grip capture without losing position. The finish can be executed in place or by stepping off to north-south, and recognizing which option to use based on the defender's body positioning is what separates high-percentage finishes from failed attempts.",
     "key_principles": [
@@ -323,7 +324,7 @@
     ]
   },
   "defender": {
-    "name": "from Knee on Belly Defender",
+    "name": "Kimura from Knee on Belly Defender",
     "description": "Defend the Kimura from Knee on Belly in BJJ. Recognition cues, grip prevention strategies, and escape techniques to avoid the shoulder lock from bottom.",
     "overview": "Defending the Kimura from Knee on Belly requires addressing two simultaneous threats: the crushing positional pressure and the shoulder lock attack. The most effective defense begins before the grip is captured, by recognizing the setup cues and keeping arms protected. Once the figure-four is locked, defensive options narrow significantly and the priority shifts to preventing the elbow pin and creating enough space to extract the arm or recover guard. The defender must understand that the attacker's primary weapon is the KOB pressure itself — it forces arm exposure. Therefore, managing the pressure through frames and hip movement is the first line of defense against the kimura, not grip fighting after the capture has occurred.",
     "key_principles": [

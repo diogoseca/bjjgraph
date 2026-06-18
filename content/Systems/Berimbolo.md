@@ -127,6 +127,16 @@ description: "Master the Berimbolo system in BJJ. Revolutionary guard retention 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Berimbolo",
+  "description": "The Berimbolo is a guard-based attacking system that uses inversion and rotational movement from De La Riva guard to spin underneath the opponent and take their back, converting defensive guard positions into dominant back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -141,7 +151,9 @@ description: "Master the Berimbolo system in BJJ. Revolutionary guard retention 
 
 ## What is Berimbolo?
 
-The Berimbolo is a revolutionary guard retention and back-taking system that fundamentally changed modern BJJ competition. Developed and popularized by the Mendes brothers and refined by competitors like Mikey Musumeci, this system uses dynamic inversion, grip control, and precise timing to transform defensive guard positions into dominant back control. The Berimbolo capitalizes on the opponent's forward pressure and base vulnerabilities, using rotational movement to circle underneath and behind them. What makes this system particularly powerful is its ability to retain guard under heavy pressure while simultaneously creating back-taking opportunities. The practitioner uses their legs and hips as both barriers and levers, controlling distance while inverting to attack the opponent's back. This represents a shift from static guard retention to dynamic, offensive guard work that forces opponents into constant defensive adjustments. The system integrates seamlessly with De La Riva guard, X-Guard, and single leg X positions, creating a cohesive framework for modern guard players.
+**The Berimbolo is a guard-based attacking system that uses inversion and rotational movement from De La Riva guard to spin underneath the opponent and take their back, converting defensive guard positions into dominant back control.**
+
+Emerging from the gi competition scene of the early 2010s, the Berimbolo was developed and popularized by the Mendes brothers and later refined by competitors like Mikey Musumeci, fundamentally changing how modern guard players approach back-taking. The system uses dynamic inversion, grip control, and precise timing to transform defensive guard positions into dominant back control, capitalizing on the opponent's forward pressure and base vulnerabilities by using rotational movement to circle underneath and behind them. What makes this system particularly powerful is its ability to retain guard under heavy pressure while simultaneously creating back-taking opportunities. The practitioner uses their legs and hips as both barriers and levers, controlling distance while inverting to attack the opponent's back. This represents a shift from static guard retention to dynamic, offensive guard work that forces opponents into constant defensive adjustments. The system integrates seamlessly with De La Riva guard, X-Guard, and single leg X positions, creating a cohesive framework for modern guard players.
 
 </section>
 

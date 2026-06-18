@@ -34,6 +34,18 @@ description: "Master the Leg Weave Pass Completion in BJJ. Complete guide to fin
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Weave Pass Completion",
+  "description": "Leg Weave Pass Completion finishes a leg weave guard pass by clearing the opponent's last defensive hook and sliding the hips through into perpendicular side control while maintaining unbroken crossface and chest pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Leg Weave Pass Completion in BJJ. Complete guide to fin
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Weave Pass Completion finishes a leg weave guard pass by clearing the opponent's last defensive hook and sliding the hips through into perpendicular side control while maintaining unbroken crossface and chest pressure.**
 
 The Leg Weave Pass Completion is the decisive finishing phase of the leg weave guard passing system, where the passer transitions from established leg weave control into consolidated side control. This moment represents the most contested point in the passing exchange because the bottom player recognizes that the guard pass is imminent and commits maximum defensive effort to prevent consolidation. The passer must execute precise weight transfers, clear remaining defensive hooks, and establish crossface control in a continuous sequence that denies the bottom player any opportunity to recover frames or insert knee shields.
 

@@ -1,5 +1,6 @@
 {
   "name": "Kimura Trap to Reverse Scarf Hold",
+  "summary": "Kimura Trap to Reverse Scarf Hold is a top-position transition that converts a defended figure-four arm lock into the chest-crushing Ushiro Kesa Gatame pin by pivoting the hips 180 degrees around the grip while retaining arm control.",
   "description": "Master the Kimura Trap to Reverse Scarf Hold transition in BJJ. Learn hip rotation mechanics, arm control retention, and pressure transfer for dominant pinning control.",
   "tags": [
     "bjj",
@@ -79,7 +80,7 @@
       "relationship": "Alternative positional advancement from similar starting configuration"
     },
     {
-      "name": "Americana",
+      "name": "Americana from Reverse Scarf Hold",
       "relationship": "Follow-up submission available from Reverse Scarf Hold after transition"
     },
     {
@@ -99,7 +100,7 @@
       "relationship": "Position opponent may recover to if transition is poorly executed"
     },
     {
-      "name": "Arm Triangle",
+      "name": "Arm Triangle from Reverse Scarf Hold",
       "relationship": "Submission option available from Reverse Scarf Hold after successful transition"
     }
   ],

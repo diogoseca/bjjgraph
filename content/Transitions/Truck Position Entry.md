@@ -34,6 +34,18 @@ description: "Master Truck Position Entry from standing back control in BJJ. Ste
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Truck Position Entry",
+  "description": "Truck Position Entry from standing back control is a no-gi transition where the top player threads a leg hook during the opponent's defensive descent to enter the Truck, bypassing turtle and opening the Twister system of spine and leg attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Truck Position Entry from standing back control in BJJ. Ste
 </div>
 
 <section id="overview" class="content-section">
+
+**Truck Position Entry from standing back control is a no-gi transition where the top player threads a leg hook during the opponent's defensive descent to enter the Truck, bypassing turtle and opening the Twister system of spine and leg attacks.**
 
 The Truck Position Entry from standing back control is a specialized transition that converts a dominant standing position into the Truck, opening an entire system of spine locks, leg attacks, and back takes. Unlike the more common Truck Entry from turtle top, this variant exploits the moment when an opponent in standing back control bottom drops to their knees defensively or is dragged down by the top player. The standing back control position naturally creates the conditions for this entry because the top player already has chest-to-back connection and some form of harness or seat belt control, providing the upper body connection needed to follow the opponent to the mat and immediately thread a leg hook.
 

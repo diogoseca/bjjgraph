@@ -34,6 +34,18 @@ description: "Learn the turn and extract escape from kneebar control in BJJ. Com
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turn and Extract from Kneebar",
+  "description": "The turn and extract from kneebar is a defensive escape in which the trapped player rotates their hips toward the kneebar attacker to collapse the hyperextension angle, then frees the captured leg to reach turtle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn the turn and extract escape from kneebar control in BJJ. Com
 
 <section id="overview" class="content-section">
 
-The turn and extract from kneebar is a fundamental defensive escape used when an opponent has established kneebar control from bottom position. The technique centers on rotating the body toward the attacker's hips to reduce the hyperextension angle on the knee joint, then systematically extracting the trapped leg from the entanglement. This escape addresses one of the most common leg lock control positions in modern grappling and represents a critical skill for any practitioner training in leg lock defense systems.
+**The turn and extract from kneebar is a defensive escape in which the trapped player rotates their hips toward the kneebar attacker to collapse the hyperextension angle, then frees the captured leg to reach turtle.**
+
+Within the broader landscape of leg lock defense, the turn and extract occupies the role of the primary positional escape from kneebar control, deployed once an opponent has already secured the entanglement from bottom position. The technique centers on rotating the body toward the attacker's hips to reduce the hyperextension angle on the knee joint, then systematically extracting the trapped leg from the entanglement. This escape addresses one of the most common leg lock control positions in modern grappling and represents a critical skill for any practitioner training in leg lock defense systems.
 
 The mechanics rely on two coordinated actions: rotation and extraction. The rotation component involves turning the hips and torso toward the kneebar attacker, which collapses the extension angle and immediately relieves submission pressure. This must happen before the attacker achieves full extension, making timing the decisive factor. The extraction phase requires using the freed rotation angle to pull the knee past the attacker's hip line while posting with the hands to create a base for movement into turtle position.
 

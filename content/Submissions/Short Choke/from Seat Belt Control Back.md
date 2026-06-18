@@ -33,10 +33,32 @@ description: "Master the Short Choke from Seat Belt Control Back position in BJJ
 }
 </script>
 
-> **SAFETY**: Short Choke from Seat Belt Control Back targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Short Choke from Seat Belt Control Back",
+  "description": "The Short Choke from Seat Belt Control Back is a gi blood choke that feeds the opponent's own lapel across their throat from the seat belt grip, compressing both carotid arteries through a compact cross-collar configuration that bypasses chin-tuck defense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Short Choke from Seat Belt Control Back is a gi blood choke that feeds the opponent's own lapel across their throat from the seat belt grip, compressing both carotid arteries through a compact cross-collar configuration that bypasses chin-tuck defense.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Short Choke from Seat Belt Control Back targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,58 +69,13 @@ description: "Master the Short Choke from Seat Belt Control Back position in BJJ
 
 <section id="overview" class="content-section">
 
-The Short Choke from Seat Belt Control Back is a high-percentage gi submission that exploits the unique grip mechanics available when controlling the opponent's back with the seat belt configuration. Unlike the Rear Naked Choke, which requires threading the arm under the chin, the Short Choke uses the opponent's own lapel or collar as the primary choking mechanism. The attacker feeds the lapel across the throat from the over-arm position, creating a blood choke that compresses both carotid arteries through compact cross-collar pressure applied close to the neck.
+Among gi attacks from back control, this choke earns its high success rate by weaponizing the opponent's own collar rather than threading an arm under the chin as the Rear Naked Choke demands. The attacker feeds the lapel across the throat from the over-arm position of the seat belt, creating a blood choke that compresses both carotid arteries through compact cross-collar pressure applied close to the neck. Because the choking surface is the garment already wrapped around the neck, the finish does not depend on beating the opponent's hands to the throat.
 
 This submission is particularly effective as a secondary threat from back control because it bypasses the most common back defense: tucking the chin and protecting the neck with both hands. When an opponent commits their hands to defending the RNC, their collar becomes accessible, creating the window for the Short Choke entry. The compact grip distance means the choke locks in quickly once the lapel crosses the throat, giving the defender minimal reaction time before arterial compression takes effect.
 
 From the Seat Belt Control Back position, the diagonal over-under grip provides an ideal launching platform. The over-arm naturally positions the hand close to the far collar, requiring minimal adjustment to initiate the choke. The under-arm maintains base control during the grip transition, while deep hooks prevent the explosive escape attempts that the momentary grip change might otherwise allow. This makes the Short Choke a devastating complement to the RNC, forming a two-threat system that forces the defender into an unwinnable positional dilemma.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Back Control/Seat Belt Control Back]]
-**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for confusion lasting 30-60 seconds |
-| Trachea compression if technique is misapplied | Medium | 1-3 days of throat soreness; seek medical attention if breathing difficulty persists |
-| Neck strain from rotational pressure | Low | 2-5 days with rest |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat
-- Any distress signal including body going limp
-
-
-**Release Protocol**:
-1. Immediately release lapel grip and remove all pressure from neck
-2. Remove your weight from opponent's torso to allow breathing
-3. Check partner's consciousness and breathing status
-4. If partner is unconscious, elevate legs and monitor airway
-5. Never apply the choke again in the same training session if unconsciousness occurred
-
-
-**Training Restrictions**:
-- Never apply sudden jerking motions with the lapel
-- Never continue pressure after tap signal
-- Never practice on partners with neck injuries or medical conditions
-- Always ensure partner can tap with at least one hand
-- Never use competition speed during initial learning phases
-
+**Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] · **From**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 </section>
 
@@ -259,38 +236,56 @@ From the Seat Belt Control Back position, the diagonal over-under grip provides 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control/Seat Belt Control Back]] - Starting position providing the seat belt grip framework for this choke
 - [[Positions/Back Control]] - Parent position family from which this submission is executed
-- [[Submissions/Bow and Arrow Choke]] - Alternative gi choke from back control using deeper collar grip mechanics
 - [[Positions/Back Control/Body Triangle]] - Alternative back control configuration that also supports this choke
-- [[Submissions/Cross Collar Choke]] - Related submission sharing collar grip choking mechanics and carotid targeting
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Short Choke from Seat Belt Control Back leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly; potential for confusion lasting 30-60 seconds |
+| Trachea compression if technique is misapplied | Medium | 1-3 days of throat soreness; seek medical attention if breathing difficulty persists |
+| Neck strain from rotational pressure | Low | 2-5 days with rest |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training
+
+**Tap Signals**:
+- Verbal tap or verbal signal
+- Physical hand tap on partner or mat
+- Physical foot tap on mat
+- Any distress signal including body going limp
+
+
+**Release Protocol**:
+1. Immediately release lapel grip and remove all pressure from neck
+2. Remove your weight from opponent's torso to allow breathing
+3. Check partner's consciousness and breathing status
+4. If partner is unconscious, elevate legs and monitor airway
+5. Never apply the choke again in the same training session if unconsciousness occurred
+
+
+**Training Restrictions**:
+- Never apply sudden jerking motions with the lapel
+- Never continue pressure after tap signal
+- Never practice on partners with neck injuries or medical conditions
+- Always ensure partner can tap with at least one hand
+- Never use competition speed during initial learning phases
+
 
 </section>
 

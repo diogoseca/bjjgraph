@@ -34,6 +34,18 @@ description: "Master the Knee Slide from Jailbreak in BJJ. Complete passing guid
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Slide from Jailbreak",
+  "description": "The Knee Slide from Jailbreak is a half-guard pass where the top player threads a diagonally-angled knee through the bottom player's extended-leg Jailbreak configuration to clear the legs and consolidate side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Knee Slide from Jailbreak in BJJ. Complete passing guid
 </div>
 
 <section id="overview" class="content-section">
+
+**The Knee Slide from Jailbreak is a half-guard pass where the top player threads a diagonally-angled knee through the bottom player's extended-leg Jailbreak configuration to clear the legs and consolidate side control.**
 
 The Knee Slide from Jailbreak is a precision guard pass that exploits the extended leg configuration created when the bottom player attempts the Jailbreak escape from half guard. Unlike a standard knee slice where the passer must first contend with knee shields and lockdown entanglements, the Jailbreak position pre-positions the bottom player's legs in an extended configuration that creates natural passing lanes for the knee slide. The top player drives their knee diagonally across the bottom player's thigh line while maintaining heavy crossface pressure, using the gap between the extended legs and torso as the primary passing corridor.
 

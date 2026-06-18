@@ -12,6 +12,7 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
+  "summary": "The Competition Preparation System is a structured multi-phase framework that integrates periodized physical conditioning, mental rehearsal, strategic game planning, weight management, and match-day protocols to peak an athlete's performance for tournament day.",
   "overview": "Competition preparation in Brazilian Jiu-Jitsu extends far beyond technical proficiency. A comprehensive competition preparation system integrates physical conditioning, mental fortitude, strategic game planning, nutritional optimization, and tactical adaptation to create peak performance on competition day. This framework addresses the complete athlete preparation cycle from initial tournament selection through post-competition analysis, ensuring systematic development of competitive skills alongside technical ability. The modern competition landscape demands not only technical excellence but also psychological resilience, strategic adaptability, and intelligent energy management across multiple matches. Champions distinguish themselves through superior preparation methodologies that address physical readiness, mental conditioning, tactical planning, and recovery protocols. This system provides the structured framework necessary to transform training room performance into competition success, bridging the gap between technical knowledge and competitive execution through systematic preparation protocols.",
   "key_principles": [
     "Systematic periodization of training intensity leading to competition peak",
@@ -383,6 +384,48 @@
       "name": "Armbar from Armbar Control",
       "content_type": "Submission",
       "relationship": "Essential offensive armbar completion integrated into competition game plans from multiple positions"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the Competition Preparation System in BJJ?",
+      "answer": "It is a structured multi-phase framework that integrates periodized physical conditioning, mental rehearsal, strategic game planning, weight management, and match-day protocols to peak an athlete's performance for tournament day."
+    },
+    {
+      "question": "How long should a typical competition preparation cycle last?",
+      "answer": "Most cycles run 8-12 weeks, progressing through a base-building phase, an intensification phase, a peak-sharpening phase, and a final taper week before competition day."
+    },
+    {
+      "question": "Why is the taper week critical in competition preparation?",
+      "answer": "Reducing training volume 40-50% while maintaining intensity dissipates accumulated fatigue and supercompensates fitness, so the athlete arrives fresh and technically sharp rather than overtrained on competition day."
+    },
+    {
+      "question": "What does periodization accomplish in a competition prep cycle?",
+      "answer": "Periodization waves training intensity and volume across mesocycles with strategic deloads, progressively building strength and conditioning while managing fatigue so physical readiness peaks precisely on competition day."
+    },
+    {
+      "question": "How should a competitor manage energy across a multi-match tournament?",
+      "answer": "Pace early matches to conserve energy, use between-match recovery protocols like hydration and quick-digesting carbohydrates, and rehearse low-rest competition rounds in training to build tournament-day endurance."
+    },
+    {
+      "question": "What is the danger of aggressive weight cutting before competition?",
+      "answer": "Severe dehydration-rehydration cycles sacrifice strength, endurance, and health for marginal advantages; a gradual 4-6 week reduction or competing near walking weight preserves both performance and safety."
+    },
+    {
+      "question": "Why must a competitor build a game plan with contingencies?",
+      "answer": "A clear primary strategy plus 2-3 backup approaches prevents reactive performance and lets the athlete adapt when an opponent neutralizes the initial plan, keeping the match under proactive tactical control."
+    },
+    {
+      "question": "What role does mental rehearsal play in competition preparation?",
+      "answer": "Daily visualization of successful execution and adversity scenarios builds psychological resilience, ingrains pre-match routines, and regulates arousal so technical skill transfers reliably under competitive pressure."
+    },
+    {
+      "question": "What should post-competition analysis focus on?",
+      "answer": "Reviewing match video within 48 hours to objectively assess technical execution, tactical decision-making, and psychological response, then integrating those lessons into the next preparation cycle."
+    },
+    {
+      "question": "What is a common mistake competitors make in the final week before a tournament?",
+      "answer": "Overtraining to cram last-minute preparation instead of trusting the taper, which accumulates fatigue and degrades performance rather than improving readiness on competition day."
     }
   ]
 }

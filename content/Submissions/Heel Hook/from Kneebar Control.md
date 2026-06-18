@@ -33,10 +33,32 @@ description: "Learn the heel hook from kneebar control in BJJ. Complete guide co
 }
 </script>
 
-> **SAFETY**: Heel Hook from Kneebar Control targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Hook from Kneebar Control",
+  "description": "The Heel Hook from Kneebar Control is a leg-lock transition that converts a defended kneebar into a rotational heel hook, attacking the knee's ACL, MCL, and LCL once the defender bends their knee to escape the straight-line extension.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Heel Hook from Kneebar Control is a leg-lock transition that converts a defended kneebar into a rotational heel hook, attacking the knee's ACL, MCL, and LCL once the defender bends their knee to escape the straight-line extension.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Heel Hook from Kneebar Control targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,60 +75,7 @@ This transition represents a core concept in systematic leg lock play: submissio
 
 The danger level escalates significantly with this transition. Kneebars provide relatively clear proprioceptive feedback, giving defenders time to recognize pressure and tap. Heel hooks attack the ACL, MCL, and LCL with far less warning, as rotational damage to these structures often occurs before the defender perceives pain. This makes the heel hook from kneebar control one of the most dangerous transitions in grappling, demanding strict adherence to safety protocols during training.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity
-**Starting Position**: [[Positions/Kneebar Control]]
-**From Position**: [[Positions/Kneebar Control]] (Bottom)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
-| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
-| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
-| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
-| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force.
-
-**Tap Signals**:
-- Verbal tap (primary signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap with free leg
-- Any distress vocalization
-- Frantic slapping or waving with hands
-- Leg stiffening or immediate defensive reaction
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon any tap signal
-2. Release heel grip completely before releasing leg entanglement
-3. Slowly unwrap leg configuration while maintaining awareness of opponent's joint
-4. Allow opponent to extract their leg at their own pace
-5. Check with training partner about their knee and ankle status
-6. Report any joint discomfort to instructor immediately, even if minor
-
-
-**Training Restrictions**:
-- NEVER apply sudden or explosive rotational force in training
-- NEVER practice at competition speed with training partners
-- NEVER continue pressure if partner's leg begins rotating with the submission
-- Always allow immediate tap access for both hands
-- Only train with partners who have explicit experience with heel hook defense
-- Prohibited for practitioners below brown belt in most traditional academies
-- Never train heel hooks without instructor supervision during initial learning phases
-- Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg
-
+**Starting Position**: [[Positions/Kneebar Control]] · **From**: [[Positions/Kneebar Control]] (Bottom)
 
 </section>
 
@@ -268,39 +237,66 @@ The danger level escalates significantly with this transition. Kneebars provide 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
 - [[Positions/Aoki Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Kneebar Control]] - Starting position for this submission variant providing leg isolation and hip control
 - [[Positions/Ashi Garami/Saddle]] - Alternative leg entanglement offering direct heel hook access from similar configurations
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position with heel hook transition opportunities
 - [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical entanglement accessible during heel hook exchanges from kneebar control
-- [[Transitions/Heel Hook]] - Parent submission family for this position-specific finishing variant
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Heel Hook from Kneebar Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
+| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
+| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
+| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
+| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force.
+
+**Tap Signals**:
+- Verbal tap (primary signal)
+- Physical hand tap on opponent or mat
+- Physical foot tap with free leg
+- Any distress vocalization
+- Frantic slapping or waving with hands
+- Leg stiffening or immediate defensive reaction
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure upon any tap signal
+2. Release heel grip completely before releasing leg entanglement
+3. Slowly unwrap leg configuration while maintaining awareness of opponent's joint
+4. Allow opponent to extract their leg at their own pace
+5. Check with training partner about their knee and ankle status
+6. Report any joint discomfort to instructor immediately, even if minor
+
+
+**Training Restrictions**:
+- NEVER apply sudden or explosive rotational force in training
+- NEVER practice at competition speed with training partners
+- NEVER continue pressure if partner's leg begins rotating with the submission
+- Always allow immediate tap access for both hands
+- Only train with partners who have explicit experience with heel hook defense
+- Prohibited for practitioners below brown belt in most traditional academies
+- Never train heel hooks without instructor supervision during initial learning phases
+- Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg
+
 
 </section>
 

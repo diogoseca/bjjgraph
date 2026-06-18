@@ -34,6 +34,18 @@ description: "Master front headlock position in BJJ. Strategic control position 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Front Headlock",
+  "description": "A head-and-arm control position where you pin a bent-forward opponent's head and neck against your chest, creating simultaneous threats of guillotine, anaconda, and darce chokes alongside back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master front headlock position in BJJ. Strategic control position 
 </div>
 
 <section id="overview" class="content-section">
+
+**A head-and-arm control position where you pin a bent-forward opponent's head and neck against your chest, creating simultaneous threats of guillotine, anaconda, and darce chokes alongside back takes.**
 
 The front headlock is one of the most dominant control positions in Brazilian Jiu-Jitsu, occurring when you secure your opponent's head and neck while they are bent forward, typically on their hands and knees or in a compromised standing position. This position represents a critical junction point in grappling where numerous high-percentage submissions and positional advancements become available.
 
@@ -206,25 +220,25 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (12% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (11% of attempts)
 
-- **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** (11% of attempts)
+- **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** (10% of attempts)
 
-- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (11% of attempts)
+- **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (10% of attempts)
 
-- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (11% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (10% of attempts)
 
-- **[[Transitions/Arm Triangle from Front Headlock/Attacker|Arm Triangle from Front Headlock]]** (6% of attempts)
+- **[[Transitions/Arm Triangle from Front Headlock/Attacker|Arm Triangle from Front Headlock]]** (5% of attempts)
 
-- **[[Transitions/Japanese Necktie Setup/Attacker|Japanese Necktie Setup]]** (7% of attempts)
+- **[[Transitions/Japanese Necktie Setup/Attacker|Japanese Necktie Setup]]** (6% of attempts)
 
-- **[[Transitions/Peruvian Necktie Setup/Attacker|Peruvian Necktie Setup]]** (7% of attempts)
+- **[[Transitions/Peruvian Necktie Setup/Attacker|Peruvian Necktie Setup]]** (6% of attempts)
 
-- **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** (5% of attempts)
+- **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** (4% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (7% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (6% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (5% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (4% of attempts)
 
 - **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (4% of attempts)
 
@@ -236,13 +250,19 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 - **[[Peruvian Necktie from Front Headlock/Attacker|Peruvian Necktie from Front Headlock]]** (2% of attempts)
 
-- **[[Arm in Guillotine from Front Headlock/Attacker|Arm in Guillotine from Front Headlock]]** (1% of attempts)
+- **[[Arm in Guillotine from Front Headlock/Attacker|Arm in Guillotine from Front Headlock]]** (2% of attempts)
 
-- **[[High Elbow Guillotine from Front Headlock/Attacker|High Elbow Guillotine from Front Headlock]]** (1% of attempts)
+- **[[High Elbow Guillotine from Front Headlock/Attacker|High Elbow Guillotine from Front Headlock]]** (2% of attempts)
 
-- **[[Submissions/Japanese Necktie/Attacker|Japanese Necktie]]** (1% of attempts)
+- **[[Submissions/Japanese Necktie/Attacker|Japanese Necktie]]** (2% of attempts)
 
-- **[[Ten Finger Guillotine from Front Headlock/Attacker|Ten Finger Guillotine from Front Headlock]]** (1% of attempts)
+- **[[Ten Finger Guillotine from Front Headlock/Attacker|Ten Finger Guillotine from Front Headlock]]** (2% of attempts)
+
+- **[[Brabo Choke from Front Headlock/Attacker|Brabo Choke from Front Headlock]]** (2% of attempts)
+
+- **[[Chin Strap Guillotine from Front Headlock/Attacker|Chin Strap Guillotine from Front Headlock]]** (2% of attempts)
+
+- **[[Japanese Necktie from Front Headlock/Attacker|Japanese Necktie from Front Headlock]]** (2% of attempts)
 
 
 ### Common Mistakes

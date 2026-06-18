@@ -33,10 +33,32 @@ description: "Master the triangle choke from mounted triangle position. Learn fi
 }
 </script>
 
-> **SAFETY**: Triangle Choke from Mounted Triangle targets the Carotid arteries and brachial plexus. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Choke from Mounted Triangle",
+  "description": "Triangle Choke from Mounted Triangle is a top-position blood choke where the attacker, mounted with one leg over the opponent's shoulder and that arm trapped, squeezes a figure-four lock to compress both carotid arteries until the opponent taps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**Triangle Choke from Mounted Triangle is a top-position blood choke where the attacker, mounted with one leg over the opponent's shoulder and that arm trapped, squeezes a figure-four lock to compress both carotid arteries until the opponent taps.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and brachial plexus</span>
+<span class="meta-chip">65% success</span>
+</div>
+
+> [!danger] Safety
+> Triangle Choke from Mounted Triangle targets the Carotid arteries and brachial plexus. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,53 +75,7 @@ The biomechanics center on compressing both carotid arteries using the legs and 
 
 Strategically, this submission represents the culmination of a mount attack sequence. Reaching mounted triangle typically requires winning several positional battles through mount progression. The high success rate reflects both the mechanical advantage of top-position triangle mechanics and the accumulated fatigue the defender experiences from defending the entire sequence.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and brachial plexus
-**Starting Position**: [[Positions/Mount/Mounted Triangle]]
-**From Position**: [[Positions/Mount/Mounted Triangle]] (Top)
-**Success Rate**: 65%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from blood choke | CRITICAL | Immediate upon release, but potential for injury if held after tap |
-| Neck strain or cervical spine stress | Medium | 3-7 days with rest |
-| Brachial plexus compression (temporary arm numbness) | Low | Minutes to hours |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to tap. NEVER spike or jerk the finish.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress sound)
-- Physical hand tap (multiple taps on body or mat)
-- Physical foot tap (if hands trapped)
-- Any loss of resistance or going limp
-
-
-**Release Protocol**:
-1. Immediately open legs and release triangle configuration
-2. Remove shin from neck and lower legs to mat
-3. Release arm trap and create space
-4. Check partner's consciousness and breathing
-5. If unconscious, place in recovery position and alert instructor
-
-
-**Training Restrictions**:
-- NEVER hold triangle after tap or loss of consciousness
-- NEVER use competition finishing speed in training
-- Always ensure partner has clear tap access with at least one hand
-- Release immediately upon any tap signal
-- Monitor partner's color and breathing throughout
-- Practice finishing mechanics on cooperative partners first
-
+**Starting Position**: [[Positions/Mount/Mounted Triangle]] · **From**: [[Positions/Mount/Mounted Triangle]] (Top)
 
 </section>
 
@@ -259,23 +235,15 @@ Strategically, this submission represents the culmination of a mount attack sequ
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Triangle Choke]]
-- [[Submissions/Triangle Choke]]
-- [[Submissions/Mounted Crucifix Armbar]]
+- [[Submissions/Armbar]]
 - [[Transitions/Gogoplata]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Transitions/Inverted Triangle]]
+- [[Submissions/Cross Collar Choke]]
 - [[Positions/Mount/Mounted Triangle]] - Starting position for this submission variant
 - [[Positions/Mount/High Mount]] - Primary entry position leading to mounted triangle setup
 - [[Positions/Triangle Control]] - Related triangle position with similar choking mechanics from guard
@@ -283,16 +251,46 @@ Strategically, this submission represents the culmination of a mount attack sequ
 - [[Positions/Mount/S Mount]] - Alternative mount configuration that enables triangle entry
 - [[Positions/Closed Guard]] - Common position reached when defender successfully counters the submission
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Triangle Choke from Mounted Triangle leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from blood choke | CRITICAL | Immediate upon release, but potential for injury if held after tap |
+| Neck strain or cervical spine stress | Medium | 3-7 days with rest |
+| Brachial plexus compression (temporary arm numbness) | Low | Minutes to hours |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to tap. NEVER spike or jerk the finish.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress sound)
+- Physical hand tap (multiple taps on body or mat)
+- Physical foot tap (if hands trapped)
+- Any loss of resistance or going limp
+
+
+**Release Protocol**:
+1. Immediately open legs and release triangle configuration
+2. Remove shin from neck and lower legs to mat
+3. Release arm trap and create space
+4. Check partner's consciousness and breathing
+5. If unconscious, place in recovery position and alert instructor
+
+
+**Training Restrictions**:
+- NEVER hold triangle after tap or loss of consciousness
+- NEVER use competition finishing speed in training
+- Always ensure partner has clear tap access with at least one hand
+- Release immediately upon any tap signal
+- Monitor partner's color and breathing throughout
+- Practice finishing mechanics on cooperative partners first
+
 
 </section>
 

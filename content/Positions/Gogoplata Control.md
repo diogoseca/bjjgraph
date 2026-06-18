@@ -34,6 +34,18 @@ description: "Master gogoplata control in BJJ. Complete technical guide covering
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gogoplata Control",
+  "description": "Gogoplata Control is a submission-control hybrid where the bottom player presses a shin across the opponent's throat while hooking that same foot behind their head, simultaneously controlling and choking from rubber guard or high-guard positions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master gogoplata control in BJJ. Complete technical guide covering
 </div>
 
 <section id="overview" class="content-section">
+
+**Gogoplata Control is a submission-control hybrid where the bottom player presses a shin across the opponent's throat while hooking that same foot behind their head, simultaneously controlling and choking from rubber guard or high-guard positions.**
 
 Gogoplata Control represents one of Brazilian Jiu-Jitsu's most technically demanding and strategically unique control positions. This position establishes a shin-across-throat configuration that creates both a controlling position and an immediate submission threat simultaneously. Unlike traditional control positions that prioritize stability before submission attacks, Gogoplata Control merges these concepts into a single unified state where the controlling mechanics are inseparable from the finishing mechanics.
 
@@ -202,27 +216,29 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Transitions/Head Extraction to Posture/Attacker|Head Extraction to Posture]]** (32% of attempts)
+- **[[Transitions/Head Extraction to Posture/Attacker|Head Extraction to Posture]]** (29% of attempts)
 
 - **[[Transitions/Shin Removal to Pass/Attacker|Shin Removal to Pass]]** (3% of attempts)
 
 - **[[Transitions/Leg Extraction Escape/Attacker|Leg Extraction Escape]]** (3% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (8% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (7% of attempts)
 
-- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (13% of attempts)
+- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (12% of attempts)
 
-- **[[Transitions/Hand Control to Extract/Attacker|Hand Control to Extract]]** (10% of attempts)
+- **[[Transitions/Hand Control to Extract/Attacker|Hand Control to Extract]]** (9% of attempts)
 
-- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (13% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (12% of attempts)
 
-- **[[Transitions/Explosive Bridge to Guard Recovery/Attacker|Explosive Bridge to Guard Recovery]]** (6% of attempts)
+- **[[Transitions/Explosive Bridge to Guard Recovery/Attacker|Explosive Bridge to Guard Recovery]]** (5% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (10% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (9% of attempts)
 
-- **[[Transitions/Gogoplata to Armbar/Attacker|Gogoplata to Armbar]]** (1% of attempts)
+- **[[Transitions/Gogoplata to Armbar/Attacker|Gogoplata to Armbar]]** (2% of attempts)
 
-- **[[Transitions/Posture Up from Gogoplata/Attacker|Posture Up from Gogoplata]]** (1% of attempts)
+- **[[Transitions/Posture Up from Gogoplata/Attacker|Posture Up from Gogoplata]]** (2% of attempts)
+
+- **[[Gogoplata from Gogoplata Control/Attacker|Gogoplata from Gogoplata Control]]** (7% of attempts)
 
 
 ### Common Mistakes

@@ -1,5 +1,6 @@
 {
   "name": "Back Control to Reverse Half Guard",
+  "summary": "Back Control to Reverse Half Guard is a backstep transition where the back attacker, facing cleared hooks, threads their free leg between the opponent's legs to convert deteriorating back control into a dominant reverse half guard top position.",
   "description": "Master the transition from back control to reverse half guard in BJJ. Learn how to retain offensive advantage when hooks are cleared using backstep techniques.",
   "tags": [
     "bjj",
@@ -74,8 +75,8 @@
       "relationship": "Intermediate position that can be used during the backstep conversion"
     },
     {
-      "name": "Leg Drag Pass",
-      "relationship": "Primary follow-up passing technique from reverse half guard top"
+      "name": "Leg Drag Control",
+      "relationship": "Primary follow-up passing control from reverse half guard top"
     },
     {
       "name": "Back Control Maintenance",

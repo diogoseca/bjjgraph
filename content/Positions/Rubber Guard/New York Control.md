@@ -34,6 +34,18 @@ description: "Master New York Control in BJJ. Strategic rubber guard position co
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "New York Control",
+  "description": "New York Control is an advanced 10th Planet rubber guard position where the bottom player wraps one leg over the opponent's shoulder and locks a deep overhook, shutting down passes while threatening triangle, omoplata, and gogoplata finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master New York Control in BJJ. Strategic rubber guard position co
 </div>
 
 <section id="overview" class="content-section">
+
+**New York Control is an advanced 10th Planet rubber guard position where the bottom player wraps one leg over the opponent's shoulder and locks a deep overhook, shutting down passes while threatening triangle, omoplata, and gogoplata finishes.**
 
 New York Control represents one of the most technically sophisticated positions within the 10th Planet Rubber Guard system, requiring exceptional hip and shoulder flexibility while offering numerous high-percentage submission opportunities. This position emerges when the bottom practitioner achieves a high guard configuration with one leg controlling the opponent's posture while the opposite arm maintains an overhook, creating a controlling web that simultaneously defends against passing attempts while setting up devastating attacks.
 

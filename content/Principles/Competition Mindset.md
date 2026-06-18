@@ -143,6 +143,16 @@ description: "Master psychological preparation and mental skills for peak compet
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Competition Mindset",
+  "description": "Competition Mindset is the trained psychological state—arousal regulation, process-focused attention, and constructive adversity response—that lets a competitor reliably access their full technical and physical preparation under the stress and uncertainty of live competition.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master psychological preparation and mental skills for peak compet
 
 ## What is Competition Mindset?
 
-Competition Mindset represents the psychological state, cognitive patterns, and emotional regulation capabilities that enable optimal performance under the stress, uncertainty, and pressure inherent in competitive Brazilian Jiu-Jitsu environments. Unlike technical knowledge or physical preparation, competition mindset is the mental framework that determines how effectively athletes access their training, make tactical decisions under stress, regulate arousal levels appropriately, and respond to adversity during competition. This concept encompasses the psychological preparation, mental skills training, and strategic approach to cultivating the cognitive and emotional state that maximizes competitive performance. Competition mindset serves as both an enabling factor that allows technical and physical preparation to manifest fully under pressure, and a competitive advantage that compounds as opponents succumb to psychological pressures and performance anxiety. The ability to maintain optimal mental state throughout competitions often determines outcomes when technical and physical preparation levels are similar, making psychological preparation one of the most essential yet frequently neglected elements of competition readiness.
+**Competition Mindset is the trained psychological state—arousal regulation, process-focused attention, and constructive adversity response—that lets a competitor reliably access their full technical and physical preparation under the stress and uncertainty of live competition.**
+
+Of the three pillars of competitive readiness—technical, physical, and mental—the psychological dimension is the most frequently neglected, yet it is often the deciding factor between athletes whose skills are otherwise evenly matched. Unlike technical knowledge or physical preparation, competition mindset is the mental framework that determines how effectively athletes access their training, make tactical decisions under stress, regulate arousal levels appropriately, and respond to adversity during competition. This concept encompasses the psychological preparation, mental skills training, and strategic approach to cultivating the cognitive and emotional state that maximizes competitive performance. Competition mindset serves as both an enabling factor that allows technical and physical preparation to manifest fully under pressure, and a competitive advantage that compounds as opponents succumb to psychological pressures and performance anxiety. The ability to maintain optimal mental state throughout competitions often determines outcomes when technical and physical preparation levels are similar, making psychological preparation one of the most essential yet frequently neglected elements of competition readiness.
 
 </section>
 

@@ -34,6 +34,18 @@ description: "Master the sweep from saddle bottom in BJJ. Use leg entanglement l
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Saddle",
+  "description": "The Sweep from Saddle is a high-risk reversal from the bottom of the saddle leg entanglement, using a coordinated bridge and rotation against the top player's compromised base to roll them over and emerge in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the sweep from saddle bottom in BJJ. Use leg entanglement l
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sweep from Saddle is a high-risk reversal from the bottom of the saddle leg entanglement, using a coordinated bridge and rotation against the top player's compromised base to roll them over and emerge in side control.**
 
 The Sweep from Saddle represents one of the highest-risk, highest-reward defensive options available when trapped in the saddle leg entanglement. Rather than attempting traditional escapes that focus on leg extraction and guard recovery, this technique weaponizes the entanglement itself, using the structural connection between both players as a lever to reverse position. The sweep exploits moments when the top player's weight distribution becomes compromised—typically during submission attempts, grip transitions, or positional adjustments—to generate rotational force that rolls the opponent and allows the bottom player to emerge in a dominant top position.
 

@@ -15,7 +15,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Low",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Wedges are one of the oldest mechanical principles in human toolmaking, and they appear everywhere in Brazilian Jiu-Jitsu. A wedge is any body part inserted into a gap to pry space open, redirect force along a new vector, or block an opponent's movement path. The knee shield in half guard is a wedge. The elbow driven inside an opponent's thigh during a guard pass is a wedge. The shin inserted across an opponent's hip line to retain guard is a wedge. Every time you slide a forearm under a chin, post a knee between entangled legs, or drive an elbow into the crease of someone's hip, you are applying wedge mechanics.\n\nWhat separates a wedge from a simple frame or post is its direction of action. A frame resists force head-on. A wedge splits force apart or redirects it laterally. When you insert your knee shield in half guard, you are not simply blocking your opponent's chest — you are angling their pressure away from your centerline and creating a channel of space along which you can hip escape or re-guard. When a passer drives a knee inside the bottom player's thigh, the wedge separates the legs and opens a passing lane. Wedges work because they convert a single line of force into two diverging lines, and the opponent can only chase one.\n\nDeveloping wedge awareness means learning to feel for gaps — the tiny spaces between your body and your opponent's where a knee, shin, elbow, or forearm can be inserted before the opponent closes them. Speed of insertion matters as much as placement, because gaps in grappling are transient. The practitioner who consistently finds and fills these gaps with well-angled wedges controls the geometry of the exchange, dictating where force travels and where space exists.",
+  "summary": "A wedge is any hard body part — knee, shin, elbow, or forearm — inserted into a gap to pry space open, redirect force along a new vector, or block an opponent's movement path.",
+  "overview": "Wedges are one of the oldest mechanical principles in human toolmaking, and they appear everywhere in Brazilian Jiu-Jitsu. The knee shield in half guard is a wedge. The elbow driven inside an opponent's thigh during a guard pass is a wedge. The shin inserted across an opponent's hip line to retain guard is a wedge. Every time you slide a forearm under a chin, post a knee between entangled legs, or drive an elbow into the crease of someone's hip, you are applying wedge mechanics.\n\nWhat separates a wedge from a simple frame or post is its direction of action. A frame resists force head-on. A wedge splits force apart or redirects it laterally. When you insert your knee shield in half guard, you are not simply blocking your opponent's chest — you are angling their pressure away from your centerline and creating a channel of space along which you can hip escape or re-guard. When a passer drives a knee inside the bottom player's thigh, the wedge separates the legs and opens a passing lane. Wedges work because they convert a single line of force into two diverging lines, and the opponent can only chase one.\n\nDeveloping wedge awareness means learning to feel for gaps — the tiny spaces between your body and your opponent's where a knee, shin, elbow, or forearm can be inserted before the opponent closes them. Speed of insertion matters as much as placement, because gaps in grappling are transient. The practitioner who consistently finds and fills these gaps with well-angled wedges controls the geometry of the exchange, dictating where force travels and where space exists.",
   "key_principles": [
     "Insert the wedge into the gap before the opponent can close it — timing is critical",
     "Angle the wedge to redirect force laterally rather than opposing it directly",
@@ -383,6 +384,40 @@
       "name": "Elbow Escape to Guard",
       "content_type": "Transition",
       "relationship": "Classic escape that relies on inserting an elbow wedge inside the opponent's thigh to create the initial space"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What distinguishes a wedge from a frame in BJJ?",
+      "answer": "A frame resists force head-on, absorbing or blocking it, while a wedge is angled to split a single line of force into two diverging vectors or redirect it laterally, so the opponent can only chase one direction at a time."
+    },
+    {
+      "question": "Why should a wedge be built from bony surfaces like the shin, forearm, or elbow?",
+      "answer": "Bony, hard surfaces resist compression and hold their shape under heavy pressure, whereas soft tissue such as the calf belly or palm deforms and collapses, leaving no structural barrier to split or redirect the opponent's force."
+    },
+    {
+      "question": "What is the most iconic wedge in BJJ and how does it work?",
+      "answer": "The knee shield in half guard — the shin placed diagonally across the opponent's chest at roughly 45 degrees redirects their forward pressure laterally toward the mat and opens a channel of space to hip escape or re-guard."
+    },
+    {
+      "question": "Why must a wedge insertion be followed immediately by hip movement?",
+      "answer": "A wedge only creates transient space; without a hip escape, shrimp, or reposition to convert that space into positional change, the opponent simply re-adjusts and closes the gap, so the wedge buys time but achieves nothing."
+    },
+    {
+      "question": "At what angle should a wedge be inserted relative to the opponent's pressure?",
+      "answer": "Perpendicular to the opponent's primary pressure or movement line, so the single line of force is split into two weaker diverging vectors rather than absorbed head-on, which would compress the wedge and smash it flat."
+    },
+    {
+      "question": "How do guard passers use offensive wedges?",
+      "answer": "Passers drive the knee inside the bottom player's thigh or the elbow against the knee line to split the legs apart and pry open a passing lane, converting the guard player's connected structure into separated, passable halves."
+    },
+    {
+      "question": "Why does inserting a wedge too late usually fail?",
+      "answer": "Gaps in grappling are transient; once the opponent settles and consolidates their weight the space disappears, so forcing a wedge in afterward requires enormous strength, typically fails, and drains energy for no result."
+    },
+    {
+      "question": "How do you defend against an opponent's wedge insertions when holding a pin?",
+      "answer": "Keep your hips low, pinch the elbows and knees, and proactively eliminate gaps before they form; the moment you feel a knee, shin, or elbow probing for space, close the gap by adjusting your pressure angle or squeezing it shut."
     }
   ]
 }

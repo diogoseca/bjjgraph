@@ -34,6 +34,18 @@ description: "Master the Russian Cowboy to Back Control transition. Learn to con
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Russian Cowboy to Back Control",
+  "description": "Russian Cowboy to Back Control is a positional transition where the top player threads their free leg across the opponent's body to insert a second hook, upgrading asymmetric single-hook control into full four-point back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Russian Cowboy to Back Control transition. Learn to con
 </div>
 
 <section id="overview" class="content-section">
+
+**Russian Cowboy to Back Control is a positional transition where the top player threads their free leg across the opponent's body to insert a second hook, upgrading asymmetric single-hook control into full four-point back control.**
 
 The Russian Cowboy to Back Control transition converts the asymmetric single-hook back control into fully established back control with both hooks engaged. This positional upgrade is among the most valuable progressions available from Russian Cowboy, as full back control provides four competition points, superior submission access through rear naked choke and bow and arrow attacks, and dramatically improved positional retention compared to the single-hook variant.
 

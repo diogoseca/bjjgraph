@@ -14,6 +14,7 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
+  "summary": "Control Point Hierarchy is the ranking of grips, frames, and contact points within a position by how much positional dominance and submission access each provides, telling you which controls to prioritize, upgrade, and defend.",
   "overview": "Control Point Hierarchy is a systematic framework for understanding and applying positional dominance in Brazilian Jiu-Jitsu. This concept organizes the progression of control from minimal contact to complete submission control, providing practitioners with a clear roadmap for advancing position and maintaining dominance. The hierarchy recognizes that certain control points provide greater positional advantage and submission opportunities than others, allowing practitioners to prioritize their efforts and make strategic decisions during live rolling and competition.\n\nThe fundamental principle underlying Control Point Hierarchy is that not all control points are created equal. A practitioner who controls the opponent's head and one arm from side control has significantly more control than one who merely has chest-to-chest pressure. By understanding which control points matter most in each position, practitioners can efficiently advance their position while preventing opponents from escaping or countering. This systematic approach transforms grappling from random scrambling into intelligent, progressive control.\n\nMastery of Control Point Hierarchy requires understanding both the offensive and defensive implications of each control point. Offensively, practitioners learn to recognize which control points unlock specific attacks and position advancements. Defensively, they understand which control points must be defended at all costs to prevent submission or positional advancement. This dual understanding creates a chess-like approach to grappling where every grip, frame, and position has strategic significance within the broader hierarchy of control.",
   "key_principles": [
     "Control points have hierarchical value - certain grips and positions provide exponentially more control than others",
@@ -87,9 +88,9 @@
       "description": "From the defensive perspective, Frames represents the inverse of Control Point Hierarchy, focusing on building structural barriers to prevent opponent control point acquisition"
     },
     {
-      "principle_name": "Submission Chains",
+      "principle_name": "Position Chains",
       "relationship_type": "Advanced form",
-      "description": "Submission Chains represent the culmination of Control Point Hierarchy where sufficient control points have been acquired to safely attempt and link finishing techniques in sequence"
+      "description": "Position Chains represent the culmination of Control Point Hierarchy where sufficient control points have been acquired to safely link finishing techniques and positional advances in sequence"
     },
     {
       "principle_name": "Defensive Concepts",
@@ -97,9 +98,9 @@
       "description": "Defensive Concepts from bottom positions apply hierarchical understanding to prevent opponent's control point acquisition during guard passing and top pressure attempts"
     },
     {
-      "principle_name": "Transition Management",
+      "principle_name": "Inside Position",
       "relationship_type": "Extension",
-      "description": "Transition Management governs how practitioners move between positions while maintaining established control points identified by the hierarchy"
+      "description": "Inside Position governs the grip and angle battle that establishes and maintains the control points identified by the hierarchy as high-value"
     },
     {
       "principle_name": "Base",
@@ -137,8 +138,8 @@
       "how_applied": "Half guard hierarchy prioritizes underhook control as the highest value, followed by head control or whizzer defense. The underhook represents the gateway to sweeps and back takes, making it the primary control point objective."
     },
     {
-      "context": "Turtle",
-      "how_applied": "When attacking turtle, hierarchy prioritizes seatbelt control or far arm control, then transitions to back control or front headlock. Each control point represents progressive dominance and submission opportunity escalation."
+      "context": "Front Headlock",
+      "how_applied": "When attacking turtle via the front headlock, hierarchy prioritizes seatbelt control or far arm control, then transitions to back control or chin-strap. Each control point represents progressive dominance and submission opportunity escalation."
     },
     {
       "context": "Technical Mount",
@@ -149,8 +150,8 @@
       "how_applied": "Crucifix represents near-perfect control point hierarchy execution with both arms controlled and back control established. This position illustrates the apex of hierarchical control where submissions become extremely high percentage."
     },
     {
-      "context": "S Mount",
-      "how_applied": "S-mount hierarchy prioritizes the trapped near arm, then transitions to head control for armbar finishing. The position demonstrates how upgrading from standard mount to S-mount represents hierarchical advancement."
+      "context": "3-4 Mount",
+      "how_applied": "S-mount style hierarchy prioritizes the trapped near arm, then transitions to head control for armbar finishing. The position demonstrates how upgrading from standard mount to a leg-over configuration represents hierarchical advancement."
     },
     {
       "context": "Kesa Gatame",
@@ -161,11 +162,11 @@
       "how_applied": "From deep half guard bottom, the hierarchy prioritizes securing the lockdown or outside leg hook, then establishing shoulder control or underhook to enable sweeps and back takes from this unconventional position."
     },
     {
-      "context": "X-Guard",
-      "how_applied": "X-guard hierarchy focuses on establishing both hooks on the same leg, then controlling opponent's sleeve or collar to break posture. This creates the control density needed for powerful sweeps and transitions."
+      "context": "Reverse X-Guard",
+      "how_applied": "X-guard style hierarchy focuses on establishing both hooks controlling the opponent's leg and hip, then controlling the sleeve or collar to break posture. This creates the control density needed for powerful sweeps and transitions."
     },
     {
-      "context": "Ashi Garami",
+      "context": "Inside Ashi-Garami",
       "how_applied": "Ashi garami positions prioritize controlling the trapped leg at multiple points (ankle, knee, hip), then establishing upper body control through grips. The hierarchical leg control enables leg lock attacks while preventing escapes."
     }
   ],
@@ -350,9 +351,9 @@
       "relationship": "Highest-value position where seatbelt, hooks, and head control hierarchy determines submission success"
     },
     {
-      "name": "Side Control",
+      "name": "North-South",
       "content_type": "Position",
-      "relationship": "Common position demonstrating hierarchy from chest pressure to crossface to head and arm control"
+      "relationship": "Top position demonstrating hierarchy from shoulder pressure to head control to arm and kimura control"
     },
     {
       "name": "Pressure",
@@ -365,9 +366,9 @@
       "relationship": "Defensive inverse of control point hierarchy focused on building structural barriers to prevent opponent's control acquisition"
     },
     {
-      "name": "Submission Chains",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Advanced application where sufficient control point acquisition enables safe chaining of finishing techniques in sequence"
+      "relationship": "Advanced application where sufficient control point acquisition enables safe chaining of finishing and positional advances in sequence"
     },
     {
       "name": "Half Guard",
@@ -380,9 +381,51 @@
       "relationship": "Exemplifies maximum control point density with both arms and back simultaneously controlled"
     },
     {
-      "name": "Transition Management",
+      "name": "Inside Position",
       "content_type": "Principle",
-      "relationship": "Governs how practitioners move between positions while maintaining established control points"
+      "relationship": "Governs the grip and angle battle that establishes the control points the hierarchy ranks as high-value"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the Control Point Hierarchy in BJJ?",
+      "answer": "It is the ranking of grips, frames, and contact points within a position by how much positional dominance and submission access each provides, guiding which controls to prioritize, upgrade, and defend."
+    },
+    {
+      "question": "Why is head control usually the highest-value control point?",
+      "answer": "Controlling the head dictates where the opponent's spine and hips can follow, killing their ability to face you, create angle, or escape, which is why it typically precedes submission attempts across positions."
+    },
+    {
+      "question": "What is control density and why does it matter?",
+      "answer": "Control density is concentrating multiple control points on few body parts (head and one arm) rather than dispersing grips; concentrated control creates compound dominance that resists escape far better than scattered contact."
+    },
+    {
+      "question": "How does the hierarchy invert when you are on bottom or defending?",
+      "answer": "Defensively you prioritize preventing the opponent's highest-value controls first, blocking the crossface and denying underhooks, conceding low-value contact rather than spending energy on grips that do not threaten you."
+    },
+    {
+      "question": "What is the correct sequence for upgrading control in side control?",
+      "answer": "Establish chest-to-chest pressure and hip connection, secure head control via crossface or underhook, then isolate the far arm; each step removes escape routes before opening submissions."
+    },
+    {
+      "question": "Why do premature submission attempts fail under this framework?",
+      "answer": "Submissions attempted before sufficient control density let the opponent defend or escape because the foundational controls are inadequate, often forfeiting the dominant position entirely."
+    },
+    {
+      "question": "In half guard, which control point sits at the top of the hierarchy for the bottom player?",
+      "answer": "The underhook is the apex control for bottom half guard because it is the gateway to sweeps and back takes; securing it precedes most offensive options from the position."
+    },
+    {
+      "question": "What common error involves contested versus established control?",
+      "answer": "Advancing to the next control level while the current control is still contested, rather than consolidating it first, lets the opponent break free or reverse position during the transition."
+    },
+    {
+      "question": "How should you respond when an opponent strongly defends your primary control objective?",
+      "answer": "Recognize which alternative high-value control points their defensive commitment opens, and use feints to redirect toward the now-available control rather than forcing the contested one."
+    },
+    {
+      "question": "What distinguishes Control Point Hierarchy from Positional Hierarchy?",
+      "answer": "Positional Hierarchy ranks the positions themselves, while Control Point Hierarchy governs dominance within a single position by ranking the grips and contacts available there."
     }
   ]
 }

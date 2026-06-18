@@ -34,6 +34,18 @@ description: "Master the Stack Pass from Meathook in BJJ. Complete guide to esca
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Pass from Meathook",
+  "description": "The Stack Pass from Meathook is an aggressive guard pass where the trapped top player drives forward to fold the opponent's hips over their shoulders, collapsing the Rubber Guard shin hook to free the isolated arm and pass to half guard or side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Stack Pass from Meathook in BJJ. Complete guide to esca
 </div>
 
 <section id="overview" class="content-section">
+
+**The Stack Pass from Meathook is an aggressive guard pass where the trapped top player drives forward to fold the opponent's hips over their shoulders, collapsing the Rubber Guard shin hook to free the isolated arm and pass to half guard or side control.**
 
 The Stack Pass from Meathook is a pressure-based guard passing technique used by the top player to escape the dangerous Rubber Guard Meathook position. When trapped in Meathook with one arm isolated by the opponent's shin hook, the top player drives forward aggressively, stacking the bottom player's hips over their shoulders. This forward compression folds the bottom player's body, reducing the mechanical advantage of their flexible guard structure and creating the space needed for arm extraction and pass completion.
 

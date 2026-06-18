@@ -34,6 +34,18 @@ description: "Master the reversal from triangle escape position in BJJ. Learn st
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reversal from Triangle Escape",
+  "description": "The Reversal from Triangle Escape is a transition where the grappler defending a triangle choke redirects stacking pressure into a lateral guard pass, clearing the legs to land directly in side control instead of returning to neutral.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the reversal from triangle escape position in BJJ. Learn st
 
 <section id="overview" class="content-section">
 
-The Reversal from Triangle Escape converts the defensive mechanics of a triangle escape into an offensive guard pass, landing directly in side control rather than merely returning to a neutral position. This technique capitalizes on the structural changes created during the stacking escape process. As the triangle holder's legs lose integrity and their hips are compressed toward their shoulders, a critical window opens where the escaping practitioner can redirect energy from extraction into a lateral passing movement. The key insight is that the partially dismantled triangle creates a transitional state where the opponent's guard recovery is compromised by the position of their own legs, making the pass significantly easier than a standard guard pass attempt.
+**The Reversal from Triangle Escape is a transition where the grappler defending a triangle choke redirects stacking pressure into a lateral guard pass, clearing the legs to land directly in side control instead of returning to neutral.**
+
+Where most triangle defense concludes with the escaping player disengaging back to a neutral guard, this reversal treats the escape itself as the entry to an offensive pass, landing directly in side control rather than merely surviving. This technique capitalizes on the structural changes created during the stacking escape process. As the triangle holder's legs lose integrity and their hips are compressed toward their shoulders, a critical window opens where the escaping practitioner can redirect energy from extraction into a lateral passing movement. The key insight is that the partially dismantled triangle creates a transitional state where the opponent's guard recovery is compromised by the position of their own legs, making the pass significantly easier than a standard guard pass attempt.
 
 Execution demands precise timing and commitment. The practitioner must recognize when the triangle structure has been sufficiently weakened through stacking pressure, then initiate a circular stepping pattern toward the trapped arm side while maintaining unbroken forward pressure. The arm extraction and lateral pass happen as one continuous movement. Any pause between phases allows the opponent to re-establish guard, re-lock the triangle, or transition to alternative attacks such as armbar or omoplata. The most successful practitioners treat the entire sequence from initial stack through side control establishment as a single technique rather than a chain of separate actions.
 

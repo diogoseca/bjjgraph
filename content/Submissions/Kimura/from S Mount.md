@@ -33,10 +33,32 @@ description: "Master the Kimura shoulder lock from S Mount in BJJ. Complete fini
 }
 </script>
 
-> **SAFETY**: Kimura from S Mount targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from S Mount",
+  "description": "The Kimura from S Mount is a figure-four shoulder lock that isolates the opponent's near arm when they bend it to defend the armbar, rotating the wrist toward their lower back to crank the shoulder past its safe range.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from S Mount is a figure-four shoulder lock that isolates the opponent's near arm when they bend it to defend the armbar, rotating the wrist toward their lower back to crank the shoulder past its safe range.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from S Mount targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,54 +75,7 @@ What makes this variation particularly effective is the control infrastructure a
 
 This submission chains naturally with the armbar from S Mount, creating a powerful dilemma for the defender. When the opponent bends their arm to defend the armbar, they expose themselves to the Kimura. When they straighten to defend the Kimura, they feed the armbar. This attack-counterattack dynamic makes S Mount one of the most submission-rich positions in modern grappling, and the Kimura is a critical weapon in the S Mount submission arsenal that every serious practitioner must understand from both sides.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Mount/S Mount]]
-**From Position**: [[Positions/Mount/S Mount]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
-| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
-| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
-| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position by externally rotating back to starting position
-3. Release the figure-four grip completely and allow partner to self-assess shoulder mobility
-4. Never release suddenly or allow arm to spring back forcefully
-5. Allow partner adequate recovery time before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+**Starting Position**: [[Positions/Mount/S Mount]] · **From**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
 
@@ -262,39 +237,61 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Gift Wrap Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/S Mount]] - Primary starting position for this submission variant
 - [[Positions/Mount]] - Entry position from which S Mount is established before attacking
 - [[Positions/Kimura Trap]] - Related control position using Kimura grip mechanics
 - [[Positions/Armbar Control]] - Alternative submission control commonly chained from S Mount
 - [[Positions/Mount/High Mount]] - Adjacent position that can transition to similar Kimura setups
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kimura from S Mount leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
+| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
+| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
+| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making any verbal distress sound)
+- Physical hand tap (multiple taps with free hand)
+- Physical foot tap (multiple taps with either foot)
+- Any distress signal including screaming or unusual sounds
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant tap is felt or heard
+2. Return the arm toward neutral position by externally rotating back to starting position
+3. Release the figure-four grip completely and allow partner to self-assess shoulder mobility
+4. Never release suddenly or allow arm to spring back forcefully
+5. Allow partner adequate recovery time before continuing training
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled
+- Never use competition speed or surprise attacks in training
+- Always ensure partner has at least one hand free to tap
+- Do not apply while partner is in awkward body position that prevents tapping
+- Never combine with weight pressure that restricts breathing while finishing
+- Respect immediate taps without testing partner's pain tolerance
+
 
 </section>
 

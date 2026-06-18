@@ -11,6 +11,7 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Advanced",
+  "summary": "The Modern No-Gi Passing System is a pressure-and-connection framework for defeating contemporary gripless guards, using headquarters control, systematic connection breaking, and dynamic floating passes to advance safely past the legs to dominant position.",
   "overview": "The Modern No-Gi Passing System represents the evolution of guard passing for contemporary grappling, addressing the unique challenges of passing without gi grips. This comprehensive framework integrates pressure-based control, dynamic floating passes, and leg entanglement awareness to systematically defeat modern guard structures including butterfly, half guard, and leg-based guards. The system emphasizes connection breaking, hip pressure application, and transitional fluidity rather than static gripping strategies.\n\nUnlike traditional gi-based passing, this system prioritizes body positioning, weight distribution, and constant forward pressure to nullify the mobility advantages of no-gi guard players. The framework incorporates headquarters position as a central hub, allowing the passer to systematically break down defensive structures while maintaining offensive initiative. Each passing sequence includes both finishing mechanics and recovery protocols when opponents create scrambles or re-guard attempts.\n\nThe system's effectiveness stems from its adaptability to different guard types and body types, with specific solutions for common defensive reactions. By mastering this framework, practitioners develop the ability to maintain consistent passing pressure while reading and exploiting defensive patterns in real-time, making it essential for competitive no-gi grappling.",
   "key_principles": [
     "Maintain constant forward pressure and connection control",
@@ -342,6 +343,40 @@
       "name": "Bernardo Faria Pressure System",
       "content_type": "System",
       "relationship": "Complementary pressure-based approach with applicable passing concepts"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the role of the headquarters position in the Modern No-Gi Passing System?",
+      "answer": "Headquarters is the central control hub where the passer pins one or both legs, establishes posture, and dictates distance before launching coordinated passing chains such as knee slice and leg drag."
+    },
+    {
+      "question": "Why does no-gi passing rely on connection breaking rather than grip stripping?",
+      "answer": "Without gi grips, guard players retain using underhooks, frames, and leg entanglements; systematically breaking these connections through hand fighting and pressure angles is what creates the space needed to advance and pass."
+    },
+    {
+      "question": "How should you safely approach leg-based guards like ashi garami or 50-50?",
+      "answer": "Recognize the entanglement early, control your trapped foot's knee line and posture, clear the legs with specific mechanics rather than yanking, and protect your heel while keeping forward passing pressure."
+    },
+    {
+      "question": "What distinguishes a floating pass from a pure pressure pass?",
+      "answer": "A floating pass uses constant movement, timing, and angle changes (bodylock, long-step, headquarters shifts) to bypass retention during transition windows, whereas a pressure pass collapses the guard with weight distribution and hip pressure."
+    },
+    {
+      "question": "What common mistake exposes a passer to guillotines or back takes?",
+      "answer": "Passing with broken posture and the head dropped forward over the opponent; keeping the head up, chin tucked, and hips driving forward prevents the neck exposure that invites guillotines and back takes."
+    },
+    {
+      "question": "How do you prevent an opponent from re-guarding after a partial pass?",
+      "answer": "Maintain connection control through the transition, occupy the inside space, and proactively shut down framing and knee-insertion pathways before the opponent can create the space needed to recover guard."
+    },
+    {
+      "question": "Which finishing positions confirm a successful pass in this system?",
+      "answer": "Reaching side control, knee on belly, mount, or back control confirms a completed pass, since the goal is to convert headquarters and floating entries into a stable dominant position past the legs."
+    },
+    {
+      "question": "Why is chaining passes more effective than committing to a single technique?",
+      "answer": "Skilled guard players defend the first attempt, so chaining knee slice to leg drag to bodylock based on their reactions keeps the passer ahead of defensive responses and prevents guard recovery between attacks."
     }
   ]
 }

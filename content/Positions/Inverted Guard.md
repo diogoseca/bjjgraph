@@ -34,6 +34,18 @@ description: "Master inverted guard in BJJ. Complete guide covering berimbolo en
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inverted Guard",
+  "description": "Inverted Guard is a dynamic, upside-down open guard in which the practitioner rotates onto their shoulders with legs elevated toward the opponent, creating unconventional angles for berimbolos, back takes, and leg-entanglement entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master inverted guard in BJJ. Complete guide covering berimbolo en
 
 <section id="overview" class="content-section">
 
-Inverted Guard is a modern guard position where the practitioner turns upside-down, with their back facing the ground and legs positioned upward toward the opponent. This position creates unique angles for controlling the opponent's movement and setting up sweeps, leg entanglements, and back takes. While physically demanding and technically complex, Inverted Guard offers exceptional defensive capabilities through its mobility and creates offensive opportunities that are difficult to counter using traditional passing approaches. This position has become increasingly prominent in modern BJJ competition, particularly in the context of berimbolo sequences and leg entanglement entries. The inverted position is typically transitional rather than static, serving as a critical link between guard retention sequences and more dominant attacking positions. The position's strategic value lies in creating unconventional angles that disrupt traditional passing mechanics while simultaneously establishing pathways to back control and leg attacks. Inverted guard requires significant hip and spine flexibility combined with spatial awareness while upside-down. The position emerged prominently in the early 2000s through competition innovations by the Mendes brothers and has since evolved into a comprehensive system with multiple entry methods and transition pathways. Modern practitioners integrate inversion throughout their guard retention systems, using it defensively against pressure passing while maintaining offensive threats. The position's effectiveness stems from forcing opponents to navigate unfamiliar angles and grips while the inverted practitioner maintains superior mobility and transition options.
+**Inverted Guard is a dynamic, upside-down open guard in which the practitioner rotates onto their shoulders with legs elevated toward the opponent, creating unconventional angles for berimbolos, back takes, and leg-entanglement entries.**
+
+Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rotation: by turning beneath the passer, the practitioner trades a brief moment of vulnerability for direct access to the back and to leg entanglements. This position creates unique angles for controlling the opponent's movement and setting up sweeps, leg entanglements, and back takes. While physically demanding and technically complex, Inverted Guard offers exceptional defensive capabilities through its mobility and creates offensive opportunities that are difficult to counter using traditional passing approaches. This position has become increasingly prominent in modern BJJ competition, particularly in the context of berimbolo sequences and leg entanglement entries. The inverted position is typically transitional rather than static, serving as a critical link between guard retention sequences and more dominant attacking positions. The position's strategic value lies in creating unconventional angles that disrupt traditional passing mechanics while simultaneously establishing pathways to back control and leg attacks. Inverted guard requires significant hip and spine flexibility combined with spatial awareness while upside-down. The position emerged prominently in the early 2000s through competition innovations by the Mendes brothers and has since evolved into a comprehensive system with multiple entry methods and transition pathways. Modern practitioners integrate inversion throughout their guard retention systems, using it defensively against pressure passing while maintaining offensive threats. The position's effectiveness stems from forcing opponents to navigate unfamiliar angles and grips while the inverted practitioner maintains superior mobility and transition options.
 
 </section>
 

@@ -34,6 +34,18 @@ description: "Master Crackhead Control Entry from Rubber Guard. Complete guide t
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crackhead Control Entry",
+  "description": "Crackhead Control Entry is a 10th Planet Rubber Guard progression in which the bottom player pulls the trapped arm across the centerline and repositions the controlling leg onto the shoulder, locking extreme arm isolation that opens triangles, omoplatas, and gogoplatas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Crackhead Control Entry from Rubber Guard. Complete guide t
 </div>
 
 <section id="overview" class="content-section">
+
+**Crackhead Control Entry is a 10th Planet Rubber Guard progression in which the bottom player pulls the trapped arm across the centerline and repositions the controlling leg onto the shoulder, locking extreme arm isolation that opens triangles, omoplatas, and gogoplatas.**
 
 The Crackhead Control Entry is a positional advancement within the 10th Planet Rubber Guard system that transitions the bottom player from standard Rubber Guard into the more dominant Crackhead Control configuration. This transition centers on achieving extreme arm isolation by pulling the opponent's trapped arm further across their centerline while repositioning the controlling leg to apply direct shoulder pressure. The result is a locked configuration that severely limits the top player's defensive options and creates high-percentage pathways to triangles, omoplatas, and gogoplatas.
 

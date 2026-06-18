@@ -34,6 +34,18 @@ description: "Master Jumping Guard in BJJ. Dynamic guard pull from standing to C
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Jumping Guard",
+  "description": "Jumping Guard is an explosive standing guard pull in which the attacker jumps onto an upright opponent and wraps both legs around their torso, locking closed guard in a single committed motion to instantly close distance and force ground engagement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Jumping Guard in BJJ. Dynamic guard pull from standing to C
 
 <section id="overview" class="content-section">
 
-Jumping Guard is a dynamic and aggressive guard pull technique that involves jumping onto your opponent from standing position, wrapping your legs around their torso to establish closed guard. This technique represents a high-risk, high-reward approach to guard engagement that can catch opponents off-guard and immediately establish offensive control. Unlike traditional guard pulls that emphasize control and connection before committing, jumping guard requires explosive athleticism, precise timing, and confident execution.
+**Jumping Guard is an explosive standing guard pull in which the attacker jumps onto an upright opponent and wraps both legs around their torso, locking closed guard in a single committed motion to instantly close distance and force ground engagement.**
+
+Among standing-to-ground entries, Jumping Guard occupies the highest-commitment end of the spectrum — a spectacular but polarizing choice that has cycled in and out of competitive favor as rulesets and meta-games have evolved. This technique represents a high-risk, high-reward approach to guard engagement that can catch opponents off-guard and immediately establish offensive control. Unlike traditional guard pulls that emphasize control and connection before committing, jumping guard requires explosive athleticism, precise timing, and confident execution.
 
 The technique is particularly effective against opponents who maintain distance or refuse to engage in grip fighting, as it closes distance instantly and forces immediate close-range grappling. While spectacular when successful, jumping guard carries inherent risks including potential for the opponent to pass immediately, exposure to slams in certain rulesets, and significant energy expenditure. Modern competition BJJ has seen both the rise and decline of jumping guard variations, with current trends favoring more controlled guard pull entries that prioritize safety and retention.
 

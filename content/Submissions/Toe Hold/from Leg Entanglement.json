@@ -1,5 +1,6 @@
 {
   "name": "Toe Hold from Leg Entanglement",
+  "summary": "The toe hold from leg entanglement is a rotational ankle lock that uses a figure-four grip across the ball of the foot to twist the toes outward, attacking the ankle ligaments and midfoot from any ashi garami variant.",
   "description": "Master the toe hold from leg entanglement positions in BJJ. Expert guide to figure-four grip mechanics, rotational finishing, and safe training protocols.",
   "tags": [
     "bjj",
@@ -19,7 +20,7 @@
   "starting_position": "Leg Entanglement",
   "from_position": "Leg Entanglement/Top",
   "success_rate": 60,
-  "overview": "The toe hold from leg entanglement is a fundamental rotational ankle submission available across all ashi garami configurations. Unlike heel hooks that require specific inside or outside positioning relative to the knee line, the toe hold can be initiated from virtually any entanglement variant, making it an essential weapon in the leg lock practitioner's arsenal. The submission works by gripping across the opponent's toes and ball of the foot with a figure-four configuration, then applying controlled twisting force that attacks the lateral and medial ankle ligaments, midfoot structures, and can transfer damaging torque through to the knee.\n\nWhat makes the toe hold particularly effective from leg entanglement is the inherent control these positions provide. The entangled legs create a stable platform that prevents the opponent from simply retracting their foot, while the attacker's hip positioning close to the target ankle maximizes rotational leverage. The toe hold serves dual strategic purposes in modern leg lock systems: as a primary finishing attack when the heel is hidden and heel hooks are unavailable, and as a chain-starting threat that forces defensive reactions opening pathways to heel hooks, kneebars, and positional advances. The IBJJF allows toe holds at brown belt and above, while most no-gi rulesets permit them at intermediate levels, making this a critical technique for competitive grapplers progressing through the ranks.",
+  "overview": "Among the foot locks available from leg entanglement, the toe hold earns its place precisely because it does not depend on heel exposure. Unlike heel hooks that require specific inside or outside positioning relative to the knee line, the toe hold can be initiated from virtually any entanglement variant, making it an essential weapon in the leg lock practitioner's arsenal. The submission works by gripping across the opponent's toes and ball of the foot with a figure-four configuration, then applying controlled twisting force that attacks the lateral and medial ankle ligaments, midfoot structures, and can transfer damaging torque through to the knee.\n\nWhat makes the toe hold particularly effective from leg entanglement is the inherent control these positions provide. The entangled legs create a stable platform that prevents the opponent from simply retracting their foot, while the attacker's hip positioning close to the target ankle maximizes rotational leverage. The toe hold serves dual strategic purposes in modern leg lock systems: as a primary finishing attack when the heel is hidden and heel hooks are unavailable, and as a chain-starting threat that forces defensive reactions opening pathways to heel hooks, kneebars, and positional advances. The IBJJF allows toe holds at brown belt and above, while most no-gi rulesets permit them at intermediate levels, making this a critical technique for competitive grapplers progressing through the ranks.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -86,8 +87,7 @@
     "Inside Heel Hook",
     "Achilles Lock",
     "Calf Slicer",
-    "Estima Lock",
-    "Inside Heel Hook"
+    "Estima Lock"
   ],
   "related_content": [
     {
@@ -150,7 +150,7 @@
     }
   ],
   "attacker": {
-    "name": "from Leg Entanglement Attacker",
+    "name": "Toe Hold from Leg Entanglement Attacker",
     "description": "Learn to attack with the toe hold from leg entanglement. Step-by-step figure-four grip setup, rotational finishing mechanics, and chain attacks for BJJ competition.",
     "overview": "Attacking with the toe hold from leg entanglement requires precise figure-four grip placement and controlled rotational pressure generated through the entire body rather than isolated arm strength. Success depends on maintaining tight hip proximity to the captured ankle, securing the grip configuration before the opponent can strip your hands, and applying gradual rotational force that compounds over time as the ankle ligaments reach their elastic limit. The toe hold is most effective as part of a systematic chain where it forces reactions that open higher-percentage finishes like heel hooks and kneebars, but it remains a potent primary finisher when applied with proper mechanics and patience.",
     "key_principles": [
@@ -340,7 +340,7 @@
     ]
   },
   "defender": {
-    "name": "from Leg Entanglement Defender",
+    "name": "Toe Hold from Leg Entanglement Defender",
     "description": "Defend against the toe hold from leg entanglement in BJJ. Recognition cues, grip stripping techniques, escape paths, and counter-entanglement strategies explained.",
     "overview": "Defending the toe hold from leg entanglement begins with early recognition of the grip change from general leg control to specific toe and foot manipulation. The defender must act before the figure-four grip fully locks, as defensive options narrow dramatically once the attacker establishes the complete configuration with elbows cinched and hips driven forward. Primary defensive strategies focus on straightening the foot to remove the rotational leverage angle, stripping the figure-four grip before it consolidates, and creating counter-entanglement threats that force the attacker to abandon the submission attempt. Understanding the specific danger timeline of the toe hold is critical: once the full grip, hip position, and rotation are all locked in, the only safe response is to tap immediately rather than risk ligament damage by fighting a fully locked submission.",
     "key_principles": [

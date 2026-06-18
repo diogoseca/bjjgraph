@@ -34,6 +34,18 @@ description: "Master the knee slice from seated guard in BJJ. Complete guide cov
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Slice from Seated Guard",
+  "description": "The Knee Slice from Seated Guard is a guard pass in which the top player drives their lead knee diagonally across a seated opponent's near thigh while securing a crossface, splitting the legs to advance into half guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the knee slice from seated guard in BJJ. Complete guide cov
 
 <section id="overview" class="content-section">
 
-The knee slice from seated guard is a fundamental guard passing technique where the top player drives their lead knee diagonally across the seated opponent's thigh line while establishing upper body control through crossface and grips. This pass specifically addresses the primary challenge of seated guard: the distance that the bottom player maintains with posted hands and active feet. By combining grip establishment with a decisive forward knee drive, the passer closes distance and creates a splitting wedge that divides the opponent's legs, converting an open-space guard exchange into a pressure-based half guard battle.
+**The Knee Slice from Seated Guard is a guard pass in which the top player drives their lead knee diagonally across a seated opponent's near thigh while securing a crossface, splitting the legs to advance into half guard top.**
+
+Among the most reliable answers to the increasingly common seated guard, the knee slice has become a staple of the modern passing game because it rewards timing and grip discipline over raw athleticism. This pass specifically addresses the primary challenge of seated guard: the distance that the bottom player maintains with posted hands and active feet. By combining grip establishment with a decisive forward knee drive, the passer closes distance and creates a splitting wedge that divides the opponent's legs, converting an open-space guard exchange into a pressure-based half guard battle.
 
 Strategically, the knee slice from seated guard occupies a central role in the passing hierarchy because it chains naturally with toreando and backstep passes. When the seated player defends the knee slice with a knee shield, the toreando becomes available by redirecting laterally. When they over-commit to lateral defense, the knee slice reopens. This creates a three-directional passing system that keeps the guard player reactive. The technique rewards patience in grip setup and explosiveness in the drive, requiring the passer to read the opponent's weight distribution for optimal entry timing.
 

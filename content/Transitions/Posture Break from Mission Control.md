@@ -34,6 +34,18 @@ description: "Master the posture break from Mission Control in BJJ. Learn to dis
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture Break from Mission Control",
+  "description": "The Posture Break from Mission Control is a top-player escape from 10th Planet rubber guard that strips head control, posts on the hip, and drives posture upward to collapse the shoulder-isolation structure and recover neutral closed guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the posture break from Mission Control in BJJ. Learn to dis
 
 <section id="overview" class="content-section">
 
-The Posture Break from Mission Control is an essential escape technique for the top player trapped in 10th Planet's rubber guard system. When caught in Mission Control, the top player faces severe shoulder isolation, broken posture, and multiple submission threats including triangles, omoplatas, and gogoplatas. The posture break represents a decisive, assertive approach to dismantling the Mission Control structure by forcefully addressing the key control mechanisms that keep the position intact.
+**The Posture Break from Mission Control is a top-player escape from 10th Planet rubber guard that strips head control, posts on the hip, and drives posture upward to collapse the shoulder-isolation structure and recover neutral closed guard.**
+
+Trapped in Mission Control, the top player faces severe shoulder isolation, broken posture, and multiple submission threats including triangles, omoplatas, and gogoplatas. The posture break represents a decisive, assertive approach to dismantling the Mission Control structure by forcefully addressing the key control mechanisms that keep the position intact, returning the top player to a neutral, passable guard.
 
 Unlike the more gradual Posture Recovery approach, the Posture Break employs a coordinated sequence of grip fighting, structural realignment, and firm hip drive to simultaneously strip the bottom player's head control, reduce their hip elevation, and break the high guard leg position. This technique requires precise timing and understanding of the Mission Control structure's weak points—particularly the bottom player's need to maintain continuous grip pressure on the head and sustained hip elevation. When either of these control mechanisms momentarily lapses, the top player can exploit the structural gap to initiate the break.
 

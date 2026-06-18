@@ -33,10 +33,32 @@ description: "Master the Kneebar from Top positions in BJJ. Complete safety guid
 }
 </script>
 
-> **SAFETY**: Kneebar from Top targets the Knee joint (tibial plateau, popliteal ligaments, meniscus). Risk: Knee hyperextension and ligament damage (ACL, PCL, MCL tears). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Top",
+  "description": "The Kneebar from Top is a leg-lock submission applied from dominant positions such as side control, mount, or knee-on-belly, hyperextending the opponent's knee by trapping their leg and driving the hips into the back of the joint.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kneebar from Top is a leg-lock submission applied from dominant positions such as side control, mount, or knee-on-belly, hyperextending the opponent's knee by trapping their leg and driving the hips into the back of the joint.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint (tibial plateau, popliteal ligaments, meniscus)</span>
+<span class="meta-chip">55% success</span>
+</div>
+
+> [!danger] Safety
+> Kneebar from Top targets the Knee joint (tibial plateau, popliteal ligaments, meniscus). Primary risk: Knee hyperextension and ligament damage (ACL, PCL, MCL tears). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,56 +75,7 @@ Modern leg lock systems have elevated top kneebarring from an opportunistic subm
 
 The top kneebar serves dual purposes: as a finishing submission and as a positional transitional tool that creates sweeping opportunities, back exposure, or alternative submission entries when opponents defend aggressively. The risk-reward calculus of abandoning a dominant top position for a leg attack must be evaluated on a case-by-case basis, factoring in the quality of leg exposure, match context, and opponent defensive sophistication.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint (tibial plateau, popliteal ligaments, meniscus)
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 55%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Knee hyperextension and ligament damage (ACL, PCL, MCL tears) | CRITICAL | 6-12 months with surgical intervention; 3-6 months for partial tears |
-| Meniscus tears (medial or lateral cartilage damage) | High | 4-8 weeks for minor tears; 3-6 months for surgical repair |
-| Popliteal artery or nerve compression | High | Immediate medical attention required; potential permanent damage if sustained |
-| Tibial plateau fracture (extreme force application) | CRITICAL | 6-12 months with surgical fixation |
-
-
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive application in training; NEVER spike or jerk
-
-**Tap Signals**:
-- Verbal tap (loudly saying 'tap' or 'stop')
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap on mat or partner
-- Any distress vocalization or signal
-- Frantic movement indicating panic
-
-
-**Release Protocol**:
-1. Immediately release hip extension and leg pressure upon any tap signal
-2. Return leg to neutral position without torque or rotation
-3. Maintain grip contact but zero pressure while checking partner's condition
-4. Allow partner time to assess knee stability before resuming training
-5. Communicate verbally to confirm partner is ready to continue
-
-
-**Training Restrictions**:
-- Never apply competition-speed finishing mechanics in training rolls
-- Never spike, jerk, or explosively extend hips during application
-- Never continue pressure if partner's tap access is compromised
-- Never train kneebars with unfamiliar partners without explicit consent
-- Never practice on partners with existing knee injuries without medical clearance
-- Always ensure partner can tap with both hands before fully committing
-- Avoid training kneebarring techniques when fatigued or with impaired judgment
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -277,10 +250,9 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Kneebar]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
@@ -290,33 +262,56 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 - [[Submissions/Americana]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Flying Kneebar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative leg entanglement position offering better control for leg attacks when top kneebarring proves difficult
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Transitional position often reached when opponent defends top kneebar by rolling away from pressure
 - [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement position accessible when opponent's kneebar defense exposes heel
 - [[Positions/Kneebar Control]] - Control position for finishing the kneebar submission with proper positioning
 - [[Positions/Leg Entanglement]] - Principle covering general leg control mechanics applicable to all leg attacks including top kneebarring
-- [[Submissions/Straight Ankle Lock]] - Alternative leg submission when kneebar defense is too strong; chains naturally from failed kneebar attempts
-- [[Submissions/Toe Hold]] - Complementary leg attack targeting different joint; available when opponent bends knee to defend kneebar
 - [[Positions/Half Guard]] - Common position opponent recovers to when successfully countering kneebar entry from top
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kneebar from Top leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Knee hyperextension and ligament damage (ACL, PCL, MCL tears) | CRITICAL | 6-12 months with surgical intervention; 3-6 months for partial tears |
+| Meniscus tears (medial or lateral cartilage damage) | High | 4-8 weeks for minor tears; 3-6 months for surgical repair |
+| Popliteal artery or nerve compression | High | Immediate medical attention required; potential permanent damage if sustained |
+| Tibial plateau fracture (extreme force application) | CRITICAL | 6-12 months with surgical fixation |
+
+
+**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive application in training; NEVER spike or jerk
+
+**Tap Signals**:
+- Verbal tap (loudly saying 'tap' or 'stop')
+- Physical hand tap on partner or mat (multiple rapid taps)
+- Physical foot tap on mat or partner
+- Any distress vocalization or signal
+- Frantic movement indicating panic
+
+
+**Release Protocol**:
+1. Immediately release hip extension and leg pressure upon any tap signal
+2. Return leg to neutral position without torque or rotation
+3. Maintain grip contact but zero pressure while checking partner's condition
+4. Allow partner time to assess knee stability before resuming training
+5. Communicate verbally to confirm partner is ready to continue
+
+
+**Training Restrictions**:
+- Never apply competition-speed finishing mechanics in training rolls
+- Never spike, jerk, or explosively extend hips during application
+- Never continue pressure if partner's tap access is compromised
+- Never train kneebars with unfamiliar partners without explicit consent
+- Never practice on partners with existing knee injuries without medical clearance
+- Always ensure partner can tap with both hands before fully committing
+- Avoid training kneebarring techniques when fatigued or with impaired judgment
+
 
 </section>
 

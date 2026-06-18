@@ -36,6 +36,18 @@ description: "Master Side Control in BJJ with complete guides for top pressure, 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Side Control",
+  "description": "Side Control is a dominant top pin in which you lie chest-to-chest perpendicular across a grounded opponent, beyond their legs, scoring 3 IBJJF points while threatening submissions and advances to mount, knee-on-belly, or the back.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -50,6 +62,8 @@ description: "Master Side Control in BJJ with complete guides for top pressure, 
 </div>
 
 <section id="overview" class="content-section">
+
+**Side Control is a dominant top pin in which you lie chest-to-chest perpendicular across a grounded opponent, beyond their legs, scoring 3 IBJJF points while threatening submissions and advances to mount, knee-on-belly, or the back.**
 
 Side Control (also known as side mount or cross-side) is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player lies perpendicularly across the opponent's torso, controlling them without the opponent's legs interfering. This position offers significant control and multiple attacking opportunities while providing a stable base from which to advance to more dominant positions. As one of the fundamental controlling positions in Brazilian Jiu-Jitsu, Side Control serves as a critical gateway between guard passing and more dominant positions like mount or back control. The position is valued at 3 points in IBJJF competition and is considered one of the most versatile positions for both maintaining control and launching attacks. Mastery of Side Control requires understanding weight distribution, pressure application, and the ability to transition fluidly between variations while maintaining constant offensive pressure. The perpendicular body alignment creates maximum control surface area while minimizing the opponent's leverage options, making it one of the most efficient positions for control relative to energy expenditure. From this position, the top player can methodically work toward submissions including Americana, kimura, and arm triangle chokes, advance to more dominant positions such as mount, north-south, or knee on belly, or simply maintain control to manage energy and score points. The psychological advantage is also significant - being trapped under side control is one of the most uncomfortable experiences in BJJ, and the constant threat of submissions and position advancement forces the bottom player into reactive, often desperate escape attempts that can be countered and capitalized upon. Understanding both the top and bottom perspectives of this position is essential for all BJJ practitioners, as it represents a critical stage in the positional hierarchy and offers numerous opportunities for both offensive advancement and defensive recovery depending on your position.
 
@@ -197,35 +211,35 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (38% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (34% of attempts)
 
-- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (9% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (8% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (6% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (5% of attempts)
 
-- **[[Arm Triangle from Side Control/Attacker|Arm Triangle from Side Control]]** (6% of attempts)
+- **[[Arm Triangle from Side Control/Attacker|Arm Triangle from Side Control]]** (5% of attempts)
 
-- **[[Ezekiel Choke from Side Control/Attacker|Ezekiel Choke from Side Control]]** (2% of attempts)
+- **[[Ezekiel Choke from Side Control/Attacker|Ezekiel Choke from Side Control]]** (1% of attempts)
 
-- **[[Transitions/Side Control to Kesa Gatame/Attacker|Side Control to Kesa Gatame]]** (2% of attempts)
+- **[[Transitions/Side Control to Kesa Gatame/Attacker|Side Control to Kesa Gatame]]** (1% of attempts)
 
-- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (3% of attempts)
+- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (2% of attempts)
 
-- **[[North-South Choke from Side Control/Attacker|North-South Choke from Side Control]]** (1% of attempts)
+- **[[North-South Choke from Side Control/Attacker|North-South Choke from Side Control]]** (2% of attempts)
 
-- **[[Breadcutter Choke from Side Control/Attacker|Breadcutter Choke from Side Control]]** (1% of attempts)
+- **[[Breadcutter Choke from Side Control/Attacker|Breadcutter Choke from Side Control]]** (2% of attempts)
 
-- **[[Transitions/Side Control to Scarf Hold Position/Attacker|Side Control to Scarf Hold Position]]** (1% of attempts)
+- **[[Transitions/Side Control to Scarf Hold Position/Attacker|Side Control to Scarf Hold Position]]** (2% of attempts)
 
-- **[[Americana from Side Control/Attacker|Americana from Side Control]]** (12% of attempts)
+- **[[Americana from Side Control/Attacker|Americana from Side Control]]** (10% of attempts)
 
 - **[[Submissions/Arm Crush/Attacker|Arm Crush]]** (1% of attempts)
 
 - **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** (1% of attempts)
 
-- **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (1% of attempts)
+- **[[Far Side Armbar from Side Control/Attacker|Far Side Armbar from Side Control]]** (1% of attempts)
 
-- **[[Kimura from Side Control/Attacker|Kimura from Side Control]]** (11% of attempts)
+- **[[Kimura from Side Control/Attacker|Kimura from Side Control]]** (10% of attempts)
 
 - **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (1% of attempts)
 
@@ -235,9 +249,27 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 - **[[Submissions/Triangle Choke Side/Attacker|Triangle Choke Side]]** (1% of attempts)
 
-- **[[Submissions/Von Flue Choke/Attacker|Von Flue Choke]]** (0% of attempts)
+- **[[Submissions/Von Flue Choke/Attacker|Von Flue Choke]]** (1% of attempts)
 
 - **[[Transitions/Side Control to Knee on Belly/Attacker|Side Control to Knee on Belly]]** (1% of attempts)
+
+- **[[Arm Crush from Side Control/Attacker|Arm Crush from Side Control]]** (1% of attempts)
+
+- **[[Armbar from Side Control/Attacker|Armbar from Side Control]]** (1% of attempts)
+
+- **[[Belly Down Armbar from Side Control/Attacker|Belly Down Armbar from Side Control]]** (1% of attempts)
+
+- **[[Kneebar from Top/Attacker|Kneebar from Top]]** (1% of attempts)
+
+- **[[Loop Choke from Side Control/Attacker|Loop Choke from Side Control]]** (1% of attempts)
+
+- **[[Marce Choke from Side Control/Attacker|Marce Choke from Side Control]]** (1% of attempts)
+
+- **[[Mir Lock from Side Control/Attacker|Mir Lock from Side Control]]** (1% of attempts)
+
+- **[[Triangle Choke Side from Side Control/Attacker|Triangle Choke Side from Side Control]]** (1% of attempts)
+
+- **[[Von Flue Choke from Side Control/Attacker|Von Flue Choke from Side Control]]** (1% of attempts)
 
 
 ### Common Mistakes

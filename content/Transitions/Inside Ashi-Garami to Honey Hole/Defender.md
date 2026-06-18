@@ -300,7 +300,7 @@ Practice each defensive option in isolation: free leg blocking, hip rotation esc
 Partner performs transition at 60% speed with genuine ankle lock threats preceding the threading attempt. Practice selecting the appropriate defense based on timing: block if early, rotate if mid-thread, counter-thread if late. 10 rounds of 2 minutes, tracking which defensive option you chose and whether it succeeded.
 
 **Week 7+** - Live positional defense
-Full resistance positional sparring starting from Inside Ashi-Garami bottom. Partner's goal is Honey Hole entry or submission. Your goal is preventing the transition and escaping the entanglement. Track success rate and identify which attacker setups consistently bypass your defense.
+Full resistance positional sparring starting from Inside Ashi-Garami top defending the leg attack. Partner's goal is Honey Hole entry or submission. Your goal is preventing the transition and escaping the entanglement. Track success rate and identify which attacker setups consistently bypass your defense.
 
 
 

@@ -34,6 +34,18 @@ description: "Master Inside Ashi-Garami to Ushiro Ashi transition in BJJ. Follow
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Ashi-Garami to Ushiro Ashi",
+  "description": "Inside Ashi-Garami to Ushiro Ashi is a leg-entanglement transition where the attacker follows the opponent's hip inversion out of standard inside ashi-garami, reorganizing into the reversed ushiro figure-four to preserve heel control and open new finishing angles.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Inside Ashi-Garami to Ushiro Ashi transition in BJJ. Follow
 </div>
 
 <section id="overview" class="content-section">
+
+**Inside Ashi-Garami to Ushiro Ashi is a leg-entanglement transition where the attacker follows the opponent's hip inversion out of standard inside ashi-garami, reorganizing into the reversed ushiro figure-four to preserve heel control and open new finishing angles.**
 
 The Inside Ashi-Garami to Ushiro Ashi transition is a critical positional advancement within modern leg lock systems that allows the attacker to maintain offensive control when the opponent attempts to escape standard inside ashi through hip rotation or inversion. Rather than losing the entanglement during the opponent's defensive movement, the skilled practitioner follows the rotation while adapting their leg configuration to establish the reversed ushiro ashi-garami position, preserving attacking opportunities from an entirely new angle.
 

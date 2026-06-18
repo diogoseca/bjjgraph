@@ -33,10 +33,32 @@ description: "Master the Americana shoulder lock from Technical Mount in BJJ. Co
 }
 </script>
 
-> **SAFETY**: Americana from Technical Mount targets the Shoulder joint (rotator cuff and glenohumeral complex). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Americana from Technical Mount",
+  "description": "The Americana from Technical Mount is a figure-four shoulder lock that pins the opponent's bent near arm and forces external shoulder rotation, opening as the natural counterpart to the armbar when the defender tucks the elbow defensively.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Americana from Technical Mount is a figure-four shoulder lock that pins the opponent's bent near arm and forces external shoulder rotation, opening as the natural counterpart to the armbar when the defender tucks the elbow defensively.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (rotator cuff and glenohumeral complex)</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Americana from Technical Mount targets the Shoulder joint (rotator cuff and glenohumeral complex). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,54 +75,7 @@ This submission is most commonly available when the opponent bends their near ar
 
 The finishing mechanics require a slow, paint-brush rotation of the opponent's elbow toward their head while the wrist remains anchored to the mat. The torque attacks the glenohumeral joint through combined external rotation and abduction, creating progressive pressure that forces the tap. Speed control is critical due to the shoulder joint's vulnerability to sudden rotational force. The posted leg provides base stability throughout the finishing sequence, allowing the attacker to commit fully to the rotational pressure without risking position loss.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (rotator cuff and glenohumeral complex)
-**Starting Position**: [[Positions/Mount/Technical Mount]]
-**From Position**: [[Positions/Mount/Technical Mount]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits | High | 3-6 months, potential surgical intervention required |
-| Glenohumeral joint capsule sprain or anterior dislocation from excessive rotational force | CRITICAL | 6-12 weeks for sprain, 4-6 months for dislocation |
-| Medial collateral ligament strain of the elbow from secondary torque during rotation | Medium | 2-6 weeks |
-| Deltoid or pectoral muscle strain from resisting the lock under load | Low | 1-3 weeks |
-
-
-**Application Speed**: SLOW and controlled. Apply steady, progressive rotational pressure over 3-5 seconds minimum from figure-four lock to finish. Never jerk, spike, or rapidly crank the shoulder joint. The Americana must be applied gradually to allow time for tap recognition and safe response.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner or mat (minimum 2 taps)
-- Physical foot tap on mat with free leg
-- Any unusual screaming, crying out, or distress vocalization
-- Head shake or nodding if hands are trapped and verbal tap is unclear
-
-
-**Release Protocol**:
-1. Release the figure-four grip immediately upon any tap signal—open hands completely and remove rotational pressure
-2. Lift chest weight off opponent's shoulder to allow arm to return to neutral position naturally
-3. Do not force the arm back to starting position—let opponent move it themselves to assess range of motion
-4. Maintain technical mount position control during release to prevent further positional conflict
-5. Monitor partner for injury after release—check shoulder mobility, pain level, and range of motion before continuing
-
-
-**Training Restrictions**:
-- Never apply full rotational pressure in training—stop when partner signals discomfort or you feel joint resistance at end range
-- Beginners should drill the grip sequence and positioning without finishing pressure until movement patterns are established
-- Avoid training with explosive or jerking application—always use slow, controlled pressure even when drilling at speed
-- Ensure training partner has at least one hand free to tap at all times during drilling and sparring
-- Do not apply this submission to partners with pre-existing shoulder injuries or recent shoulder surgery
-
+**Starting Position**: [[Positions/Mount/Technical Mount]] · **From**: [[Positions/Mount/Technical Mount]] (Top)
 
 </section>
 
@@ -268,45 +243,60 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
-- [[Submissions/Kimura/from Mount]]
-- [[Submissions/Cross Collar Choke/from 3-4 Mount]]
-- [[Submissions/Arm Crush/from Side Control]]
-- [[Submissions/Belly Down Armbar/from Kesa Gatame]]
-- [[Submissions/Kimura/from S Mount]]
 - [[Submissions/Kimura]]
-- [[Submissions/Far Side Armbar]]
 - [[Submissions/Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/Technical Mount]] - Primary starting position providing asymmetric mount base for this shoulder lock
 - [[Positions/Mount]] - Parent position from which technical mount is entered before Americana setup
 - [[Transitions/Mount to Armbar]] - Primary alternative attack creating binary threat with Americana from the same position
-- [[Submissions/Americana]] - Family hub submission applied from multiple mount positions with varying weight distribution
 - [[Positions/Mount/3-4 Mount]] - Related mount variation sharing asymmetric base properties for Americana attacks
 - [[Positions/Back Control]] - Common transition target when opponent turns away to defend the Americana
 - [[Positions/Mount/S Mount]] - Related mount variation accessible from technical mount for alternative submission angles
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Americana from Technical Mount leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) from forced external rotation beyond joint limits | High | 3-6 months, potential surgical intervention required |
+| Glenohumeral joint capsule sprain or anterior dislocation from excessive rotational force | CRITICAL | 6-12 weeks for sprain, 4-6 months for dislocation |
+| Medial collateral ligament strain of the elbow from secondary torque during rotation | Medium | 2-6 weeks |
+| Deltoid or pectoral muscle strain from resisting the lock under load | Low | 1-3 weeks |
+
+
+**Application Speed**: SLOW and controlled. Apply steady, progressive rotational pressure over 3-5 seconds minimum from figure-four lock to finish. Never jerk, spike, or rapidly crank the shoulder joint. The Americana must be applied gradually to allow time for tap recognition and safe response.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on partner or mat (minimum 2 taps)
+- Physical foot tap on mat with free leg
+- Any unusual screaming, crying out, or distress vocalization
+- Head shake or nodding if hands are trapped and verbal tap is unclear
+
+
+**Release Protocol**:
+1. Release the figure-four grip immediately upon any tap signal—open hands completely and remove rotational pressure
+2. Lift chest weight off opponent's shoulder to allow arm to return to neutral position naturally
+3. Do not force the arm back to starting position—let opponent move it themselves to assess range of motion
+4. Maintain technical mount position control during release to prevent further positional conflict
+5. Monitor partner for injury after release—check shoulder mobility, pain level, and range of motion before continuing
+
+
+**Training Restrictions**:
+- Never apply full rotational pressure in training—stop when partner signals discomfort or you feel joint resistance at end range
+- Beginners should drill the grip sequence and positioning without finishing pressure until movement patterns are established
+- Avoid training with explosive or jerking application—always use slow, controlled pressure even when drilling at speed
+- Ensure training partner has at least one hand free to tap at all times during drilling and sparring
+- Do not apply this submission to partners with pre-existing shoulder injuries or recent shoulder surgery
+
 
 </section>
 

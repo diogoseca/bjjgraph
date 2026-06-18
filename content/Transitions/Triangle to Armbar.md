@@ -34,6 +34,18 @@ description: "Learn Triangle to Armbar transition in BJJ. Step-by-step execution
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle to Armbar",
+  "description": "Triangle to Armbar is a guard submission chain where the attacker, holding a triangle that traps one arm and the head, isolates that trapped arm and pivots perpendicular to finish an armbar when the opponent defends the choke by posturing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Triangle to Armbar transition in BJJ. Step-by-step execution
 </div>
 
 <section id="overview" class="content-section">
+
+**Triangle to Armbar is a guard submission chain where the attacker, holding a triangle that traps one arm and the head, isolates that trapped arm and pivots perpendicular to finish an armbar when the opponent defends the choke by posturing.**
 
 The Triangle to Armbar transition represents one of the most fundamental and high-percentage submission chains in Brazilian Jiu-Jitsu. When an opponent defends the triangle choke by maintaining proper posture or hand positioning, the armbar becomes immediately available because the defending arm is already isolated inside the triangle configuration. This transition capitalizes on the opponent's defensive response, creating a classic two-attack system where defending one submission opens the path to another.
 

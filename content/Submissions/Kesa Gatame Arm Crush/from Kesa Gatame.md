@@ -33,10 +33,32 @@ description: "Master the Kesa Gatame Arm Crush in BJJ. Complete guide covering e
 }
 </script>
 
-> **SAFETY**: Kesa Gatame Arm Crush from Kesa Gatame targets the Elbow/Forearm. Risk: Elbow hyperextension or dislocation from excessive pressure against the fulcrum point. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kesa Gatame Arm Crush from Kesa Gatame",
+  "description": "The Kesa Gatame Arm Crush is a grip-independent compression lock that traps the opponent's near arm across the torso and drives the hips forward to hyperextend the elbow over the attacker's hip-bone fulcrum without ever leaving the scarf-hold pin.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kesa Gatame Arm Crush is a grip-independent compression lock that traps the opponent's near arm across the torso and drives the hips forward to hyperextend the elbow over the attacker's hip-bone fulcrum without ever leaving the scarf-hold pin.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Arm Crush</span>
+<span class="meta-chip">Targets Elbow/Forearm</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Kesa Gatame Arm Crush from Kesa Gatame targets the Elbow/Forearm. Primary risk: Elbow hyperextension or dislocation from excessive pressure against the fulcrum point. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,48 +75,7 @@ This submission represents a natural evolution of kesa gatame offense, capitaliz
 
 The technique is especially valuable in no-gi contexts where maintaining traditional kesa gatame submissions like the americana can be difficult without sleeve grips. The arm crush relies purely on body mechanics and positioning, making it grip-independent and highly effective regardless of attire. Competition practitioners have increasingly adopted this submission as a high-percentage finish from an already dominant position, particularly when opponents become defensive and static under the crushing pressure of scarf hold. The arm crush also chains naturally with americana and kimura attempts, creating a submission flow that keeps the opponent guessing which joint attack is coming next.
 
-**Category**: Compression
-**Type**: Arm Crush
-**Target Area**: Elbow/Forearm
-**Starting Position**: [[Positions/Side Control/Kesa Gatame]]
-**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension or dislocation from excessive pressure against the fulcrum point | High | 4-12 weeks depending on severity; ligament damage may require surgical intervention |
-| Bicep or forearm muscle tear from compression forces applied to soft tissue | Medium | 2-6 weeks for partial tears; complete tears may require 8-12 weeks |
-| Rib bruising or intercostal strain on the defender from sustained kesa gatame pressure combined with arm crush mechanics | Medium | 2-4 weeks for bruising; intercostal strains may take 4-8 weeks |
-
-
-**Application Speed**: SLOW and progressive. Apply pressure gradually through hip drive, never jerk or spike the elbow. The compression should build steadily over 2-3 seconds, giving the opponent adequate time to recognize the danger and tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner or mat with free hand
-- Physical foot tap on mat with either leg
-- Any unusual vocalization, screaming, or distress sound indicating pain
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal by relaxing hip pressure and releasing wrist control
-2. If opponent cannot verbally or physically tap due to arm position, watch for grimacing, body stiffening, or any sign of distress and release immediately
-3. After release, gradually decompress the arm rather than dropping it suddenly to prevent secondary strain injury
-
-
-**Training Restrictions**:
-- Begin with slow, controlled application at 50% intensity until both partners understand the tap timing and fulcrum mechanics
-- Avoid explosive hip drives into the arm crush - always apply pressure gradually to allow partner adequate time to recognize and signal the tap
-- White and blue belts should practice the positioning and grip mechanics without applying finishing pressure until the setup is consistent
-
+**Starting Position**: [[Positions/Side Control/Kesa Gatame]] · **From**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 </section>
 
@@ -257,41 +238,54 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Arm Crush]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Americana]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Far Side Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Kesa Gatame]] - Primary starting position providing the control framework for the arm crush setup
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Alternative starting position with pre-isolated arm control that facilitates the crush entry
 - [[Positions/Side Control/Scarf Hold Position]] - Positional family sharing control mechanics and arm trapping principles
-- [[Submissions/Americana]] - Primary submission chain partner from kesa gatame - americana defense often exposes the arm for the crush
-- [[Submissions/Arm Crush]] - Parent submission category sharing compression mechanics and elbow attack principles
-- [[Transitions/Arm Triangle]] - Alternative submission from same position when opponent defends the arm crush by tucking elbow
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kesa Gatame Arm Crush from Kesa Gatame leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension or dislocation from excessive pressure against the fulcrum point | High | 4-12 weeks depending on severity; ligament damage may require surgical intervention |
+| Bicep or forearm muscle tear from compression forces applied to soft tissue | Medium | 2-6 weeks for partial tears; complete tears may require 8-12 weeks |
+| Rib bruising or intercostal strain on the defender from sustained kesa gatame pressure combined with arm crush mechanics | Medium | 2-4 weeks for bruising; intercostal strains may take 4-8 weeks |
+
+
+**Application Speed**: SLOW and progressive. Apply pressure gradually through hip drive, never jerk or spike the elbow. The compression should build steadily over 2-3 seconds, giving the opponent adequate time to recognize the danger and tap.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner or mat with free hand
+- Physical foot tap on mat with either leg
+- Any unusual vocalization, screaming, or distress sound indicating pain
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal by relaxing hip pressure and releasing wrist control
+2. If opponent cannot verbally or physically tap due to arm position, watch for grimacing, body stiffening, or any sign of distress and release immediately
+3. After release, gradually decompress the arm rather than dropping it suddenly to prevent secondary strain injury
+
+
+**Training Restrictions**:
+- Begin with slow, controlled application at 50% intensity until both partners understand the tap timing and fulcrum mechanics
+- Avoid explosive hip drives into the arm crush - always apply pressure gradually to allow partner adequate time to recognize and signal the tap
+- White and blue belts should practice the positioning and grip mechanics without applying finishing pressure until the setup is consistent
+
 
 </section>
 

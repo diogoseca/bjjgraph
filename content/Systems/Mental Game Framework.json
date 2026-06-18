@@ -12,7 +12,8 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
-  "overview": "The Mental Game Framework provides a comprehensive psychological approach to Brazilian Jiu-Jitsu competition and training. This system addresses the critical mental components that separate good competitors from great ones: emotional regulation under pressure, strategic decision-making in real-time, and the development of an offensive mindset that maintains composure regardless of position. The framework integrates cognitive strategies, visualization techniques, and pressure inoculation training to build mental resilience. Unlike technical systems that focus purely on physical execution, this framework recognizes that matches are often won or lost based on psychological factors—the ability to stay calm when behind on points, make intelligent decisions when fatigued, and maintain offensive creativity when under defensive pressure. The system is built around three core pillars: pre-competition preparation (visualization, game planning, emotional priming), in-competition execution (breath control, position-based decision trees, energy management), and post-competition analysis (honest self-assessment, pattern recognition, continuous improvement). This holistic approach ensures that mental training becomes as systematic and measurable as physical training.",
+  "summary": "The Mental Game Framework is a competition-focused psychological system that builds emotional regulation, breath control, position-based decision trees, and pressure inoculation into measurable, daily mental training for Brazilian Jiu-Jitsu.",
+  "overview": "Two competitors with nearly identical technical games are routinely separated by what happens between the ears—who stays composed when behind on points, who keeps attacking when fatigued, and who makes clean reads under pressure. This system addresses the critical mental components that separate good competitors from great ones: emotional regulation under pressure, strategic decision-making in real-time, and the development of an offensive mindset that maintains composure regardless of position. The framework integrates cognitive strategies, visualization techniques, and pressure inoculation training to build mental resilience. Unlike technical systems that focus purely on physical execution, this framework recognizes that matches are often won or lost based on psychological factors—the ability to stay calm when behind on points, make intelligent decisions when fatigued, and maintain offensive creativity when under defensive pressure. The system is built around three core pillars: pre-competition preparation (visualization, game planning, emotional priming), in-competition execution (breath control, position-based decision trees, energy management), and post-competition analysis (honest self-assessment, pattern recognition, continuous improvement). This holistic approach ensures that mental training becomes as systematic and measurable as physical training.",
   "key_principles": [
     "Maintain offensive mindset regardless of position or score",
     "Use controlled breathing to regulate emotional state and decision-making quality",
@@ -265,11 +266,6 @@
       "relationship": "Physical energy management enhanced by emotional regulation and breath control techniques"
     },
     {
-      "name": "Timing and Rhythm",
-      "content_type": "Principle",
-      "relationship": "Match pacing and timing decisions improved through mental clarity and strategic thinking"
-    },
-    {
       "name": "Dealing with Pressure",
       "content_type": "Principle",
       "relationship": "Core skill developed through pressure inoculation and emotional regulation training"
@@ -328,6 +324,40 @@
       "name": "Standing Defense Strategy",
       "content_type": "System",
       "relationship": "Defensive system requiring calm decision-making and composure under pressure from standing exchanges"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What three core pillars structure the Mental Game Framework?",
+      "answer": "Pre-competition preparation (visualization, game planning, emotional priming), in-competition execution (breath control, decision trees, energy management), and post-competition analysis (honest self-assessment and pattern recognition)."
+    },
+    {
+      "question": "Why are position-based decision trees central to in-match performance?",
+      "answer": "Pre-planned primary, secondary, and emergency responses for each major position eliminate hesitation and decision fatigue, letting you act on trained pathways instead of analyzing in real time under pressure."
+    },
+    {
+      "question": "How does breath control influence decision-making under stress?",
+      "answer": "Structured breathing—4-7-8 to calm, rhythmic to manage energy, box breathing to recover—regulates sympathetic nervous system activation, maintaining oxygen delivery and cognitive clarity while preventing panic responses."
+    },
+    {
+      "question": "What is pressure inoculation training and why does it matter?",
+      "answer": "Progressive exposure to competitive stressors—time limits, scoring, unfamiliar opponents, fatigue—during practice, building tolerance so performance does not degrade when those same stressors appear in real competition."
+    },
+    {
+      "question": "Why should post-competition analysis focus on decision quality rather than outcome?",
+      "answer": "Outcomes are partly uncontrollable, but decision quality, emotional regulation, and energy management are trainable; reviewing process separates controllable factors and yields specific, actionable improvement targets."
+    },
+    {
+      "question": "What is a common mistake when practicing visualization for competition?",
+      "answer": "Rehearsing only positive, successful scenarios while never preparing mental responses to adversity—being scored on or stuck in bad positions—leaves you unready for the situations that actually test composure."
+    },
+    {
+      "question": "How do you reset composure immediately after being scored on or making a mistake?",
+      "answer": "Run a rehearsed reset protocol: one controlled breath, a physical reset gesture such as adjusting the gi or retying the belt, then refocus attention on the next action rather than dwelling on the past mistake."
+    },
+    {
+      "question": "What principle keeps a competitor effective when fatigued or trailing on points?",
+      "answer": "Maintaining an offensive mindset regardless of position or score—trained by drilling attacks while exhausted—so creativity and technical precision persist instead of collapsing into passive survival."
     }
   ]
 }

@@ -143,6 +143,16 @@ description: "Master B-Team Dilemma System in BJJ. Craig Jones's strategic frame
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "B-Team Dilemma System",
+  "description": "The B-Team Dilemma System is Craig Jones's no-gi attacking framework that chains leg entanglements, back takes, and submissions so every defensive reaction an opponent makes opens the next threat in a perpetual lose-lose loop.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -156,6 +166,8 @@ description: "Master B-Team Dilemma System in BJJ. Craig Jones's strategic frame
 <section id="overview" class="content-section">
 
 ## What is B-Team Dilemma System?
+
+**The B-Team Dilemma System is Craig Jones's no-gi attacking framework that chains leg entanglements, back takes, and submissions so every defensive reaction an opponent makes opens the next threat in a perpetual lose-lose loop.**
 
 The B-Team Dilemma System represents a revolutionary approach to modern no-gi grappling, built on the principle of creating perpetual lose-lose scenarios for opponents. Developed and refined by Craig Jones and the B-Team crew, this system forces opponents into making decisions where every choice leads to another dangerous position. Rather than relying on singular techniques, the system connects leg entanglements, back attacks, and submissions into an endless chain of threats that compounds pressure with each defensive reaction.
 

@@ -34,6 +34,18 @@ description: "Master the Mount to Armbar transition in BJJ. Complete guide to ex
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mount to Armbar",
+  "description": "Mount to Armbar is a high-percentage submission setup where the top player isolates a framing arm from mount and pivots perpendicular into armbar control, sliding one leg across the opponent's face to threaten elbow hyperextension.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Mount to Armbar transition in BJJ. Complete guide to ex
 </div>
 
 <section id="overview" class="content-section">
+
+**Mount to Armbar is a high-percentage submission setup where the top player isolates a framing arm from mount and pivots perpendicular into armbar control, sliding one leg across the opponent's face to threaten elbow hyperextension.**
 
 The Mount to Armbar transition is one of the most fundamental and high-percentage submission setups in Brazilian Jiu-Jitsu, representing a cornerstone technique that every practitioner must master. From the dominant Mount position, this technique capitalizes on the opponent's natural defensive reactions by converting their arm-framing attempts into submission opportunities. The transition requires precise weight distribution, controlled movement sequencing, and the ability to maintain dominant positioning throughout the execution.
 

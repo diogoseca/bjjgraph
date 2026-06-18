@@ -34,6 +34,18 @@ description: "Master the Strip Lapel from Piranha technique. Essential grip-figh
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Strip Lapel from Piranha",
+  "description": "Strip Lapel from Piranha is a top-player grip-fighting sequence that breaks the bottom player's lapel grips and extracts the collar threaded through their legs, dismantling Piranha Guard's pulley leverage to reset into standard open-guard passing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Strip Lapel from Piranha technique. Essential grip-figh
 
 <section id="overview" class="content-section">
 
-Strip Lapel from Piranha is a fundamental grip-fighting technique executed by the top player when trapped in an opponent's Piranha Guard. The technique involves systematically breaking the bottom player's lapel grips and extracting the collar material that has been threaded through their legs, neutralizing the primary control mechanism of the Piranha Guard system. This transition is essential for any top player facing modern lapel guard systems in gi competition, as the lapel threading creates a pulley-like mechanical advantage that must be dismantled before standard passing becomes viable.
+**Strip Lapel from Piranha is a top-player grip-fighting sequence that breaks the bottom player's lapel grips and extracts the collar threaded through their legs, dismantling Piranha Guard's pulley leverage to reset into standard open-guard passing.**
+
+Modern lapel guards force the top player to win a grip-fighting battle before any pass becomes realistic, and Piranha Guard is among the most demanding of these because the bottom player threads the collar between their own legs to build pulley-like leverage on your posture. This transition is the dedicated answer to that problem: a methodical clearing sequence that addresses the collar entanglement threat-by-threat rather than trying to power through it. It is essential knowledge for any top player who regularly meets lapel guard systems in gi competition, since the threaded collar must be dismantled before standard passing mechanics can even begin.
 
 The technique requires patience and methodical execution rather than explosive strength. The top player must maintain strong base throughout the grip-fighting exchange while prioritizing threats hierarchically—addressing neck and back wraps first, then clearing the leg-threaded configuration. The key challenge lies in stripping grips without creating the openings that the bottom player needs to execute sweeps or transition to more dangerous attacking positions. Every grip break creates a momentary window where the top player's base is compromised, and skilled Piranha Guard players will exploit these windows aggressively.
 
@@ -229,15 +243,11 @@ Strip Lapel from Piranha occupies a critical junction in the guard passing hiera
 
 - [[Transitions/Piranha to Worm Guard]] - Alternative guard transition the bottom player may attempt when strip is nearly complete
 
-- [[Transitions/Lapel Strip from Worm Guard]] - Similar lapel stripping technique applied against Worm Guard configuration with shared mechanics
-
 - [[Positions/Lapel Guard]] - Parent guard category encompassing Piranha and related lapel-based systems
 
 - [[Positions/Combat Base]] - Common posture position from which the lapel strip sequence is initiated
 
 - [[Positions/De La Riva Guard]] - Guard variation opponent may transition to after partial lapel strip compromises Piranha configuration
-
-- [[Transitions/Strip Grip from Zombie]] - Related grip stripping technique sharing similar two-on-one hand-fighting principles
 
 
 </section>

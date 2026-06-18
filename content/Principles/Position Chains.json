@@ -15,6 +15,7 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
+  "summary": "Position Chains are pre-planned sequences of two to four linked positional transitions in which each successful advance sets up the next, moving a practitioner systematically from neutral or inferior positions toward dominant control or a submission.",
   "overview": "Position Chains represents the strategic principle of linking multiple positional transitions into planned sequences that systematically advance toward dominant control or submission outcomes. Unlike isolated technique execution, position chains involve pre-planned pathways through the state machine where each successful transition creates the setup for the next position in the sequence. This concept encompasses the strategic planning, pattern recognition, and sequential thinking required to navigate from disadvantageous or neutral positions toward dominant control through multiple intermediary states. Position chains serve as both an offensive roadmap that guides systematic advancement and a defensive framework that helps practitioners recognize and interrupt opponent's progression patterns. The ability to construct and execute position chains often determines whether a practitioner fights reactively technique-by-technique or strategically with coordinated multi-step plans, making it one of the most important conceptual elements for intermediate and advanced development.",
   "key_principles": [
     "Plan sequences of 2-4 positions in advance based on current state and opponent tendencies",
@@ -169,12 +170,12 @@
       "how_applied": "Control chain: North-South → Kimura isolation → Crucifix from Turtle when opponent defends → Armbar from Crucifix. Advanced chain where submission threat creates positional opportunity, which in turn creates alternative submission access."
     },
     {
-      "context": "Standing Position",
+      "context": "Clinch",
       "how_applied": "Takedown chain: Standing clinch → Snap Down → Front Headlock → Back take or Guillotine. Wrestling-based chain where standing control transitions through ground entry position to dominant submission or control position."
     },
     {
-      "context": "Spider Guard",
-      "how_applied": "Sweep-to-submission chain: Spider Guard → Triangle Setup → Triangle Choke or Omoplata. Guard-based chain where initial control creates multiple submission pathways with shared setup requirements."
+      "context": "Lasso Guard",
+      "how_applied": "Sweep-to-submission chain: Spider/Lasso Guard → Triangle Setup → Triangle Choke or Omoplata. Guard-based chain where initial control creates multiple submission pathways with shared setup requirements."
     },
     {
       "context": "De La Riva Guard",
@@ -388,6 +389,44 @@
       "name": "Pass to Side Control",
       "content_type": "Transition",
       "relationship": "Critical transition in top position chains, connecting open guard positions to dominant top control positions like side control or mount"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is a position chain in BJJ?",
+      "answer": "A pre-planned sequence of two to four linked positional transitions where each successful advance creates the setup for the next, systematically progressing from neutral or inferior positions toward dominant control or a submission."
+    },
+    {
+      "question": "How many positions should a well-constructed chain contain, and why?",
+      "answer": "Two to four positions. Beyond that, cumulative success probability drops sharply and energy cost outweighs positional gain, leaving you stranded mid-sequence with depleted reserves if a late transition fails."
+    },
+    {
+      "question": "What distinguishes chained play from reactive, technique-by-technique grappling?",
+      "answer": "Chained play follows a planned pathway where each position is deliberately chosen to enable the next, whereas reactive grappling treats every transition as an isolated event with no strategic connection to follow-up movements."
+    },
+    {
+      "question": "Why must you establish required control points before advancing to the next position in a chain?",
+      "answer": "Advancing before securing the necessary grips, frames, or hooks leaves gaps the opponent exploits to escape the entire sequence, often reversing the position completely rather than merely stopping a single transition."
+    },
+    {
+      "question": "How should you respond when an opponent successfully defends a key transition in your chain?",
+      "answer": "Pivot to a pre-planned contingency branch that maintains offensive direction rather than forcing the defended technique, since repeated attempts at a failed move become predictable and invite counterattacks."
+    },
+    {
+      "question": "What role does momentum play in linking positions within a chain?",
+      "answer": "The directional force and the opponent's defensive reaction from one transition can be redirected to power entry into the next position, making chains built on sweeps and passes far more efficient than isolated attempts."
+    },
+    {
+      "question": "How do position chains differ when built for competition rather than training?",
+      "answer": "Competition chains should be routed through point-scoring positions such as guard pass, mount, and back control before submission attempts, so points are banked even if the finish fails or time expires."
+    },
+    {
+      "question": "How can you defend against an opponent who is executing a position chain?",
+      "answer": "Recognize early chain-entry indicators and interrupt the sequence at its setup stage, before the opponent establishes initial control points and builds the momentum that makes later positions difficult to stop."
+    },
+    {
+      "question": "What is a common chain-construction error and how do you correct it?",
+      "answer": "Building overly complex five-plus-position chains with low cumulative odds; instead limit chains to two to four transitions, each with roughly 50%+ success at your skill level, so the overall plan stays realistic."
     }
   ]
 }

@@ -34,6 +34,18 @@ description: "Master the Ankle Pick Sweep from seated guard. Step-by-step execut
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ankle Pick Sweep",
+  "description": "The Ankle Pick Sweep is a seated-guard reversal where the bottom player traps a standing opponent's ankle while pulling their upper body diagonally, removing the supporting leg's base to dump them to the mat and come up on top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Ankle Pick Sweep from seated guard. Step-by-step execut
 
 <section id="overview" class="content-section">
 
-The Ankle Pick Sweep is a fundamental technique from seated guard that exploits the opponent's standing posture through precise grip control and off-balancing mechanics. This sweep targets the opponent's base by controlling their ankle while simultaneously disrupting their upper body balance, creating a powerful lever system that dumps them to the mat.
+**The Ankle Pick Sweep is a seated-guard reversal where the bottom player traps a standing opponent's ankle while pulling their upper body diagonally, removing the supporting leg's base to dump them to the mat and come up on top.**
+
+Within the modern seated-guard game, this wrestling-derived attack exploits a standing passer's posture through precise grip control and off-balancing mechanics. The sweep targets the opponent's base by controlling their ankle while simultaneously disrupting their upper body balance, creating a powerful lever system that dumps them to the mat.
 
 The technique is particularly effective against opponents who maintain an upright, standing posture while attempting to pass seated guard. By combining a strong collar or wrist grip with a well-timed ankle grab, the practitioner creates a mechanical disadvantage that makes it extremely difficult for the opponent to maintain their base. The sweep works on the principle of removing support from one leg while pulling the upper body in the opposite direction, creating a rotational force that the opponent cannot resist.
 

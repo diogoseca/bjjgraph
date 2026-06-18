@@ -34,6 +34,18 @@ description: "Master the Transition to Pocket Half Guard from Half Guard Top. Es
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard to Pocket Half Guard",
+  "description": "Half Guard to Pocket Half Guard is a Half Guard Top transition in which the top player threads a deep far-side underhook into the opponent's hip-to-rib pocket and flattens their hips, converting a contested exchange into a dominant pressure-passing platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Transition to Pocket Half Guard from Half Guard Top. Es
 
 <section id="overview" class="content-section">
 
-The Transition to Pocket Half Guard is a positional refinement executed from Half Guard Top that converts a contested guard exchange into a dominant pressure-passing platform. The technique centers on establishing a deep underhook on the bottom player's far side while simultaneously driving chest pressure forward to flatten their defensive structure. This converts a neutral Half Guard exchange where the bottom player retains offensive options into a controlled position where the top player dictates the pace and direction of all subsequent action.
+**Half Guard to Pocket Half Guard is a Half Guard Top transition in which the top player threads a deep far-side underhook into the opponent's hip-to-rib pocket and flattens their hips, converting a contested exchange into a dominant pressure-passing platform.**
+
+Within the Half Guard passing hierarchy, this transition is the gateway that converts a stalled or contested top game into a systematic pressure-passing sequence. The technique centers on establishing a deep underhook on the bottom player's far side while simultaneously driving chest pressure forward to flatten their defensive structure. It transforms a neutral Half Guard exchange where the bottom player retains sweeps, frames, and back-take threats into a controlled position where the top player dictates the pace and direction of all subsequent action.
 
 The transition addresses a fundamental problem in Half Guard Top: the bottom player's ability to maintain frames, create angles, and threaten sweeps or back takes. By securing the deep underhook and flattening the bottom player's hip angle, the top player eliminates the space required for most bottom-player offenses. The underhook reaches across the opponent's back to grip the far lat or belt line, creating a tight connection that prevents the bottom player from turning away or establishing their own underhook. Combined with crossface pressure on the opposite side, this creates a vise-like control that systematically removes defensive options.
 

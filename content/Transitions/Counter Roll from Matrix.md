@@ -34,6 +34,18 @@ description: "Master the Counter Roll from Matrix in BJJ. Complete guide to redi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Roll from Matrix",
+  "description": "The Counter Roll from Matrix is a contingency bail-out in Brazilian Jiu-Jitsu that redirects a defended Matrix back take's rotational momentum into capturing the opponent's near leg, recovering to half guard bottom rather than conceding turtle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Counter Roll from Matrix in BJJ. Complete guide to redi
 
 <section id="overview" class="content-section">
 
-The Counter Roll from Matrix is a critical contingency technique that transforms a defended Matrix back take attempt into a recoverable half guard position. When the bottom player initiates a Matrix rotation and encounters defensive resistance through sprawling, base widening, or counter-rotation from the top player, continuing the original back take path becomes impossible. Rather than accepting a compromised turtle position or worse, the counter roll redirects existing rotational momentum to capture the opponent's near leg, establishing half guard bottom as a stable recovery platform.
+**The Counter Roll from Matrix is a contingency bail-out in Brazilian Jiu-Jitsu that redirects a defended Matrix back take's rotational momentum into capturing the opponent's near leg, recovering to half guard bottom rather than conceding turtle.**
+
+Within the modern Matrix back take system, the difference between a reliable threat and a reckless gamble often lies in what happens after the rotation is defended. When the bottom player initiates a Matrix rotation and encounters defensive resistance through sprawling, base widening, or counter-rotation from the top player, continuing the original back take path becomes impossible. Rather than accepting a compromised turtle position or worse, the counter roll redirects existing rotational momentum to capture the opponent's near leg, establishing half guard bottom as a stable recovery platform.
 
 The mechanics build directly on the Matrix's rolling foundation. As the original rotation stalls, the practitioner redirects their leg trajectory from seeking the opponent's back to threading around the opponent's near thigh. The shoulder remains posted on the mat as a pivot point while the hips change their arc from circumnavigating the opponent to undercutting their base. The critical moment occurs when the legs transition from back-seeking rotation to leg-capture configuration, which must happen smoothly within continuous motion to prevent the top player from capitalizing on the directional change.
 

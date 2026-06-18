@@ -34,6 +34,18 @@ description: "Master the Outside Heel Hook from Backside 50-50. Rotational attac
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Outside Heel Hook",
+  "description": "The Outside Heel Hook is a rotational leg-lock submission from Backside 50-50 that externally twists the foot to load and tear the lateral knee ligaments, serving as the position's primary finishing threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,9 +57,11 @@ description: "Master the Outside Heel Hook from Backside 50-50. Rotational attac
 
 <section id="overview" class="content-section">
 
+**The Outside Heel Hook is a rotational leg-lock submission from Backside 50-50 that externally twists the foot to load and tear the lateral knee ligaments, serving as the position's primary finishing threat.**
+
 The Outside Heel Hook is a devastating rotational leg attack targeting the lateral knee ligaments (LCL and popliteal complex) from the Backside 50-50 position. Unlike the Inside Heel Hook which attacks the medial structures, the Outside Heel Hook applies external rotation to the tibia relative to the femur, creating immense pressure on the outside of the knee joint. This makes it particularly dangerous and highly effective when properly executed.
 
-From Backside 50-50 Bottom, the attacker controls the opponent's leg with their own entanglement while securing a figure-four grip (Gable grip or S-grip) around the heel. The attack relies on proper hip positioning, controlled breaking mechanics, and understanding of rotational force application. The position provides natural leverage advantages due to the back-to-back orientation, making heel exposure more accessible than in standard 50-50.
+From Backside 50-50 Top, the attacker controls the opponent's leg with their own entanglement while securing a figure-four grip (Gable grip or S-grip) around the heel. The attack relies on proper hip positioning, controlled breaking mechanics, and understanding of rotational force application. The position provides natural leverage advantages due to the back-to-back orientation, making heel exposure more accessible than in standard 50-50.
 
 Strategically, the Outside Heel Hook serves as the primary submission threat from Backside 50-50, forcing opponents to choose between defending the heel and preventing positional advancement. When opponents hide their heel or boot-defend effectively, this opens pathways for Inside Heel Hook attacks, toe holds, or positional escapes. The technique epitomizes modern leg lock philosophy: systematic entanglement control combined with precise breaking mechanics.
 
@@ -211,7 +225,7 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 
 ## Position Integration
 
-The Outside Heel Hook represents the primary submission threat from Backside 50-50 Bottom and serves as the cornerstone of the modern leg lock attacking system from this position. It creates a fundamental dilemma for opponents who must choose between defending the heel exposure (allowing positional advancement or escape) and preventing your movement (exposing the heel to attack). This technique chains directly with the Inside Heel Hook as primary alternatives - when opponents defend one, they often expose themselves to the other. The submission also connects to the broader leg entanglement hierarchy, as successful heel hook attempts can transition to Saddle, Inside Ashi-Garami, or standard 50-50 Guard if the finish is not available. Understanding this submission is essential for any practitioner serious about modern no-gi grappling, as it fundamentally shapes how opponents must defend in leg entanglement exchanges.
+The Outside Heel Hook represents the primary submission threat from Backside 50-50 Top and serves as the cornerstone of the modern leg lock attacking system from this position. It creates a fundamental dilemma for opponents who must choose between defending the heel exposure (allowing positional advancement or escape) and preventing your movement (exposing the heel to attack). This technique chains directly with the Inside Heel Hook as primary alternatives - when opponents defend one, they often expose themselves to the other. The submission also connects to the broader leg entanglement hierarchy, as successful heel hook attempts can transition to Saddle, Inside Ashi-Garami, or standard 50-50 Guard if the finish is not available. Understanding this submission is essential for any practitioner serious about modern no-gi grappling, as it fundamentally shapes how opponents must defend in leg entanglement exchanges.
 
 </section>
 

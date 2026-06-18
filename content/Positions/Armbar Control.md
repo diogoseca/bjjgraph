@@ -34,6 +34,18 @@ description: "Master armbar control in BJJ from both offensive and defensive per
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar Control",
+  "description": "Armbar Control is a submission control position where one player isolates and pins an opponent's extended arm with their legs, hips, and grips to threaten elbow hyperextension, attacked from the top role and survived or escaped from the bottom role.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master armbar control in BJJ from both offensive and defensive per
 </div>
 
 <section id="overview" class="content-section">
+
+**Armbar Control is a submission control position where one player isolates and pins an opponent's extended arm with their legs, hips, and grips to threaten elbow hyperextension, attacked from the top role and survived or escaped from the bottom role.**
 
 Armbar Control represents one of Brazilian Jiu-Jitsu's most fundamental submission control positions, accessible from both offensive (top) and defensive (bottom) perspectives. The position centers on isolating and controlling a single arm through a combination of leg control, hip positioning, and grip management. From the top position, the practitioner uses their entire body to attack a single joint, creating overwhelming mechanical advantage. From the bottom position, the defender must employ systematic defensive principles to prevent hyperextension and create escape opportunities.
 

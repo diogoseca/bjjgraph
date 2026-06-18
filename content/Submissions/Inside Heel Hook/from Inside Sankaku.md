@@ -33,10 +33,32 @@ description: "Master the Inside Sankaku heel hook finish with detailed grip mech
 }
 </script>
 
-> **SAFETY**: Inside Heel Hook from Inside Sankaku targets the Knee ligaments (MCL, ACL, meniscus) via rotational heel manipulation. Risk: MCL (medial collateral ligament) tear from rotational force on the knee. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Heel Hook from Inside Sankaku",
+  "description": "The inside heel hook from Inside Sankaku is a rotational knee submission that twists the trapped inside heel to load the MCL, ACL, and meniscus, secured once hip connection, knee-line control, and the two-on-one heel grip are established.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The inside heel hook from Inside Sankaku is a rotational knee submission that twists the trapped inside heel to load the MCL, ACL, and meniscus, secured once hip connection, knee-line control, and the two-on-one heel grip are established.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Heel Hook</span>
+<span class="meta-chip">Targets Knee ligaments (MCL, ACL, meniscus) via rotational heel manipulation</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Inside Heel Hook from Inside Sankaku targets the Knee ligaments (MCL, ACL, meniscus) via rotational heel manipulation. Primary risk: MCL (medial collateral ligament) tear from rotational force on the knee. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,54 +75,7 @@ The finishing sequence requires systematic progression through grip establishmen
 
 Success depends on patience and systematic control breakdown rather than explosive force. Rushing the finish before establishing complete positional dominance allows skilled opponents to extract their heel or counter-entangle. The highest-percentage approach follows a systematic protocol: establish the entanglement, secure hip connection, dominate the knee line, then isolate and attack the heel. Practitioners who follow this disciplined approach achieve significantly higher finish rates than those who hunt for the heel prematurely.
 
-**Category**: Joint Lock
-**Type**: Heel Hook
-**Target Area**: Knee ligaments (MCL, ACL, meniscus) via rotational heel manipulation
-**Starting Position**: [[Positions/Inside Sankaku]]
-**From Position**: [[Positions/Inside Sankaku]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| MCL (medial collateral ligament) tear from rotational force on the knee | CRITICAL | 6-12 months, often requires surgical reconstruction |
-| ACL (anterior cruciate ligament) tear from combined rotational and lateral force | CRITICAL | 9-12 months with surgical reconstruction and rehabilitation |
-| Meniscus tear from rotational compression of the knee joint | High | 3-6 months depending on severity and surgical intervention |
-| Lateral ankle ligament sprain from secondary rotational stress on the ankle | Medium | 2-6 weeks with rest and rehabilitation |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive. The inside heel hook attacks structures that provide NO pain warning before catastrophic failure. Apply rotational pressure in millimeters, not inches. Never jerk, spike, or explosively apply this submission. The gap between controlled pressure and career-ending injury can be less than one second.
-
-**Tap Signals**:
-- Verbal tap - saying 'tap', 'stop', or any distress signal
-- Physical hand tap on partner, their leg, or the mat (minimum two taps)
-- Physical foot tap with free leg on partner or mat
-- Any unusual vocalization, screaming, or distress sound
-- Facial expression indicating pain or distress when verbal/physical tap is not possible
-
-
-**Release Protocol**:
-1. Release ALL rotational pressure immediately upon any tap signal - do not finish the grip break first
-2. Maintain leg position momentarily after release to allow partner to safely extract their leg without sudden movement
-3. If in doubt about whether partner tapped, release immediately - position can always be reestablished
-4. After release, check with partner verbally before resuming training to confirm no injury occurred
-5. Never apply additional pressure after feeling a tap, even if you believe the tap was premature
-
-
-**Training Restrictions**:
-- Purple belt and above only for live application - white and blue belts should drill mechanics without finishing pressure
-- Never apply full rotational pressure in training - catch and release with controlled slow application only
-- Do not train heel hooks when fatigued, as both attacker and defender reaction times are compromised
-- Ensure both partners have explicit agreement on heel hook training rules before engaging in leg lock exchanges
-- Banned in most gi competitions and restricted to brown/black belt no-gi in IBJJF - verify ruleset before competing
-
+**Starting Position**: [[Positions/Inside Sankaku]] · **From**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
 
@@ -264,43 +239,63 @@ Success depends on patience and systematic control breakdown rather than explosi
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
-- [[Submissions/Inside Heel Hook]]
+## Related
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Heel Hook]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Estima Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Inside Sankaku]] - Starting position providing the entanglement structure for this finish
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the Inside Sankaku position used in many leg lock systems
-- [[Submissions/Inside Heel Hook]] - The submission mechanic applied as the finishing technique
 - [[Positions/Ashi Garami/Saddle]] - Related entanglement that can be transitioned to when Inside Sankaku control is lost
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Common entry position used to transition into Inside Sankaku before finishing
 - [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical entanglement that opponent may force as a defensive counter
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Related entanglement with opposite heel exposure angle for alternative attacks
 - [[Positions/Closed Guard]] - Common escape destination when defender successfully counters the heel hook attempt
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Inside Heel Hook from Inside Sankaku leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| MCL (medial collateral ligament) tear from rotational force on the knee | CRITICAL | 6-12 months, often requires surgical reconstruction |
+| ACL (anterior cruciate ligament) tear from combined rotational and lateral force | CRITICAL | 9-12 months with surgical reconstruction and rehabilitation |
+| Meniscus tear from rotational compression of the knee joint | High | 3-6 months depending on severity and surgical intervention |
+| Lateral ankle ligament sprain from secondary rotational stress on the ankle | Medium | 2-6 weeks with rest and rehabilitation |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive. The inside heel hook attacks structures that provide NO pain warning before catastrophic failure. Apply rotational pressure in millimeters, not inches. Never jerk, spike, or explosively apply this submission. The gap between controlled pressure and career-ending injury can be less than one second.
+
+**Tap Signals**:
+- Verbal tap - saying 'tap', 'stop', or any distress signal
+- Physical hand tap on partner, their leg, or the mat (minimum two taps)
+- Physical foot tap with free leg on partner or mat
+- Any unusual vocalization, screaming, or distress sound
+- Facial expression indicating pain or distress when verbal/physical tap is not possible
+
+
+**Release Protocol**:
+1. Release ALL rotational pressure immediately upon any tap signal - do not finish the grip break first
+2. Maintain leg position momentarily after release to allow partner to safely extract their leg without sudden movement
+3. If in doubt about whether partner tapped, release immediately - position can always be reestablished
+4. After release, check with partner verbally before resuming training to confirm no injury occurred
+5. Never apply additional pressure after feeling a tap, even if you believe the tap was premature
+
+
+**Training Restrictions**:
+- Purple belt and above only for live application - white and blue belts should drill mechanics without finishing pressure
+- Never apply full rotational pressure in training - catch and release with controlled slow application only
+- Do not train heel hooks when fatigued, as both attacker and defender reaction times are compromised
+- Ensure both partners have explicit agreement on heel hook training rules before engaging in leg lock exchanges
+- Banned in most gi competitions and restricted to brown/black belt no-gi in IBJJF - verify ruleset before competing
+
 
 </section>
 

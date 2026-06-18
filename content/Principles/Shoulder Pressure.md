@@ -143,6 +143,16 @@ description: "Master shoulder pressure control in BJJ. Learn weight distribution
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Shoulder Pressure",
+  "description": "Shoulder Pressure is a top-control principle in which body weight is driven through the shoulder—transmitted by skeletal alignment rather than muscle—into targets such as the sternum, jaw, or neck to pin and immobilize an opponent.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master shoulder pressure control in BJJ. Learn weight distribution
 
 ## What is Shoulder Pressure?
 
-Shoulder Pressure is a fundamental control concept involving the strategic application of body weight through the shoulder to pin, control, and immobilize an opponent. This principle transcends specific positions and represents one of the most efficient methods of maintaining top control while minimizing energy expenditure. The concept relies on proper weight distribution, skeletal alignment, and understanding of pressure vectors to create sustained, uncomfortable control that drains the opponent's defensive capacity.
+**Shoulder Pressure is a top-control principle in which body weight is driven through the shoulder—transmitted by skeletal alignment rather than muscle—into targets such as the sternum, jaw, or neck to pin and immobilize an opponent.**
+
+Among top-game control concepts, shoulder pressure is prized for converting simple positional dominance into a relentless, energy-cheap form of control. It transcends specific positions, relying on weight distribution, skeletal alignment, and an understanding of pressure vectors to create sustained, uncomfortable control that steadily drains an opponent's defensive capacity.
 
 Effective shoulder pressure requires precise positioning where the practitioner's shoulder contacts specific anatomical targets on the opponent's body—typically the sternum, chin, jaw, or neck area. The pressure is not generated through muscular effort but through proper body positioning that allows gravity and skeletal structure to do the work. This creates a sustainable control mechanism that can be maintained for extended periods without fatigue.
 
@@ -218,7 +230,7 @@ Mastery of shoulder pressure fundamentally changes a practitioner's top game, tr
 
 **Kesa Gatame**: Press shoulder into opponent's face while sitting heavy on chest, creating uncomfortable pressure that motivates escape attempts into submission traps
 
-**Scarf Hold Position**: Drive shoulder into opponent's jaw to turn their head away while controlling near arm, using shoulder as primary control mechanism for the entire position
+**Reverse Scarf Hold**: Drive shoulder into opponent's jaw to turn their head away while controlling near arm, using shoulder as primary control mechanism for the entire position
 
 **Headquarters Position**: Apply shoulder pressure to opponent's knee or thigh while passing guard, using weight to flatten defensive structures and prevent re-guard
 
@@ -226,15 +238,15 @@ Mastery of shoulder pressure fundamentally changes a practitioner's top game, tr
 
 **Reverse Kesa-Gatame**: Drive shoulder into opponent's chest while facing away, using bodyweight to create crushing pressure on ribcage and restrict breathing capacity
 
-**Shoulder of Justice**: Apply maximum shoulder pressure to opponent's face and jaw while sprawling hips back, creating extremely heavy concentrated pressure through skeletal alignment that is difficult to maintain defenses against
+**Kuzure Kesa-Gatame**: Apply maximum shoulder pressure to opponent's face and jaw while sprawling hips back, creating extremely heavy concentrated pressure through skeletal alignment that is difficult to defend against
 
-**Half Guard Pass**: Use shoulder to drive into opponent's chest while cutting knee across, preventing them from recovering guard by pinning upper body to mat
+**Half Guard**: Use shoulder to drive into opponent's chest while cutting knee across, preventing them from recovering guard by pinning upper body to mat during the pass
 
 **High Mount**: Press shoulder into opponent's face to set up armbar or collar choke, using pressure to force defensive arm positioning that opens submission opportunities
 
-**Side Control**: Establish shoulder pressure immediately after passing to prevent immediate re-guard attempts, using the shoulder to anchor the position while securing additional control points
+**Flattened Half Guard**: Establish shoulder pressure immediately after flattening the opponent to prevent re-guard attempts, using the shoulder to anchor the position while securing additional control points
 
-**Technical Mount**: Apply shoulder pressure to opponent's jaw or neck area while establishing high mount position, using pressure to limit their ability to turn into turtle
+**Mount**: Apply shoulder pressure to opponent's jaw or neck area while establishing technical mount, using pressure to limit their ability to turn into turtle
 
 **Turtle**: Drive shoulder into opponent's hip or upper body to flatten turtle position, using pressure to break down defensive posture and expose the back or arms
 
@@ -380,11 +392,11 @@ Combine shoulder pressure with other control mechanisms (crossface, hip pressure
 - [[Knee on Belly]] (Position) - Position demonstrating integration of shoulder pressure with other control mechanisms
 - [[Hip Pressure]] (Principle) - Complementary pressure concept creating two-point control system with shoulder pressure
 - [[Frames]] (Principle) - Primary defensive counter to shoulder pressure from bottom position
-- [[Pressure Pass]] (Transition) - Passing methodology utilizing shoulder pressure as primary control mechanism
 - [[Kesa Gatame]] (Position) - Position exemplifying shoulder-based control as primary pinning mechanism
 - [[Mount]] (Position) - Superior position where shoulder pressure supplements positional control
 - [[Control Point Hierarchy]] (Principle) - Framework placing shoulder pressure within hierarchy of control mechanisms
 - [[Base]] (Principle) - Essential principle for maintaining stability while applying shoulder pressure
+- [[Forward Pressure]] (Principle) - Related directional-pressure concept that shoulder pressure concentrates through a single point
 
 
 </section>

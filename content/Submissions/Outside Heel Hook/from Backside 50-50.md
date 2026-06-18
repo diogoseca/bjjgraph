@@ -33,10 +33,32 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
 }
 </script>
 
-> **SAFETY**: Outside Heel Hook from Backside 50-50 targets the Knee and ankle joint. Risk: Lateral collateral ligament (LCL) tear from rotational torque exceeding tissue tolerance. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Outside Heel Hook from Backside 50-50",
+  "description": "The Outside Heel Hook from Backside 50-50 is a rotational knee submission that cups the opponent's heel and turns it laterally outward to torque the knee's lateral structures while chest-to-back pressure pins their hips and neutralizes defensive rotation.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Outside Heel Hook from Backside 50-50 is a rotational knee submission that cups the opponent's heel and turns it laterally outward to torque the knee's lateral structures while chest-to-back pressure pins their hips and neutralizes defensive rotation.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee and ankle joint</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Outside Heel Hook from Backside 50-50 targets the Knee and ankle joint. Primary risk: Lateral collateral ligament (LCL) tear from rotational torque exceeding tissue tolerance. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,55 +75,7 @@ The finishing mechanics rely on isolating the opponent's heel while their knee l
 
 This submission demands absolute respect for its injury potential. Rotational forces on knee ligaments provide minimal proprioceptive feedback before structural failure, meaning the defender may not feel significant pain until damage has already occurred. Strict adherence to controlled application speed, immediate release on any tap signal, and conservative training protocols are essential for safe practice.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee and ankle joint
-**Starting Position**: [[Positions/Ashi Garami/Backside 50-50]]
-**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Lateral collateral ligament (LCL) tear from rotational torque exceeding tissue tolerance | CRITICAL | 6-12 months, may require surgical reconstruction |
-| Anterior cruciate ligament (ACL) damage from combined rotational and extension forces | CRITICAL | 9-12 months with surgical reconstruction and rehabilitation |
-| Meniscus tear from rotational shearing forces on the knee joint | High | 3-6 months depending on tear severity and treatment approach |
-| Posterolateral corner injury affecting multiple stabilizing structures of the knee | High | 4-8 months with potential surgical intervention |
-| Ankle ligament sprain from secondary rotational stress transmitted through the foot | Medium | 2-6 weeks depending on severity |
-
-
-**Application Speed**: SLOW and progressive. Apply rotation gradually over 2-3 seconds minimum. Never jerk, spike, or explosively rotate the heel. The knee ligaments targeted provide almost no pain warning before structural failure, making controlled application speed the single most important safety practice.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or the mat (single or repeated)
-- Physical foot tap with free leg on mat or partner
-- Any unusual screaming, gasping, or distress vocalization
-- Sudden body stiffening or panicked movement indicating distress
-
-
-**Release Protocol**:
-1. Release ALL rotational pressure immediately upon any tap signal—do not finish the rotation
-2. Disengage heel grip completely before releasing leg entanglement to prevent accidental torque during separation
-3. Maintain leg entanglement briefly without pressure to allow controlled, safe separation of limbs
-4. If opponent appears injured or does not respond normally after release, stop training immediately and assess
-5. If in any doubt whether a tap occurred, release immediately—the position can always be re-established
-
-
-**Training Restrictions**:
-- Heel hooks should only be trained with partners who understand rotational leg lock mechanics and tap early
-- New practitioners (white and blue belts) should drill grip mechanics and positioning without applying rotational finishing pressure
-- Never apply this submission at full speed during positional sparring—reserve competition-speed application for competition only
-- Partners with prior knee injuries should communicate limitations before leg lock training begins
-- Avoid training heel hooks when fatigued, as reduced proprioception increases injury risk for both practitioners
-
+**Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] · **From**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
 
@@ -269,45 +243,64 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Heel Hook from Saddle]]
-- [[Inside Heel Hook from Honey Hole]]
 - [[Transitions/Heel Hook]]
-- [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Achilles Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Backside 50-50]] - Primary starting position providing the positional platform for this submission
 - [[Positions/Ashi Garami/50-50 Guard]] - Standard face-to-face variant that can be converted to backside angle for this attack
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement position with similar outside heel hook mechanics
-- [[Submissions/Inside Heel Hook]] - Complementary heel hook targeting opposite rotational direction from similar positions
 - [[Positions/Ashi Garami/Saddle]] - Alternative dominant leg entanglement reachable from backside 50-50 when heel is defended
 - [[Positions/Ashi Garami/Honey Hole]] - Advanced leg entanglement sharing similar finishing mechanics and transitions
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related ashi garami variation accessible through leg entanglement transitions
 - [[Positions/Back Control]] - Alternative positional advancement from backside 50-50 when leg attacks are defended
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Outside Heel Hook from Backside 50-50 leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Lateral collateral ligament (LCL) tear from rotational torque exceeding tissue tolerance | CRITICAL | 6-12 months, may require surgical reconstruction |
+| Anterior cruciate ligament (ACL) damage from combined rotational and extension forces | CRITICAL | 9-12 months with surgical reconstruction and rehabilitation |
+| Meniscus tear from rotational shearing forces on the knee joint | High | 3-6 months depending on tear severity and treatment approach |
+| Posterolateral corner injury affecting multiple stabilizing structures of the knee | High | 4-8 months with potential surgical intervention |
+| Ankle ligament sprain from secondary rotational stress transmitted through the foot | Medium | 2-6 weeks depending on severity |
+
+
+**Application Speed**: SLOW and progressive. Apply rotation gradually over 2-3 seconds minimum. Never jerk, spike, or explosively rotate the heel. The knee ligaments targeted provide almost no pain warning before structural failure, making controlled application speed the single most important safety practice.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, your body, or the mat (single or repeated)
+- Physical foot tap with free leg on mat or partner
+- Any unusual screaming, gasping, or distress vocalization
+- Sudden body stiffening or panicked movement indicating distress
+
+
+**Release Protocol**:
+1. Release ALL rotational pressure immediately upon any tap signal—do not finish the rotation
+2. Disengage heel grip completely before releasing leg entanglement to prevent accidental torque during separation
+3. Maintain leg entanglement briefly without pressure to allow controlled, safe separation of limbs
+4. If opponent appears injured or does not respond normally after release, stop training immediately and assess
+5. If in any doubt whether a tap occurred, release immediately—the position can always be re-established
+
+
+**Training Restrictions**:
+- Heel hooks should only be trained with partners who understand rotational leg lock mechanics and tap early
+- New practitioners (white and blue belts) should drill grip mechanics and positioning without applying rotational finishing pressure
+- Never apply this submission at full speed during positional sparring—reserve competition-speed application for competition only
+- Partners with prior knee injuries should communicate limitations before leg lock training begins
+- Avoid training heel hooks when fatigued, as reduced proprioception increases injury risk for both practitioners
+
 
 </section>
 

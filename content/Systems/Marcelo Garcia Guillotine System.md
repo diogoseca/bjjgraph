@@ -135,6 +135,16 @@ description: "Master Marcelo Garcia's high-percentage guillotine system. Learn s
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Marcelo Garcia Guillotine System",
+  "description": "The Marcelo Garcia Guillotine System is a high-percentage front-headlock framework that chains guillotine grips, guard pulls, sweeps, and back takes into an interconnected attack web effective in gi and no-gi, even against larger opponents.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -148,6 +158,8 @@ description: "Master Marcelo Garcia's high-percentage guillotine system. Learn s
 <section id="overview" class="content-section">
 
 ## What is Marcelo Garcia Guillotine System?
+
+**The Marcelo Garcia Guillotine System is a high-percentage front-headlock framework that chains guillotine grips, guard pulls, sweeps, and back takes into an interconnected attack web effective in gi and no-gi, even against larger opponents.**
 
 Marcelo Garcia's guillotine system represents one of the most refined and effective submission frameworks in modern Brazilian Jiu-Jitsu. Built on decades of competition experience and thousands of successful finishes, this system transforms the guillotine from an opportunistic submission into a systematic attacking weapon. The framework encompasses multiple entry points, grip variations, and finishing positions, all connected through a logical decision tree that responds to opponent reactions. Garcia's approach emphasizes high-elbow positioning, precise hand placement, and the integration of guillotine attacks with sweeps and back takes. What distinguishes this system is its adaptability across positions - from standing clinches to guard pulls to turtle attacks - making it equally effective in gi and no-gi contexts. The methodology prioritizes connection and control over raw strength, allowing practitioners of all sizes to implement the system successfully against larger opponents.
 

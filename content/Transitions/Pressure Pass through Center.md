@@ -34,6 +34,18 @@ description: "Learn Pressure Pass through Center from Grasshopper Guard. Step-by
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pressure Pass through Center",
+  "description": "Pressure Pass through Center is a guard pass against inverted guards where the top player drives chest-and-hip weight straight through the opponent's elevated hips, collapsing their inversion and stacking them to advance directly to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Pressure Pass through Center from Grasshopper Guard. Step-by
 </div>
 
 <section id="overview" class="content-section">
+
+**Pressure Pass through Center is a guard pass against inverted guards where the top player drives chest-and-hip weight straight through the opponent's elevated hips, collapsing their inversion and stacking them to advance directly to side control.**
 
 The Pressure Pass through Center is a direct, aggressive passing method used when facing an opponent in Grasshopper Guard or similar inverted positions. Rather than circling around the guard or attempting back steps, this pass drives straight through the opponent's defensive structure by collapsing their hip elevation and stacking their inverted posture. The technique capitalizes on the inherent vulnerability of inverted guards—the bottom player's core cannot sustain heavy forward pressure indefinitely.
 

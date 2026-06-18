@@ -34,6 +34,18 @@ description: "Master Base Attack to Sweep from Aoki Lock bottom. Destabilize opp
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Base Attack to Sweep",
+  "description": "Base Attack to Sweep is an offensive escape from Aoki Lock bottom that destabilizes the top player's posted leg during their finishing commitment, reversing the shoulder-lock danger into a sweep that lands in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Base Attack to Sweep from Aoki Lock bottom. Destabilize opp
 </div>
 
 <section id="overview" class="content-section">
+
+**Base Attack to Sweep is an offensive escape from Aoki Lock bottom that destabilizes the top player's posted leg during their finishing commitment, reversing the shoulder-lock danger into a sweep that lands in mount.**
 
 The Base Attack to Sweep represents a critical offensive escape option from the Aoki Lock bottom position, targeting the top player's posted leg to destabilize their base and create a sweeping opportunity. When caught in Aoki Lock bottom, most practitioners focus purely on defensive arm extraction, but the base attack approach exploits a fundamental vulnerability in the position - the top player must maintain a posted leg for stability while applying shoulder pressure, and attacking this base creates immediate positional crisis.
 

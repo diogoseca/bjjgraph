@@ -34,6 +34,18 @@ description: "Master Front Headlock to Back Take in BJJ. Complete guide covering
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Front Headlock to Back",
+  "description": "Front Headlock to Back is a top transition that converts front headlock control of a turtled or bent-over opponent into dominant back control by circling toward the choking-arm side, inserting hooks sequentially, then switching the headlock to a seat-belt harness.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Front Headlock to Back Take in BJJ. Complete guide covering
 </div>
 
 <section id="overview" class="content-section">
+
+**Front Headlock to Back is a top transition that converts front headlock control of a turtled or bent-over opponent into dominant back control by circling toward the choking-arm side, inserting hooks sequentially, then switching the headlock to a seat-belt harness.**
 
 The Front Headlock to Back Take is a fundamental transitional technique that exploits the opponent's defensive turtle position to establish dominant back control. This technique represents a critical juncture in grappling where the attacking practitioner converts head control into the most dominant position in Brazilian Jiu-Jitsu. The transition combines elements of wrestling-based front headlock control with BJJ-specific back attack principles, creating a systematic pathway from a semi-dominant position to full back control with hooks and seat belt grip established.
 

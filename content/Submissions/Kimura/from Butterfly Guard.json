@@ -1,5 +1,7 @@
 {
   "name": "Kimura from Butterfly Guard",
+  "summary": "The Kimura from Butterfly Guard is a bottom-position shoulder lock that uses butterfly hooks to off-balance the opponent while a figure-four grip rotates their trapped arm behind their back, forcing internal rotation past the shoulder's safe range.",
+  "family": "Kimura",
   "description": "Master the Kimura from Butterfly Guard in BJJ. Learn grip setup, hook leverage, finishing mechanics, and counters for this high-percentage bottom submission.",
   "tags": [
     "bjj",
@@ -18,7 +20,7 @@
   "starting_position": "Butterfly Guard",
   "from_position": "Butterfly Guard/Bottom",
   "success_rate": 62,
-  "overview": "The Kimura from Butterfly Guard is a high-percentage shoulder lock attack launched from the bottom position, leveraging the unique mechanical advantages of butterfly hooks to off-balance the opponent while securing the figure-four grip. Unlike Kimura attacks from closed guard or half guard, the butterfly guard version benefits from the seated upright posture and active hook engagement, allowing the attacker to use elevation and angle changes to expose the opponent's arm and create finishing opportunities. The setup integrates naturally with butterfly guard offense, making it a seamless addition to an already threatening position.\n\nThe attack typically arises when the opponent posts a hand to defend against butterfly sweeps or reaches forward to establish grips, creating the opening for wrist control and the subsequent figure-four lock. The butterfly hooks serve a dual purpose during the attack: they prevent the opponent from posturing away to break the grip, and they provide the elevation needed to create rotational space for the finish. This integration of sweep threat and submission attack creates a powerful dilemma where the opponent must choose between defending the sweep and exposing the arm, or defending the Kimura and becoming vulnerable to elevation.\n\nAdvanced practitioners chain the Kimura attempt directly off failed or feinted butterfly sweeps, using the opponent's defensive hand posting as the entry point. The position also offers natural transitions to the Kimura Trap when the opponent resists the initial rotation, allowing the attacker to maintain the grip and advance to a more dominant finishing position. The butterfly guard Kimura rewards practitioners who develop sensitivity to weight distribution shifts and timing, as the technique depends heavily on catching the opponent in transitional moments rather than forcing the grip against a fully defended posture.",
+  "overview": "Among butterfly guard's offensive arsenal, the Kimura stands out as the position's most reliable submission, converting a guard built primarily around sweeps into a genuine finishing threat. Unlike Kimura attacks from closed guard or half guard, the butterfly guard version benefits from the seated upright posture and active hook engagement, allowing the attacker to use elevation and angle changes to expose the opponent's arm and create finishing opportunities. The setup integrates naturally with butterfly guard offense, making it a seamless addition to an already threatening position.\n\nThe attack typically arises when the opponent posts a hand to defend against butterfly sweeps or reaches forward to establish grips, creating the opening for wrist control and the subsequent figure-four lock. The butterfly hooks serve a dual purpose during the attack: they prevent the opponent from posturing away to break the grip, and they provide the elevation needed to create rotational space for the finish. This integration of sweep threat and submission attack creates a powerful dilemma where the opponent must choose between defending the sweep and exposing the arm, or defending the Kimura and becoming vulnerable to elevation.\n\nAdvanced practitioners chain the Kimura attempt directly off failed or feinted butterfly sweeps, using the opponent's defensive hand posting as the entry point. The position also offers natural transitions to the Kimura Trap when the opponent resists the initial rotation, allowing the attacker to maintain the grip and advance to a more dominant finishing position. The butterfly guard Kimura rewards practitioners who develop sensitivity to weight distribution shifts and timing, as the technique depends heavily on catching the opponent in transitional moments rather than forcing the grip against a fully defended posture.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -130,7 +132,7 @@
     }
   ],
   "attacker": {
-    "name": "from Butterfly Guard Attacker",
+    "name": "Kimura from Butterfly Guard Attacker",
     "description": "Execute the Kimura from Butterfly Guard with precise grip mechanics, hook leverage for off-balancing, and systematic finishing sequences from bottom position.",
     "overview": "Attacking the Kimura from Butterfly Guard requires coordinating upper body grip mechanics with lower body hook management to maintain positional control while isolating and rotating the shoulder. The seated posture provides natural advantages for securing the figure-four grip, while the hooks create constant base disruption that prevents the opponent from mounting effective defenses. Success depends on recognizing the moment when the opponent's hand becomes available, typically during sweep defense or grip fighting, and transitioning smoothly from guard play to submission attack without sacrificing hook position or posture.",
     "key_principles": [
@@ -313,14 +315,14 @@
         "safety_critical": false
       },
       {
-        "question": "Your opponent starts to posture up aggressively while you hold the Kimura grip - what prevents the escape?",
-        "answer": "Drive your hooks upward into their inner thighs to elevate their hips and break their posture before they can fully extend. Simultaneously pull the trapped arm toward your hip to prevent them from creating the distance needed to straighten the arm. If they continue posturing, use their forward commitment to roll them over into a Kimura Trap position where you end up on top with the grip intact, converting their escape attempt into a more dominant finishing position.",
+        "question": "In competition, your opponent starts to posture up aggressively while you hold the Kimura grip - what prevents the escape?",
+        "answer": "Drive your hooks upward into their inner thighs to elevate their hips and break their posture before they can fully extend. Simultaneously pull the trapped arm toward your hip to prevent them from creating the distance needed to straighten the arm. If they continue posturing, use their forward commitment to roll them over into a Kimura Trap position where you end up on top with the grip intact, converting their escape attempt into a more dominant finishing position and scoring the reversal.",
         "safety_critical": false
       }
     ]
   },
   "defender": {
-    "name": "from Butterfly Guard Defender",
+    "name": "Kimura from Butterfly Guard Defender",
     "description": "Defend the Kimura from Butterfly Guard with early recognition, grip prevention, posture management, and systematic escape techniques to neutralize the attack.",
     "overview": "Defending the Kimura from Butterfly Guard requires early recognition of the grip setup and immediate action to prevent the figure-four from being established. The defender must manage two simultaneous threats: the butterfly sweep and the shoulder lock, making defensive positioning more complex than defending a Kimura from closed guard or half guard. Priority must be given to maintaining posture, keeping elbows tight to the body, and denying the attacker wrist control, as once the figure-four is locked and hooks create elevation, escape becomes significantly more difficult and injury risk increases substantially.",
     "key_principles": [

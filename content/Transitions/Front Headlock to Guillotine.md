@@ -34,6 +34,18 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Front Headlock to Guillotine",
+  "description": "Front Headlock to Guillotine is a no-gi submission entry where the attacker, controlling a bent-forward opponent from front headlock, slides the choking arm under the chin and locks a guillotine grip to convert head control into an immediate choke threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
 </div>
 
 <section id="overview" class="content-section">
+
+**Front Headlock to Guillotine is a no-gi submission entry where the attacker, controlling a bent-forward opponent from front headlock, slides the choking arm under the chin and locks a guillotine grip to convert head control into an immediate choke threat.**
 
 The Front Headlock to Guillotine transition represents a critical pathway in modern submission grappling, transforming a dominant control position into a high-percentage finishing opportunity. This transition is fundamental to understanding the front headlock series, where the practitioner leverages head and arm control to create the angle and grip necessary for the guillotine choke. The technique is particularly effective when the opponent attempts to stand from turtle or drives forward from a defensive posture, creating the perfect moment to secure the guillotine grip and establish submission control.
 

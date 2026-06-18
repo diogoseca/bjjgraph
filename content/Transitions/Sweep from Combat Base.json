@@ -1,5 +1,6 @@
 {
   "name": "Sweep from Combat Base",
+  "summary": "Sweep from Combat Base is a bottom-player reversal that exploits the asymmetric stance's diagonal weakness by loading the passer's weight onto the posted knee or planted foot, then removing that support to topple them into a top position.",
   "description": "Master sweeps against Combat Base in BJJ. Complete guide to exploiting the asymmetric stance with hook elevation, ankle picks, and grip-based reversals.",
   "tags": [
     "bjj",
@@ -78,10 +79,6 @@
       "relationship": "Parent guard category from which sweeps against combat base are initiated"
     },
     {
-      "name": "Butterfly Hook Sweep",
-      "relationship": "Closely related transition sharing hook elevation mechanics and sweep direction principles"
-    },
-    {
       "name": "Guard Recovery from Combat Base",
       "relationship": "Complementary technique used when sweep fails but guard retention succeeds"
     },
@@ -94,16 +91,12 @@
       "relationship": "Opponent's advancement option that sweep attempts are designed to prevent"
     },
     {
-      "name": "Shin-to-Shin Sweep",
-      "relationship": "Related sweep using shin-to-shin contact as an alternative entry against combat base"
-    },
-    {
-      "name": "Homer Simpson Sweep",
-      "relationship": "Creative sweep variant that can catch combat base players off-guard with unexpected angles"
-    },
-    {
       "name": "De La Riva Guard",
       "relationship": "Alternative guard that targets the posted leg and chains with combat base sweep attempts"
+    },
+    {
+      "name": "Knee Slide from Combat Base",
+      "relationship": "Primary passing threat the sweep races against and disrupts when the passer commits weight forward"
     }
   ],
   "attacker": {

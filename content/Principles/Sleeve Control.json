@@ -15,7 +15,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Sleeve Control is a fundamental gripping concept in Brazilian Jiu-Jitsu that involves securing and manipulating an opponent's sleeve to control their arm position, break posture, prevent base establishment, and create offensive opportunities. This concept forms the foundation of most guard systems, particularly in gi training, where fabric grips provide mechanical advantages for controlling distance, angles, and transitions.\n\nThe strategic value of sleeve control extends beyond simple grip fighting - it represents a systematic approach to manipulating an opponent's ability to post, base, and defend. By controlling the sleeve, you control the endpoint of their kinetic chain, effectively neutralizing their ability to generate power, establish frames, or execute techniques. Proper sleeve control creates a constant dilemma: if the opponent focuses on breaking your grip, they cannot advance their position; if they ignore the grip to advance, they move into vulnerable positions where sweeps and submissions become available.\n\nSleeve control integrates with other fundamental concepts including grip strategy, posture breaking, distance management, and off-balancing. The concept appears across all guard positions - from closed guard collar and sleeve combinations to spider guard extension control to De La Riva manipulation. Mastering sleeve control provides a framework for understanding how to systematically break down an opponent's defensive structure while building your own offensive system.",
+  "summary": "Sleeve Control is the practice of gripping and manipulating an opponent's sleeve—ideally deep at the wrist—to govern their arm, break posture, deny posting and framing, and open sweep and submission opportunities.",
+  "overview": "Sleeve control is one of the foundational grip-fighting concepts of gi Brazilian Jiu-Jitsu, where the cuff of the jacket gives the guard player a durable mechanical handle that no-gi grips can only approximate. It underpins the collar-and-sleeve game that dominates IBJJF competition and serves as the gateway into nearly every open-guard system, from spider to De La Riva.\n\nThe strategic value of sleeve control extends beyond simple grip fighting - it represents a systematic approach to manipulating an opponent's ability to post, base, and defend. By controlling the sleeve, you control the endpoint of their kinetic chain, effectively neutralizing their ability to generate power, establish frames, or execute techniques. Proper sleeve control creates a constant dilemma: if the opponent focuses on breaking your grip, they cannot advance their position; if they ignore the grip to advance, they move into vulnerable positions where sweeps and submissions become available.\n\nSleeve control integrates with other fundamental concepts including grip strategy, posture breaking, distance management, and off-balancing. The concept appears across all guard positions - from closed guard collar and sleeve combinations to spider guard extension control to De La Riva manipulation. Mastering sleeve control provides a framework for understanding how to systematically break down an opponent's defensive structure while building your own offensive system.",
   "key_principles": [
     "Control the endpoint (wrist/sleeve) to control the entire arm and limit opponent's ability to post or frame",
     "Combine sleeve control with other grips (collar, pants, belt) to create multi-directional pressure and prevent compensatory movements",
@@ -383,14 +384,9 @@
       "relationship": "Open guard position using far-side sleeve control combined with DLR hook to prevent guard passing"
     },
     {
-      "name": "Grip Break",
-      "content_type": "Transition",
-      "relationship": "Defensive technique for breaking opponent's sleeve control on your arms to regain freedom of movement"
-    },
-    {
-      "name": "Pass to Side Control",
-      "content_type": "Transition",
-      "relationship": "Opponent's primary goal when you have sleeve control - your grips prevent passing by controlling their arms"
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Hand fighting framework that determines success in establishing and maintaining sleeve grips against resistance"
     },
     {
       "name": "Defensive Concepts",
@@ -398,9 +394,52 @@
       "relationship": "Defensive framework where sleeve control plays critical role in preventing opponent from establishing passing grips and maintaining guard integrity"
     },
     {
-      "name": "Grips",
+      "name": "Distance Control",
       "content_type": "Principle",
-      "relationship": "Hand fighting framework that determines success in establishing and maintaining sleeve grips against resistance"
+      "relationship": "Sleeve control is the primary mechanism for regulating distance in guard - pulling to close range for attacks or extending to create defensive space"
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "Position where two-on-one sleeve control combines with butterfly hooks to create a high-percentage elevation sweep platform"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why should you grip the sleeve deep near the wrist rather than at the forearm or elbow?",
+      "answer": "Gripping at the wrist controls the endpoint of the arm's kinetic chain, maximizing leverage and preventing the opponent from circling the arm free or building strong frames."
+    },
+    {
+      "question": "What is the core dilemma that strong sleeve control imposes on an opponent?",
+      "answer": "If they fight to break the grip they cannot advance their pass, but if they ignore it to advance they step into sweeps and submissions — either choice favors the guard player."
+    },
+    {
+      "question": "Why is a single sleeve grip usually insufficient for real control?",
+      "answer": "A lone sleeve grip lets the opponent compensate with the free arm, circle away, or base with their legs; pairing it with a collar, pants, or second sleeve grip removes those escape routes."
+    },
+    {
+      "question": "How do you keep sleeve control when the opponent actively tries to strip the grip?",
+      "answer": "Transition fluidly between pistol, pocket, and lasso configurations, follow their movement instead of resisting statically, and connect the grip to your core through elbow and body structure."
+    },
+    {
+      "question": "What is the consequence of holding a static sleeve grip with no directional pull?",
+      "answer": "Static grips let the opponent keep good posture and base, so the grip becomes passive; you must pull across the centerline or at angles to actively disrupt their structure."
+    },
+    {
+      "question": "Why does extending the opponent's arm fail to break their posture on its own?",
+      "answer": "They can lean back to preserve posture despite the extended arm; you must pair the extension with collar, head, or leg pressure to break their spine forward."
+    },
+    {
+      "question": "How does sleeve control let you regulate distance in guard?",
+      "answer": "Pulling the sleeve closes distance for triangles and omoplatas, while extending the arm fully creates space for defensive frames and re-guarding — matching distance to the intended technique."
+    },
+    {
+      "question": "Which guards are built primarily around sleeve control?",
+      "answer": "Spider guard (double sleeve with feet in biceps), lasso guard (leg threaded around the sleeve), collar-sleeve guard, and double-sleeve feet-on-hips all center on sleeve manipulation."
+    },
+    {
+      "question": "Why grip with skeletal structure rather than arm muscles alone?",
+      "answer": "Pure muscular gripping fatigues quickly and fails as the match wears on; connecting the grip through elbow position and body angles lets your skeleton hold tension efficiently."
     }
   ]
 }

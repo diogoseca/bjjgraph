@@ -1,5 +1,6 @@
 {
   "name": "Sweep from Inverted Guard",
+  "summary": "The Sweep from Inverted Guard is a dynamic bottom-game transition where the inverted player uses hip rotation and a deep leg hook to off-balance a passing or kneeling opponent and rotate directly into back control.",
   "description": "Master the Sweep from Inverted Guard in BJJ. Learn how inverted hip mechanics create powerful sweeping angles for transitioning directly to back control.",
   "tags": [
     "bjj",
@@ -30,7 +31,7 @@
     }
   ],
   "success_rate": 45,
-  "overview": "The Sweep from Inverted Guard is a dynamic transitional technique that leverages the unique angles created by the inverted position to disrupt the opponent's base and establish back control. By positioning upside-down with shoulder contact on the mat, the bottom practitioner uses hip rotation and leg hooks to generate rotational momentum that the standing or kneeling opponent struggles to resist. This sweep capitalizes on the angular advantages inherent to the inverted position, converting defensive guard retention into an offensive back take opportunity that represents one of the highest-value transitions in modern competition jiu-jitsu.\n\nThe technique requires precise timing and grip coordination. The sweeper must establish controlling grips on the opponent's pants, belt, or sleeves while simultaneously inserting hooks behind the opponent's legs or around their hips. The sweep relies on hip rotation rather than upper body strength, making it effective against larger opponents when executed with proper mechanics. The rotational force generated from the hips, combined with strategic grip placement, creates a mechanical advantage that compromises the opponent's base regardless of their size or strength advantage.\n\nThis sweep integrates naturally into the modern guard retention and back attack system, functioning as both an offensive weapon and a counter-passing tool. When the opponent attempts to pass the inverted guard, the sweep becomes available as a counter that transforms a defensive situation into dominant back control. The technique has been refined extensively through competition evolution, particularly within berimbolo-based systems, and serves as a critical link between guard retention sequences and systematic back attack chains.",
+  "overview": "Born from the berimbolo era of competitive guard play, this sweep converts the brief vulnerability of inversion into the sport's most valuable prize: direct entry to the back. By positioning upside-down with shoulder contact on the mat, the bottom practitioner uses hip rotation and leg hooks to generate rotational momentum that the standing or kneeling opponent struggles to resist. This sweep capitalizes on the angular advantages inherent to the inverted position, converting defensive guard retention into an offensive back take opportunity that represents one of the highest-value transitions in modern competition jiu-jitsu.\n\nThe technique requires precise timing and grip coordination. The sweeper must establish controlling grips on the opponent's pants, belt, or sleeves while simultaneously inserting hooks behind the opponent's legs or around their hips. The sweep relies on hip rotation rather than upper body strength, making it effective against larger opponents when executed with proper mechanics. The rotational force generated from the hips, combined with strategic grip placement, creates a mechanical advantage that compromises the opponent's base regardless of their size or strength advantage.\n\nThis sweep integrates naturally into the modern guard retention and back attack system, functioning as both an offensive weapon and a counter-passing tool. When the opponent attempts to pass the inverted guard, the sweep becomes available as a counter that transforms a defensive situation into dominant back control. The technique has been refined extensively through competition evolution, particularly within berimbolo-based systems, and serves as a critical link between guard retention sequences and systematic back attack chains.",
   "conditions": [
     "Established inverted guard with hips elevated and shoulders in contact with the mat",
     "At least one controlling grip on opponent's pants, belt, or sleeve secured before initiating sweep",
@@ -326,7 +327,7 @@
       },
       {
         "outcome": "Inverted Guard/Bottom",
-        "how": "Strip the opponent's grips early before they can establish the dual-grip connection needed for the sweep. Use both hands to peel their pants grip while backstipping away from the hook side. Without grip connections, the sweep cannot generate sufficient force and the opponent remains in inverted guard without offensive capability, allowing you to re-engage on your terms."
+        "how": "Strip the opponent's grips early before they can establish the dual-grip connection needed for the sweep. Use both hands to peel their pants grip while backstepping away from the hook side. Without grip connections, the sweep cannot generate sufficient force and the opponent remains in inverted guard without offensive capability, allowing you to re-engage on your terms."
       }
     ],
     "common_errors": [
@@ -362,7 +363,7 @@
       },
       {
         "question": "Your opponent has secured a hook behind your leg and gripped your pants - what is your immediate defensive priority?",
-        "answer": "Your immediate priority is stripping the pants grip before the opponent generates rotational momentum. The grip is the connection point through which sweep force is transmitted, and without it the hook alone cannot complete the sweep effectively. Use both hands to peel their grip while simultaneously backstipping away from the hook side. If the grip cannot be broken quickly, drop your hips and sprawl to remove the angle the sweep requires."
+        "answer": "Your immediate priority is stripping the pants grip before the opponent generates rotational momentum. The grip is the connection point through which sweep force is transmitted, and without it the hook alone cannot complete the sweep effectively. Use both hands to peel their grip while simultaneously backstepping away from the hook side. If the grip cannot be broken quickly, drop your hips and sprawl to remove the angle the sweep requires."
       },
       {
         "question": "When is stack passing the correct defensive response to an inverted guard sweep attempt?",

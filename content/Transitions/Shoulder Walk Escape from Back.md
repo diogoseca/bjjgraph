@@ -34,6 +34,18 @@ description: "Master the shoulder walk escape from back control in BJJ. Complete
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Shoulder Walk Escape from Back",
+  "description": "The shoulder walk escape is a grinding back-control escape in which the bottom player drives off alternating shoulders to slide their torso downward inch by inch, progressively shallowing the opponent's hooks until a single hip escape clears them.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the shoulder walk escape from back control in BJJ. Complete
 
 <section id="overview" class="content-section">
 
-The shoulder walk escape from back control is a methodical, incremental escape technique where the bottom player alternately drives off each shoulder to scoot their body downward relative to the opponent, progressively making the hooks shallower until they can be cleared entirely. Unlike explosive escapes that rely on timing a single burst of movement, the shoulder walk is a grinding, positional escape that works through persistent micro-movements that are individually difficult for the top player to counter. This makes it particularly effective against opponents with strong hook retention who neutralize larger hip escape attempts.
+**The shoulder walk escape is a grinding back-control escape in which the bottom player drives off alternating shoulders to slide their torso downward inch by inch, progressively shallowing the opponent's hooks until a single hip escape clears them.**
+
+Among the family of back escapes, the shoulder walk fills the niche of the patient grinder, the tool you turn to once explosive hip escapes have already stalled against a top player with stubborn hook retention. Unlike escapes that rely on timing a single decisive burst of movement, the shoulder walk is a positional grind that works through persistent micro-movements which are individually difficult for the top player to counter. This makes it particularly effective against opponents who reflexively neutralize larger hip escape attempts but struggle to track an accumulation of tiny displacements.
 
 The mechanical principle behind the shoulder walk is straightforward: each alternating shoulder drive shifts your torso one to two inches downward while the opponent's hooks remain relatively stationary. Over ten to fifteen repetitions, you create enough displacement that their feet are barely inside your thighs, at which point a single hip escape or hand clear removes them entirely. The technique demands patience and discipline, as rushing the movement or making large shifts allows the opponent to follow and re-center their hooks. The escape integrates naturally with hand fighting sequences, as you must maintain neck defense throughout the walking movement, creating a dual-task challenge that rewards practiced coordination.
 

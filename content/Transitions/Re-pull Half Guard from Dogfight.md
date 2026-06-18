@@ -34,6 +34,18 @@ description: "Master the Re-pull Half Guard from Dogfight in BJJ. Learn when to 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Re-pull Half Guard from Dogfight",
+  "description": "The Re-pull Half Guard from Dogfight is a deliberate, frame-first retreat in which the bottom player disengages a deteriorating dogfight scramble and re-establishes a structured half guard—knee shield and distance intact—rather than being driven flat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Re-pull Half Guard from Dogfight in BJJ. Learn when to 
 
 <section id="overview" class="content-section">
 
-The Re-pull Half Guard from Dogfight is a deliberate positional retreat executed when the bottom player determines that the dogfight exchange is deteriorating—typically when the opponent establishes a dominant whizzer, wins the crossface battle, or generates superior forward pressure that threatens flattening. Rather than continuing to fight a losing underhook battle that drains energy and risks being smashed flat, the bottom player proactively disengages the elevated kneeling posture and re-establishes a structured half guard with proper frames, knee shield, and distance management intact.
+**The Re-pull Half Guard from Dogfight is a deliberate, frame-first retreat in which the bottom player disengages a deteriorating dogfight scramble and re-establishes a structured half guard—knee shield and distance intact—rather than being driven flat.**
+
+Practitioners reach for this retreat the moment the dogfight exchange starts to slip—typically when the opponent establishes a dominant whizzer, wins the crossface battle, or generates superior forward pressure that threatens flattening. Rather than continuing to fight a losing underhook battle that drains energy and risks being smashed flat, the bottom player proactively disengages the elevated kneeling posture and re-establishes a structured half guard with proper frames, knee shield, and distance management intact.
 
 This transition occupies a critical role in modern half guard systems as a pressure-release valve. Practitioners who lack this skill frequently get caught between positions—too committed to retreat cleanly, yet unable to advance offensively—resulting in energy-draining stalemates or being driven into flattened half guard where all offensive capability disappears. The key distinction is between a controlled, frame-first re-pull that lands you in an organized half guard versus an uncontrolled collapse that the top player exploits to advance position.
 

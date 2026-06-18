@@ -34,6 +34,18 @@ description: "Master mounted triangle position in BJJ. High-risk, high-reward po
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mounted Triangle",
+  "description": "Mounted Triangle is a hybrid top position where the attacker threads one leg over the opponent's shoulder and under their neck while retaining mount, fusing positional control with an immediate triangle-choke and armbar threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master mounted triangle position in BJJ. High-risk, high-reward po
 </div>
 
 <section id="overview" class="content-section">
+
+**Mounted Triangle is a hybrid top position where the attacker threads one leg over the opponent's shoulder and under their neck while retaining mount, fusing positional control with an immediate triangle-choke and armbar threat.**
 
 Mounted Triangle represents one of Brazilian Jiu-Jitsu's most dynamic and high-reward positions, blending the dominant control characteristics of mount with the submission threat of triangle mechanics. This hybrid position emerges when the top practitioner transitions from standard mount or high mount into a triangle configuration while maintaining superior positioning.
 
@@ -208,7 +222,7 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Triangle Choke from Mounted Triangle/Attacker|Triangle Choke from Mounted Triangle]]** (22% of attempts)
+- **[[Triangle Choke from Mounted Triangle/Attacker|Triangle Choke from Mounted Triangle]]** (21% of attempts)
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
 
@@ -216,15 +230,15 @@ Success in mounted triangle requires understanding the biomechanical principles 
 
 - **[[Transitions/Back Take/Attacker|Back Take]]** (8% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (9% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (8% of attempts)
 
 - **[[Positions/Gift Wrap/Attacker|Gift Wrap]]** (6% of attempts)
 
 - **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (6% of attempts)
 
-- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (9% of attempts)
+- **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (8% of attempts)
 
-- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (9% of attempts)
+- **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** (8% of attempts)
 
 - **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (7% of attempts)
 
@@ -233,6 +247,8 @@ Success in mounted triangle requires understanding the biomechanical principles 
 - **[[Transitions/Mounted Triangle to S Mount/Attacker|Mounted Triangle to S Mount]]** (2% of attempts)
 
 - **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** (2% of attempts)
+
+- **[[Belly Down Armbar from Mounted Triangle/Attacker|Belly Down Armbar from Mounted Triangle]]** (4% of attempts)
 
 
 ### Common Mistakes

@@ -34,6 +34,18 @@ description: "Learn the forward roll escape from saddle in BJJ. Complete guide c
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Forward Roll from Saddle",
+  "description": "The Forward Roll from Saddle is an explosive inversion escape in which the bottom player rolls diagonally over the trapped-side shoulder to spiral their leg out of the figure-four, usually surfacing in turtle at the cost of temporary back exposure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn the forward roll escape from saddle in BJJ. Complete guide c
 
 <section id="overview" class="content-section">
 
-The Forward Roll from Saddle is a dynamic inversion-based escape used when trapped in the saddle leg entanglement. Rather than fighting incrementally through grip breaks and hip clears, this technique uses rotational momentum to rapidly extract the trapped leg from the opponent's figure-four configuration. The escape leverages the principle that rolling forward disrupts the perpendicular alignment that gives the saddle its mechanical advantage, creating a brief window where the leg can be pulled free.
+**The Forward Roll from Saddle is an explosive inversion escape in which the bottom player rolls diagonally over the trapped-side shoulder to spiral their leg out of the figure-four, usually surfacing in turtle at the cost of temporary back exposure.**
+
+Sitting at the explosive end of the saddle escape spectrum, the forward roll abandons the patient grip-fighting approach in favor of rotational momentum to rapidly extract the trapped leg from the opponent's figure-four configuration. The escape leverages the principle that rolling forward disrupts the perpendicular alignment that gives the saddle its mechanical advantage, creating a brief window where the leg can be pulled free.
 
 This escape carries significant tactical risk. While the rolling motion can effectively break the leg configuration, it simultaneously exposes the back to the opponent. A successful forward roll typically lands the practitioner in turtle position—an improvement over saddle bottom but still requiring immediate action to prevent the opponent from transitioning to back control. The technique is best reserved for situations where incremental escapes have stalled or the opponent is actively advancing toward a heel hook finish, making the calculated risk of back exposure preferable to continued exposure to devastating knee ligament attacks.
 

@@ -20,8 +20,8 @@ description: "Master offensive control from Anaconda Control Top position. Learn
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Anaconda Choke",
-      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 50% of exchanges from this position.",
+      "name": "Execute Anaconda Choke from Anaconda Control",
+      "text": "From this position, attempt Anaconda Choke from Anaconda Control. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
     },
     {

@@ -1,5 +1,6 @@
 {
   "name": "Calf Slicer from 50-50 Guard",
+  "summary": "The calf slicer from 50-50 Guard is a compression submission that wedges your shin behind the opponent's bent knee and drives your hips forward, crushing their calf against their own femur when they tuck the heel to defend leg locks.",
   "description": "Master the calf slicer from 50-50 Guard. Complete guide covering setup, finishing mechanics, defense, and safety for this advanced compression submission.",
   "tags": [
     "bjj",
@@ -18,7 +19,7 @@
   "starting_position": "50-50 Guard",
   "from_position": "50-50 Guard/Top",
   "success_rate": 50,
-  "overview": "The calf slicer from 50-50 Guard is a compression submission that exploits the leg entanglement inherent to the 50-50 position. Unlike entries from other positions where the attacker must first thread a shin behind the opponent's knee, the 50-50 Guard naturally pre-positions your leg across the opponent's calf area. By consolidating your leg configuration into a figure-four or triangle lock and driving your hips forward, your shin bone acts as a fulcrum that generates crushing force against the calf muscle, Achilles tendon, and surrounding structures.\n\nThis technique functions as a powerful secondary threat within the 50-50 leg lock system. When the primary heel hook attack is neutralized through heel hiding or grip stripping, the calf slicer becomes available because the defender's knee remains bent inside the entanglement. The submission threat forces a strategic dilemma: defenders who keep their knee bent to protect the heel expose themselves to the calf slicer, while straightening the leg to avoid the slicer reopens the heel for hook attacks. This push-pull dynamic makes the calf slicer an essential component of a complete 50-50 offense.\n\nThe technique carries significant injury risk due to simultaneous compression of soft tissue and potential knee ligament stress. The onset of damage can be rapid, and training partners must maintain strict adherence to controlled application speed and immediate release upon tap signals. Most competition rulesets restrict this technique to brown and black belt divisions.",
+  "overview": "Within the 50-50 leg lock system, the calf slicer is the compression threat that punishes a heel-hiding defender. Unlike entries from other positions where the attacker must first thread a shin behind the opponent's knee, the 50-50 Guard naturally pre-positions your leg across the opponent's calf area. By consolidating your leg configuration into a figure-four or triangle lock and driving your hips forward, your shin bone acts as a fulcrum that generates crushing force against the calf muscle, Achilles tendon, and surrounding structures.\n\nThis technique functions as a powerful secondary threat within the 50-50 leg lock system. When the primary heel hook attack is neutralized through heel hiding or grip stripping, the calf slicer becomes available because the defender's knee remains bent inside the entanglement. The submission threat forces a strategic dilemma: defenders who keep their knee bent to protect the heel expose themselves to the calf slicer, while straightening the leg to avoid the slicer reopens the heel for hook attacks. This push-pull dynamic makes the calf slicer an essential component of a complete 50-50 offense.\n\nThe technique carries significant injury risk due to simultaneous compression of soft tissue and potential knee ligament stress. The onset of damage can be rapid, and training partners must maintain strict adherence to controlled application speed and immediate release upon tap signals. Most competition rulesets restrict this technique to brown and black belt divisions.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -309,6 +310,16 @@
       {
         "question": "Your figure-four lock feels loose and the opponent is starting to extract their leg - what do you do?",
         "answer": "If the figure-four lock is loose and the opponent is actively extracting, do not chase the calf slicer by applying more hip extension against an incomplete lock. Instead, reset by tightening the lock first. Scoot your hips closer to reduce the gap, re-hook your foot more deeply behind your own knee, and use your grip on their foot to pull their leg back into the compression line. If extraction has progressed too far to recover, abandon the attempt and return to standard 50-50 top control before attempting another submission entry.",
+        "safety_critical": false
+      },
+      {
+        "question": "What sensations or reactions tell you the calf slicer compression is reaching its breaking point?",
+        "answer": "The clearest indicators are the opponent's calf muscle going taut and balling up against your shin as the slack disappears, the knee joint reaching the end of its range with no further give, and a sharp escalation in their defensive urgency such as frantic grip fighting or attempts to verbalize. Once you feel the muscle become rigid with no remaining give and the opponent stops generating counter-pressure, the structure is at its mechanical limit and you must pause to give them the moment to tap rather than adding more force.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should your finishing approach for the calf slicer differ between training and competition?",
+        "answer": "The mechanics stay identical in both settings: secure the figure-four, control the foot, and extend the hips through the calf. The strategic difference in competition is using the calf slicer and heel hook as a linked dilemma to force a fast tap or a positional mistake before the referee stands you up for stalling, committing to whichever attack the opponent's knee angle exposes and threatening the back take if they sacrifice position to escape the legs. Even under competitive pressure you must keep application controlled, because reckless leg-lock spiking endangers your opponent and can draw a disqualification under many rulesets.",
         "safety_critical": false
       }
     ]

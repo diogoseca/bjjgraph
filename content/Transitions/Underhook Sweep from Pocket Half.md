@@ -34,6 +34,18 @@ description: "Master the Underhook Sweep from Pocket Half Guard. Step-by-step gu
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Underhook Sweep from Pocket Half",
+  "description": "The Underhook Sweep from Pocket Half is a come-up reversal from pocket half guard bottom that converts a deep cross-back underhook plus the passer's forward pressure into a drive that lands you in side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Underhook Sweep from Pocket Half Guard. Step-by-step gu
 </div>
 
 <section id="overview" class="content-section">
+
+**The Underhook Sweep from Pocket Half is a come-up reversal from pocket half guard bottom that converts a deep cross-back underhook plus the passer's forward pressure into a drive that lands you in side control top.**
 
 The Underhook Sweep from Pocket Half Guard is a fundamental come-up sweep available when the bottom player has established deep underhook control in pocket half guard. The technique exploits the mechanical advantage created by the deep underhook controlling the opponent's upper body rotation, combined with the pocket space maintained by the bottom leg frame against the opponent's hip. By rising to the knees while maintaining underhook control, the bottom player generates sweeping momentum that compromises the top player's base and drives them onto their back.
 

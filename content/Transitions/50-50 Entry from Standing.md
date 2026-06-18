@@ -34,6 +34,18 @@ description: "Master the 50-50 Entry from Standing in BJJ. Step-by-step executio
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "50-50 Entry from Standing",
+  "description": "The 50-50 Entry from Standing is a leg-entanglement guard pull in which you trap an opponent's lead leg and sit directly into the symmetrical 50-50 Guard, bypassing conventional guard pulls to open immediate heel hook and leg-lock attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the 50-50 Entry from Standing in BJJ. Step-by-step executio
 
 <section id="overview" class="content-section">
 
-The 50-50 Entry from Standing is a modern leg entanglement technique that allows you to establish the 50-50 Guard position directly from a standing engagement. This entry is particularly effective in no-gi competition where traditional guard pulls may be penalized or less effective. The technique involves controlling your opponent's leg while simultaneously sitting to the mat, creating a symmetrical leg entanglement that offers both offensive and defensive advantages.
+**The 50-50 Entry from Standing is a leg-entanglement guard pull in which you trap an opponent's lead leg and sit directly into the symmetrical 50-50 Guard, bypassing conventional guard pulls to open immediate heel hook and leg-lock attacks.**
+
+Popularized by the modern leg-lock movement, the 50-50 Entry from Standing lets you drag a standing engagement straight into a symmetrical entanglement instead of grinding through conventional guard-pull exchanges. It is especially valuable in no-gi competition, where traditional sit-to-guard pulls may be penalized or easily stuffed. The entry controls your opponent's lead leg while you simultaneously sit to the mat, building a mirrored leg entanglement that offers both offensive and defensive advantages.
 
 This entry has become increasingly popular in modern competitive BJJ, particularly among leg lock specialists who use the 50-50 as a platform for attacking heel hooks and toe holds. The position's symmetry creates a strategic stalemate that can frustrate opponents unfamiliar with its intricacies, while providing numerous attacking opportunities for those well-versed in the system. The entry requires precise timing and coordination to successfully establish the position without exposing yourself to counters.
 

@@ -35,6 +35,18 @@ description: "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation cov
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ippon Seoi Nage",
+  "description": "Ippon Seoi Nage is a classical judo one-arm shoulder throw adapted for BJJ, where you load a grip-controlled opponent across your back and rotate them forward to the mat, landing directly in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -49,7 +61,9 @@ description: "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation cov
 
 <section id="overview" class="content-section">
 
-Ippon Seoi Nage is a classical judo shoulder throw adapted for Brazilian Jiu-Jitsu competition and self-defense. The technique involves entering beneath your opponent's center of gravity, loading them onto your back and shoulders, then executing a powerful forward rotation to throw them to the mat. Unlike many BJJ-specific takedowns, Ippon Seoi Nage requires significant technical precision in grip fighting, footwork, and kuzushi (off-balancing) to execute successfully against resisting opponents.
+**Ippon Seoi Nage is a classical judo one-arm shoulder throw adapted for BJJ, where you load a grip-controlled opponent across your back and rotate them forward to the mat, landing directly in side control.**
+
+Within a BJJ game built around top position, Ippon Seoi Nage is one of the few throws that converts a neutral standing exchange into an immediate dominant pin, which is why it has migrated from judo into modern competition and self-defense alike. The technique involves entering beneath your opponent's center of gravity, loading them onto your back and shoulders, then executing a powerful forward rotation to throw them to the mat. Unlike many BJJ-specific takedowns, it requires significant technical precision in grip fighting, footwork, and kuzushi (off-balancing) to execute successfully against resisting opponents.
 
 In the BJJ context, Ippon Seoi Nage offers several strategic advantages: it generates immediate top position with forward momentum, often landing you in side control or knee-on-belly; it works effectively in both gi and no-gi situations with appropriate grip adaptations; and it creates psychological pressure on opponents who must respect your throwing threat. The technique is particularly effective against opponents who maintain upright posture and resist guard pulls, making it a valuable addition to any standing game.
 

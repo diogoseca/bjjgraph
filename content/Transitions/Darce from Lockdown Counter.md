@@ -34,6 +34,18 @@ description: "Learn Darce from Lockdown Counter in BJJ. Counter Electric Chair w
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Darce from Lockdown Counter",
+  "description": "Darce from Lockdown Counter is a no-gi front-headlock attack where the top player, trapped in the Electric Chair, threads a Darce choke across the bottom player's exposed neck and over-extended underhook, turning a defensive lockdown bind into a head-and-arm strangle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Darce from Lockdown Counter in BJJ. Counter Electric Chair w
 </div>
 
 <section id="overview" class="content-section">
+
+**Darce from Lockdown Counter is a no-gi front-headlock attack where the top player, trapped in the Electric Chair, threads a Darce choke across the bottom player's exposed neck and over-extended underhook, turning a defensive lockdown bind into a head-and-arm strangle.**
 
 The Darce from Lockdown Counter is a powerful offensive response to the Electric Chair position that transforms a defensive situation into a submission threat. When trapped in the Electric Chair from top position, the bottom player's commitment to the underhook and extension mechanics creates a window for the Darce choke entry. Rather than fighting to extract the leg, this technique exploits the opponent's arm positioning and neck exposure that naturally occurs during aggressive Electric Chair attacks.
 

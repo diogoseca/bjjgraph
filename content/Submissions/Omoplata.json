@@ -1,6 +1,7 @@
 {
   "name": "Omoplata",
   "description": "Master the Omoplata shoulder lock in BJJ. Complete guide covering setup, execution, safety protocols, and variations from guard positions with sweep options.",
+  "summary": "The Omoplata is a guard-based shoulder lock that traps the opponent's arm with the legs and rotates the shoulder by sitting up and driving the chest forward, doubling as a control hub with sweep and back-take options when the finish is defended.",
   "tags": [
     "bjj",
     "submission",
@@ -205,10 +206,6 @@
     {
       "name": "Mounted Crucifix Armbar",
       "relationship": "Alternative arm isolation submission from top control positions"
-    },
-    {
-      "name": "Omoplata",
-      "relationship": "Dynamic standing entry variation of the omoplata"
     },
     {
       "name": "Armbar Finish",

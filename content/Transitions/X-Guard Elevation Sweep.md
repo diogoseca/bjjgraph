@@ -34,6 +34,18 @@ description: "Learn X-Guard Elevation Sweep from Grasshopper Guard in BJJ. Step-
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "X-Guard Elevation Sweep",
+  "description": "X-Guard Elevation Sweep is a high-amplitude reversal from Grasshopper Guard where the bottom player threads X-Guard hooks beneath a standing opponent and explosively extends the hips to topple them backward, landing directly in Mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn X-Guard Elevation Sweep from Grasshopper Guard in BJJ. Step-
 
 <section id="overview" class="content-section">
 
-The X-Guard Elevation Sweep is a high-amplitude sweep initiated from Grasshopper Guard that transitions through an X-Guard hook configuration to lift the opponent off their base and deposit them directly into bottom mount. From the inverted grasshopper position, the bottom player shoots both legs into an X-Guard formation beneath the opponent's hips, then uses explosive hip extension to elevate and topple the standing player backward. The sweep leverages the grasshopper guard's inverted posture as a launching platform, converting the temporary inversion into one of the most powerful elevation mechanics available in modern guard play.
+**X-Guard Elevation Sweep is a high-amplitude reversal from Grasshopper Guard where the bottom player threads X-Guard hooks beneath a standing opponent and explosively extends the hips to topple them backward, landing directly in Mount.**
+
+Within the grasshopper guard offensive system, the elevation sweep is the headline reversal that justifies investing in such an energetically expensive, inherently unstable inverted position. From the inverted grasshopper position, the bottom player shoots both legs into an X-Guard formation beneath the opponent's hips, then uses explosive hip extension to elevate and topple the standing player backward. The sweep leverages the grasshopper guard's inverted posture as a launching platform, converting the temporary inversion into one of the most powerful elevation mechanics available in modern guard play.
 
 Strategically, this sweep represents the highest-reward option from grasshopper guard because it bypasses all intermediate positions and lands directly in the 4-point mount. The technique works optimally when the opponent pressures forward into the grasshopper player or maintains a narrow, upright stance with centered weight distribution. The forward pressure that most top players instinctively generate against inverted guards becomes the very fuel that powers the elevation, making this a conceptually elegant counter-pressure technique.
 

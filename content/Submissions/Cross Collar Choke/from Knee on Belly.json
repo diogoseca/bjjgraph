@@ -1,6 +1,7 @@
 {
   "name": "Cross Collar Choke from Knee on Belly",
   "description": "Master the cross collar choke from knee on belly. Learn grip sequencing, pressure-to-choke transitions, and finishing mechanics for this devastating gi attack.",
+  "summary": "The cross collar choke from knee on belly is a gi blood choke that threads both lapels across the opponent's neck while knee pressure forces defensive reactions, then drops to low side control to compress both carotid arteries.",
   "tags": [
     "bjj",
     "submission",
@@ -122,7 +123,7 @@
     }
   ],
   "attacker": {
-    "name": "from Knee on Belly Attacker",
+    "name": "Cross Collar Choke from Knee on Belly Attacker",
     "description": "Learn how to attack with the cross collar choke from knee on belly. Step-by-step guide covering grip insertion, pressure management, and finishing techniques.",
     "overview": "Attacking with the cross collar choke from knee on belly requires precise coordination between positional pressure and grip acquisition. The KOB position creates a natural dilemma: the opponent must address the crushing knee pressure, which diverts their hands away from collar defense. Your job is to exploit each defensive reaction by threading collar grips during those windows of vulnerability. The finish involves transitioning from the high-pressure KOB stance into a low, heavy side control position that maximizes choking leverage while denying escape space. Mastery of this technique demands sensitivity to when the opponent's attention shifts from collar protection to pressure management, and the discipline to sequence grips properly rather than rushing both hands to the collar.",
     "key_principles": [
@@ -322,7 +323,7 @@
     ]
   },
   "defender": {
-    "name": "from Knee on Belly Defender",
+    "name": "Cross Collar Choke from Knee on Belly Defender",
     "description": "Defend against the cross collar choke from knee on belly. Complete guide to grip defense, early recognition, escape timing, and counter strategies.",
     "overview": "Defending the cross collar choke from knee on belly requires managing two simultaneous threats: the crushing positional pressure and the collar grip insertions that lead to the choke. The instinct to address the knee pressure first is exactly what the attacker exploits—hands that go to the knee are hands that are not protecting the collar. Effective defense requires prioritizing collar grip prevention while using hip movement rather than hand placement to manage the positional pressure. Recognition of the choke setup must happen early, ideally before the first grip is fully secured, because once both grips are deep the finishing position is extremely difficult to escape. The defender's primary goal is to strip or prevent collar grips while creating enough angle through hip escapes to threaten guard recovery, forcing the attacker to choose between maintaining the choke attempt and preserving the KOB position.",
     "key_principles": [

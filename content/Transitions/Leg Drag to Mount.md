@@ -34,6 +34,18 @@ description: "Master the Leg Drag to Mount transition in BJJ. Step-by-step guide
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag to Mount",
+  "description": "Leg Drag to Mount is a guard-passing transition where the top player, having established leg drag control, releases the trapped leg and steps over a flattened opponent to secure the dominant mount position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Leg Drag to Mount transition in BJJ. Step-by-step guide
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag to Mount is a guard-passing transition where the top player, having established leg drag control, releases the trapped leg and steps over a flattened opponent to secure the dominant mount position.**
 
 The Leg Drag to Mount transition represents one of the most direct pathways from leg drag control to a dominant scoring position. When an opponent stays relatively flat on their back rather than turning away to protect their guard, the mount becomes the highest-percentage consolidation option. This transition capitalizes on the hip control already established in leg drag position, using the crossed leg as a pivot point to swing into full mount.
 

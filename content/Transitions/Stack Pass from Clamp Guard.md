@@ -34,6 +34,18 @@ description: "Master the Stack Pass from Clamp Guard in BJJ. Learn to neutralize
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Pass from Clamp Guard",
+  "description": "The Stack Pass from Clamp Guard is a pressure pass where the trapped-arm top player folds the opponent's hips over their shoulders, compressing the spine to neutralize shin-on-bicep control and clear to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Stack Pass from Clamp Guard in BJJ. Learn to neutralize
 </div>
 
 <section id="overview" class="content-section">
+
+**The Stack Pass from Clamp Guard is a pressure pass where the trapped-arm top player folds the opponent's hips over their shoulders, compressing the spine to neutralize shin-on-bicep control and clear to side control.**
 
 The Stack Pass from Clamp Guard is a pressure-based passing technique employed when the top player's arm is trapped in the bottom player's clamp guard configuration. Rather than fighting to extract the trapped arm — which plays directly into the guard player's submission chain of armbars, triangles, and omoplatas — the passer drives forward explosively, folding the bottom player's hips over their shoulders and compressing their spine. This stacking action neutralizes the hip mobility that powers the clamp guard's entire offensive system, progressively weakening the shin-on-bicep control as the bottom player's legs are compressed toward their own face and their ability to angle disappears.
 

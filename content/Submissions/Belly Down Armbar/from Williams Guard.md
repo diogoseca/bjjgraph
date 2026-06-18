@@ -33,10 +33,32 @@ description: "Master the belly down armbar from Williams Guard. Learn prone rota
 }
 </script>
 
-> **SAFETY**: Belly Down Armbar from Williams Guard targets the Elbow joint hyperextension and ulnar collateral ligament. Risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Belly Down Armbar from Williams Guard",
+  "description": "The belly down armbar from Williams Guard converts the shoulder-lock figure-four grip into a prone armbar by rotating belly-down over the trapped arm, finishing with hip extension that neutralizes the stack defense common to guard armbars.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The belly down armbar from Williams Guard converts the shoulder-lock figure-four grip into a prone armbar by rotating belly-down over the trapped arm, finishing with hip extension that neutralizes the stack defense common to guard armbars.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint hyperextension and ulnar collateral ligament</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Belly Down Armbar from Williams Guard targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,51 +75,7 @@ The technical sequence begins with the bottom practitioner creating hip angle th
 
 From a strategic perspective, this submission addresses the primary weakness of guard-based armbars: the stack defense. Experienced grapplers instinctively drive forward when they feel armbar mechanics developing from guard. The belly down transition uses this defensive reaction against the opponent, as their forward pressure actually assists the rotation. This makes the technique particularly effective in competition against defensive opponents who have trained extensively to defend conventional armbar attacks from guard positions.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint hyperextension and ulnar collateral ligament
-**Starting Position**: [[Positions/Williams Guard]]
-**From Position**: [[Positions/Williams Guard]] (Bottom)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension with ligament damage to the ulnar collateral ligament | CRITICAL | 3-6 months, may require surgical reconstruction |
-| Elbow joint capsule sprain or partial tear from forced extension | High | 4-12 weeks depending on severity |
-| Biceps tendon strain or partial tear from resisting extension under load | Medium | 2-6 weeks with progressive rehabilitation |
-| Distal humerus stress fracture from sustained pressure against locked elbow | High | 6-10 weeks with immobilization |
-
-
-**Application Speed**: SLOW and progressive. The belly down position creates significant mechanical advantage that can damage the elbow extremely quickly. Apply extension gradually and allow adequate time for the tap. Never jerk or spike the arm. The prone position amplifies force beyond what most practitioners expect.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' or any distress vocalization
-- Physical hand tap on partner, mat, or own body
-- Physical foot tap on mat with either leg
-- Any screaming, grunting, or unusual vocalization indicating distress
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without waiting for confirmation or repetition
-2. If in doubt whether a tap occurred, release immediately and re-establish position if needed
-3. Release extension pressure first by lowering the wrist, then release knee squeeze, then disengage completely
-4. Monitor training partner's arm mobility after release and check for signs of injury before continuing
-
-
-**Training Restrictions**:
-- Beginners should practice mechanics at 50% pressure maximum until transition control is consistent
-- Always apply extension slowly in training—never jerk or spike the arm during the belly down finish
-- Do not apply this technique on training partners with known elbow injuries or recent arm submissions
-- Practice the transition rotation separately from the finishing pressure until both components are reliable
-
+**Starting Position**: [[Positions/Williams Guard]] · **From**: [[Positions/Williams Guard]] (Bottom)
 
 </section>
 
@@ -242,23 +220,14 @@ From a strategic perspective, this submission addresses the primary weakness of 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Armbar]]
 - [[Submissions/Monoplata]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Williams Guard]] - Starting position providing arm isolation for this submission variant
 - [[Positions/Armbar Control]] - Intermediate control position before completing belly down finish
 - [[Positions/Overhook Guard]] - Related guard position with similar arm isolation mechanics
@@ -266,16 +235,44 @@ From a strategic perspective, this submission addresses the primary weakness of 
 - [[Transitions/Belly Down Armbar Transition]] - Transition technique for entering the belly down finishing position
 - [[Positions/Omoplata Control]] - Alternative attack from Williams Guard when armbar rotation is defended
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Belly Down Armbar from Williams Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension with ligament damage to the ulnar collateral ligament | CRITICAL | 3-6 months, may require surgical reconstruction |
+| Elbow joint capsule sprain or partial tear from forced extension | High | 4-12 weeks depending on severity |
+| Biceps tendon strain or partial tear from resisting extension under load | Medium | 2-6 weeks with progressive rehabilitation |
+| Distal humerus stress fracture from sustained pressure against locked elbow | High | 6-10 weeks with immobilization |
+
+
+**Application Speed**: SLOW and progressive. The belly down position creates significant mechanical advantage that can damage the elbow extremely quickly. Apply extension gradually and allow adequate time for the tap. Never jerk or spike the arm. The prone position amplifies force beyond what most practitioners expect.
+
+**Tap Signals**:
+- Verbal tap saying 'tap' or any distress vocalization
+- Physical hand tap on partner, mat, or own body
+- Physical foot tap on mat with either leg
+- Any screaming, grunting, or unusual vocalization indicating distress
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without waiting for confirmation or repetition
+2. If in doubt whether a tap occurred, release immediately and re-establish position if needed
+3. Release extension pressure first by lowering the wrist, then release knee squeeze, then disengage completely
+4. Monitor training partner's arm mobility after release and check for signs of injury before continuing
+
+
+**Training Restrictions**:
+- Beginners should practice mechanics at 50% pressure maximum until transition control is consistent
+- Always apply extension slowly in training—never jerk or spike the arm during the belly down finish
+- Do not apply this technique on training partners with known elbow injuries or recent arm submissions
+- Practice the transition rotation separately from the finishing pressure until both components are reliable
+
 
 </section>
 

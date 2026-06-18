@@ -27,7 +27,7 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {

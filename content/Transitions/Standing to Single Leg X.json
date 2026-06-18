@@ -1,5 +1,6 @@
 {
   "name": "Standing to Single Leg X",
+  "summary": "Standing to Single Leg X is a guard-pull entry where the bottom player drops beneath the opponent's lead leg from standing and wraps it in a Single Leg X (Ashi) hook, landing directly in a sweep- and leg-lock-ready entanglement.",
   "description": "Learn Standing to Single Leg X transition in BJJ. Step-by-step entry from standing to leg entanglement with sweeps and leg lock setups for all skill levels.",
   "tags": [
     "bjj",
@@ -62,20 +63,8 @@
       "relationship": "Alternative technique - backup entry if hook is denied"
     },
     {
-      "name": "Shin to Shin Pull",
-      "relationship": "Related entry - alternative standing to ground transition"
-    },
-    {
       "name": "Guard Pull",
       "relationship": "Category technique - general guard pulling principles"
-    },
-    {
-      "name": "Tripod Sweep",
-      "relationship": "Alternative sweep - available from similar leg positioning"
-    },
-    {
-      "name": "Sickle Sweep",
-      "relationship": "Related sweep - similar leg control mechanics"
     },
     {
       "name": "Straight Ankle Lock",

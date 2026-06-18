@@ -236,7 +236,7 @@ Defending the Toreando Pass requires early recognition, disciplined grip fightin
 ### 5. Insert knee shield and transition to half guard retention as passer's hips approach your hip line
 
 - **When to use**: As a last-resort defense when the passer has cleared your open guard legs and is settling toward side control — insert the near-side knee between your bodies
-- **Targets**: [[Positions/Open Guard]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You prevent full side control consolidation and establish a defensive half guard or knee shield position from which you can work systematic escapes
 - **Risk**: If the passer anticipates the knee insertion, they can switch to a knee cut or backstep to pass through the half guard immediately
 

@@ -34,6 +34,18 @@ description: "Master the Old School to Half Guard transition in BJJ. Recover fro
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Old School to Half Guard",
+  "description": "Old School to Half Guard is a positional reset where the bottom player releases a stalled lockdown and re-establishes standard half guard frames, trading lockdown-specific sweeps for the broader offensive toolkit of knee shield, deep half, and underhook attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Old School to Half Guard transition in BJJ. Recover fro
 
 <section id="overview" class="content-section">
 
-The Old School to Half Guard transition is a tactical positional reset within the half guard system, enabling the bottom player to abandon a stalled or well-defended lockdown position and recover to standard half guard where a broader offensive toolkit becomes available. Rather than representing a defensive retreat, this transition reflects sophisticated positional awareness—recognizing when the opponent has effectively neutralized lockdown-specific threats and that alternative attacking angles are needed to continue advancing.
+**Old School to Half Guard is a positional reset where the bottom player releases a stalled lockdown and re-establishes standard half guard frames, trading lockdown-specific sweeps for the broader offensive toolkit of knee shield, deep half, and underhook attacks.**
+
+Born from the 10th Planet lockdown system, this transition addresses a specific tactical problem: what to do when a disciplined top player has neutralized your lockdown sweeps with deep whizzer and crossface pressure, leaving the position stalled. Rather than representing a defensive retreat, this transition reflects sophisticated positional awareness—recognizing when the opponent has effectively neutralized lockdown-specific threats and that alternative attacking angles are needed to continue advancing.
 
 The mechanics center on safely releasing the lockdown figure-four configuration while maintaining half guard leg entanglement, then establishing knee shield or shin frames that create the distance management structure characteristic of standard half guard play. The critical challenge lies in the transition window between releasing lockdown control and establishing half guard frames—during this window, the top player has maximum opportunity to advance position through increased crossface pressure, smashing weight, or immediate passing attempts.
 

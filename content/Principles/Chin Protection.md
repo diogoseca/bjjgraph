@@ -143,6 +143,16 @@ description: "Master neck defense mechanics in BJJ. Learn protective posture pri
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Chin Protection",
+  "description": "Chin Protection is the constant postural discipline of tucking the chin to the chest and elevating the shoulders to deny an opponent the space needed to slide an arm or collar across the neck and finish a choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,6 +167,8 @@ description: "Master neck defense mechanics in BJJ. Learn protective posture pri
 <section id="overview" class="content-section">
 
 ## What is Chin Protection?
+
+**Chin Protection is the constant postural discipline of tucking the chin to the chest and elevating the shoulders to deny an opponent the space needed to slide an arm or collar across the neck and finish a choke.**
 
 Chin Protection represents the fundamental defensive principle of maintaining proper head and neck positioning to eliminate available space for opponent's choking attacks, particularly in back control and front headlock scenarios. Unlike active defensive techniques that require complex technical execution, chin protection is a constant postural discipline that creates structural barriers preventing opponent's arms from accessing the neck's vulnerable surfaces. This concept encompasses the biomechanical understanding of neck protection, head positioning strategies, shoulder coordination, and the integration of chin protection with other defensive elements to create comprehensive submission defense. Chin protection serves as both the first line of defense against choking attacks by denying opponent access to required anatomical targets, and as a foundational element supporting all other defensive techniques by maintaining defensive structural integrity. The ability to maintain proper chin protection reflexively, even under pressure and during transitional movements, often represents the difference between surviving dangerous positions and succumbing to high-percentage submissions, making it one of the most essential fundamental concepts for all BJJ practitioners.
 

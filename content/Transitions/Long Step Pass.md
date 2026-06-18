@@ -34,6 +34,18 @@ description: "Master the Long Step Pass in BJJ. Complete guide to pressure passi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Long Step Pass",
+  "description": "The Long Step Pass is a standing pressure pass where the top player steps one leg deep behind the opponent's hip while driving chest weight forward, clearing open-guard frames to settle into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Long Step Pass in BJJ. Complete guide to pressure passi
 
 <section id="overview" class="content-section">
 
-The Long Step Pass is a fundamental pressure passing technique used to navigate past open guard positions by stepping deep to the side while maintaining heavy forward pressure. The pass involves establishing grips on the opponent's pants, belt, or legs, then using a long stepping motion to bypass the guard while driving chest weight onto the opponent's torso. The technique is particularly effective against seated guards, butterfly guard, and De La Riva variations where the passer can control distance and dictate the pace of engagement.
+**The Long Step Pass is a standing pressure pass where the top player steps one leg deep behind the opponent's hip while driving chest weight forward, clearing open-guard frames to settle into side control.**
+
+Sitting at the heart of modern pressure-passing systems, the Long Step Pass earns its name from the deep lateral step that carries the passer's lead leg past the guard player's hip line in a single committing motion. The pass involves establishing grips on the opponent's pants, belt, or legs, then using a long stepping motion to bypass the guard while driving chest weight onto the opponent's torso. The technique is particularly effective against seated guards, butterfly guard, and De La Riva variations where the passer can control distance and dictate the pace of engagement.
 
 The Long Step Pass exemplifies the principle of pressure over speed, using superior positioning and weight distribution to nullify the guard player's defensive frames and movement. By stepping deep to the side while controlling the opponent's lower body, the passer creates angles that make guard retention extremely difficult. This technique forms the foundation of many modern passing systems and connects seamlessly with other pressure-based approaches like the Knee Slice Pass and Over-Under Pass.
 

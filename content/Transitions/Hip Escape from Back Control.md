@@ -34,6 +34,18 @@ description: "Master the hip escape from back control in BJJ. Step-by-step guide
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape from Back Control",
+  "description": "The hip escape from back control is a systematic BJJ escape where the bottom player defends the neck, strips the seatbelt, then scoots the hips below the hooks and rotates toward the underhook side to recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the hip escape from back control in BJJ. Step-by-step guide
 </div>
 
 <section id="overview" class="content-section">
+
+**The hip escape from back control is a systematic BJJ escape where the bottom player defends the neck, strips the seatbelt, then scoots the hips below the hooks and rotates toward the underhook side to recover half guard.**
 
 The hip escape from back control is one of the most fundamental and essential escape techniques in Brazilian Jiu-Jitsu, enabling the bottom player to systematically work out of the most dominant position in grappling. This technique relies on creating space through lateral hip movement, establishing structural frames, and methodically removing the opponent's control hooks to recover a less disadvantageous position such as half guard. The escape follows a strict defensive sequence: first protect the neck from immediate submission threats, then address the seatbelt grip and upper body control, then remove leg hooks through hip scooting and controlled rotation toward the underhook side.
 
@@ -237,7 +251,7 @@ The hip escape from back control occupies a central role in the defensive escape
 
 - [[Positions/Turtle]] - Intermediate escape position often reached during hip escape when full guard recovery is blocked
 
-- [[Transitions/Harness Escape to Half Guard]] - Related escape technique targeting the harness grip control that precedes hook removal
+- [[Positions/Harness]] - Upper body grip control that the hip escape must address during the seatbelt stripping phase
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Specific back control grip variation that the hip escape must address during seatbelt stripping phase
 

@@ -34,6 +34,18 @@ description: "Master Invisible Collar position in BJJ. Advanced back control set
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Invisible Collar",
+  "description": "The Invisible Collar is an advanced gi-based back-control attack where the top player disguises a deep collar grip as passive positional control, locking in a strangle that opponents rarely recognize until the choke is already finishing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Invisible Collar position in BJJ. Advanced back control set
 </div>
 
 <section id="overview" class="content-section">
+
+**The Invisible Collar is an advanced gi-based back-control attack where the top player disguises a deep collar grip as passive positional control, locking in a strangle that opponents rarely recognize until the choke is already finishing.**
 
 The Invisible Collar represents a sophisticated approach to back control where grip concealment creates submission opportunities while appearing defensive. This position emerged from high-level competition as practitioners developed methods to disguise choking setups within seemingly passive control positions. The invisible collar uses strategic gi material placement to create immediate finishing pressure that opponents often fail to recognize until the technique is already locked in.
 

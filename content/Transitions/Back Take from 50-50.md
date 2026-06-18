@@ -34,6 +34,18 @@ description: "Master the Back Take from 50-50 Guard in BJJ. Learn step-by-step e
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Take from 50-50",
+  "description": "The Back Take from 50-50 is a transition that abandons the symmetrical leg entanglement to circle behind the opponent and secure Back Control, converting a neutral leg-lock stalemate into the highest-scoring dominant position when heel attacks are defended.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Back Take from 50-50 Guard in BJJ. Learn step-by-step e
 </div>
 
 <section id="overview" class="content-section">
+
+**The Back Take from 50-50 is a transition that abandons the symmetrical leg entanglement to circle behind the opponent and secure Back Control, converting a neutral leg-lock stalemate into the highest-scoring dominant position when heel attacks are defended.**
 
 The Back Take from 50-50 represents one of the most technically sophisticated transitions in modern leg lock systems, converting a neutral leg entanglement into the highest-scoring and most dominant control position in BJJ. This technique capitalizes on a fundamental principle: when direct leg attacks are well-defended, transitioning to back control offers an alternative path to victory that bypasses the opponent's leg lock defense entirely.
 

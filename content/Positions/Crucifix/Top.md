@@ -33,19 +33,19 @@ description: "Master Crucifix Top in BJJ. Dominant arm-trapping control with sys
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Choke from Crucifix",
-      "text": "From this position, attempt Choke from Crucifix. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Choke from Crucifix. This technique is attempted in 38% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Crucifix",
-      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {

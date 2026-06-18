@@ -34,6 +34,18 @@ description: "Master the Foot Grab Sweep from seated guard. Step-by-step executi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Foot Grab Sweep",
+  "description": "The Foot Grab Sweep is an open-guard reversal where the bottom player captures one of a standing or kneeling opponent's feet while breaking their posture, removing a base point to topple them and advance to a dominant top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Foot Grab Sweep from seated guard. Step-by-step executi
 </div>
 
 <section id="overview" class="content-section">
+
+**The Foot Grab Sweep is an open-guard reversal where the bottom player captures one of a standing or kneeling opponent's feet while breaking their posture, removing a base point to topple them and advance to a dominant top position.**
 
 The Foot Grab Sweep is a fundamental open guard technique that exploits an opponent's forward pressure and poor base management. By controlling one of the opponent's feet while simultaneously breaking their posture and grips, the practitioner creates a powerful sweeping motion that elevates the opponent and reverses position. This technique is particularly effective against opponents who attempt to stand and pass the guard, or those who maintain a squared-up stance with weight distributed evenly on both legs.
 

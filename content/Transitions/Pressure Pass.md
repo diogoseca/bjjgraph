@@ -34,6 +34,18 @@ description: "Master the Pressure Pass in BJJ. Complete guide to heavy pressure 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pressure Pass",
+  "description": "The Pressure Pass is a guard pass in which the top player uses heavy, methodical weight distribution with crossface and hip control to flatten the opponent and incrementally advance from Combat Base to Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Pressure Pass in BJJ. Complete guide to heavy pressure 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Pressure Pass is a guard pass in which the top player uses heavy, methodical weight distribution with crossface and hip control to flatten the opponent and incrementally advance from Combat Base to Side Control.**
 
 The Pressure Pass is a fundamental guard passing technique that relies on controlled, heavy pressure to pin the opponent's hips and progressively advance past their legs. Unlike speed-based passes that seek to quickly bypass the guard, pressure passing emphasizes control, weight distribution, and methodical advancement. This approach is particularly effective against flexible opponents or those with strong retention, as it limits their mobility and forces them to carry your weight while you systematically break down their defensive structure. The Pressure Pass can be initiated from various guard positions including closed guard, half guard, and open guard variations. The key principle is establishing chest-to-chest or chest-to-hip pressure while controlling the opponent's hips and preventing them from creating space or recovering their guard. This pass is highly effective in gi and no-gi contexts and forms the foundation of many modern guard passing systems. The technique requires patience, proper weight distribution, and the ability to maintain pressure while advancing position incrementally.
 

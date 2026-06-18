@@ -33,10 +33,32 @@ description: "Master the Ezekiel Choke from Side Control with this complete BJJ 
 }
 </script>
 
-> **SAFETY**: Ezekiel Choke from Side Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ezekiel Choke from Side Control",
+  "description": "The Ezekiel Choke from Side Control is a gi-dependent blood choke in which the top player threads a sleeve grip behind the opponent's neck and scissors both forearms across the carotid arteries to force a tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Ezekiel Choke from Side Control is a gi-dependent blood choke in which the top player threads a sleeve grip behind the opponent's neck and scissors both forearms across the carotid arteries to force a tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Ezekiel Choke from Side Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,54 +75,7 @@ The strategic value of the side control Ezekiel lies in its low-risk, high-rewar
 
 At the advanced level, the side control Ezekiel becomes a powerful chain-attack tool. Threatening the choke forces the opponent to address the neck threat, which opens their arms for americana and kimura attacks. Conversely, arm attack threats draw the opponent's hands away from their neck, creating the opening for the Ezekiel. This constant threat cycling makes the side control top player exponentially more dangerous when the Ezekiel is integrated into their submission chain.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly, potential complications if held too long |
-| Trachea damage from improper blade angle favoring windpipe over arteries | Medium | 1-2 weeks for minor trauma, longer for severe damage |
-| Neck strain from resisting the choke or jerking movements under pressure | Low | 3-7 days |
-| Jaw injury from improper forearm placement across the mandible | Low | 1-2 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum. Blood chokes should never be spiked or jerked. Apply steady, increasing pressure and release immediately upon tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap on mat or partner
-- Any unusual sound or loss of resistance (immediate release required)
-
-
-**Release Protocol**:
-1. Immediately release blade hand grip upon tap signal
-2. Remove forearm pressure from neck completely
-3. Maintain position briefly to ensure partner is conscious and oriented
-4. Allow partner to recover without immediate movement requirements
-5. Check partner's verbal confirmation they are okay before continuing training
-
-
-**Training Restrictions**:
-- Never apply sudden or jerking pressure to the choke
-- Never hold the choke after tap signal for any reason
-- Never practice on partners with known neck injuries without explicit medical clearance
-- Never apply full pressure during initial learning phase (use 20-30% pressure maximum)
-- Always ensure partner has clear access to tap with at least one hand
-- Never combine with violent bridging or explosive movements
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -266,39 +241,57 @@ At the advanced level, the side control Ezekiel becomes a powerful chain-attack 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
-- [[Americana from Side Control]]
-- [[Arm Triangle from Side Control]]
+## Related
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Arm in Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control]] - Starting position where this submission is executed from the top crossface position
 - [[Positions/Mount]] - Traditional and higher percentage position for Ezekiel Choke attacks with gravity advantage
-- [[Americana from Side Control]] - Alternative shoulder lock from the same position that chains with Ezekiel threat cycling
-- [[Arm Triangle from Side Control]] - Alternative choke from side control when opponent defends the Ezekiel by framing
 - [[Positions/Half Guard]] - Common escape destination when defender recovers guard during the choke attempt
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Ezekiel Choke from Side Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly, potential complications if held too long |
+| Trachea damage from improper blade angle favoring windpipe over arteries | Medium | 1-2 weeks for minor trauma, longer for severe damage |
+| Neck strain from resisting the choke or jerking movements under pressure | Low | 3-7 days |
+| Jaw injury from improper forearm placement across the mandible | Low | 1-2 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum. Blood chokes should never be spiked or jerked. Apply steady, increasing pressure and release immediately upon tap.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on partner or mat (multiple rapid taps)
+- Physical foot tap on mat or partner
+- Any unusual sound or loss of resistance (immediate release required)
+
+
+**Release Protocol**:
+1. Immediately release blade hand grip upon tap signal
+2. Remove forearm pressure from neck completely
+3. Maintain position briefly to ensure partner is conscious and oriented
+4. Allow partner to recover without immediate movement requirements
+5. Check partner's verbal confirmation they are okay before continuing training
+
+
+**Training Restrictions**:
+- Never apply sudden or jerking pressure to the choke
+- Never hold the choke after tap signal for any reason
+- Never practice on partners with known neck injuries without explicit medical clearance
+- Never apply full pressure during initial learning phase (use 20-30% pressure maximum)
+- Always ensure partner has clear access to tap with at least one hand
+- Never combine with violent bridging or explosive movements
+
 
 </section>
 

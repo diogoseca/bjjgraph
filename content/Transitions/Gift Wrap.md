@@ -34,6 +34,18 @@ description: "Master the Gift Wrap setup from Mount in BJJ. Complete guide to ar
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap",
+  "description": "The Gift Wrap from Mount is an arm-trapping transition where the top player threads an arm under the opponent's armpit and pins it high across their chest, stripping half their defense and opening back takes, chokes, and armbars.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Gift Wrap setup from Mount in BJJ. Complete guide to ar
 
 <section id="overview" class="content-section">
 
-The Gift Wrap is a fundamental arm-trapping transition executed from Mount that establishes dominant control by wrapping one of the opponent's arms across their own body and securing it with your grip. This technique systematically removes half of the opponent's defensive capability in a single action, transforming the already dominant mount position into a submission-rich control configuration. The position derives its name from the visual appearance of the trapped arm being 'wrapped' like a present across the defender's chest.
+**The Gift Wrap from Mount is an arm-trapping transition where the top player threads an arm under the opponent's armpit and pins it high across their chest, stripping half their defense and opening back takes, chokes, and armbars.**
+
+Within the mount attack hierarchy, the Gift Wrap occupies the rung between raw positional control and direct submission, refining Mount's dominance into systematic limb isolation. By stripping away half of the opponent's defensive capability in a single action, it converts the already dominant mount into a submission-rich control configuration. The technique derives its name from the visual appearance of the trapped arm being 'wrapped' like a present across the defender's chest.
 
 Strategically, the Gift Wrap serves as a critical transitional hub within the mount attack system. Once the arm is trapped across the opponent's chest toward their opposite shoulder, multiple high-percentage attack paths become available: the rear naked choke becomes substantially easier due to reduced hand fighting, back control transitions open as the opponent is forced to turn away, and the free arm becomes an isolated target for armbar attacks. The Gift Wrap exemplifies modern positional methodology where control is refined before submission attempts.
 

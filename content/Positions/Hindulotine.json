@@ -3,6 +3,7 @@
   "slug": "hindulotine",
   "description": "Master the Hindulotine position in BJJ. High-pressure guillotine variation combining head control with body positioning for submission or back take opportunities.",
   "variant_uniqueness": "Rotational torque replaces linear pulling",
+  "summary": "The Hindulotine is a high-pressure front-headlock guillotine variation that adds rotational hip torque to standard choking mechanics, forcing defensive reactions that open back takes, Darce, and anaconda finishes.",
   "overview": "The Hindulotine is a specialized guillotine variation that combines elements of traditional guillotine mechanics with unique body positioning that creates exceptional pressure on the opponent's neck and spine. Named for its origins in catch wrestling and modern no-gi grappling, this position represents an evolution of front headlock attacks where the controlling practitioner uses their hips and legs to generate torque while maintaining the guillotine grip.\n\nUnlike the standard guillotine where the attacker typically pulls guard or maintains standing control, the Hindulotine involves a specific hip placement and leg configuration that allows the attacker to apply rotational pressure while controlling the opponent's posture. This creates a submission threat that is difficult to defend against once fully locked in, as the opponent faces both the choking pressure of the guillotine and the cranking pressure from the body positioning.\n\nThe Hindulotine is most commonly entered from front headlock positions, failed takedown attempts, or scrambles where the opponent's head becomes exposed. It requires precise timing and positioning to establish properly, but once secured, it offers a high-percentage finishing opportunity. The position is particularly effective in no-gi grappling where collar grips are unavailable and practitioners must rely on body mechanics and leverage to control and submit opponents.\n\nThe strategic value of the Hindulotine lies in its ability to force defensive reactions that open additional attacking opportunities. Opponents who defend by turning away expose their back for taking. Those who drive forward can be swept or transitioned to mount. This creates a dilemma where all defensive options benefit the attacker, embodying modern submission grappling principles where position and submission threats work synergistically.",
   "key_principles": [
     "Maintain constant grip pressure on the neck throughout all transitions and adjustments",
@@ -43,8 +44,8 @@
       "relationship": "Entry position when attacking flattened opponent"
     },
     {
-      "name": "Standing Position",
-      "relationship": "Starting position for takedown defense entries"
+      "name": "Clinch",
+      "relationship": "Standing entry point for takedown defense and front headlock setups"
     }
   ],
   "top": {

@@ -34,6 +34,18 @@ description: "Master the Anaconda Setup from front headlock. Learn arm threading
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Anaconda Setup",
+  "description": "The Anaconda Setup is a front-headlock attack from turtle top where the attacker threads a choking arm under the opponent's neck to trap their near arm against it, locking the arm-in anaconda grip that threatens the choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Anaconda Setup from front headlock. Learn arm threading
 
 <section id="overview" class="content-section">
 
-The Anaconda Setup is a fundamental front headlock attack that capitalizes on an opponent's defensive turtle position. This technique involves securing a specific arm-in configuration where you thread your arm under the opponent's neck and trap their near-side arm, creating the distinctive anaconda grip position. The setup is particularly effective in no-gi grappling but translates well to gi competition with proper adaptations.
+**The Anaconda Setup is a front-headlock attack from turtle top where the attacker threads a choking arm under the opponent's neck to trap their near arm against it, locking the arm-in anaconda grip that threatens the choke.**
+
+Sitting at the core of the modern front headlock system, the Anaconda Setup is most often hunted the moment an opponent retreats into a defensive turtle and exposes their neck and near arm. This technique involves securing a specific arm-in configuration where you thread your arm under the opponent's neck and trap their near-side arm, creating the distinctive anaconda grip position. The setup is particularly effective in no-gi grappling but translates well to gi competition with proper adaptations.
 
 Unlike the traditional guillotine or Darce choke setups, the anaconda requires precise arm positioning and body mechanics to create the crushing pressure characteristic of this submission. The key distinguishing feature is the direction of your choking arm - it threads under the opponent's neck from the near side, wrapping around to capture their far shoulder while your other arm completes the gable grip or S-grip configuration.
 

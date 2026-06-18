@@ -141,6 +141,16 @@ description: "Master Marcelo Garcia's X-Guard System. Complete framework from en
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Marcelo Garcia X-Guard System",
+  "description": "The Marcelo Garcia X-Guard System is a competition-proven guard framework that uses deep leg-hook elevation and off-balancing from underneath the opponent to chain sweeps, back takes, and submissions into interconnected dilemmas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -154,6 +164,8 @@ description: "Master Marcelo Garcia's X-Guard System. Complete framework from en
 <section id="overview" class="content-section">
 
 ## What is Marcelo Garcia X-Guard System?
+
+**The Marcelo Garcia X-Guard System is a competition-proven guard framework that uses deep leg-hook elevation and off-balancing from underneath the opponent to chain sweeps, back takes, and submissions into interconnected dilemmas.**
 
 Marcelo Garcia's X-Guard System represents one of the most dominant guard frameworks in modern Brazilian Jiu-Jitsu. This systematic approach transforms the X-Guard from a single position into a comprehensive attacking platform that seamlessly connects entries, sweeps, back takes, and submissions. Unlike traditional guards that rely on grips and frames, the X-Guard uses precise leg positioning and weight distribution to create mechanical advantages that work against opponents of any size. The system's genius lies in its interconnected nature - every defensive response from the opponent opens a new attacking opportunity, creating the dilemmas that define high-level guard play. Marcelo refined this system through years of competition at the highest levels, developing entry sequences from standing, seated, and butterfly positions that flow naturally into powerful sweeping mechanics. The X-Guard's core principle of elevating and off-balancing the opponent while maintaining control through leg hooks creates opportunities for both sweeps and transitions to more dominant positions like the back or mount.
 

@@ -34,6 +34,18 @@ description: "Learn how to recognize and transition into triangle escape positio
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard to Triangle Escape Position",
+  "description": "Half Guard to Triangle Escape Position is the defensive transition where a half guard top player caught in a developing triangle establishes posture, base, and arm protection to convert the submission threat into a structured, escapable position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn how to recognize and transition into triangle escape positio
 </div>
 
 <section id="overview" class="content-section">
+
+**Half Guard to Triangle Escape Position is the defensive transition where a half guard top player caught in a developing triangle establishes posture, base, and arm protection to convert the submission threat into a structured, escapable position.**
 
 Transition to Triangle Escape Position addresses one of the most dangerous moments for a half guard top player: getting caught in a triangle choke during a passing attempt. When the top player leads with their head during knee slice or pressure passes, the bottom player can capture the head and one arm in a triangle configuration. This transition covers the critical defensive sequence of recognizing the triangle threat and immediately establishing a structured escape position rather than panicking or making the situation worse through explosive, uncontrolled reactions.
 

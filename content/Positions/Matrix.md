@@ -34,6 +34,18 @@ description: "Master the Matrix back take in BJJ. Complete guide to the dynamic 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Matrix",
+  "description": "The Matrix is a dynamic, inverted rolling back take in Brazilian Jiu-Jitsu that uses rotational momentum to flow underneath or around a turtled or scrambling opponent and arrive at back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Matrix back take in BJJ. Complete guide to the dynamic 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Matrix is a dynamic, inverted rolling back take in Brazilian Jiu-Jitsu that uses rotational momentum to flow underneath or around a turtled or scrambling opponent and arrive at back control.**
 
 The Matrix back take represents one of Brazilian Jiu-Jitsu's most dynamic and spectacular transitions to back control. Named for its cinematic appearance—where the practitioner inverts and rolls underneath or around the opponent—this technique transforms defensive or neutral positions into dominant back control through fluid rotational movement.
 
@@ -131,7 +145,7 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 ### Available Transitions
 
 
-- **[[Transitions/Matrix Back Take/Attacker|Matrix Back Take]]** (52% of attempts)
+- **[[Transitions/Matrix Back Take/Attacker|Matrix Back Take]]** (50% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (7% of attempts)
 
@@ -147,9 +161,9 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 
 - **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (7% of attempts)
 
-- **[[Transitions/Counter Roll from Matrix/Attacker|Counter Roll from Matrix]]** (0% of attempts)
+- **[[Transitions/Counter Roll from Matrix/Attacker|Counter Roll from Matrix]]** (1% of attempts)
 
-- **[[Transitions/Escape Matrix Position/Attacker|Escape Matrix Position]]** (0% of attempts)
+- **[[Transitions/Escape Matrix Position/Attacker|Escape Matrix Position]]** (1% of attempts)
 
 - **[[Transitions/Sweep from Matrix/Attacker|Sweep from Matrix]]** (1% of attempts)
 

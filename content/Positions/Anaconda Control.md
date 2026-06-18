@@ -34,6 +34,18 @@ description: "Master Anaconda Control in BJJ. Complete guide covering offensive 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Anaconda Control",
+  "description": "Anaconda Control is a front-headlock submission position where the top player threads an arm under the opponent's near armpit and around the neck, clasping hands into a constricting loop that threatens the anaconda choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Anaconda Control in BJJ. Complete guide covering offensive 
 
 <section id="overview" class="content-section">
 
-Anaconda Control is a powerful submission control position in Brazilian Jiu-Jitsu where one practitioner has secured a front headlock variation with an arm-in configuration around the opponent's neck and shoulder. This position creates a distinctive vice-like compression that threatens the anaconda choke while providing exceptional control over the opponent's upper body. The position derives its name from the constricting nature of the control, where the top player's arms encircle the opponent's neck and trapped arm in a loop that tightens with proper pressure and positioning.
+**Anaconda Control is a front-headlock submission position where the top player threads an arm under the opponent's near armpit and around the neck, clasping hands into a constricting loop that threatens the anaconda choke.**
+
+Within the front headlock attack system, Anaconda Control marks the moment a practitioner converts upper-body control into an active strangle threat against a defender whose neck and near arm are already compromised. This position creates a distinctive vice-like compression that threatens the anaconda choke while providing exceptional control over the opponent's upper body. The position derives its name from the constricting nature of the control, where the top player's arms encircle the opponent's neck and trapped arm in a loop that tightens with proper pressure and positioning.
 
 From a strategic perspective, Anaconda Control represents a critical juncture in grappling exchanges. The top player has transitioned from positional control to submission threat, while the bottom player faces immediate danger that requires decisive defensive action. The position typically emerges from front headlock situations, turtle attacks, or scrambles where one practitioner exposes their neck while attempting to improve position. Understanding both the offensive mechanics from top and defensive priorities from bottom is essential for complete positional mastery.
 
@@ -194,7 +208,7 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 ### Available Transitions
 
 
-- **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (50% of attempts)
+- **[[Anaconda Choke from Anaconda Control/Attacker|Anaconda Choke from Anaconda Control]]** (50% of attempts)
 
 - **[[Transitions/Anaconda Control to Dead Orchard Control/Attacker|Anaconda Control to Dead Orchard Control]]** (20% of attempts)
 

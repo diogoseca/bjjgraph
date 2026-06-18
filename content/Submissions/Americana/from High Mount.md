@@ -33,10 +33,32 @@ description: "Master the Americana shoulder lock from High Mount. Finishing guid
 }
 </script>
 
-> **SAFETY**: Americana from High Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Americana from High Mount",
+  "description": "The Americana from High Mount is a figure-four shoulder lock where the top player pins the opponent's wrist to the mat and rotates the arm toward the hip, torquing the shoulder joint until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Americana from High Mount is a figure-four shoulder lock where the top player pins the opponent's wrist to the mat and rotates the arm toward the hip, torquing the shoulder joint until they tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (specifically glenohumeral joint and rotator cuff)</span>
+<span class="meta-chip">68% success</span>
+</div>
+
+> [!danger] Safety
+> Americana from High Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,57 +75,7 @@ The key mechanical advantage lies in gravity working directly in favor of the su
 
 Strategically, the Americana from high mount functions as both a primary finisher and a chain starter. When opponents defend by straightening the arm, the attacker transitions to armbar. When they turn toward the attack, technical mount or back take become available. This submission-escape-transition cycle makes the Americana attempt from high mount a low-risk, high-reward proposition that should be a fundamental part of any practitioner's mount offense.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (specifically glenohumeral joint and rotator cuff)
-**Starting Position**: [[Positions/Mount/High Mount]]
-**From Position**: [[Positions/Mount/High Mount]] (Top)
-**Success Rate**: 68%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
-| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
-| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
-| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
-| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat or opponent
-- Any distress vocalization or unusual sound
-- Slapping mat with free hand repeatedly
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip on the wrist
-3. Carefully lower the arm back to neutral position (do not drop suddenly)
-4. Release control of the elbow and allow opponent to move freely
-5. Check with partner verbally to ensure they are okay
-6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden rotational force
-- Never use competition speed or full pressure in training
-- Always allow clear access to tap with free hand
-- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
-- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
-- Avoid repeated submissions on the same shoulder in a single training session
-
+**Starting Position**: [[Positions/Mount/High Mount]] · **From**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
 
@@ -267,43 +239,67 @@ Strategically, the Americana from high mount functions as both a primary finishe
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Gift Wrap Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/High Mount]] - Starting position providing the elevated platform and weight advantage for this shoulder lock variant
 - [[Positions/Mount]] - Parent position from which High Mount is established through progressive knee walking
-- [[Submissions/Americana]] - Parent submission family - this is the High Mount-specific variant of the Americana shoulder lock
 - [[Positions/Kimura Trap]] - Sister shoulder lock control position accessible when opponent defends with bent arms
 - [[Positions/Armbar Control]] - Chain target when opponent straightens arm to defend the Americana grip
 - [[Positions/Mount/S Mount]] - Alternative advancement when opponent pushes on hips during Americana defense
 - [[Positions/Mount/Technical Mount]] - Transition target when defender turns to side attempting to relieve shoulder pressure
 - [[Positions/Gift Wrap]] - Arm control position that can lead to Americana setup through wrist isolation
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Americana from High Mount leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
+| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
+| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
+| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
+| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on opponent or mat (minimum 2 taps)
+- Physical foot tap on mat or opponent
+- Any distress vocalization or unusual sound
+- Slapping mat with free hand repeatedly
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the shoulder
+2. Release the figure-four grip on the wrist
+3. Carefully lower the arm back to neutral position (do not drop suddenly)
+4. Release control of the elbow and allow opponent to move freely
+5. Check with partner verbally to ensure they are okay
+6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
+
+
+**Training Restrictions**:
+- Never spike, jerk, or apply sudden rotational force
+- Never use competition speed or full pressure in training
+- Always allow clear access to tap with free hand
+- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
+- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
+- Avoid repeated submissions on the same shoulder in a single training session
+
 
 </section>
 

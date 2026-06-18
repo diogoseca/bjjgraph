@@ -34,6 +34,18 @@ description: "Master hand fighting to escape back control and reach turtle posit
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hand Fight to Turtle from Back",
+  "description": "Hand Fight to Turtle from Back is a back-control escape where the bottom player strips the opponent's harness grip through two-on-one hand fighting, then rotates out to the turtle position to regain vision and recovery options.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master hand fighting to escape back control and reach turtle posit
 </div>
 
 <section id="overview" class="content-section">
+
+**Hand Fight to Turtle from Back is a back-control escape where the bottom player strips the opponent's harness grip through two-on-one hand fighting, then rotates out to the turtle position to regain vision and recovery options.**
 
 Hand Fight to Turtle from Back is a fundamental defensive transition used to escape the most dominant position in Brazilian Jiu-Jitsu. When an opponent has established back control with hooks and harness grip, the immediate priority is preventing the rear naked choke through chin protection and systematic grip fighting. Once neck defense is secured, the practitioner methodically strips the opponent's controlling grips using two-on-one hand fighting principles, then creates the hip movement necessary to rotate from back exposure into the turtle position.
 
@@ -236,8 +250,6 @@ Hand Fight to Turtle from Back occupies a central role in the defensive hierarch
 - [[Transitions/Back Door Escape]] - Alternative back escape targeting guard recovery rather than turtle
 
 - [[Transitions/Elbow Escape from Back]] - Complementary escape technique that can chain with hand fighting
-
-- [[Transitions/Escape Seat Belt Control]] - Related grip stripping technique specifically addressing seatbelt configuration
 
 - [[Transitions/Body Triangle Escape to Half Guard]] - Alternative escape route when body triangle prevents turtle rotation
 

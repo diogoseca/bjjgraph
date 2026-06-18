@@ -34,6 +34,18 @@ description: "Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "X-Guard to Ashi Garami",
+  "description": "X-Guard to Ashi Garami is a bottom-position transition that reconfigures X-Guard's trapped-leg control into an Inside Ashi-Garami leg entanglement, converting a sweep threat into direct access to ankle locks and heel hooks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg
 </div>
 
 <section id="overview" class="content-section">
+
+**X-Guard to Ashi Garami is a bottom-position transition that reconfigures X-Guard's trapped-leg control into an Inside Ashi-Garami leg entanglement, converting a sweep threat into direct access to ankle locks and heel hooks.**
 
 The X-Guard to Ashi Garami transition represents a fundamental connection between traditional sweeping systems and modern leg entanglement attacks. This transition exploits the inherent vulnerability of the standing opponent's near leg while maintaining the control framework established in X-Guard. The technique creates a seamless progression from a sweep-oriented position into a submission-focused leg entanglement, forcing opponents into a defensive dilemma where defending the sweep opens the leg lock, and defending the leg opens the sweep. This dual-threat system exemplifies modern no-gi grappling's evolution toward integrated positional systems. The transition requires precise timing, as the window of opportunity opens when the opponent attempts to disengage from X-Guard by pulling their trapped leg backward. Success depends on maintaining hip connection throughout the transition while simultaneously transitioning grip configurations from sweep-oriented controls to leg entanglement frames. Mastery of this transition fundamentally changes the threat landscape from X-Guard, transforming it from a purely sweeping position into a submission entry system.
 

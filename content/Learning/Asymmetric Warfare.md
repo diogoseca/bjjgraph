@@ -94,6 +94,18 @@ description: "Master the BJJ strategy of attacking where your opponent is weakes
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Asymmetric Warfare",
+  "description": "Asymmetric warfare in BJJ is the strategy of deliberately funneling a match into the areas where your strengths meet your opponent's weaknesses, refusing to fight on their terms and imposing the exchange that maximizes your advantage.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -102,6 +114,8 @@ description: "Master the BJJ strategy of attacking where your opponent is weakes
 <section id="overview" class="content-section">
 
 ## What is Asymmetric Warfare?
+
+**Asymmetric warfare in BJJ is the strategy of deliberately funneling a match into the areas where your strengths meet your opponent's weaknesses, refusing to fight on their terms and imposing the exchange that maximizes your advantage.**
 
 In BJJ, two grapplers rarely have identical skill sets. One person's guard might be sharp while their passing is mediocre. Another might have devastating top pressure but panic from bottom. Asymmetric warfare is the strategy of identifying these imbalances and deliberately steering the match into territory where your strengths meet their weaknesses. Rather than engaging in a fair fight across all dimensions, you impose the fight that gives you the greatest advantage.
 
@@ -227,6 +241,8 @@ A: If you notice an opponent always escapes side control by turning to their rig
 - [[Closed Guard]] (Position) - Deciding whether to engage or disengage closed guard is a common asymmetric warfare decision
 - [[Half Guard]] (Position) - Half guard is a neutral zone where many asymmetric matchup decisions play out
 - [[Double Down on Strengths]] (Learning) - Complementary strategy -- doubling down on strengths gives you a weapon to impose in asymmetric matchups
+- [[Funneling]] (Learning) - Funneling is the tactical mechanism for forcing an opponent into the favorable territory asymmetric warfare targets
+- [[Predictable Responses]] (Learning) - Exploiting predictable defensive reactions is how asymmetric attacks convert identified weaknesses into finishes
 
 
 

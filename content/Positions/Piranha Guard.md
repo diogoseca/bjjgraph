@@ -34,6 +34,18 @@ description: "Master Piranha Guard in BJJ. Advanced lapel-based guard with power
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Piranha Guard",
+  "description": "Piranha Guard is an advanced gi guard in which the bottom player threads the opponent's lapel between their own legs, creating pulley-like leverage that breaks posture and powers sweeps, back takes, and submissions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Piranha Guard in BJJ. Advanced lapel-based guard with power
 
 <section id="overview" class="content-section">
 
-Piranha Guard is an advanced lapel-based guard system where the bottom player feeds the opponent's collar through their legs, creating a powerful control mechanism that generates exceptional posture-breaking leverage and sweep opportunities. This guard is characterized by the unique gripping configuration where the practitioner threads the opponent's lapel between their legs and controls it with strategic hand placements, creating a pulley-like mechanical advantage similar to how a piranha's teeth lock onto prey.
+**Piranha Guard is an advanced gi guard in which the bottom player threads the opponent's lapel between their own legs, creating pulley-like leverage that breaks posture and powers sweeps, back takes, and submissions.**
+
+Building on the wave of modern lapel-based guards, Piranha Guard weaponizes the opponent's own collar by feeding it through the bottom player's legs to generate exceptional posture-breaking leverage and sweep opportunities. This guard is characterized by the unique gripping configuration where the practitioner threads the opponent's lapel between their legs and controls it with strategic hand placements, creating a pulley-like mechanical advantage similar to how a piranha's teeth lock onto prey.
 
 The position excels against opponents who attempt to establish standing passes or maintain upright posture in open guard scenarios. By controlling the collar through the legs, the guard player creates a direct connection to the opponent's upper body while maintaining tactical flexibility for attacks. The lapel configuration fundamentally disrupts the top player's base and posture, making traditional passing approaches difficult while simultaneously creating angles for sweeps, back takes, and submissions. This system integrates seamlessly with other modern lapel guard systems like Worm Guard and Squid Guard, and can transition effectively to traditional open guard positions when needed.
 

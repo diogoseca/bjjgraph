@@ -34,6 +34,18 @@ description: "Master the Underhook Sweep from Dogfight in BJJ. Use deep underhoo
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Underhook Sweep from Dogfight",
+  "description": "The Underhook Sweep from Dogfight is a half-guard reversal where the bottom player levers a deep underhook to topple the top opponent over their trapped knee, landing in side control or mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Underhook Sweep from Dogfight in BJJ. Use deep underhoo
 </div>
 
 <section id="overview" class="content-section">
+
+**The Underhook Sweep from Dogfight is a half-guard reversal where the bottom player levers a deep underhook to topple the top opponent over their trapped knee, landing in side control or mount.**
 
 The Underhook Sweep from Dogfight is a high-percentage reversal that converts the bottom player's underhook advantage into a complete positional reversal. From the dogfight position—an elevated half guard scramble where both players are on their knees—this technique exploits the mechanical advantage created by a deep underhook to off-balance the top player and drive them to the mat. The sweep targets the opponent's far-side base, using the underhook as a primary lever to rotate them over their trapped knee while simultaneously blocking their ability to post and recover balance.
 

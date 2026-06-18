@@ -34,6 +34,18 @@ description: "Master Seated Guard in BJJ. Complete guide covering entries, trans
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Seated Guard",
+  "description": "Seated Guard is an upright open-guard position where the bottom player sits with hips grounded and hands posted for base, using active legs to manage distance, threaten sweeps, and retain the option to technical stand-up at any moment.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Seated Guard in BJJ. Complete guide covering entries, trans
 
 <section id="overview" class="content-section">
 
-Seated Guard is an upright open guard position where you sit on the mat with your hips on the ground, hands posted behind you for base, and legs extended or bent toward your opponent. This position provides a stable base with excellent mobility and the ability to quickly transition to standing or other guard positions. Unlike closed guard or butterfly guard, Seated Guard maintains maximum freedom of leg movement for distance management and attacks.
+**Seated Guard is an upright open-guard position where the bottom player sits with hips grounded and hands posted for base, using active legs to manage distance, threaten sweeps, and retain the option to technical stand-up at any moment.**
+
+Now a default entry point for modern open-guard play in both gi and no-gi, Seated Guard has become one of the most common starting points whenever guard is opened or a scramble resets to the ground. You sit on the mat with your hips on the ground, hands posted behind you for base, and legs extended or bent toward your opponent. This position provides a stable base with excellent mobility and the ability to quickly transition to standing or other guard positions. Unlike closed guard or butterfly guard, Seated Guard maintains maximum freedom of leg movement for distance management and attacks.
 
 The strategic value of Seated Guard lies in its versatility and ease of entry/exit. It's commonly used as a transitional position when guard is opened, when recovering from guard pass attempts, or when opponent stands to create distance. The position allows you to control engagement distance with your feet while maintaining the option to stand up at any moment, making it difficult for opponents to commit fully to passing attempts.
 

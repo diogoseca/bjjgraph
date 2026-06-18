@@ -34,6 +34,18 @@ description: "Master guard recovery from combat base in BJJ. Step-by-step guide 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Recovery from Combat Base",
+  "description": "Guard Recovery from Combat Base is a defensive transition where the bottom player chains frames, hip escapes, and leg reattachment to rebuild closed guard against a passer kneeling in combat base inside their legs.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master guard recovery from combat base in BJJ. Step-by-step guide 
 </div>
 
 <section id="overview" class="content-section">
+
+**Guard Recovery from Combat Base is a defensive transition where the bottom player chains frames, hip escapes, and leg reattachment to rebuild closed guard against a passer kneeling in combat base inside their legs.**
 
 Guard Recovery from Combat Base is a fundamental defensive transition in Brazilian Jiu-Jitsu where the bottom player works to reestablish closed guard when their opponent has secured combat base inside their legs. This transition addresses the critical moment when your guard has been opened and your opponent has established an asymmetric kneeling stance with one knee posted and one foot planted, threatening multiple passing sequences including knee slice, toreando, and pressure passes.
 

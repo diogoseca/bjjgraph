@@ -34,6 +34,18 @@ description: "Master the Roll Forward from Omoplata in BJJ. Complete guide cover
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll Forward from Omoplata",
+  "description": "The Roll Forward from Omoplata is a sweep that converts bottom omoplata control into top side control by driving the hips forward and rolling over the opponent's trapped shoulder, using a belt or hip grip to steer the landing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Roll Forward from Omoplata in BJJ. Complete guide cover
 </div>
 
 <section id="overview" class="content-section">
+
+**The Roll Forward from Omoplata is a sweep that converts bottom omoplata control into top side control by driving the hips forward and rolling over the opponent's trapped shoulder, using a belt or hip grip to steer the landing.**
 
 The Roll Forward from Omoplata is a dynamic positional advancement technique where the bottom player uses their established omoplata control to execute a forward roll, sweeping the opponent and transitioning to side control. This technique capitalizes on the rotational pressure already applied to the opponent's shoulder, converting submission control into positional dominance through a committed rolling motion that follows the natural arc of the omoplata configuration.
 

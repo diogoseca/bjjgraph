@@ -34,6 +34,18 @@ description: "Master Scarf Hold (Kesa Gatame) in BJJ. Traditional judo pinning p
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Scarf Hold Position",
+  "description": "Scarf Hold Position (Kesa Gatame) is a judo-derived perpendicular pin where the top player sits across the opponent's chest controlling the head and trapped near arm, while the bottom escapes via bridge-and-turn mechanics rather than lateral shrimping.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Scarf Hold (Kesa Gatame) in BJJ. Traditional judo pinning p
 
 <section id="overview" class="content-section">
 
-Scarf Hold Position (Kesa Gatame) is a fundamental pinning position derived from Judo where control is established through a perpendicular angle to the opponent's body. This traditional pinning position creates unique mechanical challenges due to the T-shaped configuration, with the controlling player sitting perpendicular across the opponent's chest while managing head and arm control. The position appears in both gi and no-gi grappling, though it remains more prevalent among practitioners with judo backgrounds or those favoring classical pinning systems.
+**Scarf Hold Position (Kesa Gatame) is a judo-derived perpendicular pin where the top player sits across the opponent's chest controlling the head and trapped near arm, while the bottom escapes via bridge-and-turn mechanics rather than lateral shrimping.**
+
+Borrowed directly from judo's ne-waza, Scarf Hold occupies a distinct niche in the BJJ pinning hierarchy because its T-shaped configuration negates the parallel-pressure escapes that work against orthodox side control. The controlling player sits perpendicular across the opponent's chest while managing head and arm control. The position appears in both gi and no-gi grappling, though it remains more prevalent among practitioners with judo backgrounds or those favoring classical pinning systems.
 
 The position's effectiveness stems from the perpendicular angle creating force vectors that negate standard side control escape mechanics. For the top player, this angle allows weight distribution through the hips directly into the opponent's ribcage while controlling the trapped arm and head. For the bottom player, the perpendicular configuration eliminates lateral shrimping effectiveness, requiring bridge-and-turn mechanics or backdoor escapes when the top player shifts weight.
 
@@ -194,23 +208,25 @@ Scarf Hold Position represents a transitional control platform rather than purel
 ### Available Transitions
 
 
-- **[[Americana from Scarf Hold Position/Attacker|Americana from Scarf Hold Position]]** (14% of attempts)
+- **[[Americana from Scarf Hold Position/Attacker|Americana from Scarf Hold Position]]** (13% of attempts)
 
 - **[[Kimura from Scarf Hold Position/Attacker|Kimura from Scarf Hold Position]]** (12% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (15% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (14% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (24% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (23% of attempts)
 
 - **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (11% of attempts)
 
-- **[[Arm Triangle from Scarf Hold Position/Attacker|Arm Triangle from Scarf Hold Position]]** (14% of attempts)
+- **[[Arm Triangle from Scarf Hold Position/Attacker|Arm Triangle from Scarf Hold Position]]** (13% of attempts)
 
 - **[[Transitions/Scarf Hold to Mount/Attacker|Scarf Hold to Mount]]** (5% of attempts)
 
 - **[[Transitions/Scarf Hold to Side Control/Attacker|Scarf Hold to Side Control]]** (3% of attempts)
 
 - **[[Transitions/Back Take from Kesa Gatame/Attacker|Back Take from Kesa Gatame]]** (2% of attempts)
+
+- **[[Belly Down Armbar from Scarf Hold Position/Attacker|Belly Down Armbar from Scarf Hold Position]]** (4% of attempts)
 
 
 ### Common Mistakes

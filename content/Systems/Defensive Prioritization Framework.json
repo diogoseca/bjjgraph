@@ -12,7 +12,8 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Intermediate",
-  "overview": "The Defensive Prioritization Framework is a comprehensive defensive strategy that teaches practitioners to systematically assess threats, prioritize responses, and execute the most efficient escape or defensive action based on positional hierarchy and submission proximity. Rather than learning isolated escape techniques, this framework provides a decision-making matrix that helps practitioners understand when to accept inferior positions to avoid submissions, when to fight for improved position, and when to explode with maximum effort. The system is built on the fundamental principle that not all bad positions are equally bad, and understanding this hierarchy is critical for survival and energy conservation in Brazilian Jiu-Jitsu. By categorizing positions based on point value, submission threat, and escape difficulty, practitioners develop an intuitive sense of defensive urgency that guides their response selection. This framework integrates seamlessly with position-specific escape sequences while providing the overarching strategic context that makes individual techniques more effective.",
+  "summary": "The Defensive Prioritization Framework is a systematic defensive strategy that ranks positions by submission threat and escape difficulty, telling a practitioner which danger to address first and how much energy to spend addressing it.",
+  "overview": "Most practitioners accumulate escapes as a disconnected collection of techniques — a bridge-and-roll here, a hip escape there — without an organizing logic for which response to reach for when multiple dangers stack up at once. This framework supplies that missing logic. Rather than learning isolated escape techniques, it provides a decision-making matrix that helps practitioners understand when to accept inferior positions to avoid submissions, when to fight for improved position, and when to explode with maximum effort. The system is built on the fundamental principle that not all bad positions are equally bad, and understanding this hierarchy is critical for survival and energy conservation in Brazilian Jiu-Jitsu. By categorizing positions based on point value, submission threat, and escape difficulty, practitioners develop an intuitive sense of defensive urgency that guides their response selection. This framework integrates seamlessly with position-specific escape sequences while providing the overarching strategic context that makes individual techniques more effective.",
   "key_principles": [
     "Positional hierarchy determines defensive urgency - mount requires more immediate action than side control",
     "Submission proximity overrides positional concerns - defending a locked choke takes absolute priority",
@@ -231,9 +232,9 @@
       "relationship": "Maximum threat position with specific defensive protocols within the framework"
     },
     {
-      "name": "Side Control",
+      "name": "Knee on Belly",
       "content_type": "Position",
-      "relationship": "Medium threat position demonstrating measured defensive response principles"
+      "relationship": "Medium threat position requiring specific defensive response within framework"
     },
     {
       "name": "Elbow Escape to Guard",
@@ -296,16 +297,6 @@
       "relationship": "Recovery position representing successful framework execution from worse positions"
     },
     {
-      "name": "Knee on Belly",
-      "content_type": "Position",
-      "relationship": "Medium threat position requiring specific defensive response within framework"
-    },
-    {
-      "name": "Triangle Escape",
-      "content_type": "Transition",
-      "relationship": "Submission-specific escape demonstrating framework's submission defense integration"
-    },
-    {
       "name": "Armbar Defense",
       "content_type": "Transition",
       "relationship": "Critical submission defense technique integrated into framework protocols"
@@ -329,6 +320,40 @@
       "name": "Roger Gracie Fundamental System",
       "content_type": "System",
       "relationship": "Fundamental approach emphasizing positional hierarchy aligned with framework philosophy"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "When a locked submission and a positional threat exist at the same moment, what does the framework tell you to prioritize?",
+      "answer": "Submission proximity always overrides positional concerns — a locked or near-locked choke or joint lock takes absolute priority, even if defending it concedes a worse position, because the match ends the instant the submission completes."
+    },
+    {
+      "question": "How does the Positional Threat Matrix rank mount versus side control?",
+      "answer": "Mount is a maximum-threat position demanding immediate explosive action due to its high point value and submission vulnerability, while side control is a medium-threat position that permits more measured, frame-based defensive responses."
+    },
+    {
+      "question": "Why is deliberately accepting an inferior position sometimes the correct framework decision?",
+      "answer": "Because not all bad positions are equally bad — conceding side control to deny the opponent mount or back trades a small disadvantage to avoid a much larger one, conserving energy and reducing overall submission exposure."
+    },
+    {
+      "question": "What foundational skill must become automatic before a practitioner drills dynamic escapes in this framework?",
+      "answer": "Frame establishment and maintenance — using forearms, knees, and shins to build dynamic structural barriers that stop the opponent's pressure from fully settling and generate the space that escapes require."
+    },
+    {
+      "question": "What is the framework's ordered sequence of defensive goals from a disadvantaged position?",
+      "answer": "First prevent the submission, then prevent further positional advancement, and finally create an escape opportunity — addressing the most match-ending threat before working back toward neutral or dominant position."
+    },
+    {
+      "question": "What common energy error does the Energy Allocation Strategy specifically guard against?",
+      "answer": "Premature explosion — spending maximum effort on low-percentage escape windows. The framework teaches patient frame maintenance until opponent fatigue or a weight shift opens a high-percentage window worth exploding into."
+    },
+    {
+      "question": "How does escape sequencing differ from committing fully to a single escape attempt?",
+      "answer": "Each position has a primary, secondary, and tertiary escape ordered by success probability; the practitioner flows between attempts rather than over-committing, treating each attempt as reconnaissance that informs the next while preserving structure and energy."
+    },
+    {
+      "question": "What does advanced proficiency in submission defense look like within this framework?",
+      "answer": "Rarely getting caught in fully locked submissions, defending setups early through hand fighting and frame management, and regularly escaping even advanced submission positions against higher-skilled opponents."
     }
   ]
 }

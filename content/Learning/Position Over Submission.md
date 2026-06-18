@@ -86,6 +86,18 @@ description: "Learn why securing dominant position before attacking submissions 
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Position Over Submission",
+  "description": "Position over submission is the BJJ principle of securing dominant, controlling position before hunting a finish, because submissions launched from positional advantage have far higher completion rates and far lower cost when they fail.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -94,6 +106,8 @@ description: "Learn why securing dominant position before attacking submissions 
 <section id="overview" class="content-section">
 
 ## What is Position Over Submission?
+
+**Position over submission is the BJJ principle of securing dominant, controlling position before hunting a finish, because submissions launched from positional advantage have far higher completion rates and far lower cost when they fail.**
 
 The phrase 'position before submission' is the oldest maxim in Brazilian Jiu-Jitsu, and it exists because the math supports it. A submission attempted from a weak position has a low completion rate and a high cost on failure -- you lose whatever position you had and end up worse than where you started. A submission attempted from a dominant position has a high completion rate and a low cost on failure -- even if the submission does not finish, you often retain the dominant position and can attack again.
 
@@ -207,15 +221,15 @@ A: Consider advancing to a more dominant position like mount or knee on belly ra
 <section id="related" class="content-section">
 
 ## Related
-- [[Principles/Positional Hierarchy]] (Principle) - The ranking system that defines which positions offer more control and submission opportunities
-- [[Principles/Position-Over-Submission Approach]] (Principle) - The foundational principle this article explores in depth
-- [[Principles/Control Maintenance]] (Principle) - Techniques for maintaining dominant positions before attacking
-- [[Principles/Pressure]] (Principle) - Using weight and pressure to consolidate positions and break down defenses
-- [[Positions/Mount]] (Position) - The quintessential dominant position where position-first strategy pays off most
-- [[Positions/Side Control]] (Position) - Key transitional position for advancing up the positional hierarchy
-- [[Positions/Back Control]] (Position) - The most dominant position in the hierarchy with the highest submission rates
-- [[Learning/Committed Techniques]] (Learning) - Choosing techniques that retain position on failure supports the position-first approach
-- [[Learning/Probabilistic Thinking]] (Learning) - Position-first strategy is fundamentally about playing the percentages
+- [[Positional Hierarchy]] (Principle) - The ranking system that defines which positions offer more control and submission opportunities
+- [[Position-Over-Submission Approach]] (Principle) - The foundational principle this article explores in depth
+- [[Control Maintenance]] (Principle) - Techniques for maintaining dominant positions before attacking
+- [[Pressure]] (Principle) - Using weight and pressure to consolidate positions and break down defenses
+- [[Mount]] (Position) - The quintessential dominant position where position-first strategy pays off most
+- [[Side Control]] (Position) - Key transitional position for advancing up the positional hierarchy
+- [[Back Control]] (Position) - The most dominant position in the hierarchy with the highest submission rates
+- [[Committed Techniques]] (Learning) - Choosing techniques that retain position on failure supports the position-first approach
+- [[Probabilistic Thinking]] (Learning) - Position-first strategy is fundamentally about playing the percentages
 
 
 

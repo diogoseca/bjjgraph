@@ -34,6 +34,18 @@ description: "Master underhook recovery from flattened half guard in BJJ. Comple
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Underhook Recovery from Flattened",
+  "description": "Underhook Recovery from Flattened is a half guard escape where the bottom player uses frames and incremental hip escapes to thread a deep underhook under the top player's far armpit, converting a pinned survival position into active half guard offense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master underhook recovery from flattened half guard in BJJ. Comple
 </div>
 
 <section id="overview" class="content-section">
+
+**Underhook Recovery from Flattened is a half guard escape where the bottom player uses frames and incremental hip escapes to thread a deep underhook under the top player's far armpit, converting a pinned survival position into active half guard offense.**
 
 The Underhook Recovery from Flattened Half Guard is one of the most critical survival techniques in Brazilian Jiu-Jitsu, representing the essential gateway between passive defense and active guard play. When the top player collapses your frames and pins you flat in half guard with crushing crossface pressure, recovering the underhook on their far side is the first step toward restoring any offensive capability. Without the underhook, you remain trapped under sustained pressure with no viable sweeps, back takes, or meaningful positional improvements available. This technique transforms a purely defensive survival scenario into the launching point for the entire half guard offensive system.
 

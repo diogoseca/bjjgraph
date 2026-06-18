@@ -34,6 +34,18 @@ description: "Transition from collar sleeve to spider guard in BJJ. Master grip 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Collar Sleeve to Spider Guard",
+  "description": "Collar Sleeve to Spider Guard is a gi guard transition where the bottom player converts asymmetric collar-and-sleeve control into bilateral spider guard by planting both feet on the opponent's biceps before releasing the collar to secure the second sleeve.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Transition from collar sleeve to spider guard in BJJ. Master grip 
 
 <section id="overview" class="content-section">
 
-The collar sleeve to spider guard transition is a fundamental guard evolution that converts your asymmetric collar-and-sleeve control into the powerful double-sleeve, feet-on-biceps configuration of spider guard. This transition represents one of the most common guard progressions in gi jiu-jitsu, allowing the bottom player to upgrade from single-arm distance management to bilateral bicep control that creates superior sweeping platforms and submission entries.
+**Collar Sleeve to Spider Guard is a gi guard transition where the bottom player converts asymmetric collar-and-sleeve control into bilateral spider guard by planting both feet on the opponent's biceps before releasing the collar to secure the second sleeve.**
+
+Among gi guard progressions, this transition sits at the heart of the open-guard evolution pathway, bridging the accessible collar sleeve game and the more controlling spider guard system. It is one of the most common guard upgrades in gi jiu-jitsu, letting the bottom player trade single-arm distance management for bilateral bicep control that creates superior sweeping platforms and submission entries.
 
 The critical challenge in this transition lies in the grip conversion itself. Releasing the cross-collar grip creates a momentary vulnerability where the top player can advance or establish counter-grips before the second sleeve is secured. Successful execution requires precise timing, typically initiated when the opponent is off-balanced or recovering posture, creating a window where the collar release goes unpunished. The sleeve-side foot must already be positioned on the opponent's bicep before the collar grip is released, ensuring continuous control throughout the transition.
 

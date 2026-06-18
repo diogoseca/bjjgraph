@@ -34,6 +34,18 @@ description: "Master hand fighting to remove collar grip from invisible collar b
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hand Fighting to Remove Collar Grip",
+  "description": "Hand Fighting to Remove Collar Grip is a defensive back-escape technique where the bottom player uses two-on-one wrist control and a coordinated bridge to strip the attacker's deep gi collar grip, neutralizing an invisible collar choke before it can finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master hand fighting to remove collar grip from invisible collar b
 </div>
 
 <section id="overview" class="content-section">
+
+**Hand Fighting to Remove Collar Grip is a defensive back-escape technique where the bottom player uses two-on-one wrist control and a coordinated bridge to strip the attacker's deep gi collar grip, neutralizing an invisible collar choke before it can finish.**
 
 Hand Fighting to Remove Collar Grip represents the critical first layer of defense when trapped in the invisible collar position from bottom. The technique addresses the most immediate threat—the deep collar grip that can finish the match within seconds. Unlike generic hand fighting, this defensive sequence specifically targets the biomechanics of collar grip removal, using two-on-one control to systematically peel fingers from the gi material before the attacker can apply finishing pressure.
 

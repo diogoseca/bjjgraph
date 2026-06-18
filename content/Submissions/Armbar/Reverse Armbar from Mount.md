@@ -33,10 +33,32 @@ description: "Master the Reverse Armbar in BJJ. Complete guide with safety proto
 }
 </script>
 
-> **SAFETY**: Reverse Armbar from Mount targets the Elbow joint (hyperextension with reverse rotation). Risk: Elbow hyperextension with lateral stress. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Armbar from Mount",
+  "description": "The Reverse Armbar from Mount is an elbow lock attacked by rotating 180 degrees to face your opponent's feet, hyperextending their isolated arm in the opposite plane to defeat defenses trained against the conventional mount armbar.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Reverse Armbar from Mount is an elbow lock attacked by rotating 180 degrees to face your opponent's feet, hyperextending their isolated arm in the opposite plane to defeat defenses trained against the conventional mount armbar.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint (hyperextension with reverse rotation)</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Reverse Armbar from Mount targets the Elbow joint (hyperextension with reverse rotation). Primary risk: Elbow hyperextension with lateral stress. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -49,53 +71,7 @@ description: "Master the Reverse Armbar in BJJ. Complete guide with safety proto
 
 The Reverse Armbar is an advanced elbow hyperextension technique distinguished by its inverted body positioning relative to the standard armbar. Unlike the traditional armbar where you face toward your opponent's head, the reverse armbar requires you to rotate your body 180 degrees so your hips face toward their feet while maintaining control of their arm. This submission is particularly effective in scramble situations, failed standard armbar attempts, or when opponents defend the conventional armbar by turning their thumb down. The reverse mechanics create unexpected leverage angles that catch even experienced practitioners off-guard, as defensive instincts trained for standard armbars often fail against this variation. The technique demands precise hip positioning, tight arm isolation, and careful rotational control to prevent escape while maintaining submission pressure. Success hinges on understanding how the reversed body angle changes the leverage dynamics—your legs must control their shoulder and head differently, and your hip placement becomes critical for generating breaking force without losing control.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint (hyperextension with reverse rotation)
-**Starting Position**: [[Positions/Mount]]
-**From Position**: [[Positions/Mount]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension with lateral stress | High | 4-8 weeks with potential ligament damage |
-| Rotator cuff strain from shoulder torque during rotation | Medium | 2-4 weeks |
-| Bicep tendon strain from improper angle | Medium | 2-3 weeks |
-
-
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap (preferred during rotation)
-- Physical hand tap on your body or mat
-- Physical foot tap on mat
-- Any distress vocalization or signal
-
-
-**Release Protocol**:
-1. Immediately stop hip extension and rotation
-2. Lower hips away from elbow joint
-3. Release leg pressure on head and shoulder
-4. Return arm to neutral position before releasing grip
-5. Allow partner to extract arm at their pace
-
-
-**Training Restrictions**:
-- Never spike or jerk during the rotation phase
-- Never complete the submission at competition speed in training
-- Always maintain verbal communication during setup
-- Never apply full extension until partner is completely controlled
-- Prohibit this technique for beginners without supervision
-- Always allow clear tap access throughout
-
+**Starting Position**: [[Positions/Mount]] · **From**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -269,10 +245,9 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Mounted Crucifix Armbar]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Americana]]
@@ -286,34 +261,51 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 - [[Transitions/Inverted Triangle]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Monoplata]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Transitions/Mount to Armbar]] - Primary transition path, reverse armbar often flows from a failed standard mount armbar attempt
-- [[Submissions/Triangle Choke]] - Alternative submission chain, can reverse to armbar from triangle control
-- [[Submissions/Far Side Armbar]] - Related armbar variation sharing elbow hyperextension mechanics, understanding standard finishing angles reveals when the reverse variation overcomes conventional defenses
 - [[Positions/Mount/S Mount]] - High-percentage setup position, opponent's escape attempts create reverse armbar opportunities
-- [[Submissions/Spinning Armbar]] - Related dynamic armbar variation sharing rotational mechanics and scramble entries
-- [[Submissions/Omoplata]] - Strategic alternative, reverse armbar exemplifies attacking from unexpected angles
 - [[Positions/Armbar Control]] - Positional foundation, reverse variation requires mastery of standard control first
 - [[Positions/Standing Position]] - Common entry context, standing exchanges create arm isolation for reverse mechanics
-- [[Submissions/Belly Down Armbar]] - Related finishing mechanics, hip positioning and extension principles apply to both
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Reverse Armbar from Mount leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension with lateral stress | High | 4-8 weeks with potential ligament damage |
+| Rotator cuff strain from shoulder torque during rotation | Medium | 2-4 weeks |
+| Bicep tendon strain from improper angle | Medium | 2-3 weeks |
+
+
+**Application Speed**: SLOW and progressive - 4-6 seconds minimum with constant communication
+
+**Tap Signals**:
+- Verbal tap (preferred during rotation)
+- Physical hand tap on your body or mat
+- Physical foot tap on mat
+- Any distress vocalization or signal
+
+
+**Release Protocol**:
+1. Immediately stop hip extension and rotation
+2. Lower hips away from elbow joint
+3. Release leg pressure on head and shoulder
+4. Return arm to neutral position before releasing grip
+5. Allow partner to extract arm at their pace
+
+
+**Training Restrictions**:
+- Never spike or jerk during the rotation phase
+- Never complete the submission at competition speed in training
+- Always maintain verbal communication during setup
+- Never apply full extension until partner is completely controlled
+- Prohibit this technique for beginners without supervision
+- Always allow clear tap access throughout
+
 
 </section>
 

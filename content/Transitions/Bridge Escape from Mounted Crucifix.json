@@ -1,6 +1,7 @@
 {
   "name": "Bridge Escape from Mounted Crucifix",
   "description": "Master the bridge escape from mounted crucifix in BJJ. Learn explosive bridging mechanics, arm extraction timing, and systematic guard recovery methods.",
+  "summary": "The Bridge Escape from Mounted Crucifix is an emergency bottom escape that uses an explosive directional bridge toward the trapped-arm side to disrupt the opponent's leg-based arm control, free the trapped arm, and recover to half guard.",
   "tags": [
     "bjj",
     "transition",
@@ -82,7 +83,7 @@
       "relationship": "Related bridge-based escape mechanic used from standard mount bottom"
     },
     {
-      "name": "Elbow Escape to Guard",
+      "name": "Elbow Escape from Mount",
       "relationship": "Follow-up escape technique used after recovering to mount bottom or half guard"
     },
     {
@@ -90,12 +91,12 @@
       "relationship": "Primary submission threat the top player may attack during escape attempts"
     },
     {
-      "name": "Choke from Crucifix",
-      "relationship": "Neck submission threat requiring defensive priority before bridge attempt"
+      "name": "Back Control",
+      "relationship": "Dangerous advancement the top player may pursue if the escape exposes the back"
     },
     {
-      "name": "Mounted Crucifix Armbar",
-      "relationship": "Specific armbar variation threatening from mounted crucifix during escape"
+      "name": "Arm Extraction",
+      "relationship": "Core sub-skill required to free the trapped arm during the bridge disruption window"
     }
   ],
   "attacker": {

@@ -34,6 +34,18 @@ description: "Master Ashi Garami maintenance in BJJ. Complete guide to systemati
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ashi Garami Maintenance",
+  "description": "Ashi Garami Maintenance is the skill of retaining bottom leg-entanglement control by managing connection points, following the opponent's hips, and re-hooking cleared grips to deny extraction before advancing the leg-lock hierarchy.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Ashi Garami maintenance in BJJ. Complete guide to systemati
 
 <section id="overview" class="content-section">
 
-Ashi Garami Maintenance represents the fundamental skill of retaining leg entanglement control against an opponent's systematic extraction attempts. While leg lock systems receive extensive attention for entries and finishes, the ability to maintain position through connection point management and hip following separates high-level leg lockers from practitioners who rely solely on explosive attacks. This transition encompasses all the micro-adjustments, re-hooks, and grip transitions required to prevent the opponent from clearing your leg control and returning to a neutral or advantageous position.
+**Ashi Garami Maintenance is the skill of retaining bottom leg-entanglement control by managing connection points, following the opponent's hips, and re-hooking cleared grips to deny extraction before advancing the leg-lock hierarchy.**
+
+While leg lock systems receive extensive attention for entries and finishes, the maintenance phase is what separates high-level leg lockers from practitioners who rely solely on explosive attacks. Retaining leg entanglement control against an opponent's systematic extraction attempts demands constant connection point management and hip following rather than static grip tension. This transition encompasses all the micro-adjustments, re-hooks, and grip transitions required to prevent the opponent from clearing your leg control and returning to a neutral or advantageous position.
 
 The maintenance phase occupies a critical strategic role in the leg lock game. Without reliable retention, even technically superior entries become wasted energy as opponents consistently extract before advancement or finishing can occur. Effective maintenance creates cumulative pressure that exhausts defensive resources, forcing the opponent into increasingly desperate extraction attempts that open opportunities for hierarchical advancement toward Saddle or Cross Ashi-Garami. The patient, systematic approach to leg control retention reflects modern competition methodology where position quality precedes submission attempts.
 

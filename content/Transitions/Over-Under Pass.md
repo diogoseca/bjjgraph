@@ -34,6 +34,18 @@ description: "Master the Over-Under Pass in BJJ. Pressure-based guard pass from 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Over-Under Pass",
+  "description": "The Over-Under Pass is a pressure-based guard pass from Half Guard Top where the passer threads one arm under the opponent's near leg and traps the far leg with an over-hook, stacking their hips to eliminate mobility and circle laterally into Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Over-Under Pass in BJJ. Pressure-based guard pass from 
 
 <section id="overview" class="content-section">
 
-The Over-Under Pass is a fundamental pressure-based guard passing technique that combines superior positioning with powerful control mechanics to bypass the opponent's guard. This technique is characterized by controlling one leg over the opponent's body while threading the other arm under their opposite leg, creating a stacking effect that neutralizes their defensive capabilities. The Over-Under Pass is particularly effective against half guard, butterfly guard, and open guard variations, making it a cornerstone technique in modern Brazilian Jiu-Jitsu. What makes this pass especially valuable is its combination of pressure control and positional dominance - by stacking the opponent's weight onto their shoulders, you eliminate their hip mobility and ability to re-guard while methodically advancing to side control. The technique requires excellent weight distribution, patience under pressure, and the ability to maintain chest-to-chest connection throughout the passing sequence. Unlike speed-based passes that rely on quick movements, the Over-Under Pass exemplifies the principle of using superior position and leverage to overcome an opponent's defensive structure through systematic pressure application.
+**The Over-Under Pass is a pressure-based guard pass from Half Guard Top where the passer threads one arm under the opponent's near leg and traps the far leg with an over-hook, stacking their hips to eliminate mobility and circle laterally into Side Control.**
+
+Within the pressure-passing system, the Over-Under Pass stands as a cornerstone method for converting Half Guard Top into Side Control through superior weight distribution rather than speed. The technique is characterized by controlling one leg over the opponent's body while threading the other arm under their opposite leg, creating a stacking effect that neutralizes their defensive capabilities. The Over-Under Pass is particularly effective against half guard, butterfly guard, and open guard variations, making it a foundational tool in modern Brazilian Jiu-Jitsu. What makes this pass especially valuable is its combination of pressure control and positional dominance - by stacking the opponent's weight onto their shoulders, you eliminate their hip mobility and ability to re-guard while methodically advancing to side control. The technique requires excellent weight distribution, patience under pressure, and the ability to maintain chest-to-chest connection throughout the passing sequence. Unlike speed-based passes that rely on quick movements, the Over-Under Pass exemplifies the principle of using superior position and leverage to overcome an opponent's defensive structure through systematic pressure application.
 
 **From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 72%
@@ -229,13 +243,13 @@ The Over-Under Pass is a cornerstone technique in the pressure passing system an
 
 - [[Positions/Side Control]] - Primary destination position after successful pass completion
 
-- [[Transitions/Double Under Pass]] - Complementary pass using two under-hooks instead of one over and one under
+- [[Positions/Double Unders]] - Complementary pass using two under-hooks instead of one over and one under
 
 - [[Transitions/Knee Slice Pass]] - Chain combination when opponent defends the over-under hip circulation
 
-- [[Transitions/Pressure Pass]] - Related pressure-based passing concept with similar weight distribution principles
+- [[Transitions/Smash Pass]] - Related pressure-based passing concept with similar weight distribution principles
 
-- [[Transitions/Leg Weave Pass]] - Advanced progression using similar hip control and lateral circulation concepts
+- [[Positions/Leg Weave]] - Advanced progression using similar hip control and lateral circulation concepts
 
 - [[Positions/Headquarters Position]] - Transitional position that can serve as entry or exit for over-under passing
 

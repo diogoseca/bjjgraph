@@ -1,6 +1,6 @@
 {
   "name": "Kimura Trap System",
-  "description": "Master Kimura Trap System in BJJ. Framework connecting control to submissions and back takes. Danaher's systematic approach to offensive dominance.",
+  "description": "Master the Kimura Trap System in BJJ: a control-and-submission framework that chains the figure-four grip into back takes, sweeps, mounts, and finishes.",
   "tags": [
     "bjj",
     "system",
@@ -12,7 +12,8 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "overview": "The Kimura Trap System is a comprehensive control and submission framework built around the kimura grip position. Unlike treating the kimura solely as an isolated submission, this system recognizes it as a powerful control mechanism that creates multiple offensive pathways. The system emphasizes using the kimura grip to control the opponent's posture and movement while simultaneously threatening submissions, sweeps, and transitions to dominant positions.\n\nDeveloped and refined by John Danaher and popularized through high-level competition by athletes like Gordon Ryan and Garry Tonon, the Kimura Trap System represents a paradigm shift in how grapplers approach the kimura. Rather than immediately hunting for the finish, practitioners learn to use the kimura grip as a steering wheel, directing opponents into increasingly disadvantageous positions while maintaining constant offensive pressure. The system works from multiple starting positions including side control, half guard, turtle, and even standing scenarios.\n\nThe genius of this system lies in its problem-solving approach: every defensive response from the opponent opens a different offensive opportunity. If they defend the kimura submission, you take the back. If they defend the back take, you transition to mount. If they defend the mount, the kimura finish becomes available again. This creates an inescapable dilemma where the opponent must choose which catastrophic outcome to accept, embodying the Danaher principle of systematized attack sequences.",
+  "summary": "The Kimura Trap System is a control-and-submission framework that weaponizes the figure-four (kimura) grip as a steering wheel, chaining back takes, sweeps, mount transitions, and shoulder-lock finishes so every defensive reaction opens a new attack.",
+  "overview": "Built around the figure-four (kimura) grip on the opponent's arm, this framework departs sharply from treating the kimura as an isolated submission. Instead, it recognizes the grip as a powerful control mechanism that opens multiple offensive pathways at once — controlling the opponent's posture and movement while simultaneously threatening submissions, sweeps, and transitions to dominant positions.\n\nDeveloped and refined by John Danaher and popularized through high-level competition by athletes like Gordon Ryan and Garry Tonon, the Kimura Trap System represents a paradigm shift in how grapplers approach the kimura. Rather than immediately hunting for the finish, practitioners learn to use the kimura grip as a steering wheel, directing opponents into increasingly disadvantageous positions while maintaining constant offensive pressure. The system works from multiple starting positions including side control, half guard, turtle, and even standing scenarios.\n\nThe genius of this system lies in its problem-solving approach: every defensive response from the opponent opens a different offensive opportunity. If they defend the kimura submission, you take the back. If they defend the back take, you transition to mount. If they defend the mount, the kimura finish becomes available again. This creates an inescapable dilemma where the opponent must choose which catastrophic outcome to accept, embodying the Danaher principle of systematized attack sequences.",
   "key_principles": [
     "Use the kimura grip as a control mechanism first, submission second",
     "Create cascading dilemmas where every defensive choice leads to a different attack",
@@ -330,6 +331,48 @@
       "name": "Americana",
       "content_type": "Submission",
       "relationship": "Related shoulder lock submission with similar mechanics"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core philosophy that separates the Kimura Trap System from treating the kimura as a single submission?",
+      "answer": "The system uses the figure-four grip primarily as a control mechanism and steering wheel rather than a finish, chaining back takes, mounts, sweeps, and submissions so every defensive reaction opens a new attack."
+    },
+    {
+      "question": "When the opponent extends or straightens the trapped arm to relieve kimura pressure, which pathway does the system prioritize?",
+      "answer": "The back take — the extended arm becomes an anchor to climb onto the back, with the kimura grip transitioning naturally into seat-belt control as you secure the back."
+    },
+    {
+      "question": "What grip detail distinguishes a controlling kimura grip from one the opponent can easily strip?",
+      "answer": "A deep, wrist-to-wrist (figure-four) connection with the elbow tight to your own body, rather than a shallow finger grip; depth controls the shoulder girdle and resists strength-based extraction."
+    },
+    {
+      "question": "How does the Kimura Trap System create a 'dilemma' that fatigues and breaks the opponent?",
+      "answer": "Every defensive choice solves one threat while exposing another — defend the submission and you lose your back; defend the back and you concede mount — forcing the opponent into a chain of losing decisions."
+    },
+    {
+      "question": "From which positions can the Kimura Trap System be initiated?",
+      "answer": "Side control, half guard, turtle, north-south, and even standing or scramble situations; the figure-four grip is the common thread that connects these otherwise separate positions into one offensive system."
+    },
+    {
+      "question": "What is the most common mistake practitioners make when first learning the system?",
+      "answer": "Hunting the submission finish prematurely before establishing positional control, which lets the opponent escape; the system demands a position-over-submission mindset, treating the finish as one of several outcomes."
+    },
+    {
+      "question": "What is the rolling kimura and when is it the right tool?",
+      "answer": "A forward roll performed while retaining the figure-four grip, using rotational momentum to break a defender who has neutralized static attacks by maintaining strong posture and base."
+    },
+    {
+      "question": "If an opponent uses superior strength to rip the trapped arm free, what should the practitioner adjust?",
+      "answer": "Shift from grip strength to body positioning and angle creation, using hip and shoulder pressure to multiply holding power, and favor the back-take pathway, which relies less on raw grip strength."
+    },
+    {
+      "question": "Why is the kimura grip described as neutralizing 'half' of the opponent's defensive capacity?",
+      "answer": "Controlling one arm in the figure-four removes a primary framing and posting limb, so the opponent can no longer use that side to frame, base, or hand-fight, simplifying your subsequent attacks."
+    },
+    {
+      "question": "What does mastery of the system look like in terms of pathway recognition speed?",
+      "answer": "Advanced practitioners react instantly or anticipatorily to the defender's movement, committing to the correct pathway within a single movement cycle rather than pausing several seconds to observe and decide."
     }
   ]
 }

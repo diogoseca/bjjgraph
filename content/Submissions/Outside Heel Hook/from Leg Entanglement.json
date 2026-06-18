@@ -1,5 +1,6 @@
 {
   "name": "Outside Heel Hook from Leg Entanglement",
+  "summary": "The Outside Heel Hook from Leg Entanglement is a rotational knee submission applied from ashi garami, cupping the opponent's heel and rotating it laterally to torque the knee ligaments while hip extension and full-body rotation generate the finishing force.",
   "description": "Master the outside heel hook from leg entanglement positions. Expert finishing mechanics, safety protocols, and defensive strategies for advanced grapplers.",
   "tags": [
     "bjj",
@@ -20,7 +21,7 @@
   "starting_position": "Leg Entanglement",
   "from_position": "Leg Entanglement/Top",
   "success_rate": 45,
-  "overview": "The outside heel hook from leg entanglement is one of the highest-percentage finishing techniques in modern no-gi grappling. Applied from general ashi garami configurations, this submission uses lateral rotational force on the heel to attack the knee's ligamentous structures, primarily targeting the medial collateral ligament and anterior cruciate ligament. The technique requires precise heel cup positioning and controlled torsional application through hip extension and full-body rotation rather than arm strength alone.\n\nWhat distinguishes this variant from more specialized positions like the saddle or cross ashi is the need to establish proper outside control from a general entanglement before committing to the finish. The attacker must first ensure their body is positioned to apply outward rotation on the heel while maintaining knee line control. This often involves transitioning from a neutral entanglement to a finishing angle where the opponent's toes point away from the attacker, creating the mechanical pathway for the outside rotation.\n\nThis technique carries extreme injury risk because knee ligaments provide minimal pain feedback before structural failure. Unlike elbow joint locks where increasing pain signals danger, heel hooks can cause catastrophic ligament tears with little warning. This makes controlled application speed, early tap recognition, and strict training protocols absolutely non-negotiable for safe practice.",
+  "overview": "Applied from general ashi garami configurations, this submission uses lateral rotational force on the heel to attack the knee's ligamentous structures, primarily targeting the medial collateral ligament and anterior cruciate ligament. It stands among the highest-percentage finishing techniques in modern no-gi grappling because it requires precise heel cup positioning and controlled torsional application through hip extension and full-body rotation rather than arm strength alone.\n\nWhat distinguishes this variant from more specialized positions like the saddle or cross ashi is the need to establish proper outside control from a general entanglement before committing to the finish. The attacker must first ensure their body is positioned to apply outward rotation on the heel while maintaining knee line control. This often involves transitioning from a neutral entanglement to a finishing angle where the opponent's toes point away from the attacker, creating the mechanical pathway for the outside rotation.\n\nThis technique carries extreme injury risk because knee ligaments provide minimal pain feedback before structural failure. Unlike elbow joint locks where increasing pain signals danger, heel hooks can cause catastrophic ligament tears with little warning. This makes controlled application speed, early tap recognition, and strict training protocols absolutely non-negotiable for safe practice.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -92,10 +93,9 @@
   "related_submissions": [
     "Heel Hook",
     "Inside Heel Hook",
-    "Inside Heel Hook",
     "Calf Slicer",
     "Achilles Lock",
-    "Aoki Lock Control"
+    "Aoki Lock"
   ],
   "related_content": [
     {

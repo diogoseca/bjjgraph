@@ -1,6 +1,8 @@
 {
   "name": "Heel Hook from Ashi Garami",
+  "family": "Heel Hook",
   "description": "Master the heel hook from Ashi Garami with systematic grip mechanics, rotational finishing details, and hierarchy-based attack strategy for no-gi grappling.",
+  "summary": "The heel hook from Ashi Garami is a rotational leg-lock submission from the standard outside leg entanglement that twists the captured heel to stress the knee's cruciate and collateral ligaments, forcing a tap or opening advances up the leg-lock hierarchy.",
   "tags": [
     "bjj",
     "submission",
@@ -19,7 +21,7 @@
   "starting_position": "Ashi Garami",
   "from_position": "Ashi Garami/Bottom",
   "success_rate": 45,
-  "overview": "The heel hook from Ashi Garami targets the knee's rotational ligaments—primarily the ACL, MCL, and LCL—through controlled twisting of the heel while the foot is locked against the attacker's chest. Executed from the standard outside Ashi Garami entanglement, this attack sits at the base of the leg lock positional hierarchy, making it lower percentage than heel hooks from Saddle or Cross Ashi but still a credible threat that demands immediate defensive response from the opponent.\n\nThe biomechanical principle relies on isolating the foot from the knee joint. By securing the heel in a figure-four or butterfly grip and clamping the foot tightly to the chest, the attacker creates a fixed point at the ankle. Hip rotation then transmits force through the tibia and fibula into the knee joint, stressing the cruciate and collateral ligaments beyond their structural tolerance. The danger of this submission lies in the minimal pain feedback before structural failure—ligaments can tear before the defender recognizes the severity of the threat.\n\nStrategically, the heel hook from outside Ashi serves dual purpose. As a direct finishing threat, it forces opponents to address the attack rather than focusing on extraction. As a positional tool, defensive reactions to the heel hook—straightening the leg, turning the knee inward, reaching to strip grips—often create openings for the attacker to advance to Inside Ashi, Cross Ashi, or Saddle, where finishing percentages climb dramatically. Skilled practitioners weaponize the threat itself as much as the finish, using attack-and-advance sequences that systematically deteriorate the defender's position.",
+  "overview": "Sitting at the base of the leg-lock positional hierarchy, the heel hook from the standard outside Ashi Garami entanglement is lower-percentage than finishes from Saddle or Cross Ashi, yet it remains a credible threat that forces an immediate defensive response. Purple and brown belts should treat it less as a guaranteed finish and more as the entry point to a systematic leg-lock attack that escalates as the opponent defends.\n\nThe mechanism isolates the foot from the knee joint. By securing the heel in a figure-four or butterfly grip and clamping the foot tightly to the chest, the attacker creates a fixed point at the ankle. Hip rotation then transmits force through the tibia and fibula into the knee joint, stressing the cruciate and collateral ligaments beyond their structural tolerance. The danger of this submission lies in the minimal pain feedback before structural failure—ligaments can tear before the defender recognizes the severity of the threat, which is why early, position-based tapping is non-negotiable.\n\nStrategically, the heel hook from outside Ashi serves a dual purpose. As a direct finishing threat, it forces opponents to address the attack rather than focusing on extraction. As a positional tool, defensive reactions to the heel hook—straightening the leg, turning the knee inward, reaching to strip grips—often create openings for the attacker to advance to Inside Ashi, Cross Ashi, or Saddle, where finishing percentages climb dramatically. Skilled practitioners weaponize the threat itself as much as the finish, using attack-and-advance sequences that systematically deteriorate the defender's position.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -83,10 +85,10 @@
   "related_submissions": [
     "Heel Hook",
     "Inside Heel Hook",
-    "Aoki Lock Control",
+    "Aoki Lock",
     "Achilles Lock",
     "Calf Slicer",
-    "Inside Heel Hook"
+    "Achilles Lock from Inside Ashi-Garami"
   ],
   "related_content": [
     {

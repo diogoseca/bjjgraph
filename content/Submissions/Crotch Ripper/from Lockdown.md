@@ -33,10 +33,32 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 }
 </script>
 
-> **SAFETY**: Crotch Ripper from Lockdown targets the Hip flexors, groin muscles, and inner thigh adductors. Risk: Groin strain or muscle tear. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crotch Ripper from Lockdown",
+  "description": "The Crotch Ripper is a 10th Planet compression submission from Lockdown half guard that wedges the attacker's knee into the opponent's groin and inner-thigh adductors, forcing a tap through muscular compression rather than joint damage.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Crotch Ripper is a 10th Planet compression submission from Lockdown half guard that wedges the attacker's knee into the opponent's groin and inner-thigh adductors, forcing a tap through muscular compression rather than joint damage.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Groin Compression</span>
+<span class="meta-chip">Targets Hip flexors, groin muscles, and inner thigh adductors</span>
+<span class="meta-chip">42% success</span>
+</div>
+
+> [!danger] Safety
+> Crotch Ripper from Lockdown targets the Hip flexors, groin muscles, and inner thigh adductors. Primary risk: Groin strain or muscle tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,58 +69,11 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 
 <section id="overview" class="content-section">
 
-The Crotch Ripper is a compression-based leg lock submission originating from the 10th Planet Jiu-Jitsu system, specifically designed to be executed from the lockdown position in half guard. This technique applies intense pressure to the opponent's groin, hip flexors, and inner thigh muscles through a combination of lockdown control and strategic knee positioning. Unlike traditional joint locks that target specific joints, the Crotch Ripper creates a painful compression that forces the opponent to tap due to muscular strain rather than joint damage. The submission is particularly effective in no-gi grappling where the lockdown can be secured without gi grips interfering with leg positioning.
+Developed within Eddie Bravo's 10th Planet Jiu-Jitsu system, the Crotch Ripper grew out of the lockdown's leg-entanglement framework as a way to threaten finishes from a position most grapplers treat as purely defensive. This technique applies intense pressure to the opponent's groin, hip flexors, and inner thigh muscles through a combination of lockdown control and strategic knee positioning. Unlike traditional joint locks that target specific joints, the Crotch Ripper creates a painful compression that forces the opponent to tap due to muscular strain rather than joint damage. The submission is particularly effective in no-gi grappling where the lockdown can be secured without gi grips interfering with leg positioning.
 
 The Crotch Ripper represents the offensive potential of the lockdown system, transforming a traditionally defensive half guard position into a legitimate finishing threat. When combined with the Electric Chair sweep, it creates a powerful dilemma where defending the compression opens the sweep and vice versa. This technique requires excellent flexibility, hip control, and precise timing to execute effectively, making it a hallmark of the 10th Planet methodology's emphasis on unconventional attacks from bottom positions. The submission's effectiveness depends entirely on the attacker's ability to maintain lockdown integrity while creating the correct body angle through underhook control.
 
-**Category**: Compression
-**Type**: Groin Compression
-**Target Area**: Hip flexors, groin muscles, and inner thigh adductors
-**Starting Position**: [[Positions/Half Guard/Lockdown]]
-**From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
-**Success Rate**: 42%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Groin strain or muscle tear | Medium | 2-4 weeks with proper rest |
-| Hip flexor strain | Medium | 2-3 weeks |
-| Adductor muscle damage | Medium | 3-6 weeks depending on severity |
-| Lower back strain from excessive arching | Low | 1-2 weeks |
-
-
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum to allow partner to recognize pressure and tap
-
-**Tap Signals**:
-- Verbal tap (most common due to leg entanglement)
-- Physical hand tap on mat or opponent's body
-- Physical foot tap with free leg
-- Any distress signal or vocalization
-
-
-**Release Protocol**:
-1. Immediately release lockdown figure-four grip
-2. Remove knee pressure from groin area
-3. Straighten attacking leg to remove compression
-4. Allow opponent's leg to naturally extend and decompress
-5. Do not suddenly jerk or twist during release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply gradually
-- Never practice at competition intensity during training
-- Always communicate with partner about pressure level
-- Stop immediately if partner shows any sign of discomfort
-- Avoid practicing on partners with known groin or hip injuries
-- Never combine with sudden sweeping motions that could increase injury risk
-
+**Starting Position**: [[Positions/Half Guard/Lockdown]] · **From**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
 
@@ -261,10 +236,9 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Positions/Half Guard/Electric Chair]]
 - [[Submissions/Banana Split]]
 - [[Submissions/Boston Crab]]
@@ -275,16 +249,7 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Calf Slicer]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Half Guard/Lockdown]] - Primary position where Crotch Ripper is executed - lockdown control is prerequisite
-- [[Positions/Half Guard/Electric Chair]] - Primary combination sweep when Crotch Ripper is defended - creates submission/sweep dilemma
 - [[Positions/Half Guard/Old School]] - Alternative lockdown attack when angle for Crotch Ripper is not available
 - [[Positions/Twister Control/Truck]] - Advanced position that can be entered from lockdown system, shares leg entanglement principles
 - [[Positions/Half Guard]] - Parent guard position from which lockdown and Crotch Ripper are developed
@@ -292,16 +257,47 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 - [[Positions/Half Guard/Deep Half Guard]] - Related half guard variation that shares lockdown system entries
 - [[Positions/Twister Control]] - Advanced 10th Planet position accessible from lockdown system
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Crotch Ripper from Lockdown leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Groin strain or muscle tear | Medium | 2-4 weeks with proper rest |
+| Hip flexor strain | Medium | 2-3 weeks |
+| Adductor muscle damage | Medium | 3-6 weeks depending on severity |
+| Lower back strain from excessive arching | Low | 1-2 weeks |
+
+
+**Application Speed**: SLOW and progressive - 4-6 seconds minimum to allow partner to recognize pressure and tap
+
+**Tap Signals**:
+- Verbal tap (most common due to leg entanglement)
+- Physical hand tap on mat or opponent's body
+- Physical foot tap with free leg
+- Any distress signal or vocalization
+
+
+**Release Protocol**:
+1. Immediately release lockdown figure-four grip
+2. Remove knee pressure from groin area
+3. Straighten attacking leg to remove compression
+4. Allow opponent's leg to naturally extend and decompress
+5. Do not suddenly jerk or twist during release
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - apply gradually
+- Never practice at competition intensity during training
+- Always communicate with partner about pressure level
+- Stop immediately if partner shows any sign of discomfort
+- Avoid practicing on partners with known groin or hip injuries
+- Never combine with sudden sweeping motions that could increase injury risk
+
 
 </section>
 

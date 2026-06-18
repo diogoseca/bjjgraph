@@ -34,6 +34,18 @@ description: "Master the Kimura Counter via Roll in BJJ. Defensive rolling techn
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura Counter via Roll",
+  "description": "The Kimura Counter via Roll is a defensive transition from Kimura Trap bottom where the bottom player redirects a failing Kimura grip into a rolling motion, recovering closed guard before the top player can extract their arm and pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Kimura Counter via Roll in BJJ. Defensive rolling techn
 
 <section id="overview" class="content-section">
 
-The Kimura Counter via Roll is a defensive transition technique employed from the Kimura Trap Bottom position when the top player begins successfully defending or extracting their arm from the Kimura grip. Rather than fighting a losing battle for grip retention that risks complete position loss, the bottom player redirects the remaining grip leverage into a rolling motion that transitions them into closed guard, preserving guard integrity and maintaining offensive options.
+**The Kimura Counter via Roll is a defensive transition from Kimura Trap bottom where the bottom player redirects a failing Kimura grip into a rolling motion, recovering closed guard before the top player can extract their arm and pass.**
+
+Sitting at the heart of the Kimura Trap bottom game, the Kimura Counter via Roll is the system's primary bailout, deployed the instant the top player begins successfully defending or extracting their arm from the Kimura grip. Rather than fighting a losing battle for grip retention that risks complete position loss, the bottom player redirects the remaining grip leverage into a rolling motion that transitions them into closed guard, preserving guard integrity and maintaining offensive options.
 
 This technique represents a critical decision point within the Kimura Trap system. When the top player postures aggressively, stacks pressure, or begins systematically extracting their trapped arm, the bottom player must recognize the diminishing returns of maintaining the Kimura grip. The roll uses the opponent's defensive momentum against them—their pulling, posturing, or driving force becomes the energy source for the bottom player's hip rotation, allowing them to swing their legs around the opponent's waist and establish closed guard before the position deteriorates further.
 

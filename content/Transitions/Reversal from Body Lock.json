@@ -1,5 +1,6 @@
 {
   "name": "Reversal from Body Lock",
+  "summary": "The Reversal from Body Lock is a defensive standing transition where the bottom player breaks the opponent's locked grip, rotates their hips, and inserts a knee to recover half guard, escaping an otherwise dominant clinch control.",
   "description": "Master the Reversal from Body Lock in BJJ. Systematic guide covering grip breaking, hip escapes, and guard recovery from the body lock bottom position.",
   "tags": [
     "bjj",
@@ -90,7 +91,7 @@
       "relationship": "Offensive technique this reversal directly defends against"
     },
     {
-      "name": "Pull Guard from Standing",
+      "name": "Sitting Guard Pull",
       "relationship": "Alternative defensive option sharing the controlled descent to guard concept"
     }
   ],

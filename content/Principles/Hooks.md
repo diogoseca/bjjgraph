@@ -143,6 +143,16 @@ description: "Master hooks in BJJ. Learn curved foot and hand attachments for re
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hooks",
+  "description": "Hooks are curved attachments — a foot behind a knee, an instep inside a thigh, an arm under an armpit — that use limb geometry rather than gripping force to create connections an opponent must change angles to remove.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master hooks in BJJ. Learn curved foot and hand attachments for re
 
 ## What are Hooks?
 
-A hook is a curved attachment — a foot wrapped behind a knee, a hand threaded under an armpit, an instep tucked inside a thigh. Hooks are the attachment mechanic of BJJ. Unlike grips, which rely on grabbing and squeezing, hooks use the natural curve of feet, hands, and limbs to wrap around the opponent's body and create connection points that resist removal through their geometry. You cannot simply pull a hook off by yanking — you must change the angle, peel it away, or create enough space to disengage the curve. This geometric resilience makes hooks one of the most reliable control mechanisms in grappling.
+**Hooks are curved attachments — a foot behind a knee, an instep inside a thigh, an arm under an armpit — that use limb geometry rather than gripping force to create connections an opponent must change angles to remove.**
+
+Hooks sit alongside grips as one of the two foundational attachment mechanics in grappling, but where a grip is an active, muscular grab, a hook is structural. Because the connection comes from the curve of feet, hands, and limbs wrapping around the opponent's body rather than from squeezing, you cannot simply pull a hook off by yanking — you must change the angle, peel it away, or create enough space to disengage the curve. This geometric resilience is what makes hooks one of the most reliable control mechanisms in BJJ.
 
 Hooks appear everywhere. The butterfly guard is defined by feet hooked under the opponent's thighs. Back control requires heel hooks inside the opponent's thighs. The De La Riva guard wraps a foot behind the opponent's lead knee. The underhook threads an arm under the opponent's armpit and curves upward behind the shoulder. The overhook wraps over the opponent's arm and curves downward to trap it. In each case, the hook creates a persistent connection that the opponent must actively work to remove, buying the hooking player time, control, and options.
 
@@ -377,7 +389,7 @@ Positional sparring starting from back control where the attacker tries to maint
 - [[Half Guard]] (Position) - The underhook from half guard bottom is the most critical arm hook in defensive grappling
 - [[Turtle]] (Position) - The hook insertion battle from turtle defines whether the position converts to back control
 - [[Clinch]] (Position) - The underhook versus overhook battle is the defining arm hook contest of clinch grappling
-- [[Butterfly Sweep]] (Transition) - The quintessential hook-based sweep, using the butterfly hook for elevation and directional control
+- [[Basic Butterfly Sweep]] (Transition) - The quintessential hook-based sweep, using the butterfly hook for elevation and directional control
 
 
 </section>

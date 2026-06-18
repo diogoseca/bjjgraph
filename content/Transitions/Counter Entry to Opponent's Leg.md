@@ -34,6 +34,18 @@ description: "Learn Counter Entry to Opponent's Leg in BJJ. Neutralize ankle loc
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Entry to Opponent's Leg",
+  "description": "Counter Entry to Opponent's Leg is a defensive-to-offensive leg-lock transition in which a defender trapped in straight ankle lock control threads through to attack the opponent's far leg, establishing 50-50 Guard and equalizing the exchange.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Counter Entry to Opponent's Leg in BJJ. Neutralize ankle loc
 </div>
 
 <section id="overview" class="content-section">
+
+**Counter Entry to Opponent's Leg is a defensive-to-offensive leg-lock transition in which a defender trapped in straight ankle lock control threads through to attack the opponent's far leg, establishing 50-50 Guard and equalizing the exchange.**
 
 The Counter Entry to Opponent's Leg represents a critical defensive-offensive transition that transforms a disadvantageous position into a symmetrical leg entanglement. When caught in straight ankle lock control, rather than simply defending the submission threat, this technique allows the defender to establish their own attack on the opponent's far leg, creating a 50-50 Guard situation where both practitioners face equal threats.
 

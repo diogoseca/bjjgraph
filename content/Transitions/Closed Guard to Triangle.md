@@ -34,6 +34,18 @@ description: "Learn the Triangle setup from Closed Guard in BJJ. Complete execut
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Closed Guard to Triangle",
+  "description": "Closed Guard to Triangle is a high-percentage guard attack where the bottom player isolates one of the opponent's arms across the centerline, creates a 45-degree angle, and threads a leg over the shoulder to lock the triangle choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn the Triangle setup from Closed Guard in BJJ. Complete execut
 </div>
 
 <section id="overview" class="content-section">
+
+**Closed Guard to Triangle is a high-percentage guard attack where the bottom player isolates one of the opponent's arms across the centerline, creates a 45-degree angle, and threads a leg over the shoulder to lock the triangle choke.**
 
 The transition from Closed Guard to Triangle represents one of the most fundamental and high-percentage attacks in Brazilian Jiu-Jitsu. This technique exploits the opponent's defensive posturing by converting arm positioning into a powerful strangulation threat. The beauty of this transition lies in its ability to capitalize on the opponent's natural defensive reactions—whether they maintain their base or attempt to posture, the guard player can manipulate limb placement to secure the triangle lock. The closed guard provides an ideal launching platform because it offers control of distance, hip mobility, and the ability to break posture repeatedly until the optimal angle presents itself.
 

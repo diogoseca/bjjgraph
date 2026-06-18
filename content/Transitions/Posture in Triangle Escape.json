@@ -1,5 +1,6 @@
 {
   "name": "Posture in Triangle Escape",
+  "summary": "Posture in Triangle Escape is the foundational defensive transition where a grappler trapped in a triangle choke uses hip-driven spinal extension and forward stacking pressure to recover posture, relieve arterial compression, and clear into half guard top.",
   "description": "Master posture recovery to escape triangle chokes in BJJ. Step-by-step guide covering spinal alignment, stacking pressure, and transitions to half guard top.",
   "tags": [
     "triangle escape",
@@ -254,7 +255,7 @@
       },
       {
         "question": "You feel the triangle loosening momentarily as your opponent readjusts their figure-four leg position - how do you exploit this window?",
-        "answer": "Immediately accelerate your posture recovery by driving explosively through your hips while maintaining forward stacking pressure. This adjustment window is the highest-percentage moment for posture gain because the triangle structure is temporarily compromised during the leg repositioning. Simultaneously begin stepping toward your trapped arm side and continue the upward drive with increased urgency. The key is recognizing these windows through tactile sensitivity, as the loosening is brief and the opponent will re-cinch within seconds."
+        "answer": "Immediately accelerate your posture recovery with an urgent, committed hip drive while maintaining forward stacking pressure - urgency here means seizing the moment, not jerking explosively, which would feed the choke. This adjustment window is the highest-percentage moment for posture gain because the triangle structure is temporarily compromised during the leg repositioning. Simultaneously begin stepping toward your trapped arm side and continue the upward drive. The key is recognizing these windows through tactile sensitivity, as the loosening is brief and the opponent will re-cinch within seconds."
       },
       {
         "question": "What is the correct placement and function of the free hand during posture recovery?",
@@ -275,6 +276,14 @@
       {
         "question": "After achieving partial posture but before full escape, your opponent re-breaks your posture by pulling you back down - what is the correct recovery approach?",
         "answer": "Reset immediately to fundamental defensive configuration: re-pin your trapped arm elbow to ribs, re-post your free hand on their hip, re-tuck your chin, and re-establish your knee base. Take a controlled breath to stabilize before reinitiating the complete posture sequence from the beginning with emphasis on hip drive rather than continuing a broken sequence. Each recovery attempt must start from the fundamentals rather than trying to salvage a failed attempt. Build systematic pressure through repeated correct technique, as the opponent's grip fatigue from multiple re-breaking efforts progressively weakens their defense."
+      },
+      {
+        "question": "Which side should you step and circle toward as the triangle loosens, and why does direction matter?",
+        "answer": "Always step and circle toward your trapped arm side, never toward the free arm side. Moving toward the trapped arm opens the triangle's leg structure and works with the natural escape geometry, whereas circling toward the free arm drives you deeper into the choking angle the opponent wants and tightens the lock. As you gain posture, this directional discipline converts your upward drive into a clearing path toward half guard top rather than feeding the submission."
+      },
+      {
+        "question": "What entry conditions must exist before posture recovery becomes a realistic high-percentage option?",
+        "answer": "You need at least one knee or foot posted on the mat to generate hip-driven force, a free arm available to control the opponent's hip rather than being captured, your trapped-arm elbow pinned to your ribs, chin tucked to protect the carotids, and crucially a triangle that is not yet fully cinched at the optimal perpendicular angle. Against a fully locked triangle with a perfected angle, posture recovery is one of the lowest-percentage scenarios; the realistic window is during the opponent's leg adjustments when the lock briefly loosens."
       }
     ],
     "safety_considerations": "Posture recovery during triangle escapes involves direct resistance against an active choking mechanism that compresses the carotid arteries and can cause unconsciousness within 4-8 seconds without warning. Never attempt to fight through a fully locked triangle past the point where you feel tunnel vision, lightheadedness, or bilateral neck pressure distortion. Tap immediately when consciousness is threatened rather than risking loss of consciousness during the posture attempt. The stacking component places compressive force on the opponent's cervical spine, so stack gradually rather than explosively during training to protect your partner. Training partners should communicate openly about pressure levels and release immediately upon tap. Never explosively jerk your head upward against locked triangle pressure, as this risks cervical vertebrae compression injuries."

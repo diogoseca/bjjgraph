@@ -33,10 +33,32 @@ description: "Master the Americana from Side Control in BJJ. Complete guide to s
 }
 </script>
 
-> **SAFETY**: Americana from Side Control targets the Shoulder joint (specifically rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Americana from Side Control",
+  "description": "The Americana from Side Control is a figure-four shoulder lock that pins the opponent's bent near arm to the mat and externally rotates the shoulder until they tap, while you maintain a heavy cross-body pin.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Americana from Side Control is a figure-four shoulder lock that pins the opponent's bent near arm to the mat and externally rotates the shoulder until they tap, while you maintain a heavy cross-body pin.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (specifically rotator cuff)</span>
+<span class="meta-chip">68% success</span>
+</div>
+
+> [!danger] Safety
+> Americana from Side Control targets the Shoulder joint (specifically rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,59 +75,7 @@ Historically known as the "key lock" or "bent armlock," the Americana earned its
 
 The Americana from Side Control exemplifies the principle of positional dominance before submission, as proper side control maintenance is essential for successful execution. The technique serves as both a finishing mechanism and a powerful tool for advancing position, as opponents often expose their backs or give up mount while defending the lock. Understanding this submission provides practitioners with a reliable pathway from control to finish while maintaining dominant position throughout the sequence.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (specifically rotator cuff)
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 68%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus tendons) | High | 6-12 months with surgical repair, 3-6 months conservative treatment |
-| Anterior shoulder dislocation | High | 3-6 months for first-time dislocation, potential chronic instability |
-| Labral tear (glenoid labrum) | High | 4-6 months with surgical repair |
-| AC joint sprain or separation | Medium | 6-12 weeks depending on grade |
-| Shoulder capsule strain | Medium | 4-8 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to maximum safe training pressure. NEVER apply sudden force.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal indication)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat (minimum 2 taps)
-- Any distress signal including unusual sounds or movements
-- Screaming or yelling
-- Rapid head shaking
-
-
-**Release Protocol**:
-1. Immediately release the wrist control and stop rotating the arm
-2. Release pressure on the shoulder by lowering the forearm
-3. Move the arm back to neutral position slowly
-4. Completely release all grips on the arm
-5. Move weight off opponent's torso to allow breathing
-6. Ask partner if they are okay before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed in training - always give partner time to tap
-- Always allow tap access - never pin both arms simultaneously
-- Stop immediately upon any tap signal
-- Never practice on injured shoulders or with partners who have shoulder injuries
-- Avoid practicing at full intensity with significant size/strength mismatches
-- Never combine with strikes or use explosive entries in training
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -274,16 +244,14 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 - [[Positions/Side Control/Scarf Hold Position]]
 - [[Positions/North-South]]
 - [[Positions/Knee on Belly]]
-- [[Positions/Side Control]]
 - [[Positions/Side Control/Reverse Kesa-Gatame]]
 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Transitions/Darce Choke]]
@@ -296,37 +264,59 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 - [[Submissions/Breadcutter Choke]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Far Side Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control]] - Primary starting position for this submission
-- [[Submissions/Reverse Kimura]] - Reverse shoulder lock variation available from similar side control positions
-- [[Transitions/Darce Choke]] - Alternative submission available when opponent turns into you during Americana defense
-- [[Submissions/Americana]] - Parent submission technique with variations from multiple positions
-- [[Submissions/Far Side Armbar]] - Alternative arm attack from same position targeting elbow instead of shoulder
 - [[Transitions/Side Control to Mount]] - Position advancement that can be combined with maintained Americana grip
 - [[Positions/North-South]] - Transitional position offering alternative angle for Americana application
 - [[Positions/Knee on Belly]] - Alternative top position for Americana variation with enhanced control
 - [[Positions/Side Control/Kesa Gatame]] - Scarf hold variation offering similar Americana opportunities
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold with arm isolation ideal for Americana setup
-- [[Submissions/Kimura]] - Opposite rotation shoulder lock forming natural submission chain
-- [[Transitions/Arm Triangle]] - Head and arm choke available when opponent defends Americana incorrectly
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Americana from Side Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus tendons) | High | 6-12 months with surgical repair, 3-6 months conservative treatment |
+| Anterior shoulder dislocation | High | 3-6 months for first-time dislocation, potential chronic instability |
+| Labral tear (glenoid labrum) | High | 4-6 months with surgical repair |
+| AC joint sprain or separation | Medium | 6-12 weeks depending on grade |
+| Shoulder capsule strain | Medium | 4-8 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to maximum safe training pressure. NEVER apply sudden force.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal indication)
+- Physical hand tap on opponent or mat (minimum 2 taps)
+- Physical foot tap on mat (minimum 2 taps)
+- Any distress signal including unusual sounds or movements
+- Screaming or yelling
+- Rapid head shaking
+
+
+**Release Protocol**:
+1. Immediately release the wrist control and stop rotating the arm
+2. Release pressure on the shoulder by lowering the forearm
+3. Move the arm back to neutral position slowly
+4. Completely release all grips on the arm
+5. Move weight off opponent's torso to allow breathing
+6. Ask partner if they are okay before continuing
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled
+- Never use competition speed in training - always give partner time to tap
+- Always allow tap access - never pin both arms simultaneously
+- Stop immediately upon any tap signal
+- Never practice on injured shoulders or with partners who have shoulder injuries
+- Avoid practicing at full intensity with significant size/strength mismatches
+- Never combine with strikes or use explosive entries in training
+
 
 </section>
 

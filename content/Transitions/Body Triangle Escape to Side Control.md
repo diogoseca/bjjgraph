@@ -34,6 +34,18 @@ description: "Master the body triangle escape to side control in BJJ. Complete g
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Body Triangle Escape to Side Control",
+  "description": "The Body Triangle Escape to Side Control is a back-defense transition in which the trapped player clears the opponent's figure-four leg lock by attacking the foot tucked behind the knee, then turns into them to recover side control bottom.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the body triangle escape to side control in BJJ. Complete g
 </div>
 
 <section id="overview" class="content-section">
+
+**The Body Triangle Escape to Side Control is a back-defense transition in which the trapped player clears the opponent's figure-four leg lock by attacking the foot tucked behind the knee, then turns into them to recover side control bottom.**
 
 The body triangle escape to side control is one of the most critical defensive techniques in Brazilian Jiu-Jitsu, addressing the challenge of escaping the most secure form of back control. Unlike standard hook-based back control where hip movement can systematically clear individual hooks, the body triangle's figure-four configuration creates a mechanical lock that demands a specific technical approach to dismantle. The escape targets the inherent weakness in the triangle structure: the foot tucked behind the opponent's own knee, which becomes vulnerable when proper angles and leverage are applied.
 

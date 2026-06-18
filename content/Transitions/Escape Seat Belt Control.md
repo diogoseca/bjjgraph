@@ -34,6 +34,18 @@ description: "Learn to escape seat belt back control in BJJ. Systematic grip bre
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Seat Belt Control",
+  "description": "The Escape from Seat Belt Control is a back-defense sequence that breaks the over-under harness by isolating the choking arm in a two-on-one grip, creating hip angle, and turning face-down to recover turtle or half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn to escape seat belt back control in BJJ. Systematic grip bre
 
 <section id="overview" class="content-section">
 
-The Escape Seat Belt Control is a systematic defensive sequence executed from the bottom of back control when the opponent has established the characteristic over-under harness grip across your torso. This escape specifically targets dismantling the seat belt grip structure through methodical grip breaking, strategic hip movement, and controlled directional changes to transition from back control into the relative safety of turtle position or half guard recovery.
+**The Escape from Seat Belt Control is a back-defense sequence that breaks the over-under harness by isolating the choking arm in a two-on-one grip, creating hip angle, and turning face-down to recover turtle or half guard.**
+
+Because the seat belt represents the single most dominant control configuration in grappling, escaping it ranks among the highest-value defensive skills a practitioner can develop. This escape specifically targets dismantling the seat belt grip structure through methodical grip breaking, strategic hip movement, and controlled directional changes to transition from back control into the relative safety of turtle position or half guard recovery.
 
 The technique operates on the fundamental principle that the seat belt grip, while biomechanically powerful, has specific structural vulnerabilities when each component is addressed independently rather than fighting the entire configuration simultaneously. By isolating the over-shoulder arm through two-on-one grip control while generating angular hip movement, the bottom player systematically dismantles the control framework that makes seat belt back control the most dominant position in grappling. The diagonal force vectors created by the over-arm and under-arm must be neutralized sequentially, as attempting to address both simultaneously wastes energy and plays into the top player's structural advantages.
 
@@ -238,7 +252,7 @@ The Escape Seat Belt Control sits within the broader back defense system as a sp
 
 - [[Positions/Back Control/Body Triangle]] - Related back control variant requiring modified escape approach due to leg lock control
 
-- [[Transitions/Elbow Escape from Back]] - Complementary escape technique focusing on hook removal rather than grip breaking
+- [[Transitions/Elbow Escape to Remove Hooks]] - Complementary escape technique focusing on hook removal rather than grip breaking
 
 - [[Transitions/Back Door Escape]] - Alternative escape method using lateral sliding rather than grip dismantling
 

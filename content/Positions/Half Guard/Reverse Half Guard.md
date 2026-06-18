@@ -34,6 +34,18 @@ description: "Master Reverse Half Guard in BJJ. Strategic guide covering inverte
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Half Guard",
+  "description": "Reverse Half Guard is an inverted half guard variation in which the practitioner faces away from the opponent while trapping one of their legs, opening unconventional sweep angles, rolling back-take entries, and reverse-angle passing dilemmas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Reverse Half Guard in BJJ. Strategic guide covering inverte
 
 <section id="overview" class="content-section">
 
-Reverse Half Guard is an unconventional half guard variation where the practitioner faces away from their opponent while controlling one of their legs, creating an inverted configuration that disrupts traditional half guard mechanics. This position occurs during scrambles, failed sweep attempts, or as a deliberate entry for specialized techniques. The inverted geometry creates unique offensive opportunities through unexpected angles and leverage points that are unavailable from standard half guard positions.
+**Reverse Half Guard is an inverted half guard variation in which the practitioner faces away from the opponent while trapping one of their legs, opening unconventional sweep angles, rolling back-take entries, and reverse-angle passing dilemmas.**
+
+Sitting at the unorthodox end of the half guard family, Reverse Half Guard trades the familiar chest-to-chest battle for an inverted, momentum-driven game that most opponents have rarely had to defend. This position occurs during scrambles, failed sweep attempts, or as a deliberate entry for specialized techniques. The inverted geometry creates unique offensive opportunities through unexpected angles and leverage points that are unavailable from standard half guard positions.
 
 The reverse orientation fundamentally changes the mechanical dynamics of half guard. From bottom, the inverted configuration creates momentum-based sweep opportunities and direct pathways to back control. From top, the reverse angle provides dominant passing positions and back take opportunities. Because most practitioners train primarily with standard half guard orientations, the reverse configuration disrupts familiar defensive patterns and creates strategic advantages.
 
@@ -119,25 +133,25 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (9% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (12% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (41% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (28% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (7% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (9% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (9% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (10% of attempts)
 
-- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (13% of attempts)
+- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (14% of attempts)
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (9% of attempts)
 
-- **[[Transitions/Guard Recovery from Reverse Half Guard/Attacker|Guard Recovery from Reverse Half Guard]]** (7% of attempts)
+- **[[Transitions/Guard Recovery from Reverse Half Guard/Attacker|Guard Recovery from Reverse Half Guard]]** (9% of attempts)
 
-- **[[Transitions/Escape Reverse Half Guard/Attacker|Escape Reverse Half Guard]]** (3% of attempts)
+- **[[Transitions/Escape Reverse Half Guard/Attacker|Escape Reverse Half Guard]]** (4% of attempts)
 
-- **[[Transitions/Invert from Reverse Half Guard/Attacker|Invert from Reverse Half Guard]]** (1% of attempts)
+- **[[Transitions/Invert from Reverse Half Guard/Attacker|Invert from Reverse Half Guard]]** (3% of attempts)
 
-- **[[Transitions/Sweep from Reverse Half Guard/Attacker|Sweep from Reverse Half Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Reverse Half Guard/Attacker|Sweep from Reverse Half Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

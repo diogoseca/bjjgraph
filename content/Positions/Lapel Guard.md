@@ -34,6 +34,18 @@ description: "Master lapel guard in BJJ with comprehensive strategies for contro
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel Guard",
+  "description": "Lapel guard is a gi-specific open guard where the bottom player feeds the opponent's own lapel around their leg, arm, or torso to build persistent fabric-based control points for sweeps, back takes, and submissions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master lapel guard in BJJ with comprehensive strategies for contro
 </div>
 
 <section id="overview" class="content-section">
+
+**Lapel guard is a gi-specific open guard where the bottom player feeds the opponent's own lapel around their leg, arm, or torso to build persistent fabric-based control points for sweeps, back takes, and submissions.**
 
 Lapel guard represents a modern evolution in gi-based Brazilian Jiu-Jitsu guard play, utilizing the opponent's lapel fabric to create powerful control systems that transcend traditional grip fighting. This position fundamentally alters the guard game by transforming the gi itself into an extension of the practitioner's limbs, creating frames, barriers, and control points that would be impossible in no-gi grappling.
 

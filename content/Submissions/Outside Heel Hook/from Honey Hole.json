@@ -1,5 +1,6 @@
 {
   "name": "Outside Heel Hook from Honey Hole",
+  "summary": "The outside heel hook from Honey Hole is a rotational knee submission that cups the opponent's heel from the lateral side and twists it toward their centerline, attacking the LCL and posterolateral corner while the inside leg triangle pins the knee.",
   "description": "Master the outside heel hook from Honey Hole position. Learn grip transitions, rotational finishing mechanics, safety protocols, and defense strategies.",
   "tags": [
     "bjj",
@@ -20,7 +21,7 @@
   "starting_position": "Honey Hole",
   "from_position": "Honey Hole/Top",
   "success_rate": 45,
-  "overview": "The outside heel hook from Honey Hole is a secondary but highly effective leg lock that capitalizes on the dominant inside leg entanglement to attack the knee's lateral structures. While the inside heel hook remains the primary threat from Honey Hole, the outside variation serves as a critical chain attack when opponents defend the standard inside rotation by hiding their heel or rotating their knee inward to close the inside angle.\n\nExecuting the outside heel hook from this position requires a deliberate grip transition from the inside heel hook configuration. The attacker repositions their forearm across the outside of the opponent's foot, cupping the heel from the lateral side, then drives rotational force that pulls the heel toward the opponent's centerline while the knee remains pinned by the leg triangle. This attacks different ligament structures than the inside variant, primarily targeting the LCL and posterolateral corner of the knee.\n\nThe strategic value of this technique lies in its complementary relationship with the inside heel hook, creating a dual-threat rotational attack system. Opponents who commit heavily to inside heel hook defense expose themselves to the outside grip, and the grip transition itself generates confusion about the direction of attack. Practitioners who develop proficiency with both rotational directions from Honey Hole achieve significantly higher finishing rates by eliminating the predictability of single-direction attacks.",
+  "overview": "While the inside heel hook remains the primary threat from Honey Hole, the outside variation serves as a critical chain attack that capitalizes on the dominant inside leg entanglement to attack the knee's lateral structures. It becomes available when opponents defend the standard inside rotation by hiding their heel or rotating their knee inward to close the inside angle.\n\nExecuting the outside heel hook from this position requires a deliberate grip transition from the inside heel hook configuration. The attacker repositions their forearm across the outside of the opponent's foot, cupping the heel from the lateral side, then drives rotational force that pulls the heel toward the opponent's centerline while the knee remains pinned by the leg triangle. This attacks different ligament structures than the inside variant, primarily targeting the LCL and posterolateral corner of the knee.\n\nThe strategic value of this technique lies in its complementary relationship with the inside heel hook, creating a dual-threat rotational attack system. Opponents who commit heavily to inside heel hook defense expose themselves to the outside grip, and the grip transition itself generates confusion about the direction of attack. Practitioners who develop proficiency with both rotational directions from Honey Hole achieve significantly higher finishing rates by eliminating the predictability of single-direction attacks.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -90,9 +91,8 @@
     "Inside Heel Hook",
     "Heel Hook",
     "Calf Slicer",
-    "Inside Heel Hook",
-    "Aoki Lock Control",
-    "Estima Lock Control"
+    "Aoki Lock",
+    "Estima Lock"
   ],
   "related_content": [
     {

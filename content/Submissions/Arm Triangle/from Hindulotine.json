@@ -19,6 +19,7 @@
   "starting_position": "Hindulotine",
   "from_position": "Hindulotine/Top",
   "success_rate": 62,
+  "summary": "The Arm Triangle from Hindulotine is a head-and-arm blood choke that converts the opponent's own guillotine-defense frame into a trapped arm, compressing both carotids with their shoulder on one side and your forearm on the other.",
   "overview": "The Arm Triangle from Hindulotine exploits the natural defensive reaction to guillotine pressure. When an opponent frames with their near arm to defend the Hindulotine grip, their own arm becomes trapped against their neck, creating the head-and-arm configuration needed for kata-gatame. The attacker transitions from guillotine mechanics to arm triangle compression, using the opponent's own shoulder as one blade of the choke while their forearm provides the opposing pressure on the other carotid artery.\n\nThis technique represents an advanced chain within the Hindulotine system that specifically punishes one of the most common defensive responses. Rather than forcing the guillotine against a strong frame, the practitioner recognizes when the opponent's arm position creates the arm triangle opportunity and flows into it seamlessly. The transition demands precise timing and constant head control to prevent the opponent from recovering posture or extracting their trapped arm during the grip switch.\n\nThe strategic value lies in the dilemma this creates within the Hindulotine attack system. Opponents who frame to defend the guillotine inadvertently set up the arm triangle. Those who keep their arms tight to prevent the arm triangle remain vulnerable to the original guillotine. This binary choice where both defensive responses feed the attacker's chain exemplifies modern submission grappling's emphasis on interconnected threat systems that force defensive errors.",
   "safety_considerations": {
     "injury_risks": [
@@ -308,6 +309,16 @@
       {
         "question": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no escape?",
         "answer": "The choke is properly locked when you can feel the opponent's trapped shoulder bone pressing firmly into their neck with no space between your chest and their body. Their face will begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated. If they cannot create any frame with their free hand and cannot bridge effectively, they have passed the point of no escape.",
+        "safety_critical": false
+      },
+      {
+        "question": "You have the head-and-arm locked but the choke stalls and the opponent is breathing comfortably - what is the most likely finishing error?",
+        "answer": "You are almost certainly squeezing with your arms instead of your body, and you have left space between your chest and their trapped shoulder. Stop pulling with the arms, finish walking your hips to a full perpendicular angle, drop your near hip to the mat, and melt your chest flush onto their trapped shoulder so their own deltoid drives into the carotid. The arms only lock the frame - the dropping hip and expanding chest create the kill.",
+        "safety_critical": false
+      },
+      {
+        "question": "What competition finishing strategy maximizes the Arm Triangle from Hindulotine against a hard-defending opponent when the clock matters?",
+        "answer": "Use the dilemma rather than forcing one path: keep the guillotine threat live so any frame they give feeds the arm triangle, then commit to the grip the instant the frame appears. Once locked, immediately walk toward the trapped-arm side and finish from a near-side mount or kesa angle rather than staying square, because that angle pre-empts the bridge-and-roll escape and denies the referee a stalemate to stand up. Bait the frame, switch decisively, and finish off the angle before they can re-guard.",
         "safety_critical": false
       },
       {

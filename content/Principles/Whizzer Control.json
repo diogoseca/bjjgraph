@@ -14,7 +14,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Whizzer Control represents a fundamental defensive control mechanism in Brazilian Jiu-Jitsu, derived from wrestling, where a practitioner establishes an overhook over an opponent's underhooking arm. This control serves dual purposes: neutralizing an opponent's offensive underhook control while simultaneously creating offensive counter-attacking opportunities. The Whizzer's effectiveness stems from its ability to apply downward pressure on the opponent's arm, disrupting their posture and base while maintaining the defender's structural integrity.\n\nThe concept transcends simple arm positioning, embodying a comprehensive approach to managing an opponent's attempts to establish dominant control through underhooks. Proper Whizzer application requires coordinated integration of arm pressure, body positioning, footwork, and base management. The control proves particularly valuable in transitions between positions, where the battle for underhook dominance often determines positional outcomes.\n\nWhizzer Control finds application across numerous positional contexts, from standing clinch scenarios to ground-based half guard battles, making it an essential concept for practitioners developing comprehensive defensive and counter-attacking capabilities. Understanding the mechanical principles underlying effective Whizzer application enables practitioners to adapt the concept to varied tactical situations while maintaining defensive soundness and offensive threat potential.",
+  "summary": "Whizzer Control is a defensive overhook position, borrowed from wrestling, where you thread your arm over an opponent's underhooking arm and apply downward pressure to neutralize their control while creating counter-attacking opportunities.",
+  "overview": "The battle for the underhook is one of the most consequential exchanges in grappling, frequently determining whether a position is held, passed, or reversed. The Whizzer is jiu-jitsu's primary answer when that battle is being lost—a counter borrowed from wrestling that turns an opponent's underhook into an opportunity rather than a liability. Its effectiveness stems from applying downward pressure on the opponent's arm, disrupting their posture and base while maintaining the defender's structural integrity.\n\nThe concept transcends simple arm positioning, embodying a comprehensive approach to managing an opponent's attempts to establish dominant control through underhooks. Proper Whizzer application requires coordinated integration of arm pressure, body positioning, footwork, and base management. The control proves particularly valuable in transitions between positions, where the battle for underhook dominance often determines positional outcomes.\n\nWhizzer Control finds application across numerous positional contexts, from standing clinch scenarios to ground-based half guard battles, making it an essential concept for practitioners developing comprehensive defensive and counter-attacking capabilities. Understanding the mechanical principles underlying effective Whizzer application enables practitioners to adapt the concept to varied tactical situations while maintaining defensive soundness and offensive threat potential.",
   "key_principles": [
     "Establish overhook by placing arm over opponent's underhooking arm",
     "Apply downward pressure to neutralize opponent's control",
@@ -156,10 +157,6 @@
     {
       "context": "Overhook Control",
       "how_applied": "Establish Whizzer as primary defensive tool when losing the underhook battle, converting opponent's offensive control into neutralized position with counter-attacking potential through sustained overhook pressure"
-    },
-    {
-      "context": "Standing Position",
-      "how_applied": "Apply Whizzer during standing exchanges to control opponent's movement and prevent them from establishing dominant position while maintaining positional awareness"
     },
     {
       "context": "Back Control",
@@ -341,11 +338,6 @@
       "relationship": "Complementary defensive concept - Whizzer represents specialized framing application for underhook scenarios"
     },
     {
-      "name": "Underhook Sweep from Half",
-      "content_type": "Transition",
-      "relationship": "Counter-offensive technique commonly executed from established Whizzer control position"
-    },
-    {
       "name": "Turtle",
       "content_type": "Position",
       "relationship": "Critical application context where Whizzer prevents back exposure and maintains defensive soundness"
@@ -381,9 +373,43 @@
       "relationship": "Scramble position where Whizzer control prevents opponent underhook dominance"
     },
     {
-      "name": "Whizzer",
-      "content_type": "Transition",
-      "relationship": "Technical execution of the Whizzer control concept in transitional contexts"
+      "name": "Overhook Control",
+      "content_type": "Position",
+      "relationship": "Positional expression of sustained Whizzer pressure where the overhook becomes the dominant controlling structure"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is a Whizzer and where does it come from?",
+      "answer": "A Whizzer is a defensive overhook threaded over an opponent's underhooking arm. Borrowed from wrestling, it neutralizes their control while applying downward pressure to break posture and create counters."
+    },
+    {
+      "question": "Why must you establish the Whizzer before the opponent secures a deep underhook?",
+      "answer": "Once the underhook is deep, the opponent already owns dominant control and can resist; an early Whizzer wins the leverage race before their position consolidates, keeping your overhook effective."
+    },
+    {
+      "question": "In which direction should Whizzer pressure be applied, and why?",
+      "answer": "Downward and slightly backward, using the trapped arm as a lever to break the opponent's posture and base. Upward pressure is a common error that actually helps them elevate and improve position."
+    },
+    {
+      "question": "Why is the Whizzer arm alone insufficient for control?",
+      "answer": "Without coordinated base, hip position, and posture, the overhook becomes isolated arm control the opponent counters through base attacks or transitions; the Whizzer must be part of a whole-body structure."
+    },
+    {
+      "question": "How does the Whizzer convert defense into offense?",
+      "answer": "By off-balancing the opponent and compromising posture, it opens windows for sweeps, reversals, and back takes, most notably the underhook/Whizzer sweep from half guard and dogfight angle changes."
+    },
+    {
+      "question": "What is the most common error when holding a Whizzer too long?",
+      "answer": "Failing to recognize counter-offensive windows; staying defensive lets the opponent adjust, establish alternative controls, or grind out the Whizzer instead of you transitioning to a sweep or reversal."
+    },
+    {
+      "question": "Why should the Whizzer rely on leverage rather than arm strength?",
+      "answer": "Strength-based pressure fatigues quickly and degrades over long exchanges; leverage from proper angles, hip position, and the arm-as-lever sustains control with minimal effort against resisting opponents."
+    },
+    {
+      "question": "Which three positions make the Whizzer a critical tool?",
+      "answer": "Half guard (prevents flattening and cross-face, enables sweeps), turtle (prevents back exposure), and the dogfight or standing clinch (denies underhook-based takedowns and contests the dominant angle)."
     }
   ]
 }

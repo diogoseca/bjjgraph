@@ -34,6 +34,18 @@ description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standin
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Leg Setup",
+  "description": "The Double Leg Setup is the standing entry sequence of grip fighting, level changes, and angle creation that breaks an opponent's posture and manufactures the range and reaction needed to shoot a clean double leg takedown.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standin
 
 <section id="overview" class="content-section">
 
-The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-Jitsu that creates the optimal conditions for executing a double leg takedown. This preparatory sequence focuses on controlling distance, manipulating opponent reactions, and establishing proper positioning before committing to the explosive penetration step. The setup phase is arguably more important than the finish itself, as it determines whether you'll achieve a clean takedown or expose yourself to sprawl defense and guillotine attacks. Effective setup work involves a combination of grip fighting, level changes, angle creation, and timing that forces your opponent into defensive postures while creating offensive opportunities. The modern approach to double leg setups emphasizes tactical entries over purely athletic explosiveness, making it accessible to practitioners of all physical abilities. Understanding the setup mechanics allows you to chain together multiple takedown attempts, use feints to create openings, and seamlessly transition between standing and ground techniques when opportunities arise.
+**The Double Leg Setup is the standing entry sequence of grip fighting, level changes, and angle creation that breaks an opponent's posture and manufactures the range and reaction needed to shoot a clean double leg takedown.**
+
+Borrowed from folkstyle and freestyle wrestling and refined for the grip-heavy, guard-pull-aware standing game of Brazilian Jiu-Jitsu, the setup phase of the double leg is what separates a clean entry from a stuffed shot. This preparatory sequence focuses on controlling distance, manipulating opponent reactions, and establishing proper positioning before committing to the explosive penetration step. The setup phase is arguably more important than the finish itself, as it determines whether you'll achieve a clean takedown or expose yourself to sprawl defense and guillotine attacks. Effective setup work involves a combination of grip fighting, level changes, angle creation, and timing that forces your opponent into defensive postures while creating offensive opportunities. The modern approach to double leg setups emphasizes tactical entries over purely athletic explosiveness, making it accessible to practitioners of all physical abilities. Understanding the setup mechanics allows you to chain together multiple takedown attempts, use feints to create openings, and seamlessly transition between standing and ground techniques when opportunities arise.
 
 **From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%

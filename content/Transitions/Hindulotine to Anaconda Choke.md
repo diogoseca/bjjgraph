@@ -34,6 +34,18 @@ description: "Master the Hindulotine to Anaconda Choke transition in BJJ. Thread
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hindulotine to Anaconda Choke",
+  "description": "Hindulotine to Anaconda Choke is a front-headlock submission chain where, as the defender frames their near arm to relieve guillotine pressure, the attacker threads the choking arm under that armpit to lock anaconda control and strangle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Hindulotine to Anaconda Choke transition in BJJ. Thread
 </div>
 
 <section id="overview" class="content-section">
+
+**Hindulotine to Anaconda Choke is a front-headlock submission chain where, as the defender frames their near arm to relieve guillotine pressure, the attacker threads the choking arm under that armpit to lock anaconda control and strangle.**
 
 The Hindulotine to Anaconda Choke transition exploits a common defensive reaction where opponents create space with their near-side arm to relieve guillotine pressure. Rather than fighting to maintain the original choke, this technique flows into an anaconda configuration that uses the defender's own frame against them. The transition represents a fundamental principle in submission grappling: when one attack is defended, the defensive movement itself creates vulnerability to a different attack.
 

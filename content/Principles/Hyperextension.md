@@ -143,6 +143,16 @@ description: "Master hyperextension mechanics in BJJ. Learn joint lock principle
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hyperextension",
+  "description": "Hyperextension is a joint-attack principle that applies linear force to straighten a hinge joint—elbow, knee, or ankle—past its natural range of motion, stressing ligaments and the joint capsule until the opponent taps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master hyperextension mechanics in BJJ. Learn joint lock principle
 
 ## What is Hyperextension?
 
-Hyperextension is the most fundamental joint attack mechanic in Brazilian Jiu-Jitsu. It works by applying linear force to straighten a joint past its natural range of motion, stressing the ligaments, tendons, and joint capsule until the opponent taps from pain or the structures begin to fail. The armbar is the most iconic hyperextension submission, using hip pressure against the elbow to force it beyond its natural extension. Kneebars apply the same principle to the knee joint, and straight ankle locks hyperextend the ankle and foot complex. These submissions share a common mechanical framework: isolate the joint, control the limb on both sides of the joint, and apply linear force that drives the joint past its anatomical limit.
+**Hyperextension is a joint-attack principle that applies linear force to straighten a hinge joint—elbow, knee, or ankle—past its natural range of motion, stressing ligaments and the joint capsule until the opponent taps.**
+
+Of all the submission mechanics in Brazilian Jiu-Jitsu, hyperextension is the one practitioners encounter first and rely on throughout their careers. The armbar is its most iconic expression, using hip pressure against the elbow to force it beyond its natural extension. Kneebars apply the same principle to the knee joint, and straight ankle locks hyperextend the ankle and foot complex. These submissions share a common mechanical framework: isolate the joint, control the limb on both sides of the joint, and apply linear force that drives the joint past its anatomical limit.
 
 The hyperextension mechanic is considered fundamental because it relies on simple lever physics that practitioners can understand and apply from their first months of training. The elbow is designed to bend in one direction. If you control the wrist and press against the elbow from the opposite side, the joint is forced to straighten past its limit. This simplicity makes hyperextension attacks available from nearly every position in BJJ. Armbars can be applied from mount, guard, side control, back control, and standing. Kneebars work from various leg entanglements and passing positions. Straight ankle locks are available from virtually any leg entanglement.
 

@@ -34,6 +34,18 @@ description: "Master the Z-Guard Pass in BJJ. Complete guide to collapsing the k
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Z-Guard Pass",
+  "description": "The Z-Guard Pass is a top-position guard pass that defeats the bottom player's high knee shield by combining an angled crossface and knee-line control to collapse the shield, then sliding through to establish side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Z-Guard Pass in BJJ. Complete guide to collapsing the k
 </div>
 
 <section id="overview" class="content-section">
+
+**The Z-Guard Pass is a top-position guard pass that defeats the bottom player's high knee shield by combining an angled crossface and knee-line control to collapse the shield, then sliding through to establish side control.**
 
 The Z-Guard Pass is a fundamental pressure-based guard passing technique designed to overcome the elevated knee shield that characterizes the Z-Guard position. Unlike standard half guard passes that deal with a lower knee placement on the hip, the Z-Guard pass must specifically address the high knee shield targeting the shoulder or collarbone, which creates superior defensive geometry and distance management for the bottom player. The pass integrates crossface control, systematic knee shield collapse, and angular movement to transition from the top of Z-Guard into a dominant side control position.
 

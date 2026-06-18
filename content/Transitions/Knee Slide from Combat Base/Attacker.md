@@ -82,6 +82,14 @@ description: "Complete guide to executing the Knee Slide from Combat Base. Step-
     },
     {
       "@type": "Question",
+      "name": "What entry conditions must exist before you commit to the knee slide from combat base?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need a stable combat base with one knee posted and the opposite foot planted flat, the opponent's near-side hip accessible without a strong knee shield or frame blocking the cutting path, and at least one controlling grip on their upper or lower body. Critically, you must have a forward angle that lets the lead knee drive diagonally across the thigh rather than straight down—attempting the cut without these prerequisites lets the opponent insert a frame and recover guard."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Your opponent inserts a knee shield just as you begin the knee slide—how do you adjust your passing strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -110,14 +118,6 @@ description: "Complete guide to executing the Knee Slide from Combat Base. Step-
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing window occurs when the opponent is reacting to another threat—such as defending a grip break, recovering from a toreando feint, or adjusting their guard after a weight shift. The moment their attention and frames are occupied with one threat is when the knee slide cuts through most efficiently. Initiating the knee slide against a fully set, prepared guard with established frames significantly reduces the success rate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How should you distribute your weight during each phase of the knee slide?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "During setup in combat base, weight is distributed 60-40 between posted knee and planted foot. As you initiate the cut, shift weight forward through your hips onto the opponent's torso via the crossface shoulder. At mid-pass, your weight should be almost entirely on the opponent through hip and chest pressure, with the cutting knee serving as a blade rather than a weight-bearing point. Upon completion, transfer to standard side control weight distribution across the opponent's chest and hips."
       }
     }
   ]

@@ -33,10 +33,32 @@ description: "Master the Banana Split compression submission in BJJ. Complete gu
 }
 </script>
 
-> **SAFETY**: Banana Split from Truck targets the Hip adductors, groin, and lower back. Risk: Groin muscle tear or strain. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Banana Split from Truck",
+  "description": "The Banana Split from Truck is a compression submission where the twister hook pins one leg while the hands isolate and drive the far leg apart, overstretching the opponent's groin and hip adductors until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Banana Split from Truck is a compression submission where the twister hook pins one leg while the hands isolate and drive the far leg apart, overstretching the opponent's groin and hip adductors until they tap.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Groin Stretch</span>
+<span class="meta-chip">Targets Hip adductors, groin, and lower back</span>
+<span class="meta-chip">48% success</span>
+</div>
+
+> [!danger] Safety
+> Banana Split from Truck targets the Hip adductors, groin, and lower back. Primary risk: Groin muscle tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,55 +75,7 @@ Unlike traditional joint locks that attack a specific articulation point, the Ba
 
 The Banana Split often works in combination with other attacks from half guard and truck positions, creating multiple offensive threats that force defensive errors. When an opponent defends the split by driving forward, they expose themselves to electric chair sweeps and back takes. When they pull their leg back, they compromise their base for other attacks. This dilemma-based approach makes the banana split threat valuable even when the finish itself is not achieved.
 
-**Category**: Compression
-**Type**: Groin Stretch
-**Target Area**: Hip adductors, groin, and lower back
-**Starting Position**: [[Positions/Half Guard/Deep Half Guard]]
-**From Position**: [[Positions/Twister Control/Truck]] (Top)
-**Success Rate**: 48%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Groin muscle tear or strain | High | 4-8 weeks |
-| Hip adductor strain | High | 3-6 weeks |
-| Lower back strain | Medium | 2-4 weeks |
-| Hip flexor damage | Medium | 3-5 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum. This submission creates intense pressure on muscle groups that can tear rapidly. There is no clear structural limit before tissue damage occurs, making controlled application essential.
-
-**Tap Signals**:
-- Verbal tap (most common due to position)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap if hands unavailable
-- Any distress vocalization
-- Frantic movement or panic signals
-
-
-**Release Protocol**:
-1. Immediately stop all leg splitting pressure
-2. Release the leg trap and allow opponent's legs to return to natural position
-3. Maintain control but remove all stretching force
-4. Allow opponent to assess their condition before continuing
-5. Never release explosively - control the return to neutral position
-
-
-**Training Restrictions**:
-- Never spike or jerk the leg split - apply pressure gradually
-- Never use competition speed or intensity in training
-- Always communicate with training partner about flexibility limitations
-- Stop immediately if partner shows signs of panic or distress
-- Avoid this submission with partners who have known groin or hip injuries
-- Beginners should practice mechanics without applying finishing pressure
-
+**Starting Position**: [[Positions/Half Guard/Deep Half Guard]] · **From**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
 
@@ -275,10 +249,9 @@ The Banana Split often works in combination with other attacks from half guard a
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Positions/Half Guard/Electric Chair]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Twister]]
@@ -288,33 +261,56 @@ The Banana Split often works in combination with other attacks from half guard a
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Toe Hold]]
 - [[Transitions/Kneebar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Half Guard/Deep Half Guard]] - Primary starting position for banana split entries
 - [[Positions/Half Guard/Lockdown]] - Essential control mechanism for near leg in classic variation
-- [[Positions/Half Guard/Electric Chair]] - Common transition point sharing similar leg controls and sweep mechanics
 - [[Positions/Twister Control/Truck]] - Alternative entry position with similar leg trapping mechanics
 - [[Positions/Leg Entanglement]] - Core principle for controlling opponent's legs during setup
 - [[Positions/Half Guard]] - Parent guard system from which banana split entries develop
 - [[Positions/Back Control]] - Alternative target when opponent defends banana split by rolling
 - [[Positions/Crab Ride]] - Related control position with similar leg entanglement mechanics from back
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Banana Split from Truck leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Groin muscle tear or strain | High | 4-8 weeks |
+| Hip adductor strain | High | 3-6 weeks |
+| Lower back strain | Medium | 2-4 weeks |
+| Hip flexor damage | Medium | 3-5 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum. This submission creates intense pressure on muscle groups that can tear rapidly. There is no clear structural limit before tissue damage occurs, making controlled application essential.
+
+**Tap Signals**:
+- Verbal tap (most common due to position)
+- Physical hand tap on opponent's body or mat
+- Physical foot tap if hands unavailable
+- Any distress vocalization
+- Frantic movement or panic signals
+
+
+**Release Protocol**:
+1. Immediately stop all leg splitting pressure
+2. Release the leg trap and allow opponent's legs to return to natural position
+3. Maintain control but remove all stretching force
+4. Allow opponent to assess their condition before continuing
+5. Never release explosively - control the return to neutral position
+
+
+**Training Restrictions**:
+- Never spike or jerk the leg split - apply pressure gradually
+- Never use competition speed or intensity in training
+- Always communicate with training partner about flexibility limitations
+- Stop immediately if partner shows signs of panic or distress
+- Avoid this submission with partners who have known groin or hip injuries
+- Beginners should practice mechanics without applying finishing pressure
+
 
 </section>
 

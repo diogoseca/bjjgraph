@@ -10,6 +10,7 @@
     "pressure passing",
     "top game"
   ],
+  "summary": "Stack from Inverted is a pressure-passing transition where the top player folds an inverting opponent's hips back over their head, collapsing their rotational mobility to shut down berimbolo and back-take threats and pass into half guard top.",
   "from_position": "Inverted Guard/Top",
   "outcomes": [
     {
@@ -29,7 +30,7 @@
     }
   ],
   "success_rate": 55,
-  "overview": "The Stack from Inverted is a fundamental guard passing technique used by the top player to neutralize an opponent's inverted guard by driving their hips over their head, compressing their spine against the mat, and eliminating the hip mobility that makes inversion effective. When an opponent inverts, they rely on hip elevation and rotational freedom to threaten berimbolo entries, back takes, and leg entanglements. The stack directly attacks these mechanics by folding the inverted player and pinning their weight onto their upper back and shoulders, collapsing the entire inverted structure.\n\nStrategically, the stack from inverted guard serves as a high-percentage response to modern guard systems built around inversion. Rather than chasing the opponent's legs or engaging in grip battles from distance, the stack leverages the top player's weight and forward pressure to collapse the inverted structure entirely. The resulting position typically transitions to half guard top, where the top player can continue working toward a complete pass to side control or mount. This makes the stack a bridge technique that converts a complex open guard exchange into a more conventional passing scenario.\n\nThe technique requires precise timing. Initiating the stack too early allows the opponent to redirect your momentum for a sweep, while waiting too long gives them time to establish grips and begin their berimbolo or leg entanglement sequences. Success depends on controlling the opponent's hips before they achieve full inversion, then committing to continuous forward pressure that prevents them from recovering mobility. The stack from inverted guard is particularly effective against opponents who rely heavily on berimbolo-based systems, as it directly counters the hip elevation and rotation these systems require.",
+  "overview": "When an opponent commits to inverting, they trade a moment of vulnerability for the rotational freedom that powers berimbolo entries, back takes, and leg entanglements, and the stack is the most direct way to revoke that trade. By driving their hips up and over their head and compressing their spine toward the mat, the top player folds the inverted structure flat, pinning the opponent's weight onto their upper back and shoulders and stripping away the hip elevation and rotation that inversion depends on.\n\nStrategically, the stack from inverted guard serves as a high-percentage response to modern guard systems built around inversion. Rather than chasing the opponent's legs or engaging in grip battles from distance, the stack leverages the top player's weight and forward pressure to collapse the inverted structure entirely. The resulting position typically transitions to half guard top, where the top player can continue working toward a complete pass to side control or mount. This makes the stack a bridge technique that converts a complex open guard exchange into a more conventional passing scenario.\n\nThe technique requires precise timing. Initiating the stack too early allows the opponent to redirect your momentum for a sweep, while waiting too long gives them time to establish grips and begin their berimbolo or leg entanglement sequences. Success depends on controlling the opponent's hips before they achieve full inversion, then committing to continuous forward pressure that prevents them from recovering mobility. The stack from inverted guard is particularly effective against opponents who rely heavily on berimbolo-based systems, as it directly counters the hip elevation and rotation these systems require.",
   "conditions": [
     "Opponent has inverted with hips elevated and shoulders contacting the mat",
     "Top player has established or can immediately establish grips on opponent's legs, hips, or pants",
@@ -76,12 +77,12 @@
       "relationship": "Guard position that frequently transitions to inverted guard, creating stack pass opportunities"
     },
     {
-      "name": "Stack Pass from Double Unders",
-      "relationship": "Related stack passing technique with similar compression mechanics from different guard configuration"
+      "name": "Stack Pass",
+      "relationship": "Related stack passing technique sharing the same compression mechanics from a non-inverted guard configuration"
     },
     {
-      "name": "Stack Pass from Spider",
-      "relationship": "Related stack pass variation sharing core stacking principles and pressure application concepts"
+      "name": "Smash Pass",
+      "relationship": "Related pressure pass that flattens the opponent when their inverted hips orient laterally rather than vertically"
     },
     {
       "name": "Back Control",

@@ -34,6 +34,18 @@ description: "Learn the frame-and-hip escape from Modified Scarf Hold in BJJ. Sy
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Modified Scarf Hold",
+  "description": "Escape Modified Scarf Hold is a frame-and-shrimp escape sequence where the bottom player uses structural forearm frames and incremental hip escapes to create cumulative space, free the trapped arm, and recover half or open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn the frame-and-hip escape from Modified Scarf Hold in BJJ. Sy
 </div>
 
 <section id="overview" class="content-section">
+
+**Escape Modified Scarf Hold is a frame-and-shrimp escape sequence where the bottom player uses structural forearm frames and incremental hip escapes to create cumulative space, free the trapped arm, and recover half or open guard.**
 
 The Escape from Modified Scarf Hold is a systematic, frame-based hip escape designed to create incremental space and recover guard from one of the most oppressive pinning positions in Brazilian Jiu-Jitsu. Unlike the explosive bridge escape that relies on timing and power, this technique uses patient frame creation, progressive hip movement, and knee insertion to methodically dismantle the top player's chest-to-chest pressure. The approach is particularly valuable against heavier or stronger opponents where explosive escapes carry excessive energy cost and counter risk.
 

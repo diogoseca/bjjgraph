@@ -34,6 +34,18 @@ description: "Master the Old School Position Sweep from half guard lockdown. Exp
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Old School Position Sweep",
+  "description": "The Old School Position Sweep is the 10th Planet half guard's signature reversal, where the bottom player chains lockdown leg control, a deep underhook, and head control to rotate the opponent over and land directly in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Old School Position Sweep from half guard lockdown. Exp
 
 <section id="overview" class="content-section">
 
-The Old School Position Sweep is the signature technique from the 10th Planet half guard system, utilizing the lockdown's immobilizing power combined with underhook and head control to execute a powerful rotational sweep. This technique transforms half guard bottom from a defensive holding pattern into an immediate offensive launching pad, threatening a direct path to mount through precise biomechanical leverage rather than athletic explosiveness. The sweep relies on a three-point control system where the lockdown removes the opponent's base, the underhook provides rotational leverage, and the head control prevents defensive posting.
+**The Old School Position Sweep is the 10th Planet half guard's signature reversal, where the bottom player chains lockdown leg control, a deep underhook, and head control to rotate the opponent over and land directly in mount.**
+
+Popularized through Eddie Bravo's 10th Planet system, this sweep weaponizes the lockdown's immobilizing power alongside a deep underhook and head control to turn half guard bottom from a defensive holding pattern into an immediate offensive launching pad. It threatens a direct path to mount through precise biomechanical leverage rather than athletic explosiveness, relying on a three-point control system where the lockdown removes the opponent's base, the underhook provides rotational leverage, and the head control prevents defensive posting.
 
 The sweep's effectiveness derives from simultaneous neutralization of the opponent's base recovery options. The lockdown figure-four immobilizes the trapped leg, the deep underhook controls the far-side shoulder and creates the sweeping fulcrum, and the head wrap prevents posture recovery and defensive hand posting. When these three controls converge with proper timing during the opponent's forward weight shift, the sweep becomes extremely difficult to defend because all stabilization points are compromised at once. The circular sweeping motion carries the opponent over the bottom player's body directly into mount.
 
@@ -244,10 +258,6 @@ The Old School Position Sweep is the primary offensive tool from the lockdown ha
 - [[Positions/Dogfight Position]] - Intermediate position when bottom player comes up on underhook instead of completing full sweep
 
 - [[Positions/Back Control]] - Alternative target position via back take variation of the sweep
-
-- [[Transitions/Defend Old School Sweep]] - Direct counter-technique from the top player's perspective
-
-- [[Transitions/Crossface from Old School]] - Top player's primary defensive tool to shut down the sweep
 
 
 </section>

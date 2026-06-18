@@ -34,6 +34,18 @@ description: "Learn the Sitting Guard Pull in BJJ. Step-by-step guide to safely 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sitting Guard Pull",
+  "description": "The Sitting Guard Pull is a controlled transition from standing to seated open guard in which you secure grips first, then sit with active feet to reliably establish guard while minimizing the injury and passing risks of dynamic guard pulls.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn the Sitting Guard Pull in BJJ. Step-by-step guide to safely 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sitting Guard Pull is a controlled transition from standing to seated open guard in which you secure grips first, then sit with active feet to reliably establish guard while minimizing the injury and passing risks of dynamic guard pulls.**
 
 The Sitting Guard Pull is one of the most fundamental and reliable methods for establishing guard from standing position in Brazilian Jiu-Jitsu. This technique allows a practitioner to safely transition from neutral standing to a seated open guard position while maintaining grips and controlling distance. Unlike dynamic jumping or rolling guard pulls, the sitting guard pull emphasizes control, safety, and strategic positioning. The technique is particularly valuable in both gi and no-gi contexts, serving as a foundational entry point to various open guard systems including butterfly guard, De La Riva, seated guard, and shin-to-shin configurations.
 
@@ -230,15 +244,9 @@ The sitting guard pull serves as the primary bridge between standing neutral pos
 
 - [[Positions/Standing Position]] - Starting position - the neutral standing state from which the guard pull initiates
 
-- [[Transitions/Pull guard]] - Related technique - generic guard pulling category that includes sitting variation
-
 - [[Transitions/Jumping Guard]] - Alternative approach - more dynamic guard pull versus controlled sitting
 
-- [[Transitions/Scramble to Guard]] - Related concept - sitting mechanics apply to guard recovery and scramble scenarios
-
 - [[Transitions/Butterfly Sweep]] - Follow-up technique - immediate offensive option after butterfly guard pull
-
-- [[Transitions/De La Riva Sweep]] - Follow-up technique - offensive action from DLR guard pull variation
 
 - [[Positions/Open Guard]] - Parent guard category that seated guard belongs to
 

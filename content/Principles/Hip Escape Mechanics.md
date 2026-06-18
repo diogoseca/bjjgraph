@@ -143,6 +143,16 @@ description: "Master hip escape mechanics in BJJ. Learn coordinated bridging, fr
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape Mechanics",
+  "description": "Hip Escape Mechanics are the coordinated bridge-frame-rotate movement system used to create space from beneath an opponent's pressure, generating the distance and angles needed to recover guard or escape inferior positions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master hip escape mechanics in BJJ. Learn coordinated bridging, fr
 
 ## What are Hip Escape Mechanics?
 
-Hip Escape Mechanics represents the fundamental biomechanical framework for creating space and escaping inferior positions through coordinated hip movement, bridging, and frame utilization. Unlike specific escape techniques, hip escape mechanics is a comprehensive conceptual system that applies across all bottom positions where the practitioner must create distance from the opponent's pressure and control. This concept encompasses the coordinated sequence of bridging to create initial space, framing to maintain separation, hip rotation to generate distance, and leg recovery to reestablish defensive positioning. Hip escape mechanics serves as both the primary escape methodology from pins and mounted positions, and the foundational movement pattern for guard recovery and defensive repositioning. The ability to execute effective hip escapes often determines whether a practitioner remains trapped in inferior positions or successfully recovers to neutral or advantageous states, making it one of the most essential survival skills in BJJ.
+**Hip Escape Mechanics are the coordinated bridge-frame-rotate movement system used to create space from beneath an opponent's pressure, generating the distance and angles needed to recover guard or escape inferior positions.**
+
+Often the first movement pattern taught to a white belt and one of the last fully mastered by a black belt, hip escape mechanics underpins nearly every defensive sequence in Brazilian Jiu-Jitsu. Unlike a specific escape technique tied to a single position, it is a comprehensive conceptual system that applies across all bottom positions where the practitioner must create distance from the opponent's pressure and control. This concept encompasses the coordinated sequence of bridging to create initial space, framing to maintain separation, hip rotation to generate distance, and leg recovery to reestablish defensive positioning. Hip escape mechanics serves as both the primary escape methodology from pins and mounted positions, and the foundational movement pattern for guard recovery and defensive repositioning. The ability to execute effective hip escapes often determines whether a practitioner remains trapped in inferior positions or successfully recovers to neutral or advantageous states, making it one of the most essential survival skills in BJJ.
 
 </section>
 
@@ -368,7 +380,7 @@ Execute hip escape repetitions while already fatigued from previous training, si
 - **[[Kuzushi]]** (Extension): Successful hip escape execution often creates the spatial and angular conditions necessary for sweep initiation, bridging the gap between defensive escape and offensive reversal.
 - **[[Pressure]]** (Complementary): Understanding how pressure is applied from top positions reveals the specific vectors and timing windows that hip escapes must counter, creating informed defensive movement.
 - **[[Position Chains]]** (Extension): Hip escape mechanics feeds into position chains by enabling transitions from inferior to neutral positions, serving as the critical link in defensive position chain sequences.
-- **[[Transition Management]]** (Extension): Hip escape mechanics creates transitional moments that must be managed effectively, ensuring that space created through escapes converts into improved positioning rather than temporary relief.
+- **[[Dominant Angles]]** (Complementary): Hip escape mechanics generates the off-centerline angles that define dominant angles, with each successful escape repositioning the practitioner to a more advantageous angular relationship relative to the opponent.
 - **[[Control Point Hierarchy]]** (Complementary): Knowledge of control point hierarchy identifies which opponent grips and pressure points must be neutralized through framing before hip escape movements can generate meaningful distance.
 - **[[Energy Conservation]]** (Complementary): Energy conservation principles inform efficient hip escape execution, emphasizing proper mechanics over muscular effort to sustain escape attempts over extended periods.
 

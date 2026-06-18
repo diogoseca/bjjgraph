@@ -127,6 +127,16 @@ description: "Master Gordon Ryan's pressure passing system for no-gi BJJ. Comple
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gordon Ryan Passing System",
+  "description": "The Gordon Ryan Passing System is a pressure-based no-gi guard-passing framework that combines body lock control, leg drags, and over-under stacking to systematically strip an opponent's frames and force a high-percentage pass to dominant top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -140,6 +150,8 @@ description: "Master Gordon Ryan's pressure passing system for no-gi BJJ. Comple
 <section id="overview" class="content-section">
 
 ## What is Gordon Ryan Passing System?
+
+**The Gordon Ryan Passing System is a pressure-based no-gi guard-passing framework that combines body lock control, leg drags, and over-under stacking to systematically strip an opponent's frames and force a high-percentage pass to dominant top position.**
 
 Gordon Ryan's passing system represents the pinnacle of modern no-gi guard passing, combining relentless pressure, strategic positioning, and systematic guard neutralization. This approach prioritizes establishing dominant grips and control points before initiating passing sequences, ensuring that every movement builds toward a high-percentage pass. The system emphasizes body lock passing variations, leg drag sequences, and over-under pressure passes that have proven devastatingly effective at the highest levels of competition.
 

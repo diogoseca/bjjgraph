@@ -34,6 +34,18 @@ description: "Learn Meathook to Gogoplata Control in BJJ. Transition from Rubber
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Meathook to Gogoplata Control",
+  "description": "Meathook to Gogoplata Control is a 10th Planet Rubber Guard transition where the bottom player redirects the arm-isolating shin from the opponent's tricep to their throat when they drive forward, converting arm control into an immediate gogoplata choke threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Meathook to Gogoplata Control in BJJ. Transition from Rubber
 </div>
 
 <section id="overview" class="content-section">
+
+**Meathook to Gogoplata Control is a 10th Planet Rubber Guard transition where the bottom player redirects the arm-isolating shin from the opponent's tricep to their throat when they drive forward, converting arm control into an immediate gogoplata choke threat.**
 
 The Meathook to Gogoplata Control transition represents one of the highest-percentage attacks in the Rubber Guard system when opponent commits the tactical error of driving forward. This technique exploits a fundamental defensive mistake—forward pressure against Meathook—by repositioning the shin from arm isolation to throat contact, creating immediate choking pressure.
 

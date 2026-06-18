@@ -34,6 +34,18 @@ description: "Master Ringworm Guard in BJJ. Advanced lapel guard variation with 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ringworm Guard",
+  "description": "Ringworm Guard is an advanced gi-based lapel guard in which the bottom player threads the opponent's own lapel around the opponent's leg, tethering it to restrict mobility and generate high-percentage sweeps and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Ringworm Guard in BJJ. Advanced lapel guard variation with 
 </div>
 
 <section id="overview" class="content-section">
+
+**Ringworm Guard is an advanced gi-based lapel guard in which the bottom player threads the opponent's own lapel around the opponent's leg, tethering it to restrict mobility and generate high-percentage sweeps and back takes.**
 
 Ringworm Guard is an advanced lapel guard variation that originated from the Worm Guard system popularized by Keenan Cornelius. The position involves threading the opponent's lapel around their leg while maintaining control from bottom guard, creating a powerful control system that limits the top player's mobility and creates numerous sweeping and back-taking opportunities. The name derives from the lapel configuration that wraps around the opponent's leg, hence the creative nomenclature consistent with the Worm Guard family.
 

@@ -34,6 +34,18 @@ description: "Master the snap down from dogfight position in BJJ. Wrestling-base
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Snap Down from Dogfight",
+  "description": "The Snap Down from Dogfight is a top-player attack that converts the kneeling underhook battle into front headlock control by sharply pulling the opponent's head down while sprawling the hips, weaponizing their own forward drive against them.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the snap down from dogfight position in BJJ. Wrestling-base
 </div>
 
 <section id="overview" class="content-section">
+
+**The Snap Down from Dogfight is a top-player attack that converts the kneeling underhook battle into front headlock control by sharply pulling the opponent's head down while sprawling the hips, weaponizing their own forward drive against them.**
 
 The Snap Down from Dogfight is a wrestling-derived technique where the top player exploits the bottom player's elevated kneeling posture to collapse their head and neck downward, establishing dominant front headlock control. In the dogfight position, both players are engaged in a competitive underhook battle on their knees. The top player strategically abandons the whizzer contest and instead attacks the opponent's head with a sharp downward snap, combined with a hip sprawl that drives the bottom player's face toward the mat while the top player secures control over their head and far shoulder.
 

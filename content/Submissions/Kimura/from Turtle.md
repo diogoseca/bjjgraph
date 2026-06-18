@@ -33,10 +33,32 @@ description: "Master Kimura from Turtle in BJJ. Complete guide with safety proto
 }
 </script>
 
-> **SAFETY**: Kimura from Turtle targets the Shoulder joint, rotator cuff, and associated ligaments. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Turtle",
+  "description": "The Kimura from Turtle is a figure-four shoulder lock applied from top turtle control that isolates the opponent's exposed arm to torque the shoulder for a tap, while doubling as a control grip to break the turtle, take the back, or roll to mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Turtle is a figure-four shoulder lock applied from top turtle control that isolates the opponent's exposed arm to torque the shoulder for a tap, while doubling as a control grip to break the turtle, take the back, or roll to mount.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and associated ligaments</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Turtle targets the Shoulder joint, rotator cuff, and associated ligaments. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,60 +69,9 @@ description: "Master Kimura from Turtle in BJJ. Complete guide with safety proto
 
 <section id="overview" class="content-section">
 
-The Kimura from Turtle is a powerful shoulder lock submission that capitalizes on the opponent's defensive turtle position. When executed properly, this technique isolates the arm through a figure-four grip while controlling the opponent's posture, creating significant torque on the shoulder joint. The turtle position provides unique mechanical advantages for the Kimura, as the opponent's weight distribution and defensive posture naturally expose the arms. This submission can be approached from various angles including traditional top turtle control, front headlock positions, or transitional scrambles. The Kimura from turtle serves multiple strategic purposes: it can be used as a direct finish, as a powerful control position to break down the turtle and transition to back control, or as a means to roll the opponent and establish dominant top positions like mount or side control. The technique's effectiveness stems from the combination of grip control, hip pressure, and proper angle creation that prevents the opponent from defending effectively while maintaining the structural integrity needed to apply safe, controlled pressure to the shoulder joint.
+Capitalizing on the natural arm exposure of the defensive turtle, the Kimura from turtle functions simultaneously as a direct finish, a posture-breaking control, and a vehicle for positional advancement. When executed properly, this technique isolates the arm through a figure-four grip while controlling the opponent's posture, creating significant torque on the shoulder joint. The turtle position provides unique mechanical advantages for the Kimura, as the opponent's weight distribution and defensive posture naturally expose the arms. This submission can be approached from various angles including traditional top turtle control, front headlock positions, or transitional scrambles. The Kimura from turtle serves multiple strategic purposes: it can be used as a direct finish, as a powerful control position to break down the turtle and transition to back control, or as a means to roll the opponent and establish dominant top positions like mount or side control. The technique's effectiveness stems from the combination of grip control, hip pressure, and proper angle creation that prevents the opponent from defending effectively while maintaining the structural integrity needed to apply safe, controlled pressure to the shoulder joint.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and associated ligaments
-**Starting Position**: [[Positions/Turtle]]
-**From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-6 months with surgery, 6-12 weeks conservative treatment |
-| Shoulder dislocation (glenohumeral joint separation) | High | 6-12 weeks, potential chronic instability |
-| Labrum tear (glenoid labrum damage) | High | 4-6 months with surgical repair |
-| Biceps tendon strain or rupture | Medium | 4-8 weeks for strain, 3-6 months for rupture |
-| AC joint sprain (acromioclavicular separation) | Medium | 2-6 weeks depending on grade |
-
-
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds application time in training, never explosive
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal submission)
-- Physical hand tap on partner or mat (minimum 2 taps)
-- Physical foot tap on mat or partner
-- Any verbal distress signal or physical indication of pain
-- Screaming or crying out
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Maintain grip control while releasing rotational torque
-3. Gently lower the arm back to neutral position
-4. Release the figure-four grip slowly
-5. Allow partner to move shoulder freely and assess
-6. Check with partner verbally before continuing training
-
-
-**Training Restrictions**:
-- Never spike, jerk, or explosively apply rotational pressure
-- Never use competition speed or intensity in training rolls
-- Always ensure training partner has clear tap access with free hand
-- Stop immediately at any sign of discomfort or resistance
-- Never force the position if partner's shoulder is already compromised
-- Avoid training this submission on partners with pre-existing shoulder injuries
-- Do not combine with sudden weight drops or dynamic movements
-
+**Starting Position**: [[Positions/Turtle]] · **From**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -279,10 +250,9 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Far Side Armbar]]
@@ -292,14 +262,6 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Belly Down Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Turtle]] - Primary starting position for this submission
 - [[Positions/Crucifix]] - Alternative control position with similar arm isolation mechanics
 - [[Positions/Front Headlock]] - Related control position offering Kimura opportunities
@@ -312,16 +274,51 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 - [[Positions/Side Control]] - Position achieved after successful rolling Kimura variation
 - [[Positions/Mount]] - Alternative positional destination using Kimura grip to transition
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kimura from Turtle leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-6 months with surgery, 6-12 weeks conservative treatment |
+| Shoulder dislocation (glenohumeral joint separation) | High | 6-12 weeks, potential chronic instability |
+| Labrum tear (glenoid labrum damage) | High | 4-6 months with surgical repair |
+| Biceps tendon strain or rupture | Medium | 4-8 weeks for strain, 3-6 months for rupture |
+| AC joint sprain (acromioclavicular separation) | Medium | 2-6 weeks depending on grade |
+
+
+**Application Speed**: SLOW and progressive - minimum 3-5 seconds application time in training, never explosive
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal submission)
+- Physical hand tap on partner or mat (minimum 2 taps)
+- Physical foot tap on mat or partner
+- Any verbal distress signal or physical indication of pain
+- Screaming or crying out
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the shoulder
+2. Maintain grip control while releasing rotational torque
+3. Gently lower the arm back to neutral position
+4. Release the figure-four grip slowly
+5. Allow partner to move shoulder freely and assess
+6. Check with partner verbally before continuing training
+
+
+**Training Restrictions**:
+- Never spike, jerk, or explosively apply rotational pressure
+- Never use competition speed or intensity in training rolls
+- Always ensure training partner has clear tap access with free hand
+- Stop immediately at any sign of discomfort or resistance
+- Never force the position if partner's shoulder is already compromised
+- Avoid training this submission on partners with pre-existing shoulder injuries
+- Do not combine with sudden weight drops or dynamic movements
+
 
 </section>
 

@@ -34,6 +34,18 @@ description: "Master the leg drag pass from headquarters in BJJ. Step-by-step gu
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag from Headquarters",
+  "description": "The leg drag from headquarters is a guard pass where the top player drags the opponent's controlled leg across their centerline and pins it, killing guard recovery and opening direct paths to side control and the back.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the leg drag pass from headquarters in BJJ. Step-by-step gu
 </div>
 
 <section id="overview" class="content-section">
+
+**The leg drag from headquarters is a guard pass where the top player drags the opponent's controlled leg across their centerline and pins it, killing guard recovery and opening direct paths to side control and the back.**
 
 The leg drag from headquarters is one of the highest-percentage guard passing techniques in modern Brazilian Jiu-Jitsu, functioning as a core component of systematic passing methodology. From the headquarters position, where the top player already controls one of the opponent's legs between their own, the leg drag extends this control by pulling the controlled leg across the opponent's centerline and pinning it to the mat. This creates a powerful angular passing position that simultaneously eliminates the opponent's ability to use their legs for guard retention while opening direct pathways to side control, back control, and submission attacks.
 
@@ -240,8 +254,6 @@ The leg drag from headquarters occupies a central position in the modern systema
 - [[Transitions/Back Step Pass]] - Alternative passing direction from headquarters when opponent defends both knee cut and leg drag
 
 - [[Transitions/Body Lock Pass]] - Alternative passing method from headquarters that addresses different defensive reactions
-
-- [[Transitions/Leg Drag from DLR]] - Related leg drag entry from a different starting guard that shares similar finishing mechanics
 
 
 </section>

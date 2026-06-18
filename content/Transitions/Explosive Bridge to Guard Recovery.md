@@ -4,7 +4,7 @@
 
 ---
 title: "Explosive Bridge to Guard Recovery | BJJ Technique | BJJ Graph"
-description: "Master the Explosive Bridge to Guard Recovery from North-South bottom. Step-by-step escape mechanics with timing cues and guard recomposition."
+description: "Master the Explosive Bridge to Guard Recovery from North-South bottom. Learn the bridging mechanics, timing windows, and frames to recompose closed or half guard."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Explosive Bridge to Guard Recovery from North-South bot
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Explosive Bridge to Guard Recovery",
-  "description": "Master the Explosive Bridge to Guard Recovery from North-South bottom. Step-by-step escape mechanics with timing cues and guard recomposition.",
+  "description": "Master the Explosive Bridge to Guard Recovery from North-South bottom. Learn the bridging mechanics, timing windows, and frames to recompose closed or half guard.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -34,6 +34,18 @@ description: "Master the Explosive Bridge to Guard Recovery from North-South bot
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Explosive Bridge to Guard Recovery",
+  "description": "The Explosive Bridge to Guard Recovery is a North-South bottom escape that times an explosive 45-degree hip bridge to a weight shift, off-balancing the top player just enough to insert the legs and recompose closed or half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Explosive Bridge to Guard Recovery from North-South bot
 
 <section id="overview" class="content-section">
 
-The Explosive Bridge to Guard Recovery is a fundamental escape technique executed from the bottom of North-South control, designed to create space and recompose guard when trapped under heavy perpendicular pressure. This escape capitalizes on the brief windows created during opponent weight shifts, using explosive hip extension to off-balance the top player and immediately inserting the legs to establish a guard position.
+**The Explosive Bridge to Guard Recovery is a North-South bottom escape that times an explosive 45-degree hip bridge to a weight shift, off-balancing the top player just enough to insert the legs and recompose closed or half guard.**
+
+North-South bottom is one of the hardest pins to escape, and most exits either surrender the back or concede mount; the explosive bridge to guard recovery is the rare option that returns you to a guard you can actually attack from. This escape capitalizes on the brief windows created during opponent weight shifts, using explosive hip extension to off-balance the top player and immediately inserting the legs to establish a guard position.
 
 The technique requires precise timing rather than raw strength. The optimal moment occurs when the top player shifts weight to attack submissions, transition to mount, or adjust their base. During these micro-transitions, the perpendicular pressure momentarily decreases, creating an opportunity for the explosive bridge. The bridge must be directed at a 45-degree angle toward the opponent's knees rather than straight up, as this creates rotational force that disrupts their base.
 

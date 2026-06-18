@@ -34,6 +34,18 @@ description: "Master leg pummeling from saddle position in BJJ. Step-by-step esc
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Pummeling from Saddle",
+  "description": "Leg pummeling from the saddle is a defensive leg-entanglement technique in which the trapped player threads their free leg inside the opponent's figure-four to break the perpendicular lock and downgrade the dangerous saddle into the safer inside ashi-garami.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master leg pummeling from saddle position in BJJ. Step-by-step esc
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg pummeling from the saddle is a defensive leg-entanglement technique in which the trapped player threads their free leg inside the opponent's figure-four to break the perpendicular lock and downgrade the dangerous saddle into the safer inside ashi-garami.**
 
 Leg pummeling from the saddle is a critical defensive technique that enables a trapped practitioner to systematically downgrade from one of the most dangerous leg entanglement positions in Brazilian Jiu-Jitsu to the comparatively safer inside ashi-garami configuration. Rather than attempting a complete escape, this technique acknowledges the difficulty of fully extracting from a locked saddle and instead focuses on replacing the opponent's controlling legs with your own hooks, effectively converting a submission-imminent position into a manageable entanglement where defensive options multiply significantly.
 

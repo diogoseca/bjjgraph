@@ -34,6 +34,18 @@ description: "Master the guard pull in BJJ. Complete guide to executing from sta
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pull guard",
+  "description": "A guard pull is a transition where a standing grappler uses established grips to sit to the mat under control and wrap the opponent into closed or open guard, trading top position for an offensive ground game.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the guard pull in BJJ. Complete guide to executing from sta
 </div>
 
 <section id="overview" class="content-section">
+
+**A guard pull is a transition where a standing grappler uses established grips to sit to the mat under control and wrap the opponent into closed or open guard, trading top position for an offensive ground game.**
 
 Pulling guard is a strategic defensive maneuver that transitions from standing to a guard position, prioritizing ground control over takedown exchanges. This technique allows practitioners to bypass the standing phase and immediately establish their preferred guard system, particularly valuable when facing opponents with superior wrestling or judo backgrounds. The guard pull represents a fundamental shift in engagement strategy, transforming a potentially disadvantageous standing exchange into a controlled ground scenario where technical guard players can implement their systematic attacks. Proper execution requires precise timing, grip control, and body mechanics to ensure safe descent while maintaining offensive positioning. The technique has become increasingly sophisticated in modern competition, with variations designed to establish specific guard types like De La Riva, Spider Guard, or Butterfly Guard directly from the standing position.
 

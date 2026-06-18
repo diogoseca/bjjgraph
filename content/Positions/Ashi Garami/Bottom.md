@@ -21,37 +21,37 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 70% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 65% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Ashi Transition",
-      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 5% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Ashi Garami",
-      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 2% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry",
-      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Ashi Garami",
-      "text": "From this position, attempt Toe Hold from Ashi Garami. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Ashi Garami. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -33,10 +33,32 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
 }
 </script>
 
-> **SAFETY**: Buggy Choke from Half Guard targets the Carotid arteries and neck compression. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Buggy Choke from Half Guard",
+  "description": "The Buggy Choke from Half Guard is a bottom-position blood choke in which the attacker traps the opponent's own arm against their neck and uses shoulder and core compression to seal the carotid arteries from underneath.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Buggy Choke from Half Guard is a bottom-position blood choke in which the attacker traps the opponent's own arm against their neck and uses shoulder and core compression to seal the carotid arteries from underneath.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and neck compression</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Buggy Choke from Half Guard targets the Carotid arteries and neck compression. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,57 +69,9 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
 
 <section id="overview" class="content-section">
 
-The Buggy Choke is a devastating compression choke originating from half guard bottom positions, particularly effective when the opponent attempts to flatten you out or consolidate side control. This submission creates a unique angle of attack by combining upper body pressure with leg positioning to trap the opponent's head and arm, cutting off blood flow to the carotid arteries. The technique gained prominence in modern BJJ as a highly effective counter-attack from defensive positions, allowing smaller practitioners to finish larger opponents through precise mechanics rather than brute strength. What makes the Buggy Choke particularly dangerous is its deceptive setup—opponents often don't recognize the threat until the choke is deeply locked, making escape extremely difficult. The submission can be finished from various half guard configurations and transitions seamlessly into other attacks when defended properly.
+Modern no-gi competition transformed bottom half guard from a survival position into a genuine finishing platform, and the Buggy Choke sits at the center of that shift. It is particularly effective when the opponent attempts to flatten you out or consolidate side control, because their forward commitment feeds the exact angle the choke requires. The submission combines upper body pressure with leg positioning to trap the opponent's head and arm, cutting off blood flow to the carotid arteries, and it allows smaller practitioners to finish larger opponents through precise mechanics rather than brute strength. What makes the Buggy Choke particularly dangerous is its deceptive setup—opponents often don't recognize the threat until the choke is deeply locked, making escape extremely difficult. It can be finished from various half guard configurations and transitions seamlessly into other attacks when defended properly.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and neck compression
-**Starting Position**: [[Positions/Half Guard]]
-**From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | High | Immediate recovery if released promptly, potential for prolonged symptoms if held past unconsciousness |
-| Neck strain or cervical spine stress from incorrect angle | Medium | 3-7 days for minor strain, up to 2-4 weeks for moderate injury |
-| Shoulder compression injury from arm trap | Medium | 1-2 weeks for minor strain |
-| Jaw dislocation from improper chin positioning | High | 4-8 weeks with medical intervention |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to full pressure, allow partner to feel compression building
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal distress)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat or opponent
-- Any hand slapping motion
-- Loss of resistance or going limp
-
-
-**Release Protocol**:
-1. Immediately release head pressure and remove choking arm
-2. Release leg entanglement and create space
-3. Move completely away from opponent's neck area
-4. Check partner's consciousness and breathing
-5. If partner lost consciousness, place in recovery position and alert instructor immediately
-
-
-**Training Restrictions**:
-- Never apply full pressure during initial drilling phases
-- Never hold the choke past the tap signal
-- Never use competition speed in training until advanced proficiency
-- Always ensure partner has clear tap access with at least one free hand
-- Never practice on beginners until they understand proper defense and tap protocol
-- Avoid finishing on partners with neck or spine injuries
-
+**Starting Position**: [[Positions/Half Guard]] · **From**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -270,10 +244,9 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Positions/Half Guard/Electric Chair]]
 - [[Transitions/Anaconda Choke]]
 - [[Transitions/Darce Choke]]
@@ -282,32 +255,55 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 - [[Submissions/Kimura]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Arm in Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Transitions/Old School Sweep]] - Alternative attack from same half guard position when choke is defended
 - [[Positions/Half Guard/Deep Half Guard]] - Recovery position when Buggy Choke setup is defended
-- [[Positions/Half Guard/Electric Chair]] - Primary follow-up submission when opponent defends the Buggy Choke
 - [[Positions/Crab Ride]] - Position that can develop from successful Buggy Choke angle creation
 - [[Positions/Half Guard/Lockdown]] - Complementary leg entanglement that enhances Buggy Choke control and posture breaking
 - [[Transitions/Half Guard Pass]] - What opponent is attempting when Buggy Choke becomes available
 - [[Positions/Half Guard]] - Primary starting position and positional context for the Buggy Choke system
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Buggy Choke from Half Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | High | Immediate recovery if released promptly, potential for prolonged symptoms if held past unconsciousness |
+| Neck strain or cervical spine stress from incorrect angle | Medium | 3-7 days for minor strain, up to 2-4 weeks for moderate injury |
+| Shoulder compression injury from arm trap | Medium | 1-2 weeks for minor strain |
+| Jaw dislocation from improper chin positioning | High | 4-8 weeks with medical intervention |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to full pressure, allow partner to feel compression building
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal distress)
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat or opponent
+- Any hand slapping motion
+- Loss of resistance or going limp
+
+
+**Release Protocol**:
+1. Immediately release head pressure and remove choking arm
+2. Release leg entanglement and create space
+3. Move completely away from opponent's neck area
+4. Check partner's consciousness and breathing
+5. If partner lost consciousness, place in recovery position and alert instructor immediately
+
+
+**Training Restrictions**:
+- Never apply full pressure during initial drilling phases
+- Never hold the choke past the tap signal
+- Never use competition speed in training until advanced proficiency
+- Always ensure partner has clear tap access with at least one free hand
+- Never practice on beginners until they understand proper defense and tap protocol
+- Avoid finishing on partners with neck or spine injuries
+
 
 </section>
 

@@ -34,6 +34,18 @@ description: "Master the leg drag counter to half guard escape. Step-by-step def
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag Counter to Half Guard",
+  "description": "The Leg Drag Counter to Half Guard is a bottom-player escape from leg drag control: you frame, time your hip escape to the passer's weight shifts, free the trapped knee, and thread your outside leg to recapture half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the leg drag counter to half guard escape. Step-by-step def
 </div>
 
 <section id="overview" class="content-section">
+
+**The Leg Drag Counter to Half Guard is a bottom-player escape from leg drag control: you frame, time your hip escape to the passer's weight shifts, free the trapped knee, and thread your outside leg to recapture half guard.**
 
 The Leg Drag Counter to Half Guard is an essential defensive technique that allows the bottom player to recover a fighting position from one of the most compromised guard passing scenarios in modern BJJ. When caught in leg drag control, your options are limited—your crossed leg restricts hip mobility, your back is threatened, and traditional guard retention fails. This counter specifically targets the opponent's leg control to recapture half guard, transforming a defensive crisis into a workable position.
 

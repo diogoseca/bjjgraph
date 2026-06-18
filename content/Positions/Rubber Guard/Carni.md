@@ -34,6 +34,18 @@ description: "Master Carni position in BJJ. Advanced leg entanglement with syste
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Carni",
+  "description": "Carni is an advanced no-gi leg entanglement where you trap one of the opponent's legs from the inside while threading your top leg over their hip, forcing a dilemma between heel-hook defense and back exposure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Carni position in BJJ. Advanced leg entanglement with syste
 
 <section id="overview" class="content-section">
 
-The Carni position is an advanced leg entanglement control position that emerged from modern no-gi grappling, particularly popularized by Australian grapplers like Lachlan Giles and adopted by Craig Jones and the B-Team. Named after the "carnivore" concept of aggressively attacking the legs, this position represents a transitional control state between standard ashi garami variants and more dominant positions like the saddle or back control. The Carni is characterized by controlling one of the opponent's legs while maintaining inside positioning with your own legs, creating immediate threats of heel hooks, transitions to the saddle, or unexpected paths to the back.
+**Carni is an advanced no-gi leg entanglement where you trap one of the opponent's legs from the inside while threading your top leg over their hip, forcing a dilemma between heel-hook defense and back exposure.**
+
+Emerging from modern no-gi grappling, the Carni was popularized by Australian grapplers like Lachlan Giles and adopted by Craig Jones and the B-Team. Named after the "carnivore" concept of aggressively attacking the legs, it functions as a transitional control state between standard ashi garami variants and more dominant positions like the saddle or back control. The Carni is characterized by controlling one of the opponent's legs while maintaining inside positioning with your own legs, creating immediate threats of heel hooks, transitions to the saddle, or unexpected paths to the back.
 
 What distinguishes the Carni from other leg entanglement positions is its versatility and the high-percentage nature of its attack paths. Unlike static leg lock positions, the Carni emphasizes dynamic control and transition, forcing opponents into defensive reactions that open up multiple submission and positional advancement opportunities. The position is particularly effective in no-gi competition where leg attacks are legal, and it has become a cornerstone of modern leg lock systems.
 
@@ -125,23 +139,25 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Heel Hook from Carni/Attacker|Heel Hook from Carni]]** (12% of attempts)
+- **[[Heel Hook from Carni/Attacker|Heel Hook from Carni]]** (11% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (17% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (15% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (11% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (10% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (12% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (11% of attempts)
 
-- **[[Calf Slicer from Carni/Attacker|Calf Slicer from Carni]]** (11% of attempts)
+- **[[Calf Slicer from Carni/Attacker|Calf Slicer from Carni]]** (10% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (12% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (11% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (11% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (10% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (9% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (8% of attempts)
 
-- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (5% of attempts)
+- **[[Transitions/Carni to Gogoplata Setup/Attacker|Carni to Gogoplata Setup]]** (4% of attempts)
+
+- **[[Kneebar from Carni/Attacker|Kneebar from Carni]]** (10% of attempts)
 
 
 ### Common Mistakes

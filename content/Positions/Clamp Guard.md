@@ -34,6 +34,18 @@ description: "Master Clamp Guard in BJJ. Complete guide to trapping opponent's a
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Clamp Guard",
+  "description": "Clamp Guard is a no-gi-friendly open guard that pins one of the opponent's arms between the legs via shin-on-bicep pressure, isolating the limb to chain armbars, triangles, and omoplatas while threatening sweeps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Clamp Guard in BJJ. Complete guide to trapping opponent's a
 </div>
 
 <section id="overview" class="content-section">
+
+**Clamp Guard is a no-gi-friendly open guard that pins one of the opponent's arms between the legs via shin-on-bicep pressure, isolating the limb to chain armbars, triangles, and omoplatas while threatening sweeps.**
 
 Clamp Guard is an open guard variation where the guard player traps one of the opponent's arms between their legs, typically positioning one shin across the opponent's bicep while the other leg clamps from the opposite side. This creates a powerful controlling mechanism that isolates the arm and generates direct submission pathways to armbars, triangles, and omoplatas while simultaneously threatening sweeps.
 

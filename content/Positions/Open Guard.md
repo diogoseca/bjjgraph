@@ -34,6 +34,18 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Open Guard",
+  "description": "Open Guard is any bottom guard where the legs stay unlocked and active, using feet, shins, and knees as frames to manage distance, create angles, and launch sweeps or submissions while denying the pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Open Guard in BJJ. Strategic guide covering distance manage
 </div>
 
 <section id="overview" class="content-section">
+
+**Open Guard is any bottom guard where the legs stay unlocked and active, using feet, shins, and knees as frames to manage distance, create angles, and launch sweeps or submissions while denying the pass.**
 
 Open Guard is the fundamental bottom position in BJJ where you use your legs positioned between you and your opponent to create distance, manage angles, and prevent them from establishing dominant control. Unlike closed guard where your legs lock around the opponent's back, open guard maintains an open configuration that allows for greater mobility and diverse attacking options at the cost of requiring more active management. This position serves as the gateway to all modern guard systems and is essential for contemporary BJJ competition.
 
@@ -91,7 +105,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium to Long |
 
-**Key Difference:** Dynamic leg positioning for mobility and control
+**Key Difference:** Open legs trade security for mobility and attacks
 
 
 
@@ -125,7 +139,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (25% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (23% of attempts)
 
 - **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (4% of attempts)
 
@@ -143,23 +157,27 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 - **[[Transitions/Scissor Sweep from Open Guard/Attacker|Scissor Sweep from Open Guard]]** (4% of attempts)
 
-- **[[Transitions/Open Guard to Deep Half/Attacker|Open Guard to Deep Half]]** (5% of attempts)
+- **[[Transitions/Open Guard to Deep Half/Attacker|Open Guard to Deep Half]]** (4% of attempts)
 
-- **[[Transitions/Open Guard to Collar Sleeve Guard/Attacker|Open Guard to Collar Sleeve Guard]]** (10% of attempts)
+- **[[Transitions/Open Guard to Collar Sleeve Guard/Attacker|Open Guard to Collar Sleeve Guard]]** (9% of attempts)
 
-- **[[Transitions/Open Guard to De La Riva/Attacker|Open Guard to De La Riva]]** (12% of attempts)
+- **[[Transitions/Open Guard to De La Riva/Attacker|Open Guard to De La Riva]]** (11% of attempts)
 
 - **[[Transitions/Open Guard to Double Sleeve Guard/Attacker|Open Guard to Double Sleeve Guard]]** (4% of attempts)
 
-- **[[Transitions/Open Guard to Feet on Hips Guard/Attacker|Open Guard to Feet on Hips Guard]]** (7% of attempts)
+- **[[Transitions/Open Guard to Feet on Hips Guard/Attacker|Open Guard to Feet on Hips Guard]]** (6% of attempts)
 
 - **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (4% of attempts)
 
 - **[[Transitions/Recovery from Failed Sweep/Attacker|Recovery from Failed Sweep]]** (3% of attempts)
 
-- **[[Transitions/Technical Stand Up from Open Guard/Attacker|Technical Stand Up from Open Guard]]** (6% of attempts)
+- **[[Transitions/Technical Stand Up from Open Guard/Attacker|Technical Stand Up from Open Guard]]** (5% of attempts)
 
-- **[[Transitions/Transition to Clamp Guard/Attacker|Transition to Clamp Guard]]** (1% of attempts)
+- **[[Transitions/Transition to Clamp Guard/Attacker|Transition to Clamp Guard]]** (2% of attempts)
+
+- **[[Belly Down Armbar from Open Guard/Attacker|Belly Down Armbar from Open Guard]]** (2% of attempts)
+
+- **[[Triangle Choke from Open Guard/Attacker|Triangle Choke from Open Guard]]** (4% of attempts)
 
 
 ### Common Mistakes

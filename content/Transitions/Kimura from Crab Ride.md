@@ -34,6 +34,18 @@ description: "Master the Kimura from Crab Ride in BJJ. Complete guide to isolati
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Crab Ride",
+  "description": "The Kimura from Crab Ride is a turtle-attack transition where the top player isolates the opponent's exposed far arm with a figure-four grip and peels it from the body to secure Kimura Trap control and threaten the shoulder lock.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Kimura from Crab Ride in BJJ. Complete guide to isolati
 </div>
 
 <section id="overview" class="content-section">
+
+**The Kimura from Crab Ride is a turtle-attack transition where the top player isolates the opponent's exposed far arm with a figure-four grip and peels it from the body to secure Kimura Trap control and threaten the shoulder lock.**
 
 The Kimura from Crab Ride exploits one of the most common defensive reactions in turtle: posting the far arm. When an opponent extends or posts their arm to maintain base against crab ride pressure, they create the opening for a figure-four grip attack on the shoulder. This transition represents a powerful secondary threat from an already dominant position, punishing opponents who refuse to concede the back take by offering their arm instead.
 

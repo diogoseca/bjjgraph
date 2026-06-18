@@ -10,6 +10,7 @@
     "guard-recovery",
     "side-control"
   ],
+  "summary": "Triangle Clear to Side is a defensive escape from body triangle back control in which the trapped player attacks the figure-four lock at the ankle, then rotates the hips laterally to extract and establish side control.",
   "from_position": "Body Triangle/Top",
   "outcomes": [
     {
@@ -56,8 +57,8 @@
       "relationship": "Primary threat - submission you must defend during the clearing process"
     },
     {
-      "name": "Half Guard Recovery",
-      "relationship": "Follow-up - alternative guard recovery if side control is not achieved"
+      "name": "Frame and Shrimp to Guard",
+      "relationship": "Related technique - framing principles applied after clearing the triangle"
     },
     {
       "name": "Side Control Escape",
@@ -68,8 +69,8 @@
       "relationship": "Opposing transition - the technique used to establish the position you are escaping"
     },
     {
-      "name": "Frame and Shrimp to Guard",
-      "relationship": "Related technique - framing principles applied after clearing the triangle"
+      "name": "Elbow Escape to Remove Hooks",
+      "relationship": "Related back escape - alternative hip-based clearing option from back control"
     }
   ],
   "attacker": {
@@ -395,7 +396,7 @@
       "when_to_use": "When opponent has their hips elevated off the mat rather than posted beside you, making them vulnerable to being rolled, particularly effective against smaller opponents or those with poor base"
     }
   ],
-  "position_integration": "Triangle Clear to Side is the primary lateral escape from body triangle back control, sitting within the broader back escape system as a specialized response to the figure-four leg lock that standard hook-clearing techniques cannot address. It integrates directly with the body triangle defense hierarchy: first protect your neck, then manage breathing, then attack the lock. Successful execution feeds into the side control recovery chain, connecting to guard replacement, half guard recovery, or establishing top side control. It pairs with Hip Escape to Turtle and Back Escape Series as parallel escape options from the same position, giving the defender a branching decision tree based on opponent reactions. Within the broader positional map, this technique represents the critical pathway from one of BJJ's most dominant control positions back to a contested neutral or advantageous position, making it essential knowledge for anyone facing back attack specialists.",
+  "position_integration": "Triangle Clear to Side is the primary lateral escape from body triangle back control, sitting within the broader back escape system as a specialized response to the figure-four leg lock that standard hook-clearing techniques cannot address. It integrates directly with the body triangle defense hierarchy: first protect your neck, then manage breathing, then attack the lock. Successful execution feeds into the side control recovery chain, connecting to guard replacement, half guard recovery, or establishing top side control. It pairs with Hip Escape to Turtle and Back Door Escape as parallel escape options from the same position, giving the defender a branching decision tree based on opponent reactions. Within the broader positional map, this technique represents the critical pathway from one of BJJ's most dominant control positions back to a contested neutral or advantageous position, making it essential knowledge for anyone facing back attack specialists.",
   "conditions": [
     "Opponent has body triangle locked in figure-four configuration around your torso",
     "You have established basic neck defense with chin tucked and at least one hand protecting throat",

@@ -33,10 +33,32 @@ description: "Master the omoplata from armbar control in BJJ. Complete guide cov
 }
 </script>
 
-> **SAFETY**: Omoplata from Armbar Control targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata from Armbar Control",
+  "description": "The Omoplata from Armbar Control is a chain shoulder lock where the attacker exploits the opponent's bent-arm armbar defense by swinging a leg over their head to trap and internally rotate the shoulder for the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Omoplata from Armbar Control is a chain shoulder lock where the attacker exploits the opponent's bent-arm armbar defense by swinging a leg over their head to trap and internally rotate the shoulder for the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (rotator cuff, capsule, AC joint)</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Omoplata from Armbar Control targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,55 +75,7 @@ The transition hinges on timing and leg dexterity. The attacker must recognize t
 
 What makes this chain particularly dangerous in competition is the binary dilemma it creates. Keeping the arm straight invites the armbar finish; bending the arm opens the omoplata. Skilled practitioners who master both attacks from armbar control force opponents into a lose-lose decision matrix, dramatically increasing overall finishing rates from this position. The technique rewards practitioners who develop sensitivity to their opponent's defensive reactions and can fluidly shift between attack vectors.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (rotator cuff, capsule, AC joint)
-**Starting Position**: [[Positions/Armbar Control]]
-**From Position**: [[Positions/Armbar Control]] (Top)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear or strain | High | 6-12 weeks for minor tears, 3-6 months for major tears |
-| AC joint separation | Medium | 4-8 weeks |
-| Shoulder capsule damage | High | 8-16 weeks |
-| Labrum tear | CRITICAL | 6-12 months with surgery |
-
-
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
-
-**Tap Signals**:
-- Verbal tap (any vocal signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress signal or sound
-- Roll forward escape attempt (release immediately)
-
-
-**Release Protocol**:
-1. Immediately stop all forward pressure and rotation
-2. Release leg pinch on shoulder by opening knees
-3. Unwind hip position to neutral
-4. Allow opponent to extract arm slowly at their own pace
-5. Check for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the shoulder rotation
-- Never apply competition speed in training
-- Always allow opponent access to tap
-- Stop immediately if opponent rolls forward during escape attempt
-- Never apply full finishing pressure until advanced belt level
-- Always control the rate of shoulder rotation throughout the finish
-
+**Starting Position**: [[Positions/Armbar Control]] · **From**: [[Positions/Armbar Control]] (Top)
 
 </section>
 
@@ -264,23 +238,14 @@ What makes this chain particularly dangerous in competition is the binary dilemm
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Baratoplata]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Armbar Control]] - Starting position where armbar-to-omoplata chain originates
 - [[Positions/Omoplata Control]] - Control position established during transition to omoplata finish
 - [[Positions/Closed Guard]] - Common guard position from which armbar-to-omoplata chains originate
@@ -288,16 +253,48 @@ What makes this chain particularly dangerous in competition is the binary dilemm
 - [[Positions/Kimura Trap]] - Alternative arm attack position when omoplata transition is defended
 - [[Positions/Mount]] - Frequent starting position for reaching armbar control
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Omoplata from Armbar Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear or strain | High | 6-12 weeks for minor tears, 3-6 months for major tears |
+| AC joint separation | Medium | 4-8 weeks |
+| Shoulder capsule damage | High | 8-16 weeks |
+| Labrum tear | CRITICAL | 6-12 months with surgery |
+
+
+**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
+
+**Tap Signals**:
+- Verbal tap (any vocal signal)
+- Physical hand tap on opponent or mat
+- Physical foot tap on opponent or mat
+- Any distress signal or sound
+- Roll forward escape attempt (release immediately)
+
+
+**Release Protocol**:
+1. Immediately stop all forward pressure and rotation
+2. Release leg pinch on shoulder by opening knees
+3. Unwind hip position to neutral
+4. Allow opponent to extract arm slowly at their own pace
+5. Check for injury before continuing
+
+
+**Training Restrictions**:
+- Never spike or jerk the shoulder rotation
+- Never apply competition speed in training
+- Always allow opponent access to tap
+- Stop immediately if opponent rolls forward during escape attempt
+- Never apply full finishing pressure until advanced belt level
+- Always control the rate of shoulder rotation throughout the finish
+
 
 </section>
 

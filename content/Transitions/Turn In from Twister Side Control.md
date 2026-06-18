@@ -34,6 +34,18 @@ description: "Master the turn-in escape from twister side control in BJJ. Learn 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turn In from Twister Side Control",
+  "description": "Turn In from Twister Side Control is a defensive escape where the bottom player rotates inward toward the opponent rather than away, using frames and incremental hip rotation to neutralize spinal torque and recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the turn-in escape from twister side control in BJJ. Learn 
 </div>
 
 <section id="overview" class="content-section">
+
+**Turn In from Twister Side Control is a defensive escape where the bottom player rotates inward toward the opponent rather than away, using frames and incremental hip rotation to neutralize spinal torque and recover half guard.**
 
 The turn-in escape from twister side control represents a critical defensive technique for practitioners caught in one of the most submission-dangerous lateral control positions in modern no-gi grappling. Unlike turning away from the opponent, which exposes the back and deepens the spinal torque required for the twister finish, the turn-in directs the bottom player's rotation toward the controlling player. This inward rotation uses frames and hip movement to systematically dismantle the control structure and create the conditions necessary for half guard recovery. The technique directly counters the primary submission mechanics of twister side control by neutralizing rotational torque on the spine.
 

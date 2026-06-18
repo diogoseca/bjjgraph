@@ -252,11 +252,11 @@ At the advanced level, half guard defense becomes a series of interconnected off
 
 ### → [[Positions/Half Guard]]
 
-Maintain the leg entanglement by keeping your legs active and your hips mobile. When the passer attempts to extract, follow their hip movement with yours, re-tighten your leg grip, and reinsert frames or knee shield to reset the positional exchange. The goal is to deny the pass completion and return to an active half guard where you have offensive options.
+Maintain the leg entanglement by keeping your legs active and your hips mobile. When the passer attempts to extract, follow their hip movement with yours, re-tighten your leg grip, and reinsert frames or knee shield to reset the positional exchange. The goal is to deny the pass completion and stall the passer in an active Half Guard Top where you retain offensive options below.
 
 ### → [[Positions/Half Guard]]
 
-Execute a sweep from half guard bottom using the underhook as your primary weapon. The old school sweep, dogfight to single leg, or deep half sweep sequences all reverse the position and put you on top. Time your sweep attempt for moments when the passer overcommits to their crossface or leg extraction, shifting their weight forward and making them vulnerable to being rolled.
+Execute a sweep from half guard bottom using the underhook as your primary weapon. The old school sweep, dogfight to single leg, or deep half sweep sequences all reverse the position. Time your sweep attempt for moments when the passer overcommits to their crossface or leg extraction, shifting their weight forward and making them vulnerable to being rolled into bottom-driven reversals.
 
 
 

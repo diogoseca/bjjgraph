@@ -34,6 +34,18 @@ description: "Master Lockdown Recovery from Modified Mount bottom. Step-by-step 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown Recovery",
+  "description": "Lockdown Recovery is a bottom escape from Modified Mount where you capture the opponent's posted leg in a figure-four lockdown, converting the mounted position into an attacking 10th Planet half guard with sweep and Electric Chair threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Lockdown Recovery from Modified Mount bottom. Step-by-step 
 </div>
 
 <section id="overview" class="content-section">
+
+**Lockdown Recovery is a bottom escape from Modified Mount where you capture the opponent's posted leg in a figure-four lockdown, converting the mounted position into an attacking 10th Planet half guard with sweep and Electric Chair threats.**
 
 Lockdown Recovery is a specialized escape from Modified Mount that exploits the position's asymmetric structure to capture the opponent's posted leg and establish the powerful Lockdown half guard control. When mounted in Modified Mount, the opponent's posted leg creates both stability for them and an opportunity for the bottom practitioner - that extended leg is vulnerable to being captured if proper timing and technique are applied. The escape centers on creating enough hip space through frames and movement to shoot your legs around the posted leg and establish the figure-four lockdown configuration before the opponent can retract. This technique represents a fundamental principle in BJJ defensive strategy: rather than fighting directly against the mount, you transition to a position where your leg control creates immediate problems for the top player. Once Lockdown is established, the dynamic shifts dramatically - the opponent cannot effectively pass or mount because their leg mobility is completely compromised. The technique requires precise timing, as attempting the leg capture too early leaves you vulnerable to submission attempts, while waiting too long allows the opponent to consolidate mount or transition to a more dominant position. Advanced practitioners use this recovery as part of a broader escape system, threatening the Lockdown entry to create reactions that open other escape paths like deep half guard or standard hip escapes.
 

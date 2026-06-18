@@ -34,6 +34,18 @@ description: "Master the Butterfly Hook Sweep in BJJ. Complete guide covering ex
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Hook Sweep",
+  "description": "The Butterfly Hook Sweep is a high-percentage butterfly guard reversal where the bottom player loads the opponent's weight onto a deep instep hook, then elevates and off-balances them with synchronized upper-body grips to tip them over into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Butterfly Hook Sweep in BJJ. Complete guide covering ex
 
 <section id="overview" class="content-section">
 
-The Butterfly Hook Sweep is one of the most fundamental and high-percentage sweeps in Brazilian Jiu-Jitsu, executed from butterfly hook control by using the instep hook to elevate the opponent while simultaneously off-balancing them with upper body grips. The sweep converts the opponent's forward pressure into lateral momentum, redirecting their weight over the hooking leg while coordinated grip pulls prevent them from posting to recover base. The technique rewards precise timing and leverage over raw strength, making it effective across weight classes.
+**The Butterfly Hook Sweep is a high-percentage butterfly guard reversal where the bottom player loads the opponent's weight onto a deep instep hook, then elevates and off-balances them with synchronized upper-body grips to tip them over into mount.**
+
+Few techniques define the butterfly guard as completely as this sweep, which has anchored elite competitors' games for decades precisely because it rewards timing and leverage over raw strength and remains effective across every weight class. The reversal converts the opponent's forward pressure into lateral momentum, redirecting their weight over the hooking leg while coordinated grip pulls prevent them from posting to recover base.
 
 What makes this sweep particularly reliable is its mechanical simplicity combined with strategic depth. The bottom player creates an angle by scooting their hips laterally, loads the opponent's weight onto the active hook, then executes a coordinated pull-and-lift motion that tips the opponent over to their back. The sweep finishes naturally in mount position, making it one of the highest-reward techniques available from butterfly guard.
 

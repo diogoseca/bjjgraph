@@ -34,6 +34,18 @@ description: "Master the Elbow Escape from Mount in BJJ. Systematic hip escape t
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Elbow Escape from Mount",
+  "description": "The Elbow Escape from Mount is the highest-percentage fundamental mount escape, where the bottom player uses forearm frames and chained hip escapes (shrimps) to create space, insert a knee, and recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Elbow Escape from Mount in BJJ. Systematic hip escape t
 
 <section id="overview" class="content-section">
 
-The Elbow Escape from Mount, also called the hip escape or shrimp escape, is the highest-percentage fundamental technique for recovering guard from bottom mount. Rather than attempting to explosively reverse the position like the upa (trap-and-roll), the elbow escape uses incremental hip movement, precise framing, and systematic space creation to insert the knee and recover to half guard. This escape embodies the core defensive principle that technique and timing overcome strength and gravity.
+**The Elbow Escape from Mount is the highest-percentage fundamental mount escape, where the bottom player uses forearm frames and chained hip escapes (shrimps) to create space, insert a knee, and recover half guard.**
+
+Also known as the hip escape or shrimp escape, this is the foundational answer to bottom mount, the most dangerous defensive position in the positional hierarchy. Rather than attempting to explosively reverse the position like the upa (trap-and-roll), the elbow escape uses incremental hip movement, precise framing, and systematic space creation to insert the knee and recover to half guard. This escape embodies the core defensive principle that technique and timing overcome strength and gravity.
 
 The escape operates on a simple mechanical principle: create a wedge of space between your hips and the opponent's body through lateral hip movement, then fill that space with your knee before the top player can close it. The critical detail separating effective elbow escapes from failed attempts is the use of the elbow and forearm as a frame against the opponent's hip or thigh, preventing them from following your hip movement and closing the space you create. Multiple small shrimps chained together are far more effective than a single explosive movement, as each increment of space is preserved by frame adjustment before the next hip escape.
 

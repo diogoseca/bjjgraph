@@ -13,7 +13,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Flow Rolling represents the cooperative movement practice methodology where partners engage in continuous technical exchange at reduced intensity, emphasizing movement quality, positional transitions, and technical variation exploration rather than competitive outcomes or positional dominance. Unlike competitive sparring focused on winning exchanges, flow rolling is a comprehensive training framework that prioritizes movement education, technical creativity, and injury-free skill development through controlled resistance and mutual cooperation. This concept encompasses the tempo calibration, resistance modulation, and cooperative principles that transform combative sparring into collaborative technical exploration while maintaining realistic movement patterns. Flow rolling serves as both a technical development tool that enables high-volume movement repetition without injury risk, and a creative laboratory where innovative solutions and technical variations can be explored without competitive pressure. The ability to engage effectively in flow rolling often determines training longevity and technical breadth, making it one of the most valuable injury-prevention and skill-expansion methodologies in BJJ training architecture.",
+  "summary": "Flow Rolling is a cooperative training method where partners spar continuously at roughly 30-50% intensity, prioritizing smooth movement, transitions, and technical exploration over winning exchanges, positional dominance, or submissions.",
+  "overview": "As BJJ practitioners accumulate mat hours, the inability to train at high intensity every session becomes the primary limiter on technical growth and longevity, and flow rolling emerged as the answer to that constraint. Where competitive sparring filters every exchange through the question of who wins, flow rolling removes that filter so both partners can prioritize movement education, technical creativity, and injury-free repetition through controlled resistance and mutual cooperation. It encompasses the tempo calibration, resistance modulation, and cooperative principles that transform combative sparring into collaborative technical exploration while preserving realistic movement patterns. Functionally, flow rolling serves two roles at once: a technical development tool enabling high-volume movement repetition without injury risk, and a creative laboratory where innovative solutions and technical variations can be tested free of competitive pressure. The reduced intensity is not a watering-down of the art but a deliberate reallocation of attention away from outcome and toward mechanics, timing, and transition quality. The ability to flow roll effectively often determines training longevity and technical breadth, making it one of the most valuable injury-prevention and skill-expansion methodologies in BJJ. Practitioners who master cooperative intensity calibration can train more frequently, explore more positions, and sustain a longer competitive and recreational career than those who treat every round as a contest.",
   "key_principles": [
     "Maintain reduced intensity (30-50% of maximum effort) throughout engagement to enable continuous movement without fatigue or injury",
     "Cooperate with partner's technical attempts rather than maximally preventing their execution",
@@ -361,6 +362,40 @@
       "name": "Mental Game Framework",
       "content_type": "System",
       "relationship": "Psychological framework supporting ego management and cooperative mindset required for effective flow rolling"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is flow rolling and how does it differ from competitive sparring?",
+      "answer": "Flow rolling is continuous cooperative sparring at roughly 30-50% intensity that prioritizes smooth movement, transitions, and technical exploration, whereas competitive sparring filters every exchange through winning, applying maximum resistance to dominate position and finish submissions."
+    },
+    {
+      "question": "What intensity range defines effective flow rolling?",
+      "answer": "Roughly 30-50% of maximum effort: low enough to sustain continuous movement without fatigue or injury, yet structured enough that partners keep realistic base and posture rather than total compliance."
+    },
+    {
+      "question": "How should you provide resistance to a partner during flow rolling?",
+      "answer": "Offer realistic structure and base appropriate to the position, then yield once the partner executes a technique correctly, simulating genuine defensive postures without preventing successful completion of the movement."
+    },
+    {
+      "question": "What is the most common way flow rolling breaks down, and how do you fix it?",
+      "answer": "Intensity gradually escalates until the round becomes competitive sparring; correct it by setting a clear intensity ceiling beforehand and consciously dropping back to the cooperative baseline whenever ego or speed creeps in."
+    },
+    {
+      "question": "Why is position offering a core skill in flow rolling?",
+      "answer": "Deliberately yielding advantageous positions or grips creates continuous transitions and gives both partners reps they would never reach if one person simply maintained dominance, turning the round into mutual technical development."
+    },
+    {
+      "question": "How does flow rolling support training longevity and recovery?",
+      "answer": "Used at 30-40% on recovery days between hard sessions, it preserves technical sharpness and movement quality while minimizing accumulated fatigue and injury risk, letting practitioners train more frequently over a longer career."
+    },
+    {
+      "question": "What is the danger of overly compliant resistance in flow rolling?",
+      "answer": "Excessive compliance builds false confidence in techniques that collapse under real resistance, producing flow-only sequences that fail to transfer to competition; resistance must stay realistic even while yielding on success."
+    },
+    {
+      "question": "How does flow rolling function as a technical laboratory?",
+      "answer": "The reduced-consequence environment lets practitioners attempt unfamiliar techniques, unorthodox positions, and creative solutions without fear of failure, accelerating skill expansion and problem-solving that competitive pressure normally suppresses."
     }
   ]
 }

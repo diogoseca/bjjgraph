@@ -1,5 +1,6 @@
 {
   "name": "Kimura from Turtle",
+  "summary": "The Kimura from Turtle is a figure-four shoulder lock applied from top turtle control that isolates the opponent's exposed arm to torque the shoulder for a tap, while doubling as a control grip to break the turtle, take the back, or roll to mount.",
   "description": "Master Kimura from Turtle in BJJ. Complete guide with safety protocols, setup, execution steps. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
   "tags": [
     "bjj",
@@ -16,7 +17,7 @@
   "starting_position": "Turtle",
   "from_position": "Turtle/Top",
   "success_rate": 62,
-  "overview": "The Kimura from Turtle is a powerful shoulder lock submission that capitalizes on the opponent's defensive turtle position. When executed properly, this technique isolates the arm through a figure-four grip while controlling the opponent's posture, creating significant torque on the shoulder joint. The turtle position provides unique mechanical advantages for the Kimura, as the opponent's weight distribution and defensive posture naturally expose the arms. This submission can be approached from various angles including traditional top turtle control, front headlock positions, or transitional scrambles. The Kimura from turtle serves multiple strategic purposes: it can be used as a direct finish, as a powerful control position to break down the turtle and transition to back control, or as a means to roll the opponent and establish dominant top positions like mount or side control. The technique's effectiveness stems from the combination of grip control, hip pressure, and proper angle creation that prevents the opponent from defending effectively while maintaining the structural integrity needed to apply safe, controlled pressure to the shoulder joint.",
+  "overview": "Capitalizing on the natural arm exposure of the defensive turtle, the Kimura from turtle functions simultaneously as a direct finish, a posture-breaking control, and a vehicle for positional advancement. When executed properly, this technique isolates the arm through a figure-four grip while controlling the opponent's posture, creating significant torque on the shoulder joint. The turtle position provides unique mechanical advantages for the Kimura, as the opponent's weight distribution and defensive posture naturally expose the arms. This submission can be approached from various angles including traditional top turtle control, front headlock positions, or transitional scrambles. The Kimura from turtle serves multiple strategic purposes: it can be used as a direct finish, as a powerful control position to break down the turtle and transition to back control, or as a means to roll the opponent and establish dominant top positions like mount or side control. The technique's effectiveness stems from the combination of grip control, hip pressure, and proper angle creation that prevents the opponent from defending effectively while maintaining the structural integrity needed to apply safe, controlled pressure to the shoulder joint.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -156,7 +157,7 @@
     }
   ],
   "attacker": {
-    "name": "from Turtle Attacker",
+    "name": "Kimura from Turtle Attacker",
     "description": "How to execute Kimura from Turtle in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
     "overview": "The Kimura from Turtle is a powerful shoulder lock submission that capitalizes on the opponent's defensive turtle position. When executed properly, this technique isolates the arm through a figure-four grip while controlling the opponent's posture, creating significant torque on the shoulder joint. The turtle position provides unique mechanical advantages for the Kimura, as the opponent's weight distribution and defensive posture naturally expose the arms. This submission can be approached from various angles including traditional top turtle control, front headlock positions, or transitional scrambles. The Kimura from turtle serves multiple strategic purposes: it can be used as a direct finish, as a powerful control position to break down the turtle and transition to back control, or as a means to roll the opponent and establish dominant top positions like mount or side control. The technique's effectiveness stems from the combination of grip control, hip pressure, and proper angle creation that prevents the opponent from defending effectively while maintaining the structural integrity needed to apply safe, controlled pressure to the shoulder joint.",
     "key_principles": [
@@ -386,7 +387,7 @@
     ]
   },
   "defender": {
-    "name": "from Turtle Defender",
+    "name": "Kimura from Turtle Defender",
     "description": "How to defend against Kimura from Turtle in BJJ. Recognition, escape paths, and defensive strategies.",
     "overview": "Defending the Kimura from turtle requires immediate recognition and decisive action before the attacker can consolidate their figure-four grip and establish chest-to-shoulder control. The turtle position inherently exposes the arms, making Kimura defense a critical skill for anyone who uses turtle as a transitional or recovery position. The defender's primary objective is to prevent the figure-four grip from being established, and if it is established, to deny the attacker the body angle and chest connection needed to generate finishing torque on the shoulder. Unlike defending the Kimura from other positions, turtle defense has the unique challenge that your base is already compromised and you cannot rely on guard retention as a fallback. Instead, the defender must use a combination of arm retraction, grip fighting, rolling mechanics, and positional transitions to either neutralize the attack entirely or convert the situation into a guard recovery. The most dangerous moment is when the attacker secures the figure-four and seals their chest against your shoulder blade, as escape probability drops dramatically once both control elements are in place. Early recognition and prevention are always superior to late-stage escape attempts.",
     "key_principles": [

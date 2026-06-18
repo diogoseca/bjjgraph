@@ -33,10 +33,32 @@ description: "Master the Breadcutter Choke from Kuzure Kesa-Gatame with expert c
 }
 </script>
 
-> **SAFETY**: Breadcutter Choke from Kuzure Kesa-Gatame targets the Carotid arteries. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Breadcutter Choke from Kuzure Kesa-Gatame",
+  "description": "The Breadcutter Choke from Kuzure Kesa-Gatame is a gi collar choke from modified scarf hold where the opponent's trapped arm clears the defensive frame, letting the attacker set a deep far-side collar grip and shear the forearm blade across both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Breadcutter Choke from Kuzure Kesa-Gatame is a gi collar choke from modified scarf hold where the opponent's trapped arm clears the defensive frame, letting the attacker set a deep far-side collar grip and shear the forearm blade across both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Breadcutter Choke from Kuzure Kesa-Gatame targets the Carotid arteries. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,55 +75,7 @@ The mechanics rely on threading the choking hand deep into the far-side collar w
 
 Strategically, this choke functions as the apex of a multi-threat attack chain from Kuzure Kesa-Gatame. When opponents defend americana and kimura threats by keeping their trapped arm bent and tight, the attacker redirects to the collar, attacking the neck rather than the arm. This creates a layered dilemma where arm defense opens neck attacks and vice versa. The breadcutter also punishes opponents who flatten their back to the mat to prevent shoulder locks, as the flat position actually improves the angle for the collar choke. Competition footage consistently shows this finishing opponents who successfully defended arm attacks but failed to address the collar threat.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
-**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate with proper release; prolonged compression can cause serious neurological injury |
-| Tracheal damage from misapplied pressure or sudden jerking | High | 2-6 weeks for minor damage; surgery required for severe cases |
-| Neck strain or cervical spine stress from resisting the choke | Medium | 1-3 weeks |
-| Jaw pressure causing temporomandibular joint irritation | Medium | 2-4 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum squeeze in training, never spike or jerk the collar grip
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any rapid tapping motion with hand or foot
-- Body going limp (automatic release required immediately)
-
-
-**Release Protocol**:
-1. Immediately release collar grip upon any tap signal
-2. Remove forearm pressure and body weight from opponent's neck
-3. Allow opponent to turn to a safe position and recover breathing
-4. Check that opponent is conscious and breathing normally
-5. Give partner adequate time to recover before continuing training
-
-
-**Training Restrictions**:
-- Always apply the choke gradually in training, never at competition speed
-- Never jerk or spike the collar grip into position
-- Ensure partner has clear access to tap with at least one hand
-- Stop immediately at any sign of distress even without a tap
-- Never train this choke on partners with neck, throat, or vascular injuries
-- Beginners must drill under direct instructor supervision
-
+**Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] · **From**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
 
@@ -246,39 +220,59 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Breadcutter Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Americana]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Starting position providing arm isolation and hip pressure for the choke setup
-- [[Submissions/Breadcutter Choke]] - Parent submission family with shared collar grip mechanics
 - [[Positions/Side Control]] - Related position family with alternative breadcutter choke entries
-- [[Submissions/Americana]] - Complementary submission creating arm-or-neck dilemma from same position
-- [[Submissions/Cross Collar Choke]] - Related collar grip choke sharing similar grip depth and finishing pressure
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Breadcutter Choke from Kuzure Kesa-Gatame leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate with proper release; prolonged compression can cause serious neurological injury |
+| Tracheal damage from misapplied pressure or sudden jerking | High | 2-6 weeks for minor damage; surgery required for severe cases |
+| Neck strain or cervical spine stress from resisting the choke | Medium | 1-3 weeks |
+| Jaw pressure causing temporomandibular joint irritation | Medium | 2-4 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum squeeze in training, never spike or jerk the collar grip
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Any rapid tapping motion with hand or foot
+- Body going limp (automatic release required immediately)
+
+
+**Release Protocol**:
+1. Immediately release collar grip upon any tap signal
+2. Remove forearm pressure and body weight from opponent's neck
+3. Allow opponent to turn to a safe position and recover breathing
+4. Check that opponent is conscious and breathing normally
+5. Give partner adequate time to recover before continuing training
+
+
+**Training Restrictions**:
+- Always apply the choke gradually in training, never at competition speed
+- Never jerk or spike the collar grip into position
+- Ensure partner has clear access to tap with at least one hand
+- Stop immediately at any sign of distress even without a tap
+- Never train this choke on partners with neck, throat, or vascular injuries
+- Beginners must drill under direct instructor supervision
+
 
 </section>
 

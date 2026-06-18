@@ -34,6 +34,18 @@ description: "Master the Turn In escape from Reverse Kesa-Gatame. Learn hip mech
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turn In from Reverse Kesa",
+  "description": "Turn In from Reverse Kesa-Gatame is a bottom escape that bridges to unweight the pin, then rotates the hips toward the top player to thread a knee inside and recover half guard instead of shrimping away.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Turn In escape from Reverse Kesa-Gatame. Learn hip mech
 </div>
 
 <section id="overview" class="content-section">
+
+**Turn In from Reverse Kesa-Gatame is a bottom escape that bridges to unweight the pin, then rotates the hips toward the top player to thread a knee inside and recover half guard instead of shrimping away.**
 
 The Turn In from Reverse Kesa-Gatame is a fundamental escape technique where the bottom player rotates their body toward the top player to close distance, nullify chest pressure, and recover half guard. Unlike shrimping away, which can expose the back or allow the top player to follow with mount transitions, turning in exploits the reverse orientation of the pin by moving into the space where the top player has the least structural control. The bottom player bridges to create momentary space, then rotates their hips and torso toward the top player while threading a knee between their bodies to establish half guard.
 

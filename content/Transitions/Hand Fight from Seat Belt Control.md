@@ -34,6 +34,18 @@ description: "Master hand fighting defense from seat belt back control in BJJ. S
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hand Fight from Seat Belt Control",
+  "description": "Hand Fight from Seat Belt Control is the bottom player's foundational back-escape action: disciplined two-on-one grip fighting that strips the opponent's diagonal over-under seat belt grip, downgrading their control and opening pathways to escape toward turtle or back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master hand fighting defense from seat belt back control in BJJ. S
 </div>
 
 <section id="overview" class="content-section">
+
+**Hand Fight from Seat Belt Control is the bottom player's foundational back-escape action: disciplined two-on-one grip fighting that strips the opponent's diagonal over-under seat belt grip, downgrading their control and opening pathways to escape toward turtle or back control.**
 
 Hand fighting from seat belt control represents the most critical defensive micro-battle in the back control escape hierarchy. When an opponent establishes the seat belt grip from back control, they gain biomechanically superior control through opposing diagonal force vectors across your torso. The over-shoulder arm creates downward pressure while the under-armpit arm creates upward pressure, locking your upper body in place. The hand fight is the essential first step in any escape sequence, as attempting hip escapes or hook removal while the seat belt remains intact typically results in the opponent re-establishing tighter control or advancing to choke positions through your compromised defensive posture.
 

@@ -143,6 +143,16 @@ description: "Understand crank mechanics in BJJ. Learn spinal rotation risks, ne
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cranks",
+  "description": "Cranks are submissions that force the spine, neck, or jaw beyond their safe range of motion through rotational, lateral, or compressive force, attacking the vertebral column directly rather than blood vessels or joints.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Understand crank mechanics in BJJ. Learn spinal rotation risks, ne
 
 ## What are Cranks?
 
-Cranks are submissions that force the spine, neck, or jaw beyond their safe range of motion through rotational, lateral, or compressive force. Unlike chokes that target blood vessels or airflow, and unlike joint locks that hyperextend limbs, cranks attack the vertebral column and surrounding structures directly. The twister, can opener, neck cranks from back control, and various spine locks all operate through this mechanism. Cranks are among the most controversial techniques in Brazilian Jiu-Jitsu because they carry a high risk of serious injury to the cervical spine, including herniated discs, ligament tears, and nerve damage.
+**Cranks are submissions that force the spine, neck, or jaw beyond their safe range of motion through rotational, lateral, or compressive force, attacking the vertebral column directly rather than blood vessels or joints.**
+
+Among the submission categories in Brazilian Jiu-Jitsu, cranks occupy a uniquely controversial place because of how directly they threaten the vertebral column. Unlike chokes that target blood vessels or airflow, and unlike joint locks that hyperextend limbs, cranks attack the spine and surrounding structures through rotation, lateral bending, or axial compression. The twister, can opener, neck cranks from back control, and various spine locks all operate through this mechanism. They carry a high risk of serious injury to the cervical spine, including herniated discs, ligament tears, and nerve damage.
 
 The controversy surrounding cranks stems from the narrow margin between an effective submission and a dangerous injury. With joint locks like armbars, there is usually a progressive pain signal that gives the defender time to tap. With blood chokes, the defender feels pressure and dimming before losing consciousness. Cranks often produce sudden, sharp pain that can arrive simultaneously with structural damage. The cervical spine is not designed to be twisted or compressed under load, and the small vertebrae, discs, and ligaments of the neck are vulnerable to forces that the larger joints of the body can tolerate. This makes cranks a submission category that demands exceptional control from the attacker and immediate tap response from the defender.
 
@@ -219,7 +231,7 @@ Despite the controversy, understanding crank mechanics is essential for all BJJ 
 
 **Mount**: Mounted neck cranks can occur when the attacker controls the head and applies rotational force while the body is pinned under their weight. The mount's stability gives the attacker sustained leverage against the cervical spine.
 
-**Triangle Control**: When a triangle choke is applied with the head pulled laterally rather than straight down, it can function partially as a neck crank. The opponent's head is forced into lateral flexion by the angle of the leg configuration, adding spinal force to the vascular compression.
+**Mounted Triangle**: When a triangle choke is applied with the head pulled laterally rather than straight down, it can function partially as a neck crank. The opponent's head is forced into lateral flexion by the angle of the leg configuration, adding spinal force to the vascular compression.
 
 **Turtle**: Spiral ride and twister entries from behind the turtle opponent create opportunities for spinal manipulation by controlling the far leg and head simultaneously. The turtle position's compact shape can mask the crank setup until force is already being applied.
 
@@ -332,7 +344,7 @@ Workshops focused on establishing clear communication protocols for crank-adjace
 ## Related
 
 ### Related Principles
-- **[[Submission Defense]]** (Complementary): Crank defense requires specific awareness and response protocols that differ from choke and joint lock defense. The primary crank defense is immediate tapping rather than progressive escape, because the injury window is much narrower than for other submission types.
+- **[[Defensive Concepts]]** (Complementary): Crank defense requires specific awareness and response protocols that differ from choke and joint lock defense. The primary crank defense is immediate tapping rather than progressive escape, because the injury window is much narrower than for other submission types.
 - **[[Chin Protection]]** (Complementary): Chin protection prevents many crank entries by denying access to the jaw and neck. However, some chin protection positions like tucking the chin can actually enable certain cranks if the attacker redirects force through the jaw into cervical rotation.
 - **[[Head Position]]** (Prerequisite): Head control is the primary setup for most crank applications. Controlling the opponent's head position allows the attacker to apply rotational or compressive force to the cervical spine. Defensive head positioning prevents crank setups.
 - **[[Control Maintenance]]** (Prerequisite): Effective and safe crank application requires sustained positional control to apply force slowly and progressively. Cranks from unstable positions risk explosive, uncontrolled application that dramatically increases injury risk.
@@ -340,15 +352,14 @@ Workshops focused on establishing clear communication protocols for crank-adjace
 - **[[Pressure]]** (Complementary): Pressure principles compound crank effectiveness by immobilizing the opponent's body while rotational or compressive force is applied to the spine. Pinning the torso prevents the opponent from rolling with the crank to reduce force.
 - **[[Posture]]** (Complementary): Maintaining good posture is the primary defense against most cervical cranks. Posture keeps the spine in neutral alignment, making it resistant to rotational and compressive forces. Breaking posture is often the first step in crank setups.
 - **[[Frames]]** (Complementary): Frames provide structural barriers that prevent opponents from establishing the head and body control necessary for crank applications. Effective framing keeps the attacker's leverage points away from the head and spine.
-- **[[Submission Chains]]** (Extension): Cranks are sometimes used as chain elements that force defensive reactions opening other submissions. A neck crank threat from back control may force hand movement that exposes the neck for a blood choke.
+- **[[Position Chains]]** (Extension): Cranks are sometimes used as chain elements that force defensive reactions opening other submissions. A neck crank threat from back control may force hand movement that exposes the neck for a blood choke.
 
 
 ### Related Content
 - [[Can Opener]] (Submission) - The most commonly encountered crank at beginner levels, using cervical flexion force to attack the neck from inside closed guard
-- [[Spine Lock]] (Submission) - Direct spinal attack using compressive force against the lumbar or thoracic vertebrae
 - [[Banana Split]] (Submission) - Groin and lower back attack that includes spinal compression and rotation components from leg entanglement positions
 - [[Twister Control]] (Position) - The specific control position from which the twister lateral spinal rotation crank is applied
-- [[Submission Defense]] (Principle) - Crank defense requires immediate tapping rather than progressive escape, representing a distinct defensive protocol within the broader submission defense framework
+- [[Defensive Concepts]] (Principle) - Crank defense requires immediate tapping rather than progressive escape, representing a distinct defensive protocol within the broader defensive framework
 - [[Chin Protection]] (Principle) - Chin protection can both defend against and enable certain cranks depending on the specific technique and angle of force application
 - [[Head Position]] (Principle) - Head control is the primary setup for most crank techniques and head positioning is the primary defense
 - [[Back Control]] (Position) - Common position for neck crank application where the attacker has rotational leverage against an immobilized spine

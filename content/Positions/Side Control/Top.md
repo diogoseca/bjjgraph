@@ -21,37 +21,37 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 34% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Side Control",
-      "text": "From this position, attempt Arm Triangle from Side Control. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Side Control. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ezekiel Choke from Side Control",
-      "text": "From this position, attempt Ezekiel Choke from Side Control. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Ezekiel Choke from Side Control. This technique is attempted in 1% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Kesa Gatame",
-      "text": "From this position, attempt Side Control to Kesa Gatame. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Kesa Gatame. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],

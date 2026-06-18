@@ -33,10 +33,32 @@ description: "Master the Rear Naked Choke from Crucifix position in BJJ. High-pe
 }
 </script>
 
-> **SAFETY**: Rear Naked Choke from Crucifix targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Naked Choke from Crucifix",
+  "description": "The Rear Naked Choke from Crucifix is a high-percentage blood choke finished from crucifix control, where both of the opponent's arms are isolated—one by a leg triangle, the other by hand—leaving the neck undefended for a carotid strangle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Rear Naked Choke from Crucifix is a high-percentage blood choke finished from crucifix control, where both of the opponent's arms are isolated—one by a leg triangle, the other by hand—leaving the neck undefended for a carotid strangle.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">65% success</span>
+</div>
+
+> [!danger] Safety
+> Rear Naked Choke from Crucifix targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,56 +75,7 @@ The primary technical challenge lies in transitioning from arm control to chokin
 
 Unlike the standard RNC from back control, the crucifix variant benefits from the opponent's severely limited hip mobility and inability to create defensive angles. The trapped arms cannot generate the frames needed for escape, and the opponent's awareness of their vulnerability often produces reactions that further expose the neck. Advanced practitioners use the choke threat to set up arm attacks, creating a submission chain where defending one threat opens another.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Crucifix]]
-**From Position**: [[Positions/Crucifix]] (Top)
-**Success Rate**: 65%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from blood choke | High | Immediate to 30 seconds with proper release |
-| Trachea damage from improper forearm placement | CRITICAL | 2-6 weeks, potential permanent damage |
-| Neck strain or muscle damage | Medium | 3-7 days |
-| Carotid artery injury from excessive force | CRITICAL | Immediate medical attention required |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or make any verbal sound)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Going limp or loss of consciousness
-- Any distress signal or unusual sound
-
-
-**Release Protocol**:
-1. Immediately release choking arm upon tap signal
-2. Remove hooks and leg triangle trapping the arm
-3. Gently guide partner to side-lying recovery position
-4. Monitor consciousness and breathing for 30 seconds
-5. If partner was unconscious, keep them lying down until fully alert
-6. Never allow unconscious partner to stand immediately
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity in drilling
-- Never apply the choke to the trachea or windpipe
-- Always ensure partner has clear tap access with at least one hand
-- Stop immediately if partner makes any distress sound
-- Never hold a choke past the tap for any reason
-- Beginners must practice with extremely slow progression only
-
+**Starting Position**: [[Positions/Crucifix]] · **From**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -262,38 +235,61 @@ Unlike the standard RNC from back control, the crucifix variant benefits from th
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bicep Slicer]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Mounted Crucifix Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Crucifix]] - Starting position for this submission variant with bilateral arm isolation
 - [[Positions/Back Control]] - Related control position often preceding crucifix entry
 - [[Positions/Mount/Mounted Crucifix]] - Alternative crucifix variant with mount pressure dynamics
 - [[Positions/Gift Wrap]] - Related arm isolation concept enabling choke access
-- [[Submissions/Mounted Crucifix Armbar]] - Alternative submission attack from similar crucifix control
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Rear Naked Choke from Crucifix leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from blood choke | High | Immediate to 30 seconds with proper release |
+| Trachea damage from improper forearm placement | CRITICAL | 2-6 weeks, potential permanent damage |
+| Neck strain or muscle damage | Medium | 3-7 days |
+| Carotid artery injury from excessive force | CRITICAL | Immediate medical attention required |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' or make any verbal sound)
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Going limp or loss of consciousness
+- Any distress signal or unusual sound
+
+
+**Release Protocol**:
+1. Immediately release choking arm upon tap signal
+2. Remove hooks and leg triangle trapping the arm
+3. Gently guide partner to side-lying recovery position
+4. Monitor consciousness and breathing for 30 seconds
+5. If partner was unconscious, keep them lying down until fully alert
+6. Never allow unconscious partner to stand immediately
+
+
+**Training Restrictions**:
+- Never use competition speed or intensity in drilling
+- Never apply the choke to the trachea or windpipe
+- Always ensure partner has clear tap access with at least one hand
+- Stop immediately if partner makes any distress sound
+- Never hold a choke past the tap for any reason
+- Beginners must practice with extremely slow progression only
+
 
 </section>
 

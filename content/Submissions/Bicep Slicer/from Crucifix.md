@@ -33,10 +33,32 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
 }
 </script>
 
-> **SAFETY**: Bicep Slicer from Crucifix targets the Bicep muscle and elbow joint. Risk: Bicep muscle tear or severe contusion. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bicep Slicer from Crucifix",
+  "description": "The Bicep Slicer from Crucifix is a compression lock applied from the crucifix's bilateral arm trap, wedging the shin behind the opponent's elbow to crush the bicep against the humerus while hyperextending the joint.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Bicep Slicer from Crucifix is a compression lock applied from the crucifix's bilateral arm trap, wedging the shin behind the opponent's elbow to crush the bicep against the humerus while hyperextending the joint.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Bicep Compression Lock</span>
+<span class="meta-chip">Targets Bicep muscle and elbow joint</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Bicep Slicer from Crucifix targets the Bicep muscle and elbow joint. Primary risk: Bicep muscle tear or severe contusion. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -49,54 +71,7 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
 
 The Bicep Slicer is a devastating compression lock that applies crushing pressure to the bicep muscle and hyperextends the elbow joint. This advanced submission works by trapping the opponent's arm between your shin and forearm, creating a lever that compresses the bicep against the humerus bone while simultaneously hyperextending the elbow. Most commonly applied from the crucifix, truck, or modified mount positions, the bicep slicer is a technical submission that requires precise positioning and control. The compression creates intense pain in the bicep muscle belly, while the hyperextension threatens the elbow joint, creating a two-fold attack that is difficult to defend. This submission is particularly effective in no-gi grappling where the opponent cannot use gi grips to defend, and it serves as an excellent backup when traditional chokes or arm locks are unavailable. The bicep slicer's effectiveness comes from its ability to attack an area that most grapplers do not regularly condition or defend, making it a high-percentage finish when the proper positioning is achieved. Understanding the mechanical advantage required and the precise angles needed separates successful application from ineffective attempts.
 
-**Category**: Compression
-**Type**: Bicep Compression Lock
-**Target Area**: Bicep muscle and elbow joint
-**Starting Position**: [[Positions/Crucifix]]
-**From Position**: [[Positions/Crucifix]] (Top)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Bicep muscle tear or severe contusion | High | 3-6 weeks for muscle damage, up to 12 weeks for severe tears |
-| Elbow hyperextension or ligament damage | High | 4-8 weeks for moderate sprains, 3-6 months for severe ligament tears |
-| Radial nerve compression | Medium | 1-3 weeks for temporary nerve irritation |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap or verbal distress signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat
-- Any vocalization of pain or distress
-- Frantic body movement indicating distress
-
-
-**Release Protocol**:
-1. Immediately release all pressure on the bicep/elbow
-2. Remove the shin from behind the opponent's elbow
-3. Release any grip controlling the wrist
-4. Allow the opponent to straighten their arm naturally
-5. Check with partner about their condition before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden or explosive pressure
-- Never use full competition speed in training
-- Always maintain verbal communication during application
-- Never practice on beginners until they understand tap urgency
-- Do not apply this submission if opponent has existing elbow or bicep injuries
-- Always ensure training partner has clear tap access with free hand
-
+**Starting Position**: [[Positions/Crucifix]] · **From**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -270,13 +245,11 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Armbar from Armbar Control]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Kesa Gatame Arm Crush]]
@@ -284,37 +257,54 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 - [[Submissions/Twister]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Arm Crush]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Crucifix]] - Primary attacking position for bicep slicer
 - [[Positions/Twister Control]] - Common setup position for bicep slicer and calf slicer combination
-- [[Submissions/Kimura]] - Alternative submission when opponent defends by straightening arm
-- [[Submissions/Calf Slicer]] - Similar compression lock mechanics applied to the calf instead of bicep
 - [[Positions/Mount/Technical Mount]] - Modified mount position allowing bicep slicer setup
-- [[Submissions/Americana]] - Similar arm isolation and control concepts
 - [[Positions/Back Control]] - Position that can transition to crucifix and bicep slicer opportunities
-- [[Submissions/Banana Split]] - Another compression-based submission using similar mechanical principles
 - [[Positions/Gift Wrap]] - Arm control position that can transition to bicep slicer setup
-- [[Submissions/Arm Crush]] - Related compression submission targeting the arm
-- [[Armbar from Armbar Control]] - Alternative arm attack when bicep slicer defense creates extension
 - [[Positions/Mount/S Mount]] - Mount variation providing bicep slicer setup opportunity
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Bicep Slicer from Crucifix leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Bicep muscle tear or severe contusion | High | 3-6 weeks for muscle damage, up to 12 weeks for severe tears |
+| Elbow hyperextension or ligament damage | High | 4-8 weeks for moderate sprains, 3-6 months for severe ligament tears |
+| Radial nerve compression | Medium | 1-3 weeks for temporary nerve irritation |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum with constant communication
+
+**Tap Signals**:
+- Verbal tap or verbal distress signal
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat
+- Any vocalization of pain or distress
+- Frantic body movement indicating distress
+
+
+**Release Protocol**:
+1. Immediately release all pressure on the bicep/elbow
+2. Remove the shin from behind the opponent's elbow
+3. Release any grip controlling the wrist
+4. Allow the opponent to straighten their arm naturally
+5. Check with partner about their condition before continuing
+
+
+**Training Restrictions**:
+- Never apply sudden or explosive pressure
+- Never use full competition speed in training
+- Always maintain verbal communication during application
+- Never practice on beginners until they understand tap urgency
+- Do not apply this submission if opponent has existing elbow or bicep injuries
+- Always ensure training partner has clear tap access with free hand
+
 
 </section>
 

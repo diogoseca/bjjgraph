@@ -34,6 +34,18 @@ description: "Master the backstep from deep half guard in BJJ. Complete guide to
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backstep from Deep Half",
+  "description": "The backstep from deep half is a passing transition where the top player, trapped in deep half guard, swings their free leg backward over the bottom player's body to circle behind and establish back control instead of extracting forward.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the backstep from deep half guard in BJJ. Complete guide to
 
 <section id="overview" class="content-section">
 
-The backstep from deep half guard is a dynamic transitional technique where the top player, caught in the bottom player's deep half guard, abandons the conventional forward extraction approach and instead swings their free leg backwards over the bottom player's body to establish back control. This counter-intuitive movement exploits a fundamental vulnerability of deep half guard: the bottom player's deep positioning underneath creates exposure to back attacks when the top player redirects their movement behind rather than forward. By stepping backwards over the entangled position, the top player converts a defensive predicament into an offensive opportunity, bypassing the powerful sweep mechanics that make deep half guard so dangerous.
+**The backstep from deep half is a passing transition where the top player, trapped in deep half guard, swings their free leg backward over the bottom player's body to circle behind and establish back control instead of extracting forward.**
+
+Caught underneath in deep half guard, the top player normally faces a grinding forward-extraction battle where the bottom player's deep positioning gives them the mechanical advantage — the backstep refuses that exchange and attacks the rear instead. Rather than fighting to pry the trapped leg free through forward pressure, the top player redirects their free leg backwards over the bottom player's body to circle behind and take the back. This counter-intuitive movement exploits a fundamental vulnerability of deep half guard: the bottom player's deep positioning underneath creates exposure to back attacks when the top player redirects their movement behind rather than forward. By stepping backwards over the entangled position, the top player converts a defensive predicament into an offensive opportunity, bypassing the powerful sweep mechanics that make deep half guard so dangerous.
 
 Strategically, the backstep represents a high-reward alternative to traditional deep half guard passing methods such as crossface passes and smash passes. While conventional approaches attempt to extract the trapped leg through forward pressure and weight distribution, the backstep acknowledges that the bottom player's deep positioning makes forward extraction difficult and instead uses angular redirection to circumvent their control entirely. This technique is particularly effective when the bottom player has established strong underhook control that makes conventional passing increasingly difficult, as the backstep direction is perpendicular to their primary sweep vectors.
 

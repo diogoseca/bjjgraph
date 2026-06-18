@@ -34,6 +34,18 @@ description: "Master the Back Door Escape from Half Guard in BJJ. Complete guide
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Door Escape from Half Guard",
+  "description": "The Back Door Escape from Half Guard is a bottom-player escape that abandons the underhook battle, turns away from a flattening top opponent, releases the leg entanglement, and exits to turtle to reset the positional exchange.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Back Door Escape from Half Guard in BJJ. Complete guide
 </div>
 
 <section id="overview" class="content-section">
+
+**The Back Door Escape from Half Guard is a bottom-player escape that abandons the underhook battle, turns away from a flattening top opponent, releases the leg entanglement, and exits to turtle to reset the positional exchange.**
 
 The Back Door Escape from Half Guard is a critical positional escape used when the bottom player's conventional offensive options have been neutralized by the top player's crushing crossface and pressure. Rather than continuing to fight for the underhook in a losing battle, the bottom player reverses direction entirely, turning away from the opponent, releasing the leg entanglement, and escaping to turtle position. This technique represents a fundamental paradigm shift in half guard strategy that recognizes when fighting toward the opponent has become counterproductive.
 

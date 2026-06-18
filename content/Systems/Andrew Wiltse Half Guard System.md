@@ -141,6 +141,16 @@ description: "Master Andrew Wiltse's modern half guard system. Comprehensive fra
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Andrew Wiltse Half Guard System",
+  "description": "The Andrew Wiltse Half Guard System is an offense-first bottom half guard framework using knee shield frames and underhook control to chain sweeps, single leg X entries, and high-value back takes, treating half guard as an attacking platform rather than a defensive position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -154,6 +164,8 @@ description: "Master Andrew Wiltse's modern half guard system. Comprehensive fra
 <section id="overview" class="content-section">
 
 ## What is Andrew Wiltse Half Guard System?
+
+**The Andrew Wiltse Half Guard System is an offense-first bottom half guard framework using knee shield frames and underhook control to chain sweeps, single leg X entries, and high-value back takes, treating half guard as an attacking platform rather than a defensive position.**
 
 Andrew Wiltse's half guard system represents a modern evolution of bottom half guard play, emphasizing active offensive pressure over defensive stalling. The system builds around knee shield frames as the primary defensive structure, but immediately transitions into dynamic sweeping and back-taking sequences rather than passive guard retention. Wiltse's approach differs from traditional half guard systems by treating the position as a transitional hub rather than a destination, constantly creating dilemmas that force opponents to choose between defending sweeps or preventing back exposure.
 

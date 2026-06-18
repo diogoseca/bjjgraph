@@ -21,7 +21,7 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {

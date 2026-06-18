@@ -88,6 +88,14 @@ description: "Learn to execute the explosive Bridge to Mount from High Mount bot
     },
     {
       "@type": "Question",
+      "name": "What conditions must exist before the bridge from high mount has any chance of working?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need at least one foot planted flat and close to your hips with the knee bent for leverage, hips that are not fully grapevined or pinned to the mat, and arms in a tucked defensive shell rather than trapped or extended. Critically, the opponent must be mid-weight-shift—reaching for grips or a submission—rather than settled in a wide, posted base. Bridging without these conditions wastes the explosive effort and only telegraphs your intent."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Why should the bridge be angled to one side rather than directed straight upward?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -116,14 +124,6 @@ description: "Learn to execute the explosive Bridge to Mount from High Mount bot
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When grapevined, full bridges become mechanically compromised because your legs cannot generate sufficient leverage for explosive hip extension. Switch to small hip bumps combined with forearm frame creation against their hips. Use micro-movements to gradually work their knees downward. Attempt to hook one of their grapevining feet with yours to break the configuration before resuming bridge attempts with full leverage."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What physical cue tells you the opponent is about to reach for a submission grip from high mount?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The opponent will release some chest-to-chest pressure and sit slightly more upright, or you will feel one hand release contact as they reach toward your collar, wrist, or head. Their weight shifts forward onto the posting hand as they reach, and knee pressure against your ribs may momentarily lighten on one side. This is the precise moment to bridge, as their base is compromised and attention is directed toward grip establishment rather than position maintenance."
       }
     }
   ]

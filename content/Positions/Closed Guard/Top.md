@@ -21,13 +21,13 @@ description: "Master closed guard top with defensive posture strategies, systema
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 32% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
-      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 26% of exchanges from this position.",
       "position": 2
     },
     {

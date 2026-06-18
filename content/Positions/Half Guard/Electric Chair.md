@@ -34,6 +34,18 @@ description: "Master Electric Chair position in BJJ. 10th Planet's lockdown swee
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Electric Chair",
+  "description": "Electric Chair is a lockdown half-guard attack from 10th Planet Jiu-Jitsu that simultaneously threatens a crotch-splitting submission and a high-percentage sweep, forcing the top player into a no-win dilemma between defending the finish and conceding position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Electric Chair position in BJJ. 10th Planet's lockdown swee
 </div>
 
 <section id="overview" class="content-section">
+
+**Electric Chair is a lockdown half-guard attack from 10th Planet Jiu-Jitsu that simultaneously threatens a crotch-splitting submission and a high-percentage sweep, forcing the top player into a no-win dilemma between defending the finish and conceding position.**
 
 Electric Chair is a devastating attacking position from the lockdown half guard system, popularized by 10th Planet Jiu-Jitsu. This position combines elements of a sweep, submission threat, and positional control, creating a powerful offensive weapon from bottom half guard. The practitioner uses the lockdown to control the opponent's leg while simultaneously elevating their hips and creating a crotch-splitting pressure that forces the opponent into increasingly compromised positions.
 
@@ -125,19 +139,19 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (76% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (50% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (13% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (14% of attempts)
 
 - **[[Transitions/Hip Rotation Escape from Electric Chair/Attacker|Hip Rotation Escape from Electric Chair]]** (6% of attempts)
 
-- **[[Transitions/Straighten Leg Defense from Electric Chair/Attacker|Straighten Leg Defense from Electric Chair]]** (2% of attempts)
+- **[[Transitions/Straighten Leg Defense from Electric Chair/Attacker|Straighten Leg Defense from Electric Chair]]** (4% of attempts)
 
-- **[[Transitions/Sweep from Electric Chair/Attacker|Sweep from Electric Chair]]** (1% of attempts)
+- **[[Transitions/Sweep from Electric Chair/Attacker|Sweep from Electric Chair]]** (8% of attempts)
 
-- **[[Positions/Half Guard/Electric Chair/Attacker|Electric Chair]]** (1% of attempts)
+- **[[Positions/Half Guard/Electric Chair/Attacker|Electric Chair]]** (12% of attempts)
 
-- **[[Transitions/Electric Chair from Electric Chair/Attacker|Electric Chair from Electric Chair]]** (1% of attempts)
+- **[[Transitions/Electric Chair from Electric Chair/Attacker|Electric Chair from Electric Chair]]** (6% of attempts)
 
 
 ### Common Mistakes

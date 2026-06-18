@@ -34,6 +34,18 @@ description: "Master Overhook Extraction from New York Top. Step-by-step arm ext
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Overhook Extraction",
+  "description": "Overhook Extraction is the New York top player's escape that frees the trapped arm from a deep rubber-guard overhook by corkscrewing the elbow down toward the hip rather than pulling straight back, opening the path to recover posture and pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Overhook Extraction from New York Top. Step-by-step arm ext
 
 <section id="overview" class="content-section">
 
-Overhook Extraction is a critical defensive technique for escaping the New York position within 10th Planet's Rubber Guard system. When trapped in New York Top, your arm is locked in a deep overhook while your opponent's shin crosses your back, breaking your posture and compromising your base. The overhook extraction addresses the arm control component, freeing your trapped limb and opening pathways to posture recovery and guard passing.
+**Overhook Extraction is the New York top player's escape that frees the trapped arm from a deep rubber-guard overhook by corkscrewing the elbow down toward the hip rather than pulling straight back, opening the path to recover posture and pass.**
+
+Within 10th Planet's Rubber Guard system, New York is one of the most difficult places for a top player to find themselves: your arm is locked in a deep overhook while your opponent's shin crosses your back, breaking your posture and compromising your base. Overhook extraction is the answer to the arm-control component of that problem, freeing your trapped limb and opening pathways to posture recovery and guard passing.
 
 The technique operates on the principle that the overhook, while strong, has a structural weakness: it requires constant tension and positioning from the bottom player. By systematically changing the angle of your trapped elbow and using rotational movement rather than linear pulling, you exploit the overhook's blind spots. The key insight is that pulling straight back reinforces the overhook, while corkscrewing your elbow downward and toward your hip creates an angle the overhook cannot maintain.
 

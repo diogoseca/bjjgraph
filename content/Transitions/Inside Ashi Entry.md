@@ -34,6 +34,18 @@ description: "Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Ashi Entry",
+  "description": "Inside Ashi Entry is a leg-entanglement entry from open guard where you thread your inside leg across the opponent's near hip to establish Inside Ashi-Garami, opening direct access to straight ankle locks and inside heel hooks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry
 </div>
 
 <section id="overview" class="content-section">
+
+**Inside Ashi Entry is a leg-entanglement entry from open guard where you thread your inside leg across the opponent's near hip to establish Inside Ashi-Garami, opening direct access to straight ankle locks and inside heel hooks.**
 
 Inside Ashi Entry is a fundamental transition in modern leg lock systems that establishes the inside position on your opponent's leg. This entry creates immediate offensive opportunities for inside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The inside position refers to having your outside leg positioned between your opponent's legs, creating a wedge that controls their hip and prevents escape. This entry is particularly effective from seated guard, single leg X-guard, or when your opponent is standing in your open guard. The key to successful execution lies in proper angle creation, hip control, and timing the entry when your opponent's weight is committed forward. Inside Ashi is considered one of the safest leg entanglements to enter because it offers strong control while maintaining defensive integrity against counter leg attacks.
 
@@ -213,7 +227,7 @@ Inside Ashi Entry is a fundamental transition in modern leg lock systems that es
 
 ## Position Integration
 
-Inside ashi entry serves as a critical gateway into the modern leg entanglement system pioneered by systematic and the Death Squad athletes. This position sits at the intersection of traditional open guard play and specialized leg lock systems, making it essential for contemporary BJJ competitors. Inside ashi connects directly to multiple positions: it transitions smoothly to outside ashi when opponent rotates, to saddle/honey hole when you cross your feet, to 50-50 when opponent establishes their own inside position, and back to single leg X-guard when backing out defensively. The entry itself can be initiated from numerous positions including de la riva guard, butterfly guard, seated guard, and single leg X, making it a versatile tool that integrates throughout your entire guard system. Understanding inside ashi entry is fundamental before progressing to more advanced leg entanglements because it teaches the core concepts of angle creation, inside position control, and heel grip mechanics that apply throughout leg locking. For comprehensive grappling systems, inside ashi represents the bridge between traditional positional grappling and submission-oriented leg attack systems.
+Inside ashi entry serves as a critical gateway into the modern leg entanglement system that reshaped competitive no-gi grappling. This position sits at the intersection of traditional open guard play and specialized leg lock systems, making it essential for contemporary BJJ competitors. Inside ashi connects directly to multiple positions: it transitions smoothly to outside ashi when opponent rotates, to saddle/honey hole when you cross your feet, to 50-50 when opponent establishes their own inside position, and back to single leg X-guard when backing out defensively. The entry itself can be initiated from numerous positions including de la riva guard, butterfly guard, seated guard, and single leg X, making it a versatile tool that integrates throughout your entire guard system. Understanding inside ashi entry is fundamental before progressing to more advanced leg entanglements because it teaches the core concepts of angle creation, inside position control, and heel grip mechanics that apply throughout leg locking. For comprehensive grappling systems, inside ashi represents the bridge between traditional positional grappling and submission-oriented leg attack systems.
 
 </section>
 

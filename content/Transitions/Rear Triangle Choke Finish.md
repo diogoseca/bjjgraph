@@ -34,6 +34,18 @@ description: "Master the Rear Triangle Choke Finish in BJJ. Learn squeeze mechan
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Triangle Choke Finish",
+  "description": "The Rear Triangle Choke Finish is the culminating blood choke from the rear triangle position, where the attacker squeezes a figure-four leg lock and angles the hips toward the trapped arm to compress both carotid arteries simultaneously.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Rear Triangle Choke Finish in BJJ. Learn squeeze mechan
 
 <section id="overview" class="content-section">
 
-The Rear Triangle Choke Finish is the culminating squeeze applied from the established rear triangle position, compressing the carotid arteries through the figure-four leg configuration locked behind the opponent's neck and around their trapped arm. Unlike many chokes that require hand involvement, the rear triangle finish generates primary choking force through leg mechanics—knee compression and hip extension—while the hands remain free to control the opponent's defensive responses and optimize the finishing angle.
+**The Rear Triangle Choke Finish is the culminating blood choke from the rear triangle position, where the attacker squeezes a figure-four leg lock and angles the hips toward the trapped arm to compress both carotid arteries simultaneously.**
+
+As the terminal finish of the rear triangle attack system, this submission converts established back-and-triangle control into a tap without relying on grip strength. Unlike many chokes that require hand involvement, the rear triangle finish generates primary choking force through leg mechanics—knee compression and hip extension—while the hands remain free to control the opponent's defensive responses and optimize the finishing angle.
 
 Strategically, this finish represents the terminal point of the rear triangle attack system. The choking mechanism attacks both carotid arteries simultaneously: the choking leg compresses one side while the opponent's own trapped shoulder is driven into the opposite carotid by the squeeze. This bilateral compression creates rapid unconsciousness when properly applied, making early recognition and defense critical for the bottom player. The attacker's primary challenge lies not in raw squeezing power but in optimizing the angle of their hips relative to the opponent's neck—walking the hips toward the trapped arm side creates the cutting angle that transforms a compression hold into an efficient blood choke.
 

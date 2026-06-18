@@ -1,5 +1,6 @@
 {
   "name": "Kimura from Lockdown",
+  "summary": "The Kimura from Lockdown is a 10th Planet half guard shoulder lock where the bottom player uses the figure-four leg entanglement to break the opponent's posture and isolate the near arm for a rotational shoulder submission.",
   "description": "Master the Kimura from Lockdown in BJJ. Learn how the lockdown half guard creates unique shoulder lock opportunities with trapped-leg control mechanics.",
   "tags": [
     "bjj",
@@ -75,9 +76,8 @@
     "Kimura",
     "Electric Chair",
     "Americana",
-    "Reverse Kimura",
-    "Electric Chair",
-    "Arm Crush"
+    "Arm Crush",
+    "Baratoplata"
   ],
   "related_content": [
     {
@@ -119,7 +119,7 @@
     }
   ],
   "attacker": {
-    "name": "from Lockdown Attacker",
+    "name": "Kimura from Lockdown Attacker",
     "description": "Learn to attack the Kimura from Lockdown half guard. Step-by-step guide covering grip setup, lockdown coordination, and finishing mechanics for this shoulder lock.",
     "overview": "Attacking the Kimura from Lockdown requires coordinating lower body lockdown control with upper body grip fighting to isolate and finish the shoulder lock. The attacker must use lockdown extensions to break posture and create openings for the figure-four grip, then maintain hip angle and wrist control throughout the finishing rotation. Success depends on timing the grip transition from overhook to Kimura configuration while the opponent is off-balance from lockdown pressure. The lockdown serves double duty here: it prevents posture recovery and eliminates the step-over escape that defeats most bottom-position Kimura attempts.",
     "key_principles": [
@@ -320,7 +320,7 @@
     ]
   },
   "defender": {
-    "name": "from Lockdown Defender",
+    "name": "Kimura from Lockdown Defender",
     "description": "Defend against the Kimura from Lockdown half guard in BJJ. Recognition cues, grip defense strategies, posture recovery, and escape techniques for this attack.",
     "overview": "Defending the Kimura from Lockdown requires addressing both the shoulder lock threat and the underlying lockdown control simultaneously. The defender must recognize the grip transition from overhook to Kimura configuration early, then use grip defense, posture recovery, and strategic weight distribution to prevent the finish. Priority should be given to maintaining a strong grip defense while working to extract the trapped leg from the lockdown, as the lockdown is the foundation that enables this Kimura variant. Unlike defending a standard Kimura from half guard, the lockdown prevents the normal posture-and-distance defense, requiring the defender to focus on grip fighting and leg extraction as primary survival tools.",
     "key_principles": [

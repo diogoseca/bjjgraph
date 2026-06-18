@@ -82,6 +82,14 @@ description: "Step-by-step guide to executing the frame escape from Kuzure Kesa-
     },
     {
       "@type": "Question",
+      "name": "Before you commit to the frame escape, what entry conditions must exist for it to have a realistic chance of working?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your free arm must be available to establish a forearm frame against the opponent's hip or shoulder, your trapped arm must be bent near 90 degrees and safe from immediate submission, and you need enough residual hip mobility to shrimp. The escape works best when the opponent's weight is channeled through hip contact rather than full chest-to-chest compression, since flat chest pressure removes the room your frame needs to redirect force."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Your opponent increases hip pressure when you establish your frame - how should you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -110,14 +118,6 @@ description: "Step-by-step guide to executing the frame escape from Kuzure Kesa-
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert your knee immediately once approximately six inches of space exists between your body and the opponent. Any delay allows the opponent to re-close this distance, erasing all escape progress. The knee insertion is the commitment point of the escape because once established it creates a structural barrier far more difficult for the opponent to remove than the arm frame alone."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Your opponent begins sliding their knee across your belly during your hip escape - what is the immediate priority?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Abandon the escape and immediately address the mount transition. Turn your hips toward the opponent and drive your inside knee between your bodies to block their knee from crossing. Preventing mount takes absolute priority over completing the escape, as mount is a significantly worse position than Kuzure Kesa-Gatame. Restart the escape attempt once the mount threat is neutralized."
       }
     }
   ]

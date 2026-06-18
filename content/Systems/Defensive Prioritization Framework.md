@@ -135,6 +135,16 @@ description: "Master defensive BJJ strategy with systematic prioritization frame
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Defensive Prioritization Framework",
+  "description": "The Defensive Prioritization Framework is a systematic defensive strategy that ranks positions by submission threat and escape difficulty, telling a practitioner which danger to address first and how much energy to spend addressing it.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -149,7 +159,9 @@ description: "Master defensive BJJ strategy with systematic prioritization frame
 
 ## What is Defensive Prioritization Framework?
 
-The Defensive Prioritization Framework is a comprehensive defensive strategy that teaches practitioners to systematically assess threats, prioritize responses, and execute the most efficient escape or defensive action based on positional hierarchy and submission proximity. Rather than learning isolated escape techniques, this framework provides a decision-making matrix that helps practitioners understand when to accept inferior positions to avoid submissions, when to fight for improved position, and when to explode with maximum effort. The system is built on the fundamental principle that not all bad positions are equally bad, and understanding this hierarchy is critical for survival and energy conservation in Brazilian Jiu-Jitsu. By categorizing positions based on point value, submission threat, and escape difficulty, practitioners develop an intuitive sense of defensive urgency that guides their response selection. This framework integrates seamlessly with position-specific escape sequences while providing the overarching strategic context that makes individual techniques more effective.
+**The Defensive Prioritization Framework is a systematic defensive strategy that ranks positions by submission threat and escape difficulty, telling a practitioner which danger to address first and how much energy to spend addressing it.**
+
+Most practitioners accumulate escapes as a disconnected collection of techniques — a bridge-and-roll here, a hip escape there — without an organizing logic for which response to reach for when multiple dangers stack up at once. This framework supplies that missing logic. Rather than learning isolated escape techniques, it provides a decision-making matrix that helps practitioners understand when to accept inferior positions to avoid submissions, when to fight for improved position, and when to explode with maximum effort. The system is built on the fundamental principle that not all bad positions are equally bad, and understanding this hierarchy is critical for survival and energy conservation in Brazilian Jiu-Jitsu. By categorizing positions based on point value, submission threat, and escape difficulty, practitioners develop an intuitive sense of defensive urgency that guides their response selection. This framework integrates seamlessly with position-specific escape sequences while providing the overarching strategic context that makes individual techniques more effective.
 
 </section>
 
@@ -329,7 +341,7 @@ The framework is best developed through progressive resistance drilling that beg
 - [[Escape Fundamentals]] (Principle) - Core escape principles organizing priorities that guide framework application
 - [[Mount]] (Position) - Highest priority defensive situation requiring immediate framework application
 - [[Back Control]] (Position) - Maximum threat position with specific defensive protocols within the framework
-- [[Side Control]] (Position) - Medium threat position demonstrating measured defensive response principles
+- [[Knee on Belly]] (Position) - Medium threat position requiring specific defensive response within framework
 - [[Elbow Escape to Guard]] (Transition) - Primary escape technique from mount and side control central to framework execution
 - [[Frame and Shrimp to Guard]] (Transition) - Core defensive movement pattern used across all framework applications
 - [[Bridge and Roll]] (Transition) - Essential mount escape within the framework's escape sequencing system
@@ -342,8 +354,6 @@ The framework is best developed through progressive resistance drilling that beg
 - [[Position-Over-Submission Approach]] (Principle) - Prioritization principle that informs threat evaluation and risk-reward decisions in the framework
 - [[Turtle]] (Position) - Defensive position with specific framework considerations and escape priorities
 - [[Half Guard]] (Position) - Recovery position representing successful framework execution from worse positions
-- [[Knee on Belly]] (Position) - Medium threat position requiring specific defensive response within framework
-- [[Triangle Escape]] (Transition) - Submission-specific escape demonstrating framework's submission defense integration
 - [[Armbar Defense]] (Transition) - Critical submission defense technique integrated into framework protocols
 - [[Bridge and Shrimp]] (Principle) - Foundational escape mechanics for mount defense central to the framework's positional protocols
 - [[Hip Escape Mechanics]] (Principle) - Primary defensive movement principle for side control and bottom position recovery

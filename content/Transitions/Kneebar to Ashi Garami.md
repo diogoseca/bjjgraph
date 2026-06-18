@@ -34,6 +34,18 @@ description: "Master the Kneebar to Ashi Garami transition in BJJ. Learn systema
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar to Ashi Garami",
+  "description": "Kneebar to Ashi Garami is a leg-lock reconfiguration that flows from a defended kneebar into inside ashi-garami, threading the legs into ashi hooks while the arms keep continuous control of the trapped limb to preserve offense without surrendering leg control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Kneebar to Ashi Garami transition in BJJ. Learn systema
 </div>
 
 <section id="overview" class="content-section">
+
+**Kneebar to Ashi Garami is a leg-lock reconfiguration that flows from a defended kneebar into inside ashi-garami, threading the legs into ashi hooks while the arms keep continuous control of the trapped limb to preserve offense without surrendering leg control.**
 
 The Kneebar to Ashi Garami transition represents a fundamental positional reconfiguration within the leg attack system, enabling practitioners to flow from a defended kneebar into inside ashi-garami where different submission pathways become available. Rather than forcing a low-percentage kneebar finish against a well-defended bent knee, this transition preserves leg control while changing the angle and type of attack, shifting from knee hyperextension threats to positions that offer heel hooks, straight ankle locks, and toe holds. The transition embodies the core principle of modern leg lock systems: every defensive reaction should open a new offensive pathway.
 

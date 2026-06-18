@@ -34,6 +34,18 @@ description: "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniqu
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lasso Guard Pass",
+  "description": "The Lasso Guard Pass is a gi guard-passing sequence where the top player secures the lassoed sleeve, steps outside the lasso leg to kill its leverage, clears the threaded shin, and drives through to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniqu
 </div>
 
 <section id="overview" class="content-section">
+
+**The Lasso Guard Pass is a gi guard-passing sequence where the top player secures the lassoed sleeve, steps outside the lasso leg to kill its leverage, clears the threaded shin, and drives through to side control.**
 
 The Lasso Guard Pass is a fundamental skill for defeating one of the most controlling open guard variations in Brazilian Jiu-Jitsu. The lasso guard utilizes the opponent's sleeve grip combined with a leg threaded behind the arm to create powerful control that can sweep, submit, or prevent passing. Understanding how to systematically dismantle this guard structure is essential for any serious competitor.
 
@@ -236,11 +250,11 @@ The Lasso Guard Pass is a fundamental component of any comprehensive passing sys
 
 - [[Positions/Spider Guard]] - Related guard opponent may switch to when lasso is threatened
 
-- [[Positions/Standing Position]] - Intermediate position used during the standing passing sequence
+- [[Positions/Headquarters Position]] - Transitional position often used when disengaging from lasso
 
 - [[Positions/Leg Drag Control]] - Control position achieved through leg drag variant of this pass
 
-- [[Positions/Headquarters Position]] - Transitional position often used when disengaging from lasso
+- [[Positions/Kimura Trap]] - Counter-attacking option when opponent over-commits to the lasso and exposes the non-lasso arm
 
 
 </section>

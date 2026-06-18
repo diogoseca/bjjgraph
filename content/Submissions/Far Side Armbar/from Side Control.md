@@ -33,10 +33,32 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 }
 </script>
 
-> **SAFETY**: Far Side Armbar from Side Control targets the Elbow joint (hyperextension). Risk: Elbow hyperextension (ligament damage). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Far Side Armbar from Side Control",
+  "description": "The Far Side Armbar is a top-position elbow lock that isolates and hyperextends the opponent's far arm (the one furthest from you) from side control, mount, or north-south, punishing the very arm they use to frame and create distance.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Far Side Armbar is a top-position elbow lock that isolates and hyperextends the opponent's far arm (the one furthest from you) from side control, mount, or north-south, punishing the very arm they use to frame and create distance.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint (hyperextension)</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Far Side Armbar from Side Control targets the Elbow joint (hyperextension). Primary risk: Elbow hyperextension (ligament damage). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,59 +69,13 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 
 <section id="overview" class="content-section">
 
-The Far Side Armbar is a high-percentage finishing technique targeting the opponent's far arm (the arm furthest from you) when controlling from top positions like side control, mount, or north-south. This submission exploits the opponent's defensive frames by isolating the extended arm and applying hyperextension pressure to the elbow joint. The far side armbar is particularly effective because it attacks the arm that opponents naturally use to create distance and prevent transitions, making it a fundamental component of submission chains from dominant positions.
+Sitting at the heart of every top player's submission arsenal, the far side armbar exploits the opponent's defensive frames by isolating their extended far arm and applying hyperextension pressure to the elbow joint. It is particularly effective because it attacks the arm that opponents naturally use to create distance and prevent transitions, making it a fundamental component of submission chains from dominant positions such as side control, mount, and north-south.
 
 Unlike near-side armbars which require significant position changes, the far side armbar can often be secured with minimal positional adjustment, making it a reliable finishing option when opponents are defending tightly. The technique leverages body weight, hip positioning, and leg control to isolate the targeted limb while maintaining top pressure. Success depends on proper grip control, angle creation, and the ability to prevent the opponent from defending by clasping their hands together.
 
 This submission appears frequently in both gi and no-gi competition at all levels, often as part of systematic attack sequences that force opponents into defensive dilemmas. When combined with other submissions like the kimura, americana, or transition to mount, the far side armbar becomes even more potent as it capitalizes on the opponent's defensive reactions to create finishing opportunities.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint (hyperextension)
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension (ligament damage) | High | 4-8 weeks for moderate sprains, 3-6 months for severe tears |
-| Elbow dislocation | CRITICAL | 3-6 months with potential for permanent instability |
-| Bicep tendon strain from resistance | Medium | 2-4 weeks |
-| Shoulder strain from torquing during setup | Medium | 2-6 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to tap. Never snap or jerk the submission.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap (on partner or mat)
-- Physical foot tap (on partner or mat)
-- Any distress signal or unusual sound
-
-
-**Release Protocol**:
-1. Immediately release hip pressure and stop extending the arm
-2. Open your legs if using leg control over the body
-3. Return opponent's arm to neutral position slowly
-4. Allow opponent to recover and reset before continuing
-5. Check with partner verbally that they are okay
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden explosive force to the submission
-- Never use competition speed or pressure in training rolls
-- Always ensure partner has clear access to tap with at least one hand
-- Stop immediately at any sign of discomfort or unusual joint sound
-- White and blue belts should practice at 30-50% speed only
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -281,10 +257,9 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Armbar]]
 - [[Submissions/Arm Crush]]
 - [[Submissions/Flying Armbar]]
@@ -296,37 +271,54 @@ This submission appears frequently in both gi and no-gi competition at all level
 - [[Submissions/Omoplata]]
 - [[Submissions/Americana]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Submissions/Armbar/Reverse Armbar from Mount]] - Alternative armbar variation with different arm positioning and finishing mechanics from mount
-- [[Submissions/Arm Crush]] - Direct arm attack variation from same side control position family
-- [[Submissions/Kimura]] - Alternative arm attack that can chain with far side armbar
-- [[Submissions/Americana]] - Near-arm shoulder lock that complements far-arm targeting from side control
 - [[Positions/Side Control]] - Primary starting position for far side armbar
 - [[Positions/Mount]] - Alternative starting position for far side armbar
 - [[Positions/North-South]] - Transitional position that creates far side armbar opportunities
-- [[Submissions/Triangle Choke]] - Alternative submission from similar control positions
 - [[Positions/Armbar Control]] - Control position for securing armbar finish
-- [[Submissions/Belly Down Armbar]] - Variation finish when opponent defends standard armbar
 - [[Positions/Knee on Belly]] - Transitional position enabling far side armbar entries
 - [[Positions/Mount/High Mount]] - Elevated position providing superior armbar access
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Far Side Armbar from Side Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension (ligament damage) | High | 4-8 weeks for moderate sprains, 3-6 months for severe tears |
+| Elbow dislocation | CRITICAL | 3-6 months with potential for permanent instability |
+| Bicep tendon strain from resistance | Medium | 2-4 weeks |
+| Shoulder strain from torquing during setup | Medium | 2-6 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to tap. Never snap or jerk the submission.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap (on partner or mat)
+- Physical foot tap (on partner or mat)
+- Any distress signal or unusual sound
+
+
+**Release Protocol**:
+1. Immediately release hip pressure and stop extending the arm
+2. Open your legs if using leg control over the body
+3. Return opponent's arm to neutral position slowly
+4. Allow opponent to recover and reset before continuing
+5. Check with partner verbally that they are okay
+
+
+**Training Restrictions**:
+- Never spike, jerk, or apply sudden explosive force to the submission
+- Never use competition speed or pressure in training rolls
+- Always ensure partner has clear access to tap with at least one hand
+- Stop immediately at any sign of discomfort or unusual joint sound
+- White and blue belts should practice at 30-50% speed only
+
 
 </section>
 

@@ -34,6 +34,18 @@ description: "Master Double Sleeve Guard in BJJ. Strategic guide covering grip c
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Sleeve Guard",
+  "description": "Double Sleeve Guard is a gi-based open guard where the bottom player grips both of the opponent's sleeve cuffs while framing with the feet on the hips or biceps, shutting down upper-body grips to set up sweeps and guard transitions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Double Sleeve Guard in BJJ. Strategic guide covering grip c
 
 <section id="overview" class="content-section">
 
-Double Sleeve Guard is a fundamental open guard position where the bottom practitioner controls both of the opponent's sleeves while maintaining distance with their feet on the hips or biceps. This position provides excellent control over the opponent's upper body, preventing them from establishing grips or initiating passing sequences while setting up numerous sweep and transition opportunities. The position is particularly effective in gi jiu-jitsu, where the sleeve grips create a strong connection that can be used to manipulate the opponent's posture and balance.
+**Double Sleeve Guard is a gi-based open guard where the bottom player grips both of the opponent's sleeve cuffs while framing with the feet on the hips or biceps, shutting down upper-body grips to set up sweeps and guard transitions.**
+
+A pillar of the modern gi open-guard game, Double Sleeve Guard is built around winning the grip exchange before the opponent can organize a passing structure, with the bottom practitioner controlling both of the opponent's sleeves while maintaining distance through feet on the hips or biceps. This position provides excellent control over the opponent's upper body, preventing them from establishing grips or initiating passing sequences while setting up numerous sweep and transition opportunities. The position is particularly effective in gi jiu-jitsu, where the sleeve grips create a strong connection that can be used to manipulate the opponent's posture and balance.
 
 Double Sleeve Guard is characterized by its emphasis on grip fighting dominance and distance management. By controlling both sleeves, the bottom player neutralizes the opponent's ability to grip the pants or control the legs, forcing them into a defensive posture. This guard excels at creating off-balancing opportunities and can transition seamlessly into more specialized guards like Spider Guard, Lasso Guard, or De La Riva Guard. The position requires good hip mobility and grip strength but offers a high return on investment for practitioners who develop proficiency with the fundamental sweeps and transitions available from this control position. From the top perspective, the challenge lies in systematically breaking the sleeve grips while maintaining posture and creating passing opportunities through angle creation and strategic pressure application.
 
@@ -121,33 +135,33 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 ### Available Transitions
 
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (69% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (20% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (4% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (10% of attempts)
 
-- **[[Omoplata from Double Sleeve Guard/Attacker|Omoplata from Double Sleeve Guard]]** (4% of attempts)
+- **[[Omoplata from Double Sleeve Guard/Attacker|Omoplata from Double Sleeve Guard]]** (6% of attempts)
 
 - **[[Transitions/Guard Recovery from Double Sleeve Guard/Attacker|Guard Recovery from Double Sleeve Guard]]** (4% of attempts)
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (6% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (12% of attempts)
 
-- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (2% of attempts)
+- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (8% of attempts)
 
-- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (2% of attempts)
+- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (8% of attempts)
 
-- **[[Transitions/Armbar Setup from Double Sleeve/Attacker|Armbar Setup from Double Sleeve]]** (0% of attempts)
+- **[[Transitions/Armbar Setup from Double Sleeve/Attacker|Armbar Setup from Double Sleeve]]** (3% of attempts)
 
-- **[[Transitions/Double Sleeve Sweep/Attacker|Double Sleeve Sweep]]** (0% of attempts)
+- **[[Transitions/Double Sleeve Sweep/Attacker|Double Sleeve Sweep]]** (3% of attempts)
 
-- **[[Transitions/Double Sleeve to De La Riva/Attacker|Double Sleeve to De La Riva]]** (0% of attempts)
+- **[[Transitions/Double Sleeve to De La Riva/Attacker|Double Sleeve to De La Riva]]** (4% of attempts)
 
-- **[[Transitions/Double Sleeve to Lasso/Attacker|Double Sleeve to Lasso]]** (0% of attempts)
+- **[[Transitions/Double Sleeve to Lasso/Attacker|Double Sleeve to Lasso]]** (4% of attempts)
 
-- **[[Transitions/Double Sleeve to Spider/Attacker|Double Sleeve to Spider]]** (0% of attempts)
+- **[[Transitions/Double Sleeve to Spider/Attacker|Double Sleeve to Spider]]** (4% of attempts)
 
-- **[[Transitions/Double Sleeve to Spider Guard/Attacker|Double Sleeve to Spider Guard]]** (1% of attempts)
+- **[[Transitions/Double Sleeve to Spider Guard/Attacker|Double Sleeve to Spider Guard]]** (6% of attempts)
 
 
 ### Common Mistakes

@@ -34,6 +34,18 @@ description: "Master the Boot Defense from Toe Hold in BJJ. Complete guide cover
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Boot Defense from Toe Hold",
+  "description": "Boot Defense from Toe Hold is a leg-lock escape where the trapped player plantarflexes and internally rotates the foot into a rigid, boot-like structure that resists the toe hold's rotational torque, buying time to grip-fight and extract the leg.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Boot Defense from Toe Hold in BJJ. Complete guide cover
 </div>
 
 <section id="overview" class="content-section">
+
+**Boot Defense from Toe Hold is a leg-lock escape where the trapped player plantarflexes and internally rotates the foot into a rigid, boot-like structure that resists the toe hold's rotational torque, buying time to grip-fight and extract the leg.**
 
 The Boot Defense from Toe Hold is a fundamental defensive technique within the leg entanglement hierarchy where the bottom practitioner creates a rigid foot structure to neutralize the rotational pressure of an opponent's toe hold submission. The technique derives its name from the action of plantarflexing the foot—pointing the toes firmly—while internally rotating the shin, producing a boot-like rigidity that prevents the opponent from applying the twisting force required to complete the toe hold finish. This defense represents one of the primary first-line responses when caught in toe hold control, creating a critical window for systematic grip fighting and eventual leg extraction.
 

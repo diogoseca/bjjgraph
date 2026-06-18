@@ -21,37 +21,37 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Far Side Armbar from KOB",
-      "text": "From this position, attempt Far Side Armbar from KOB. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Far Side Armbar from KOB. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Baseball Bat Choke from Knee on Belly",
-      "text": "From this position, attempt Baseball Bat Choke from Knee on Belly. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Baseball Bat Choke from Knee on Belly. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke from Knee on Belly",
-      "text": "From this position, attempt Cross Collar Choke from Knee on Belly. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke from Knee on Belly. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Knee on Belly",
-      "text": "From this position, attempt Kimura from Knee on Belly. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Knee on Belly. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

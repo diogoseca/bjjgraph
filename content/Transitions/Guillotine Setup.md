@@ -34,6 +34,18 @@ description: "Learn Guillotine Setup in BJJ. Step-by-step execution from Front H
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Setup",
+  "description": "The Guillotine Setup is a submission-entry transition that converts dominant front-headlock control into a locked guillotine choke by threading the choking arm deep under the opponent's chin, clasping a grip, and angling off to trap the neck.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Guillotine Setup in BJJ. Step-by-step execution from Front H
 </div>
 
 <section id="overview" class="content-section">
+
+**The Guillotine Setup is a submission-entry transition that converts dominant front-headlock control into a locked guillotine choke by threading the choking arm deep under the opponent's chin, clasping a grip, and angling off to trap the neck.**
 
 The Guillotine Setup represents one of the most fundamental and highest-percentage submission entries in Brazilian Jiu-Jitsu, serving as a critical bridge between controlling the opponent's head and securing a fight-finishing choke. This transition capitalizes on the dominant front headlock position, where the practitioner has already secured head control and posture dominance, and systematically converts this control into a guillotine choke configuration. The setup is characterized by precise arm placement around the opponent's neck, proper hand positioning for maximum leverage, and strategic body alignment that maximizes choking pressure while minimizing escape opportunities.
 

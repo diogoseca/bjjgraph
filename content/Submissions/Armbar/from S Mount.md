@@ -33,10 +33,32 @@ description: "Master the Armbar from S Mount in BJJ. Step-by-step guide covering
 }
 </script>
 
-> **SAFETY**: Armbar from S Mount targets the Elbow joint (hyperextension) and shoulder joint. Risk: Hyperextension of the elbow joint causing ligament damage to ulnar and radial collateral ligaments. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from S Mount",
+  "description": "The Armbar from S Mount is a high-percentage joint lock that hyperextends the opponent's elbow by isolating their near arm between the legs in the perpendicular S Mount and driving the hips upward against the trapped joint.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Armbar from S Mount is a high-percentage joint lock that hyperextends the opponent's elbow by isolating their near arm between the legs in the perpendicular S Mount and driving the hips upward against the trapped joint.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint (hyperextension) and shoulder joint</span>
+<span class="meta-chip">55% success</span>
+</div>
+
+> [!danger] Safety
+> Armbar from S Mount targets the Elbow joint (hyperextension) and shoulder joint. Primary risk: Hyperextension of the elbow joint causing ligament damage to ulnar and radial collateral ligaments. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,56 +69,13 @@ description: "Master the Armbar from S Mount in BJJ. Step-by-step guide covering
 
 <section id="overview" class="content-section">
 
-The Armbar from S Mount is one of the highest-percentage submissions in Brazilian Jiu-Jitsu, leveraging the perpendicular body angle and arm isolation inherent to the S Mount position. From this dominant configuration, the top practitioner has already completed the most difficult phase of the armbar—isolating the arm and establishing leg control over the opponent's head and torso. The submission becomes a matter of technical finishing rather than positional setup, which accounts for its exceptional success rate at all competitive levels.
+Among mount-based attacks, the armbar from S Mount converts positional dominance into a finish with remarkable efficiency, leveraging the perpendicular body angle and arm isolation inherent to the S Mount position. From this dominant configuration, the top practitioner has already completed the most difficult phase of the armbar—isolating the arm and establishing leg control over the opponent's head and torso. The submission becomes a matter of technical finishing rather than positional setup, which accounts for its exceptional success rate at all competitive levels.
 
 The mechanical advantage of attacking the armbar from S Mount is significant. The top practitioner's hips are positioned directly against the opponent's shoulder, creating a fulcrum point that generates tremendous leverage with minimal effort. The perpendicular body angle allows force to be applied through the hips rather than the arms, making the finish efficient and sustainable. This position exemplifies the principle of using skeletal mechanics over muscular strength to achieve submission.
 
 Defensively, the armbar from S Mount presents an extremely challenging scenario. The bottom practitioner must protect the isolated arm while dealing with the top player's dominant positional control and compressive body weight. Survival depends on keeping the arm bent, controlling the attacker's near leg to prevent full extension, and timing escape attempts during the attacker's grip transitions. Understanding both the attacking and defensive perspectives is essential for serious practitioners competing at the intermediate level and above.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint (hyperextension) and shoulder joint
-**Starting Position**: [[Positions/Mount/S Mount]]
-**From Position**: [[Positions/Mount/S Mount]] (Top)
-**Success Rate**: 55%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Hyperextension of the elbow joint causing ligament damage to ulnar and radial collateral ligaments | High | 4-12 weeks for mild to moderate sprains, 3-6 months for complete tears requiring surgical intervention |
-| Shoulder joint subluxation or dislocation from combined rotational and extension forces | CRITICAL | 3-6 months for subluxation, 6-12 months for full dislocation with potential surgical repair |
-| Bicep tendon strain or partial tear from rapid forced extension against muscular resistance | Medium | 2-6 weeks for strain, 2-4 months for partial tears |
-
-
-**Application Speed**: SLOW and progressive. Apply extension gradually through hip elevation, never jerk or spike. The elbow reaches its breaking point within 2-3 degrees of full extension under load. Allow opponent adequate time to recognize the submission and tap before damage occurs.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, their body, or the mat
-- Physical foot tap on the mat with either leg
-- Any unusual vocalization, screaming, or distress sounds indicating pain
-
-
-**Release Protocol**:
-1. Release all extension pressure immediately upon any tap signal without hesitation
-2. If in doubt whether opponent tapped, release immediately—position can always be re-established
-3. After release, maintain positional control without reapplying submission pressure until opponent confirms they are ready to continue
-4. If opponent's arm makes an audible pop or sudden loss of resistance occurs, stop immediately and check for injury regardless of tap
-
-
-**Training Restrictions**:
-- White belts should drill mechanics only with cooperative partners and no resistance finishing
-- Never apply full extension speed during drilling—use slow, controlled pressure to develop proper mechanics
-- Partners with previous elbow or shoulder injuries should communicate limitations before positional sparring
-- Competition-speed finishing should only be practiced with experienced training partners who understand tap timing
-
+**Starting Position**: [[Positions/Mount/S Mount]] · **From**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
 
@@ -268,10 +247,9 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Americana]]
@@ -279,14 +257,6 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Flying Armbar]]
 - [[Submissions/Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/S Mount]] - Source position providing optimal arm isolation and perpendicular control for armbar execution
 - [[Positions/Mount]] - Parent position from which S Mount is established before armbar attack
 - [[Positions/Mount/High Mount]] - Alternative attacking position that can transition through S Mount to armbar
@@ -295,16 +265,43 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 - [[Positions/Back Control]] - Alternative advancement when opponent turns away to defend armbar
 - [[Positions/Closed Guard]] - Position opponent may recover to if armbar attempt fails and space is created
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Armbar from S Mount leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Hyperextension of the elbow joint causing ligament damage to ulnar and radial collateral ligaments | High | 4-12 weeks for mild to moderate sprains, 3-6 months for complete tears requiring surgical intervention |
+| Shoulder joint subluxation or dislocation from combined rotational and extension forces | CRITICAL | 3-6 months for subluxation, 6-12 months for full dislocation with potential surgical repair |
+| Bicep tendon strain or partial tear from rapid forced extension against muscular resistance | Medium | 2-6 weeks for strain, 2-4 months for partial tears |
+
+
+**Application Speed**: SLOW and progressive. Apply extension gradually through hip elevation, never jerk or spike. The elbow reaches its breaking point within 2-3 degrees of full extension under load. Allow opponent adequate time to recognize the submission and tap before damage occurs.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, their body, or the mat
+- Physical foot tap on the mat with either leg
+- Any unusual vocalization, screaming, or distress sounds indicating pain
+
+
+**Release Protocol**:
+1. Release all extension pressure immediately upon any tap signal without hesitation
+2. If in doubt whether opponent tapped, release immediately—position can always be re-established
+3. After release, maintain positional control without reapplying submission pressure until opponent confirms they are ready to continue
+4. If opponent's arm makes an audible pop or sudden loss of resistance occurs, stop immediately and check for injury regardless of tap
+
+
+**Training Restrictions**:
+- White belts should drill mechanics only with cooperative partners and no resistance finishing
+- Never apply full extension speed during drilling—use slow, controlled pressure to develop proper mechanics
+- Partners with previous elbow or shoulder injuries should communicate limitations before positional sparring
+- Competition-speed finishing should only be practiced with experienced training partners who understand tap timing
+
 
 </section>
 

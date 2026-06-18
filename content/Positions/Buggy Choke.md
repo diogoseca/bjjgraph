@@ -34,6 +34,18 @@ description: "Master Buggy Choke position in BJJ. Strategic guide covering turtl
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Buggy Choke",
+  "description": "The Buggy Choke is a turtle-attack position where the top player threads one arm under the opponent's near armpit to the far collar, simultaneously threatening a strangle and branching into back control, crucifix, or truck attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Buggy Choke position in BJJ. Strategic guide covering turtl
 </div>
 
 <section id="overview" class="content-section">
+
+**The Buggy Choke is a turtle-attack position where the top player threads one arm under the opponent's near armpit to the far collar, simultaneously threatening a strangle and branching into back control, crucifix, or truck attacks.**
 
 The Buggy Choke position represents a sophisticated turtle attack system that bridges the gap between positional control and immediate submission threats. This specialized grip configuration emerged from gi competition where practitioners needed more aggressive turtle attacks beyond traditional back takes. The position's defining characteristic is the threaded arm under the opponent's armpit reaching to the far collar, creating simultaneous choking pressure and postural breakdown.
 

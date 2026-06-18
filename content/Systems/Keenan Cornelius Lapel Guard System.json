@@ -14,6 +14,7 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Advanced",
+  "summary": "The Keenan Cornelius Lapel Guard System is a gi-based framework that weaponizes the opponent's own lapel — threading it under their legs and around their limbs to power Worm Guard, Squid Guard, sweeps, back takes, and near-impassable guard retention.",
   "overview": "The Keenan Cornelius Lapel Guard System represents one of the most innovative developments in modern gi-based Brazilian Jiu-Jitsu. This comprehensive framework revolutionizes guard play by utilizing the opponent's gi lapel as a primary control mechanism, creating unprecedented levels of control and offensive opportunities. The system encompasses multiple interconnected guard positions including Worm Guard, Squid Guard, and various lapel-based configurations that work synergistically to create a nearly impenetrable guard retention structure while simultaneously offering powerful sweeping and submission sequences. What distinguishes this system from traditional guard approaches is its emphasis on using fabric control to compensate for physical disadvantages, making it particularly effective for practitioners who may lack size or strength advantages. The lapel becomes an extension of your grips, allowing you to control distance, break posture, and create off-balancing scenarios that traditional hand grips cannot achieve. The system's effectiveness has been proven at the highest levels of competition, with Keenan himself and his students achieving remarkable success against elite-level opposition.",
   "key_principles": [
     "Lapel control creates distance management and posture breaking opportunities impossible with traditional grips",
@@ -306,7 +307,7 @@
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Fundamental principle governing all lapel control and fighting sequences"
+      "relationship": "Fundamental principle governing all lapel control, grip-fighting, and lapel-feeding sequences"
     },
     {
       "name": "Collar Control",
@@ -319,9 +320,9 @@
       "relationship": "Primary defensive framework achieved through systematic lapel guard application and retention"
     },
     {
-      "name": "Grips",
+      "name": "Hand Fighting",
       "content_type": "Principle",
-      "relationship": "Essential skill for establishing and maintaining lapel-based controls"
+      "relationship": "Grip-fighting skill essential for winning the lapel exchange and securing controls before the opponent can strip them"
     },
     {
       "name": "Connection Principles",
@@ -362,6 +363,48 @@
       "name": "Dynamic Guard System",
       "content_type": "System",
       "relationship": "Complementary guard system that integrates well with lapel-based positions"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What makes the Keenan Cornelius Lapel Guard System fundamentally different from traditional open guards?",
+      "answer": "It weaponizes the opponent's own gi lapel as a primary control point, using fabric tension to break posture, manage distance, and generate mechanical leverage that hand grips alone cannot produce — letting structure compensate for deficits in size or strength."
+    },
+    {
+      "question": "How is the foundational Worm Guard position established?",
+      "answer": "You feed the opponent's lapel under their near leg and grip it on the opposite side, locking their posture and mobility while building a stable platform for sweeps, back takes, and transitions into the system's other lapel configurations."
+    },
+    {
+      "question": "How does Squid Guard differ from Worm Guard within the system?",
+      "answer": "Squid Guard wraps the lapel around the opponent's arm and leg simultaneously, eliminating many hand-fighting options and forcing predictable defensive patterns, which raises sweep success rates and simplifies decision-making during guard retention."
+    },
+    {
+      "question": "Why should you never rely on lapel control alone?",
+      "answer": "A single lapel grip is vulnerable to a simple strip-and-pass. Layering collar, sleeve, and leg controls builds redundancy so the position survives even when the opponent successfully attacks any one connection point."
+    },
+    {
+      "question": "What is the recommended way for beginners to enter lapel guards?",
+      "answer": "Start from open guards you already know — collar-sleeve, spider, or De La Riva — and feed the lapel from there, reducing the learning curve while secondary grips keep the opponent's hands occupied during the feed."
+    },
+    {
+      "question": "How do you maintain lapel control under heavy stack pressure?",
+      "answer": "Use hip mobility and core strength to preserve the connection, convert lapel tension into frames that create escape angles, and transition to an alternative lapel configuration when the primary position becomes compromised."
+    },
+    {
+      "question": "Why is lapel control especially effective for smaller or weaker practitioners?",
+      "answer": "Wrapping the lapel around limbs creates fixed points and leverage systems that multiply pulling and redirecting force, allowing skeletal structure and fabric tension to replace raw strength when off-balancing larger opponents."
+    },
+    {
+      "question": "What are the most common mistakes when learning this system?",
+      "answer": "Chasing complex variations like Squid Guard before mastering fundamental Worm Guard mechanics and basic sweeps, treating lapel guards as static positions while neglecting hip movement, and relying on lapel control without layering supporting grips."
+    },
+    {
+      "question": "How should the lapel guard system be drilled for fastest progress?",
+      "answer": "Begin with isolated, no-resistance lapel-feeding reps, progress to cooperative drilling with graduated resistance, then run focused positional sparring that starts and resets from lapel positions for high-volume, system-specific repetition."
+    },
+    {
+      "question": "What primary attacks does the system threaten once control is consolidated?",
+      "answer": "High-percentage sweeps driven by lapel off-balancing, back takes from the entanglement, and submissions such as triangles and omoplatas, all chained so that a defended attack immediately sets up the next dilemma for the opponent."
     }
   ]
 }

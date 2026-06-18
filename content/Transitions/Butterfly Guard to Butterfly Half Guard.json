@@ -1,5 +1,6 @@
 {
   "name": "Butterfly Guard to Butterfly Half Guard",
+  "summary": "Butterfly Guard to Butterfly Half Guard is a top-game transition where the passer clears one of the opponent's butterfly hooks and traps the remaining leg in half guard, downgrading the symmetric double-hook sweep threat into a more controllable asymmetric position.",
   "description": "Learn to transition from butterfly guard top to butterfly half guard by clearing one hook. Master grip sequences, hip positioning, and timing to advance past butterfly guard.",
   "tags": [
     "bjj",
@@ -90,10 +91,6 @@
     {
       "name": "Butterfly Sweep",
       "relationship": "Primary threat from bottom that creates counter-transition windows"
-    },
-    {
-      "name": "Butterfly Hook Recovery",
-      "relationship": "Opponent's primary defensive response to regain full butterfly guard"
     },
     {
       "name": "Long Step Pass",

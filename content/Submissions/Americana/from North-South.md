@@ -33,10 +33,32 @@ description: "Master the Americana shoulder lock from North-South position. Comp
 }
 </script>
 
-> **SAFETY**: Americana from North-South targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Americana from North-South",
+  "description": "The Americana from North-South is a figure-four shoulder lock applied from the perpendicular North-South pin, where the top player traps the defender's near elbow with ribcage weight and paints the wrist toward the mat to force damaging external shoulder rotation.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Americana from North-South is a figure-four shoulder lock applied from the perpendicular North-South pin, where the top player traps the defender's near elbow with ribcage weight and paints the wrist toward the mat to force damaging external shoulder rotation.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (specifically glenohumeral joint and rotator cuff)</span>
+<span class="meta-chip">68% success</span>
+</div>
+
+> [!danger] Safety
+> Americana from North-South targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,57 +75,7 @@ The setup opportunity most commonly arises when the bottom player extends an arm
 
 Strategically, this submission functions as a natural chain attack from North-South control. When the defender commits arms to framing against the chest pressure, one arm inevitably becomes more vulnerable to isolation. The finish requires the attacker to maintain constant downward pressure while painting the defender's hand toward the mat in an arc, creating the rotational force that attacks the glenohumeral joint and rotator cuff structures.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (specifically glenohumeral joint and rotator cuff)
-**Starting Position**: [[Positions/North-South]]
-**From Position**: [[Positions/North-South]] (Top)
-**Success Rate**: 68%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
-| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
-| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
-| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
-| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat or opponent
-- Any distress vocalization or unusual sound
-- Slapping mat with free hand repeatedly
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip on the wrist
-3. Carefully lower the arm back to neutral position (do not drop suddenly)
-4. Release control of the elbow and allow opponent to move freely
-5. Check with partner verbally to ensure they are okay
-6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden rotational force
-- Never use competition speed or full pressure in training
-- Always allow clear access to tap with free hand
-- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
-- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
-- Avoid repeated submissions on the same shoulder in a single training session
-
+**Starting Position**: [[Positions/North-South]] · **From**: [[Positions/North-South]] (Top)
 
 </section>
 
@@ -248,37 +220,61 @@ Strategically, this submission functions as a natural chain attack from North-So
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/North-South]] - Primary control position for this submission variant
 - [[Positions/Side Control]] - Adjacent pin position with Americana transitions through North-South
-- [[Submissions/Americana]] - Parent submission family covering all positional variants
 - [[Positions/Kimura Trap]] - Related control position for shoulder lock attacks from similar angles
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Americana from North-South leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
+| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
+| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
+| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
+| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on opponent or mat (minimum 2 taps)
+- Physical foot tap on mat or opponent
+- Any distress vocalization or unusual sound
+- Slapping mat with free hand repeatedly
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the shoulder
+2. Release the figure-four grip on the wrist
+3. Carefully lower the arm back to neutral position (do not drop suddenly)
+4. Release control of the elbow and allow opponent to move freely
+5. Check with partner verbally to ensure they are okay
+6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
+
+
+**Training Restrictions**:
+- Never spike, jerk, or apply sudden rotational force
+- Never use competition speed or full pressure in training
+- Always allow clear access to tap with free hand
+- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
+- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
+- Avoid repeated submissions on the same shoulder in a single training session
+
 
 </section>
 

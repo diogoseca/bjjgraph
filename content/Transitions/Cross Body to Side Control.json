@@ -11,6 +11,7 @@
     "pressure"
   ],
   "from_position": "Cross Body Ride/Top",
+  "summary": "Cross Body to Side Control is a turtle-attack transition where the top player abandons the back take and instead drives perpendicular shoulder pressure to collapse a turtled opponent's structure, flattening them onto their back into dominant side control.",
   "outcomes": [
     {
       "to": "Side Control/Top",
@@ -253,6 +254,14 @@
         "answer": "Choose the side control transition when the opponent demonstrates strong turtle defense that prevents back exposure—tight elbows, hidden neck, solid posting structure, or effective hook defense. If multiple back take attempts have been defended and the opponent is successfully maintaining their defensive shell, flattening to side control provides reliable positional advancement rather than stalling in a control position."
       },
       {
+        "question": "What grips or control points must you secure before initiating the flatten?",
+        "answer": "Before driving the flatten, you need upper body control that prevents the opponent from standing—a harness/seatbelt grip or a deep overhook—plus a near-side control point on their far hip or far armpit. The far-hip control is the non-negotiable grip: without it the opponent simply rotates their hips and recovers guard the instant you commit weight forward."
+      },
+      {
+        "question": "In which direction should your weight and force travel during the collapse and slide?",
+        "answer": "Force travels downward through your shoulder into the opponent's near-side shoulder blade to buckle their posting arm, angled slightly toward their head by walking your feet up. Once they collapse, your weight travels laterally along their spine as your chest slides from their back to their chest—down first to break the structure, then sideways to settle into side control, never forward past their head where you can be rolled."
+      },
+      {
         "question": "Your opponent begins executing a granby roll as you initiate the flatten—how do you respond?",
         "answer": "Follow the roll direction by maintaining chest contact and letting your weight travel with their rotation rather than trying to stop the roll. Keep your chest glued to their back throughout the movement. If they complete the roll, immediately establish top control in the resulting position. Resisting the roll creates separation that often results in a worse outcome than flowing with it."
       },
@@ -267,6 +276,14 @@
       {
         "question": "What distinguishes the knee block from other hip control methods during this transition?",
         "answer": "The near-side knee block creates a physical barrier at the opponent's far hip that passively prevents knee insertion for guard recovery. Unlike hand-based hip control which requires grip strength and can be stripped, the knee block uses skeletal structure to maintain the barrier. This frees your hands to establish crossface and underhook control while the knee handles hip management automatically."
+      },
+      {
+        "question": "If the opponent defends the flatten and rebuilds a tight turtle, what is your highest-percentage chain attack?",
+        "answer": "Re-threaten the back take. When the opponent commits all their defensive resources to preventing the flatten—widening base and driving their weight back into you—they typically expose their back or stop defending the seatbelt. Reload full cross body ride pressure, attack the hooks or the harness, and let the back-take threat force them to flatten again, opening the side-control slide as your secondary option in a two-way dilemma."
+      },
+      {
+        "question": "When is the optimal moment to commit to the slide from back contact to chest contact?",
+        "answer": "Commit to the slide the instant the opponent's posting arm buckles and their hips drop toward the mat—the moment their turtle structure breaks and they can no longer re-post. Sliding before the collapse lets them rebuild base into your moving weight; sliding too late lets them re-turtle. The trigger is tactile: you feel their near shoulder give way and their resistance to your downward pressure suddenly disappear."
       },
       {
         "question": "How do you adjust your approach when the opponent repeatedly rebuilds their turtle base during flattening attempts?",

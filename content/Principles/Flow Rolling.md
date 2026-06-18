@@ -143,6 +143,16 @@ description: "Master Flow Rolling in BJJ. Learn cooperative training principles,
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Flow Rolling",
+  "description": "Flow Rolling is a cooperative training method where partners spar continuously at roughly 30-50% intensity, prioritizing smooth movement, transitions, and technical exploration over winning exchanges, positional dominance, or submissions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master Flow Rolling in BJJ. Learn cooperative training principles,
 
 ## What is Flow Rolling?
 
-Flow Rolling represents the cooperative movement practice methodology where partners engage in continuous technical exchange at reduced intensity, emphasizing movement quality, positional transitions, and technical variation exploration rather than competitive outcomes or positional dominance. Unlike competitive sparring focused on winning exchanges, flow rolling is a comprehensive training framework that prioritizes movement education, technical creativity, and injury-free skill development through controlled resistance and mutual cooperation. This concept encompasses the tempo calibration, resistance modulation, and cooperative principles that transform combative sparring into collaborative technical exploration while maintaining realistic movement patterns. Flow rolling serves as both a technical development tool that enables high-volume movement repetition without injury risk, and a creative laboratory where innovative solutions and technical variations can be explored without competitive pressure. The ability to engage effectively in flow rolling often determines training longevity and technical breadth, making it one of the most valuable injury-prevention and skill-expansion methodologies in BJJ training architecture.
+**Flow Rolling is a cooperative training method where partners spar continuously at roughly 30-50% intensity, prioritizing smooth movement, transitions, and technical exploration over winning exchanges, positional dominance, or submissions.**
+
+As BJJ practitioners accumulate mat hours, the inability to train at high intensity every session becomes the primary limiter on technical growth and longevity, and flow rolling emerged as the answer to that constraint. Where competitive sparring filters every exchange through the question of who wins, flow rolling removes that filter so both partners can prioritize movement education, technical creativity, and injury-free repetition through controlled resistance and mutual cooperation. It encompasses the tempo calibration, resistance modulation, and cooperative principles that transform combative sparring into collaborative technical exploration while preserving realistic movement patterns. Functionally, flow rolling serves two roles at once: a technical development tool enabling high-volume movement repetition without injury risk, and a creative laboratory where innovative solutions and technical variations can be tested free of competitive pressure. The reduced intensity is not a watering-down of the art but a deliberate reallocation of attention away from outcome and toward mechanics, timing, and transition quality. The ability to flow roll effectively often determines training longevity and technical breadth, making it one of the most valuable injury-prevention and skill-expansion methodologies in BJJ. Practitioners who master cooperative intensity calibration can train more frequently, explore more positions, and sustain a longer competitive and recreational career than those who treat every round as a contest.
 
 </section>
 

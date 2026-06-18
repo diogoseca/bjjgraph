@@ -33,10 +33,32 @@ description: "Master the Kimura shoulder lock from Twister Side Control. Complet
 }
 </script>
 
-> **SAFETY**: Kimura from Twister Side Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Twister Side Control",
+  "description": "The Kimura from Twister Side Control is a 10th Planet shoulder lock applied with a figure-four grip on the near arm, where the position's leg entanglement nullifies the roll-through escape that normally defends the technique.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Twister Side Control is a 10th Planet shoulder lock applied with a figure-four grip on the near arm, where the position's leg entanglement nullifies the roll-through escape that normally defends the technique.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Twister Side Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,54 +75,7 @@ What distinguishes this Kimura variant from applications in traditional side con
 
 This variant integrates naturally into the broader Twister Side Control submission chain. When defending against twister and darce threats, the bottom player frequently extends arms to create frames, directly exposing the Kimura opportunity. The result is a genuine offensive dilemma: protecting the neck from chokes requires extending arms that become vulnerable to the shoulder lock, and vice versa. This multi-threat dynamic makes the Kimura from Twister Side Control particularly effective as part of a systematic attacking approach rather than as an isolated technique.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Twister Control/Twister Side Control]]
-**From Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
-| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
-| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
-| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+**Starting Position**: [[Positions/Twister Control/Twister Side Control]] · **From**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 </section>
 
@@ -266,24 +241,15 @@ This variant integrates naturally into the broader Twister Side Control submissi
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Transitions/Darce Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Far Side Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Twister Control/Twister Side Control]] - Starting position providing lateral control and leg entanglement for this Kimura variant
 - [[Positions/Twister Control]] - Parent position system within the 10th Planet methodology
 - [[Positions/Kimura Trap]] - Related control position for continuing the attack when initial finish is defended
@@ -291,16 +257,47 @@ This variant integrates naturally into the broader Twister Side Control submissi
 - [[Positions/Back Control]] - Alternative transition when defender turns away during Kimura defense
 - [[Positions/Side Control]] - Traditional lateral control variant with different Kimura mechanics
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kimura from Twister Side Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
+| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
+| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
+| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making any verbal distress sound)
+- Physical hand tap (multiple taps with free hand)
+- Physical foot tap (multiple taps with either foot)
+- Any distress signal including screaming or unusual sounds
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant tap is felt or heard
+2. Return the arm toward neutral position (externally rotate back to starting position)
+3. Release the figure-four grip completely
+4. Allow partner to self-assess shoulder mobility before continuing
+5. Never release suddenly or allow arm to spring back forcefully
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled
+- Never use competition speed or surprise attacks in training
+- Always ensure partner has at least one hand free to tap
+- Do not apply while partner is in awkward body position that prevents tapping
+- Never combine with weight pressure that restricts breathing while finishing
+- Respect immediate taps without testing partner's pain tolerance
+
 
 </section>
 

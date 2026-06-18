@@ -33,10 +33,32 @@ description: "Master the Americana shoulder lock from Modified Mount. Learn grip
 }
 </script>
 
-> **SAFETY**: Americana from Modified Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Americana from Modified Mount",
+  "description": "The Americana from Modified Mount is a figure-four shoulder lock applied from the asymmetric top mount, using the posted leg's stability to pin the near-side wrist to the mat and externally rotate the trapped shoulder until the opponent taps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Americana from Modified Mount is a figure-four shoulder lock applied from the asymmetric top mount, using the posted leg's stability to pin the near-side wrist to the mat and externally rotate the trapped shoulder until the opponent taps.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (specifically glenohumeral joint and rotator cuff)</span>
+<span class="meta-chip">68% success</span>
+</div>
+
+> [!danger] Safety
+> Americana from Modified Mount targets the Shoulder joint (specifically glenohumeral joint and rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,57 +75,7 @@ From a strategic perspective, the Americana from Modified Mount functions as a n
 
 Competition data consistently shows the Americana from Modified Mount as a high-percentage finishing option at intermediate and advanced levels, with the position's inherent stability allowing methodical application of progressive rotational pressure. The key distinction from other Americana variants is the enhanced base security that the posted leg provides. The attacker can apply slow, deliberate pressure without rushing, knowing the posted leg prevents the explosive bridge-and-roll reversals that plague Americana attempts from standard mount.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (specifically glenohumeral joint and rotator cuff)
-**Starting Position**: [[Positions/Mount/Modified Mount]]
-**From Position**: [[Positions/Mount/Modified Mount]] (Top)
-**Success Rate**: 68%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
-| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
-| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
-| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
-| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat or opponent
-- Any distress vocalization or unusual sound
-- Slapping mat with free hand repeatedly
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Release the figure-four grip on the wrist
-3. Carefully lower the arm back to neutral position (do not drop suddenly)
-4. Release control of the elbow and allow opponent to move freely
-5. Check with partner verbally to ensure they are okay
-6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply sudden rotational force
-- Never use competition speed or full pressure in training
-- Always allow clear access to tap with free hand
-- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
-- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
-- Avoid repeated submissions on the same shoulder in a single training session
-
+**Starting Position**: [[Positions/Mount/Modified Mount]] · **From**: [[Positions/Mount/Modified Mount]] (Top)
 
 </section>
 
@@ -265,39 +237,62 @@ Competition data consistently shows the Americana from Modified Mount as a high-
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/Modified Mount]] - Starting position providing asymmetric stability for this submission variant
 - [[Positions/Mount]] - Parent position family from which Modified Mount derives
-- [[Submissions/Americana]] - Parent submission family covering all Americana variants
-- [[Submissions/Kimura]] - Reverse shoulder lock sharing similar figure-four grip mechanics
 - [[Positions/Mount/S Mount]] - Alternative asymmetric mount position for armbar transitions when Americana is defended
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Americana from Modified Mount leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with physical therapy, possible surgical intervention |
+| Shoulder capsule damage and labral tears | High | 4-8 months, often requires surgery |
+| AC joint separation or damage | Medium | 6-12 weeks depending on grade |
+| Glenohumeral joint dislocation | CRITICAL | 3-6 months, high risk of chronic instability |
+| Biceps tendon strain or tear | Medium | 4-8 weeks for strain, 3-4 months for tear |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial pressure to expected tap. In drilling, apply 10-20% pressure maximum.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on opponent or mat (minimum 2 taps)
+- Physical foot tap on mat or opponent
+- Any distress vocalization or unusual sound
+- Slapping mat with free hand repeatedly
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the shoulder
+2. Release the figure-four grip on the wrist
+3. Carefully lower the arm back to neutral position (do not drop suddenly)
+4. Release control of the elbow and allow opponent to move freely
+5. Check with partner verbally to ensure they are okay
+6. If partner indicates pain, encourage them to keep shoulder mobile and seek medical attention if pain persists
+
+
+**Training Restrictions**:
+- Never spike, jerk, or apply sudden rotational force
+- Never use competition speed or full pressure in training
+- Always allow clear access to tap with free hand
+- Stop immediately at any sign of discomfort (do not wait for tap in drilling)
+- Never practice on partners with existing shoulder injuries without explicit permission and medical clearance
+- Avoid repeated submissions on the same shoulder in a single training session
+
 
 </section>
 

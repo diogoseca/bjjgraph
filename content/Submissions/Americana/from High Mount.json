@@ -1,6 +1,7 @@
 {
   "name": "Americana from High Mount",
   "description": "Master the Americana shoulder lock from High Mount. Finishing guide with figure-four grip mechanics, rotational pressure techniques, and escape defense.",
+  "summary": "The Americana from High Mount is a figure-four shoulder lock where the top player pins the opponent's wrist to the mat and rotates the arm toward the hip, torquing the shoulder joint until they tap.",
   "tags": [
     "bjj",
     "submission",
@@ -154,7 +155,7 @@
     }
   ],
   "attacker": {
-    "name": "from High Mount Attacker",
+    "name": "Americana from High Mount Attacker",
     "description": "Execute the Americana shoulder lock from High Mount. Attacking guide covering wrist isolation, figure-four grip establishment, paint stroke finishing, and countering defensive responses.",
     "overview": "Attacking the Americana from high mount gives you a structural advantage unmatched by other positions. Your weight pins the opponent's shoulder blade to the mat, creating a fixed pivot point for the rotational shoulder lock. The high knee position prevents bridging and severely limits defensive arm movement, allowing deliberate wrist isolation and grip establishment without the urgency required from less dominant positions. Patience and methodical pressure define this attack—the position does most of the work for you. The key is recognizing that your positional dominance means you can take time to establish grips correctly rather than rushing and creating scramble opportunities.",
     "key_principles": [
@@ -355,7 +356,7 @@
     ]
   },
   "defender": {
-    "name": "from High Mount Defender",
+    "name": "Americana from High Mount Defender",
     "description": "Defend the Americana shoulder lock from High Mount. Recognition cues, escape timing, and defensive techniques to survive this dominant position submission attack.",
     "overview": "Defending the Americana from high mount requires early recognition and immediate action. Once the figure-four grip is secured, your options diminish rapidly because the attacker's weight prevents you from bridging or generating the rotational force needed to free your arm. Survival depends on preventing wrist isolation in the first place, timing defensive bridges during grip transitions, and understanding that your best escape windows occur when the attacker commits weight to establishing the submission grip. The fundamental defensive principle is that every offensive adjustment the attacker makes requires a weight shift—and weight shifts create escape opportunities that you must be prepared to exploit instantly.",
     "key_principles": [

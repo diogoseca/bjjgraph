@@ -34,6 +34,18 @@ description: "Master the knee cut pass from feet on hips guard in BJJ. Setup, ex
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Cut from Feet on Hips",
+  "description": "Knee Cut from Feet on Hips is an open-guard pass where the top player clears one foot off the hip, pins that leg, and slices the knee diagonally across the thigh to advance into half guard or side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the knee cut pass from feet on hips guard in BJJ. Setup, ex
 </div>
 
 <section id="overview" class="content-section">
+
+**Knee Cut from Feet on Hips is an open-guard pass where the top player clears one foot off the hip, pins that leg, and slices the knee diagonally across the thigh to advance into half guard or side control.**
 
 The knee cut from feet on hips is a fundamental guard passing technique where the top player breaks through the bottom player's leg frames by clearing one foot off the hip and driving their knee diagonally across the bottom player's thigh line. This pass bridges the gap between the open guard distance management phase and close-range pressure passing, converting the feet-on-hips battle into half guard or side control where the passer's weight advantage becomes decisive. The technique rewards patience during the frame-breaking phase and explosive commitment once the cutting knee enters the gap.
 

@@ -82,6 +82,14 @@ description: "Master the leg weave escape from bottom position. Step-by-step def
     },
     {
       "@type": "Question",
+      "name": "What conditions must exist before you can attempt the leg weave escape to half guard?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need at least one remaining leg connection — typically your far-side hook on the passer's thigh or hip — so the pass is not already complete, plus enough arm mobility to wedge a forearm frame against their neck or shoulder. Without a retained hook the passer simply steps over to side control, and without frame access any hip escape is immediately followed and the space reclaimed. Retained connection and frame access are the two non-negotiable prerequisites for the escape to function."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Why must frames be established before attempting the hip escape rather than simultaneously?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -110,14 +118,6 @@ description: "Master the leg weave escape from bottom position. Step-by-step def
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The near-side underhook is the highest priority grip immediately after recovering half guard. It provides both defensive protection against the passer re-establishing their passing position and offensive options for sweeps and back takes. Without the underhook, the passer can easily re-establish crossface control and reinitiate their leg weave. Fight for the underhook while your knee shield maintains the space created during the escape."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "The passer begins backstopping when you create angle during your hip escape - how do you prevent back exposure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintain your shoulders within 45 degrees of the mat throughout the hip escape and keep your chest oriented toward the passer rather than turning away. Your near-side elbow should stay connected to your knee to prevent the passer from circling behind you. If you feel them beginning to circle toward your back, immediately flatten back to the mat and reset your frames rather than continuing the escape. A reset from leg weave bottom is far preferable to giving up back control."
       }
     }
   ]

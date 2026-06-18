@@ -143,6 +143,16 @@ description: "Master Positional Sparring in BJJ. Learn structured resistance tra
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Positional Sparring",
+  "description": "Positional sparring is a structured resistance-training method where partners start from a fixed position with asymmetric objectives — one attacks, one defends — resetting on completion to maximize focused repetitions of a specific scenario.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master Positional Sparring in BJJ. Learn structured resistance tra
 
 ## What is Positional Sparring?
 
-Positional Sparring represents the structured resistance training methodology where practitioners begin from predetermined positions with specific objectives and constraints, creating focused development opportunities for position-specific skills that bridge drilling and live sparring. Unlike full sparring with open starting position, positional sparring is a comprehensive training framework that isolates specific scenarios to maximize repetition density and technical problem-solving opportunities across targeted positional contexts. This concept encompasses the pedagogical structure, reset protocols, and objective-setting mechanisms that transform general rolling into focused skill development with measurable progression indicators. Positional sparring serves as both a diagnostic tool that reveals technical gaps in specific positions, and an accelerated learning environment that provides 5-10x more repetitions of target scenarios compared to live sparring. The ability to implement effective positional sparring methodology often determines the efficiency of skill acquisition and competitive preparation, making it one of the most valuable training tools in modern BJJ pedagogy.
+**Positional sparring is a structured resistance-training method where partners start from a fixed position with asymmetric objectives — one attacks, one defends — resetting on completion to maximize focused repetitions of a specific scenario.**
+
+Within modern BJJ pedagogy, positional sparring emerged as the critical bridge between cooperative drilling and unstructured live rolling, formalized by competition-focused academies seeking to compress skill acquisition. By constraining where a round begins and what each partner is trying to achieve, it isolates specific scenarios to maximize repetition density and technical problem-solving across targeted positional contexts. This methodology encompasses the pedagogical structure, reset protocols, and objective-setting mechanisms that transform general rolling into focused skill development with measurable progression indicators. Positional sparring serves as both a diagnostic tool that reveals technical gaps in specific positions, and an accelerated learning environment that provides 5-10x more repetitions of target scenarios compared to live sparring. The ability to implement effective positional sparring methodology often determines the efficiency of skill acquisition and competitive preparation, making it one of the most valuable training tools in modern BJJ pedagogy.
 
 </section>
 

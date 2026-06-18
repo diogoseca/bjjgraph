@@ -33,10 +33,32 @@ description: "Master Kneebar from Guard in BJJ. Complete guide with safety proto
 }
 </script>
 
-> **SAFETY**: Kneebar from Guard targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear or rupture. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Guard",
+  "description": "Kneebar from Guard is a bottom-position leg lock where the guard player pivots perpendicular to an isolated leg, traps it with a figure-four, and hyperextends the knee by driving the hips upward while pinning the heel tight to the chest.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**Kneebar from Guard is a bottom-position leg lock where the guard player pivots perpendicular to an isolated leg, traps it with a figure-four, and hyperextends the knee by driving the hips upward while pinning the heel tight to the chest.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Kneebar from Guard targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -49,56 +71,7 @@ description: "Master Kneebar from Guard in BJJ. Complete guide with safety proto
 
 The Kneebar from Guard represents a powerful attacking option from bottom positions, allowing the guard player to transition from defensive positioning to an immediate submission threat. This technique targets the knee joint through hyperextension, creating mechanical stress on the posterior cruciate ligament and collateral ligaments. The kneebar from guard is particularly effective because it capitalizes on the opponent's forward pressure and weight distribution, using their momentum against them. The technique can be executed from multiple guard variations including closed guard, butterfly guard, open guard, and De La Riva guard, each offering unique entry mechanics and control positions. Modern leg lock systems have elevated the kneebar from guard to a fundamental attacking position, with practitioners developing sophisticated entries that blend seamlessly with sweeps and back takes. The position requires precise timing, hip positioning, and leg control to prevent escape while maintaining offensive pressure. When executed correctly, the kneebar from guard creates an inescapable submission that forces immediate tap or results in serious injury.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Posterior cruciate ligament (PCL) tear or rupture | CRITICAL | 6-12 months with surgery, potential permanent instability |
-| Medial collateral ligament (MCL) sprain or tear | High | 4-8 weeks for grade 1-2, 8-12 weeks for grade 3 |
-| Lateral collateral ligament (LCL) damage | High | 6-10 weeks depending on severity |
-| Meniscus tear from rotational stress | High | 4-6 months with surgical repair |
-| Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
-
-
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
-
-**Tap Signals**:
-- Verbal tap (preferred for leg locks)
-- Multiple rapid hand taps on opponent or mat
-- Multiple foot taps on mat or opponent
-- Any vocalization of distress or pain
-- Frantic or panicked movement
-
-
-**Release Protocol**:
-1. Immediately stop all hip extension pressure
-2. Release the leg grip and allow knee to return to neutral position
-3. Do not suddenly drop the leg - control descent
-4. Allow partner to assess knee integrity before continuing
-5. Check with partner verbally before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply progressive pressure
-- Never use competition speed in training - always allow time to tap
-- Always maintain control of opponent's heel - never let it slip out during application
-- Never practice on training partners with known knee injuries without explicit permission
-- Never combine with explosive rotational movements that add torque to the knee
-- Beginners should not practice finishing pressure - focus on positional control only
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -269,10 +242,9 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Kneebar]]
 - [[Submissions/Flying Kneebar]]
 - [[Submissions/Inside Heel Hook]]
@@ -283,14 +255,6 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 - [[Submissions/Flying Armbar]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Calf Slicer]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/X-Guard/Single Leg X-Guard]] - Natural transition position that shares similar leg isolation mechanics
 - [[Positions/Ashi Garami]] - Fundamental leg entanglement position with similar control mechanics
 - [[Positions/Kneebar Control]] - Finishing position achieved when kneebar is secured from guard
@@ -301,16 +265,49 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 - [[Positions/X-Guard]] - Common transition when opponent defends kneebar by standing
 - [[Positions/De La Riva Guard]] - Primary entry guard for kneebar attacks against standing opponents
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kneebar from Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Posterior cruciate ligament (PCL) tear or rupture | CRITICAL | 6-12 months with surgery, potential permanent instability |
+| Medial collateral ligament (MCL) sprain or tear | High | 4-8 weeks for grade 1-2, 8-12 weeks for grade 3 |
+| Lateral collateral ligament (LCL) damage | High | 6-10 weeks depending on severity |
+| Meniscus tear from rotational stress | High | 4-6 months with surgical repair |
+| Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
+
+
+**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
+
+**Tap Signals**:
+- Verbal tap (preferred for leg locks)
+- Multiple rapid hand taps on opponent or mat
+- Multiple foot taps on mat or opponent
+- Any vocalization of distress or pain
+- Frantic or panicked movement
+
+
+**Release Protocol**:
+1. Immediately stop all hip extension pressure
+2. Release the leg grip and allow knee to return to neutral position
+3. Do not suddenly drop the leg - control descent
+4. Allow partner to assess knee integrity before continuing
+5. Check with partner verbally before resuming training
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - always apply progressive pressure
+- Never use competition speed in training - always allow time to tap
+- Always maintain control of opponent's heel - never let it slip out during application
+- Never practice on training partners with known knee injuries without explicit permission
+- Never combine with explosive rotational movements that add torque to the knee
+- Beginners should not practice finishing pressure - focus on positional control only
+
 
 </section>
 

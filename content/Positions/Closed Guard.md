@@ -35,6 +35,18 @@ description: "Master the closed guard in BJJ. Complete strategic guide to bottom
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Closed Guard",
+  "description": "Closed Guard is the bottom-player guard where the legs encircle the opponent's torso with ankles crossed behind their back, granting sweeps, submissions, and posture control from underneath while denying the top player any path to pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -49,7 +61,9 @@ description: "Master the closed guard in BJJ. Complete strategic guide to bottom
 
 <section id="overview" class="content-section">
 
-Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, where the bottom player wraps their legs around the opponent's waist with ankles locked behind the back. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.
+**Closed Guard is the bottom-player guard where the legs encircle the opponent's torso with ankles crossed behind their back, granting sweeps, submissions, and posture control from underneath while denying the top player any path to pass.**
+
+Closed Guard represents one of the most fundamental and strategically complex positions in Brazilian Jiu-Jitsu, and is arguably the first guard every practitioner learns. This position creates a unique strategic dynamic where the bottom player, despite being underneath, possesses significant control and offensive capability while the top player, despite being on top, finds themselves in a fundamentally defensive position requiring systematic escape.
 
 The closed guard exemplifies BJJ's core principle of using leverage and technique to overcome positional disadvantage. From the bottom perspective, the closed guard serves as both a defensive barrier preventing advancement and an offensive platform for sweeps, submissions, and transitions. The locked legs create a closed kinetic chain that allows control of the opponent's hips while threatening their upper body, forcing them to defend multiple attack vectors simultaneously.
 
@@ -123,55 +137,71 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (24% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (20% of attempts)
 
-- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (10% of attempts)
+- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (8% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (9% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (7% of attempts)
 
-- **[[Cross Collar Choke from Closed Guard/Attacker|Cross Collar Choke from Closed Guard]]** (7% of attempts)
+- **[[Cross Collar Choke from Closed Guard/Attacker|Cross Collar Choke from Closed Guard]]** (6% of attempts)
 
-- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (7% of attempts)
+- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (6% of attempts)
 
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (6% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (5% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (3% of attempts)
 
-- **[[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Rolling Armbar from Closed Guard]]** (4% of attempts)
+- **[[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Rolling Armbar from Closed Guard]]** (3% of attempts)
 
-- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (3% of attempts)
+- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (2% of attempts)
 
-- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (3% of attempts)
+- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (2% of attempts)
 
-- **[[Submissions/Tarikoplata/Attacker|Tarikoplata]]** (3% of attempts)
+- **[[Submissions/Tarikoplata/Attacker|Tarikoplata]]** (2% of attempts)
 
-- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (2% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (1% of attempts)
 
-- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (2% of attempts)
+- **[[Transitions/Overhook Sweep/Attacker|Overhook Sweep]]** (1% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (2% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (1% of attempts)
 
-- **[[Submissions/Spinning Armbar/Attacker|Spinning Armbar]]** (2% of attempts)
+- **[[Submissions/Spinning Armbar/Attacker|Spinning Armbar]]** (1% of attempts)
 
-- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (2% of attempts)
+- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (1% of attempts)
 
-- **[[Monoplata from Guard/Attacker|Monoplata from Guard]]** (2% of attempts)
+- **[[Monoplata from Guard/Attacker|Monoplata from Guard]]** (1% of attempts)
 
-- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (1% of attempts)
+- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (2% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (1% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (2% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (1% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (2% of attempts)
 
-- **[[Transitions/Muscle Sweep/Attacker|Muscle Sweep]]** (1% of attempts)
+- **[[Transitions/Muscle Sweep/Attacker|Muscle Sweep]]** (2% of attempts)
 
-- **[[Transitions/Closed Guard to Overhook Guard/Attacker|Closed Guard to Overhook Guard]]** (1% of attempts)
+- **[[Transitions/Closed Guard to Overhook Guard/Attacker|Closed Guard to Overhook Guard]]** (2% of attempts)
 
-- **[[Transitions/High Guard to Rubber Guard/Attacker|High Guard to Rubber Guard]]** (1% of attempts)
+- **[[Transitions/High Guard to Rubber Guard/Attacker|High Guard to Rubber Guard]]** (2% of attempts)
 
-- **[[Transitions/Transition to Diamond Guard/Attacker|Transition to Diamond Guard]]** (1% of attempts)
+- **[[Transitions/Transition to Diamond Guard/Attacker|Transition to Diamond Guard]]** (2% of attempts)
 
-- **[[Submissions/Flying Armbar/Attacker|Flying Armbar]]** (1% of attempts)
+- **[[Submissions/Flying Armbar/Attacker|Flying Armbar]]** (2% of attempts)
+
+- **[[Armbar from Guard/Attacker|Armbar from Guard]]** (4% of attempts)
+
+- **[[Flying Armbar from Closed Guard/Attacker|Flying Armbar from Closed Guard]]** (1% of attempts)
+
+- **[[Kimura from Guard/Attacker|Kimura from Guard]]** (3% of attempts)
+
+- **[[Kneebar from Guard/Attacker|Kneebar from Guard]]** (1% of attempts)
+
+- **[[Loop Choke from Closed Guard/Attacker|Loop Choke from Closed Guard]]** (1% of attempts)
+
+- **[[Spinning Armbar from Closed Guard/Attacker|Spinning Armbar from Closed Guard]]** (1% of attempts)
+
+- **[[Tarikoplata from Closed Guard/Attacker|Tarikoplata from Closed Guard]]** (1% of attempts)
+
+- **[[Triangle Choke from Closed Guard/Attacker|Triangle Choke from Closed Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -230,9 +260,9 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (32% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (31% of attempts)
 
-- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (27% of attempts)
+- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (26% of attempts)
 
 - **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (22% of attempts)
 
@@ -245,6 +275,8 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 - **[[Transitions/Knee Slice from Closed Guard/Attacker|Knee Slice from Closed Guard]]** (2% of attempts)
 
 - **[[Submissions/Can Opener/Attacker|Can Opener]]** (2% of attempts)
+
+- **[[Can Opener from Closed Guard/Attacker|Can Opener from Closed Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

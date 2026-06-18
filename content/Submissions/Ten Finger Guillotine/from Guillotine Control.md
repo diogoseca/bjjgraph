@@ -33,10 +33,32 @@ description: "Master the Ten Finger Guillotine from Guillotine Control in BJJ. S
 }
 </script>
 
-> **SAFETY**: Ten Finger Guillotine from Guillotine Control targets the Carotid arteries and trachea. Risk: Trachea damage from excessive crushing pressure. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ten Finger Guillotine from Guillotine Control",
+  "description": "The Ten Finger Guillotine from Guillotine Control is a blood choke finished by interlacing all ten fingers around an opponent's already-controlled neck, exploiting the pre-established head control to set choking depth before locking the strongest possible grip.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Ten Finger Guillotine from Guillotine Control is a blood choke finished by interlacing all ten fingers around an opponent's already-controlled neck, exploiting the pre-established head control to set choking depth before locking the strongest possible grip.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Ten Finger Guillotine from Guillotine Control targets the Carotid arteries and trachea. Primary risk: Trachea damage from excessive crushing pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,53 +75,7 @@ The key distinction from other guillotine entries is the ability to pre-load cho
 
 Strategically, this submission chains naturally with the broader guillotine control attack system. If the opponent defends the ten finger grip by hand fighting, the attacker can transition to high elbow guillotine, arm-in guillotine, or use the choke threat to advance to mount or side control. The position rewards patience—the attacker who takes time to establish proper depth and alignment before committing to the finish will have a substantially higher success rate than one who rushes the grip change.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Guillotine Control]]
-**From Position**: [[Positions/Guillotine Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Trachea damage from excessive crushing pressure | High | 2-4 weeks with severe cases requiring medical attention |
-| Neck strain or cervical spine stress from jerking motions | Medium | 1-2 weeks |
-| Loss of consciousness from carotid compression | High | Immediate recovery but repeated incidents can cause long-term damage |
-| Jaw or temporomandibular joint (TMJ) injury from improper chin positioning | Medium | 2-6 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress sound)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any unusual body stiffening or loss of resistance indicating unconsciousness
-
-
-**Release Protocol**:
-1. Immediately release the choking hand grip while maintaining head control
-2. Lower opponent's head gently to prevent whiplash or neck strain
-3. Create space by stepping back or opening guard to remove all pressure
-4. Check partner's awareness and allow recovery time before continuing
-5. If partner was unconscious, elevate legs and monitor breathing
-
-
-**Training Restrictions**:
-- Never apply full pressure at competition speed in training - always give partner time to tap
-- Never jerk or spike the choke with explosive movements
-- Never continue pressure after partner taps or shows distress
-- Never practice on partners with neck injuries without medical clearance
-- Always ensure partner has access to tap with at least one hand free
-
+**Starting Position**: [[Positions/Guillotine Control]] · **From**: [[Positions/Guillotine Control]] (Top)
 
 </section>
 
@@ -264,23 +240,14 @@ Strategically, this submission chains naturally with the broader guillotine cont
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Ten Finger Guillotine]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Chin Strap Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Guillotine Control]] - Starting position for this submission variant
 - [[Positions/Front Headlock]] - Precursor control position before establishing guillotine grip
 - [[Positions/Closed Guard]] - Common consolidation position used to amplify finishing pressure
@@ -288,16 +255,46 @@ Strategically, this submission chains naturally with the broader guillotine cont
 - [[Positions/Anaconda Control]] - Alternative submission path when opponent turns into guillotine
 - [[Submissions/Von Flue Choke]] - Counter-submission opponent may attempt if attacker holds guillotine too long from bottom
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Ten Finger Guillotine from Guillotine Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Trachea damage from excessive crushing pressure | High | 2-4 weeks with severe cases requiring medical attention |
+| Neck strain or cervical spine stress from jerking motions | Medium | 1-2 weeks |
+| Loss of consciousness from carotid compression | High | Immediate recovery but repeated incidents can cause long-term damage |
+| Jaw or temporomandibular joint (TMJ) injury from improper chin positioning | Medium | 2-6 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress sound)
+- Physical hand tap on partner's body or mat
+- Physical foot tap on mat or partner
+- Any unusual body stiffening or loss of resistance indicating unconsciousness
+
+
+**Release Protocol**:
+1. Immediately release the choking hand grip while maintaining head control
+2. Lower opponent's head gently to prevent whiplash or neck strain
+3. Create space by stepping back or opening guard to remove all pressure
+4. Check partner's awareness and allow recovery time before continuing
+5. If partner was unconscious, elevate legs and monitor breathing
+
+
+**Training Restrictions**:
+- Never apply full pressure at competition speed in training - always give partner time to tap
+- Never jerk or spike the choke with explosive movements
+- Never continue pressure after partner taps or shows distress
+- Never practice on partners with neck injuries without medical clearance
+- Always ensure partner has access to tap with at least one hand free
+
 
 </section>
 

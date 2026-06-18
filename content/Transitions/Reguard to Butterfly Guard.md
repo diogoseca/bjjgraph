@@ -34,6 +34,18 @@ description: "Learn the Reguard to Butterfly Guard transition in BJJ. Recover fu
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reguard to Butterfly Guard",
+  "description": "Reguard to Butterfly Guard is a bottom-player guard-recovery transition that rebuilds full butterfly guard from compromised hook control by sequencing frames, a hip escape, deep hook reinsertion, and posture recovery before the top player can complete a pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn the Reguard to Butterfly Guard transition in BJJ. Recover fu
 </div>
 
 <section id="overview" class="content-section">
+
+**Reguard to Butterfly Guard is a bottom-player guard-recovery transition that rebuilds full butterfly guard from compromised hook control by sequencing frames, a hip escape, deep hook reinsertion, and posture recovery before the top player can complete a pass.**
 
 The reguard to butterfly guard is a fundamental guard recovery technique used when your butterfly hook control position becomes compromised through opponent pressure, partial hook clearing, or posture breakdown. Rather than accepting a degraded position vulnerable to passes, this technique systematically restores full butterfly guard structure through coordinated hip movement, hook reinsertion, and grip recovery. It is one of the most frequently used micro-transitions in competition, occurring every time a guard player's hooks are partially disrupted.
 

@@ -1,5 +1,6 @@
 {
   "name": "Cross Collar Choke from Body Triangle",
+  "summary": "The cross collar choke from body triangle is a gi blood choke from back control where the figure-four leg lock frees both hands to feed crossed grips deep into the opponent's collar and compress both carotid arteries.",
   "description": "Master the cross collar choke from body triangle in BJJ. Learn grip mechanics, finishing details, and defensive strategies for this powerful gi submission.",
   "tags": [
     "bjj",
@@ -108,7 +109,7 @@
     }
   ],
   "attacker": {
-    "name": "from Body Triangle Attacker",
+    "name": "Cross Collar Choke from Body Triangle Attacker",
     "description": "Learn to execute the cross collar choke from body triangle. Step-by-step grip mechanics, finishing sequences, and how to overcome common defenses.",
     "overview": "Attacking the cross collar choke from body triangle gives you an exceptionally stable platform for collar work. Your legs handle all positional control through the figure-four lock, freeing both hands entirely for grip fighting and choking. The breathing restriction from the body triangle creates urgency that forces your opponent into defensive errors, opening collar access. This combination of mechanical control and choking threat makes the cross collar choke from body triangle one of the highest-percentage gi finishes from back control, especially when integrated into a submission chain with the RNC and bow and arrow.",
     "key_principles": [
@@ -288,7 +289,7 @@
     ]
   },
   "defender": {
-    "name": "from Body Triangle Defender",
+    "name": "Cross Collar Choke from Body Triangle Defender",
     "description": "Learn to defend the cross collar choke from body triangle. Recognition cues, grip fighting strategies, and escape sequences to survive this attack.",
     "overview": "Defending the cross collar choke from body triangle is one of the most demanding defensive scenarios in gi grappling. You must simultaneously manage the breathing restriction from the body triangle, protect your collar from deep grip insertion, and work toward escaping back control entirely. The body triangle eliminates the standard hook-clearing escape path, forcing you to solve the collar defense and positional escape as interconnected problems rather than sequential steps. Early recognition of collar grip attempts and disciplined hand positioning are your primary tools for surviving this attack.",
     "key_principles": [

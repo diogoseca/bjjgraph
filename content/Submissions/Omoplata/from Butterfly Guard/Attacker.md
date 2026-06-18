@@ -102,18 +102,18 @@ description: "Execute the Omoplata from Butterfly Guard with hook elevation setu
     },
     {
       "@type": "Question",
-      "name": "What is the proper speed for applying finishing pressure in training, and why is this critical?",
+      "name": "What tactile and visual cues indicate the omoplata has reached the shoulder's end range and a tap is imminent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Finishing pressure must be applied slowly and progressively over a minimum of 4-6 seconds, gradually increasing the forward lean and rotational torque. The shoulder joint is vulnerable to sudden catastrophic damage including rotator cuff tears and labrum injuries requiring surgical intervention. Competition-speed application must never be used in training."
+        "text": "As you walk your hips away and lean forward, the opponent's shoulder reaches its rotational limit when their elbow points upward and the upper arm can no longer internally rotate. Their torso pins flat with the trapped arm wound tight; at this point even small increments of forward lean generate sharp pressure, so apply the final degrees slowly and expect the tap immediately."
       }
     },
     {
       "@type": "Question",
-      "name": "How should you respond immediately when your training partner taps to the omoplata?",
+      "name": "What is the proper speed for applying finishing pressure in training, and why is this critical?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately stop all forward pressure and rotational force on the shoulder. Release the leg pinch by unwinding your hip position to neutral. Allow the opponent to slowly extract their trapped arm without resistance. Verbally confirm they are uninjured before continuing the round. Never maintain any pressure after a tap signal."
+        "text": "Finishing pressure must be applied slowly and progressively over a minimum of 4-6 seconds, gradually increasing the forward lean and rotational torque. The shoulder joint is vulnerable to sudden catastrophic damage including rotator cuff tears and labrum injuries requiring surgical intervention. Competition-speed application must never be used in training."
       }
     }
   ]

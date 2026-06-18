@@ -34,6 +34,18 @@ description: "Master Gift Wrap Control in BJJ. Complete guide to arm trapping fr
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap Control",
+  "description": "Gift Wrap Control threads the opponent's far arm across their own throat from Kuzure Kesa-Gatame, converting a dominant pin into an arm-trap that strips framing, kills the bridge, and opens mount, back, and choke attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Gift Wrap Control in BJJ. Complete guide to arm trapping fr
 </div>
 
 <section id="overview" class="content-section">
+
+**Gift Wrap Control threads the opponent's far arm across their own throat from Kuzure Kesa-Gatame, converting a dominant pin into an arm-trap that strips framing, kills the bridge, and opens mount, back, and choke attacks.**
 
 Gift Wrap Control is a powerful arm-trapping technique that transforms the already dominant Kuzure Kesa-Gatame position into an even more controlling configuration. By wrapping the opponent's far arm across their own throat and securing it with your grip, you eliminate their primary defensive tool while creating multiple submission and transition opportunities. This technique represents a critical evolution in pinning control, moving beyond simple pressure maintenance to active limb immobilization.
 

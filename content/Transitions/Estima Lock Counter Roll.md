@@ -34,6 +34,18 @@ description: "Master the Estima Lock Counter Roll in BJJ. Complete guide to esca
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Estima Lock Counter Roll",
+  "description": "The Estima Lock Counter Roll is a bottom escape from the Estima Lock where the trapped player rolls toward the controlled foot to neutralize ankle torque and sweep through to half guard top, reversing the leg-lock exchange.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Estima Lock Counter Roll in BJJ. Complete guide to esca
 </div>
 
 <section id="overview" class="content-section">
+
+**The Estima Lock Counter Roll is a bottom escape from the Estima Lock where the trapped player rolls toward the controlled foot to neutralize ankle torque and sweep through to half guard top, reversing the leg-lock exchange.**
 
 The Estima Lock Counter Roll is a defensive transition executed from the bottom of the Estima Lock position, where the trapped practitioner uses rotational momentum to relieve submission pressure, disrupt the attacker's grip mechanics, and reverse positional hierarchy. This technique exploits the inherent vulnerability of the Estima Lock's reliance on linear rotational pressure and fixed hip positioning by introducing a rolling vector that the top player's figure-four grip configuration struggles to track. Rather than fighting the lock's mechanics directly through grip fighting or leg extraction, the counter roll redirects ankle torque through whole-body rotation.
 
@@ -225,7 +239,7 @@ The Estima Lock Counter Roll integrates into the broader leg lock defense system
 ## Related Techniques
 
 
-- [[Transitions/Estima Lock]] - Source position from which this counter roll escape is executed
+- [[Positions/Estima Lock Control]] - Source position from which this counter roll escape is executed
 
 - [[Positions/Half Guard]] - Primary target position upon successful counter roll completion
 

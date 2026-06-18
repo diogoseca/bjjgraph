@@ -35,6 +35,18 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kosoto Gake",
+  "description": "Kosoto Gake (minor outer hook) is a judo throw from standing where you hook and reap your opponent's weighted rear leg from the outside while pulling their upper body backward, dropping them straight into your side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -49,7 +61,9 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
 
 <section id="overview" class="content-section">
 
-Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a staple in Brazilian Jiu-Jitsu's standing game. This technique involves reaping your opponent's supporting leg from the outside while simultaneously pulling their upper body backward, causing them to fall directly into your side control position. The beauty of Kosoto Gake lies in its simplicity and relatively low physical demands compared to explosive throws like Uchi Mata or Harai Goshi. It excels when your opponent has their weight distributed on their rear leg, making it an excellent counter to defensive stances and backward movement.
+**Kosoto Gake (minor outer hook) is a judo throw from standing where you hook and reap your opponent's weighted rear leg from the outside while pulling their upper body backward, dropping them straight into your side control.**
+
+Rooted in judo's classical throwing syllabus, Kosoto Gake has become a staple of the Brazilian Jiu-Jitsu standing game because it rewards timing and positioning over raw athleticism. The technique's value lies in its simplicity and relatively low physical demands compared to explosive throws like Uchi Mata or Harai Goshi. It excels when your opponent has their weight distributed on their rear leg, making it an excellent counter to defensive stances and backward movement.
 
 The throw creates a seamless transition from standing to dominant groundwork, with the thrower maintaining control throughout the entire movement and landing directly in a scoring position. This makes it particularly valuable in both gi and no-gi competition contexts where takedown points and top position are strategically critical. The biomechanical principle underlying Kosoto Gake is the creation of a force couple: the upper body pull generates rotational momentum backward while the leg reap removes the structural support beneath the opponent's center of gravity. This dual-action mechanism means neither component works effectively in isolation, but together they produce reliable off-balancing with minimal athletic demand.
 

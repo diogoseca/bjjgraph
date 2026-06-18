@@ -34,6 +34,18 @@ description: "Master the Gogoplata submission from Rubber Guard in BJJ. Shin-acr
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gogoplata",
+  "description": "The Gogoplata is an advanced rubber-guard choke where, from Mission Control, you thread your shin across the opponent's throat and pull their head down into it, simultaneously compressing the airway and carotids for a fast finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Gogoplata submission from Rubber Guard in BJJ. Shin-acr
 
 <section id="overview" class="content-section">
 
-The Gogoplata is an advanced submission from the Rubber Guard system that uses your shin across the opponent's throat to create a crushing choke. This technique represents one of the most visually distinctive and mechanically demanding submissions in Brazilian Jiu-Jitsu, requiring exceptional hip flexibility, precise angle creation, and disciplined hand fighting to execute successfully. The submission gained widespread recognition through its effective use in high-level competition, demonstrating that even against elite grapplers, the Gogoplata presents genuine finishing threats when properly applied.
+**The Gogoplata is an advanced rubber-guard choke where, from Mission Control, you thread your shin across the opponent's throat and pull their head down into it, simultaneously compressing the airway and carotids for a fast finish.**
+
+Within the broader Rubber Guard system, the Gogoplata represents one of the most visually distinctive and mechanically demanding submissions in Brazilian Jiu-Jitsu, requiring exceptional hip flexibility, precise angle creation, and disciplined hand fighting to execute successfully. The submission gained widespread recognition through its effective use in high-level competition, demonstrating that even against elite grapplers, the Gogoplata presents genuine finishing threats when properly applied.
 
 The technique operates on a simple but devastating mechanical principle: by placing your shin bone directly across the opponent's trachea and pulling their head down into that pressure, you create a choke that attacks both the airway and blood supply. Unlike many submissions where escape routes exist through postural adjustments, the Gogoplata's finishing position offers limited defensive options once fully locked. The trapped opponent must either tap or risk unconsciousness, as the combination of tracheal compression and carotid pressure accelerates the submission timeline dramatically.
 

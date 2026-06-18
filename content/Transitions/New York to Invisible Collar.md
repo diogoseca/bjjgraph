@@ -34,6 +34,18 @@ description: "Master the New York to Invisible Collar transition in 10th Planet 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "New York to Invisible Collar",
+  "description": "New York to Invisible Collar is a 10th Planet Rubber Guard transition where the bottom player releases the shin grip and swims the free hand behind the opponent's head, establishing deep no-gi collar control on the neck to threaten chokes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the New York to Invisible Collar transition in 10th Planet 
 </div>
 
 <section id="overview" class="content-section">
+
+**New York to Invisible Collar is a 10th Planet Rubber Guard transition where the bottom player releases the shin grip and swims the free hand behind the opponent's head, establishing deep no-gi collar control on the neck to threaten chokes.**
 
 The New York to Invisible Collar transition represents a critical advancement within the 10th Planet Rubber Guard system, moving from the foundational New York control into one of the most dangerous attacking positions in no-gi grappling. This transition involves releasing the shin grip while maintaining the overhook, then swimming the free hand behind the opponent's head to establish deep collar-style control on the neck without requiring a gi collar.
 

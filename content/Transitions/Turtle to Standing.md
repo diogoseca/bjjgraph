@@ -34,6 +34,18 @@ description: "Master the Turtle to Standing escape in BJJ. Learn systematic stan
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turtle to Standing",
+  "description": "The Turtle to Standing escape is a defensive transition where the bottom player explosively posts a hand, drives a leg forward, and extends the hips to rise from turtle back to neutral standing before the opponent can secure the back.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Turtle to Standing escape in BJJ. Learn systematic stan
 </div>
 
 <section id="overview" class="content-section">
+
+**The Turtle to Standing escape is a defensive transition where the bottom player explosively posts a hand, drives a leg forward, and extends the hips to rise from turtle back to neutral standing before the opponent can secure the back.**
 
 The Turtle to Standing transition is a fundamental defensive escape that allows the bottom practitioner to safely exit the vulnerable turtle position and return to neutral standing engagement. This technique is essential across gi and no-gi grappling because it resets the positional hierarchy, prevents the opponent from establishing back control or front headlock submissions, and demonstrates active defense in competition settings where stalling penalties penalize static turtle play.
 

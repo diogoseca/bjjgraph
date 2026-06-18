@@ -143,6 +143,16 @@ description: "Master Distance Control in BJJ. Learn frame mechanics, hip escape 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Distance Control",
+  "description": "Distance Control is the defensive principle of generating and managing the space between your body and an opponent's controlling position, using frames, hip movement, and bridging to turn compression into the room required to escape.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master Distance Control in BJJ. Learn frame mechanics, hip escape 
 
 ## What is Distance Control?
 
-Distance Control is one of the most fundamental defensive concepts in Brazilian Jiu-Jitsu, representing the practitioner's ability to generate distance between their body and an opponent's controlling position. This concept forms the foundation of virtually all escape sequences, as creating space is the prerequisite for recovering guard, changing positions, or executing technical stand-ups. The principle operates on a simple biomechanical reality: compression equals control, and space equals opportunity for movement.
+**Distance Control is the defensive principle of generating and managing the space between your body and an opponent's controlling position, using frames, hip movement, and bridging to turn compression into the room required to escape.**
+
+Few skills separate a calm, methodical defender from a panicking one as clearly as Distance Control, and it sits beneath virtually every escape sequence in Brazilian Jiu-Jitsu. Creating space is the prerequisite for recovering guard, changing positions, or executing technical stand-ups, which is why instructors drill shrimps and bridges from a practitioner's very first class. The principle operates on a simple biomechanical reality: compression equals control, and space equals opportunity for movement.
 
 At its core, Distance Control involves understanding how to use frames, hip movement, bridging mechanics, and timing to generate gaps in the opponent's pressure system. The concept is not merely about pushing away or using strength; rather, it requires sophisticated understanding of leverage points, weight distribution, and the opponent's base structure. Effective space creation exploits moments when the opponent's weight is transitioning, their base is compromised, or their grips are being adjusted.
 

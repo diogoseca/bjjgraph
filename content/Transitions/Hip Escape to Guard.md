@@ -34,6 +34,18 @@ description: "Master the Hip Escape to Guard escape from Gift Wrap Bottom in BJJ
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape to Guard",
+  "description": "Hip Escape to Guard is the primary escape from Gift Wrap Bottom, chaining sequential shrimps and knee-shield frames to create space, extract the trapped arm, and recover open guard while never abandoning neck defense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Hip Escape to Guard escape from Gift Wrap Bottom in BJJ
 
 <section id="overview" class="content-section">
 
-The Hip Escape to Guard is a fundamental defensive transition used to escape the Gift Wrap position and recover to an open guard configuration. This escape addresses one of the most precarious situations in BJJ where one arm is trapped across your body while your opponent maintains back control, severely limiting your defensive options.
+**Hip Escape to Guard is the primary escape from Gift Wrap Bottom, chaining sequential shrimps and knee-shield frames to create space, extract the trapped arm, and recover open guard while never abandoning neck defense.**
+
+Among the limited escape options available from Gift Wrap Bottom, the hip escape stands out as the most reliable path back to a neutral guard. This escape addresses one of the most precarious situations in BJJ where one arm is trapped across your body while your opponent maintains back control, severely limiting your defensive options.
 
 The technique relies on creating space through precise hip movement rather than attempting to forcefully remove the trapped arm. By shrimping away from your opponent while maintaining neck protection with your free hand, you create the angular displacement necessary to withdraw your hips from their control and begin inserting defensive frames. The escape exploits the momentary gaps created when your opponent adjusts their position or initiates submission attacks.
 
@@ -231,8 +245,6 @@ Hip Escape to Guard is the primary escape pathway from Gift Wrap Bottom, one of 
 
 - [[Transitions/Back Door Escape]] - Related escape - broader back defense methodology
 
-- [[Transitions/Elbow Escape to Guard]] - Alternative escape - similar hip movement principles from mount
-
 - [[Transitions/Arm Recovery to Guard]] - Follow-up concept - establishing guard after recovering trapped arm
 
 - [[Transitions/Granby Roll to Guard]] - Alternative technique - rolling escape option from same position
@@ -240,8 +252,6 @@ Hip Escape to Guard is the primary escape pathway from Gift Wrap Bottom, one of 
 - [[Positions/Half Guard]] - Alternative target - intermediate recovery position
 
 - [[Positions/Back Control]] - Parent position - Gift Wrap evolves from back control
-
-- [[Principles/Frames]] - Supporting concept - establishing defensive frames during escape
 
 - [[Positions/Mount]] - Counter outcome - where failed escape can lead
 

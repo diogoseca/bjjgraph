@@ -1,5 +1,6 @@
 {
   "name": "Lasso Guard Pass",
+  "summary": "The Lasso Guard Pass is a gi guard-passing sequence where the top player secures the lassoed sleeve, steps outside the lasso leg to kill its leverage, clears the threaded shin, and drives through to side control.",
   "description": "Master the Lasso Guard Pass in BJJ. Complete breakdown of techniques to defeat lasso hooks and establish top control with systematic grip fighting.",
   "tags": [
     "bjj",
@@ -70,16 +71,16 @@
       "relationship": "Related guard opponent may switch to when lasso is threatened"
     },
     {
-      "name": "Standing Position",
-      "relationship": "Intermediate position used during the standing passing sequence"
+      "name": "Headquarters Position",
+      "relationship": "Transitional position often used when disengaging from lasso"
     },
     {
       "name": "Leg Drag Control",
       "relationship": "Control position achieved through leg drag variant of this pass"
     },
     {
-      "name": "Headquarters Position",
-      "relationship": "Transitional position often used when disengaging from lasso"
+      "name": "Kimura Trap",
+      "relationship": "Counter-attacking option when opponent over-commits to the lasso and exposes the non-lasso arm"
     }
   ],
   "attacker": {

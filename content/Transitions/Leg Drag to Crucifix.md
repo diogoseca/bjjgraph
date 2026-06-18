@@ -34,6 +34,18 @@ description: "Master the Leg Drag to Crucifix transition in BJJ. Capitalize on o
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag to Crucifix",
+  "description": "Leg Drag to Crucifix is a guard-passing transition where the top player punishes an opponent's turn-in guard-recovery attempt from leg drag by capturing the exposed far arm and isolating both arms in the crucifix.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Leg Drag to Crucifix transition in BJJ. Capitalize on o
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag to Crucifix is a guard-passing transition where the top player punishes an opponent's turn-in guard-recovery attempt from leg drag by capturing the exposed far arm and isolating both arms in the crucifix.**
 
 The Leg Drag to Crucifix transition represents an advanced positional advancement that punishes a common defensive error from leg drag bottom. When the opponent attempts to turn into you to recover guard rather than accepting the pass, they often expose their far arm by posting or reaching. This creates the opportunity to capture that arm while simultaneously isolating the near arm with your leg position, resulting in the devastating crucifix control.
 

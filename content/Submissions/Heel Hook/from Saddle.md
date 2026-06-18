@@ -33,10 +33,32 @@ description: "Master the heel hook from saddle position in BJJ. Complete guide t
 }
 </script>
 
-> **SAFETY**: Heel Hook from Saddle targets the Knee and ankle joint. Risk: ACL (anterior cruciate ligament) tear from rotational force. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Hook from Saddle",
+  "description": "The heel hook from saddle is a high-percentage inside leg lock that torques the knee's ligaments by rotating the trapped heel while the saddle entanglement pins the hip and knee line to eliminate defensive rotation.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The heel hook from saddle is a high-percentage inside leg lock that torques the knee's ligaments by rotating the trapped heel while the saddle entanglement pins the hip and knee line to eliminate defensive rotation.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee and ankle joint</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Heel Hook from Saddle targets the Knee and ankle joint. Primary risk: ACL (anterior cruciate ligament) tear from rotational force. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,54 +75,7 @@ The submission targets the knee's ligamentous structures through controlled rota
 
 Strategically, the heel hook from saddle functions as the terminal threat within the modern leg lock system. Practitioners build entire guard games and entry sequences specifically to reach this finishing position, recognizing that the saddle-to-heel-hook pathway offers the highest conversion rate of any submission chain in no-gi grappling. The position creates a submission dilemma where defending the heel hook exposes the ankle to straight footlock attacks, and defending the footlock re-exposes the heel—making systematic defense extraordinarily difficult once the position is fully established.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee and ankle joint
-**Starting Position**: [[Positions/Ashi Garami/Saddle]]
-**From Position**: [[Positions/Ashi Garami/Saddle]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL (anterior cruciate ligament) tear from rotational force | CRITICAL | 9-12 months with surgical reconstruction |
-| MCL (medial collateral ligament) sprain or tear | High | 6-12 weeks for grade 2, 3-6 months for grade 3 |
-| Meniscus tear from combined rotation and compression | High | 3-6 months, potentially requiring surgery |
-| Lateral ankle ligament damage from rotational overpressure | Medium | 4-8 weeks |
-
-
-**Application Speed**: SLOW and progressive. The heel hook must be applied with gradual, controlled rotational pressure. Never jerk, spike, or explosively crank the submission. The knee's ligaments provide almost no pain warning before catastrophic failure—damage occurs before the defender feels significant pain. Apply pressure incrementally, pause at each stage, and give ample time for the tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, their body, or the mat
-- Physical foot tap with free leg on partner or mat
-- Any unusual vocalization, screaming, or distress sound
-- Nodding head rapidly or any panicked body language
-
-
-**Release Protocol**:
-1. Release ALL rotational pressure immediately upon any tap signal
-2. Maintain leg position briefly to allow controlled disengagement—do not drop the leg suddenly
-3. If in doubt about whether partner tapped, release immediately—position can be re-established
-4. After release, check with partner about knee and ankle condition before resuming
-5. If partner shows signs of injury (limping, holding knee, reluctance to continue), stop the round completely
-
-
-**Training Restrictions**:
-- Heel hooks should only be trained by practitioners at purple belt or above, or lower belts under direct black belt supervision with explicit instruction on mechanics and safety
-- Always apply with slow, progressive pressure—never explosively crank in training regardless of competition simulation intensity
-- New training partners must be briefed on heel hook danger and tap protocols before any leg lock sparring
-- Do not train heel hooks when fatigued, as diminished proprioception increases injury risk for both attacker and defender
-- Competition-intensity heel hook sparring should only occur between experienced partners who have established trust and communication
-
+**Starting Position**: [[Positions/Ashi Garami/Saddle]] · **From**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
 
@@ -267,23 +242,14 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Estima Lock]]
 - [[Submissions/Calf Slicer]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Saddle]] - Primary starting position providing optimal control for heel hook finish
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative terminology for the saddle position from which this submission is executed
 - [[Positions/Inside Sankaku]] - Alternative terminology emphasizing the inside leg triangle configuration
@@ -293,16 +259,47 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 - [[Positions/Ashi Garami]] - Parent positional system encompassing all leg entanglement variations
 - [[Positions/Leg Entanglement]] - Core conceptual framework governing control mechanics and submission chains
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Heel Hook from Saddle leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL (anterior cruciate ligament) tear from rotational force | CRITICAL | 9-12 months with surgical reconstruction |
+| MCL (medial collateral ligament) sprain or tear | High | 6-12 weeks for grade 2, 3-6 months for grade 3 |
+| Meniscus tear from combined rotation and compression | High | 3-6 months, potentially requiring surgery |
+| Lateral ankle ligament damage from rotational overpressure | Medium | 4-8 weeks |
+
+
+**Application Speed**: SLOW and progressive. The heel hook must be applied with gradual, controlled rotational pressure. Never jerk, spike, or explosively crank the submission. The knee's ligaments provide almost no pain warning before catastrophic failure—damage occurs before the defender feels significant pain. Apply pressure incrementally, pause at each stage, and give ample time for the tap.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, their body, or the mat
+- Physical foot tap with free leg on partner or mat
+- Any unusual vocalization, screaming, or distress sound
+- Nodding head rapidly or any panicked body language
+
+
+**Release Protocol**:
+1. Release ALL rotational pressure immediately upon any tap signal
+2. Maintain leg position briefly to allow controlled disengagement—do not drop the leg suddenly
+3. If in doubt about whether partner tapped, release immediately—position can be re-established
+4. After release, check with partner about knee and ankle condition before resuming
+5. If partner shows signs of injury (limping, holding knee, reluctance to continue), stop the round completely
+
+
+**Training Restrictions**:
+- Heel hooks should only be trained by practitioners at purple belt or above, or lower belts under direct black belt supervision with explicit instruction on mechanics and safety
+- Always apply with slow, progressive pressure—never explosively crank in training regardless of competition simulation intensity
+- New training partners must be briefed on heel hook danger and tap protocols before any leg lock sparring
+- Do not train heel hooks when fatigued, as diminished proprioception increases injury risk for both attacker and defender
+- Competition-intensity heel hook sparring should only occur between experienced partners who have established trust and communication
+
 
 </section>
 

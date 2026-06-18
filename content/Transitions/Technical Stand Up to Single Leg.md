@@ -34,6 +34,18 @@ description: "Master the Technical Stand Up to Single Leg in BJJ. Chain defensiv
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technical Stand Up to Single Leg",
+  "description": "Technical Stand Up to Single Leg is a defensive-to-offensive chain where the bottom player technical-stands up from turtle or seated guard and immediately level-changes into a single leg takedown as the top player adjusts to standing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Technical Stand Up to Single Leg in BJJ. Chain defensiv
 </div>
 
 <section id="overview" class="content-section">
+
+**Technical Stand Up to Single Leg is a defensive-to-offensive chain where the bottom player technical-stands up from turtle or seated guard and immediately level-changes into a single leg takedown as the top player adjusts to standing.**
 
 The Technical Stand Up to Single Leg is a fundamental defensive recovery sequence that transforms a vulnerable turtle bottom position into an offensive wrestling attack. This technique combines the safety and base management of the technical standup with the explosive entry mechanics of single leg takedowns, creating a seamless transition from defense to offense. The sequence is particularly valuable in no-gi grappling, MMA, and self-defense contexts where maintaining distance and controlling engagement timing is critical.
 

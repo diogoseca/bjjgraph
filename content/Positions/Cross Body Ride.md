@@ -34,6 +34,18 @@ description: "Master Cross Body Ride position in BJJ. Advanced back attack contr
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Body Ride",
+  "description": "Cross Body Ride is a dominant turtle-top control where the attacker lies perpendicular across the opponent's back with seatbelt control, pinning their structure while threatening back takes, crucifix entries, and other rear attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Cross Body Ride position in BJJ. Advanced back attack contr
 </div>
 
 <section id="overview" class="content-section">
+
+**Cross Body Ride is a dominant turtle-top control where the attacker lies perpendicular across the opponent's back with seatbelt control, pinning their structure while threatening back takes, crucifix entries, and other rear attacks.**
 
 Cross Body Ride is an advanced controlling position from turtle where the top practitioner establishes perpendicular chest-to-back contact with the opponent while securing a harness grip (seatbelt control). This position serves as a critical transitional state between turtle top and back control, offering exceptional control and multiple high-percentage paths to dominant positions and submissions. The cross body orientation provides mechanical advantage by directing pressure across the opponent's spine while preventing effective hip escapes.
 
@@ -202,25 +216,27 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (52% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (50% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (18% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (17% of attempts)
 
 - **[[Twister from Cross Body Ride/Attacker|Twister from Cross Body Ride]]** (3% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (9% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (8% of attempts)
 
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (7% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (6% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (7% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (6% of attempts)
 
-- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (1% of attempts)
+- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (2% of attempts)
 
-- **[[Transitions/Cross Body to Back Control/Attacker|Cross Body to Back Control]]** (1% of attempts)
+- **[[Transitions/Cross Body to Back Control/Attacker|Cross Body to Back Control]]** (2% of attempts)
 
-- **[[Transitions/Cross Body to Side Control/Attacker|Cross Body to Side Control]]** (1% of attempts)
+- **[[Transitions/Cross Body to Side Control/Attacker|Cross Body to Side Control]]** (2% of attempts)
 
-- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (1% of attempts)
+- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (2% of attempts)
+
+- **[[Short Choke from Cross Body/Attacker|Short Choke from Cross Body]]** (2% of attempts)
 
 
 ### Common Mistakes

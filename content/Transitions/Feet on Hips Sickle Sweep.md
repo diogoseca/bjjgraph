@@ -34,6 +34,18 @@ description: "Master the Feet on Hips Sickle Sweep in BJJ. Step-by-step guide to
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Feet on Hips Sickle Sweep",
+  "description": "The Feet on Hips Sickle Sweep is an open guard sweep where the bottom player pushes one foot into the opponent's hip while reaping their far ankle with a sickle-shaped hooking leg, toppling them laterally into side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Feet on Hips Sickle Sweep in BJJ. Step-by-step guide to
 
 <section id="overview" class="content-section">
 
-The Feet on Hips Sickle Sweep is a fundamental open guard sweep that capitalizes on the distance management structure of feet on hips guard to generate powerful lateral off-balancing force. The technique works by maintaining one foot on the opponent's hip as a pushing frame while the other leg drops behind the opponent's far ankle in a sickle-like hooking motion. When combined with coordinated upper body pulls through collar and sleeve grips, this creates an irresistible rotational force that topples the opponent laterally over the hooking leg, landing the sweeper in side control top.
+**The Feet on Hips Sickle Sweep is an open guard sweep where the bottom player pushes one foot into the opponent's hip while reaping their far ankle with a sickle-shaped hooking leg, toppling them laterally into side control top.**
+
+Built directly from the feet on hips guard, the sickle sweep capitalizes on the position's distance management structure to generate powerful lateral off-balancing force. The technique works by maintaining one foot on the opponent's hip as a pushing frame while the other leg drops behind the opponent's far ankle in a sickle-like hooking motion. When combined with coordinated upper body pulls through collar and sleeve grips, this creates an irresistible rotational force that topples the opponent laterally over the hooking leg, landing the sweeper in side control top.
 
 The sweep's effectiveness stems from its ability to exploit the natural instability created when a standing or kneeling opponent's base is attacked from multiple vectors simultaneously. The pushing foot drives the opponent's center of mass backward and laterally, the hooking leg removes their posting ability on the far side, and the grip pulls complete the off-balancing by directing their upper body in the direction of the sweep. This three-point force application makes the sickle sweep one of the highest-percentage sweeps available from open guard positions.
 

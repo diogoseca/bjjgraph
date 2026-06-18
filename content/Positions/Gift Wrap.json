@@ -3,6 +3,7 @@
   "slug": "gift-wrap",
   "description": "Master Gift Wrap position in BJJ - a dominant back control variation where one arm is trapped. Complete guide covering control mechanics, submission attacks, and defensive escapes.",
   "variant_uniqueness": "Arm trap removes half of defensive capability",
+  "summary": "Gift Wrap is a dominant back-control variation in BJJ where the attacker threads one arm under the defender's armpit and pins it high across their chest, stripping away half of their defensive capability.",
   "overview": "Gift Wrap is a highly dominant back control variation in Brazilian Jiu-Jitsu where the attacker isolates and controls one of the defender's arms, effectively removing half of their defensive capabilities. This position derives its name from the visual appearance of the trapped arm being 'wrapped' across the defender's body, similar to wrapping a present.\n\nThe Gift Wrap position represents a significant advancement from standard back control because it systematically removes defensive options. In traditional back control with seat belt grip, the defender has both arms available to fight hands, defend the neck, and create frames. The Gift Wrap eliminates one of these defensive tools entirely, creating a fundamental imbalance that heavily favors the attacker.\n\nFrom a strategic perspective, the Gift Wrap serves as both a controlling position and a transitional hub for high-percentage submissions. The trapped arm creates multiple attacking vectors: the rear naked choke becomes more accessible with reduced hand fighting, the free arm becomes vulnerable to straight armbar attacks, and the overall control allows for methodical advancement to mounted positions or the crucifix.\n\nThe position is particularly effective in no-gi grappling where traditional collar controls are unavailable, though it remains highly viable in the gi as well. The Gift Wrap exemplifies modern back attack methodology where positional control is used to systematically eliminate defensive options before attempting submissions, rather than rushing directly to finish attempts.\n\nUnderstanding the Gift Wrap requires recognizing it as part of a larger back attack system. It connects naturally to other back control variations including the body triangle, truck position, and standard back mount. The ability to flow between these positions while maintaining the Gift Wrap's arm control creates a comprehensive attacking system that is difficult to escape from.",
   "key_principles": [
     "Gift Wrap control systematically removes 50% of opponent's defensive capability",
@@ -338,7 +339,7 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke from Gift Wrap",
-        "attempt_probability": 28
+        "attempt_probability": 30
       },
       {
         "transition": "Armbar on Free Arm",
@@ -374,10 +375,6 @@
       },
       {
         "transition": "Gift Wrap Armbar",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Rear Naked Choke from Gift Wrap",
         "attempt_probability": 2
       },
       {

@@ -34,6 +34,18 @@ description: "Master the complete guard pass from flattened half guard to side c
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Complete Pass from Flattened Half",
+  "description": "Complete Pass from Flattened Half is the final phase of pressure passing in which the top player extracts their trapped leg from a flattened half guard and consolidates side control while preserving the crossface and chest pressure already established.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the complete guard pass from flattened half guard to side c
 
 <section id="overview" class="content-section">
 
-Complete Pass from Flattened Half Guard is the definitive guard-passing sequence executed when the top player has already collapsed the bottom player's frames and established chest-to-chest control with one leg still trapped in the half guard hook. This transition represents the final phase of the pressure-passing sequence, where the technical challenge shifts from maintaining dominant control to extracting the trapped leg without surrendering the positional advantage that was so methodically earned. The pass completion requires a precise balance between sustaining forward pressure that keeps the bottom player pinned and creating just enough angle to free the leg through the half guard entanglement.
+**Complete Pass from Flattened Half is the final phase of pressure passing in which the top player extracts their trapped leg from a flattened half guard and consolidates side control while preserving the crossface and chest pressure already established.**
+
+By the time the top player reaches flattened half guard, the most demanding battles of the pass have already been won: the frames are collapsed, the crossface is set, and the opponent's back is flat on the mat with one leg still trapped in the half guard hook. What remains is the extraction itself, where the technical challenge shifts from maintaining dominant control to freeing the trapped leg without surrendering the positional advantage that was so methodically earned. The pass completion requires a precise balance between sustaining forward pressure that keeps the bottom player pinned and creating just enough angle to free the leg through the half guard entanglement.
 
 The strategic significance of this transition lies in its position within the passing hierarchy. By the time the top player reaches flattened half guard, they have already won the underhook battle, established the crossface, and driven the bottom player flat. Abandoning this advantage through a sloppy extraction attempt would reset the entire passing sequence, potentially returning the bottom player to an active half guard with frames and offensive options. The complete pass therefore demands that every movement preserves the pressure investment already made, treating the leg extraction as a surgical procedure performed under the cover of sustained, suffocating chest and hip pressure.
 

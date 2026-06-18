@@ -34,6 +34,18 @@ description: "Master the Outside Ashi Entry from standing to leg entanglements. 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Outside Ashi Entry",
+  "description": "The Outside Ashi Entry is a standing-to-ground leg attack where you trap an opponent's lead leg from the outside angle and rotate down to the mat, establishing Outside Ashi-Garami with immediate straight ankle lock and heel hook threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Outside Ashi Entry from standing to leg entanglements. 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Outside Ashi Entry is a standing-to-ground leg attack where you trap an opponent's lead leg from the outside angle and rotate down to the mat, establishing Outside Ashi-Garami with immediate straight ankle lock and heel hook threats.**
 
 The Outside Ashi Entry is a fundamental leg entanglement technique that allows practitioners to transition from standing positions into the Outside Ashi Garami position, establishing immediate leg lock threats. This entry is particularly effective in no-gi grappling and represents one of the foundational movements in modern leg lock systems. The technique capitalizes on the opponent's forward pressure or stance while maintaining a connection to their leg, ultimately resulting in a dominant leg entanglement position where multiple submission options become available.
 

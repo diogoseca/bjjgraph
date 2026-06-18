@@ -143,6 +143,16 @@ description: "Master the fundamental leg lock chain connecting straight ankle lo
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Straight Footlock to Kneebar Chain",
+  "description": "The Straight Footlock to Kneebar Chain is a foundational leg-attack framework that links the straight ankle lock and the kneebar from ashi garami, exploiting each submission's defense to set up the other in a continuous loop.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -156,6 +166,8 @@ description: "Master the fundamental leg lock chain connecting straight ankle lo
 <section id="overview" class="content-section">
 
 ## What is Straight Footlock to Kneebar Chain?
+
+**The Straight Footlock to Kneebar Chain is a foundational leg-attack framework that links the straight ankle lock and the kneebar from ashi garami, exploiting each submission's defense to set up the other in a continuous loop.**
 
 The Straight Footlock to Kneebar Chain represents one of the most fundamental submission sequences in modern leg lock systems. This attacking framework capitalizes on the biomechanical connection between ankle and knee control, creating a seamless transition pathway that forces opponents into defensive dilemmas. When executed properly, the defender's attempts to defend the footlock naturally expose the knee, while kneebar defense creates footlock opportunities.
 

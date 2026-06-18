@@ -34,6 +34,18 @@ description: "Master Recover Full Guard from Quarter Guard in BJJ. Expert guide 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Recover Full Guard from Quarter Guard",
+  "description": "Recover Full Guard from Quarter Guard is a guard-retention technique where the bottom player frames and hip-escapes from compromised quarter guard to reinsert the inside knee and re-establish functional half guard before the passer reaches side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Recover Full Guard from Quarter Guard in BJJ. Expert guide 
 </div>
 
 <section id="overview" class="content-section">
+
+**Recover Full Guard from Quarter Guard is a guard-retention technique where the bottom player frames and hip-escapes from compromised quarter guard to reinsert the inside knee and re-establish functional half guard before the passer reaches side control.**
 
 Recover Full Guard from Quarter Guard is a fundamental defensive recovery technique in BJJ's guard retention system. When the bottom player finds themselves in quarter guard—a severely compromised position with minimal leg entanglement remaining—the ability to recover to a functional half guard determines whether they maintain defensive viability or surrender position entirely. This technique relies on precise hip escape timing, effective frame creation against the passer's pressure, and coordinated leg replacement to re-establish meaningful guard structure before the top player can consolidate side control.
 

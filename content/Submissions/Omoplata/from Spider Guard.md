@@ -33,10 +33,32 @@ description: "Master the Omoplata from Spider Guard in BJJ. Complete guide cover
 }
 </script>
 
-> **SAFETY**: Omoplata from Spider Guard targets the Shoulder. Risk: Shoulder dislocation or subluxation from excessive rotational force on the glenohumeral joint. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata from Spider Guard",
+  "description": "The Omoplata from Spider Guard is a gi shoulder lock in which the bottom player swings a leg over the opponent's same-side shoulder while retaining the sleeve grip, then sits up perpendicular to crank the trapped arm's shoulder joint.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Omoplata from Spider Guard is a gi shoulder lock in which the bottom player swings a leg over the opponent's same-side shoulder while retaining the sleeve grip, then sits up perpendicular to crank the trapped arm's shoulder joint.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Omoplata from Spider Guard targets the Shoulder. Primary risk: Shoulder dislocation or subluxation from excessive rotational force on the glenohumeral joint. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,58 +69,13 @@ description: "Master the Omoplata from Spider Guard in BJJ. Complete guide cover
 
 <section id="overview" class="content-section">
 
-The Omoplata from Spider Guard is a high-percentage shoulder lock submission that exploits the natural arm isolation created by spider guard grips. When the bottom player controls both sleeves with feet on the opponent's biceps, one arm becomes vulnerable to the omoplata entry by swinging the attacking leg over the opponent's shoulder and pivoting the hips to create rotational pressure on the glenohumeral joint. This submission capitalizes on the distance management and sleeve control inherent to spider guard, converting a controlling position into a direct finishing threat.
+Among spider guard's submission options, the omoplata stands out for converting the position's built-in arm isolation directly into a finish rather than first passing through a sweep. When the bottom player controls both sleeves with feet on the opponent's biceps, one arm becomes vulnerable to the omoplata entry by swinging the attacking leg over the opponent's shoulder and pivoting the hips to create rotational pressure on the glenohumeral joint. This submission capitalizes on the distance management and sleeve control inherent to spider guard, converting a controlling position into a direct finishing threat.
 
 The entry relies on breaking the opponent's posture to one side using asymmetric foot pressure and sleeve pulling, then threading the attacking leg over the targeted shoulder while maintaining the sleeve grip. Once the leg clears the shoulder and the attacker sits up perpendicular to the opponent, the shoulder lock mechanics take effect through hip extension and forward pressure on the opponent's flattened torso. The trapped arm acts as a lever against the shoulder joint, with the attacker's legs and hips providing the force multiplication necessary to achieve the tap.
 
 Strategically, the omoplata from spider guard creates a powerful dilemma: opponents who posture up to break spider guard grips expose themselves to the leg swing entry, while those who drive forward with pressure create the angle needed for the hip pivot. This submission integrates seamlessly into spider guard attack chains alongside triangles and armbars, making it a cornerstone technique for any guard player who relies on sleeve-based open guard systems.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder
-**Starting Position**: [[Positions/Spider Guard]]
-**From Position**: [[Positions/Spider Guard]] (Bottom)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Shoulder dislocation or subluxation from excessive rotational force on the glenohumeral joint | High | 3-6 months, may require surgical intervention |
-| Rotator cuff tear from sudden or forceful application of the shoulder lock | High | 4-12 months depending on severity, often requires surgery |
-| Ligament damage to the acromioclavicular joint from combined rotation and compression | Medium | 4-8 weeks for mild sprains, 3-6 months for severe tears |
-| Neck strain from opponent's forward roll escape attempt while arm is trapped | Medium | 1-3 weeks with rest and physical therapy |
-
-
-**Application Speed**: SLOW and progressive. Apply rotational pressure gradually by sitting up and extending hips forward. The shoulder joint is vulnerable to sudden force, and damage can occur before pain is fully registered. Never jerk or spike the finish.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, leg, or mat with free hand
-- Physical foot tap on mat with either leg
-- Any unusual vocalization indicating pain or distress
-
-
-**Release Protocol**:
-1. Release hip pressure and lean back immediately upon any tap signal
-2. Remove leg from over opponent's shoulder to fully release the lock
-3. Allow opponent to retract their arm freely before re-engaging
-4. If opponent cannot verbally communicate, assume distress and release immediately
-5. Check partner's shoulder mobility and comfort before resuming training
-
-
-**Training Restrictions**:
-- White belts should drill the entry and control position only, without applying finishing pressure to the shoulder
-- Apply the finish slowly in training regardless of belt level - competition speed application risks permanent shoulder damage
-- Partners with prior shoulder injuries should inform their training partner before drilling this technique
-- Avoid this submission entirely on training partners who have recently returned from shoulder surgery or rehabilitation
-
+**Starting Position**: [[Positions/Spider Guard]] · **From**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -252,24 +229,15 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Baratoplata]]
 - [[Transitions/Gogoplata]]
-- [[Submissions/Triangle Choke]]
 - [[Submissions/Americana]]
 - [[Submissions/Belly Down Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Submissions/Armbar]]
 - [[Positions/Spider Guard]] - Primary starting position providing sleeve control and foot-on-bicep framework for omoplata entry
 - [[Positions/Omoplata Control]] - Control position established when omoplata is secured but finish is not yet achieved
 - [[Positions/Lasso Guard]] - Alternative open guard starting position with similar leg-over-shoulder mechanics
@@ -279,16 +247,45 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 - [[Positions/Closed Guard]] - Alternative position offering omoplata entries and fallback when spider guard is compromised
 - [[Positions/Side Control]] - Position opponent may achieve if they successfully counter the omoplata with a forward roll
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Omoplata from Spider Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Shoulder dislocation or subluxation from excessive rotational force on the glenohumeral joint | High | 3-6 months, may require surgical intervention |
+| Rotator cuff tear from sudden or forceful application of the shoulder lock | High | 4-12 months depending on severity, often requires surgery |
+| Ligament damage to the acromioclavicular joint from combined rotation and compression | Medium | 4-8 weeks for mild sprains, 3-6 months for severe tears |
+| Neck strain from opponent's forward roll escape attempt while arm is trapped | Medium | 1-3 weeks with rest and physical therapy |
+
+
+**Application Speed**: SLOW and progressive. Apply rotational pressure gradually by sitting up and extending hips forward. The shoulder joint is vulnerable to sudden force, and damage can occur before pain is fully registered. Never jerk or spike the finish.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, leg, or mat with free hand
+- Physical foot tap on mat with either leg
+- Any unusual vocalization indicating pain or distress
+
+
+**Release Protocol**:
+1. Release hip pressure and lean back immediately upon any tap signal
+2. Remove leg from over opponent's shoulder to fully release the lock
+3. Allow opponent to retract their arm freely before re-engaging
+4. If opponent cannot verbally communicate, assume distress and release immediately
+5. Check partner's shoulder mobility and comfort before resuming training
+
+
+**Training Restrictions**:
+- White belts should drill the entry and control position only, without applying finishing pressure to the shoulder
+- Apply the finish slowly in training regardless of belt level - competition speed application risks permanent shoulder damage
+- Partners with prior shoulder injuries should inform their training partner before drilling this technique
+- Avoid this submission entirely on training partners who have recently returned from shoulder surgery or rehabilitation
+
 
 </section>
 

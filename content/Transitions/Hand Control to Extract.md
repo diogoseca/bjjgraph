@@ -34,6 +34,18 @@ description: "Master hand control extraction from gogoplata in BJJ. Systematic g
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hand Control to Extract",
+  "description": "Hand Control to Extract is a gogoplata escape where the trapped top player first strips the opponent's grips on their own foot to break the closed-loop structure, then extracts the head laterally to recover guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master hand control extraction from gogoplata in BJJ. Systematic g
 
 <section id="overview" class="content-section">
 
-Hand Control to Extract is a systematic defensive technique employed when caught in gogoplata control. The bottom player's primary weapon in maintaining the gogoplata is their hands pulling their own foot behind your head, which locks the shin-across-throat configuration. By controlling and neutralizing these hands first, you remove the structural foundation that makes the gogoplata dangerous, allowing for systematic head extraction without tightening the choke.
+**Hand Control to Extract is a gogoplata escape where the trapped top player first strips the opponent's grips on their own foot to break the closed-loop structure, then extracts the head laterally to recover guard.**
+
+Caught in a locked gogoplata, the conventional instinct to rip your head straight back only deepens the choke - the bottom player's hands pulling their own foot behind your skull are what cinch the shin against your throat, not raw leg strength. Addressing those hands first dismantles the structural foundation of the submission, allowing methodical head extraction without ever tightening the choke against yourself.
 
 The technique operates on the principle that the gogoplata is a self-contained submission system where the attacker uses their own hands to maintain foot position. Unlike defending a triangle or armbar where you fight the opponent's limbs directly, gogoplata defense requires you to address how the opponent controls their own body. Their hands pulling their foot deeper is more threatening than the shin itself, making hand control the primary defensive objective.
 

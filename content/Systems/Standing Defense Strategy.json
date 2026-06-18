@@ -15,7 +15,8 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Intermediate",
-  "overview": "The Standing Defense Strategy is a comprehensive defensive system designed to prevent takedowns, maintain favorable positioning in the standing phase, and control the engagement distance. This system integrates wrestling defensive principles with BJJ-specific positioning strategies, emphasizing the prevention of takedowns while creating opportunities to pull guard strategically or counter-attack.\n\nThe foundation of this system rests on three core pillars: distance management, base maintenance, and reactive positioning. Unlike purely offensive takedown systems, standing defense requires constant threat assessment and the ability to recognize and neutralize takedown attempts before they fully develop. This system teaches practitioners to fight at optimal ranges where they can defend effectively while minimizing exposure to high-percentage takedowns.\n\nMastery of standing defense is essential for both gi and no-gi competition, as it allows practitioners to control when and how the match transitions to the ground. The system includes protocols for dealing with various takedown attacks (singles, doubles, body locks, trips), grip fighting strategies to prevent dominant grips, and decision-making frameworks for when to defend standing versus when to accept guard pulling as the superior tactical choice.",
+  "summary": "The Standing Defense Strategy is a defensive framework that prevents takedowns through distance management, base maintenance, grip fighting, and explosive sprawling, while teaching when to pull guard or counter-attack instead of continuing the standing exchange.",
+  "overview": "In both gi and no-gi grappling the match begins on the feet, where the practitioner who dictates whether and how the fight reaches the ground holds a decisive tactical edge. This system integrates wrestling defensive principles with BJJ-specific positioning strategies, emphasizing the prevention of takedowns while creating opportunities to pull guard strategically or counter-attack.\n\nThe foundation of this system rests on three core pillars: distance management, base maintenance, and reactive positioning. Unlike purely offensive takedown systems, standing defense requires constant threat assessment and the ability to recognize and neutralize takedown attempts before they fully develop. This system teaches practitioners to fight at optimal ranges where they can defend effectively while minimizing exposure to high-percentage takedowns.\n\nMastery of standing defense is essential for both gi and no-gi competition, as it allows practitioners to control when and how the match transitions to the ground. The system includes protocols for dealing with various takedown attacks (singles, doubles, body locks, trips), grip fighting strategies to prevent dominant grips, and decision-making frameworks for when to defend standing versus when to accept guard pulling as the superior tactical choice.",
   "key_principles": [
     "Distance Control - Maintain optimal engagement range where you can defend but opponent cannot easily attack",
     "Base Widening - Lower center of gravity and widen stance to increase takedown resistance",
@@ -361,6 +362,44 @@
       "name": "No-Gi Tactical Framework",
       "content_type": "System",
       "relationship": "No-gi specific strategic approach incorporating standing defense principles"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What are the three core pillars of the Standing Defense Strategy?",
+      "answer": "Distance management, base maintenance, and reactive positioning. Together they let you defend at optimal range, resist takedowns mechanically, and respond to the opponent's movement before a shot fully develops."
+    },
+    {
+      "question": "What is the correct sprawl reaction when an opponent shoots for a double leg?",
+      "answer": "Recognize the level change, then explosively drive your hips back and down while keeping your chest up, projecting your weight onto the opponent's shoulders, and secure a crossface or whizzer to stop them from coming up."
+    },
+    {
+      "question": "Why is proactive grip fighting preferred over reactive grip breaking?",
+      "answer": "Waiting until the opponent settles a grip lets them launch their takedown setup first. Constant hand fighting denies the dominant sleeve, collar, or body-lock grips they need, keeping you a step ahead of their attacks."
+    },
+    {
+      "question": "What are the three engagement distances a practitioner must recognize?",
+      "answer": "Out of range (safe, no contact), engagement range (hand fighting where grips are contested), and the danger zone (close enough that the opponent can shoot). Knowing which you are in dictates whether to circle, fight grips, or sprawl."
+    },
+    {
+      "question": "How does widening your base improve takedown resistance?",
+      "answer": "A wider stance with bent knees lowers your center of gravity, making it mechanically harder for the opponent to off-balance you or drive through your hips — the structural basis of single- and double-leg defense."
+    },
+    {
+      "question": "When is pulling guard tactically superior to continuing standing defense?",
+      "answer": "When the opponent's wrestling outclasses your standing defense, your guard is stronger than your takedown game, or the rule set and score favor it. Pull guard as a deliberate plan, not a panic reaction to pressure."
+    },
+    {
+      "question": "What is a common base error that makes takedowns easier, and how do you fix it?",
+      "answer": "Standing too upright with a high center of gravity. Fix it by drilling a stance with bent knees and a slight forward lean from the hips, and use video to catch the moments you rise during exchanges."
+    },
+    {
+      "question": "What counter-offensive options open up after a successful sprawl?",
+      "answer": "From the sprawl you can transition to front headlock control, attack a guillotine or arm-in choke, snap the opponent down, or take the back, since their failed shot leaves them exposed and bent over."
+    },
+    {
+      "question": "How should you use footwork to control engagement distance?",
+      "answer": "Circle away from the opponent's strong side using small shuffle steps without crossing your feet, use angles to create escape paths, and stay aware of mat boundaries so you are not driven into a vulnerable position."
     }
   ]
 }

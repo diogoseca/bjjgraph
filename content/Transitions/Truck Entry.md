@@ -34,6 +34,18 @@ description: "Master Truck Entry in BJJ. Step-by-step guide to transitioning fro
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Truck Entry",
+  "description": "The Truck Entry is a no-gi transition from Turtle Top that threads a leg hook under the opponent's hips and secures upper-body control, then rolls them into the Truck to open Twister, calf slicer, and back-attack threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Truck Entry in BJJ. Step-by-step guide to transitioning fro
 </div>
 
 <section id="overview" class="content-section">
+
+**The Truck Entry is a no-gi transition from Turtle Top that threads a leg hook under the opponent's hips and secures upper-body control, then rolls them into the Truck to open Twister, calf slicer, and back-attack threats.**
 
 The Truck Entry is a fundamental transition in modern no-gi grappling that transforms defensive turtle position into an offensive attacking platform. This technique involves establishing a leg hook control while securing the opponent's upper body, creating the distinctive Truck configuration where the opponent's back is exposed and multiple submission pathways become available. The technique was systematized within the 10th Planet system as a gateway to the Twister and other spine-locking submissions, and has since been adopted across competitive grappling.
 

@@ -33,10 +33,32 @@ description: "Master the Arm Triangle from Kesa Gatame with step-by-step grip tr
 }
 </script>
 
-> **SAFETY**: Arm Triangle from Kesa Gatame targets the Carotid arteries (compressed by opponent's own shoulder and your forearm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Triangle from Kesa Gatame",
+  "description": "The Arm Triangle from Kesa Gatame is a head-and-arm blood choke that turns the scarf hold's existing head-and-arm control into bilateral carotid compression, the opponent's own trapped shoulder sealing one artery while your forearm crushes the other.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Arm Triangle from Kesa Gatame is a head-and-arm blood choke that turns the scarf hold's existing head-and-arm control into bilateral carotid compression, the opponent's own trapped shoulder sealing one artery while your forearm crushes the other.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries (compressed by opponent's own shoulder and your forearm)</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Arm Triangle from Kesa Gatame targets the Carotid arteries (compressed by opponent's own shoulder and your forearm). Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,53 +75,7 @@ The critical transition involves driving the opponent's trapped arm upward again
 
 What makes the Kesa Gatame entry particularly dangerous is the head and arm control established before any submission attempt begins. Defenders face a narrower window of escape compared to arm triangles from standard side control because the scarf hold already restricts head movement and arm positioning. The perpendicular body angle provides immediate chest-to-face pressure that compounds the choking mechanics, making this a high-percentage finish when the grip transition is executed smoothly and the attacker maintains constant pressure throughout the switch.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries (compressed by opponent's own shoulder and your forearm)
-**Starting Position**: [[Positions/Side Control/Kesa Gatame]]
-**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from blood choke | High | Immediate recovery if released promptly; potential stroke risk if held too long |
-| Neck strain from improper pressure angle | Medium | 3-7 days with rest |
-| Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap (multiple taps on opponent or mat)
-- Physical foot tap (multiple taps with foot)
-- Any distress signal or loss of resistance
-- Immediately release if opponent goes limp
-
-
-**Release Protocol**:
-1. Immediately release arm squeeze and remove head pressure
-2. Step back from opponent's head and shoulders
-3. Allow opponent to breathe and recover (30-60 seconds)
-4. Check for consciousness and normal breathing
-5. If unconscious: position on side, elevate legs, monitor breathing until conscious
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth progressive pressure only
-- Never hold after tap signal - release immediately upon any tap
-- Always allow tap access - do not trap both arms in training
-- Never use competition speed in training - practice control first
-- Stop immediately if opponent's face changes color (purple/red indicates excessive pressure)
-
+**Starting Position**: [[Positions/Side Control/Kesa Gatame]] · **From**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 </section>
 
@@ -263,43 +239,58 @@ What makes the Kesa Gatame entry particularly dangerous is the head and arm cont
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Arm Triangle]]
-- [[Arm Triangle from Side Control]]
-- [[Americana from Kesa Gatame]]
-- [[Arm Triangle from Kuzure Kesa-Gatame]]
-- [[Arm Triangle from Modified Scarf Hold]]
 - [[Submissions/Arm in Guillotine]]
 - [[Transitions/Anaconda Choke]]
-- [[Arm Triangle from Hindulotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Kesa Gatame]] - Primary starting position with head and arm control already established
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Alternative scarf hold variant with similar arm triangle entry path
-- [[Transitions/Arm Triangle]] - Parent submission family
 - [[Positions/Side Control]] - Common finishing position after walking to perpendicular angle
 - [[Positions/North-South]] - Alternative submission position when arm triangle stalls
 - [[Positions/Front Headlock]] - Related head control position used in head-and-arm attack chains
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Arm Triangle from Kesa Gatame leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from blood choke | High | Immediate recovery if released promptly; potential stroke risk if held too long |
+| Neck strain from improper pressure angle | Medium | 3-7 days with rest |
+| Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' clearly)
+- Physical hand tap (multiple taps on opponent or mat)
+- Physical foot tap (multiple taps with foot)
+- Any distress signal or loss of resistance
+- Immediately release if opponent goes limp
+
+
+**Release Protocol**:
+1. Immediately release arm squeeze and remove head pressure
+2. Step back from opponent's head and shoulders
+3. Allow opponent to breathe and recover (30-60 seconds)
+4. Check for consciousness and normal breathing
+5. If unconscious: position on side, elevate legs, monitor breathing until conscious
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - apply smooth progressive pressure only
+- Never hold after tap signal - release immediately upon any tap
+- Always allow tap access - do not trap both arms in training
+- Never use competition speed in training - practice control first
+- Stop immediately if opponent's face changes color (purple/red indicates excessive pressure)
+
 
 </section>
 

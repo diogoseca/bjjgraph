@@ -34,6 +34,18 @@ description: "Master the Reverse Kesa to North-South transition in BJJ. Complete
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Kesa to North-South",
+  "description": "Reverse Kesa to North-South is a pin-advancement transition where the top player rotates from reverse scarf hold toward the opponent's head into north-south, maintaining unbroken chest pressure to open new submissions while disrupting escape timing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Reverse Kesa to North-South transition in BJJ. Complete
 </div>
 
 <section id="overview" class="content-section">
+
+**Reverse Kesa to North-South is a pin-advancement transition where the top player rotates from reverse scarf hold toward the opponent's head into north-south, maintaining unbroken chest pressure to open new submissions while disrupting escape timing.**
 
 The Reverse Kesa to North-South transition is a fundamental pin advancement where the top player rotates from reverse scarf hold into north-south position while maintaining continuous chest pressure. This transition exploits the natural body alignment of reverse kesa-gatame, where the top player already faces toward the opponent's legs, requiring a controlled rotation toward the opponent's head to achieve the perpendicular chest-to-chest alignment that defines north-south. The rotation follows the arc of the opponent's torso, treating the chest as a wheel that rolls across their upper body without lifting.
 

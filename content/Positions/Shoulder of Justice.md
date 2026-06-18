@@ -35,6 +35,18 @@ description: "Master Shoulder of Justice side control in BJJ. Strategic guide co
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Shoulder of Justice",
+  "description": "Shoulder of Justice is a high-pressure side control variation in which the top player drives their shoulder blade into the opponent's jaw and face, concentrating crushing pressure at a single point to break posture and force submission-exposing reactions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -49,7 +61,9 @@ description: "Master Shoulder of Justice side control in BJJ. Strategic guide co
 
 <section id="overview" class="content-section">
 
-The Shoulder of Justice is a highly effective side control variation characterized by intense shoulder pressure applied directly to the opponent's face and jaw. This position represents a refinement of traditional side control where the top player drives their shoulder into the opponent's chin or jaw line while maintaining heavy cross-face control. The name comes from the relentless, almost punishing pressure that forces the opponent to make difficult decisions under duress.
+**Shoulder of Justice is a high-pressure side control variation in which the top player drives their shoulder blade into the opponent's jaw and face, concentrating crushing pressure at a single point to break posture and force submission-exposing reactions.**
+
+Among side control variations, the Shoulder of Justice earns its name from the relentless, almost punishing pressure it inflicts on the opponent's face and jaw, forcing difficult decisions under duress. It is best understood as a refinement of traditional side control where the top player drives their shoulder into the opponent's chin or jaw line while maintaining heavy cross-face control.
 
 This position is particularly effective in both gi and no-gi contexts, as it combines physical discomfort with technical control to break the opponent's defensive structure. The shoulder pressure creates a powerful psychological effect, forcing opponents to react defensively rather than offensively. Unlike standard side control where weight is distributed more evenly, the Shoulder of Justice concentrates pressure at a single point of control, making it exceptionally difficult to escape. The position excels at creating submission opportunities, particularly to near-side attacks like the kimura, americana, and various chokes, while also providing excellent positional transitions to mount, north-south, and knee-on-belly. From bottom, defensive priorities focus on relieving pressure and creating escape opportunities, while from top, the practitioner maintains relentless control to force reactive mistakes.
 

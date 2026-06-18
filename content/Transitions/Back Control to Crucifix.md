@@ -34,6 +34,18 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Control to Crucifix",
+  "description": "Back Control to Crucifix is a back-attack transition where you trap the opponent's near arm with your shin and capture the far arm under your armpit, converting rear mount into the dual-arm-isolating crucifix for higher-percentage finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Control to Crucifix is a back-attack transition where you trap the opponent's near arm with your shin and capture the far arm under your armpit, converting rear mount into the dual-arm-isolating crucifix for higher-percentage finishes.**
 
 The Back Control to Crucifix transition represents a critical advancement in back attack systems, converting standard rear mount dominance into an even more controlling and submission-rich position. This transition capitalizes on the opponent's defensive hand fighting and arm positioning, transforming their defensive frames into liabilities. When executed properly, the crucifix provides superior control over both of the opponent's arms while maintaining back exposure, creating a near-inescapable submission platform.
 
@@ -243,8 +257,6 @@ The back control to crucifix transition occupies a critical position in modern b
 - [[Submissions/Choke from Crucifix]] - Secondary submission finish option from crucifix position
 
 - [[Submissions/Rear Naked Choke]] - Choke threat that creates defensive reaction enabling transition
-
-- [[Positions/Twister Control/Truck]] - Alternative dual-arm control system with different leg mechanics
 
 - [[Positions/Crab Ride]] - Related back attack control position with different entry angles
 

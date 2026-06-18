@@ -33,10 +33,32 @@ description: "Master the Rear Naked Choke from Seat Belt Control Back. Complete 
 }
 </script>
 
-> **SAFETY**: Rear Naked Choke from Seat Belt Control Back targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Naked Choke from Seat Belt Control Back",
+  "description": "The Rear Naked Choke from Seat Belt Control Back is the highest-percentage finish in BJJ, threading the over-arm forearm from the seat belt grip under the chin to compress both carotid arteries in a figure-four lock.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Rear Naked Choke from Seat Belt Control Back is the highest-percentage finish in BJJ, threading the over-arm forearm from the seat belt grip under the chin to compress both carotid arteries in a figure-four lock.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">65% success</span>
+</div>
+
+> [!danger] Safety
+> Rear Naked Choke from Seat Belt Control Back targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,62 +69,13 @@ description: "Master the Rear Naked Choke from Seat Belt Control Back. Complete 
 
 <section id="overview" class="content-section">
 
-The Rear Naked Choke from Seat Belt Control Back is the highest-percentage submission in Brazilian Jiu-Jitsu, representing the natural culmination of the back control positional hierarchy. The seat belt over-arm is already positioned along the choking pathway, requiring only a grip release and forearm thread to establish the strangle. This positional advantage eliminates the most difficult element of the rear naked choke — establishing choking arm depth — since the transition from seat belt to choke requires minimal distance and disruption.
+Representing the natural culmination of the back control positional hierarchy, this choke converts the sport's most dominant position into its most reliable finish. The seat belt over-arm is already positioned along the choking pathway, requiring only a grip release and forearm thread to establish the strangle. This positional advantage eliminates the most difficult element of the rear naked choke — establishing choking arm depth — since the transition from seat belt to choke requires minimal distance and disruption.
 
 The strategic framework centers on a fundamental dilemma: the opponent must use their hands either to defend the seat belt grip structure or to protect the neck from the choke. They cannot address both threats simultaneously. Skilled attackers exploit this by alternating between grip pressure and choke attempts, forcing the defender into a deteriorating cycle of defensive choices. Each exchange creates incremental improvements in choking arm position until the forearm slides beneath the chin and the figure-four configuration locks behind the head.
 
 Finishing mechanics require precise bilateral compression of both carotid arteries using forearm and bicep pressure. The choking arm blade sits across the anterior neck with the elbow crook centered under the chin, while the locking arm completes the circuit behind the head. The squeeze generates from chest expansion and elbow retraction rather than arm strength, producing sustainable finishing pressure that does not depend on grip endurance or raw power.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Back Control/Seat Belt Control Back]]
-**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
-**Success Rate**: 65%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from blood choke | High | Immediate to 30 seconds with proper release |
-| Trachea damage from improper forearm placement | CRITICAL | 2-6 weeks, potential permanent damage |
-| Neck strain or muscle damage | Medium | 3-7 days |
-| Carotid artery injury from excessive force | CRITICAL | Immediate medical attention required |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or make any verbal sound)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Going limp or loss of consciousness
-- Any distress signal or unusual sound
-
-
-**Release Protocol**:
-1. Immediately release choking arm upon tap signal
-2. Remove hooks and body triangle if present
-3. Gently guide partner to side-lying recovery position
-4. Monitor consciousness and breathing for 30 seconds
-5. If partner was unconscious, keep them lying down until fully alert
-6. Never allow unconscious partner to stand immediately
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity in drilling
-- Never apply the choke to the trachea or windpipe
-- Always ensure partner has clear tap access with both hands
-- Stop immediately if partner makes any distress sound
-- Never hold a choke past the tap for any reason
-- Beginners must practice with extremely slow progression only
-
+**Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] · **From**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 </section>
 
@@ -271,22 +244,13 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Darce Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control/Seat Belt Control Back]] - Starting position providing the seat belt grip configuration for this choke
 - [[Positions/Back Control]] - Parent position category encompassing all back control configurations
 - [[Positions/Back Control/Body Triangle]] - Alternative back control configuration using figure-four leg lock that enhances RNC finishing pressure through breathing restriction
@@ -294,16 +258,49 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 - [[Positions/Turtle]] - Common entry position for establishing back control and seat belt grip
 - [[Positions/Crucifix]] - Advanced control position accessible when opponent overextends arms defending the choke
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Rear Naked Choke from Seat Belt Control Back leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from blood choke | High | Immediate to 30 seconds with proper release |
+| Trachea damage from improper forearm placement | CRITICAL | 2-6 weeks, potential permanent damage |
+| Neck strain or muscle damage | Medium | 3-7 days |
+| Carotid artery injury from excessive force | CRITICAL | Immediate medical attention required |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' or make any verbal sound)
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Going limp or loss of consciousness
+- Any distress signal or unusual sound
+
+
+**Release Protocol**:
+1. Immediately release choking arm upon tap signal
+2. Remove hooks and body triangle if present
+3. Gently guide partner to side-lying recovery position
+4. Monitor consciousness and breathing for 30 seconds
+5. If partner was unconscious, keep them lying down until fully alert
+6. Never allow unconscious partner to stand immediately
+
+
+**Training Restrictions**:
+- Never use competition speed or intensity in drilling
+- Never apply the choke to the trachea or windpipe
+- Always ensure partner has clear tap access with both hands
+- Stop immediately if partner makes any distress sound
+- Never hold a choke past the tap for any reason
+- Beginners must practice with extremely slow progression only
+
 
 </section>
 

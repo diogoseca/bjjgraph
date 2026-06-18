@@ -1,5 +1,6 @@
 {
   "name": "Twister from Twister Side Control",
+  "summary": "The Twister from Twister Side Control is a 10th Planet spinal lock that pins the near shoulder, anchors the hips with a leg entanglement, and cranks the head and shoulders against the fixed lower body to torque the cervical and thoracic spine.",
   "description": "Master the Twister spinal lock from Twister Side Control with step-by-step finishing mechanics, safety protocols, and proven defensive strategies for grapplers.",
   "tags": [
     "bjj",
@@ -19,7 +20,7 @@
   "starting_position": "Twister Side Control",
   "from_position": "Twister Side Control/Top",
   "success_rate": 40,
-  "overview": "The Twister from Twister Side Control is a devastating spinal lock rooted in the 10th Planet system that leverages lateral positioning and leg entanglement to generate rotational torque against the cervical and thoracic spine. Unlike twister entries from the truck where the attacker works from behind, the twister side control variant provides a perpendicular angle that creates distinct mechanical advantages for driving the near shoulder to the mat and controlling the opponent's defensive turning. The lateral base of twister side control allows the attacker to maintain stability while progressively threading the arm under the opponent's head to establish the finishing grip.\n\nExecution from twister side control follows a precise sequence: consolidate the leg entanglement to anchor the hips, drive the near shoulder flat, thread the far arm under the head, secure a clasping grip connecting to the far wrist, and then create opposing rotational forces between the fixed lower body and the cranked upper torso. The submission finishes when the separation between the anchored hips and the rotated head and shoulders generates sufficient pressure on the spinal column. This mechanic makes the twister one of the most biomechanically powerful submissions in grappling, targeting structures that have very low tolerance for rotational force.\n\nThe twister carries extreme injury risk to the spine and neck, demanding exceptionally slow and controlled application in training. Practitioners must develop acute sensitivity to their partner's tap signals, as the submission can cause permanent damage if applied recklessly. In competition, the twister from twister side control remains a feared finisher among 10th Planet practitioners, though its setup requirements and the specialized positional knowledge needed to reach twister side control limit its frequency compared to more common submissions.",
+  "overview": "Reaching this finish depends entirely on first establishing twister side control, a lateral pin that trades the chest-to-chest stability of orthodox side control for immediate spinal-attack proximity. Unlike twister entries from the truck where the attacker works from behind, the twister side control variant provides a perpendicular angle that creates distinct mechanical advantages for driving the near shoulder to the mat and controlling the opponent's defensive turning. The lateral base of twister side control allows the attacker to maintain stability while progressively threading the arm under the opponent's head to establish the finishing grip.\n\nExecution from twister side control follows a precise sequence: consolidate the leg entanglement to anchor the hips, drive the near shoulder flat, thread the far arm under the head, secure a clasping grip connecting to the far wrist, and then create opposing rotational forces between the fixed lower body and the cranked upper torso. The submission finishes when the separation between the anchored hips and the rotated head and shoulders generates sufficient pressure on the spinal column. This mechanic makes the twister one of the most biomechanically powerful submissions in grappling, targeting structures that have very low tolerance for rotational force.\n\nThe twister carries extreme injury risk to the spine and neck, demanding exceptionally slow and controlled application in training. Practitioners must develop acute sensitivity to their partner's tap signals, as the submission can cause permanent damage if applied recklessly. In competition, the twister from twister side control remains a feared finisher among 10th Planet practitioners, though its setup requirements and the specialized positional knowledge needed to reach twister side control limit its frequency compared to more common submissions.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -118,7 +119,7 @@
     }
   ],
   "attacker": {
-    "name": "from Twister Side Control Attacker",
+    "name": "Twister from Twister Side Control Attacker",
     "description": "Step-by-step guide to finishing the Twister spinal lock from Twister Side Control with grip sequencing, rotational mechanics, and common counter responses.",
     "overview": "Attacking with the Twister from Twister Side Control requires methodical control consolidation before pursuing the finish. The attacker must maintain leg entanglement integrity while sequentially achieving shoulder drive, arm threading, grip connection, and progressive spinal rotation. Rushing any phase of this sequence typically results in defensive escape or loss of the position entirely. The key insight is that the twister finishes through structural mechanics rather than explosive force—once all control points are properly established, the submission becomes nearly inescapable. The lateral angle unique to twister side control provides superior leverage for driving the shoulder to the mat compared to truck-based entries, but demands greater attention to base maintenance throughout the finishing sequence.",
     "key_principles": [
@@ -283,7 +284,7 @@
       },
       {
         "question": "How should you release the Twister immediately after your partner taps?",
-        "answer": "Upon any tap signal, immediately release the head and neck control by unclasp your grip and removing the arm from under their head. Then release all upper body grips to allow the opponent to turn face-up and decompress their spine. Finally, slowly unwind the leg entanglement without pulling or twisting. Let the opponent move naturally into a comfortable position. Always check with your partner verbally after release to confirm they are uninjured. Never maintain any aspect of the position after a tap.",
+        "answer": "Upon any tap signal, immediately release the head and neck control by unclasping your grip and removing the arm from under their head. Then release all upper body grips to allow the opponent to turn face-up and decompress their spine. Finally, slowly unwind the leg entanglement without pulling or twisting. Let the opponent move naturally into a comfortable position. Always check with your partner verbally after release to confirm they are uninjured. Never maintain any aspect of the position after a tap.",
         "safety_critical": true
       },
       {
@@ -304,7 +305,7 @@
     ]
   },
   "defender": {
-    "name": "from Twister Side Control Defender",
+    "name": "Twister from Twister Side Control Defender",
     "description": "Defend the Twister spinal lock from Twister Side Control with recognition cues, escape timing, and systematic defensive strategies to protect the spine.",
     "overview": "Defending the Twister from Twister Side Control demands immediate attention to spinal protection above all other defensive priorities. The defender faces a narrow window to prevent the arm from being threaded under the head, which represents the critical inflection point of the submission. Once the clasping grip connects behind the head with the far arm trapped, defensive options narrow dramatically and the risk of spinal injury escalates. Successful defense requires systematic problem-solving: protect the spine first, block the arm thread, create upper body frames, and then work to extract the legs from entanglement. Explosive escape attempts from this position typically worsen things by deepening the spinal rotation or depleting energy reserves needed for the methodical escape sequence.",
     "key_principles": [
@@ -399,7 +400,8 @@
       },
       {
         "question": "How should you sequence the escape if you successfully block the arm thread?",
-        "answer": "After blocking the arm thread, maintain chin tuck and hand frames while immediately working to establish structural elbow frames against the opponent's shoulder pressure. With the immediate submission threat neutralized, shift focus to extracting the legs from entanglement using hip extension and small circular movements. Only after achieving partial leg extraction and maintaining upper body frames should you attempt the full escape: turn toward the opponent's legs, hip escape to create distance, and recover to half guard or closed guard. Rushing this sequence risks re-exposing the neck for another thread attempt."
+        "answer": "After blocking the arm thread, maintain chin tuck and hand frames while immediately working to establish structural elbow frames against the opponent's shoulder pressure. With the immediate submission threat neutralized, shift focus to extracting the legs from entanglement using hip extension and small circular movements. Only after achieving partial leg extraction and maintaining upper body frames should you attempt the full escape: turn toward the opponent's legs, hip escape to create distance, and recover to half guard or closed guard. Rushing this sequence risks re-exposing the neck for another thread attempt.",
+        "safety_critical": false
       }
     ],
     "training_progressions": [

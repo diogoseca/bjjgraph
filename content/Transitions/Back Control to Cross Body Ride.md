@@ -34,6 +34,18 @@ description: "Master the transition from back control to cross body ride in BJJ.
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Control to Cross Body Ride",
+  "description": "Back Control to Cross Body Ride is a positional transition where the top player, facing hook compromise from a turtling opponent, rotates from parallel back control into a perpendicular chest-across-back orientation while retaining harness control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the transition from back control to cross body ride in BJJ.
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Control to Cross Body Ride is a positional transition where the top player, facing hook compromise from a turtling opponent, rotates from parallel back control into a perpendicular chest-across-back orientation while retaining harness control.**
 
 The Transition to Cross Body Ride is a positional shift from standard back control to a perpendicular chest-across-back orientation. This transition is most commonly employed when the opponent begins turtling defensively from back control, particularly when they strip one or both hooks and curl forward onto their knees. Rather than fighting to re-establish hooks from behind, the top player shifts their weight laterally across the opponent's back, converting from a parallel chest-to-back alignment to a perpendicular cross-body position that maintains dominant control through a different mechanical framework.
 

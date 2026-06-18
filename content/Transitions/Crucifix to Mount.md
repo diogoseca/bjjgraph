@@ -34,6 +34,18 @@ description: "Master the Crucifix to Mount transition in BJJ. Learn systematic l
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crucifix to Mount",
+  "description": "Crucifix to Mount is a top-position transition where the attacker releases the crucifix's figure-four leg trap and swings a leg across the opponent's torso to establish mount, converting bilateral arm control into a high-scoring pin.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Crucifix to Mount transition in BJJ. Learn systematic l
 </div>
 
 <section id="overview" class="content-section">
+
+**Crucifix to Mount is a top-position transition where the attacker releases the crucifix's figure-four leg trap and swings a leg across the opponent's torso to establish mount, converting bilateral arm control into a high-scoring pin.**
 
 The Crucifix to Mount transition represents a deliberate positional advancement from one of BJJ's most dominant control positions to the sport's highest-scoring pin. While the crucifix offers devastating submission opportunities through bilateral arm isolation, strategic scenarios arise where transitioning to mount provides superior positional value. This occurs when the opponent begins compromising the arm trap through persistent extraction attempts, when submission attacks from crucifix are being effectively defended, or when the practitioner determines that mount's systematic submission chains offer a more efficient path to finish.
 

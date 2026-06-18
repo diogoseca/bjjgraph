@@ -33,10 +33,32 @@ description: "Master the Bow and Arrow Choke from Harness position in BJJ. Learn
 }
 </script>
 
-> **SAFETY**: Bow and Arrow Choke from Harness targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bow and Arrow Choke from Harness",
+  "description": "The Bow and Arrow Choke from Harness is a gi collar choke from back control where the attacker feeds a deep cross-collar grip, hooks the far leg, and falls to one side to stretch the body and compress both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Bow and Arrow Choke from Harness is a gi collar choke from back control where the attacker feeds a deep cross-collar grip, hooks the far leg, and falls to one side to stretch the body and compress both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Bow and Arrow Choke from Harness targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,55 +75,7 @@ What distinguishes the harness entry from other Bow and Arrow setups is the seam
 
 Strategically, this submission capitalizes on common defensive reactions to back control. When opponents prioritize defending the rear naked choke by fighting the choking arm, they often neglect collar defense, creating the opening for the lapel grip. The Bow and Arrow from Harness is particularly effective because the attacker maintains back control throughout the setup, giving them the option to abandon the attempt and return to standard back attacks if the collar grip is defended. Competition data shows this remains one of the most successful submissions at black belt level, with elite competitors like Roger Gracie having built entire finishing systems around the collar grip from back control.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Harness]]
-**From Position**: [[Positions/Harness]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | High | Immediate if released promptly; medical evaluation required if unconsciousness occurs |
-| Neck strain from excessive torque and rotation | Medium | 3-7 days for minor strain; 2-4 weeks for moderate strain |
-| Jaw or TMJ injury from improper collar placement | Medium | 1-3 weeks for minor injury; 4-8 weeks for significant TMJ damage |
-| Knee or hip stress from forced leg extension | Low | 2-5 days for minor discomfort |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on body or mat
-- Physical foot tap on mat
-- Any audible distress signal
-- Loss of resistance (immediate release required)
-
-
-**Release Protocol**:
-1. Immediately release collar grip upon tap signal
-2. Release leg extension and hooks simultaneously
-3. Allow opponent's head to return to neutral position
-4. Check for consciousness and responsiveness
-5. If opponent was unconscious, elevate legs and monitor until full recovery
-
-
-**Training Restrictions**:
-- Never spike or jerk the choke - apply smooth progressive pressure only
-- Never use competition speed in training rolls
-- Always maintain communication with training partner
-- Never continue pressure after tap signal
-- Beginners must drill position control before attempting finish
-- Always allow partner clear access to tap with hands or voice
-
+**Starting Position**: [[Positions/Harness]] · **From**: [[Positions/Harness]] (Top)
 
 </section>
 
@@ -268,42 +242,63 @@ Strategically, this submission capitalizes on common defensive reactions to back
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Clock Choke]]
 - [[Submissions/Short Choke]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Harness]] - Starting position for this submission variant
 - [[Positions/Back Control]] - Parent back control position family
 - [[Positions/Back Control/Seat Belt Control Back]] - Alternative harness configuration used as entry
-- [[Submissions/Bow and Arrow Choke]] - Generic version of this submission
-- [[Submissions/Rear Naked Choke]] - Primary alternative submission from same position
 - [[Positions/Turtle]] - Common entry position before establishing harness
 - [[Positions/Closed Guard]] - Counter outcome position if defender escapes
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Bow and Arrow Choke from Harness leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | High | Immediate if released promptly; medical evaluation required if unconsciousness occurs |
+| Neck strain from excessive torque and rotation | Medium | 3-7 days for minor strain; 2-4 weeks for moderate strain |
+| Jaw or TMJ injury from improper collar placement | Medium | 1-3 weeks for minor injury; 4-8 weeks for significant TMJ damage |
+| Knee or hip stress from forced leg extension | Low | 2-5 days for minor discomfort |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
+
+**Tap Signals**:
+- Verbal tap
+- Physical hand tap on body or mat
+- Physical foot tap on mat
+- Any audible distress signal
+- Loss of resistance (immediate release required)
+
+
+**Release Protocol**:
+1. Immediately release collar grip upon tap signal
+2. Release leg extension and hooks simultaneously
+3. Allow opponent's head to return to neutral position
+4. Check for consciousness and responsiveness
+5. If opponent was unconscious, elevate legs and monitor until full recovery
+
+
+**Training Restrictions**:
+- Never spike or jerk the choke - apply smooth progressive pressure only
+- Never use competition speed in training rolls
+- Always maintain communication with training partner
+- Never continue pressure after tap signal
+- Beginners must drill position control before attempting finish
+- Always allow partner clear access to tap with hands or voice
+
 
 </section>
 

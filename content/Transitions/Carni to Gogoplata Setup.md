@@ -34,6 +34,18 @@ description: "Master the Carni to Gogoplata Setup transition in BJJ. Chain from 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Carni to Gogoplata Setup",
+  "description": "The Carni to Gogoplata Setup is a no-gi transition where the bottom player releases their top leg from the Carni entanglement and threads the shin across the opponent's throat to establish gogoplata control, exploiting forward stack pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Carni to Gogoplata Setup transition in BJJ. Chain from 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Carni to Gogoplata Setup is a no-gi transition where the bottom player releases their top leg from the Carni entanglement and threads the shin across the opponent's throat to establish gogoplata control, exploiting forward stack pressure.**
 
 The Carni to Gogoplata Setup represents one of modern grappling's most creative and unorthodox transitions, bridging the gap between leg lock systems and upper body submission attacks. This technique exploits a fundamental vulnerability in common leg entanglement defense: when opponents drive forward aggressively to stack and neutralize the Carni position, they inadvertently bring their neck within range of the bottom player's legs. By recognizing this forward pressure as an opportunity rather than a threat, the attacker releases one leg from the entanglement and threads it across the opponent's throat, establishing the foundation for gogoplata control.
 

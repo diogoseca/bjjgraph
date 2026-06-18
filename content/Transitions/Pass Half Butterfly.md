@@ -34,6 +34,18 @@ description: "Master the Pass Half Butterfly guard pass in BJJ. Learn to neutral
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Half Butterfly",
+  "description": "Pass Half Butterfly is a top-position guard pass that neutralizes the bottom player's remaining butterfly hook through forward weight and low hip pressure, then clears the trapped leg to complete the pass to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Pass Half Butterfly guard pass in BJJ. Learn to neutral
 </div>
 
 <section id="overview" class="content-section">
+
+**Pass Half Butterfly is a top-position guard pass that neutralizes the bottom player's remaining butterfly hook through forward weight and low hip pressure, then clears the trapped leg to complete the pass to side control.**
 
 Passing the Half Butterfly guard requires systematic neutralization of the butterfly hook's lifting mechanics while maintaining enough upper body pressure to prevent guard recovery. The butterfly hook in half butterfly creates a powerful elevation tool that the bottom player uses to generate sweeps and off-balance the passer. The top player's primary challenge is removing this hook's effectiveness without sacrificing the crossface or underhook control needed to prevent the bottom player from recovering full butterfly guard or transitioning to deep half.
 
@@ -233,7 +247,7 @@ Pass Half Butterfly occupies a critical position in the guard passing hierarchy,
 
 - [[Transitions/Smash Half Butterfly]] - Alternative pressure-based passing technique from same position
 
-- [[Transitions/Knee Slice from Butterfly Half]] - Complementary passing technique that chains with this pass
+- [[Transitions/Knee Slice Pass]] - Complementary passing technique that chains with this pass
 
 - [[Transitions/Half Butterfly Sweep]] - Primary counter-technique the bottom player threatens during the pass
 

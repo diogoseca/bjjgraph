@@ -34,6 +34,18 @@ description: "Escape gogoplata control by extracting head and recovering posture
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Head Extraction to Posture",
+  "description": "Head Extraction to Posture is the systematic escape from gogoplata control in which the trapped top player loosens the foot hooked behind their head, slides their head out laterally, and rebuilds posture to return to closed guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Escape gogoplata control by extracting head and recovering posture
 
 <section id="overview" class="content-section">
 
-Head Extraction to Posture is a critical defensive transition when caught in gogoplata control. The technique addresses the unique mechanical challenge presented by the gogoplata configuration: the opponent's shin is across your throat while their foot is secured behind your head, creating a closed-loop system that prevents conventional backward escape. Understanding this geometry is essential because pulling straight back only tightens the choke.
+**Head Extraction to Posture is the systematic escape from gogoplata control in which the trapped top player loosens the foot hooked behind their head, slides their head out laterally, and rebuilds posture to return to closed guard.**
+
+When the top player is caught in gogoplata control, the situation is mechanically unlike an ordinary pin: the opponent's shin lies across your throat while their foot is secured behind your head, creating a closed-loop system that prevents conventional backward escape. Understanding this geometry is essential because pulling straight back only tightens the choke.
 
 The technique prioritizes systematic extraction over explosive movement. Rather than panicking and making random movements that typically worsen the position, the defender works through a precise sequence: first creating breathing space by turning the chin, then addressing the foot-behind-head configuration, and finally extracting the head while the opponent's structural control is compromised. This methodical approach reflects the principle that some submissions cannot be escaped through strength alone.
 

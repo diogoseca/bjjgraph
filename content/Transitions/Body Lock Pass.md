@@ -34,6 +34,18 @@ description: "Master the Body Lock Pass in BJJ. Step-by-step pressure passing fr
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Body Lock Pass",
+  "description": "The Body Lock Pass is a pressure-passing technique from half guard top in which the passer clasps both hands behind the opponent's back to eliminate framing space, flattens them, then clears the trapped leg to reach side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Body Lock Pass in BJJ. Step-by-step pressure passing fr
 
 <section id="overview" class="content-section">
 
-The Body Lock Pass is a fundamental pressure passing technique that uses upper body control to bypass the half guard. This high-percentage pass relies on establishing a tight body lock to nullify the bottom player's frames and mobility. The technique is particularly effective in no-gi grappling where grips on clothing are unavailable, though it remains highly effective in gi training as well. The core mechanic is a clasped-hands connection behind the opponent's back that creates an unbreakable link between your torso and theirs, removing their ability to generate the space necessary for any defensive action.
+**The Body Lock Pass is a pressure-passing technique from half guard top in which the passer clasps both hands behind the opponent's back to eliminate framing space, flattens them, then clears the trapped leg to reach side control.**
+
+As a cornerstone of modern pressure passing, the body lock pass earns its reputation against athletic guard players who rely on creating space and scrambling to retain. This high-percentage pass relies on establishing a tight body lock to nullify the bottom player's frames and mobility. The technique is particularly effective in no-gi grappling where grips on clothing are unavailable, though it remains highly effective in gi training as well. The core mechanic is a clasped-hands connection behind the opponent's back that creates an unbreakable link between your torso and theirs, removing their ability to generate the space necessary for any defensive action.
 
 The pass works by creating a connection that removes the bottom player's ability to create space or maintain defensive structure. Once the body lock is secured, the passer uses systematic pressure and hip movement to flatten the opponent, clear the trapped leg, and establish side control. The technique lies in its simplicity and reliability - it requires less finesse than many other passes and instead relies on proper positioning, pressure application, and methodical execution. Each phase of the pass removes more of the defender's options, creating a cascading loss of defensive capability.
 

@@ -20,6 +20,7 @@
   "starting_position": "Kimura Trap",
   "from_position": "Kimura Trap/Top",
   "success_rate": 68,
+  "summary": "The Americana from Kimura Trap is a shoulder lock that redirects an already-established figure-four grip into internal rotation when the opponent defends the Kimura by pulling their elbow down, finishing the same shoulder from the opposite angle.",
   "overview": "The Americana from Kimura Trap exploits the most predictable defensive reaction in the Kimura Trap system. When a top player threatens the standard Kimura finish with external shoulder rotation, skilled defenders instinctively respond by pulling their elbow tight to their ribs and driving their hand toward the mat. This defensive posture neutralizes the Kimura but creates the ideal setup for the Americana—the attacker redirects the captured wrist downward and away in a paintbrush motion, applying internal rotation to the same shoulder joint from the opposite angle.\n\nThe figure-four grip transfers seamlessly between Kimura and Americana without any grip reconfiguration, making this one of the fastest submission transitions in grappling. The defender's own protective reaction—elbow pinned, hand low—provides the starting geometry the Americana requires. Combined with the positional dominance inherent in Kimura Trap Top, this creates a submission with an unusually high completion rate because the attacker never relinquishes control during the transition.\n\nAt the purple and brown belt level, this technique punishes opponents who have developed strong Kimura defense but have not yet internalized the Americana counter-threat. The dual-direction submission threat—Kimura pulling upward, Americana pressing downward—creates a genuine dilemma where defending one attack directly feeds the other. This forced-choice dynamic is the hallmark of high-level submission grappling and represents the Kimura Trap system's philosophical core: every defense creates a new attack.",
   "safety_considerations": {
     "injury_risks": [
@@ -330,6 +331,16 @@
         "question": "In competition, when should you choose the Americana redirect versus continuing to work the Kimura from Kimura Trap Top?",
         "answer": "Choose the Americana redirect when you feel the opponent has committed to the standard Kimura defense with their elbow pinned and hand driven low. If they are actively fighting the grip or attempting to straighten their arm, the Kimura remains the better option. In competition, the Americana is particularly effective in the final minutes when opponents are fatigued and their Kimura defense becomes predictable. The key is to genuinely threaten the Kimura first—a half-hearted setup will not draw the defensive reaction you need for the redirect.",
         "safety_critical": false
+      },
+      {
+        "question": "What are the breaking-point indicators that tell you the Americana finish is imminent and you must control the pace?",
+        "answer": "The breaking point is signaled by the opponent's forearm reaching the mat-parallel position while their elbow stays pinned, their shoulder visibly rotating internally past the neutral line, and a sudden loss of resistance as the joint reaches end range. At this stage the tap is seconds away, so you must slow your pace, not accelerate. Continuing to drive past this point risks rotator cuff or capsule damage before the partner can react, so apply the final degrees of rotation gradually and stop the instant you feel the tap or see distress.",
+        "safety_critical": true
+      },
+      {
+        "question": "At what moment does the defender pass the point of no escape against this Americana?",
+        "answer": "The point of no escape is when the elbow is firmly pinned to the mat as a fixed fulcrum AND your chest weight has settled to prevent the arm from straightening. Once both conditions are met, the defender can no longer straighten the arm to kill the angle or bridge effectively to lift your weight, leaving only the tap. Recognizing this moment matters for safety as much as finishing—because escape is gone, the attacker carries full responsibility for a slow, controlled finish, and the defender should tap rather than risk the joint.",
+        "safety_critical": true
       }
     ]
   },

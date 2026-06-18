@@ -34,6 +34,18 @@ description: "Master the standing guard pull in BJJ. Complete guide covering gri
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Guard Pull",
+  "description": "The Standing Guard Pull is a foundational BJJ transition where a guard-oriented player establishes grips, breaks the opponent's posture, and deliberately sits to the mat to enter open guard rather than contesting a takedown.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the standing guard pull in BJJ. Complete guide covering gri
 </div>
 
 <section id="overview" class="content-section">
+
+**The Standing Guard Pull is a foundational BJJ transition where a guard-oriented player establishes grips, breaks the opponent's posture, and deliberately sits to the mat to enter open guard rather than contesting a takedown.**
 
 The Standing Guard Pull is one of the most frequently executed transitions in modern BJJ competition, serving as the primary method for guard-oriented practitioners to move the engagement from standing to their preferred ground game. Unlike takedowns that require wrestling proficiency and carry the risk of being countered into inferior positions, the guard pull offers a controlled descent into an established guard framework with predictable outcomes and immediate offensive options. For practitioners who have invested heavily in their bottom game, the guard pull is not a concession but a deliberate tactical choice that places them exactly where they are most dangerous.
 

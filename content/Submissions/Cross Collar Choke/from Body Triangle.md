@@ -33,10 +33,32 @@ description: "Master the cross collar choke from body triangle in BJJ. Learn gri
 }
 </script>
 
-> **SAFETY**: Cross Collar Choke from Body Triangle targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Collar Choke from Body Triangle",
+  "description": "The cross collar choke from body triangle is a gi blood choke from back control where the figure-four leg lock frees both hands to feed crossed grips deep into the opponent's collar and compress both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The cross collar choke from body triangle is a gi blood choke from back control where the figure-four leg lock frees both hands to feed crossed grips deep into the opponent's collar and compress both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Cross Collar Choke from Body Triangle targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,51 +75,7 @@ From the body triangle, the attacker's legs are fully committed to lower body co
 
 This submission is particularly effective as a complement to the rear naked choke and bow and arrow choke from body triangle. When the defender tucks their chin to defend the RNC, the collar grips become accessible. When they fight collar grips, the neck opens for the RNC. This creates a decision tree where every defensive choice opens a different submission pathway, making the body triangle an elite finishing platform in gi grappling.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Back Control/Body Triangle]]
-**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to temporary loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held past unconsciousness |
-| Trachea damage from improper hand placement or windpipe-focused pressure | Medium | 1-2 weeks for minor irritation; months for severe tracheal damage |
-| Neck strain from defensive reactions against the choke | Low | 3-7 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal including facial expressions or loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release both collar grips upon tap signal
-2. Open body triangle and disengage controlling position
-3. Allow partner space to recover breathing and circulation
-4. Check partner's alertness and ensure full recovery before continuing
-
-
-**Training Restrictions**:
-- Never apply full choking pressure during initial learning phases
-- Never hold the choke past the tap signal under any circumstances
-- Never use competition speed or intensity in basic drilling
-- Never practice on partners with neck or circulation issues without instructor supervision
-- Always ensure partner has clear access to tap with hands or feet despite body triangle control
-
+**Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -242,38 +220,54 @@ This submission is particularly effective as a complement to the rear naked chok
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control/Body Triangle]] - Primary starting position providing lower body control
 - [[Positions/Back Control]] - Parent position category for body triangle control
-- [[Submissions/Cross Collar Choke]] - Base submission technique applied from this position
-- [[Rear Naked Choke from Body Triangle]] - Primary alternative submission creating attack chain
-- [[Submissions/Bow and Arrow Choke]] - Complementary gi choke from body triangle control
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Cross Collar Choke from Body Triangle leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to temporary loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held past unconsciousness |
+| Trachea damage from improper hand placement or windpipe-focused pressure | Medium | 1-2 weeks for minor irritation; months for severe tracheal damage |
+| Neck strain from defensive reactions against the choke | Low | 3-7 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on partner's body or mat
+- Physical foot tap on mat or partner
+- Any distress signal including facial expressions or loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release both collar grips upon tap signal
+2. Open body triangle and disengage controlling position
+3. Allow partner space to recover breathing and circulation
+4. Check partner's alertness and ensure full recovery before continuing
+
+
+**Training Restrictions**:
+- Never apply full choking pressure during initial learning phases
+- Never hold the choke past the tap signal under any circumstances
+- Never use competition speed or intensity in basic drilling
+- Never practice on partners with neck or circulation issues without instructor supervision
+- Always ensure partner has clear access to tap with hands or feet despite body triangle control
+
 
 </section>
 

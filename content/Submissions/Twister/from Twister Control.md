@@ -33,10 +33,32 @@ description: "Master the Twister submission from Twister Control. Complete guide
 }
 </script>
 
-> **SAFETY**: Twister from Twister Control targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine damage including herniated discs and ligament tears. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister from Twister Control",
+  "description": "The Twister from Twister Control is a no-gi spinal lock that pairs leg-entanglement rotation with a chin-strap crank, torquing the cervical and thoracic spine into lateral flexion to force the tap from a back-exposed, leg-trapped opponent.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Twister from Twister Control is a no-gi spinal lock that pairs leg-entanglement rotation with a chin-strap crank, torquing the cervical and thoracic spine into lateral flexion to force the tap from a back-exposed, leg-trapped opponent.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Spinal Lock</span>
+<span class="meta-chip">Targets Cervical and thoracic spine, shoulder girdle</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Twister from Twister Control targets the Cervical and thoracic spine, shoulder girdle. Primary risk: Cervical spine damage including herniated discs and ligament tears. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,55 +75,7 @@ Executing the Twister from established Twister Control provides significant mech
 
 Strategically, the Twister requires patience and precise sequencing rather than explosive force. Rushing the head control before establishing deep leg entanglement consistently results in lost position rather than submission. At competition level, the Twister threat forces opponents into early defensive decisions that open alternative attack pathways including calf slicers, banana splits, and transitions to traditional back control. Understanding the Twister as one option within a broader offensive system from Twister Control separates effective practitioners from those who simply hunt for a single submission.
 
-**Category**: Joint Lock
-**Type**: Spinal Lock
-**Target Area**: Cervical and thoracic spine, shoulder girdle
-**Starting Position**: [[Positions/Twister Control]]
-**From Position**: [[Positions/Twister Control]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Cervical spine damage including herniated discs and ligament tears | CRITICAL | 3-12 months, potentially permanent |
-| Thoracic spine strain or vertebral subluxation | High | 4-8 weeks |
-| Shoulder dislocation or rotator cuff damage from forced rotation | High | 6-12 weeks |
-| Intercostal muscle tears from rib cage torque | Medium | 2-4 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression, never spike or jerk the spine
-
-**Tap Signals**:
-- Verbal tap (most common due to limited hand mobility in this position)
-- Physical hand tap on attacker's body or the mat
-- Physical foot tap if accessible
-- Any distress signal or unusual vocalization treated as immediate tap
-
-
-**Release Protocol**:
-1. Immediately release the head and neck control completely upon any tap signal
-2. Release all upper body grips and allow opponent to turn face-up naturally
-3. Slowly unwind the leg entanglement without pulling or twisting
-4. Do not apply any force during release - let opponent move at their own pace
-5. Check with partner verbally after release to confirm they are okay
-
-
-**Training Restrictions**:
-- NEVER apply at competition speed in training - always 50% speed maximum
-- NEVER use on beginners or those unfamiliar with the position and its dangers
-- NEVER apply sudden or explosive rotational pressure to the spine
-- NEVER continue if partner shows any signs of distress or resistance stops suddenly
-- ALWAYS ensure clear tap access and communicate throughout application
-- NEVER practice without supervision from a qualified instructor
-- Limit Twister-specific drilling to prevent cumulative spinal stress
-
+**Starting Position**: [[Positions/Twister Control]] · **From**: [[Positions/Twister Control]] (Top)
 
 </section>
 
@@ -267,40 +241,62 @@ Strategically, the Twister requires patience and precise sequencing rather than 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Banana Split]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Half Guard/Electric Chair]]
-- [[Submissions/Spine Lock]]
-- [[Positions/Aoki Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Submissions/Can Opener]]
+- [[Transitions/Aoki Lock]]
 - [[Positions/Twister Control]] - Starting control position providing the rotational foundation for this submission
 - [[Positions/Twister Control/Truck]] - Primary entry variation and leg entanglement platform for the Twister
 - [[Positions/Back Control]] - Alternative control position accessible when Twister Control breaks down
 - [[Positions/Twister Control/Twister Side Control]] - Related lateral control variation with alternative Twister entry angles
-- [[Submissions/Banana Split]] - Alternative submission available from the same leg entanglement position
 - [[Positions/Half Guard/Lockdown]] - Bottom half guard position that creates Twister Control entry opportunities
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Twister from Twister Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Cervical spine damage including herniated discs and ligament tears | CRITICAL | 3-12 months, potentially permanent |
+| Thoracic spine strain or vertebral subluxation | High | 4-8 weeks |
+| Shoulder dislocation or rotator cuff damage from forced rotation | High | 6-12 weeks |
+| Intercostal muscle tears from rib cage torque | Medium | 2-4 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression, never spike or jerk the spine
+
+**Tap Signals**:
+- Verbal tap (most common due to limited hand mobility in this position)
+- Physical hand tap on attacker's body or the mat
+- Physical foot tap if accessible
+- Any distress signal or unusual vocalization treated as immediate tap
+
+
+**Release Protocol**:
+1. Immediately release the head and neck control completely upon any tap signal
+2. Release all upper body grips and allow opponent to turn face-up naturally
+3. Slowly unwind the leg entanglement without pulling or twisting
+4. Do not apply any force during release - let opponent move at their own pace
+5. Check with partner verbally after release to confirm they are okay
+
+
+**Training Restrictions**:
+- NEVER apply at competition speed in training - always 50% speed maximum
+- NEVER use on beginners or those unfamiliar with the position and its dangers
+- NEVER apply sudden or explosive rotational pressure to the spine
+- NEVER continue if partner shows any signs of distress or resistance stops suddenly
+- ALWAYS ensure clear tap access and communicate throughout application
+- NEVER practice without supervision from a qualified instructor
+- Limit Twister-specific drilling to prevent cumulative spinal stress
+
 
 </section>
 

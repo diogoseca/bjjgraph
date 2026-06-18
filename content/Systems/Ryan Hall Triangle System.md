@@ -149,6 +149,16 @@ description: "Master Ryan Hall's Triangle System. Comprehensive framework connec
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ryan Hall Triangle System",
+  "description": "The Ryan Hall Triangle System is a closed-guard submission framework that treats the triangle as a control platform from which armbars, omoplatas, and back takes chain together, forcing opponents into no-win defensive dilemmas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -163,7 +173,9 @@ description: "Master Ryan Hall's Triangle System. Comprehensive framework connec
 
 ## What is Ryan Hall Triangle System?
 
-The Ryan Hall Triangle System represents one of the most comprehensive and technically refined approaches to the triangle choke and its associated submission chains in Brazilian Jiu-Jitsu. Hall's system is built on the fundamental principle that the triangle is not merely a single submission, but rather the centerpiece of an interconnected web of attacks including armbars, omoplatas, and back takes. This system emphasizes positional control, precise angle creation, and the ability to flow seamlessly between submissions based on defensive reactions.
+**The Ryan Hall Triangle System is a closed-guard submission framework that treats the triangle as a control platform from which armbars, omoplatas, and back takes chain together, forcing opponents into no-win defensive dilemmas.**
+
+Developed by Ryan Hall, one of the sport's most analytically rigorous competitors and instructors, this approach grew out of his observation that the triangle choke is too often trained as an isolated, low-percentage finish rather than as a position of control. Hall's system is built on the fundamental principle that the triangle is not merely a single submission, but rather the centerpiece of an interconnected web of attacks including armbars, omoplatas, and back takes. It emphasizes positional control, precise angle creation, and the ability to flow seamlessly between submissions based on defensive reactions.
 
 What distinguishes Hall's approach is the emphasis on creating genuine dilemmas for opponents through systematic pressure and positioning. Rather than forcing single submissions, the system creates scenarios where every defensive option opens a new offensive pathway. The triangle position becomes a control platform from which multiple high-percentage finishes become available. Hall's methodology breaks down the complex mechanics of triangle attacks into learnable progressions that build upon fundamental principles of leverage, angle manipulation, and timing.
 

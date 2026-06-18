@@ -143,6 +143,16 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Levers",
+  "description": "Levers are the biomechanical principle of using a rigid body segment pivoting around a fulcrum to multiply force, letting a smaller practitioner overcome a stronger opponent through optimal angles and arm-length ratios rather than muscular strength.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
 
 ## What are Levers?
 
-Levers represent the fundamental biomechanical framework of using mechanical advantage to multiply force application, enabling practitioners to overcome size, strength, and weight disadvantages through optimal positioning, angle creation, and efficient force vectors. Unlike specific techniques, leverage principles are comprehensive conceptual frameworks that apply across all positions, submissions, sweeps, and control scenarios in BJJ. This concept encompasses the physics of fulcrums, lever arms, force multiplication, and compound leverage systems, serving as both the theoretical foundation for technique effectiveness and the practical methodology for efficient movement. The ability to recognize and create leverage opportunities often determines whether techniques succeed against stronger opponents, making it one of the most essential conceptual elements in Brazilian Jiu-Jitsu. Leverage principles explain why smaller practitioners can control larger opponents and why proper technique overcomes strength.
+**Levers are the biomechanical principle of using a rigid body segment pivoting around a fulcrum to multiply force, letting a smaller practitioner overcome a stronger opponent through optimal angles and arm-length ratios rather than muscular strength.**
+
+Among the conceptual foundations of Brazilian Jiu-Jitsu, leverage occupies a privileged place: it is the physics that explains why the art rewards technique over athleticism and why a well-positioned grappler can dismantle a far stronger one. Unlike specific techniques, leverage principles are comprehensive conceptual frameworks that apply across all positions, submissions, sweeps, and control scenarios in BJJ. This concept encompasses the physics of fulcrums, lever arms, force multiplication, and compound leverage systems, serving as both the theoretical foundation for technique effectiveness and the practical methodology for efficient movement. The ability to recognize and create leverage opportunities often determines whether techniques succeed against stronger opponents, making it one of the most essential conceptual elements in Brazilian Jiu-Jitsu. Leverage principles explain why smaller practitioners can control larger opponents and why proper technique overcomes strength.
 
 </section>
 

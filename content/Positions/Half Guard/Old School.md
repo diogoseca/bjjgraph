@@ -34,6 +34,18 @@ description: "Master Old School position in BJJ half guard. Strategic guide cove
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Old School",
+  "description": "Old School is a 10th Planet half guard variant where the bottom player combines lockdown leg control, a deep underhook, and head control to threaten the signature Old School Sweep to mount and the Electric Chair submission, while the top player counters with whizzer and crossface pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Old School position in BJJ half guard. Strategic guide cove
 </div>
 
 <section id="overview" class="content-section">
+
+**Old School is a 10th Planet half guard variant where the bottom player combines lockdown leg control, a deep underhook, and head control to threaten the signature Old School Sweep to mount and the Electric Chair submission, while the top player counters with whizzer and crossface pressure.**
 
 Old School position represents a critical battleground in modern half guard, where the lockdown creates a powerful control system that transforms half guard from defensive holding to offensive launching pad. This position gained prominence through the 10th Planet system, establishing lockdown-based attacks as legitimate alternatives to traditional half guard approaches. The position exists in constant tension between bottom's sweeping threats and top's passing pressure, creating a dynamic chess match of control and counter-control.
 

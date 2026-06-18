@@ -34,6 +34,18 @@ description: "Master Outside Ashi-Garami position in BJJ. Strategic guide coveri
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Outside Ashi-Garami",
+  "description": "Outside Ashi-Garami is a leg entanglement that traps an opponent's leg in a figure-four from the outside angle, isolating the limb for heel hooks and ankle locks while serving as a gateway to more dominant entanglements.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Outside Ashi-Garami position in BJJ. Strategic guide coveri
 </div>
 
 <section id="overview" class="content-section">
+
+**Outside Ashi-Garami is a leg entanglement that traps an opponent's leg in a figure-four from the outside angle, isolating the limb for heel hooks and ankle locks while serving as a gateway to more dominant entanglements.**
 
 Outside Ashi-Garami is a foundational leg entanglement position in modern Brazilian Jiu-Jitsu where the practitioner controls their opponent's leg from the outside angle, creating opportunities for heel hooks, ankle locks, and transitions to more dominant leg entanglements. This position serves as the gateway to advanced leg lock systems and represents a critical skill set for no-gi and submission-only competition.
 

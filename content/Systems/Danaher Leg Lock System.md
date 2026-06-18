@@ -147,6 +147,16 @@ description: "Master the Danaher Leg Lock System. Systematic framework for ashi-
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Danaher Leg Lock System",
+  "description": "The Danaher Leg Lock System is a no-gi submission framework that treats ashi-garami leg entanglements as a positional hierarchy—establishing control, advancing position, and systematically breaking the leg before finishing with heel hooks and other lower-body submissions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -160,6 +170,8 @@ description: "Master the Danaher Leg Lock System. Systematic framework for ashi-
 <section id="overview" class="content-section">
 
 ## What is Danaher Leg Lock System?
+
+**The Danaher Leg Lock System is a no-gi submission framework that treats ashi-garami leg entanglements as a positional hierarchy—establishing control, advancing position, and systematically breaking the leg before finishing with heel hooks and other lower-body submissions.**
 
 The Danaher Leg Lock System represents a paradigmatic shift in modern Brazilian Jiu-Jitsu, transforming leg attacks from opportunistic submissions into a comprehensive positional hierarchy. Developed by John Danaher and perfected by his students at the Renzo Gracie Academy, this system treats leg entanglements as positions rather than submissions, establishing control hierarchies, transition pathways, and finishing mechanics that mirror traditional upper body systems.
 

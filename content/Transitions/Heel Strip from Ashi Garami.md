@@ -34,6 +34,18 @@ description: "Master the heel strip escape from Ashi Garami in BJJ. Step-by-step
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Strip from Ashi Garami",
+  "description": "The heel strip from Ashi Garami is a leg-lock defense where the trapped player two-on-ones the attacker's wrist and peels the controlling grip below the ankle line, killing heel-hook rotation before extracting the leg to recover open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the heel strip escape from Ashi Garami in BJJ. Step-by-step
 
 <section id="overview" class="content-section">
 
-The heel strip from Ashi Garami is the fundamental defensive technique for neutralizing heel hook threats when trapped in a leg entanglement. Rather than panicking or explosively ripping the leg free—which paradoxically exposes the heel to finishing mechanics—the heel strip employs precise hand fighting to systematically peel the attacker's grip off the heel, removing the rotational control needed for a heel hook finish. This technique bridges the gap between passive survival and active escape, giving the defender a concrete mechanical action to address the most dangerous aspect of the position.
+**The heel strip from Ashi Garami is a leg-lock defense where the trapped player two-on-ones the attacker's wrist and peels the controlling grip below the ankle line, killing heel-hook rotation before extracting the leg to recover open guard.**
+
+Trapped in an Ashi Garami leg entanglement, a defender's most pressing problem is not the position itself but the attacker's grip on the exposed heel—the connection that makes a heel hook finishable. Rather than panicking or explosively ripping the leg free—which paradoxically exposes the heel to finishing mechanics—the heel strip employs precise hand fighting to systematically peel the attacker's grip off the heel, removing the rotational control needed for a heel hook finish. This technique bridges the gap between passive survival and active escape, giving the defender a concrete mechanical action to address the most dangerous aspect of the position.
 
 The strategic importance of the heel strip cannot be overstated. In modern leg lock systems, the fight for heel exposure is the central battle—if the attacker cannot control the heel, even perfect positional control in Saddle or Cross Ashi becomes largely toothless for finishing. By mastering the heel strip, defenders transform potentially catastrophic positions into manageable recovery situations. The technique works across all Ashi Garami variations, though timing and hand positioning change depending on whether you face Outside Ashi, Inside Ashi, or Saddle configurations.
 

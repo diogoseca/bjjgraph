@@ -21,7 +21,7 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
     {
       "@type": "HowToStep",
       "name": "Execute Whip-up Sweep",
-      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,7 +33,7 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Transition",
-      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {

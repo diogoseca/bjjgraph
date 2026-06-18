@@ -10,6 +10,7 @@
     "pin-escape",
     "bottom-technique"
   ],
+  "summary": "The bridge from Reverse Kesa-Gatame is an explosive bottom escape that plants both feet and drives the hips upward toward the trapped-arm side, displacing the top player's weight to turn to turtle or recover half guard.",
   "from_position": "Reverse Kesa-Gatame/Bottom",
   "outcomes": [
     {
@@ -81,16 +82,20 @@
       "relationship": "Related scarf hold position with analogous bridge escape mechanics"
     },
     {
-      "name": "Bridge Escape from Kesa Gatame",
-      "relationship": "Similar bridge escape technique from traditional scarf hold"
+      "name": "Reverse Scarf Hold",
+      "relationship": "Synonymous reverse scarf hold variant sharing identical escape mechanics"
     },
     {
-      "name": "Bridge Escape from Scarf Hold",
-      "relationship": "Related bridge escape from scarf hold family"
+      "name": "Elbow Escape to Guard",
+      "relationship": "Complementary shrimp-based escape to chain into when the bridge is stuffed"
     },
     {
-      "name": "Bridge Escape from Reverse Scarf Hold",
-      "relationship": "Closely related bridge escape from reverse scarf hold variant"
+      "name": "Hip Escape to Guard",
+      "relationship": "Fundamental hip escape used as a follow-up after a partial bridge"
+    },
+    {
+      "name": "Bridge and Roll",
+      "relationship": "Higher-commitment bridging reversal available from the same position"
     },
     {
       "name": "Side Control",
@@ -269,6 +274,10 @@
       {
         "question": "What is the critical timing difference between bridging from Reverse Kesa-Gatame versus traditional Kesa Gatame?",
         "answer": "In Reverse Kesa-Gatame, the top player faces your legs rather than your head, which means their posting ability and base recovery direction differ fundamentally. The bridge should be directed toward the trapped arm side because the opponent's arms are positioned for arm control rather than posting. In traditional Kesa Gatame, the bridge direction goes toward the opponent's back. This directional difference is the most common error practitioners make when applying bridge escapes across scarf hold variants."
+      },
+      {
+        "question": "Your first bridge fails to displace the opponent—what should you chain into rather than bridging again?",
+        "answer": "Never repeat an identical bridge, because the opponent will anticipate the timing and direction and simply ride the second attempt. Instead, immediately flow into a hip escape or elbow escape toward your free-arm side, exploiting the weight disruption the failed bridge created to insert your knee and recover half guard. If the opponent over-committed their weight forward chasing the bridge, a technical stand-up to disengage also opens up. Treat the failed bridge as a deliberate setup that loads the next escape, not as a wasted attempt."
       }
     ],
     "safety_considerations": "Bridge escapes involve explosive spinal extension and rotational forces on the lumbar spine. Warm up the lower back, hip flexors, and glutes thoroughly before drilling. During initial learning phases, the top player should allow controlled escape repetitions rather than resisting at maximum intensity. Tap immediately if neck or spinal discomfort occurs during the turning phase. Partners should communicate about intensity level and any pre-existing back or neck injuries before positional drilling. Avoid explosive bridging on hard surfaces without adequate mat padding."

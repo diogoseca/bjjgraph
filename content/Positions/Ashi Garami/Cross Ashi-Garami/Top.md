@@ -21,7 +21,7 @@ description: "Master Cross Ashi-Garami from top position. Outside leg entangleme
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook from Cross Ashi-Garami",
-      "text": "From this position, attempt Outside Heel Hook from Cross Ashi-Garami. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook from Cross Ashi-Garami. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {

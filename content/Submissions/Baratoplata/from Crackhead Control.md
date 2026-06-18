@@ -33,10 +33,32 @@ description: "Master the Baratoplata from Crackhead Control. Complete guide to t
 }
 </script>
 
-> **SAFETY**: Baratoplata from Crackhead Control targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Baratoplata from Crackhead Control",
+  "description": "The Baratoplata from Crackhead Control is a 10th Planet rubber guard shoulder lock that threads the attacking arm into a figure-four with the controlling shin, using hip extension to force the opponent's shoulder into internal rotation past its limit.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Baratoplata from Crackhead Control is a 10th Planet rubber guard shoulder lock that threads the attacking arm into a figure-four with the controlling shin, using hip extension to force the opponent's shoulder into internal rotation past its limit.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint and rotator cuff</span>
+<span class="meta-chip">42% success</span>
+</div>
+
+> [!danger] Safety
+> Baratoplata from Crackhead Control targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,55 +75,7 @@ The submission works by threading the attacking arm underneath the opponent's tr
 
 What makes this variation particularly dangerous at the competitive level is the deceptive nature of the attack within the Crackhead Control attack chain. Opponents defending against Crackhead Control typically focus on preventing the more common gogoplata or omoplata threats, leaving the baratoplata as a secondary attack that catches defenders off-guard. The leg-assisted mechanics generate significantly more torque than arm-only shoulder locks like the americana or kimura, making this a genuinely threatening submission even against larger or stronger opponents. The shoulder joint can reach structural failure before adequate pain signals register, demanding exceptional care during training.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Positions/Crackhead Control]]
-**From Position**: [[Positions/Crackhead Control]] (Bottom)
-**Success Rate**: 42%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear or strain | High | 6-12 weeks for moderate tears, 3-6 months for severe tears |
-| Shoulder capsule damage | High | 4-8 weeks minimum |
-| Labrum tear | CRITICAL | 3-6 months, may require surgical intervention |
-| Shoulder dislocation | CRITICAL | 8-12 weeks minimum, potential for chronic instability |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time, shoulder submissions require exceptional care
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on partner or mat
-- Physical foot tap on partner or mat
-- Any distress signal or vocalization
-- Rapid tapping motion with free hand
-
-
-**Release Protocol**:
-1. Immediately stop all forward pressure on shoulder
-2. Release arm weave and unwrap controlling leg
-3. Remove high guard position and lower hips
-4. Allow partner to safely extract their arm
-5. Check for shoulder mobility and comfort before continuing training
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking motions to shoulder submissions
-- Never use competition speed during training rolls
-- Always ensure training partner has clear tap access with free hand
-- Never force the position if partner has limited shoulder flexibility
-- Stop immediately upon any tap signal, do not wait for verbal confirmation
-- Beginners should only practice entry mechanics, not finishing pressure
-
+**Starting Position**: [[Positions/Crackhead Control]] · **From**: [[Positions/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -265,39 +239,60 @@ What makes this variation particularly dangerous at the competitive level is the
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Baratoplata]]
 - [[Transitions/Gogoplata]]
-- [[Transitions/Gogoplata]]
+- [[Submissions/Omoplata]]
 - [[Transitions/Arm Triangle]]
 - [[Positions/Half Guard/Electric Chair]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Crackhead Control]] - Primary starting position providing posture control and arm isolation for the submission
 - [[Positions/Rubber Guard/Mission Control]] - Preceding rubber guard position that transitions into crackhead control setup
 - [[Positions/Rubber Guard/Meathook]] - Alternative rubber guard position with similar arm isolation for baratoplata entry
-- [[Submissions/Baratoplata]] - Parent submission family with generic mechanics applicable across positions
-- [[Transitions/Gogoplata]] - Primary alternative submission from crackhead control that creates dilemma pairing
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Baratoplata from Crackhead Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear or strain | High | 6-12 weeks for moderate tears, 3-6 months for severe tears |
+| Shoulder capsule damage | High | 4-8 weeks minimum |
+| Labrum tear | CRITICAL | 3-6 months, may require surgical intervention |
+| Shoulder dislocation | CRITICAL | 8-12 weeks minimum, potential for chronic instability |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum application time, shoulder submissions require exceptional care
+
+**Tap Signals**:
+- Verbal tap
+- Physical hand tap on partner or mat
+- Physical foot tap on partner or mat
+- Any distress signal or vocalization
+- Rapid tapping motion with free hand
+
+
+**Release Protocol**:
+1. Immediately stop all forward pressure on shoulder
+2. Release arm weave and unwrap controlling leg
+3. Remove high guard position and lower hips
+4. Allow partner to safely extract their arm
+5. Check for shoulder mobility and comfort before continuing training
+
+
+**Training Restrictions**:
+- Never apply explosive or jerking motions to shoulder submissions
+- Never use competition speed during training rolls
+- Always ensure training partner has clear tap access with free hand
+- Never force the position if partner has limited shoulder flexibility
+- Stop immediately upon any tap signal, do not wait for verbal confirmation
+- Beginners should only practice entry mechanics, not finishing pressure
+
 
 </section>
 

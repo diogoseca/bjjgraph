@@ -33,10 +33,32 @@ description: "Master the Kimura from Standing in BJJ. Complete safety guide with
 }
 </script>
 
-> **SAFETY**: Kimura from Standing targets the Shoulder joint, rotator cuff, and posterior shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Standing",
+  "description": "The Kimura from Standing is an upright shoulder lock that traps the opponent's extended arm in a figure-four grip and rotates it behind their back, forcing a tap or funneling them into a takedown or back take.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Standing is an upright shoulder lock that traps the opponent's extended arm in a figure-four grip and rotates it behind their back, forcing a tap or funneling them into a takedown or back take.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and posterior shoulder capsule</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Standing targets the Shoulder joint, rotator cuff, and posterior shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -49,58 +71,7 @@ description: "Master the Kimura from Standing in BJJ. Complete safety guide with
 
 The Kimura from Standing represents one of the most versatile shoulder lock applications in Brazilian Jiu-Jitsu, bridging the gap between takedown control and submission finish. This technique capitalizes on the standing position's dynamic nature, where opponents are often less defensive against upper body attacks while focused on maintaining balance and preventing takedowns. The standing Kimura serves multiple strategic purposes: it can force an immediate tap, create a dominant takedown opportunity, or establish superior positional control as both fighters transition to the ground. Unlike ground-based Kimura applications, the standing version requires acute awareness of weight distribution, base management, and the ability to control an opponent who maintains full mobility. The technique's effectiveness stems from its integration with wrestling fundamentals—using the Kimura grip to break down posture, compromise base, and create cascading defensive dilemmas. Advanced practitioners use the standing Kimura as a systematic entry point, recognizing that even when the submission doesn't finish, the control gained opens pathways to dominant positions including back takes, side control entries, and turtle attacks. The standing application demands precise technical execution combined with strategic timing, making it a cornerstone technique for practitioners transitioning between standing and ground phases of combat.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and posterior shoulder capsule
-**Starting Position**: [[Positions/Standing Position]]
-**From Position**: [[Positions/Standing Position]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus tendons) | High | 6-12 months with surgery, extensive physical therapy |
-| Posterior shoulder dislocation | CRITICAL | 3-6 months minimum, potential permanent instability |
-| Shoulder capsule damage | High | 4-8 months, may require surgical repair |
-| Biceps tendon strain or tear | Medium | 6-12 weeks for strain, 4-6 months for tear |
-| Fall-related head or spine injury (from standing height) | CRITICAL | Variable, potentially permanent |
-
-
-**Application Speed**: EXTREMELY SLOW and controlled - minimum 5-7 seconds, standing applications require extra caution due to fall risk
-
-**Tap Signals**:
-- Verbal tap (loudly, especially in standing)
-- Physical hand tap on partner's body or mat
-- Physical foot tap or stomp
-- Any distress vocalization
-- Opponent going to knees (may indicate submission)
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure on the shoulder
-2. Maintain grip stability to prevent sudden arm release (controlled descent)
-3. Guide partner safely to ground if still standing
-4. Release wrist control first, then shoulder control
-5. Allow partner to externally rotate shoulder back to neutral position
-6. Check for injury and range of motion before continuing training
-
-
-**Training Restrictions**:
-- Never spike, jerk, or explosively rotate the shoulder joint
-- Never use competition finishing speed in training (always 50% speed maximum)
-- Never apply standing Kimura on beginners without extensive instruction
-- Never prevent partner from tapping by controlling both arms
-- Always ensure safe landing space and clear training area
-- Never continue pressure if partner shows any sign of distress or instability
-- Prohibit standing Kimura practice without instructor supervision for white belts
-
+**Starting Position**: [[Positions/Standing Position]] · **From**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -269,7 +240,6 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 - [[Positions/Overhook Control]]
 - [[Positions/Front Headlock]]
 - [[Positions/Turtle]]
-- [[Positions/Standing Position]]
 - [[Positions/Combat Base]]
 - [[Positions/Standing Rear Clinch]]
 - [[Positions/Body Lock]]
@@ -277,10 +247,9 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Transitions/Darce Choke]]
 - [[Transitions/Arm Triangle]]
@@ -293,14 +262,6 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 - [[Submissions/Omoplata]]
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Flying Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Kimura Trap]] - Primary control position when opponent counter-rotates to defend standing Kimura
 - [[Transitions/Rolling Kimura]] - Ground-based variation using similar shoulder lock mechanics with rotational entry
 - [[Transitions/Single Leg Entry]] - Failed single leg defense creates high-percentage standing Kimura opportunity
@@ -312,16 +273,51 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 - [[Positions/Gift Wrap]] - Control position that can transition from standing Kimura grip on the ground
 - [[Positions/Overhook Control]] - Overhook provides entry for Kimura setup in clinch battles
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kimura from Standing leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus tendons) | High | 6-12 months with surgery, extensive physical therapy |
+| Posterior shoulder dislocation | CRITICAL | 3-6 months minimum, potential permanent instability |
+| Shoulder capsule damage | High | 4-8 months, may require surgical repair |
+| Biceps tendon strain or tear | Medium | 6-12 weeks for strain, 4-6 months for tear |
+| Fall-related head or spine injury (from standing height) | CRITICAL | Variable, potentially permanent |
+
+
+**Application Speed**: EXTREMELY SLOW and controlled - minimum 5-7 seconds, standing applications require extra caution due to fall risk
+
+**Tap Signals**:
+- Verbal tap (loudly, especially in standing)
+- Physical hand tap on partner's body or mat
+- Physical foot tap or stomp
+- Any distress vocalization
+- Opponent going to knees (may indicate submission)
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure on the shoulder
+2. Maintain grip stability to prevent sudden arm release (controlled descent)
+3. Guide partner safely to ground if still standing
+4. Release wrist control first, then shoulder control
+5. Allow partner to externally rotate shoulder back to neutral position
+6. Check for injury and range of motion before continuing training
+
+
+**Training Restrictions**:
+- Never spike, jerk, or explosively rotate the shoulder joint
+- Never use competition finishing speed in training (always 50% speed maximum)
+- Never apply standing Kimura on beginners without extensive instruction
+- Never prevent partner from tapping by controlling both arms
+- Always ensure safe landing space and clear training area
+- Never continue pressure if partner shows any sign of distress or instability
+- Prohibit standing Kimura practice without instructor supervision for white belts
+
 
 </section>
 

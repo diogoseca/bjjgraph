@@ -34,6 +34,18 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Pass",
+  "description": "The Stack Pass is a top-pressure guard pass that drives the opponent's knees over their shoulders to invert their spine, neutralizing hip mobility and clearing the legs into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
 </div>
 
 <section id="overview" class="content-section">
+
+**The Stack Pass is a top-pressure guard pass that drives the opponent's knees over their shoulders to invert their spine, neutralizing hip mobility and clearing the legs into side control.**
 
 The Stack Pass is a fundamental pressure passing technique that uses vertical pressure and weight distribution to break through the closed guard. By driving the opponent's knees toward their chest and stacking their hips over their shoulders, you create a mechanical disadvantage that makes guard retention extremely difficult. The stacking action inverts the bottom player's spine, shifting their weight onto their upper back and shoulders, which severely compromises their ability to generate hip movement for shrimping, framing, or recomposing guard.
 

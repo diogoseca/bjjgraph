@@ -34,6 +34,18 @@ description: "Master posture recovery to escape triangle chokes in BJJ. Step-by-
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture in Triangle Escape",
+  "description": "Posture in Triangle Escape is the foundational defensive transition where a grappler trapped in a triangle choke uses hip-driven spinal extension and forward stacking pressure to recover posture, relieve arterial compression, and clear into half guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master posture recovery to escape triangle chokes in BJJ. Step-by-
 </div>
 
 <section id="overview" class="content-section">
+
+**Posture in Triangle Escape is the foundational defensive transition where a grappler trapped in a triangle choke uses hip-driven spinal extension and forward stacking pressure to recover posture, relieve arterial compression, and clear into half guard top.**
 
 Posture in Triangle Escape is a critical defensive transition where the trapped practitioner recovers vertical spinal alignment to reduce choking pressure and create conditions for extracting from the triangle choke configuration. This technique targets the posture recovery phase specifically, serving as the foundational movement that enables all subsequent escape pathways including stacking, arm extraction, and guard passing. Without establishing posture first, higher-level escape techniques become exponentially more difficult as the attacking practitioner optimizes hip angle and tightness to complete the submission.
 

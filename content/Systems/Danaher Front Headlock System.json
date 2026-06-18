@@ -15,7 +15,8 @@
   ],
   "system_type": "Control System",
   "difficulty_level": "Advanced",
-  "overview": "The Danaher Front Headlock System represents one of the most comprehensive and dominant control frameworks in modern Brazilian Jiu-Jitsu. Developed by John Danaher and proven at the highest levels of competition by his athletes, this system transforms the front headlock position from a transitional control into a complete offensive ecosystem. The system operates on the principle that the front headlock offers unparalleled control over an opponent's movement while simultaneously providing access to multiple high-percentage finishing sequences.\n\nAt its core, the front headlock system is built around three primary finishing pathways: the guillotine choke family, the anaconda/darce choke family, and back exposure sequences. Each pathway contains multiple variations and entries, creating a decision tree that forces opponents into continuous defensive dilemmas. The beauty of the system lies in its interconnectedness - defensive reactions to one attack directly feed into setups for others, creating a self-reinforcing cycle of offensive pressure.\n\nWhat distinguishes Danaher's approach is the emphasis on systematic progression through clearly defined stages: entry, consolidation, breaking structure, and finishing. This methodical framework removes guesswork and provides practitioners with clear decision points based on opponent reactions. The system has produced exceptional results in both gi and no-gi competition, with athletes like Gordon Ryan, Garry Tonon, and Gary Tonon using it to dominate opponents at the highest levels of the sport.",
+  "summary": "The Danaher Front Headlock System is a control-and-submission framework that uses head-and-arm control from the front headlock to chain guillotine, anaconda, and darce chokes with back-exposure attacks, forcing opponents into continuous defensive dilemmas.",
+  "overview": "Developed by John Danaher and proven at the highest levels of competition by his athletes, the front headlock framework transforms a traditionally transitional control into a complete offensive ecosystem. Rather than treating the front headlock as a brief stop on the way to a takedown or guard pass, the system treats it as a destination from which the match can be won. It operates on the principle that head-and-arm control offers unparalleled influence over an opponent's movement and posture while simultaneously opening access to multiple high-percentage finishing sequences.\n\nAt its core, the front headlock system is built around three primary finishing pathways: the guillotine choke family, the anaconda/darce choke family, and back exposure sequences. Each pathway contains multiple variations and entries, creating a decision tree that forces opponents into continuous defensive dilemmas. The beauty of the system lies in its interconnectedness - defensive reactions to one attack directly feed into setups for others, creating a self-reinforcing cycle of offensive pressure.\n\nWhat distinguishes Danaher's approach is the emphasis on systematic progression through clearly defined stages: entry, consolidation, breaking structure, and finishing. This methodical framework removes guesswork and provides practitioners with clear decision points based on opponent reactions. The system has produced exceptional results in both gi and no-gi competition, with athletes like Gordon Ryan and Garry Tonon using it to dominate opponents at the highest levels of the sport.",
   "key_principles": [
     "Head and arm control establishes dominant leverage over opponent's upper body movement and posture",
     "Breaking down opponent's defensive structure through systematic shoulder pressure and cross-face control",
@@ -385,7 +386,7 @@
       "relationship": "Guides decision-making about when to pursue submissions vs position advancement"
     },
     {
-      "name": "Submission Chains",
+      "name": "Position Chains",
       "content_type": "Principle",
       "relationship": "Principle of linking attacks to create continuous offensive pressure"
     },
@@ -393,6 +394,40 @@
       "name": "Fork Attacks",
       "content_type": "Principle",
       "relationship": "Core principle where every defensive choice leads to new offensive opportunity"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What three primary finishing pathways define the Danaher Front Headlock System?",
+      "answer": "The system is built around three interconnected finishing families: the guillotine choke family, the anaconda/darce shoulder-lock family, and back-exposure sequences. Defensive reactions to one pathway feed entries into the others, creating a self-reinforcing cycle of pressure."
+    },
+    {
+      "question": "How do you decide between an anaconda and a darce from the front headlock?",
+      "answer": "Both trap the opponent's near arm and feed the choking arm through to compress the neck and shoulder, but they differ by which arm is trapped: the anaconda traps the same-side arm and finishes by rolling, while the darce feeds across to trap the opposite-side arm and finishes with a shoulder-pressure squeeze."
+    },
+    {
+      "question": "Which control point is non-negotiable throughout every front headlock transition?",
+      "answer": "Head control. The system prioritizes securing the head before the arm and treats head control plus chest pressure as the constant that must never be released, even when chaining between submissions or spiraling to the back."
+    },
+    {
+      "question": "When the opponent successfully defends every choke, where does the system redirect the attack?",
+      "answer": "To back exposure. The tight elbows and strong hand-fighting that stop the chokes also leave the back available, so the attacker uses spiral mechanics to ride to back control, the truck, or a crucifix, converting choke defense into a point-scoring advance."
+    },
+    {
+      "question": "What are the most common entries into the front headlock?",
+      "answer": "Snap downs and sprawls from standing, turtle attacks and scramble situations on the ground, and counters to failed guard pulls or shot takedown attempts. Every entry secures head control first, then isolates an arm to lock the trap in place."
+    },
+    {
+      "question": "Why is rushing straight to a submission considered a primary mistake in this system?",
+      "answer": "Forcing a finish before breaking the opponent's defensive structure lets them hand-fight, frame, or escape. The system requires consolidating control and dismantling posture with crossface and shoulder pressure first, so finishes land against a broken structure rather than a fresh defense."
+    },
+    {
+      "question": "What does a 'fork attack' mean in the context of the front headlock system?",
+      "answer": "A fork attack is a structure where every defensive choice the opponent makes opens a different offensive pathway: defending the guillotine exposes the anaconda/darce, and defending the chokes exposes the back, so the opponent can never defend everything at once."
+    },
+    {
+      "question": "How should drilling time be allocated to avoid over-specialization in this system?",
+      "answer": "Sessions should distribute reps across all three finishing pathways (guillotine, anaconda/darce, and back exposure) rather than drilling only the guillotine, and should progress from static positioning to cooperative flow drilling to constrained positional sparring."
     }
   ]
 }

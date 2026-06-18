@@ -34,6 +34,18 @@ description: "Master the Reverse X to Back Take in BJJ. Complete guide to invert
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse X to Back Take",
+  "description": "Reverse X to Back Take is an inverting transition from Reverse X-Guard bottom where the guard player follows the opponent's defensive backstep, spins underneath while keeping hook connection, and emerges on their back to establish seatbelt control and hooks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Reverse X to Back Take in BJJ. Complete guide to invert
 
 <section id="overview" class="content-section">
 
-The Reverse X to Back Take is a high-percentage transitional attack from Reverse X-Guard that exploits the opponent's defensive reactions to sweeping pressure. When the opponent backsteps, widens their base, or attempts to disengage from your hook control, their back becomes exposed. This technique capitalizes on that exposure by inverting underneath the opponent while maintaining hook connection, allowing you to follow their movement and establish back control with seatbelt grip and hooks.
+**Reverse X to Back Take is an inverting transition from Reverse X-Guard bottom where the guard player follows the opponent's defensive backstep, spins underneath while keeping hook connection, and emerges on their back to establish seatbelt control and hooks.**
+
+Within the modern leg-entanglement game, the Reverse X to Back Take occupies a special place as the punishment for any opponent who tries to retreat out of trouble rather than fight through it. Reverse X-Guard already threatens powerful elevation sweeps, so a defender who backsteps, widens their base, or pulls their hips away to kill that sweep is making a different mistake - surrendering their back. This transition is the guard player's answer to that retreat, converting a defensive reaction into the most dominant position in the sport.
 
 This back take represents one of the most elegant applications of the inversion principle in modern guard play. Rather than fighting against the opponent's weight and defensive posture, you flow with their movement, using their escape attempt as the catalyst for your advancement to the most dominant position in BJJ. The technique requires excellent hip mobility, timing, and the ability to maintain connection throughout the transition.
 

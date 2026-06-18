@@ -1,5 +1,6 @@
 {
   "name": "Reestablish Side Control from Jailbreak",
+  "summary": "Reestablishing Side Control from Jailbreak is the top player's counter to the 10th Planet jailbreak escape, killing the bottom player's underhook-driven inversion with crossface pressure and underhook neutralization to walk the hips back to a perpendicular side-control pin.",
   "description": "Master reestablishing Side Control from Jailbreak in BJJ. Systematic approach to countering explosive escapes with pressure control and weight redistribution.",
   "tags": [
     "side-control",
@@ -74,14 +75,6 @@
     {
       "name": "Deep Half Guard",
       "relationship": "Counter destination when bottom player dives underneath"
-    },
-    {
-      "name": "Side Control",
-      "relationship": "Follow-up control position after reestablishment"
-    },
-    {
-      "name": "Crossface from Dogfight",
-      "relationship": "Related crossface control technique using similar mechanics"
     },
     {
       "name": "Complete Pass from Flattened Half",

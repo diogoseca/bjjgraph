@@ -116,10 +116,10 @@ description: "Learn to execute the Mounted Crucifix Armbar as the attacker. Step
     },
     {
       "@type": "Question",
-      "name": "How does grip positioning on the wrist affect the armbar's finishing angle and effectiveness?",
+      "name": "What cues tell you the armbar has reached the elbow's breaking point so you can control the final pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The C-grip should be positioned with the thumb on the back of the wrist and fingers wrapped around the radial side (thumb side) of the forearm. This grip controls wrist rotation, preventing the defender from turning the thumb toward the ground which would misalign the elbow for hyperextension. Pulling the wrist toward your chest with the defender's thumb pointing toward the ceiling ensures the elbow's natural hinge aligns directly against your hip pressure. Gripping too far down the forearm reduces rotational control, while gripping the hand itself allows the wrist to flex and absorb extension force."
+        "text": "The breaking point is signaled when the arm is fully straight with the elbow stacked directly over the center of your pelvis, the defender's forearm rotation has stopped, and resistance suddenly firms as the joint reaches end range—often accompanied by a wince or verbal cue. From the mounted crucifix this point arrives sooner and with less range of motion than a standard armbar because the arm is already pre-extended by the leg trap. Apply hip pressure in small increments past this point, pausing at each one to give the defender time to tap before ligament damage occurs."
       }
     }
   ]

@@ -33,10 +33,32 @@ description: "Master the Bow and Arrow Choke from Invisible Collar. Learn concea
 }
 </script>
 
-> **SAFETY**: Bow and Arrow Choke from Invisible Collar targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bow and Arrow Choke from Invisible Collar",
+  "description": "The Bow and Arrow Choke from Invisible Collar is a gi blood choke from back control where a pre-set concealed collar grip lets the attacker rotate into an angled bow-and-arrow finish, compressing the carotids before the defender recognizes the threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Bow and Arrow Choke from Invisible Collar is a gi blood choke from back control where a pre-set concealed collar grip lets the attacker rotate into an angled bow-and-arrow finish, compressing the carotids before the defender recognizes the threat.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Bow and Arrow Choke from Invisible Collar targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,55 +75,7 @@ The finishing mechanics involve rotating to the collar grip side while reaching 
 
 Strategically, this variant serves as a high-percentage finishing option within back attack systems. When opponents successfully defend direct collar chokes or rear naked choke attempts from invisible collar, the transition to bow and arrow creates a different angle of attack that bypasses those defenses. The rotation to the side changes the choking vector from a pull-back mechanism to a diagonal stretch, requiring entirely different defensive responses that many practitioners are unprepared for.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Rubber Guard/Invisible Collar]]
-**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | High | Immediate if released promptly; medical evaluation required if unconsciousness occurs |
-| Neck strain from excessive torque and rotation | Medium | 3-7 days for minor strain; 2-4 weeks for moderate strain |
-| Jaw or TMJ injury from improper collar placement | Medium | 1-3 weeks for minor injury; 4-8 weeks for significant TMJ damage |
-| Knee or hip stress from forced leg extension | Low | 2-5 days for minor discomfort |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on body or mat
-- Physical foot tap on mat
-- Any audible distress signal
-- Loss of resistance (immediate release required)
-
-
-**Release Protocol**:
-1. Immediately release collar grip upon tap signal
-2. Release leg extension and hooks simultaneously
-3. Allow opponent's head to return to neutral position
-4. Check for consciousness and responsiveness
-5. If opponent was unconscious, elevate legs and monitor until full recovery
-
-
-**Training Restrictions**:
-- Never spike or jerk the choke - apply smooth progressive pressure only
-- Never use competition speed in training rolls
-- Always maintain communication with training partner
-- Never continue pressure after tap signal
-- Beginners must drill position control before attempting finish
-- Always allow partner clear access to tap with hands or voice
-
+**Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] · **From**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
 
 </section>
 
@@ -246,39 +220,61 @@ Strategically, this variant serves as a high-percentage finishing option within 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Clock Choke]]
-- [[Positions/Aoki Lock Control]]
+- [[Transitions/Aoki Lock]]
 - [[Submissions/Rear Naked Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Rubber Guard/Invisible Collar]] - Starting position providing the concealed collar grip for this submission
 - [[Positions/Back Control]] - Parent position from which invisible collar is established
-- [[Submissions/Bow and Arrow Choke]] - Generic version of this submission without the invisible collar entry
 - [[Positions/Back Control/Seat Belt Control Back]] - Grip structure that precedes the invisible collar setup
 - [[Positions/Crucifix]] - Alternative attack position when bow and arrow transition is defended
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Bow and Arrow Choke from Invisible Collar leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | High | Immediate if released promptly; medical evaluation required if unconsciousness occurs |
+| Neck strain from excessive torque and rotation | Medium | 3-7 days for minor strain; 2-4 weeks for moderate strain |
+| Jaw or TMJ injury from improper collar placement | Medium | 1-3 weeks for minor injury; 4-8 weeks for significant TMJ damage |
+| Knee or hip stress from forced leg extension | Low | 2-5 days for minor discomfort |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
+
+**Tap Signals**:
+- Verbal tap
+- Physical hand tap on body or mat
+- Physical foot tap on mat
+- Any audible distress signal
+- Loss of resistance (immediate release required)
+
+
+**Release Protocol**:
+1. Immediately release collar grip upon tap signal
+2. Release leg extension and hooks simultaneously
+3. Allow opponent's head to return to neutral position
+4. Check for consciousness and responsiveness
+5. If opponent was unconscious, elevate legs and monitor until full recovery
+
+
+**Training Restrictions**:
+- Never spike or jerk the choke - apply smooth progressive pressure only
+- Never use competition speed in training rolls
+- Always maintain communication with training partner
+- Never continue pressure after tap signal
+- Beginners must drill position control before attempting finish
+- Always allow partner clear access to tap with hands or voice
+
 
 </section>
 

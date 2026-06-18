@@ -34,6 +34,18 @@ description: "Master the Matrix to Side Control pass in BJJ. Learn to convert a 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Matrix to Side Control",
+  "description": "Matrix to Side Control is a top-player transition that converts a successfully defended Matrix back-take attempt into dominant side control by stripping the opponent's grips, establishing a crossface, and flattening their off-balanced structure before they can reset.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Matrix to Side Control pass in BJJ. Learn to convert a 
 
 <section id="overview" class="content-section">
 
-The Matrix to Side Control transition represents the top player's ability to convert a successfully defended Matrix back take attempt into dominant side control. When the top player has blocked the bottom player's rotational attack, a critical window opens where the defender's compromised structure can be exploited to advance position rather than simply resetting to a neutral engagement.
+**Matrix to Side Control is a top-player transition that converts a successfully defended Matrix back-take attempt into dominant side control by stripping the opponent's grips, establishing a crossface, and flattening their off-balanced structure before they can reset.**
+
+Punishing a failed back-take rotation is one of the clearest markers of a mature top game, and this transition is the mechanism for doing exactly that. When the top player has blocked the bottom player's rotational attack, a critical window opens where the defender's compromised structure can be exploited to advance position rather than simply resetting to a neutral engagement.
 
 This transition capitalizes on the mechanical reality that a halted Matrix rotation leaves the bottom player in a vulnerable state. Their base is disrupted, their grips are weakened or broken, and their body alignment is compromised from the arrested rotational momentum. The top player uses this momentary disadvantage to drive the opponent flat, establish crossface and hip control, and complete the consolidation to side control before the bottom player can reorganize their defensive structure.
 

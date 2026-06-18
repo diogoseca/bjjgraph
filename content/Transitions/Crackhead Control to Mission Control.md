@@ -34,6 +34,18 @@ description: "Master Crackhead Control to Mission Control in BJJ. Reset from hig
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crackhead Control to Mission Control",
+  "description": "Crackhead Control to Mission Control is a 10th Planet rubber guard reset where the bottom player releases the deep overhook and threads the high-guard leg across the shoulder, trading a high-risk overhook attack for stable shoulder-isolating control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Crackhead Control to Mission Control in BJJ. Reset from hig
 </div>
 
 <section id="overview" class="content-section">
+
+**Crackhead Control to Mission Control is a 10th Planet rubber guard reset where the bottom player releases the deep overhook and threads the high-guard leg across the shoulder, trading a high-risk overhook attack for stable shoulder-isolating control.**
 
 The Crackhead Control to Mission Control transition represents a strategic reset within the 10th Planet rubber guard system, allowing the bottom player to move from a high-risk, high-reward attacking position to a more stable control platform. This transition becomes essential when the opponent begins recovering posture, when back exposure risk becomes too significant, or when you want to consolidate control before launching a new submission chain.
 

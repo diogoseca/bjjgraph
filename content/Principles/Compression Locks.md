@@ -143,6 +143,16 @@ description: "Master compression lock mechanics in BJJ. Learn how crushing muscl
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Compression Locks",
+  "description": "Compression locks are submissions that crush muscle or tendon against bone by wedging a hard surface — a shin, forearm, or wrist — into the soft tissue and folding the limb around it, as with the calf slicer and bicep slicer.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master compression lock mechanics in BJJ. Learn how crushing muscl
 
 ## What are Compression Locks?
 
-Compression locks are submissions that cause pain and potential injury by crushing soft tissue — muscle, tendons, or nerves — against bone using a wedging or scissoring action. Unlike joint locks that attack ligaments at a joint's end range, compression locks work by trapping a limb segment and driving a hard surface (typically a shin, forearm, or wrist bone) into the soft tissue on the opposite side. The classic examples are the calf slicer (shin driven into the calf muscle against the femur), the bicep slicer (forearm driven into the bicep against the humerus), and chest compression attacks where the ribcage is used as a crushing surface.
+**Compression locks are submissions that crush muscle or tendon against bone by wedging a hard surface — a shin, forearm, or wrist — into the soft tissue and folding the limb around it, as with the calf slicer and bicep slicer.**
+
+Within the broader submission landscape, compression locks sit apart from joint locks: where a joint lock attacks the ligaments at a joint's end range of motion, a compression lock attacks the muscle belly itself, trapping a limb segment and driving a bony edge into the tissue on the opposite side until the pain forces a tap. The classic vehicles are the calf slicer (shin driven into the calf against the femur), the bicep slicer (forearm driven into the bicep against the humerus), and chest or rib compressions that turn an interlocked body triangle into a crushing ring.
 
 Compression locks occupy a unique niche in BJJ because they are frequently available as secondary attacks from positions where other submissions are the primary threat. A failed armbar can transition to a bicep slicer. A leg entanglement that does not yield a heel hook may offer a calf slicer. They are also valuable because many opponents do not train defenses against them, making them high-percentage surprise attacks at the intermediate and advanced levels.
 

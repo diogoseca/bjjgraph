@@ -1,6 +1,7 @@
 {
   "name": "Double Sleeve to Lasso",
   "description": "Master the Double Sleeve to Lasso guard transition in BJJ. Learn grip threading mechanics, entry timing, and guard evolution from sleeve control.",
+  "summary": "Double Sleeve to Lasso is a gi guard transition where the bottom player threads one shin across the opponent's trapped sleeve arm, converting balanced double-sleeve control into the asymmetric shoulder-loading leverage of lasso guard.",
   "tags": [
     "bjj",
     "transition",
@@ -84,10 +85,6 @@
     {
       "name": "Inverted Lasso Guard",
       "relationship": "Advanced lasso variation accessible after establishing initial lasso control"
-    },
-    {
-      "name": "Russian Leg Lasso",
-      "relationship": "Double lasso variation that can be built from the initial single lasso entry"
     },
     {
       "name": "Armbar Setup from Double Sleeve",
@@ -276,6 +273,14 @@
       {
         "question": "What is the critical direction of force when extending the lasso leg after threading?",
         "answer": "The lasso leg should extend diagonally away from the opponent's body, pushing their trapped arm outward and upward while the sleeve grip pulls inward and downward toward your hip. This creates opposing forces that form a fulcrum against the opponent's shoulder joint. Pushing straight up or straight away from you reduces the leverage significantly. The diagonal extension maximizes the rotational torque on their shoulder, which is what makes lasso guard so restrictive for the trapped arm."
+      },
+      {
+        "question": "What entry requirements must be satisfied before you commit to threading the shin?",
+        "answer": "Both sleeve cuffs must be secured with deep pistol grips under constant pulling tension, at least one foot must be framing on the opponent's hip or bicep to manage distance and provide base, your hips must be elevated and mobile rather than flat on the mat, and the target arm must be extended enough to expose the gap between their elbow and torso. Committing without these prerequisites - especially against a retracted, well-postured arm - burns energy and surrenders the initiative to the opponent."
+      },
+      {
+        "question": "The opponent strips the lasso side and frees their arm before you establish control - what do you chain into?",
+        "answer": "Flow immediately to an adjacent guard rather than chasing the lost lasso. If their freed arm retracts, switch your threading foot into a foot-on-bicep spider guard hook on that same arm. If they stand or step back, drop the foot to a De La Riva hook on their lead leg. If they drive forward to capitalize on the lost grip, recover double sleeve guard with both grips and feet on hips, then re-time the thread on whichever arm extends next. Cycling through the double-sleeve, spider, lasso, and De La Riva options keeps you attacking without committing to a position the opponent has already solved."
       }
     ],
     "safety_considerations": "The Double Sleeve to Lasso transition is generally low-risk since it involves guard repositioning rather than joint manipulation or choking. However, maintain awareness of your partner's shoulder flexibility when extending the lasso leg, as the fulcrum created against the shoulder joint can cause discomfort or strain if applied explosively. Thread the leg smoothly rather than jamming it through. During drilling, communicate with your partner if the lasso extension creates excessive shoulder pressure. Avoid cranking the sleeve grip while extending the leg aggressively, as this combination can hyperextend the opponent's elbow when the arm is fully trapped."

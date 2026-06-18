@@ -34,6 +34,18 @@ description: "Master the Shin-to-Shin to Single Leg X-Guard transition in BJJ. L
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Shin-to-Shin to Single Leg X",
+  "description": "Shin-to-Shin to Single Leg X is a guard transition where the bottom player threads their inside leg around the opponent's trapped ankle and plants a hip hook, converting shin pressure into the Single Leg X sweeping and leg-lock platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Shin-to-Shin to Single Leg X-Guard transition in BJJ. L
 </div>
 
 <section id="overview" class="content-section">
+
+**Shin-to-Shin to Single Leg X is a guard transition where the bottom player threads their inside leg around the opponent's trapped ankle and plants a hip hook, converting shin pressure into the Single Leg X sweeping and leg-lock platform.**
 
 The Shin-to-Shin to Single Leg X-Guard transition is one of the most critical entries in modern open guard systems, connecting the dynamic shin-to-shin position to the powerful sweeping and leg lock platform of Single Leg X-Guard. This transition exploits a fundamental biomechanical advantage: when the top player's weight loads onto their trapped leg during clearing attempts or natural weight shifts, the bottom player threads underneath to establish the SLX hook configuration. The entry capitalizes on the dilemma inherent in shin-to-shin guard—opponents who aggressively attempt to clear the shin expose the exact leg threading pathways needed for SLX entry, while passive opponents allow the bottom player to build the entry at their own pace.
 

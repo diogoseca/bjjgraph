@@ -34,6 +34,18 @@ description: "Master the Single Leg X Sweep in BJJ. Complete guide to executing 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Single Leg X Sweep",
+  "description": "The Single Leg X Sweep is a high-percentage off-balancing sweep from Single Leg X-Guard where the bottom player elevates the opponent's trapped leg and extends the top hook into their hip to topple them and come up on top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Single Leg X Sweep in BJJ. Complete guide to executing 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Single Leg X Sweep is a high-percentage off-balancing sweep from Single Leg X-Guard where the bottom player elevates the opponent's trapped leg and extends the top hook into their hip to topple them and come up on top.**
 
 The Single Leg X Sweep is a fundamental sweeping technique from the Single Leg X Guard position that creates powerful off-balancing mechanics through elevation and extension. This sweep capitalizes on the opponent's isolated leg while using your entire body as a lever system to destabilize and invert their base. The technique is particularly effective because it combines upper body control (typically a sleeve or collar grip) with lower body mechanics (the X-frame created by your legs) to create a two-directional force that opponents find difficult to counter.
 

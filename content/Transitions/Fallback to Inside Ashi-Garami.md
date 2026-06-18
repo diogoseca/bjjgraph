@@ -34,6 +34,18 @@ description: "Learn the Fallback to Inside Ashi-Garami from Saddle. Master this 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Fallback to Inside Ashi-Garami",
+  "description": "The Fallback to Inside Ashi-Garami is a deliberate positional retreat from the Saddle to Inside Ashi-Garami, trading positional dominance for sustainable leg control when saddle pressure, perpendicular alignment, or inside position is compromised.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn the Fallback to Inside Ashi-Garami from Saddle. Master this 
 
 <section id="overview" class="content-section">
 
-The Fallback to Inside Ashi-Garami is a controlled positional retreat from the Saddle, employed when the opponent successfully disrupts key control elements such as hip pressure, perpendicular alignment, or inside position. Rather than fighting to maintain a deteriorating saddle and risking a complete loss of leg entanglement, the practitioner deliberately withdraws to Inside Ashi-Garami, preserving offensive capability from a less dominant but more sustainable configuration. This concept of strategic retreat is central to modern leg lock systems, where maintaining any form of entanglement is vastly preferable to surrendering position entirely.
+**The Fallback to Inside Ashi-Garami is a deliberate positional retreat from the Saddle to Inside Ashi-Garami, trading positional dominance for sustainable leg control when saddle pressure, perpendicular alignment, or inside position is compromised.**
+
+In modern leg lock systems, the difference between a resilient entanglement game and a brittle all-or-nothing attack often comes down to how gracefully a practitioner abandons a deteriorating position. When the opponent disrupts key saddle control elements—hip pressure, perpendicular alignment, or inside position—fighting to maintain a collapsing saddle risks complete loss of leg entanglement, so the practitioner instead withdraws deliberately to Inside Ashi-Garami, preserving offensive capability from a less dominant but more sustainable configuration. This concept of strategic retreat treats maintaining any form of entanglement as vastly preferable to surrendering position entirely.
 
 The transition requires precise timing and awareness. The practitioner must recognize the specific moment when saddle control is slipping—when the opponent clears hip pressure, begins extracting their heel, or creates significant frames—and initiate the fallback before the window closes. The mechanical execution involves releasing the deeper leg configuration while simultaneously securing the fundamental inside ashi structure: inside leg across the opponent's hip and outside leg hooking behind the knee. Grip transitions from saddle finishing grips to ashi control grips must be seamless to prevent the opponent from capitalizing on the momentary looseness.
 

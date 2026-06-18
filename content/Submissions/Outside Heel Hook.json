@@ -1,6 +1,7 @@
 {
   "name": "Outside Heel Hook",
   "description": "Master Outside Heel Hook in BJJ. Safety guide covering proper application, knee rotation mechanics, injury prevention, and defensive strategies from leg entanglements.",
+  "summary": "The Outside Heel Hook is a rotational leg-lock that twists the heel laterally to torque the knee, attacked from outside leg entanglements like outside ashi-garami, saddle, and 50-50 and threatening the ACL, MCL, and meniscus within seconds.",
   "tags": [
     "bjj",
     "submission",
@@ -168,10 +169,6 @@
     {
       "name": "Heel Hook from Backside 50-50",
       "relationship": "Position-specific heel hook variant from back-facing entanglement"
-    },
-    {
-      "name": "Aoki Lock",
-      "relationship": "Finishing variant of the Aoki Lock from similar leg entanglement positions"
     }
   ],
   "related_content": [

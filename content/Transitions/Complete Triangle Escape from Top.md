@@ -34,6 +34,18 @@ description: "Complete guide to escaping the triangle choke from top position in
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Complete Triangle Escape from Top",
+  "description": "Complete Triangle Escape from Top is the full defensive sequence for breaking free of a triangle choke while on top — relieving the choke, recovering posture, controlling the hips, then circling and stacking to extract the trapped arm and pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Complete guide to escaping the triangle choke from top position in
 </div>
 
 <section id="overview" class="content-section">
+
+**Complete Triangle Escape from Top is the full defensive sequence for breaking free of a triangle choke while on top — relieving the choke, recovering posture, controlling the hips, then circling and stacking to extract the trapped arm and pass.**
 
 The Complete Triangle Escape from Top is a systematic, multi-phase defensive technique executed when a practitioner finds themselves caught in an opponent's triangle choke while maintaining top position. The triangle choke ranks among the highest-percentage guard submissions in Brazilian Jiu-Jitsu, and the ability to methodically dismantle it from above separates competent grapplers from those who routinely concede to bottom player offense. This escape demands strict sequential progression where each phase creates the structural foundation for the next, building cumulative advantage that eventually breaks the triangle configuration entirely.
 

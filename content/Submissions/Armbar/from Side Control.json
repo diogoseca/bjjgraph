@@ -17,7 +17,8 @@
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
   "success_rate": 62,
-  "overview": "The Armbar from Side Control is a fundamental finishing technique that targets the elbow joint through hyperextension. This submission capitalizes on the top player's dominant position and the control established in side control, making it one of the most reliable joint locks in Brazilian Jiu-Jitsu. The technique works by isolating the opponent's arm, typically the near arm, and creating a fulcrum across your hips while extending their elbow beyond its natural range of motion.\n\nThe effectiveness of this armbar lies in the combination of positional control and precise technical execution. Unlike the armbar from mount or guard, the side control variation requires careful attention to maintaining weight distribution and preventing the opponent from turning into you or escaping their hips. The transitional phase—stepping your leg over the opponent's head while maintaining arm isolation—is the most vulnerable moment and demands methodical setup.\n\nThe submission can be entered from various side control variations including standard side control, kesa gatame, kuzure kesa-gatame, and knee on belly, making it a versatile finishing option from top position. Chain attacks to kimura, americana, and arm triangle create a comprehensive submission system where defending one threat opens another.",
+  "summary": "The Armbar from Side Control is a top-position joint lock that isolates the opponent's near arm, steps a leg over their head, and hyperextends the elbow across your hips to force the tap.",
+  "overview": "As one of the most reliable joint locks available to the top player, this armbar converts the positional dominance and control established in side control directly into a fight-ending attack on the elbow joint. It works by isolating the opponent's arm, typically the near arm, and creating a fulcrum across your hips while extending their elbow beyond its natural range of motion.\n\nThe effectiveness of this armbar lies in the combination of positional control and precise technical execution. Unlike the armbar from mount or guard, the side control variation requires careful attention to maintaining weight distribution and preventing the opponent from turning into you or escaping their hips. The transitional phase—stepping your leg over the opponent's head while maintaining arm isolation—is the most vulnerable moment and demands methodical setup.\n\nThe submission can be entered from various side control variations including standard side control, kesa gatame, kuzure kesa-gatame, and knee on belly, making it a versatile finishing option from top position. Chain attacks to kimura, americana, and arm triangle create a comprehensive submission system where defending one threat opens another.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -87,8 +88,7 @@
     "Kuzure Kesa-Gatame",
     "Modified Scarf Hold",
     "North-South",
-    "Knee on Belly",
-    "Side Control"
+    "Knee on Belly"
   ],
   "related_submissions": [
     "from Mount",

@@ -34,6 +34,18 @@ description: "Master Back Take from Lockdown Defense in BJJ. Counter the Electri
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Take from Lockdown Defense",
+  "description": "Back Take from Lockdown Defense is a counter-offensive transition where the top player caught in the Electric Chair times a backstep against the bottom player's hip-extension commitment to clear the lockdown and circle into dominant back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Back Take from Lockdown Defense in BJJ. Counter the Electri
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Take from Lockdown Defense is a counter-offensive transition where the top player caught in the Electric Chair times a backstep against the bottom player's hip-extension commitment to clear the lockdown and circle into dominant back control.**
 
 The Back Take from Lockdown Defense is a high-level counter-offensive transition that transforms a defensive predicament into dominant position. When caught in the Electric Chair from top half guard, rather than fighting the lockdown directly, this technique exploits the opponent's commitment to the sweep by circling behind them. The key insight is that the bottom player's focus on extending your trapped leg creates blind spots in their back defense.
 

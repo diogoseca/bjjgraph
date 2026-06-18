@@ -34,6 +34,18 @@ description: "Master the Cartwheel Escape from Omoplata in BJJ. Complete guide t
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cartwheel Escape from Omoplata",
+  "description": "The Cartwheel Escape from Omoplata is a defensive forward-roll escape where the trapped player follows the direction of shoulder rotation, somersaulting over their posting hand to clear the opponent's controlling legs and land in open guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Cartwheel Escape from Omoplata in BJJ. Complete guide t
 
 <section id="overview" class="content-section">
 
-The Cartwheel Escape from Omoplata is the primary defensive response when caught in an omoplata shoulder lock from guard. Rather than fighting the rotational pressure directly, the escaper follows the direction of shoulder rotation by performing a forward roll that clears the opponent's controlling legs and lands in a neutral or advantageous top position. This escape exploits the critical timing window that exists before the omoplata player can sit up and establish hip or belt control to anchor the position.
+**The Cartwheel Escape from Omoplata is a defensive forward-roll escape where the trapped player follows the direction of shoulder rotation, somersaulting over their posting hand to clear the opponent's controlling legs and land in open guard top.**
+
+Among omoplata defenses, the cartwheel escape is the highest-percentage option available before the attacker consolidates control, which is why purple and brown belts must master both its execution and its counters. Rather than fighting the rotational pressure directly, the escaper follows the direction of shoulder rotation by performing a forward roll that clears the opponent's controlling legs and lands in a neutral or advantageous top position. This escape exploits the critical timing window that exists before the omoplata player can sit up and establish hip or belt control to anchor the position.
 
 Strategically, the cartwheel escape transforms a dangerous submission threat into a potential passing opportunity. When executed with proper timing, the escaper transitions from a compromised position to open guard top, where they can immediately initiate guard passing sequences. However, experienced omoplata players recognize this pattern and develop specific counters - primarily hip control through belt grips and the ability to follow the roll momentum for sweeps to mount or side control. This creates a tactical chess match where the quality of the omoplata holder's positional control directly determines whether the escape window remains open.
 

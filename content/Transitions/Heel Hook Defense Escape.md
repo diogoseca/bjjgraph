@@ -34,6 +34,18 @@ description: "Master the heel hook defense escape from Honey Hole in BJJ. Comple
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Hook Defense Escape",
+  "description": "The Heel Hook Defense Escape is an emergency survival sequence from a bottom leg entanglement where you protect the exposed heel, strip grips, and rotate into the heel hook's direction to extract your trapped leg and recover open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the heel hook defense escape from Honey Hole in BJJ. Comple
 </div>
 
 <section id="overview" class="content-section">
+
+**The Heel Hook Defense Escape is an emergency survival sequence from a bottom leg entanglement where you protect the exposed heel, strip grips, and rotate into the heel hook's direction to extract your trapped leg and recover open guard.**
 
 The Heel Hook Defense Escape is one of the most critical survival techniques in modern no-gi Brazilian Jiu-Jitsu. When caught in the Honey Hole position with an opponent threatening an inside heel hook, the window for successful escape is extremely narrow, typically measured in seconds before the submission becomes inescapable. This transition encompasses the complete defensive sequence from initial recognition through grip fighting, rotational mechanics, leg extraction, and guard recovery.
 

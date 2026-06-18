@@ -34,6 +34,18 @@ description: "Master the push sweep from feet on hips guard in BJJ. Complete gui
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Push Sweep from Feet on Hips",
+  "description": "The Push Sweep from Feet on Hips is an open-guard sweep where the bottom player times a bilateral leg extension against the opponent's forward weight, projecting them backward to come up into a top or standing position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the push sweep from feet on hips guard in BJJ. Complete gui
 </div>
 
 <section id="overview" class="content-section">
+
+**The Push Sweep from Feet on Hips is an open-guard sweep where the bottom player times a bilateral leg extension against the opponent's forward weight, projecting them backward to come up into a top or standing position.**
 
 The push sweep from feet on hips guard converts the defensive leg frame into an offensive sweeping platform by timing bilateral leg extension against the opponent's forward weight commitment. This fundamental open guard technique teaches the critical principle that sweeps work best when they redirect existing momentum rather than generating force against a braced opponent. The bottom player waits for the top player to drive forward or lean in, then explosively extends both legs while simultaneously pulling with upper body grips to amplify the off-balancing effect.
 

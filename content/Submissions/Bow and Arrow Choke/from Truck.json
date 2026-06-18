@@ -20,6 +20,7 @@
   "starting_position": "Truck",
   "from_position": "Truck/Top",
   "success_rate": 58,
+  "summary": "The Bow and Arrow Choke from Truck is a gi collar choke launched from the 10th Planet truck entanglement, where the attacker feeds a deep lapel grip across the carotids and extends the trapped legs to compress the neck.",
   "overview": "The Bow and Arrow Choke from the Truck position represents a uniquely dangerous convergence of the 10th Planet leg entanglement system with traditional gi collar choke mechanics. Unlike the standard bow and arrow from back control, the Truck variation begins from a perpendicular body alignment with the opponent's legs already entangled, meaning the attacker does not need to transition to a side angle because the truck itself provides that geometry. The boot pressure against the opponent's hip creates a natural rotational force that, combined with a deep collar grip, generates enormous choking pressure with relatively little physical effort.\n\nFrom the Truck, the bow and arrow functions as one prong of a multi-threat attack system. When the opponent defends the twister by protecting their far arm and resisting spinal rotation, they often neglect collar defense, leaving the neck vulnerable to the bow and arrow entry. Conversely, defending the collar grip by bringing hands high exposes the lower body to calf slicer and banana split attacks. This dilemma makes the bow and arrow from Truck particularly effective at the intermediate and advanced levels, where opponents have learned to defend the more common truck submissions but may be unfamiliar with collar-based attacks from this angle.\n\nThe mechanical advantage of this variation comes from the existing leg entanglement serving double duty: the legs that control the opponent's lower body for truck maintenance also provide the extension platform for the bow and arrow finish. The attacker does not need to release hooks or reposition to create the characteristic stretching force. Instead, extending the entangled legs while pulling the collar grip creates the opposing-force mechanism that compresses the carotid arteries. This efficiency makes the Truck bow and arrow one of the fastest-finishing collar chokes when the grip is properly established.",
   "safety_considerations": {
     "injury_risks": [
@@ -137,7 +138,7 @@
     }
   ],
   "attacker": {
-    "name": "from Truck Attacker",
+    "name": "Bow and Arrow Choke from Truck Attacker",
     "description": "Attack the Bow and Arrow Choke from Truck. Collar grip setup from perpendicular control, leg leverage through entanglement, and finishing details for this devastating gi choke.",
     "overview": "Attacking with the Bow and Arrow Choke from the Truck requires understanding that the perpendicular angle and leg entanglement already provide most of the mechanical framework needed for the choke. Unlike the back control variation, you do not need to transition to a side angle because the truck gives you that geometry naturally. Your primary challenge is establishing the deep collar grip while maintaining boot pressure and leg entanglement. The key insight is that the truck's existing control points serve double duty: the legs that maintain truck position also create the extension force for the choke finish. Patient collar establishment combined with the inherent leverage of the truck position makes this one of the most mechanically efficient bow and arrow entries when properly executed.",
     "key_principles": [
@@ -323,7 +324,7 @@
     ]
   },
   "defender": {
-    "name": "from Truck Defender",
+    "name": "Bow and Arrow Choke from Truck Defender",
     "description": "Defend the Bow and Arrow Choke from Truck. Recognition cues, collar grip prevention, escape sequences, and survival tactics against this perpendicular gi choke attack.",
     "overview": "Defending the Bow and Arrow Choke from the Truck position requires addressing two simultaneous problems: the collar grip threatening your neck and the leg entanglement pinning your lower body. The truck's perpendicular angle gives the attacker unusually direct collar access, meaning traditional back defense hand fighting may be insufficient. Your defensive priority hierarchy is: first protect the neck by preventing deep collar access, then address boot pressure and leg entanglement to escape the truck entirely. Recognizing the attack early is critical because once the collar grip is locked past the chin and the extension begins, defensive options narrow dramatically. The best defense is preventing the grip from being established rather than trying to escape a fully locked choke.",
     "key_principles": [

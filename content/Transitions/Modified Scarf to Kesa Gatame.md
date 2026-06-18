@@ -34,6 +34,18 @@ description: "Master the Modified Scarf Hold to Kesa Gatame transition in BJJ. S
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Modified Scarf to Kesa Gatame",
+  "description": "Modified Scarf to Kesa Gatame is a side-control-family positional switch in which the top player rotates from a chest-to-chest modified scarf hold into a perpendicular scarf pin, threading the head and trapping the near arm to open americana and armbar attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Modified Scarf Hold to Kesa Gatame transition in BJJ. S
 
 <section id="overview" class="content-section">
 
-The Modified Scarf Hold to Kesa Gatame transition represents a fundamental positional adjustment within the side control family that shifts the top player from a chest-to-chest pin into a perpendicular scarf hold. This transition changes the control geometry from direct downward pressure to an angular wrap-and-sit configuration that opens distinct submission pathways unavailable from the modified scarf hold. The movement centers on rotating the hips from a prone chest-pressure position to a seated perpendicular angle while simultaneously threading the arm around the opponent's head and trapping their near arm.
+**Modified Scarf to Kesa Gatame is a side-control-family positional switch in which the top player rotates from a chest-to-chest modified scarf hold into a perpendicular scarf pin, threading the head and trapping the near arm to open americana and armbar attacks.**
+
+Switching control geometries mid-pin is what keeps a skilled bottom player from settling into a single defensive rhythm, and this transition is the primary bridge between the side control family's two dominant scarf configurations. Where the modified scarf hold applies direct downward chest pressure, kesa gatame's angular wrap-and-sit configuration opens distinct submission pathways that are unavailable from the chest-to-chest pin. The movement centers on rotating the hips from a prone chest-pressure position to a seated perpendicular angle while simultaneously threading the arm around the opponent's head and trapping their near arm.
 
 Strategically, this transition is valuable when the bottom player has adapted to the modified scarf hold's chest pressure and begun creating frames or threatening escapes. Moving to kesa gatame changes the control equation entirely, forcing the bottom player to abandon their defensive structure and address a fundamentally different set of problems. The perpendicular angle of kesa gatame provides superior upper body immobilization and creates immediate americana and armbar threats that are less accessible from modified scarf hold.
 

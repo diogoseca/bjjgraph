@@ -34,6 +34,18 @@ description: "Master grip breaking in BJJ with systematic hand fighting methods.
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Grip Break",
+  "description": "A grip break is the systematic stripping of an opponent's collar, sleeve, or pant grip using two-on-one control and directional force, freeing your movement to retain guard, pass, or launch attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master grip breaking in BJJ with systematic hand fighting methods.
 </div>
 
 <section id="overview" class="content-section">
+
+**A grip break is the systematic stripping of an opponent's collar, sleeve, or pant grip using two-on-one control and directional force, freeing your movement to retain guard, pass, or launch attacks.**
 
 Grip breaking is a fundamental skill in Brazilian Jiu-Jitsu that serves as the foundation for both offensive and defensive guard play. Whether you're playing guard or attempting to pass, the ability to systematically break your opponent's grips determines who controls the engagement and dictates the pace of the match. This technique encompasses a variety of methods to release collar grips, sleeve grips, pant grips, and body locks, each requiring specific biomechanical principles and timing.
 

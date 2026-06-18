@@ -34,6 +34,18 @@ description: "Master the Knee Slice Despite Lapel pass in BJJ. Complete guide to
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Slice Despite Lapel",
+  "description": "Knee Slice Despite Lapel is a gi guard pass that completes a knee cut through worm, squid, or hybrid lapel configurations by partially clearing the fabric, then slicing tangent to the remaining restriction rather than fighting straight through it.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Knee Slice Despite Lapel pass in BJJ. Complete guide to
 
 <section id="overview" class="content-section">
 
-The Knee Slice Despite Lapel represents a specialized passing technique designed to complete the knee slice pass even when the opponent has established lapel guard configurations. Unlike standard knee slice mechanics that rely on unobstructed hip-to-hip contact, this variation addresses the unique barrier created by lapel fabric wrapped around your leg or torso.
+**Knee Slice Despite Lapel is a gi guard pass that completes a knee cut through worm, squid, or hybrid lapel configurations by partially clearing the fabric, then slicing tangent to the remaining restriction rather than fighting straight through it.**
+
+In the modern gi passing landscape, lapel guards specifically neutralize the knee slice—a passer's highest-percentage cut—by wrapping fabric around the lead leg or torso to deny the hip-to-hip contact the pass depends on. This technique exists to recover that cut under exactly those conditions, treating the lapel as a directional restriction to be navigated rather than an impassable wall.
 
 The technique operates on the principle that lapel configurations create directional restrictions rather than complete immobility. By identifying the specific direction the lapel barrier blocks and moving perpendicular or tangent to that restriction, the passer can complete the slice while the opponent's lapel grip becomes ineffective. This requires precise reading of how the fabric is configured—worm guard restrictions differ significantly from squid guard restrictions.
 

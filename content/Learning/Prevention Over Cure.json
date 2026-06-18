@@ -1,6 +1,7 @@
 {
   "name": "Prevention Over Cure",
   "description": "Learn why early defense in BJJ is far more effective than late escapes. Discover how hand fighting and proactive positioning prevent bad positions.",
+  "summary": "Prevention over cure is the BJJ principle that intercepting a position at its earliest stage—before grips lock, weight settles, or control consolidates—is roughly ten times easier and less energy-intensive than escaping once the position is fully established.",
   "tags": [
     "bjj",
     "strategy",
@@ -160,6 +161,21 @@
       "name": "Back Control",
       "content_type": "Position",
       "relationship": "Preventing the back take during scrambles is far easier than escaping established back control"
+    },
+    {
+      "name": "Hip Escape Mechanics",
+      "content_type": "Principle",
+      "relationship": "Hip escaping early creates the space that prevents pins from consolidating in the first place"
+    },
+    {
+      "name": "Defensive Prioritization Framework",
+      "content_type": "System",
+      "relationship": "Provides the layered triage logic for which threats to prevent first when several develop at once"
+    },
+    {
+      "name": "Timing Windows",
+      "content_type": "Learning",
+      "relationship": "Prevention depends on recognizing and acting within the brief windows before a position consolidates"
     }
   ]
 }

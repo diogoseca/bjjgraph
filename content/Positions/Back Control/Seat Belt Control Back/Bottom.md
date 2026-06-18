@@ -21,7 +21,7 @@ description: "Master seat belt control escape strategies from bottom back positi
     {
       "@type": "HowToStep",
       "name": "Execute Hand Fighting from Back",
-      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 45% of exchanges from this position.",
+      "text": "From this position, attempt Hand Fighting from Back. This technique is attempted in 43% of exchanges from this position.",
       "position": 1
     },
     {

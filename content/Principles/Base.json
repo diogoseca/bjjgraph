@@ -14,7 +14,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Base is a fundamental principle describing the ability to maintain stable positioning through proper weight distribution, alignment, and connection points that maximize control while minimizing vulnerability to displacement. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.",
+  "summary": "Base is the principle of maintaining a stable platform through optimal weight distribution, skeletal alignment, and connection points, allowing a practitioner to resist sweeps and off-balancing while generating control and pressure.",
+  "overview": "Rooted in the judo concept of a stable foundation, base is among the first principles a beginner is taught and one of the last a competitor fully masters. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ, from standing exchanges to deep submission entanglements. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.",
   "key_principles": [
     "Distribute weight optimally across multiple support points",
     "Maintain proper alignment between base points and center of gravity",
@@ -387,6 +388,40 @@
       "name": "Kuzushi",
       "content_type": "Principle",
       "relationship": "Concept that targets base vulnerabilities, understanding both concepts enhances performance"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is base in Brazilian Jiu-Jitsu?",
+      "answer": "Base is the maintenance of a stable platform through optimal weight distribution, skeletal alignment, and connection points, letting a practitioner resist sweeps and off-balancing while generating control and pressure."
+    },
+    {
+      "question": "How do you decide between a wide base and a narrow base?",
+      "answer": "Use a wide base when stability is the priority and you expect off-balancing attempts; switch to a narrower, more mobile base when you need to move, pass, or attack and can accept reduced stability for speed."
+    },
+    {
+      "question": "Why does keeping your center of gravity inside the stability zone matter?",
+      "answer": "When your center of gravity stays within the area formed by your support points you stay balanced, but once it travels outside that zone you tip over even if your base structure otherwise looked correct."
+    },
+    {
+      "question": "What is a common base error during offensive sequences?",
+      "answer": "Committing fully to an attack while neglecting the base lets the opponent exploit the compromised structure to reverse or escape. Keep dual awareness of the attack and your supporting base at all times."
+    },
+    {
+      "question": "How does base quality affect the pressure you can apply?",
+      "answer": "Pressure is only as effective as the base supporting it; a stable platform transfers bodyweight and skeletal force into the opponent, while a shaky base leaks power and is easily relieved or escaped."
+    },
+    {
+      "question": "What early warning signs indicate your base is being compromised?",
+      "answer": "Weight shifting toward the edge of your support points, a hand, knee, or foot lifting or sliding, loss of mat connection, or being stretched off your hips. Reading these early allows recovery before a full reversal."
+    },
+    {
+      "question": "Why is skeletal alignment preferred over muscular tension for maintaining base?",
+      "answer": "Stacking joints so the skeleton bears the load conserves energy and builds a more durable structure, whereas relying on muscular tension fatigues quickly and collapses under sustained directional pressure."
+    },
+    {
+      "question": "How should your base behave during a positional transition?",
+      "answer": "Base must stay functional throughout the transition. Establish new support points before releasing old ones so you are never completely without a base, eliminating the vulnerable gap an opponent can exploit to sweep or reverse."
     }
   ]
 }

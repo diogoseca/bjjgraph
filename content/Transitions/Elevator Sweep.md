@@ -34,6 +34,18 @@ description: "Master the Elevator Sweep from butterfly guard. Complete guide to 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Elevator Sweep",
+  "description": "The Elevator Sweep is a butterfly guard reversal where the seated bottom player uses both hooks to elevate the opponent's hips while pulling with an overhook, tipping them over to land in top mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Elevator Sweep from butterfly guard. Complete guide to 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Elevator Sweep is a butterfly guard reversal where the seated bottom player uses both hooks to elevate the opponent's hips while pulling with an overhook, tipping them over to land in top mount.**
 
 The Elevator Sweep is a fundamental butterfly guard technique that uses both hooks and upper body control to lift and sweep the opponent. This sweep capitalizes on the mechanical advantage created by the butterfly hooks positioned on the opponent's inner thighs, combined with an overhook or underhook grip that controls their upper body. When executed properly, the practitioner uses their legs like an elevator to lift the opponent while simultaneously pulling them off balance with the upper body grip, resulting in a clean reversal to mount or top position.
 

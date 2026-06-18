@@ -86,6 +86,18 @@ description: "Understand the three distinct phases of guard play in BJJ: engagem
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Phases of Guard",
+  "description": "The phases of guard are the three stages of bottom-game play -- engagement (managing distance to establish a guard), maintenance (attacking from an established guard), and retention (recovering a guard that is being passed) -- each requiring different grips, movements, and priorities.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -94,6 +106,8 @@ description: "Understand the three distinct phases of guard play in BJJ: engagem
 <section id="overview" class="content-section">
 
 ## What is Phases of Guard?
+
+**The phases of guard are the three stages of bottom-game play -- engagement (managing distance to establish a guard), maintenance (attacking from an established guard), and retention (recovering a guard that is being passed) -- each requiring different grips, movements, and priorities.**
 
 Most grapplers think of guard as a single thing -- you are either in guard or you are not. In reality, guard play has three distinct phases, and each phase demands a completely different strategy, different grips, and different movement patterns. Confusing the phases or using the wrong strategy for the wrong phase is one of the most common reasons guard players get passed. Understanding this framework transforms your entire bottom game from a single blunt instrument into a three-layered system.
 

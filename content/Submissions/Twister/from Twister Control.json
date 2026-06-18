@@ -1,5 +1,6 @@
 {
   "name": "Twister from Twister Control",
+  "summary": "The Twister from Twister Control is a no-gi spinal lock that pairs leg-entanglement rotation with a chin-strap crank, torquing the cervical and thoracic spine into lateral flexion to force the tap from a back-exposed, leg-trapped opponent.",
   "description": "Master the Twister submission from Twister Control. Complete guide covering spinal lock mechanics, safety protocols, and finishing details for advanced practitioners.",
   "tags": [
     "bjj",
@@ -75,8 +76,8 @@
     "Banana Split",
     "Calf Slicer",
     "Electric Chair",
-    "Spine Lock",
-    "Aoki Lock Control"
+    "Can Opener",
+    "Aoki Lock"
   ],
   "related_content": [
     {
@@ -139,7 +140,7 @@
     }
   ],
   "attacker": {
-    "name": "from Twister Control Attacker",
+    "name": "Twister from Twister Control Attacker",
     "description": "Learn to execute the Twister from Twister Control with step-by-step finishing mechanics, grip details, and competition-proven strategies for advanced grapplers.",
     "overview": "Attacking with the Twister from Twister Control requires mastery of the sequential nature of this spinal lock submission. The finish is built on a foundation of leg control that creates spinal rotation, followed by progressive establishment of the chin strap grip that converts rotational torque into a finishing mechanism. The attacker must coordinate lower body entanglement with upper body control, understanding that each element depends on the other for the submission to function. Patience is essential because rushing any phase of the setup compromises the entire submission chain and risks losing a dominant control position that took significant effort to establish. The most effective attackers treat the Twister as one option within a system of attacks available from Twister Control, using the threat of the spinal lock to open calf slicers, banana splits, and back takes when opponents over-defend the neck.",
     "key_principles": [
@@ -335,7 +336,7 @@
     ]
   },
   "defender": {
-    "name": "from Twister Control Defender",
+    "name": "Twister from Twister Control Defender",
     "description": "Defend against the Twister from Twister Control with recognition cues, escape sequences, and critical safety protocols for spinal lock protection.",
     "overview": "Defending against the Twister from Twister Control demands early recognition and systematic response to one of the most dangerous spinal submissions in grappling. The defender faces a compounding problem where rotational torque through the spine progressively eliminates defensive options, restricts breathing, and creates immediate injury risk if the submission is fully applied. Successful defense requires addressing the leg entanglement before it deepens, preventing the chin strap grip from establishing, and maintaining composure to execute technical escapes rather than panic-driven explosive movements that worsen spinal rotation. The most critical defensive skill is recognizing the point of no return where escape is no longer possible and tapping becomes necessary to protect cervical spine integrity.",
     "key_principles": [

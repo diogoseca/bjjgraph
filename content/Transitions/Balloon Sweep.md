@@ -34,6 +34,18 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Balloon Sweep",
+  "description": "The Balloon Sweep is a closed guard sweep that explosively extends the hips and lifts with a butterfly hook while pulling the collar, vertically displacing a forward-postured opponent and rotating them over to mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
 
 <section id="overview" class="content-section">
 
-The Balloon Sweep is a dynamic and versatile sweep that combines elements of butterfly guard mechanics within the closed guard structure. This technique exploits the opponent's forward pressure and posture by using an explosive upward lifting motion combined with hip movement to elevate and off-balance them. The name derives from the balloon-like inflation of the hips and legs that creates the sweeping momentum. Unlike traditional closed guard sweeps that rely primarily on lateral movement, the Balloon Sweep uses vertical displacement to compromise the opponent's base before transitioning them over your center line. This makes it particularly effective against opponents who maintain a strong low base and resist lateral sweeps.
+**The Balloon Sweep is a closed guard sweep that explosively extends the hips and lifts with a butterfly hook while pulling the collar, vertically displacing a forward-postured opponent and rotating them over to mount.**
+
+Among closed guard sweeps, the Balloon Sweep is distinctive for importing butterfly guard's vertical lifting mechanics into the locked-leg structure of the closed guard. It exploits the opponent's forward pressure and posture by using an explosive upward lifting motion combined with hip movement to elevate and off-balance them. The name derives from the balloon-like inflation of the hips and legs that creates the sweeping momentum. Unlike traditional closed guard sweeps that rely primarily on lateral movement, the Balloon Sweep uses vertical displacement to compromise the opponent's base before transitioning them over your center line. This makes it particularly effective against opponents who maintain a strong low base and resist lateral sweeps.
 
 The technique requires precise timing and coordination between upper body control and lower body mechanics. The sweeper must break the opponent's posture, load their weight onto a butterfly hook or posting foot, then execute an explosive hip extension synchronized with a collar pull. The vertical lift creates a moment of weightlessness that eliminates the opponent's ability to post or widen their base. This mechanical principle distinguishes the Balloon Sweep from hip-dominant sweeps like the Hip Bump or momentum-based sweeps like the Pendulum, giving practitioners a critical tool against opponents who neutralize those standard attacks.
 

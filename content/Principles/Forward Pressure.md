@@ -143,6 +143,16 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Forward Pressure",
+  "description": "Forward Pressure is the principle of applying continuous, directional advancing force through weight, connection points, and body structure to collapse an opponent's frames, eliminate space, and drive positional advancement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
 
 ## What is Forward Pressure?
 
-Forward Pressure represents the strategic application of advancing force, momentum, and weight distribution to overcome defensive barriers, eliminate space, and create positional advancement opportunities. Unlike specific techniques, forward pressure is a conceptual framework applicable across all offensive phases of BJJ, particularly in guard passing, pin consolidation, and submission setups. This concept encompasses the mechanical principles, directional control, and psychological aspects of creating consistent, purposeful advancing force that compromises opponent's defensive structures. Forward pressure serves as both an offensive weapon that breaks through resistance and a control mechanism that limits opponent's mobility and recovery options. The ability to apply effective forward pressure often determines whether a practitioner can overcome sophisticated defensive systems or remains neutralized by opponent's frames and space creation, making it one of the most essential conceptual elements for offensive BJJ.
+**Forward Pressure is the principle of applying continuous, directional advancing force through weight, connection points, and body structure to collapse an opponent's frames, eliminate space, and drive positional advancement.**
+
+Across every offensive phase of jiu-jitsu - guard passing, pin consolidation, and submission setups - the difference between a practitioner who advances and one who stalls often comes down to the quality of their advancing force. Forward pressure is a conceptual framework rather than a single technique, encompassing the mechanical principles, directional control, and psychological aspects of creating consistent, purposeful advancing force that compromises an opponent's defensive structures. It functions both as an offensive weapon that breaks through resistance and as a control mechanism that limits an opponent's mobility and recovery options. The ability to apply effective forward pressure often determines whether a practitioner can overcome sophisticated defensive systems or remains neutralized by an opponent's frames and space creation, making it one of the most essential conceptual elements for offensive BJJ.
 
 </section>
 

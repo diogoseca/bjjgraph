@@ -33,10 +33,32 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
 }
 </script>
 
-> **SAFETY**: Electric Chair from Deep Half Guard targets the Knee joint, hip flexors, and posterior chain. Risk: Medial collateral ligament (MCL) sprain or tear. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Electric Chair from Deep Half Guard",
+  "description": "The Electric Chair from Deep Half Guard is a 10th Planet compression submission where the bottom player hyperextends the opponent's trapped leg by fusing lockdown control, hip extension, and spinal rotation to attack the knee, hip flexors, and groin at once.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Electric Chair from Deep Half Guard is a 10th Planet compression submission where the bottom player hyperextends the opponent's trapped leg by fusing lockdown control, hip extension, and spinal rotation to attack the knee, hip flexors, and groin at once.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Knee and Hip Compression</span>
+<span class="meta-chip">Targets Knee joint, hip flexors, and posterior chain</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Electric Chair from Deep Half Guard targets the Knee joint, hip flexors, and posterior chain. Primary risk: Medial collateral ligament (MCL) sprain or tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,60 +75,7 @@ The submission derives its effectiveness from the lockdown control system, where
 
 Historically developed and refined within the 10th Planet system, the Electric Chair has proven effective in both gi and no-gi competition contexts. The technique emphasizes pressure over speed, rewarding practitioners who develop strong lockdown mechanics and understand the progressive nature of compression submissions. When executed properly with controlled application speed, it serves as both a legitimate finishing threat and a powerful sweeping mechanism that forces opponents into defensive reactions.
 
-**Category**: Compression
-**Type**: Knee and Hip Compression
-**Target Area**: Knee joint, hip flexors, and posterior chain
-**Starting Position**: [[Positions/Half Guard/Lockdown]]
-**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Medial collateral ligament (MCL) sprain or tear | High | 4-12 weeks for grade 1-2 sprains; 3-6 months for grade 3 tears |
-| Posterior cruciate ligament (PCL) strain | Medium | 2-8 weeks for minor strains; 3-6 months for significant injuries |
-| IT band inflammation and hip flexor strain | Medium | 2-6 weeks with proper rest and treatment |
-| Lower back strain from spinal rotation | Medium | 1-4 weeks depending on severity |
-| Hamstring and adductor muscle strains | Low | 1-3 weeks for minor strains |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum extension; compression submissions require gradual intensity increase
-
-**Tap Signals**:
-- Verbal tap or verbal distress signal
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any audible pain vocalization
-- Tapping with free leg on mat
-- Any visible distress or panic response
-
-
-**Release Protocol**:
-1. Immediately cease all extension pressure upon tap signal
-2. Release lockdown leg configuration first to remove compression
-3. Control opponent's leg as you release to prevent sudden movement
-4. Gradually lower opponent's leg back to neutral position
-5. Maintain communication to ensure partner safety
-6. Allow partner time to assess their knee and hip before continuing
-
-
-**Training Restrictions**:
-- Never apply explosive or jerking movements during extension
-- Never use competition-speed application in training environments
-- Always maintain verbal communication with training partner
-- Never continue pressure after tap signal for any reason
-- Avoid training this submission with partners who have existing knee injuries
-- Never practice on partners who lack flexibility in hips and hamstrings without proper warm-up
-- Always ensure partner has clear access to tap with both hands
-- Never attempt full extension in initial learning phases
-
+**Starting Position**: [[Positions/Half Guard/Lockdown]] · **From**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
 
@@ -287,10 +256,9 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Banana Split]]
 - [[Submissions/Crotch Ripper]]
@@ -302,35 +270,61 @@ Historically developed and refined within the 10th Planet system, the Electric C
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Boston Crab]]
 - [[Transitions/Estima Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Half Guard/Lockdown]] - Primary starting position - Electric Chair is signature submission from lockdown control
 - [[Positions/Half Guard/Old School]] - Alternative attack from same lockdown setup; often used when Electric Chair is defended
-- [[Submissions/Twister]] - Advanced follow-up submission when transitioning from Electric Chair to truck position
-- [[Submissions/Banana Split]] - Alternative compression submission targeting similar anatomical structures with different leg configuration
-- [[Submissions/Calf Slicer]] - Related leg compression technique often combined with Electric Chair in attacking sequences from truck and lockdown positions
 - [[Positions/Twister Control/Truck]] - Advanced position transition available from Electric Chair defensive reactions
 - [[Positions/Half Guard]] - Foundational position from which lockdown and Electric Chair are established
 - [[Positions/Dogfight Position]] - Common transition position when opponent defends Electric Chair by attempting to come up
 - [[Positions/Back Control]] - Available transition when opponent turns away from Electric Chair pressure
 - [[Positions/Leg Entanglement]] - Conceptual framework for understanding how Electric Chair controls and attacks the leg
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Electric Chair from Deep Half Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Medial collateral ligament (MCL) sprain or tear | High | 4-12 weeks for grade 1-2 sprains; 3-6 months for grade 3 tears |
+| Posterior cruciate ligament (PCL) strain | Medium | 2-8 weeks for minor strains; 3-6 months for significant injuries |
+| IT band inflammation and hip flexor strain | Medium | 2-6 weeks with proper rest and treatment |
+| Lower back strain from spinal rotation | Medium | 1-4 weeks depending on severity |
+| Hamstring and adductor muscle strains | Low | 1-3 weeks for minor strains |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum extension; compression submissions require gradual intensity increase
+
+**Tap Signals**:
+- Verbal tap or verbal distress signal
+- Physical hand tap on partner or mat
+- Physical foot tap on mat or partner
+- Any audible pain vocalization
+- Tapping with free leg on mat
+- Any visible distress or panic response
+
+
+**Release Protocol**:
+1. Immediately cease all extension pressure upon tap signal
+2. Release lockdown leg configuration first to remove compression
+3. Control opponent's leg as you release to prevent sudden movement
+4. Gradually lower opponent's leg back to neutral position
+5. Maintain communication to ensure partner safety
+6. Allow partner time to assess their knee and hip before continuing
+
+
+**Training Restrictions**:
+- Never apply explosive or jerking movements during extension
+- Never use competition-speed application in training environments
+- Always maintain verbal communication with training partner
+- Never continue pressure after tap signal for any reason
+- Avoid training this submission with partners who have existing knee injuries
+- Never practice on partners who lack flexibility in hips and hamstrings without proper warm-up
+- Always ensure partner has clear access to tap with both hands
+- Never attempt full extension in initial learning phases
+
 
 </section>
 

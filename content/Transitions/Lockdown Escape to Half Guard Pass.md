@@ -34,6 +34,18 @@ description: "Master Lockdown Escape to Half Guard Pass in BJJ. Systematic leg e
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown Escape to Half Guard Pass",
+  "description": "The Lockdown Escape to Half Guard Pass is a top-game counter to the 10th Planet lockdown: break the foot triangle, extract the trapped leg with limp-leg mechanics and forward pressure, then pass directly to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Lockdown Escape to Half Guard Pass in BJJ. Systematic leg e
 
 <section id="overview" class="content-section">
 
-The Lockdown Escape to Half Guard Pass is the essential counter-technique for the top player trapped in an opponent's lockdown half guard. When your leg is caught in the figure-four lockdown configuration, your mobility is severely compromised and you face constant sweep and submission threats from the Electric Chair, Old School, and whip-up attacks. This technique provides a systematic pathway to extract your trapped leg and immediately advance to side control rather than settling for neutral half guard.
+**The Lockdown Escape to Half Guard Pass is a top-game counter to the 10th Planet lockdown: break the foot triangle, extract the trapped leg with limp-leg mechanics and forward pressure, then pass directly to side control.**
+
+Getting your leg triangled in the 10th Planet lockdown is one of the most frustrating predicaments for a top player: your mobility is severely compromised and you face constant sweep and submission threats from the Electric Chair, Old School, and whip-up attacks. This technique provides a systematic pathway to extract your trapped leg and immediately advance to side control rather than settling for neutral half guard.
 
 The key insight is that the lockdown's power derives from the triangled leg configuration gripping your trapped leg. Simply yanking your leg free plays into the lockdown's mechanical strength and risks knee injury. Instead, this technique employs forward pressure to limit the opponent's hip extension, the limp leg concept to reduce grip effectiveness, and systematic breaking of the foot triangle before extraction. The combination of these principles creates the mechanical advantage needed to escape the entanglement safely.
 

@@ -33,10 +33,32 @@ description: "Master the kneebar from Single Leg X-Guard. Expert guide to this B
 }
 </script>
 
-> **SAFETY**: Kneebar from Single Leg X-Guard targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear or rupture. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Single Leg X-Guard",
+  "description": "The kneebar from Single Leg X-Guard is a top-side leg-lock counter that isolates the SLX guard player's controlling leg, backsteps to a perpendicular angle, clamps the heel to the chest, and hyperextends the knee through progressive hip extension.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The kneebar from Single Leg X-Guard is a top-side leg-lock counter that isolates the SLX guard player's controlling leg, backsteps to a perpendicular angle, clamps the heel to the chest, and hyperextends the knee through progressive hip extension.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Kneebar from Single Leg X-Guard targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,56 +75,7 @@ This entry is particularly effective because it reverses the positional dynamic 
 
 The kneebar from SLX has become an essential component of top-player strategy when facing sophisticated leg entanglement guards in no-gi competition. Proficiency in this technique forces guard players to moderate their aggression from SLX bottom, opening additional passing lanes and creating a tactical advantage that extends well beyond the submission threat itself. The technique combines standard kneebar finishing mechanics with position-specific entry timing that exploits the structural properties unique to the SLX configuration.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)
-**Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]]
-**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Top)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Posterior cruciate ligament (PCL) tear or rupture | CRITICAL | 6-12 months with surgery, potential permanent instability |
-| Medial collateral ligament (MCL) sprain or tear | High | 4-8 weeks for grade 1-2, 8-12 weeks for grade 3 |
-| Lateral collateral ligament (LCL) damage | High | 6-10 weeks depending on severity |
-| Meniscus tear from rotational stress | High | 4-6 months with surgical repair |
-| Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
-
-
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
-
-**Tap Signals**:
-- Verbal tap (preferred for leg locks)
-- Multiple rapid hand taps on opponent or mat
-- Multiple foot taps on mat or opponent
-- Any vocalization of distress or pain
-- Frantic or panicked movement
-
-
-**Release Protocol**:
-1. Immediately stop all hip extension pressure
-2. Release the leg grip and allow knee to return to neutral position
-3. Do not suddenly drop the leg - control descent
-4. Allow partner to assess knee integrity before continuing
-5. Check with partner verbally before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply progressive pressure
-- Never use competition speed in training - always allow time to tap
-- Always maintain control of opponent's heel - never let it slip out during application
-- Never practice on training partners with known knee injuries without explicit permission
-- Never combine with explosive rotational movements that add torque to the knee
-- Beginners should not practice finishing pressure - focus on positional control only
-
+**Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] · **From**: [[Positions/X-Guard/Single Leg X-Guard]] (Top)
 
 </section>
 
@@ -263,28 +236,18 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Kneebar]]
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
 - [[Submissions/Calf Slicer]]
-- [[Ankle Lock from X-Guard]]
-- [[Positions/Aoki Lock Control]]
+- [[Transitions/Aoki Lock]]
 - [[Submissions/Flying Kneebar]]
 - [[Submissions/Omoplata]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/X-Guard/Single Leg X-Guard]] - Source position where this counter-attack originates from the top player's trapped leg scenario
 - [[Positions/Ashi Garami]] - Fundamental leg entanglement system with shared control mechanics and finishing principles
 - [[Positions/Kneebar Control]] - Finishing position achieved when kneebar is fully secured from the SLX entry
@@ -295,16 +258,49 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 - [[Positions/De La Riva Guard]] - Common guard position that transitions into SLX, creating kneebar counter-attack opportunities
 - [[Positions/X-Guard/Reverse X-Guard]] - Alternative guard configuration where similar kneebar mechanics apply from top position
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kneebar from Single Leg X-Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Posterior cruciate ligament (PCL) tear or rupture | CRITICAL | 6-12 months with surgery, potential permanent instability |
+| Medial collateral ligament (MCL) sprain or tear | High | 4-8 weeks for grade 1-2, 8-12 weeks for grade 3 |
+| Lateral collateral ligament (LCL) damage | High | 6-10 weeks depending on severity |
+| Meniscus tear from rotational stress | High | 4-6 months with surgical repair |
+| Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
+
+
+**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
+
+**Tap Signals**:
+- Verbal tap (preferred for leg locks)
+- Multiple rapid hand taps on opponent or mat
+- Multiple foot taps on mat or opponent
+- Any vocalization of distress or pain
+- Frantic or panicked movement
+
+
+**Release Protocol**:
+1. Immediately stop all hip extension pressure
+2. Release the leg grip and allow knee to return to neutral position
+3. Do not suddenly drop the leg - control descent
+4. Allow partner to assess knee integrity before continuing
+5. Check with partner verbally before resuming training
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - always apply progressive pressure
+- Never use competition speed in training - always allow time to tap
+- Always maintain control of opponent's heel - never let it slip out during application
+- Never practice on training partners with known knee injuries without explicit permission
+- Never combine with explosive rotational movements that add torque to the knee
+- Beginners should not practice finishing pressure - focus on positional control only
+
 
 </section>
 

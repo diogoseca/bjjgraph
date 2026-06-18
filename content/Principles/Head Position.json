@@ -14,7 +14,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Head Position represents the fundamental principle of controlling an opponent's head position to dictate their spinal alignment, postural options, and available movements throughout BJJ engagement. Unlike specific techniques, head control is a comprehensive conceptual framework that applies across all positions and phases of grappling. This concept encompasses the biomechanical understanding that controlling the head provides control over the spine and subsequently the entire body structure, as the head-spine relationship determines available force generation, defensive capability, and offensive options. Head control serves as both an offensive mechanism that enables dominant position maintenance and submission attacks, and a defensive priority that must be protected to preserve mobility and technical options. The ability to establish and maintain head control often determines positional dominance and submission opportunities, making it one of the most essential conceptual elements in BJJ.",
+  "summary": "Head Position is the BJJ principle of controlling an opponent's head to dictate their spinal alignment, posture, and movement options, because steering the head steers the spine, and the spine governs the body's entire structure.",
+  "overview": "Across every phase of grappling, from the standing clinch to back control, the head behaves like the steering wheel of the body, which is why elite competitors treat controlling it as a first-order priority rather than an afterthought. Unlike a discrete technique, head control is a conceptual framework that applies in every position: the biomechanical reality is that the head leads the spine, and the spine organizes force generation, defensive framing, and offensive options. Offensively, head control breaks posture, pins shoulders, and opens submission chains; defensively, protecting your own head preserves mobility, prevents chokes, and keeps escape routes alive. Because a single high-quality head connection can neutralize an opponent's strongest structural advantages, the ability to establish and, critically, maintain it through transitions often decides who controls the exchange and who is forced to react.",
   "key_principles": [
     "Control the head to control the spine and subsequently the entire body structure",
     "Establish head position that limits opponent's ability to generate effective frames or escape mechanics",
@@ -324,19 +325,19 @@
       "relationship": "Front headlock represents an entire positional category defined by head control as the fundamental characteristic"
     },
     {
-      "name": "Side Control",
-      "content_type": "Position",
-      "relationship": "Side control effectiveness relies heavily on proper head control application through cross-face and shoulder pressure"
-    },
-    {
       "name": "Back Control",
       "content_type": "Position",
       "relationship": "Back control maintenance and submission attacks depend on effective head control to prevent chin protection and escape"
     },
     {
-      "name": "Guillotine Choke",
+      "name": "Kesa Gatame",
+      "content_type": "Position",
+      "relationship": "Scarf hold uses the arm wrapped around the head as its defining control mechanism, an applied form of head control"
+    },
+    {
+      "name": "Anaconda Choke",
       "content_type": "Submission",
-      "relationship": "Guillotine effectiveness is determined primarily by head control quality and positioning relative to opponent's spine"
+      "relationship": "Anaconda setup and finish depend on front-headlock head control that traps the head and arm against the centerline"
     },
     {
       "name": "Rear Naked Choke",
@@ -344,14 +345,14 @@
       "relationship": "Rear naked choke requires overcoming chin protection through superior head control before the choke can be applied"
     },
     {
-      "name": "Darce Choke",
+      "name": "Brabo Choke",
       "content_type": "Submission",
-      "relationship": "Darce choke setup and finish depend on controlling head position to create the proper angle for the shoulder-of-justice pressure"
+      "relationship": "Darce/brabo setup and finish depend on controlling head position to create the angle for the shoulder-of-justice pressure"
     },
     {
-      "name": "Snap Down to Front Headlock",
-      "content_type": "Transition",
-      "relationship": "Snap down represents the primary method of establishing head control from standing positions for ground engagement"
+      "name": "Hand Fighting",
+      "content_type": "Principle",
+      "relationship": "Hand fighting is the primary method of winning the grip exchanges that establish head control or break an opponent's head control"
     },
     {
       "name": "Chin Protection",
@@ -362,6 +363,44 @@
       "name": "Frames",
       "content_type": "Principle",
       "relationship": "Head control often eliminates opponent's ability to create effective defensive frames"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why does controlling the head give control over the entire body?",
+      "answer": "The head leads the spine, and the spine organizes posture, base, and force generation. By steering the head you dictate spinal alignment, which limits the opponent's ability to bridge, frame, or rotate out of the position."
+    },
+    {
+      "question": "In side control, which direction should you drive the opponent's head and why?",
+      "answer": "Drive the head away from their hips with a cross-face. Pushing it toward the hips actually helps them recover guard, whereas turning it away kills the hip escape and pins the near shoulder to the mat."
+    },
+    {
+      "question": "What is the most common error that causes head control to fail during transitions?",
+      "answer": "Releasing head control while changing position. The brief moment of lost contact lets the opponent regain posture, build frames, or escape, so control must persist through the movement rather than be re-established afterward."
+    },
+    {
+      "question": "Why is relying on pure grip strength to control the head a mistake?",
+      "answer": "Grip strength fatigues quickly and gives the opponent a rigid post to leverage. Effective head control comes from positional pressure (body weight, angle, structure), using grips only as connection points for transferring that pressure."
+    },
+    {
+      "question": "How does head control relate to finishing the rear naked choke from back control?",
+      "answer": "The choke requires overcoming chin protection. Superior head control prevents the opponent from tucking their chin and turning their head, opening the channel needed to slide the choking arm under the jaw."
+    },
+    {
+      "question": "What does multi-point head stabilization mean and why does it matter?",
+      "answer": "It means using several coordinated contact points (grips, shoulder pressure, chest weight, hip position) to prevent head movement in every direction at once. Single-direction control lets the opponent rotate out through the uncontrolled axis."
+    },
+    {
+      "question": "How should you respond when an opponent successfully defends one type of head control?",
+      "answer": "Transition to an alternative head control method rather than abandoning the head entirely. If a cross-face is defended, switch to a chin strap, head-and-arm, or front headlock to keep the spine compromised."
+    },
+    {
+      "question": "Why must you guard your own head position while attacking the opponent's?",
+      "answer": "In neutral exchanges both players have head access, and neglecting your own protection lets the opponent establish control or a choke on you. Maintain simultaneous awareness: deny their head while seeking to control yours."
+    },
+    {
+      "question": "In the front headlock, how does head position determine the available submissions?",
+      "answer": "Head position relative to the trapped arm and the centerline decides whether the guillotine, anaconda, or darce is open, and whether the opponent can stand or turn, making head positioning the key decision point for the whole attack chain."
     }
   ]
 }

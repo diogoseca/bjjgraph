@@ -135,6 +135,16 @@ description: "Master modern no-gi guard passing with systematic pressure, connec
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Modern No-Gi Passing System",
+  "description": "The Modern No-Gi Passing System is a pressure-and-connection framework for defeating contemporary gripless guards, using headquarters control, systematic connection breaking, and dynamic floating passes to advance safely past the legs to dominant position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -148,6 +158,8 @@ description: "Master modern no-gi guard passing with systematic pressure, connec
 <section id="overview" class="content-section">
 
 ## What is Modern No-Gi Passing System?
+
+**The Modern No-Gi Passing System is a pressure-and-connection framework for defeating contemporary gripless guards, using headquarters control, systematic connection breaking, and dynamic floating passes to advance safely past the legs to dominant position.**
 
 The Modern No-Gi Passing System represents the evolution of guard passing for contemporary grappling, addressing the unique challenges of passing without gi grips. This comprehensive framework integrates pressure-based control, dynamic floating passes, and leg entanglement awareness to systematically defeat modern guard structures including butterfly, half guard, and leg-based guards. The system emphasizes connection breaking, hip pressure application, and transitional fluidity rather than static gripping strategies.
 

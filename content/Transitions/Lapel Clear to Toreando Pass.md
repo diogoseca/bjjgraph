@@ -34,6 +34,18 @@ description: "Master the Lapel Clear to Toreando Pass. Strip lapel grips and exe
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel Clear to Toreando Pass",
+  "description": "The Lapel Clear to Toreando Pass is a gi guard-pass in which the top player strips the opponent's lapel grips and unwinds the trapped fabric, then immediately executes a bullfighter-style toreando to drive the legs aside and reach side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Lapel Clear to Toreando Pass. Strip lapel grips and exe
 
 <section id="overview" class="content-section">
 
-The Lapel Clear to Toreando Pass is a systematic approach to defeating lapel guard configurations by addressing the fabric obstruction before executing a classic bullfighter-style pass. Unlike attempting to pass through or around the lapel, this technique prioritizes clearing the mechanical barrier first, then immediately capitalizing on the momentary window when the opponent loses their primary control mechanism.
+**The Lapel Clear to Toreando Pass is a gi guard-pass in which the top player strips the opponent's lapel grips and unwinds the trapped fabric, then immediately executes a bullfighter-style toreando to drive the legs aside and reach side control.**
+
+Emerging as a direct counter to modern lapel guard systems, this pass solves the problem in two distinct phases rather than attempting to pass through or around the fabric. The first phase prioritizes clearing the mechanical barrier completely; the second immediately capitalizes on the momentary window when the opponent loses their primary control mechanism, driving a classic bullfighter-style toreando through to side control.
 
 The strategic value of this pass lies in its direct problem-solving approach. Lapel guards create persistent control structures that conventional passing struggles to overcome. By dedicating specific technical steps to stripping the lapel configuration—whether worm, squid, or hybrid—you neutralize the guard's primary advantage before it can be redeployed. The toreando component then exploits the opponent's compromised position while they attempt to re-establish control.
 

@@ -34,6 +34,18 @@ description: "Master the Armbar from Crucifix in BJJ. High-percentage arm attack
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from Crucifix",
+  "description": "The Armbar from Crucifix is a high-percentage arm attack that hyperextends the opponent's free elbow when they commit it to neck defense, exploiting the crucifix's bilateral arm control to finish from behind.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Armbar from Crucifix in BJJ. High-percentage arm attack
 
 <section id="overview" class="content-section">
 
-The Armbar from Crucifix is a high-percentage arm attack that capitalizes on the unique control dynamics of the crucifix position. When the opponent commits their free arm to defending neck attacks—the natural defensive response to crucifix choke threats—the arm becomes isolated and vulnerable to hyperextension attacks. The crucifix position provides exceptional control throughout the armbar attempt because the opponent's near arm remains trapped in the leg configuration, preventing them from using both arms to defend.
+**The Armbar from Crucifix is a high-percentage arm attack that hyperextends the opponent's free elbow when they commit it to neck defense, exploiting the crucifix's bilateral arm control to finish from behind.**
+
+Within the crucifix attack system, the armbar emerges as the natural counter to an opponent who commits to defending their neck. When the opponent brings their free arm up to defend neck attacks—the natural defensive response to crucifix choke threats—the arm becomes isolated and vulnerable to hyperextension attacks. The crucifix position provides exceptional control throughout the armbar attempt because the opponent's near arm remains trapped in the leg configuration, preventing them from using both arms to defend.
 
 The mechanics of the crucifix armbar differ from standard armbar positions because the attack is initiated from behind the opponent rather than from a perpendicular angle. The attacker controls the target arm through wrist grip or overhook, then adjusts their body position to create the extension angle needed for the armbar finish. The leg triangle maintaining the near arm trap serves double duty—it controls one arm while the legs' positioning can be adjusted to assist in the armbar mechanics on the far arm.
 

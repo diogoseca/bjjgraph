@@ -34,6 +34,18 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Feet on Hips Guard",
+  "description": "Feet on Hips Guard is an open guard where the bottom player plants both feet on the opponent's hip bones, using extended leg frames to manage distance, deny passing, and load off-balancing sweeps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
 </div>
 
 <section id="overview" class="content-section">
+
+**Feet on Hips Guard is an open guard where the bottom player plants both feet on the opponent's hip bones, using extended leg frames to manage distance, deny passing, and load off-balancing sweeps.**
 
 Feet on Hips Guard represents one of the most fundamental distance management positions in Brazilian Jiu-Jitsu, where the guard player places both feet on the opponent's hip bones to create controllable space. This position serves as a critical gateway between closed guard and more advanced open guard systems, teaching practitioners the essential principle that effective guard play relies on leg frames rather than grip strength alone. The feet-on-hips configuration provides immediate defensive structure while maintaining maximum mobility for transitions, sweeps, and submissions.
 

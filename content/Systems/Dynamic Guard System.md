@@ -135,6 +135,16 @@ description: "Master Dynamic Guard System in BJJ. Comprehensive framework for ma
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Dynamic Guard System",
+  "description": "The Dynamic Guard System is a guard-retention framework that prioritizes constant movement, grip fighting, and fluid switching between open guards to deny passers stable grips while generating sweep and submission opportunities.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -149,7 +159,9 @@ description: "Master Dynamic Guard System in BJJ. Comprehensive framework for ma
 
 ## What is Dynamic Guard System?
 
-The Dynamic Guard System represents a modern approach to guard play that prioritizes constant movement, position switching, and grip fighting over static positions. Unlike traditional guard systems that focus on maintaining a single guard type, this system teaches practitioners to fluidly transition between multiple guard positions based on opponent reactions and opportunities. The core philosophy centers on making it extremely difficult for opponents to establish stable passing grips or pressure by constantly changing angles, grips, and guard types. This creates a moving target that frustrates passers and opens up sweep and submission opportunities. The system is built on the principle that movement creates opportunities - by staying dynamic and unpredictable, you force your opponent into defensive reactions rather than allowing them to execute their preferred passing sequences.
+**The Dynamic Guard System is a guard-retention framework that prioritizes constant movement, grip fighting, and fluid switching between open guards to deny passers stable grips while generating sweep and submission opportunities.**
+
+Emerging from the modern competitive guard game, the Dynamic Guard System rejects the idea that a guard player should anchor to a single position and instead treats the guard as a continuous flow of interchangeable frames and grips. Unlike traditional guard systems that focus on maintaining one guard type, it teaches practitioners to fluidly transition between multiple guard positions based on opponent reactions and opportunities. The core philosophy centers on making it extremely difficult for opponents to establish stable passing grips or pressure by constantly changing angles, grips, and guard types. This creates a moving target that frustrates passers and opens up sweep and submission opportunities. The system is built on the principle that movement creates opportunities - by staying dynamic and unpredictable, you force your opponent into defensive reactions rather than allowing them to execute their preferred passing sequences.
 
 </section>
 
@@ -342,15 +354,15 @@ The Dynamic Guard System requires progressive drilling that builds from isolated
 - [[Distance Control]] (Principle) - Key principle for preventing pressure establishment and enabling guard recovery
 - [[Dominant Angles]] (Principle) - Essential for off-balancing and creating sweep opportunities
 - [[Scissor Sweep]] (Transition) - Classic sweep integrated into guard switching sequences
-- [[Butterfly Sweep]] (Transition) - High-percentage sweep from butterfly guard position
-- [[De La Riva Sweep]] (Transition) - Primary offensive technique from DLR position
-- [[Spider Guard Pass]] (Transition) - Collection of sweeps from spider guard position
-- [[X-Guard Sweep]] (Transition) - Powerful elevation sweep from X-guard
-- [[Berimbolo Entry]] (Transition) - Advanced back-take option from DLR position
-- [[Guard Pull]] (Transition) - Entry method for initiating dynamic guard engagement
+- [[Basic Butterfly Sweep]] (Transition) - High-percentage sweep from butterfly guard position
+- [[Berimbolo Entry]] (Transition) - Advanced back-take option from De La Riva position
+- [[Backstep from De La Riva]] (Transition) - Counter-movement option when switching out of De La Riva engagement
+- [[Arm Drag from Standing]] (Transition) - Entry method for initiating dynamic guard engagement and back exposure
 - [[Marcelo Garcia Butterfly Guard System]] (System) - Complementary system focusing on butterfly guard dynamics
 - [[Marcelo Garcia X-Guard System]] (System) - Related system emphasizing X-guard mechanics
 - [[Caio Terra Guard Retention System]] (System) - Alternative guard retention methodology with different emphasis
+- [[10th Planet No-Gi Guard System]] (System) - No-gi guard framework with overlapping switching and retention concepts
+- [[Keenan Cornelius Lapel Guard System]] (System) - Gi-specific guard system extending the dynamic switching concept with lapel control
 
 
 </section>

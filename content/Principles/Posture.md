@@ -143,6 +143,16 @@ description: "Master posture breaking in BJJ. Learn systematic methods to disrup
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture",
+  "description": "Posture is the spinal and head alignment that lets a top player generate pressure, pass, and defend submissions; breaking an opponent's posture is the primary offensive priority from every guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,6 +167,8 @@ description: "Master posture breaking in BJJ. Learn systematic methods to disrup
 <section id="overview" class="content-section">
 
 ## What is Posture?
+
+**Posture is the spinal and head alignment that lets a top player generate pressure, pass, and defend submissions; breaking an opponent's posture is the primary offensive priority from every guard.**
 
 Posture represents the fundamental skill of disrupting an opponent's spinal alignment and structural stability from guard positions to create offensive opportunities and prevent defensive capability. Unlike specific techniques, posture breaking is a comprehensive conceptual framework that applies across all guard variations and directly determines success in bottom positions. This concept encompasses the biomechanical understanding that an opponent with broken posture cannot effectively generate passing pressure, defend submissions, or maintain base, making posture breaking the primary offensive priority from guard. Posture breaking serves as both an offensive prerequisite that enables sweeps and submissions, and a defensive mechanism that prevents guard passing by eliminating opponent's pressure capability. The ability to consistently break and maintain broken posture often determines success from guard positions, making it one of the most essential conceptual elements in bottom game development.
 

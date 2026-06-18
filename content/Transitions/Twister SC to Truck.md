@@ -34,6 +34,18 @@ description: "Master the Twister Side Control to Truck transition. Learn to deep
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister SC to Truck",
+  "description": "Twister SC to Truck is a 10th Planet positional advancement that deepens the Twister Side Control leg hook into a full figure-four entanglement and rotates perpendicular behind the opponent, unlocking the truck's calf slicer, banana split, and back-attack arsenal.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Twister Side Control to Truck transition. Learn to deep
 </div>
 
 <section id="overview" class="content-section">
+
+**Twister SC to Truck is a 10th Planet positional advancement that deepens the Twister Side Control leg hook into a full figure-four entanglement and rotates perpendicular behind the opponent, unlocking the truck's calf slicer, banana split, and back-attack arsenal.**
 
 The Twister Side Control to Truck transition represents a critical positional advancement within the 10th Planet leg entanglement system. This technique converts the lateral control and partial leg hook of Twister Side Control into the fully perpendicular truck position, dramatically expanding the available submission threat matrix. Where Twister Side Control primarily threatens the twister finish and opportunistic chokes, the truck opens the complete arsenal of calf slicers, banana splits, back takes, and traditional choking attacks from behind.
 

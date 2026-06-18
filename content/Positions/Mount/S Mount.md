@@ -34,6 +34,18 @@ description: "Master S Mount in BJJ - the ultimate armbar setup position. Comple
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "S Mount",
+  "description": "S Mount is a dominant mount variation where the top player sits perpendicular to a flattened opponent, one leg over the head and one across the torso, isolating the near arm to create a near-inescapable armbar threat.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master S Mount in BJJ - the ultimate armbar setup position. Comple
 </div>
 
 <section id="overview" class="content-section">
+
+**S Mount is a dominant mount variation where the top player sits perpendicular to a flattened opponent, one leg over the head and one across the torso, isolating the near arm to create a near-inescapable armbar threat.**
 
 S Mount, also known as technical mount or mounted armbar position, represents one of the most dominant and submission-oriented positions in Brazilian Jiu-Jitsu. This position is characterized by the top practitioner sitting perpendicular to their opponent while maintaining mount control, with one leg extended over the opponent's head and the other leg positioned across their torso. The name derives from the S-shaped configuration created by the top person's body position relative to their opponent.
 
@@ -194,23 +208,25 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (35% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (32% of attempts)
 
-- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (15% of attempts)
+- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (14% of attempts)
 
 - **[[Americana from S Mount/Attacker|Americana from S Mount]]** (7% of attempts)
 
 - **[[Kimura from S Mount/Attacker|Kimura from S Mount]]** (7% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (11% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (10% of attempts)
 
-- **[[Transitions/Mounted Crucifix Entry/Attacker|Mounted Crucifix Entry]]** (7% of attempts)
+- **[[Transitions/Mounted Crucifix Entry/Attacker|Mounted Crucifix Entry]]** (6% of attempts)
 
-- **[[Transitions/Gift Wrap to Back/Attacker|Gift Wrap to Back]]** (12% of attempts)
+- **[[Transitions/Gift Wrap to Back/Attacker|Gift Wrap to Back]]** (11% of attempts)
 
 - **[[Transitions/S Mount Armbar Setup/Attacker|S Mount Armbar Setup]]** (4% of attempts)
 
 - **[[Transitions/S Mount to Mounted Triangle/Attacker|S Mount to Mounted Triangle]]** (2% of attempts)
+
+- **[[Armbar from S Mount/Attacker|Armbar from S Mount]]** (7% of attempts)
 
 
 ### Common Mistakes

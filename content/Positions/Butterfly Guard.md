@@ -34,6 +34,18 @@ description: "Master Butterfly Guard in BJJ. Dynamic open guard with powerful sw
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Guard",
+  "description": "Butterfly Guard is a dynamic open guard where the seated bottom player inserts both feet as active elevation hooks inside the opponent's thighs, generating leverage for explosive sweeps, back takes, and leg-entanglement entries while threatening constant off-balancing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Butterfly Guard in BJJ. Dynamic open guard with powerful sw
 
 <section id="overview" class="content-section">
 
-Butterfly Guard is a dynamic open guard variation where the bottom player inserts hooks (feet) under the opponent's thighs while sitting up, creating powerful leverage for sweeps and upper body control. This position allows for explosive elevation of the opponent and offers exceptional offensive options while maintaining defensive capabilities. Butterfly Guard serves as both a powerful position in its own right and as a connector between various guard configurations.
+**Butterfly Guard is a dynamic open guard where the seated bottom player inserts both feet as active elevation hooks inside the opponent's thighs, generating leverage for explosive sweeps, back takes, and leg-entanglement entries while threatening constant off-balancing.**
+
+Butterfly Guard is one of the most dynamic and versatile open guards in Brazilian Jiu-Jitsu, prized by aggressive bottom players who attack rather than merely survive from underneath. This position allows for explosive elevation of the opponent and offers exceptional offensive options while maintaining defensive capabilities. Butterfly Guard serves as both a powerful position in its own right and as a connector between various guard configurations.
 
 The position derives its name from the appearance of the legs with knees flared outward like butterfly wings. It is particularly effective against opponents in combat base or on their knees, where the hooks can generate maximum elevation. The butterfly guard practitioner maintains an upright seated posture, using grips and upper body control to manipulate the opponent's balance while the hooks create lifting power from below. This combination of upper body control and lower body elevation makes butterfly guard one of the most dynamic sweeping platforms in Brazilian Jiu-Jitsu, favored by competitors who excel at aggressive, offensive guard play.
 

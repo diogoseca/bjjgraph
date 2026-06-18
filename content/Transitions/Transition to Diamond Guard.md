@@ -34,6 +34,18 @@ description: "Master the transition to Diamond Guard from closed guard. Complete
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Transition to Diamond Guard",
+  "description": "Transition to Diamond Guard is a closed-guard entry where the bottom player swims an overhook on one of the opponent's arms then adds head control, building a posture-breaking diamond frame that opens triangle, omoplata, and kimura chains.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the transition to Diamond Guard from closed guard. Complete
 </div>
 
 <section id="overview" class="content-section">
+
+**Transition to Diamond Guard is a closed-guard entry where the bottom player swims an overhook on one of the opponent's arms then adds head control, building a posture-breaking diamond frame that opens triangle, omoplata, and kimura chains.**
 
 The Transition to Diamond Guard converts standard closed guard into an advanced offensive platform by establishing simultaneous overhook and head control, creating a diamond-shaped frame that dramatically amplifies posture-breaking effectiveness and opens direct pathways to high-percentage submission chains including triangles, omoplatas, and kimuras. This transition is the critical bridge between the general-purpose closed guard and the submission-rich diamond guard configuration where multiple finishing sequences become immediately accessible through systematic grip adjustments within the frame.
 

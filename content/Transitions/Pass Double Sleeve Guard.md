@@ -34,6 +34,18 @@ description: "Master passing Double Sleeve Guard in BJJ. Complete guide to break
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Double Sleeve Guard",
+  "description": "Passing Double Sleeve Guard is the top player's systematic dismantling of an opponent's bilateral sleeve grips and foot frames — breaking grips, securing leg control, creating a lateral angle, and clearing the legs to complete the pass to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master passing Double Sleeve Guard in BJJ. Complete guide to break
 </div>
 
 <section id="overview" class="content-section">
+
+**Passing Double Sleeve Guard is the top player's systematic dismantling of an opponent's bilateral sleeve grips and foot frames — breaking grips, securing leg control, creating a lateral angle, and clearing the legs to complete the pass to side control.**
 
 Passing Double Sleeve Guard requires systematic grip breaking combined with strategic angle creation to overcome the bottom player's bilateral sleeve control. The guard passer must address both sleeve grips while managing the opponent's active feet, which serve as the primary distance-maintaining mechanism. Success depends on breaking grips methodically using proper mechanics rather than brute strength, then immediately capitalizing on the brief window before the guard player can re-establish control.
 
@@ -236,13 +250,11 @@ Pass Double Sleeve Guard connects the open guard passing game to the side contro
 
 - [[Positions/Lasso Guard]] - Alternative guard opponent may establish during pass attempt
 
-- [[Transitions/Pass Collar Sleeve Guard]] - Similar passing technique against related grip configuration
-
-- [[Transitions/Double Sleeve Sweep]] - Opponent's primary offensive threat during pass attempt
-
 - [[Positions/Combat Base]] - Alternative starting posture for initiating the pass
 
 - [[Positions/Collar Sleeve Guard]] - Related guard position with similar passing principles
+
+- [[Positions/Open Guard]] - Parent guard category and counter outcome if the opponent recovers
 
 - [[Transitions/Double Sleeve to Spider Guard]] - Guard transition to recognize and prevent during passing
 

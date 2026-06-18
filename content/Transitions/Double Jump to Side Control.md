@@ -34,6 +34,18 @@ description: "Master the Double Jump to Side Control transition in BJJ. Systemat
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Jump to Side Control",
+  "description": "Double Jump to Side Control is a positional consolidation transition where the top player abandons bilateral leg hooks and walks their hips laterally around a sealed turtle defender to establish dominant side control when the back-take is defended.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Double Jump to Side Control transition in BJJ. Systemat
 </div>
 
 <section id="overview" class="content-section">
+
+**Double Jump to Side Control is a positional consolidation transition where the top player abandons bilateral leg hooks and walks their hips laterally around a sealed turtle defender to establish dominant side control when the back-take is defended.**
 
 The Double Jump to Side Control transition is a pragmatic positional consolidation technique employed when the primary back-taking pathway from Double Jump Top is effectively defended by the bottom player's turtle defense. Rather than continuing to fight for back exposure against a well-protected turtle shell, the top player abandons bilateral leg hooks and transitions laterally into side control, securing dominant positional control worth three competition points.
 

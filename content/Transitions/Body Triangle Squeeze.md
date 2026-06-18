@@ -34,6 +34,18 @@ description: "Master the body triangle squeeze finish in BJJ. Detailed guide cov
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Body Triangle Squeeze",
+  "description": "The Body Triangle Squeeze is a back-control compression finish that turns the figure-four leg lock into a submission, crushing the opponent's floating ribs and diaphragm to restrict breathing and force a tap from accumulated pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the body triangle squeeze finish in BJJ. Detailed guide cov
 </div>
 
 <section id="overview" class="content-section">
+
+**The Body Triangle Squeeze is a back-control compression finish that turns the figure-four leg lock into a submission, crushing the opponent's floating ribs and diaphragm to restrict breathing and force a tap from accumulated pressure.**
 
 The Body Triangle Squeeze is a compression submission executed from the body triangle position where the attacker uses the figure-four leg configuration as a direct finishing mechanism rather than merely a control tool. By progressively increasing the squeezing pressure of the locked legs around the defender's lower ribcage and diaphragm, the attacker creates unbearable torso compression that restricts breathing, threatens rib injury, and forces a tap from accumulated pain and inability to breathe.
 

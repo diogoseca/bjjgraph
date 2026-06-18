@@ -34,6 +34,18 @@ description: "Master leg drag control in BJJ. Complete analysis of this dominant
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag Control",
+  "description": "Leg Drag Control is a dominant guard-passing position where the top player drags an opponent's leg across their body, using it as a barrier to pin the hips, block guard recovery, and open paths to the back, mount, and side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master leg drag control in BJJ. Complete analysis of this dominant
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag Control is a dominant guard-passing position where the top player drags an opponent's leg across their body, using it as a barrier to pin the hips, block guard recovery, and open paths to the back, mount, and side control.**
 
 Leg drag control represents a critical transitional position in Brazilian Jiu-Jitsu where the passer has successfully controlled one of the opponent's legs and achieved significant hip dominance. This position sits at a strategic crossroads in the passing sequence—the passer has cleared the guard but has not yet achieved a traditional scoring position like side control or mount. The leg drag creates a unique control dynamic where the top player uses the opponent's own leg as a barrier to prevent re-guarding while simultaneously opening pathways to dominant positions and submissions.
 
@@ -204,13 +218,13 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 ### Available Transitions
 
 
-- **[[Transitions/Leg Drag Pass to Side Control/Attacker|Leg Drag Pass to Side Control]]** (23% of attempts)
+- **[[Transitions/Leg Drag Pass to Side Control/Attacker|Leg Drag Pass to Side Control]]** (22% of attempts)
 
-- **[[Transitions/Leg Drag to Back Take/Attacker|Leg Drag to Back Take]]** (21% of attempts)
+- **[[Transitions/Leg Drag to Back Take/Attacker|Leg Drag to Back Take]]** (20% of attempts)
 
 - **[[Transitions/Leg Drag to Mount/Attacker|Leg Drag to Mount]]** (12% of attempts)
 
-- **[[Transitions/Leg Drag to Knee on Belly/Attacker|Leg Drag to Knee on Belly]]** (12% of attempts)
+- **[[Transitions/Leg Drag to Knee on Belly/Attacker|Leg Drag to Knee on Belly]]** (11% of attempts)
 
 - **[[Transitions/Leg Drag to North-South/Attacker|Leg Drag to North-South]]** (7% of attempts)
 
@@ -221,6 +235,8 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 - **[[Transitions/Leg Drag to Technical Mount/Attacker|Leg Drag to Technical Mount]]** (8% of attempts)
 
 - **[[Transitions/Leg Drag to Darce Setup/Attacker|Leg Drag to Darce Setup]]** (7% of attempts)
+
+- **[[Darce Choke from Leg Drag/Attacker|Darce Choke from Leg Drag]]** (3% of attempts)
 
 
 ### Common Mistakes

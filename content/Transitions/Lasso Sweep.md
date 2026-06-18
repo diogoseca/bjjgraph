@@ -34,6 +34,18 @@ description: "Master the Lasso Sweep in BJJ. Step-by-step guide to sweeping from
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lasso Sweep",
+  "description": "The Lasso Sweep is a gi reversal from lasso guard that extends the lasso leg and pulls a collar or pants grip to topple the opponent over their trapped, non-posting arm and finish in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Lasso Sweep in BJJ. Step-by-step guide to sweeping from
 </div>
 
 <section id="overview" class="content-section">
+
+**The Lasso Sweep is a gi reversal from lasso guard that extends the lasso leg and pulls a collar or pants grip to topple the opponent over their trapped, non-posting arm and finish in mount.**
 
 The **Lasso Sweep** is a fundamental sweeping technique from lasso guard that leverages the shin-across-arm control to create an irrecoverable loss of base, finishing in full mount. The sweep works by combining the lasso's mechanical advantage over the opponent's trapped arm with a secondary pulling grip and coordinated hip movement, directing force toward the side where the opponent cannot post effectively.
 
@@ -237,7 +251,7 @@ The Lasso Sweep occupies a central role in the lasso guard offensive system, fun
 
 - [[Positions/Collar Sleeve Guard]] - Entry guard that frequently transitions into lasso guard for sweep attempts
 
-- [[Transitions/Inverted Lasso Sweep]] - Related sweep from the inverted lasso variation using similar lasso control principles
+- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Related guard variation using similar lasso control principles for inverted sweep entries
 
 
 </section>

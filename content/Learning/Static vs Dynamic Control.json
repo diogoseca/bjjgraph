@@ -1,6 +1,7 @@
 {
   "name": "Static vs Dynamic Control",
   "description": "Understand when to hold position vs when to flow in BJJ. Learn the strategic differences between heavy pinning control and transitional movement-based control on the mat.",
+  "summary": "Static vs dynamic control are the two modes of top-game dominance in BJJ: static immobilizes through pressure and weight to eliminate space, while dynamic maintains control through constant transitions and positional threats that keep the opponent reacting.",
   "tags": [
     "bjj",
     "strategy",
@@ -132,9 +133,9 @@
       "relationship": "Control maintenance principles apply to both static and dynamic control modes"
     },
     {
-      "name": "Transition Management",
+      "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Smooth transitions are essential for effective dynamic control"
+      "relationship": "Chaining positions together is the structural backbone of effective dynamic control"
     },
     {
       "name": "Cross Face Control",
@@ -170,6 +171,11 @@
       "name": "Energy Conservation",
       "content_type": "Principle",
       "relationship": "Choosing the right control mode conserves energy -- static against explosive opponents, dynamic against methodical ones"
+    },
+    {
+      "name": "Technique Chaining",
+      "content_type": "Learning",
+      "relationship": "Dynamic control depends on chaining transitions together, the same combinational logic as chaining attacks"
     }
   ]
 }

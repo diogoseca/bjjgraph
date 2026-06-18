@@ -34,6 +34,18 @@ description: "Master the 100% Sweep from closed guard. Complete guide covering a
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "100% Sweep",
+  "description": "The 100% Sweep is an advanced closed guard reversal that traps one of the opponent's arms across your body and uses a hip-driven roll over their trapped shoulder to sweep them from bottom to mounted top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the 100% Sweep from closed guard. Complete guide covering a
 
 <section id="overview" class="content-section">
 
-The 100% Sweep is an advanced closed guard technique that reverses position from bottom to top by isolating the opponent's arm and using precise hip movement to roll them over their trapped shoulder. This sweep exemplifies the principle of limb isolation to create sweeping leverage, demonstrating how technical control can overcome strength. The technique starts from closed guard bottom with the practitioner trapping one of the opponent's arms across their body while simultaneously breaking their posture and creating an optimal angle through hip movement.
+**The 100% Sweep is an advanced closed guard reversal that traps one of the opponent's arms across your body and uses a hip-driven roll over their trapped shoulder to sweep them from bottom to mounted top.**
+
+Earning its name from the near-inescapable dilemma it creates once the arm trap and hip angle are set, the 100% Sweep sits at the more sophisticated end of the closed guard sweep hierarchy. This technique exemplifies the principle of limb isolation to create sweeping leverage, demonstrating how technical control can overcome strength. The sweep begins from closed guard bottom with the practitioner trapping one of the opponent's arms across their body while simultaneously breaking their posture and creating an optimal angle through hip movement.
 
 The 100% Sweep is particularly effective against opponents who posture aggressively or attempt to break the guard, making it a high-percentage competition technique. Success requires excellent timing, proper arm control, and dynamic hip mobility to roll the opponent over their trapped arm and shoulder. The sweep chains naturally into submission threats: opponents who post their free hand to defend open themselves to kimura attacks, while those who retract the trapped arm create guillotine opportunities.
 

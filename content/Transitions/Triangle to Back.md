@@ -34,6 +34,18 @@ description: "Master the Triangle to Back take in BJJ. Convert defended triangle
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle to Back",
+  "description": "Triangle to Back is a guard-based transition that converts a defended triangle choke into dominant back control by following the opponent's defensive rotation, releasing the triangle lock, and inserting hooks behind a seat belt grip.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Triangle to Back take in BJJ. Convert defended triangle
 </div>
 
 <section id="overview" class="content-section">
+
+**Triangle to Back is a guard-based transition that converts a defended triangle choke into dominant back control by following the opponent's defensive rotation, releasing the triangle lock, and inserting hooks behind a seat belt grip.**
 
 The Triangle to Back transition represents an advanced positional flow that capitalizes on opponent defensive reactions within triangle control. When an opponent attempts to defend the triangle choke by posturing, stacking, or turning away, the attacker can redirect their control toward back exposure rather than forcing a low-percentage finish. This transition exemplifies the principle of following your opponent's energy rather than opposing it directly, converting a defended submission attempt into superior positional control.
 

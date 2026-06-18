@@ -1,6 +1,7 @@
 {
   "name": "Breadcutter Choke from Side Control",
   "description": "Master the Breadcutter Choke from Side Control. Learn gi collar grip mechanics, finishing details, and defensive counters for this high-percentage blood choke.",
+  "summary": "The Breadcutter Choke from Side Control is a gi blood choke where the top player feeds a collar deep behind the opponent's neck and drives the forearm across the throat, scissoring both carotid arteries to force a rapid tap.",
   "tags": [
     "bjj",
     "submission",
@@ -68,7 +69,7 @@
   },
   "from_positions": [
     "Side Control",
-    "Side Control"
+    "Kesa Gatame"
   ],
   "related_submissions": [
     "Breadcutter Choke",

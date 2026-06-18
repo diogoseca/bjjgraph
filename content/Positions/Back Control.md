@@ -35,6 +35,18 @@ description: "Master back control in BJJ. Complete guide to hooks, harness grip,
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Control",
+  "description": "Back Control is the dominant rear position in BJJ where you attack an opponent from behind using leg hooks or a body triangle plus a harness grip, delivering the sport's highest submission rate at minimal defensive risk.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -48,6 +60,8 @@ description: "Master back control in BJJ. Complete guide to hooks, harness grip,
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Control is the dominant rear position in BJJ where you attack an opponent from behind using leg hooks or a body triangle plus a harness grip, delivering the sport's highest submission rate at minimal defensive risk.**
 
 Back Control is widely considered the most dominant position in Brazilian Jiu-Jitsu. The practitioner controls the opponent from behind, with their chest against the opponent's back, legs wrapped around their waist (hooks), and arms controlling the upper body. This position offers exceptional attacking opportunities with minimal defensive risks, as the opponent cannot directly see or easily counter the attacks. The position scores 4 points in IBJJF competition and provides the highest percentage submission opportunities in grappling.
 
@@ -212,27 +226,27 @@ Back control variations include the standard hooks configuration, body triangle 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Back Control/Attacker|Rear Naked Choke from Back Control]]** (49% of attempts)
+- **[[Rear Naked Choke from Back Control/Attacker|Rear Naked Choke from Back Control]]** (43% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (16% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (14% of attempts)
 
-- **[[Bow and Arrow Choke from Back Control/Attacker|Bow and Arrow Choke from Back Control]]** (6% of attempts)
+- **[[Bow and Arrow Choke from Back Control/Attacker|Bow and Arrow Choke from Back Control]]** (5% of attempts)
 
-- **[[Transitions/Gift Wrap from Back/Attacker|Gift Wrap from Back]]** (4% of attempts)
+- **[[Transitions/Gift Wrap from Back/Attacker|Gift Wrap from Back]]** (3% of attempts)
 
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (7% of attempts)
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (6% of attempts)
 
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (2% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (1% of attempts)
 
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (2% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (1% of attempts)
 
-- **[[Transitions/Short Choke Attack/Attacker|Short Choke Attack]]** (1% of attempts)
+- **[[Transitions/Short Choke Attack/Attacker|Short Choke Attack]]** (2% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (1% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (2% of attempts)
 
-- **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** (1% of attempts)
+- **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** (2% of attempts)
 
-- **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (1% of attempts)
+- **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (2% of attempts)
 
 - **[[Transitions/Triangle from Back/Attacker|Triangle from Back]]** (1% of attempts)
 
@@ -250,7 +264,15 @@ Back control variations include the standard hooks configuration, body triangle 
 
 - **[[Transitions/Restore Back Control/Attacker|Restore Back Control]]** (1% of attempts)
 
-- **[[Submissions/Rear Triangle Choke/Attacker|Rear Triangle Choke]]** (2% of attempts)
+- **[[Submissions/Rear Triangle Choke/Attacker|Rear Triangle Choke]]** (1% of attempts)
+
+- **[[Armbar from Back/Attacker|Armbar from Back]]** (6% of attempts)
+
+- **[[Armbar from Back with Legs/Attacker|Armbar from Back with Legs]]** (2% of attempts)
+
+- **[[Rear Triangle Choke from Back Control/Attacker|Rear Triangle Choke from Back Control]]** (1% of attempts)
+
+- **[[Short Choke from Back Control/Attacker|Short Choke from Back Control]]** (1% of attempts)
 
 
 ### Common Mistakes

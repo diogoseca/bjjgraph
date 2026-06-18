@@ -34,6 +34,18 @@ description: "Master the Triangle from Armbar transition in BJJ. Exploit armbar 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle from Armbar",
+  "description": "Triangle from Armbar is a submission-chain transition that weaponizes the opponent's armbar defense—clasped hands, bent arm, or forward stacking—by swinging a leg behind their neck to convert a stalled armbar into a locked triangle choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Triangle from Armbar transition in BJJ. Exploit armbar 
 </div>
 
 <section id="overview" class="content-section">
+
+**Triangle from Armbar is a submission-chain transition that weaponizes the opponent's armbar defense—clasped hands, bent arm, or forward stacking—by swinging a leg behind their neck to convert a stalled armbar into a locked triangle choke.**
 
 The Triangle from Armbar represents a fundamental submission chain transition that capitalizes on defensive reactions to armbar control. When an opponent defends the armbar by clasping their hands, bending the trapped arm, or stacking forward, they inadvertently position their head and one arm in a configuration vulnerable to triangle entry. This transition exploits the principle that every defensive action creates a new offensive opportunity, transforming a stalled armbar into an immediate choking threat.
 

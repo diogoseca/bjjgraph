@@ -34,6 +34,18 @@ description: "Master Kimura Trap position in BJJ. Complete guide covering bottom
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura Trap",
+  "description": "The Kimura Trap is a grip-based control system in BJJ where a figure-four grip on the opponent's arm dominates their shoulder and inverts positional hierarchy, enabling sweeps, back takes, and submissions from either the top or bottom.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Kimura Trap position in BJJ. Complete guide covering bottom
 </div>
 
 <section id="overview" class="content-section">
+
+**The Kimura Trap is a grip-based control system in BJJ where a figure-four grip on the opponent's arm dominates their shoulder and inverts positional hierarchy, enabling sweeps, back takes, and submissions from either the top or bottom.**
 
 The Kimura Trap is a revolutionary position system in Brazilian Jiu-Jitsu that fundamentally challenges traditional notions of top and bottom control. At its core, the Kimura Trap uses a figure-four Kimura grip to create a control mechanism that transcends positional hierarchy—the practitioner with the Kimura grip controls their opponent's shoulder girdle and arm structure regardless of whether they are on top or bottom. This position represents a paradigm shift from purely positional thinking to grip-based control systems.
 

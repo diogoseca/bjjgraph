@@ -35,39 +35,115 @@ description: "Master the Guillotine Choke in BJJ with step-by-step execution, sa
 }
 </script>
 
-> **SAFETY**: Guillotine Choke targets the Carotid arteries and windpipe. Risk: Trachea damage or crush injury. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Choke",
+  "description": "The Guillotine Choke is a front-headlock blood choke that wraps the attacker's forearm under the opponent's chin to compress the carotid arteries and windpipe, finishable from guard, standing, the clinch, or broken-posture scrambles.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is the Guillotine Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Guillotine Choke is a front-headlock blood choke that wraps the attacker\u0027s forearm under the opponent\u0027s chin to compress the carotid arteries and windpipe, finishable from guard, standing, the clinch, or broken-posture scrambles." } },
+    { "@type": "Question", "name": "What positions can you finish the Guillotine Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Guillotine Choke from Butterfly Guard, Guillotine Control, Hindulotine, Twister Control, Clinch." } },
+    { "@type": "Question", "name": "Is the Guillotine Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Guillotine Choke targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury. Tap early and release immediately on the tap." } }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+**The Guillotine Choke is a front-headlock blood choke that wraps the attacker's forearm under the opponent's chin to compress the carotid arteries and windpipe, finishable from guard, standing, the clinch, or broken-posture scrambles.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and windpipe</span>
+<span class="meta-chip">~62% avg</span>
+</div>
+
+> [!danger] Safety
+> Guillotine Choke targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Mae Hadaka Jime</strong></p>
 </aside>
+<section id="overview" class="content-section">
+
+The Guillotine Choke is one of the most versatile and high-percentage submissions in Brazilian Jiu-Jitsu, capable of being executed from standing positions, guard, or transitional scrambles. This blood choke targets the carotid arteries while also applying pressure to the trachea, making it a powerful finishing technique when applied correctly. The guillotine's effectiveness stems from its ability to capitalize on common defensive movements, particularly when opponents shoot for takedowns or attempt to pass guard with poor posture. The technique works by using your arm as a fulcrum around the opponent's neck while using hip pressure and body positioning to create the choking force. Its versatility allows for execution from numerous positions including standing, closed guard, half guard, and even during scrambles, making it an essential weapon for practitioners at all levels. The guillotine family includes multiple variations such as the high elbow guillotine, arm-in guillotine, and ten-finger guillotine, each with specific applications based on the situation and opponent's defensive reactions.
+
+</section>
+
 
 <section id="variants" class="content-section">
 
-## Position Variants
+## What positions can you finish from?
 
-| From Position | Success Rate | Top Injury Risk | Key Difference |
-|---------------|-------------|-----------------|----------------|
-| [[Guillotine Choke/from Butterfly Guard|Butterfly Guard]] | 62% | Trachea damage or crush injury |  |
-| [[Guillotine Choke/from Clinch|Clinch]] | 40% | Tracheal damage from direct pressure on the windpipe when grip slides to front of throat |  |
-| [[Guillotine Choke/from Guillotine Control|Guillotine Control]] | 62% | Trachea damage or crush injury |  |
-| [[Guillotine Choke/from Hindulotine|Hindulotine]] | 62% | Trachea damage or crush injury from misaligned forearm pressure |  |
-| [[Guillotine Choke/from Twister Control|Twister Control]] | 62% | Trachea damage or crush injury from misaligned choking pressure |  |
+
+<div class="variants-table">
+
+| From Position | Seat | Success | Play as Attacker | Play as Defender |
+|---|---|---|---|---|
+| [[Submissions/Guillotine Choke/from Butterfly Guard|Butterfly Guard]] | Bottom | 62% | [[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Butterfly Guard/Defender|Defend →]] |
+| [[Submissions/Guillotine Choke/from Guillotine Control|Guillotine Control]] | Top | 62% | [[Submissions/Guillotine Choke/from Guillotine Control/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Guillotine Control/Defender|Defend →]] |
+| [[Submissions/Guillotine Choke/from Hindulotine|Hindulotine]] | Top | 62% | [[Submissions/Guillotine Choke/from Hindulotine/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Hindulotine/Defender|Defend →]] |
+| [[Submissions/Guillotine Choke/from Twister Control|Twister Control]] | Top | 62% | [[Submissions/Guillotine Choke/from Twister Control/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Twister Control/Defender|Defend →]] |
+| [[Submissions/Guillotine Choke/from Clinch|Clinch]] | Top | 40% | [[Submissions/Guillotine Choke/from Clinch/Attacker|Attack →]] | [[Submissions/Guillotine Choke/from Clinch/Defender|Defend →]] |
+
+
+</div>
+
+
+<details class="mechanical-variations">
+<summary>Mechanical variations (how the choke is finished)</summary>
+
+- **High Elbow Guillotine**: Palm-to-palm grip with choking elbow elevated very high to create maximum blood choke pressure on carotid arteries while minimizing windpipe pressure (When to use: When opponent has strong neck or when you want maximum efficiency with less cranking force. This is the preferred variation for training due to increased safety and effectiveness)
+- **Arm-In Guillotine**: Opponent's arm is trapped inside the choke alongside their head. Creates different angle and is especially effective when opponent defends by tucking chin (When to use: When opponent successfully tucks chin or when their arm naturally gets trapped during scrambles. Also effective from bottom half guard position)
+- **Standing Guillotine**: Executed while both practitioners are standing, often catching opponent during takedown attempts. Maximum leverage available from vertical position (When to use: When opponent shoots for takedown with poor head position or during standing clinch exchanges. Can finish before going to ground)
+- **Mounted Guillotine**: Finish the choke after coming up to mounted position while maintaining the grip. Opponent is trapped on bottom unable to create space (When to use: When opponent attempts to pass guard while you have guillotine established. Jump to mount while maintaining choke for high-percentage finish)
+- **Ten Finger Guillotine**: Gable grip (palm-to-palm with fingers interlaced) around opponent's neck, maximizing squeezing pressure through forearm compression. Excellent variation for practitioners with shorter arms or when maximum squeeze is needed (When to use: When in no-gi situation and need maximum grip strength. Also useful when opponent is very slippery with sweat or your arms are too short for traditional grip)
+- **Chin Strap Guillotine**: Advanced variation where choking arm goes under opponent's chin rather than around neck, forcing head back while choking (When to use: When opponent successfully defends standard guillotine by tucking chin extremely tight. Creates different mechanical pressure)
+- **Marce Choke**: Variation where the choking arm threads under opponent's neck from front headlock, with the grip established on your own bicep or lat muscle, creating a modified guillotine finish highly effective from front headlock positions and turtle attacks (When to use: From front headlock when opponent is in turtle or defensive posture; excellent when transitioning from failed takedown attempts to submission)
+
+
+</details>
 
 
 </section>
 
 
-<section id="overview" class="content-section">
+<section id="related" class="content-section">
 
-The Guillotine Choke is one of the most versatile and high-percentage submissions in Brazilian Jiu-Jitsu, capable of being executed from standing positions, guard, or transitional scrambles. This blood choke targets the carotid arteries while also applying pressure to the trachea, making it a powerful finishing technique when applied correctly. The guillotine's effectiveness stems from its ability to capitalize on common defensive movements, particularly when opponents shoot for takedowns or attempt to pass guard with poor posture. The technique works by using your arm as a fulcrum around the opponent's neck while using hip pressure and body positioning to create the choking force. Its versatility allows for execution from numerous positions including standing, closed guard, half guard, and even during scrambles, making it an essential weapon for practitioners at all levels. The guillotine family includes multiple variations such as the high elbow guillotine, arm-in guillotine, and ten-finger guillotine, each with specific applications based on the situation and opponent's defensive reactions.
-
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and windpipe
-**Success Rate**: 62% (average across variants)
+## Related
+- [[Submissions/High Elbow Guillotine]] - Primary high-percentage variation using elevated elbow for pure blood choke mechanics
+- [[Submissions/Arm in Guillotine]] - Arm-trapped variation effective against chin-tuck defense and from bottom half guard
+- [[Submissions/Chin Strap Guillotine]] - Advanced variation targeting under-chin pressure when standard grip is defended
+- [[Transitions/Darce Choke]] - Related head-and-arm choke that chains from failed guillotine attempts when opponent circles
+- [[Transitions/Anaconda Choke]] - Complementary front headlock choke using arm-in configuration with rolling finish
+- [[Positions/Hindulotine]] - Modified guillotine grip variation with different mechanical finishing pressure
+- [[Transitions/Arm Triangle]] - Alternative head-and-arm choke available when guillotine grip is stripped but head control remains
+- [[Submissions/Brabo Choke]] - Gi-based front choke variation accessible from similar head control positions
+- [[Submissions/Ezekiel Choke]] - Alternative front choke from guard or mount positions when guillotine grip is unavailable
+- [[Transitions/Gogoplata]] - Guard-based choke alternative using shin across throat from similar bottom positions
+- [[Positions/Guillotine Control]] - Primary controlling position for guillotine submissions
+- [[Positions/Front Headlock]] - Starting control position for guillotine setups
+- [[Transitions/Guillotine Setup]] - Transition technique for establishing guillotine entries
+- [[Transitions/Guillotine Defense]] - Defensive concepts for escaping guillotine attacks
+- [[Positions/Closed Guard]] - Common position for guillotine execution from bottom
+- [[Positions/Half Guard]] - Position where arm-in guillotine variation is highly effective
+- [[Positions/Clinch]] - Standing entry position for guillotine during takedown defense
 
 </section>
 
@@ -109,99 +185,6 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 - Avoid cranking or using neck hyperextension
 - Never practice on training partners with neck injuries
 
-
-</section>
-
-
-<section id="variation-details" class="content-section hide-minimal">
-
-## Variation Details
-
-
-**High Elbow Guillotine**: Palm-to-palm grip with choking elbow elevated very high to create maximum blood choke pressure on carotid arteries while minimizing windpipe pressure (When to use: When opponent has strong neck or when you want maximum efficiency with less cranking force. This is the preferred variation for training due to increased safety and effectiveness)
-
-
-**Arm-In Guillotine**: Opponent's arm is trapped inside the choke alongside their head. Creates different angle and is especially effective when opponent defends by tucking chin (When to use: When opponent successfully tucks chin or when their arm naturally gets trapped during scrambles. Also effective from bottom half guard position)
-
-
-**Standing Guillotine**: Executed while both practitioners are standing, often catching opponent during takedown attempts. Maximum leverage available from vertical position (When to use: When opponent shoots for takedown with poor head position or during standing clinch exchanges. Can finish before going to ground)
-
-
-**Mounted Guillotine**: Finish the choke after coming up to mounted position while maintaining the grip. Opponent is trapped on bottom unable to create space (When to use: When opponent attempts to pass guard while you have guillotine established. Jump to mount while maintaining choke for high-percentage finish)
-
-
-**Ten Finger Guillotine**: Gable grip (palm-to-palm with fingers interlaced) around opponent's neck, maximizing squeezing pressure through forearm compression. Excellent variation for practitioners with shorter arms or when maximum squeeze is needed (When to use: When in no-gi situation and need maximum grip strength. Also useful when opponent is very slippery with sweat or your arms are too short for traditional grip)
-
-
-**Chin Strap Guillotine**: Advanced variation where choking arm goes under opponent's chin rather than around neck, forcing head back while choking (When to use: When opponent successfully defends standard guillotine by tucking chin extremely tight. Creates different mechanical pressure)
-
-
-**Marce Choke**: Variation where the choking arm threads under opponent's neck from front headlock, with the grip established on your own bicep or lat muscle, creating a modified guillotine finish highly effective from front headlock positions and turtle attacks (When to use: From front headlock when opponent is in turtle or defensive posture; excellent when transitioning from failed takedown attempts to submission)
-
-
-
-</section>
-
-
-<section id="from-positions" class="content-section">
-
-## From Which Positions?
-
-- [[Positions/Front Headlock]]
-- [[Positions/Closed Guard]]
-- [[Positions/Half Guard]]
-- [[Positions/Clinch]]
-- [[Positions/Butterfly Guard]]
-- [[Positions/Open Guard]]
-- [[Positions/Half Guard/Deep Half Guard]]
-- [[Positions/Half Guard/Knee Shield Half Guard]]
-- [[Positions/Guillotine Control]]
-
-
-</section>
-
-<section id="related-submissions" class="content-section">
-
-## Related Submissions
-
-- [[Submissions/High Elbow Guillotine]] - Primary high-percentage variation using elevated elbow for pure blood choke mechanics
-- [[Submissions/Arm in Guillotine]] - Arm-trapped variation effective against chin-tuck defense and from bottom half guard
-- [[Submissions/Chin Strap Guillotine]] - Advanced variation targeting under-chin pressure when standard grip is defended
-- [[Transitions/Darce Choke]] - Related head-and-arm choke that chains from failed guillotine attempts when opponent circles
-- [[Transitions/Anaconda Choke]] - Complementary front headlock choke using arm-in configuration with rolling finish
-- [[Positions/Hindulotine]] - Modified guillotine grip variation with different mechanical finishing pressure
-- [[Transitions/Arm Triangle]] - Alternative head-and-arm choke available when guillotine grip is stripped but head control remains
-- [[Submissions/Brabo Choke]] - Gi-based front choke variation accessible from similar head control positions
-- [[Submissions/Ezekiel Choke]] - Alternative front choke from guard or mount positions when guillotine grip is unavailable
-- [[Transitions/Gogoplata]] - Guard-based choke alternative using shin across throat from similar bottom positions
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Positions/Guillotine Control]] - Primary controlling position for guillotine submissions
-- [[Positions/Front Headlock]] - Starting control position for guillotine setups
-- [[Transitions/Guillotine Setup]] - Transition technique for establishing guillotine entries
-- [[Transitions/Guillotine Defense]] - Defensive concepts for escaping guillotine attacks
-- [[Positions/Closed Guard]] - Common position for guillotine execution from bottom
-- [[Positions/Half Guard]] - Position where arm-in guillotine variation is highly effective
-- [[Transitions/Darce Choke]] - Related head-and-arm choke that chains from failed guillotine attempts
-- [[Positions/Clinch]] - Standing entry position for guillotine during takedown defense
-- [[Transitions/Anaconda Choke]] - Complementary front headlock submission sharing positional entries
-
-
-</section>
-
-<section id="terminal-state" class="content-section">
-
-## Match Outcome
-
-Successful execution of Guillotine Choke leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

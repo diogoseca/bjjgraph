@@ -33,10 +33,32 @@ description: "Master the Kimura from Shoulder of Justice in BJJ. Complete guide 
 }
 </script>
 
-> **SAFETY**: Kimura from Shoulder of Justice targets the Shoulder joint (glenohumeral) and elbow. Risk: Shoulder dislocation or subluxation from forced internal rotation beyond anatomical limits of the glenohumeral joint. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Shoulder of Justice",
+  "description": "The Kimura from Shoulder of Justice is a figure-four shoulder lock attacked from high-pressure side control when crushing jaw pressure provokes the opponent to extend their near arm, exposing it to forced internal rotation.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Shoulder of Justice is a figure-four shoulder lock attacked from high-pressure side control when crushing jaw pressure provokes the opponent to extend their near arm, exposing it to forced internal rotation.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (glenohumeral) and elbow</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Shoulder of Justice targets the Shoulder joint (glenohumeral) and elbow. Primary risk: Shoulder dislocation or subluxation from forced internal rotation beyond anatomical limits of the glenohumeral joint. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,51 +75,7 @@ The biomechanical advantage is significant. The Shoulder of Justice pins the opp
 
 Strategically, this submission creates a powerful dilemma: the opponent must choose between enduring unbearable jaw pressure or extending an arm that will be immediately attacked. This lose-lose dynamic makes the Kimura from Shoulder of Justice a cornerstone technique for pressure-based top control practitioners who systematically funnel defensive reactions into submission opportunities.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (glenohumeral) and elbow
-**Starting Position**: [[Positions/Shoulder of Justice]]
-**From Position**: [[Positions/Shoulder of Justice]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Shoulder dislocation or subluxation from forced internal rotation beyond anatomical limits of the glenohumeral joint | CRITICAL | 3-12 months, frequently requires surgical repair and extensive rehabilitation |
-| Rotator cuff tear from sudden or excessive rotational force applied to the shoulder complex under load | High | 2-6 months, may require surgical intervention depending on tear severity |
-| Elbow hyperextension or medial collateral ligament strain when the arm is trapped at an improper angle during rotation | High | 4-12 weeks depending on grade of sprain |
-| Superior labrum tear (SLAP lesion) from combined compression and rotational forces through the glenohumeral joint | High | 3-6 months, often requires arthroscopic surgical repair |
-
-
-**Application Speed**: SLOW and controlled. Apply rotational pressure gradually with steady incremental force. Never jerk, spike, or explosively rotate the shoulder. The kimura can cause catastrophic, career-ending injury before the opponent feels sufficient pain to tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or the mat with free hand
-- Physical foot tap on mat with either leg
-- Any unusual vocalization, screaming, or sound indicating distress
-
-
-**Release Protocol**:
-1. Release the figure-four grip immediately upon any tap signal without hesitation
-2. If opponent goes limp or loses consciousness, release immediately and check responsiveness
-3. If in doubt about whether a signal was a tap, release and re-establish position—safety over position
-4. Return the captured arm to a neutral anatomical position slowly after release to prevent additional injury from abrupt repositioning
-
-
-**Training Restrictions**:
-- White belts should drill grip mechanics and positioning without applying finishing rotational pressure until technique is reliable and controlled
-- Never apply the kimura with explosive or jerking force in any training context—slow progressive pressure only
-- Beginners must practice catch-and-release without rotating the forearm past 90 degrees from the mat
-- Avoid training this submission when either partner has pre-existing shoulder injuries, recent shoulder surgery, or active inflammation
-
+**Starting Position**: [[Positions/Shoulder of Justice]] · **From**: [[Positions/Shoulder of Justice]] (Top)
 
 </section>
 
@@ -260,10 +238,9 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Americana]]
 - [[Submissions/Reverse Kimura]]
 - [[Transitions/Arm Triangle]]
@@ -272,33 +249,51 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Bicep Slicer]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Shoulder of Justice]] - Starting position—submission is set up directly from this high-pressure side control variation
 - [[Positions/Side Control]] - Parent position category—Shoulder of Justice is a specialized side control variation
 - [[Positions/Kimura Trap]] - Control position used to maintain the kimura grip if opponent defends the immediate finish
 - [[Positions/North-South]] - Alternative pressure position accessible when kimura attempt fails and position shifts
 - [[Positions/Side Control/Kesa Gatame]] - Related pressure position with similar near-arm attack opportunities
 - [[Positions/Half Guard]] - Common escape destination for the defender during kimura scrambles
-- [[Submissions/Americana]] - Alternative shoulder lock when opponent keeps elbow tight rather than extending arm
-- [[Submissions/Reverse Kimura]] - Related kimura variation attacking the shoulder from a different rotational angle
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kimura from Shoulder of Justice leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Shoulder dislocation or subluxation from forced internal rotation beyond anatomical limits of the glenohumeral joint | CRITICAL | 3-12 months, frequently requires surgical repair and extensive rehabilitation |
+| Rotator cuff tear from sudden or excessive rotational force applied to the shoulder complex under load | High | 2-6 months, may require surgical intervention depending on tear severity |
+| Elbow hyperextension or medial collateral ligament strain when the arm is trapped at an improper angle during rotation | High | 4-12 weeks depending on grade of sprain |
+| Superior labrum tear (SLAP lesion) from combined compression and rotational forces through the glenohumeral joint | High | 3-6 months, often requires arthroscopic surgical repair |
+
+
+**Application Speed**: SLOW and controlled. Apply rotational pressure gradually with steady incremental force. Never jerk, spike, or explosively rotate the shoulder. The kimura can cause catastrophic, career-ending injury before the opponent feels sufficient pain to tap.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, your body, or the mat with free hand
+- Physical foot tap on mat with either leg
+- Any unusual vocalization, screaming, or sound indicating distress
+
+
+**Release Protocol**:
+1. Release the figure-four grip immediately upon any tap signal without hesitation
+2. If opponent goes limp or loses consciousness, release immediately and check responsiveness
+3. If in doubt about whether a signal was a tap, release and re-establish position—safety over position
+4. Return the captured arm to a neutral anatomical position slowly after release to prevent additional injury from abrupt repositioning
+
+
+**Training Restrictions**:
+- White belts should drill grip mechanics and positioning without applying finishing rotational pressure until technique is reliable and controlled
+- Never apply the kimura with explosive or jerking force in any training context—slow progressive pressure only
+- Beginners must practice catch-and-release without rotating the forearm past 90 degrees from the mat
+- Avoid training this submission when either partner has pre-existing shoulder injuries, recent shoulder surgery, or active inflammation
+
 
 </section>
 

@@ -33,10 +33,32 @@ description: "Master the Kimura from Reverse Kesa-Gatame with expert finishing m
 }
 </script>
 
-> **SAFETY**: Kimura from Reverse Kesa-Gatame targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Reverse Kesa-Gatame",
+  "description": "The Kimura from Reverse Kesa-Gatame is a shoulder lock that exploits the reverse scarf hold's built-in far-arm isolation, using a figure-four grip and hip-driven rotation to force the shoulder past its internal-rotation limit.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Reverse Kesa-Gatame is a shoulder lock that exploits the reverse scarf hold's built-in far-arm isolation, using a figure-four grip and hip-driven rotation to force the shoulder past its internal-rotation limit.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Reverse Kesa-Gatame targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,60 +69,13 @@ description: "Master the Kimura from Reverse Kesa-Gatame with expert finishing m
 
 <section id="overview" class="content-section">
 
-The Kimura from Reverse Kesa-Gatame is a high-percentage shoulder lock that capitalizes on the natural arm isolation provided by the reverse scarf hold orientation. The top player faces the opponent's legs, creating direct access to the far arm without the grip fighting typically required from standard side control. Chest pressure pins the torso while the figure-four grip locks onto the wrist, producing a submission environment where defensive movement is severely constrained by positional mechanics rather than requiring athletic effort from the attacker.
+What makes this variant so reliable is the reverse orientation itself: the top player faces the opponent's legs, creating direct access to the far arm without the grip fighting typically required from standard side control. Chest pressure pins the torso while the figure-four grip locks onto the wrist, producing a submission environment where defensive movement is severely constrained by positional mechanics rather than requiring athletic effort from the attacker.
 
 The key mechanical advantage lies in the opponent's inability to create effective defensive frames. The reverse orientation blocks their primary escape pathways while chest compression limits breathing and explosive movement. The elbow pinned against the attacker's hip establishes the fulcrum point, and body rotation rather than arm strength generates the finishing torque through the shoulder's weakest plane of internal rotation.
 
 Strategically, this Kimura variant functions as both a direct finishing tool and a transitional threat that opens paths to the Americana, mount, back control, and the Kimura Trap system. When opponents defend by straightening their arm, the Americana becomes immediately available. When they bridge and roll, back takes present themselves. This two-directional dilemma makes the Kimura from Reverse Kesa-Gatame a cornerstone attack in any comprehensive top-side submission system, particularly effective in no-gi where collar-based controls are unavailable.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]]
-**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
-| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
-| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
-| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position by externally rotating back to starting position
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+**Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] · **From**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
 
 </section>
 
@@ -260,40 +235,60 @@ Strategically, this Kimura variant functions as both a direct finishing tool and
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Kesa Gatame Arm Crush]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Reverse Kesa-Gatame]] - Starting position for this submission variant
-- [[Submissions/Kimura]] - Parent submission family with shared grip mechanics
 - [[Positions/Kimura Trap]] - Related control position for extended Kimura attacks
 - [[Positions/Side Control]] - Adjacent pin position with alternative Kimura setups
-- [[Submissions/Americana]] - Complementary shoulder lock creating two-direction dilemma
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position in the same pinning family
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kimura from Reverse Kesa-Gatame leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
+| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
+| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
+| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making any verbal distress sound)
+- Physical hand tap (multiple taps with free hand)
+- Physical foot tap (multiple taps with either foot)
+- Any distress signal including screaming or unusual sounds
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant tap is felt or heard
+2. Return the arm toward neutral position by externally rotating back to starting position
+3. Release the figure-four grip completely
+4. Allow partner to self-assess shoulder mobility before continuing
+5. Never release suddenly or allow arm to spring back forcefully
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled
+- Never use competition speed or surprise attacks in training
+- Always ensure partner has at least one hand free to tap
+- Do not apply while partner is in awkward body position that prevents tapping
+- Never combine with weight pressure that restricts breathing while finishing
+- Respect immediate taps without testing partner's pain tolerance
+
 
 </section>
 

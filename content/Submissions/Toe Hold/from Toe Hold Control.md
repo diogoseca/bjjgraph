@@ -33,10 +33,32 @@ description: "Master the toe hold finish from Toe Hold Control. Complete guide t
 }
 </script>
 
-> **SAFETY**: Toe Hold from Toe Hold Control targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toe Hold from Toe Hold Control",
+  "description": "The toe hold from Toe Hold Control is a rotational ankle lock finished from an established leg entanglement by figure-fouring the opponent's trapped foot and turning it inward while chest pressure pins the shin against escape.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The toe hold from Toe Hold Control is a rotational ankle lock finished from an established leg entanglement by figure-fouring the opponent's trapped foot and turning it inward while chest pressure pins the shin against escape.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle, toes, and foot ligaments</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Toe Hold from Toe Hold Control targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,57 +75,7 @@ The finishing mechanics require a precise coordination of wrist rotation and che
 
 Within the modern leg lock hierarchy, the toe hold from Toe Hold Control functions as both a primary finishing weapon and a positional forcing function. Defenders who successfully resist the rotation often expose themselves to heel hook entries, kneebar transitions, or deeper entanglements like the saddle. This creates a systematic dilemma structure where every defensive reaction opens a new offensive pathway, making mastery of this position essential for practitioners building comprehensive leg lock games.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle, toes, and foot ligaments
-**Starting Position**: [[Positions/Toe Hold Control]]
-**From Position**: [[Positions/Toe Hold Control]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Ankle ligament tears (lateral and medial collateral ligaments) | High | 6-12 weeks with potential for chronic instability |
-| Toe fractures and dislocations | Medium | 4-8 weeks |
-| Plantar fascia rupture | High | 8-16 weeks |
-| Lisfranc joint injury (midfoot dislocation) | CRITICAL | 3-6 months, may require surgery |
-| Achilles tendon strain | Medium | 4-6 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. This is NOT a technique to 'snap on' in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure
-2. Release toe grip completely
-3. Release heel control
-4. Allow opponent's foot to return to neutral position naturally
-5. Do not let go abruptly - maintain light contact until opponent signals they are okay
-6. Check with training partner before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine with explosive hip extension
-- Always allow clear tap access for both hands
-- Stop immediately at any sign of discomfort
-- Never train this submission at competition speed
-
+**Starting Position**: [[Positions/Toe Hold Control]] · **From**: [[Positions/Toe Hold Control]] (Top)
 
 </section>
 
@@ -265,40 +237,64 @@ Within the modern leg lock hierarchy, the toe hold from Toe Hold Control functio
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Estima Lock]]
-- [[Positions/Aoki Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Transitions/Aoki Lock]]
 - [[Positions/Toe Hold Control]] - Primary control position for executing this submission finish
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Common entry position leading to toe hold control and finishing opportunities
 - [[Positions/Ashi Garami]] - Parent leg entanglement category governing entry and control mechanics
-- [[Transitions/Heel Hook]] - Alternative leg lock finish accessible through transitions from toe hold defense reactions
 - [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical entanglement offering mutual toe hold and ankle lock threats
 - [[Positions/Kneebar Control]] - Transition target when opponent straightens leg during toe hold defense
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Toe Hold from Toe Hold Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Ankle ligament tears (lateral and medial collateral ligaments) | High | 6-12 weeks with potential for chronic instability |
+| Toe fractures and dislocations | Medium | 4-8 weeks |
+| Plantar fascia rupture | High | 8-16 weeks |
+| Lisfranc joint injury (midfoot dislocation) | CRITICAL | 3-6 months, may require surgery |
+| Achilles tendon strain | Medium | 4-6 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. This is NOT a technique to 'snap on' in training.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' loudly)
+- Physical hand tap on partner or mat (multiple taps)
+- Physical foot tap with free leg
+- Any verbal distress signal
+- Slapping the mat with hand
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure
+2. Release toe grip completely
+3. Release heel control
+4. Allow opponent's foot to return to neutral position naturally
+5. Do not let go abruptly - maintain light contact until opponent signals they are okay
+6. Check with training partner before continuing
+
+
+**Training Restrictions**:
+- Never apply sudden rotational force - all pressure must be gradual
+- Never grip individual toes - always grip across multiple toes and ball of foot
+- Never combine with explosive hip extension
+- Always allow clear tap access for both hands
+- Stop immediately at any sign of discomfort
+- Never train this submission at competition speed
+
 
 </section>
 

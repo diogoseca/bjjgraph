@@ -34,6 +34,18 @@ description: "Learn Harai Goshi in BJJ. Step-by-step judo throw execution from s
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Harai Goshi",
+  "description": "Harai Goshi, the sweeping hip throw, is a standing judo throw where you load the opponent onto your hip and reap their weight-bearing leg with a sweeping action, rotating them over your hip to follow into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Harai Goshi in BJJ. Step-by-step judo throw execution from s
 </div>
 
 <section id="overview" class="content-section">
+
+**Harai Goshi, the sweeping hip throw, is a standing judo throw where you load the opponent onto your hip and reap their weight-bearing leg with a sweeping action, rotating them over your hip to follow into side control.**
 
 Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective techniques that has found significant application in Brazilian Jiu-Jitsu's standing game. This throw combines precise footwork, hip placement, and leg sweeping action to generate tremendous off-balancing force while maintaining control throughout the opponent's descent. Unlike pure forward throws, Harai Goshi creates a unique rotational motion that allows the thrower to follow smoothly into dominant ground positions.
 

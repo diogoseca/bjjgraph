@@ -34,6 +34,18 @@ description: "Master Single Leg X Recovery from Ushiro Ashi-Garami. Complete gui
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Single Leg X Recovery",
+  "description": "Single Leg X Recovery is a defensive-to-offensive transition from Ushiro Ashi-Garami in which the bottom player threads their trapped leg free and establishes Single Leg X-Guard, converting a compromised leg entanglement into an attacking platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Single Leg X Recovery from Ushiro Ashi-Garami. Complete gui
 
 <section id="overview" class="content-section">
 
-Single Leg X Recovery is a critical defensive transition that allows practitioners trapped in Ushiro Ashi-Garami to extract their entangled leg and establish Single Leg X-Guard, fundamentally changing the positional dynamic from defensive survival to offensive potential. This recovery represents one of the highest-percentage escapes from reversed leg entanglements because it addresses the core problem of leg clearing while simultaneously establishing a strong attacking platform.
+**Single Leg X Recovery is a defensive-to-offensive transition from Ushiro Ashi-Garami in which the bottom player threads their trapped leg free and establishes Single Leg X-Guard, converting a compromised leg entanglement into an attacking platform.**
+
+Within the modern leg-lock defensive hierarchy, this recovery ranks among the highest-percentage escapes from reversed leg entanglements because it solves the core problem of leg clearing while simultaneously building an attacking platform. Rather than settling for a neutral escape, the practitioner exploits the inverted geometry of Ushiro Ashi-Garami to flip the exchange, turning defensive survival into offensive potential in one continuous sequence.
 
 The technique exploits the geometric relationship between the defender's inverted position and the attacker's leg configuration. When executed correctly, the defender uses their hip mobility and precise foot placement to thread their trapped leg through the entanglement while simultaneously establishing heel hook and kneebar control on the opponent's far leg. This transforms a compromised position into one where the former defender now threatens submissions.
 
@@ -229,13 +243,11 @@ Single Leg X Recovery occupies a critical role in the defensive leg lock system,
 
 - [[Transitions/Leg Extraction to Guard]] - Alternative recovery technique from same position
 
-- [[Transitions/Granby Roll to Guard]] - Alternative escape option from ushiro
+- [[Transitions/Inversion to Turtle]] - Alternative escape when recovery is blocked
 
 - [[Submissions/Inside Heel Hook]] - Primary submission threat from completed Single Leg X
 
 - [[Transitions/Kneebar]] - Secondary submission available from Single Leg X position
-
-- [[Transitions/Inversion to Turtle]] - Alternative escape when recovery is blocked
 
 
 </section>

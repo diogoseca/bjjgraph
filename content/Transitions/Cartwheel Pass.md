@@ -34,6 +34,18 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cartwheel Pass",
+  "description": "The Cartwheel Pass is an athletic guard pass against inverted guards like Grasshopper Guard, where the top player plants their hands beside the opponent's hips and cartwheels over the elevated legs to land directly in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn Cartwheel Pass in BJJ. Athletic passing technique from Grass
 
 <section id="overview" class="content-section">
 
-The Cartwheel Pass is an athletic and dynamic technique used to bypass inverted guards, particularly the Grasshopper Guard. When facing an opponent who has inverted with their legs elevated and threatening leg entanglements, the cartwheel motion allows you to vault over their defensive structure entirely, landing directly into side control. This pass exploits a fundamental weakness of inverted guards: while they excel at controlling opponents who engage directly with their legs, they struggle against aerial passes that avoid leg contact altogether.
+**The Cartwheel Pass is an athletic guard pass against inverted guards like Grasshopper Guard, where the top player plants their hands beside the opponent's hips and cartwheels over the elevated legs to land directly in side control.**
+
+Against the modern inverted-guard game, the Cartwheel Pass answers a problem that pressure and methodical passing struggle to solve: an opponent whose elevated legs turn every grounded passing lane into a potential leg-lock trap. Rather than engaging that structure on its own terms, you vault over it entirely, landing directly into side control before the guard player can reorganize. This pass exploits a fundamental weakness of inverted guards: while they excel at controlling opponents who engage directly with their legs, they struggle against aerial passes that avoid leg contact altogether.
 
 The technique requires committing to the cartwheel motion with conviction, as hesitation mid-pass creates vulnerability to being pulled into the guard player's entanglement system. Your hands plant on the mat beside the opponent's hips, and you rotate your body laterally through the air, allowing your legs to clear their elevated guard completely. The landing must be controlled, transitioning immediately into heavy side control pressure before the opponent can reorganize their defensive structure.
 

@@ -34,6 +34,18 @@ description: "Master the Transition to Double Jump from Half Guard Top. Establis
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard to Double Jump",
+  "description": "Half Guard to Double Jump is a top-side transition that intercepts the opponent's turtle escape from half guard bottom, inserting bilateral leg hooks to seize Double Jump control and open immediate back-take attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Transition to Double Jump from Half Guard Top. Establis
 
 <section id="overview" class="content-section">
 
-The Transition to Double Jump is an advanced positional advancement from Half Guard Top that capitalizes on the opponent's turtling reaction to establish bilateral leg hooks for immediate back control entries. When the bottom player in half guard abandons guard retention and begins to turtle, either from failed sweep attempts or in response to passing pressure, a critical timing window opens for the top player to insert both legs as hooks inside the opponent's thighs rather than simply consolidating side control or continuing the pass.
+**Half Guard to Double Jump is a top-side transition that intercepts the opponent's turtle escape from half guard bottom, inserting bilateral leg hooks to seize Double Jump control and open immediate back-take attacks.**
+
+Sitting at the seam between half-guard passing and turtle attacks, this transition converts an opponent's defensive turtle reaction into an immediate offensive opportunity rather than settling for a conventional pass. When the bottom player in half guard abandons guard retention and begins to turtle, either from failed sweep attempts or in response to passing pressure, a critical timing window opens for the top player to insert both legs as hooks inside the opponent's thighs rather than simply consolidating side control or continuing the pass.
 
 This transition represents a paradigm shift in half guard passing strategy. Rather than viewing the opponent's turtle as merely a pass completion, the skilled practitioner recognizes it as an opportunity to bypass traditional turtle attack sequences entirely. By jumping both hooks simultaneously during the transitional moment between half guard and turtle, the top player establishes Double Jump control, which provides superior hip manipulation and creates immediate dilemmas between back exposure and sweep vulnerability.
 

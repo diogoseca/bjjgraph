@@ -13,6 +13,7 @@
     "finishing-guide",
     "hub"
   ],
+  "summary": "The Darce Choke from Twister Side Control is a no-gi blood choke where the top player threads an arm under the chin and through the far armpit, using the position's leg entanglement and shoulder pressure to compress both carotid arteries.",
   "submission_category": "Choke",
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
@@ -301,6 +302,11 @@
       {
         "question": "What grip adjustments should you make if the initial figure-four connection feels loose or has slack?",
         "answer": "Walk your hips further toward the opponent's head to increase the perpendicular angle and mechanically tighten the grip. Ensure your threading arm is deep enough that your hand reaches the far-side bicep rather than stopping at the forearm. Pull your elbows tighter together before applying finishing pressure. If slack persists, you may need to re-thread the arm deeper rather than attempting to compensate with squeezing force on an improperly set grip.",
+        "safety_critical": false
+      },
+      {
+        "question": "What competition finishing strategy maximizes the Darce success rate from Twister Side Control?",
+        "answer": "In competition, finish from established control rather than diving for the choke and sacrificing position. Bait the turn-in by maintaining heavy shoulder pressure so the opponent volunteers the neck, then thread and lock the figure-four before they realize the danger. Chain it with the Twister threat: every defensive reaction to one attack opens the other, so attack the dilemma rather than a single technique. Keep the leg entanglement intact so a defended Darce simply resets you to a dominant position rather than a scramble.",
         "safety_critical": false
       },
       {

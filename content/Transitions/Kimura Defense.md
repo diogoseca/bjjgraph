@@ -34,6 +34,18 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework coverin
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura Defense",
+  "description": "Kimura Defense is the systematic set of escapes and counters against the figure-four shoulder lock, layering early grip fighting, arm-circling with the lock, and base-attacking rolls to free the trapped arm or reverse the Kimura Trap into your own offense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework coverin
 </div>
 
 <section id="overview" class="content-section">
+
+**Kimura Defense is the systematic set of escapes and counters against the figure-four shoulder lock, layering early grip fighting, arm-circling with the lock, and base-attacking rolls to free the trapped arm or reverse the Kimura Trap into your own offense.**
 
 The Kimura Defense represents a critical defensive skill set against one of BJJ's most versatile submissions. The kimura presents danger from virtually every position, making defensive proficiency essential for survival. Understanding proper defensive mechanics protects the shoulder joint while creating opportunities to escape or counter-attack. The defense operates on three levels: prevention (hand fighting and grip denial), early escape (before full lock completion), and late-stage survival (managing locked positions). Success requires recognizing threat stages, maintaining defensive frames, and exploiting timing windows during opponent transitions.
 

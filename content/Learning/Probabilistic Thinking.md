@@ -3,7 +3,7 @@
 
 ---
 title: "Probabilistic Thinking | BJJ Learning | BJJ Graph"
-description: "Learn how to play the percentages in BJJ by choosing high-probability techniques, assessing risk and reward, and making smarter decisions on the mat through probabilistic thinking."
+description: "Learn probabilistic thinking in BJJ: choose high-percentage techniques, weigh risk against reward, and make smarter decisions on the mat under match pressure."
 ---
 
 <body data-content-type="learning">
@@ -14,7 +14,7 @@ description: "Learn how to play the percentages in BJJ by choosing high-probabil
   "@context": "https://schema.org",
   "@type": "Article",
   "name": "Probabilistic Thinking",
-  "description": "Learn how to play the percentages in BJJ by choosing high-probability techniques, assessing risk and reward, and making smarter decisions on the mat through probabilistic thinking.",
+  "description": "Learn probabilistic thinking in BJJ: choose high-percentage techniques, weigh risk against reward, and make smarter decisions on the mat under match pressure.",
   "articleSection": "Strategy",
   "url": "https://bjjgraph.org/Learning/Probabilistic-Thinking",
   "isPartOf": {
@@ -94,6 +94,18 @@ description: "Learn how to play the percentages in BJJ by choosing high-probabil
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Probabilistic Thinking",
+  "description": "Probabilistic thinking in BJJ is the practice of choosing techniques and match strategies based on their real success rates and the cost of failure, rather than on ego, habit, or what looks impressive.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -102,6 +114,8 @@ description: "Learn how to play the percentages in BJJ by choosing high-probabil
 <section id="overview" class="content-section">
 
 ## What is Probabilistic Thinking?
+
+**Probabilistic thinking in BJJ is the practice of choosing techniques and match strategies based on their real success rates and the cost of failure, rather than on ego, habit, or what looks impressive.**
 
 Every technique in BJJ has a success rate, and that rate changes based on the situation: your skill level, your opponent's skill level, the position, the grips, your fatigue level, and dozens of other variables. Probabilistic thinking means making decisions based on these likelihoods rather than on hope, ego, or what worked once in practice three months ago.
 
@@ -215,14 +229,15 @@ A: Fundamental techniques have the highest base success rates because they are m
 <section id="related" class="content-section">
 
 ## Related
-- [[Learning/Committed Techniques]] (Learning) - Committed techniques factor failure cost into the probability equation
-- [[Learning/Position Over Submission]] (Learning) - Positional advancement is a probabilistic strategy -- better position means higher submission probability
-- [[Principles/Positional Hierarchy]] (Principle) - The positional hierarchy reflects probability -- higher positions yield higher submission success rates
-- [[Principles/Fork Attacks]] (Principle) - Fork attacks increase overall success probability by offering multiple finishing paths simultaneously
-- [[Principles/Control Maintenance]] (Principle) - Maintaining control increases the number of attempts you get, which improves cumulative success probability
-- [[Positions/Back Control]] (Position) - The highest-percentage submission position in BJJ, where probabilistic thinking clearly favors the rear naked choke
-- [[Positions/Mount]] (Position) - Mount offers multiple high-percentage submissions with high position retention on failure
-- [[Positions/Closed Guard]] (Position) - Closed guard bottom provides reliable high-percentage sweeps and submissions from a secure position
+- [[Committed Techniques]] (Learning) - Committed techniques factor failure cost into the probability equation
+- [[Position Over Submission]] (Learning) - Positional advancement is a probabilistic strategy -- better position means higher submission probability
+- [[Positional Hierarchy]] (Principle) - The positional hierarchy reflects probability -- higher positions yield higher submission success rates
+- [[Fork Attacks]] (Principle) - Fork attacks increase overall success probability by offering multiple finishing paths simultaneously
+- [[Control Maintenance]] (Principle) - Maintaining control increases the number of attempts you get, which improves cumulative success probability
+- [[Competition Mindset]] (Principle) - Probabilistic risk assessment under score and clock pressure is core to a sound competition mindset
+- [[Back Control]] (Position) - The highest-percentage submission position in BJJ, where probabilistic thinking clearly favors the rear naked choke
+- [[Mount]] (Position) - Mount offers multiple high-percentage submissions with high position retention on failure
+- [[Closed Guard]] (Position) - Closed guard bottom provides reliable high-percentage sweeps and submissions from a secure position
 
 
 

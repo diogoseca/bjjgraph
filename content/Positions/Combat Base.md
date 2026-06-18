@@ -34,6 +34,18 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Combat Base",
+  "description": "Combat Base is a neutral guard-passing position where the top player kneels inside the opponent's open guard with one knee posted and the opposite foot planted, forming a mobile, sweep-resistant platform for initiating passes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,11 +57,15 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
 
 <section id="overview" class="content-section">
 
-Combat Base is a fundamental neutral position in Brazilian Jiu-Jitsu where the practitioner establishes a stable, mobile platform inside the opponent's guard. The position is characterized by one knee posted on the mat and the opposite foot planted flat, creating a triangulated base that allows for effective weight distribution, posture maintenance, and guard passing opportunities. This position serves as the primary platform for initiating most standing and kneeling guard passes while providing strong defensive structure against sweeps and submission attempts.
+**Combat Base is a neutral guard-passing position where the top player kneels inside the opponent's open guard with one knee posted and the opposite foot planted, forming a mobile, sweep-resistant platform for initiating passes.**
 
-Combat Base represents the critical transition point between simply being inside the opponent's guard and actively working to pass. The position balances offensive pressure with defensive stability, allowing the top practitioner to control distance, break grips, and create passing angles while remaining resistant to the bottom player's attacks. The asymmetrical stance—with one knee down and one foot planted—provides mobility for circling, stepping, and pressure application while maintaining a low center of gravity that prevents being swept or elevated.
+Used as the default kneeling platform for passing an open guard, Combat Base marks the boundary between merely being inside the guard and actively working to pass it. The position is defined by an asymmetric stance—one knee posted on the mat and the opposite foot planted flat—that trades pure lateral stability for forward mobility, letting the top player circle, step, and apply pressure while staying low and difficult to sweep or elevate.
 
-Mastery of Combat Base is essential for all guard passing systems, as it forms the foundation from which techniques like the Toreando Pass, Knee Slice Pass, and Long Step Pass are initiated. The position emphasizes proper weight distribution through the posted knee and planted foot, active hand positioning to control the opponent's hips and legs, and dynamic posture that can shift between offensive pressure and defensive structure. Understanding Combat Base mechanics is crucial for developing a well-rounded top game and effective guard passing strategy.
+From the top, Combat Base is the launching point for nearly every kneeling and standing pass: the knee slice, Toreando, leg drag, long step, and the transition to headquarters all begin here. The passer's job is to control distance with active grips on the hips and legs, keep the spine upright and head above the hips to resist being broken down, and distribute weight dynamically between the posted knee and planted foot so they can pass in any direction without being off-balanced.
+
+From the bottom, Combat Base is a contested, time-sensitive position for the guard player. Their game is the mirror image of the passer's: retain or recover a functional guard, off-balance the passer into a sweep along the diagonal weakness running from the posted knee toward the planted foot, or reset to a preferred open or closed guard when the exchange breaks down. Because the passer must commit weight forward to pass, that commitment is exactly what the bottom player weaponizes for sweeps and back takes.
+
+Mastering Combat Base from both sides means understanding this central tension: the same forward weight that powers a pass is the weight a guard player loads to reverse it. Whether maintaining the platform or attacking it, the position rewards dynamic weight management, relentless grip fighting, and the discipline to act during the opponent's transitional moments rather than against a settled, balanced base.
 
 </section>
 
@@ -84,10 +100,10 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Neutral | Neutral |
-| **Risk Level** | Low to Medium | Low to Medium |
-| **Energy Cost** | Low | Low |
-| **Time** | Long | Long |
+| **Position Type** | Defensive with offensive options | Neutral |
+| **Risk Level** | Medium to High | Low to Medium |
+| **Energy Cost** | Medium | Low |
+| **Time** | Short to Medium | Long |
 
 **Key Difference:** Asymmetric stance balances mobility with base
 
@@ -105,19 +121,19 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 ### Key Principles
 
 
-- Maintain triangulated base with posted knee, planted foot, and hips forming stable geometric structure resistant to multi-directional forces
+- Fight grips first - deny the collar, sleeve, and pant grips the passer needs before they can load your weight or commit to a passing lane
 
-- Keep spine upright and head positioned above hips to prevent forward collapse and maintain structural integrity against pulling attacks
+- Prevention beats recovery - frame and create distance early, because escaping a settled crossface costs far more energy than stopping it
 
-- Distribute weight dynamically between posted knee and planted foot based on passing direction and opponent reactions to maintain balance
+- Keep your hips mobile and off-center, never flat, so you always retain the shrimping angle that fuels both guard recovery and sweeps
 
-- Control opponent's hips and legs with active hand positioning to manage distance and prevent guard retention or re-closure
+- Attack the diagonal weakness - direct sweeps from the posted knee toward the planted foot, the line where combat base has least resistance
 
-- Use planted foot to generate mobility for circling, stepping, and angle creation while maintaining base stability during movement
+- Load before you lift - shift the passer's weight onto your hook with your grips before attempting any elevation sweep
 
-- Keep elbows tight to body and avoid overextending arms to prevent armbars, omoplatas, and triangle setups
+- Turn toward the passer, never away - facing the threat preserves guard options, while turning away surrenders your back
 
-- Adjust stance width and knee position based on opponent's guard type and defensive strategy to optimize passing angles
+- Use sweep threats to open everything else - forcing the passer to defend disrupts their passing and creates recovery and back-take windows
 
 
 ### Available Transitions
@@ -133,33 +149,29 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 ### Common Mistakes
 
 
-- ❌ **Posting with ball of foot instead of flat foot on planted side**
-  - Consequence: Reduces stability and mobility, making it difficult to generate passing pressure or react to opponent's movements, increasing sweep vulnerability by 35%
-  - ✅ Correction: Plant entire foot flat on mat with toes pointing forward, creating maximum surface contact and allowing for explosive movement in any direction
+- ❌ **Sitting passively and letting the passer fight grips and choose a passing lane unopposed**
+  - Consequence: The passer establishes deep crossface, strong grips, and an unobstructed lane, making the pass nearly impossible to stop once it begins
+  - ✅ Correction: Contest grips from the first instant of combat base, break collar grips by circling your wrists, and keep at least one frame live at all times
 
-- ❌ **Leaning forward with weight over opponent's chest and head down**
-  - Consequence: Makes practitioner vulnerable to triangle chokes, armbars, and omoplata attacks while reducing base stability and defensive structure
-  - ✅ Correction: Keep spine upright with head above hips, distributing weight through posted knee and planted foot rather than leaning forward onto opponent
+- ❌ **Framing with straight, fully extended arms against the passer's chest or head**
+  - Consequence: Extended arms collapse under forward pressure and expose you to kimura, americana, and armbar attacks during the pass
+  - ✅ Correction: Frame with bent arms - forearm on the shoulder or hip, elbows tight to your body - and use your legs as the primary distance-management tool
 
-- ❌ **Keeping both knees on mat without establishing combat base stance**
-  - Consequence: Eliminates mobility and makes it impossible to generate passing pressure or create angles effectively, reducing passing success by 50%
-  - ✅ Correction: Transition to proper combat base with one knee posted and opposite foot planted, creating asymmetrical stance for dynamic movement
+- ❌ **Lying flat on your back with square, static hips when the pass develops**
+  - Consequence: Flat hips kill your shrimping range, letting the passer settle weight and circle to side control without resistance
+  - ✅ Correction: Stay on your side facing the passer, keep your hips off-center, and shrimp continuously to maintain recovery angle
 
-- ❌ **Extending arms fully to post on opponent's hips or legs**
-  - Consequence: Creates vulnerability to armbars, kimuras, and omoplatas while losing ability to control opponent's movement effectively
-  - ✅ Correction: Keep elbows bent at approximately 90 degrees with hands actively controlling opponent's hips and legs close to body
+- ❌ **Turning away from the passer to turtle when the guard is being passed**
+  - Consequence: Turning away hands the passer a direct path to back control with seatbelt and hooks, a worse outcome than conceding side control
+  - ✅ Correction: Always turn toward the passer to face the threat and re-engage guard; if you must turtle, recover guard immediately rather than stalling
 
-- ❌ **Allowing opponent to establish strong collar and sleeve grips without fighting them**
-  - Consequence: Gives bottom player ability to break posture, create angles, and set up sweeps and submissions effectively, reducing passing efficiency by 40%
-  - ✅ Correction: Fight grips aggressively before establishing combat base, breaking opponent's grips by circling wrists and controlling sleeves
+- ❌ **Attempting an elevation sweep before loading the passer's weight onto your hook**
+  - Consequence: The hook lifts an uncommitted opponent straight up, they simply re-settle their base, and you waste energy with no positional gain
+  - ✅ Correction: Pull the passer's upper body forward and lateral with your grips until you feel real weight on your instep, then elevate diagonally
 
-- ❌ **Positioning hips too far back from opponent's hip line**
-  - Consequence: Creates too much distance for effective passing pressure and allows opponent to easily establish distance-based guards like De La Riva
-  - ✅ Correction: Keep hips positioned directly above opponent's hip line while maintaining enough distance to prevent triangle entries
-
-- ❌ **Remaining static in combat base without creating angles or pressure variations**
-  - Consequence: Allows opponent time to establish preferred guard and set up attacks without facing passing pressure, reducing passing success by 45%
-  - ✅ Correction: Use planted foot to constantly create new angles, circle around opponent's guard, and apply dynamic pressure variations
+- ❌ **Chasing full closed guard recovery when the pass is already deep**
+  - Consequence: Overreaching for full guard creates extra space and scrambles the passer can exploit to finish to side control or take the back
+  - ✅ Correction: Recognize when full recovery is gone and settle for knee shield half guard, a strong defensive position that preserves your offensive game
 
 
 </section>

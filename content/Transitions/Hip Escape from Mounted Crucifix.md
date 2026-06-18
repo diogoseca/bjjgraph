@@ -34,6 +34,18 @@ description: "Master the hip escape from mounted crucifix in BJJ. Complete guide
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape from Mounted Crucifix",
+  "description": "The Hip Escape from Mounted Crucifix is a bottom escape that pairs an explosive directional bridge with a sharp lateral hip shift to free the leg-trapped arms and downgrade the position back to standard mount bottom.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the hip escape from mounted crucifix in BJJ. Complete guide
 </div>
 
 <section id="overview" class="content-section">
+
+**The Hip Escape from Mounted Crucifix is a bottom escape that pairs an explosive directional bridge with a sharp lateral hip shift to free the leg-trapped arms and downgrade the position back to standard mount bottom.**
 
 The hip escape from mounted crucifix addresses one of the most desperate defensive scenarios in Brazilian Jiu-Jitsu. When trapped beneath an opponent who has combined mount control with leg-based arm isolation, your standard escape repertoire is severely compromised. This technique uses coordinated hip movement and precise timing to create the space necessary for arm extraction, converting the mounted crucifix into a regular mount position where traditional escape sequences become available.
 

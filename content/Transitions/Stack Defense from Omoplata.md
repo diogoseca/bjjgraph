@@ -34,6 +34,18 @@ description: "Master the stack defense from omoplata in BJJ. Complete guide cove
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Defense from Omoplata",
+  "description": "Stack Defense from Omoplata is a bottom-player counter to the opponent's stacking escape that redirects their forward drive laterally using hip-angle changes and belt or hip control, converting the stack attempt into a sweep to top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the stack defense from omoplata in BJJ. Complete guide cove
 </div>
 
 <section id="overview" class="content-section">
+
+**Stack Defense from Omoplata is a bottom-player counter to the opponent's stacking escape that redirects their forward drive laterally using hip-angle changes and belt or hip control, converting the stack attempt into a sweep to top position.**
 
 The stack defense from omoplata is a critical reactive technique employed when the bottom player has established omoplata control and the opponent responds by driving their weight forward in an attempt to stack and relieve shoulder pressure. This stacking response is one of the three primary escapes from omoplata alongside the forward roll and arm extraction, making stack defense an essential skill for anyone who plays omoplata-based guards.
 

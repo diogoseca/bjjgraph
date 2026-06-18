@@ -34,6 +34,18 @@ description: "Master the ankle lock escape to standing in BJJ. Step-by-step guid
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ankle Lock Escape to Standing",
+  "description": "The ankle lock escape to standing is a defensive leg-lock counter in which the trapped player breaks the ankle grip, clears the leg entanglement, and drives upward to fully disengage into a neutral standing position rather than trading into another entanglement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the ankle lock escape to standing in BJJ. Step-by-step guid
 
 <section id="overview" class="content-section">
 
-The ankle lock escape to standing is one of the most critical defensive techniques in the leg lock game, offering a direct path from a threatened submission position back to completely neutral standing. When caught in straight ankle lock control, the defender faces a narrowing window of opportunity where every second allows the attacker to deepen grips, complete leg entanglements, and transition to more dangerous positions like inside ashi garami or saddle. The escape to standing directly addresses this time pressure by prioritizing complete disengagement over positional improvement.
+**The ankle lock escape to standing is a defensive leg-lock counter in which the trapped player breaks the ankle grip, clears the leg entanglement, and drives upward to fully disengage into a neutral standing position rather than trading into another entanglement.**
+
+Among defensive responses to straight ankle lock control, the escape to standing carries unique strategic weight because it resolves the engagement completely rather than improving position incrementally. When caught in straight ankle lock control, the defender faces a narrowing window of opportunity where every second allows the attacker to deepen grips, complete leg entanglements, and transition to more dangerous positions like inside ashi garami or saddle. The escape to standing directly addresses this time pressure by prioritizing complete disengagement over positional improvement.
 
 The technique requires coordinated action across multiple control points simultaneously. Breaking the attacker's grip on your ankle, preventing their legs from establishing a controlling triangle, maintaining proper hip rotation to deny transition pathways, and generating the upward drive needed to reach standing position must all occur within a compressed timeframe. Unlike positional escapes that trade one entanglement for another, the standing escape aims to fully reset the engagement, removing you entirely from the leg attack chain.
 

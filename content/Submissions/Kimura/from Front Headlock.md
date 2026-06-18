@@ -33,10 +33,32 @@ description: "Master the Kimura shoulder lock from front headlock in BJJ. Learn 
 }
 </script>
 
-> **SAFETY**: Kimura from Front Headlock targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Front Headlock",
+  "description": "The Kimura from front headlock is a figure-four shoulder lock applied to a bent-forward opponent's near arm, isolating the wrist and rotating the shoulder past its limit while chest pressure pins them and punishes committed neck defense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from front headlock is a figure-four shoulder lock applied to a bent-forward opponent's near arm, isolating the wrist and rotating the shoulder past its limit while chest pressure pins them and punishes committed neck defense.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Front Headlock targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,54 +75,7 @@ The mechanics of this submission differ significantly from Kimuras applied from 
 
 This submission integrates naturally into front headlock attack systems. When you threaten chokes, the opponent defends their neck. When you switch to the Kimura, they must free their hands from neck defense to address the arm attack, which reopens the choke threats. This creates a powerful dilemma cycle that makes the front headlock one of the most versatile attacking positions in modern grappling.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Front Headlock]]
-**From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
-| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
-| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
-| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+**Starting Position**: [[Positions/Front Headlock]] · **From**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -264,40 +239,59 @@ This submission integrates naturally into front headlock attack systems. When yo
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Transitions/Guillotine Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Transitions/Darce Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Japanese Necktie]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Front Headlock]] - Primary starting position for this submission variant
 - [[Positions/Kimura Trap]] - Control position for maintaining Kimura grip if initial finish is defended
-- [[Transitions/Guillotine Choke]] - Primary alternative submission from front headlock that chains with Kimura threats
-- [[Transitions/Anaconda Choke]] - Alternative arm-in choke available from same front headlock position
-- [[Submissions/Kimura]] - Parent submission family - this is the front headlock-specific application
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kimura from Front Headlock leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
+| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
+| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
+| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making any verbal distress sound)
+- Physical hand tap (multiple taps with free hand)
+- Physical foot tap (multiple taps with either foot)
+- Any distress signal including screaming or unusual sounds
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant tap is felt or heard
+2. Return the arm toward neutral position (externally rotate back to starting position)
+3. Release the figure-four grip completely
+4. Allow partner to self-assess shoulder mobility before continuing
+5. Never release suddenly or allow arm to spring back forcefully
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled
+- Never use competition speed or surprise attacks in training
+- Always ensure partner has at least one hand free to tap
+- Do not apply while partner is in awkward body position that prevents tapping
+- Never combine with weight pressure that restricts breathing while finishing
+- Respect immediate taps without testing partner's pain tolerance
+
 
 </section>
 

@@ -103,6 +103,11 @@ description: "Defend the Kimura from Butterfly Guard with early recognition, gri
     "@type": "WebSite",
     "name": "BJJ Graph",
     "url": "https://bjjgraph.org"
+  },
+  "mainEntityOfPage": {
+    "@type": "CollectionPage",
+    "name": "Kimura",
+    "url": "https://bjjgraph.org/Families/kimura"
   }
 }
 </script>
@@ -144,6 +149,9 @@ description: "Defend the Kimura from Butterfly Guard with early recognition, gri
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="part-of-family"><em>Part of the</em> <strong>Kimura</strong> <em>family</em></p>
+</aside>
 <section id="overview" class="content-section">
 
 Defending the Kimura from Butterfly Guard requires early recognition of the grip setup and immediate action to prevent the figure-four from being established. The defender must manage two simultaneous threats: the butterfly sweep and the shoulder lock, making defensive positioning more complex than defending a Kimura from closed guard or half guard. Priority must be given to maintaining posture, keeping elbows tight to the body, and denying the attacker wrist control, as once the figure-four is locked and hooks create elevation, escape becomes significantly more difficult and injury risk increases substantially.

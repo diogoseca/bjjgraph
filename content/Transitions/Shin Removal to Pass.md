@@ -34,6 +34,18 @@ description: "Master Shin Removal to Pass escape from Gogoplata Control. Systema
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Shin Removal to Pass",
+  "description": "Shin Removal to Pass is the top player's escape from gogoplata control, extracting the trapped head from the shin-across-throat lock via lateral movement and foot control before immediately driving forward to complete a pass into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Shin Removal to Pass escape from Gogoplata Control. Systema
 </div>
 
 <section id="overview" class="content-section">
+
+**Shin Removal to Pass is the top player's escape from gogoplata control, extracting the trapped head from the shin-across-throat lock via lateral movement and foot control before immediately driving forward to complete a pass into side control.**
 
 Shin Removal to Pass represents a critical defensive technique executed when caught in gogoplata control from the top position. This escape addresses one of the most technically challenging submission positions in Brazilian Jiu-Jitsu, where the opponent has threaded their shin across your throat while securing their foot behind your head. The technique requires methodical extraction of your head from the closed loop system created by the shin-across-throat configuration.
 

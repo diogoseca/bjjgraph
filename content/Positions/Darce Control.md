@@ -34,6 +34,18 @@ description: "Master Darce Control position in BJJ. Dominant front headlock vari
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Darce Control",
+  "description": "Darce Control is a dominant front-headlock position where the attacker threads one arm under the opponent's near armpit and across the neck, locking a figure-four grip that threatens a blood choke while pinning the trapped arm and upper body.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Darce Control position in BJJ. Dominant front headlock vari
 
 <section id="overview" class="content-section">
 
-Darce Control is a highly effective front headlock variation where the attacking practitioner secures a figure-four grip around the opponent's neck and shoulder, creating intense pressure on the carotid arteries. Named after its popularizer Joe D'Arce, this position combines elements of the arm triangle and anaconda choke, offering both submission threat and positional dominance. The position is characterized by the attacker threading their arm under the opponent's near armpit, across the back of their neck, and catching their own bicep with the opposite hand to complete the choke.
+**Darce Control is a dominant front-headlock position where the attacker threads one arm under the opponent's near armpit and across the neck, locking a figure-four grip that threatens a blood choke while pinning the trapped arm and upper body.**
+
+Popularized by Joe D'Arce and refined across modern no-gi competition, this front-headlock control sits at the intersection of the arm triangle and anaconda choke families. The attacker threads their arm under the opponent's near armpit, drives it across the back of the neck, and catches their own bicep with the opposite hand, building a figure-four that compresses both carotid arteries while trapping the near arm against the head.
 
 Darce Control serves as both a submission position and a controlling platform for advancing position. It is most commonly entered from turtle, front headlock, failed single leg attempts, or scrambles where the opponent's posture is compromised. The position creates an immediate submission threat while maintaining strong control over the opponent's upper body, making it difficult for them to escape or counter. Advanced practitioners use Darce Control as a hub position, flowing between submission attempts and positional advances.
 

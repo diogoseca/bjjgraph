@@ -143,6 +143,16 @@ description: "Master hip pressure mechanics in BJJ. Learn weight distribution, p
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Pressure",
+  "description": "Hip Pressure is the tactical application of bodyweight through hip-to-hip contact to pin an opponent's lower body to the mat, nullify their shrimps, bridges, and turns, and build stable platforms for passing, control, and submission.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master hip pressure mechanics in BJJ. Learn weight distribution, p
 
 ## What is Hip Pressure?
 
-Hip Pressure represents the specific tactical application of bodyweight through hip contact to control opponent's lower body, prevent hip escape movements, and establish dominant positioning in top control situations. Unlike general pressure concepts, hip pressure focuses on the strategic use of hip positioning and weight allocation through the pelvis to achieve specific control objectives: pinning opponent's hips to the mat, preventing shrimping and bridging movements, creating angles for passing, and establishing stable platforms for transitions and submissions. This concept integrates biomechanical principles of how hip weight affects opponent's mobility with tactical decisions about hip placement, pressure intensity, and timing. Hip pressure serves as both an immediate control mechanism that restricts opponent's most fundamental defensive movements and an enabling tool that creates opportunities for position advancement and technical execution. The ability to generate and maintain effective hip pressure often determines whether a practitioner can control opponent's lower body and advance positions or allows constant hip escapes that enable guard retention and position recovery, making it one of the most essential technical elements in top game control.
+**Hip Pressure is the tactical application of bodyweight through hip-to-hip contact to pin an opponent's lower body to the mat, nullify their shrimps, bridges, and turns, and build stable platforms for passing, control, and submission.**
+
+While general pressure principles govern how a top player manages total bodyweight across all contact points, hip pressure isolates the pelvis as the dedicated instrument for controlling an opponent's lower body. It centers on the strategic use of hip placement and weight allocation through the pelvis to achieve specific control objectives: pinning the opponent's hips to the mat, preventing shrimping and bridging, creating angles for passing, and establishing stable platforms for transitions and submissions. This concept integrates the biomechanics of how hip weight restricts an opponent's mobility with tactical decisions about hip placement, pressure intensity, and timing. Hip pressure serves simultaneously as an immediate control mechanism that restricts the opponent's most fundamental defensive movements and as an enabling tool that opens opportunities for position advancement and technical execution. A practitioner's ability to generate and maintain effective hip pressure often determines whether they can shut down the opponent's lower body and advance, or instead concede the constant hip escapes that fuel guard retention and recovery — making it one of the most essential elements of any top game.
 
 </section>
 

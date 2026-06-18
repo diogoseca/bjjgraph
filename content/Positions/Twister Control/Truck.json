@@ -3,6 +3,7 @@
   "slug": "truck",
   "description": "Master Truck Position in BJJ with comprehensive bottom and top perspective analysis. Defensive survival guide and offensive submission system covering twister, calf slicer, and back attacks.",
   "variant_uniqueness": "Leg entanglement creates dual spinal threats",
+  "summary": "The Truck is a 10th Planet back-attack position where the top player traps one of the opponent's legs in a figure-four and presses a boot against their hip, generating simultaneous twister, calf slicer, and back-control threats.",
   "overview": "The Truck Position is a specialized back-attack control position developed and popularized within the 10th Planet Jiu-Jitsu system. This position creates a unique control system where the controlling practitioner is positioned perpendicular to their opponent, with legs entangled in a figure-four configuration controlling the opponent's lower body while maintaining upper body control through various grips.\n\nThe truck represents the convergence of leg lock systems and back attack systems, making it one of the most dangerous positions in modern no-gi grappling. The position's power comes from the dilemma it creates: defending upper body attacks (Twister, bow and arrow choke) exposes the lower body to leg attacks (calf slicer, banana split), while defending leg attacks allows upper body submissions. This multiple-threat system makes the truck one of the highest finishing-rate positions in modern BJJ.\n\nThe position exists in two distinct perspectives: from the bottom, it is a high-danger defensive position requiring immediate escape mechanics and submission defense, while from the top it is an offensive control position with multiple submission paths. The boot pressure (foot against hip) is the engine of the top position, creating torque that enables all subsequent attacks. Understanding both perspectives is essential for complete truck position mastery.\n\nHistorically, the truck evolved from wrestling's turk ride, adapted into the 10th Planet system as a submission-hunting platform rather than merely a controlling pin. The figure-four leg configuration distinguishes it from standard back control by immobilizing the opponent's hips independently of hook placement, creating a stable base for attacks that target the spine and legs simultaneously. In competition, the truck has proven effective across rule sets, from submission-only formats where the extended control time allows methodical attack chains, to points-based competitions where the position scores equivalent to back control.",
   "key_principles": [
     "Leg entanglement controls lower body mobility and creates submission opportunities",
@@ -55,7 +56,7 @@
       "relationship": "Scramble position related to truck escapes"
     },
     {
-      "name": "Standing Position",
+      "name": "Combat Base",
       "relationship": "Transition state during truck entries and escapes"
     }
   ],
@@ -615,15 +616,15 @@
     "transitions": [
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 66
+        "attempt_probability": 42
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 11
+        "attempt_probability": 13
       },
       {
         "transition": "Leg Extraction to Guard",
-        "attempt_probability": 10
+        "attempt_probability": 12
       },
       {
         "transition": "Rolling Back Take Reversal",
@@ -631,31 +632,31 @@
       },
       {
         "transition": "Forward Roll",
-        "attempt_probability": 6
+        "attempt_probability": 7
       },
       {
         "transition": "Back Door Escape",
-        "attempt_probability": 2
+        "attempt_probability": 4
       },
       {
         "transition": "Defensive Roll",
-        "attempt_probability": 0
+        "attempt_probability": 4
       },
       {
         "transition": "Escape from Truck",
-        "attempt_probability": 0
+        "attempt_probability": 4
       },
       {
         "transition": "Hip Escape from Truck",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Leg Extraction from Truck",
-        "attempt_probability": 0
+        "attempt_probability": 3
       },
       {
         "transition": "Roll to Guard from Truck",
-        "attempt_probability": 1
+        "attempt_probability": 4
       }
     ],
     "flashcards": [

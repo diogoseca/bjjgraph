@@ -34,6 +34,18 @@ description: "Master the Scarf Hold to Mount transition in BJJ. Complete guide c
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Scarf Hold to Mount",
+  "description": "Scarf Hold to Mount is a top-position advancement where you step or slide a leg across a supine opponent to move from the perpendicular scarf hold (kesa gatame) directly into full mount, the highest-scoring control in BJJ.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Scarf Hold to Mount transition in BJJ. Complete guide c
 </div>
 
 <section id="overview" class="content-section">
+
+**Scarf Hold to Mount is a top-position advancement where you step or slide a leg across a supine opponent to move from the perpendicular scarf hold (kesa gatame) directly into full mount, the highest-scoring control in BJJ.**
 
 The Scarf Hold to Mount transition converts the perpendicular kesa gatame pin into the highest-value positional control in Brazilian Jiu-Jitsu. This advancement exploits the existing head and arm control from scarf hold as a launching platform to step or slide across the opponent's torso into full mount. The technique represents a natural progression when the bottom player's defensive reactions expose their far hip or when they turn away from the top player, creating the space necessary for the leg to clear the opponent's body.
 

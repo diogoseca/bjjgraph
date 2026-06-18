@@ -1,5 +1,6 @@
 {
   "name": "Counter from Estima Lock",
+  "summary": "The Counter from Estima Lock is a defensive escape from the bottom of an inverted footlock that counter-rotates the trapped ankle, breaks the figure-four grip, and recovers open guard before the ankle and Achilles tendon are compromised.",
   "description": "Master the Counter from Estima Lock in BJJ. Complete guide to counter-rotation mechanics, systematic grip breaking, and guard recovery from inverted footlock.",
   "tags": [
     "bjj",
@@ -29,7 +30,7 @@
     }
   ],
   "success_rate": 40,
-  "overview": "The Counter from Estima Lock is a critical defensive transition performed when caught in the bottom position of an Estima Lock, one of the most dangerous inverted footlock threats in modern grappling. The Estima Lock attacks the ankle joint and Achilles tendon through rotational pressure applied via an inverted grip configuration, creating defensive challenges distinct from conventional straight ankle locks. This counter addresses those specific mechanics through systematic ankle protection, strategic framing, and methodical foot extraction sequences that prioritize joint safety throughout the escape process.\n\nSuccess in this counter depends on understanding the biomechanical principles underlying the Estima Lock's effectiveness and exploiting its structural vulnerabilities. The inverted grip creates powerful rotational torque but requires precise hand positioning that becomes vulnerable when disrupted through proper framing and hip movement. Counter-rotating the ankle immediately reduces joint strain and buys time for the remaining escape sequence, while active use of the free leg creates the pushing force necessary to generate space between the escaping practitioner and their opponent's controlling structure.\n\nThis transition connects the Estima Lock defensive position to open guard recovery and represents an essential skill within comprehensive leg lock defense systems. The escape integrates counter-rotation principles found in other footlock defenses with grip-breaking mechanics specific to the Estima Lock's figure-four configuration. Practitioners who develop proficiency in this counter can engage more confidently in leg entanglement exchanges, knowing they possess reliable defensive options when opponents secure the characteristic inverted footlock grip.",
+  "overview": "The Estima Lock is one of the most dangerous inverted footlock threats in modern grappling, attacking the ankle joint and Achilles tendon through rotational pressure applied via an inverted grip configuration that creates defensive challenges distinct from conventional straight ankle locks. Caught on the bottom, the escaping practitioner must address those specific mechanics through systematic ankle protection, strategic framing, and methodical foot extraction sequences that prioritize joint safety throughout the escape process. Calm, sequenced execution matters more here than in almost any other escape, because panic or explosive movement against rotational pressure can complete the very submission you are trying to survive.\n\nSuccess in this counter depends on understanding the biomechanical principles underlying the Estima Lock's effectiveness and exploiting its structural vulnerabilities. The inverted grip creates powerful rotational torque but requires precise hand positioning that becomes vulnerable when disrupted through proper framing and hip movement. Counter-rotating the ankle immediately reduces joint strain and buys time for the remaining escape sequence, while active use of the free leg creates the pushing force necessary to generate space between the escaping practitioner and their opponent's controlling structure.\n\nThis transition connects the Estima Lock defensive position to open guard recovery and represents an essential skill within comprehensive leg lock defense systems. The escape integrates counter-rotation principles found in other footlock defenses with grip-breaking mechanics specific to the Estima Lock's figure-four configuration. Practitioners who develop proficiency in this counter can engage more confidently in leg entanglement exchanges, knowing they possess reliable defensive options when opponents secure the characteristic inverted footlock grip.",
   "conditions": [
     "Opponent has secured Estima Lock grip with inverted foot orientation on your foot",
     "Your ankle and foot are controlled but not yet at tap-worthy pressure levels",
@@ -56,12 +57,12 @@
   "position_integration": "The Counter from Estima Lock connects the defensive Estima Lock bottom position to open guard recovery within the broader leg lock defense framework. This technique serves as a critical survival link when leg entanglement exchanges result in compromised foot position under inverted footlock control. Proficiency in this counter enables practitioners to engage more confidently in modern leg lock systems, providing a reliable escape pathway that integrates counter-rotation principles with systematic grip disruption and guard recovery mechanics specific to the Estima Lock's unique inverted configuration.",
   "related_content": [
     {
-      "name": "Estima Lock",
+      "name": "Estima Lock Control",
       "relationship": "Source position where this counter is initiated from the bottom"
     },
     {
       "name": "Estima Lock",
-      "relationship": "The submission threat being escaped through this counter technique"
+      "relationship": "The inverted footlock submission threat being escaped through this counter"
     },
     {
       "name": "Open Guard",
@@ -69,23 +70,23 @@
     },
     {
       "name": "Side Control",
-      "relationship": "Position reached if opponent transitions to guard pass during failed counter"
+      "relationship": "Position reached if opponent transitions to a guard pass during a failed counter"
     },
     {
       "name": "Ashi Garami Escape",
       "relationship": "Related leg entanglement escape sharing counter-rotation and extraction principles"
     },
     {
-      "name": "Counter Rotation from Toe Hold",
-      "relationship": "Similar counter-rotation escape mechanics applied to a different footlock threat"
+      "name": "Leg Extraction",
+      "relationship": "Core extraction technique for freeing the trapped foot from the inverted lock"
     },
     {
       "name": "Ankle Lock Escape to Standing",
       "relationship": "Related footlock escape using standing base to generate extraction leverage"
     },
     {
-      "name": "Boot Defense from Toe Hold",
-      "relationship": "Complementary foot defense technique with overlapping ankle protection principles"
+      "name": "Toe Hold",
+      "relationship": "Related footlock submission the attacker may switch to when counter-rotation exposes the toes"
     },
     {
       "name": "50-50 Guard",

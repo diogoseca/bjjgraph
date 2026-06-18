@@ -35,6 +35,18 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toreando Pass",
+  "description": "The Toreando Pass is a standing open-guard pass where you grip both of the opponent's knees or pant legs and step laterally while redirecting their legs the opposite way, clearing a direct path to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -48,6 +60,8 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 </div>
 
 <section id="overview" class="content-section">
+
+**The Toreando Pass is a standing open-guard pass where you grip both of the opponent's knees or pant legs and step laterally while redirecting their legs the opposite way, clearing a direct path to side control.**
 
 The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard passing technique that exploits superior grips and angular movement to control and redirect the opponent's legs. Named after the bullfighter's movements when evading a charging bull, this pass emphasizes controlling the opponent's knees or pant legs while stepping laterally to create passing angles. The technique is particularly effective against players who rely on open guard systems like De La Riva, Spider Guard, or Collar Sleeve Guard. By dominating the leg grips and using explosive lateral movement, the passer forces the guard player's legs to one side while their upper body remains stationary, creating a clear path to side control or knee on belly. The Toreando Pass is a cornerstone of modern guard passing systems, valued for its versatility across gi and no-gi contexts, its effectiveness against multiple guard styles, and its ability to chain seamlessly with other passing sequences. When executed correctly, it creates immense pressure on the opponent's defensive structure while maintaining the passer's balance and base throughout the movement.
 
@@ -252,8 +266,6 @@ The Toreando Pass serves as a cornerstone technique in modern guard passing syst
 - [[Positions/Side Control]] - End position - primary finishing position for successful Toreando Pass
 
 - [[Positions/Knee on Belly]] - Alternative end position - can transition here instead of side control
-
-- [[Transitions/Toreando Pass]] - Alternate name reference - Bullfighter Pass and Toreando Pass are the same technique
 
 - [[Positions/Open Guard]] - Starting position - primary guard configuration the Toreando is designed to pass
 

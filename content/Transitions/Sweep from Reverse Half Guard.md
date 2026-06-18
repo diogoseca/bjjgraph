@@ -34,6 +34,18 @@ description: "Master the Sweep from Reverse Half Guard in BJJ. Momentum-based re
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Reverse Half Guard",
+  "description": "The Sweep from Reverse Half Guard is a momentum-based reversal from the inverted bottom of reverse half guard that redirects the opponent's forward pressure into a rotation, landing the bottom player directly in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Sweep from Reverse Half Guard in BJJ. Momentum-based re
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sweep from Reverse Half Guard is a momentum-based reversal from the inverted bottom of reverse half guard that redirects the opponent's forward pressure into a rotation, landing the bottom player directly in mount.**
 
 The Sweep from Reverse Half Guard exploits the inverted geometry of the reverse half position to generate momentum-based reversals that catch opponents off-guard. Unlike conventional half guard sweeps that rely on underhook battles and incremental weight displacement, this sweep channels the opponent's forward pressure through rotational mechanics, converting their drive into the energy that completes the reversal. The technique rewards practitioners who understand timing over strength, as the sweep window opens specifically when the top player commits weight forward.
 

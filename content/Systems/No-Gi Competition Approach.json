@@ -12,7 +12,8 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Advanced",
-  "overview": "The No-Gi Competition Approach is a comprehensive strategic framework designed specifically for success in no-gi grappling competitions. Unlike gi-based competition where grips and control are established through fabric manipulation, no-gi competition demands a fundamentally different tactical approach centered on body position, underhooks, overhooks, and dynamic movement. This system addresses the unique challenges of slippery surfaces, faster transitions, and the necessity for more active, aggressive control mechanisms. The framework emphasizes positional dominance through systematic pressure passing, leg entanglement systems, and submission chains that exploit the reduced friction environment. Success in no-gi competition requires understanding energy management across rounds, recognizing when to explode versus when to conserve, and developing a game plan that maximizes your physical attributes while minimizing opponent strengths. This approach integrates modern leg lock systems, back attack sequences, and front headlock series that have become essential in contemporary no-gi competition.",
+  "summary": "The No-Gi Competition Approach is a strategic framework for no-gi grappling that fuses underhook-and-bodylock grip fighting, pressure passing, leg-entanglement systems, back attacks, and front-headlock chains with deliberate pacing and tactical match management.",
+  "overview": "Modern no-gi competition has matured into a discipline with its own rule sets — ADCC, EBI overtime, submission-only, and IBJJF no-gi points — each rewarding distinct tactical priorities. Unlike gi-based competition where grips and control are established through fabric manipulation, no-gi demands control built from body position, underhooks, overhooks, and dynamic movement on a low-friction, slippery surface that speeds transitions and scrambles. This framework addresses those demands directly: positional dominance through systematic pressure passing, leg-entanglement systems serving as both control and attack, and submission chains engineered for the reduced-friction environment. Success also hinges on energy management across rounds — knowing when to explode versus when to conserve — and on a game plan that maximizes your physical attributes while neutralizing the opponent's strengths. The approach integrates contemporary leg lock systems, back-attack sequences, and front-headlock series that have become indispensable in high-level no-gi competition.",
   "key_principles": [
     "Establish underhook and body lock control in the absence of gi grips",
     "Prioritize positional advancement through systematic passing sequences",
@@ -357,6 +358,40 @@
       "name": "Modern No-Gi Passing System",
       "content_type": "System",
       "relationship": "Contemporary passing framework for no-gi competition"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the no-gi grip hierarchy that underpins control in this system?",
+      "answer": "From strongest to weakest: body lock, double underhooks, single underhook, wrist control, then collar tie. Competitors fight to climb this hierarchy because no-gi offers no fabric grips to anchor control, so position and pressure replace cloth."
+    },
+    {
+      "question": "Why are leg entanglements treated as a primary system rather than a secondary attack in no-gi competition?",
+      "answer": "On a low-friction surface, entanglements like inside ashi-garami and saddle deliver reliable control points and high-percentage heel hook finishes, functioning simultaneously as a control mechanism and a submission platform when conventional grips slip."
+    },
+    {
+      "question": "How should pacing and energy be managed across a no-gi match?",
+      "answer": "Use structured intensity zones: explode during scrambles and dominant-position advances, then consolidate in low-energy holding positions to recover. This avoids the mid-round energy depletion that forces defensive posturing late in the match."
+    },
+    {
+      "question": "What makes back control the highest-value position in the No-Gi Competition Approach?",
+      "answer": "Back control combines maximum control with the lowest-risk, highest-percentage finish (the rear naked choke) and is reachable from standing, guard, turtle, front headlock, and leg entanglements, making it the central target of the game plan."
+    },
+    {
+      "question": "What submissions and transitions flow from the front headlock series?",
+      "answer": "The front headlock hub feeds guillotines, darce and anaconda chokes, arm triangles, snap-downs to back takes, and entries to side control, with the choice to finish or transition dictated by the opponent's defensive reaction."
+    },
+    {
+      "question": "Why does the system emphasize submission chains over isolated finishing attempts?",
+      "answer": "Chaining links each threat to the opponent's likely defense, so a defended attack opens the next one. Isolated attempts let skilled opponents reset, while chains sustain continuous pressure and meaningfully raise finishing rates."
+    },
+    {
+      "question": "What is the most common mistake when transitioning from gi to no-gi competition?",
+      "answer": "Over-relying on gi-based gripping strategies that no longer work without fabric, instead of rebuilding control around underhooks, overhooks, body locks, and constant forward pressure adapted to the slippery, faster-moving environment."
+    },
+    {
+      "question": "How should tactical adjustments differ when ahead versus behind late in a match?",
+      "answer": "When ahead on points, prioritize position maintenance, defensive awareness, and visible activity to avoid stalling penalties; when behind, raise risk tolerance and submission output while pressuring the opponent's fatigue to force errors."
     }
   ]
 }

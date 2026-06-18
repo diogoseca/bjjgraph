@@ -33,32 +33,104 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
 }
 </script>
 
-> **SAFETY**: Brabo Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression causing loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Brabo Choke",
+  "description": "The Brabo Choke is an arm-in blood choke from the front headlock and top pins where you thread an arm across the opponent's neck and trap their own near-side shoulder against it, compressing the carotid arteries until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is the Brabo Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Brabo Choke is an arm-in blood choke from the front headlock and top pins where you thread an arm across the opponent\u0027s neck and trap their own near-side shoulder against it, compressing the carotid arteries until they tap." } },
+    { "@type": "Question", "name": "What positions can you finish the Brabo Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Brabo Choke from Front Headlock." } },
+    { "@type": "Question", "name": "Is the Brabo Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Brabo Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression causing loss of consciousness. Tap early and release immediately on the tap." } }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-<section id="variants" class="content-section">
+**The Brabo Choke is an arm-in blood choke from the front headlock and top pins where you thread an arm across the opponent's neck and trap their own near-side shoulder against it, compressing the carotid arteries until they tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">~58% avg</span>
+</div>
 
-## Position Variants
-
-| From Position | Success Rate | Top Injury Risk | Key Difference |
-|---------------|-------------|-----------------|----------------|
-| [[Brabo Choke/from Front Headlock|Front Headlock]] | 58% | Carotid artery compression causing loss of consciousness |  |
-
-
-</section>
-
+> [!danger] Safety
+> Brabo Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression causing loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <section id="overview" class="content-section">
 
 The Brabo Choke is a powerful blood choke from the front headlock position, closely related to the Darce and Anaconda chokes. The technique involves threading your arm under the opponent's near arm and across their neck, securing a grip on your own bicep to create a vice-like constriction of the carotid arteries. The name 'Brabo' is a Portuguese pronunciation variation of 'Darce,' though some practitioners distinguish between the two based on subtle grip and angle differences. This submission is particularly effective when the opponent is defending a front headlock by keeping their elbows tight, creating the necessary space for arm insertion. The Brabo Choke excels in scramble situations, turtle attacks, and failed takedown defense scenarios. Its effectiveness comes from the mechanical advantage created by using your entire body weight to compress the opponent's neck against their own shoulder, making it extremely difficult to defend once properly locked. The choke works in both gi and no-gi contexts, though grip variations differ slightly between formats. Modern competitors favor this submission for its high finishing rate and the control it provides throughout the execution process.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Success Rate**: 58% (average across variants)
+</section>
+
+
+<section id="variants" class="content-section">
+
+## What positions can you finish from?
+
+
+<div class="variants-table">
+
+| From Position | Seat | Success | Play as Attacker | Play as Defender |
+|---|---|---|---|---|
+| [[Submissions/Brabo Choke/from Front Headlock|Front Headlock]] | Top | 58% | [[Submissions/Brabo Choke/from Front Headlock/Attacker|Attack →]] | [[Submissions/Brabo Choke/from Front Headlock/Defender|Defend →]] |
+
+
+</div>
+
+
+<details class="mechanical-variations">
+<summary>Mechanical variations (how the choke is finished)</summary>
+
+- **Brabo Choke from Turtle**: When opponent turtles, establish front headlock control and thread arm under their near arm before they can strengthen defensive posture. The turtle position provides excellent setup opportunity. (When to use: Opponent turtles to defend guard pass or takedown; very common in competition)
+- **Rolling Brabo from Failed Shot**: After failed takedown attempt when you're stuck in front headlock, thread the Brabo and use opponent's forward pressure to roll them over you, landing in top position with choke locked. (When to use: Your takedown is defended and opponent has strong sprawl pressure)
+- **Brabo from Side Control Transition**: From side control, if opponent turns into you to escape, capture front headlock and immediately thread Brabo before they complete the turn. (When to use: Opponent attempts to turn toward you during side control escape)
+- **Standing Brabo from Guillotine Fake**: From standing clinch, fake guillotine entry to get opponent to defend, then switch to Brabo arm thread when they hand fight the guillotine. (When to use: Standing grappling exchanges when opponent is guillotine-aware)
+- **High Elbow Brabo Variation**: Instead of standard bicep grip, bring your elbow high above opponent's back and grip your own wrist, creating different angle of pressure. More common in no-gi. (When to use: Standard grip is difficult to secure or opponent is defending traditional angle)
+
+
+</details>
+
+
+</section>
+
+
+<section id="related" class="content-section">
+
+## Related
+- [[Transitions/Darce Choke]] - Same arm-threading family with different entry angle and grip finish
+- [[Transitions/Anaconda Choke]] - Complementary head-and-arm choke with opposite arm threading direction
+- [[Transitions/Guillotine Choke]] - Chain submission when opponent lifts head to defend Brabo threading
+- [[Transitions/Arm Triangle]] - Related shoulder-trap choke using opponent's shoulder as part of mechanism
+- [[Transitions/North-South Choke]] - Alternative blood choke available from similar top control positions
+- [[Submissions/Rear Naked Choke]] - Back-take alternative finish when Brabo defense gives up the back
+- [[Submissions/Arm in Guillotine]] - Similar trapped-arm choking mechanism from front headlock position
+- [[Submissions/Ezekiel Choke]] - Alternative choke available from similar controlling positions in gi
+- [[Positions/Front Headlock]] - Primary setup position - Brabo is initiated from dominant front headlock control
+- [[Positions/Turtle]] - High-percentage entry - turtle defense creates ideal Brabo threading opportunity
+- [[Positions/Darce Control]] - Control position - intermediate position between Brabo setup and finish
+- [[Positions/Anaconda Control]] - Alternative choke - if Brabo angle is blocked, Anaconda threading may be available
+- [[Positions/Crucifix]] - Alternative finish - if Brabo is defended, position may transition to crucifix control
+- [[Positions/Side Control]] - Setup position - Brabo available when opponent attempts to escape toward you
+- [[Positions/Back Control]] - Positional alternative - if Brabo fails, may transition to back take
 
 </section>
 
@@ -102,94 +174,6 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 - Never hold the choke 'just to see' if partner will tap - always release at first signal
 - Avoid practicing at full intensity until proper technique is established (minimum 20+ controlled repetitions)
 
-
-</section>
-
-
-<section id="variation-details" class="content-section hide-minimal">
-
-## Variation Details
-
-
-**Brabo Choke from Turtle**: When opponent turtles, establish front headlock control and thread arm under their near arm before they can strengthen defensive posture. The turtle position provides excellent setup opportunity. (When to use: Opponent turtles to defend guard pass or takedown; very common in competition)
-
-
-**Rolling Brabo from Failed Shot**: After failed takedown attempt when you're stuck in front headlock, thread the Brabo and use opponent's forward pressure to roll them over you, landing in top position with choke locked. (When to use: Your takedown is defended and opponent has strong sprawl pressure)
-
-
-**Brabo from Side Control Transition**: From side control, if opponent turns into you to escape, capture front headlock and immediately thread Brabo before they complete the turn. (When to use: Opponent attempts to turn toward you during side control escape)
-
-
-**Standing Brabo from Guillotine Fake**: From standing clinch, fake guillotine entry to get opponent to defend, then switch to Brabo arm thread when they hand fight the guillotine. (When to use: Standing grappling exchanges when opponent is guillotine-aware)
-
-
-**High Elbow Brabo Variation**: Instead of standard bicep grip, bring your elbow high above opponent's back and grip your own wrist, creating different angle of pressure. More common in no-gi. (When to use: Standard grip is difficult to secure or opponent is defending traditional angle)
-
-
-
-</section>
-
-
-<section id="from-positions" class="content-section">
-
-## From Which Positions?
-
-- [[Positions/Front Headlock]]
-- [[Positions/Turtle]]
-- [[Positions/Side Control]]
-- [[Positions/North-South]]
-- [[Positions/Half Guard]]
-- [[Positions/Clinch]]
-- [[Positions/Combat Base]]
-- [[Positions/Open Guard]]
-
-
-</section>
-
-<section id="related-submissions" class="content-section">
-
-## Related Submissions
-
-- [[Transitions/Darce Choke]] - Same arm-threading family with different entry angle and grip finish
-- [[Transitions/Anaconda Choke]] - Complementary head-and-arm choke with opposite arm threading direction
-- [[Transitions/Guillotine Choke]] - Chain submission when opponent lifts head to defend Brabo threading
-- [[Transitions/Arm Triangle]] - Related shoulder-trap choke using opponent's shoulder as part of mechanism
-- [[Transitions/North-South Choke]] - Alternative blood choke available from similar top control positions
-- [[Submissions/Rear Naked Choke]] - Back-take alternative finish when Brabo defense gives up the back
-- [[Submissions/Arm in Guillotine]] - Similar trapped-arm choking mechanism from front headlock position
-- [[Submissions/Ezekiel Choke]] - Alternative choke available from similar controlling positions in gi
-- [[Anaconda Choke from Anaconda Control]] - Related finish when arm threading angle favors anaconda over brabo
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Positions/Front Headlock]] - Primary setup position - Brabo is initiated from dominant front headlock control
-- [[Positions/Turtle]] - High-percentage entry - turtle defense creates ideal Brabo threading opportunity
-- [[Positions/Darce Control]] - Control position - intermediate position between Brabo setup and finish
-- [[Positions/Anaconda Control]] - Alternative choke - if Brabo angle is blocked, Anaconda threading may be available
-- [[Positions/Crucifix]] - Alternative finish - if Brabo is defended, position may transition to crucifix control
-- [[Transitions/Darce Choke]] - Closely related submission - same arm threading family with different entry angle
-- [[Transitions/Anaconda Choke]] - Complementary attack - threaten both Brabo and Anaconda from turtle to create dilemma
-- [[Transitions/Guillotine Choke]] - Chain submission - transition available when opponent defends by lifting head
-- [[Positions/Side Control]] - Setup position - Brabo available when opponent attempts to escape toward you
-- [[Positions/Back Control]] - Positional alternative - if Brabo fails, may transition to back take
-- [[Submissions/Arm in Guillotine]] - Related choke - similar trapped arm mechanism creates choking pressure
-- [[Transitions/Arm Triangle]] - System connection - both submissions use opponent's shoulder as part of choking mechanism
-
-
-</section>
-
-<section id="terminal-state" class="content-section">
-
-## Match Outcome
-
-Successful execution of Brabo Choke leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

@@ -34,6 +34,18 @@ description: "Master the Sickle Sweep from De La Riva Guard. Step-by-step execut
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sickle Sweep",
+  "description": "The Sickle Sweep is a De La Riva Guard sweep where the bottom player scythes the hooking leg in a wide arc while pushing the opponent's far hip and pulling the collar, toppling a standing opponent backward into mount or side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Sickle Sweep from De La Riva Guard. Step-by-step execut
 
 <section id="overview" class="content-section">
 
-The Sickle Sweep is a fundamental attacking technique from the De La Riva Guard that leverages the hook control to off-balance and sweep your opponent. Named for its characteristic leg hooking motion that resembles a sickle cutting through grass, this sweep exploits the opponent's base when they attempt to pass or establish their posture. The technique combines precise leg positioning with upper body control to create a powerful sweeping motion that drives the opponent backward and allows you to come on top.
+**The Sickle Sweep is a De La Riva Guard sweep where the bottom player scythes the hooking leg in a wide arc while pushing the opponent's far hip and pulling the collar, toppling a standing opponent backward into mount or side control.**
+
+Named for its characteristic leg-hooking motion that resembles a sickle cutting through grass, the Sickle Sweep exploits the opponent's base the moment they attempt to pass or establish posture in your De La Riva Guard. The technique combines precise leg positioning with upper body control to create a powerful sweeping motion that drives the opponent backward and allows you to come on top.
 
 This sweep is particularly effective against opponents who are standing or have elevated their posture in your De La Riva Guard. The sickle motion of your hooking leg combined with a collar or sleeve grip creates a powerful lever system that makes it extremely difficult for the opponent to maintain their balance. Unlike some sweeps that require explosive power, the Sickle Sweep relies on proper timing and technical execution, making it accessible to practitioners at all skill levels.
 

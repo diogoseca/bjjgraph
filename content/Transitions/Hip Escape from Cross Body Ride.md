@@ -34,6 +34,18 @@ description: "Master Hip Escape from Cross Body Ride in BJJ. Essential escape te
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape from Cross Body Ride",
+  "description": "The Hip Escape from Cross Body Ride is a bottom-turtle escape that uses an explosive lateral shrimp against a frame on the rider's hip to create space and recover turtle or half guard before the back take completes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Hip Escape from Cross Body Ride in BJJ. Essential escape te
 </div>
 
 <section id="overview" class="content-section">
+
+**The Hip Escape from Cross Body Ride is a bottom-turtle escape that uses an explosive lateral shrimp against a frame on the rider's hip to create space and recover turtle or half guard before the back take completes.**
 
 The Hip Escape from Cross Body Ride is a fundamental defensive technique employed when the bottom player is trapped beneath perpendicular chest-to-back pressure in the cross body ride configuration. This escape leverages the shrimping motion—BJJ's most essential defensive movement—to create lateral space between the bottom player's hips and the top player's controlling chest. The technique exploits the inherent limitation of cross body positioning: the top player's perpendicular orientation makes it difficult to follow lateral hip movement without releasing pressure or compromising their own base.
 
@@ -235,8 +249,6 @@ The Hip Escape from Cross Body Ride occupies a critical position within the turt
 - [[Transitions/Escape from Cross Body Ride]] - Related escape family encompassing various methods of escaping the ride
 
 - [[Transitions/Roll Escape from Cross Body Ride]] - Alternative escape using rolling mechanics rather than lateral displacement
-
-- [[Transitions/Turtle to Guard]] - Follow-up technique from turtle recovery after successful escape
 
 - [[Transitions/Hip Escape to Guard]] - Related hip escape technique targeting direct guard recovery
 

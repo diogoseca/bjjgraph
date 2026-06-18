@@ -34,6 +34,18 @@ description: "Master Reverse Scarf Hold (Ushiro Kesa Gatame) in BJJ. Complete gu
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Scarf Hold",
+  "description": "Reverse Scarf Hold (Ushiro Kesa Gatame) is a judo-derived side pin where the top player sits chest-down facing the opponent's legs, trading head-side vision for crushing sternum pressure and arm-isolation attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Reverse Scarf Hold (Ushiro Kesa Gatame) in BJJ. Complete gu
 </div>
 
 <section id="overview" class="content-section">
+
+**Reverse Scarf Hold (Ushiro Kesa Gatame) is a judo-derived side pin where the top player sits chest-down facing the opponent's legs, trading head-side vision for crushing sternum pressure and arm-isolation attacks.**
 
 Reverse Scarf Hold (Ushiro Kesa Gatame) represents a unique judo-derived pinning position where the top player faces away from the opponent's head, creating an unconventional control scenario with distinct mechanical properties. Unlike traditional scarf hold positions, the reverse orientation fundamentally alters both the control mechanics and defensive responses, requiring practitioners to abandon standard escape patterns and develop position-specific skills.
 

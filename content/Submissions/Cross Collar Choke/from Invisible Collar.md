@@ -33,10 +33,32 @@ description: "Master the Cross Collar Choke Finish from Invisible Collar in BJJ.
 }
 </script>
 
-> **SAFETY**: Cross Collar Choke from Invisible Collar targets the Neck (Carotid Arteries). Risk: Carotid artery occlusion causing loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Collar Choke from Invisible Collar",
+  "description": "The Cross Collar Choke from Invisible Collar is a gi blood choke finished from back control, where the attacker rotates a concealed deep-collar grip into both carotid arteries before the defender recognizes the strangle is already locked.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Cross Collar Choke from Invisible Collar is a gi blood choke finished from back control, where the attacker rotates a concealed deep-collar grip into both carotid arteries before the defender recognizes the strangle is already locked.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Neck (Carotid Arteries)</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Cross Collar Choke from Invisible Collar targets the Neck (Carotid Arteries). Primary risk: Carotid artery occlusion causing loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,48 +75,7 @@ The finishing mechanics differ fundamentally from mounted cross collar variation
 
 Strategically, this finish serves as the primary payoff for invisible collar positioning. When opponents defend effectively, the failed attempt maintains back control rather than surrendering position, making it a low-risk submission attempt. The technique chains naturally with rear naked choke attacks, creating a dilemma where defending one option opens vulnerability to the other.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Neck (Carotid Arteries)
-**Starting Position**: [[Positions/Rubber Guard/Invisible Collar]]
-**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery occlusion causing loss of consciousness | CRITICAL | Usually immediate upon release; seek medical attention if consciousness not regained within 20 seconds |
-| Tracheal bruising or damage from improperly applied pressure targeting windpipe instead of arteries | High | 1-4 weeks depending on severity; may require medical evaluation for swallowing difficulty |
-| Cervical spine strain from resisting choke with aggressive neck extension or rotation | Medium | 1-2 weeks with rest and anti-inflammatory treatment |
-
-
-**Application Speed**: Blood choke onset in 3-8 seconds when properly applied. Unconsciousness can occur within 10 seconds of full arterial compression. Release immediately upon any tap signal. Never hold to test tightness after tap.
-
-**Tap Signals**:
-- Hand tap on opponent's body, arm, or mat (minimum two distinct taps)
-- Verbal tap - saying 'tap' or any distress vocalization
-- Foot tap on mat when hands are trapped or unavailable
-- Going limp or ceasing all defensive movement (treat as unconsciousness, release immediately)
-
-
-**Release Protocol**:
-1. Release all choking pressure immediately upon feeling or hearing any tap signal
-2. Maintain light positional control briefly while confirming partner is conscious and responsive
-3. If partner loses consciousness, release immediately, place in recovery position, monitor breathing, and seek medical attention if not responsive within 20 seconds
-
-
-**Training Restrictions**:
-- Beginners should only practice grip mechanics and positioning without applying finishing pressure until proper technique is confirmed by instructor
-- Never apply this technique when either partner is fatigued, as diminished awareness increases accident risk for both practitioners
-- Always train with an attentive training partner who understands tap signals and release protocols before drilling finishing mechanics
-
+**Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] · **From**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
 
 </section>
 
@@ -256,42 +237,55 @@ Strategically, this finish serves as the primary payoff for invisible collar pos
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Rubber Guard/Invisible Collar]] - Starting position for this finish
 - [[Positions/Back Control]] - Fallback position on failed attempt
-- [[Submissions/Rear Naked Choke]] - Primary alternative when collar grip is defended
 - [[Transitions/Armbar from Back Transition]] - Chain attack when opponent extends arms to defend collar
-- [[Submissions/Bow and Arrow Choke]] - Alternative collar finish variation from back control
 - [[Positions/Back Control/Body Triangle]] - Enhanced control platform for finishing stability
 - [[Positions/Crucifix]] - Transition target when opponent turns into collar side
-- [[Submissions/Cross Collar Choke]] - Parent submission family with front-facing variations
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Cross Collar Choke from Invisible Collar leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery occlusion causing loss of consciousness | CRITICAL | Usually immediate upon release; seek medical attention if consciousness not regained within 20 seconds |
+| Tracheal bruising or damage from improperly applied pressure targeting windpipe instead of arteries | High | 1-4 weeks depending on severity; may require medical evaluation for swallowing difficulty |
+| Cervical spine strain from resisting choke with aggressive neck extension or rotation | Medium | 1-2 weeks with rest and anti-inflammatory treatment |
+
+
+**Application Speed**: Blood choke onset in 3-8 seconds when properly applied. Unconsciousness can occur within 10 seconds of full arterial compression. Release immediately upon any tap signal. Never hold to test tightness after tap.
+
+**Tap Signals**:
+- Hand tap on opponent's body, arm, or mat (minimum two distinct taps)
+- Verbal tap - saying 'tap' or any distress vocalization
+- Foot tap on mat when hands are trapped or unavailable
+- Going limp or ceasing all defensive movement (treat as unconsciousness, release immediately)
+
+
+**Release Protocol**:
+1. Release all choking pressure immediately upon feeling or hearing any tap signal
+2. Maintain light positional control briefly while confirming partner is conscious and responsive
+3. If partner loses consciousness, release immediately, place in recovery position, monitor breathing, and seek medical attention if not responsive within 20 seconds
+
+
+**Training Restrictions**:
+- Beginners should only practice grip mechanics and positioning without applying finishing pressure until proper technique is confirmed by instructor
+- Never apply this technique when either partner is fatigued, as diminished awareness increases accident risk for both practitioners
+- Always train with an attentive training partner who understands tap signals and release protocols before drilling finishing mechanics
+
 
 </section>
 

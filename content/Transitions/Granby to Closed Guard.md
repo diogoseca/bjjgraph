@@ -34,6 +34,18 @@ description: "Learn Granby to Closed Guard recovery technique. Master Granby rol
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Granby to Closed Guard",
+  "description": "Granby to Closed Guard is a turtle-bottom escape that uses a diagonal shoulder roll to invert away from the top player's forward pressure, thread the legs back in, and recover closed guard before the back can be taken.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Granby to Closed Guard recovery technique. Master Granby rol
 </div>
 
 <section id="overview" class="content-section">
+
+**Granby to Closed Guard is a turtle-bottom escape that uses a diagonal shoulder roll to invert away from the top player's forward pressure, thread the legs back in, and recover closed guard before the back can be taken.**
 
 The Granby to Closed Guard is a dynamic defensive recovery technique that uses the Granby roll motion to transition from compromised bottom positions back to closed guard. This technique is essential for practitioners who find themselves in turtle, side control escape scenarios, or other defensive positions where traditional guard recovery methods are unavailable. The movement combines a shoulder roll with hip rotation to create space and redirect momentum, allowing you to insert your legs between you and your opponent to re-establish guard.
 

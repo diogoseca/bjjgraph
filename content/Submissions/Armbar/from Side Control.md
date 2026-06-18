@@ -33,10 +33,32 @@ description: "Master the Armbar from Side Control in BJJ. Complete guide coverin
 }
 </script>
 
-> **SAFETY**: Armbar from Side Control targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from Side Control",
+  "description": "The Armbar from Side Control is a top-position joint lock that isolates the opponent's near arm, steps a leg over their head, and hyperextends the elbow across your hips to force the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Armbar from Side Control is a top-position joint lock that isolates the opponent's near arm, steps a leg over their head, and hyperextends the elbow across your hips to force the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Armbar from Side Control targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,60 +69,13 @@ description: "Master the Armbar from Side Control in BJJ. Complete guide coverin
 
 <section id="overview" class="content-section">
 
-The Armbar from Side Control is a fundamental finishing technique that targets the elbow joint through hyperextension. This submission capitalizes on the top player's dominant position and the control established in side control, making it one of the most reliable joint locks in Brazilian Jiu-Jitsu. The technique works by isolating the opponent's arm, typically the near arm, and creating a fulcrum across your hips while extending their elbow beyond its natural range of motion.
+As one of the most reliable joint locks available to the top player, this armbar converts the positional dominance and control established in side control directly into a fight-ending attack on the elbow joint. It works by isolating the opponent's arm, typically the near arm, and creating a fulcrum across your hips while extending their elbow beyond its natural range of motion.
 
 The effectiveness of this armbar lies in the combination of positional control and precise technical execution. Unlike the armbar from mount or guard, the side control variation requires careful attention to maintaining weight distribution and preventing the opponent from turning into you or escaping their hips. The transitional phase—stepping your leg over the opponent's head while maintaining arm isolation—is the most vulnerable moment and demands methodical setup.
 
 The submission can be entered from various side control variations including standard side control, kesa gatame, kuzure kesa-gatame, and knee on belly, making it a versatile finishing option from top position. Chain attacks to kimura, americana, and arm triangle create a comprehensive submission system where defending one threat opens another.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint
-**Starting Position**: [[Positions/Side Control]]
-**From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension | Medium | 2-4 weeks |
-| Elbow ligament tear (MCL/LCL) | High | 6-12 weeks |
-| Bicep tendon strain | Medium | 3-6 weeks |
-| Complete elbow dislocation | CRITICAL | 3-6 months |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finish
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on opponent's body
-- Physical foot tap on mat
-- Any distress vocalization
-- Frantic tapping motion anywhere
-
-
-**Release Protocol**:
-1. Immediately stop all extension pressure
-2. Release hip pressure and lower your hips
-3. Open your legs and allow opponent's arm to bend naturally
-4. Maintain control but remove all finishing pressure
-5. Check with training partner before resuming
-
-
-**Training Restrictions**:
-- Never spike or jerk the armbar - always apply smooth, progressive pressure
-- Never use competition speed in training - allow time for tap response
-- Always ensure training partner has free hand to tap
-- Do not practice on injured or hyperflexible opponents without instructor approval
-- White belts should only practice under direct supervision
-
+**Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -271,15 +246,13 @@ The submission can be entered from various side control variations including sta
 - [[Positions/Side Control/Modified Scarf Hold]]
 - [[Positions/North-South]]
 - [[Positions/Knee on Belly]]
-- [[Positions/Side Control]]
 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura/from Mount]]
 - [[Submissions/Kimura/from Guard]]
 - [[Submissions/Kimura]]
@@ -289,14 +262,6 @@ The submission can be entered from various side control variations including sta
 - [[Transitions/North-South Choke]]
 - [[Transitions/Darce Choke]]
 - [[Submissions/Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control]] - Primary starting position for this submission
 - [[Positions/Side Control/Kesa Gatame]] - Alternative starting position with similar mechanics
 - [[Positions/Mount]] - Alternative dominant position for armbar variations
@@ -304,20 +269,50 @@ The submission can be entered from various side control variations including sta
 - [[Positions/Armbar Control]] - Control position for maintaining armbar finishing position
 - [[Transitions/Side Control to Mount]] - Alternative transition if armbar is not available
 - [[Transitions/Side Control to North-South]] - Position transition that can lead to armbar setup
-- [[Submissions/Kimura/from Guard]] - Sibling armbar variation with shared finishing mechanics from guard position
 - [[Positions/Gift Wrap]] - Control position that can transition to armbar
 - [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold with arm isolation ideal for armbar entry
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Armbar from Side Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension | Medium | 2-4 weeks |
+| Elbow ligament tear (MCL/LCL) | High | 6-12 weeks |
+| Bicep tendon strain | Medium | 3-6 weeks |
+| Complete elbow dislocation | CRITICAL | 3-6 months |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finish
+
+**Tap Signals**:
+- Verbal tap
+- Physical hand tap on opponent's body
+- Physical foot tap on mat
+- Any distress vocalization
+- Frantic tapping motion anywhere
+
+
+**Release Protocol**:
+1. Immediately stop all extension pressure
+2. Release hip pressure and lower your hips
+3. Open your legs and allow opponent's arm to bend naturally
+4. Maintain control but remove all finishing pressure
+5. Check with training partner before resuming
+
+
+**Training Restrictions**:
+- Never spike or jerk the armbar - always apply smooth, progressive pressure
+- Never use competition speed in training - allow time for tap response
+- Always ensure training partner has free hand to tap
+- Do not practice on injured or hyperflexible opponents without instructor approval
+- White belts should only practice under direct supervision
+
 
 </section>
 

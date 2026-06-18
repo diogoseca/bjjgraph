@@ -33,10 +33,32 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
 }
 </script>
 
-> **SAFETY**: Kneebar from Kneebar Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Kneebar Control",
+  "description": "The kneebar from kneebar control is a leg-lock submission that hyperextends the opponent's isolated knee by pulling their captured leg tight to the chest while driving the hips forward and arching the back against the joint's natural flexion.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The kneebar from kneebar control is a leg-lock submission that hyperextends the opponent's isolated knee by pulling their captured leg tight to the chest while driving the hips forward and arching the back against the joint's natural flexion.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Kneebar from Kneebar Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,53 +75,7 @@ What distinguishes the kneebar finish from kneebar control versus entries from o
 
 Strategically, the kneebar from kneebar control functions as the terminal submission within the leg attack system. When an opponent successfully defends the initial finish, the position naturally chains into heel hooks, toe holds, and calf slicers based on defensive reactions. Understanding these branching pathways transforms the kneebar from a single-technique gamble into a systematic attack sequence where each defensive response opens a new submission threat.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)
-**Starting Position**: [[Positions/Kneebar Control]]
-**From Position**: [[Positions/Kneebar Control]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Posterior cruciate ligament (PCL) tear | High | 6-12 months with surgical intervention |
-| Medial collateral ligament (MCL) strain or tear | Medium | 4-8 weeks for grade 1-2, 3-6 months for grade 3 |
-| Joint capsule damage | Medium | 6-12 weeks |
-| Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
-
-
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress vocalization or signal
-
-
-**Release Protocol**:
-1. Immediately stop all hip extension the moment tap is received
-2. Release hip pressure by dropping hips away from opponent's leg
-3. Maintain positional control while releasing the leg slowly
-4. Allow opponent to extract their leg at their own pace
-5. Check with partner verbally after release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply smooth, progressive pressure
-- Never use competition speed or intensity in training rolls
-- Always communicate with training partners about leg lock experience level
-- Never continue pressure after any tap signal
-- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
-
+**Starting Position**: [[Positions/Kneebar Control]] · **From**: [[Positions/Kneebar Control]] (Top)
 
 </section>
 
@@ -258,40 +234,61 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Flying Kneebar]]
 - [[Transitions/Estima Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Kneebar Control]] - Starting control position for this submission finish
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary leg entanglement entry leading to kneebar control
 - [[Positions/Ashi Garami/Saddle]] - Alternative leg entanglement position when opponent defends kneebar by rotating
 - [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical entanglement offering mutual kneebar exchange opportunities
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Outside leg control variant providing different kneebar finishing angles
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kneebar from Kneebar Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Posterior cruciate ligament (PCL) tear | High | 6-12 months with surgical intervention |
+| Medial collateral ligament (MCL) strain or tear | Medium | 4-8 weeks for grade 1-2, 3-6 months for grade 3 |
+| Joint capsule damage | Medium | 6-12 weeks |
+| Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
+
+
+**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
+
+**Tap Signals**:
+- Verbal tap or verbal signal
+- Physical hand tap on opponent or mat
+- Physical foot tap on opponent or mat
+- Any distress vocalization or signal
+
+
+**Release Protocol**:
+1. Immediately stop all hip extension the moment tap is received
+2. Release hip pressure by dropping hips away from opponent's leg
+3. Maintain positional control while releasing the leg slowly
+4. Allow opponent to extract their leg at their own pace
+5. Check with partner verbally after release
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - always apply smooth, progressive pressure
+- Never use competition speed or intensity in training rolls
+- Always communicate with training partners about leg lock experience level
+- Never continue pressure after any tap signal
+- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
+
 
 </section>
 

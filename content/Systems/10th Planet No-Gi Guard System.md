@@ -135,6 +135,16 @@ description: "Master 10th Planet No-Gi Guard System with rubber guard, lockdown,
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "10th Planet No-Gi Guard System",
+  "description": "The 10th Planet No-Gi Guard System is Eddie Bravo's gi-free guard framework that chains rubber guard, lockdown half guard, and the truck/twister series into a connected web of sweeps and submissions built on flexibility and unorthodox control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -149,7 +159,9 @@ description: "Master 10th Planet No-Gi Guard System with rubber guard, lockdown,
 
 ## What is 10th Planet No-Gi Guard System?
 
-The 10th Planet No-Gi Guard System represents Eddie Bravo's revolutionary approach to guard play without the gi, emphasizing flexibility, unorthodox positions, and submission chains. This comprehensive system integrates rubber guard positions (Mission Control, New York, Meathook), lockdown-based attacks from half guard, and the twister series from turtle positions. The system prioritizes control through unconventional grips and body positioning that cannot be replicated in gi-based training, making it particularly effective in MMA and no-gi competition.
+**The 10th Planet No-Gi Guard System is Eddie Bravo's gi-free guard framework that chains rubber guard, lockdown half guard, and the truck/twister series into a connected web of sweeps and submissions built on flexibility and unorthodox control.**
+
+Developed by Eddie Bravo in the early 2000s and propelled to fame by his match against Royler Gracie, this system grew out of a deliberate rejection of gi-dependent guard play. It integrates rubber guard positions (Mission Control, New York, Meathook), lockdown-based attacks from half guard, and the twister series from turtle positions. The system prioritizes control through unconventional grips and body positioning that cannot be replicated in gi-based training, making it particularly effective in MMA and no-gi competition.
 
 At its core, the 10th Planet system challenges traditional guard concepts by utilizing extreme flexibility, hip mobility, and creative angles to break posture and create submission opportunities. The rubber guard series controls opponents through overhooks and leg control, while the lockdown system from half guard uses the legs to trap and sweep. The twister path provides a unique submission series from scrambles and turtle positions. Each subsystem connects through strategic transitions, creating a web of attacking options that keeps opponents constantly defending.
 

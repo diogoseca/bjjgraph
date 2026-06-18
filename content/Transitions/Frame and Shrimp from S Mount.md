@@ -34,6 +34,18 @@ description: "Master the Frame and Shrimp escape from S Mount in BJJ. Essential 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame and Shrimp from S Mount",
+  "description": "Frame and Shrimp from S Mount is a fundamental bottom escape that uses forearm frames against the opponent's hips combined with lateral shrimping to create space, insert a knee, and recover half guard from this armbar-threatening position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Frame and Shrimp escape from S Mount in BJJ. Essential 
 </div>
 
 <section id="overview" class="content-section">
+
+**Frame and Shrimp from S Mount is a fundamental bottom escape that uses forearm frames against the opponent's hips combined with lateral shrimping to create space, insert a knee, and recover half guard from this armbar-threatening position.**
 
 The Frame and Shrimp from S Mount is the primary fundamental escape when trapped beneath an opponent's S Mount position. S Mount places the bottom practitioner in immediate submission danger, particularly armbars, as the top person sits perpendicular with one leg over the head and the other across the torso, isolating the near arm. The Frame and Shrimp uses defensive forearm frames against the opponent's hips combined with systematic hip escaping (shrimping) to create enough lateral space to insert a knee and recover half guard.
 

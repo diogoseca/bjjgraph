@@ -34,6 +34,18 @@ description: "Master the Forward Roll escape from Turtle in BJJ. Complete guide 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Forward Roll",
+  "description": "The Forward Roll is a defensive rolling escape in which the bottom player tucks the chin and rolls diagonally across one shoulder to clear the opponent's back control and recover an upright seated guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Forward Roll escape from Turtle in BJJ. Complete guide 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Forward Roll is a defensive rolling escape in which the bottom player tucks the chin and rolls diagonally across one shoulder to clear the opponent's back control and recover an upright seated guard.**
 
 The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu used primarily to escape turtle position and recover guard. This dynamic rolling motion allows practitioners to create distance from opponents applying back control pressure, transitioning from a vulnerable four-point base into seated guard where offensive options become available. The forward roll is particularly effective when combined with proper timing and spatial awareness, enabling practitioners to turn defensive situations into offensive opportunities.
 

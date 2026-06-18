@@ -33,10 +33,32 @@ description: "Master Kimura from North-South in BJJ. Complete safety guide with 
 }
 </script>
 
-> **SAFETY**: Kimura from North-South targets the Shoulder joint, rotator cuff, and surrounding ligaments. Risk: Rotator cuff tear (supraspinatus, infraspinatus, subscapularis damage). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from North-South",
+  "description": "The Kimura from North-South is a figure-four shoulder lock applied from the perpendicular north-south pin, isolating the opponent's near arm and rotating it away from their head to torque the shoulder joint until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from North-South is a figure-four shoulder lock applied from the perpendicular north-south pin, isolating the opponent's near arm and rotating it away from their head to torque the shoulder joint until they tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and surrounding ligaments</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from North-South targets the Shoulder joint, rotator cuff, and surrounding ligaments. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, subscapularis damage). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,57 +69,9 @@ description: "Master Kimura from North-South in BJJ. Complete safety guide with 
 
 <section id="overview" class="content-section">
 
-The Kimura from North-South is a powerful shoulder lock that exploits the vulnerable arm position inherent to north-south control. This submission represents a high-percentage finishing option from one of the most stable top positions in Brazilian Jiu-Jitsu. The north-south position provides exceptional control over the opponent's upper body while creating natural opportunities to isolate and attack the near-side arm. When the opponent frames or attempts to create space, their arm becomes exposed to the figure-four grip that characterizes the Kimura lock. The mechanical advantage from north-south is significant—you can generate rotational pressure on the shoulder joint while maintaining heavy chest pressure that prevents hip escape. The angle of attack differs from traditional side control or guard-based Kimuras, requiring adaptations in grip placement and finishing mechanics. Understanding the proper application speed and safety protocols is essential, as the north-south angle can generate extreme leverage on the shoulder complex with minimal warning to training partners.
+Among the attacks available from the north-south pin, the Kimura stands out as a high-percentage finish that converts the position's crushing chest pressure into a shoulder-isolating threat. This submission represents one of the most reliable finishing options from one of the most stable top positions in Brazilian Jiu-Jitsu. The north-south position provides exceptional control over the opponent's upper body while creating natural opportunities to isolate and attack the near-side arm. When the opponent frames or attempts to create space, their arm becomes exposed to the figure-four grip that characterizes the Kimura lock. The mechanical advantage from north-south is significant—you can generate rotational pressure on the shoulder joint while maintaining heavy chest pressure that prevents hip escape. The angle of attack differs from traditional side control or guard-based Kimuras, requiring adaptations in grip placement and finishing mechanics. Understanding the proper application speed and safety protocols is essential, as the north-south angle can generate extreme leverage on the shoulder complex with minimal warning to training partners.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and surrounding ligaments
-**Starting Position**: [[Positions/North-South]]
-**From Position**: [[Positions/North-South]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, subscapularis damage) | High | 4-8 months with surgical intervention; 6-12 weeks for partial tears with physical therapy |
-| Anterior shoulder dislocation with labral damage | High | 3-6 months minimum; potential for chronic instability requiring surgery |
-| AC joint separation or clavicle stress | Medium | 4-8 weeks for grade I-II; 3-4 months for grade III requiring surgical repair |
-| Bicep tendon strain or tear at shoulder attachment | Medium | 6-12 weeks for strains; 3-6 months for complete tears |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to submission. The north-south angle creates deceptive leverage that can injure before partner recognizes danger.
-
-**Tap Signals**:
-- Verbal tap or verbal submission call
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress vocalization or panic signal
-- Rapid head shaking or nodding
-
-
-**Release Protocol**:
-1. Immediately cease all rotational pressure on the shoulder
-2. Release the wrist control grip first to eliminate tension
-3. Gently guide the arm back to neutral position alongside opponent's body
-4. Reduce chest pressure gradually to allow partner to recover breathing
-5. Check with partner verbally before continuing training
-
-
-**Training Restrictions**:
-- Never spike, jerk, or apply explosive force to the submission
-- Never use competition-speed application in training rolls
-- Always ensure partner has at least one arm free to tap
-- Stop immediately at first sign of discomfort even without tap
-- Never force the submission if opponent's shoulder mobility is limited
-- Avoid training this submission with partners recovering from shoulder injuries
-
+**Starting Position**: [[Positions/North-South]] · **From**: [[Positions/North-South]] (Top)
 
 </section>
 
@@ -264,10 +238,9 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Reverse Kimura]]
@@ -277,36 +250,56 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Transitions/Darce Choke]]
 - [[Submissions/Bicep Slicer]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/North-South]] - Primary starting position providing optimal control and leverage angle
 - [[Positions/Kimura Trap]] - System utilizing Kimura grip for positional control and submission chains
-- [[Submissions/Kimura]] - Parent submission family with variations from multiple positions and different finishing angles
 - [[Positions/Side Control]] - Related top control position offering alternative Kimura angles
-- [[Submissions/Americana]] - Alternative shoulder lock using similar figure-four mechanics but different rotation direction
 - [[Positions/Armbar Control]] - Alternative joint lock control position if Kimura grip is defended
-- [[Submissions/Reverse Kimura]] - Related shoulder lock with reverse grip mechanics and complementary finishing angle
 - [[Positions/Turtle]] - Common defensive position opponent may assume, creating alternative Kimura opportunities
 - [[Positions/Back Control]] - Positional transition when opponent rolls into Kimura defense
 - [[Positions/Mount]] - Alternative dominant position offering different Kimura leverage angle and control dynamics
-- [[Transitions/North-South Choke]] - Complementary attack creating dilemma when opponent defends Kimura by hiding arm
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kimura from North-South leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, subscapularis damage) | High | 4-8 months with surgical intervention; 6-12 weeks for partial tears with physical therapy |
+| Anterior shoulder dislocation with labral damage | High | 3-6 months minimum; potential for chronic instability requiring surgery |
+| AC joint separation or clavicle stress | Medium | 4-8 weeks for grade I-II; 3-4 months for grade III requiring surgical repair |
+| Bicep tendon strain or tear at shoulder attachment | Medium | 6-12 weeks for strains; 3-6 months for complete tears |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to submission. The north-south angle creates deceptive leverage that can injure before partner recognizes danger.
+
+**Tap Signals**:
+- Verbal tap or verbal submission call
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Any distress vocalization or panic signal
+- Rapid head shaking or nodding
+
+
+**Release Protocol**:
+1. Immediately cease all rotational pressure on the shoulder
+2. Release the wrist control grip first to eliminate tension
+3. Gently guide the arm back to neutral position alongside opponent's body
+4. Reduce chest pressure gradually to allow partner to recover breathing
+5. Check with partner verbally before continuing training
+
+
+**Training Restrictions**:
+- Never spike, jerk, or apply explosive force to the submission
+- Never use competition-speed application in training rolls
+- Always ensure partner has at least one arm free to tap
+- Stop immediately at first sign of discomfort even without tap
+- Never force the submission if opponent's shoulder mobility is limited
+- Avoid training this submission with partners recovering from shoulder injuries
+
 
 </section>
 

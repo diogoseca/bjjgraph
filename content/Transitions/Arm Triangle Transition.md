@@ -34,6 +34,18 @@ description: "Learn the Arm Triangle Transition from bottom Hindulotine in BJJ. 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Triangle Transition",
+  "description": "The Arm Triangle Transition is a no-gi attack from bottom Hindulotine that converts a guillotine grip into a head-and-arm choke by trapping the opponent's defensive frame against their own neck, then sweeping to side control to finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,11 +57,13 @@ description: "Learn the Arm Triangle Transition from bottom Hindulotine in BJJ. 
 
 <section id="overview" class="content-section">
 
-The Arm Triangle Transition from bottom Hindulotine converts a guillotine-based attack into a head-and-arm choke configuration by exploiting the opponent's defensive framing. When the bottom player holds the Hindulotine and the opponent creates a near-side frame to relieve neck pressure, that defensive arm becomes the structural element needed for the arm triangle. The attacker releases the guillotine grip, threads their arm under the opponent's neck and traps the framing arm against the opponent's own head, then uses a sweep or hip escape sequence to achieve side control with the arm triangle locked.
+**The Arm Triangle Transition is a no-gi attack from bottom Hindulotine that converts a guillotine grip into a head-and-arm choke by trapping the opponent's defensive frame against their own neck, then sweeping to side control to finish.**
 
-Strategically, this transition punishes one of the most common Hindulotine defenses. Opponents who frame against the guillotine create exactly the arm-and-head configuration that makes the arm triangle possible. This creates a powerful dilemma: defending the guillotine by framing opens the arm triangle, while keeping arms tight to defend the arm triangle leaves the guillotine finish available. Advanced practitioners use this dichotomy as the foundation of their Hindulotine attack system, flowing between both threats based on the opponent's reactions.
+This transition sits at the center of the Hindulotine attack system, punishing one of the most common guillotine defenses: the near-side frame. When the bottom player holds the Hindulotine and the opponent creates a near-side frame to relieve neck pressure, that defensive arm becomes the structural element needed for the arm triangle. The attacker clamps the framing arm against the opponent's own head, releases the guillotine grip, threads the choking arm under the neck, then uses a butterfly sweep or hip-escape sequence to arrive in side control with the arm triangle already locked.
 
-The technique requires precise timing during the grip transition. Releasing the guillotine before the opponent's arm is fully trapped results in losing offensive position entirely. The sweep or reversal component is equally critical—the arm triangle finishes from side control, not from bottom position. Practitioners must combine upper body grip reconfiguration with lower body sweeping mechanics simultaneously, making this a high-level transition that rewards drilling and positional awareness.
+Strategically, the technique creates a powerful dilemma. Opponents who frame against the guillotine build exactly the arm-and-head configuration that makes the arm triangle possible, while keeping the arms tight to defend the arm triangle leaves the guillotine finish available. Advanced practitioners use this dichotomy as the backbone of their Hindulotine attack, flowing between both threats based on the opponent's reactions and reading turning escapes as back-take invitations.
+
+The technique demands precise timing during the grip transition. Releasing the guillotine before the opponent's arm is fully trapped surrenders the offensive position entirely. The sweep or reversal component is equally critical—the arm triangle finishes from side control, not from bottom position. Practitioners must blend upper-body grip reconfiguration with lower-body sweeping mechanics simultaneously, making this a high-level transition that rewards drilling and positional awareness.
 
 **From Position**: [[Positions/Hindulotine]] (Bottom)
 **Success Rate**: 55%

@@ -143,6 +143,16 @@ description: "Master connection principles in BJJ. Learn grip management, frame 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Connection Principles",
+  "description": "Connection Principles are the framework governing how grips, frames, hooks, and contact points are established, maintained, broken, and chained to control an opponent's body while preserving your own mobility and tactical options.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master connection principles in BJJ. Learn grip management, frame 
 
 ## What are Connection Principles?
 
-Connection Principles constitute one of the most fundamental yet nuanced concepts in Brazilian Jiu-Jitsu, governing how practitioners establish, maintain, and break physical contact points with their opponents. At its core, this concept recognizes that grappling is fundamentally about controlling another person's body through strategic points of contact - connections that can either enable control or create vulnerability depending on their application. Understanding connection principles transforms random grabbing into systematic control, allowing practitioners to dictate their opponent's movement possibilities while preserving their own mobility and options.
+**Connection Principles are the framework governing how grips, frames, hooks, and contact points are established, maintained, broken, and chained to control an opponent's body while preserving your own mobility and tactical options.**
+
+In grappling, every exchange is mediated by points of physical contact, and the difference between a practitioner who controls those points and one who merely grabs at them often decides the outcome. At its core, this concept recognizes that grappling is fundamentally about controlling another person's body through strategic points of contact - connections that can either enable control or create vulnerability depending on their application. Understanding connection principles transforms random grabbing into systematic control, allowing practitioners to dictate their opponent's movement possibilities while preserving their own mobility and options.
 
 The concept operates on multiple levels simultaneously: offensive connections that enable attacks and control, defensive connections that create barriers and preserve space, and neutral connections that establish positional awareness. Every grip, frame, hook, and contact point represents a connection that either enhances or diminishes tactical position. Master grapplers distinguish themselves not through superior strength or flexibility, but through their sophisticated understanding of which connections to establish, which to maintain, which to break, and when to transition between these states. This knowledge allows them to control opponents who may be physically stronger by strategically managing the quality and positioning of connection points.
 
@@ -371,7 +383,7 @@ Sparring sessions with specific connection limitations such as one-arm only, no 
 - **[[Distance Control]]** (Complementary): Distance Control and Connection Principles work together; connections enable control of distance and positioning, while space awareness informs which connections to establish or break
 - **[[Center of Gravity]]** (Complementary): Proper weight distribution enhances connection effectiveness by ensuring grips and frames are supported by skeletal structure rather than muscular tension
 - **[[Posture]]** (Extension): Posture techniques require proper connections to transmit destabilizing forces; connection principles provide the foundation for effective kuzushi and off-balancing application
-- **[[Sleeve Control]]** (Extension): Sleeve Control applies connection principles to specific arm management, using sleeve grips to neutralize opponent's offensive and defensive capabilities through targeted connection dominance
+- **[[Collar Control]]** (Extension): Collar Control applies connection principles to specific collar grips, using lapel and collar connections to dominate posture and set up attacks through targeted connection management
 
 
 ### Related Content

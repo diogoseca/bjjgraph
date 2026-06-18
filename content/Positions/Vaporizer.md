@@ -34,6 +34,18 @@ description: "Master Vaporizer position in BJJ. 10th Planet innovation for lockd
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Vaporizer",
+  "description": "The Vaporizer is a 10th Planet half-guard control where the bottom player combines a deep lockdown with a hip-driven whip-up motion and an upper-body underhook to off-balance the top player, opening sweeps, the Electric Chair, and Truck entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Vaporizer position in BJJ. 10th Planet innovation for lockd
 </div>
 
 <section id="overview" class="content-section">
+
+**The Vaporizer is a 10th Planet half-guard control where the bottom player combines a deep lockdown with a hip-driven whip-up motion and an upper-body underhook to off-balance the top player, opening sweeps, the Electric Chair, and Truck entries.**
 
 The Vaporizer is an advanced controlling position within the 10th Planet system, representing a strategic extension of the lockdown half guard. This position is characterized by establishing a deep lockdown while simultaneously creating a powerful whip-up motion that forces the opponent onto their side or back. The practitioner uses the lockdown to control the opponent's leg while employing an underhook or overhook to manipulate their upper body, creating a mechanical advantage that makes escape extremely difficult.
 

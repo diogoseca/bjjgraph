@@ -34,6 +34,18 @@ description: "Master the Twister Side Control to Back Take in BJJ. Complete guid
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister SC to Back Take",
+  "description": "Twister SC to Back Take is a 10th Planet transition where the top player follows the opponent's defensive turn out of Twister Side Control, threading hooks behind the hips and securing a seatbelt to convert lateral control into dominant back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Twister Side Control to Back Take in BJJ. Complete guid
 </div>
 
 <section id="overview" class="content-section">
+
+**Twister SC to Back Take is a 10th Planet transition where the top player follows the opponent's defensive turn out of Twister Side Control, threading hooks behind the hips and securing a seatbelt to convert lateral control into dominant back control.**
 
 The Twister Side Control to Back Take is a high-percentage transitional technique within the 10th Planet system that capitalizes on the unique lateral control mechanics of Twister Side Control to establish the most dominant position in grappling. When the bottom player attempts to relieve spinal pressure by turning away or creating frames, the top player follows the rotation and threads hooks behind the opponent's hips, converting lateral torque control into full rear body control with seatbelt grip and dual hooks.
 
@@ -236,8 +250,6 @@ The Twister Side Control to Back Take occupies a critical junction in the 10th P
 - [[Positions/Crab Ride]] - Alternative intermediate position accessible during the back take transition for additional control security
 
 - [[Transitions/Escape Twister Side Control]] - Primary defensive transition the bottom player uses to prevent or abort the back take sequence
-
-- [[Transitions/Truck to Back Control]] - Analogous back take transition from the closely related truck position sharing similar mechanics and timing
 
 - [[Transitions/Turn In from Twister Side Control]] - Defensive counter-movement where the bottom player turns toward the attacker to prevent back exposure
 

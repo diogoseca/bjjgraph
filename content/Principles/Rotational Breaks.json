@@ -15,7 +15,8 @@
   "application_level": "Intermediate",
   "complexity_level": "High",
   "development_timeline": "Intermediate to Expert",
-  "overview": "Rotational breaks are the submission mechanic that exploits a joint's limited rotational range of motion by applying twisting force past its anatomical limit. While hyperextension attacks like armbars push a joint in one linear plane, rotational breaks twist the joint along its rotational axis, attacking ligaments and tendons that resist rotation. The shoulder's internal and external rotation limits are exploited by the Kimura and Americana respectively. The knee's rotational vulnerability is exploited by inside and outside heel hooks. Even the spine's rotational limits come into play with twisting attacks like the Twister.\n\nWhat makes rotational breaks particularly dangerous is the relative lack of proprioceptive feedback compared to hyperextension. When someone straightens your arm, you feel the stretch gradually and can tap in time. When someone rotates your knee past its limit, the ligament damage can occur before you register significant pain. This is why heel hooks have historically been restricted in many competition rulesets and why understanding the mechanics is critical for both attacking safely and defending intelligently.\n\nThe core mechanic is consistent across all rotational submissions: isolate the joint, control the limb segments on both sides of the target joint, and apply rotational force while preventing the opponent from rotating their body to relieve the pressure. The attacker must create a closed system where the only thing that can give is the joint itself.",
+  "summary": "Rotational breaks are joint submissions that apply twisting force along a joint's rotational axis past its anatomical limit, loading the ligaments that resist rotation — the shared mechanic behind Kimuras, Americanas, heel hooks, and the Twister.",
+  "overview": "Joint attacks in submission grappling fall into two broad families, and rotational breaks are the family defined by the plane of attack rather than by the joint targeted. Whereas hyperextension attacks like the armbar drive a joint in a single linear plane, rotational breaks twist the joint along its rotational axis, loading the ligaments and tendons that resist rotation. The shoulder's internal and external rotation limits are exploited by the Kimura and Americana respectively. The knee's rotational vulnerability is exploited by inside and outside heel hooks. Even the spine's rotational limits come into play with twisting attacks like the Twister.\n\nWhat makes rotational breaks particularly dangerous is the relative lack of proprioceptive feedback compared to hyperextension. When someone straightens your arm, you feel the stretch gradually and can tap in time. When someone rotates your knee past its limit, the ligament damage can occur before you register significant pain. This is why heel hooks have historically been restricted in many competition rulesets and why understanding the mechanics is critical for both attacking safely and defending intelligently.\n\nThe core mechanic is consistent across all rotational submissions: isolate the joint, control the limb segments on both sides of the target joint, and apply rotational force while preventing the opponent from rotating their body to relieve the pressure. The attacker must create a closed system where the only thing that can give is the joint itself.",
   "key_principles": [
     "Isolate the target joint by controlling the limb segments on both sides of it",
     "Apply rotational force along the joint's natural axis of rotation to attack end-range",
@@ -360,6 +361,44 @@
       "name": "Submission Defense",
       "content_type": "Principle",
       "relationship": "Understanding rotational mechanics informs defensive strategies such as body rotation, limb straightening, and early escape timing"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What distinguishes a rotational break from a hyperextension submission?",
+      "answer": "A rotational break twists a joint along its rotational axis past its anatomical limit, loading the ligaments that resist rotation, whereas a hyperextension submission like the armbar drives the joint linearly in a single plane."
+    },
+    {
+      "question": "Why are rotational breaks like heel hooks considered more dangerous than hyperextension attacks?",
+      "answer": "Rotational attacks produce less proprioceptive warning than hyperextension, so ligament damage can occur before the defender registers significant pain and taps, which is why controlled, gradual application is essential."
+    },
+    {
+      "question": "How does the direction of rotation differ between the Kimura and the Americana?",
+      "answer": "The Kimura rotates the shoulder internally (hand turned toward the back), while the Americana rotates it externally (hand turned away from the body); they attack opposite rotational limits of the same shoulder joint."
+    },
+    {
+      "question": "What is the most common reason rotational submissions fail against a resisting opponent?",
+      "answer": "The opponent rotates their entire body in the direction of the force, relieving pressure on the joint; the attacker must block torso or hip rotation so the rotation isolates to the joint itself rather than being absorbed."
+    },
+    {
+      "question": "Why must you control both sides of the target joint before applying rotation?",
+      "answer": "Controlling the limb segments above and below the joint creates a closed system, so rotational force transfers directly to the ligaments instead of being absorbed by body movement or allowing the opponent to extract the limb."
+    },
+    {
+      "question": "What role does the ankle play as a secondary joint in a heel hook?",
+      "answer": "The ankle is the secondary joint; dorsiflexing and locking the foot prevents it from absorbing the twist, ensuring the rotational force transfers through to the knee where the ligament damage actually occurs."
+    },
+    {
+      "question": "Why should grip strength alone never be relied on to finish a rotational submission?",
+      "answer": "Grip-only finishes fatigue quickly and generate insufficient torque against real resistance; rotation should be driven by hip movement, body turning, and weight shift so the whole body produces the finishing force."
+    },
+    {
+      "question": "Which position offers the tightest hip control for finishing a heel hook, and why?",
+      "answer": "The Honey Hole (Inside Sankaku or Saddle) traps the thigh with both legs to prevent the hip rotation that would relieve knee torsion, making it the premier platform for finishing rotational attacks on the knee."
+    },
+    {
+      "question": "What is slack elimination and why does it matter for rotational breaks?",
+      "answer": "Slack elimination is removing all looseness between your grips and the target joint before applying force; remaining slack lets force dissipate and gives the opponent space to change angles or extract the limb."
     }
   ]
 }

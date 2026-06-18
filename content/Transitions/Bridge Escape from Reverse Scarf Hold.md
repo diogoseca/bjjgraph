@@ -34,6 +34,18 @@ description: "Master the Bridge Escape from Reverse Scarf Hold in BJJ. Step-by-s
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge Escape from Reverse Scarf Hold",
+  "description": "The Bridge Escape from Reverse Scarf Hold is a bottom pin escape that drives an explosive angled bridge into the top player's weak reverse-orientation base, creating space to insert a knee and recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Bridge Escape from Reverse Scarf Hold in BJJ. Step-by-s
 </div>
 
 <section id="overview" class="content-section">
+
+**The Bridge Escape from Reverse Scarf Hold is a bottom pin escape that drives an explosive angled bridge into the top player's weak reverse-orientation base, creating space to insert a knee and recover half guard.**
 
 The Bridge Escape from Reverse Scarf Hold exploits the inherent base vulnerability created by the top player's reverse orientation. In standard side control escapes, bridging mechanics follow predictable patterns against a forward-facing opponent. However, reverse scarf hold's unique configuration—where the top player faces the bottom player's legs rather than their head—creates specific directional weaknesses in the top player's base structure that this bridge escape systematically targets. The optimal bridge direction attacks the top player's weak axis, typically at a 45-degree angle toward their back, where their posting ability is most limited by the reverse orientation.
 

@@ -34,6 +34,18 @@ description: "Master Lockdown Break and Pass in BJJ. Systematic leg extraction f
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown Break and Pass",
+  "description": "The Lockdown Break and Pass is a top-player escape-to-pass from the Electric Chair where you limp the trapped leg, break the opponent's foot triangle, and drive straight into a guard pass rather than settling back in half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Lockdown Break and Pass in BJJ. Systematic leg extraction f
 
 <section id="overview" class="content-section">
 
-The Lockdown Break and Pass is the essential counter-technique when trapped in an opponent's lockdown from the Electric Chair position. This systematic escape addresses one of the most frustrating predicaments in modern BJJ—being caught in the 10th Planet lockdown system where your leg is figure-four trapped and your opponent is generating powerful sweeping and submission pressure through hip extension and the Electric Chair mechanics.
+**The Lockdown Break and Pass is a top-player escape-to-pass from the Electric Chair where you limp the trapped leg, break the opponent's foot triangle, and drive straight into a guard pass rather than settling back in half guard.**
+
+Being caught in the 10th Planet lockdown system is one of the most frustrating predicaments in modern BJJ—your leg figure-four trapped while your opponent generates powerful sweeping and submission pressure through hip extension and the Electric Chair mechanics. For the top player, the instinct to rip the leg free or post backward only deepens the trouble, which is why the escape is built as a patient, sequential dismantling of the opponent's control rather than a strength contest.
 
 The technique centers on methodically breaking the lockdown's foot triangle configuration while maintaining forward pressure and upper body control. Success requires understanding that the lockdown's power comes from the figure-four leg entanglement, and that breaking this structure requires addressing the foot position first rather than simply trying to yank the trapped leg free. The limp leg concept—relaxing your trapped leg to reduce the grip effectiveness—combined with systematic knee pressure to open the triangle creates the mechanical advantage needed to extract your leg.
 

@@ -21,7 +21,7 @@ description: "Execute the Matrix back take from bottom position. Technical guide
     {
       "@type": "HowToStep",
       "name": "Execute Matrix Back Take",
-      "text": "From this position, attempt Matrix Back Take. This technique is attempted in 52% of exchanges from this position.",
+      "text": "From this position, attempt Matrix Back Take. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
     },
     {

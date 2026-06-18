@@ -34,6 +34,18 @@ description: "Master the Lasso Guard Stack Pass in BJJ. Complete guide to neutra
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lasso Guard Stack Pass",
+  "description": "The Lasso Guard Stack Pass is a pressure-based gi guard pass that defeats lasso control by driving the bottom player's hips over their shoulders, collapsing the lasso's leverage so the passer can clear the legs and reach side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Lasso Guard Stack Pass in BJJ. Complete guide to neutra
 
 <section id="overview" class="content-section">
 
-The Lasso Guard Stack Pass is a pressure-based guard passing technique employed when caught in an opponent's lasso guard. Rather than attempting to strip the lasso grip or disengage technically, the stack pass addresses the lasso's mechanical advantage directly by folding the bottom player's hips over their shoulders. This compression eliminates the distance and angle that make the lasso effective, as the bottom player can no longer generate the pushing force through their shin or maintain the pulling tension on the sleeve that creates the lasso's characteristic control.
+**The Lasso Guard Stack Pass is a pressure-based gi guard pass that defeats lasso control by driving the bottom player's hips over their shoulders, collapsing the lasso's leverage so the passer can clear the legs and reach side control.**
+
+Caught in an opponent's lasso guard, most passers instinctively reach to strip the sleeve grip or pull the trapped arm free — exactly the responses that feed the lasso's leverage. The stack pass takes the opposite path, addressing the lasso's mechanical advantage directly by folding the bottom player's hips over their shoulders. This compression eliminates the distance and angle that make the lasso effective, as the bottom player can no longer generate the pushing force through their shin or maintain the pulling tension on the sleeve that creates the lasso's characteristic control.
 
 The technique follows a systematic progression: first securing control of the non-lasso leg to prevent secondary guard connections, then driving forward to initiate the stack, and finally walking around the compressed guard player to clear the legs and establish side control. The stack creates a cascading effect where each inch of compression further degrades the lasso's leverage, making continued resistance increasingly difficult for the guard player. This self-reinforcing dynamic makes the stack pass one of the most reliable methods for dealing with deeply established lasso control.
 

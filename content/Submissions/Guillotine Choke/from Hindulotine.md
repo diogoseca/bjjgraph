@@ -33,10 +33,32 @@ description: "Master the guillotine choke finish from Hindulotine position. Lear
 }
 </script>
 
-> **SAFETY**: Guillotine Choke from Hindulotine targets the Carotid arteries and windpipe. Risk: Trachea damage or crush injury from misaligned forearm pressure. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Choke from Hindulotine",
+  "description": "The guillotine choke from Hindulotine is a high-percentage blood choke that finishes through rotational hip torque rather than a linear pull, compressing both carotid arteries from a diagonal angle that defeats the standard chin-tuck defense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The guillotine choke from Hindulotine is a high-percentage blood choke that finishes through rotational hip torque rather than a linear pull, compressing both carotid arteries from a diagonal angle that defeats the standard chin-tuck defense.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and windpipe</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Guillotine Choke from Hindulotine targets the Carotid arteries and windpipe. Primary risk: Trachea damage or crush injury from misaligned forearm pressure. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,59 +69,13 @@ description: "Master the guillotine choke finish from Hindulotine position. Lear
 
 <section id="overview" class="content-section">
 
-The guillotine choke from Hindulotine is a high-percentage blood choke that leverages the unique rotational mechanics of the Hindulotine position. Unlike standard guillotine finishes that rely primarily on pulling the opponent's head toward the attacker's chest, this variation generates choking pressure through hip angle and core rotation, creating torque on the carotid arteries from a diagonal vector that is exceptionally difficult to defend once fully established.
+Rooted in catch wrestling and the modern front-headlock game, this finish leverages the unique rotational mechanics of the Hindulotine position. Unlike standard guillotine finishes that rely primarily on pulling the opponent's head toward the attacker's chest, this variation generates choking pressure through hip angle and core rotation, creating torque on the carotid arteries from a diagonal vector that is exceptionally difficult to defend once fully established.
 
 The Hindulotine position provides a mechanical framework where the attacker's body alignment creates a perpendicular angle to the opponent's spine. This positioning transforms the guillotine from a linear pulling motion into a rotational compression, attacking both carotid arteries simultaneously while generating neck cranking pressure as a secondary submission mechanism. The opponent faces a compounding problem where defending the choke often exposes them to the crank, and defending the crank tightens the choke.
 
 In competition, the Hindulotine guillotine finish is particularly effective in no-gi grappling where traditional collar-based chokes are unavailable. The grip configurations require no fabric, relying instead on body mechanics and skeletal leverage. This submission is commonly entered from front headlock positions, failed takedown defenses, and scrambles where the opponent's head becomes available, making it a versatile finishing tool across multiple grappling contexts.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and windpipe
-**Starting Position**: [[Positions/Hindulotine]]
-**From Position**: [[Positions/Hindulotine]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Trachea damage or crush injury from misaligned forearm pressure | CRITICAL | 2-8 weeks with potential permanent damage |
-| Cervical spine injury from combined rotational torque and cranking pressure | High | 2-6 weeks depending on severity |
-| Neck muscle strain from forced lateral flexion under rotational load | Medium | 7-14 days |
-| Unconsciousness from bilateral carotid compression | High | Immediate recovery typical but requires medical monitoring for delayed symptoms |
-
-
-**Application Speed**: SLOW and progressive with 3-5 seconds minimum application time. The rotational component makes this choke tighten faster than standard guillotines. Never snap, jerk, or explosively rotate into the finish.
-
-**Tap Signals**:
-- Verbal tap or any vocal sound indicating submission
-- Physical hand tap on opponent, their own body, or the mat
-- Physical foot tap on the mat
-- Any distress signal, going limp, or sudden loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release all choking arm pressure and open your grip
-2. Remove forearm from opponent's neck and release any body entanglement
-3. Help opponent to a seated or recovery position
-4. Monitor breathing and consciousness for at least 30 seconds
-5. Call for medical assistance if partner does not recover within 20 seconds or shows confusion
-
-
-**Training Restrictions**:
-- Never apply competition-speed rotational pressure during training
-- Always ensure both of your partner's arms have clear access to tap
-- Stop immediately at any sign of distress, gurgling, or color change
-- Avoid cranking the neck or combining choke with cervical spine hyperextension
-- Do not practice on partners with existing neck or cervical spine injuries
-
+**Starting Position**: [[Positions/Hindulotine]] · **From**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
@@ -262,10 +238,9 @@ In competition, the Hindulotine guillotine finish is particularly effective in n
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
@@ -273,14 +248,6 @@ In competition, the Hindulotine guillotine finish is particularly effective in n
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Chin Strap Guillotine]]
 - [[Submissions/Japanese Necktie]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Hindulotine]] - Primary control position from which this finish is executed
 - [[Positions/Guillotine Control]] - Parent control position with standard guillotine mechanics
 - [[Positions/Front Headlock]] - Primary entry position leading to Hindulotine establishment
@@ -288,16 +255,46 @@ In competition, the Hindulotine guillotine finish is particularly effective in n
 - [[Positions/Back Control]] - Common transition target when opponent turns to escape neck pressure
 - [[Positions/Closed Guard]] - Recovery position for defender who successfully strips the grip
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Guillotine Choke from Hindulotine leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Trachea damage or crush injury from misaligned forearm pressure | CRITICAL | 2-8 weeks with potential permanent damage |
+| Cervical spine injury from combined rotational torque and cranking pressure | High | 2-6 weeks depending on severity |
+| Neck muscle strain from forced lateral flexion under rotational load | Medium | 7-14 days |
+| Unconsciousness from bilateral carotid compression | High | Immediate recovery typical but requires medical monitoring for delayed symptoms |
+
+
+**Application Speed**: SLOW and progressive with 3-5 seconds minimum application time. The rotational component makes this choke tighten faster than standard guillotines. Never snap, jerk, or explosively rotate into the finish.
+
+**Tap Signals**:
+- Verbal tap or any vocal sound indicating submission
+- Physical hand tap on opponent, their own body, or the mat
+- Physical foot tap on the mat
+- Any distress signal, going limp, or sudden loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release all choking arm pressure and open your grip
+2. Remove forearm from opponent's neck and release any body entanglement
+3. Help opponent to a seated or recovery position
+4. Monitor breathing and consciousness for at least 30 seconds
+5. Call for medical assistance if partner does not recover within 20 seconds or shows confusion
+
+
+**Training Restrictions**:
+- Never apply competition-speed rotational pressure during training
+- Always ensure both of your partner's arms have clear access to tap
+- Stop immediately at any sign of distress, gurgling, or color change
+- Avoid cranking the neck or combining choke with cervical spine hyperextension
+- Do not practice on partners with existing neck or cervical spine injuries
+
 
 </section>
 

@@ -33,11 +33,36 @@ description: "Master the heel hook from Inside Sankaku position. Complete guide 
 }
 </script>
 
-> **SAFETY**: Heel Hook from Inside Sankaku targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Hook from Inside Sankaku",
+  "description": "The heel hook from Inside Sankaku is a high-percentage rotational knee submission that traps the leg in a figure-four entanglement, clamps the exposed inside heel, and rotates the tibia to attack the ACL and collateral ligaments.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+**The heel hook from Inside Sankaku is a high-percentage rotational knee submission that traps the leg in a figure-four entanglement, clamps the exposed inside heel, and rotates the tibia to attack the ACL and collateral ligaments.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Heel Hook from Inside Sankaku targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+
+<aside class="entity-relations">
+<p class="part-of-family"><em>Part of the</em> <strong>Heel Hook</strong> <em>family</em></p>
+</aside>
 <div class="role-links">
 
 [[Submissions/Heel Hook/from Inside Sankaku/Attacker|Play as Attacker]]
@@ -53,60 +78,7 @@ The finishing mechanics rely on positioning the blade of the wrist against the A
 
 The critical distinction from other leg lock positions is the degree of rotational control. In Outside Ashi-Garami the opponent can rotate toward the attacker to relieve pressure, but Inside Sankaku blocks this primary escape direction, forcing the defender to either extract backward against tight hip connection or attempt the far more dangerous movement of rolling through. Patient establishment of all control layers before committing to the finish separates successful high-level applications from premature attempts that create scrambles and escape opportunities.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity
-**Starting Position**: [[Positions/Inside Sankaku]]
-**From Position**: [[Positions/Inside Sankaku]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
-| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
-| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
-| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
-| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force. The knee ligaments provide almost no proprioceptive warning before catastrophic failure.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' clearly
-- Physical hand tap on opponent or mat (repeated)
-- Physical foot tap with free leg on mat or opponent
-- Any distress vocalization or scream
-- Frantic slapping or waving with hands
-- Leg stiffening or sudden defensive panic reaction
-
-
-**Release Protocol**:
-1. Immediately cease all rotational pressure upon any tap signal
-2. Release heel grip completely before unwrapping leg entanglement
-3. Slowly and carefully unwrap leg configuration while monitoring partner's joint
-4. Allow partner to extract their leg at their own pace without forcing movement
-5. Verbally check with training partner about knee and ankle status before continuing
-6. Report any joint discomfort to instructor immediately even if it seems minor
-
-
-**Training Restrictions**:
-- NEVER apply sudden or explosive rotational force in training under any circumstances
-- NEVER practice at competition intensity or speed with training partners
-- NEVER continue pressure if partner's leg begins rotating involuntarily with the submission
-- Always ensure immediate tap access for both of partner's hands throughout the exchange
-- Only train with partners who have explicit experience with heel hook defense and know when to tap
-- Prohibited for practitioners below brown belt in most traditional academies and many competition rulesets
-- Never train heel hooks without instructor supervision during initial learning phases
-- Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg
-
+**Starting Position**: [[Positions/Inside Sankaku]] · **From**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
 
@@ -272,41 +244,66 @@ The critical distinction from other leg lock positions is the degree of rotation
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
-- [[Submissions/Inside Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Inside Sankaku]] - Primary starting position providing the figure-four entanglement for this heel hook variant
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for Inside Sankaku position, identical entanglement and finishing mechanics
-- [[Transitions/Heel Hook]] - Parent submission family covering all heel hook variants across different entanglements
-- [[Submissions/Inside Heel Hook]] - Closely related inside heel hook variant with similar rotational mechanics
 - [[Positions/Ashi Garami/Saddle]] - Related leg entanglement offering alternative heel hook angles with both legs trapped
 - [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical leg entanglement that can transition to Inside Sankaku for finishing
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Related entanglement with opposite heel exposure creating different attacking angles
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Heel Hook from Inside Sankaku leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
+| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
+| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
+| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
+| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force. The knee ligaments provide almost no proprioceptive warning before catastrophic failure.
+
+**Tap Signals**:
+- Verbal tap saying 'tap' clearly
+- Physical hand tap on opponent or mat (repeated)
+- Physical foot tap with free leg on mat or opponent
+- Any distress vocalization or scream
+- Frantic slapping or waving with hands
+- Leg stiffening or sudden defensive panic reaction
+
+
+**Release Protocol**:
+1. Immediately cease all rotational pressure upon any tap signal
+2. Release heel grip completely before unwrapping leg entanglement
+3. Slowly and carefully unwrap leg configuration while monitoring partner's joint
+4. Allow partner to extract their leg at their own pace without forcing movement
+5. Verbally check with training partner about knee and ankle status before continuing
+6. Report any joint discomfort to instructor immediately even if it seems minor
+
+
+**Training Restrictions**:
+- NEVER apply sudden or explosive rotational force in training under any circumstances
+- NEVER practice at competition intensity or speed with training partners
+- NEVER continue pressure if partner's leg begins rotating involuntarily with the submission
+- Always ensure immediate tap access for both of partner's hands throughout the exchange
+- Only train with partners who have explicit experience with heel hook defense and know when to tap
+- Prohibited for practitioners below brown belt in most traditional academies and many competition rulesets
+- Never train heel hooks without instructor supervision during initial learning phases
+- Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg
+
 
 </section>
 

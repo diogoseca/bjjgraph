@@ -34,6 +34,18 @@ description: "Master Chill Dog position in BJJ. Defensive turtle variant with re
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Chill Dog",
+  "description": "Chill Dog is a 10th Planet defensive turtle variant where the bottom player stays low and compact - elbows pinned to knees, head tucked, hips angled - to deny back exposure while setting up explosive escapes to guard or standing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Chill Dog position in BJJ. Defensive turtle variant with re
 
 <section id="overview" class="content-section">
 
-Chill Dog is a defensive turtle position popularized by 10th Planet's and the 10th Planet Jiu-Jitsu system. It represents a specific turtle variant where the bottom practitioner maintains a low, compact posture with hips turned slightly to one side while protecting the neck and preventing back exposure. Unlike traditional turtle where the goal is often to return to guard or stand up, Chill Dog emphasizes staying safe while creating opportunities for specific escapes and recoveries.
+**Chill Dog is a 10th Planet defensive turtle variant where the bottom player stays low and compact - elbows pinned to knees, head tucked, hips angled - to deny back exposure while setting up explosive escapes to guard or standing.**
+
+Chill Dog is a defensive turtle position popularized within Eddie Bravo's 10th Planet Jiu-Jitsu system. It represents a specific turtle variant where the bottom practitioner maintains a low, compact posture with hips turned slightly to one side while protecting the neck and preventing back exposure. Unlike traditional turtle where the goal is often to return to guard or stand up, Chill Dog emphasizes staying safe while creating opportunities for specific escapes and recoveries.
 
 The position derives its name from the relaxed yet defensive nature of the posture - staying 'chill' while defending like a protective dog. The practitioner keeps their elbows tight to their knees, head tucked, and weight distributed to prevent easy rolling or flattening. This creates a strong defensive shell that makes it difficult for opponents to secure dominant positions like back control or establish powerful submission controls.
 

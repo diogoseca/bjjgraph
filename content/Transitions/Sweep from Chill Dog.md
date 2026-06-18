@@ -34,6 +34,18 @@ description: "Master the Sweep from Chill Dog in BJJ. Reverse compact turtle def
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Chill Dog",
+  "description": "Sweep from Chill Dog is a 10th Planet turtle reversal where the bottom player exploits the top player's committed forward weight with an explosive sit-out and hip switch, finishing directly in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Sweep from Chill Dog in BJJ. Reverse compact turtle def
 </div>
 
 <section id="overview" class="content-section">
+
+**Sweep from Chill Dog is a 10th Planet turtle reversal where the bottom player exploits the top player's committed forward weight with an explosive sit-out and hip switch, finishing directly in mount.**
 
 The Sweep from Chill Dog transforms a traditionally defensive turtle variant into an offensive reversal, catching opponents off guard when they expect only survival-oriented responses from the bottom player. From the compact Chill Dog shell, the bottom practitioner exploits the top player's forward weight commitment to execute a sit-out reversal that ends in full mount, representing one of the highest-value positional transitions available from any turtle variant.
 

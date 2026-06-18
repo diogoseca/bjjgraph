@@ -1,5 +1,6 @@
 {
   "name": "Hip Escape from Cross Body Ride",
+  "summary": "The Hip Escape from Cross Body Ride is a bottom-turtle escape that uses an explosive lateral shrimp against a frame on the rider's hip to create space and recover turtle or half guard before the back take completes.",
   "description": "Master Hip Escape from Cross Body Ride in BJJ. Essential escape technique using shrimp movement to recover turtle or half guard from perpendicular back pressure.",
   "tags": [
     "bjj",
@@ -85,10 +86,6 @@
     {
       "name": "Roll Escape from Cross Body Ride",
       "relationship": "Alternative escape using rolling mechanics rather than lateral displacement"
-    },
-    {
-      "name": "Turtle to Guard",
-      "relationship": "Follow-up technique from turtle recovery after successful escape"
     },
     {
       "name": "Hip Escape to Guard",

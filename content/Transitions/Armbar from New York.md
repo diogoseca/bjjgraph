@@ -34,6 +34,18 @@ description: "Master the armbar setup from New York rubber guard. Complete guide
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from New York",
+  "description": "The armbar from New York is a bottom-player submission entry in the 10th Planet Rubber Guard where you pivot your hips and swing the shin-control leg over the opponent's head, converting an established overhook into armbar control on the isolated arm.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the armbar setup from New York rubber guard. Complete guide
 </div>
 
 <section id="overview" class="content-section">
+
+**The armbar from New York is a bottom-player submission entry in the 10th Planet Rubber Guard where you pivot your hips and swing the shin-control leg over the opponent's head, converting an established overhook into armbar control on the isolated arm.**
 
 The armbar from New York represents one of the highest-percentage submission setups available within the 10th Planet Rubber Guard system. Unlike traditional armbar entries from closed guard that require the bottom player to create arm isolation from scratch, the New York position provides a pre-built control architecture where the deep overhook already isolates one of the opponent's arms while the shin across the back maintains broken posture. These pre-existing control elements mean the bottom player needs only to pivot their hips and transition the control leg over the opponent's head to establish armbar control, significantly reducing the number of steps required compared to standard armbar entries.
 

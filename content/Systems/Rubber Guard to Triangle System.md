@@ -143,6 +143,16 @@ description: "Master Rubber Guard to Triangle System. Framework connecting rubbe
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rubber Guard to Triangle System",
+  "description": "The Rubber Guard to Triangle System is a 10th Planet offensive framework that chains rubber guard control through the Mission Control and New York checkpoints to set up high-percentage triangle chokes and linked submissions from closed guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,7 +167,9 @@ description: "Master Rubber Guard to Triangle System. Framework connecting rubbe
 
 ## What is Rubber Guard to Triangle System?
 
-The Rubber Guard to Triangle System is a comprehensive offensive framework that transforms closed guard control into high-percentage triangle submissions through systematic positioning and opponent manipulation. Originating from Eddie Bravo's 10th Planet system, this approach uses extreme flexibility and unorthodox grips to break posture, control distance, and create submission opportunities that are difficult to defend. The system emphasizes creating angles and leverage through hip mobility while maintaining constant offensive pressure that forces opponents into defensive dilemmas. Unlike traditional closed guard approaches, this system relies on active leg positioning and grip creativity to generate submission threats while simultaneously defending against passes. The framework connects multiple control positions - from Mission Control to New York to the finishing triangle - creating a systematic pathway that even accounts for opponent escape attempts. Practitioners learn to use their legs as offensive weapons while their hands control critical angles, inverting the traditional closed guard paradigm where hands do the work and legs maintain position.
+**The Rubber Guard to Triangle System is a 10th Planet offensive framework that chains rubber guard control through the Mission Control and New York checkpoints to set up high-percentage triangle chokes and linked submissions from closed guard.**
+
+Developed within Eddie Bravo's 10th Planet methodology, this framework reimagines the closed guard as an aggressive submission platform rather than a holding position. It uses extreme flexibility and unorthodox grips to break posture, control distance, and manufacture triangle opportunities that are difficult to defend, while emphasizing the angles and leverage generated through hip mobility under constant offensive pressure. Unlike traditional closed guard approaches, the system relies on active leg positioning and grip creativity to generate submission threats while simultaneously defending against passes. The framework connects multiple control positions - from Mission Control to New York to the finishing triangle - creating a systematic pathway that even accounts for opponent escape attempts. Practitioners learn to use their legs as offensive weapons while their hands control critical angles, inverting the traditional closed guard paradigm where the hands do the work and the legs merely maintain position.
 
 </section>
 
@@ -361,7 +373,7 @@ Begin with static position holds to develop the hip flexibility and muscle memor
 - [[Switch to Triangle]] (Transition) - Entry mechanics from other submission attempts
 - [[Posture]] (Principle) - Foundational principle required before rubber guard establishment
 - [[Defensive Concepts]] (Principle) - Defensive framework for maintaining guard integrity throughout offensive sequences
-- [[Submission Chains]] (Principle) - Theoretical foundation for multiple submission pathways
+- [[Position Chains]] (Principle) - Theoretical foundation for linking control positions into multiple submission pathways
 - [[Hip Escape Mechanics]] (Principle) - Hip mobility foundation essential for rubber guard positioning and angle creation
 - [[Fork Attacks]] (Principle) - Strategic framework for chaining triangle with alternative attacks that force defensive choices
 - [[10th Planet Rubber Guard System]] (System) - Parent system containing complete rubber guard framework and philosophy

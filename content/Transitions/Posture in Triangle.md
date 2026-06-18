@@ -34,6 +34,18 @@ description: "Master posture recovery inside the triangle choke in BJJ. Complete
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture in Triangle",
+  "description": "Posture in Triangle is the defensive transition where a grappler caught in a triangle choke from top drives the spine vertical, using leg-powered base and free-hand hip control rather than arm-pulling, to kill the choking angle and open an escape.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master posture recovery inside the triangle choke in BJJ. Complete
 
 <section id="overview" class="content-section">
 
-Posture in Triangle is a critical defensive transition executed when caught in an opponent's triangle choke from top position. The technique focuses on recovering vertical spine alignment and establishing structural integrity to neutralize the choking mechanism before attempting a full escape sequence. Rather than fighting the triangle lock directly through arm extraction or explosive movement, posture recovery addresses the root mechanical advantage the triangle player relies on: broken posture that allows optimal choking angle and hip elevation. Early posture recovery dramatically increases escape probability, while delayed attempts face exponentially increasing resistance as the triangle tightens.
+**Posture in Triangle is the defensive transition where a grappler caught in a triangle choke from top drives the spine vertical, using leg-powered base and free-hand hip control rather than arm-pulling, to kill the choking angle and open an escape.**
+
+When the triangle snaps shut from top position, recovering posture is the single most time-sensitive decision the trapped player faces, because every escape route downstream depends on it. The technique focuses on recovering vertical spine alignment and establishing structural integrity to neutralize the choking mechanism before attempting a full escape sequence. Rather than fighting the triangle lock directly through arm extraction or explosive movement, posture recovery addresses the root mechanical advantage the triangle player relies on: broken posture that allows optimal choking angle and hip elevation. Early posture recovery dramatically increases escape probability, while delayed attempts face exponentially increasing resistance as the triangle tightens.
 
 The technique requires coordinated action between the upper and lower body. The trapped practitioner must drive upward from their base through leg power while simultaneously controlling the opponent's hips to prevent angle optimization. Proper posture recovery creates immediate defensive benefits by reducing blood flow restriction at the carotid arteries, creating space for breathing, and positioning the body for subsequent escape techniques including stack passes, arm extraction, and standing breaks. The timing window for posture recovery narrows rapidly as the triangle tightens, making early recognition and immediate technical response essential for survival.
 

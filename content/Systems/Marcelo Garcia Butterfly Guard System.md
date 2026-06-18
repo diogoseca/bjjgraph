@@ -135,6 +135,16 @@ description: "Master Marcelo Garcia's revolutionary butterfly guard system. Lear
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Marcelo Garcia Butterfly Guard System",
+  "description": "The Marcelo Garcia Butterfly Guard System is a dynamic seated-guard framework that uses active butterfly hooks, an underhook, and high head position to chain elevation sweeps, arm-drag back takes, single-leg-X entries, and guillotines into forced dilemmas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -148,6 +158,8 @@ description: "Master Marcelo Garcia's revolutionary butterfly guard system. Lear
 <section id="overview" class="content-section">
 
 ## What is Marcelo Garcia Butterfly Guard System?
+
+**The Marcelo Garcia Butterfly Guard System is a dynamic seated-guard framework that uses active butterfly hooks, an underhook, and high head position to chain elevation sweeps, arm-drag back takes, single-leg-X entries, and guillotines into forced dilemmas.**
 
 Marcelo Garcia's Butterfly Guard System represents one of the most effective and proven guard systems in modern Brazilian Jiu-Jitsu. Built around active hooks, superior positioning, and explosive timing, this system emphasizes constant off-balancing and aggressive sweep attempts. Unlike static guard systems that rely on grips and stalling, Marcelo's approach focuses on dynamic movement, creating angles, and capitalizing on opponent reactions. The system is particularly effective in no-gi grappling where traditional gi grips are unavailable, making it essential for MMA and submission grappling competitors. At its core, the butterfly guard uses inside positioning with both feet as hooks under the opponent's thighs, combined with underhook control and head positioning to create sweeping opportunities. The beauty of this system lies in its simplicity and high success rate across all skill levels. Marcelo refined this approach through decades of competition at the highest levels, proving its effectiveness against world-class opponents. The system connects seamlessly to back takes, guillotine attacks, and transitions to other guard positions, making it a complete framework rather than isolated techniques.
 
@@ -345,11 +357,10 @@ Marcelo Garcia's training methodology emphasizes positional sparring from butter
 - [[Arm in Guillotine]] (Submission) - Specific guillotine variation highly effective from butterfly guard
 - [[X-Guard]] (Position) - Related guard position sharing similar sweeping mechanics
 - [[Deep Half Guard]] (Position) - Alternative bottom position when butterfly becomes ineffective
-- [[Seated Guard]] (Position) - Starting position for establishing butterfly hooks and controls
 - [[Grips]] (Principle) - Critical skill for winning underhook battles and establishing control
 - [[Control Maintenance]] (Principle) - Core principle for maintaining active hooks and underhook retention throughout exchanges
 - [[Kuzushi]] (Principle) - Fundamental principle underlying all off-balancing and sweep attempts
-- [[Timing and Rhythm]] (Principle) - Critical concept for maximizing sweep success rates through proper timing
+- [[Hooks]] (Principle) - Foundational concept governing active butterfly hook engagement and elevation
 - [[Fork Attacks]] (Principle) - Conceptual framework for connecting sweep, back take, and submission threats into forced choices
 - [[Marcelo Garcia Guillotine System]] (System) - Complementary system integrating guillotine attacks with butterfly guard
 - [[Marcelo Garcia X-Guard System]] (System) - Related guard system sharing similar principles and transitions

@@ -34,6 +34,18 @@ description: "Master the stack pass from inverted lasso guard in BJJ. Complete g
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack from Inverted Lasso",
+  "description": "Stack from Inverted Lasso is a pressure-based top guard pass that folds the inverted bottom player over their own spine, collapsing their hip elevation and lasso hook to clear the legs into half guard or side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the stack pass from inverted lasso guard in BJJ. Complete g
 </div>
 
 <section id="overview" class="content-section">
+
+**Stack from Inverted Lasso is a pressure-based top guard pass that folds the inverted bottom player over their own spine, collapsing their hip elevation and lasso hook to clear the legs into half guard or side control.**
 
 The stack pass from inverted lasso guard is a pressure-based guard passing technique deployed by the top player when an opponent inverts into lasso guard with elevated hips and angular sweeping threats. Rather than attempting lateral movement or grip fighting to defeat the inversion, the stack exploits the bottom player's extended body position by driving forward compressive pressure through the shoulders and chest, folding the inverted player over themselves and neutralizing the hip elevation that makes inverted lasso guard dangerous. The technique targets the fundamental structural vulnerability of any inverted position: the bottom player's spine must support both their own body weight and any additional load the top player applies, creating a compressive force that rapidly degrades offensive capability.
 

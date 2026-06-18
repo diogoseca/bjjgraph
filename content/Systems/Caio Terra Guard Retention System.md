@@ -141,6 +141,16 @@ description: "Master Caio Terra's guard retention framework with systematic hip 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Caio Terra Guard Retention System",
+  "description": "The Caio Terra Guard Retention System is a defensive framework that combines continuous small-amplitude hip movement, dynamic angle-based frames, and a prioritized connection-breaking hierarchy to keep or recover guard against pressure passing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -155,7 +165,9 @@ description: "Master Caio Terra's guard retention framework with systematic hip 
 
 ## What is Caio Terra Guard Retention System?
 
-The Caio Terra Guard Retention System represents one of the most comprehensive defensive frameworks in modern Brazilian Jiu-Jitsu. Developed by multiple-time world champion Caio Terra, this system emphasizes intelligent guard retention through superior hip movement, precise frame management, and systematic recovery sequences. Unlike reactive defensive approaches, Terra's methodology treats guard retention as an active skill that can be trained, refined, and mastered through deliberate practice.
+**The Caio Terra Guard Retention System is a defensive framework that combines continuous small-amplitude hip movement, dynamic angle-based frames, and a prioritized connection-breaking hierarchy to keep or recover guard against pressure passing.**
+
+Multiple-time world and Pan American champion Caio Terra built his competitive reputation as one of the smallest athletes to consistently defeat far larger opponents, and his retention methodology grew directly out of that necessity. Because he could rarely rely on strength or weight to stop a pass, he reverse-engineered guard retention into a structured, trainable discipline rather than a collection of reactive scrambles. The result is one of the most complete defensive frameworks in modern Brazilian Jiu-Jitsu, applicable across gi and no-gi guard games.
 
 At its core, the system operates on the principle that maintaining guard is far more energy-efficient than recovering guard or escaping from inferior positions. Terra's approach breaks down guard retention into distinct phases: initial contact management, mid-range retention, and emergency recovery. Each phase has specific technical requirements, movement patterns, and decision trees that practitioners must internalize. The system is particularly effective against pressure passing styles, as it provides clear answers to common passing attacks while maintaining offensive opportunities.
 

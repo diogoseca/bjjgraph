@@ -36,6 +36,18 @@ description: "Master the Mount position in BJJ. Complete guide to control, submi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mount",
+  "description": "Mount is the dominant top position where you straddle a supine opponent's midsection, worth 4 IBJJF points and prized as jiu-jitsu's best balance of stifling control and high-percentage submission access.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -50,6 +62,8 @@ description: "Master the Mount position in BJJ. Complete guide to control, submi
 </div>
 
 <section id="overview" class="content-section">
+
+**Mount is the dominant top position where you straddle a supine opponent's midsection, worth 4 IBJJF points and prized as jiu-jitsu's best balance of stifling control and high-percentage submission access.**
 
 The Mount position represents the pinnacle of positional dominance in Brazilian Jiu-Jitsu, awarded 4 points under IBJJF rules and universally recognized as one of the most decisive positions in grappling. From this elevated position, the top practitioner sits astride the opponent's torso with knees on either side, generating overwhelming control through gravity, hip pressure, and freedom of upper-body movement. The Mount has been refined across decades of competition at the highest levels, evolving from a simple pinning position into a sophisticated attacking platform with multiple variations, each serving distinct tactical purposes.
 
@@ -214,7 +228,7 @@ Understanding Mount from both perspectives is essential for complete grappling d
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (7% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (6% of attempts)
 
 - **[[Cross Collar Choke from Mount/Attacker|Cross Collar Choke from Mount]]** (4% of attempts)
 
@@ -222,11 +236,11 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 - **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (3% of attempts)
 
-- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (7% of attempts)
+- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (6% of attempts)
 
 - **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (3% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (40% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (37% of attempts)
 
 - **[[Transitions/Mount Control/Attacker|Mount Control]]** (3% of attempts)
 
@@ -236,7 +250,7 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 - **[[Transitions/Mount to Technical Mount/Attacker|Mount to Technical Mount]]** (3% of attempts)
 
-- **[[Americana from Mount/Attacker|Americana from Mount]]** (6% of attempts)
+- **[[Americana from Mount/Attacker|Americana from Mount]]** (5% of attempts)
 
 - **[[Ezekiel Choke from Mount/Attacker|Ezekiel Choke from Mount]]** (4% of attempts)
 
@@ -247,6 +261,8 @@ Understanding Mount from both perspectives is essential for complete grappling d
 - **[[Monoplata from Mount/Attacker|Monoplata from Mount]]** (2% of attempts)
 
 - **[[Submissions/Armbar/Reverse Armbar from Mount/Attacker|Reverse Armbar from Mount]]** (2% of attempts)
+
+- **[[Armbar from Mount/Attacker|Armbar from Mount]]** (6% of attempts)
 
 
 ### Common Mistakes

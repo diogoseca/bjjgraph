@@ -34,6 +34,18 @@ description: "Master kneebar control position in BJJ. Complete guide covering en
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar Control",
+  "description": "Kneebar Control is a leg-attack position in which one practitioner traps and isolates an opponent's leg, aligning the knee joint against their hip to threaten a straight-line hyperextension finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master kneebar control position in BJJ. Complete guide covering en
 </div>
 
 <section id="overview" class="content-section">
+
+**Kneebar Control is a leg-attack position in which one practitioner traps and isolates an opponent's leg, aligning the knee joint against their hip to threaten a straight-line hyperextension finish.**
 
 Kneebar Control represents a critical leg entanglement position in Brazilian Jiu-Jitsu where the attacker has isolated one of the opponent's legs and established control for a potential kneebar finish. This position exists on a spectrum from loose leg control to fully-extended submission, with the controlling practitioner using their arms to secure the opponent's leg while their hips create leverage against the knee joint.
 

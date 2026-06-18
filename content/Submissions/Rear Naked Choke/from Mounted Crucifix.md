@@ -33,10 +33,32 @@ description: "Learn to finish and defend the rear naked choke from mounted cruci
 }
 </script>
 
-> **SAFETY**: Rear Naked Choke from Mounted Crucifix targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Naked Choke from Mounted Crucifix",
+  "description": "The rear naked choke from mounted crucifix is a blood choke finished from the mount with the opponent's arms trapped by the legs, threading the choking arm under the chin to compress both carotid arteries against minimal defense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The rear naked choke from mounted crucifix is a blood choke finished from the mount with the opponent's arms trapped by the legs, threading the choking arm under the chin to compress both carotid arteries against minimal defense.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">65% success</span>
+</div>
+
+> [!danger] Safety
+> Rear Naked Choke from Mounted Crucifix targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,56 +75,7 @@ The mechanics of this finish leverage the mounted position's gravitational advan
 
 Strategically, this submission serves as the primary finishing threat from mounted crucifix and the reason opponents desperately attempt arm extraction. The threat of this choke forces defensive errors that open alternative attacks like armbars and transitions to back control. Understanding both the attacking sequence and defensive responses is essential for any serious practitioner working from or defending against this dominant mounted crucifix position.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Mount/Mounted Crucifix]]
-**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
-**Success Rate**: 65%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid compression | High | Immediate to 30 seconds with proper release |
-| Trachea damage from improper forearm placement on windpipe | CRITICAL | 2-6 weeks, potential permanent damage |
-| Cervical spine strain from neck cranking during application | Medium | 3-7 days |
-| Carotid artery dissection from excessive or sudden force | CRITICAL | Immediate medical attention required, weeks to months |
-
-
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds to full pressure in training. Build compression gradually so partner can recognize and tap before consciousness is affected. Never snap or jerk the choking arm into position.
-
-**Tap Signals**:
-- Verbal tap - saying 'tap' or any verbal sound indicating submission
-- Physical hand tap on opponent's body, arm, or mat
-- Physical foot tap on mat when hands are unavailable
-- Going limp or loss of consciousness - treat as immediate tap
-- Any distress signal, gurgling, or unusual sound
-
-
-**Release Protocol**:
-1. Release choking arm immediately upon any tap signal
-2. Remove all body weight and hooks from opponent
-3. Guide partner gently to side-lying recovery position
-4. Monitor consciousness and breathing for at least 30 seconds
-5. If partner lost consciousness, elevate legs and keep lying down until fully alert
-6. Never allow a recently choked partner to stand immediately
-
-
-**Training Restrictions**:
-- Apply choke progressively - never use competition speed in drilling
-- Ensure choking arm targets the neck sides, never compress the trachea directly
-- Always verify partner has clear tap access with at least one limb
-- Stop immediately if partner makes any distress sound or goes limp
-- Never hold a choke past the tap under any circumstances
-- Beginners should drill grip placement and positioning without applying pressure
-
+**Starting Position**: [[Positions/Mount/Mounted Crucifix]] · **From**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
 
@@ -270,22 +243,13 @@ Strategically, this submission serves as the primary finishing threat from mount
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Mounted Crucifix Armbar]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/Mounted Crucifix]] - Primary starting position providing arm isolation and mount control for this choke
 - [[Positions/Back Control]] - Alternative position for RNC when mounted crucifix transitions fail
 - [[Positions/Gift Wrap]] - Related arm control position that shares arm-trapping principles
@@ -293,16 +257,49 @@ Strategically, this submission serves as the primary finishing threat from mount
 - [[Positions/Mount/High Mount]] - Common entry position used to establish mounted crucifix before attacking RNC
 - [[Submissions/Short Choke/from Gift Wrap]] - Alternative RNC variation using similar arm control concepts from gift wrap position
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Rear Naked Choke from Mounted Crucifix leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid compression | High | Immediate to 30 seconds with proper release |
+| Trachea damage from improper forearm placement on windpipe | CRITICAL | 2-6 weeks, potential permanent damage |
+| Cervical spine strain from neck cranking during application | Medium | 3-7 days |
+| Carotid artery dissection from excessive or sudden force | CRITICAL | Immediate medical attention required, weeks to months |
+
+
+**Application Speed**: SLOW and progressive - minimum 3-5 seconds to full pressure in training. Build compression gradually so partner can recognize and tap before consciousness is affected. Never snap or jerk the choking arm into position.
+
+**Tap Signals**:
+- Verbal tap - saying 'tap' or any verbal sound indicating submission
+- Physical hand tap on opponent's body, arm, or mat
+- Physical foot tap on mat when hands are unavailable
+- Going limp or loss of consciousness - treat as immediate tap
+- Any distress signal, gurgling, or unusual sound
+
+
+**Release Protocol**:
+1. Release choking arm immediately upon any tap signal
+2. Remove all body weight and hooks from opponent
+3. Guide partner gently to side-lying recovery position
+4. Monitor consciousness and breathing for at least 30 seconds
+5. If partner lost consciousness, elevate legs and keep lying down until fully alert
+6. Never allow a recently choked partner to stand immediately
+
+
+**Training Restrictions**:
+- Apply choke progressively - never use competition speed in drilling
+- Ensure choking arm targets the neck sides, never compress the trachea directly
+- Always verify partner has clear tap access with at least one limb
+- Stop immediately if partner makes any distress sound or goes limp
+- Never hold a choke past the tap under any circumstances
+- Beginners should drill grip placement and positioning without applying pressure
+
 
 </section>
 

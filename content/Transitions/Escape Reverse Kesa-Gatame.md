@@ -34,6 +34,18 @@ description: "Master the hip escape from Reverse Kesa-Gatame in BJJ. Systematic 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Reverse Kesa-Gatame",
+  "description": "The Escape from Reverse Kesa-Gatame is an incremental hip-escape sequence that frames against the pin, chains shrimps to create space, and inserts the near knee to recover half guard from the reverse scarf-hold position where face frames are unavailable.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the hip escape from Reverse Kesa-Gatame in BJJ. Systematic 
 
 <section id="overview" class="content-section">
 
-The Escape from Reverse Kesa-Gatame is a systematic hip escape technique targeting guard recovery from one of the more mechanically challenging scarf hold pins. Unlike the explosive bridge escape from this position, this technique relies on incremental space creation through framing, shrimping, and knee insertion to methodically dismantle the pin. The reverse orientation of Kesa-Gatame eliminates the bottom player's ability to frame against the opponent's face and neck, requiring adaptation of standard side control escape mechanics to account for the top player facing toward the legs.
+**The Escape from Reverse Kesa-Gatame is an incremental hip-escape sequence that frames against the pin, chains shrimps to create space, and inserts the near knee to recover half guard from the reverse scarf-hold position where face frames are unavailable.**
+
+Among the escapes available from reverse scarf hold, the hip escape distinguishes itself from the explosive bridge by relying on incremental space creation rather than a single committed effort. It targets guard recovery from one of the more mechanically challenging scarf hold pins by chaining framing, shrimping, and knee insertion to methodically dismantle the top player's control. The reverse orientation of Kesa-Gatame eliminates the bottom player's ability to frame against the opponent's face and neck, requiring adaptation of standard side control escape mechanics to account for the top player facing toward the legs.
 
 The escape follows a deliberate progression: establish a defensive frame with the free arm to prevent further consolidation, turn onto the hip to create an angle for shrimping, execute systematic hip escapes to open space between the bodies, and insert the near knee to establish half guard. Each phase builds on the previous one, making the escape resilient against interruption because partial progress still improves the bottom player's defensive position. The technique exploits the inherent tension in the top player's control—maintaining both chest pressure and arm isolation simultaneously requires precise weight distribution that hip escapes systematically erode.
 
@@ -231,12 +245,6 @@ The hip escape from Reverse Kesa-Gatame fits within the comprehensive pin escape
 - [[Positions/Mount]] - Counter position opponent achieves if escape is poorly timed
 
 - [[Transitions/Bridge from Reverse Kesa-Gatame]] - Complementary explosive escape that pairs with this hip escape to create dual-threat system
-
-- [[Transitions/Escape Modified Scarf Hold]] - Analogous hip escape from related scarf hold variant with similar mechanics
-
-- [[Transitions/Bridge Escape from Scarf Hold]] - Related bridge escape technique from scarf hold family
-
-- [[Transitions/Bridge Escape from Reverse Scarf Hold]] - Related escape from reverse scarf hold variant
 
 - [[Positions/Side Control/Kesa Gatame]] - Traditional scarf hold with related escape principles
 

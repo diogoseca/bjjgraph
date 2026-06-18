@@ -34,6 +34,18 @@ description: "Master the Bridge to Mount escape from High Mount in BJJ. Explosiv
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge to Mount from High Mount",
+  "description": "Bridge to Mount from High Mount is a bottom-player escape that uses an explosive, well-timed hip bridge to dislodge the opponent's elevated knees, regressing the worst mount variation back to standard mount where conventional escapes reopen.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Bridge to Mount escape from High Mount in BJJ. Explosiv
 </div>
 
 <section id="overview" class="content-section">
+
+**Bridge to Mount from High Mount is a bottom-player escape that uses an explosive, well-timed hip bridge to dislodge the opponent's elevated knees, regressing the worst mount variation back to standard mount where conventional escapes reopen.**
 
 The Bridge to Mount from High Mount is a fundamental defensive technique where the bottom player uses explosive hip extension to displace the top player's elevated knee positioning, forcing them to slide back from high mount to standard mount. While this does not constitute a full escape, it represents a critical positional regression that moves the bottom player from one of the most submission-dense positions in BJJ to a more manageable defensive scenario where traditional escape mechanics become viable again.
 

@@ -1,6 +1,7 @@
 {
   "name": "Pass Double Sleeve Guard",
   "description": "Master passing Double Sleeve Guard in BJJ. Complete guide to breaking bilateral sleeve grips, creating angles, and completing the pass to side control.",
+  "summary": "Passing Double Sleeve Guard is the top player's systematic dismantling of an opponent's bilateral sleeve grips and foot frames — breaking grips, securing leg control, creating a lateral angle, and clearing the legs to complete the pass to side control.",
   "tags": [
     "guard-pass",
     "double-sleeve-guard",
@@ -80,20 +81,16 @@
       "relationship": "Alternative guard opponent may establish during pass attempt"
     },
     {
-      "name": "Pass Collar Sleeve Guard",
-      "relationship": "Similar passing technique against related grip configuration"
-    },
-    {
-      "name": "Double Sleeve Sweep",
-      "relationship": "Opponent's primary offensive threat during pass attempt"
-    },
-    {
       "name": "Combat Base",
       "relationship": "Alternative starting posture for initiating the pass"
     },
     {
       "name": "Collar Sleeve Guard",
       "relationship": "Related guard position with similar passing principles"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Parent guard category and counter outcome if the opponent recovers"
     },
     {
       "name": "Double Sleeve to Spider Guard",
@@ -274,6 +271,14 @@
       {
         "question": "How do you prevent being swept when your weight commits to the passing direction?",
         "answer": "Maintain a wide base with your trailing foot posted behind you throughout the passing motion. Your weight should transfer laterally rather than forward, keeping your center of gravity over your base of support. If you feel your weight being redirected, immediately post the hand on the sweep side and backstep to reset. The most common error leading to sweeps during passing is leaning forward with the chest rather than driving laterally with the hips."
+      },
+      {
+        "question": "When is the optimal timing window to commit to clearing the legs and finishing the pass?",
+        "answer": "Commit the instant you have broken or neutralized at least one grip AND established your own leg control with a lateral angle created. This is the brief one-to-two-second window before the opponent can re-grip or reframe their feet. Waiting longer lets them reset; moving earlier, before securing leg control and an angle, lets them redirect you straight into a sweep. Read for the moment their remaining grip loads laterally and their feet cannot block both passing vectors."
+      },
+      {
+        "question": "If your first passing lane is blocked by a re-inserted knee, what is the highest-percentage chain attack?",
+        "answer": "Flow directly into a knee slice pass through the resulting half guard rather than retreating to restart. Drive your crossface and chest pressure to flatten them, pin the trapped knee line, and slice your near knee across their thigh to the mat. Because you already broke their sleeve grips, they lack the upper-body control to underhook and recover, so the half-guard pass completes at a high rate from this position."
       }
     ],
     "safety_considerations": "Guard passing involves low injury risk compared to submissions. Primary concerns include knee strain from sudden lateral direction changes during toreando and knee slice variations. Grip fighting can cause finger and wrist injuries if breaks are performed too explosively. Avoid yanking grips free with maximum force as this may hyperextend the opponent's fingers. Maintain controlled movements throughout the pass and avoid landing with full body weight on the opponent's legs or torso during the final pass completion. Be mindful of your training partner's knee position when clearing legs to avoid twisting forces on their joints."

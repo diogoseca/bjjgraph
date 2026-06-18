@@ -34,6 +34,18 @@ description: "Master the Omoplata Sweep from closed guard in BJJ. Step-by-step e
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata Sweep",
+  "description": "The Omoplata Sweep is a closed-guard reversal that weaponizes the omoplata shoulder-lock threat, redirecting the opponent's defensive reaction into a forward roll that delivers the bottom player to mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Omoplata Sweep from closed guard in BJJ. Step-by-step e
 
 <section id="overview" class="content-section">
 
-The Omoplata Sweep is a reaction-based sweeping technique that combines the threat of the omoplata shoulder lock with dynamic hip movement to reverse position from closed guard to mount. This technique exploits the opponent's defensive reaction to the omoplata attack, using their resistance and weight distribution to execute a powerful sweep. The dual-threat nature creates a classic dilemma: if the opponent defends the submission by driving forward or rolling, you redirect their momentum into the sweep; if they freeze to prevent the sweep, you finish the omoplata.
+**The Omoplata Sweep is a closed-guard reversal that weaponizes the omoplata shoulder-lock threat, redirecting the opponent's defensive reaction into a forward roll that delivers the bottom player to mount.**
+
+Built around a genuine submission threat, the Omoplata Sweep exploits the opponent's defensive reaction to the shoulder lock rather than relying on raw power to complete the reversal. The dual-threat nature creates a classic dilemma: if the opponent defends the submission by driving forward or rolling, you redirect their momentum into the sweep; if they freeze to prevent the sweep, you finish the omoplata. This positions it as one of the most reliable transitions in the closed-guard attack system, because it converts the opponent's own defense into the mechanism of their reversal.
 
 The sweep initiates from the standard omoplata entry where your leg crosses the opponent's back and their arm is isolated. Rather than committing to the shoulder lock finish, you use your perpendicular body angle and hip drive to roll the opponent forward over their trapped shoulder. The right leg hooking their hip serves as a fulcrum, while the left leg across their back acts as a lever preventing them from rolling out. Arm control throughout prevents posting, which is the primary defense against the sweep.
 
@@ -242,9 +256,7 @@ The omoplata sweep is a central technique in the closed guard attack system, rep
 
 - [[Transitions/Kimura Sweep]] - Attack on posted arm when opponent defends sweep by bracing on the mat
 
-- [[Transitions/Roll Forward from Omoplata]] - Dynamic transition when opponent rolls forward aggressively during omoplata control
-
-- [[Transitions/Omoplata to Sweep]] - Related sweep transition from omoplata control position
+- [[Transitions/Omoplata to Back]] - Dynamic transition when opponent rolls forward aggressively during omoplata control
 
 - [[Positions/Closed Guard]] - Starting position from which this technique is initiated
 

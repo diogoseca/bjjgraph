@@ -34,6 +34,18 @@ description: "Master the Worm to Squid Guard transition in BJJ. Complete guide t
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Worm to Squid Guard",
+  "description": "Worm to Squid Guard is a gi lapel-guard transition in which the bottom player unwinds the worm guard lapel-shin wrap and threads a leg behind the opponent's knee to establish squid guard's asymmetrical hook-and-lapel control, opening new sweep and back-take angles.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Worm to Squid Guard transition in BJJ. Complete guide t
 </div>
 
 <section id="overview" class="content-section">
+
+**Worm to Squid Guard is a gi lapel-guard transition in which the bottom player unwinds the worm guard lapel-shin wrap and threads a leg behind the opponent's knee to establish squid guard's asymmetrical hook-and-lapel control, opening new sweep and back-take angles.**
 
 The Worm to Squid Guard transition represents a critical reconfiguration within the lapel guard system, enabling the bottom player to shift from worm guard's fixed lapel-leg connection into squid guard's more dynamic, asymmetrical control structure. This reconfiguration preserves the existing lapel entanglement while repositioning the legs to access entirely different sweep angles, back take entries, and submission pathways that worm guard's static configuration cannot provide. The transition is a hallmark of advanced lapel guard play, requiring precise grip sequencing and hip mechanics to execute without losing positional control.
 

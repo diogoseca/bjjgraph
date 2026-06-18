@@ -30,6 +30,7 @@
     }
   ],
   "success_rate": 55,
+  "summary": "Bridge to Mount from High Mount is a bottom-player escape that uses an explosive, well-timed hip bridge to dislodge the opponent's elevated knees, regressing the worst mount variation back to standard mount where conventional escapes reopen.",
   "overview": "The Bridge to Mount from High Mount is a fundamental defensive technique where the bottom player uses explosive hip extension to displace the top player's elevated knee positioning, forcing them to slide back from high mount to standard mount. While this does not constitute a full escape, it represents a critical positional regression that moves the bottom player from one of the most submission-dense positions in BJJ to a more manageable defensive scenario where traditional escape mechanics become viable again.\n\nThe technique exploits high mount's primary structural trade-off: the top player sacrifices base stability for submission proximity. By positioning their knees near the armpits, the top player elevates their center of gravity and narrows their support base. An explosive, well-timed bridge takes advantage of this reduced stability, driving the top player's hips upward and backward, forcing their knees to slide down the torso to re-establish equilibrium in standard mount.\n\nStrategic context is essential for understanding this technique's value within the broader escape hierarchy. From high mount bottom, submission danger is extreme and traditional escape mechanisms are mechanically compromised by the elevated knee positioning. The bridge to mount serves as a damage-control tool that buys time and creates subsequent escape opportunities from regular mount, where bridge-and-roll and elbow escape mechanics become viable. Experienced practitioners recognize that partial defensive wins—regressing the opponent's position rather than fully escaping—are often the optimal strategy from severely disadvantaged positions.",
   "conditions": [
     "Bottom player must have at least one foot planted flat on the mat with knee bent for bridge leverage",
@@ -247,6 +248,10 @@
       {
         "question": "What is the primary timing window for executing the bridge from high mount bottom?",
         "answer": "The optimal timing window opens when the top player shifts weight forward to establish grips or initiate a submission setup. This forward weight shift elevates their center of gravity and narrows their support base, making them maximally vulnerable to explosive upward displacement. Bridging while they maintain static pressure with wide base and active posting is mechanically inefficient and likely to fail without sufficient force to overcome their tripod stability."
+      },
+      {
+        "question": "What conditions must exist before the bridge from high mount has any chance of working?",
+        "answer": "You need at least one foot planted flat and close to your hips with the knee bent for leverage, hips that are not fully grapevined or pinned to the mat, and arms in a tucked defensive shell rather than trapped or extended. Critically, the opponent must be mid-weight-shift—reaching for grips or a submission—rather than settled in a wide, posted base. Bridging without these conditions wastes the explosive effort and only telegraphs your intent."
       },
       {
         "question": "Why should the bridge be angled to one side rather than directed straight upward?",

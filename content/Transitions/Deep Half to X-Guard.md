@@ -34,6 +34,18 @@ description: "Master the Deep Half to X-Guard transition in BJJ. Complete guide 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Deep Half to X-Guard",
+  "description": "Deep Half to X-Guard is a bottom-game guard transition where the player threads X-Guard hooks as the top opponent extracts their leg from deep half, converting a stalling sweep exchange into a high-percentage elevation-sweep platform.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Deep Half to X-Guard transition in BJJ. Complete guide 
 </div>
 
 <section id="overview" class="content-section">
+
+**Deep Half to X-Guard is a bottom-game guard transition where the player threads X-Guard hooks as the top opponent extracts their leg from deep half, converting a stalling sweep exchange into a high-percentage elevation-sweep platform.**
 
 The Deep Half to X-Guard transition is a fundamental guard reconfiguration that connects two of BJJ's most powerful bottom positions. When the top player begins extracting their leg from deep half guard — either by pulling backward, widening their base, or shifting weight to defeat sweep threats — the bottom player exploits the movement by threading X-Guard hooks as the leg becomes available. This transition capitalizes on the principle that defensive reactions to one guard system create vulnerabilities to another, forming a chain that keeps the bottom player perpetually threatening.
 

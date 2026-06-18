@@ -33,10 +33,32 @@ description: "Master the Kimura shoulder lock from Armbar Control in BJJ. Learn 
 }
 </script>
 
-> **SAFETY**: Kimura from Armbar Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Armbar Control",
+  "description": "The Kimura from Armbar Control is a shoulder-lock chain attack where the top player, facing an opponent who bends their arm to defend the armbar, secures a figure-four grip and externally rotates the trapped forearm to threaten the shoulder.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Armbar Control is a shoulder-lock chain attack where the top player, facing an opponent who bends their arm to defend the armbar, secures a figure-four grip and externally rotates the trapped forearm to threaten the shoulder.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Armbar Control targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,54 +75,7 @@ The mechanics flow naturally from the existing armbar control configuration. As 
 
 What makes this attack devastatingly effective is the positional advantage already established from armbar control. The attacker has leg control over the opponent's upper body, hip-to-shoulder proximity, and complete arm isolation. The opponent who bends their arm to defend the armbar has unwittingly positioned themselves for the kimura. Straighten the arm and face the armbar; bend it and face the kimura. This genuine dilemma makes the armbar-to-kimura chain one of the highest-percentage finishing sequences in competition grappling.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Armbar Control]]
-**From Position**: [[Positions/Armbar Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
-| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
-| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
-| Bicep tendon strain or rupture from combined rotation and extension forces | Medium | 6-12 weeks for strain, 3-6 months for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand on partner or mat)
-- Physical foot tap (multiple taps with either foot on the mat)
-- Any distress signal including screaming or unusual sounds
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position by externally rotating back to starting position
-3. Release the figure-four grip completely and remove hands from the arm
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled at all times
-- Never use competition speed or surprise attacks during training rounds
-- Always ensure partner has at least one hand free to tap or can verbalize
-- Do not apply while partner is in an awkward body position that restricts their ability to tap
-- Never combine with excessive weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance or range of motion
-
+**Starting Position**: [[Positions/Armbar Control]] · **From**: [[Positions/Armbar Control]] (Top)
 
 </section>
 
@@ -260,39 +235,60 @@ What makes this attack devastatingly effective is the positional advantage alrea
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Armbar]]
 - [[Submissions/Americana]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Armbar Control]] - Starting position where this chain attack originates
 - [[Positions/Kimura Trap]] - Related arm isolation control position for continued attacks
-- [[Armbar from Armbar Control]] - Primary alternative finish when opponent straightens arm instead of bending
 - [[Positions/Triangle Control]] - Alternative chain attack available from armbar control
 - [[Positions/Omoplata Control]] - Secondary chain attack when arm bending continues past kimura angle
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kimura from Armbar Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
+| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
+| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
+| Bicep tendon strain or rupture from combined rotation and extension forces | Medium | 6-12 weeks for strain, 3-6 months for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making any verbal distress sound)
+- Physical hand tap (multiple taps with free hand on partner or mat)
+- Physical foot tap (multiple taps with either foot on the mat)
+- Any distress signal including screaming or unusual sounds
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant tap is felt or heard
+2. Return the arm toward neutral position by externally rotating back to starting position
+3. Release the figure-four grip completely and remove hands from the arm
+4. Allow partner to self-assess shoulder mobility before continuing
+5. Never release suddenly or allow arm to spring back forcefully
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled at all times
+- Never use competition speed or surprise attacks during training rounds
+- Always ensure partner has at least one hand free to tap or can verbalize
+- Do not apply while partner is in an awkward body position that restricts their ability to tap
+- Never combine with excessive weight pressure that restricts breathing while finishing
+- Respect immediate taps without testing partner's pain tolerance or range of motion
+
 
 </section>
 

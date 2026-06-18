@@ -34,6 +34,18 @@ description: "Master the Half Guard to Back Take in BJJ. Complete guide to under
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard to Back Take",
+  "description": "Half Guard to Back Take is a bottom half guard transition that uses a deep far-side underhook to create a perpendicular angle, block the opponent's hip, and climb onto their back to establish dominant back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Half Guard to Back Take in BJJ. Complete guide to under
 </div>
 
 <section id="overview" class="content-section">
+
+**Half Guard to Back Take is a bottom half guard transition that uses a deep far-side underhook to create a perpendicular angle, block the opponent's hip, and climb onto their back to establish dominant back control.**
 
 Half Guard to Back Take represents an advanced positional transition that transforms a defensive half guard position into the highly dominant back control. This transition is fundamental to modern half guard systems and represents one of the highest-percentage paths to dominance from bottom position. The technique relies on establishing an underhook, creating a perpendicular angle to the opponent, and systematically climbing to their back while they attempt to maintain top pressure. This transition is particularly effective because it exploits the opponent's forward pressure against them, using their own weight commitment to facilitate the back take. Mastery of this transition is essential for any serious half guard player and represents a key component of offensive half guard systems developed by experts like Bernardo Faria and Craig Jones.
 
@@ -236,7 +250,7 @@ Half Guard to Back Take is a fundamental transition in the offensive half guard 
 
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative entry - different half guard variation that can lead to same back take
 
-- [[Transitions/Kimura to Back Take]] - Related technique - alternative grip configuration for same positional outcome
+- [[Transitions/Kimura Sweep]] - Related technique - alternative grip configuration for same positional outcome
 
 - [[Positions/Dogfight Position]] - Transitional position - often occurs during back take attempt when opponent defends
 

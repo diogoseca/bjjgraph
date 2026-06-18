@@ -33,10 +33,32 @@ description: "Master the Rear Naked Choke from Body Triangle with expert finishi
 }
 </script>
 
-> **SAFETY**: Rear Naked Choke from Body Triangle targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Naked Choke from Body Triangle",
+  "description": "The Rear Naked Choke from Body Triangle is a blood choke applied from back control where the figure-four leg lock immobilizes the opponent's torso, freeing both arms to compress the carotid arteries for one of grappling's highest-percentage finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Rear Naked Choke from Body Triangle is a blood choke applied from back control where the figure-four leg lock immobilizes the opponent's torso, freeing both arms to compress the carotid arteries for one of grappling's highest-percentage finishes.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">65% success</span>
+</div>
+
+> [!danger] Safety
+> Rear Naked Choke from Body Triangle targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,56 +75,7 @@ Unlike the standard RNC from hooks where the attacker must constantly manage leg
 
 The finishing mechanics remain identical to the standard RNC — the choking arm slides under the chin with the bicep and forearm compressing both carotid arteries — but the body triangle provides a force multiplier. The squeeze from the legs restricts the defender's ability to expand their chest and generate the power needed for effective hand fighting. Competition data consistently shows that RNC attempts from body triangle convert at significantly higher rates than from standard hooks, making this one of the most feared finishing combinations in modern grappling.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Back Control/Body Triangle]]
-**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
-**Success Rate**: 65%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from blood choke | High | Immediate to 30 seconds with proper release |
-| Trachea damage from improper forearm placement | CRITICAL | 2-6 weeks, potential permanent damage |
-| Neck strain or muscle damage | Medium | 3-7 days |
-| Carotid artery injury from excessive force | CRITICAL | Immediate medical attention required |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or make any verbal sound)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Going limp or loss of consciousness
-- Any distress signal or unusual sound
-
-
-**Release Protocol**:
-1. Immediately release choking arm upon tap signal
-2. Remove hooks and body triangle lock
-3. Gently guide partner to side-lying recovery position
-4. Monitor consciousness and breathing for 30 seconds
-5. If partner was unconscious, keep them lying down until fully alert
-6. Never allow unconscious partner to stand immediately
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity in drilling
-- Never apply the choke to the trachea or windpipe
-- Always ensure partner has clear tap access with both hands
-- Stop immediately if partner makes any distress sound
-- Never hold a choke past the tap for any reason
-- Beginners must practice with extremely slow progression only
-
+**Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -266,38 +239,61 @@ The finishing mechanics remain identical to the standard RNC — the choking arm
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Guillotine Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control/Body Triangle]] - Starting position providing figure-four leg control for this submission
 - [[Positions/Back Control]] - Parent position category encompassing body triangle control
 - [[Positions/Crucifix]] - Alternative back control position enabling undefended choke attacks when opponent's arms are trapped during body triangle defense
-- [[Submissions/Bow and Arrow Choke]] - Alternative choke from body triangle in gi using lapel grip
 - [[Positions/Gift Wrap]] - Arm trapping position from back control that enables alternative RNC setups by removing one defensive arm from the equation
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Rear Naked Choke from Body Triangle leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from blood choke | High | Immediate to 30 seconds with proper release |
+| Trachea damage from improper forearm placement | CRITICAL | 2-6 weeks, potential permanent damage |
+| Neck strain or muscle damage | Medium | 3-7 days |
+| Carotid artery injury from excessive force | CRITICAL | Immediate medical attention required |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' or make any verbal sound)
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Going limp or loss of consciousness
+- Any distress signal or unusual sound
+
+
+**Release Protocol**:
+1. Immediately release choking arm upon tap signal
+2. Remove hooks and body triangle lock
+3. Gently guide partner to side-lying recovery position
+4. Monitor consciousness and breathing for 30 seconds
+5. If partner was unconscious, keep them lying down until fully alert
+6. Never allow unconscious partner to stand immediately
+
+
+**Training Restrictions**:
+- Never use competition speed or intensity in drilling
+- Never apply the choke to the trachea or windpipe
+- Always ensure partner has clear tap access with both hands
+- Stop immediately if partner makes any distress sound
+- Never hold a choke past the tap for any reason
+- Beginners must practice with extremely slow progression only
+
 
 </section>
 

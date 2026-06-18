@@ -34,6 +34,18 @@ description: "Learn how to transition from Lapel Guard to Piranha Guard in BJJ. 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel Guard to Piranha Guard",
+  "description": "Lapel Guard to Piranha Guard is a gi guard transition in which the bottom player reconfigures existing lapel control by threading the opponent's collar between their own legs, creating pulley-like leverage that powers sweeps, back takes, and posture breaks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn how to transition from Lapel Guard to Piranha Guard in BJJ. 
 </div>
 
 <section id="overview" class="content-section">
+
+**Lapel Guard to Piranha Guard is a gi guard transition in which the bottom player reconfigures existing lapel control by threading the opponent's collar between their own legs, creating pulley-like leverage that powers sweeps, back takes, and posture breaks.**
 
 The Transition to Piranha Guard represents an evolution within the lapel guard system where the bottom player reconfigures their existing lapel control by threading the opponent's collar through their own legs. Rather than maintaining the standard lapel guard grip where fabric wraps around the opponent's limbs externally, Piranha Guard routes the collar between the practitioner's legs to create a pulley-like mechanical advantage that dramatically amplifies posture-breaking leverage and sweep power.
 

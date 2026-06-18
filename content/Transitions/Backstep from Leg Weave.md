@@ -34,6 +34,18 @@ description: "Master the backstep from leg weave in BJJ. Complete guard passing 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backstep from Leg Weave",
+  "description": "Backstep from Leg Weave is an angular guard pass where the top player pivots on the threaded leg and swings the free leg behind the opponent's hooks, circling around frontal frames to settle into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the backstep from leg weave in BJJ. Complete guard passing 
 
 <section id="overview" class="content-section">
 
-The Backstep from Leg Weave is an advanced guard passing technique where the top player uses rotational hip movement to clear the bottom player's remaining guard hooks from an established leg weave position, arriving in side control. Unlike linear passing options from leg weave such as the knee slice or smash pass, the backstep introduces an angular change that exploits moments when the bottom player commits defensive frames against forward-driving pressure.
+**Backstep from Leg Weave is an angular guard pass where the top player pivots on the threaded leg and swings the free leg behind the opponent's hooks, circling around frontal frames to settle into side control.**
+
+Within the leg weave passing system, the backstep is the change-of-direction answer to a bottom player who has organized strong frames against forward-driving pressure. Unlike linear passing options from leg weave such as the knee slice or smash pass, the backstep introduces an angular change that exploits moments when the bottom player commits defensive frames against forward pressure, redirecting the pass from a forward vector to a lateral one that arrives in side control.
 
 The technique operates on the principle of directional misdirection. When the bottom player establishes strong frames against forward crossface pressure and weight distribution, the backstep pivots around those defensive structures rather than driving through them. The passer rotates their hips, swinging the free leg behind and around the bottom player's legs while maintaining upper body connection through the weaved leg. This angular shift creates a passing pathway that circumvents the defensive framework entirely.
 

@@ -13,7 +13,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Positional Sparring represents the structured resistance training methodology where practitioners begin from predetermined positions with specific objectives and constraints, creating focused development opportunities for position-specific skills that bridge drilling and live sparring. Unlike full sparring with open starting position, positional sparring is a comprehensive training framework that isolates specific scenarios to maximize repetition density and technical problem-solving opportunities across targeted positional contexts. This concept encompasses the pedagogical structure, reset protocols, and objective-setting mechanisms that transform general rolling into focused skill development with measurable progression indicators. Positional sparring serves as both a diagnostic tool that reveals technical gaps in specific positions, and an accelerated learning environment that provides 5-10x more repetitions of target scenarios compared to live sparring. The ability to implement effective positional sparring methodology often determines the efficiency of skill acquisition and competitive preparation, making it one of the most valuable training tools in modern BJJ pedagogy.",
+  "summary": "Positional sparring is a structured resistance-training method where partners start from a fixed position with asymmetric objectives — one attacks, one defends — resetting on completion to maximize focused repetitions of a specific scenario.",
+  "overview": "Within modern BJJ pedagogy, positional sparring emerged as the critical bridge between cooperative drilling and unstructured live rolling, formalized by competition-focused academies seeking to compress skill acquisition. By constraining where a round begins and what each partner is trying to achieve, it isolates specific scenarios to maximize repetition density and technical problem-solving across targeted positional contexts. This methodology encompasses the pedagogical structure, reset protocols, and objective-setting mechanisms that transform general rolling into focused skill development with measurable progression indicators. Positional sparring serves as both a diagnostic tool that reveals technical gaps in specific positions, and an accelerated learning environment that provides 5-10x more repetitions of target scenarios compared to live sparring. The ability to implement effective positional sparring methodology often determines the efficiency of skill acquisition and competitive preparation, making it one of the most valuable training tools in modern BJJ pedagogy.",
   "key_principles": [
     "Define clear starting positions and success objectives before engagement begins",
     "Establish asymmetric goals where each partner has distinct winning conditions (e.g., attacker seeks submission, defender seeks escape)",
@@ -395,6 +396,48 @@
       "name": "Competition Preparation System",
       "content_type": "System",
       "relationship": "Comprehensive framework incorporating positional sparring as core methodology"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is positional sparring and how does it differ from full live rolling?",
+      "answer": "Positional sparring starts both partners from a predetermined position with asymmetric objectives and resets on completion, isolating one scenario for high-volume reps, whereas full rolling begins neutral and flows freely."
+    },
+    {
+      "question": "Why are asymmetric goals essential to effective positional sparring?",
+      "answer": "Asymmetric goals give each partner a distinct winning condition (e.g., attacker seeks the submission, defender seeks the escape), creating realistic offense-versus-defense tension and clear, trackable completion criteria."
+    },
+    {
+      "question": "How should you calibrate intensity during a positional sparring round?",
+      "answer": "Match resistance to the objective: roughly 40-60% for skill acquisition, 70-80% for refinement, and 90-95% for competition simulation, communicating the expected level before the round begins."
+    },
+    {
+      "question": "What is the purpose of an immediate reset protocol?",
+      "answer": "Resetting to the start position within 5-10 seconds after either partner completes their objective preserves repetition density and round intensity, preventing wasted time on slow position re-establishment."
+    },
+    {
+      "question": "How many more target repetitions does positional sparring provide versus live rolling?",
+      "answer": "By isolating a single scenario and resetting after each outcome, positional sparring typically yields 5-10x more repetitions of the target position than open live sparring would in the same time."
+    },
+    {
+      "question": "What common error undermines positional sparring focus, and how do you correct it?",
+      "answer": "Letting competitive ego override the objective causes partners to abandon techniques that need practice; correct it by framing rounds as skill development and celebrating problem-solving over round wins."
+    },
+    {
+      "question": "Why should partners alternate offensive and defensive roles?",
+      "answer": "Alternating roles every 2-4 rounds prevents one-sided development, ensuring each partner builds both attacking and escaping skills from advantageous and disadvantageous positions alike."
+    },
+    {
+      "question": "How does quantitative tracking improve positional sparring?",
+      "answer": "Recording success rates and time-to-completion creates an objective feedback loop that exposes specific technical gaps and lets you target training parameters toward measurable weaknesses."
+    },
+    {
+      "question": "What makes a starting position effective for positional sparring?",
+      "answer": "Effective starts replicate real rolling scenarios with realistic grips, body positioning, and spatial relationships, ensuring skills transfer to live sparring rather than rewarding artificial setups."
+    },
+    {
+      "question": "How can progressive constraints accelerate skill development?",
+      "answer": "Systematically adding restrictions (grip limits, banned techniques, time caps) removes familiar options, forcing technical creativity and revealing gaps that full-freedom rounds would let you avoid."
     }
   ]
 }

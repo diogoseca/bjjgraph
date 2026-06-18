@@ -34,6 +34,18 @@ description: "Master the Bridge and Turn to Turtle escape from North-South. Step
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge and Turn to Turtle",
+  "description": "Bridge and Turn to Turtle is a North-South bottom escape in which the pinned player times an angled bridge to a weight shift, then rotates toward the opponent to surface on hands and knees in turtle rather than stay crushed under the pin.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Bridge and Turn to Turtle escape from North-South. Step
 
 <section id="overview" class="content-section">
 
-The Bridge and Turn to Turtle is a fundamental escape from North-South control that converts crushing chest pressure into a defensive turtle position. This technique exploits the inherent instability created when you generate upward force through an explosive bridge, combined with rotational momentum toward your opponent. The escape requires precise timing—executing during the opponent's weight shifts creates the best opportunity for success.
+**Bridge and Turn to Turtle is a North-South bottom escape in which the pinned player times an angled bridge to a weight shift, then rotates toward the opponent to surface on hands and knees in turtle rather than stay crushed under the pin.**
+
+Among the handful of reliable answers to North-South control, the Bridge and Turn earns its place by trading a suffocating pin for a position you can actually work from. This technique exploits the inherent instability created when you generate upward force through an explosive bridge, combined with rotational momentum toward your opponent. The escape requires precise timing—executing during the opponent's weight shifts creates the best opportunity for success.
 
 Strategically, the Bridge and Turn serves as the primary escape pathway from one of BJJ's most suffocating pins. North-South control restricts breathing and limits hip mobility, making traditional escapes ineffective. By bridging at an angle and turning toward the opponent rather than away, you protect your back while achieving a defensible position. The turtle, while not ideal, offers significantly more escape options than remaining pinned under North-South pressure.
 

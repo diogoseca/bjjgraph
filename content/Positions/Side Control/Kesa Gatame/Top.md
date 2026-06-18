@@ -21,13 +21,13 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Kesa Gatame",
-      "text": "From this position, attempt Kimura from Kesa Gatame. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Kesa Gatame. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Far Side Armbar",
-      "text": "From this position, attempt Far Side Armbar. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Far Side Armbar. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,13 +39,13 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 32% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 30% of exchanges from this position.",
       "position": 5
     },
     {

@@ -34,6 +34,18 @@ description: "Master the Shin-to-Shin Sweep in BJJ. Learn to convert shin connec
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Shin-to-Shin Sweep",
+  "description": "The Shin-to-Shin Sweep is an off-balancing technique from shin-to-shin guard that converts the perpendicular shin connection into a sweeping lever, toppling a standing or based opponent directly to mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Shin-to-Shin Sweep in BJJ. Learn to convert shin connec
 
 <section id="overview" class="content-section">
 
-The Shin-to-Shin Sweep is a direct off-balancing technique executed from shin-to-shin guard that converts the perpendicular shin connection into a powerful sweeping lever, driving the opponent backward or laterally to achieve mount. Unlike entries to single leg X or X-guard that use shin-to-shin as a transitional platform, this sweep capitalizes on the immediate leverage available from the shin connection itself, making it one of the fastest attacking options from the position. The technique exploits the opponent's compromised base caused by the perpendicular shin frame, using a combination of upper body pulling grips and shin-driven elevation to topple them directly.
+**The Shin-to-Shin Sweep is an off-balancing technique from shin-to-shin guard that converts the perpendicular shin connection into a sweeping lever, toppling a standing or based opponent directly to mount.**
+
+Sitting at the front of the shin-to-shin guard attack hierarchy, this sweep capitalizes on the immediate leverage available from the perpendicular shin connection itself, rather than treating shin-to-shin as a mere transitional platform for single leg X or X-guard entries. By combining upper body pulling grips with shin-driven elevation, the guard player exploits the opponent's compromised base — caused by the perpendicular shin frame — to topple them directly backward or laterally into mount, making it one of the fastest scoring options from the position.
 
 Strategically, the Shin-to-Shin Sweep serves as the first layer of attack from shin-to-shin guard, forcing the top player to respect the immediate sweeping threat before they can focus on clearing the shin connection. When the opponent defends the direct sweep by posting or widening their base, they create openings for single leg X entries, X-guard transitions, and leg entanglement pathways. This creates a genuine attacking dilemma: defend the immediate sweep and open secondary attacks, or focus on clearing the shin and risk being swept directly. The technique is equally effective in gi and no-gi, though grip selection differs. In gi, collar and sleeve grips amplify the pulling mechanics, while no-gi relies on wrist control and collar ties to generate the necessary upper body connection for off-balancing.
 

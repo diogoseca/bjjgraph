@@ -34,6 +34,18 @@ description: "Master the Roll to Guard escape from Truck position in BJJ. Comple
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll to Guard from Truck",
+  "description": "Roll to Guard from Truck is a forward rolling escape from truck bottom that converts the opponent's forward attacking pressure into rotational momentum to free the trapped leg and recover half guard or open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Roll to Guard escape from Truck position in BJJ. Comple
 
 <section id="overview" class="content-section">
 
-The Roll to Guard from Truck is a forward rolling escape used when caught in the truck position bottom, where the opponent controls from a perpendicular angle with legs entangled in a figure-four configuration. The technique exploits moments when the truck top player commits their weight forward for upper body attacks such as the twister or bow and arrow choke, creating a brief window where the bottom player can initiate a forward rolling motion to disentangle the trapped leg and recover a guard position, most commonly half guard.
+**Roll to Guard from Truck is a forward rolling escape from truck bottom that converts the opponent's forward attacking pressure into rotational momentum to free the trapped leg and recover half guard or open guard.**
+
+Caught in truck bottom — one of the highest-finishing-rate positions in modern no-gi, where the opponent controls from a perpendicular angle with legs entangled in a figure-four configuration — the bottom player must escape proactively rather than survive passively, and the Roll to Guard offers one of the most direct exits. The technique exploits moments when the truck top player commits their weight forward for upper body attacks such as the twister or bow and arrow choke, creating a brief window where the bottom player can initiate a forward rolling motion to disentangle the trapped leg and recover a guard position, most commonly half guard.
 
 The escape works on the principle of redirecting rotational energy. Rather than fighting the opponent's torque directly, the bottom player channels the spinal rotation into a controlled forward roll that uses the opponent's committed pressure as momentum. The trapped leg extracts during the rotation as the figure-four configuration loosens when the angle of entanglement changes. Timing is critical: initiating too early allows the opponent to follow the roll and establish back control, while waiting too long means the submission attempt may already be locked in and the escape window closes.
 

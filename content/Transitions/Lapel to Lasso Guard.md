@@ -34,6 +34,18 @@ description: "Master the Lapel to Lasso Transition in BJJ. Convert lapel guard t
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel to Lasso Guard",
+  "description": "Lapel to Lasso Guard is a gi guard-retention transition where the bottom player abandons a failing lapel configuration and threads a shin across the opponent's arm—keeping the sleeve grip—to establish lasso control instead of being passed.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Lapel to Lasso Transition in BJJ. Convert lapel guard t
 </div>
 
 <section id="overview" class="content-section">
+
+**Lapel to Lasso Guard is a gi guard-retention transition where the bottom player abandons a failing lapel configuration and threads a shin across the opponent's arm—keeping the sleeve grip—to establish lasso control instead of being passed.**
 
 The Lapel to Lasso Transition represents a critical guard retention pathway that converts the mechanically complex lapel guard into the proven control system of lasso guard. This transition becomes essential when opponents successfully strip your primary lapel configuration or when the lapel grip begins failing under sustained passing pressure. Rather than losing guard position entirely, skilled practitioners flow seamlessly into lasso control, maintaining offensive threats while denying the pass.
 
@@ -228,8 +242,6 @@ The Lapel to Lasso Transition represents critical guard retention infrastructure
 - [[Transitions/Lapel to Spider Guard]] - Parallel technique - alternative guard retention from lapel
 
 - [[Transitions/Lasso Guard Pass]] - Opponent's counter-technique - primary passing method against established lasso
-
-- [[Transitions/Closed Guard to Triangle]] - Follow-up submission chain - available when opponent's posture breaks after lasso establishment
 
 - [[Transitions/Omoplata Sweep]] - Follow-up attack - effective when opponent drives forward against new lasso control
 

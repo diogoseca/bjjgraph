@@ -33,10 +33,32 @@ description: "Master the kneebar from leg entanglement in BJJ. Learn setup from 
 }
 </script>
 
-> **SAFETY**: Kneebar from Leg Entanglement targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear or rupture. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Leg Entanglement",
+  "description": "The kneebar from leg entanglement is a knee-joint submission that hyperextends an opponent's trapped leg by pivoting perpendicular and driving the hips upward to finish directly from established ashi garami control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The kneebar from leg entanglement is a knee-joint submission that hyperextends an opponent's trapped leg by pivoting perpendicular and driving the hips upward to finish directly from established ashi garami control.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Kneebar from Leg Entanglement targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,56 +75,7 @@ The attacking sequence typically emerges when the opponent defends primary leg e
 
 This technique demands precise understanding of perpendicular hip alignment, tight heel-to-chest control mechanics, and the discipline to apply pressure progressively rather than explosively. The knee's vulnerability to hyperextension makes safety awareness paramount, as the PCL, MCL, and LCL are all at immediate risk, with injury potential escalating dramatically if rotational forces are introduced through improper heel control during the finish.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)
-**Starting Position**: [[Positions/Leg Entanglement]]
-**From Position**: [[Positions/Leg Entanglement]] (Top)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Posterior cruciate ligament (PCL) tear or rupture | CRITICAL | 6-12 months with surgery, potential permanent instability |
-| Medial collateral ligament (MCL) sprain or tear | High | 4-8 weeks for grade 1-2, 8-12 weeks for grade 3 |
-| Lateral collateral ligament (LCL) damage | High | 6-10 weeks depending on severity |
-| Meniscus tear from rotational stress | High | 4-6 months with surgical repair |
-| Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
-
-
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
-
-**Tap Signals**:
-- Verbal tap (preferred for leg locks)
-- Multiple rapid hand taps on opponent or mat
-- Multiple foot taps on mat or opponent
-- Any vocalization of distress or pain
-- Frantic or panicked movement
-
-
-**Release Protocol**:
-1. Immediately stop all hip extension pressure
-2. Release the leg grip and allow knee to return to neutral position
-3. Do not suddenly drop the leg - control descent
-4. Allow partner to assess knee integrity before continuing
-5. Check with partner verbally before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply progressive pressure
-- Never use competition speed in training - always allow time to tap
-- Always maintain control of opponent's heel - never let it slip out during application
-- Never practice on training partners with known knee injuries without explicit permission
-- Never combine with explosive rotational movements that add torque to the knee
-- Beginners should not practice finishing pressure - focus on positional control only
-
+**Starting Position**: [[Positions/Leg Entanglement]] · **From**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
 
@@ -272,10 +245,9 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
@@ -283,15 +255,6 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Achilles Lock]]
-- [[Ankle Lock from X-Guard]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami]] - Foundational leg entanglement configuration and primary entry position for kneebar attacks
 - [[Positions/Kneebar Control]] - Finishing control position achieved when kneebar is fully locked from entanglement
 - [[Positions/Leg Entanglement]] - Parent positional system encompassing all ashi garami variants where kneebar is available
@@ -302,16 +265,49 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 - [[Positions/Ashi Garami/Backside 50-50]] - Rear-facing entanglement variant with kneebar access from modified angle
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Cross-body entanglement configuration with unique kneebar finishing mechanics
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kneebar from Leg Entanglement leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Posterior cruciate ligament (PCL) tear or rupture | CRITICAL | 6-12 months with surgery, potential permanent instability |
+| Medial collateral ligament (MCL) sprain or tear | High | 4-8 weeks for grade 1-2, 8-12 weeks for grade 3 |
+| Lateral collateral ligament (LCL) damage | High | 6-10 weeks depending on severity |
+| Meniscus tear from rotational stress | High | 4-6 months with surgical repair |
+| Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
+
+
+**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
+
+**Tap Signals**:
+- Verbal tap (preferred for leg locks)
+- Multiple rapid hand taps on opponent or mat
+- Multiple foot taps on mat or opponent
+- Any vocalization of distress or pain
+- Frantic or panicked movement
+
+
+**Release Protocol**:
+1. Immediately stop all hip extension pressure
+2. Release the leg grip and allow knee to return to neutral position
+3. Do not suddenly drop the leg - control descent
+4. Allow partner to assess knee integrity before continuing
+5. Check with partner verbally before resuming training
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - always apply progressive pressure
+- Never use competition speed in training - always allow time to tap
+- Always maintain control of opponent's heel - never let it slip out during application
+- Never practice on training partners with known knee injuries without explicit permission
+- Never combine with explosive rotational movements that add torque to the knee
+- Beginners should not practice finishing pressure - focus on positional control only
+
 
 </section>
 

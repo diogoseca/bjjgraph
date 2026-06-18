@@ -34,6 +34,18 @@ description: "Master the sweep from Ushiro Ashi-Garami bottom position. Expert g
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Ushiro Ashi-Garami",
+  "description": "The Sweep from Ushiro Ashi-Garami is a bottom-position reversal that exploits a leg-lock attacker's forward weight commitment during heel hook finishes, using posting-hand control and hip drive to rotate through the reversed entanglement into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the sweep from Ushiro Ashi-Garami bottom position. Expert g
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sweep from Ushiro Ashi-Garami is a bottom-position reversal that exploits a leg-lock attacker's forward weight commitment during heel hook finishes, using posting-hand control and hip drive to rotate through the reversed entanglement into mount.**
 
 The Sweep from Ushiro Ashi-Garami exploits one of the fundamental vulnerabilities in leg lock attacking systems: the attacker's forward weight commitment during heel hook finishing attempts. When trapped in the reversed leg entanglement from bottom, the defender can use the opponent's own leg configuration as a lever point, converting defensive positioning into an explosive reversal that lands in mount. The technique requires precise coordination between grip control, hip drive, and rotational mechanics to overcome the significant positional disadvantage of being inverted underneath a leg lock attacker.
 
@@ -232,8 +246,6 @@ The Sweep from Ushiro Ashi-Garami occupies a critical role in the defensive leg 
 - [[Positions/Mount]] - Target position achieved upon successful sweep completion, representing maximum positional improvement
 
 - [[Transitions/Sweep from Saddle]] - Analogous sweep from a different leg entanglement bottom position with similar mechanical principles
-
-- [[Transitions/Sweep from Honey Hole]] - Related sweep from another high-control entanglement, sharing timing and leverage concepts
 
 - [[Positions/Ashi Garami/Honey Hole]] - Related high-control leg entanglement position with comparable bottom sweep options
 

@@ -143,6 +143,16 @@ description: "Master blood choke mechanics in BJJ. Learn carotid artery compress
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Blood Chokes",
+  "description": "Blood chokes are submissions that compress the carotid arteries on the sides of the neck to cut oxygenated blood flow to the brain, producing unconsciousness within seconds — a vascular mechanism distinct from airway-blocking air chokes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,6 +167,8 @@ description: "Master blood choke mechanics in BJJ. Learn carotid artery compress
 <section id="overview" class="content-section">
 
 ## What are Blood Chokes?
+
+**Blood chokes are submissions that compress the carotid arteries on the sides of the neck to cut oxygenated blood flow to the brain, producing unconsciousness within seconds — a vascular mechanism distinct from airway-blocking air chokes.**
 
 Blood chokes are the most effective and widely used finishing mechanic in Brazilian Jiu-Jitsu. Unlike air chokes that restrict breathing through tracheal compression, blood chokes work by compressing the carotid arteries on one or both sides of the neck, cutting blood flow to the brain. When applied correctly, a blood choke can render an opponent unconscious in as little as 6 to 10 seconds, making it the fastest path to a finish in grappling. The rear naked choke, guillotine, triangle choke, and bow and arrow choke all operate primarily through this vascular mechanism.
 

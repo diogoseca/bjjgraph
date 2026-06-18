@@ -34,6 +34,18 @@ description: "Master Darce Control maintenance in BJJ. Complete guide to grip re
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Darce Control Maintenance",
+  "description": "Darce Control Maintenance is the systematic retention of the arm-in darce grip and top position—through grip-depth management, shoulder-to-head pressure, and perpendicular hip angles—while the trapped opponent works to extract their arm and escape.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Darce Control maintenance in BJJ. Complete guide to grip re
 
 <section id="overview" class="content-section">
 
-Darce Control Maintenance is the systematic process of retaining the darce grip configuration and positional dominance while the bottom player attempts to escape. This transition represents one of the most skill-dependent aspects of the darce game, as maintaining the position requires constant micro-adjustments to grip depth, shoulder pressure angle, and hip positioning in response to the opponent's defensive movements. Unlike many other control positions where static pressure suffices, the darce demands active management because the arm-in choke configuration creates narrow margins between effective control and grip failure.
+**Darce Control Maintenance is the systematic retention of the arm-in darce grip and top position—through grip-depth management, shoulder-to-head pressure, and perpendicular hip angles—while the trapped opponent works to extract their arm and escape.**
+
+Within the front-headlock submission system, the maintenance phase is where the majority of darce finishes are won or lost. This phase represents one of the most skill-dependent aspects of the darce game, as retaining the position requires constant micro-adjustments to grip depth, shoulder pressure angle, and hip positioning in response to the opponent's defensive movements. Unlike many other control positions where static pressure suffices, the darce demands active management because the arm-in choke configuration creates narrow margins between effective control and grip failure.
 
 The maintenance phase is critical because small errors compound rapidly in darce control. A grip that slides even slightly out of position gives the opponent space to extract their trapped arm, neutralizing the entire submission threat. Conversely, proper maintenance actively degrades the opponent's defensive structure over time as sustained pressure fatigues their neck muscles and limits their ability to maintain defensive frames. This creates a ratchet effect where each failed escape attempt leaves the defender in a progressively worse position.
 

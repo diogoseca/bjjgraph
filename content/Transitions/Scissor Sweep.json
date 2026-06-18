@@ -1,5 +1,6 @@
 {
   "name": "Scissor Sweep",
+  "summary": "The Scissor Sweep is a fundamental closed-guard reversal where the bottom player breaks posture, angles off, and scissors the legs—one shin driving the hips back, the other knee chopping behind the shoulder—to topple the opponent into Mount.",
   "description": "Master the Scissor Sweep from Closed Guard in BJJ. Complete guide with step-by-step execution, defense strategies, and systematic integration for sweeping to Mount.",
   "tags": [
     "bjj",
@@ -14,22 +15,22 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 75,
+      "probability": 55,
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": 30,
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 10,
+      "probability": 15,
       "result": "counter"
     }
   ],
-  "success_rate": 75,
-  "overview": "The Scissor Sweep is one of the most fundamental and high-percentage sweeps in Brazilian Jiu-Jitsu, executed from closed guard. This classical technique exploits an opponent's weight distribution and posture by using a scissoring leg motion combined with upper body control to reverse positions. The sweep derives its power from the biomechanical advantage created when one leg pushes while the other pulls, creating a lever system that off-balances even larger, stronger opponents.\n\nWhat makes the Scissor Sweep particularly effective is its reliance on timing and leverage rather than raw strength. When executed properly, the technique uses the opponent's own weight and forward pressure against them, making it accessible to practitioners of all sizes. The sweep creates a direct path to mount position, one of the most dominant positions in BJJ, making it both a fundamental technique for beginners and a reliable option for advanced competitors.\n\nThe Scissor Sweep integrates seamlessly into the closed guard attack system, working in combination with other sweeps like the Hip Bump and Pendulum Sweep. When opponents defend one sweep, they often create the opening for another, establishing a systematic approach to attacking from guard. Mastering this technique provides practitioners with a cornerstone skill that remains effective throughout their BJJ journey.",
+  "success_rate": 55,
+  "overview": "Among the first sweeps every practitioner learns, the Scissor Sweep endures into advanced competition because it converts an opponent's forward posture into a clean reversal through leverage rather than strength. This classical closed-guard technique exploits an opponent's weight distribution and posture by using a scissoring leg motion combined with upper body control to reverse positions. The sweep derives its power from the biomechanical advantage created when one leg pushes while the other pulls, creating a lever system that off-balances even larger, stronger opponents.\n\nWhat makes the Scissor Sweep particularly effective is its reliance on timing and leverage rather than raw strength. When executed properly, the technique uses the opponent's own weight and forward pressure against them, making it accessible to practitioners of all sizes. The sweep creates a direct path to mount position, one of the most dominant positions in BJJ, making it both a fundamental technique for beginners and a reliable option for advanced competitors.\n\nThe Scissor Sweep integrates seamlessly into the closed guard attack system, working in combination with other sweeps like the Hip Bump and Pendulum Sweep. When opponents defend one sweep, they often create the opening for another, establishing a systematic approach to attacking from guard. Mastering this technique provides practitioners with a cornerstone skill that remains effective throughout their BJJ journey.",
   "related_content": [
     {
       "name": "Hip Bump Sweep",

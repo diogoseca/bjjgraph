@@ -33,10 +33,32 @@ description: "Master the belly down armbar finish from Kesa Gatame. Learn the st
 }
 </script>
 
-> **SAFETY**: Belly Down Armbar from Kesa Gatame targets the Elbow joint hyperextension and ulnar collateral ligament. Risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Belly Down Armbar from Kesa Gatame",
+  "description": "The belly down armbar from Kesa Gatame is a prone elbow-hyperextension finish where the attacker steps the far leg over the opponent's head from scarf hold, isolates the trapped near arm between the thighs, and arches the hips to break the elbow.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The belly down armbar from Kesa Gatame is a prone elbow-hyperextension finish where the attacker steps the far leg over the opponent's head from scarf hold, isolates the trapped near arm between the thighs, and arches the hips to break the elbow.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint hyperextension and ulnar collateral ligament</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Belly Down Armbar from Kesa Gatame targets the Elbow joint hyperextension and ulnar collateral ligament. Primary risk: Elbow hyperextension with ligament damage to the ulnar collateral ligament. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,51 +75,7 @@ What makes this particular entry unique is the natural rotational momentum provi
 
 This technique is particularly effective against opponents who defend the traditional Kesa Gatame submissions like the americana or arm triangle by keeping their elbows tight. The belly-down transition attacks the arm from a completely different angle, bypassing standard defensive frames and creating a finishing position where even significant strength advantages cannot overcome the leverage differential.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint hyperextension and ulnar collateral ligament
-**Starting Position**: [[Positions/Side Control/Kesa Gatame]]
-**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension with ligament damage to the ulnar collateral ligament | CRITICAL | 3-6 months, may require surgical reconstruction |
-| Elbow joint capsule sprain or partial tear from forced extension | High | 4-12 weeks depending on severity |
-| Biceps tendon strain or partial tear from resisting extension under load | Medium | 2-6 weeks with progressive rehabilitation |
-| Distal humerus stress fracture from sustained pressure against locked elbow | High | 6-10 weeks with immobilization |
-
-
-**Application Speed**: SLOW and progressive. The belly down position creates significant mechanical advantage that can damage the elbow extremely quickly. Apply extension gradually and allow adequate time for the tap. Never jerk or spike the arm. The prone position amplifies force beyond what most practitioners expect.
-
-**Tap Signals**:
-- Verbal tap saying 'tap' or any distress vocalization
-- Physical hand tap on partner, mat, or own body
-- Physical foot tap on mat with either leg
-- Any screaming, grunting, or unusual vocalization indicating distress
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without waiting for confirmation or repetition
-2. If in doubt whether a tap occurred, release immediately—the position can be re-established safely
-3. Release extension pressure first by lowering the wrist, then release knee squeeze, then disengage completely
-4. Monitor training partner's arm mobility after release and check for signs of injury before continuing
-
-
-**Training Restrictions**:
-- Beginners should practice mechanics at 50% pressure maximum until transition control is consistent
-- Always apply extension slowly in training—never jerk or spike the arm during the belly down finish
-- Do not apply this technique on training partners with known elbow injuries or recent arm submissions
-- Practice the transition rotation separately from the finishing pressure until both components are reliable
-
+**Starting Position**: [[Positions/Side Control/Kesa Gatame]] · **From**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 </section>
 
@@ -259,40 +237,57 @@ This technique is particularly effective against opponents who defend the tradit
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Americana]]
 - [[Submissions/Kesa Gatame Arm Crush]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Arm Crush]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Side Control/Kesa Gatame]] - Starting position for this submission variant
 - [[Positions/Armbar Control]] - Control position reached during successful arm isolation
 - [[Positions/Side Control/Modified Scarf Hold]] - Alternative starting position with similar arm control mechanics
-- [[Submissions/Belly Down Armbar]] - Generic version of this technique applicable from multiple positions
-- [[Submissions/Americana]] - Alternative submission from Kesa Gatame that chains with this attack
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Belly Down Armbar from Kesa Gatame leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension with ligament damage to the ulnar collateral ligament | CRITICAL | 3-6 months, may require surgical reconstruction |
+| Elbow joint capsule sprain or partial tear from forced extension | High | 4-12 weeks depending on severity |
+| Biceps tendon strain or partial tear from resisting extension under load | Medium | 2-6 weeks with progressive rehabilitation |
+| Distal humerus stress fracture from sustained pressure against locked elbow | High | 6-10 weeks with immobilization |
+
+
+**Application Speed**: SLOW and progressive. The belly down position creates significant mechanical advantage that can damage the elbow extremely quickly. Apply extension gradually and allow adequate time for the tap. Never jerk or spike the arm. The prone position amplifies force beyond what most practitioners expect.
+
+**Tap Signals**:
+- Verbal tap saying 'tap' or any distress vocalization
+- Physical hand tap on partner, mat, or own body
+- Physical foot tap on mat with either leg
+- Any screaming, grunting, or unusual vocalization indicating distress
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without waiting for confirmation or repetition
+2. If in doubt whether a tap occurred, release immediately—the position can be re-established safely
+3. Release extension pressure first by lowering the wrist, then release knee squeeze, then disengage completely
+4. Monitor training partner's arm mobility after release and check for signs of injury before continuing
+
+
+**Training Restrictions**:
+- Beginners should practice mechanics at 50% pressure maximum until transition control is consistent
+- Always apply extension slowly in training—never jerk or spike the arm during the belly down finish
+- Do not apply this technique on training partners with known elbow injuries or recent arm submissions
+- Practice the transition rotation separately from the finishing pressure until both components are reliable
+
 
 </section>
 

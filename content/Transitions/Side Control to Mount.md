@@ -34,6 +34,18 @@ description: "Master the fundamental transition from side control to mount in BJ
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Side Control to Mount",
+  "description": "Side Control to Mount is a fundamental top transition in which you isolate the near-side arm and step your near leg over a pinned opponent's body to advance from the perpendicular side control pin into the higher-scoring mount position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the fundamental transition from side control to mount in BJ
 </div>
 
 <section id="overview" class="content-section">
+
+**Side Control to Mount is a fundamental top transition in which you isolate the near-side arm and step your near leg over a pinned opponent's body to advance from the perpendicular side control pin into the higher-scoring mount position.**
 
 The transition to mount from side control represents one of the most fundamental and high-percentage positional advancements in Brazilian Jiu-Jitsu. This transition is the natural progression when an opponent's defensive frames are compromised or when they turn into you attempting to recover guard. The movement capitalizes on controlling the near side of the opponent's body while stepping over to establish the dominant mount position. Understanding this transition is critical for developing a systematic top game, as mount offers superior control and submission opportunities compared to side control. The technique relies on precise weight distribution, maintaining connection throughout the movement, and timing the transition when defensive frames collapse or opponent movement creates openings. This is a bread-and-butter technique that every practitioner from white belt to black belt uses regularly in training and competition. The transition can be executed with various grips and entry methods, but the fundamental mechanics remain consistent: control the near side, step the leg over, and establish mount with proper weight distribution.
 
@@ -232,7 +246,7 @@ The transition to mount from side control represents a critical component of the
 
 - [[Positions/Gift Wrap]] - Control method that facilitates the transition
 
-- [[Submissions/Americana]] - Follow-up submission available after achieving mount
+- [[Americana from Mount]] - Follow-up submission available after achieving mount
 
 - [[Transitions/Mount to Armbar]] - Follow-up submission transition commonly attacked from mount
 
@@ -248,7 +262,7 @@ The transition to mount from side control represents a critical component of the
 
 - [[Positions/Mount/Technical Mount]] - Alternative mount variation with different leg positioning
 
-- [[Transitions/Knee Slice from Half]] - Recovery pass if opponent catches half guard
+- [[Transitions/Knee Slice Pass]] - Recovery pass if opponent catches half guard
 
 - [[Transitions/Back Take from Top]] - Alternative when opponent turns away during transition
 

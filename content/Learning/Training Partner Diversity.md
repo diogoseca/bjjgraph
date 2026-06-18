@@ -94,6 +94,18 @@ description: "Why training with the same partners creates blind spots in your BJ
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Training Partner Diversity",
+  "description": "Training partner diversity is the deliberate practice of rolling with varied body types, styles, and skill levels so your techniques become universally effective rather than calibrated to the specific habits of a few familiar partners.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Training
 
 
@@ -102,6 +114,8 @@ description: "Why training with the same partners creates blind spots in your BJ
 <section id="overview" class="content-section">
 
 ## What is Training Partner Diversity?
+
+**Training partner diversity is the deliberate practice of rolling with varied body types, styles, and skill levels so your techniques become universally effective rather than calibrated to the specific habits of a few familiar partners.**
 
 Your A-game is only as good as the range of opponents it has been tested against. If you only roll with your regular training partners, you learn to exploit their specific habits and weaknesses rather than developing genuinely effective technique. You know that your partner always defends the armbar by turning into you, so you time your attack around that reaction. But when a visitor walks in and defends by stacking and pulling their elbow free, your armbar suddenly stops working. The technique was never broken. Your calibration was just too narrow.
 
@@ -219,15 +233,17 @@ A: A technique that truly works succeeds against a wide range of body types, def
 <section id="related" class="content-section">
 
 ## Related
-- [[Positions/Closed Guard]] (Position) - Common position where partner-specific habits create false confidence in sweeps and submissions
-- [[Positions/Half Guard]] (Position) - Position where body type differences dramatically change the effectiveness of sweeps and underhook battles
-- [[Positions/Mount]] (Position) - Dominant position where weight and body type differences significantly affect control and escape dynamics
-- [[Principles/Positional Sparring]] (Principle) - Structured sparring format that can be used to practice against specific styles and body types
-- [[Principles/Flow Rolling]] (Principle) - Low-intensity rolling format ideal for building comfort with unfamiliar training partners
-- [[Systems/Competition Preparation System]] (System) - Competition preparation requires diverse training partners to simulate unknown opponents
-- [[Principles/Guard Passing]] (Principle) - Guard passing techniques must be tested against varied guard styles to develop reliable passing sequences
-- [[Principles/Escape Fundamentals]] (Principle) - Escape techniques calibrated to one partner's control style may fail against different grips and pressure angles
-- [[Positions/De La Riva Guard]] (Position) - Specialized guards like De La Riva require exposure to dedicated guard players to develop effective passing responses
+- [[Closed Guard]] (Position) - Common position where partner-specific habits create false confidence in sweeps and submissions
+- [[Half Guard]] (Position) - Position where body type differences dramatically change the effectiveness of sweeps and underhook battles
+- [[Mount]] (Position) - Dominant position where weight and body type differences significantly affect control and escape dynamics
+- [[Positional Sparring]] (Principle) - Structured sparring format that can be used to practice against specific styles and body types
+- [[Flow Rolling]] (Principle) - Low-intensity rolling format ideal for building comfort with unfamiliar training partners
+- [[Competition Preparation System]] (System) - Competition preparation requires diverse training partners to simulate unknown opponents
+- [[Guard Passing]] (Principle) - Guard passing techniques must be tested against varied guard styles to develop reliable passing sequences
+- [[Escape Fundamentals]] (Principle) - Escape techniques calibrated to one partner's control style may fail against different grips and pressure angles
+- [[De La Riva Guard]] (Position) - Specialized guards like De La Riva require exposure to dedicated guard players to develop effective passing responses
+- [[Investing in Loss]] (Learning) - Rolling with harder, unfamiliar partners means accepting short-term losses to fuel long-term skill development
+- [[Training Intensity]] (Learning) - Pairs with partner diversity to govern how hard and against whom you should roll to maximize learning
 
 
 

@@ -34,6 +34,18 @@ description: "Master the guard pass from New York Control. Step-by-step system f
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Pass from New York Control",
+  "description": "The guard pass from New York Control is a top-player sequence that extracts the trapped arm from the rubber guard overhook, clears the leg off the shoulder, and drives through to side control while neutralizing triangle, omoplata, and gogoplata threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the guard pass from New York Control. Step-by-step system f
 </div>
 
 <section id="overview" class="content-section">
+
+**The guard pass from New York Control is a top-player sequence that extracts the trapped arm from the rubber guard overhook, clears the leg off the shoulder, and drives through to side control while neutralizing triangle, omoplata, and gogoplata threats.**
 
 The guard pass from New York Control addresses one of the most challenging scenarios in modern no-gi grappling: escaping the rubber guard system's sophisticated leg and arm entanglement to achieve a dominant passing position. New York Control traps the top player in a compound web of overhook control and leg pressure draped across the shoulder and back, neutralizing conventional passing mechanics entirely. Standard pressure passing, posture recovery, and grip-break sequences all fail against proper rubber guard structure, requiring a specialized sequential approach where the overhook must be addressed before the leg control can be cleared.
 
@@ -230,8 +244,6 @@ The guard pass from New York Control connects the rubber guard defensive scenari
 - [[Positions/Rubber Guard/Mission Control]] - Related rubber guard position with similar escape mechanics and common transition target
 
 - [[Positions/Rubber Guard/Invisible Collar]] - Adjacent rubber guard position that may be encountered during pass attempts
-
-- [[Positions/Rubber Guard]] - Parent guard system containing New York Control and related positions
 
 - [[Positions/Combat Base]] - Intermediate posture used during overhook extraction and pass setup
 

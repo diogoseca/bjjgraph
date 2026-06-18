@@ -129,6 +129,16 @@ description: "Master gi-specific BJJ strategy. Comprehensive framework for grips
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gi-Specific Strategy",
+  "description": "The Gi-Specific Strategy is a control framework that exploits the jacket, collar, sleeves, lapels, and pants as leverage points to win grip exchanges, pass, sweep, and finish with gi-only chokes and entanglements.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -142,6 +152,8 @@ description: "Master gi-specific BJJ strategy. Comprehensive framework for grips
 <section id="overview" class="content-section">
 
 ## What is Gi-Specific Strategy?
+
+**The Gi-Specific Strategy is a control framework that exploits the jacket, collar, sleeves, lapels, and pants as leverage points to win grip exchanges, pass, sweep, and finish with gi-only chokes and entanglements.**
 
 Gi-specific strategy represents the fundamental framework for leveraging the jacket and pants in Brazilian Jiu-Jitsu competition and training. Unlike no-gi grappling, the gi provides numerous control points through collar grips, sleeve grips, lapel control, and pant grips that fundamentally change the game's dynamics. This strategic system encompasses grip fighting hierarchies, control-based passing systems, collar choke mechanics, and lapel-based guards that are impossible without the gi. The core philosophy centers on establishing dominant grip configurations that limit opponent mobility while maximizing your offensive options. Understanding gi-specific strategy is essential for competitors who primarily train in the kimono, as it unlocks entire position families, submission categories, and control systems unavailable in no-gi formats. This framework emphasizes patience, grip discipline, and systematic control progression over explosive athleticism.
 

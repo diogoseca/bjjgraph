@@ -33,10 +33,32 @@ description: "Master the ankle lock from X-Guard in BJJ. Complete guide to setup
 }
 </script>
 
-> **SAFETY**: Ankle Lock from X-Guard targets the Ankle. Risk: Ankle ligament sprain or tear (anterior talofibular ligament, calcaneofibular ligament). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ankle Lock from X-Guard",
+  "description": "The ankle lock from X-Guard is a straight ankle lock applied from bottom X-Guard, trapping a standing opponent's foot in a figure-four grip and finishing with hip extension against the Achilles tendon and ankle joint.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The ankle lock from X-Guard is a straight ankle lock applied from bottom X-Guard, trapping a standing opponent's foot in a figure-four grip and finishing with hip extension against the Achilles tendon and ankle joint.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Straight Ankle Lock</span>
+<span class="meta-chip">Targets Ankle</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Ankle Lock from X-Guard targets the Ankle. Primary risk: Ankle ligament sprain or tear (anterior talofibular ligament, calcaneofibular ligament). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,50 +75,7 @@ This submission functions as both a standalone finishing technique and a gateway
 
 The mechanical advantage stems from controlling the opponent's hip rotation with your legs while isolating their ankle against your chest with a figure-four grip. The finish requires hip extension driving your body away from the opponent while the ankle remains pinned, creating a lever effect on the Achilles tendon and ankle joint. Progressive pressure application is essential for training safety, as the straight ankle lock allows adequate time for the defender to recognize danger and tap before serious injury occurs.
 
-**Category**: Joint Lock
-**Type**: Straight Ankle Lock
-**Target Area**: Ankle
-**Starting Position**: [[Positions/X-Guard]]
-**From Position**: [[Positions/X-Guard]] (Bottom)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Ankle ligament sprain or tear (anterior talofibular ligament, calcaneofibular ligament) | High | 4-12 weeks depending on grade of sprain |
-| Achilles tendon strain or partial tear from excessive dorsiflexion pressure | CRITICAL | 3-6 months for partial tear, 6-12 months for complete rupture |
-| Midfoot joint sprain (Lisfranc injury) from twisting pressure on planted foot | High | 6-12 weeks, may require surgical intervention |
-
-
-**Application Speed**: SLOW and progressive. Straight ankle locks allow the defender time to feel escalating pressure and tap before injury occurs. Never jerk, spike, or explosively crank the ankle. Apply steady hip extension over 2-3 seconds minimum.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, your body, or the mat
-- Physical foot tap with free leg on mat or partner
-- Any unusual screaming, groaning, or distress vocalization
-
-
-**Release Protocol**:
-1. Release grip immediately upon any tap signal without hesitation
-2. If in doubt whether a tap occurred, release immediately — position can always be re-established
-3. Slowly unwind the figure-four grip rather than abruptly dropping the leg to prevent secondary strain
-4. Verbally check with partner after release to confirm they are uninjured before continuing
-
-
-**Training Restrictions**:
-- Beginners should drill at slow speed with cooperative partners before adding resistance
-- No explosive cranking or sudden increases in pressure at any skill level
-- Avoid ankle locks on partners with known ankle, foot, or Achilles tendon injuries
-- White belts under IBJJF rules may only attempt straight ankle locks — no heel hooks or toe holds from this position
-
+**Starting Position**: [[Positions/X-Guard]] · **From**: [[Positions/X-Guard]] (Bottom)
 
 </section>
 
@@ -266,41 +245,58 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
+- [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Aoki Lock]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Heel Hook]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/X-Guard]] - Primary starting position providing the leg control foundation for this submission
 - [[Positions/X-Guard/Single Leg X-Guard]] - Alternative guard position offering simplified ankle lock entries
 - [[Positions/Ashi Garami]] - Leg entanglement system providing follow-up attacks when ankle lock is defended
 - [[Positions/Straight Ankle Lock Control]] - Control position when ankle lock is partially secured but not yet finished
-- [[Submissions/Achilles Lock]] - Related ankle lock submission sharing Achilles tendon attack mechanics
 - [[Positions/X-Guard/Reverse X-Guard]] - Alternative X-Guard variation with inverted ankle lock entry angles
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Advanced leg entanglement reached when transitioning from failed ankle lock attempt
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Ankle Lock from X-Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Ankle ligament sprain or tear (anterior talofibular ligament, calcaneofibular ligament) | High | 4-12 weeks depending on grade of sprain |
+| Achilles tendon strain or partial tear from excessive dorsiflexion pressure | CRITICAL | 3-6 months for partial tear, 6-12 months for complete rupture |
+| Midfoot joint sprain (Lisfranc injury) from twisting pressure on planted foot | High | 6-12 weeks, may require surgical intervention |
+
+
+**Application Speed**: SLOW and progressive. Straight ankle locks allow the defender time to feel escalating pressure and tap before injury occurs. Never jerk, spike, or explosively crank the ankle. Apply steady hip extension over 2-3 seconds minimum.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, your body, or the mat
+- Physical foot tap with free leg on mat or partner
+- Any unusual screaming, groaning, or distress vocalization
+
+
+**Release Protocol**:
+1. Release grip immediately upon any tap signal without hesitation
+2. If in doubt whether a tap occurred, release immediately — position can always be re-established
+3. Slowly unwind the figure-four grip rather than abruptly dropping the leg to prevent secondary strain
+4. Verbally check with partner after release to confirm they are uninjured before continuing
+
+
+**Training Restrictions**:
+- Beginners should drill at slow speed with cooperative partners before adding resistance
+- No explosive cranking or sudden increases in pressure at any skill level
+- Avoid ankle locks on partners with known ankle, foot, or Achilles tendon injuries
+- White belts under IBJJF rules may only attempt straight ankle locks — no heel hooks or toe holds from this position
+
 
 </section>
 

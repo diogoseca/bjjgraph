@@ -34,6 +34,18 @@ description: "Master the Transition to Old School from half guard bottom. Learn 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard to Old School",
+  "description": "Half Guard to Old School is a lockdown half guard bottom entry where the bottom player chains the lockdown figure-four, a deep underhook, and head control to establish the Old School position and threaten its signature sweep to mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Transition to Old School from half guard bottom. Learn 
 </div>
 
 <section id="overview" class="content-section">
+
+**Half Guard to Old School is a lockdown half guard bottom entry where the bottom player chains the lockdown figure-four, a deep underhook, and head control to establish the Old School position and threaten its signature sweep to mount.**
 
 The Transition to Old School is the critical positional entry from standard half guard bottom into the Old School attacking position, a cornerstone of lockdown-based half guard offense. This transition transforms a neutral or defensive half guard bottom into an immediately threatening sweep platform by establishing three simultaneous controls: the lockdown figure-four on the trapped leg, a deep underhook on the near side, and head control with the far arm. Each control element serves a distinct mechanical purpose, and the sequence in which they are established determines success probability.
 

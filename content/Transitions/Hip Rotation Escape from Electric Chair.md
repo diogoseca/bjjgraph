@@ -34,6 +34,18 @@ description: "Master the hip rotation escape from Electric Chair in BJJ. Learn t
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Rotation Escape from Electric Chair",
+  "description": "The hip rotation escape from Electric Chair is a bail-out where the bottom player abandons a failing lockdown attack, pivots on the deep underhook, and spins their hips underneath into turtle to access guard recovery and standups.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,11 +57,13 @@ description: "Master the hip rotation escape from Electric Chair in BJJ. Learn t
 
 <section id="overview" class="content-section">
 
-The hip rotation escape from Electric Chair is a critical bail-out technique used when the bottom player's electric chair attack from lockdown half guard becomes compromised or is being successfully defended by the top player. Rather than remaining in a deteriorating position where the top player is breaking through the lockdown or neutralizing the underhook, the bottom player uses a deliberate hip rotation to transition to turtle position, from which guard recovery or standup options become available. This technique reflects a fundamental strategic principle: knowing when to abandon a failing attack and redirect energy toward the next viable position.
+**The hip rotation escape from Electric Chair is a bail-out where the bottom player abandons a failing lockdown attack, pivots on the deep underhook, and spins their hips underneath into turtle to access guard recovery and standups.**
+
+When an electric chair attack from lockdown half guard stalls — the top player limp-legs out, breaks the underhook, or drives forward heavily enough to neutralize the splitting angle — clinging to the deteriorating position only drains energy and invites a pass. The hip rotation escape is the planned exit: rather than remaining where the top player is breaking through the lockdown or neutralizing the underhook, the bottom player uses a deliberate hip rotation to transition to turtle position, from which guard recovery or standup options become available. This technique reflects a fundamental strategic principle: knowing when to abandon a failing attack and redirect energy toward the next viable position.
 
 The mechanics involve releasing the lockdown configuration, using the underhook as a pivot point, and rotating the hips underneath the body to come up to a four-point turtle base. The movement must be explosive and fully committed, as a half-hearted attempt leaves the practitioner caught in transition with their back partially exposed and no lockdown control remaining. The underhook serves dual purpose throughout: it provides the rotational anchor for the hip movement and prevents the top player from immediately establishing crossface control during the transition.
 
-From a systems perspective, the hip rotation escape connects the lockdown and electric chair attacking system with the turtle recovery system. While turtle is not an ideal final destination, it provides significantly more escape and recovery options than a broken-down electric chair position where the top player has begun to establish passing pressure. This technique is particularly valuable in competition settings where holding a failing position drains the shot clock and energy without generating scoring opportunities. At 8% attempt probability from electric chair bottom, this is a low-frequency but high-importance option that every lockdown player must have in their toolkit.
+From a systems perspective, the hip rotation escape connects the lockdown and electric chair attacking system with the turtle recovery system. While turtle is not an ideal final destination, it provides significantly more escape and recovery options than a broken-down electric chair position where the top player has begun to establish passing pressure. This technique is particularly valuable in competition settings where holding a failing position drains the shot clock and energy without generating scoring opportunities. At 6% attempt probability from electric chair bottom, this is a low-frequency but high-importance option that every lockdown player must have in their toolkit.
 
 **From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 **Success Rate**: 45%

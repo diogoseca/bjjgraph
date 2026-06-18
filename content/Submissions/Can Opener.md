@@ -33,32 +33,102 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 }
 </script>
 
-> **SAFETY**: Can Opener targets the Cervical spine and neck muscles. Risk: Cervical spine compression. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Can Opener",
+  "description": "The Can Opener is a cervical neck crank applied from inside an opponent's closed guard, interlacing the hands behind their head and driving the forearms down to bend the neck forward—used mainly to force the guard open, and banned under most competition rulesets.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is the Can Opener?", "acceptedAnswer": { "@type": "Answer", "text": "The Can Opener is a cervical neck crank applied from inside an opponent\u0027s closed guard, interlacing the hands behind their head and driving the forearms down to bend the neck forward\u2014used mainly to force the guard open, and banned under most competition rulesets." } },
+    { "@type": "Question", "name": "What positions can you finish the Can Opener from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Can Opener from Closed Guard." } },
+    { "@type": "Question", "name": "Is the Can Opener dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Can Opener targets the Cervical spine and neck muscles. Primary risk: Cervical spine compression. Tap early and release immediately on the tap." } }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-<section id="variants" class="content-section">
+**The Can Opener is a cervical neck crank applied from inside an opponent's closed guard, interlacing the hands behind their head and driving the forearms down to bend the neck forward—used mainly to force the guard open, and banned under most competition rulesets.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Neck Crank</span>
+<span class="meta-chip">Targets Cervical spine and neck muscles</span>
+<span class="meta-chip">~30% avg</span>
+</div>
 
-## Position Variants
-
-| From Position | Success Rate | Top Injury Risk | Key Difference |
-|---------------|-------------|-----------------|----------------|
-| [[Can Opener/from Closed Guard|Closed Guard]] | 30% | Cervical spine compression |  |
-
-
-</section>
-
+> [!danger] Safety
+> Can Opener targets the Cervical spine and neck muscles. Primary risk: Cervical spine compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <section id="overview" class="content-section">
 
 The Can Opener is a neck crank technique applied from within an opponent's closed guard, primarily used as a guard-breaking mechanism rather than a finishing submission. The technique involves interlacing fingers behind the opponent's head and driving the forearms into their neck while pulling the head forward and down, creating intense pressure on the cervical spine and neck muscles. This compression submission is banned in most Brazilian Jiu-Jitsu competitions under IBJJF rules and is considered a controversial technique due to its high injury potential. While it can be effective at forcing an opponent to open their guard to relieve pressure, the Can Opener carries significant risks including neck muscle strains, cervical spine compression injuries, and potential disc damage. Modern BJJ practitioners typically learn this technique primarily for defensive purposes - understanding how to recognize and counter it - rather than as an offensive weapon. The technique's effectiveness comes from the mechanical disadvantage created when the defender's own guard restricts their ability to posture away from the pressure. However, higher-level practitioners develop strong defensive responses including grip fighting, posture control, and guard adjustments that significantly reduce the Can Opener's success rate. Understanding this technique is essential for comprehensive grappling education, but its application should be severely restricted or avoided entirely in training environments.
 
-**Category**: Compression
-**Type**: Neck Crank
-**Target Area**: Cervical spine and neck muscles
-**Success Rate**: 30% (average across variants)
+</section>
+
+
+<section id="variants" class="content-section">
+
+## What positions can you finish from?
+
+
+<div class="variants-table">
+
+| From Position | Seat | Success | Play as Attacker | Play as Defender |
+|---|---|---|---|---|
+| [[Submissions/Can Opener/from Closed Guard|Closed Guard]] | Top | 30% | [[Submissions/Can Opener/from Closed Guard/Attacker|Attack →]] | [[Submissions/Can Opener/from Closed Guard/Defender|Defend →]] |
+
+
+</div>
+
+
+<details class="mechanical-variations">
+<summary>Mechanical variations (how the choke is finished)</summary>
+
+- **Single Arm Can Opener**: One arm behind head with forearm pressure while other arm posts for base. Less effective compression but more stable position. (When to use: When you cannot secure both hands behind head due to opponent's grip fighting. Still carries same safety risks and legal prohibitions as standard version.)
+- **Can Opener from Half Guard**: Applied when in opponent's half guard with similar mechanics but adjusted angles due to one leg being controlled. (When to use: When in top half guard and seeking to create space. Even more dangerous due to restricted escape options for defender. Should be avoided.)
+- **LEGAL ALTERNATIVE: Standing Guard Break**: Stand up in guard, establish solid posture, control hips, and break guard through proper leg positioning and pressure direction. No neck involvement. (When to use: ALWAYS prefer this method. Legal in all competitions, safe for training partners, effective at all skill levels, and develops proper technical fundamentals.)
+
+
+</details>
+
+
+</section>
+
+
+<section id="related" class="content-section">
+
+## Related
+- [[Transitions/Guillotine Choke]] - Legal alternative neck attack from similar hand positioning inside closed guard
+- [[Transitions/Darce Choke]] - Legal neck attack using blood choke mechanics rather than spinal compression
+- [[Transitions/Anaconda Choke]] - Legal neck attack focusing on carotid compression rather than cervical pressure
+- [[Submissions/Rear Naked Choke]] - Highest percentage neck submission using blood choke from back control
+- [[Transitions/Arm Triangle]] - Legal head and arm compression submission accessible from top positions
+- [[Submissions/Ezekiel Choke]] - Legal choke applicable from inside closed guard as safer alternative
+- [[Transitions/North-South Choke]] - Legal neck attack from dominant north-south position using shoulder pressure
+- [[Submissions/Cross Collar Choke]] - Legal gi-based choke from closed guard using collar grip mechanics
+- [[Positions/Closed Guard]] - Primary position where Can Opener is attempted as guard-breaking mechanism
+- [[Positions/Half Guard]] - Alternative position where Can Opener variation can be attempted with similar risks
+- [[Positions/Butterfly Guard]] - Open guard position defender may transition to when opening guard to escape Can Opener
+- [[Positions/Turtle]] - Position defender may transition to when escaping Can Opener attempt
+- [[Positions/Combat Base]] - Proper posture position for guard passing that prevents dangerous neck attack setups
+- [[Positions/Open Guard]] - Alternative guard position defender transitions to when voluntarily opening guard
+- [[Positions/De La Riva Guard]] - Open guard option for defender after escaping Can Opener pressure
 
 </section>
 
@@ -104,79 +174,6 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 - Only demonstrate with cooperative partner for educational awareness
 - Always prioritize learning legal and safer guard-breaking alternatives
 
-
-</section>
-
-
-<section id="variation-details" class="content-section hide-minimal">
-
-## Variation Details
-
-
-**Single Arm Can Opener**: One arm behind head with forearm pressure while other arm posts for base. Less effective compression but more stable position. (When to use: When you cannot secure both hands behind head due to opponent's grip fighting. Still carries same safety risks and legal prohibitions as standard version.)
-
-
-**Can Opener from Half Guard**: Applied when in opponent's half guard with similar mechanics but adjusted angles due to one leg being controlled. (When to use: When in top half guard and seeking to create space. Even more dangerous due to restricted escape options for defender. Should be avoided.)
-
-
-**LEGAL ALTERNATIVE: Standing Guard Break**: Stand up in guard, establish solid posture, control hips, and break guard through proper leg positioning and pressure direction. No neck involvement. (When to use: ALWAYS prefer this method. Legal in all competitions, safe for training partners, effective at all skill levels, and develops proper technical fundamentals.)
-
-
-
-</section>
-
-
-<section id="from-positions" class="content-section">
-
-## From Which Positions?
-
-- [[Positions/Closed Guard]]
-- [[Positions/Half Guard]]
-
-
-</section>
-
-<section id="related-submissions" class="content-section">
-
-## Related Submissions
-
-- [[Transitions/Guillotine Choke]] - Legal alternative neck attack from similar hand positioning inside closed guard
-- [[Transitions/Darce Choke]] - Legal neck attack using blood choke mechanics rather than spinal compression
-- [[Transitions/Anaconda Choke]] - Legal neck attack focusing on carotid compression rather than cervical pressure
-- [[Submissions/Rear Naked Choke]] - Highest percentage neck submission using blood choke from back control
-- [[Transitions/Arm Triangle]] - Legal head and arm compression submission accessible from top positions
-- [[Submissions/Ezekiel Choke]] - Legal choke applicable from inside closed guard as safer alternative
-- [[Transitions/North-South Choke]] - Legal neck attack from dominant north-south position using shoulder pressure
-- [[Submissions/Cross Collar Choke]] - Legal gi-based choke from closed guard using collar grip mechanics
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Positions/Closed Guard]] - Primary position where Can Opener is attempted as guard-breaking mechanism
-- [[Transitions/Guillotine Choke]] - Legal alternative submission attack from similar hand positioning that targets safely
-- [[Positions/Half Guard]] - Alternative position where Can Opener variation can be attempted with similar risks
-- [[Positions/Butterfly Guard]] - Open guard position defender may transition to when opening guard to escape Can Opener
-- [[Positions/Turtle]] - Position defender may transition to when escaping Can Opener attempt
-- [[Positions/Combat Base]] - Proper posture position for guard passing that prevents dangerous neck attack setups
-- [[Positions/Open Guard]] - Alternative guard position defender transitions to when voluntarily opening guard
-- [[Positions/De La Riva Guard]] - Open guard option for defender after escaping Can Opener pressure
-- [[Transitions/Darce Choke]] - Legal neck attack alternative that uses blood choke mechanics rather than spinal compression
-- [[Transitions/Anaconda Choke]] - Legal neck attack alternative focusing on carotid compression rather than cervical pressure
-
-
-</section>
-
-<section id="terminal-state" class="content-section">
-
-## Match Outcome
-
-Successful execution of Can Opener leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

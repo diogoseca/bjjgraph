@@ -33,10 +33,32 @@ description: "Complete guide to the triangle choke from Crackhead Control. Maste
 }
 </script>
 
-> **SAFETY**: Triangle Choke from Crackhead Control targets the Carotid arteries and brachial plexus. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Choke from Crackhead Control",
+  "description": "The triangle choke from Crackhead Control is a 10th Planet rubber guard blood choke that uses the shin already pinned across the opponent's face as a guide rail to shoot the choking leg over the far shoulder, compressing both carotid arteries with minimal transition distance.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The triangle choke from Crackhead Control is a 10th Planet rubber guard blood choke that uses the shin already pinned across the opponent's face as a guide rail to shoot the choking leg over the far shoulder, compressing both carotid arteries with minimal transition distance.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and brachial plexus</span>
+<span class="meta-chip">65% success</span>
+</div>
+
+> [!danger] Safety
+> Triangle Choke from Crackhead Control targets the Carotid arteries and brachial plexus. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,53 +75,7 @@ The position's strength lies in the asymmetric control it creates. The shin pres
 
 Strategically, the triangle from Crackhead Control functions as a primary threat within the rubber guard attacking system. It chains naturally with gogoplata, omoplata, and armbar attacks, creating a submission web where defending one threat exposes the opponent to another. The position is particularly effective in no-gi grappling where the absence of collar grips makes traditional posture-breaking more difficult, and Crackhead Control's mechanical posture break compensates for this limitation.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and brachial plexus
-**Starting Position**: [[Positions/Crackhead Control]]
-**From Position**: [[Positions/Crackhead Control]] (Bottom)
-**Success Rate**: 65%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from blood choke | CRITICAL | Immediate upon release, but potential for injury if held after tap |
-| Neck strain or cervical spine stress | Medium | 3-7 days with rest |
-| Brachial plexus compression causing temporary arm numbness | Low | Minutes to hours |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to tap. NEVER spike or jerk the finish.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress sound)
-- Physical hand tap (multiple taps on body or mat)
-- Physical foot tap (if hands trapped)
-- Any loss of resistance or going limp
-
-
-**Release Protocol**:
-1. Immediately open legs and release triangle configuration
-2. Remove shin from neck and lower legs to mat
-3. Release arm trap and create space
-4. Check partner's consciousness and breathing
-5. If unconscious, place in recovery position and alert instructor
-
-
-**Training Restrictions**:
-- NEVER hold triangle after tap or loss of consciousness
-- NEVER use competition finishing speed in training
-- Always ensure partner has clear tap access with at least one hand
-- Release immediately upon any tap signal
-- Monitor partner's color and breathing throughout
-- Practice finishing mechanics on cooperative partners first
-
+**Starting Position**: [[Positions/Crackhead Control]] · **From**: [[Positions/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -244,39 +220,57 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
-- [[Transitions/Gogoplata]]
+## Related
 - [[Transitions/Gogoplata]]
 - [[Transitions/Inverted Triangle]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/High Elbow Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Crackhead Control]] - Starting position for this submission variant
 - [[Positions/Rubber Guard/Mission Control]] - Alternative rubber guard position with similar triangle access
-- [[Transitions/Gogoplata]] - Chains directly from the same Crackhead Control position
 - [[Positions/Closed Guard]] - Base guard from which Crackhead Control is established
-- [[Transitions/Inverted Triangle]] - Alternative triangle variation available from rubber guard system
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Triangle Choke from Crackhead Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from blood choke | CRITICAL | Immediate upon release, but potential for injury if held after tap |
+| Neck strain or cervical spine stress | Medium | 3-7 days with rest |
+| Brachial plexus compression causing temporary arm numbness | Low | Minutes to hours |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow partner to tap. NEVER spike or jerk the finish.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress sound)
+- Physical hand tap (multiple taps on body or mat)
+- Physical foot tap (if hands trapped)
+- Any loss of resistance or going limp
+
+
+**Release Protocol**:
+1. Immediately open legs and release triangle configuration
+2. Remove shin from neck and lower legs to mat
+3. Release arm trap and create space
+4. Check partner's consciousness and breathing
+5. If unconscious, place in recovery position and alert instructor
+
+
+**Training Restrictions**:
+- NEVER hold triangle after tap or loss of consciousness
+- NEVER use competition finishing speed in training
+- Always ensure partner has clear tap access with at least one hand
+- Release immediately upon any tap signal
+- Monitor partner's color and breathing throughout
+- Practice finishing mechanics on cooperative partners first
+
 
 </section>
 

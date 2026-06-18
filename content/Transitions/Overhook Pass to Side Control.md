@@ -34,6 +34,18 @@ description: "Master the Overhook Pass to Side Control in BJJ. Complete guide to
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Overhook Pass to Side Control",
+  "description": "Overhook Pass to Side Control is a pressure-passing transition that exploits the whizzer grip to trap and elevate the opponent's arm, flatten them, walk the hips around their guard, and settle into dominant perpendicular side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Overhook Pass to Side Control in BJJ. Complete guide to
 
 <section id="overview" class="content-section">
 
-The Overhook Pass to Side Control is a fundamental guard passing technique that leverages the wrestling-based whizzer grip to drive through an opponent's defensive structure and establish the dominant side control position. This pass capitalizes on the control advantages inherent in overhook positioning, where the opponent's arm is trapped and elevated above their optimal power generation angle, creating a one-armed defensive scenario that makes guard retention significantly more difficult. The mechanics involve maintaining the armpit seal while walking the hips around the opponent's guard structure, using forward pressure to flatten them, and systematically clearing their legs before settling into perpendicular side control alignment.
+**Overhook Pass to Side Control is a pressure-passing transition that exploits the whizzer grip to trap and elevate the opponent's arm, flatten them, walk the hips around their guard, and settle into dominant perpendicular side control.**
+
+Within the overhook control system, the pass to side control is the positional-advancement option practitioners reach for when their head-and-arm submissions and back takes have been defended. This pass capitalizes on the control advantages inherent in overhook positioning, where the opponent's arm is trapped and elevated above their optimal power generation angle, creating a one-armed defensive scenario that makes guard retention significantly more difficult. The mechanics involve maintaining the armpit seal while walking the hips around the opponent's guard structure, using forward pressure to flatten them, and systematically clearing their legs before settling into perpendicular side control alignment.
 
 The strategic value of this pass lies in its reliability as a direct conversion from transitional control to stable dominance. While overhook control offers numerous submission and back take pathways, the pass to side control provides the safest and most stable advancement option when other higher-percentage attacks are not immediately available or have been successfully defended. The overhook prevents the opponent from establishing the frames and underhooks they typically rely upon for guard retention, making the passing window more accessible than from many other control configurations.
 

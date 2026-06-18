@@ -1,6 +1,7 @@
 {
   "name": "Stand Up in Closed Guard",
   "description": "Master the stand up in closed guard in BJJ. Complete guide to standing guard breaks with proper mechanics, balance, and transitions to high-percentage passing.",
+  "summary": "Stand Up in Closed Guard is a top-player guard break in which the trapped passer rises to their feet and uses hip extension and gravity to force the bottom player's crossed ankles apart, opening a path to pass.",
   "tags": [
     "bjj",
     "transition",
@@ -88,12 +89,12 @@
       "relationship": "Common counter-attack from bottom player during the stand-up transition"
     },
     {
-      "name": "Standing Position",
-      "relationship": "Related position for guard engagement and passing from standing"
+      "name": "Standing up in Base",
+      "relationship": "Related kneeling-to-standing transition for guard engagement and passing"
     },
     {
-      "name": "Pull Guard from Standing",
-      "relationship": "Opponent's tactical option when facing a standing guard break"
+      "name": "Guard Opening Sequence",
+      "relationship": "Alternative guard opening method the standing break can be chained with"
     }
   ],
   "attacker": {
@@ -270,6 +271,14 @@
       {
         "question": "After successfully opening the guard from standing, what should your immediate priority be and why?",
         "answer": "Immediately control both of your opponent's legs by gripping pants at the knees or ankles, or by pressing your forearms against their shins. The guard opening creates a brief window—approximately one to two seconds—before the opponent can establish organized open guard with hooks on your hips, sleeve grips, and active frames. If you hesitate during this window, they transition from a broken closed guard to an effective open guard and you lose the positional advantage gained from standing. The guard break and leg control must function as a single continuous motion."
+      },
+      {
+        "question": "What is the correct timing window to commit fully to the explosive drive to standing?",
+        "answer": "Commit to the explosive upward drive the instant you have both hands fixed on the hips, your dangerous grips broken, and one foot posted with weight centered over your base—not before. Driving up before grips are cleared lets the opponent ride your momentum into a sweep; hesitating after the foot is posted gives an alert guard player the single-knee-up window to attack the armbar or hip bump. The ideal moment is a brief, decisive burst that carries you through the vulnerable transition phase in one continuous motion rather than a slow, hesitant rise."
+      },
+      {
+        "question": "If the bottom player blocks your stand by climbing their guard high onto your upper back, what chain attack opens the break?",
+        "answer": "When they ride the guard high to kill your hip extension, drop your hips and use a hand to walk one of their feet down off your back, or pin one knee across your centerline to flatten the ankle lock against the mat. Alternatively, sit your hips back and step one leg through to load their legs to one side, converting the failed straight break into a leg-pin or stack that pries the ankles apart. The principle is to break the high lock by attacking the feet directly or by changing the angle so gravity again loads the crossed ankles."
       }
     ],
     "safety_considerations": "Standing up in closed guard carries inherent balance risks that both practitioners must manage. Ensure stable footing before committing to the standing motion, as falling backward while standing can cause injury to both players. Avoid explosive jerking motions when breaking the guard open, as sudden forceful guard breaks can strain the bottom player's lower back or ankles. When training this technique, bottom players should release their guard voluntarily if they feel excessive pressure on their ankles rather than holding a guard that is clearly broken. On mats with seams or uneven surfaces, check footing before standing to prevent slipping during the transition."

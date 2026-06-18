@@ -34,6 +34,18 @@ description: "Master framing from Shoulder of Justice in BJJ. Defensive guide to
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame from Shoulder of Justice",
+  "description": "Frame from Shoulder of Justice is a defensive transition in which the bottom player inserts skeletal forearm wedges to disrupt the concentrated 45-degree jaw pressure, degrading the position into standard side control bottom where broader escape options open up.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master framing from Shoulder of Justice in BJJ. Defensive guide to
 
 <section id="overview" class="content-section">
 
-The Frame from Shoulder of Justice is a targeted defensive technique where the bottom player creates skeletal frames to disrupt the concentrated jaw pressure of the Shoulder of Justice and transition to standard Side Control bottom. Unlike full escape techniques that aim for guard recovery, this technique specifically addresses the immediate problem of the intensified pressure variant by degrading the top player's shoulder pressure angle and hip connection enough to revert to conventional side control, where a broader range of escape options becomes available.
+**Frame from Shoulder of Justice is a defensive transition in which the bottom player inserts skeletal forearm wedges to disrupt the concentrated 45-degree jaw pressure, degrading the position into standard side control bottom where broader escape options open up.**
+
+Within the side control escape hierarchy, this technique deliberately aims lower than most escapes: rather than chasing immediate guard recovery, it solves only the specific problem that makes the Shoulder of Justice uniquely punishing — the concentrated jaw pressure. By degrading the top player's shoulder-pressure angle and hip connection just enough to revert to conventional side control, the bottom player trades a single hard problem for a familiar one, where a broad range of standard escapes becomes available. Unlike full escape techniques that demand knee insertion and significant space, this frame requires only that the precise pressure alignment be disturbed.
 
 The technique exploits the fact that the Shoulder of Justice depends on a precise pressure vector through the shoulder blade into the jaw at approximately 45 degrees toward the far shoulder. By inserting forearm wedges that redirect this vector even slightly, the bottom player can collapse the pressure advantage that distinguishes Shoulder of Justice from regular side control. The critical distinction from other escapes is that this technique does not require creating enough space for knee insertion or guard recovery. Instead, it requires disrupting the specific alignment that makes the Shoulder of Justice so oppressive.
 

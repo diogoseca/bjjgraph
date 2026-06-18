@@ -34,6 +34,18 @@ description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Morote Seoi Nage",
+  "description": "Morote Seoi Nage is a two-handed shoulder throw from standing where the attacker grips both of the opponent's sleeves, drops their hips beneath the opponent's center of gravity, and projects them forward over the back into top side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw
 </div>
 
 <section id="overview" class="content-section">
+
+**Morote Seoi Nage is a two-handed shoulder throw from standing where the attacker grips both of the opponent's sleeves, drops their hips beneath the opponent's center of gravity, and projects them forward over the back into top side control.**
 
 Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo technique that has proven highly effective in Brazilian Jiu-Jitsu competition and self-defense scenarios. Unlike the single-handed Ippon Seoi Nage, this variation maintains grips on both sleeves or wrists throughout the throw, providing superior control and reducing the opponent's ability to counter. The technique exploits forward momentum or pressure, using a rotating entry to load the opponent onto your back before executing an explosive forward projection. This throw is particularly effective in gi competition where sleeve control is paramount, and it transitions seamlessly into dominant top positions like side control or mount. The Morote Seoi Nage requires precise timing, strong hip positioning, and excellent kuzushi (off-balancing) to execute successfully against resisting opponents. When mastered, it becomes a high-percentage technique that can score immediate points in competition while establishing superior position for submission attacks or control.
 

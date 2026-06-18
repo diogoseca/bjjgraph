@@ -135,6 +135,16 @@ description: "Master defensive leg lock strategies from ADCC champion Lachlan Gi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lachlan Giles Leg Lock Defense Framework",
+  "description": "The Lachlan Giles Leg Lock Defense Framework is a defensive system that neutralizes heel hooks and ankle locks through early entanglement prevention, hip alignment, position-danger recognition, and systematic clearing sequences that work regardless of flexibility or strength.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -148,6 +158,8 @@ description: "Master defensive leg lock strategies from ADCC champion Lachlan Gi
 <section id="overview" class="content-section">
 
 ## What is Lachlan Giles Leg Lock Defense Framework?
+
+**The Lachlan Giles Leg Lock Defense Framework is a defensive system that neutralizes heel hooks and ankle locks through early entanglement prevention, hip alignment, position-danger recognition, and systematic clearing sequences that work regardless of flexibility or strength.**
 
 The Lachlan Giles Leg Lock Defense Framework represents one of the most comprehensive and scientifically-informed approaches to defending leg attacks in modern Brazilian Jiu-Jitsu. Developed through extensive competition experience at the highest levels including ADCC, this system emphasizes prevention over reaction, teaching practitioners to recognize and neutralize leg entanglement threats before they fully develop. The framework is built on understanding the mechanical hierarchy of leg lock positions, from least to most dangerous, and provides specific defensive protocols for each stage of entanglement. Rather than relying on strength or flexibility, Giles' methodology focuses on proper positioning, hip alignment, and systematic counter-mechanics that work regardless of physical attributes. The system integrates seamlessly with modern guard retention principles while specifically addressing the unique challenges posed by contemporary leg lock specialists who build their entire games around the lower body.
 

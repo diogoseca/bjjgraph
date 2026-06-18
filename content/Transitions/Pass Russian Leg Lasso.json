@@ -1,6 +1,7 @@
 {
   "name": "Pass Russian Leg Lasso",
   "description": "Master the Russian Leg Lasso guard pass in BJJ. Systematic approach to dismantling grips, neutralizing the lasso, and completing the pass to side control.",
+  "summary": "Pass Russian Leg Lasso is a systematic gi guard pass that dismantles the Russian leg lasso's collar and sleeve grips in sequence before clearing the trapped-arm lasso and driving forward to side control.",
   "tags": [
     "guard passing",
     "russian leg lasso",
@@ -77,12 +78,12 @@
       "relationship": "Parent guard category sharing similar passing mechanics and grip-breaking principles"
     },
     {
-      "name": "Lasso Guard Backstep Pass",
-      "relationship": "Complementary passing technique from standard lasso using backstep angle creation"
+      "name": "Back Step Pass",
+      "relationship": "Complementary passing technique using backstep angle creation to defeat lasso binding"
     },
     {
-      "name": "Lasso Guard Stack Pass",
-      "relationship": "Alternative pressure-based passing approach applicable to lasso guard variations"
+      "name": "Pressure Pass",
+      "relationship": "Alternative pressure-based passing approach applicable once lasso grips are compromised"
     },
     {
       "name": "De La Riva Guard",

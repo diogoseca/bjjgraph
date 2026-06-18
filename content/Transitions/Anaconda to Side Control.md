@@ -34,6 +34,18 @@ description: "Master the Anaconda to Side Control transition in BJJ. Learn gator
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Anaconda to Side Control",
+  "description": "Anaconda to Side Control is a positional advancement that converts the anaconda front-headlock grip into a dominant side-control pin via a committed gator roll, often arriving with the choke even tighter than before.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Anaconda to Side Control transition in BJJ. Learn gator
 
 <section id="overview" class="content-section">
 
-The Anaconda to Side Control transition is a fundamental positional advancement in the front headlock and head-and-arm choke system, converting the anaconda grip into a dominant pinning position. From Anaconda Control, the attacker uses a gator roll — a forward rolling motion that carries the opponent underneath — to arrive in side control with chest pressure established across the opponent's torso. This transition is essential when the anaconda choke itself is not immediately available or when the opponent's defensive posture makes finishing the choke impractical from the current angle.
+**Anaconda to Side Control is a positional advancement that converts the anaconda front-headlock grip into a dominant side-control pin via a committed gator roll, often arriving with the choke even tighter than before.**
+
+Within the front headlock and head-and-arm choke system, this transition is the attacker's insurance policy: when the anaconda strangle itself stalls against a stubborn defender, the gator roll keeps the action moving forward into a scoring pin rather than surrendering the grip. From Anaconda Control, the attacker uses a gator roll — a forward rolling motion that carries the opponent underneath — to arrive in side control with chest pressure established across the opponent's torso. This transition is essential when the anaconda choke itself is not immediately available or when the opponent's defensive posture makes finishing the choke impractical from the current angle.
 
 Strategically, this transition serves a dual purpose within the anaconda system. First, it advances the attacker to a high-value controlling position worth three points in IBJJF competition, establishing crossface and hip control that opens entirely new submission chains including americana, kimura, and arm triangle. Second, the rolling motion itself can tighten the anaconda grip, meaning the attacker may arrive in side control with an even tighter choke than they started with, threatening both positional dominance and immediate submission simultaneously.
 

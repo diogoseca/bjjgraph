@@ -21,25 +21,25 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
     {
       "@type": "HowToStep",
       "name": "Execute Tripod Sweep",
-      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 69% of exchanges from this position.",
+      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata from Double Sleeve Guard",
-      "text": "From this position, attempt Omoplata from Double Sleeve Guard. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata from Double Sleeve Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
     {
       "@type": "HowToStep",
       "name": "Execute Sickle Sweep",
-      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

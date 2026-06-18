@@ -34,6 +34,18 @@ description: "Master Lockdown position in BJJ. 10th Planet's revolutionary half 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown",
+  "description": "Lockdown is 10th Planet's signature half guard variation where the bottom player triangles a leg around the opponent's trapped leg, immobilizing it to power sweeps, back takes, and the Electric Chair.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Lockdown position in BJJ. 10th Planet's revolutionary half 
 </div>
 
 <section id="overview" class="content-section">
+
+**Lockdown is 10th Planet's signature half guard variation where the bottom player triangles a leg around the opponent's trapped leg, immobilizing it to power sweeps, back takes, and the Electric Chair.**
 
 Lockdown is 10th Planet's revolutionary half guard variation that transforms traditional half guard from a defensive holding position into an aggressive attacking platform. This position features a specialized leg entanglement where the bottom player creates a figure-four lock around the opponent's trapped leg, severely restricting their mobility while enabling powerful sweeps, back takes, and submissions. The lockdown mechanism works by using the bottom player's outside leg to hook under the opponent's shin while the inside leg wraps over the thigh, creating tremendous leverage to break posture, manipulate weight distribution, and create angles for offensive attacks. Within the 10th Planet system, Lockdown serves as the foundation for multiple attacking sequences including the Electric Chair, Old School sweep, and various paths to back control. The position is particularly effective in no-gi grappling where traditional gi grips are unavailable, and has become a cornerstone technique in modern BJJ competition. The lockdown's effectiveness lies in its ability to simultaneously neutralize passing attempts while creating offensive opportunities, making it equally important to understand from both bottom and top perspectives.
 
@@ -119,11 +133,11 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** (26% of attempts)
+- **[[Transitions/Whip-up Sweep/Attacker|Whip-up Sweep]]** (25% of attempts)
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (9% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (11% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (10% of attempts)
 
 - **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (7% of attempts)
 
@@ -131,7 +145,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (8% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (9% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (8% of attempts)
 
 - **[[Kimura from Lockdown/Attacker|Kimura from Lockdown]]** (4% of attempts)
 
@@ -144,6 +158,8 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 - **[[Transitions/Back Take from Lockdown Defense/Attacker|Back Take from Lockdown Defense]]** (4% of attempts)
 
 - **[[Submissions/Crotch Ripper/Attacker|Crotch Ripper]]** (2% of attempts)
+
+- **[[Crotch Ripper from Lockdown/Attacker|Crotch Ripper from Lockdown]]** (3% of attempts)
 
 
 ### Common Mistakes

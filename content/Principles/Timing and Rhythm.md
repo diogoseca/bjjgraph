@@ -143,6 +143,16 @@ description: "Master timing and rhythm in BJJ. Learn to read opponent reactions,
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Timing and Rhythm",
+  "description": "Timing and Rhythm is the BJJ principle of coordinating technique with opponent movement, executing during the brief windows when resistance is lowest and varying tempo to manufacture those openings rather than forcing against a braced opponent.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,6 +167,8 @@ description: "Master timing and rhythm in BJJ. Learn to read opponent reactions,
 <section id="overview" class="content-section">
 
 ## What is Timing and Rhythm?
+
+**Timing and Rhythm is the BJJ principle of coordinating technique with opponent movement, executing during the brief windows when resistance is lowest and varying tempo to manufacture those openings rather than forcing against a braced opponent.**
 
 Timing and Rhythm represents one of the most sophisticated yet fundamental principles in Brazilian Jiu-Jitsu, encompassing the ability to coordinate technique execution with opponent movement, recognize optimal windows of opportunity, and maintain fluid transitions between positions. Unlike purely physical attributes, timing develops through extensive mat time and conscious awareness of action-reaction dynamics. This principle differentiates between practitioners who apply techniques in isolation versus those who chain movements seamlessly within the natural flow of grappling exchanges.
 
@@ -365,10 +377,8 @@ Review video footage of high-level matches specifically analyzing timing element
 - **[[Base]]** (Complementary): Understanding base stability principles reveals exactly when and how opponents become vulnerable to timed attacks, as disruptions to base create the windows that timing exploits
 - **[[Guard Passing]]** (Extension): Passing timing involves recognizing when guard retention mechanisms are temporarily compromised, allowing advancement with minimal resistance
 - **[[Defensive Concepts]]** (Extension): Defensive timing requires immediate recognition of passing and submission attempts and coordinated counter-movements within narrow temporal windows to prevent positional deterioration
-- **[[Transition Management]]** (Complementary): Smooth transitions depend on timing the initiation of position changes to coincide with optimal windows created by opponent movement or stabilization attempts
 - **[[Energy Conservation]]** (Complementary): Proper timing dramatically reduces energy expenditure by aligning technical execution with existing momentum, making these principles synergistic for sustainable high-level performance
 - **[[Position Chains]]** (Extension): Chaining positional advances requires precise timing between each transition, exploiting the temporal windows created by opponent defensive reactions to maintain continuous offensive pressure
-- **[[Submission Chains]]** (Extension): Submission timing requires recognizing moments when defensive options are limited and finishing mechanics can be applied before opponent recovery
 - **[[Posture]]** (Complementary): Breaking posture effectively requires timing attacks to coincide with moments of reduced base or distraction from grip-fighting exchanges
 - **[[Connection Principles]]** (Complementary): Timing connection establishment and separation attempts to coincide with opponent weight shifts or grip adjustments maximizes success probability while conserving energy
 
@@ -378,12 +388,12 @@ Review video footage of high-level matches specifically analyzing timing element
 - [[Kuzushi]] (Principle) - Primary application domain where timing principles directly determine sweep success probability
 - [[Base]] (Principle) - Understanding base stability reveals when opponents are vulnerable to timed attacks that exploit balance disruption
 - [[Guard Passing]] (Principle) - Strategic framework where timing determines when to advance position versus consolidate control
-- [[Transition Management]] (Principle) - Operational principle for coordinating position changes with optimal temporal windows
 - [[Energy Conservation]] (Principle) - Efficiency framework that timing directly enhances by reducing effort requirements through momentum alignment
 - [[Fork Attacks]] (Principle) - Attack strategy built on forcing opponent choices that create predictable timing windows for follow-up techniques
-- [[Hip Bump Sweep]] (Transition) - Classic timing-dependent technique requiring coordination with opponent posture and weight distribution
+- [[Position Chains]] (Principle) - Sequencing framework where precise timing between transitions sustains continuous offensive pressure
 - [[Basic Butterfly Sweep]] (Transition) - Elevation sweep heavily dependent on timing execution with opponent forward pressure or base narrowing
-- [[Pendulum Sweep]] (Transition) - Momentum-based technique exemplifying timing principles through use of existing directional forces
+- [[Balloon Sweep]] (Transition) - Momentum-based sweep exemplifying timing principles through use of opponent's existing directional forces
+- [[Ankle Pick]] (Transition) - Standing technique requiring precise timing with opponent weight shifts and grip adjustments to succeed
 
 
 </section>

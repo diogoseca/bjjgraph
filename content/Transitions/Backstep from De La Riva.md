@@ -34,6 +34,18 @@ description: "Master the backstep from De La Riva Guard. Learn to clear the DLR 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backstep from De La Riva",
+  "description": "The backstep from De La Riva is a rotational guard pass in which the top player steps the hooked leg backward in a wide arc and rotates the hips to disengage the De La Riva hook, entering headquarters position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the backstep from De La Riva Guard. Learn to clear the DLR 
 </div>
 
 <section id="overview" class="content-section">
+
+**The backstep from De La Riva is a rotational guard pass in which the top player steps the hooked leg backward in a wide arc and rotates the hips to disengage the De La Riva hook, entering headquarters position.**
 
 The backstep from De La Riva Guard is a fundamental rotational guard passing technique that directly addresses the DLR hook, the primary control mechanism of the De La Riva system. Rather than attempting to strip the hook through conventional means such as pummeling or pressure, the passer steps their trapped leg backward in a large arc and rotates their hips away from the guard player, using angular displacement to disengage the hook entirely. This rotational concept represents a paradigm shift from linear passing approaches, exploiting the geometric weakness inherent in the DLR hook structure: the hook controls movement along the sagittal plane but cannot effectively track lateral or rotational displacement.
 

@@ -33,24 +33,47 @@ description: "Master the Breadcutter Choke in BJJ. Devastating collar choke from
 }
 </script>
 
-> **SAFETY**: Breadcutter Choke targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Breadcutter Choke",
+  "description": "A gi-only blood choke, the Breadcutter draws a blade of the opponent's own collar tight across both carotid arteries from turtle, back control, and side-control-family pins, finishing with bodyweight rather than arm strength.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is the Breadcutter Choke?", "acceptedAnswer": { "@type": "Answer", "text": "A gi-only blood choke, the Breadcutter draws a blade of the opponent\u0027s own collar tight across both carotid arteries from turtle, back control, and side-control-family pins, finishing with bodyweight rather than arm strength." } },
+    { "@type": "Question", "name": "What positions can you finish the Breadcutter Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Breadcutter Choke from Kuzure Kesa-Gatame, Side Control." } },
+    { "@type": "Question", "name": "Is the Breadcutter Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Breadcutter Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early and release immediately on the tap." } }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-<section id="variants" class="content-section">
+**A gi-only blood choke, the Breadcutter draws a blade of the opponent's own collar tight across both carotid arteries from turtle, back control, and side-control-family pins, finishing with bodyweight rather than arm strength.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">~58% avg</span>
+</div>
 
-## Position Variants
-
-| From Position | Success Rate | Top Injury Risk | Key Difference |
-|---------------|-------------|-----------------|----------------|
-| [[Breadcutter Choke/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | 58% | Carotid artery compression leading to loss of consciousness |  |
-| [[Breadcutter Choke/from Side Control|Side Control]] | 58% | Carotid artery compression leading to loss of consciousness |  |
-
-
-</section>
-
+> [!danger] Safety
+> Breadcutter Choke targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <section id="overview" class="content-section">
 
@@ -60,10 +83,60 @@ The mechanics rely on deep collar grips combined with precise body positioning t
 
 The Breadcutter belongs to a family of collar chokes that includes the Clock Choke, Bow and Arrow, and Baseball Bat variations, but distinguishes itself through its unique application angle and grip configuration. Its versatility across multiple starting positions and its effectiveness as a secondary attack when primary submissions are defended make it a high-value addition to any gi practitioner's submission arsenal.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Success Rate**: 58% (average across variants)
+</section>
+
+
+<section id="variants" class="content-section">
+
+## What positions can you finish from?
+
+
+<div class="variants-table">
+
+| From Position | Seat | Success | Play as Attacker | Play as Defender |
+|---|---|---|---|---|
+| [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 58% | [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Defender|Defend →]] |
+| [[Submissions/Breadcutter Choke/from Side Control|Side Control]] | Top | 58% | [[Submissions/Breadcutter Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Breadcutter Choke/from Side Control/Defender|Defend →]] |
+
+
+</div>
+
+
+<details class="mechanical-variations">
+<summary>Mechanical variations (how the choke is finished)</summary>
+
+- **Clock Choke Transition**: When opponent defends initial Breadcutter setup by pulling collar away or tucking chin, walk your feet in circular motion around their head (like hands on a clock) while maintaining deep collar grip. This rotational movement creates alternative choking angle and often surprises opponent who focused defense on initial attack vector. Finish with same body weight principles but from perpendicular or reverse angle. (When to use: When opponent successfully defends collar feed or creates defensive frames against standard Breadcutter angle; particularly effective when they roll slightly toward choking side)
+- **From Back Control Transition**: When opponent defends Rear Naked Choke by gripping your choking arm with both hands, transition to Breadcutter by releasing RNC attempt and immediately establishing deep collar grip on same side. Your previous choking arm now feeds collar across their neck while opposite hand controls far shoulder. This catches opponent during defensive focus on previous attack. Maintain back control hooks or transition to side-back position for finish. (When to use: When opponent successfully defends Rear Naked Choke attempts; when you cannot secure proper RNC hand positioning due to collar interference or opponent's defensive grip strength)
+- **Reverse Breadcutter (Opposite Side Finish)**: Instead of feeding far collar across near side of neck, grip near collar with deep insertion and pull it across far side of their neck. This requires you to position on opposite side of turtle compared to standard variation. Your body angle becomes more perpendicular to their spine. Particularly effective when opponent over-commits defense to one side, leaving opposite collar exposed. Finish mechanics identical but mirror-imaged. (When to use: When far collar is defended but near collar remains accessible; when opponent's defensive posture creates better angle for opposite-side attack; useful for creating dilemma by threatening both sides)
+- **Mounted Breadcutter**: From mount position when opponent turns to side or turtles defensively, establish collar grip before they fully escape. As they continue turtle motion or turn to hands and knees, follow their movement while maintaining mount pressure and collar control. Transition to standard Breadcutter position as they complete turtle defensive motion. This variation chains positional dominance (mount) with submission finish (Breadcutter) in single sequence. (When to use: When opponent attempts to escape mount by turning to turtle; when you feel mount position becoming unstable and want to chain to submission rather than fight to maintain mount)
+
+
+</details>
+
+
+</section>
+
+
+<section id="related" class="content-section">
+
+## Related
+- [[Transitions/Clock Choke]] - Similar collar choke from turtle with circular finishing motion, natural transition when Breadcutter is defended
+- [[Submissions/Bow and Arrow Choke]] - Related gi collar choke sharing grip mechanics but using leg leverage for finishing pressure
+- [[Submissions/Baseball Bat Choke]] - Another collar-based choke applicable from similar positions with cross-grip configuration
+- [[Submissions/Rear Naked Choke]] - Primary no-gi back attack alternative; Breadcutter available when RNC grips are defended
+- [[Transitions/North-South Choke]] - Alternative choke from north-south when opponent turns to side during transition
+- [[Transitions/Darce Choke]] - Head-and-arm choke option from turtle when collar access is unavailable in no-gi
+- [[Transitions/Anaconda Choke]] - Front headlock choke alternative from turtle top attacking from opposite side
+- [[Submissions/Ezekiel Choke]] - Close-range gi choke applicable from multiple controlling positions
+- [[Submissions/Cross Collar Choke]] - Fundamental collar choke sharing deep grip mechanics and carotid targeting
+- [[Submissions/Brabo Choke]] - Collar-integrated arm triangle variation available from similar side positions
+- [[Transitions/Arm Triangle]] - Head-and-arm choke chain when collar-based attacks are defended
+- [[Positions/Turtle]] - Primary starting position for standard Breadcutter application
+- [[Positions/Back Control]] - Alternative starting position and transition opportunity from failed RNC
+- [[Positions/Side Control]] - Can transition to Breadcutter as opponent attempts turtle escape
+- [[Positions/North-South]] - Breadcutter can be applied from North-South when opponent turns to side
+- [[Positions/Side Control/Kesa Gatame]] - Can transition to Breadcutter when opponent turtles from scarf hold
+- [[Positions/Knee on Belly]] - Transitional position from which Breadcutter can be initiated as opponent turtles
 
 </section>
 
@@ -107,89 +180,6 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 - Never practice on partners with neck or throat injuries
 - Beginners must drill under supervision for first 20+ repetitions
 
-
-</section>
-
-
-<section id="variation-details" class="content-section hide-minimal">
-
-## Variation Details
-
-
-**Clock Choke Transition**: When opponent defends initial Breadcutter setup by pulling collar away or tucking chin, walk your feet in circular motion around their head (like hands on a clock) while maintaining deep collar grip. This rotational movement creates alternative choking angle and often surprises opponent who focused defense on initial attack vector. Finish with same body weight principles but from perpendicular or reverse angle. (When to use: When opponent successfully defends collar feed or creates defensive frames against standard Breadcutter angle; particularly effective when they roll slightly toward choking side)
-
-
-**From Back Control Transition**: When opponent defends Rear Naked Choke by gripping your choking arm with both hands, transition to Breadcutter by releasing RNC attempt and immediately establishing deep collar grip on same side. Your previous choking arm now feeds collar across their neck while opposite hand controls far shoulder. This catches opponent during defensive focus on previous attack. Maintain back control hooks or transition to side-back position for finish. (When to use: When opponent successfully defends Rear Naked Choke attempts; when you cannot secure proper RNC hand positioning due to collar interference or opponent's defensive grip strength)
-
-
-**Reverse Breadcutter (Opposite Side Finish)**: Instead of feeding far collar across near side of neck, grip near collar with deep insertion and pull it across far side of their neck. This requires you to position on opposite side of turtle compared to standard variation. Your body angle becomes more perpendicular to their spine. Particularly effective when opponent over-commits defense to one side, leaving opposite collar exposed. Finish mechanics identical but mirror-imaged. (When to use: When far collar is defended but near collar remains accessible; when opponent's defensive posture creates better angle for opposite-side attack; useful for creating dilemma by threatening both sides)
-
-
-**Mounted Breadcutter**: From mount position when opponent turns to side or turtles defensively, establish collar grip before they fully escape. As they continue turtle motion or turn to hands and knees, follow their movement while maintaining mount pressure and collar control. Transition to standard Breadcutter position as they complete turtle defensive motion. This variation chains positional dominance (mount) with submission finish (Breadcutter) in single sequence. (When to use: When opponent attempts to escape mount by turning to turtle; when you feel mount position becoming unstable and want to chain to submission rather than fight to maintain mount)
-
-
-
-</section>
-
-
-<section id="from-positions" class="content-section">
-
-## From Which Positions?
-
-- [[Positions/Turtle]]
-- [[Positions/Back Control]]
-- [[Positions/Side Control]]
-- [[Positions/North-South]]
-- [[Positions/Knee on Belly]]
-- [[Positions/Side Control/Kesa Gatame]]
-- [[Positions/Side Control/Modified Scarf Hold]]
-
-
-</section>
-
-<section id="related-submissions" class="content-section">
-
-## Related Submissions
-
-- [[Transitions/Clock Choke]] - Similar collar choke from turtle with circular finishing motion, natural transition when Breadcutter is defended
-- [[Submissions/Bow and Arrow Choke]] - Related gi collar choke sharing grip mechanics but using leg leverage for finishing pressure
-- [[Submissions/Baseball Bat Choke]] - Another collar-based choke applicable from similar positions with cross-grip configuration
-- [[Submissions/Rear Naked Choke]] - Primary no-gi back attack alternative; Breadcutter available when RNC grips are defended
-- [[Transitions/North-South Choke]] - Alternative choke from north-south when opponent turns to side during transition
-- [[Transitions/Darce Choke]] - Head-and-arm choke option from turtle when collar access is unavailable in no-gi
-- [[Transitions/Anaconda Choke]] - Front headlock choke alternative from turtle top attacking from opposite side
-- [[Submissions/Ezekiel Choke]] - Close-range gi choke applicable from multiple controlling positions
-- [[Submissions/Cross Collar Choke]] - Fundamental collar choke sharing deep grip mechanics and carotid targeting
-- [[Submissions/Brabo Choke]] - Collar-integrated arm triangle variation available from similar side positions
-- [[Transitions/Arm Triangle]] - Head-and-arm choke chain when collar-based attacks are defended
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Positions/Turtle]] - Primary starting position for standard Breadcutter application
-- [[Positions/Back Control]] - Alternative starting position and transition opportunity from failed RNC
-- [[Transitions/Clock Choke]] - Related collar choke with circular finishing motion, natural transition option
-- [[Positions/Side Control]] - Can transition to Breadcutter as opponent attempts turtle escape
-- [[Positions/North-South]] - Breadcutter can be applied from North-South when opponent turns to side
-- [[Submissions/Bow and Arrow Choke]] - Similar collar-based choking mechanism with different body positioning
-- [[Positions/Side Control/Kesa Gatame]] - Can transition to Breadcutter when opponent turtles from scarf hold
-- [[Submissions/Rear Naked Choke]] - Alternative back attack; Breadcutter available when RNC is defended
-- [[Positions/Knee on Belly]] - Transitional position from which Breadcutter can be initiated as opponent turtles
-
-
-</section>
-
-<section id="terminal-state" class="content-section">
-
-## Match Outcome
-
-Successful execution of Breadcutter Choke leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

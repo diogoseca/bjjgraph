@@ -33,10 +33,32 @@ description: "Master the outside heel hook from saddle position with proper grip
 }
 </script>
 
-> **SAFETY**: Outside Heel Hook from Saddle targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Outside Heel Hook from Saddle",
+  "description": "The outside heel hook from the Saddle is a leg-lock finish that rotates the opponent's heel laterally to torque the knee's lateral ligaments, used as the counter-threat when a defender hides their heel to escape the inside heel hook.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The outside heel hook from the Saddle is a leg-lock finish that rotates the opponent's heel laterally to torque the knee's lateral ligaments, used as the counter-threat when a defender hides their heel to escape the inside heel hook.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint, ankle joint, and surrounding ligaments</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Outside Heel Hook from Saddle targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,61 +75,7 @@ Executing the outside heel hook from the Saddle requires a distinct grip reconfi
 
 The combination of inside and outside heel hook threats from the Saddle creates one of the most difficult submission dilemmas in modern no-gi grappling. This dual-threat capability, reinforced by the Saddle's inherent positional dominance through hip pressure and inside leg position, makes the outside heel hook a technique that every serious leg lock practitioner must develop. However, the extreme danger of this submission to the knee joint demands rigorous safety protocols—practitioners must apply rotational force with extreme control and immediately release upon any tap signal, as knee ligament damage from heel hooks can be career-ending and often occurs before the defender feels significant pain.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint, ankle joint, and surrounding ligaments
-**Starting Position**: [[Positions/Ashi Garami/Saddle]]
-**From Position**: [[Positions/Ashi Garami/Saddle]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 9-12 months with surgical reconstruction |
-| MCL tear (medial collateral ligament damage) | CRITICAL | 6-12 months depending on grade |
-| Meniscus tear | High | 3-6 months with potential surgery |
-| LCL damage (lateral collateral ligament) | High | 6-8 weeks to 6 months |
-| PCL strain (posterior cruciate ligament) | High | 3-6 months |
-| Ankle ligament damage | Medium | 4-8 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training, NEVER sudden rotation
-
-**Tap Signals**:
-- Verbal tap (primary)
-- Physical hand tap on partner or mat
-- Physical foot tap with free leg
-- Any vocal distress signal
-- Frantic movement or panic response
-- Any indication of discomfort
-
-
-**Release Protocol**:
-1. Immediately release rotational pressure on heel
-2. Release the figure-four grip or heel cup
-3. Remove hip pressure and extension
-4. Allow opponent to straighten leg naturally
-5. Check partner's condition before continuing
-6. Never apply rotation while releasing
-
-
-**Training Restrictions**:
-- NEVER apply sudden rotational force - always slow and progressive
-- NEVER practice at competition speed during training
-- NEVER continue past first sign of discomfort
-- Only train with experienced partners who understand leg locks
-- Always ensure clear communication before training leg locks
-- Tap early and often - do not test flexibility limits
-- Prohibited for white and blue belts in most IBJJF competitions
-- Never practice on injured knees or with prior knee injuries without medical clearance
-
+**Starting Position**: [[Positions/Ashi Garami/Saddle]] · **From**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
 
@@ -253,42 +221,69 @@ The combination of inside and outside heel hook threats from the Saddle creates 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Calf Slicer]]
-- [[Positions/Aoki Lock Control]]
+- [[Transitions/Aoki Lock]]
 - [[Submissions/Achilles Lock]]
-- [[Submissions/Inside Heel Hook]]
 - [[Transitions/Estima Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Saddle]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the same starting position
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Common fallback position when saddle control is lost
-- [[Submissions/Inside Heel Hook]] - Primary alternative submission from the same position
 - [[Positions/Ashi Garami]] - Parent category of leg entanglement positions
 - [[Positions/Ashi Garami/Backside 50-50]] - Related leg entanglement with outside heel hook opportunities
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Outside Heel Hook from Saddle leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 9-12 months with surgical reconstruction |
+| MCL tear (medial collateral ligament damage) | CRITICAL | 6-12 months depending on grade |
+| Meniscus tear | High | 3-6 months with potential surgery |
+| LCL damage (lateral collateral ligament) | High | 6-8 weeks to 6 months |
+| PCL strain (posterior cruciate ligament) | High | 3-6 months |
+| Ankle ligament damage | Medium | 4-8 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training, NEVER sudden rotation
+
+**Tap Signals**:
+- Verbal tap (primary)
+- Physical hand tap on partner or mat
+- Physical foot tap with free leg
+- Any vocal distress signal
+- Frantic movement or panic response
+- Any indication of discomfort
+
+
+**Release Protocol**:
+1. Immediately release rotational pressure on heel
+2. Release the figure-four grip or heel cup
+3. Remove hip pressure and extension
+4. Allow opponent to straighten leg naturally
+5. Check partner's condition before continuing
+6. Never apply rotation while releasing
+
+
+**Training Restrictions**:
+- NEVER apply sudden rotational force - always slow and progressive
+- NEVER practice at competition speed during training
+- NEVER continue past first sign of discomfort
+- Only train with experienced partners who understand leg locks
+- Always ensure clear communication before training leg locks
+- Tap early and often - do not test flexibility limits
+- Prohibited for white and blue belts in most IBJJF competitions
+- Never practice on injured knees or with prior knee injuries without medical clearance
+
 
 </section>
 

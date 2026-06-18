@@ -149,6 +149,16 @@ description: "Master the Twister System in BJJ. Complete framework from lockdown
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister System",
+  "description": "The Twister System is Eddie Bravo's 10th Planet submission chain that uses lockdown half-guard control to advance through the Electric Chair and Truck positions to the Twister, a no-gi lateral spinal lock.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -163,7 +173,9 @@ description: "Master the Twister System in BJJ. Complete framework from lockdown
 
 ## What is Twister System?
 
-The Twister System is Eddie Bravo's revolutionary submission chain that begins from the lockdown half guard position and progresses through a series of controlling positions (Electric Chair, Truck, Twister Side Control) to the signature Twister submission - a devastating spinal lock. This system represents a fundamental departure from traditional Brazilian Jiu-Jitsu, emphasizing flexibility, unconventional positioning, and attacking the spine rather than joints. The system is built on the principle of progressive control, where each position offers its own submission threats while also serving as a gateway to more dominant positions.
+**The Twister System is Eddie Bravo's 10th Planet submission chain that uses lockdown half-guard control to advance through the Electric Chair and Truck positions to the Twister, a no-gi lateral spinal lock.**
+
+Emerging from Eddie Bravo's 10th Planet Jiu-Jitsu in the early 2000s, the Twister System adapted a classic wrestling spinal lock into a complete no-gi attacking framework anchored to the lockdown half guard. It represents a fundamental departure from traditional Brazilian Jiu-Jitsu, emphasizing flexibility, unconventional positioning, and attacking the spine rather than the joints. The system is built on the principle of progressive control, where each position (Electric Chair, Truck, Twister Side Control) offers its own submission threats while also serving as a gateway to more dominant positions.
 
 What makes the Twister System unique is its emphasis on creating uncomfortable, flexibility-demanding positions that many traditionally-trained opponents struggle to defend. The lockdown provides exceptional control of the opponent's leg, preventing them from establishing traditional half guard passing mechanics. From there, the system offers multiple pathways: the Electric Chair attacks the groin and inner thigh, the Old School Sweep provides positional advancement, and the Truck Position opens the door to back attacks and the Twister itself. Each component of the system works synergistically, with transitions flowing naturally from one position to the next based on the opponent's defensive reactions.
 

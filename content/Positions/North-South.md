@@ -36,6 +36,18 @@ description: "Master North-South position in BJJ. Complete guide covering top co
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "North-South",
+  "description": "North-South is a dominant top pin where the controlling player drapes their chest over the opponent's head and upper chest, bodies aligned head-to-head in opposite directions, generating crushing perpendicular pressure for control and submissions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -50,6 +62,8 @@ description: "Master North-South position in BJJ. Complete guide covering top co
 </div>
 
 <section id="overview" class="content-section">
+
+**North-South is a dominant top pin where the controlling player drapes their chest over the opponent's head and upper chest, bodies aligned head-to-head in opposite directions, generating crushing perpendicular pressure for control and submissions.**
 
 North-South position represents one of the most controlling pin positions in Brazilian Jiu-Jitsu, characterized by perpendicular body alignment where the top player's chest covers the bottom player's head and chest while facing opposite directions. This position creates immense pressure and control through strategic weight distribution across the opponent's upper body.
 
@@ -212,27 +226,29 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[North-South Choke from North-South/Attacker|North-South Choke from North-South]]** (12% of attempts)
+- **[[North-South Choke from North-South/Attacker|North-South Choke from North-South]]** (10% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (9% of attempts)
 
-- **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** (21% of attempts)
+- **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** (17% of attempts)
 
-- **[[Transitions/Armbar from North-South/Attacker|Armbar from North-South]]** (11% of attempts)
+- **[[Transitions/Armbar from North-South/Attacker|Armbar from North-South]]** (9% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (7% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (6% of attempts)
 
-- **[[Americana from North-South/Attacker|Americana from North-South]]** (9% of attempts)
+- **[[Americana from North-South/Attacker|Americana from North-South]]** (7% of attempts)
 
-- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (7% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (6% of attempts)
 
-- **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (7% of attempts)
+- **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (6% of attempts)
 
-- **[[Transitions/Reverse Mount Transition/Attacker|Reverse Mount Transition]]** (6% of attempts)
+- **[[Transitions/Reverse Mount Transition/Attacker|Reverse Mount Transition]]** (5% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (6% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (5% of attempts)
 
 - **[[Transitions/North-South Choke/Attacker|North-South Choke]]** (3% of attempts)
+
+- **[[Kimura from North-South/Attacker|Kimura from North-South]]** (17% of attempts)
 
 
 ### Common Mistakes

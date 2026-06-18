@@ -34,6 +34,18 @@ description: "Master the Sweep from Inverted Guard in BJJ. Learn how inverted hi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Inverted Guard",
+  "description": "The Sweep from Inverted Guard is a dynamic bottom-game transition where the inverted player uses hip rotation and a deep leg hook to off-balance a passing or kneeling opponent and rotate directly into back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Sweep from Inverted Guard in BJJ. Learn how inverted hi
 
 <section id="overview" class="content-section">
 
-The Sweep from Inverted Guard is a dynamic transitional technique that leverages the unique angles created by the inverted position to disrupt the opponent's base and establish back control. By positioning upside-down with shoulder contact on the mat, the bottom practitioner uses hip rotation and leg hooks to generate rotational momentum that the standing or kneeling opponent struggles to resist. This sweep capitalizes on the angular advantages inherent to the inverted position, converting defensive guard retention into an offensive back take opportunity that represents one of the highest-value transitions in modern competition jiu-jitsu.
+**The Sweep from Inverted Guard is a dynamic bottom-game transition where the inverted player uses hip rotation and a deep leg hook to off-balance a passing or kneeling opponent and rotate directly into back control.**
+
+Born from the berimbolo era of competitive guard play, this sweep converts the brief vulnerability of inversion into the sport's most valuable prize: direct entry to the back. By positioning upside-down with shoulder contact on the mat, the bottom practitioner uses hip rotation and leg hooks to generate rotational momentum that the standing or kneeling opponent struggles to resist. This sweep capitalizes on the angular advantages inherent to the inverted position, converting defensive guard retention into an offensive back take opportunity that represents one of the highest-value transitions in modern competition jiu-jitsu.
 
 The technique requires precise timing and grip coordination. The sweeper must establish controlling grips on the opponent's pants, belt, or sleeves while simultaneously inserting hooks behind the opponent's legs or around their hips. The sweep relies on hip rotation rather than upper body strength, making it effective against larger opponents when executed with proper mechanics. The rotational force generated from the hips, combined with strategic grip placement, creates a mechanical advantage that compromises the opponent's base regardless of their size or strength advantage.
 

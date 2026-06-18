@@ -143,6 +143,16 @@ description: "Master submission defense in BJJ. Learn escape hierarchies, frame 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Submission Defense",
+  "description": "Submission Defense is the systematic skillset of preventing, recognizing, and escaping submission attempts through a hierarchy of positioning, framing, grip-fighting, and space generation, prioritizing prevention long before a submission locks in.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,6 +167,8 @@ description: "Master submission defense in BJJ. Learn escape hierarchies, frame 
 <section id="overview" class="content-section">
 
 ## What is Submission Defense?
+
+**Submission Defense is the systematic skillset of preventing, recognizing, and escaping submission attempts through a hierarchy of positioning, framing, grip-fighting, and space generation, prioritizing prevention long before a submission locks in.**
 
 Submission Defense represents one of the most critical survival skillsets in Brazilian Jiu-Jitsu, encompassing the systematic approach to recognizing, preventing, and escaping submission attempts. Rather than relying on panic reactions or isolated techniques, effective submission defense operates on a hierarchy of prevention, early recognition, progressive defense, and last-resort escapes. This principle acknowledges that the best defense occurs long before the submission is locked in—through proper positioning, connection management, and space control that prevents opponents from establishing dominant grips and angles in the first place.
 

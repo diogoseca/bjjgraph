@@ -34,6 +34,18 @@ description: "Master hand fighting defense from back control in BJJ. Two-on-one 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hand Fighting from Back",
+  "description": "Hand Fighting from Back is the foundational defensive sequence where the trapped bottom player uses two-on-one grips and chin protection to neutralize the opponent's choking arm, surviving back control and opening escapes to turtle or half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master hand fighting defense from back control in BJJ. Two-on-one 
 </div>
 
 <section id="overview" class="content-section">
+
+**Hand Fighting from Back is the foundational defensive sequence where the trapped bottom player uses two-on-one grips and chin protection to neutralize the opponent's choking arm, surviving back control and opening escapes to turtle or half guard.**
 
 Hand Fighting from Back is the foundational defensive skill for surviving back control, representing the first and most critical layer of defense against rear naked choke and other back attacks. This technique focuses on systematic grip fighting to prevent the opponent from establishing choking grips while creating opportunities for escape sequences. The methodology prioritizes constant hand engagement on the opponent's attacking arms, using two-on-one control and chin protection to neutralize submission threats before they materialize.
 

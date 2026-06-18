@@ -34,6 +34,18 @@ description: "Master Single Leg X-Guard in BJJ. Strategic guide covering setup, 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Single Leg X-Guard",
+  "description": "Single Leg X-Guard is a leg-entanglement open guard where the bottom player traps one of the opponent's legs with an inside-leg wrap and an active hip hook, creating a dual platform for sweeps and modern leg-lock entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Single Leg X-Guard in BJJ. Strategic guide covering setup, 
 
 <section id="overview" class="content-section">
 
-Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom player entangles one of the opponent's legs using a specific hooking configuration. The bottom player wraps one leg around the opponent's trapped leg (typically at the ankle or lower calf) while the other foot creates an active hook on the opponent's hip or inner thigh. This configuration creates exceptional control over the opponent's balance and base, offering powerful sweeping leverage and direct pathways to modern leg lock positions. SLX serves as both a high-percentage sweeping platform and a critical gateway position in the contemporary leg entanglement game, bridging traditional guard play with submission-oriented leg locking systems. The position's effectiveness stems from its ability to control the opponent's weight distribution while maintaining active offensive threats. By elevating and off-balancing the opponent, the bottom player can create sweep opportunities in multiple directions or transition seamlessly into more complex leg entanglements. The versatility of SLX makes it particularly valuable in no-gi competition, where it serves as a foundational element of modern guard retention and attack systems. The modern game has evolved significantly in how both players approach this position, with systematic methods emerging from competitors who have refined the position for maximum effectiveness. Understanding both perspectives—bottom and top—is essential for complete mastery of this critical modern BJJ position.
+**Single Leg X-Guard is a leg-entanglement open guard where the bottom player traps one of the opponent's legs with an inside-leg wrap and an active hip hook, creating a dual platform for sweeps and modern leg-lock entries.**
+
+Within the modern leg-entanglement game, Single Leg X-Guard (SLX) has become a cornerstone position that bridges traditional guard play with submission-oriented leg locking systems. The bottom player wraps one leg around the opponent's trapped leg (typically at the ankle or lower calf) while the other foot creates an active hook on the opponent's hip or inner thigh. This configuration creates exceptional control over the opponent's balance and base, offering powerful sweeping leverage and direct pathways to modern leg lock positions. SLX serves as both a high-percentage sweeping platform and a critical gateway position in the contemporary leg entanglement game, allowing practitioners to flow between upper body attacks through sweeps and lower body attacks through leg locks. The position's effectiveness stems from its ability to control the opponent's weight distribution while maintaining active offensive threats. By elevating and off-balancing the opponent, the bottom player can create sweep opportunities in multiple directions or transition seamlessly into more complex leg entanglements. The versatility of SLX makes it particularly valuable in no-gi competition, where it serves as a foundational element of modern guard retention and attack systems. The modern game has evolved significantly in how both players approach this position, with systematic methods emerging from competitors who have refined the position for maximum effectiveness. Understanding both perspectives—bottom and top—is essential for complete mastery of this critical modern BJJ position.
 
 </section>
 

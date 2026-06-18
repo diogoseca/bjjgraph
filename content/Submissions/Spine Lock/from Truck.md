@@ -4,7 +4,7 @@
 
 ---
 title: "Spine Lock from Truck | BJJ Submission | BJJ Graph"
-description: "Master the Spine Lock submission in BJJ. Advanced spinal compression from truck and twister control positions targeting the lumbar vertebrae."
+description: "Master the Spine Lock submission in BJJ. Advanced spinal compression applied from the truck and twister control positions, targeting the lumbar vertebrae."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Spine Lock submission in BJJ. Advanced spinal compressi
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Spine Lock from Truck",
-  "description": "Master the Spine Lock submission in BJJ. Advanced spinal compression from truck and twister control positions targeting the lumbar vertebrae.",
+  "description": "Master the Spine Lock submission in BJJ. Advanced spinal compression applied from the truck and twister control positions, targeting the lumbar vertebrae.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -33,10 +33,32 @@ description: "Master the Spine Lock submission in BJJ. Advanced spinal compressi
 }
 </script>
 
-> **SAFETY**: Spine Lock from Truck targets the Lumbar spine, thoracic vertebrae, spinal column. Risk: Lumbar spine strain or disc herniation. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Spine Lock from Truck",
+  "description": "The Spine Lock from Truck is an advanced no-gi spinal compression submission that drives hip pressure into the opponent's lumbar spine from the 10th Planet truck position, forcing hyperextension that compels a tap to avoid disc or vertebral injury.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Spine Lock from Truck is an advanced no-gi spinal compression submission that drives hip pressure into the opponent's lumbar spine from the 10th Planet truck position, forcing hyperextension that compels a tap to avoid disc or vertebral injury.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Spinal Compression</span>
+<span class="meta-chip">Targets Lumbar spine, thoracic vertebrae, spinal column</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Spine Lock from Truck targets the Lumbar spine, thoracic vertebrae, spinal column. Primary risk: Lumbar spine strain or disc herniation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,60 +69,11 @@ description: "Master the Spine Lock submission in BJJ. Advanced spinal compressi
 
 <section id="overview" class="content-section">
 
-The Spine Lock is an advanced spinal compression submission that targets the opponent's vertebral column through hyperextension and rotational pressure. Popularized within the 10th Planet system, this technique creates extreme discomfort through mechanical pressure on the spine rather than joint manipulation. The submission is primarily accessed from the Truck position, where the attacker controls one leg while the opponent's body is inverted and vulnerable. The Spine Lock exemplifies the principle of using body positioning and leverage to create inescapable pressure without relying on limb isolation. This technique requires exceptional body awareness, precise control, and absolute commitment to safety protocols due to the vulnerability of the spinal column.
+Popularized within the 10th Planet system, the Spine Lock from Truck creates extreme discomfort through mechanical pressure on the spine rather than joint manipulation. The submission is primarily accessed from the Truck position, where the attacker controls one leg while the opponent's body is inverted and vulnerable. The Spine Lock exemplifies the principle of using body positioning and leverage to create inescapable pressure without relying on limb isolation. This technique requires exceptional body awareness, precise control, and absolute commitment to safety protocols due to the vulnerability of the spinal column.
 
 The effectiveness of the Spine Lock comes from the combination of hip pressure driving into the opponent's lower back while maintaining rotational control that prevents escape. Unlike joint locks that target a single articulation point, spinal compression affects multiple vertebrae simultaneously, creating a compound pressure that is difficult to defend once fully established. The technique is particularly effective in no-gi competition where traditional gi-based controls are unavailable and modern leg entanglement systems dominate.
 
-**Category**: Compression
-**Type**: Spinal Compression
-**Target Area**: Lumbar spine, thoracic vertebrae, spinal column
-**Starting Position**: [[Positions/Twister Control/Truck]]
-**From Position**: [[Positions/Twister Control/Truck]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Lumbar spine strain or disc herniation | CRITICAL | 6-12 months or permanent damage |
-| Thoracic vertebrae compression fracture | CRITICAL | 3-6 months with surgical intervention possible |
-| Spinal nerve impingement | High | 2-4 months with potential neurological complications |
-| Muscle tears in erector spinae group | Medium | 4-8 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum with constant communication
-
-**Tap Signals**:
-- Verbal tap (primary - opponent may have limited hand mobility)
-- Repeated foot tapping
-- Hand tap on own body or mat
-- Any vocalization of distress
-- Immediate cessation if opponent stops moving
-
-
-**Release Protocol**:
-1. Immediately reduce hip pressure and stop driving forward
-2. Release rotational control by unwinding opponent's body
-3. Remove leg control and allow opponent to return to neutral position
-4. Check opponent's mobility and pain level before continuing training
-5. Never release explosively - maintain control throughout unwinding process
-
-
-**Training Restrictions**:
-- NEVER apply full pressure in training - use 20-30% maximum pressure
-- Never spike or jerk the submission - all pressure must be gradual
-- Never practice on opponents with pre-existing back injuries without medical clearance
-- Always maintain verbal communication throughout application
-- Prohibited for white belts - minimum blue belt requirement with direct supervision
-- Never combine with sudden twisting movements
-- Always allow opponent access to tap signals
-
+**Starting Position**: [[Positions/Twister Control/Truck]] · **From**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
 
@@ -110,9 +83,9 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Twister Control/Truck]] | 25% |
-| Counter | [[Positions/Turtle]] | 15% |
+| Success | [[game-over]] | 40% |
+| Failure | [[Positions/Twister Control/Truck]] | 40% |
+| Counter | [[Positions/Turtle]] | 20% |
 
 
 </section>
@@ -269,10 +242,9 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Twister]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Banana Split]]
@@ -285,34 +257,55 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 - [[Submissions/Kimura]]
 - [[Submissions/Choke from Crucifix]]
 - [[Positions/Half Guard/Electric Chair]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Twister Control/Truck]] - Primary attacking position for spine lock setup and control
 - [[Positions/Twister Control]] - Alternative finishing position that combines with spine compression
 - [[Positions/Turtle]] - Common starting position for Truck entry and spine lock sequence
-- [[Submissions/Calf Slicer]] - Complementary submission that chains with spine lock from Truck position
 - [[Positions/Back Control]] - Alternative control position if Truck is defended during spine lock attempt
-- [[Submissions/Twister]] - Related spinal submission with rotational cervical component
-- [[Submissions/Banana Split]] - Alternative leg-based submission from Truck position
 - [[Positions/Crucifix]] - Control position with similar back exposure that can transition to spine lock
-- [[Positions/Half Guard/Electric Chair]] - Half guard position that can lead to Truck and spine lock entries
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Spine Lock from Truck leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Lumbar spine strain or disc herniation | CRITICAL | 6-12 months or permanent damage |
+| Thoracic vertebrae compression fracture | CRITICAL | 3-6 months with surgical intervention possible |
+| Spinal nerve impingement | High | 2-4 months with potential neurological complications |
+| Muscle tears in erector spinae group | Medium | 4-8 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum with constant communication
+
+**Tap Signals**:
+- Verbal tap (primary - opponent may have limited hand mobility)
+- Repeated foot tapping
+- Hand tap on own body or mat
+- Any vocalization of distress
+- Immediate cessation if opponent stops moving
+
+
+**Release Protocol**:
+1. Immediately reduce hip pressure and stop driving forward
+2. Release rotational control by unwinding opponent's body
+3. Remove leg control and allow opponent to return to neutral position
+4. Check opponent's mobility and pain level before continuing training
+5. Never release explosively - maintain control throughout unwinding process
+
+
+**Training Restrictions**:
+- NEVER apply full pressure in training - use 20-30% maximum pressure
+- Never spike or jerk the submission - all pressure must be gradual
+- Never practice on opponents with pre-existing back injuries without medical clearance
+- Always maintain verbal communication throughout application
+- Prohibited for white belts - minimum blue belt requirement with direct supervision
+- Never combine with sudden twisting movements
+- Always allow opponent access to tap signals
+
 
 </section>
 

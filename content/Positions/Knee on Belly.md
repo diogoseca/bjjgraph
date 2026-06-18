@@ -35,6 +35,18 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee on Belly",
+  "description": "Knee on Belly is a mobile top control position where one practitioner drives a knee across the opponent's torso while posting the other leg wide, trading static stability for rapid transitions, point-scoring pressure, and submission threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -49,7 +61,9 @@ description: "Master Knee on Belly in BJJ. Strategic control position balancing 
 
 <section id="overview" class="content-section">
 
-Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one practitioner places their knee on the opponent's torso while maintaining a mobile base. This position uniquely combines high pressure with exceptional mobility, creating a transitional platform that scores points while setting up submissions and positional advancements. Unlike static control positions such as mount or side control, Knee on Belly requires continuous weight adjustments and active pressure management. The position creates a strategic dilemma for the bottom player: defend against submissions, prevent transitions to more dominant positions, or alleviate the crushing diaphragm pressure. From the top perspective, this position offers point-scoring opportunities, submission threats, and rapid transition potential to mount, back control, or north-south. From the bottom perspective, it represents a high-risk defensive scenario requiring immediate escape protocols combining frame creation, hip movement, and systematic re-guard strategies. The position exemplifies the principle of dynamic control over static dominance, rewarding practitioners who master the balance between pressure application and transitional readiness. The top player's knee acts as a fulcrum through which bodyweight is channeled into the bottom player's solar plexus, creating respiratory distress that forces panicked defensive reactions. These reactions — pushing with extended arms, turning away, bridging — each open specific attack pathways that a prepared top player can exploit. The bottom player must recognize that every second spent flat under this pressure compounds the disadvantage, making immediate and systematic escape attempts essential. Understanding both perspectives transforms Knee on Belly from a simple pressure position into a complex strategic node within the positional hierarchy.
+**Knee on Belly is a mobile top control position where one practitioner drives a knee across the opponent's torso while posting the other leg wide, trading static stability for rapid transitions, point-scoring pressure, and submission threats.**
+
+Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role because it prioritizes mobility as much as dominance, sitting between side control and mount as an aggressive launching point. This position uniquely combines high pressure with exceptional mobility, creating a transitional platform that scores points while setting up submissions and positional advancements. Unlike static control positions such as mount or side control, Knee on Belly requires continuous weight adjustments and active pressure management. The position creates a strategic dilemma for the bottom player: defend against submissions, prevent transitions to more dominant positions, or alleviate the crushing diaphragm pressure. From the top perspective, this position offers point-scoring opportunities, submission threats, and rapid transition potential to mount, back control, or north-south. From the bottom perspective, it represents a high-risk defensive scenario requiring immediate escape protocols combining frame creation, hip movement, and systematic re-guard strategies. The position exemplifies the principle of dynamic control over static dominance, rewarding practitioners who master the balance between pressure application and transitional readiness. The top player's knee acts as a fulcrum through which bodyweight is channeled into the bottom player's solar plexus, creating respiratory distress that forces panicked defensive reactions. These reactions — pushing with extended arms, turning away, bridging — each open specific attack pathways that a prepared top player can exploit. The bottom player must recognize that every second spent flat under this pressure compounds the disadvantage, making immediate and systematic escape attempts essential. Understanding both perspectives transforms Knee on Belly from a simple pressure position into a complex strategic node within the positional hierarchy.
 
 </section>
 
@@ -204,25 +218,29 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (33% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (31% of attempts)
 
-- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (13% of attempts)
+- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (12% of attempts)
 
-- **[[Baseball Bat Choke from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (11% of attempts)
+- **[[Baseball Bat Choke from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (10% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (9% of attempts)
 
-- **[[Cross Collar Choke from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (11% of attempts)
+- **[[Cross Collar Choke from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (10% of attempts)
 
-- **[[Kimura from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (7% of attempts)
+- **[[Kimura from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (6% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (7% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (6% of attempts)
 
 - **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (6% of attempts)
 
-- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (1% of attempts)
+- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (2% of attempts)
 
-- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (1% of attempts)
+- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (2% of attempts)
+
+- **[[Armbar from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (3% of attempts)
+
+- **[[Belly Down Armbar from Knee on Belly/Attacker|Belly Down Armbar from Knee on Belly]]** (3% of attempts)
 
 
 ### Common Mistakes

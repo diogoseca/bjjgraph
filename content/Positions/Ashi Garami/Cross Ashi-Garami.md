@@ -34,6 +34,18 @@ description: "Master Cross Ashi-Garami position in BJJ. Strategic guide covering
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Ashi-Garami",
+  "description": "Cross Ashi-Garami is a crossed-leg entanglement where the top player's legs cross over the opponent's trapped leg, forming a figure-four wedge that maximizes rotational control for heel hooks while sharply limiting the bottom player's escape options.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Cross Ashi-Garami position in BJJ. Strategic guide covering
 </div>
 
 <section id="overview" class="content-section">
+
+**Cross Ashi-Garami is a crossed-leg entanglement where the top player's legs cross over the opponent's trapped leg, forming a figure-four wedge that maximizes rotational control for heel hooks while sharply limiting the bottom player's escape options.**
 
 Cross Ashi-Garami is a fundamental leg entanglement position in modern Brazilian Jiu-Jitsu characterized by a crossed leg configuration that provides exceptional control over the opponent's hip and lower leg. Unlike standard Ashi-Garami where the controlling practitioner's legs run parallel to the opponent's trapped leg, Cross Ashi features the top player's legs crossing over each other, creating a figure-four-like structure that enhances rotational control and limits the bottom player's escape options significantly.
 
@@ -131,7 +145,7 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 
 - **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (4% of attempts)
 
-- **[[Transitions/Heel Hook Defense Escape/Attacker|Heel Hook Defense Escape]]** (47% of attempts)
+- **[[Transitions/Heel Hook Defense Escape/Attacker|Heel Hook Defense Escape]]** (43% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (7% of attempts)
 
@@ -145,9 +159,9 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 
 - **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (7% of attempts)
 
-- **[[Transitions/Counter Entangle from Cross Ashi/Attacker|Counter Entangle from Cross Ashi]]** (0% of attempts)
+- **[[Transitions/Counter Entangle from Cross Ashi/Attacker|Counter Entangle from Cross Ashi]]** (2% of attempts)
 
-- **[[Transitions/Leg Extraction from Cross Ashi/Attacker|Leg Extraction from Cross Ashi]]** (0% of attempts)
+- **[[Transitions/Leg Extraction from Cross Ashi/Attacker|Leg Extraction from Cross Ashi]]** (2% of attempts)
 
 - **[[Transitions/Sweep from Cross Ashi-Garami/Attacker|Sweep from Cross Ashi-Garami]]** (1% of attempts)
 
@@ -212,7 +226,7 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Cross Ashi-Garami/Attacker|Outside Heel Hook from Cross Ashi-Garami]]** (39% of attempts)
+- **[[Outside Heel Hook from Cross Ashi-Garami/Attacker|Outside Heel Hook from Cross Ashi-Garami]]** (40% of attempts)
 
 - **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (3% of attempts)
 
@@ -231,8 +245,6 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 - **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (3% of attempts)
 
 - **[[Transitions/Cross Ashi to 50-50/Attacker|Cross Ashi to 50-50]]** (1% of attempts)
-
-- **[[Outside Heel Hook from Cross Ashi-Garami/Attacker|Outside Heel Hook from Cross Ashi-Garami]]** (1% of attempts)
 
 
 ### Common Mistakes

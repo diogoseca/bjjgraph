@@ -34,6 +34,18 @@ description: "Master the Jailbreak to Turtle escape in BJJ. Step-by-step inversi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Jailbreak to Turtle",
+  "description": "Jailbreak to Turtle is a 10th Planet half guard bottom escape where the bottom player explosively inverts off a deep underhook, converting the passer's forward pressure into rotational momentum to roll through to turtle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Jailbreak to Turtle escape in BJJ. Step-by-step inversi
 </div>
 
 <section id="overview" class="content-section">
+
+**Jailbreak to Turtle is a 10th Planet half guard bottom escape where the bottom player explosively inverts off a deep underhook, converting the passer's forward pressure into rotational momentum to roll through to turtle.**
 
 The Jailbreak to Turtle transition represents a critical escape pathway from compressed half guard bottom when traditional framing and shrimping defenses have been neutralized. This technique leverages explosive inversion mechanics to convert the opponent's forward pressure into rotational momentum, allowing the bottom player to roll through to turtle position and reset the engagement. Popularized within the 10th Planet system, this escape has become essential for modern no-gi competitors facing aggressive pressure passers.
 

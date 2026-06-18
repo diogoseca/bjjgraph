@@ -12,7 +12,8 @@
   ],
   "system_type": "Training Methodology",
   "difficulty_level": "Intermediate",
-  "overview": "The Self-Defense Application Framework provides a systematic approach to translating sport BJJ techniques into effective self-defense strategies. This system addresses the fundamental differences between competition grappling and real-world confrontations, including the presence of strikes, environmental hazards, multiple attackers, and legal implications. The framework emphasizes efficiency, decisiveness, and de-escalation while maintaining technical excellence. Unlike sport BJJ which rewards points and positional control, self-defense applications prioritize rapid neutralization, escape, and personal safety. The system integrates striking defense, clinch control, takedown defense, and ground control principles specifically adapted for self-defense scenarios. It addresses pre-fight awareness, verbal de-escalation, legal use of force considerations, and post-incident protocols. The framework is built on the principle that sport BJJ provides an excellent foundation but requires specific modifications and additions to be truly effective for self-defense. Training methodology emphasizes stress inoculation, scenario-based drilling, and understanding the legal and ethical dimensions of physical confrontation.",
+  "summary": "The Self-Defense Application Framework is a reality-based system that adapts sport BJJ for street confrontations, prioritizing awareness, de-escalation, strike defense, decisive control, and escape within a legally defensible use-of-force structure.",
+  "overview": "Sport BJJ provides an excellent foundation for personal protection, but competition grappling and real-world confrontations diverge in critical ways - the presence of strikes, environmental hazards, multiple attackers, weapons, and legal implications. This system addresses those differences head-on, emphasizing efficiency, decisiveness, and de-escalation while maintaining technical excellence. Unlike sport BJJ which rewards points and positional control, self-defense applications prioritize rapid neutralization, escape, and personal safety. The system integrates striking defense, clinch control, takedown defense, and ground control principles specifically adapted for self-defense scenarios. It addresses pre-fight awareness, verbal de-escalation, legal use of force considerations, and post-incident protocols. The framework is built on the principle that sport BJJ provides an excellent foundation but requires specific modifications and additions to be truly effective for self-defense. Training methodology emphasizes stress inoculation, scenario-based drilling, and understanding the legal and ethical dimensions of physical confrontation.",
   "key_principles": [
     "Avoidance and de-escalation are the primary self-defense techniques - physical engagement is the last resort",
     "Striking defense and clinch control take priority over sport guard positions",
@@ -327,6 +328,40 @@
       "name": "Standing Defense Strategy",
       "content_type": "System",
       "relationship": "Complementary system for maintaining standing position against takedowns"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the primary objective of the Self-Defense Application Framework compared to sport BJJ?",
+      "answer": "Personal safety through awareness, de-escalation, and escape rather than points or positional dominance. Physical engagement is the last resort, and rapid disengagement is the goal once a threat has been neutralized."
+    },
+    {
+      "question": "Why does the framework prioritize the standing position over ground fighting in self-defense?",
+      "answer": "On the ground you sacrifice mobility and awareness and become exposed to strikes, additional attackers, and hard surfaces, with no easy way to flee. Staying on your feet preserves the ability to escape and monitor the environment."
+    },
+    {
+      "question": "Which sport BJJ habits become dangerous in a self-defense context, and how are they corrected?",
+      "answer": "Pulling guard, playing from the bottom, and chasing points or submissions all expose you to strikes and multiple attackers. The fix is technical standup, top control, and drilling immediate escape from bottom positions."
+    },
+    {
+      "question": "What role does the legal use-of-force framework play in the system?",
+      "answer": "It governs every physical response, requiring force to be reasonable and proportional to the threat. Practitioners must be able to articulate why their actions were justified and understand duty-to-retreat versus stand-your-ground law in their jurisdiction."
+    },
+    {
+      "question": "Why should self-defense techniques rely on gross-motor rather than fine-motor skills?",
+      "answer": "Under an adrenal dump the heart rate spikes and fine-motor control and complex coordination degrade sharply. Simple, gross-motor techniques stay reliable when dexterity and clear thinking are compromised by fear and stress."
+    },
+    {
+      "question": "How does the framework recommend safely closing distance against an untrained striker?",
+      "answer": "Use defensive covering and head movement to weather the initial strikes, then enter the clinch with collar ties, underhooks, or a body lock that smothers the attacker's offense while establishing control to take them down or escape."
+    },
+    {
+      "question": "What is stress inoculation and why is it central to self-defense training?",
+      "answer": "It is progressive exposure to simulated violence, including verbal aggression, protective-equipment striking, and time pressure, that conditions you to function despite the adrenal response. It bridges the gap between calm drilling and performing under real fear."
+    },
+    {
+      "question": "Why is scenario-based drilling preferred over isolated technique repetition in this system?",
+      "answer": "Real confrontations begin with verbal exchange and environmental context, not a clean grip. Scenario drills train awareness, de-escalation, decision-making, and legal articulation together, rehearsing the full event rather than one isolated movement."
     }
   ]
 }

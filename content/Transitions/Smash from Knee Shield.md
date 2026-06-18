@@ -34,6 +34,18 @@ description: "Master the Smash from Knee Shield pass in BJJ. Complete guide to c
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Smash from Knee Shield",
+  "description": "The Smash from Knee Shield is a pressure-based half guard pass where the top player uses a 45-degree angle, crossface, and ankle control to collapse the bottom player's shin frame and advance to standard half guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Smash from Knee Shield pass in BJJ. Complete guide to c
 
 <section id="overview" class="content-section">
 
-The Smash from Knee Shield is a fundamental pressure-based technique used by the top player to collapse the bottom player's knee shield frame in half guard. The knee shield creates a structural barrier that prevents chest-to-chest contact and forward advancement, making it one of the most effective defensive tools in modern half guard play. The smash addresses this problem directly by using angled pressure, grip control on the shield leg, and systematic weight distribution to break down the frame and transition to a more favorable passing position where the full passing arsenal becomes available.
+**The Smash from Knee Shield is a pressure-based half guard pass where the top player uses a 45-degree angle, crossface, and ankle control to collapse the bottom player's shin frame and advance to standard half guard top.**
+
+Within the guard passing hierarchy, the smash from knee shield is the top player's primary answer to one of modern half guard's most stubborn defensive structures. The knee shield creates a structural barrier that prevents chest-to-chest contact and forward advancement, making it one of the most effective defensive tools in modern half guard play. The smash addresses this problem directly by using angled pressure, grip control on the shield leg, and systematic weight distribution to break down the frame and transition to a more favorable passing position where the full passing arsenal becomes available.
 
 The technique requires patience and methodical execution rather than explosive force. Attempting to power through a well-constructed knee shield typically results in wasted energy and potential sweeps, as the bottom player can redirect the incoming force against the passer. Instead, the smash relies on redirecting the knee shield leg across the opponent's body while applying compressive shoulder pressure from an angle that bypasses the shield's strongest axis of resistance. The 45-degree body angle is critical—it transforms the shield from an impenetrable wall into a lever that can be manipulated and collapsed.
 

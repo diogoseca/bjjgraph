@@ -135,6 +135,16 @@ description: "Master BJJ competition scoring with comprehensive tactical framewo
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Competition Scoring Strategy",
+  "description": "The Competition Scoring Strategy is a tactical framework for Brazilian Jiu-Jitsu tournaments that maximizes point accumulation and positional dominance by combining positional hierarchy, risk-reward calculation, and ruleset-specific game planning.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -149,7 +159,9 @@ description: "Master BJJ competition scoring with comprehensive tactical framewo
 
 ## What is Competition Scoring Strategy?
 
-Competition Scoring Strategy is a comprehensive tactical framework designed to maximize point accumulation and positional dominance in Brazilian Jiu-Jitsu tournaments. This system integrates deep understanding of ruleset variations, positional hierarchy, and risk-reward calculations to create winning game plans across all competition formats. The framework addresses both IBJJF point-based competitions and submission-only events, emphasizing intelligent position selection, transition timing, and strategic decision-making under pressure. Practitioners learn to build commanding leads through systematic point accumulation while maintaining submission threats, creating a dual-threat approach that forces opponents into defensive reactions. The system incorporates energy management principles, understanding when to explode for positional advancement versus when to consolidate control and drain opponent resources. Advanced competitors use this framework to construct entire match narratives, dictating pace, position selection, and engagement timing to maximize their competitive advantages while minimizing risk exposure.
+**The Competition Scoring Strategy is a tactical framework for Brazilian Jiu-Jitsu tournaments that maximizes point accumulation and positional dominance by combining positional hierarchy, risk-reward calculation, and ruleset-specific game planning.**
+
+In modern competitive Brazilian Jiu-Jitsu, the gap between champions and contenders often comes down to tactical scoring decisions rather than raw technique. This system integrates deep understanding of ruleset variations, positional hierarchy, and risk-reward calculations to create winning game plans across all competition formats. The framework addresses both IBJJF point-based competitions and submission-only events, emphasizing intelligent position selection, transition timing, and strategic decision-making under pressure. Practitioners learn to build commanding leads through systematic point accumulation while maintaining submission threats, creating a dual-threat approach that forces opponents into defensive reactions. The system incorporates energy management principles, understanding when to explode for positional advancement versus when to consolidate control and drain opponent resources. Advanced competitors use this framework to construct entire match narratives, dictating pace, position selection, and engagement timing to maximize their competitive advantages while minimizing risk exposure.
 
 </section>
 
@@ -346,21 +358,19 @@ Competition scoring strategy development requires specific drilling protocols th
 - [[Closed Guard]] (Position) - Neutral position for guard players and strategic stalling location
 - [[Half Guard]] (Position) - Transitional position for bottom players pursuing sweep points
 - [[De La Riva Guard]] (Position) - Active guard for sweep attempts and advantage generation
-- [[X-Guard]] (Position) - High-percentage sweep position for recovering point deficits
+- [[Reverse X-Guard]] (Position) - High-percentage sweep position for recovering point deficits
 - [[Butterfly Guard]] (Position) - Explosive sweep position for rapid point accumulation
 - [[North-South]] (Position) - Control position for lead preservation and submission threats
-- [[Pass to Side Control]] (Transition) - Primary 3-point scoring action from top position
 - [[Guard Pull]] (Transition) - Strategic opening that sacrifices takedown points for guard game
 - [[Back Take]] (Transition) - 4-point scoring transition to highest value position
-- [[Side Control to Mount]] (Transition) - 4-point scoring advancement from side control or knee on belly
-- [[Single Leg Takedown]] (Transition) - 2-point opening strategy with lower energy investment
+- [[Ankle Pick]] (Transition) - 2-point opening takedown strategy with lower energy investment
 - [[Positional Hierarchy]] (Principle) - Understanding of position value system underlying all scoring strategy
 - [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy prioritizing point accumulation before finishes
 - [[Competition Mindset]] (Principle) - Mental framework for tactical planning and scoring decision-making under pressure
 - [[Fork Attacks]] (Principle) - Creating scoring dilemmas that force opponents into lose-lose defensive choices
 - [[Defensive Concepts]] (Principle) - Evaluating defensive risk when assessing point-scoring opportunities
 - [[Energy Conservation]] (Principle) - Pacing explosive scoring attempts with conservative control phases
-- [[Timing and Rhythm]] (Principle) - Controlling match tempo to favor your strategic advantages
+- [[Position Chains]] (Principle) - Linking positions into sequences that maximize cumulative point accumulation
 - [[Competition Preparation System]] (System) - Comprehensive competition readiness including scoring strategy training
 - [[IBJJF Strategy Guide]] (System) - Ruleset-specific tactical framework for point-based competition
 - [[Gordon Ryan Passing System]] (System) - High-percentage guard passing for consistent 3-point accumulation

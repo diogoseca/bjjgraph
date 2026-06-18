@@ -34,6 +34,18 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Darce from Turtle",
+  "description": "Darce from Turtle is a no-gi submission setup from turtle top where the attacker threads one arm under the opponent's near armpit and across the neck, locking a figure-four grip to reach Darce Control and threaten a bilateral blood choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
 </div>
 
 <section id="overview" class="content-section">
+
+**Darce from Turtle is a no-gi submission setup from turtle top where the attacker threads one arm under the opponent's near armpit and across the neck, locking a figure-four grip to reach Darce Control and threaten a bilateral blood choke.**
 
 The Darce choke from turtle position is one of the most high-percentage submission setups in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique capitalizes on the opponent's defensive turtle posture by attacking the exposed neck and far-side arm, threading your arm across the throat to establish a powerful figure-four choke configuration that targets both carotid arteries simultaneously. The Darce from turtle is especially effective because opponents often feel safe in the turtle position, focusing their defensive attention on preventing back takes rather than neck attacks.
 

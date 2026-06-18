@@ -143,6 +143,16 @@ description: "Master submission chains in BJJ. Learn systematic attack sequences
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Submission Chains",
+  "description": "Submission Chains are systematic sequences of linked submission attempts in which each defensive response to one attack mechanically opens the setup for the next, turning isolated finishes into continuous, self-perpetuating offensive pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,6 +167,8 @@ description: "Master submission chains in BJJ. Learn systematic attack sequences
 <section id="overview" class="content-section">
 
 ## What are Submission Chains?
+
+**Submission Chains are systematic sequences of linked submission attempts in which each defensive response to one attack mechanically opens the setup for the next, turning isolated finishes into continuous, self-perpetuating offensive pressure.**
 
 Submission Chains represent the systematic linking of multiple submission attempts into cohesive offensive sequences where each defensive response opens a new attacking opportunity. Rather than viewing submissions as isolated techniques, chain thinking creates a web of interconnected attacks where the opponent's escape from one submission feeds directly into the setup for another. This conceptual framework transforms submission attempts from binary win-lose scenarios into continuous offensive pressure systems that compound defensive errors and create submission inevitability.
 
@@ -213,21 +225,15 @@ At the highest levels of competition, submission chains represent the difference
 
 **Closed Guard**: Guard chains often flow through triangle-kimura-omoplata-armbar sequences, using opponent's posture changes and arm positioning to determine the next attack. Hip movement and angle creation drive the transitions between submissions.
 
-**Triangle Control**: From triangle position, chains typically include armbar when opponent pulls arm out, omoplata when they turn into the choke, and kimura when they attempt to posture and push. The triangle position itself serves as a control platform for multiple finishing options.
-
 **Armbar Control**: Armbar chains include triangle when opponent pulls arm free, omoplata when they roll, and kimura when they attempt to stack. Maintaining leg control on the shoulder and head is critical for all transitions.
 
 **Kimura Trap**: Kimura Trap chains from top positions flow to guillotine when opponent turtles, to armbar when they try to roll out, and to back take when they turn away. The kimura grip serves as both submission threat and steering mechanism for position advancement and further chain attacks.
 
 **North-South**: North-South chains typically involve kimura-to-armbar-to-north-south choke sequences, with opponent's defensive turns and arm movements dictating the transition path. Weight distribution and shoulder pressure maintain control between attacks.
 
-**Side Control**: Side control chains include kimura-to-armbar-to-triangle-to-crucifix sequences as opponent attempts various escapes. Maintaining chest-to-chest pressure and controlling the far arm creates the control base for chain attacks.
-
 **Crucifix**: Crucifix chains flow between rear naked choke and various armbar variations as opponent defends their neck or arms. The crucifix's inherent control allows for methodical chain progression with minimal position risk.
 
 **Omoplata Control**: Omoplata chains include triangle when opponent rolls out, sweep to mount when they post, and wristlock or armbar when they attempt to pull their arm free. Hip control and weight distribution enable smooth transitions.
-
-**S Mount**: S-mount provides an ideal platform for armbar-triangle-armbar chains with exceptional control. The high position and leg configuration allow for rapid transitions between submissions with minimal position loss risk.
 
 **Turtle**: Defensive chains from turtle include transitioning between guillotine defense, darce defense, and back exposure based on opponent's attack choices. Understanding the relationship between these attacks allows systematic defensive sequencing.
 
@@ -354,11 +360,9 @@ Set specific chain completion goals (e.g., 'Complete triangle-armbar-omoplata ch
 - **[[Action and Reaction]]** (Prerequisite): Understanding action-reaction principles is fundamental to chain building, as chains exploit the predictable defensive reactions that submissions create
 - **[[Forward Pressure]]** (Extension): Submission chains extend forward pressure principles into the submission domain, maintaining continuous offensive momentum through linked attack sequences that never allow the opponent to rest or reset
 - **[[Control Point Hierarchy]]** (Prerequisite): Maintaining control points during chain transitions requires deep understanding of which control elements can be sacrificed and which must be preserved
-- **[[Timing and Rhythm]]** (Complementary): Effective chains require sophisticated timing to transition between attacks at the precise moment when defensive movements create new opportunities
 - **[[Energy Conservation]]** (Complementary): Chains must be executed with energy efficiency in mind, using opponent's defensive energy against them rather than fighting through each transition with strength
 - **[[Fork Attacks]]** (Advanced form): Submission chains are the ultimate expression of dilemma creation, where every defensive option leads to another offensive threat
 - **[[Position Chains]]** (Complementary): Submission chains and position chains work together—positional advancement creates submission opportunities, and submission threats create positional advancement
-- **[[Transition Management]]** (Extension): Submission chains are specialized transition management focused specifically on linking finishing attempts, requiring precise control of the transitional windows between submissions
 - **[[Positional Hierarchy]]** (Prerequisite): Understanding positional hierarchy informs chain construction by identifying which positions offer the best platforms for chain attacks and where chain attempts should be abandoned in favor of positional advancement
 
 

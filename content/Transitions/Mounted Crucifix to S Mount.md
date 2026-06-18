@@ -34,6 +34,18 @@ description: "Learn the Mounted Crucifix to S Mount transition in BJJ. Step-by-s
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mounted Crucifix to S Mount",
+  "description": "The Mounted Crucifix to S Mount transition reconfigures the top player's legs from the crucifix arm-trap into the perpendicular S Mount, preserving isolation of the opponent's trapped arm while opening high-percentage armbar and triangle finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn the Mounted Crucifix to S Mount transition in BJJ. Step-by-s
 </div>
 
 <section id="overview" class="content-section">
+
+**The Mounted Crucifix to S Mount transition reconfigures the top player's legs from the crucifix arm-trap into the perpendicular S Mount, preserving isolation of the opponent's trapped arm while opening high-percentage armbar and triangle finishes.**
 
 The Mounted Crucifix to S Mount transition represents a sophisticated positional advancement that maintains arm isolation while reconfiguring your leg positioning for enhanced submission opportunities. This transition becomes strategically valuable when your opponent's trapped arm creates limited attack angles from standard crucifix, or when you want to access the armbar and triangle pathways that S Mount provides while keeping arm control.
 

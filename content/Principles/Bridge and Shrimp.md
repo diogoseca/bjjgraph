@@ -143,6 +143,16 @@ description: "Master the foundational Bridge and Shrimp movements in BJJ. Learn 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge and Shrimp",
+  "description": "Bridge and Shrimp are the two foundational bottom-position escape movements in BJJ: bridging drives the hips upward to unload an opponent's weight, while shrimping displaces the hips laterally to create the angle needed to recover guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,6 +167,8 @@ description: "Master the foundational Bridge and Shrimp movements in BJJ. Learn 
 <section id="overview" class="content-section">
 
 ## What is Bridge and Shrimp?
+
+**Bridge and Shrimp are the two foundational bottom-position escape movements in BJJ: bridging drives the hips upward to unload an opponent's weight, while shrimping displaces the hips laterally to create the angle needed to recover guard.**
 
 Bridge and Shrimp represent the fundamental escape movement patterns that form the foundation of all BJJ defensive techniques through hip elevation and lateral displacement that create space and enable position recovery from bottom positions. Unlike specific escape techniques, bridge and shrimp are comprehensive movement principles that apply across virtually all bottom scenarios where space creation and positional adjustment are required. These concepts encompass the biomechanical patterns, timing coordination, and strategic applications that transform defensive vulnerability into escape opportunities. Bridge and shrimp serve as both immediate defensive responses that create space under pressure, and foundational movement skills that enable all advanced escapes and position changes. The ability to execute effective bridge and shrimp movements often determines whether a practitioner can escape inferior positions or remains trapped under opponent control, making them the most essential movement patterns in BJJ fundamentals.
 

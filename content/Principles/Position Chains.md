@@ -143,6 +143,16 @@ description: "Master position chains in BJJ. Learn systematic progression throug
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Position Chains",
+  "description": "Position Chains are pre-planned sequences of two to four linked positional transitions in which each successful advance sets up the next, moving a practitioner systematically from neutral or inferior positions toward dominant control or a submission.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,6 +167,8 @@ description: "Master position chains in BJJ. Learn systematic progression throug
 <section id="overview" class="content-section">
 
 ## What are Position Chains?
+
+**Position Chains are pre-planned sequences of two to four linked positional transitions in which each successful advance sets up the next, moving a practitioner systematically from neutral or inferior positions toward dominant control or a submission.**
 
 Position Chains represents the strategic principle of linking multiple positional transitions into planned sequences that systematically advance toward dominant control or submission outcomes. Unlike isolated technique execution, position chains involve pre-planned pathways through the state machine where each successful transition creates the setup for the next position in the sequence. This concept encompasses the strategic planning, pattern recognition, and sequential thinking required to navigate from disadvantageous or neutral positions toward dominant control through multiple intermediary states. Position chains serve as both an offensive roadmap that guides systematic advancement and a defensive framework that helps practitioners recognize and interrupt opponent's progression patterns. The ability to construct and execute position chains often determines whether a practitioner fights reactively technique-by-technique or strategically with coordinated multi-step plans, making it one of the most important conceptual elements for intermediate and advanced development.
 
@@ -226,9 +238,9 @@ Position Chains represents the strategic principle of linking multiple positiona
 
 **North-South**: Control chain: North-South → Kimura isolation → Crucifix from Turtle when opponent defends → Armbar from Crucifix. Advanced chain where submission threat creates positional opportunity, which in turn creates alternative submission access.
 
-**Standing Position**: Takedown chain: Standing clinch → Snap Down → Front Headlock → Back take or Guillotine. Wrestling-based chain where standing control transitions through ground entry position to dominant submission or control position.
+**Clinch**: Takedown chain: Standing clinch → Snap Down → Front Headlock → Back take or Guillotine. Wrestling-based chain where standing control transitions through ground entry position to dominant submission or control position.
 
-**Spider Guard**: Sweep-to-submission chain: Spider Guard → Triangle Setup → Triangle Choke or Omoplata. Guard-based chain where initial control creates multiple submission pathways with shared setup requirements.
+**Lasso Guard**: Sweep-to-submission chain: Spider/Lasso Guard → Triangle Setup → Triangle Choke or Omoplata. Guard-based chain where initial control creates multiple submission pathways with shared setup requirements.
 
 **De La Riva Guard**: Multi-sweep chain: De La Riva Guard → Berimbolo Entry → Back Control. Modern competition chain where guard retention directly connects to back taking sequence through rotational movement pattern.
 

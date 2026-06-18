@@ -34,6 +34,18 @@ description: "Master the Reverse Mount to Side Control transition in BJJ. Step-b
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Mount to Side Control",
+  "description": "Reverse Mount to Side Control is a top-position conversion in which the mounted player drives a controlled 90-degree hip rotation out of the backward-facing reverse mount into perpendicular, chest-to-chest side control for a more stable, submission-rich pin.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Reverse Mount to Side Control transition in BJJ. Step-b
 </div>
 
 <section id="overview" class="content-section">
+
+**Reverse Mount to Side Control is a top-position conversion in which the mounted player drives a controlled 90-degree hip rotation out of the backward-facing reverse mount into perpendicular, chest-to-chest side control for a more stable, submission-rich pin.**
 
 The Reverse Mount to Side Control transition is a fundamental positional conversion where the top practitioner rotates from the inherently unstable reverse mount into the more sustainable and dominant side control position. While reverse mount scores the same points as standard mount, its backward orientation compromises visual awareness and long-term control. Converting to side control establishes perpendicular chest-to-torso alignment that offers superior submission chains and positional sustainability.
 
@@ -231,17 +245,15 @@ The Reverse Mount to Side Control transition occupies a critical role in the top
 
 - [[Transitions/Reverse Mount to Mount]] - Alternative transition from the same starting position, converting to standard mount instead of side control
 
-- [[Transitions/Bridge from Reverse Mount]] - Primary defensive counter the bottom player uses to disrupt this transition
-
-- [[Transitions/Escape Reverse Mount]] - Defender's escape technique that the attacker must prevent before initiating rotation
+- [[Transitions/Armbar from Reverse Mount]] - Submission option from source position that may be attempted before deciding to convert to side control
 
 - [[Positions/Mount]] - Alternative conversion target from reverse mount offering higher point value but less stability during transition
 
 - [[Positions/Back Control]] - Alternative progression from reverse mount offering superior control but requiring hook insertion
 
-- [[Transitions/Armbar from Reverse Mount]] - Submission option from source position that may be attempted before deciding to convert to side control
-
 - [[Positions/North-South]] - Follow-up position accessible from side control after completing this transition
+
+- [[Transitions/Side Control to Mount]] - Natural follow-up transition that advances from the side control reached here to standard mount
 
 
 </section>

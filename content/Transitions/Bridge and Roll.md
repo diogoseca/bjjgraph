@@ -34,6 +34,18 @@ description: "Master the Bridge and Roll escape from Mount in BJJ. Complete brea
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge and Roll",
+  "description": "The Bridge and Roll, or Upa, is the fundamental mount escape in which the bottom player traps the opponent's same-side arm and foot, then bridges explosively over that shoulder to reverse the position and land inside their guard on top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Bridge and Roll escape from Mount in BJJ. Complete brea
 
 <section id="overview" class="content-section">
 
-The Bridge and Roll (also known as the Upa Escape or trap and roll) is the most fundamental and highest-percentage escape from the mounted position. This technique exploits the opponent's base by creating a powerful bridge with the hips while simultaneously trapping one arm and the same-side leg, forcing them to roll over their trapped shoulder. The escape is effective because it uses the strongest muscles in the body—the glutes and hamstrings—to generate explosive power that overwhelms the opponent's balance.
+**The Bridge and Roll, or Upa, is the fundamental mount escape in which the bottom player traps the opponent's same-side arm and foot, then bridges explosively over that shoulder to reverse the position and land inside their guard on top.**
+
+Within the mount escape hierarchy, the Bridge and Roll exploits the opponent's base by creating a powerful bridge with the hips while simultaneously trapping one arm and the same-side leg, forcing them to roll over their trapped shoulder. The escape is effective because it uses the strongest muscles in the body—the glutes and hamstrings—to generate explosive power that overwhelms the opponent's balance.
 
 The Bridge and Roll is typically the first mount escape taught to beginners due to its intuitive mechanics and immediate effectiveness, yet it remains a cornerstone technique at all belt levels. The success of this escape depends on proper timing, creating the correct angle before bridging, and understanding the relationship between the trapped arm and leg. When executed correctly, the practitioner not only escapes the mounted position but often ends up inside the opponent's closed guard as the top player with improved position.
 

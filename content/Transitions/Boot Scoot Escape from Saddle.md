@@ -34,6 +34,18 @@ description: "Master the Boot Scoot Escape from Saddle in BJJ. Learn systematic 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Boot Scoot Escape from Saddle",
+  "description": "The Boot Scoot Escape from Saddle is a distance-based leg-lock defense where the trapped player protects the heel, frames the free foot on the opponent's hip, and rhythmically scoots the hips backward to degrade the entanglement and recover open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Boot Scoot Escape from Saddle in BJJ. Learn systematic 
 
 <section id="overview" class="content-section">
 
-The Boot Scoot Escape from Saddle is a distance-based defensive technique designed to extract your trapped leg from one of the most dangerous positions in modern BJJ. Rather than attempting to pry legs apart or fight grips in close quarters where the saddle top player has maximum mechanical advantage, this escape prioritizes creating linear distance by scooting the hips backward along the mat. As distance increases, the structural integrity of the saddle entanglement progressively degrades, eventually allowing leg extraction and guard recovery.
+**The Boot Scoot Escape from Saddle is a distance-based leg-lock defense where the trapped player protects the heel, frames the free foot on the opponent's hip, and rhythmically scoots the hips backward to degrade the entanglement and recover open guard.**
+
+Rather than attempting to pry legs apart or fight grips in close quarters where the saddle top player has maximum mechanical advantage, the boot scoot prioritizes creating linear distance by scooting the hips backward along the mat. As distance increases, the structural integrity of the saddle entanglement progressively degrades, eventually allowing leg extraction and guard recovery.
 
 The fundamental mechanics involve three coordinated actions: heel protection to prevent immediate submission, free leg framing against the opponent's hips to generate push-off force, and rhythmic hip scooting to incrementally increase the distance between your hip and the opponent's entangling legs. The technique requires patience and discipline—explosive jerking movements risk joint damage and typically tighten rather than loosen the entanglement. Instead, each scoot creates incremental space that compounds over multiple repetitions.
 

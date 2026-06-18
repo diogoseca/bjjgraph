@@ -34,6 +34,18 @@ description: "Master Squid Guard in BJJ. Strategic guide covering asymmetrical c
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Squid Guard",
+  "description": "Squid Guard is an advanced asymmetrical lapel guard where the bottom player threads one leg behind the opponent's knee and uses lapel control to off-balance, restrict posture, and open sweeps and back-takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Squid Guard in BJJ. Strategic guide covering asymmetrical c
 
 <section id="overview" class="content-section">
 
-Squid Guard is an advanced open guard position that combines elements of De La Riva Guard and Reverse De La Riva Guard with unique lapel control. The bottom player establishes a deep hook behind the opponent's knee while using the opponent's lapel to create a powerful control system that restricts the top player's mobility and posture. This position is characterized by the bottom player's ability to control distance, break posture, and create angles for sweeps and back takes.
+**Squid Guard is an advanced asymmetrical lapel guard where the bottom player threads one leg behind the opponent's knee and uses lapel control to off-balance, restrict posture, and open sweeps and back-takes.**
+
+Squid Guard sits within the modern lapel-guard movement, blending the hook mechanics of De La Riva Guard and Reverse De La Riva Guard with a tentacle-like lapel wrap that no traditional open guard offers. The bottom player establishes a deep hook behind the opponent's knee while using the lapel to create a powerful control system that restricts the top player's mobility and posture and creates angles for sweeps and back takes.
 
 The position derives its name from the tentacle-like control created by the lapel, which wraps around the opponent's leg or body to create additional points of control beyond traditional guard structures. Squid Guard excels at neutralizing pressure passing attempts and forcing the top player into predictable reactions that can be exploited for offensive transitions. The position requires significant technical understanding of lapel manipulation, hook placement, and timing to be effective.
 
@@ -89,7 +103,7 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium | Medium |
 
-**Key Difference:** Asymmetrical lapel control bypasses responses
+**Key Difference:** Lapel wrap trades gi-reliance for back control
 
 
 

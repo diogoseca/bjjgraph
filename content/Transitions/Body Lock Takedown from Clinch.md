@@ -34,6 +34,18 @@ description: "Master the body lock takedown from clinch in BJJ. Complete guide c
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Body Lock Takedown from Clinch",
+  "description": "The Body Lock Takedown from Clinch is a chest-to-chest wrestling takedown where you clasp your hands around the opponent's torso at rib level and drive at a 45-degree angle to collapse their base, landing in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the body lock takedown from clinch in BJJ. Complete guide c
 </div>
 
 <section id="overview" class="content-section">
+
+**The Body Lock Takedown from Clinch is a chest-to-chest wrestling takedown where you clasp your hands around the opponent's torso at rib level and drive at a 45-degree angle to collapse their base, landing in side control.**
 
 The Body Lock Takedown from Clinch is one of the highest-percentage takedowns in modern grappling, combining the security of a locked grip configuration with powerful driving mechanics to bring opponents to the mat and establish dominant side control. Unlike level-change takedowns such as double and single legs that require dropping beneath the opponent's center of gravity, the body lock takedown operates from chest-to-chest range, making it particularly effective against opponents with strong sprawl defense or those who maintain low, defensive postures that are difficult to penetrate with traditional shot-based entries.
 

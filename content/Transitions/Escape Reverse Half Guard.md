@@ -34,6 +34,18 @@ description: "Master the Escape from Reverse Half Guard in BJJ. Learn hip rotati
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Reverse Half Guard",
+  "description": "Escape Reverse Half Guard is a bottom-player guard-recovery transition that combines hip framing with explosive rotation to turn out of the back-exposed inverted half guard and re-establish a facing standard half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Escape from Reverse Half Guard in BJJ. Learn hip rotati
 
 <section id="overview" class="content-section">
 
-Escaping Reverse Half Guard is a critical guard recovery technique that allows the bottom player to transition from the compromised inverted half guard configuration back to standard Half Guard. When trapped in reverse half guard, the bottom player faces away from their opponent with their back exposed, creating significant vulnerability to back takes and guard passing sequences. The escape prioritizes re-establishing a facing orientation toward the opponent through systematic hip rotation and frame recovery.
+**Escape Reverse Half Guard is a bottom-player guard-recovery transition that combines hip framing with explosive rotation to turn out of the back-exposed inverted half guard and re-establish a facing standard half guard.**
+
+When trapped in reverse half guard, the bottom player faces away from their opponent with their back exposed, creating significant vulnerability to back takes and guard passing sequences. Recovering standard Half Guard from this compromised configuration prioritizes re-establishing a facing orientation toward the opponent through systematic hip rotation and frame recovery, restoring access to the full sweep, submission, and back-take arsenal that the inverted angle denies.
 
 The escape mechanics center on breaking the top player's positional control through deliberate hip movement and frame creation. The bottom player must simultaneously maintain leg control on the opponent's trapped leg to prevent an immediate pass while rotating their hips and torso to face the opponent. This requires coordinated use of frames against the opponent's hips and shoulders to create the space necessary for rotation. Timing is critical because the escape works best when the top player commits their weight forward or shifts position to set up their own attack, creating momentary openings for the rotation.
 

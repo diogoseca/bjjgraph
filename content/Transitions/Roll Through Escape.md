@@ -34,6 +34,18 @@ description: "Master the Roll Through Escape from Twister Control. Learn spinal 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll Through Escape",
+  "description": "The Roll Through Escape is a no-gi defense against Twister Control where the bottom player rolls with the opponent's spinal rotation rather than against it, using that momentum to realign the spine, free the trapped leg, and recover open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Roll Through Escape from Twister Control. Learn spinal 
 
 <section id="overview" class="content-section">
 
-The Roll Through Escape represents the primary method of escaping Twister Control by using rotational momentum to realign the spine and recover guard position. This technique exploits the fundamental weakness of Twister Control: the rotational constraint that traps you can be reversed by rolling with the twist rather than against it, using the opponent's own rotational pressure to generate escape momentum.
+**The Roll Through Escape is a no-gi defense against Twister Control where the bottom player rolls with the opponent's spinal rotation rather than against it, using that momentum to realign the spine, free the trapped leg, and recover open guard.**
+
+Within the 10th Planet defensive curriculum, the Roll Through Escape is the highest-percentage answer to fully established Twister Control, and it works by exploiting the very mechanic that makes the position so dangerous. Twister Control traps you by torquing your spine into rotation, but that same rotational constraint can be reversed by rolling with the twist rather than against it, converting the opponent's own rotational pressure into escape momentum.
 
 The escape works by accepting and accelerating the rotation your opponent has established, then continuing through to a full revolution that ultimately realigns your spine and creates the separation needed to establish open guard. Rather than fighting directly against the spinal torque, you redirect that energy into a controlled tumble that breaks the structural integrity of their control position.
 

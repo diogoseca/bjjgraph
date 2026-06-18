@@ -34,6 +34,18 @@ description: "Master the Outside Heel Hook Adjustment from Ushiro Ashi-Garami. G
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Outside Heel Hook Adjustment",
+  "description": "The Outside Heel Hook Adjustment is a grip-and-hip repositioning sequence from Ushiro Ashi-Garami that restores effective outside heel hook finishing leverage after an opponent inverts their hips to escape standard ashi-garami.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Outside Heel Hook Adjustment from Ushiro Ashi-Garami. G
 </div>
 
 <section id="overview" class="content-section">
+
+**The Outside Heel Hook Adjustment is a grip-and-hip repositioning sequence from Ushiro Ashi-Garami that restores effective outside heel hook finishing leverage after an opponent inverts their hips to escape standard ashi-garami.**
 
 The Outside Heel Hook Adjustment is a critical finishing technique from Ushiro Ashi-Garami that addresses the biomechanical challenges of attacking the heel from a reversed leg entanglement configuration. When an opponent inverts to escape standard ashi-garami positions, the resulting ushiro configuration changes the optimal angles and grip placements for heel hook attacks. This adjustment sequence repositions your body and hands to restore effective finishing leverage despite the opponent's inverted hip orientation.
 

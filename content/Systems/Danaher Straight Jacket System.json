@@ -13,6 +13,7 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
+  "summary": "The Danaher Straight Jacket System is John Danaher's systematic back-attack framework that progressively immobilizes the opponent's upper body—seat belt to gift wrap to crossed-arm straight jacket—stripping away all hand defense before finishing with the rear naked choke.",
   "overview": "The Danaher Straight Jacket System represents one of the most comprehensive and systematically developed back control frameworks in modern Brazilian Jiu-Jitsu. Developed by renowned coach John Danaher, this system transforms the traditional back mount position into a multi-layered control hierarchy that progressively eliminates opponent defensive options while creating high-percentage submission opportunities. Unlike conventional back attack approaches that focus primarily on the rear naked choke, the Straight Jacket System emphasizes upper body immobilization through strategic grip configurations that severely restrict opponent hand fighting capabilities.\n\nThe system's name derives from its primary control mechanism: a specific arrangement of grips and body positioning that mirrors the restrictive effect of a strait jacket, systematically removing the opponent's ability to defend their neck or create escape opportunities. This methodology integrates seamlessly with Danaher's broader back attack philosophy, which prioritizes positional dominance and control point hierarchy over opportunistic submission attempts. The framework includes detailed protocols for initial back take entries, progressive control consolidation, defensive hand neutralization, and systematic submission sequences that flow logically from the established control position.\n\nWhat distinguishes the Straight Jacket System from other back attack approaches is its emphasis on creating true dilemmas for opponents - every defensive action opens a specific offensive opportunity, and every escape attempt can be converted into submission leverage. The system has proven particularly effective in high-level competition, where opponents possess sophisticated back defense knowledge. By understanding and implementing the Straight Jacket principles, practitioners develop the ability to maintain back control against increasingly resistant opponents while creating finishing opportunities with remarkable consistency across different body types and resistance levels.",
   "key_principles": [
     "Upper body immobilization takes precedence over lower body control - restrict hand fighting before establishing hooks",
@@ -362,6 +363,44 @@
       "name": "Back Attack System",
       "content_type": "System",
       "relationship": "Broader systematic framework for attacking from back positions that complements straight jacket methodology"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the Danaher Straight Jacket System?",
+      "answer": "It is John Danaher's systematic back-attack framework that immobilizes the opponent's upper body through a progressive grip hierarchy (seat belt to gift wrap to crossed-arm straight jacket), eliminating hand defense before finishing with the rear naked choke."
+    },
+    {
+      "question": "Why does the system prioritize upper body control over hook insertion?",
+      "answer": "Because an opponent with free hands can defend the neck indefinitely; neutralizing hand-fighting through the seat belt is the critical gateway, while hooks only maintain position and do not establish the controlling connection."
+    },
+    {
+      "question": "How is the gift wrap established within the system?",
+      "answer": "By trapping one of the opponent's arms across their own body—typically feeding your under-arm through to grip your over-shoulder wrist—creating a closed loop that removes one defensive hand and opens immediate submission entries."
+    },
+    {
+      "question": "What defines the straight jacket configuration?",
+      "answer": "Both of the opponent's arms are secured in a crossed position so their own limbs form a barrier against neck defense, achieved by threading your over-shoulder arm behind their far arm to grip the wrist while controlling the near arm."
+    },
+    {
+      "question": "What is the central dilemma principle that makes the system effective?",
+      "answer": "Every defensive action opens a specific offensive opportunity: the opponent cannot defend the neck without exposing the arms, and cannot free the arms without exposing the neck, so each escape attempt becomes submission leverage."
+    },
+    {
+      "question": "How should you respond when an opponent's strong hand fight keeps breaking the seat belt?",
+      "answer": "Fight for one grip at a time, prioritizing the over-shoulder grip, and use a body triangle or hook control to hold position while re-establishing broken grips rather than chasing both grips simultaneously."
+    },
+    {
+      "question": "What should you do if the rear naked choke is stalled by strong chin defense from the straight jacket?",
+      "answer": "Do not force the choke; recognize that committing to chin defense exposes the arms, and transition to kimura, armbar, or short-choke variations while maintaining control until the defensive structure fatigues."
+    },
+    {
+      "question": "How do you prevent forward-roll or granby escapes during back control?",
+      "answer": "Maintain tight chest-to-back connection and heavy hip pressure, consider a body triangle for superior lower-body control, and follow the opponent's rolling momentum to retake the back on the opposite side rather than fighting the roll."
+    },
+    {
+      "question": "What is the most common entry-phase mistake in this system?",
+      "answer": "Rushing to insert hooks before securing the seat belt; upper body control must come first because hooks only maintain position while the seat belt neutralizes the hand-fighting that lets opponents defend the neck."
     }
   ]
 }

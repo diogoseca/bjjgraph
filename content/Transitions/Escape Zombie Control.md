@@ -34,6 +34,18 @@ description: "Escape Zombie Control in BJJ with systematic frames and hip escape
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Zombie Control",
+  "description": "Escape Zombie Control is a last-resort 10th Planet transition in which the bottom player releases the lockdown behind defensive frames and turns to turtle, abandoning a neutralized Zombie guard to reopen guard-recovery pathways.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Escape Zombie Control in BJJ with systematic frames and hip escape
 
 <section id="overview" class="content-section">
 
-Escape Zombie Control is a transitional technique within the 10th Planet Jiu-Jitsu system designed for moments when the bottom player's lockdown game has been neutralized and continued Zombie play becomes untenable. Rather than fighting a losing lockdown battle against a patient, technically sound passer, this technique teaches systematic disengagement from the Zombie structure to establish turtle position, opening new pathways for guard recovery, technical standup, or rolling escapes.
+**Escape Zombie Control is a last-resort 10th Planet transition in which the bottom player releases the lockdown behind defensive frames and turns to turtle, abandoning a neutralized Zombie guard to reopen guard-recovery pathways.**
+
+Within the 10th Planet half guard system, there comes a moment when the bottom player's lockdown game has been fully neutralized and continued Zombie play becomes untenable — this escape is the disciplined response to that moment. Rather than fighting a losing lockdown battle against a patient, technically sound passer, this technique teaches systematic disengagement from the Zombie structure to establish turtle position, opening new pathways for guard recovery, technical standup, or rolling escapes.
 
 The escape requires precise coordination between lockdown release timing and frame establishment to prevent the top player from capitalizing on the transition. The critical window occurs when the top player commits their weight forward for a passing attempt, creating the space and momentum needed for the bottom player to redirect toward turtle rather than continuing lockdown-based defense. Poorly timed attempts expose the back, making this a calculated risk that demands honest positional assessment.
 

@@ -34,6 +34,18 @@ description: "Master the transition to inverted lasso guard in BJJ. Learn invers
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lasso Guard to Inverted Lasso Guard",
+  "description": "Lasso Guard to Inverted Lasso Guard is a transition where the bottom player rolls backward onto their shoulders while retaining the lasso hook and sleeve grip, converting horizontal control into rotational angles for berimbolos and overhead sweeps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the transition to inverted lasso guard in BJJ. Learn invers
 </div>
 
 <section id="overview" class="content-section">
+
+**Lasso Guard to Inverted Lasso Guard is a transition where the bottom player rolls backward onto their shoulders while retaining the lasso hook and sleeve grip, converting horizontal control into rotational angles for berimbolos and overhead sweeps.**
 
 The Transition to Inverted Lasso Guard converts standard lasso guard into its inverted variation by rolling backwards onto the shoulders while maintaining the lasso hook and sleeve grip. This movement fundamentally changes the angle of control, converting horizontal pulling force into rotational momentum that dramatically increases sweep and back take potential. The inversion is not a separate position entry but rather a dynamic extension of existing lasso mechanics, making it accessible to any practitioner already comfortable with standard lasso guard.
 

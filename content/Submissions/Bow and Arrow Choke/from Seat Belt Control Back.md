@@ -33,10 +33,32 @@ description: "Master the Bow and Arrow Choke from Seat Belt back control. Learn 
 }
 </script>
 
-> **SAFETY**: Bow and Arrow Choke from Seat Belt Control Back targets the Carotid arteries. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bow and Arrow Choke from Seat Belt Control Back",
+  "description": "The Bow and Arrow Choke from Seat Belt Control Back is a gi strangle that converts the seat belt grip into a deep cross-collar lapel grip, then drives opposing leg-and-collar extension to scissor both carotid arteries shut from back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Bow and Arrow Choke from Seat Belt Control Back is a gi strangle that converts the seat belt grip into a deep cross-collar lapel grip, then drives opposing leg-and-collar extension to scissor both carotid arteries shut from back control.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Bow and Arrow Choke from Seat Belt Control Back targets the Carotid arteries. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,55 +75,7 @@ What distinguishes the seat belt entry from other bow and arrow setups is the pr
 
 Strategically, the bow and arrow creates a devastating dilemma when combined with the rear naked choke threat from the same position. When the opponent defends the RNC by protecting the neck with both hands, they neglect lapel defense and create the opening for the cross-collar grip that initiates the bow and arrow sequence. The extended body position of the finish also makes this choke extremely difficult to defend once grips are fully established, giving it one of the highest completion rates among all back attacks in gi competition at every level.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Back Control/Seat Belt Control Back]]
-**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | High | Immediate if released promptly; medical evaluation required if unconsciousness occurs |
-| Neck strain from excessive torque and rotation during collar pull | Medium | 3-7 days for minor strain; 2-4 weeks for moderate strain |
-| Jaw or TMJ injury from collar riding up over the chin | Medium | 1-3 weeks for minor injury; 4-8 weeks for significant TMJ damage |
-| Knee or hip stress from forced leg extension against resistance | Low | 2-5 days for minor discomfort |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap or any spoken indication of submission
-- Physical hand tap on attacker's body, own body, or the mat
-- Physical foot tap on the mat
-- Any audible distress signal or gurgling sound
-- Loss of resistance or going limp (immediate release required - possible unconsciousness)
-
-
-**Release Protocol**:
-1. Immediately release collar grip upon any tap signal
-2. Release leg extension and remove hook from opponent's leg simultaneously
-3. Allow opponent's head and neck to return to neutral position without jerking
-4. Check for consciousness and verbal responsiveness before moving away
-5. If opponent was unconscious, place in recovery position, elevate legs, and monitor until fully alert
-
-
-**Training Restrictions**:
-- Apply choke pressure smoothly and progressively - never spike or jerk the collar grip
-- Never use competition-speed finishing in training rolls
-- Always maintain verbal communication with training partner throughout the sequence
-- Never continue applying pressure after any tap signal is received
-- Beginners must drill grip transitions and body positioning before attempting the full finish under resistance
-- Always ensure partner has clear access to tap with hands or voice throughout the entire sequence
-
+**Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] · **From**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 </section>
 
@@ -269,39 +243,61 @@ Strategically, the bow and arrow creates a devastating dilemma when combined wit
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Clock Choke]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control/Seat Belt Control Back]] - Starting position providing the seat belt grip framework for this submission entry
 - [[Positions/Back Control]] - Parent position category encompassing all back control configurations
-- [[Submissions/Bow and Arrow Choke]] - Parent submission family - this is the position-specific variant
 - [[Positions/Turtle]] - Common entry position leading to back control and subsequent bow and arrow attacks
 - [[Positions/Closed Guard]] - Primary counter position when defender turns in and recovers guard during escape
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Bow and Arrow Choke from Seat Belt Control Back leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | High | Immediate if released promptly; medical evaluation required if unconsciousness occurs |
+| Neck strain from excessive torque and rotation during collar pull | Medium | 3-7 days for minor strain; 2-4 weeks for moderate strain |
+| Jaw or TMJ injury from collar riding up over the chin | Medium | 1-3 weeks for minor injury; 4-8 weeks for significant TMJ damage |
+| Knee or hip stress from forced leg extension against resistance | Low | 2-5 days for minor discomfort |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
+
+**Tap Signals**:
+- Verbal tap or any spoken indication of submission
+- Physical hand tap on attacker's body, own body, or the mat
+- Physical foot tap on the mat
+- Any audible distress signal or gurgling sound
+- Loss of resistance or going limp (immediate release required - possible unconsciousness)
+
+
+**Release Protocol**:
+1. Immediately release collar grip upon any tap signal
+2. Release leg extension and remove hook from opponent's leg simultaneously
+3. Allow opponent's head and neck to return to neutral position without jerking
+4. Check for consciousness and verbal responsiveness before moving away
+5. If opponent was unconscious, place in recovery position, elevate legs, and monitor until fully alert
+
+
+**Training Restrictions**:
+- Apply choke pressure smoothly and progressively - never spike or jerk the collar grip
+- Never use competition-speed finishing in training rolls
+- Always maintain verbal communication with training partner throughout the sequence
+- Never continue applying pressure after any tap signal is received
+- Beginners must drill grip transitions and body positioning before attempting the full finish under resistance
+- Always ensure partner has clear access to tap with hands or voice throughout the entire sequence
+
 
 </section>
 

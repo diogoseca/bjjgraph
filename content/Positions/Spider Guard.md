@@ -34,6 +34,18 @@ description: "Master Spider Guard in BJJ. Strategic guide covering sleeve contro
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Spider Guard",
+  "description": "Spider Guard is a gi-based open guard where the bottom player grips both sleeves and braces their feet against the opponent's biceps, using leg-against-arm leverage to manage distance, break posture, and launch sweeps and submissions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Spider Guard in BJJ. Strategic guide covering sleeve contro
 </div>
 
 <section id="overview" class="content-section">
+
+**Spider Guard is a gi-based open guard where the bottom player grips both sleeves and braces their feet against the opponent's biceps, using leg-against-arm leverage to manage distance, break posture, and launch sweeps and submissions.**
 
 Spider Guard is a highly technical open guard position characterized by the bottom player controlling both sleeves of the opponent while placing their feet on the opponent's biceps or elbows, creating strong pushing frames. This guard creates exceptional distance management and posture control, allowing the bottom player to break down the top player's base while setting up sweeps, triangles, and omoplatas. The position derives its name from the resemblance to a spider's legs extending outward with thread-like control of the opponent's arms.
 
@@ -125,29 +139,35 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (30% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (27% of attempts)
 
-- **[[Transitions/Spider Guard to Omoplata/Attacker|Spider Guard to Omoplata]]** (11% of attempts)
+- **[[Transitions/Spider Guard to Omoplata/Attacker|Spider Guard to Omoplata]]** (10% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (9% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
 
-- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (9% of attempts)
+- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (8% of attempts)
 
-- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (8% of attempts)
+- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (7% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (8% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (7% of attempts)
 
-- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (7% of attempts)
+- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (6% of attempts)
 
-- **[[Transitions/Armbar Setup from Double Sleeve/Attacker|Armbar Setup from Double Sleeve]]** (6% of attempts)
+- **[[Transitions/Armbar Setup from Double Sleeve/Attacker|Armbar Setup from Double Sleeve]]** (5% of attempts)
 
-- **[[Transitions/Guard Recovery from Spider Guard/Attacker|Guard Recovery from Spider Guard]]** (6% of attempts)
+- **[[Transitions/Guard Recovery from Spider Guard/Attacker|Guard Recovery from Spider Guard]]** (5% of attempts)
 
 - **[[Transitions/Triangle from Spider Guard/Attacker|Triangle from Spider Guard]]** (3% of attempts)
 
 - **[[Transitions/Spider Sweep/Attacker|Spider Sweep]]** (2% of attempts)
 
-- **[[Transitions/Spider to Lasso Guard/Attacker|Spider to Lasso Guard]]** (1% of attempts)
+- **[[Transitions/Spider to Lasso Guard/Attacker|Spider to Lasso Guard]]** (2% of attempts)
+
+- **[[Belly Down Armbar from Spider Guard/Attacker|Belly Down Armbar from Spider Guard]]** (3% of attempts)
+
+- **[[Omoplata from Spider Guard/Attacker|Omoplata from Spider Guard]]** (4% of attempts)
+
+- **[[Triangle Choke from Spider Guard/Attacker|Triangle Choke from Spider Guard]]** (3% of attempts)
 
 
 ### Common Mistakes

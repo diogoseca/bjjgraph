@@ -34,6 +34,18 @@ description: "Master the High Elbow Guillotine from Hindulotine. Step-by-step gr
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "High Elbow Guillotine Variation",
+  "description": "The High Elbow Guillotine Variation is a bottom-Hindulotine finishing mechanic that elevates the choking elbow above the opponent's shoulder, turning the arm into a skeletal lever that scissors both carotids for a faster finish than a standard guillotine.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the High Elbow Guillotine from Hindulotine. Step-by-step gr
 </div>
 
 <section id="overview" class="content-section">
+
+**The High Elbow Guillotine Variation is a bottom-Hindulotine finishing mechanic that elevates the choking elbow above the opponent's shoulder, turning the arm into a skeletal lever that scissors both carotids for a faster finish than a standard guillotine.**
 
 The High Elbow Guillotine Variation represents the highest-percentage finishing mechanic from the Hindulotine position, distinguished by the dramatic elevation of the choking elbow above the opponent's shoulder line. This grip configuration creates a lever arm that exponentially increases pressure on the carotid arteries compared to standard guillotine mechanics. The technique evolved from catch wrestling principles but has been refined through modern no-gi competition to become the preferred finishing method when holding bottom Hindulotine control.
 

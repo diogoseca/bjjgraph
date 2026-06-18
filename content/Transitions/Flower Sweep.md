@@ -34,6 +34,18 @@ description: "Learn the Flower Sweep in BJJ. Master this fundamental closed guar
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Flower Sweep",
+  "description": "The Flower Sweep is a high-percentage closed guard sweep where the bottom player uses a same-side sleeve grip, hip angle, and a lifting hook to off-balance the opponent diagonally and reverse them straight into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn the Flower Sweep in BJJ. Master this fundamental closed guar
 
 <section id="overview" class="content-section">
 
-The Flower Sweep is a fundamental closed guard sweep that exploits the opponent's reaction to your initial attack. Named for the circular, flowing motion that resembles a flower opening, this technique is one of the highest-percentage sweeps available from closed guard. The sweep works by creating a pendulum-like momentum that uses the opponent's forward pressure against them. What makes the Flower Sweep particularly effective is its ability to chain seamlessly with other attacks - if the opponent defends the sweep, you're already positioned for triangles, armbars, or omoplatas. The technique requires excellent hip mobility and precise timing, but once mastered, it becomes an instinctive response to the opponent's posture. The Flower Sweep is often one of the first sweeps taught to beginners due to its mechanical simplicity and high success rate, yet it remains effective at the highest levels of competition when executed with proper timing and setup.
+**The Flower Sweep is a high-percentage closed guard sweep where the bottom player uses a same-side sleeve grip, hip angle, and a lifting hook to off-balance the opponent diagonally and reverse them straight into mount.**
+
+Named for the circular, flower-blooming motion of the legs as the sweep unfolds, this is one of the highest-percentage reversals available from closed guard and one of the first sweeps most practitioners ever learn. It exploits the opponent's forward pressure and hand-posting reactions, generating a pendulum-like momentum that turns their own weight against them. What makes the Flower Sweep particularly effective is its ability to chain seamlessly with other attacks - if the opponent defends the sweep, you are already positioned for triangles, armbars, or omoplatas. The technique demands excellent hip mobility and precise timing, but once mastered it becomes an instinctive response to the opponent's posture. Despite its mechanical simplicity, it remains effective at the highest levels of competition when executed with proper setup, and it forms one corner of the fundamental closed-guard attack triangle alongside submissions and posture-breaking transitions.
 
 **From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 62%

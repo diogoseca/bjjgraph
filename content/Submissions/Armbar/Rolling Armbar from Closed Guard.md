@@ -33,10 +33,32 @@ description: "Master the Rolling Armbar in BJJ. Dynamic submission from guard an
 }
 </script>
 
-> **SAFETY**: Rolling Armbar from Closed Guard targets the Elbow joint. Risk: Elbow hyperextension or dislocation. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rolling Armbar from Closed Guard",
+  "description": "The Rolling Armbar from Closed Guard is a dynamic elbow lock where the bottom player isolates one arm, breaks the opponent's posture, and somersaults backward over a shoulder to finish a hyperextending armbar mid-rotation.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Rolling Armbar from Closed Guard is a dynamic elbow lock where the bottom player isolates one arm, breaks the opponent's posture, and somersaults backward over a shoulder to finish a hyperextending armbar mid-rotation.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Rolling Armbar from Closed Guard targets the Elbow joint. Primary risk: Elbow hyperextension or dislocation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -49,55 +71,7 @@ description: "Master the Rolling Armbar in BJJ. Dynamic submission from guard an
 
 The Rolling Armbar represents one of the most dynamic and technically sophisticated submissions in Brazilian Jiu-Jitsu, combining rotational movement with precise joint control to attack the elbow. Unlike static armbars from established positions, the rolling variation capitalizes on momentum and timing, making it particularly effective during transitions and scrambles. This technique requires excellent body coordination, spatial awareness, and the ability to maintain arm control while rotating through space. The rolling armbar is most commonly executed from guard positions when the opponent attempts to posture or stack, though advanced practitioners can hit it from standing, during takedown attempts, or even as a counter to passing attempts. The technique's effectiveness lies in its ability to surprise opponents who are focused on other objectives, making it a high-percentage finish for those who master the rolling mechanics. The continuous rotation creates tremendous leverage on the elbow joint while limiting the opponent's defensive options, as they must defend the submission while managing their own balance during the roll.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension or dislocation | High | 6-12 weeks for moderate sprains, 3-6 months for dislocations |
-| Ligament tears (UCL, LCL) | CRITICAL | 6-12 months with potential surgery required |
-| Neck strain from improper rolling mechanics | Medium | 2-4 weeks |
-| Shoulder impingement during rotation | Medium | 3-6 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time, especially during the rolling phase
-
-**Tap Signals**:
-- Verbal tap (any vocalization of submission)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any distress signal or audible pain indication
-- Loss of resistance or going limp
-
-
-**Release Protocol**:
-1. Immediately release hip pressure and stop extending the arm
-2. Open legs and remove hip contact from the trapped arm
-3. Release hand grips in controlled manner
-4. Allow opponent to extract arm slowly and under their own control
-5. Check partner's condition and ensure no injury occurred
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission during the roll
-- Never use competition speed in drilling or light rolling
-- Always control the rolling speed to prevent neck injuries
-- Never prevent partner from tapping by controlling both arms
-- Stop immediately if partner shows any sign of distress
-- Avoid this technique with significantly smaller or less experienced partners until control is mastered
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -271,10 +245,9 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Armbar]]
 - [[Submissions/Mounted Crucifix Armbar]]
 - [[Submissions/Triangle Choke]]
@@ -287,14 +260,6 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 - [[Submissions/Far Side Armbar]]
 - [[Transitions/Armbar from Crucifix]]
 - [[Submissions/Rear Triangle Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Armbar Control]] - Finishing position - where the rolling armbar ends and standard armbar mechanics apply
 - [[Positions/Triangle Control]] - Common combination - if triangle is defended, rolling armbar becomes available from the same position
 - [[Positions/Omoplata Control]] - Related rolling attack - uses similar rotational mechanics and creates armbar opportunities if opponent defends
@@ -308,16 +273,48 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 - [[Positions/Butterfly Guard]] - Alternative guard setup that provides underhook control useful for arm isolation before roll
 - [[Positions/Half Guard]] - Positional option for setting up rolling armbar when opponent attempts to pass
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Rolling Armbar from Closed Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension or dislocation | High | 6-12 weeks for moderate sprains, 3-6 months for dislocations |
+| Ligament tears (UCL, LCL) | CRITICAL | 6-12 months with potential surgery required |
+| Neck strain from improper rolling mechanics | Medium | 2-4 weeks |
+| Shoulder impingement during rotation | Medium | 3-6 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time, especially during the rolling phase
+
+**Tap Signals**:
+- Verbal tap (any vocalization of submission)
+- Physical hand tap on partner or mat
+- Physical foot tap on mat or partner
+- Any distress signal or audible pain indication
+- Loss of resistance or going limp
+
+
+**Release Protocol**:
+1. Immediately release hip pressure and stop extending the arm
+2. Open legs and remove hip contact from the trapped arm
+3. Release hand grips in controlled manner
+4. Allow opponent to extract arm slowly and under their own control
+5. Check partner's condition and ensure no injury occurred
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission during the roll
+- Never use competition speed in drilling or light rolling
+- Always control the rolling speed to prevent neck injuries
+- Never prevent partner from tapping by controlling both arms
+- Stop immediately if partner shows any sign of distress
+- Avoid this technique with significantly smaller or less experienced partners until control is mastered
+
 
 </section>
 

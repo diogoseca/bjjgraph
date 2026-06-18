@@ -34,6 +34,18 @@ description: "Master the Estima Lock inverted footlock finish in BJJ. Complete g
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Estima Lock",
+  "description": "The Estima Lock is an inverted footlock finish that twists the trapped foot heel-high to torque the ankle joint and Achilles tendon, finishing through rotation rather than the straight-line hyperextension of a conventional ankle lock.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Estima Lock inverted footlock finish in BJJ. Complete g
 </div>
 
 <section id="overview" class="content-section">
+
+**The Estima Lock is an inverted footlock finish that twists the trapped foot heel-high to torque the ankle joint and Achilles tendon, finishing through rotation rather than the straight-line hyperextension of a conventional ankle lock.**
 
 The Estima Lock is a devastating inverted footlock submission popularized by the Estima brothers (Victor and Braulio) in high-level competition. Unlike traditional straight ankle locks that attack the ankle in its natural orientation, the Estima Lock inverts the foot position, creating rotational torque on the ankle joint and intense pressure on the Achilles tendon. This unique mechanical approach bypasses many conventional ankle lock defenses and creates submission opportunities that opponents may not recognize until the lock is already secured.
 

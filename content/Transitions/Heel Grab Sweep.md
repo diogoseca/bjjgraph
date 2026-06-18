@@ -34,6 +34,18 @@ description: "Master the Heel Grab Sweep from Single Leg X Guard. Complete techn
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Grab Sweep",
+  "description": "The Heel Grab Sweep is an off-balancing sweep from Single Leg X-Guard where the bottom player cups the opponent's trapped heel with both hands and scissors their legs to topple a standing opponent backward into a Side Control finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Heel Grab Sweep from Single Leg X Guard. Complete techn
 
 <section id="overview" class="content-section">
 
-The Heel Grab Sweep is a fundamental off-balancing technique from Single Leg X Guard that exploits your opponent's compromised base by controlling their trapped leg and manipulating their heel. This sweep creates a powerful lever system where you use your legs to elevate and extend the opponent's trapped leg while simultaneously pulling their heel backward, disrupting their balance and forcing them to the mat. The technique is particularly effective against standing opponents who attempt to maintain a squared stance or those who fail to properly address the Single Leg X position.
+**The Heel Grab Sweep is an off-balancing sweep from Single Leg X-Guard where the bottom player cups the opponent's trapped heel with both hands and scissors their legs to topple a standing opponent backward into a Side Control finish.**
+
+Within the modern Single Leg X-Guard game, the Heel Grab Sweep stands out as the highest-percentage off-balancing entry because it attacks a base that is already compromised the instant the opponent commits weight to the trapped leg. The sweep creates a powerful lever system where you use your legs to elevate and extend the opponent's trapped leg while simultaneously pulling their heel backward, disrupting their balance and forcing them to the mat. The technique is particularly effective against standing opponents who attempt to maintain a squared stance or those who fail to properly address the Single Leg X position.
 
 The Heel Grab Sweep serves as a primary attacking option from Single Leg X Guard, working in concert with other sweeps and leg entanglements to create a comprehensive guard system. Its effectiveness stems from the biomechanical advantage created by controlling both the opponent's heel and knee simultaneously, making it extremely difficult for them to maintain balance or counter effectively. The coordinated scissoring of leg extension with heel pull generates forces in two opposing directions that no single-base adjustment can neutralize.
 

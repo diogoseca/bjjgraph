@@ -34,6 +34,18 @@ description: "Master Ushiro Ashi-Garami (reverse leg entanglement). Complete tec
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ushiro Ashi-Garami",
+  "description": "Ushiro Ashi-Garami is a reversed leg entanglement that arises when an opponent inverts to escape standard ashi-garami, leaving the leg trapped in a flipped figure-four that reshapes heel hook attacks and escape paths.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Ushiro Ashi-Garami (reverse leg entanglement). Complete tec
 </div>
 
 <section id="overview" class="content-section">
+
+**Ushiro Ashi-Garami is a reversed leg entanglement that arises when an opponent inverts to escape standard ashi-garami, leaving the leg trapped in a flipped figure-four that reshapes heel hook attacks and escape paths.**
 
 Ushiro Ashi-Garami, translated as "reverse leg entanglement," represents a critical defensive position within modern leg lock systems. This configuration occurs when an opponent attempts to escape standard ashi-garami positions by inverting their hips and turning away, creating a reversed leg entanglement where the attacking practitioner's legs are positioned differently than in standard outside or inside ashi-garami.
 
@@ -206,25 +220,31 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 ### Available Transitions
 
 
-- **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** (13% of attempts)
+- **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** (11% of attempts)
 
-- **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** (16% of attempts)
+- **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** (13% of attempts)
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (7% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (6% of attempts)
 
-- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (10% of attempts)
+- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (8% of attempts)
 
-- **[[Transitions/Outside Heel Hook Adjustment/Attacker|Outside Heel Hook Adjustment]]** (5% of attempts)
+- **[[Transitions/Outside Heel Hook Adjustment/Attacker|Outside Heel Hook Adjustment]]** (4% of attempts)
 
-- **[[Transitions/Return to Outside Ashi/Attacker|Return to Outside Ashi]]** (12% of attempts)
+- **[[Transitions/Return to Outside Ashi/Attacker|Return to Outside Ashi]]** (10% of attempts)
 
-- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (15% of attempts)
+- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (12% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (12% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (10% of attempts)
 
-- **[[Toe Hold from Ushiro Ashi-Garami/Attacker|Toe Hold from Ushiro Ashi-Garami]]** (8% of attempts)
+- **[[Toe Hold from Ushiro Ashi-Garami/Attacker|Toe Hold from Ushiro Ashi-Garami]]** (7% of attempts)
 
 - **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (2% of attempts)
+
+- **[[Heel Hook from Ushiro Ashi/Attacker|Heel Hook from Ushiro Ashi]]** (3% of attempts)
+
+- **[[Inside Heel Hook from Ushiro Ashi-Garami/Attacker|Inside Heel Hook from Ushiro Ashi-Garami]]** (10% of attempts)
+
+- **[[Outside Heel Hook from Ushiro Ashi-Garami/Attacker|Outside Heel Hook from Ushiro Ashi-Garami]]** (4% of attempts)
 
 
 ### Common Mistakes

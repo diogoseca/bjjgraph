@@ -34,6 +34,18 @@ description: "Master the Half Guard Pass in BJJ. Systematic approach to passing 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard Pass",
+  "description": "The Half Guard Pass is the top player's systematic progression from Half Guard, where one of their legs is trapped, to dominant Side Control by winning upper-body control, neutralizing the underhook, and extracting the trapped leg.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Half Guard Pass in BJJ. Systematic approach to passing 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Half Guard Pass is the top player's systematic progression from Half Guard, where one of their legs is trapped, to dominant Side Control by winning upper-body control, neutralizing the underhook, and extracting the trapped leg.**
 
 The Half Guard Pass is one of the most essential techniques in Brazilian Jiu-Jitsu, representing the fundamental challenge of progressing from the half guard top position to full side control. This technique encompasses a systematic approach to defeating the bottom player's defensive structure, which includes their leg entanglement, underhook battles, and frame creation. Understanding the half guard pass is crucial because half guard represents one of the most common positions in modern BJJ, serving as a key battleground between the top player's passing efforts and the bottom player's retention and sweeping attacks.
 

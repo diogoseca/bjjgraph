@@ -34,6 +34,18 @@ description: "Master the Jailbreak to Deep Half Entry in BJJ. Transition from co
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Jailbreak to Deep Half Entry",
+  "description": "Jailbreak to Deep Half Entry is a bottom half-guard transition where, when the top player bases wide to stuff the jailbreak roll, you redirect your underhook and dive your hips beneath their base to establish deep half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Jailbreak to Deep Half Entry in BJJ. Transition from co
 </div>
 
 <section id="overview" class="content-section">
+
+**Jailbreak to Deep Half Entry is a bottom half-guard transition where, when the top player bases wide to stuff the jailbreak roll, you redirect your underhook and dive your hips beneath their base to establish deep half guard.**
 
 The Jailbreak to Deep Half Entry represents a critical transition in the half guard game, offering an alternative pathway when the explosive rolling escape is defended or suboptimal. This technique transforms the compromised jailbreak position into deep half guard, one of the most powerful sweeping and back-taking positions in modern grappling. The entry exploits the natural body positioning of the jailbreak configuration, where your underhook and hip angle are already oriented toward diving underneath your opponent.
 

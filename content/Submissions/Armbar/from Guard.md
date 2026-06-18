@@ -33,10 +33,32 @@ description: "Master the armbar from guard with systematic technique breakdown, 
 }
 </script>
 
-> **SAFETY**: Armbar from Guard targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from Guard",
+  "description": "The Armbar from Guard is a joint lock attacked from the bottom, where you isolate one arm, break the opponent's posture, swing a leg across their head to create a perpendicular angle, and extend your hips to hyperextend their elbow.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Armbar from Guard is a joint lock attacked from the bottom, where you isolate one arm, break the opponent's posture, swing a leg across their head to create a perpendicular angle, and extend your hips to hyperextend their elbow.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Armbar from Guard targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -49,55 +71,7 @@ description: "Master the armbar from guard with systematic technique breakdown, 
 
 The armbar from guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu. This technique targets the elbow joint by hyperextending it against the natural range of motion, forcing a tap or causing structural damage. From closed guard, the armbar represents a perfect marriage of positional control and finishing mechanics—you maintain the defensive safety of guard position while simultaneously attacking with a fight-ending submission. The armbar from guard is typically the first submission taught to beginners because it introduces the essential concepts of angle creation, hip control, and limb isolation that underpin all joint lock attacks. What makes this technique particularly effective is that it can be entered from multiple guard variations and combined seamlessly with other attacks like triangles and omoplatas, creating powerful submission chains that are difficult to defend.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Elbow hyperextension | Medium | 2-4 weeks |
-| Elbow dislocation | High | 6-12 weeks |
-| Ligament tears (UCL, LCL) | CRITICAL | 3-6 months or surgery required |
-| Biceps tendon strain | Medium | 3-6 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finishing pressure
-
-**Tap Signals**:
-- Verbal tap
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any vocal distress signal
-- Frantic movement or panic response
-
-
-**Release Protocol**:
-1. Immediately release hip pressure and stop extending opponent's arm
-2. Open legs and release leg control over head and arm
-3. Allow opponent to recover arm to safe position
-4. Check opponent's elbow mobility before continuing training
-5. If pain persists, apply ice and seek medical evaluation
-
-
-**Training Restrictions**:
-- Never spike or jerk the armbar—always apply smooth, progressive pressure
-- Never use competition speed in training—control and communication are paramount
-- Always ensure training partner has clear tap access with at least one free hand
-- Stop immediately at first sign of discomfort, even before verbal tap
-- Beginners should practice finishing mechanics on compliant partners only
-- Never continue pressure after tap signal—release immediately
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -275,10 +249,9 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Kimura]]
@@ -289,35 +262,54 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 - [[Submissions/Belly Down Armbar]]
 - [[Transitions/Gogoplata]]
 - [[Transitions/Guillotine Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Closed Guard]] - Primary starting position for this armbar variation
-- [[Submissions/Triangle Choke]] - Common combination—triangle threats set up armbar opportunities
-- [[Submissions/Omoplata]] - Part of the same submission chain system from guard
 - [[Positions/Armbar Control]] - Control position where finishing mechanics are applied
 - [[Transitions/Hip Bump Sweep]] - Complementary attack that creates armbar opportunities when defended
-- [[Submissions/Far Side Armbar]] - Related armbar variation applied from side control with different entry mechanics
 - [[Positions/Open Guard]] - Alternative starting position for armbar entries
 - [[Positions/Spider Guard]] - Guard variation offering armbar opportunities through sleeve control
-- [[Submissions/Kimura]] - Complementary shoulder attack from similar guard positions
-- [[Submissions/Belly Down Armbar]] - Transition target when opponent turns prone during armbar escape attempts
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Armbar from Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Elbow hyperextension | Medium | 2-4 weeks |
+| Elbow dislocation | High | 6-12 weeks |
+| Ligament tears (UCL, LCL) | CRITICAL | 3-6 months or surgery required |
+| Biceps tendon strain | Medium | 3-6 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finishing pressure
+
+**Tap Signals**:
+- Verbal tap
+- Physical hand tap on opponent or mat
+- Physical foot tap on opponent or mat
+- Any vocal distress signal
+- Frantic movement or panic response
+
+
+**Release Protocol**:
+1. Immediately release hip pressure and stop extending opponent's arm
+2. Open legs and release leg control over head and arm
+3. Allow opponent to recover arm to safe position
+4. Check opponent's elbow mobility before continuing training
+5. If pain persists, apply ice and seek medical evaluation
+
+
+**Training Restrictions**:
+- Never spike or jerk the armbar—always apply smooth, progressive pressure
+- Never use competition speed in training—control and communication are paramount
+- Always ensure training partner has clear tap access with at least one free hand
+- Stop immediately at first sign of discomfort, even before verbal tap
+- Beginners should practice finishing mechanics on compliant partners only
+- Never continue pressure after tap signal—release immediately
+
 
 </section>
 

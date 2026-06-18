@@ -34,6 +34,18 @@ description: "Master the Backstep from Leg Knot in BJJ. A systematic guide to di
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backstep from Leg Knot",
+  "description": "The Backstep from Leg Knot is a guard-passing transition in which the top player switches their hips, extracts their trapped leg from the mutual leg entanglement, and steps over the opponent's legs to establish dominant side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Backstep from Leg Knot in BJJ. A systematic guide to di
 
 <section id="overview" class="content-section">
 
-The Backstep from Leg Knot is a critical guard passing technique used by the top player to escape complex leg entanglement exchanges and establish dominant side control. When both practitioners are locked in a leg knot configuration, the positional warfare becomes a double-edged sword where submission threats exist for both sides. The backstep provides a decisive exit strategy that transforms mutual danger into dominant pinning control, representing a strategic choice to prioritize positional advancement over continued leg lock exchanges.
+**The Backstep from Leg Knot is a guard-passing transition in which the top player switches their hips, extracts their trapped leg from the mutual leg entanglement, and steps over the opponent's legs to establish dominant side control.**
+
+In the contested world of modern leg entanglements, the backstep represents a deliberate decision to abandon the submission battle in favor of guaranteed positional dominance. When both practitioners are locked in a leg knot configuration, the positional warfare becomes a double-edged sword where submission threats exist for both sides. The backstep provides a decisive exit strategy that transforms mutual danger into dominant pinning control, allowing the top player to prioritize positional advancement over continued leg lock exchanges.
 
 The mechanical foundation of this technique relies on hip switching combined with systematic leg extraction. Rather than muscling through the entanglement or forcing submissions from a contested position, the backstep allows the top player to disengage cleanly by rotating their hips away from the knot, extracting their trapped leg, and stepping over or around the opponent's legs to achieve a perpendicular chest-to-chest pin. The timing window is narrow, as the bottom player will aggressively attempt to re-entangle or recover guard during the transition.
 

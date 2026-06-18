@@ -34,6 +34,18 @@ description: "Master reestablishing Side Control from Jailbreak in BJJ. Systemat
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reestablish Side Control from Jailbreak",
+  "description": "Reestablishing Side Control from Jailbreak is the top player's counter to the 10th Planet jailbreak escape, killing the bottom player's underhook-driven inversion with crossface pressure and underhook neutralization to walk the hips back to a perpendicular side-control pin.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master reestablishing Side Control from Jailbreak in BJJ. Systemat
 </div>
 
 <section id="overview" class="content-section">
+
+**Reestablishing Side Control from Jailbreak is the top player's counter to the 10th Planet jailbreak escape, killing the bottom player's underhook-driven inversion with crossface pressure and underhook neutralization to walk the hips back to a perpendicular side-control pin.**
 
 Reestablishing Side Control from Jailbreak is a critical positional recovery technique for the top player when a bottom half guard practitioner initiates the explosive jailbreak escape. The jailbreak, prominent in 10th Planet methodology, leverages an underhook and explosive inversion to roll through top pressure and escape to turtle or back take opportunities. The top player who recognizes this escape pattern early can shut it down through decisive pressure redistribution and underhook neutralization.
 
@@ -228,10 +242,6 @@ Reestablishing Side Control from Jailbreak occupies a crucial defensive role wit
 - [[Transitions/North-South Recovery from Jailbreak]] - Alternative transition from the same starting position
 
 - [[Positions/Half Guard/Deep Half Guard]] - Counter destination when bottom player dives underneath
-
-- [[Positions/Side Control]] - Follow-up control position after reestablishment
-
-- [[Transitions/Crossface from Dogfight]] - Related crossface control technique using similar mechanics
 
 - [[Transitions/Complete Pass from Flattened Half]] - Related passing completion technique from half guard
 

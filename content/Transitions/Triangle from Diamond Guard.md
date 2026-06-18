@@ -34,6 +34,18 @@ description: "Master the triangle setup from Diamond Guard in BJJ. Convert overh
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle from Diamond Guard",
+  "description": "Triangle from Diamond Guard is a bottom-player submission entry that converts the diamond's overhook and head control into a locked triangle by switching to wrist control and shooting the choking leg over the opponent's neck.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the triangle setup from Diamond Guard in BJJ. Convert overh
 </div>
 
 <section id="overview" class="content-section">
+
+**Triangle from Diamond Guard is a bottom-player submission entry that converts the diamond's overhook and head control into a locked triangle by switching to wrist control and shooting the choking leg over the opponent's neck.**
 
 The triangle from Diamond Guard exploits the unique dual-control structure of the diamond configuration — overhook on one arm and head control with the opposite hand — to create a high-percentage triangle entry that is significantly harder to defend than standard closed guard triangle setups. The overhook already isolates one arm across the opponent's body, and the head control keeps their posture thoroughly broken, meaning two of the three prerequisites for a triangle (arm isolation and posture break) are already established before the attack begins. The attacker's primary task is converting the head control grip into wrist control on the trapped arm while shooting the choking leg over the opponent's neck.
 

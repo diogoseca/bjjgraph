@@ -34,6 +34,18 @@ description: "Master the Transition to Matrix position from turtle top in BJJ. S
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turtle to Matrix",
+  "description": "Turtle to Matrix is a turtle-top entry where the attacker threads perpendicular to a turtled opponent and establishes the angular Matrix platform, the launching point for back takes, truck entries, and crucifix attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Transition to Matrix position from turtle top in BJJ. S
 </div>
 
 <section id="overview" class="content-section">
+
+**Turtle to Matrix is a turtle-top entry where the attacker threads perpendicular to a turtled opponent and establishes the angular Matrix platform, the launching point for back takes, truck entries, and crucifix attacks.**
 
 The Transition to Matrix is the critical entry sequence that moves the attacker from a standard turtle top position into the Matrix position, the dynamic rotational platform from which back takes, truck entries, and other advanced attacks become available. This transition represents the setup phase before the actual Matrix Back Take execution, focusing on establishing the angular positioning, grip connections, and hip alignment required to launch the rolling movement.
 

@@ -34,6 +34,18 @@ description: "Master the recovery from a failed sweep in BJJ. Convert unsuccessf
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Recovery from Failed Sweep",
+  "description": "Recovery from Failed Sweep is the transitional skill of converting a stuffed open-guard sweep into an immediate scramble, using residual momentum and retained grips to fight back toward a standing or top position instead of resettling into guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the recovery from a failed sweep in BJJ. Convert unsuccessf
 
 <section id="overview" class="content-section">
 
-The Scramble from Failed Sweep represents one of the most critical transitional skills in Brazilian Jiu-Jitsu, transforming what would otherwise be a wasted effort into a legitimate positional advancement opportunity. When a sweep attempt from open guard is partially defended or stuffed, the resulting chaos creates a narrow window where the guard player can redirect their momentum, build up from bottom position, and engage in a scramble for top control. Rather than simply accepting the failed sweep and resettling into guard, the experienced practitioner immediately transitions into scramble mode, using whatever momentum and connection remains to fight for a dominant position.
+**Recovery from Failed Sweep is the transitional skill of converting a stuffed open-guard sweep into an immediate scramble, using residual momentum and retained grips to fight back toward a standing or top position instead of resettling into guard.**
+
+Recovery from Failed Sweep represents one of the most critical transitional skills in Brazilian Jiu-Jitsu, transforming what would otherwise be a wasted effort into a legitimate positional advancement opportunity. When a sweep attempt from open guard is partially defended or stuffed, the resulting chaos creates a narrow window where the guard player can redirect their momentum, build up from bottom position, and engage in a scramble for top control. Rather than simply accepting the failed sweep and resettling into guard, the experienced practitioner immediately transitions into scramble mode, using whatever momentum and connection remains to fight for a dominant position.
 
 This technique bridges the gap between guard play and wrestling-based scrambling, requiring the practitioner to shift from a supine guard-playing mentality to an explosive, hip-driven wrestling approach within a fraction of a second. The key insight is that a sweep does not need to achieve a clean reversal to be effective. Even a partially successful sweep that creates enough displacement can be converted into a productive scramble. At the purple and brown belt level, the ability to chain failed sweeps into scrambles significantly increases overall sweep effectiveness, because opponents cannot simply defend the initial sweep and relax. Every sweep attempt carries the threat of a follow-up scramble, creating a compounding offensive pressure that forces defensive reactions from the top player throughout the exchange.
 
@@ -211,7 +225,7 @@ The scramble from failed sweep also serves as a critical mental framework. Pract
 
 ## Position Integration
 
-The Scramble from Failed Sweep serves as a critical connector between the open guard system and the scramble game, ensuring that sweep attempts from bottom position never truly fail in isolation. This technique integrates into the broader positional hierarchy by giving guard players a secondary pathway to top position when primary sweeps are defended, reducing the binary nature of sweep success or failure. It connects open guard bottom to the scramble position, which itself branches into back takes, front headlock attacks, and standup wrestling. Practitioners who develop this skill effectively double the threat value of every sweep they attempt, because each sweep carries both the primary sweep threat and the secondary scramble threat, creating layered offensive pressure that is extremely difficult to shut down completely.
+Recovery from Failed Sweep serves as a critical connector between the open guard system and the scramble game, ensuring that sweep attempts from bottom position never truly fail in isolation. This technique integrates into the broader positional hierarchy by giving guard players a secondary pathway to top position when primary sweeps are defended, reducing the binary nature of sweep success or failure. It connects open guard bottom to the scramble position, which itself branches into back takes, front headlock attacks, and standup wrestling. Practitioners who develop this skill effectively double the threat value of every sweep they attempt, because each sweep carries both the primary sweep threat and the secondary scramble threat, creating layered offensive pressure that is extremely difficult to shut down completely.
 
 </section>
 
@@ -235,9 +249,9 @@ The Scramble from Failed Sweep serves as a critical connector between the open g
 
 - [[Positions/Front Headlock]] - Position reachable from scramble when opponent drops their head during the exchange
 
-- [[Transitions/Butterfly Hook Sweep]] - Related sweep technique that generates momentum useful for scramble conversion on failure
+- [[Transitions/Butterfly Sweep]] - Related sweep technique that generates momentum useful for scramble conversion on failure
 
-- [[Positions/Standing Position]] - Alternative recovery option via technical stand-up instead of committing to the scramble
+- [[Transitions/Technical Stand Up from Open Guard]] - Alternative recovery option via technical stand-up instead of committing to the scramble
 
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery position accessible during scramble transition when opponent drives forward
 

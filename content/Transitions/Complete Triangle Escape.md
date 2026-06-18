@@ -34,6 +34,18 @@ description: "Master the complete triangle escape in BJJ. Step-by-step guide to 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Complete Triangle Escape",
+  "description": "The Complete Triangle Escape is the finishing sequence of triangle defense in which the trapped grappler stacks forward, circles toward the trapped-arm side, and rotates the arm free to break the lock and settle into closed guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the complete triangle escape in BJJ. Step-by-step guide to 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Complete Triangle Escape is the finishing sequence of triangle defense in which the trapped grappler stacks forward, circles toward the trapped-arm side, and rotates the arm free to break the lock and settle into closed guard top.**
 
 The Complete Triangle Escape represents the definitive finishing sequence of triangle defense where the practitioner converts established defensive posture into full positional extraction, transitioning from immediate submission danger to closed guard top. Unlike intermediate defensive measures such as posture recovery or hip control that merely stabilize the position, this technique encompasses the entire escape chain from consolidated defensive structure through systematic dismantling of the triangle lock to complete arm and head extraction, culminating in guard engagement that prevents re-attack.
 

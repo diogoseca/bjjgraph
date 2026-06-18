@@ -135,6 +135,16 @@ description: "Master systematic back control progression from seat belt to strai
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Danaher Straight Jacket System",
+  "description": "The Danaher Straight Jacket System is John Danaher's systematic back-attack framework that progressively immobilizes the opponent's upper body—seat belt to gift wrap to crossed-arm straight jacket—stripping away all hand defense before finishing with the rear naked choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -148,6 +158,8 @@ description: "Master systematic back control progression from seat belt to strai
 <section id="overview" class="content-section">
 
 ## What is Danaher Straight Jacket System?
+
+**The Danaher Straight Jacket System is John Danaher's systematic back-attack framework that progressively immobilizes the opponent's upper body—seat belt to gift wrap to crossed-arm straight jacket—stripping away all hand defense before finishing with the rear naked choke.**
 
 The Danaher Straight Jacket System represents one of the most comprehensive and systematically developed back control frameworks in modern Brazilian Jiu-Jitsu. Developed by renowned coach John Danaher, this system transforms the traditional back mount position into a multi-layered control hierarchy that progressively eliminates opponent defensive options while creating high-percentage submission opportunities. Unlike conventional back attack approaches that focus primarily on the rear naked choke, the Straight Jacket System emphasizes upper body immobilization through strategic grip configurations that severely restrict opponent hand fighting capabilities.
 

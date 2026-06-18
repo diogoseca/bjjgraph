@@ -34,6 +34,18 @@ description: "Learn the Twister entry from Cross Body Ride in BJJ. Step-by-step 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister Entry",
+  "description": "Twister Entry is a no-gi transition from Cross Body Ride that threads the near-side leg between the opponent's thighs to lock the figure-four of Twister Control, unlocking the twister, calf slicer, and banana split.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn the Twister entry from Cross Body Ride in BJJ. Step-by-step 
 </div>
 
 <section id="overview" class="content-section">
+
+**Twister Entry is a no-gi transition from Cross Body Ride that threads the near-side leg between the opponent's thighs to lock the figure-four of Twister Control, unlocking the twister, calf slicer, and banana split.**
 
 The Twister entry from Cross Body Ride is the critical transition that converts perpendicular turtle-top control into the figure-four leg entanglement required for Twister Control and its associated submissions. From cross body ride, the attacker threads their near-side leg between the opponent's legs from behind, establishing the initial hook that will become the foundation of the Truck or full Twister Control position. This transition exploits the cross body ride's inherent advantage of weight distribution across the opponent's back while the opponent's hips are partially exposed due to the perpendicular angle.
 

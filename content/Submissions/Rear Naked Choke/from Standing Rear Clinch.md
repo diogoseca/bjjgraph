@@ -33,10 +33,32 @@ description: "Master the Standing RNC from Rear Clinch in BJJ. Expert guide to f
 }
 </script>
 
-> **SAFETY**: Rear Naked Choke from Standing Rear Clinch targets the Neck (Carotid Arteries). Risk: Carotid artery dissection from excessive or jerking pressure on the neck vasculature. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Naked Choke from Standing Rear Clinch",
+  "description": "The Rear Naked Choke from Standing Rear Clinch is a bilateral carotid blood choke finished on the feet, sliding the seatbelt arm under the opponent's chin while chest-to-back pressure denies the space needed to escape.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Rear Naked Choke from Standing Rear Clinch is a bilateral carotid blood choke finished on the feet, sliding the seatbelt arm under the opponent's chin while chest-to-back pressure denies the space needed to escape.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Neck (Carotid Arteries)</span>
+<span class="meta-chip">35% success</span>
+</div>
+
+> [!danger] Safety
+> Rear Naked Choke from Standing Rear Clinch targets the Neck (Carotid Arteries). Primary risk: Carotid artery dissection from excessive or jerking pressure on the neck vasculature. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,54 +75,7 @@ The strategic calculus of the standing RNC revolves around the trade-off between
 
 From a competition perspective, the standing RNC appears most frequently in no-gi grappling and MMA, where the lack of collar grips makes the standing rear clinch a natural position for back attackers. The technique rewards practitioners who develop strong squeezing mechanics, precise forearm placement, and the ability to maintain heavy chest pressure against a moving, resisting opponent. Proper understanding of carotid compression versus tracheal pressure is essential both for effective finishing and for the safety of training partners.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Neck (Carotid Arteries)
-**Starting Position**: [[Positions/Standing Rear Clinch]]
-**From Position**: [[Positions/Standing Rear Clinch]] (Top)
-**Success Rate**: 35%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery dissection from excessive or jerking pressure on the neck vasculature | CRITICAL | 3-12 months, potential permanent neurological damage requiring surgical intervention |
-| Tracheal cartilage damage from incorrect forearm placement across the windpipe instead of carotid arteries | High | 4-8 weeks with potential for chronic swallowing and breathing difficulties |
-| Loss of consciousness with secondary fall-related injury from standing position including concussion or spinal trauma | High | Variable depending on impact severity, from days to months for head or spine injuries |
-| Cervical spine strain from combined compression and rotational forces during standing choke application | Medium | 1-4 weeks with rest and conservative treatment |
-
-
-**Application Speed**: SLOW and progressive. Apply pressure gradually over 2-3 seconds. Never jerk, spike, or crank the choke. The standing position makes controlled application even more critical due to fall risk if opponent loses consciousness.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner's arm, body, or the mat
-- Physical foot tap or stomp on the mat
-- Any unusual vocalization, gurgling, wheezing, or distress sound
-- Body going limp or cessation of all resistance (treat as involuntary tap)
-
-
-**Release Protocol**:
-1. Release immediately upon any tap signal without hesitation or delay
-2. If opponent goes limp or stops resisting entirely, release immediately and check for consciousness
-3. Lower unconscious partner safely to ground in recovery position, never let them fall uncontrolled
-4. If in doubt about whether a tap occurred, release the choke—position can always be re-established
-5. Monitor partner for delayed symptoms including dizziness, disorientation, or nausea after release
-
-
-**Training Restrictions**:
-- Never apply full standing RNC finishing pressure during drilling—use controlled catch-and-release to practice arm placement without compressive force
-- Standing choke training must be conducted on padded surfaces to mitigate fall-related injuries if partner loses consciousness or balance
-- Beginners should master ground-based RNC mechanics thoroughly before attempting standing application
-- Always have a training partner or coach actively monitoring when drilling standing submission techniques
-- Avoid repeated full-resistance standing RNC attempts in a single session to prevent cumulative neck trauma
-
+**Starting Position**: [[Positions/Standing Rear Clinch]] · **From**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
 
@@ -268,24 +243,15 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Submissions/Rear Triangle Choke]]
 - [[Transitions/Darce Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Standing Rear Clinch]] - Primary starting position from which this submission is initiated through seatbelt-to-choke transition
 - [[Positions/Back Control/Standing Back Control]] - Alternative standing control position with hooks that provides additional stability for the choke attempt
 - [[Positions/Back Control]] - Ground-based equivalent position offering greater stability for RNC finishing mechanics
@@ -295,16 +261,47 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 - [[Positions/Body Lock]] - Alternative grip configuration from standing rear clinch that can set up RNC transition
 - [[Positions/Harness]] - Core grip system that controls opponent's upper body and creates the platform for choke entry
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Rear Naked Choke from Standing Rear Clinch leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery dissection from excessive or jerking pressure on the neck vasculature | CRITICAL | 3-12 months, potential permanent neurological damage requiring surgical intervention |
+| Tracheal cartilage damage from incorrect forearm placement across the windpipe instead of carotid arteries | High | 4-8 weeks with potential for chronic swallowing and breathing difficulties |
+| Loss of consciousness with secondary fall-related injury from standing position including concussion or spinal trauma | High | Variable depending on impact severity, from days to months for head or spine injuries |
+| Cervical spine strain from combined compression and rotational forces during standing choke application | Medium | 1-4 weeks with rest and conservative treatment |
+
+
+**Application Speed**: SLOW and progressive. Apply pressure gradually over 2-3 seconds. Never jerk, spike, or crank the choke. The standing position makes controlled application even more critical due to fall risk if opponent loses consciousness.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on partner's arm, body, or the mat
+- Physical foot tap or stomp on the mat
+- Any unusual vocalization, gurgling, wheezing, or distress sound
+- Body going limp or cessation of all resistance (treat as involuntary tap)
+
+
+**Release Protocol**:
+1. Release immediately upon any tap signal without hesitation or delay
+2. If opponent goes limp or stops resisting entirely, release immediately and check for consciousness
+3. Lower unconscious partner safely to ground in recovery position, never let them fall uncontrolled
+4. If in doubt about whether a tap occurred, release the choke—position can always be re-established
+5. Monitor partner for delayed symptoms including dizziness, disorientation, or nausea after release
+
+
+**Training Restrictions**:
+- Never apply full standing RNC finishing pressure during drilling—use controlled catch-and-release to practice arm placement without compressive force
+- Standing choke training must be conducted on padded surfaces to mitigate fall-related injuries if partner loses consciousness or balance
+- Beginners should master ground-based RNC mechanics thoroughly before attempting standing application
+- Always have a training partner or coach actively monitoring when drilling standing submission techniques
+- Avoid repeated full-resistance standing RNC attempts in a single session to prevent cumulative neck trauma
+
 
 </section>
 

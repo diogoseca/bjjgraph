@@ -34,6 +34,18 @@ description: "Learn to transition from butterfly guard top to butterfly half gua
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Guard to Butterfly Half Guard",
+  "description": "Butterfly Guard to Butterfly Half Guard is a top-game transition where the passer clears one of the opponent's butterfly hooks and traps the remaining leg in half guard, downgrading the symmetric double-hook sweep threat into a more controllable asymmetric position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn to transition from butterfly guard top to butterfly half gua
 </div>
 
 <section id="overview" class="content-section">
+
+**Butterfly Guard to Butterfly Half Guard is a top-game transition where the passer clears one of the opponent's butterfly hooks and traps the remaining leg in half guard, downgrading the symmetric double-hook sweep threat into a more controllable asymmetric position.**
 
 Transition to Butterfly Half Guard is a positional advancement technique executed by the top player when facing an opponent's full butterfly guard. The objective is to systematically clear one of the two butterfly hooks while maintaining top pressure, converting the symmetrical double-hook threat of butterfly guard into the asymmetric and more manageable butterfly half guard configuration. This transition is fundamental to any butterfly guard passing strategy because it reduces the bottom player's sweeping power by eliminating one elevator hook while trapping the remaining leg in half guard entanglement.
 
@@ -238,8 +252,6 @@ This transition occupies a critical junction in the butterfly guard passing tree
 - [[Transitions/Body Lock Pass]] - Alternative passing method that can bypass butterfly guard entirely
 
 - [[Transitions/Butterfly Sweep]] - Primary threat from bottom that creates counter-transition windows
-
-- [[Transitions/Butterfly Hook Recovery]] - Opponent's primary defensive response to regain full butterfly guard
 
 - [[Transitions/Long Step Pass]] - Passing technique that uses similar backstep mechanics to clear hooks
 

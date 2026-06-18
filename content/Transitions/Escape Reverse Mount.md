@@ -34,6 +34,18 @@ description: "Learn to escape Reverse Mount in BJJ. Complete guide covering hip 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Reverse Mount",
+  "description": "Escape Reverse Mount is a bottom-position guard recovery where you protect your neck, hip-escape to build an angle, then turn to face the opponent and trap a leg—recovering half guard out of the reverse-facing mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn to escape Reverse Mount in BJJ. Complete guide covering hip 
 
 <section id="overview" class="content-section">
 
-Escape Reverse Mount is a critical defensive technique for recovering guard from the reverse mount bottom position, where the opponent sits on your torso facing your feet. Unlike standard mount escapes that rely on bridging into the opponent's chest, this escape requires the bottom player to create angles through hip escapes and turn to face the opponent, leveraging the inherent instability of reverse mount's backward orientation. The primary target is half guard, where the bottom player can immediately begin working offensive sequences.
+**Escape Reverse Mount is a bottom-position guard recovery where you protect your neck, hip-escape to build an angle, then turn to face the opponent and trap a leg—recovering half guard out of the reverse-facing mount.**
+
+Recovering guard from reverse mount bottom is fundamentally a problem of timing and angle creation rather than strength, since the top player's backward orientation denies them the head control and visual feedback that make standard mount so oppressive. Unlike standard mount escapes that rely on bridging into the opponent's chest, this escape requires the bottom player to create angles through hip escapes and turn to face the opponent, leveraging the inherent instability of reverse mount's backward orientation. The primary target is half guard, where the bottom player can immediately begin working offensive sequences.
 
 The escape exploits a fundamental weakness of reverse mount: the top player cannot see the bottom player's upper body movements and lacks the head control available in standard mount. This reduced sensory feedback creates windows for the bottom player to initiate turns and hip escapes that would be more easily detected and countered from standard mount. The technique demands precise timing — escaping too early before creating proper angles wastes energy, while waiting too long allows the top player to transition to more stable positions like standard mount or back control.
 
@@ -244,7 +258,7 @@ Escape Reverse Mount connects the reverse mount survival system to the half guar
 
 - [[Positions/Mount]] - Related position — opponent may convert to standard mount during failed escape attempt
 
-- [[Transitions/Elbow Escape from Mount]] - Related escape concept using similar hip escape mechanics adapted for reverse orientation
+- [[Transitions/Elbow Escape to Guard]] - Related escape concept using similar hip escape mechanics adapted for reverse orientation
 
 
 </section>

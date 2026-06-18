@@ -33,10 +33,32 @@ description: "Master the heel hook from Carni position in BJJ. Expert finishing 
 }
 </script>
 
-> **SAFETY**: Heel Hook from Carni targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Hook from Carni",
+  "description": "The heel hook from Carni is an inside-position leg-lock finish that rotates the trapped leg's heel to attack the knee ligaments (ACL, MCL, LCL), using the Carni entanglement to block extraction while threatening saddle and back-take transitions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The heel hook from Carni is an inside-position leg-lock finish that rotates the trapped leg's heel to attack the knee ligaments (ACL, MCL, LCL), using the Carni entanglement to block extraction while threatening saddle and back-take transitions.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Heel Hook from Carni targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,60 +75,7 @@ What makes this finish particularly dangerous is the combination of strong posit
 
 Competition results demonstrate the heel hook from Carni as one of the highest-percentage finishes in modern no-gi grappling when all control points are properly established. The technique demands precise understanding of rotational mechanics, knee line control, and progressive force application to be both effective and safe in training environments.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity
-**Starting Position**: [[Positions/Rubber Guard/Carni]]
-**From Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
-| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
-| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
-| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
-| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force. The knee ligaments provide almost no pain warning before catastrophic failure, meaning damage occurs before the defender feels significant discomfort.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent or mat
-- Physical foot tap with free leg on partner or mat
-- Any unusual vocalization, screaming, or distress sound
-- Frantic slapping or waving with hands
-- Leg stiffening or immediate panicked defensive reaction
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon any tap signal
-2. Release heel grip completely before releasing leg entanglement
-3. Slowly unwrap leg configuration while maintaining awareness of opponent's joint alignment
-4. Allow opponent to extract their leg at their own pace without rushing disengagement
-5. Check with training partner about their knee and ankle status before resuming
-6. Report any joint discomfort to instructor immediately, even if minor
-
-
-**Training Restrictions**:
-- NEVER apply sudden or explosive rotational force in training
-- NEVER practice at competition speed with training partners
-- NEVER continue pressure if partner's leg begins rotating with the submission
-- Always allow immediate tap access for both hands
-- Only train with partners who have explicit experience with heel hook defense
-- Prohibited for practitioners below brown belt in most traditional academies
-- Never train heel hooks without instructor supervision during initial learning phases
-- Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg
-
+**Starting Position**: [[Positions/Rubber Guard/Carni]] · **From**: [[Positions/Rubber Guard/Carni]] (Bottom)
 
 </section>
 
@@ -254,24 +223,15 @@ Competition results demonstrate the heel hook from Carni as one of the highest-p
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Banana Split]]
 - [[Submissions/Achilles Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Rubber Guard/Carni]] - Starting position for this submission variant
 - [[Positions/Ashi Garami/Saddle]] - Primary transition target when opponent defends the heel
 - [[Positions/Back Control]] - Alternative path when opponent rolls to defend leg attack
@@ -279,16 +239,53 @@ Competition results demonstrate the heel hook from Carni as one of the highest-p
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement sharing inside positioning mechanics
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative finishing position for heel hook attacks
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Heel Hook from Carni leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
+| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
+| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
+| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
+| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force. The knee ligaments provide almost no pain warning before catastrophic failure, meaning damage occurs before the defender feels significant discomfort.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on opponent or mat
+- Physical foot tap with free leg on partner or mat
+- Any unusual vocalization, screaming, or distress sound
+- Frantic slapping or waving with hands
+- Leg stiffening or immediate panicked defensive reaction
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure upon any tap signal
+2. Release heel grip completely before releasing leg entanglement
+3. Slowly unwrap leg configuration while maintaining awareness of opponent's joint alignment
+4. Allow opponent to extract their leg at their own pace without rushing disengagement
+5. Check with training partner about their knee and ankle status before resuming
+6. Report any joint discomfort to instructor immediately, even if minor
+
+
+**Training Restrictions**:
+- NEVER apply sudden or explosive rotational force in training
+- NEVER practice at competition speed with training partners
+- NEVER continue pressure if partner's leg begins rotating with the submission
+- Always allow immediate tap access for both hands
+- Only train with partners who have explicit experience with heel hook defense
+- Prohibited for practitioners below brown belt in most traditional academies
+- Never train heel hooks without instructor supervision during initial learning phases
+- Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg
+
 
 </section>
 

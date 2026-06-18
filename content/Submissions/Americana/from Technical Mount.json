@@ -1,5 +1,6 @@
 {
   "name": "Americana from Technical Mount",
+  "summary": "The Americana from Technical Mount is a figure-four shoulder lock that pins the opponent's bent near arm and forces external shoulder rotation, opening as the natural counterpart to the armbar when the defender tucks the elbow defensively.",
   "description": "Master the Americana shoulder lock from Technical Mount in BJJ. Complete guide with grip mechanics, finishing sequences, defensive counters, and training progressions.",
   "tags": [
     "bjj",
@@ -112,14 +113,15 @@
   ],
   "related_submissions": [
     "Americana",
-    "from Mount",
-    "from 3-4 Mount",
-    "from Side Control",
-    "from Kesa Gatame",
-    "from S Mount",
+    "Americana from Mount",
+    "Americana from 3-4 Mount",
+    "Americana from S Mount",
+    "Americana from High Mount",
+    "Americana from Side Control",
+    "Americana from Kesa Gatame",
     "Kimura",
-    "Far Side Armbar",
-    "Armbar"
+    "Armbar",
+    "Armbar from Armbar Control"
   ],
   "related_content": [
     {
@@ -152,7 +154,7 @@
     }
   ],
   "attacker": {
-    "name": "from Technical Mount Attacker",
+    "name": "Americana from Technical Mount Attacker",
     "description": "Execute the Americana shoulder lock from Technical Mount. Step-by-step guide covering wrist control, figure-four mechanics, finishing details, and responses to common defensive counters.",
     "overview": "The Americana from Technical Mount leverages the asymmetric leg positioning to create superior arm isolation and wrist pinning compared to standard mount attacks. The stepped leg pins the opponent's shoulder line while the attacker's weight naturally drives into the trapped arm side, making it significantly easier to establish and maintain the wrist-to-mat connection required for the figure-four grip. The posted leg provides base stability throughout the finishing sequence, allowing full commitment to the submission without risking position loss. This variation is most commonly available when the opponent bends their near arm defensively against armbar threats, making it the natural counterpart in the technical mount submission chain where extending the arm invites the armbar and bending it opens the Americana.",
     "key_principles": [
@@ -358,7 +360,7 @@
     ]
   },
   "defender": {
-    "name": "from Technical Mount Defender",
+    "name": "Americana from Technical Mount Defender",
     "description": "Defend against the Americana from Technical Mount in BJJ. Recognition cues, early prevention, escape techniques, and guard recovery strategies for surviving this shoulder lock.",
     "overview": "Defending the Americana from Technical Mount requires immediate recognition of the shoulder lock threat and decisive early action before the figure-four grip is established. The technical mount configuration makes this Americana particularly dangerous because the stepped leg restricts the defender's shoulder movement and the attacker's weight distribution naturally assists the wrist pin. Once the figure-four is locked and tightened, escape becomes extremely difficult—the defender's primary goal is preventing the wrist from being pinned to the mat, as the submission difficulty increases exponentially once both grips connect. Early defense focuses on keeping the elbow tight and the arm retracted against the body, while late-stage defense requires bridging, grip fighting, and exploiting the attacker's positional commitment to create escape windows toward guard recovery.",
     "key_principles": [

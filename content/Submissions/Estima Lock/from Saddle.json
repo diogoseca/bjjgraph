@@ -1,5 +1,6 @@
 {
   "name": "Estima Lock from Saddle",
+  "summary": "The Estima Lock from Saddle is a foot lock that seals the opponent's foot in your armpit and forces dorsiflexion through back extension, attacking the Lisfranc joint and ankle ligaments as the highest-percentage counter to heel hook defense.",
   "description": "Learn the Estima Lock from Saddle position with expert finishing mechanics, grip details, safety protocols, and defensive strategies for BJJ practitioners.",
   "tags": [
     "bjj",
@@ -142,7 +143,7 @@
     }
   ],
   "attacker": {
-    "name": "from Saddle Attacker",
+    "name": "Estima Lock from Saddle Attacker",
     "description": "Master the Estima Lock attack from Saddle with step-by-step execution, grip mechanics, common counters, and progressive training drills for competition.",
     "overview": "Attacking with the Estima Lock from Saddle requires precise transition from heel hook positioning to foot capture without sacrificing the leg entanglement that makes the position dominant. The key insight is that the Estima Lock becomes available precisely when heel hook defense is strongest—the opponent's act of hiding their heel rotates their foot into the ideal orientation for the Estima Lock grip. Mastering this transition creates a submission system where the opponent's best defense to one attack feeds directly into the setup for the next, eliminating safe resting positions from bottom Saddle and forcing a genuine submission dilemma that compounds with each defensive cycle.",
     "key_principles": [
@@ -334,7 +335,7 @@
     ]
   },
   "defender": {
-    "name": "from Saddle Defender",
+    "name": "Estima Lock from Saddle Defender",
     "description": "Defend against the Estima Lock from Saddle with early recognition cues, systematic escape techniques, grip fighting strategies, and injury prevention protocols.",
     "overview": "Defending the Estima Lock from Saddle demands early recognition of the threat transition from heel hook to footlock. The critical defensive window occurs during the attacker's grip change—the moment they release their heel hook grip to capture the foot represents both the greatest danger and the best escape opportunity. Defenders must balance protecting the foot from capture against the risk of re-exposing the heel to the original heel hook threat, creating a complex defensive decision tree that requires systematic training to navigate safely under pressure.\n\nThe Estima Lock is particularly dangerous because the Lisfranc joint and ankle ligaments can sustain serious structural damage with very little warning pain before failure. This means the traditional strategy of waiting to feel pain before tapping is inadequate—defenders must recognize the positional threat and tap based on mechanical indicators rather than pain thresholds. Training an early tap response for this specific submission is not a sign of weakness but a critical safety habit that preserves long-term training ability.",
     "key_principles": [

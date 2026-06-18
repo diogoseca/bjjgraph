@@ -34,6 +34,18 @@ description: "Master Rear Triangle position in BJJ. Advanced back control variat
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Triangle",
+  "description": "The Rear Triangle is a back-control variation where the top player threads one leg under the opponent's armpit and figure-fours around their neck and trapped arm, fusing positional dominance with triangle-choke finishing mechanics.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Rear Triangle position in BJJ. Advanced back control variat
 </div>
 
 <section id="overview" class="content-section">
+
+**The Rear Triangle is a back-control variation where the top player threads one leg under the opponent's armpit and figure-fours around their neck and trapped arm, fusing positional dominance with triangle-choke finishing mechanics.**
 
 The Rear Triangle is an advanced back control variation that combines traditional back dominance with triangle choke mechanics. By threading one leg under the opponent's armpit and locking a triangle configuration around their neck and trapped arm, the top practitioner creates a hybrid control system that offers superior structural control compared to standard back mount. This position eliminates many standard defensive options while creating direct pathways to multiple high-percentage submissions including the rear triangle choke, armbar variations, and rear naked choke.
 

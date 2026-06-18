@@ -33,11 +33,36 @@ description: "Master the heel hook from Ashi Garami with systematic grip mechani
 }
 </script>
 
-> **SAFETY**: Heel Hook from Ashi Garami targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Hook from Ashi Garami",
+  "description": "The heel hook from Ashi Garami is a rotational leg-lock submission from the standard outside leg entanglement that twists the captured heel to stress the knee's cruciate and collateral ligaments, forcing a tap or opening advances up the leg-lock hierarchy.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+**The heel hook from Ashi Garami is a rotational leg-lock submission from the standard outside leg entanglement that twists the captured heel to stress the knee's cruciate and collateral ligaments, forcing a tap or opening advances up the leg-lock hierarchy.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Heel Hook from Ashi Garami targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+
+<aside class="entity-relations">
+<p class="part-of-family"><em>Part of the</em> <strong>Heel Hook</strong> <em>family</em></p>
+</aside>
 <div class="role-links">
 
 [[Submissions/Heel Hook/from Ashi Garami/Attacker|Play as Attacker]]
@@ -47,66 +72,13 @@ description: "Master the heel hook from Ashi Garami with systematic grip mechani
 
 <section id="overview" class="content-section">
 
-The heel hook from Ashi Garami targets the knee's rotational ligaments—primarily the ACL, MCL, and LCL—through controlled twisting of the heel while the foot is locked against the attacker's chest. Executed from the standard outside Ashi Garami entanglement, this attack sits at the base of the leg lock positional hierarchy, making it lower percentage than heel hooks from Saddle or Cross Ashi but still a credible threat that demands immediate defensive response from the opponent.
+Sitting at the base of the leg-lock positional hierarchy, the heel hook from the standard outside Ashi Garami entanglement is lower-percentage than finishes from Saddle or Cross Ashi, yet it remains a credible threat that forces an immediate defensive response. Purple and brown belts should treat it less as a guaranteed finish and more as the entry point to a systematic leg-lock attack that escalates as the opponent defends.
 
-The biomechanical principle relies on isolating the foot from the knee joint. By securing the heel in a figure-four or butterfly grip and clamping the foot tightly to the chest, the attacker creates a fixed point at the ankle. Hip rotation then transmits force through the tibia and fibula into the knee joint, stressing the cruciate and collateral ligaments beyond their structural tolerance. The danger of this submission lies in the minimal pain feedback before structural failure—ligaments can tear before the defender recognizes the severity of the threat.
+The mechanism isolates the foot from the knee joint. By securing the heel in a figure-four or butterfly grip and clamping the foot tightly to the chest, the attacker creates a fixed point at the ankle. Hip rotation then transmits force through the tibia and fibula into the knee joint, stressing the cruciate and collateral ligaments beyond their structural tolerance. The danger of this submission lies in the minimal pain feedback before structural failure—ligaments can tear before the defender recognizes the severity of the threat, which is why early, position-based tapping is non-negotiable.
 
-Strategically, the heel hook from outside Ashi serves dual purpose. As a direct finishing threat, it forces opponents to address the attack rather than focusing on extraction. As a positional tool, defensive reactions to the heel hook—straightening the leg, turning the knee inward, reaching to strip grips—often create openings for the attacker to advance to Inside Ashi, Cross Ashi, or Saddle, where finishing percentages climb dramatically. Skilled practitioners weaponize the threat itself as much as the finish, using attack-and-advance sequences that systematically deteriorate the defender's position.
+Strategically, the heel hook from outside Ashi serves a dual purpose. As a direct finishing threat, it forces opponents to address the attack rather than focusing on extraction. As a positional tool, defensive reactions to the heel hook—straightening the leg, turning the knee inward, reaching to strip grips—often create openings for the attacker to advance to Inside Ashi, Cross Ashi, or Saddle, where finishing percentages climb dramatically. Skilled practitioners weaponize the threat itself as much as the finish, using attack-and-advance sequences that systematically deteriorate the defender's position.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity
-**Starting Position**: [[Positions/Ashi Garami]]
-**From Position**: [[Positions/Ashi Garami]] (Bottom)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
-| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
-| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
-| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
-| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force.
-
-**Tap Signals**:
-- Verbal tap (primary signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap with free leg
-- Any distress vocalization
-- Frantic slapping or waving with hands
-- Leg stiffening or immediate defensive reaction
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon any tap signal
-2. Release heel grip completely before releasing leg entanglement
-3. Slowly unwrap leg configuration while maintaining awareness of opponent's joint
-4. Allow opponent to extract their leg at their own pace
-5. Check with training partner about their knee and ankle status
-6. Report any joint discomfort to instructor immediately, even if minor
-
-
-**Training Restrictions**:
-- NEVER apply sudden or explosive rotational force in training
-- NEVER practice at competition speed with training partners
-- NEVER continue pressure if partner's leg begins rotating with the submission
-- Always allow immediate tap access for both hands
-- Only train with partners who have explicit experience with heel hook defense
-- Prohibited for practitioners below brown belt in most traditional academies
-- Never train heel hooks without instructor supervision during initial learning phases
-- Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg
-
+**Starting Position**: [[Positions/Ashi Garami]] · **From**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
 
@@ -265,24 +237,14 @@ Strategically, the heel hook from outside Ashi serves dual purpose. As a direct 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
-- [[Positions/Aoki Lock Control]]
+- [[Transitions/Aoki Lock]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
-- [[Submissions/Inside Heel Hook]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami]] - Starting position for this submission variant providing fundamental outside leg entanglement control
 - [[Positions/Ashi Garami/Saddle]] - Superior finishing position in the leg entanglement hierarchy with maximum heel exposure for heel hook attacks
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Next advancement position in the hierarchy with improved inside space control and heel exposure angles
@@ -290,16 +252,53 @@ Strategically, the heel hook from outside Ashi serves dual purpose. As a direct 
 - [[Positions/Ashi Garami/Honey Hole]] - Apex leg control position accessible through systematic hierarchy advancement from Ashi Garami
 - [[Positions/Ashi Garami/50-50 Guard]] - Bilateral entanglement often reached during leg lock exchanges and defensive scrambles
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Heel Hook from Ashi Garami leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
+| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
+| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
+| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
+| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force.
+
+**Tap Signals**:
+- Verbal tap (primary signal)
+- Physical hand tap on opponent or mat
+- Physical foot tap with free leg
+- Any distress vocalization
+- Frantic slapping or waving with hands
+- Leg stiffening or immediate defensive reaction
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure upon any tap signal
+2. Release heel grip completely before releasing leg entanglement
+3. Slowly unwrap leg configuration while maintaining awareness of opponent's joint
+4. Allow opponent to extract their leg at their own pace
+5. Check with training partner about their knee and ankle status
+6. Report any joint discomfort to instructor immediately, even if minor
+
+
+**Training Restrictions**:
+- NEVER apply sudden or explosive rotational force in training
+- NEVER practice at competition speed with training partners
+- NEVER continue pressure if partner's leg begins rotating with the submission
+- Always allow immediate tap access for both hands
+- Only train with partners who have explicit experience with heel hook defense
+- Prohibited for practitioners below brown belt in most traditional academies
+- Never train heel hooks without instructor supervision during initial learning phases
+- Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg
+
 
 </section>
 

@@ -143,6 +143,16 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Energy Conservation",
+  "description": "Energy Conservation is the strategic, selective management of physical and mental resources in BJJ, spending effort through efficient movement, frame-based defense, and well-timed explosions so you stay technical and dangerous while your opponent fatigues.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
 
 ## What is Energy Conservation?
 
-Energy Conservation is a critical strategic principle in Brazilian Jiu-Jitsu that involves managing physical and mental resources throughout training sessions and competitive matches. This principle recognizes that BJJ is fundamentally a war of attrition where the practitioner who can maintain effective performance while expending less energy often prevails. Energy conservation is not about being passive or lazy; rather, it's about being strategically selective with effort expenditure, using efficient movement patterns, and recognizing when to apply force versus when to redirect or yield. Mastery of this principle allows practitioners to maintain technical proficiency deep into matches when opponents are fatigued, creating decisive advantages in the final moments of competition.
+**Energy Conservation is the strategic, selective management of physical and mental resources in BJJ, spending effort through efficient movement, frame-based defense, and well-timed explosions so you stay technical and dangerous while your opponent fatigues.**
+
+In Brazilian Jiu-Jitsu, matches are frequently decided not by who is more skilled in the abstract, but by who can still execute clean technique in the final minutes when both athletes are exhausted. Energy Conservation addresses this reality directly: it recognizes that grappling is fundamentally a war of attrition where the practitioner who maintains effective performance while expending less fuel often prevails. It is not about being passive or lazy; rather, it is about being strategically selective with effort expenditure, using efficient movement patterns, and recognizing when to apply force versus when to redirect or yield. Mastery of this principle allows practitioners to maintain technical proficiency deep into matches when opponents are fatigued, creating decisive advantages in the closing exchanges of competition.
 
 </section>
 
@@ -349,7 +361,6 @@ Regular practice against larger or stronger opponents requiring technical effici
 - **[[Base]]** (Prerequisite): Stable base using skeletal structure conserves energy compared to muscular defensive efforts
 - **[[Pressure]]** (Alternative): Constant pressure represents an opposite strategic approach focused on opponent energy depletion
 - **[[Distance Control]]** (Extension): Efficient space creation conserves energy by using frames and hip movement rather than strength-based guard retention or escapes
-- **[[Timing and Rhythm]]** (Complementary): Proper timing allows explosive efforts at optimal moments, conserving energy between opportunities
 - **[[Flow Rolling]]** (Extension): Flow rolling practice directly develops energy conservation awareness through controlled tempo and movement efficiency
 - **[[Frames]]** (Prerequisite): Structural frames conserve energy by using skeletal leverage rather than muscular resistance
 - **[[Center of Gravity]]** (Complementary): Strategic weight distribution conserves energy by using gravity and skeletal alignment rather than muscular effort
@@ -359,7 +370,7 @@ Regular practice against larger or stronger opponents requiring technical effici
 
 ### Related Content
 - [[Maximum Efficiency Principle]] (Principle) - Complementary principle focusing on technical efficiency supporting energy conservation
-- [[Timing and Rhythm]] (Principle) - Direct implementation of energy conservation through strategic tempo and timing control
+- [[Flow Rolling]] (Principle) - Training method that directly develops energy conservation through controlled tempo and movement efficiency
 - [[Base]] (Principle) - Prerequisite skill enabling energy-efficient defensive positioning
 - [[Frames]] (Principle) - Prerequisite skill providing energy-efficient defensive structures
 - [[Closed Guard]] (Position) - Recovery position allowing energy conservation while maintaining control

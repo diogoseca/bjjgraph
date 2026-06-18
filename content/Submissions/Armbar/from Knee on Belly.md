@@ -33,10 +33,32 @@ description: "Master the armbar from knee on belly in BJJ. Complete guide to set
 }
 </script>
 
-> **SAFETY**: Armbar from Knee on Belly targets the Shoulder and elbow joint. Risk: Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and medial structures. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from Knee on Belly",
+  "description": "The armbar from knee on belly is a joint lock that traps the bottom player's arm when they push against the knee, then swings a leg over their head to hyperextend the elbow for the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The armbar from knee on belly is a joint lock that traps the bottom player's arm when they push against the knee, then swings a leg over their head to hyperextend the elbow for the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Shoulder and elbow joint</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Armbar from Knee on Belly targets the Shoulder and elbow joint. Primary risk: Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and medial structures. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,50 +75,7 @@ What makes this armbar particularly effective is the speed of entry. Unlike armb
 
 Strategically, the armbar from knee on belly functions as part of a broader attacking system from the position. When combined with baseball bat choke threats and collar attacks, it creates a multi-layered offensive dilemma where the bottom player cannot safely defend every threat simultaneously. The armbar punishes the most natural defensive reaction, making it a cornerstone attack from this position at all competitive levels.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Shoulder and elbow joint
-**Starting Position**: [[Positions/Knee on Belly]]
-**From Position**: [[Positions/Knee on Belly]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and medial structures | High | 4-12 weeks for mild to moderate sprain, 6-12 months for surgical repair of complete tear |
-| Shoulder subluxation or dislocation from combined rotational and extension force when opponent resists by rolling | High | 6-16 weeks for subluxation, 4-9 months for surgical repair of dislocation |
-| Radial head fracture from sudden explosive hyperextension against locked arm defense | CRITICAL | 6-12 weeks for non-displaced, 3-6 months for displaced fracture requiring surgery |
-
-
-**Application Speed**: SLOW and progressive. Apply extension gradually by elevating hips while maintaining tight control. Never jerk or spike the arm. The elbow joint has very little tolerance for sudden extension force.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat with free hand
-- Physical foot tap on mat with either leg
-- Any unusual screaming, groaning, or distress vocalization indicating pain
-
-
-**Release Protocol**:
-1. Release hip elevation and arm extension immediately upon any tap signal
-2. Maintain wrist control briefly during release to prevent opponent's arm from whipping free and causing self-injury
-3. If in doubt whether a tap occurred, release immediately — the position can always be re-established
-4. After release, check with training partner before continuing the roll
-
-
-**Training Restrictions**:
-- Beginners should drill the positional transition without applying finishing extension until technique is controlled
-- Never apply sudden or explosive extension force — always use slow progressive pressure
-- Avoid full resistance armbar sparring until both partners demonstrate controlled application and timely tapping
-- Partners with pre-existing elbow or shoulder injuries should communicate limitations before drilling
-
+**Starting Position**: [[Positions/Knee on Belly]] · **From**: [[Positions/Knee on Belly]] (Top)
 
 </section>
 
@@ -242,10 +221,9 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Armbar]]
 - [[Submissions/Flying Armbar]]
@@ -254,31 +232,48 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Knee on Belly]] - Primary starting position — armbar exploits opponent's reaction to knee pressure
 - [[Positions/Armbar Control]] - Control position reached during finishing phase of the armbar
 - [[Positions/Side Control]] - Common entry position before establishing knee on belly for the armbar setup
-- [[Submissions/Far Side Armbar]] - Related armbar variation sharing similar finishing mechanics from a different angle and starting position
-- [[Submissions/Baseball Bat Choke]] - Complementary attack from knee on belly creating dual submission threats
 - [[Positions/Closed Guard]] - Common counter position where opponent recovers guard during failed armbar transition
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Armbar from Knee on Belly leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and medial structures | High | 4-12 weeks for mild to moderate sprain, 6-12 months for surgical repair of complete tear |
+| Shoulder subluxation or dislocation from combined rotational and extension force when opponent resists by rolling | High | 6-16 weeks for subluxation, 4-9 months for surgical repair of dislocation |
+| Radial head fracture from sudden explosive hyperextension against locked arm defense | CRITICAL | 6-12 weeks for non-displaced, 3-6 months for displaced fracture requiring surgery |
+
+
+**Application Speed**: SLOW and progressive. Apply extension gradually by elevating hips while maintaining tight control. Never jerk or spike the arm. The elbow joint has very little tolerance for sudden extension force.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat with free hand
+- Physical foot tap on mat with either leg
+- Any unusual screaming, groaning, or distress vocalization indicating pain
+
+
+**Release Protocol**:
+1. Release hip elevation and arm extension immediately upon any tap signal
+2. Maintain wrist control briefly during release to prevent opponent's arm from whipping free and causing self-injury
+3. If in doubt whether a tap occurred, release immediately — the position can always be re-established
+4. After release, check with training partner before continuing the roll
+
+
+**Training Restrictions**:
+- Beginners should drill the positional transition without applying finishing extension until technique is controlled
+- Never apply sudden or explosive extension force — always use slow progressive pressure
+- Avoid full resistance armbar sparring until both partners demonstrate controlled application and timely tapping
+- Partners with pre-existing elbow or shoulder injuries should communicate limitations before drilling
+
 
 </section>
 

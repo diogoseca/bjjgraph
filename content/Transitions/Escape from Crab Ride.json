@@ -12,6 +12,7 @@
     "turtle-defense"
   ],
   "from_position": "Crab Ride/Bottom",
+  "summary": "Escape from Crab Ride is a defensive transition from turtle bottom that strips the top player's single hook, blocks the second-hook insertion, and recovers half guard before crab ride consolidates into full back control.",
   "outcomes": [
     {
       "to": "Half Guard/Bottom",

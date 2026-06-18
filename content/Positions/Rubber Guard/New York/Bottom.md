@@ -45,7 +45,7 @@ description: "Establish New York control from bottom position with overhook and 
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {

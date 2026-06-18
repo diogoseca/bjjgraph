@@ -34,6 +34,18 @@ description: "Master the Rolling Back Take from Half Butterfly guard in BJJ. Com
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rolling Back Take from Half Butterfly",
+  "description": "The Rolling Back Take from Half Butterfly is a bottom-guard attack where the player uses a deep underhook and butterfly-hook elevation to duck beneath the opponent's arm and roll directly into back control, bypassing the sweep.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Rolling Back Take from Half Butterfly guard in BJJ. Com
 </div>
 
 <section id="overview" class="content-section">
+
+**The Rolling Back Take from Half Butterfly is a bottom-guard attack where the player uses a deep underhook and butterfly-hook elevation to duck beneath the opponent's arm and roll directly into back control, bypassing the sweep.**
 
 The Rolling Back Take from Half Butterfly exploits the dynamic structure of half butterfly guard to create a direct path to the opponent's back through a controlled rolling motion. When the top player defends standard butterfly sweeps by posting wide or shifting weight laterally, the bottom player leverages their deep underhook and butterfly hook elevation to duck beneath the opponent's arm and roll through to back control. This technique bypasses the traditional sweep-to-top sequence entirely, converting a bottom guard position directly into the most dominant position in BJJ without passing through intermediate positions.
 
@@ -232,8 +246,6 @@ The Rolling Back Take from Half Butterfly occupies a unique tactical niche withi
 - [[Transitions/Half Butterfly to Dogfight]] - Alternative transition from the same starting position with different positional target
 
 - [[Transitions/Back Take from Bottom]] - Related back take technique sharing similar strategic objectives from bottom position
-
-- [[Transitions/Homer Simpson Sweep]] - Related rolling technique concept using similar momentum and rotational mechanics
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Follow-up control position for consolidating back control after successful roll
 

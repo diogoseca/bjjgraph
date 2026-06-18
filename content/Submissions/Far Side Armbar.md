@@ -33,23 +33,47 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 }
 </script>
 
-> **SAFETY**: Far Side Armbar targets the Elbow joint (hyperextension). Risk: Elbow hyperextension (ligament damage). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Far Side Armbar",
+  "description": "The Far Side Armbar is a family of straight-arm elbow locks that isolate and hyperextend the opponent's far (top-side) arm from dominant pins such as side control, mount, knee-on-belly, and north-south.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is the Far Side Armbar?", "acceptedAnswer": { "@type": "Answer", "text": "The Far Side Armbar is a family of straight-arm elbow locks that isolate and hyperextend the opponent\u0027s far (top-side) arm from dominant pins such as side control, mount, knee-on-belly, and north-south." } },
+    { "@type": "Question", "name": "What positions can you finish the Far Side Armbar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Far Side Armbar from Side Control." } },
+    { "@type": "Question", "name": "Is the Far Side Armbar dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Far Side Armbar targets the Elbow joint (hyperextension). Primary risk: Elbow hyperextension (ligament damage). Tap early and release immediately on the tap." } }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-<section id="variants" class="content-section">
+**The Far Side Armbar is a family of straight-arm elbow locks that isolate and hyperextend the opponent's far (top-side) arm from dominant pins such as side control, mount, knee-on-belly, and north-south.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint (hyperextension)</span>
+<span class="meta-chip">~58% avg</span>
+</div>
 
-## Position Variants
-
-| From Position | Success Rate | Top Injury Risk | Key Difference |
-|---------------|-------------|-----------------|----------------|
-| [[Far Side Armbar/from Side Control|Side Control]] | 58% | Elbow hyperextension (ligament damage) |  |
-
-
-</section>
-
+> [!danger] Safety
+> Far Side Armbar targets the Elbow joint (hyperextension). Primary risk: Elbow hyperextension (ligament damage). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <section id="overview" class="content-section">
 
@@ -59,10 +83,55 @@ Unlike near-side armbars which require significant position changes, the far sid
 
 This submission appears frequently in both gi and no-gi competition at all levels, often as part of systematic attack sequences that force opponents into defensive dilemmas. When combined with other submissions like the kimura, americana, or transition to mount, the far side armbar becomes even more potent as it capitalizes on the opponent's defensive reactions to create finishing opportunities.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint (hyperextension)
-**Success Rate**: 58% (average across variants)
+</section>
+
+
+<section id="variants" class="content-section">
+
+## What positions can you finish from?
+
+
+<div class="variants-table">
+
+| From Position | Seat | Success | Play as Attacker | Play as Defender |
+|---|---|---|---|---|
+| [[Submissions/Far Side Armbar/from Side Control|Side Control]] | Top | 58% | [[Submissions/Far Side Armbar/from Side Control/Attacker|Attack →]] | [[Submissions/Far Side Armbar/from Side Control/Defender|Defend →]] |
+
+
+</div>
+
+
+<details class="mechanical-variations">
+<summary>Mechanical variations (how the choke is finished)</summary>
+
+- **Far Side Armbar from Side Control**: Classic entry where you control opponent from side control, isolate their far arm as they frame, then rotate your hips toward their head while trapping the arm to your chest. (When to use: When opponent is defending tightly in side control and using their far arm to create frames or distance)
+- **Far Side Armbar from Mount**: From high mount, bait opponent to push with their far arm, catch it, then lean back and rotate your hips to apply the armbar without dismounting fully. (When to use: When mounted opponent tries to push you away or create frames with extended arms)
+- **Far Side Armbar from North-South**: From north-south position, control opponent's far arm and slide your body toward the trapped arm side, using your legs to control their body while establishing the armbar. (When to use: When transitioning through north-south or when opponent turns away from traditional side control attacks)
+- **Step-Over Far Side Armbar**: After isolating the arm, step your near leg completely over opponent's head to establish traditional armbar position with better control and leverage. (When to use: When you have excellent control and opponent is not defending hand position; provides maximum finishing power)
+- **Belly-Down Far Side Armbar**: Instead of sitting back, rotate to your belly while maintaining arm control, using your body weight to apply downward pressure on the shoulder while extending the elbow. (When to use: When opponent is defending the traditional armbar finish or when in no-gi where sliding into position is difficult)
+
+
+</details>
+
+
+</section>
+
+
+<section id="related" class="content-section">
+
+## Related
+- [[Submissions/Armbar]] - Alternative armbar variation with inverted arm positioning and finishing mechanics
+- [[Submissions/Arm Crush]] - Direct arm compression attack from similar side control positions
+- [[Submissions/Kimura]] - Complementary shoulder lock that chains directly with far side armbar setups
+- [[Submissions/Americana]] - Near-arm shoulder lock creating defensive reactions that expose the far arm
+- [[Transitions/Arm Triangle]] - Head and arm choke available from similar top control positions
+- [[Positions/Mount/S Mount]] - Elevated mount variation providing optimal platform for far side armbar finishing mechanics
+- [[Positions/Side Control]] - Primary starting position for far side armbar
+- [[Positions/Mount]] - Alternative starting position for far side armbar
+- [[Positions/North-South]] - Transitional position that creates far side armbar opportunities
+- [[Positions/Armbar Control]] - Control position for securing armbar finish
+- [[Positions/Knee on Belly]] - Transitional position enabling far side armbar entries
+- [[Positions/Mount/High Mount]] - Elevated position providing superior armbar access
 
 </section>
 
@@ -104,92 +173,6 @@ This submission appears frequently in both gi and no-gi competition at all level
 - Stop immediately at any sign of discomfort or unusual joint sound
 - White and blue belts should practice at 30-50% speed only
 
-
-</section>
-
-
-<section id="variation-details" class="content-section hide-minimal">
-
-## Variation Details
-
-
-**Far Side Armbar from Side Control**: Classic entry where you control opponent from side control, isolate their far arm as they frame, then rotate your hips toward their head while trapping the arm to your chest. (When to use: When opponent is defending tightly in side control and using their far arm to create frames or distance)
-
-
-**Far Side Armbar from Mount**: From high mount, bait opponent to push with their far arm, catch it, then lean back and rotate your hips to apply the armbar without dismounting fully. (When to use: When mounted opponent tries to push you away or create frames with extended arms)
-
-
-**Far Side Armbar from North-South**: From north-south position, control opponent's far arm and slide your body toward the trapped arm side, using your legs to control their body while establishing the armbar. (When to use: When transitioning through north-south or when opponent turns away from traditional side control attacks)
-
-
-**Step-Over Far Side Armbar**: After isolating the arm, step your near leg completely over opponent's head to establish traditional armbar position with better control and leverage. (When to use: When you have excellent control and opponent is not defending hand position; provides maximum finishing power)
-
-
-**Belly-Down Far Side Armbar**: Instead of sitting back, rotate to your belly while maintaining arm control, using your body weight to apply downward pressure on the shoulder while extending the elbow. (When to use: When opponent is defending the traditional armbar finish or when in no-gi where sliding into position is difficult)
-
-
-
-</section>
-
-
-<section id="from-positions" class="content-section">
-
-## From Which Positions?
-
-- [[Positions/Side Control]]
-- [[Positions/Mount]]
-- [[Positions/Mount/High Mount]]
-- [[Positions/North-South]]
-- [[Positions/Knee on Belly]]
-- [[Positions/Mount/Modified Mount]]
-- [[Positions/Mount/S Mount]]
-- [[Positions/Mount/Technical Mount]]
-
-
-</section>
-
-<section id="related-submissions" class="content-section">
-
-## Related Submissions
-
-- [[Submissions/Armbar]] - Alternative armbar variation with inverted arm positioning and finishing mechanics
-- [[Submissions/Arm Crush]] - Direct arm compression attack from similar side control positions
-- [[Armbar from Mount]] - Related armbar entry from mount targeting near or far arm
-- [[Armbar from Side Control]] - Near-side armbar variant from the same starting position
-- [[Armbar from High Mount]] - Armbar variant from elevated mount providing superior finishing leverage
-- [[Armbar from Knee on Belly]] - Dynamic armbar entry using transitional knee pressure
-- [[Submissions/Kimura]] - Complementary shoulder lock that chains directly with far side armbar setups
-- [[Submissions/Americana]] - Near-arm shoulder lock creating defensive reactions that expose the far arm
-- [[Transitions/Arm Triangle]] - Head and arm choke available from similar top control positions
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Positions/Mount/S Mount]] - Elevated mount variation providing optimal platform for far side armbar finishing mechanics
-- [[Submissions/Arm Crush]] - Direct arm attack variation from same side control position family
-- [[Submissions/Kimura]] - Alternative arm attack that can chain with far side armbar
-- [[Submissions/Americana]] - Near-arm shoulder lock that complements far-arm targeting from side control
-- [[Positions/Side Control]] - Primary starting position for far side armbar
-- [[Positions/Mount]] - Alternative starting position for far side armbar
-- [[Positions/North-South]] - Transitional position that creates far side armbar opportunities
-- [[Positions/Armbar Control]] - Control position for securing armbar finish
-- [[Positions/Knee on Belly]] - Transitional position enabling far side armbar entries
-- [[Positions/Mount/High Mount]] - Elevated position providing superior armbar access
-
-
-</section>
-
-<section id="terminal-state" class="content-section">
-
-## Match Outcome
-
-Successful execution of Far Side Armbar leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

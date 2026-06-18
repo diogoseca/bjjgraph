@@ -34,6 +34,18 @@ description: "Master Rubber Guard in BJJ. Complete guide to 10th Planet system c
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rubber Guard",
+  "description": "Rubber Guard is a flexibility-dependent 10th Planet guard system in which the bottom player uses a leg threaded high across the opponent's back to trap an arm and break posture, opening triangles, omoplatas, and gogoplatas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Rubber Guard in BJJ. Complete guide to 10th Planet system c
 
 <section id="overview" class="content-section">
 
-The Rubber Guard is a specialized guard position developed and popularized within the 10th Planet Jiu-Jitsu system. This position builds upon the closed guard by adding a high degree of upper body control through a series of complex leg and arm configurations. At its core, the Rubber Guard involves the bottom player using their leg to trap the opponent's arm against their own chest, typically by bringing one leg high across the opponent's back and securing the shin or foot with the opposite arm. This creates exceptional posture control and provides unique attacking opportunities, particularly for triangles, omoplatas, and various specialized submissions. The position is especially effective in no-gi grappling and MMA contexts where it can neutralize the opponent's striking while setting up submissions. The Rubber Guard system includes multiple named positions such as Mission Control, New York, Invisible Collar, and Zombie, each representing a specific configuration within the overall framework. Success in this position requires exceptional flexibility, particularly in the hips and hamstrings, along with systematic understanding of the progression sequences that characterize this approach. The strategic trade-off inherent in Rubber Guard is clear: practitioners sacrifice some positional stability and mobility in exchange for superior arm control and unique submission pathways unavailable from conventional closed guard positions. The system functions as a decision tree where each defensive reaction from the opponent dictates the next positional progression. When the opponent pulls their arm free, the triangle becomes available. When they drive forward, omoplata entries open. When they freeze, the practitioner advances through the named positions toward increasingly dominant control configurations. This reaction-based methodology makes Rubber Guard particularly effective against opponents who lack specific defensive knowledge of the system, as conventional guard escapes often feed directly into the system's submission chains. The flexibility requirement is the position's most significant barrier to entry, but practitioners who invest in developing the necessary range of motion gain access to a complete attacking system with answers for every common defensive response.
+**Rubber Guard is a flexibility-dependent 10th Planet guard system in which the bottom player uses a leg threaded high across the opponent's back to trap an arm and break posture, opening triangles, omoplatas, and gogoplatas.**
+
+Emerging from Eddie Bravo's 10th Planet Jiu-Jitsu, the Rubber Guard reimagined what the closed guard could threaten in no-gi and MMA competition. This position builds upon the closed guard by adding a high degree of upper body control through a series of complex leg and arm configurations. At its core, the Rubber Guard involves the bottom player using their leg to trap the opponent's arm against their own chest, typically by bringing one leg high across the opponent's back and securing the shin or foot with the opposite arm. This creates exceptional posture control and provides unique attacking opportunities, particularly for triangles, omoplatas, and various specialized submissions. The position is especially effective in no-gi grappling and MMA contexts where it can neutralize the opponent's striking while setting up submissions. The Rubber Guard system includes multiple named positions such as Mission Control, New York, Invisible Collar, and Zombie, each representing a specific configuration within the overall framework. Success in this position requires exceptional flexibility, particularly in the hips and hamstrings, along with systematic understanding of the progression sequences that characterize this approach. The strategic trade-off inherent in Rubber Guard is clear: practitioners sacrifice some positional stability and mobility in exchange for superior arm control and unique submission pathways unavailable from conventional closed guard positions. The system functions as a decision tree where each defensive reaction from the opponent dictates the next positional progression. When the opponent pulls their arm free, the triangle becomes available. When they drive forward, omoplata entries open. When they freeze, the practitioner advances through the named positions toward increasingly dominant control configurations. This reaction-based methodology makes Rubber Guard particularly effective against opponents who lack specific defensive knowledge of the system, as conventional guard escapes often feed directly into the system's submission chains. The flexibility requirement is the position's most significant barrier to entry, but practitioners who invest in developing the necessary range of motion gain access to a complete attacking system with answers for every common defensive response.
 
 </section>
 

@@ -143,6 +143,16 @@ description: "Master sweep mechanics in BJJ. Learn off-balancing principles, lev
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kuzushi",
+  "description": "Kuzushi is the art of breaking an opponent's balance — disrupting their base and equilibrium along a vector where they cannot post or recover — so a sweep, takedown, or reversal succeeds through leverage and timing rather than strength.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master sweep mechanics in BJJ. Learn off-balancing principles, lev
 
 ## What is Kuzushi?
 
-Kuzushi represents the fundamental principles governing successful positional reversals from bottom positions in Brazilian Jiu-Jitsu. At its core, sweeping is the art of disrupting an opponent's base and equilibrium while simultaneously elevating or rotating your own body to achieve a superior position. Understanding sweep mechanics transcends individual techniques—it provides a systematic framework for analyzing weight distribution, leverage points, timing windows, and mechanical advantage across all guard positions. These principles apply universally whether executing a basic scissor sweep from closed guard or a complex berimbolo sequence from De La Riva guard.
+**Kuzushi is the art of breaking an opponent's balance — disrupting their base and equilibrium along a vector where they cannot post or recover — so a sweep, takedown, or reversal succeeds through leverage and timing rather than strength.**
+
+Kuzushi represents the fundamental principles governing successful positional reversals from bottom positions in Brazilian Jiu-Jitsu. At its core, sweeping is the act of disrupting an opponent's base and equilibrium while simultaneously elevating or rotating your own body to achieve a superior position. Understanding sweep mechanics transcends individual techniques—it provides a systematic framework for analyzing weight distribution, leverage points, timing windows, and mechanical advantage across all guard positions. These principles apply universally whether executing a basic scissor sweep from closed guard or a complex berimbolo sequence from De La Riva guard.
 
 Effective sweep mechanics rely on three interconnected elements: base disruption (removing or compromising your opponent's points of contact with the ground), directional control (guiding their body along specific vectors where balance cannot be recovered), and explosive execution (capitalizing on the brief window when their weight is committed and recovery is impossible). The most successful sweeps create what systematic approach calls "structural collapse"—a cascade effect where removing one base point forces weight transfer that automatically compromises remaining points of stability. This systematic approach explains why certain sweeps have dramatically different success rates across skill levels: beginners struggle to identify and exploit these mechanical windows, while advanced practitioners instinctively recognize and chain multiple leverage points together.
 

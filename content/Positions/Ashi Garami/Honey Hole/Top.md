@@ -21,37 +21,37 @@ description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control wi
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook from Honey Hole",
-      "text": "From this position, attempt Outside Heel Hook from Honey Hole. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook from Honey Hole. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Honey Hole",
-      "text": "From this position, attempt Heel Hook from Honey Hole. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Honey Hole. This technique is attempted in 37% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Honey Hole",
-      "text": "From this position, attempt Toe Hold from Honey Hole. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Toe Hold from Honey Hole. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Ashi",
-      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Estima Lock from Honey Hole",
-      "text": "From this position, attempt Estima Lock from Honey Hole. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Estima Lock from Honey Hole. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],

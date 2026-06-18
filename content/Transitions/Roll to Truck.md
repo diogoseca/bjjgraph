@@ -34,6 +34,18 @@ description: "Learn Roll to Truck transition in BJJ. Convert opponent's granby e
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Roll to Truck",
+  "description": "Roll to Truck is a turtle-attack transition where the top player follows an opponent's granby-roll escape from the buggy choke, riding their rotation into the truck position to threaten the twister, calf slicer, and back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Roll to Truck transition in BJJ. Convert opponent's granby e
 </div>
 
 <section id="overview" class="content-section">
+
+**Roll to Truck is a turtle-attack transition where the top player follows an opponent's granby-roll escape from the buggy choke, riding their rotation into the truck position to threaten the twister, calf slicer, and back control.**
 
 The Roll to Truck transition represents a critical pathway in the turtle attack system when opponents attempt to escape buggy choke pressure through granby rolling or defensive rotation. Rather than fighting against their momentum, this technique harnesses their defensive movement to achieve the truck position—a dominant control with multiple high-percentage submission threats including the twister, calf slicer, and banana split.
 

@@ -34,6 +34,18 @@ description: "Master Cross Body to Back Control in BJJ. Step-by-step guide to ta
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Body to Back Control",
+  "description": "Cross Body to Back Control is the turtle-attack transition where the top player rotates from the perpendicular cross body ride into parallel back control, threading hooks and locking the seatbelt while preserving unbroken chest-to-back pressure throughout.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Cross Body to Back Control in BJJ. Step-by-step guide to ta
 </div>
 
 <section id="overview" class="content-section">
+
+**Cross Body to Back Control is the turtle-attack transition where the top player rotates from the perpendicular cross body ride into parallel back control, threading hooks and locking the seatbelt while preserving unbroken chest-to-back pressure throughout.**
 
 Cross Body to Back Control is the fundamental transition from the perpendicular turtle ride to the most dominant position in Brazilian Jiu-Jitsu. Beginning from the Cross Body Ride—where the top player maintains chest-to-back pressure at a perpendicular angle across the opponent's spine—this transition involves systematically rotating from the perpendicular orientation to a parallel chest-behind-back position while inserting hooks and establishing the seatbelt grip. The technique capitalizes on the control advantages of the cross body position to methodically advance to full back control without creating escape opportunities.
 

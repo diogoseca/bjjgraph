@@ -34,6 +34,18 @@ description: "Master the transition from Kesa Gatame to Modified Scarf Hold in B
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kesa Gatame to Modified Scarf Hold",
+  "description": "Kesa Gatame to Modified Scarf Hold is a side-control-family transition where the top player walks their hips forward and drops chest-to-chest, trading the scarf hold's back exposure for heavier compression and cleaner access to americana, kimura, and arm-triangle attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the transition from Kesa Gatame to Modified Scarf Hold in B
 </div>
 
 <section id="overview" class="content-section">
+
+**Kesa Gatame to Modified Scarf Hold is a side-control-family transition where the top player walks their hips forward and drops chest-to-chest, trading the scarf hold's back exposure for heavier compression and cleaner access to americana, kimura, and arm-triangle attacks.**
 
 The transition from Kesa Gatame to Modified Scarf Hold addresses the primary weakness of traditional scarf hold: back exposure. By shifting from the perpendicular hip-level seat of Kesa Gatame to the chest-over-chest configuration of Modified Scarf Hold, the top player eliminates the back take vulnerability while gaining superior submission access and breathing restriction on the bottom player. This transition is a fundamental positional upgrade within the side control family that every serious practitioner must understand.
 

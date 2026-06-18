@@ -33,10 +33,32 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 }
 </script>
 
-> **SAFETY**: Kimura from Half Guard targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Half Guard",
+  "description": "The Kimura from Half Guard is a figure-four shoulder lock attacked from bottom half guard that rotates the opponent's arm behind their back, creating a trilemma between submission, sweep, and back take.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Half Guard is a figure-four shoulder lock attacked from bottom half guard that rotates the opponent's arm behind their back, creating a trilemma between submission, sweep, and back take.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint and rotator cuff</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Half Guard targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus tendons). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -49,53 +71,7 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 
 The **Kimura from Half Guard** is one of the most versatile shoulder locks in Brazilian Jiu-Jitsu, applicable from both top and bottom positions. From bottom half guard, the Kimura serves as a powerful sweep, back take, and submission threat that capitalizes on the opponent's commitment to passing. The technique exploits the natural underhook battle that occurs in half guard, transforming defensive frames into offensive attack chains. The submission targets the shoulder joint through a figure-four grip configuration, creating rotational pressure on the glenohumeral joint and surrounding connective tissue. What makes this variation particularly effective is its capacity to create dilemmas: opponents must choose between defending the submission, preventing the sweep, or stopping the back take. This multi-threat system exemplifies modern half guard strategy, where single techniques branch into complete attacking sequences based on defensive reactions.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Positions/Half Guard]]
-**From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus tendons) | High | 3-6 months with surgical intervention possible |
-| Shoulder dislocation (anterior or posterior) | CRITICAL | 6-12 weeks minimum, potential chronic instability |
-| Labral tear (glenoid labrum damage) | High | 4-8 months with surgery |
-| Bicep tendon strain or rupture | Medium | 6-12 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finish
-
-**Tap Signals**:
-- Verbal tap (any vocalization)
-- Physical hand tap on opponent or mat
-- Physical foot tap on mat or opponent
-- Any distress signal or movement cessation
-
-
-**Release Protocol**:
-1. Immediately release rotational pressure (stop arm movement)
-2. Release figure-four grip configuration
-3. Return arm to neutral position slowly
-4. Release positional control completely
-5. Check partner for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission application
-- Never use competition speed during training rolls
-- Always allow clear tap access (hand/foot free)
-- Never apply full rotation in drilling without partner consent
-- Avoid repeated applications on same partner in single session
-
+**Starting Position**: [[Positions/Half Guard]] · **From**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -268,10 +244,9 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Americana]]
@@ -285,14 +260,6 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Baratoplata]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Transitions/Old School Sweep]] - Alternative half guard bottom attack using similar positional control and angle creation
 - [[Positions/Half Guard/Lockdown]] - Complementary half guard control system that can set up Kimura opportunities
 - [[Positions/Kimura Trap]] - Related position using figure-four grip to control opponent from various positions
@@ -301,20 +268,49 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 - [[Positions/Crucifix]] - Advanced transition available from Kimura back take when opponent defends poorly
 - [[Positions/Half Guard]] - Parent position category from which this submission originates
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative half guard position that can transition to Kimura opportunities
-- [[Submissions/Far Side Armbar]] - Chain submission when opponent straightens arm defending Kimura
 - [[Positions/Omoplata Control]] - Alternative shoulder attack available from similar half guard positioning
 - [[Positions/Closed Guard]] - Counter position defender may recover to when escaping Kimura attempt
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kimura from Half Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus tendons) | High | 3-6 months with surgical intervention possible |
+| Shoulder dislocation (anterior or posterior) | CRITICAL | 6-12 weeks minimum, potential chronic instability |
+| Labral tear (glenoid labrum damage) | High | 4-8 months with surgery |
+| Bicep tendon strain or rupture | Medium | 6-12 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from control to finish
+
+**Tap Signals**:
+- Verbal tap (any vocalization)
+- Physical hand tap on opponent or mat
+- Physical foot tap on mat or opponent
+- Any distress signal or movement cessation
+
+
+**Release Protocol**:
+1. Immediately release rotational pressure (stop arm movement)
+2. Release figure-four grip configuration
+3. Return arm to neutral position slowly
+4. Release positional control completely
+5. Check partner for injury before continuing
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission application
+- Never use competition speed during training rolls
+- Always allow clear tap access (hand/foot free)
+- Never apply full rotation in drilling without partner consent
+- Avoid repeated applications on same partner in single session
+
 
 </section>
 

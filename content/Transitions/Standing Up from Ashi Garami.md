@@ -34,6 +34,18 @@ description: "Learn how to stand up from Ashi Garami in BJJ. Complete guide to d
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Up from Ashi Garami",
+  "description": "Standing Up from Ashi Garami is a disengagement transition where the bottom leg-entanglement player systematically clears hooks, frames against the opponent, and drives the hips up and back to escape the leg-lock exchange and return to neutral standing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn how to stand up from Ashi Garami in BJJ. Complete guide to d
 </div>
 
 <section id="overview" class="content-section">
+
+**Standing Up from Ashi Garami is a disengagement transition where the bottom leg-entanglement player systematically clears hooks, frames against the opponent, and drives the hips up and back to escape the leg-lock exchange and return to neutral standing.**
 
 Standing Up from Ashi Garami represents a strategic repositioning tool available to the bottom player in leg entanglement exchanges. Rather than continuing the ground-based leg lock battle, this transition allows the practitioner to disengage from the entanglement and return to a neutral standing position. While the ashi garami system offers potent offensive options, situations arise where standing up becomes the optimal tactical choice—when the entanglement exchange has stalled, when the opponent has achieved defensive positioning that prevents hierarchy advancement, or when the practitioner recognizes a more favorable strategic path through standing engagement.
 

@@ -34,6 +34,18 @@ description: "Learn how to flatten your opponent from half guard top in BJJ. Mas
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Half Guard to Flattened Half Guard",
+  "description": "Half Guard to Flattened Half Guard is a top-side pressure transition that uses crossface control, underhook denial, and progressive hip pressure to collapse the bottom player's frames and pin them chest-to-chest with the leg still trapped.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn how to flatten your opponent from half guard top in BJJ. Mas
 </div>
 
 <section id="overview" class="content-section">
+
+**Half Guard to Flattened Half Guard is a top-side pressure transition that uses crossface control, underhook denial, and progressive hip pressure to collapse the bottom player's frames and pin them chest-to-chest with the leg still trapped.**
 
 Transitioning to Flattened Half Guard is the fundamental positional advancement that transforms an active, contested half guard exchange into a dominant pressure platform for the top player. Rather than attempting to pass directly from standard half guard where the bottom player maintains frames, underhooks, and hip mobility, this technique prioritizes systematically destroying the bottom player's defensive structure through crossface pressure, weight distribution, and upper body control. The goal is to drive the bottom player's shoulders flat to the mat, eliminate their frames, and establish chest-to-chest contact that severely limits their offensive capabilities while setting up high-percentage passing sequences.
 

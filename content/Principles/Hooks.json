@@ -15,7 +15,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Low",
   "development_timeline": "Beginner to Advanced",
-  "overview": "A hook is a curved attachment — a foot wrapped behind a knee, a hand threaded under an armpit, an instep tucked inside a thigh. Hooks are the attachment mechanic of BJJ. Unlike grips, which rely on grabbing and squeezing, hooks use the natural curve of feet, hands, and limbs to wrap around the opponent's body and create connection points that resist removal through their geometry. You cannot simply pull a hook off by yanking — you must change the angle, peel it away, or create enough space to disengage the curve. This geometric resilience makes hooks one of the most reliable control mechanisms in grappling.\n\nHooks appear everywhere. The butterfly guard is defined by feet hooked under the opponent's thighs. Back control requires heel hooks inside the opponent's thighs. The De La Riva guard wraps a foot behind the opponent's lead knee. The underhook threads an arm under the opponent's armpit and curves upward behind the shoulder. The overhook wraps over the opponent's arm and curves downward to trap it. In each case, the hook creates a persistent connection that the opponent must actively work to remove, buying the hooking player time, control, and options.\n\nWhat distinguishes hooks from other attachment methods is their passive retention quality. A grip requires constant muscular effort to maintain — relax your hand and you lose the grip. A hook, once set, tends to stay in place even with minimal active effort because the curved geometry naturally resists linear pulling forces. This makes hooks exceptionally energy-efficient. A butterfly hook sitting passively under the opponent's thigh maintains its position until the opponent specifically addresses it. This passive retention allows the hooking player to focus attention and energy on other tasks — setting up sweeps, establishing grips, or transitioning — while the hooks quietly maintain the fundamental connection.",
+  "summary": "Hooks are curved attachments — a foot behind a knee, an instep inside a thigh, an arm under an armpit — that use limb geometry rather than gripping force to create connections an opponent must change angles to remove.",
+  "overview": "Hooks sit alongside grips as one of the two foundational attachment mechanics in grappling, but where a grip is an active, muscular grab, a hook is structural. Because the connection comes from the curve of feet, hands, and limbs wrapping around the opponent's body rather than from squeezing, you cannot simply pull a hook off by yanking — you must change the angle, peel it away, or create enough space to disengage the curve. This geometric resilience is what makes hooks one of the most reliable control mechanisms in BJJ.\n\nHooks appear everywhere. The butterfly guard is defined by feet hooked under the opponent's thighs. Back control requires heel hooks inside the opponent's thighs. The De La Riva guard wraps a foot behind the opponent's lead knee. The underhook threads an arm under the opponent's armpit and curves upward behind the shoulder. The overhook wraps over the opponent's arm and curves downward to trap it. In each case, the hook creates a persistent connection that the opponent must actively work to remove, buying the hooking player time, control, and options.\n\nWhat distinguishes hooks from other attachment methods is their passive retention quality. A grip requires constant muscular effort to maintain — relax your hand and you lose the grip. A hook, once set, tends to stay in place even with minimal active effort because the curved geometry naturally resists linear pulling forces. This makes hooks exceptionally energy-efficient. A butterfly hook sitting passively under the opponent's thigh maintains its position until the opponent specifically addresses it. This passive retention allows the hooking player to focus attention and energy on other tasks — setting up sweeps, establishing grips, or transitioning — while the hooks quietly maintain the fundamental connection.",
   "key_principles": [
     "Curve the hooking limb around the target to create geometric retention that resists linear removal",
     "Set hooks early during transitions before the opponent can establish defensive barriers",
@@ -390,9 +391,51 @@
       "relationship": "The underhook versus overhook battle is the defining arm hook contest of clinch grappling"
     },
     {
-      "name": "Butterfly Sweep",
+      "name": "Basic Butterfly Sweep",
       "content_type": "Transition",
       "relationship": "The quintessential hook-based sweep, using the butterfly hook for elevation and directional control"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What distinguishes a hook from a grip as an attachment method?",
+      "answer": "A grip relies on actively grabbing and squeezing and fails the moment you relax, while a hook uses the curved geometry of a foot, hand, or arm wrapped around the target to retain connection passively, resisting linear removal with minimal muscular effort."
+    },
+    {
+      "question": "Why can't you remove a well-set hook by pulling it straight out?",
+      "answer": "The curve of the hook catches on the target structure when pulled directly, so linear force fights the geometry itself. Hooks are stripped by changing the angle — pushing the foot sideways, swimming the arm laterally, or rotating the body to disengage the curve."
+    },
+    {
+      "question": "What is the most consequential hook battle in BJJ, and what is at stake?",
+      "answer": "Back control hook retention versus clearing. Both heels hooked inside the opponent's inner thighs are the primary retention mechanism; losing both hooks generally means losing the position, though a body triangle can serve as an alternative once hooks are cleared."
+    },
+    {
+      "question": "How deep should an underhook be threaded for effective control?",
+      "answer": "Deep enough that the elbow passes the opponent's centerline and the arm curves upward behind the shoulder blade. A shallow underhook that stops at the armpit gives weak attachment and is easily countered with a whizzer (overhook)."
+    },
+    {
+      "question": "Why are hooks considered energy-efficient compared to grips?",
+      "answer": "Once set, a hook's curved geometry naturally resists linear pulling forces, so it stays in place with minimal active effort. This passive retention lets the hooking player spend attention and energy elsewhere while the hook quietly maintains the connection."
+    },
+    {
+      "question": "When is the best moment to insert hooks, and why?",
+      "answer": "During transitions — when the opponent stands, turns, or shifts weight — because their limbs are not yet set in defensive positions. Fighting for hook insertion against a settled opponent with pinched knees and tight elbows is far harder than catching the open window."
+    },
+    {
+      "question": "Which parts of the foot create an effective hook, and why does it matter?",
+      "answer": "The instep (inside curve of the foot) for hooks that wrap behind legs, and the heel for hooks that dig into inner thighs. The top of the foot has no natural curve, so hooks built on it provide weak attachment that slides off under pressure."
+    },
+    {
+      "question": "Why is relying on a single hook risky?",
+      "answer": "A single hook is a single point of failure — when it is stripped, all connection is lost and the position collapses. Working toward dual hooks or a hook-plus-grip combination creates redundant attachment, so stripping one hook still leaves control intact."
+    },
+    {
+      "question": "What is the difference between a rigid hook and a responsive hook?",
+      "answer": "A rigid hook is locked stiff and snaps out of place when the opponent explosively changes direction, unable to reattach. A responsive hook stays firm enough to hold connection but flexible enough to follow movement and re-curve around the target from a new angle."
+    },
+    {
+      "question": "How do hooks contribute to off-balancing (kuzushi) and sweeps?",
+      "answer": "Hooks supply the attachment points from which off-balancing force is applied: the butterfly hook elevates the thigh, the X-guard hooks lift the entire leg, and the De La Riva hook redirects the opponent's base — each creating the kuzushi needed to sweep."
     }
   ]
 }

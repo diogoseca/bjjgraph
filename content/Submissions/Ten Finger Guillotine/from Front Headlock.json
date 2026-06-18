@@ -1,5 +1,6 @@
 {
   "name": "Ten Finger Guillotine from Front Headlock",
+  "summary": "The Ten Finger Guillotine from Front Headlock is a no-gi blood choke that interlaces all ten fingers in a palm-to-palm grip around a bent-forward opponent's neck, compressing both carotid arteries from the dominant front headlock control.",
   "description": "Master the Ten Finger Guillotine from Front Headlock position. Complete guide to grip mechanics, finishing sequences, counters, and defensive escapes.",
   "tags": [
     "bjj",
@@ -137,7 +138,7 @@
     }
   ],
   "attacker": {
-    "name": "from Front Headlock Attacker",
+    "name": "Ten Finger Guillotine from Front Headlock Attacker",
     "description": "How to finish the Ten Finger Guillotine from Front Headlock. Grip progression from head control to ten finger interlace, finishing mechanics, and counter-responses.",
     "overview": "Attacking with the Ten Finger Guillotine from Front Headlock requires converting positional control into a submission finish through a deliberate grip progression. Starting from the dominant front headlock position, the attacker must first transition the controlling arm into a guillotine grip by threading the choking arm under the opponent's chin while maintaining chest-on-back pressure. Once the choking arm establishes depth across the throat structures, the attacker transitions to the ten finger interlocking configuration—the strongest grip variant in the guillotine family. The front headlock starting point offers a significant advantage: the opponent's posture is already broken and their head is trapped below hip level, giving the attacker time to methodically establish arm depth before committing to the ten finger lock. The key challenge is executing the grip transitions—from front headlock control to guillotine grip to ten finger interlace—without creating enough space for the opponent to posture up or extract their head. Each transition requires maintaining constant downward pressure while reconfiguring the hands. Timing the final squeeze correctly, coordinating upper body compression with lower body control through sprawl pressure or guard closure, determines whether the choke finishes or becomes a stalling grip that the opponent can systematically dismantle.",
     "key_principles": [
@@ -323,7 +324,7 @@
     ]
   },
   "defender": {
-    "name": "from Front Headlock Defender",
+    "name": "Ten Finger Guillotine from Front Headlock Defender",
     "description": "How to defend and escape the Ten Finger Guillotine from Front Headlock. Recognition cues, escape timing, and survival techniques for this high-percentage choke.",
     "overview": "Defending the Ten Finger Guillotine from Front Headlock requires intervention at the earliest possible stage of the attacker's grip progression. The attack develops through three distinct phases: front headlock control, guillotine grip establishment, and ten finger interlace. Each subsequent phase narrows the defender's escape window significantly. The optimal defensive intervention point is during the initial transition from front headlock control to guillotine grip—when the attacker adjusts their arm position to thread under the chin, their chest pressure momentarily shifts and positional control weakens. Once the guillotine grip establishes, the defender's options narrow to preventing the ten finger interlace by hand fighting the non-choking hand. If the ten finger grip locks fully and the squeeze engages, escape becomes extremely unlikely and the defender should prioritize tapping early to prevent injury. Understanding this sequential progression—and identifying which phase you are currently in—is the critical defensive skill that determines whether you escape cleanly or get caught in one of the highest-percentage guillotine finishes available from the front headlock system.",
     "key_principles": [

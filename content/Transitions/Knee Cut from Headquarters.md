@@ -34,6 +34,18 @@ description: "Master the Knee Cut from Headquarters in BJJ. A high-percentage gu
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee Cut from Headquarters",
+  "description": "The Knee Cut from Headquarters is a top guard pass in which the passer drives a knee diagonally across the trapped opponent's thigh, slicing through to side control while crossface and hip pressure block guard recovery.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Knee Cut from Headquarters in BJJ. A high-percentage gu
 </div>
 
 <section id="overview" class="content-section">
+
+**The Knee Cut from Headquarters is a top guard pass in which the passer drives a knee diagonally across the trapped opponent's thigh, slicing through to side control while crossface and hip pressure block guard recovery.**
 
 The Knee Cut from Headquarters is the highest-percentage guard pass in modern systematic jiu-jitsu, serving as the primary offensive transition from the headquarters hub position. This technique leverages the control advantages inherent in headquarters—trapped leg, upright posture, and triangulated base—to drive the cutting knee diagonally across the opponent's thigh line, separating their legs and completing the pass to side control. The mechanical foundation relies on three simultaneous actions: knee pressure slicing through the thigh line, crossface or shoulder pressure preventing the opponent from turning into the passer, and a decisive hip drop that collapses remaining defensive structures.
 

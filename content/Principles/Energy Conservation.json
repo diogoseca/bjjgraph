@@ -11,7 +11,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Energy Conservation is a critical strategic principle in Brazilian Jiu-Jitsu that involves managing physical and mental resources throughout training sessions and competitive matches. This principle recognizes that BJJ is fundamentally a war of attrition where the practitioner who can maintain effective performance while expending less energy often prevails. Energy conservation is not about being passive or lazy; rather, it's about being strategically selective with effort expenditure, using efficient movement patterns, and recognizing when to apply force versus when to redirect or yield. Mastery of this principle allows practitioners to maintain technical proficiency deep into matches when opponents are fatigued, creating decisive advantages in the final moments of competition.",
+  "summary": "Energy Conservation is the strategic, selective management of physical and mental resources in BJJ, spending effort through efficient movement, frame-based defense, and well-timed explosions so you stay technical and dangerous while your opponent fatigues.",
+  "overview": "In Brazilian Jiu-Jitsu, matches are frequently decided not by who is more skilled in the abstract, but by who can still execute clean technique in the final minutes when both athletes are exhausted. Energy Conservation addresses this reality directly: it recognizes that grappling is fundamentally a war of attrition where the practitioner who maintains effective performance while expending less fuel often prevails. It is not about being passive or lazy; rather, it is about being strategically selective with effort expenditure, using efficient movement patterns, and recognizing when to apply force versus when to redirect or yield. Mastery of this principle allows practitioners to maintain technical proficiency deep into matches when opponents are fatigued, creating decisive advantages in the closing exchanges of competition.",
   "key_principles": [
     "Strategic resource allocation throughout match duration",
     "Efficient movement patterns that minimize wasted energy",
@@ -82,11 +83,6 @@
       "principle_name": "Distance Control",
       "relationship_type": "Extension",
       "description": "Efficient space creation conserves energy by using frames and hip movement rather than strength-based guard retention or escapes"
-    },
-    {
-      "principle_name": "Timing and Rhythm",
-      "relationship_type": "Complementary",
-      "description": "Proper timing allows explosive efforts at optimal moments, conserving energy between opportunities"
     },
     {
       "principle_name": "Flow Rolling",
@@ -328,9 +324,9 @@
       "relationship": "Complementary principle focusing on technical efficiency supporting energy conservation"
     },
     {
-      "name": "Timing and Rhythm",
+      "name": "Flow Rolling",
       "content_type": "Principle",
-      "relationship": "Direct implementation of energy conservation through strategic tempo and timing control"
+      "relationship": "Training method that directly develops energy conservation through controlled tempo and movement efficiency"
     },
     {
       "name": "Base",
@@ -381,6 +377,48 @@
       "name": "Deep Half Guard",
       "content_type": "Position",
       "relationship": "Defensive recovery position exemplifying energy conservation under pressure"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core idea behind Energy Conservation in BJJ?",
+      "answer": "It is the strategic, selective expenditure of physical and mental resources, using efficient movement, frames, and well-timed explosions so you stay technical and dangerous while your opponent fatigues."
+    },
+    {
+      "question": "How does frame-based defense conserve energy compared to muscular resistance?",
+      "answer": "Frames use skeletal structure and joint alignment to hold space, letting bone and connective tissue bear the load instead of muscle, so you resist pressure for long periods without burning oxygen-hungry muscular contractions."
+    },
+    {
+      "question": "Why is breath-holding during submission defense a critical error?",
+      "answer": "Holding the breath causes oxygen debt to accumulate rapidly, producing fatigue, panic responses, and degraded decision-making, which compounds the danger of the position rather than resolving it."
+    },
+    {
+      "question": "When should you spend explosive energy rather than conserve it?",
+      "answer": "Reserve explosive efforts for moments of maximum strategic leverage, such as when the opponent makes a positional error, shifts their weight, or a high-percentage sweep, escape, or submission window opens."
+    },
+    {
+      "question": "Which positions allow energy recovery during a match?",
+      "answer": "Stable positions like closed guard, turtle, and deep half guard minimize defensive demands, letting heart rate and breathing normalize while the opponent struggles to advance."
+    },
+    {
+      "question": "How does selective resistance differ from resisting everything?",
+      "answer": "Selective resistance means defending only high-value positions and genuinely dangerous attacks while conceding low-value transitions, preserving energy for the exchanges that actually decide the match."
+    },
+    {
+      "question": "Why does constant high-intensity effort backfire?",
+      "answer": "Spending maximum energy regardless of positional importance causes premature exhaustion, leading to technical degradation and defensive vulnerabilities precisely when the critical late-match moments arrive."
+    },
+    {
+      "question": "How can you read and exploit an opponent's energy state?",
+      "answer": "Watch their breathing, grip strength, and movement quality; when they fade, accelerate pace and pressure to capitalize on fatigue, and when they are fresh, conserve and force them to expend energy first."
+    },
+    {
+      "question": "What role does movement economy play in energy conservation?",
+      "answer": "Movement economy eliminates superfluous motion and chooses the most direct pathways for transitions, escapes, and attacks, accomplishing positional goals at the lowest possible energy cost."
+    },
+    {
+      "question": "How does pace management let you control energy expenditure?",
+      "answer": "By dictating tempo through guard pulling, position consolidation, and selective engagement, you set the rate at which both athletes burn fuel and can exploit the opponent's fatigue patterns."
     }
   ]
 }

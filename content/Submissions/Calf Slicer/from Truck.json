@@ -1,5 +1,6 @@
 {
   "name": "Calf Slicer from Truck",
+  "summary": "The Calf Slicer from Truck is a 10th Planet leg compression submission that wedges your shin across the opponent's trapped calf and folds their heel toward their hamstring, crushing the gastrocnemius for the tap.",
   "description": "Master the Calf Slicer from Truck in BJJ. Complete guide with safety protocols, setup, execution from the 10th Planet system. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
   "tags": [
     "bjj",
@@ -18,7 +19,7 @@
   "starting_position": "Truck",
   "from_position": "Truck/Top",
   "success_rate": 60,
-  "overview": "The Calf Slicer from Truck is a high-level compression submission that targets the calf muscle and knee joint simultaneously. Popularized by the 10th Planet system, this technique capitalizes on the unique control offered by the Truck position - where you control your opponent's back while they're turned away, with their legs trapped. The submission works by wedging your shin bone across the back of your opponent's calf while pulling their heel toward their hamstring, creating intense pressure on both the gastrocnemius muscle and the knee ligaments. Unlike traditional joint locks that rely purely on skeletal manipulation, the calf slicer combines muscular compression with joint stress, making it particularly effective against opponents with flexible joints but less conditioned legs. The Truck position provides exceptional control for this finish because your opponent is already compromised - their hips are twisted, their base is broken, and your body weight pins them face-down. This submission requires precise technical execution and carries significant injury risk if applied carelessly, making it essential to master the positional control before attempting the finish. The calf slicer represents the convergence of 10th Planet's innovative approach to leg attacks and traditional compression submissions, offering a powerful finishing option from one of modern no-gi grappling's most dominant positions.",
+  "overview": "Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from Truck weaponizes the dominant control of the Truck position into a fight-ending compression. The technique works by wedging your shin bone across the back of your opponent's calf while pulling their heel toward their hamstring, creating intense pressure on both the gastrocnemius muscle and the knee ligaments. Unlike traditional joint locks that rely purely on skeletal manipulation, the calf slicer combines muscular compression with joint stress, making it particularly effective against opponents with flexible joints but less conditioned legs. The Truck position provides exceptional control for this finish because your opponent is already compromised - their hips are twisted, their base is broken, and your body weight pins them face-down. This submission requires precise technical execution and carries significant injury risk if applied carelessly, making it essential to master the positional control before attempting the finish. The calf slicer represents the convergence of 10th Planet's innovative approach to leg attacks and traditional compression submissions, offering a powerful finishing option from one of modern no-gi grappling's most dominant positions.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -149,7 +150,7 @@
     }
   ],
   "attacker": {
-    "name": "from Truck Attacker",
+    "name": "Calf Slicer from Truck Attacker",
     "description": "How to execute Calf Slicer from Truck in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
     "overview": "The Calf Slicer from Truck is a high-level compression submission that targets the calf muscle and knee joint simultaneously. Popularized by the 10th Planet system, this technique capitalizes on the unique control offered by the Truck position - where you control your opponent's back while they're turned away, with their legs trapped. The submission works by wedging your shin bone across the back of your opponent's calf while pulling their heel toward their hamstring, creating intense pressure on both the gastrocnemius muscle and the knee ligaments. Unlike traditional joint locks that rely purely on skeletal manipulation, the calf slicer combines muscular compression with joint stress, making it particularly effective against opponents with flexible joints but less conditioned legs. The Truck position provides exceptional control for this finish because your opponent is already compromised - their hips are twisted, their base is broken, and your body weight pins them face-down. This submission requires precise technical execution and carries significant injury risk if applied carelessly, making it essential to master the positional control before attempting the finish. The calf slicer represents the convergence of 10th Planet's innovative approach to leg attacks and traditional compression submissions, offering a powerful finishing option from one of modern no-gi grappling's most dominant positions.",
     "key_principles": [
@@ -374,7 +375,7 @@
     ]
   },
   "defender": {
-    "name": "from Truck Defender",
+    "name": "Calf Slicer from Truck Defender",
     "description": "How to defend against Calf Slicer from Truck in BJJ. Recognition, escape paths, and defensive strategies.",
     "overview": "Defending the calf slicer from truck requires addressing two simultaneous problems: the positional disadvantage of being in the truck (hips twisted, back exposed, base broken) and the immediate compression threat to your calf and knee. The defender must recognize the submission threat early - ideally before the attacker's shin is fully wedged behind the calf - because once the compression angle is established with heel control, escape options diminish rapidly. The primary defensive strategy centers on preventing the attacker from folding your heel to your hamstring by straightening your trapped leg, but this must be executed with awareness that leg straightening opens you to the Twister and Banana Split. Successful defense therefore requires a systematic approach: protect the leg from full compression first, then address the truck position itself by working to clear the boot pressure and restore hip alignment. The defender who panics and focuses solely on one threat will find themselves caught by the complementary attack in the truck system's dilemma framework. Early recognition and calm, sequential problem-solving are the hallmarks of effective calf slicer defense from this position.",
     "key_principles": [

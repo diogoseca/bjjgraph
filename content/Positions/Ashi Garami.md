@@ -34,6 +34,18 @@ description: "Master Ashi Garami leg entanglements in BJJ. Complete guide to sys
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ashi Garami",
+  "description": "Ashi Garami is a family of leg-entanglement positions where you trap and isolate an opponent's leg between your own to control their hip, advance through a control hierarchy, and threaten heel hooks, kneebars, and ankle locks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Ashi Garami leg entanglements in BJJ. Complete guide to sys
 </div>
 
 <section id="overview" class="content-section">
+
+**Ashi Garami is a family of leg-entanglement positions where you trap and isolate an opponent's leg between your own to control their hip, advance through a control hierarchy, and threaten heel hooks, kneebars, and ankle locks.**
 
 **Ashi Garami** (足絡み, Japanese for "leg entanglement") represents a comprehensive family of leg control positions that form the foundation of modern leg lock systems. Unlike traditional top-bottom positional hierarchies, Ashi Garami positions exist in a horizontal plane where both practitioners compete for leg control and finishing opportunities. This position family has revolutionized competitive Brazilian Jiu-Jitsu and submission grappling, particularly in no-gi formats where the absence of grips makes leg attacks more accessible and effective.
 
@@ -122,33 +136,33 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Available Transitions
 
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (70% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (65% of attempts)
 
-- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (6% of attempts)
+- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (5% of attempts)
 
-- **[[Heel Hook from Ashi Garami/Attacker|Heel Hook from Ashi Garami]]** (3% of attempts)
+- **[[Heel Hook from Ashi Garami/Attacker|Heel Hook from Ashi Garami]]** (2% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (11% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (10% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (4% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
 
-- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (4% of attempts)
+- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (3% of attempts)
 
-- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (1% of attempts)
+- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (2% of attempts)
 
-- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (0% of attempts)
+- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (2% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (0% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (2% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (0% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (1% of attempts)
 
-- **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (0% of attempts)
+- **[[Transitions/Ashi Garami Maintenance/Attacker|Ashi Garami Maintenance]]** (1% of attempts)
 
-- **[[Transitions/Heel Strip from Ashi Garami/Attacker|Heel Strip from Ashi Garami]]** (0% of attempts)
+- **[[Transitions/Heel Strip from Ashi Garami/Attacker|Heel Strip from Ashi Garami]]** (1% of attempts)
 
-- **[[Transitions/Standing Up from Ashi Garami/Attacker|Standing Up from Ashi Garami]]** (0% of attempts)
+- **[[Transitions/Standing Up from Ashi Garami/Attacker|Standing Up from Ashi Garami]]** (1% of attempts)
 
-- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (0% of attempts)
+- **[[Aoki Lock from Ashi Garami/Attacker|Aoki Lock from Ashi Garami]]** (1% of attempts)
 
 - **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (1% of attempts)
 

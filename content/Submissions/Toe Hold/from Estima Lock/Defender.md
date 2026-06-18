@@ -89,6 +89,14 @@ description: "Defend the toe hold from Estima Lock in BJJ. Recognition cues, esc
         "@type": "Answer",
         "text": "The free leg is your primary defensive tool for creating the distance needed to escape. Place your free foot on the attacker's hip, inner thigh, or behind their knee and push to generate separation. The push disrupts their hip pressure contact against your trapped leg's calf, which is the mechanical anchor preventing leg extraction. Without an active free leg, you surrender your most effective escape lever and the attacker can maintain control with minimal effort."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "At what point does the toe hold from Estima Lock become impossible to escape, and what is the correct decision?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Escape becomes effectively impossible once the figure-four is fully consolidated and rotational pressure has begun—the attacker's cupping hand is seated on your forefoot, their other arm is threaded behind your Achilles, and their hips are tight to your calf eliminating retraction slack. Past this point, continuing to fight only burns the one to two seconds you have before the small foot joints fail. The correct decision is to tap immediately; preserving the ankle and midfoot for long-term training always outweighs escaping a single position."
+      }
     }
   ]
 }

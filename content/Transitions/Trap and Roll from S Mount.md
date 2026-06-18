@@ -34,6 +34,18 @@ description: "Master the Trap and Roll from S Mount in BJJ. Complete guide to br
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Trap and Roll from S Mount",
+  "description": "The Trap and Roll from S Mount is an explosive bottom escape that traps the opponent's controlling arm and bridges diagonally toward their posted foot to off-balance the perpendicular S Mount and recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Trap and Roll from S Mount in BJJ. Complete guide to br
 </div>
 
 <section id="overview" class="content-section">
+
+**The Trap and Roll from S Mount is an explosive bottom escape that traps the opponent's controlling arm and bridges diagonally toward their posted foot to off-balance the perpendicular S Mount and recover half guard.**
 
 The Trap and Roll from S Mount is a high-risk, explosive escape attempt executed from one of the most dangerous bottom positions in Brazilian Jiu-Jitsu. S Mount places the top practitioner perpendicular to the bottom player with one leg extended over the head and the other crossing the torso, isolating the near arm for immediate armbar threat. The Trap and Roll aims to disrupt this perpendicular control by trapping the opponent's controlling arm and bridging explosively at an angle that compromises their base, creating enough displacement to recover guard.
 

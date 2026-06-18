@@ -1,5 +1,6 @@
 {
   "name": "Omoplata from Inverted Guard",
+  "summary": "The omoplata from inverted guard is a shoulder lock that threads the attacking leg over the opponent's shoulder from an upside-down position, then uses rotational momentum to swing perpendicular and torque the trapped arm against the shoulder joint.",
   "description": "Master the omoplata from inverted guard in BJJ. Complete guide to setup, execution, and finishing this advanced shoulder lock from the inverted position.",
   "tags": [
     "bjj",
@@ -19,7 +20,7 @@
   "starting_position": "Inverted Guard",
   "from_position": "Inverted Guard/Bottom",
   "success_rate": 52,
-  "overview": "The omoplata from inverted guard is an advanced shoulder lock entry that exploits the unique angles created by the inverted position. Unlike standard omoplata entries from closed guard or open guard, the inverted entry uses the practitioner's upside-down orientation to thread the attacking leg over the opponent's shoulder from an unexpected angle. This catches opponents who are focused on defending berimbolo and back take attempts, as the omoplata entry shares initial movements with those transitions.\n\nThe technique works best when the opponent reaches forward to control the inverted player's hips or legs, exposing their arm to the leg entanglement. The inverted practitioner threads their far leg over the opponent's shoulder while controlling the wrist, then uses rotational momentum from the inverted position to swing perpendicular and establish the classic omoplata finishing position. The momentum advantage from inversion makes the initial entry faster than traditional setups, though the finishing mechanics remain identical once the perpendicular position is achieved.\n\nStrategically, this technique adds a submission threat to the inverted guard position that forces opponents to respect multiple attack vectors simultaneously. When opponents must defend omoplata entries alongside berimbolo and leg entanglement threats, their defensive decision-making becomes overloaded, creating openings for all three attack categories.",
+  "overview": "Disguised as a berimbolo or back take until the leg is already over the shoulder, the inverted-guard omoplata has become a high-value addition to the inverted attacking arsenal. Unlike standard omoplata entries from closed guard or open guard, the inverted entry uses the practitioner's upside-down orientation to thread the attacking leg over the opponent's shoulder from an unexpected angle. This catches opponents who are focused on defending berimbolo and back take attempts, as the omoplata entry shares initial movements with those transitions.\n\nThe technique works best when the opponent reaches forward to control the inverted player's hips or legs, exposing their arm to the leg entanglement. The inverted practitioner threads their far leg over the opponent's shoulder while controlling the wrist, then uses rotational momentum from the inverted position to swing perpendicular and establish the classic omoplata finishing position. The momentum advantage from inversion makes the initial entry faster than traditional setups, though the finishing mechanics remain identical once the perpendicular position is achieved.\n\nStrategically, this technique adds a submission threat to the inverted guard position that forces opponents to respect multiple attack vectors simultaneously. When opponents must defend omoplata entries alongside berimbolo and leg entanglement threats, their defensive decision-making becomes overloaded, creating openings for all three attack categories.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -119,7 +120,7 @@
     }
   ],
   "attacker": {
-    "name": "from Inverted Guard Attacker",
+    "name": "Omoplata from Inverted Guard Attacker",
     "description": "Learn to attack the omoplata from inverted guard. Step-by-step execution guide with setup details, finishing mechanics, and counter responses.",
     "overview": "Attacking the omoplata from inverted guard requires threading your leg over the opponent's shoulder while inverted, then using rotational momentum to swing into the perpendicular finishing position. The inverted angle creates a faster entry than traditional setups because you generate rotation from the inversion itself rather than having to create it from a static position. The primary challenge is controlling the opponent's posture during the transition from inverted to seated, as any gap in control allows them to stack or posture out. Success depends on maintaining wrist control throughout the rotation and immediately establishing hip control once perpendicular to prevent the forward roll escape.",
     "key_principles": [
@@ -315,7 +316,7 @@
     ]
   },
   "defender": {
-    "name": "from Inverted Guard Defender",
+    "name": "Omoplata from Inverted Guard Defender",
     "description": "Learn to defend and escape the omoplata from inverted guard. Recognition cues, escape timing, and defensive strategies to prevent the shoulder lock.",
     "overview": "Defending the omoplata from inverted guard requires recognizing the setup early and responding before the attacker completes the rotation to perpendicular. The inverted entry is faster than standard omoplata setups because the attacker uses existing rotational momentum, so defensive reactions must be immediate. The primary defensive windows occur during the leg thread before it crosses your shoulder, during the rotation before they reach perpendicular, and during the finish via the forward roll escape. Understanding which window you are in determines which defense is appropriate. Late-stage defense is significantly harder and riskier than early recognition and prevention.",
     "key_principles": [

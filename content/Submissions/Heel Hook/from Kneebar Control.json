@@ -1,5 +1,6 @@
 {
   "name": "Heel Hook from Kneebar Control",
+  "summary": "The Heel Hook from Kneebar Control is a leg-lock transition that converts a defended kneebar into a rotational heel hook, attacking the knee's ACL, MCL, and LCL once the defender bends their knee to escape the straight-line extension.",
   "description": "Learn the heel hook from kneebar control in BJJ. Complete guide covering grip transition mechanics, finishing details, defensive counters, and safety protocols.",
   "tags": [
     "bjj",
@@ -145,7 +146,7 @@
     }
   ],
   "attacker": {
-    "name": "from Kneebar Control Attacker",
+    "name": "Heel Hook from Kneebar Control Attacker",
     "description": "Master attacking the heel hook from kneebar control. Grip transition mechanics, finishing sequences, common counters, and progressive training for leg lock chains.",
     "overview": "Attacking the heel hook from kneebar control requires reading your opponent's defensive reactions and capitalizing on the mechanical opening created by their kneebar defense. The bent-knee posture that neutralizes kneebar pressure simultaneously exposes the heel, and your ability to transition grips smoothly while maintaining leg entanglement determines the success rate of this attack chain. Mastery of this transition transforms your kneebar control from a single-attack position into a dual-threat platform where every defense creates a new vulnerability, embodying the principle that leg lock chains are won through reaction-based sequencing rather than forcing a single finish.",
     "key_principles": [
@@ -326,7 +327,7 @@
     ]
   },
   "defender": {
-    "name": "from Kneebar Control Defender",
+    "name": "Heel Hook from Kneebar Control Defender",
     "description": "Defend the heel hook from kneebar control in BJJ. Recognition cues, escape techniques, and survival strategies against this dangerous leg lock transition.",
     "overview": "Defending the heel hook from kneebar control requires awareness that your kneebar defense itself creates the opening for this more dangerous submission. When you bend your knee to prevent hyperextension, you must simultaneously protect your heel from being captured. The transition window — when the attacker shifts grips from kneebar to heel hook — represents your best opportunity to escape, as their control is momentarily weakened during the grip change. Understanding this timing and having pre-planned defensive responses is essential, especially given the heel hook's capacity to cause structural damage before pain signals arrive. The defender must balance preventing the kneebar with protecting the heel, making this one of the more complex defensive scenarios in the leg lock game.",
     "key_principles": [

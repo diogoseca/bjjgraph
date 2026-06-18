@@ -34,6 +34,18 @@ description: "Master the Cross Ashi Transition from Ushiro Ashi-Garami. Step-by-
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Ashi Transition",
+  "description": "The Cross Ashi Transition is a leg-entanglement repositioning that shifts the attacker from Ushiro Ashi-Garami to Cross Ashi-Garami, reconfiguring the figure-four to recover stronger heel-hook angles and control when the reverse-ashi attack stalls.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Cross Ashi Transition from Ushiro Ashi-Garami. Step-by-
 
 <section id="overview" class="content-section">
 
-The Cross Ashi Transition is a fundamental positional change within modern leg lock systems that allows the attacker to shift from Ushiro Ashi-Garami (reverse/back leg entanglement) to Cross Ashi-Garami. This transition becomes necessary when the opponent's defensive rotation or hip positioning makes heel hook attacks from the Ushiro configuration suboptimal. By reconfiguring the leg entanglement to a crossed position, the attacker gains improved mechanical leverage for both heel hook finishes and subsequent positional advancement to Saddle.
+**The Cross Ashi Transition is a leg-entanglement repositioning that shifts the attacker from Ushiro Ashi-Garami to Cross Ashi-Garami, reconfiguring the figure-four to recover stronger heel-hook angles and control when the reverse-ashi attack stalls.**
+
+Within modern leg lock systems, this positional change becomes necessary when the opponent's defensive rotation or hip positioning makes heel hook attacks from the Ushiro Ashi-Garami configuration suboptimal. By reconfiguring the leg entanglement to a crossed position, the attacker gains improved mechanical leverage for both heel hook finishes and subsequent positional advancement to Saddle.
 
 The technique involves reconfiguring your leg position while maintaining continuous control of the opponent's trapped leg. The key mechanical change is transitioning from a reversed figure-four where you followed the opponent's inversion to a standard cross-body configuration where your legs cross over the opponent's trapped limb. This requires precise timing and hip movement to prevent the opponent from capitalizing on the momentary loosening of control during the switch.
 

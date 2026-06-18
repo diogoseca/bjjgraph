@@ -33,10 +33,32 @@ description: "Master the Twister spinal lock from Twister Side Control with step
 }
 </script>
 
-> **SAFETY**: Twister from Twister Side Control targets the Cervical and thoracic spine, shoulder girdle. Risk: Cervical spine damage (neck injury). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister from Twister Side Control",
+  "description": "The Twister from Twister Side Control is a 10th Planet spinal lock that pins the near shoulder, anchors the hips with a leg entanglement, and cranks the head and shoulders against the fixed lower body to torque the cervical and thoracic spine.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Twister from Twister Side Control is a 10th Planet spinal lock that pins the near shoulder, anchors the hips with a leg entanglement, and cranks the head and shoulders against the fixed lower body to torque the cervical and thoracic spine.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Spinal Lock</span>
+<span class="meta-chip">Targets Cervical and thoracic spine, shoulder girdle</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Twister from Twister Side Control targets the Cervical and thoracic spine, shoulder girdle. Primary risk: Cervical spine damage (neck injury). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,61 +69,13 @@ description: "Master the Twister spinal lock from Twister Side Control with step
 
 <section id="overview" class="content-section">
 
-The Twister from Twister Side Control is a devastating spinal lock rooted in the 10th Planet system that leverages lateral positioning and leg entanglement to generate rotational torque against the cervical and thoracic spine. Unlike twister entries from the truck where the attacker works from behind, the twister side control variant provides a perpendicular angle that creates distinct mechanical advantages for driving the near shoulder to the mat and controlling the opponent's defensive turning. The lateral base of twister side control allows the attacker to maintain stability while progressively threading the arm under the opponent's head to establish the finishing grip.
+Reaching this finish depends entirely on first establishing twister side control, a lateral pin that trades the chest-to-chest stability of orthodox side control for immediate spinal-attack proximity. Unlike twister entries from the truck where the attacker works from behind, the twister side control variant provides a perpendicular angle that creates distinct mechanical advantages for driving the near shoulder to the mat and controlling the opponent's defensive turning. The lateral base of twister side control allows the attacker to maintain stability while progressively threading the arm under the opponent's head to establish the finishing grip.
 
 Execution from twister side control follows a precise sequence: consolidate the leg entanglement to anchor the hips, drive the near shoulder flat, thread the far arm under the head, secure a clasping grip connecting to the far wrist, and then create opposing rotational forces between the fixed lower body and the cranked upper torso. The submission finishes when the separation between the anchored hips and the rotated head and shoulders generates sufficient pressure on the spinal column. This mechanic makes the twister one of the most biomechanically powerful submissions in grappling, targeting structures that have very low tolerance for rotational force.
 
 The twister carries extreme injury risk to the spine and neck, demanding exceptionally slow and controlled application in training. Practitioners must develop acute sensitivity to their partner's tap signals, as the submission can cause permanent damage if applied recklessly. In competition, the twister from twister side control remains a feared finisher among 10th Planet practitioners, though its setup requirements and the specialized positional knowledge needed to reach twister side control limit its frequency compared to more common submissions.
 
-**Category**: Joint Lock
-**Type**: Spinal Lock
-**Target Area**: Cervical and thoracic spine, shoulder girdle
-**Starting Position**: [[Positions/Twister Control/Twister Side Control]]
-**From Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Cervical spine damage (neck injury) | CRITICAL | 3-12 months, potentially permanent |
-| Thoracic spine strain | High | 4-8 weeks |
-| Shoulder dislocation or rotator cuff damage | High | 6-12 weeks |
-| Intercostal muscle tears (rib area) | Medium | 2-4 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression, never spike or jerk the spine
-
-**Tap Signals**:
-- Verbal tap (most common due to limited mobility)
-- Physical hand tap on your body or mat
-- Physical foot tap if accessible
-- Any distress signal or unusual vocalization
-
-
-**Release Protocol**:
-1. Immediately release the head/neck control completely
-2. Release upper body grips and allow opponent to turn face-up
-3. Slowly unwind the leg entanglement
-4. Do not pull or twist during release - let opponent move naturally
-5. Check with partner after release to ensure they are okay
-
-
-**Training Restrictions**:
-- NEVER apply at competition speed in training - always 50% speed maximum
-- NEVER use on beginners or those unfamiliar with the position
-- NEVER apply sudden or explosive pressure to the spine
-- NEVER continue if partner shows any signs of distress
-- ALWAYS allow clear tap access and communicate throughout
-- NEVER practice without supervision from a qualified black belt
-- Avoid training this submission more than once per week to prevent cumulative spine stress
-
+**Starting Position**: [[Positions/Twister Control/Twister Side Control]] · **From**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 </section>
 
@@ -244,39 +218,61 @@ The twister carries extreme injury risk to the spine and neck, demanding excepti
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Banana Split]]
 - [[Positions/Half Guard/Electric Chair]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Darce Choke]]
 - [[Submissions/Spine Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Twister Control/Twister Side Control]] - Primary starting position providing lateral base and leg entanglement for the twister finish
 - [[Positions/Twister Control/Truck]] - Common entry position leading to twister side control and twister setup
 - [[Positions/Twister Control]] - Parent control position within the twister system sharing leg entanglement mechanics
 - [[Positions/Back Control]] - Alternative positional advancement when twister finish is successfully defended
-- [[Positions/Half Guard/Electric Chair]] - Related 10th Planet submission sharing leg entanglement foundations from similar positions
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Twister from Twister Side Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Cervical spine damage (neck injury) | CRITICAL | 3-12 months, potentially permanent |
+| Thoracic spine strain | High | 4-8 weeks |
+| Shoulder dislocation or rotator cuff damage | High | 6-12 weeks |
+| Intercostal muscle tears (rib area) | Medium | 2-4 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression, never spike or jerk the spine
+
+**Tap Signals**:
+- Verbal tap (most common due to limited mobility)
+- Physical hand tap on your body or mat
+- Physical foot tap if accessible
+- Any distress signal or unusual vocalization
+
+
+**Release Protocol**:
+1. Immediately release the head/neck control completely
+2. Release upper body grips and allow opponent to turn face-up
+3. Slowly unwind the leg entanglement
+4. Do not pull or twist during release - let opponent move naturally
+5. Check with partner after release to ensure they are okay
+
+
+**Training Restrictions**:
+- NEVER apply at competition speed in training - always 50% speed maximum
+- NEVER use on beginners or those unfamiliar with the position
+- NEVER apply sudden or explosive pressure to the spine
+- NEVER continue if partner shows any signs of distress
+- ALWAYS allow clear tap access and communicate throughout
+- NEVER practice without supervision from a qualified black belt
+- Avoid training this submission more than once per week to prevent cumulative spine stress
+
 
 </section>
 

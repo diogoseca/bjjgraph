@@ -34,6 +34,18 @@ description: "Master the Piranha Guard Sweep in BJJ. Lapel-based sweep to mount 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Piranha Guard Sweep",
+  "description": "The Piranha Guard Sweep is a lapel-based reversal from Piranha Guard bottom that threads the opponent's collar through the legs to create pulley leverage, combining collar tension, hip drive, and a hook to topple them into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Piranha Guard Sweep in BJJ. Lapel-based sweep to mount 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Piranha Guard Sweep is a lapel-based reversal from Piranha Guard bottom that threads the opponent's collar through the legs to create pulley leverage, combining collar tension, hip drive, and a hook to topple them into mount.**
 
 The Piranha Guard Sweep is an advanced lapel-based sweep that exploits the unique mechanical advantages of the Piranha Guard configuration. By threading the opponent's collar through your legs and maintaining strategic grip placements, you create a pulley-like mechanism that generates exceptional posture-breaking leverage. The sweep combines this lapel tension with coordinated hip movement and hook elevation to off-balance the opponent and complete a reversal to mount, one of the most dominant positions in Brazilian Jiu-Jitsu.
 

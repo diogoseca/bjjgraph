@@ -21,19 +21,19 @@ description: "Master Lasso Guard from bottom position. Learn sweep mechanics, su
     {
       "@type": "HowToStep",
       "name": "Execute Sickle Sweep",
-      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 48% of exchanges from this position.",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 47% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {

@@ -35,6 +35,18 @@ description: "Master Reverse Mount position in BJJ. Strategic guide covering tra
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Mount",
+  "description": "Reverse Mount is a transitional dominant top position—scored as mount (4 points) under IBJJF—where you sit on the opponent's torso facing their feet, trading head control and visibility for fast conversions to standard mount or back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -49,7 +61,9 @@ description: "Master Reverse Mount position in BJJ. Strategic guide covering tra
 
 <section id="overview" class="content-section">
 
-Reverse Mount is a transitional dominant position where the practitioner sits on the opponent's torso while facing away from their head, essentially mounted in the opposite direction from standard mount. This position scores 4 points (same as standard mount in IBJJF) but possesses fundamentally different control dynamics and sustainability characteristics due to its backward orientation.
+**Reverse Mount is a transitional dominant top position—scored as mount (4 points) under IBJJF—where you sit on the opponent's torso facing their feet, trading head control and visibility for fast conversions to standard mount or back control.**
+
+Most practitioners stumble into reverse mount by accident—during a scramble, a stalled back-take, or the moment an opponent spins away beneath a standard mount—rather than seeking it deliberately. Though it scores the same 4 points as standard mount under IBJJF rules, the backward orientation produces fundamentally different control dynamics and sustainability characteristics.
 
 The defining characteristic of reverse mount is the inverted positioning: the top practitioner's back faces the opponent's head while sitting on their chest or abdomen. This creates unique challenges - no head control, inability to see opponent's face for reaction cues, and different weight distribution requirements. However, it also creates opportunities for specific submissions and serves as an excellent transitional platform to standard mount or back control.
 

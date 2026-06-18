@@ -1,6 +1,7 @@
 {
   "name": "Twister SC to Back Take",
   "description": "Master the Twister Side Control to Back Take in BJJ. Complete guide with step-by-step execution, defensive counters, and training strategies for this 10th Planet transition.",
+  "summary": "Twister SC to Back Take is a 10th Planet transition where the top player follows the opponent's defensive turn out of Twister Side Control, threading hooks behind the hips and securing a seatbelt to convert lateral control into dominant back control.",
   "tags": [
     "twister side control",
     "back take",
@@ -78,10 +79,6 @@
     {
       "name": "Escape Twister Side Control",
       "relationship": "Primary defensive transition the bottom player uses to prevent or abort the back take sequence"
-    },
-    {
-      "name": "Truck to Back Control",
-      "relationship": "Analogous back take transition from the closely related truck position sharing similar mechanics and timing"
     },
     {
       "name": "Turn In from Twister Side Control",

@@ -1,6 +1,7 @@
 {
   "name": "Kimura from Modified Scarf Hold",
   "description": "Master the Kimura from Modified Scarf Hold in BJJ. Complete guide covering setup mechanics, finishing details, defensive escapes, and safety protocols.",
+  "summary": "The Kimura from Modified Scarf Hold is a figure-four shoulder lock that exploits the pin's trapped near arm, threading under it to force external rotation of the shoulder behind the opponent's back for the tap.",
   "tags": [
     "bjj",
     "submission",
@@ -135,7 +136,7 @@
     }
   ],
   "attacker": {
-    "name": "from Modified Scarf Hold Attacker",
+    "name": "Kimura from Modified Scarf Hold Attacker",
     "description": "Master attacking the Kimura from Modified Scarf Hold. Step-by-step guide covering grip mechanics, arm isolation, finishing sequence, and submission chains.",
     "overview": "Executing the Kimura from Modified Scarf Hold requires methodical progression from established pin control through arm isolation to submission finish. The attacker must first consolidate chest pressure and near-arm control before transitioning to the figure-four grip. The key mechanical advantage lies in using your entire body—hips, chest, and arms working as a unified system—to overcome the defender's single-arm resistance. Proper weight distribution throughout the attack ensures that submission attempts do not compromise positional control, allowing you to return to the pin if the finish is not immediately available. The submission chain from this position is devastating: kimura threats force arm straightening that opens americanas, while americana defense creates deeper kimura entries, producing a self-reinforcing attack cycle.",
     "key_principles": [
@@ -342,7 +343,7 @@
     ]
   },
   "defender": {
-    "name": "from Modified Scarf Hold Defender",
+    "name": "Kimura from Modified Scarf Hold Defender",
     "description": "Complete defense guide for the Kimura from Modified Scarf Hold. Recognition cues, prevention techniques, escape paths, and guard recovery strategies.",
     "overview": "Defending the Kimura from Modified Scarf Hold demands early recognition and immediate preventive action. The defender's primary challenge is that the modified scarf hold already compromises the near arm, making the transition to kimura grip dangerously seamless for the attacker. Successful defense requires keeping the elbow glued to the ribs, preventing the figure-four grip from being established, and exploiting the attacker's positional adjustments during the submission attempt to create escape opportunities. The window for effective defense narrows rapidly once the attacker secures the figure-four grip—early intervention is far more effective than late-stage escape attempts. Understanding the progression from pin to submission allows the defender to identify and shut down each phase before it develops into the next.",
     "key_principles": [

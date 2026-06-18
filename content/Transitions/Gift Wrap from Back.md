@@ -34,6 +34,18 @@ description: "Master the Gift Wrap from Back transition in BJJ. Learn arm thread
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap from Back",
+  "description": "Gift Wrap from Back is a back-control transition where the attacker threads one arm under the defender's armpit and pins their captured arm high across the chest, upgrading standard back control into a position with roughly half the defensive resistance.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Gift Wrap from Back transition in BJJ. Learn arm thread
 
 <section id="overview" class="content-section">
 
-The Gift Wrap from Back is a positional control transition where the attacker, having established back control, isolates one of the defender's arms by threading their controlling arm underneath the defender's armpit and securing the wrist or forearm on the far side of the body. This action pulls the defender's arm across their own chest in a diagonal line, creating the Gift Wrap configuration that removes roughly half of the defender's defensive capability.
+**Gift Wrap from Back is a back-control transition where the attacker threads one arm under the defender's armpit and pins their captured arm high across the chest, upgrading standard back control into a position with roughly half the defensive resistance.**
+
+Within the back attack hierarchy, the Gift Wrap from Back is the bridge between simply holding the back and reliably finishing from it. Having established back control, the attacker isolates one of the defender's arms by threading their controlling arm underneath the defender's armpit and securing the wrist or forearm on the far side of the body. This action pulls the defender's arm across their own chest in a diagonal line, creating the Gift Wrap configuration that removes roughly half of the defender's defensive capability.
 
 This transition represents a critical intermediate step in the back attack system. Rather than attempting submissions directly from standard back control against a well-defending opponent who maintains active hand fighting, the Gift Wrap entry allows the attacker to methodically strip away defensive tools before committing to finishing attempts. The technique exploits moments when the defender's arm becomes exposed during grip exchanges, or when the defender commits one arm heavily to neck defense, leaving the other arm vulnerable to isolation.
 

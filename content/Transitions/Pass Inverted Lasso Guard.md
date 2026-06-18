@@ -34,6 +34,18 @@ description: "Master passing the inverted lasso guard in BJJ. Complete guide to 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Inverted Lasso Guard",
+  "description": "Passing the Inverted Lasso Guard is a top-game sequence that neutralizes the bottom player's inversion by controlling the free leg, weakening the lasso, then extracting the trapped arm or stacking the hips to clear the legs and reach side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master passing the inverted lasso guard in BJJ. Complete guide to 
 </div>
 
 <section id="overview" class="content-section">
+
+**Passing the Inverted Lasso Guard is a top-game sequence that neutralizes the bottom player's inversion by controlling the free leg, weakening the lasso, then extracting the trapped arm or stacking the hips to clear the legs and reach side control.**
 
 Passing the inverted lasso guard demands specialized technical knowledge that exceeds standard guard passing principles. When an opponent inverts with a lasso hook threaded through your arm, conventional pressure passing and toreando-style passes become ineffective or actively counterproductive. The inverted position creates rotational leverage that converts your forward pressure into sweep momentum, meaning standard instincts work against you. Successful passing requires understanding the specific mechanics of the inversion and applying targeted counter-strategies that neutralize the geometric advantages before they generate unstoppable force.
 

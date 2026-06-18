@@ -33,10 +33,32 @@ description: "Master the kneebar from toe hold control in BJJ. Complete guide to
 }
 </script>
 
-> **SAFETY**: Kneebar from Toe Hold Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Risk: Posterior cruciate ligament (PCL) tear. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Toe Hold Control",
+  "description": "The kneebar from toe hold control is a chain submission that exploits an opponent's toe hold defense — straightening or rotating the trapped leg — by repositioning the hips against the back of the knee to force a hyperextension finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The kneebar from toe hold control is a chain submission that exploits an opponent's toe hold defense — straightening or rotating the trapped leg — by repositioning the hips against the back of the knee to force a hyperextension finish.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Kneebar from Toe Hold Control targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Primary risk: Posterior cruciate ligament (PCL) tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,59 +69,13 @@ description: "Master the kneebar from toe hold control in BJJ. Complete guide to
 
 <section id="overview" class="content-section">
 
-The kneebar from toe hold control is a chain submission that capitalizes on defensive reactions to ankle rotation attacks by transitioning to hyperextension pressure against the knee joint. When an opponent defends the toe hold by straightening their leg, rotating their knee inward, or creating distance, these movements expose the posterior aspect of the knee to attack. The attacker releases their figure-four toe hold grip and repositions their hips against the popliteal fossa while securing the opponent's thigh between their knees, converting the existing leg entanglement into a kneebar finishing position.
+This technique sits at a critical junction in the leg lock hierarchy, weaponizing the predictable defensive reactions that a genuine toe hold threat produces. When an opponent defends the toe hold by straightening their leg, rotating their knee inward, or creating distance, these movements expose the posterior aspect of the knee to attack. The attacker releases their figure-four toe hold grip and repositions their hips against the popliteal fossa while securing the opponent's thigh between their knees, converting the existing leg entanglement into a kneebar finishing position.
 
 This technique embodies dilemma-based leg lock strategy at its core. The toe hold threat forces defensive reactions that open kneebar opportunities, creating a tactical problem with no clean solution: defend the ankle and expose the knee, or protect the knee and remain vulnerable to the toe hold. This two-attack dynamic makes the combination far more dangerous than either submission alone, as each defense feeds directly into the complementary attack.
 
 The positional advantage is substantial because the leg is already isolated within the entanglement before the transition begins. Unlike kneebar entries from passing or scrambles, the attacker starts with established leg control. The primary technical challenge is the grip transition window — the brief moment between releasing the toe hold and securing the kneebar. Maintaining continuous leg control through this window separates successful application from positional loss.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)
-**Starting Position**: [[Positions/Toe Hold Control]]
-**From Position**: [[Positions/Toe Hold Control]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Posterior cruciate ligament (PCL) tear | High | 6-12 months with surgical intervention |
-| Medial collateral ligament (MCL) strain or tear | Medium | 4-8 weeks for grade 1-2, 3-6 months for grade 3 |
-| Joint capsule damage | Medium | 6-12 weeks |
-| Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
-
-
-**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
-
-**Tap Signals**:
-- Verbal tap or verbal signal
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress vocalization or signal
-
-
-**Release Protocol**:
-1. Immediately stop all hip extension the moment tap is received
-2. Release hip pressure by dropping hips away from opponent's leg
-3. Maintain positional control while releasing the leg slowly
-4. Allow opponent to extract their leg at their own pace
-5. Check with partner verbally after release
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply smooth, progressive pressure
-- Never use competition speed or intensity in training rolls
-- Always communicate with training partners about leg lock experience level
-- Never continue pressure after any tap signal
-- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
-
+**Starting Position**: [[Positions/Toe Hold Control]] · **From**: [[Positions/Toe Hold Control]] (Top)
 
 </section>
 
@@ -244,40 +220,61 @@ The positional advantage is substantial because the leg is already isolated with
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Flying Kneebar]]
-- [[Positions/Estima Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Transitions/Estima Lock]]
 - [[Positions/Toe Hold Control]] - Primary starting position for this chain submission transition
 - [[Positions/Kneebar Control]] - Control position established when kneebar is partially secured before finishing
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement offering alternative kneebar entry pathways
 - [[Positions/Ashi Garami]] - Parent positional category governing leg entanglement mechanics
 - [[Positions/Ashi Garami/Saddle]] - Advanced entanglement position accessible during transition sequences
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kneebar from Toe Hold Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Posterior cruciate ligament (PCL) tear | High | 6-12 months with surgical intervention |
+| Medial collateral ligament (MCL) strain or tear | Medium | 4-8 weeks for grade 1-2, 3-6 months for grade 3 |
+| Joint capsule damage | Medium | 6-12 weeks |
+| Meniscus tear (medial or lateral) | High | 3-6 months, may require surgery |
+
+
+**Application Speed**: SLOW and progressive - minimum 3-5 seconds from initial pressure to finish in training
+
+**Tap Signals**:
+- Verbal tap or verbal signal
+- Physical hand tap on opponent or mat
+- Physical foot tap on opponent or mat
+- Any distress vocalization or signal
+
+
+**Release Protocol**:
+1. Immediately stop all hip extension the moment tap is received
+2. Release hip pressure by dropping hips away from opponent's leg
+3. Maintain positional control while releasing the leg slowly
+4. Allow opponent to extract their leg at their own pace
+5. Check with partner verbally after release
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - always apply smooth, progressive pressure
+- Never use competition speed or intensity in training rolls
+- Always communicate with training partners about leg lock experience level
+- Never continue pressure after any tap signal
+- Avoid training kneebars with partners who have pre-existing knee injuries without explicit permission
+
 
 </section>
 

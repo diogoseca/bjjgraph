@@ -34,6 +34,18 @@ description: "Master Estima Lock position in BJJ. Strategic guide covering inver
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Estima Lock Control",
+  "description": "Estima Lock Control is an inverted footlock entanglement in which one grappler traps and twists the opponent's foot heel-high, attacking the ankle joint and Achilles tendon through rotational rather than straight-line pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Estima Lock position in BJJ. Strategic guide covering inver
 </div>
 
 <section id="overview" class="content-section">
+
+**Estima Lock Control is an inverted footlock entanglement in which one grappler traps and twists the opponent's foot heel-high, attacking the ankle joint and Achilles tendon through rotational rather than straight-line pressure.**
 
 The Estima Lock Position represents a sophisticated leg entanglement scenario where one practitioner secures control of their opponent's foot in an inverted orientation, creating a specialized footlock submission threat that attacks the ankle joint and Achilles tendon through rotational mechanics. Named after the Estima brothers (Victor and Braulio) who popularized and refined this technique in high-level competition, this position differs fundamentally from traditional straight ankle locks through its inverted grip configuration and the unique pressure vectors it creates on the targeted structures.
 
@@ -89,7 +103,7 @@ From the top attacking perspective, the position offers significant control adva
 | **Energy Cost** | Medium | Medium |
 | **Time** | Short | Short to Medium |
 
-**Key Difference:** Inverted foot control creates ankle torque
+**Key Difference:** Inverted foot grip trades base for ankle torque
 
 
 
@@ -208,9 +222,7 @@ From the top attacking perspective, the position offers significant control adva
 
 - **[[Transitions/Toe Hold from Estima Lock/Attacker|Toe Hold from Estima Lock]]** (19% of attempts)
 
-- **[[Transitions/Estima Lock/Attacker|Estima Lock]]** (1% of attempts)
-
-- **[[Transitions/Estima Lock/Attacker|Estima Lock]]** (1% of attempts)
+- **[[Transitions/Estima Lock/Attacker|Estima Lock]]** (2% of attempts)
 
 
 ### Common Mistakes

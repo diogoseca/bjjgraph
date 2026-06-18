@@ -34,6 +34,18 @@ description: "Master the level change takedown in BJJ. Complete guide to penetra
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Level Change Takedown",
+  "description": "The Level Change Takedown is a standing wrestling entry where the attacker bends the knees to drop their hips below the opponent's center of gravity, then drives a penetration step forward to attack the legs for a single or double leg finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the level change takedown in BJJ. Complete guide to penetra
 </div>
 
 <section id="overview" class="content-section">
+
+**The Level Change Takedown is a standing wrestling entry where the attacker bends the knees to drop their hips below the opponent's center of gravity, then drives a penetration step forward to attack the legs for a single or double leg finish.**
 
 The level change takedown is the most fundamental wrestling-based attack in Brazilian Jiu-Jitsu, serving as the primary method for bringing an opponent to the ground from standing. The technique centers on lowering your hips through knee flexion to create a penetration angle beneath your opponent's center of gravity, then driving forward to complete the takedown. This mechanic forms the foundation of both single leg and double leg takedown entries, making it the single most important standing skill for any BJJ competitor who engages from the feet.
 
@@ -230,7 +244,7 @@ The level change takedown sits at the heart of the BJJ standing game, connecting
 
 - [[Positions/Clinch]] - Alternative standing engagement that can set up level changes through collar ties and snapdowns
 
-- [[Transitions/Double Leg Finish]] - Primary completion technique following double leg level change entry
+- [[Transitions/Double Leg Entry]] - Primary completion technique following double leg level change entry
 
 - [[Transitions/Single Leg Entry]] - Alternative takedown sharing the same level change penetration mechanics
 

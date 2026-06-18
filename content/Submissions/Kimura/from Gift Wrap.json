@@ -18,6 +18,7 @@
   "starting_position": "Gift Wrap",
   "from_position": "Gift Wrap/Top",
   "success_rate": 62,
+  "summary": "The Kimura from Gift Wrap is a figure-four shoulder lock that converts the already-trapped arm of the Gift Wrap back-control variation into a rotational submission, exploiting the pre-isolated limb to skip the usual grip-fighting phase.",
   "overview": "The Kimura from Gift Wrap exploits the fundamental control advantage of having one arm already isolated across the opponent's body. Unlike the standard Kimura where the attacker must first win a grip battle to isolate the arm, the Gift Wrap position pre-loads half the submission setup by trapping the target limb in a compromised position across the defender's chest.\n\nThe transition from Gift Wrap control to the Kimura grip is the technical crux of this submission. The attacker must shift from the over-under arm threading of the Gift Wrap to a figure-four grip on the trapped arm without creating enough space for the opponent to recover. This grip transition represents both the opportunity and the risk: done correctly, it flows directly into a high-percentage shoulder lock with the opponent's arm already compromised; done carelessly, it releases the Gift Wrap control without securing the finishing position.\n\nStrategically, this submission fits within a larger Gift Wrap attack system where the trapped arm creates multiple threat vectors. The Kimura pairs naturally with the rear naked choke and armbar from the same position, creating a submission chain where defending one attack exposes the opponent to another. The Kimura threat forces the defender to prioritize arm protection, which opens the neck for choke attacks and creates opportunities for positional advancement to mount or crucifix.",
   "safety_considerations": {
     "injury_risks": [
@@ -125,7 +126,7 @@
     }
   ],
   "attacker": {
-    "name": "from Gift Wrap Attacker",
+    "name": "Kimura from Gift Wrap Attacker",
     "description": "Learn to attack with the Kimura from Gift Wrap. Step-by-step guide covering grip transitions, finishing mechanics, and counter responses for BJJ practitioners.",
     "overview": "Attacking the Kimura from Gift Wrap leverages the inherent arm isolation that the Gift Wrap position provides. The trapped arm is already pulled across the opponent's body in a compromised position, which eliminates the initial grip fighting phase that makes the standard Kimura difficult to secure. The primary technical challenge is transitioning from the Gift Wrap threading grip to the figure-four Kimura grip without creating enough space for arm recovery. Once the figure-four is established on the trapped arm, the finish follows standard Kimura mechanics but with the significant advantage of reduced defensive capability from the opponent, whose free arm must handle both neck defense and submission defense simultaneously.",
     "key_principles": [
@@ -315,7 +316,7 @@
     ]
   },
   "defender": {
-    "name": "from Gift Wrap Defender",
+    "name": "Kimura from Gift Wrap Defender",
     "description": "Defend against the Kimura from Gift Wrap in BJJ. Learn recognition cues, early prevention, and escape paths to recover guard or prevent the shoulder lock finish.",
     "overview": "Defending the Kimura from Gift Wrap requires recognizing the submission threat while managing the already compromised position of having one arm trapped across your body. The critical defensive window occurs during the attacker's grip transition from Gift Wrap threading to the figure-four Kimura configuration, when control momentarily loosens. Early recognition of the Kimura setup allows you to address the submission before the figure-four is locked in, when escape becomes significantly more difficult. Understanding the specific vulnerabilities created by the Gift Wrap arm trap is essential for prioritizing defensive actions and timing escape attempts effectively.",
     "key_principles": [

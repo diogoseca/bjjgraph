@@ -34,6 +34,18 @@ description: "Master the Triangle Setup from De La Riva Guard in BJJ. Complete g
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Setup from De La Riva",
+  "description": "The Triangle Setup from De La Riva is a bottom-guard submission entry that uses the DLR hook and a cross-sleeve grip to isolate the opponent's far arm and break their posture, then shoots a leg across the neck into a triangle lock.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Triangle Setup from De La Riva Guard in BJJ. Complete g
 </div>
 
 <section id="overview" class="content-section">
+
+**The Triangle Setup from De La Riva is a bottom-guard submission entry that uses the DLR hook and a cross-sleeve grip to isolate the opponent's far arm and break their posture, then shoots a leg across the neck into a triangle lock.**
 
 The Triangle Setup from De La Riva Guard exploits the angular relationship inherent in DLR to isolate one of the opponent's arms and shoot the legs into triangle position. The technique leverages the existing DLR hook to control the opponent's lead leg while the cross grip on the far sleeve creates the arm isolation necessary for triangle entry. When the opponent's posture breaks forward, the guard player shoots their non-hooking leg across the back of the opponent's neck while simultaneously releasing the DLR hook and closing the triangle.
 
@@ -233,13 +247,13 @@ The Triangle Setup from De La Riva integrates into the broader DLR attack system
 
 - [[Submissions/Triangle Choke]] - Primary submission follow-up from the triangle control position this setup creates
 
-- [[Transitions/Kiss of the Dragon from RDLR]] - Related inversion-based back take from the DLR guard family sharing similar angular mechanics
+- [[Transitions/Kiss of the Dragon]] - Related inversion-based back take from the DLR guard family sharing similar angular mechanics
 
 - [[Transitions/De La Riva Sweep]] - Primary DLR sweep that chains with the triangle threat, creating the dilemma structure where sweep defense opens triangle entries
 
 - [[Positions/Collar Sleeve Guard]] - Related open guard system with strong triangle setup options sharing grip principles
 
-- [[Transitions/Omoplata from Lasso]] - Related submission attack using similar hip rotation mechanics from a complementary guard position
+- [[Omoplata from De La Riva Guard]] - Related submission attack using similar hip rotation and arm-isolation mechanics from the same guard
 
 
 </section>

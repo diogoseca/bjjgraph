@@ -34,6 +34,18 @@ description: "Master Seat Belt Control from Back position in BJJ. Dominant 4-poi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Seat Belt Control Back",
+  "description": "Seat Belt Control is the dominant back-control configuration in which one arm crosses over the opponent's shoulder and the other threads under the far armpit, hands joined across the chest while both hooks pin the hips.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Seat Belt Control from Back position in BJJ. Dominant 4-poi
 </div>
 
 <section id="overview" class="content-section">
+
+**Seat Belt Control is the dominant back-control configuration in which one arm crosses over the opponent's shoulder and the other threads under the far armpit, hands joined across the chest while both hooks pin the hips.**
 
 Seat Belt Control Back represents the gold standard configuration for back control, characterized by a diagonal over-under grip across opponent's chest and back combined with both legs hooked inside opponent's thighs. This position scores 4 points in IBJJF competition and offers the highest submission success rates in Brazilian Jiu-Jitsu, particularly for the rear naked choke and various armbar attacks. The seat belt grip configuration creates a powerful control structure that prevents opponent's rotation while enabling smooth transitions between multiple submission threats.
 
@@ -125,7 +139,7 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (45% of attempts)
+- **[[Transitions/Hand Fighting from Back/Attacker|Hand Fighting from Back]]** (43% of attempts)
 
 - **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (12% of attempts)
 
@@ -139,9 +153,9 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 
 - **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (4% of attempts)
 
-- **[[Transitions/Escape Seat Belt Control/Attacker|Escape Seat Belt Control]]** (0% of attempts)
+- **[[Transitions/Escape Seat Belt Control/Attacker|Escape Seat Belt Control]]** (1% of attempts)
 
-- **[[Transitions/Hand Fight from Seat Belt Control/Attacker|Hand Fight from Seat Belt Control]]** (0% of attempts)
+- **[[Transitions/Hand Fight from Seat Belt Control/Attacker|Hand Fight from Seat Belt Control]]** (1% of attempts)
 
 - **[[Transitions/Seat Belt Peel Escape/Attacker|Seat Belt Peel Escape]]** (1% of attempts)
 

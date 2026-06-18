@@ -35,6 +35,18 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Headquarters Position",
+  "description": "Headquarters Position is a top guard-passing control where the passer traps one of the opponent's legs between their knees, forming a stable hub from which to launch knee cuts, toreandos, and leg drags based on the defender's reactions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -48,6 +60,8 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
 </div>
 
 <section id="overview" class="content-section">
+
+**Headquarters Position is a top guard-passing control where the passer traps one of the opponent's legs between their knees, forming a stable hub from which to launch knee cuts, toreandos, and leg drags based on the defender's reactions.**
 
 Headquarters Position is a fundamental guard passing control position where the top player establishes dominant leg control while maintaining strong base and upright posture. This position serves as the central hub of modern systematic guard passing, acting as a strategic decision point from which the passer selects optimal passing routes based on opponent reactions. The position creates exceptional control with relatively low risk, limiting the bottom player's defensive options while maintaining multiple offensive pathways.
 

@@ -34,6 +34,18 @@ description: "Master Scramble to Guard escape from Twister Control. Step-by-step
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Scramble to Guard",
+  "description": "Scramble to Guard is a Twister Control escape in which the bottom player times the top player's transitional adjustments to break leg and upper-body control, reduce spinal rotation, and recover closed or half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Scramble to Guard escape from Twister Control. Step-by-step
 </div>
 
 <section id="overview" class="content-section">
+
+**Scramble to Guard is a Twister Control escape in which the bottom player times the top player's transitional adjustments to break leg and upper-body control, reduce spinal rotation, and recover closed or half guard.**
 
 The Scramble to Guard represents a critical survival technique when trapped in the dangerous Twister Control position. This escape exploits the momentary transitions and adjustments that occur when the top player attempts to deepen their control or hunt for submissions. Rather than accepting the compromised spinal rotation of Twister Control, this technique creates chaotic movement that disrupts the opponent's leg control and upper body positioning, allowing you to reduce rotation and recover to a defensive guard position.
 
@@ -236,7 +250,7 @@ Scramble to Guard fits within the broader defensive framework for back exposure 
 
 - [[Transitions/Bridge and Turn to Turtle]] - Alternative escape - accepts turtle as intermediate step
 
-- [[Transitions/Rolling to Guard]] - Related technique - rolling guard recovery principles that apply in final phase
+- [[Transitions/Granby Roll to Guard]] - Related technique - rolling guard recovery principles that apply in final phase
 
 - [[Transitions/Hip Escape to Guard]] - Component technique - used in final phase of guard recovery
 

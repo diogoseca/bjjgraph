@@ -34,6 +34,18 @@ description: "Master the Chill Dog escape to half guard in BJJ. Learn timing, hi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Chill Dog",
+  "description": "Escape Chill Dog is a 10th Planet guard recovery that uses a timed lateral hip escape and inside-leg insertion to convert the compact Chill Dog turtle defense directly into an offensive half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Chill Dog escape to half guard in BJJ. Learn timing, hi
 
 <section id="overview" class="content-section">
 
-Escape Chill Dog is a guard recovery technique from the 10th Planet system that transitions the bottom practitioner from the compact Chill Dog turtle defense directly into half guard. Unlike the Granby roll which targets open or closed guard through a rolling motion, this escape uses a lateral hip escape combined with leg insertion to thread the inside leg between the opponent's legs and establish the half guard entanglement. The technique capitalizes on the opponent's weight commitment during top control attempts, using their forward pressure as the trigger for a hip escape that simultaneously creates space and establishes the leg hook needed for half guard.
+**Escape Chill Dog is a 10th Planet guard recovery that uses a timed lateral hip escape and inside-leg insertion to convert the compact Chill Dog turtle defense directly into an offensive half guard.**
+
+Within the 10th Planet defensive hierarchy, the Escape Chill Dog occupies the space between pure survival and offensive guard recovery. Unlike the Granby roll which targets open or closed guard through a rolling motion, this escape uses a lateral hip escape combined with leg insertion to thread the inside leg between the opponent's legs and establish the half guard entanglement. The technique capitalizes on the opponent's weight commitment during top control attempts, using their forward pressure as the trigger for a hip escape that simultaneously creates space and establishes the leg hook needed for half guard.
 
 The escape requires precise timing and explosive hip movement. The bottom player must maintain their defensive frame until the optimal moment, then execute a coordinated sequence of hip escape, leg insertion, and upper body turn that transitions them from the turtle orientation to facing their opponent in half guard. The window for execution is narrow - moving too early telegraphs the escape and allows the top player to adjust, while moving too late allows the opponent to establish dominant controls that prevent the hip movement entirely.
 

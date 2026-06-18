@@ -34,6 +34,18 @@ description: "Learn Counter Heel Hook from 50-50 Guard Bottom. Defensive leg att
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter heel hook",
+  "description": "The Counter Heel Hook is a defensive leg attack from 50-50 Guard Bottom that turns the tables on an attacking opponent: instead of escaping their heel hook, you attack their exposed heel and race them to the finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn Counter Heel Hook from 50-50 Guard Bottom. Defensive leg att
 
 <section id="overview" class="content-section">
 
-The Counter Heel Hook is a defensive leg attack executed from 50-50 Guard Bottom that capitalizes on an opponent's overcommitment to their own heel hook attempt. Rather than simply defending the incoming attack, this technique transforms a defensive situation into an offensive opportunity by attacking the opponent's exposed heel while they focus on finishing their submission.
+**The Counter Heel Hook is a defensive leg attack from 50-50 Guard Bottom that turns the tables on an attacking opponent: instead of escaping their heel hook, you attack their exposed heel and race them to the finish.**
+
+Among the highest-risk exchanges in modern leg locking, the Counter Heel Hook is the boldest response available from 50-50 Guard Bottom. Rather than simply defending the incoming attack, this technique transforms a defensive situation into an offensive opportunity by attacking the opponent's exposed heel while they focus on finishing their own submission.
 
 This counter relies on the fundamental principle that when an attacker commits fully to a heel hook, they often sacrifice their own heel defense to maximize breaking pressure. The bottom player exploits this momentary vulnerability by simultaneously defending their own heel through knee rotation while securing offensive grips on the opponent's heel. The technique requires precise timing, excellent grip fighting, and the ability to race the opponent to a finish.
 

@@ -34,6 +34,18 @@ description: "Master the Inside Heel Hook from Ushiro Ashi-Garami. Step-by-step 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inside Heel Hook from Ushiro",
+  "description": "The Inside Heel Hook from Ushiro is a leg-lock finish executed from the reversed Ushiro Ashi-Garami entanglement, attacking the knee's rotational integrity with grips kept tight to your own hip line rather than reaching across the opponent's inverted body.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Inside Heel Hook from Ushiro Ashi-Garami. Step-by-step 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Inside Heel Hook from Ushiro is a leg-lock finish executed from the reversed Ushiro Ashi-Garami entanglement, attacking the knee's rotational integrity with grips kept tight to your own hip line rather than reaching across the opponent's inverted body.**
 
 The Inside Heel Hook from Ushiro Ashi-Garami represents one of the most technically demanding finishes in modern leg lock systems. This submission targets the knee's rotational integrity through the reversed leg entanglement configuration, requiring significant adjustments to standard heel hook mechanics due to the opponent's inverted hip position.
 

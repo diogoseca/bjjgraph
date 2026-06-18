@@ -34,6 +34,18 @@ description: "Master Zombie position in BJJ. Defensive turtle variation with uni
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Zombie",
+  "description": "Zombie is a 10th Planet half-guard variation where the bottom player fuses lockdown leg control with active framing and underhooks to stall passes while threatening Old School sweeps and Electric Chair attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Zombie position in BJJ. Defensive turtle variation with uni
 </div>
 
 <section id="overview" class="content-section">
+
+**Zombie is a 10th Planet half-guard variation where the bottom player fuses lockdown leg control with active framing and underhooks to stall passes while threatening Old School sweeps and Electric Chair attacks.**
 
 The Zombie position represents a unique defensive structure within the 10th Planet Jiu-Jitsu system, combining turtle mechanics with lockdown control to create both escape opportunities and offensive threats. This position is characterized by the bottom practitioner using active framing, lockdown entanglements, and constant movement to frustrate passing attempts while setting up sweeps and guard recovery.
 

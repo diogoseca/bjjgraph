@@ -34,6 +34,18 @@ description: "Master Butterfly Half Guard in BJJ - a powerful hybrid position co
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Half Guard",
+  "description": "Butterfly Half Guard is a hybrid bottom guard that traps one of the opponent's legs in half guard while inserting a butterfly hook under their free leg, creating sweep leverage and quick transitions to deep half, X-guard, and back attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Butterfly Half Guard in BJJ - a powerful hybrid position co
 </div>
 
 <section id="overview" class="content-section">
+
+**Butterfly Half Guard is a hybrid bottom guard that traps one of the opponent's legs in half guard while inserting a butterfly hook under their free leg, creating sweep leverage and quick transitions to deep half, X-guard, and back attacks.**
 
 Butterfly Half Guard represents a sophisticated fusion of two fundamental guard systems in Brazilian Jiu-Jitsu, combining the mechanical elevation potential of butterfly guard with the leg entanglement control of half guard. This hybrid position creates an asymmetric platform where one leg is trapped in traditional half guard configuration while a butterfly hook is inserted under the opponent's free leg. The result is a versatile offensive position that maintains defensive security while offering multiple high-percentage sweeping opportunities and seamless transitions to related guard systems.
 

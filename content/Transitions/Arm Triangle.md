@@ -34,6 +34,18 @@ description: "Master the Arm Triangle choke from High Mount. Step-by-step setup,
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Triangle",
+  "description": "The Arm Triangle from High Mount is a head-and-arm blood choke where the attacker drives the opponent's arm across their own neck and threads a figure-four grip behind the head, compressing both carotids with the trapped shoulder.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Arm Triangle choke from High Mount. Step-by-step setup,
 </div>
 
 <section id="overview" class="content-section">
+
+**The Arm Triangle from High Mount is a head-and-arm blood choke where the attacker drives the opponent's arm across their own neck and threads a figure-four grip behind the head, compressing both carotids with the trapped shoulder.**
 
 The Arm Triangle from High Mount is a powerful head-and-arm choke that uses the opponent's own shoulder as a choking mechanism against their carotid artery. This technique exploits the natural defensive reaction of opponents who turn away from pressure, trapping their arm across their neck and creating a figure-four choking structure with your arms around their head and trapped arm.
 

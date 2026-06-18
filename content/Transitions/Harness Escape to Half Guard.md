@@ -34,6 +34,18 @@ description: "Master the Harness Escape to Half Guard in BJJ. Complete guide to 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Harness Escape to Half Guard",
+  "description": "The Harness Escape to Half Guard is a back-control escape where the bottom player neutralizes the seatbelt grip with two-on-one control, hip escapes diagonally toward the underhook side, and threads the legs to recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Harness Escape to Half Guard in BJJ. Complete guide to 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Harness Escape to Half Guard is a back-control escape where the bottom player neutralizes the seatbelt grip with two-on-one control, hip escapes diagonally toward the underhook side, and threads the legs to recover half guard.**
 
 The Harness Escape to Half Guard is a fundamental defensive transition that addresses one of the most common survival scenarios in BJJ: escaping back control when the opponent has established a seatbelt grip. Rather than attempting a complete escape to turtle or standing position, this technique targets the intermediate objective of recovering half guard, which offers immediate offensive opportunities through sweeps, back takes, and guard transitions. The escape relies on systematic grip fighting to neutralize the choking arm, followed by precise hip movement to create the angle needed to catch the opponent's leg.
 

@@ -34,6 +34,18 @@ description: "Master the backstep from reverse half guard in BJJ. Complete guide
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backstep from Reverse Half",
+  "description": "Backstep from Reverse Half is a top-position back take where the passer swings the free leg behind an opponent caught in reverse half guard, then locks a seatbelt and inserts both hooks to finish in back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the backstep from reverse half guard in BJJ. Complete guide
 </div>
 
 <section id="overview" class="content-section">
+
+**Backstep from Reverse Half is a top-position back take where the passer swings the free leg behind an opponent caught in reverse half guard, then locks a seatbelt and inserts both hooks to finish in back control.**
 
 The backstep from reverse half guard is a decisive back-taking technique executed when the top player has achieved the reverse half guard configuration, positioned behind the bottom player with one leg still trapped in their half guard. This transition capitalizes on the natural back exposure created by the reverse orientation, using a coordinated stepping motion to swing the free leg behind the opponent and establish hooks for full back control. The technique is most effective when the bottom player attempts to turn and face the top player, as their rotation further exposes the back and compromises their defensive base.
 

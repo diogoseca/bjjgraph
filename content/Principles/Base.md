@@ -143,6 +143,16 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Base",
+  "description": "Base is the principle of maintaining a stable platform through optimal weight distribution, skeletal alignment, and connection points, allowing a practitioner to resist sweeps and off-balancing while generating control and pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
 
 ## What is Base?
 
-Base is a fundamental principle describing the ability to maintain stable positioning through proper weight distribution, alignment, and connection points that maximize control while minimizing vulnerability to displacement. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.
+**Base is the principle of maintaining a stable platform through optimal weight distribution, skeletal alignment, and connection points, allowing a practitioner to resist sweeps and off-balancing while generating control and pressure.**
+
+Rooted in the judo concept of a stable foundation, base is among the first principles a beginner is taught and one of the last a competitor fully masters. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ, from standing exchanges to deep submission entanglements. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.
 
 </section>
 

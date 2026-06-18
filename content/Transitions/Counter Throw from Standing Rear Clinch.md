@@ -34,6 +34,18 @@ description: "Master counter throws from standing rear clinch in BJJ. Learn late
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Counter Throw from Standing Rear Clinch",
+  "description": "The Counter Throw from Standing Rear Clinch is a high-risk reversal in which the bottom player redirects the controlling opponent's forward pressure and locked grip into a throwing arc, dumping them onto their back to ideally land in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master counter throws from standing rear clinch in BJJ. Learn late
 </div>
 
 <section id="overview" class="content-section">
+
+**The Counter Throw from Standing Rear Clinch is a high-risk reversal in which the bottom player redirects the controlling opponent's forward pressure and locked grip into a throwing arc, dumping them onto their back to ideally land in mount.**
 
 The counter throw from standing rear clinch is a high-risk, high-reward reversal technique executed by the controlled practitioner when an opponent has established chest-to-back control from standing. Rather than attempting to strip grips or create separation incrementally, the bottom player redirects the opponent's forward pressure and committed grip structure into a throwing arc that lands the opponent on their back, ideally transitioning directly into mount. This technique exploits the fundamental vulnerability of rear clinch control: the controlling player's weight is loaded forward onto the controlled player's back, making them susceptible to being pulled over center of gravity if the bottom player drops their level and rotates explosively.
 
@@ -238,11 +252,11 @@ The counter throw from standing rear clinch sits at the intersection of defensiv
 
 - [[Transitions/Body Lock Takedown from Clinch]] - Related standing takedown technique sharing hip loading and level change mechanics
 
-- [[Transitions/Mat Return from Standing Rear Clinch]] - Opponent's primary offensive transition that the counter throw aims to preempt
+- [[Transitions/Mat Return from Rear Clinch]] - Opponent's primary offensive transition that the counter throw aims to preempt
 
 - [[Positions/Clinch]] - Neutral standing position that may result from partially successful counter throw attempts
 
-- [[Positions/Standing Position]] - Neutral standing state achieved if throw creates full separation without ground transition
+- [[Transitions/Snap Down to Front Headlock]] - Alternative offensive escape from the same position when opponent's posture breaks forward
 
 - [[Positions/Side Control]] - Alternative landing position from lateral drop variant when full mount rotation is incomplete
 

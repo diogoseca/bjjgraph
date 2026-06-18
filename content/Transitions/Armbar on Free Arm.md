@@ -34,6 +34,18 @@ description: "Master the Armbar on Free Arm from Gift Wrap in BJJ. Detailed exec
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar on Free Arm",
+  "description": "Armbar on Free Arm is a back-attack submission setup from Gift Wrap top where the attacker isolates the opponent's lone untrapped arm and swings into an armbar, exploiting the dilemma between defending the neck and protecting the arm.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Armbar on Free Arm from Gift Wrap in BJJ. Detailed exec
 </div>
 
 <section id="overview" class="content-section">
+
+**Armbar on Free Arm is a back-attack submission setup from Gift Wrap top where the attacker isolates the opponent's lone untrapped arm and swings into an armbar, exploiting the dilemma between defending the neck and protecting the arm.**
 
 The Armbar on Free Arm is a high-percentage submission attack from the Gift Wrap position that capitalizes on the inherent vulnerability of the defender's untrapped arm. When you secure Gift Wrap control, one arm is trapped across the opponent's body, leaving their remaining arm as the sole defensive tool. This isolation creates a systematic opportunity to attack that free arm with an armbar while maintaining dominant back control.
 

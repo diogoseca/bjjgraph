@@ -1,6 +1,7 @@
 {
   "name": "Level Change Takedown",
   "description": "Master the level change takedown in BJJ. Complete guide to penetration steps, finishing mechanics, counters, and chain wrestling from standing position.",
+  "summary": "The Level Change Takedown is a standing wrestling entry where the attacker bends the knees to drop their hips below the opponent's center of gravity, then drives a penetration step forward to attack the legs for a single or double leg finish.",
   "tags": [
     "bjj",
     "transition",
@@ -77,7 +78,7 @@
       "relationship": "Alternative standing engagement that can set up level changes through collar ties and snapdowns"
     },
     {
-      "name": "Double Leg Finish",
+      "name": "Double Leg Entry",
       "relationship": "Primary completion technique following double leg level change entry"
     },
     {

@@ -34,6 +34,18 @@ description: "Master the Z-Guard to Half Guard transition in BJJ. Step-by-step g
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Z-Guard to Half Guard",
+  "description": "Z-Guard to Half Guard is a bottom-player transition that withdraws the elevated knee shield and re-establishes an underhook-based half guard, trading defensive distance for the close-range offense of old school sweeps, back takes, and deep half entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Z-Guard to Half Guard transition in BJJ. Step-by-step g
 </div>
 
 <section id="overview" class="content-section">
+
+**Z-Guard to Half Guard is a bottom-player transition that withdraws the elevated knee shield and re-establishes an underhook-based half guard, trading defensive distance for the close-range offense of old school sweeps, back takes, and deep half entries.**
 
 The Z-Guard to Half Guard transition represents a deliberate tactical shift from a distance-management-oriented guard to a close-range offensive platform. While Z-Guard excels at preventing the top player from settling their weight through the elevated knee shield, its very structure can limit access to the powerful underhook-based sweeping systems that define modern half guard play. By withdrawing the knee shield and establishing a traditional half guard configuration, the bottom player trades defensive distance for offensive proximity, gaining access to underhook sweeps, old school sweeps, back takes, and deep half guard entries that require chest-to-chest engagement rather than frame separation.
 

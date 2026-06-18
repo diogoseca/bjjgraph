@@ -34,6 +34,18 @@ description: "Master the Grip Break and Face escape from standing back control. 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Grip Break and Face",
+  "description": "Grip Break and Face is a standing back control escape where the bottom player strips the opponent's harness grip with two-on-one control, then explosively rotates their hips to turn and face them in a neutral clinch.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Grip Break and Face escape from standing back control. 
 
 <section id="overview" class="content-section">
 
-The Grip Break and Face technique is a fundamental standing back control escape that prioritizes breaking the opponent's harness grip while simultaneously rotating to face them. This escape exploits the inherent instability of standing back control by using explosive hip rotation combined with systematic grip fighting to transition from a highly vulnerable defensive position to a neutral clinch where both practitioners can engage face-to-face.
+**Grip Break and Face is a standing back control escape where the bottom player strips the opponent's harness grip with two-on-one control, then explosively rotates their hips to turn and face them in a neutral clinch.**
+
+Among the escapes available from standing back control, Grip Break and Face is the highest-percentage option whenever the opponent has secured a harness but has not yet inserted hooks or a body triangle. It exploits the inherent instability of vertical back control: the attacker must constantly manage their own balance, and by stripping their primary grip you create the brief window needed to spin to safety.
 
 The technique operates on the principle that standing back control is transitional by nature - the attacker must constantly manage their balance while maintaining control. By targeting the harness grip first, you eliminate their primary control mechanism, then use the moment of grip disruption to explosively turn your hips and shoulders to face the opponent. The timing is critical: the rotation must occur in the window between breaking the grip and the opponent re-establishing control.
 

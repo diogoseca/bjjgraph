@@ -34,6 +34,18 @@ description: "Master the Switch to Triangle in BJJ. Learn to chain failed attack
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Switch to Triangle",
+  "description": "Switch to Triangle is a closed-guard submission chain that turns an opponent's defense of a failed attack—armbar, kimura, omoplata, or sweep—into a high-percentage triangle choke entry by exploiting the arm isolation and broken posture their defense creates.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Switch to Triangle in BJJ. Learn to chain failed attack
 </div>
 
 <section id="overview" class="content-section">
+
+**Switch to Triangle is a closed-guard submission chain that turns an opponent's defense of a failed attack—armbar, kimura, omoplata, or sweep—into a high-percentage triangle choke entry by exploiting the arm isolation and broken posture their defense creates.**
 
 The Switch to Triangle represents a fundamental submission chain concept in Brazilian Jiu-Jitsu, allowing practitioners to seamlessly transition from failed or defended attacks into a high-percentage triangle choke. This transition is most commonly executed from closed guard when opponents defend against armbar attempts, kimura attacks, or other offensive techniques by pulling their arm free or posturing up. The beauty of this technique lies in its ability to capitalize on the opponent's defensive reactions - as they focus on escaping one submission, they often create the perfect opening for the triangle. Understanding this transition transforms individual techniques into a flowing attack system where every defense opens a new offensive opportunity.
 

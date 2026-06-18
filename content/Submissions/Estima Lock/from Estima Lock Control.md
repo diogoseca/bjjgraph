@@ -33,10 +33,32 @@ description: "Master the Estima Lock finish from Estima Lock control. Complete g
 }
 </script>
 
-> **SAFETY**: Estima Lock from Estima Lock Control targets the Foot and ankle joints (dorsiflexion of foot). Risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Estima Lock from Estima Lock Control",
+  "description": "The Estima Lock from Estima Lock Control is the direct finishing sequence of an inverted footlock, applying combined dorsiflexion and rotational pressure to the trapped ankle through a consolidated figure-four grip and hip fulcrum once positional control is fully secured.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Estima Lock from Estima Lock Control is the direct finishing sequence of an inverted footlock, applying combined dorsiflexion and rotational pressure to the trapped ankle through a consolidated figure-four grip and hip fulcrum once positional control is fully secured.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Foot and ankle joints (dorsiflexion of foot)</span>
+<span class="meta-chip">55% success</span>
+</div>
+
+> [!danger] Safety
+> Estima Lock from Estima Lock Control targets the Foot and ankle joints (dorsiflexion of foot). Primary risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,56 +75,7 @@ The finishing sequence from established control focuses on three sequential mech
 
 This position-specific finish demands particular attention to safety due to the rapid onset of dangerous pressure once all mechanical components align properly. The transition from controllable discomfort to ligament-threatening force on the ankle occurs within a narrow window of approximately two to three seconds, making controlled application and constant communication with training partners essential. Practitioners at purple belt and above should develop sensitivity to the mechanical completion point where further pressure serves no training purpose and risks injury to the trapped foot and ankle complex.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Foot and ankle joints (dorsiflexion of foot)
-**Starting Position**: [[Positions/Estima Lock Control]]
-**From Position**: [[Positions/Estima Lock Control]] (Top)
-**Success Rate**: 55%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments) | High | 2-8 weeks depending on severity |
-| Foot ligament damage (tarsometatarsal joint injury) | Medium | 3-6 weeks |
-| Achilles tendon strain | Medium | 2-4 weeks |
-| Metatarsal stress or fracture (with extreme force) | CRITICAL | 6-12 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial pressure to maximum force. Allow partner multiple tap opportunities.
-
-**Tap Signals**:
-- Verbal tap (shout 'TAP' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap with free leg
-- Any distress signal or unusual sounds
-- Loss of resistance (unconsciousness risk)
-
-
-**Release Protocol**:
-1. Immediately release hand grip on foot
-2. Remove attacking leg from behind opponent's knee
-3. Allow opponent's foot to return to neutral position naturally
-4. Maintain visual contact to ensure partner is okay
-5. Never jerk or spike the release - controlled withdrawal only
-
-
-**Training Restrictions**:
-- Never apply at competition speed during training
-- Never apply to beginners or those unfamiliar with leg locks
-- Always ensure partner knows the tap signals before drilling
-- Never apply with sudden jerking motions
-- Always allow clear tap access with hands
-- Stop immediately if partner's foot makes unusual sounds
-- Communicate throughout application in drilling
-
+**Starting Position**: [[Positions/Estima Lock Control]] · **From**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
 
@@ -260,39 +233,61 @@ This position-specific finish demands particular attention to safety due to the 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Estima Lock]]
 - [[Submissions/Achilles Lock]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Estima Lock Control]] - Primary control position from which this finish is executed
 - [[Positions/Ashi Garami/50-50 Guard]] - Common entry position where Estima Lock control is established
 - [[Positions/Ashi Garami]] - Related leg entanglement system with overlapping transition pathways
-- [[Transitions/Estima Lock]] - Dedicated finishing transition closely related to this submission
-- [[Submissions/Achilles Lock]] - Similar foot lock with comparable grip mechanics and target area
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Estima Lock from Estima Lock Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments) | High | 2-8 weeks depending on severity |
+| Foot ligament damage (tarsometatarsal joint injury) | Medium | 3-6 weeks |
+| Achilles tendon strain | Medium | 2-4 weeks |
+| Metatarsal stress or fracture (with extreme force) | CRITICAL | 6-12 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial pressure to maximum force. Allow partner multiple tap opportunities.
+
+**Tap Signals**:
+- Verbal tap (shout 'TAP' or any verbal signal)
+- Physical hand tap on partner's body or mat
+- Physical foot tap with free leg
+- Any distress signal or unusual sounds
+- Loss of resistance (unconsciousness risk)
+
+
+**Release Protocol**:
+1. Immediately release hand grip on foot
+2. Remove attacking leg from behind opponent's knee
+3. Allow opponent's foot to return to neutral position naturally
+4. Maintain visual contact to ensure partner is okay
+5. Never jerk or spike the release - controlled withdrawal only
+
+
+**Training Restrictions**:
+- Never apply at competition speed during training
+- Never apply to beginners or those unfamiliar with leg locks
+- Always ensure partner knows the tap signals before drilling
+- Never apply with sudden jerking motions
+- Always allow clear tap access with hands
+- Stop immediately if partner's foot makes unusual sounds
+- Communicate throughout application in drilling
+
 
 </section>
 

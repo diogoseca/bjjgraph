@@ -34,6 +34,18 @@ description: "Master the Back Take from Crackhead Control in BJJ. Step-by-step e
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Take",
+  "description": "The Back Take from Crackhead Control is a 10th Planet turtle-attack transition where the top player exploits chair-sit hip pressure and an inside leg hook to rotate around the defender's body and secure dominant back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Back Take from Crackhead Control in BJJ. Step-by-step e
 </div>
 
 <section id="overview" class="content-section">
+
+**The Back Take from Crackhead Control is a 10th Planet turtle-attack transition where the top player exploits chair-sit hip pressure and an inside leg hook to rotate around the defender's body and secure dominant back control.**
 
 The Back Take from Crackhead Control represents one of the highest-percentage transitions in modern no-gi grappling, capitalizing on the unique chair-sit mechanics of the crackhead position to secure the most dominant control in BJJ. This transition exploits the inherent hip isolation created by sitting on your opponent's lower back, using your inside leg hook as a pivot point to rotate around their body while maintaining constant chest-to-back connection throughout the movement.
 
@@ -220,8 +234,6 @@ The Back Take from Crackhead Control serves as the primary advancement pathway i
 - [[Positions/Crackhead Control]] - Starting position
 
 - [[Positions/Back Control]] - Target position
-
-- [[Transitions/Chair Sit to Back]] - Related technique from similar starting position
 
 - [[Transitions/Crab Ride to Back]] - Alternative pathway using intermediate control
 

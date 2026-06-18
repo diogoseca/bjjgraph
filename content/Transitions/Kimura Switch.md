@@ -34,6 +34,18 @@ description: "Master the Kimura Switch from Aoki Lock in BJJ. Transition to Kimu
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura Switch",
+  "description": "The Kimura Switch is a top-position transition that abandons the leg-entangled Aoki Lock for a figure-four Kimura grip, converting a defended shoulder lock into Kimura Trap control without surrendering top position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Kimura Switch from Aoki Lock in BJJ. Transition to Kimu
 </div>
 
 <section id="overview" class="content-section">
+
+**The Kimura Switch is a top-position transition that abandons the leg-entangled Aoki Lock for a figure-four Kimura grip, converting a defended shoulder lock into Kimura Trap control without surrendering top position.**
 
 The Kimura Switch represents a critical transitional technique from Aoki Lock top position that converts leg-entangled shoulder control into traditional Kimura grip control. When opponents defend the Aoki Lock by rotating their shoulder inward or blocking hip pressure, the Kimura Switch provides an alternative attack vector that maintains offensive pressure while changing the mechanical angle of shoulder manipulation.
 

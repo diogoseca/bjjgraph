@@ -34,39 +34,51 @@ description: "Master the Armbar submission in BJJ. Complete guide covering setup
 }
 </script>
 
-> **SAFETY**: Armbar targets the Elbow joint. Risk: Elbow hyperextension. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar",
+  "description": "The Armbar is a fundamental BJJ joint lock that hyperextends the opponent's elbow by trapping their straightened arm between your legs and bridging your hips against the joint as a fulcrum, forcing the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What is the Armbar?", "acceptedAnswer": { "@type": "Answer", "text": "The Armbar is a fundamental BJJ joint lock that hyperextends the opponent\u0027s elbow by trapping their straightened arm between your legs and bridging your hips against the joint as a fulcrum, forcing the tap." } },
+    { "@type": "Question", "name": "What positions can you finish the Armbar from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Armbar from Mount, Crucifix, Closed Guard, Side Control, Back Control, Armbar Control, S Mount, Technical Mount, High Mount, Knee on Belly." } },
+    { "@type": "Question", "name": "Is the Armbar dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Armbar targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early and release immediately on the tap." } }
+  ]
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+**The Armbar is a fundamental BJJ joint lock that hyperextends the opponent's elbow by trapping their straightened arm between your legs and bridging your hips against the joint as a fulcrum, forcing the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Arm Lock</span>
+<span class="meta-chip">Targets Elbow joint</span>
+<span class="meta-chip">~50% avg</span>
+</div>
+
+> [!danger] Safety
+> Armbar targets the Elbow joint. Primary risk: Elbow hyperextension. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Juji Gatame</strong>, <strong>Arm Bar</strong>, <strong>Straight Armbar</strong></p>
 </aside>
-
-<section id="variants" class="content-section">
-
-## Position Variants
-
-| From Position | Success Rate | Top Injury Risk | Key Difference |
-|---------------|-------------|-----------------|----------------|
-| [[Armbar/Reverse Armbar from Mount|Mount]] | 58% | Elbow hyperextension with lateral stress |  |
-| [[Armbar/Rolling Armbar from Closed Guard|Closed Guard]] | 60% | Elbow hyperextension or dislocation |  |
-| [[Armbar/from Armbar Control|Armbar Control]] | 58% | Elbow hyperextension with collateral ligament sprain or tear |  |
-| [[Armbar/from Back|Back Control]] | 60% | Elbow hyperextension or dislocation |  |
-| [[Armbar/from Back with Legs|Back Control]] | 58% | Elbow hyperextension or dislocation |  |
-| [[Armbar/from Crucifix|Crucifix]] | 62% | Elbow hyperextension |  |
-| [[Armbar/from Guard|Closed Guard]] | 62% | Elbow hyperextension |  |
-| [[Armbar/from High Mount|High Mount]] | 50% | Elbow hyperextension causing ligament tears (UCL, LCL, annular ligament) |  |
-| [[Armbar/from Knee on Belly|Knee on Belly]] | 45% | Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and medial structures |  |
-| [[Armbar/from Mount|Mount]] | 68% | Elbow hyperextension |  |
-| [[Armbar/from S Mount|S Mount]] | 55% | Hyperextension of the elbow joint causing ligament damage to ulnar and radial collateral ligaments |  |
-| [[Armbar/from Side Control|Side Control]] | 62% | Elbow hyperextension |  |
-| [[Armbar/from Technical Mount|Technical Mount]] | 55% | Hyperextension of the elbow joint causing ligament damage to the ulnar collateral ligament and radial collateral ligament |  |
-
-
-</section>
-
-
 <section id="overview" class="content-section">
 
 The Armbar (Juji-Gatame) is one of the most fundamental and high-percentage submissions in Brazilian Jiu-Jitsu. This technique involves isolating the opponent's arm and hyperextending the elbow joint by using your hips as the fulcrum. The Armbar can be executed from virtually every major position in BJJ, making it one of the most versatile submissions available. From mount, guard, back control, side control, and even standing positions, the Armbar remains a constant threat throughout any grappling exchange.
@@ -75,10 +87,53 @@ The mechanics of the Armbar rely on controlling the opponent's wrist while posit
 
 As one of the first submissions taught to beginners and one of the last perfected by elite competitors, the Armbar bridges every level of grappling proficiency. Its prevalence in both gi and no-gi competition, MMA, and self-defense contexts makes it arguably the single most important submission in the grappling canon.
 
-**Category**: Joint Lock
-**Type**: Arm Lock
-**Target Area**: Elbow joint
-**Success Rate**: 50% (average across variants)
+</section>
+
+
+<section id="variants" class="content-section">
+
+## What positions can you finish from?
+
+
+<div class="variants-table">
+
+| From Position | Seat | Success | Play as Attacker | Play as Defender |
+|---|---|---|---|---|
+| [[Submissions/Armbar/from Mount|Mount]] | Top | 68% | [[Submissions/Armbar/from Mount/Attacker|Attack →]] | [[Submissions/Armbar/from Mount/Defender|Defend →]] |
+| [[Submissions/Armbar/from Crucifix|Crucifix]] | Top | 62% | [[Submissions/Armbar/from Crucifix/Attacker|Attack →]] | [[Submissions/Armbar/from Crucifix/Defender|Defend →]] |
+| [[Submissions/Armbar/from Guard|Closed Guard]] | Bottom | 62% | [[Submissions/Armbar/from Guard/Attacker|Attack →]] | [[Submissions/Armbar/from Guard/Defender|Defend →]] |
+| [[Submissions/Armbar/from Side Control|Side Control]] | Top | 62% | [[Submissions/Armbar/from Side Control/Attacker|Attack →]] | [[Submissions/Armbar/from Side Control/Defender|Defend →]] |
+| [[Submissions/Armbar/Rolling Armbar from Closed Guard|Closed Guard]] | Bottom | 60% | [[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Attack →]] | [[Submissions/Armbar/Rolling Armbar from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Armbar/from Back|Back Control]] | Top | 60% | [[Submissions/Armbar/from Back/Attacker|Attack →]] | [[Submissions/Armbar/from Back/Defender|Defend →]] |
+| [[Submissions/Armbar/Reverse Armbar from Mount|Mount]] | Top | 58% | [[Submissions/Armbar/Reverse Armbar from Mount/Attacker|Attack →]] | [[Submissions/Armbar/Reverse Armbar from Mount/Defender|Defend →]] |
+| [[Submissions/Armbar/from Armbar Control|Armbar Control]] | Top | 58% | [[Submissions/Armbar/from Armbar Control/Attacker|Attack →]] | [[Submissions/Armbar/from Armbar Control/Defender|Defend →]] |
+| [[Submissions/Armbar/from Back with Legs|Back Control]] | Top | 58% | [[Submissions/Armbar/from Back with Legs/Attacker|Attack →]] | [[Submissions/Armbar/from Back with Legs/Defender|Defend →]] |
+| [[Submissions/Armbar/from S Mount|S Mount]] | Top | 55% | [[Submissions/Armbar/from S Mount/Attacker|Attack →]] | [[Submissions/Armbar/from S Mount/Defender|Defend →]] |
+| [[Submissions/Armbar/from Technical Mount|Technical Mount]] | Top | 55% | [[Submissions/Armbar/from Technical Mount/Attacker|Attack →]] | [[Submissions/Armbar/from Technical Mount/Defender|Defend →]] |
+| [[Submissions/Armbar/from High Mount|High Mount]] | Top | 50% | [[Submissions/Armbar/from High Mount/Attacker|Attack →]] | [[Submissions/Armbar/from High Mount/Defender|Defend →]] |
+| [[Submissions/Armbar/from Knee on Belly|Knee on Belly]] | Top | 45% | [[Submissions/Armbar/from Knee on Belly/Attacker|Attack →]] | [[Submissions/Armbar/from Knee on Belly/Defender|Defend →]] |
+
+
+</div>
+
+
+
+</section>
+
+
+<section id="related" class="content-section">
+
+## Related
+- [[Submissions/Kimura]] - Complementary arm attack that chains naturally when armbar is defended by bending the elbow
+- [[Submissions/Triangle Choke]] - Common combination from guard where failed triangle transitions to armbar and vice versa
+- [[Submissions/Omoplata]] - Alternative shoulder attack from guard sharing similar hip rotation entries
+- [[Submissions/Americana]] - Complementary arm lock from mount that opens armbar opportunities when defended
+- [[Positions/Armbar Control]] - Primary control position for isolating and finishing the armbar
+- [[Positions/Mount]] - Most fundamental starting position for armbar setups and transitions
+- [[Positions/Closed Guard]] - Key guard position offering multiple armbar entry pathways
+- [[Positions/Back Control]] - Dominant position with high-percentage armbar transitions via arm isolation
+- [[Positions/Mount/Technical Mount]] - Advanced mount variation with stepped leg optimized for armbar swing-over entry
+- [[Positions/Knee on Belly]] - Dynamic control position creating spinning armbar opportunities on defensive reactions
 
 </section>
 
@@ -121,62 +176,6 @@ As one of the first submissions taught to beginners and one of the last perfecte
 - Never fully extend the joint in training - stop at first sign of resistance
 - Never practice on partners with existing elbow injuries without instructor supervision
 
-
-</section>
-
-
-
-<section id="from-positions" class="content-section">
-
-## From Which Positions?
-
-- [[Positions/Closed Guard]]
-- [[Positions/Crucifix]]
-- [[Positions/Mount/Technical Mount]]
-- [[Positions/Mount]]
-- [[Positions/Knee on Belly]]
-- [[Positions/Mount/S Mount]]
-- [[Positions/Armbar Control]]
-- [[Positions/Side Control]]
-- [[Positions/Back Control]]
-- [[Positions/Mount/High Mount]]
-
-
-</section>
-
-<section id="related-submissions" class="content-section">
-
-## Related Submissions
-
-- [[Submissions/Kimura]] - Complementary arm attack that chains naturally when armbar is defended by bending the elbow
-- [[Submissions/Triangle Choke]] - Common combination from guard where failed triangle transitions to armbar and vice versa
-- [[Submissions/Omoplata]] - Alternative shoulder attack from guard sharing similar hip rotation entries
-- [[Submissions/Americana]] - Complementary arm lock from mount that opens armbar opportunities when defended
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Positions/Armbar Control]] - Primary control position for isolating and finishing the armbar
-- [[Positions/Mount]] - Most fundamental starting position for armbar setups and transitions
-- [[Positions/Closed Guard]] - Key guard position offering multiple armbar entry pathways
-- [[Positions/Back Control]] - Dominant position with high-percentage armbar transitions via arm isolation
-- [[Positions/Mount/Technical Mount]] - Advanced mount variation with stepped leg optimized for armbar swing-over entry
-- [[Positions/Knee on Belly]] - Dynamic control position creating spinning armbar opportunities on defensive reactions
-
-
-</section>
-
-<section id="terminal-state" class="content-section">
-
-## Match Outcome
-
-Successful execution of Armbar leads to → [[game-over|Game Over]]
-
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
 
 </section>
 

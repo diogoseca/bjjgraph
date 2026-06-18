@@ -34,6 +34,18 @@ description: "Learn the Triangle from Guard in BJJ. Step-by-step entry from Miss
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle from Guard",
+  "description": "Triangle from Guard is a high-guard submission entry that swings one leg across the opponent's neck while their arm stays trapped inside, converting broken posture into a figure-four triangle that compresses the carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn the Triangle from Guard in BJJ. Step-by-step entry from Miss
 </div>
 
 <section id="overview" class="content-section">
+
+**Triangle from Guard is a high-guard submission entry that swings one leg across the opponent's neck while their arm stays trapped inside, converting broken posture into a figure-four triangle that compresses the carotid arteries.**
 
 The Triangle from Guard is the primary submission setup from Mission Control within the rubber guard system, converting shoulder isolation and broken posture into a locked triangle position. Unlike a standard closed guard triangle that requires creating an angle and isolating the head and arm from scratch, the Mission Control triangle leverages the pre-existing structural control: the opponent's shoulder is already trapped, their posture is already broken, and their arm is already isolated on the inside of the high guard leg. This makes the triangle entry from Mission Control significantly higher-percentage than traditional guard triangle setups.
 

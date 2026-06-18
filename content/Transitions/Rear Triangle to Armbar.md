@@ -34,6 +34,18 @@ description: "Master the Rear Triangle to Armbar transition in BJJ. Convert back
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Triangle to Armbar",
+  "description": "Rear Triangle to Armbar is a back-control submission transition that abandons the rear triangle choke to attack the trapped arm, pivoting the hips perpendicular and swinging a leg over the opponent's face to lock in armbar control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Rear Triangle to Armbar transition in BJJ. Convert back
 </div>
 
 <section id="overview" class="content-section">
+
+**Rear Triangle to Armbar is a back-control submission transition that abandons the rear triangle choke to attack the trapped arm, pivoting the hips perpendicular and swinging a leg over the opponent's face to lock in armbar control.**
 
 The Rear Triangle to Armbar transition exploits the trapped arm within the rear triangle configuration, converting a choking position into a devastating arm attack when the opponent successfully defends the triangle choke. This transition capitalizes on a fundamental defensive dilemma: when the opponent tucks their chin and fights the choke, they expose the trapped arm to isolation and extension. The attacker pivots from a squeezing choke angle to a perpendicular armbar angle, using the existing arm trap as the foundation for the new attack.
 

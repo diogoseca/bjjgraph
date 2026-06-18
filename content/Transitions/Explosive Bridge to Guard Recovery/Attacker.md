@@ -178,11 +178,11 @@ description: "How to execute Explosive Bridge to Guard Recovery in BJJ. Attackin
 
 <section id="overview" class="content-section">
 
-The Explosive Bridge to Guard Recovery is a fundamental escape technique executed from the bottom of North-South control, designed to create space and recompose guard when trapped under heavy perpendicular pressure. This escape capitalizes on the brief windows created during opponent weight shifts, using explosive hip extension to off-balance the top player and immediately inserting the legs to establish a guard position.
+As the bottom player in North-South, your explosive bridge to guard recovery succeeds on timing rather than strength: you pre-load the hips, wait for the top player's weight to shift during a transition or submission attempt, and convert that brief drop in pressure into the space you need to insert your legs. The bridge is not a desperate buck but a measured, diagonal hip extension paired with immediate frames.
 
-The technique requires precise timing rather than raw strength. The optimal moment occurs when the top player shifts weight to attack submissions, transition to mount, or adjust their base. During these micro-transitions, the perpendicular pressure momentarily decreases, creating an opportunity for the explosive bridge. The bridge must be directed at a 45-degree angle toward the opponent's knees rather than straight up, as this creates rotational force that disrupts their base.
+The technique requires patience to feel the opponent's micro-transitions, then explosive commitment once the window opens. The bridge must be directed at a 45-degree angle toward the opponent's knees rather than straight up, as this creates rotational force that disrupts their base instead of simply lifting weight they can ride. Hip frames must follow the bridge instantly so the space you create does not collapse before your legs arrive.
 
-Strategically, this escape serves as a reset mechanism when other North-South escapes fail or are unavailable. Unlike the bridge-and-turn escape to turtle, which requires committing to a turning direction, this technique keeps you on your back in a guard position where your legs become your primary defensive weapons. This makes it particularly valuable for guard players who prefer to work from closed guard or half guard rather than scrambling through turtle positions.
+Strategically, this escape keeps you on your back with your legs as your primary defensive weapons, making it ideal for guard players who would rather rebuild closed or half guard than scramble through turtle. Treat it as a reset mechanism: when other North-South escapes stall, the bridge buys the inch of space needed to re-enter your guard game.
 
 **From Position**: [[Positions/North-South]] (Bottom)
 

@@ -34,6 +34,18 @@ description: "Master the Reverse Mount Transition from North-South. Step-by-step
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Mount Transition",
+  "description": "The Reverse Mount Transition is a North-South-to-reverse-mount spin where the top player rotates 180 degrees to sit on the opponent's torso facing their legs, unlocking armbar attacks on both arms and bridge-resistant hip control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Reverse Mount Transition from North-South. Step-by-step
 </div>
 
 <section id="overview" class="content-section">
+
+**The Reverse Mount Transition is a North-South-to-reverse-mount spin where the top player rotates 180 degrees to sit on the opponent's torso facing their legs, unlocking armbar attacks on both arms and bridge-resistant hip control.**
 
 The Reverse Mount Transition is a strategic positional advancement that converts North-South control into reverse mount, positioning you facing your opponent's legs while seated on their torso. This transition creates immediate access to armbar attacks on both arms and offers superior control of the opponent's lower body movements compared to standard mount. The position is particularly valuable when the opponent defends North-South submissions effectively, as it shifts the attack angle entirely.
 

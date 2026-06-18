@@ -34,6 +34,18 @@ description: "Learn the Omoplata to Sweep transition in BJJ. Step-by-step execut
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata to Sweep",
+  "description": "Omoplata to Sweep is a guard reversal that converts an opponent's defensive reaction to the omoplata shoulder lock — rolling forward or posting the free hand — into rotational momentum that sweeps them to mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn the Omoplata to Sweep transition in BJJ. Step-by-step execut
 
 <section id="overview" class="content-section">
 
-The Omoplata to Sweep is a fundamental transition that capitalizes on your opponent's defensive reactions to the omoplata shoulder lock. When executing an omoplata from guard, opponents frequently defend by rolling forward or posting their free hand to relieve pressure on the trapped shoulder. This defensive response creates an immediate sweeping opportunity where you can use their momentum and compromised base to reverse position and achieve top control.
+**Omoplata to Sweep is a guard reversal that converts an opponent's defensive reaction to the omoplata shoulder lock — rolling forward or posting the free hand — into rotational momentum that sweeps them to mount.**
+
+Within a complete guard attack system, this transition is the insurance policy attached to every omoplata. When executing an omoplata from guard, opponents frequently defend by rolling forward or posting their free hand to relieve pressure on the trapped shoulder, and this defensive response creates an immediate sweeping opportunity where you can use their momentum and compromised base to reverse position and achieve top control.
 
 The technique demonstrates the principle of creating offensive dilemmas: your opponent must choose between defending the submission and maintaining positional stability, and either choice creates attacking opportunities for you. This sweep is particularly effective because it maintains offensive pressure throughout the transition, never allowing your opponent to recover their guard or escape the engagement. The movement flows naturally from the omoplata setup and requires minimal additional energy expenditure, making it an essential component of any complete guard attack system.
 

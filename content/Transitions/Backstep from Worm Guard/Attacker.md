@@ -90,6 +90,22 @@ description: "Complete guide to executing the Backstep from Worm Guard pass. Lea
     },
     {
       "@type": "Question",
+      "name": "When is the optimal moment to initiate the backstep relative to the bottom player's grip activity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Initiate the backstep when the bottom player's lapel grip is momentarily weakened or when their attention is divided by another attack—such as immediately after they commit a hand to a sweep grip or post to adjust their base. Attacking while both their lapel grip and free-leg hook are fully engaged means fighting maximum tension, which stalls the arc. The ideal window is a half-beat of distraction where their grip tension drops, letting your trapped leg load and step before they can re-tension the wrap."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "In which direction must you drive the backstep arc relative to the lapel wrap, and why?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Step the trapped leg backward and around the bottom player in the direction opposite the lapel wrap's tension line—the one direction the wrap cannot follow. The lapel functions as a one-way ratchet that resists forward extraction but goes slack when the leg travels the opposite way. Driving the arc against the wrap only tightens it; driving it with the slack direction loosens the entanglement so the shin can shake free during the rotation."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Your opponent begins chasing your hip rotation during the backstep—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -102,22 +118,6 @@ description: "Complete guide to executing the Backstep from Worm Guard pass. Lea
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The backstep is the better choice when the bottom player's grip fighting effectively defends direct lapel stripping attempts—when they have strong hand control and can re-feed the lapel as fast as you strip it. The direct lapel strip is preferable when you can isolate their grips and methodically break the lapel connection without exposing your back. The backstep carries more risk of back exposure but bypasses strong grip fighters entirely by changing the passing angle."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is it critical to establish side control immediately after clearing the lapel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Any delay between clearing the lapel and establishing chest-to-chest pressure gives the bottom player a window to insert frames, re-feed the lapel, insert a knee for half guard, or transition to a different guard system. A competent guard player needs less than one second to establish defensive structures that prevent the pass from completing. The lapel clearance and side control settlement must be treated as a single continuous motion to prevent guard recovery."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "You feel the bottom player releasing their lapel grip and grabbing your far hip during the backstep—what does this indicate and how should you respond?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This indicates the bottom player is abandoning worm guard retention and transitioning to a back take attempt, using your exposed back during the rotation as the entry point. Immediately tighten your elbows to your body to deny underhook access, maintain your collar grip as an anchor, and consider sitting back into them to flatten their back take attempt. If back exposure is severe, abort the pass entirely and face them to reset rather than completing the rotation into a worse position."
       }
     }
   ]

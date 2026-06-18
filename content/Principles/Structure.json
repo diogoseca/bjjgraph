@@ -14,7 +14,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Structure in BJJ refers to the skeletal alignment of your entire body for efficient force transmission or resistance. While Posture specifically addresses spinal alignment, Structure encompasses how every bone and joint in your body connects to form a unified system that either transmits force to the opponent or resists force from them. When your structure is sound, you can apply heavy pressure while feeling light, maintain defensive frames that do not collapse, and execute techniques that seem effortless. When your structure breaks, even simple techniques fail and you burn energy fighting against your own misalignment.\n\nThe core concept is bone stacking — aligning skeletal segments so that force travels through bone rather than requiring muscles to bridge structural gaps. A straight arm frame where the bones are stacked from shoulder to wrist transmits opponent pressure directly to your skeleton, costing almost no energy. A bent arm frame where the bones are not aligned requires your muscles to hold the shape, and those muscles fatigue. Every position in BJJ has structural configurations that are efficient and configurations that are wasteful. Learning to recognize and establish good structure is what separates practitioners who can roll for an hour from those who gas in five minutes.\n\nStructure also has a dynamic dimension. While static bone stacking matters, understanding when to be rigid versus flexible is equally important. A rigid structure resists force effectively but cannot absorb or redirect it. A flexible structure yields to force but can be used to redirect momentum and create openings. The expert practitioner alternates between rigid and flexible structural states depending on whether they need to resist, transmit, redirect, or absorb force in any given moment.",
+  "summary": "Structure is the skeletal alignment of your whole body so that force travels through stacked bone rather than muscle, letting you transmit pressure, resist load, or redirect momentum with minimal energy.",
+  "overview": "While most practitioners first learn to think about alignment through the narrow lens of Posture — keeping the spine stacked — Structure is the broader whole-body concept that determines whether your skeleton works for you or against you. It encompasses how every bone and joint in your body connects to form a unified system that either transmits force to the opponent or resists force from them. When your structure is sound, you can apply heavy pressure while feeling light, maintain defensive frames that do not collapse, and execute techniques that seem effortless. When your structure breaks, even simple techniques fail and you burn energy fighting against your own misalignment.\n\nThe core mechanism is bone stacking — aligning skeletal segments so that force travels through bone rather than requiring muscles to bridge structural gaps. A straight arm frame where the bones are stacked from shoulder to wrist transmits opponent pressure directly to your skeleton, costing almost no energy. A bent arm frame where the bones are not aligned requires your muscles to hold the shape, and those muscles fatigue. Every position in BJJ has structural configurations that are efficient and configurations that are wasteful. Learning to recognize and establish good structure is what separates practitioners who can roll for an hour from those who gas in five minutes.\n\nStructure also has a dynamic dimension. While static bone stacking matters, understanding when to be rigid versus flexible is equally important. A rigid structure resists force effectively but cannot absorb or redirect it. A flexible structure yields to force but can be used to redirect momentum and create openings. The expert practitioner alternates between rigid and flexible structural states depending on whether they need to resist, transmit, redirect, or absorb force in any given moment.",
   "key_principles": [
     "Align skeletal segments so force travels through bone rather than requiring muscular effort to bridge structural gaps",
     "Stack bones in straight lines or structurally optimal angles to maximize load-bearing capacity in frames and pressure",
@@ -363,6 +364,48 @@
       "name": "Mount",
       "content_type": "Position",
       "relationship": "Mount requires dynamic structural management — shifting between pressure structure and submission structure as the tactical need changes"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the difference between Structure and Posture in BJJ?",
+      "answer": "Posture refers specifically to spinal alignment, while Structure is the broader whole-body concept covering how every bone and joint — arms, hips, legs, and spine — aligns to transmit or resist force. Good posture is necessary but not sufficient for good structure."
+    },
+    {
+      "question": "What is bone stacking and why does it matter?",
+      "answer": "Bone stacking is aligning skeletal segments so force travels directly through bone rather than requiring muscle to bridge structural gaps. A stacked straight-arm frame transmits an opponent's pressure into your skeleton at almost no energy cost, whereas a bent frame must be held by fatiguing muscle."
+    },
+    {
+      "question": "How can you tell during a roll that your structure has broken?",
+      "answer": "Feel for muscular fatigue in a supposedly static position. If holding the position requires constant muscular effort, force is being held by muscle instead of traveling through aligned bone, which means a joint or segment is out of alignment and needs correcting."
+    },
+    {
+      "question": "When should you be rigid versus flexible with your structure?",
+      "answer": "Be rigid when you need to resist a sweep, hold a frame, or transmit pressure into the opponent. Be flexible when you need to absorb, redirect, or flow with an explosion or transition. The expert switches between these states reflexively based on the incoming force."
+    },
+    {
+      "question": "Why is connecting your structure to the ground important?",
+      "answer": "The mat is the strongest available anchor point. In top positions, driving weight through your skeleton into the opponent and into the mat creates crushing pressure; in bottom positions, bracing frames against the mat lets the ground absorb the opponent's force instead of your muscles."
+    },
+    {
+      "question": "Why should you break an opponent's structure before attempting a technique?",
+      "answer": "Techniques require far more force and succeed at much lower rates against a structurally sound opponent. Disrupting their alignment first — breaking posture, collapsing frames, disconnecting base from upper body — dramatically increases finishing and sweeping success rates."
+    },
+    {
+      "question": "What is the kinetic chain in the context of structure?",
+      "answer": "The kinetic chain is the connected sequence of joints from your point of force application back to your anchor (usually the mat). A break at any single joint dissipates force and forces muscles to compensate, so the whole chain must stay aligned for a technique to feel effortless."
+    },
+    {
+      "question": "What is the most common structural error and how do you fix it?",
+      "answer": "Using muscular effort to compensate for poor skeletal alignment instead of fixing the alignment. The fix is to treat fatigue as a diagnostic signal: when a position feels effortful, adjust structure (straighten an arm, shift a hip, align a shoulder) to make it effortless rather than muscling through."
+    },
+    {
+      "question": "How does Structure relate to Pressure?",
+      "answer": "Structure is the delivery mechanism for pressure. Body weight only transfers as heavy, effortless pressure when it travels through aligned, bone-stacked skeleton; without structure that weight dissipates into muscular effort and feels light to the opponent."
+    },
+    {
+      "question": "What does task-specific structural configuration mean?",
+      "answer": "Different tasks demand different alignments — the bone stacking optimal for top pressure differs from that for passing the guard, which differs from that for holding a defensive frame. Practitioners must learn multiple configurations and deploy the correct one for each situation."
     }
   ]
 }

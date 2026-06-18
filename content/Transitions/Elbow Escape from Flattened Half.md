@@ -34,6 +34,18 @@ description: "Master the elbow escape from flattened half guard in BJJ. Systemat
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Elbow Escape from Flattened Half",
+  "description": "The Elbow Escape from Flattened Half Guard is a defensive recovery transition in which the flattened bottom player wedges an elbow to create space, then chains incremental hip escapes to rebuild frames and return to an active half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the elbow escape from flattened half guard in BJJ. Systemat
 
 <section id="overview" class="content-section">
 
-The Elbow Escape from Flattened Half Guard is the foundational recovery technique for bottom players who have been driven flat with their frames collapsed. When chest-to-chest pressure eliminates your hip mobility and breathing becomes labored, the elbow escape provides a systematic pathway back to a functional half guard position. Rather than relying on explosive bridging that telegraphs intent and wastes energy, this technique uses incremental space creation through precise elbow placement and coordinated hip escapes.
+**The Elbow Escape from Flattened Half Guard is a defensive recovery transition in which the flattened bottom player wedges an elbow to create space, then chains incremental hip escapes to rebuild frames and return to an active half guard.**
+
+Getting flattened is the predictable endpoint of losing the frame battle in half guard, and the elbow escape is how disciplined bottom players climb back out before the pass completes. When chest-to-chest pressure eliminates your hip mobility and breathing becomes labored, the elbow escape provides a systematic pathway back to a functional half guard position. Rather than relying on explosive bridging that telegraphs intent and wastes energy, this technique uses incremental space creation through precise elbow placement and coordinated hip escapes.
 
 The mechanical principle underlying this escape centers on using the bottom elbow as a wedge between your torso and the opponent's body. By driving the elbow into the gap at the hip or shoulder line, you create a structural frame that cannot be easily collapsed by forward pressure alone. Each small space gained through an elbow insertion is immediately consolidated with a hip escape, preventing the top player from simply re-closing the distance. This incremental approach compounds micro-gains into meaningful positional recovery.
 

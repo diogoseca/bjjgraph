@@ -21,13 +21,13 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Mount",
-      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -45,13 +45,13 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mounted Crucifix Entry",
-      "text": "From this position, attempt Mounted Crucifix Entry. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Mounted Crucifix Entry. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

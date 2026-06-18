@@ -99,7 +99,7 @@ description: "Execute posture recovery to escape triangle chokes in BJJ. Step-by
       "name": "You feel the triangle loosening momentarily as your opponent readjusts their figure-four leg position - how do you exploit this window?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately accelerate your posture recovery by driving explosively through your hips while maintaining forward stacking pressure. This adjustment window is the highest-percentage moment for posture gain because the triangle structure is temporarily compromised during the leg repositioning. Simultaneously begin stepping toward your trapped arm side and continue the upward drive with increased urgency. The key is recognizing these windows through tactile sensitivity, as the loosening is brief and the opponent will re-cinch within seconds."
+        "text": "Immediately accelerate your posture recovery with an urgent, committed hip drive while maintaining forward stacking pressure - urgency here means seizing the moment, not jerking explosively, which would feed the choke. This adjustment window is the highest-percentage moment for posture gain because the triangle structure is temporarily compromised during the leg repositioning. Simultaneously begin stepping toward your trapped arm side and continue the upward drive. The key is recognizing these windows through tactile sensitivity, as the loosening is brief and the opponent will re-cinch within seconds."
       }
     },
     {

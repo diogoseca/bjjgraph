@@ -143,6 +143,16 @@ description: "Master Making Smaller Circles in BJJ. Learn depth-before-breadth t
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Making Smaller Circles",
+  "description": "Making Smaller Circles is a depth-before-breadth learning principle: refine one technique to extreme precision and efficiency until it works reflexively against resistance, then expand outward to variations that share its core mechanics.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,6 +167,8 @@ description: "Master Making Smaller Circles in BJJ. Learn depth-before-breadth t
 <section id="overview" class="content-section">
 
 ## What are Making Smaller Circles?
+
+**Making Smaller Circles is a depth-before-breadth learning principle: refine one technique to extreme precision and efficiency until it works reflexively against resistance, then expand outward to variations that share its core mechanics.**
 
 Making Smaller Circles is a learning principle popularized by Josh Waitzkin in The Art of Learning, and it maps perfectly onto Brazilian Jiu-Jitsu. The idea is simple but profoundly counterintuitive: instead of learning many techniques at a surface level, take one technique — one movement, one sweep, one pass — and refine it to an absurd degree of precision. Strip it down to its essential mechanics. Practice it until the movement becomes smaller, tighter, and more efficient. Then practice it more until it works against resistance, against speed, against people who know it is coming. Only then expand outward to the next variation.
 
@@ -348,9 +360,7 @@ Set up positional sparring that simulates competition intensity: start from a sp
 - **[[Energy Conservation]]** (Extension): One of the primary results of making smaller circles is reduced energy expenditure per technique. As movements become tighter and unnecessary motion is eliminated, each technique costs less energy while maintaining or increasing effectiveness.
 - **[[Positional Sparring]]** (Complementary): Positional sparring is the primary training tool for making circles smaller. By starting from specific positions and working specific techniques against progressive resistance, practitioners create the focused repetition environment that drives refinement.
 - **[[Flow Rolling]]** (Complementary): Flow rolling provides the low-intensity environment needed for conscious refinement of technique details. While positional sparring pressure-tests refinements, flow rolling allows the practitioner to experiment with smaller movements and tighter timing in a forgiving context.
-- **[[Submission Chains]]** (Extension): Submission chains are the natural outward expansion once individual submissions have been made small enough. A practitioner who has mastered the armbar can begin chaining it with the triangle and omoplata because the deep armbar understanding reveals the connections between these attacks.
 - **[[Position Chains]]** (Extension): Position chains represent the outward expansion of deep positional mastery. Once a practitioner has made their closed guard game deeply refined, they naturally see how closed guard connects to half guard, open guard, and back control through shared mechanical principles.
-- **[[Timing and Rhythm]]** (Extension): As technique circles become smaller, timing and rhythm naturally sharpen. The smaller the movement, the more precise the timing window, and the more the practitioner develops the ability to feel when that window opens. Deep technical refinement produces superior timing as a byproduct.
 - **[[Control Maintenance]]** (Complementary): Control maintenance improves dramatically through the Making Smaller Circles approach. Deep practice of maintaining a single position — refining the pressure angles, weight distribution, and grip adjustments — produces control that feels effortless because all unnecessary effort has been eliminated.
 - **[[Escape Fundamentals]]** (Complementary): Escape skills benefit enormously from the depth-first approach. A practitioner who has drilled the elbow escape from mount ten thousand times will execute it with a timing, tightness, and efficiency that makes it nearly unstoppable — and that deep understanding transfers to escapes from other positions.
 - **[[Guard Passing]]** (Complementary): Guard passing is one of the areas where Making Smaller Circles produces the most dramatic results. A practitioner who has refined a single pass to mastery can execute it in tighter spaces, faster, and against stronger resistance than a practitioner who knows twenty passes at surface level.
@@ -361,10 +371,10 @@ Set up positional sparring that simulates competition intensity: start from a sp
 - [[Energy Conservation]] (Principle) - Deep refinement naturally reduces energy cost per technique as unnecessary movement is eliminated
 - [[Positional Sparring]] (Principle) - Positional sparring is the primary training tool for pressure-testing refinements at each stage of the smaller circles process
 - [[Flow Rolling]] (Principle) - Flow rolling provides the low-intensity environment needed for conscious experimentation with technique refinements
-- [[Submission Chains]] (Principle) - Submission chains are the natural outward expansion once individual submissions have been deeply mastered
 - [[Position Chains]] (Principle) - Position chains emerge naturally when individual positions are mastered deeply enough to see their connections
-- [[Timing and Rhythm]] (Principle) - Deep technique refinement naturally sharpens timing and rhythm as movement windows become smaller and more precise
 - [[Guard Passing]] (Principle) - Guard passing benefits enormously from depth-first refinement — one deeply mastered pass outperforms twenty shallow ones
+- [[Control Maintenance]] (Principle) - Deep practice of holding a single position produces effortless control because all unnecessary effort has been refined away
+- [[Escape Fundamentals]] (Principle) - Applying the depth-first approach to one escape per position produces defenses as reliable and reflexive as refined attacks
 - [[Closed Guard]] (Position) - The closed guard is a classic position for applying Making Smaller Circles — mastering one sweep deeply before expanding
 - [[Mount]] (Position) - Mount attacks and mount escapes both benefit from the depth-first refinement approach
 - [[Half Guard]] (Position) - Half guard systems are naturally built through the Making Smaller Circles approach — master the underhook, then expand to variations

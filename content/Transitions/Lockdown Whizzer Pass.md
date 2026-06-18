@@ -34,6 +34,18 @@ description: "Master the Lockdown Whizzer Pass in BJJ. Use overhook control to c
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lockdown Whizzer Pass",
+  "description": "The Lockdown Whizzer Pass is a half guard pass where the top player accepts the bottom player's underhook, counters it with an overhook (whizzer), drives shoulder pressure to flatten them, and frees the trapped leg to complete the pass to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Lockdown Whizzer Pass in BJJ. Use overhook control to c
 
 <section id="overview" class="content-section">
 
-The Lockdown Whizzer Pass is a specialized half guard passing technique used by the top player trapped in the 10th Planet lockdown configuration. Rather than fighting to strip the bottom player's underhook directly, this pass accepts the underhook and counters it with a whizzer (overhook), using that lever to flatten the opponent, kill their hip mobility, and systematically extract the trapped leg to complete the pass to side control.
+**The Lockdown Whizzer Pass is a half guard pass where the top player accepts the bottom player's underhook, counters it with an overhook (whizzer), drives shoulder pressure to flatten them, and frees the trapped leg to complete the pass to side control.**
+
+Sitting within the 10th Planet lockdown ecosystem, the Lockdown Whizzer Pass solves the central problem the trapped top player faces: the bottom player's underhook powers every primary lockdown attack, so stripping it directly rarely works. Rather than fighting to strip the bottom player's underhook head-on, this pass accepts the underhook and counters it with a whizzer (overhook), using that lever to flatten the opponent, kill their hip mobility, and systematically extract the trapped leg to complete the pass to side control.
 
 The strategic logic exploits a fundamental lockdown dynamic: the bottom player's reliance on the underhook as their primary offensive weapon for whip-up sweeps, Old School attempts, and Electric Chair entries. By overhooking the underhook arm and driving heavy shoulder pressure downward, the top player neutralizes these sweep threats while simultaneously creating a passing angle. The whizzer functions as a lever that drives the bottom player's shoulder to the mat, removing the hip angle they need for all primary lockdown attacks.
 

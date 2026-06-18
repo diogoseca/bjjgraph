@@ -21,7 +21,7 @@ description: "Master the bottom of Mission Control with complete control mechani
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,13 +33,13 @@ description: "Master the bottom of Mission Control with complete control mechani
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Triangle",
-      "text": "From this position, attempt Closed Guard to Triangle. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Triangle. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {

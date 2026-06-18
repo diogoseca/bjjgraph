@@ -34,6 +34,18 @@ description: "Master Pass to Side Control from 50-50 Guard in BJJ. Extract legs 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass to Side Control",
+  "description": "Pass to Side Control is a transition from the top of 50-50 Guard in which you strip ankle control, sequentially extract both legs from the symmetrical entanglement, and settle into a perpendicular side-control pin worth 3 points.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Pass to Side Control from 50-50 Guard in BJJ. Extract legs 
 </div>
 
 <section id="overview" class="content-section">
+
+**Pass to Side Control is a transition from the top of 50-50 Guard in which you strip ankle control, sequentially extract both legs from the symmetrical entanglement, and settle into a perpendicular side-control pin worth 3 points.**
 
 Passing to Side Control from 50-50 Guard represents a strategic decision to abandon leg lock exchanges in favor of establishing a dominant pinning position. This transition is particularly valuable when your opponent has effectively hidden their heel, when you lack the control needed for leg attacks, or when competing under rulesets that restrict heel hooks. The pass requires systematic leg extraction while maintaining pressure to prevent your opponent from following or re-establishing the entanglement.
 

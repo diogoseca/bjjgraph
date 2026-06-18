@@ -34,6 +34,18 @@ description: "Master the frame escape from Reverse Scarf Hold in BJJ. Complete g
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame from Reverse Scarf Hold",
+  "description": "Frame from Reverse Scarf Hold is an energy-efficient escape where the bottom player wedges forearm frames against the top player's hip and shoulder, then chains incremental hip escapes to accumulate space and recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the frame escape from Reverse Scarf Hold in BJJ. Complete g
 </div>
 
 <section id="overview" class="content-section">
+
+**Frame from Reverse Scarf Hold is an energy-efficient escape where the bottom player wedges forearm frames against the top player's hip and shoulder, then chains incremental hip escapes to accumulate space and recover half guard.**
 
 The Frame from Reverse Scarf Hold is a systematic defensive escape technique where the bottom player uses skeletal frames against the top player's body to incrementally create space for hip escape and guard recovery. Unlike bridge-based escapes that require explosive power and precise timing, this frame escape operates through persistent mechanical advantage, making it the most energy-efficient and reliable escape available from reverse scarf hold bottom when the top player's base is too wide for effective bridging.
 
@@ -231,13 +245,11 @@ The Frame from Reverse Scarf Hold occupies a central role in the defensive escap
 
 - [[Transitions/Escape Reverse Scarf Hold]] - Related escape technique from same starting position
 
-- [[Transitions/Frame Escape from Kuzure Kesa]] - Analogous frame escape from related scarf hold variant sharing core mechanics
-
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position where similar framing principles apply
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Advanced recovery target offering immediate offensive frames after escape
 
-- [[Transitions/Escape Scarf Hold Position]] - Related escape from traditional scarf hold sharing defensive framing concepts
+- [[Positions/Side Control/Modified Scarf Hold]] - Related scarf hold variant sharing core defensive framing mechanics
 
 - [[Positions/Side Control]] - Broader position family sharing defensive framing and hip escape mechanics
 

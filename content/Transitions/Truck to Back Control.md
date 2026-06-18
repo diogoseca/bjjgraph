@@ -34,6 +34,18 @@ description: "Master the Truck to Back Control transition in BJJ. Learn hook ins
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Truck to Back Control",
+  "description": "Truck to Back Control is a 10th Planet transition where the top player trades the truck's figure-four leg entanglement and boot pressure for standard back control, threading both hooks behind the opponent to reach the sport's highest-scoring position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Truck to Back Control transition in BJJ. Learn hook ins
 </div>
 
 <section id="overview" class="content-section">
+
+**Truck to Back Control is a 10th Planet transition where the top player trades the truck's figure-four leg entanglement and boot pressure for standard back control, threading both hooks behind the opponent to reach the sport's highest-scoring position.**
 
 The Truck to Back Control transition represents one of the most strategically important positional upgrades available from the truck position, converting a specialized perpendicular leg entanglement into the highest-scoring and most submission-rich position in Brazilian Jiu-Jitsu. Rather than committing to truck-specific submissions like the twister or calf slicer, the attacker systematically trades the boot-and-entanglement configuration for traditional back control with hooks and seatbelt, gaining 4 competition points and access to the complete back attack arsenal including rear naked choke, bow and arrow, and armbar transitions.
 

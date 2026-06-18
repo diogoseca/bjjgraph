@@ -34,6 +34,18 @@ description: "Master Crackhead Control in BJJ - 10th Planet's high-risk, high-re
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crackhead Control",
+  "description": "Crackhead Control is a high-risk 10th Planet rubber guard position where a deep overhook combined with a leg across the opponent's back breaks their posture, trading significant back exposure for dense gogoplata, omoplata, and triangle submission threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Crackhead Control in BJJ - 10th Planet's high-risk, high-re
 </div>
 
 <section id="overview" class="content-section">
+
+**Crackhead Control is a high-risk 10th Planet rubber guard position where a deep overhook combined with a leg across the opponent's back breaks their posture, trading significant back exposure for dense gogoplata, omoplata, and triangle submission threats.**
 
 Crackhead Control represents one of 10th Planet's most innovative and controversial positions within the 10th Planet guard system. This high-risk, high-reward configuration emerges from the Rubber Guard family when the practitioner achieves an exceptionally deep overhook on the opponent's arm while simultaneously controlling their posture with the leg. The position gets its distinctive name from the seemingly reckless commitment required - the bottom player exposes their back significantly while hunting for submissions, creating what appears to be a desperate or "cracked out" positioning strategy.
 

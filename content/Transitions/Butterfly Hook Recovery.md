@@ -34,6 +34,18 @@ description: "Learn Butterfly Hook Recovery from Double Unders bottom. Step-by-s
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Hook Recovery",
+  "description": "Butterfly Hook Recovery is a defensive guard-recovery transition where the bottom player under Double Unders frames, hip-escapes, and threads a butterfly hook between the bodies to convert a crushing pressure pass back into an offensive Butterfly Guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Butterfly Hook Recovery from Double Unders bottom. Step-by-s
 </div>
 
 <section id="overview" class="content-section">
+
+**Butterfly Hook Recovery is a defensive guard-recovery transition where the bottom player under Double Unders frames, hip-escapes, and threads a butterfly hook between the bodies to convert a crushing pressure pass back into an offensive Butterfly Guard.**
 
 Butterfly Hook Recovery is a critical defensive transition executed when trapped in the bottom position of double unders pressure passing. The technique focuses on creating just enough space to insert one or both butterfly hooks between yourself and the passer, fundamentally changing the dynamic from a crushing pressure pass situation back to an active guard position. This recovery is most effective during momentary pauses in the opponent's forward pressure, grip adjustments, or when they shift their weight to advance the pass.
 

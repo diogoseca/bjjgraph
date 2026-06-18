@@ -143,6 +143,16 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Control Maintenance",
+  "description": "Control Maintenance is the principle of preserving positional dominance through continuous micro-adjustment, pressure modulation, and redundant connection points that neutralize an opponent's escape mechanics before they generate momentum.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
 
 ## What is Control Maintenance?
 
-Control Maintenance represents the fundamental principle of preserving positional dominance through continuous adjustment, pressure application, and connection reinforcement that prevents opponent's defensive movements and escape attempts. Unlike specific techniques, control maintenance is a comprehensive conceptual framework that applies across all dominant positions and constitutes the bridge between achieving position and capitalizing on it offensively. This concept encompasses the tactical understanding that static control without adjustment creates escape opportunities, while dynamic maintenance through pressure modulation and positional micro-adjustments prevents defensive success. Control maintenance serves as both offensive foundation enabling submission attacks and transitions, and defensive capability preventing opponent from improving position. The ability to maintain dominant positions despite opponent's best escape efforts often determines overall BJJ effectiveness, making it one of the most essential conceptual elements for top game development.
+**Control Maintenance is the principle of preserving positional dominance through continuous micro-adjustment, pressure modulation, and redundant connection points that neutralize an opponent's escape mechanics before they generate momentum.**
+
+In the strategic hierarchy of grappling, securing a dominant position is only half the battle—holding it against a resisting, escape-hungry opponent is what separates fleeting position from genuine positional dominance. Unlike specific techniques, control maintenance is a comprehensive conceptual framework that applies across all dominant positions and constitutes the bridge between achieving position and capitalizing on it offensively. This concept encompasses the tactical understanding that static control without adjustment creates escape opportunities, while dynamic maintenance through pressure modulation and positional micro-adjustments prevents defensive success. Control maintenance serves as both offensive foundation enabling submission attacks and transitions, and defensive capability preventing opponent from improving position. The ability to maintain dominant positions despite opponent's best escape efforts often determines overall BJJ effectiveness, making it one of the most essential conceptual elements for top game development.
 
 </section>
 

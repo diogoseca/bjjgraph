@@ -34,6 +34,18 @@ description: "Master Twister Control in BJJ. Complete guide covering entries, sp
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Twister Control",
+  "description": "Twister Control is a 10th Planet no-gi position that traps one of the opponent's legs while torquing their spine into rotation, simultaneously exposing the back and opening the twister, leg locks, and neck attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Twister Control in BJJ. Complete guide covering entries, sp
 </div>
 
 <section id="overview" class="content-section">
+
+**Twister Control is a 10th Planet no-gi position that traps one of the opponent's legs while torquing their spine into rotation, simultaneously exposing the back and opening the twister, leg locks, and neck attacks.**
 
 Twister Control represents one of Brazilian Jiu-Jitsu's most distinctive control positions, originating from the 10th Planet system and gaining prominence through high-level no-gi competition. This position creates a unique biomechanical dilemma by combining back exposure with spinal rotation, forcing the opponent into an extremely uncomfortable configuration that severely limits their defensive options.
 

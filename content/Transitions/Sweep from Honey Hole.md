@@ -34,6 +34,18 @@ description: "Master the Sweep from Honey Hole in BJJ. Escape dangerous leg enta
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Honey Hole",
+  "description": "The Sweep from Honey Hole is a high-risk reversal in which the trapped bottom player turns the inside leg entanglement itself into a lever, combining an explosive bridge, free-leg pendulum, and upper-body control to off-balance the top player and recover to Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Sweep from Honey Hole in BJJ. Escape dangerous leg enta
 </div>
 
 <section id="overview" class="content-section">
+
+**The Sweep from Honey Hole is a high-risk reversal in which the trapped bottom player turns the inside leg entanglement itself into a lever, combining an explosive bridge, free-leg pendulum, and upper-body control to off-balance the top player and recover to Side Control.**
 
 The Sweep from Honey Hole represents one of the most technically demanding reversals in modern leg lock grappling. Initiated from the bottom of the Honey Hole position—where your leg is trapped in your opponent's inside leg triangle with direct heel hook access—this sweep transforms a desperate defensive situation into an offensive opportunity by using the entanglement connecting both bodies as a mechanical lever for reversal. The technique requires explosive commitment, precise timing, and the willingness to take calculated risks with your trapped knee.
 
@@ -235,13 +249,11 @@ The Sweep from Honey Hole sits within the defensive leg lock hierarchy as an alt
 
 - [[Positions/Ashi Garami/Saddle]] - Closely related control position with similar entanglement mechanics
 
-- [[Transitions/Sweep from Cross Ashi-Garami]] - Analogous sweep technique from different leg entanglement configuration
-
-- [[Transitions/Inversion Escape from Leg Entanglement]] - Alternative escape method sharing inversion mechanics with sweep variant
+- [[Transitions/Inversion Escape]] - Alternative escape method sharing inversion mechanics with sweep variant
 
 - [[Positions/Leg Entanglement]] - Conceptual framework governing all leg lock positions and transitions
 
-- [[Heel Hook from Saddle]] - Related submission threat from adjacent entanglement position
+- [[Transitions/Counter-entangle to 50-50 Guard]] - Primary alternative escape route from the same Honey Hole bottom position
 
 
 </section>

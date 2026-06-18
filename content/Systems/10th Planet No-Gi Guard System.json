@@ -12,7 +12,8 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Advanced",
-  "overview": "The 10th Planet No-Gi Guard System represents Eddie Bravo's revolutionary approach to guard play without the gi, emphasizing flexibility, unorthodox positions, and submission chains. This comprehensive system integrates rubber guard positions (Mission Control, New York, Meathook), lockdown-based attacks from half guard, and the twister series from turtle positions. The system prioritizes control through unconventional grips and body positioning that cannot be replicated in gi-based training, making it particularly effective in MMA and no-gi competition.\n\nAt its core, the 10th Planet system challenges traditional guard concepts by utilizing extreme flexibility, hip mobility, and creative angles to break posture and create submission opportunities. The rubber guard series controls opponents through overhooks and leg control, while the lockdown system from half guard uses the legs to trap and sweep. The twister path provides a unique submission series from scrambles and turtle positions. Each subsystem connects through strategic transitions, creating a web of attacking options that keeps opponents constantly defending.\n\nThis system requires dedicated flexibility training and systematic drilling to master the unconventional positions. Practitioners must develop comfort in inverted positions, deep leg entanglements, and positions that feel unstable initially. The payoff is a guard game that opponents rarely encounter, providing significant tactical advantages through unfamiliarity and forcing defensive reactions that open submission opportunities.",
+  "summary": "The 10th Planet No-Gi Guard System is Eddie Bravo's gi-free guard framework that chains rubber guard, lockdown half guard, and the truck/twister series into a connected web of sweeps and submissions built on flexibility and unorthodox control.",
+  "overview": "Developed by Eddie Bravo in the early 2000s and propelled to fame by his match against Royler Gracie, this system grew out of a deliberate rejection of gi-dependent guard play. It integrates rubber guard positions (Mission Control, New York, Meathook), lockdown-based attacks from half guard, and the twister series from turtle positions. The system prioritizes control through unconventional grips and body positioning that cannot be replicated in gi-based training, making it particularly effective in MMA and no-gi competition.\n\nAt its core, the 10th Planet system challenges traditional guard concepts by utilizing extreme flexibility, hip mobility, and creative angles to break posture and create submission opportunities. The rubber guard series controls opponents through overhooks and leg control, while the lockdown system from half guard uses the legs to trap and sweep. The twister path provides a unique submission series from scrambles and turtle positions. Each subsystem connects through strategic transitions, creating a web of attacking options that keeps opponents constantly defending.\n\nThis system requires dedicated flexibility training and systematic drilling to master the unconventional positions. Practitioners must develop comfort in inverted positions, deep leg entanglements, and positions that feel unstable initially. The payoff is a guard game that opponents rarely encounter, providing significant tactical advantages through unfamiliarity and forcing defensive reactions that open submission opportunities.",
   "key_principles": [
     "Flexibility and hip mobility enable unconventional control positions",
     "Break posture through overhooks and leg control rather than gi grips",
@@ -356,6 +357,40 @@
       "name": "Twister System",
       "content_type": "System",
       "relationship": "Specialized subsystem for truck and twister attacks"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What three subsystems form the backbone of the 10th Planet No-Gi Guard System?",
+      "answer": "Rubber guard from closed guard (Mission Control, New York, Meathook), the lockdown system from half guard, and the truck/twister series from turtle and scrambles, all connected by strategic transitions."
+    },
+    {
+      "question": "Why does the 10th Planet system avoid gi grips in its control mechanics?",
+      "answer": "It is built for no-gi and MMA, so it controls posture through overhooks, leg-based clamps, and body positioning rather than collar or sleeve grips, keeping the control transferable to gi-less competition and striking range."
+    },
+    {
+      "question": "What is the primary function of the lockdown in bottom half guard?",
+      "answer": "The lockdown uses both legs to trap and stretch the opponent's leg, neutralizing pressure passing while setting up the Old School sweep and the electric chair submission from bottom half guard."
+    },
+    {
+      "question": "From which positions do you typically enter the truck for twister attacks?",
+      "answer": "The truck is most often entered from turtle, failed guard passes, and scramble exchanges when the opponent's weight is forward, using a calf-slicer style grip as the primary entry mechanism."
+    },
+    {
+      "question": "Which physical attribute most limits rubber guard depth, and how is it addressed?",
+      "answer": "Hip and hamstring flexibility limits how deep positions like Meathook and Chill Dog can be reached; it is addressed with a dedicated daily mobility protocol and progressing gradually outward from Mission Control."
+    },
+    {
+      "question": "What is a common mistake when applying rubber guard against a strong-postured opponent?",
+      "answer": "Forcing the position with muscle when posture is too strong; instead break posture first with overhook and leg control, or switch to lockdown or truck pathways rather than fighting the position head-on."
+    },
+    {
+      "question": "How does the system create submission chains rather than isolated attacks?",
+      "answer": "Each defensive reaction opens a new attack: defending the triangle exposes the omoplata, stuffing the Old School sweep opens the back, and posting against the truck exposes the calf slicer, keeping the opponent perpetually defending."
+    },
+    {
+      "question": "How can a practitioner develop the system without 10th-Planet-experienced partners?",
+      "answer": "Use positional sparring from specific 10th Planet positions, teach partners the basic defenses to create realistic resistance, film rounds for review, and visit affiliate schools or seminars for specialized feedback."
     }
   ]
 }

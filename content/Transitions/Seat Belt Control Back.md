@@ -34,6 +34,18 @@ description: "Master the Seat Belt Control transition from Mounted Crucifix in B
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Seat Belt Control Back",
+  "description": "Seat Belt Control Back is the transition from mounted crucifix to full back control, where you establish an over-under harness grip before releasing the leg entanglement and sliding your hips behind the opponent to secure hooks or a body triangle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Seat Belt Control transition from Mounted Crucifix in B
 </div>
 
 <section id="overview" class="content-section">
+
+**Seat Belt Control Back is the transition from mounted crucifix to full back control, where you establish an over-under harness grip before releasing the leg entanglement and sliding your hips behind the opponent to secure hooks or a body triangle.**
 
 The Seat Belt Control Back transition represents a critical link between mounted crucifix dominance and full back control. When you have achieved the mounted crucifix position with arm isolation established, transitioning to seat belt back control allows you to capitalize on that control while securing one of the highest-percentage finishing positions in jiu-jitsu.
 
@@ -229,11 +243,7 @@ Seat Belt Control Back serves as the critical link between mounted crucifix domi
 
 - [[Transitions/Armbar from Crucifix]] - Alternative attack from the starting position instead of transitioning
 
-- [[Submissions/Choke from Crucifix]] - Alternative attack from the starting position instead of transitioning
-
 - [[Positions/Mount/High Mount]] - Common entry path leading to mounted crucifix before this transition
-
-- [[Positions/Mount/S Mount]] - Alternative mount attack position that also leads to crucifix entries
 
 - [[Transitions/Back Take from Top]] - Related back take transition from other top positions
 

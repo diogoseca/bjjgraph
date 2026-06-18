@@ -34,6 +34,18 @@ description: "Master the Underhook Pass from Half Guard. Complete guide with ste
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Underhook Pass",
+  "description": "The Underhook Pass is a half-guard top guard pass in which the top player secures a deep far-side underhook and crossface to flatten the bottom player, then clears the trapped leg to advance to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Underhook Pass from Half Guard. Complete guide with ste
 
 <section id="overview" class="content-section">
 
-The Underhook Pass is a fundamental pressure passing technique used to advance from half guard top position to side control. This pass exploits the powerful control provided by securing an underhook on the bottom player's far side, combined with strategic weight distribution and hip pressure to flatten the opponent and clear the leg entanglement. The technique is built on the principle of controlling the opponent's shoulder and hip simultaneously, creating a cross-body pressure system that limits their defensive frames and movement options.
+**The Underhook Pass is a half-guard top guard pass in which the top player secures a deep far-side underhook and crossface to flatten the bottom player, then clears the trapped leg to advance to side control.**
+
+Few half-guard exchanges are decided as cleanly as the underhook battle, and the Underhook Pass is the technique that cashes that battle in for a completed pass. It exploits the powerful control provided by securing an underhook on the bottom player's far side, combined with strategic weight distribution and hip pressure to flatten the opponent and clear the leg entanglement. The technique is built on the principle of controlling the opponent's shoulder and hip simultaneously, creating a cross-body pressure system that limits their defensive frames and movement options.
 
 The underhook provides both offensive control and defensive protection, preventing the bottom player from establishing their own underhook or recovering full guard. This pass is particularly effective against players who rely on knee shield or traditional half guard retention, as it addresses their primary defensive structures through systematic breakdown and methodical advancement. Against high-level opponents who actively battle for the underhook, the pass becomes a chess match of upper body positioning where the first player to secure a deep underhook gains a decisive mechanical advantage.
 

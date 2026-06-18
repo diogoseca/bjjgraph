@@ -34,6 +34,18 @@ description: "Master Guillotine Control position in BJJ. Complete strategic guid
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Control",
+  "description": "Guillotine Control is a front-headlock attacking position where one player encircles the opponent's neck and clasps the hands to threaten an immediate choke, forcing the trapped opponent to defend their neck and their position at once.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Guillotine Control position in BJJ. Complete strategic guid
 </div>
 
 <section id="overview" class="content-section">
+
+**Guillotine Control is a front-headlock attacking position where one player encircles the opponent's neck and clasps the hands to threaten an immediate choke, forcing the trapped opponent to defend their neck and their position at once.**
 
 Guillotine Control represents a fundamental attacking position in Brazilian Jiu-Jitsu where one practitioner secures a front headlock grip with submission intent, controlling the opponent's head and neck while threatening immediate choke submission. This position exists across a spectrum of scenarios—from standing clinch exchanges to ground-based situations—and creates powerful strategic dilemmas for the defender who must simultaneously protect against the submission while preventing positional advancement. The guillotine's effectiveness stems from its versatility as both a high-percentage finishing technique and a control position that severely limits the opponent's offensive options.
 
@@ -206,27 +220,33 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (52% of attempts)
+- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (43% of attempts)
 
-- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (15% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (12% of attempts)
 
-- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (6% of attempts)
+- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (5% of attempts)
 
-- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (6% of attempts)
+- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (5% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (6% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (5% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (4% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (3% of attempts)
 
-- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (9% of attempts)
+- **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** (7% of attempts)
 
-- **[[Transitions/Arm in Guillotine Variation/Attacker|Arm in Guillotine Variation]]** (1% of attempts)
+- **[[Transitions/Arm in Guillotine Variation/Attacker|Arm in Guillotine Variation]]** (2% of attempts)
 
-- **[[Transitions/Guillotine Counter/Attacker|Guillotine Counter]]** (0% of attempts)
+- **[[Transitions/Guillotine Counter/Attacker|Guillotine Counter]]** (2% of attempts)
 
-- **[[Transitions/Ten Finger Guillotine Variation/Attacker|Ten Finger Guillotine Variation]]** (0% of attempts)
+- **[[Transitions/Ten Finger Guillotine Variation/Attacker|Ten Finger Guillotine Variation]]** (1% of attempts)
 
 - **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (1% of attempts)
+
+- **[[Arm in Guillotine from Guillotine Control/Attacker|Arm in Guillotine from Guillotine Control]]** (1% of attempts)
+
+- **[[High Elbow Guillotine from Guillotine Control/Attacker|High Elbow Guillotine from Guillotine Control]]** (12% of attempts)
+
+- **[[Ten Finger Guillotine from Guillotine Control/Attacker|Ten Finger Guillotine from Guillotine Control]]** (1% of attempts)
 
 
 ### Common Mistakes

@@ -33,10 +33,32 @@ description: "Master the Inverted Triangle from Triangle Control. Learn setup me
 }
 </script>
 
-> **SAFETY**: Inverted Triangle from Triangle Control targets the Carotid arteries and trachea. Risk: Cervical spine compression from improper rotation during setup. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inverted Triangle from Triangle Control",
+  "description": "The inverted triangle from triangle control is a blood-choke variation reached by swinging the hips to the opposite side and switching the choking leg, attacking the carotids from the reverse angle to punish a defended standard triangle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The inverted triangle from triangle control is a blood-choke variation reached by swinging the hips to the opposite side and switching the choking leg, attacking the carotids from the reverse angle to punish a defended standard triangle.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Inverted Triangle from Triangle Control targets the Carotid arteries and trachea. Primary risk: Cervical spine compression from improper rotation during setup. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,56 +75,7 @@ The mechanical advantage of this transition lies in its ability to punish succes
 
 Strategically, the inverted triangle adds a critical dimension to the triangle submission chain. Where the standard triangle-to-armbar-to-omoplata chain attacks in three directions, the inverted triangle creates a fourth option that punishes successful choke defense. This makes triangle control substantially more dangerous for the defender, as neutralizing the primary choking angle no longer guarantees safety.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Triangle Control]]
-**From Position**: [[Positions/Triangle Control]] (Bottom)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Cervical spine compression from improper rotation during setup | High | 2-6 weeks with potential for chronic issues |
-| Loss of consciousness from uncontrolled application | CRITICAL | Immediate risk with potential neurological complications |
-| Neck strain from forceful rotation against resistance | Medium | 1-2 weeks |
-| Shoulder dislocation if trapped arm is torqued excessively | High | 6-12 weeks minimum |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression from setup to full pressure
-
-**Tap Signals**:
-- Verbal tap or saying 'tap'
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat or opponent
-- Any unusual sound or distress signal
-- Loss of resistance or going limp
-
-
-**Release Protocol**:
-1. Immediately open the figure-four by releasing your ankle lock first
-2. Remove the leg that is over the back of the neck first
-3. Release the trapped arm carefully without jerking
-4. Create space to allow opponent to turn their head and restore blood flow
-5. Check for consciousness and breathing immediately
-6. Support opponent's neck during release if they are unconscious
-
-
-**Training Restrictions**:
-- Never spike the technique or jerk into position rapidly
-- Never apply competition speed or pressure in training
-- Never continue past light resistance during drilling
-- Always ensure training partner can tap with at least one hand
-- Never attempt this technique on beginners or those unfamiliar with choke safety
-- Absolutely no practice on unconscious or semi-conscious partners
-
+**Starting Position**: [[Positions/Triangle Control]] · **From**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
 
@@ -262,40 +235,63 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Inverted Triangle]]
 - [[Submissions/Triangle Choke]]
 - [[Transitions/Gogoplata]]
-- [[Transitions/Gogoplata]]
+- [[Submissions/Armbar]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Triangle Control]] - Starting position for this submission variant
 - [[Positions/Closed Guard]] - Common guard position leading to triangle control establishment
-- [[Transitions/Inverted Triangle]] - Parent submission family this variant belongs to
 - [[Positions/Armbar Control]] - Alternative attack position from triangle control submission chain
 - [[Positions/Omoplata Control]] - Secondary transition when opponent defends triangle variations
 - [[Positions/Mount/Mounted Triangle]] - Alternative triangle platform where inverted variation can also be applied
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Inverted Triangle from Triangle Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Cervical spine compression from improper rotation during setup | High | 2-6 weeks with potential for chronic issues |
+| Loss of consciousness from uncontrolled application | CRITICAL | Immediate risk with potential neurological complications |
+| Neck strain from forceful rotation against resistance | Medium | 1-2 weeks |
+| Shoulder dislocation if trapped arm is torqued excessively | High | 6-12 weeks minimum |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progression from setup to full pressure
+
+**Tap Signals**:
+- Verbal tap or saying 'tap'
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat or opponent
+- Any unusual sound or distress signal
+- Loss of resistance or going limp
+
+
+**Release Protocol**:
+1. Immediately open the figure-four by releasing your ankle lock first
+2. Remove the leg that is over the back of the neck first
+3. Release the trapped arm carefully without jerking
+4. Create space to allow opponent to turn their head and restore blood flow
+5. Check for consciousness and breathing immediately
+6. Support opponent's neck during release if they are unconscious
+
+
+**Training Restrictions**:
+- Never spike the technique or jerk into position rapidly
+- Never apply competition speed or pressure in training
+- Never continue past light resistance during drilling
+- Always ensure training partner can tap with at least one hand
+- Never attempt this technique on beginners or those unfamiliar with choke safety
+- Absolutely no practice on unconscious or semi-conscious partners
+
 
 </section>
 

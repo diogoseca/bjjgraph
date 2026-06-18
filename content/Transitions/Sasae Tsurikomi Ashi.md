@@ -34,6 +34,18 @@ description: "Master Sasae Tsurikomi Ashi for BJJ. Complete guide to this judo f
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sasae Tsurikomi Ashi",
+  "description": "Sasae Tsurikomi Ashi is a judo propping-drawing ankle throw adapted for BJJ in which the attacker blocks the opponent's advancing ankle with the foot sole while lifting and rotating their upper body, toppling them over that fixed point into top control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Sasae Tsurikomi Ashi for BJJ. Complete guide to this judo f
 
 <section id="overview" class="content-section">
 
-Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep technique that has been successfully adapted into modern Brazilian Jiu-Jitsu for standing exchanges. This technique exploits forward momentum and circular movement, using precise timing to block the opponent's ankle while simultaneously lifting and pulling their upper body. The beauty of Sasae Tsurikomi Ashi lies in its minimal force requirement - when executed with proper timing, the opponent's own movement and weight distribution do most of the work. Unlike power-based takedowns, this technique relies on kuzushi (off-balancing) and precise placement of the blocking foot. The throw is particularly effective against opponents who step forward aggressively or maintain an upright, forward-leaning posture. In BJJ competition, this technique offers a clean takedown that can lead directly to dominant positions, making it valuable for competitors who prefer technical entries over wrestling-heavy approaches.
+**Sasae Tsurikomi Ashi is a judo propping-drawing ankle throw adapted for BJJ in which the attacker blocks the opponent's advancing ankle with the foot sole while lifting and rotating their upper body, toppling them over that fixed point into top control.**
+
+Originating from judo's ashi-waza (foot-technique) family, Sasae Tsurikomi Ashi has become a valuable standing weapon for BJJ competitors who favor technical entries over wrestling-heavy scrambles. The technique exploits forward momentum and circular movement, using precise timing to block the opponent's ankle while simultaneously lifting and pulling their upper body over the fixed point. Its effectiveness lies in its minimal force requirement - when executed with correct timing, the opponent's own movement and weight distribution do most of the work, because the throw relies on kuzushi (off-balancing) and precise placement of the blocking foot rather than raw power. It is particularly effective against opponents who step forward aggressively or maintain an upright, forward-leaning posture. In competition, where many practitioners lack a traditional judo or wrestling background, this timing-based foot sweep is often unexpected and provides a clean 2-point takedown that flows directly into dominant positions such as side control.
 
 **From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%

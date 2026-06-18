@@ -34,6 +34,18 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Dogfight Position",
+  "description": "The Dogfight is an elevated half guard scramble where both players rise to their knees and battle for the underhook, with the deeper underhook dictating access to sweeps, back takes, and guard passes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
 </div>
 
 <section id="overview" class="content-section">
+
+**The Dogfight is an elevated half guard scramble where both players rise to their knees and battle for the underhook, with the deeper underhook dictating access to sweeps, back takes, and guard passes.**
 
 The Dogfight Position is a dynamic half guard variation where both practitioners are up on their knees facing each other, creating a highly competitive underhook battle that defines modern half guard play. This position represents a critical juncture where the bottom player has established an underhook and elevated from flat half guard, while the top player fights to maintain passing pressure through whizzer control and crossface attempts. The term 'dogfight' aptly describes the scrambling, competitive nature of this position where both players vie for dominant grips and positioning in an inherently unstable configuration.
 

@@ -33,10 +33,32 @@ description: "Master the Arm Triangle from Hindulotine in BJJ. Learn how guillot
 }
 </script>
 
-> **SAFETY**: Arm Triangle from Hindulotine targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Risk: Loss of consciousness from blood choke. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Triangle from Hindulotine",
+  "description": "The Arm Triangle from Hindulotine is a head-and-arm blood choke that converts the opponent's own guillotine-defense frame into a trapped arm, compressing both carotids with their shoulder on one side and your forearm on the other.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Arm Triangle from Hindulotine is a head-and-arm blood choke that converts the opponent's own guillotine-defense frame into a trapped arm, compressing both carotids with their shoulder on one side and your forearm on the other.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries (compressed by opponent's own shoulder and your arm)</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Arm Triangle from Hindulotine targets the Carotid arteries (compressed by opponent's own shoulder and your arm). Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,53 +75,7 @@ This technique represents an advanced chain within the Hindulotine system that s
 
 The strategic value lies in the dilemma this creates within the Hindulotine attack system. Opponents who frame to defend the guillotine inadvertently set up the arm triangle. Those who keep their arms tight to prevent the arm triangle remain vulnerable to the original guillotine. This binary choice where both defensive responses feed the attacker's chain exemplifies modern submission grappling's emphasis on interconnected threat systems that force defensive errors.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries (compressed by opponent's own shoulder and your arm)
-**Starting Position**: [[Positions/Hindulotine]]
-**From Position**: [[Positions/Hindulotine]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from blood choke | High | Immediate recovery if released promptly; potential stroke risk if held too long |
-| Neck strain from improper pressure angle | Medium | 3-7 days with rest |
-| Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' clearly)
-- Physical hand tap (multiple taps on opponent or mat)
-- Physical foot tap (multiple taps with foot)
-- Any distress signal or loss of resistance
-- Immediately release if opponent goes limp
-
-
-**Release Protocol**:
-1. Immediately release arm squeeze and remove head pressure
-2. Step back from opponent's head and shoulders
-3. Allow opponent to breathe and recover (30-60 seconds)
-4. Check for consciousness and normal breathing
-5. If unconscious: position on side, elevate legs, monitor breathing until conscious
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth progressive pressure only
-- Never hold after tap signal - release immediately upon any tap
-- Always allow tap access - do not trap both arms in training
-- Never use competition speed in training - practice control first
-- Stop immediately if opponent's face changes color (purple/red indicates excessive pressure)
-
+**Starting Position**: [[Positions/Hindulotine]] · **From**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
@@ -264,10 +240,9 @@ The strategic value lies in the dilemma this creates within the Hindulotine atta
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Darce Choke]]
 - [[Positions/Hindulotine]]
@@ -276,31 +251,51 @@ The strategic value lies in the dilemma this creates within the Hindulotine atta
 - [[Submissions/Japanese Necktie]]
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Positions/Hindulotine]] - Starting position for this submission variant
 - [[Positions/Guillotine Control]] - Related control position with standard guillotine mechanics
 - [[Positions/Front Headlock]] - Common entry position for head-and-arm attacks
 - [[Positions/Darce Control]] - Alternative finish position from similar grip transition
 - [[Positions/Side Control]] - Common finishing position for arm triangle completion
-- [[Transitions/Arm Triangle]] - Parent submission family
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Arm Triangle from Hindulotine leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from blood choke | High | Immediate recovery if released promptly; potential stroke risk if held too long |
+| Neck strain from improper pressure angle | Medium | 3-7 days with rest |
+| Shoulder compression injury to trapped arm | Medium | 5-14 days depending on severity |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from lock to tap. Blood chokes can cause unconsciousness in 6-8 seconds.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' clearly)
+- Physical hand tap (multiple taps on opponent or mat)
+- Physical foot tap (multiple taps with foot)
+- Any distress signal or loss of resistance
+- Immediately release if opponent goes limp
+
+
+**Release Protocol**:
+1. Immediately release arm squeeze and remove head pressure
+2. Step back from opponent's head and shoulders
+3. Allow opponent to breathe and recover (30-60 seconds)
+4. Check for consciousness and normal breathing
+5. If unconscious: position on side, elevate legs, monitor breathing until conscious
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - apply smooth progressive pressure only
+- Never hold after tap signal - release immediately upon any tap
+- Always allow tap access - do not trap both arms in training
+- Never use competition speed in training - practice control first
+- Stop immediately if opponent's face changes color (purple/red indicates excessive pressure)
+
 
 </section>
 

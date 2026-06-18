@@ -33,10 +33,32 @@ description: "Master the kneebar from Backside 50-50 in BJJ. Complete guide to l
 }
 </script>
 
-> **SAFETY**: Kneebar from Backside 50-50 targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Risk: Posterior cruciate ligament (PCL) tear or rupture. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar from Backside 50-50",
+  "description": "The kneebar from Backside 50-50 is a leg-lock submission where the top player isolates the opponent's trapped leg, pivots perpendicular, and hyperextends the knee against the hips as a fulcrum to attack the cruciate ligaments.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The kneebar from Backside 50-50 is a leg-lock submission where the top player isolates the opponent's trapped leg, pivots perpendicular, and hyperextends the knee against the hips as a fulcrum to attack the cruciate ligaments.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Kneebar from Backside 50-50 targets the Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament). Primary risk: Posterior cruciate ligament (PCL) tear or rupture. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,56 +75,7 @@ Unlike kneebars from open guard positions, the Backside 50-50 entry benefits fro
 
 This technique functions as a critical secondary attack within the Backside 50-50 offensive system. When opponents successfully hide their heel to defend against heel hooks and outside heel hooks, the kneebar punishes their defensive posture by attacking the knee joint through hyperextension. The ability to chain between heel attacks and kneebar creates an unsolvable offensive dilemma that defines high-level leg lock competition.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)
-**Starting Position**: [[Positions/Ashi Garami/Backside 50-50]]
-**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Posterior cruciate ligament (PCL) tear or rupture | CRITICAL | 6-12 months with surgery, potential permanent instability |
-| Medial collateral ligament (MCL) sprain or tear | High | 4-8 weeks for grade 1-2, 8-12 weeks for grade 3 |
-| Lateral collateral ligament (LCL) damage | High | 6-10 weeks depending on severity |
-| Meniscus tear from rotational stress | High | 4-6 months with surgical repair |
-| Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
-
-
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
-
-**Tap Signals**:
-- Verbal tap (preferred for leg locks due to rapid injury onset)
-- Multiple rapid hand taps on opponent or mat
-- Multiple foot taps on mat or opponent
-- Any vocalization of distress or pain
-- Frantic or panicked movement indicating loss of composure
-
-
-**Release Protocol**:
-1. Immediately stop all hip extension pressure upon any tap signal
-2. Release the leg grip and allow knee to return to neutral position gradually
-3. Do not suddenly drop the leg - control descent to prevent secondary injury
-4. Allow partner to assess knee integrity before continuing
-5. Check with partner verbally before resuming training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - always apply progressive pressure over 5-7 seconds minimum
-- Never use competition speed finishing pressure in training - always allow time to tap
-- Always maintain control of opponent's heel - never let it slip or rotate during application
-- Never practice on training partners with known knee injuries without explicit permission
-- Never combine with explosive rotational movements that add torque to the knee
-- Beginners should not practice finishing pressure - focus on positional control and entry mechanics only
-
+**Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] · **From**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
 
@@ -267,10 +240,9 @@ This technique functions as a critical secondary attack within the Backside 50-5
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Kneebar]]
 - [[Submissions/Flying Kneebar]]
 - [[Submissions/Inside Heel Hook]]
@@ -279,14 +251,6 @@ This technique functions as a critical secondary attack within the Backside 50-5
 - [[Submissions/Toe Hold]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Backside 50-50]] - Primary starting position providing chest-to-back control and leg entanglement framework for kneebar entry
 - [[Positions/Ashi Garami/50-50 Guard]] - Related entanglement position where rotation behind opponent creates Backside 50-50 kneebar opportunity
 - [[Positions/Kneebar Control]] - Finishing control position achieved when kneebar is secured with full perpendicular alignment
@@ -296,16 +260,49 @@ This technique functions as a critical secondary attack within the Backside 50-5
 - [[Positions/Half Guard]] - Common counter outcome position when bottom player successfully disrupts the kneebar entry
 - [[Positions/Leg Entanglement]] - Fundamental principle underlying the control mechanics and leg isolation required for the kneebar
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kneebar from Backside 50-50 leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Posterior cruciate ligament (PCL) tear or rupture | CRITICAL | 6-12 months with surgery, potential permanent instability |
+| Medial collateral ligament (MCL) sprain or tear | High | 4-8 weeks for grade 1-2, 8-12 weeks for grade 3 |
+| Lateral collateral ligament (LCL) damage | High | 6-10 weeks depending on severity |
+| Meniscus tear from rotational stress | High | 4-6 months with surgical repair |
+| Patellar dislocation or subluxation | Medium | 3-6 weeks with potential for chronic instability |
+
+
+**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training
+
+**Tap Signals**:
+- Verbal tap (preferred for leg locks due to rapid injury onset)
+- Multiple rapid hand taps on opponent or mat
+- Multiple foot taps on mat or opponent
+- Any vocalization of distress or pain
+- Frantic or panicked movement indicating loss of composure
+
+
+**Release Protocol**:
+1. Immediately stop all hip extension pressure upon any tap signal
+2. Release the leg grip and allow knee to return to neutral position gradually
+3. Do not suddenly drop the leg - control descent to prevent secondary injury
+4. Allow partner to assess knee integrity before continuing
+5. Check with partner verbally before resuming training
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - always apply progressive pressure over 5-7 seconds minimum
+- Never use competition speed finishing pressure in training - always allow time to tap
+- Always maintain control of opponent's heel - never let it slip or rotate during application
+- Never practice on training partners with known knee injuries without explicit permission
+- Never combine with explosive rotational movements that add torque to the knee
+- Beginners should not practice finishing pressure - focus on positional control and entry mechanics only
+
 
 </section>
 

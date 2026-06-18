@@ -946,6 +946,33 @@ def main():
             "message": f"Missing transition: '{name}' (referenced but no file)",
         })
 
+    # Shortened submission variant names (error)
+    # A nested submission variant's top-level `name` must keep the full
+    # "<Family> from <Position>" form. The graph keys submissions by `name`, so a
+    # name shortened to just "from <Position>" (no technique prefix) silently breaks
+    # the position->submission edge — surfacing later as the confusing
+    # missing_transition + orphaned_submission pair. By BJJ naming convention a
+    # submission name always starts with the technique, never "from ", so the prefix
+    # is an unambiguous signal. We flag it directly with the deterministic correct
+    # name ("<parent folder> <file stem>") so the fix is copy-pasteable and caught at
+    # this gate rather than at the ~10-min build.
+    for name in sorted(submission_file_names):
+        if name.lower().startswith("from "):
+            path = submission_index[name]
+            p = Path(path)
+            suggested = f"{p.parent.name} {p.stem}"
+            all_issues.append({
+                "type": "shortened_variant_name",
+                "severity": "error",
+                "name": name,
+                "file": path,
+                "message": (
+                    f"Shortened submission variant name: '{name}' in {path} — "
+                    f"restore the full form (suggest: '{suggested}'). Positions reference "
+                    f"the full name; the short form breaks the graph edge and orphans the file."
+                ),
+            })
+
     # Probability sum errors (error)
     for e in prob_errors:
         all_issues.append({
@@ -1027,6 +1054,14 @@ def main():
     print("(Referenced by positions but no file exists)")
     for i in missing_details:
         print(f"  {i['name']}")
+
+    # Shortened submission variant names
+    shortened_variant_details = [i for i in all_issues if i["type"] == "shortened_variant_name"]
+    if shortened_variant_details:
+        print(f"\n--- SHORTENED SUBMISSION VARIANT NAMES ({len(shortened_variant_details)}) ---")
+        print("(Variant top-level `name` shortened to 'from <Position>' — breaks the graph edge)")
+        for i in shortened_variant_details:
+            print(f"  {i['message']}")
 
     # Invalid from_position references
     from_pos_details = [i for i in all_issues if i["type"] == "invalid_from_position"]

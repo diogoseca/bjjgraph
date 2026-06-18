@@ -34,6 +34,18 @@ description: "Master the Butterfly Smash in BJJ. Learn to collapse butterfly hoo
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Smash from Butterfly Hook Control",
+  "description": "Smash from Butterfly Hook Control is a pressure-passing transition where the top player drives diagonal weight and one knee through a single butterfly hook to collapse it, halving the guard's elevation power and entering Half Guard Top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Butterfly Smash in BJJ. Learn to collapse butterfly hoo
 
 <section id="overview" class="content-section">
 
-The Butterfly Smash is a fundamental pressure-based passing technique executed from Butterfly Hook Control Top, where the top player drives weight and knee through one of the opponent's butterfly hooks to collapse the guard structure and transition to Half Guard Top. This technique capitalizes on the inherent vulnerability of butterfly hooks to direct downward pressure when the bottom player's elevation mechanics are neutralized through proper upper body control and weight distribution.
+**Smash from Butterfly Hook Control is a pressure-passing transition where the top player drives diagonal weight and one knee through a single butterfly hook to collapse it, halving the guard's elevation power and entering Half Guard Top.**
+
+Among pressure-passing tools, the Butterfly Smash earns its place by solving one of grappling's hardest problems—how to neutralize an active, elevation-based guard without surrendering your base to a sweep. Rather than fighting the hooks head-on, it attacks the structural weakness that every butterfly hook shares: vulnerability to direct downward compression once the bottom player's upper-body connections and posture are controlled. Collapsing one hook to the mat halves the guard's offensive output and delivers the top player into a controllable Half Guard Top, where systematic passing becomes available.
 
 The smash operates on a straightforward mechanical principle: butterfly hooks generate offensive power through elevation and angle creation, but they are vulnerable to direct compression when the top player drives weight diagonally through one side while maintaining crossface or collar control. By pinning one hook to the mat with the shin and knee, the top player eliminates half of the guard's offensive capability and creates a clear passing pathway into half guard, where systematic pressure passing sequences become available.
 

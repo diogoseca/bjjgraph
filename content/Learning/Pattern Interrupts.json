@@ -1,6 +1,7 @@
 {
   "name": "Pattern Interrupts",
   "description": "Learn how to break your opponent's pre-programmed BJJ responses with tempo changes, unusual grips, and unexpected angles. Disrupt their automatic reactions to gain advantage.",
+  "summary": "Pattern interrupts are deliberate deviations from expected technique -- unusual grips, odd angles, or sudden tempo changes -- that force an opponent out of fast automatic defense into slower deliberate thinking, opening a brief window to attack.",
   "tags": [
     "bjj",
     "strategy",
@@ -126,6 +127,11 @@
       "name": "Mask Your Intentions",
       "content_type": "Learning",
       "relationship": "Complementary strategy -- masking intentions hides your plan while pattern interrupts break the opponent's plan"
+    },
+    {
+      "name": "Predictable Responses",
+      "content_type": "Learning",
+      "relationship": "Pattern interrupts are the offensive counterpart -- you exploit the very predictability this article teaches you to avoid in yourself"
     },
     {
       "name": "Grips",

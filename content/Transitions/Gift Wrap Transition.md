@@ -34,6 +34,18 @@ description: "Master Gift Wrap Transition from High Mount in BJJ. Arm isolation 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap Transition",
+  "description": "The Gift Wrap Transition is a High Mount arm-isolation technique where the top player threads an arm under the opponent's armpit and pins it high across their chest, stripping away half their defensive capability en route to back takes and chokes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Gift Wrap Transition from High Mount in BJJ. Arm isolation 
 
 <section id="overview" class="content-section">
 
-The Gift Wrap Transition is a fundamental arm isolation technique executed from High Mount that establishes dominant control by trapping one of the opponent's arms across their own body. This transition removes half of the opponent's defensive capability in a single action, transforming an already dominant position into a submission-rich control point. The technique capitalizes on the high mount's proximity to the opponent's upper body, making arm isolation more accessible than from standard mount.
+**The Gift Wrap Transition is a High Mount arm-isolation technique where the top player threads an arm under the opponent's armpit and pins it high across their chest, stripping away half their defensive capability en route to back takes and chokes.**
+
+Within the mount attack hierarchy, the Gift Wrap Transition is the connective tissue that converts raw High Mount dominance into back exposure and choke threats. Because the high knee line already pins the opponent's shoulders and strips their bridging power, the upper-body real estate required to isolate an arm is immediately available, making this the most accessible arm-trap entry in the entire mount family. The defender—already fighting simply to survive the pin—is now forced to do so with one arm committed across their own chest.
 
 Strategically, the Gift Wrap Transition serves as a gateway to multiple high-percentage attacks. Once the arm is trapped across the opponent's chest, the path to back control opens significantly, the rear naked choke becomes substantially easier to finish, and the free arm becomes an isolated target for straight armbar attacks. The position exemplifies modern positional methodology where control is systematically refined before submission attempts, creating situations where the defender faces multiple threats with reduced defensive tools.
 

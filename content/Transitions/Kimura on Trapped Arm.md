@@ -34,6 +34,18 @@ description: "Master Kimura on Trapped Arm from Gift Wrap in BJJ. Step-by-step s
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura on Trapped Arm",
+  "description": "Kimura on Trapped Arm is a shoulder lock attacked from Gift Wrap back control, where the opponent's already-isolated arm sits pre-rotated into the figure-four, stripping away their primary defenses before the submission even begins.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Kimura on Trapped Arm from Gift Wrap in BJJ. Step-by-step s
 </div>
 
 <section id="overview" class="content-section">
+
+**Kimura on Trapped Arm is a shoulder lock attacked from Gift Wrap back control, where the opponent's already-isolated arm sits pre-rotated into the figure-four, stripping away their primary defenses before the submission even begins.**
 
 The Kimura on Trapped Arm represents a high-percentage submission opportunity that exploits the fundamental vulnerability created by Gift Wrap control. When the opponent's arm is already wrapped across their own body, the shoulder joint is pre-rotated into a compromised position that dramatically reduces the force required to create submission pressure. This technique capitalizes on the strategic advantage of systematic limb isolation.
 

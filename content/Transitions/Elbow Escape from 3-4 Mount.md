@@ -34,6 +34,18 @@ description: "Master the Elbow Escape from 3-4 Mount in BJJ. Complete guide to h
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Elbow Escape from 3-4 Mount",
+  "description": "The Elbow Escape from 3-4 Mount is a bottom-player hip escape that frames against the mounted knee, bridges to disrupt base, then shrimps toward the lighter posted-leg side to insert a knee and recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Elbow Escape from 3-4 Mount in BJJ. Complete guide to h
 
 <section id="overview" class="content-section">
 
-The Elbow Escape from 3-4 Mount is the primary hip-based escape technique available to the bottom player when trapped under the asymmetric 3-4 mount configuration. Unlike escaping traditional mount where both sides present equal resistance, the 3-4 mount's asymmetric weight distribution creates a natural escape corridor toward the posted leg side where the top player has fewer contact points and compromised base stability. The technique employs systematic hip escape mechanics combined with precise frame placement to create sufficient space for knee insertion and half guard recovery.
+**The Elbow Escape from 3-4 Mount is a bottom-player hip escape that frames against the mounted knee, bridges to disrupt base, then shrimps toward the lighter posted-leg side to insert a knee and recover half guard.**
+
+Among all mount escapes, this technique stands out because it exploits a structural weakness unique to the asymmetric 3-4 configuration rather than fighting symmetric pressure head-on. Unlike escaping traditional mount where both sides present equal resistance, the 3-4 mount's asymmetric weight distribution creates a natural escape corridor toward the posted leg side where the top player has fewer contact points and compromised base stability. The technique employs systematic hip escape mechanics combined with precise frame placement to create sufficient space for knee insertion and half guard recovery.
 
 Execution centers on a three-phase sequence: first establishing a defensive frame against the mounted knee to prevent the top player from driving deeper, then bridging toward the heavier mounted side to momentarily disrupt the top player's base, and finally shrimping the hips away toward the lighter posted leg side while simultaneously inserting the knee as a wedge. The escape demands precise timing because the top player can counter by driving weight forward, switching the mounted knee to the opposite side, or advancing to full mount during the transition.
 

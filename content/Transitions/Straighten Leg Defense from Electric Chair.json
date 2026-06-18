@@ -1,5 +1,6 @@
 {
   "name": "Straighten Leg Defense from Electric Chair",
+  "summary": "The Straighten Leg Defense is the top player's primary escape from the Electric Chair, extending the trapped leg against the lockdown's bending pressure to neutralize the figure-four entanglement and return to half guard top.",
   "description": "Learn the Straighten Leg Defense from Electric Chair in BJJ. Counter the lockdown split by extending your trapped leg to escape back to half guard top.",
   "tags": [
     "electric-chair-defense",
@@ -57,7 +58,7 @@
   "related_content": [
     {
       "name": "Electric Chair",
-      "relationship": "Source position where this defense is applied against the lockdown split"
+      "relationship": "Source position and submission threat this defense is applied against from the lockdown split"
     },
     {
       "name": "Half Guard",
@@ -78,10 +79,6 @@
     {
       "name": "Deep Half Guard",
       "relationship": "Position the bottom player may transition to if Electric Chair is neutralized"
-    },
-    {
-      "name": "Electric Chair",
-      "relationship": "Submission threat being defended against with this technique"
     },
     {
       "name": "Truck",

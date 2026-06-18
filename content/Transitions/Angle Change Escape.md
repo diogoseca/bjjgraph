@@ -34,6 +34,18 @@ description: "Angle Change Escape from Gogoplata Control. Lateral movement defen
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Angle Change Escape",
+  "description": "The Angle Change Escape is a defensive transition from Gogoplata Control where the trapped top player shifts their whole body laterally to convert perpendicular shin-across-throat pressure into harmless tangential contact, extracting the head to recover Half Guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Angle Change Escape from Gogoplata Control. Lateral movement defen
 </div>
 
 <section id="overview" class="content-section">
+
+**The Angle Change Escape is a defensive transition from Gogoplata Control where the trapped top player shifts their whole body laterally to convert perpendicular shin-across-throat pressure into harmless tangential contact, extracting the head to recover Half Guard top.**
 
 The Angle Change Escape represents a systematic defensive response to Gogoplata Control that exploits the positional vulnerability created by the bottom player's shin-across-throat configuration. Rather than attempting to pull straight back against the closed-loop system of the gogoplata, this technique utilizes lateral movement to change the angle of the shin relative to the trachea, reducing compression and creating space for extraction.
 

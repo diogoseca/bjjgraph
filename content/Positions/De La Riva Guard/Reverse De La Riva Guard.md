@@ -34,6 +34,18 @@ description: "Master Reverse De La Riva Guard in BJJ. Strategic guide covering i
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse De La Riva Guard",
+  "description": "Reverse De La Riva Guard is an advanced open guard where the bottom player threads an inverted hook behind the opponent's far leg, generating rotational off-balancing that opens berimbolo back-takes, waiter sweeps, and kiss of the dragon entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Reverse De La Riva Guard in BJJ. Strategic guide covering i
 </div>
 
 <section id="overview" class="content-section">
+
+**Reverse De La Riva Guard is an advanced open guard where the bottom player threads an inverted hook behind the opponent's far leg, generating rotational off-balancing that opens berimbolo back-takes, waiter sweeps, and kiss of the dragon entries.**
 
 Reverse De La Riva Guard (RDLR) is an advanced open guard position that inverts the traditional De La Riva hook orientation, creating unique rotational off-balancing mechanics that specialize in back takes and inversion-based attacks. The position emerged in the early 2000s as competitors developed sophisticated counter-passing systems, with practitioners like Cobrinha and the Miyao brothers demonstrating its offensive potential for creating back exposure opportunities through berimbolo entries and kiss of the dragon techniques.
 

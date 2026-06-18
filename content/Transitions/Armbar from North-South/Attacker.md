@@ -172,11 +172,9 @@ description: "How to execute Armbar from North-South in BJJ. Attacking perspecti
 
 <section id="overview" class="content-section">
 
-The Armbar from North-South represents a systematic submission setup that capitalizes on the inherent arm isolation available from perpendicular chest pressure. This technique exploits the fundamental vulnerability of North-South control—when the top practitioner maintains chest-to-chest pressure, the bottom player's arms become naturally separated from their body and exposed to attack. The transition requires precise hip rotation and leg placement to convert a pinning position into a submission control.
+From North-South top, the armbar is your highest-leverage way to punish an arm that drifts off the floor: you convert the crushing perpendicular pin into a finishing position by isolating one arm and rotating perpendicular to it. The window opens whenever the bottom player extends or separates their near-side arm from their torso, which they are forced to do to frame, breathe, or defend the kimura. Your job is to recognize that window and lock two-on-one control before they retract.
 
-Strategically, this armbar setup serves as a primary offensive option when the opponent's near-side arm becomes isolated during North-South maintenance. The technique creates a powerful dilemma: if the bottom player commits both arms to defending the kimura threat, the armbar becomes available; if they focus on arm defense, the chest pressure and positional control remain devastating. This attack chain makes North-South exponentially more dangerous.
-
-The mechanical foundation relies on pivoting your body perpendicular to the opponent's arm while maintaining control of their wrist and elbow. Your legs create the fulcrum for the hyperextension by clamping across their chest and shoulder line. Success depends on controlling the arm throughout the transition—any slack allows defensive hitchhiker escapes or guard recovery attempts.
+Mechanically, you anchor the wrist with a pistol grip, underhook the elbow to your ribs, then explode your hips toward the arm while swinging your far leg across the face. The legs become the fulcrum—near leg across the chest below the armpit, far leg over the face, knees pinched—while the wrist is pulled to your chest with the thumb up. Because North-South sits inside the kimura/armbar/choke triangle of threats, a defended armbar feeds directly into back takes, triangles, and the belly-down finish, so committing to the rotation rarely leaves you empty-handed.
 
 **From Position**: [[Positions/North-South]] (Top)
 

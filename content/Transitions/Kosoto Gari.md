@@ -35,6 +35,18 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kosoto Gari",
+  "description": "Kosoto Gari is a judo-derived minor outer reap that sweeps the opponent's weight-bearing heel backward while pulling their upper body to the rear corner, dropping them flat for an immediate pass to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -49,7 +61,9 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
 
 <section id="overview" class="content-section">
 
-Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has become essential in modern BJJ's standing game. Unlike explosive forward throws, Kosoto Gari capitalizes on subtle weight distribution, timing, and off-balancing to sweep the opponent's weight-bearing leg from beneath them. The technique combines a pulling motion with upper body control while simultaneously reaping the opponent's heel backward and upward. This creates a powerful rotation that deposits the opponent on their back, allowing immediate transition to dominant positions like side control or knee on belly. The beauty of Kosoto Gari lies in its mechanical efficiency - it requires minimal strength when executed with proper timing, making it accessible to practitioners of all sizes. The technique is particularly effective against opponents who resist forward throws by posting their weight backward, as this natural defensive reaction places them perfectly into Kosoto Gari's zone of vulnerability. In competition, Kosoto Gari scores as a throw and frequently results in immediate positional dominance, making it a high-percentage technique for gi and no-gi contexts alike.
+**Kosoto Gari is a judo-derived minor outer reap that sweeps the opponent's weight-bearing heel backward while pulling their upper body to the rear corner, dropping them flat for an immediate pass to side control.**
+
+As modern BJJ competition increasingly begins on the feet, Kosoto Gari has earned a place among the highest-percentage ashi-waza (foot sweeps) available to grapplers who refuse to concede the takedown battle. Unlike explosive forward throws, Kosoto Gari capitalizes on subtle weight distribution, timing, and off-balancing to sweep the opponent's weight-bearing leg from beneath them. The technique combines a pulling motion with upper body control while simultaneously reaping the opponent's heel backward and upward. This creates a powerful rotation that deposits the opponent on their back, allowing immediate transition to dominant positions like side control or knee on belly. The beauty of Kosoto Gari lies in its mechanical efficiency - it requires minimal strength when executed with proper timing, making it accessible to practitioners of all sizes. The technique is particularly effective against opponents who resist forward throws by posting their weight backward, as this natural defensive reaction places them perfectly into Kosoto Gari's zone of vulnerability. In competition, Kosoto Gari scores as a throw and frequently results in immediate positional dominance, making it a high-percentage technique for gi and no-gi contexts alike.
 
 **From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 58%

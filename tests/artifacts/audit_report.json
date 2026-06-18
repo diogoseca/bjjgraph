@@ -3,12 +3,12 @@
     "transition_files": 1034,
     "submission_files": 371,
     "position_files": 136,
-    "total_issues": 524,
+    "total_issues": 506,
     "errors": 0,
     "warnings": 7,
-    "info": 517,
+    "info": 499,
     "orphaned_transitions": 0,
-    "orphaned_submissions": 0,
+    "orphaned_submissions": 1,
     "missing_transitions": 0,
     "naming_matches": 0,
     "probability_errors": 0,
@@ -16,9 +16,17 @@
     "invalid_from_positions": 0,
     "outcome_errors": 0,
     "outcome_warnings": 2,
-    "attempt_outliers": 517
+    "attempt_outliers": 498
   },
   "issues": [
+    {
+      "type": "orphaned_submission",
+      "severity": "info",
+      "name": "Neck Crank",
+      "file": "content/Submissions/Neck Crank.json",
+      "from_position": "Twister Control/Top",
+      "message": "Orphaned submission: 'Neck Crank' (from: Twister Control/Top)"
+    },
     {
       "type": "from_position_mismatch",
       "severity": "warning",
@@ -208,21 +216,31 @@
     {
       "file": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
       "position": "Cross Ashi-Garami",
-      "role": "top",
+      "role": "bottom",
       "type": "attempt_negligible",
-      "message": "top: 'Outside Heel Hook from Cross Ashi-Garami' has only 1% attempt probability",
+      "message": "bottom: 'Standing Escape' has only 2% attempt probability",
       "severity": "info",
-      "transition": "Outside Heel Hook from Cross Ashi-Garami",
-      "current": 1
+      "transition": "Standing Escape",
+      "current": 2
     },
     {
       "file": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
       "position": "Cross Ashi-Garami",
       "role": "bottom",
       "type": "attempt_negligible",
-      "message": "bottom: 'Standing Escape' has only 2% attempt probability",
+      "message": "bottom: 'Counter Entangle from Cross Ashi' has only 2% attempt probability",
       "severity": "info",
-      "transition": "Standing Escape",
+      "transition": "Counter Entangle from Cross Ashi",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Ashi Garami/Cross Ashi-Garami.json",
+      "position": "Cross Ashi-Garami",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Leg Extraction from Cross Ashi' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Leg Extraction from Cross Ashi",
       "current": 2
     },
     {
@@ -470,20 +488,20 @@
       "position": "Saddle",
       "role": "bottom",
       "type": "attempt_negligible",
-      "message": "bottom: 'Standing up in Base' has only 1% attempt probability",
+      "message": "bottom: 'Standing up in Base' has only 2% attempt probability",
       "severity": "info",
       "transition": "Standing up in Base",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Ashi Garami/Saddle.json",
       "position": "Saddle",
       "role": "bottom",
       "type": "attempt_negligible",
-      "message": "bottom: 'Sweep from Saddle' has only 1% attempt probability",
+      "message": "bottom: 'Sweep from Saddle' has only 2% attempt probability",
       "severity": "info",
       "transition": "Sweep from Saddle",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Ashi Garami/Saddle.json",
@@ -730,6 +748,26 @@
       "position": "Seat Belt Control Back",
       "role": "bottom",
       "type": "attempt_negligible",
+      "message": "bottom: 'Escape Seat Belt Control' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Escape Seat Belt Control",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Back Control/Seat Belt Control Back.json",
+      "position": "Seat Belt Control Back",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Hand Fight from Seat Belt Control' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Hand Fight from Seat Belt Control",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Back Control/Seat Belt Control Back.json",
+      "position": "Seat Belt Control Back",
+      "role": "bottom",
+      "type": "attempt_negligible",
       "message": "bottom: 'Seat Belt Peel Escape' has only 1% attempt probability",
       "severity": "info",
       "transition": "Seat Belt Peel Escape",
@@ -753,16 +791,6 @@
       "message": "top: 'Bow and Arrow Setup from Standing Back' has only 2% attempt probability",
       "severity": "info",
       "transition": "Bow and Arrow Setup from Standing Back",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Back Control/Standing Back Control.json",
-      "position": "Standing Back Control",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Rear Naked Choke from Standing Back Control' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Rear Naked Choke from Standing Back Control",
       "current": 2
     },
     {
@@ -1154,6 +1182,16 @@
       "severity": "info",
       "transition": "Arm Drag Sweep",
       "current": 2
+    },
+    {
+      "file": "content/Positions/Butterfly Guard/Butterfly Hook Control.json",
+      "position": "Butterfly Hook Control",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Butterfly Hook Sweep' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Butterfly Hook Sweep",
+      "current": 1
     },
     {
       "file": "content/Positions/Butterfly Guard/Butterfly Hook Control.json",
@@ -1896,46 +1934,6 @@
       "current": 2
     },
     {
-      "file": "content/Positions/Double Sleeve Guard.json",
-      "position": "Double Sleeve Guard",
-      "role": "bottom",
-      "type": "attempt_dominant",
-      "message": "bottom: 'Tripod Sweep' dominates with 69% attempt probability",
-      "severity": "info",
-      "transition": "Tripod Sweep",
-      "current": 69
-    },
-    {
-      "file": "content/Positions/Double Sleeve Guard.json",
-      "position": "Double Sleeve Guard",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Flower Sweep' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Flower Sweep",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Double Sleeve Guard.json",
-      "position": "Double Sleeve Guard",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Pendulum Sweep' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Pendulum Sweep",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Double Sleeve Guard.json",
-      "position": "Double Sleeve Guard",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Double Sleeve to Spider Guard' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Double Sleeve to Spider Guard",
-      "current": 1
-    },
-    {
       "file": "content/Positions/Double Unders.json",
       "position": "Double Unders",
       "role": "top",
@@ -1950,20 +1948,10 @@
       "position": "Estima Lock Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Estima Lock' has only 1% attempt probability",
+      "message": "top: 'Estima Lock' has only 2% attempt probability",
       "severity": "info",
       "transition": "Estima Lock",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Estima Lock Control.json",
-      "position": "Estima Lock Control",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Estima Lock' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Estima Lock",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Estima Lock Control.json",
@@ -2180,16 +2168,6 @@
       "position": "Gift Wrap",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Rear Naked Choke from Gift Wrap' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Rear Naked Choke from Gift Wrap",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Gift Wrap.json",
-      "position": "Gift Wrap",
-      "role": "top",
-      "type": "attempt_negligible",
       "message": "top: 'Gift Wrap Armbar from Gift Wrap' has only 2% attempt probability",
       "severity": "info",
       "transition": "Gift Wrap Armbar from Gift Wrap",
@@ -2394,56 +2372,6 @@
       "severity": "info",
       "transition": "Homer Simpson Sweep",
       "current": 2
-    },
-    {
-      "file": "content/Positions/Half Guard/Electric Chair.json",
-      "position": "Electric Chair",
-      "role": "bottom",
-      "type": "attempt_dominant",
-      "message": "bottom: 'Old School Sweep' dominates with 76% attempt probability",
-      "severity": "info",
-      "transition": "Old School Sweep",
-      "current": 76
-    },
-    {
-      "file": "content/Positions/Half Guard/Electric Chair.json",
-      "position": "Electric Chair",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Straighten Leg Defense from Electric Chair' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Straighten Leg Defense from Electric Chair",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Half Guard/Electric Chair.json",
-      "position": "Electric Chair",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Sweep from Electric Chair' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Sweep from Electric Chair",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Half Guard/Electric Chair.json",
-      "position": "Electric Chair",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Electric Chair' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Electric Chair",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Half Guard/Electric Chair.json",
-      "position": "Electric Chair",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Electric Chair from Electric Chair' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Electric Chair from Electric Chair",
-      "current": 1
     },
     {
       "file": "content/Positions/Half Guard/Flattened Half Guard.json",
@@ -2670,20 +2598,10 @@
       "position": "Reverse Half Guard",
       "role": "bottom",
       "type": "attempt_negligible",
-      "message": "bottom: 'Invert from Reverse Half Guard' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Invert from Reverse Half Guard",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Half Guard/Reverse Half Guard.json",
-      "position": "Reverse Half Guard",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Sweep from Reverse Half Guard' has only 1% attempt probability",
+      "message": "bottom: 'Sweep from Reverse Half Guard' has only 2% attempt probability",
       "severity": "info",
       "transition": "Sweep from Reverse Half Guard",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Half Guard/Z-Lock Half Guard.json",
@@ -2873,16 +2791,6 @@
       "message": "top: 'Harness to Body Lock' has only 1% attempt probability",
       "severity": "info",
       "transition": "Harness to Body Lock",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Harness.json",
-      "position": "Harness",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Rear Naked Choke from Harness' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Rear Naked Choke from Harness",
       "current": 1
     },
     {
@@ -3290,6 +3198,26 @@
       "position": "Matrix",
       "role": "bottom",
       "type": "attempt_negligible",
+      "message": "bottom: 'Counter Roll from Matrix' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Counter Roll from Matrix",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Matrix.json",
+      "position": "Matrix",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Escape Matrix Position' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Escape Matrix Position",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Matrix.json",
+      "position": "Matrix",
+      "role": "bottom",
+      "type": "attempt_negligible",
       "message": "bottom: 'Sweep from Matrix' has only 1% attempt probability",
       "severity": "info",
       "transition": "Sweep from Matrix",
@@ -3503,16 +3431,6 @@
       "message": "top: 'Americana from Technical Mount' has only 1% attempt probability",
       "severity": "info",
       "transition": "Americana from Technical Mount",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Mount/Technical Mount.json",
-      "position": "Technical Mount",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Bridge from Technical Mount' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Bridge from Technical Mount",
       "current": 1
     },
     {
@@ -3750,16 +3668,6 @@
       "position": "Rodeo Ride",
       "role": "bottom",
       "type": "attempt_negligible",
-      "message": "bottom: 'Sit Through Escape' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Sit Through Escape",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Rodeo Ride.json",
-      "position": "Rodeo Ride",
-      "role": "bottom",
-      "type": "attempt_negligible",
       "message": "bottom: 'Standing up in Base' has only 2% attempt probability",
       "severity": "info",
       "transition": "Standing up in Base",
@@ -3770,10 +3678,30 @@
       "position": "Rodeo Ride",
       "role": "bottom",
       "type": "attempt_negligible",
-      "message": "bottom: 'Shake Off Rodeo Ride' has only 1% attempt probability",
+      "message": "bottom: 'Escape from Rodeo Ride' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Escape from Rodeo Ride",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Rodeo Ride.json",
+      "position": "Rodeo Ride",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Roll from Rodeo Ride' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Roll from Rodeo Ride",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Rodeo Ride.json",
+      "position": "Rodeo Ride",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Shake Off Rodeo Ride' has only 2% attempt probability",
       "severity": "info",
       "transition": "Shake Off Rodeo Ride",
-      "current": 1
+      "current": 2
     },
     {
       "file": "content/Positions/Rubber Guard/Chill Dog.json",
@@ -3874,16 +3802,6 @@
       "severity": "info",
       "transition": "Sweep from Zombie Guard",
       "current": 1
-    },
-    {
-      "file": "content/Positions/Russian Cowboy.json",
-      "position": "Russian Cowboy",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Rear Naked Choke from Russian Cowboy' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Rear Naked Choke from Russian Cowboy",
-      "current": 2
     },
     {
       "file": "content/Positions/Russian Cowboy.json",
@@ -4004,36 +3922,6 @@
       "severity": "info",
       "transition": "Modified Scarf to Mount",
       "current": 2
-    },
-    {
-      "file": "content/Positions/Side Control/Modified Scarf Hold.json",
-      "position": "Modified Scarf Hold",
-      "role": "bottom",
-      "type": "attempt_dominant",
-      "message": "bottom: 'Roll to Turtle' dominates with 75% attempt probability",
-      "severity": "info",
-      "transition": "Roll to Turtle",
-      "current": 75
-    },
-    {
-      "file": "content/Positions/Side Control/Modified Scarf Hold.json",
-      "position": "Modified Scarf Hold",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Ghost Escape' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Ghost Escape",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Side Control/Modified Scarf Hold.json",
-      "position": "Modified Scarf Hold",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Escape Modified Scarf Hold' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Escape Modified Scarf Hold",
-      "current": 1
     },
     {
       "file": "content/Positions/Side Control/Reverse Kesa-Gatame.json",
@@ -5016,36 +4904,6 @@
       "current": 2
     },
     {
-      "file": "content/Positions/Twister Control/Truck.json",
-      "position": "Truck",
-      "role": "bottom",
-      "type": "attempt_dominant",
-      "message": "bottom: 'Granby Roll to Guard' dominates with 66% attempt probability",
-      "severity": "info",
-      "transition": "Granby Roll to Guard",
-      "current": 66
-    },
-    {
-      "file": "content/Positions/Twister Control/Truck.json",
-      "position": "Truck",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Back Door Escape' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Back Door Escape",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Twister Control/Truck.json",
-      "position": "Truck",
-      "role": "bottom",
-      "type": "attempt_negligible",
-      "message": "bottom: 'Roll to Guard from Truck' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Roll to Guard from Truck",
-      "current": 1
-    },
-    {
       "file": "content/Positions/Twister Control/Twister Side Control.json",
       "position": "Twister Side Control",
       "role": "bottom",
@@ -5154,46 +5012,6 @@
       "severity": "info",
       "transition": "Standing to Single Leg X",
       "current": 2
-    },
-    {
-      "file": "content/Positions/X-Guard.json",
-      "position": "X-Guard",
-      "role": "top",
-      "type": "attempt_dominant",
-      "message": "top: 'Knee Slice Pass' dominates with 61% attempt probability",
-      "severity": "info",
-      "transition": "Knee Slice Pass",
-      "current": 61
-    },
-    {
-      "file": "content/Positions/X-Guard.json",
-      "position": "X-Guard",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Outside Ashi Entry' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Outside Ashi Entry",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/X-Guard.json",
-      "position": "X-Guard",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Back Step' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Back Step",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/X-Guard.json",
-      "position": "X-Guard",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Standing Escape from X-Guard' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Standing Escape from X-Guard",
-      "current": 1
     },
     {
       "file": "content/Positions/X-Guard.json",

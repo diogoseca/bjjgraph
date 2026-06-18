@@ -35,6 +35,18 @@ description: "Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step sacrifice th
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Tani Otoshi",
+  "description": "Tani Otoshi (Valley Drop) is a Judo-derived sacrifice throw where you drop to a seated hip position while blocking the opponent's leg and pulling their upper body across it to land directly in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -48,6 +60,8 @@ description: "Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step sacrifice th
 </div>
 
 <section id="overview" class="content-section">
+
+**Tani Otoshi (Valley Drop) is a Judo-derived sacrifice throw where you drop to a seated hip position while blocking the opponent's leg and pulling their upper body across it to land directly in side control.**
 
 Tani Otoshi, or Valley Drop, is a sacrifice throwing technique borrowed from Judo that has proven highly effective in Brazilian Jiu-Jitsu competition and no-gi grappling. Unlike traditional forward throws that require significant breaking of opponent's posture, Tani Otoshi capitalizes on lateral movement and timing, making it accessible to practitioners who may lack explosive power or superior size. The technique involves dropping to a seated position while simultaneously blocking the opponent's leg and controlling their upper body, creating a mechanical advantage that sends them over your blocking leg.
 

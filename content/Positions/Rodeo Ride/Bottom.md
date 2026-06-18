@@ -21,13 +21,13 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Guard",
-      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 52% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Guard. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Defend Rodeo Ride position in BJJ. Learn escape fundamentals, guar
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through Escape",
-      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],

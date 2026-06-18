@@ -1,6 +1,7 @@
 {
   "name": "Overhook Sweep",
   "description": "Master the Overhook Sweep from closed guard in BJJ. Complete guide covering execution, chain attacks, defense strategies, and training progressions.",
+  "summary": "The Overhook Sweep is a closed-guard bottom sweep that traps an opponent's posted arm with a deep overhook, then creates a 45-degree angle and uses leg leverage to roll them over and arrive in top mount.",
   "tags": [
     "bjj",
     "transition",
@@ -56,7 +57,7 @@
       "relationship": "Follow-up sweep when opponent posts free hand wide"
     },
     {
-      "name": "Kimura",
+      "name": "Kimura from Guard",
       "relationship": "Submission attack from the same overhook control"
     },
     {

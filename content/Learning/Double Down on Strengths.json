@@ -1,6 +1,7 @@
 {
   "name": "Double Down on Strengths",
   "description": "Learn why depth beats breadth in BJJ game development. Discover how building a devastating A-game and funneling opponents into your strengths creates consistent winning results.",
+  "summary": "Double Down on Strengths is a BJJ game-development strategy of investing disproportionate training time into one elite 'A-game' area and funneling every match toward it, rather than spreading effort thinly across all positions.",
   "tags": [
     "bjj",
     "strategy",
@@ -53,7 +54,7 @@
     {
       "mistake": "Constantly chasing the newest technique or system instead of deepening your existing game",
       "consequence": "Your game becomes a collection of half-learned techniques. You know the first step of many positions but the finishing details of none. Against good opponents, nothing works because nothing is sharp enough.",
-      "correction": "Adopt a 80/20 training split: 80% of your drilling time on your A-game, 20% on exploration and new techniques. Only integrate new techniques if they connect to your existing game."
+      "correction": "Adopt an 80/20 training split: 80% of your drilling time on your A-game, 20% on exploration and new techniques. Only integrate new techniques if they connect to your existing game."
     },
     {
       "mistake": "Choosing your A-game based on what looks cool or what is trending rather than what fits your body and temperament",
@@ -122,6 +123,11 @@
       "relationship": "Position chains are how you build pathways to funnel the match toward your A-game"
     },
     {
+      "name": "Funneling",
+      "content_type": "Learning",
+      "relationship": "Funneling is the tactical method for steering every match toward your area of excellence"
+    },
+    {
       "name": "Asymmetric Warfare",
       "content_type": "Learning",
       "relationship": "Complementary strategy -- doubling down on strengths gives you the weapon to impose in asymmetric matchups"
@@ -152,9 +158,9 @@
       "relationship": "Mount is a high-value position that benefits from deep study of maintenance and submission setups"
     },
     {
-      "name": "Submission Chains",
-      "content_type": "Principle",
-      "relationship": "Submission chains from your best position are a direct product of depth-based training"
+      "name": "Technique Chaining",
+      "content_type": "Learning",
+      "relationship": "Chaining techniques together within your A-game is how depth-based specialization produces unstoppable offense"
     },
     {
       "name": "Escape Fundamentals",

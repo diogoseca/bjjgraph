@@ -33,10 +33,32 @@ description: "Master the toe hold from leg entanglement positions in BJJ. Expert
 }
 </script>
 
-> **SAFETY**: Toe Hold from Leg Entanglement targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toe Hold from Leg Entanglement",
+  "description": "The toe hold from leg entanglement is a rotational ankle lock that uses a figure-four grip across the ball of the foot to twist the toes outward, attacking the ankle ligaments and midfoot from any ashi garami variant.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The toe hold from leg entanglement is a rotational ankle lock that uses a figure-four grip across the ball of the foot to twist the toes outward, attacking the ankle ligaments and midfoot from any ashi garami variant.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle, toes, and foot ligaments</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Toe Hold from Leg Entanglement targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,61 +69,11 @@ description: "Master the toe hold from leg entanglement positions in BJJ. Expert
 
 <section id="overview" class="content-section">
 
-The toe hold from leg entanglement is a fundamental rotational ankle submission available across all ashi garami configurations. Unlike heel hooks that require specific inside or outside positioning relative to the knee line, the toe hold can be initiated from virtually any entanglement variant, making it an essential weapon in the leg lock practitioner's arsenal. The submission works by gripping across the opponent's toes and ball of the foot with a figure-four configuration, then applying controlled twisting force that attacks the lateral and medial ankle ligaments, midfoot structures, and can transfer damaging torque through to the knee.
+Among the foot locks available from leg entanglement, the toe hold earns its place precisely because it does not depend on heel exposure. Unlike heel hooks that require specific inside or outside positioning relative to the knee line, the toe hold can be initiated from virtually any entanglement variant, making it an essential weapon in the leg lock practitioner's arsenal. The submission works by gripping across the opponent's toes and ball of the foot with a figure-four configuration, then applying controlled twisting force that attacks the lateral and medial ankle ligaments, midfoot structures, and can transfer damaging torque through to the knee.
 
 What makes the toe hold particularly effective from leg entanglement is the inherent control these positions provide. The entangled legs create a stable platform that prevents the opponent from simply retracting their foot, while the attacker's hip positioning close to the target ankle maximizes rotational leverage. The toe hold serves dual strategic purposes in modern leg lock systems: as a primary finishing attack when the heel is hidden and heel hooks are unavailable, and as a chain-starting threat that forces defensive reactions opening pathways to heel hooks, kneebars, and positional advances. The IBJJF allows toe holds at brown belt and above, while most no-gi rulesets permit them at intermediate levels, making this a critical technique for competitive grapplers progressing through the ranks.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle, toes, and foot ligaments
-**Starting Position**: [[Positions/Leg Entanglement]]
-**From Position**: [[Positions/Leg Entanglement]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Ankle ligament tears (lateral and medial collateral ligaments) | High | 6-12 weeks with potential for chronic instability |
-| Toe fractures and dislocations | Medium | 4-8 weeks |
-| Plantar fascia rupture | High | 8-16 weeks |
-| Lisfranc joint injury (midfoot dislocation) | CRITICAL | 3-6 months, may require surgery |
-| Achilles tendon strain | Medium | 4-6 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The rotational nature of this submission means damage accumulates without clear warning. Never snap this technique on in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly and clearly)
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap with free leg on partner or mat
-- Any verbal distress signal or shout
-- Slapping the mat repeatedly with open hand
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon feeling or hearing a tap
-2. Unwind the rotation gradually rather than releasing abruptly
-3. Release the figure-four grip completely
-4. Release heel and ankle control
-5. Allow opponent's foot to return to neutral position naturally
-6. Check with training partner before resuming
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual and controlled
-- Never grip individual toes - always grip across multiple toes and the ball of the foot
-- Never combine toe hold rotation with explosive hip extension
-- Always allow clear tap access for both of the defender's hands
-- Stop immediately at any sign of discomfort, popping, or unusual resistance
-- Never train this submission at full competition speed until both partners are experienced
-
+**Starting Position**: [[Positions/Leg Entanglement]] · **From**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
 
@@ -267,41 +239,63 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Estima Lock]]
-- [[Submissions/Inside Heel Hook]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Leg Entanglement]] - Primary starting position providing the control platform for toe hold attacks
 - [[Positions/Ashi Garami]] - Foundational leg entanglement variant and most common entry point for toe hold setup
 - [[Positions/Ashi Garami/50-50 Guard]] - Neutral entanglement where the toe hold serves as a primary attack when heel hooks are defended
-- [[Transitions/Heel Hook]] - Higher-percentage chain submission when toe hold defense exposes the heel
-- [[Submissions/Inside Heel Hook]] - Primary alternative attack when opponent defends toe hold by hiding toes but exposing heel
 - [[Positions/Kneebar Control]] - Transition target when opponent straightens leg to defend the toe hold rotation
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Toe Hold from Leg Entanglement leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Ankle ligament tears (lateral and medial collateral ligaments) | High | 6-12 weeks with potential for chronic instability |
+| Toe fractures and dislocations | Medium | 4-8 weeks |
+| Plantar fascia rupture | High | 8-16 weeks |
+| Lisfranc joint injury (midfoot dislocation) | CRITICAL | 3-6 months, may require surgery |
+| Achilles tendon strain | Medium | 4-6 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The rotational nature of this submission means damage accumulates without clear warning. Never snap this technique on in training.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' loudly and clearly)
+- Physical hand tap on partner or mat (multiple rapid taps)
+- Physical foot tap with free leg on partner or mat
+- Any verbal distress signal or shout
+- Slapping the mat repeatedly with open hand
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure upon feeling or hearing a tap
+2. Unwind the rotation gradually rather than releasing abruptly
+3. Release the figure-four grip completely
+4. Release heel and ankle control
+5. Allow opponent's foot to return to neutral position naturally
+6. Check with training partner before resuming
+
+
+**Training Restrictions**:
+- Never apply sudden rotational force - all pressure must be gradual and controlled
+- Never grip individual toes - always grip across multiple toes and the ball of the foot
+- Never combine toe hold rotation with explosive hip extension
+- Always allow clear tap access for both of the defender's hands
+- Stop immediately at any sign of discomfort, popping, or unusual resistance
+- Never train this submission at full competition speed until both partners are experienced
+
 
 </section>
 

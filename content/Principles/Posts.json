@@ -15,7 +15,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Low",
   "development_timeline": "Beginner to Advanced",
-  "overview": "A post is an extended limb — hand, foot, elbow, or head — planted firmly against the mat or against the opponent's body to prevent displacement. When someone tries to sweep you and you shoot your hand out to catch yourself, that is a post. When a wrestler sprawls and drives their hips down while their hands brace against the mat, those hands are posts. When a judo player steps wide during a throw attempt to catch their balance, that foot is a post. Posting is the emergency base recovery system of grappling, and also the proactive balance maintenance system that keeps you upright and stable during every exchange.\n\nPosts work on a simple mechanical principle: an extended limb planted in the direction of displacement creates a structural strut that transfers the toppling force through the skeleton into the ground. The key word is direction. A post only works if it is placed in the direction you are falling or being pushed. Post your hand to the right when you are being swept left and it does nothing. This directional requirement means posting is a reactive skill that demands fast recognition of displacement direction and immediate limb placement. The best grapplers post reflexively before they even consciously register the sweep or off-balancing attempt.\n\nUnderstanding posts transforms both offensive and defensive grappling. Defensively, posts are your last line of base recovery — the difference between getting swept and catching your balance. Offensively, understanding posts reveals how to attack them. Every post the opponent places is a limb that is no longer available for other tasks — it cannot grip, frame, hook, or attack while it is busy keeping them upright. Removing, blocking, or trapping the opponent's posting limb before executing a sweep is one of the most important offensive concepts in BJJ. The sweep does not fail because the technique is wrong; it fails because the opponent posted and you did not account for it.",
+  "summary": "Posts are extended limbs — a hand, foot, elbow, or head — planted firmly against the mat or opponent in the direction of displacement, transferring toppling force through the skeleton into the ground to recover or maintain base.",
+  "overview": "Posting is the emergency base-recovery system of grappling, and also the proactive balance-maintenance system that keeps you upright and stable during every exchange. When someone tries to sweep you and you shoot your hand out to catch yourself, that is a post. When a wrestler sprawls and drives their hips down while their hands brace against the mat, those hands are posts. When a judo player steps wide during a throw attempt to catch their balance, that foot is a post. The mechanic shows up wherever balance is threatened — which, in a live roll, is nearly everywhere.\n\nPosts work on a simple mechanical principle: an extended limb planted in the direction of displacement creates a structural strut that transfers the toppling force through the skeleton into the ground. The key word is direction. A post only works if it is placed in the direction you are falling or being pushed. Post your hand to the right when you are being swept left and it does nothing. This directional requirement means posting is a reactive skill that demands fast recognition of displacement direction and immediate limb placement. The best grapplers post reflexively before they even consciously register the sweep or off-balancing attempt.\n\nUnderstanding posts transforms both offensive and defensive grappling. Defensively, posts are your last line of base recovery — the difference between getting swept and catching your balance. Offensively, understanding posts reveals how to attack them. Every post the opponent places is a limb that is no longer available for other tasks — it cannot grip, frame, hook, or attack while it is busy keeping them upright. Removing, blocking, or trapping the opponent's posting limb before executing a sweep is one of the most important offensive concepts in BJJ. The sweep does not fail because the technique is wrong; it fails because the opponent posted and you did not account for it.",
   "key_principles": [
     "Post in the direction of displacement — the post must be between you and the ground to transfer force into the mat",
     "Post with skeletal extension rather than muscular effort — a straight or nearly straight arm transfers more force than a bent one",
@@ -381,14 +382,52 @@
       "relationship": "Turtle is a four-point posting structure that collapses when posts are removed"
     },
     {
-      "name": "Butterfly Sweep",
+      "name": "Basic Butterfly Sweep",
       "content_type": "Transition",
       "relationship": "Denying the opponent's hand posts is the critical detail that makes butterfly sweeps succeed"
     },
     {
-      "name": "Bridge and Roll",
+      "name": "Balloon Sweep",
       "content_type": "Transition",
-      "relationship": "The bridge targets the opponent's base; the opponent's post is the primary defense against being rolled"
+      "relationship": "The sweep elevates and topples the opponent; their post is the primary defense against being rolled over"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is a post in BJJ?",
+      "answer": "A post is an extended limb — hand, foot, elbow, or head — planted firmly against the mat or opponent in the direction of displacement, transferring toppling force through the skeleton into the ground to recover or maintain base."
+    },
+    {
+      "question": "Why must a post be placed in the direction of displacement?",
+      "answer": "A post only stops a topple if it sits between your body and the ground along the line you are being moved. Posting in any other direction creates no structural strut, so the sweep succeeds despite the effort."
+    },
+    {
+      "question": "Why does a straight-arm post resist collapse better than a bent-arm post?",
+      "answer": "A straight arm with shoulder stacked over elbow over wrist transfers force through the skeleton into the ground, while a bent joint acts as a hinge that folds and absorbs force in the muscles until the post buckles."
+    },
+    {
+      "question": "How does understanding posts improve your sweeps?",
+      "answer": "Any sweep can be defeated by the opponent simply posting a limb, so you must identify and neutralize the posting limb first — gripping the hand, blocking the space, or timing the sweep when that limb is occupied — before executing."
+    },
+    {
+      "question": "When should you use a head post instead of a hand post?",
+      "answer": "Use a head post — forehead driven into the mat or opponent — when both hands are committed to grips or controls, such as in turtle, scrambles, or passing, so you keep a stability option without sacrificing your grips."
+    },
+    {
+      "question": "What is the most common reason sweeps fail at all levels?",
+      "answer": "The attacker ignores the opponent's posts. The opponent catches their balance with a hand or foot post that was never accounted for, so a sweep with perfect setup and execution still fails on the unaddressed posting limb."
+    },
+    {
+      "question": "Why should a post be treated as temporary rather than a position to hold?",
+      "answer": "A post only buys time to catch displacement. Staying frozen on it leaves you unable to advance while the opponent re-attacks from a new angle, so you must immediately reposition hips and limbs to rebuild a full base."
+    },
+    {
+      "question": "How does posting create a trade-off with offense?",
+      "answer": "Every limb committed to a post can no longer grip, frame, hook, or attack, so posting trades stability for offense. Skilled grapplers pick the posting limb that costs the least tactically, often a foot or head over a gripping hand."
+    },
+    {
+      "question": "How can you keep your posting reflexes sharp late in a match?",
+      "answer": "Train posting under fatigue by drilling sweep defense immediately after conditioning bursts like burpees or sprawls, because tired grapplers lose the reflexive post first — which is why many sweeps land in the final minutes of a round."
     }
   ]
 }

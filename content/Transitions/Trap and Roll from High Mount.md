@@ -34,6 +34,18 @@ description: "Master the Trap and Roll escape from High Mount in BJJ. Learn timi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Trap and Roll from High Mount",
+  "description": "The Trap and Roll from High Mount is a reactive bridging escape where the bottom player traps the top player's posting arm and same-side foot, then bridges diagonally during a weight shift to recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Trap and Roll escape from High Mount in BJJ. Learn timi
 </div>
 
 <section id="overview" class="content-section">
+
+**The Trap and Roll from High Mount is a reactive bridging escape where the bottom player traps the top player's posting arm and same-side foot, then bridges diagonally during a weight shift to recover half guard.**
 
 The Trap and Roll from High Mount is a modified version of the fundamental upa escape, adapted for the unique challenges presented by an opponent who has walked their knees high toward the bottom player's armpits. In standard mount, the upa relies on trapping one arm and the corresponding foot, then bridging explosively to roll the opponent over for a clean reversal. From high mount, the biomechanical dynamics shift significantly: the top player's elevated knees reduce the bottom player's ability to generate bridging power through hip extension, and the compressed torso position limits rotational freedom. A full reversal is rare, making half guard recovery the realistic high-percentage outcome.
 

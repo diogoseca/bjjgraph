@@ -34,6 +34,18 @@ description: "Master re-guard recovery from Headquarters position in BJJ. System
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Re-Guard from Headquarters",
+  "description": "Re-Guard from Headquarters is a bottom-player guard recovery that uses frames, hip escapes, and sequential leg reinsertion to rebuild open guard during the brief window before the passer consolidates the Headquarters control position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master re-guard recovery from Headquarters position in BJJ. System
 </div>
 
 <section id="overview" class="content-section">
+
+**Re-Guard from Headquarters is a bottom-player guard recovery that uses frames, hip escapes, and sequential leg reinsertion to rebuild open guard during the brief window before the passer consolidates the Headquarters control position.**
 
 Re-guarding from Headquarters position is a critical defensive skill that allows you to recover guard structure when your opponent has established a dominant passing position. Headquarters, also known as the floating passing position, occurs when the passer has cleared your legs to one side but hasn't yet established a control position like side control or knee on belly. This transitional moment presents a critical window for guard recovery.
 

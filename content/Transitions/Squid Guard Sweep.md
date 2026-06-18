@@ -34,6 +34,18 @@ description: "Master the Squid Guard Sweep in BJJ. Complete guide to lapel-based
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Squid Guard Sweep",
+  "description": "The Squid Guard Sweep is a lapel-based off-balancing technique from bottom Squid Guard that combines lapel tension with a threading-leg hook to collapse the top player's base and sweep them into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Squid Guard Sweep in BJJ. Complete guide to lapel-based
 
 <section id="overview" class="content-section">
 
-The Squid Guard Sweep is an advanced technique that leverages the unique asymmetrical control of the Squid Guard position to off-balance and sweep the top player into mount. The sweep combines the mechanical advantage of the lapel wrap around the opponent's leg with the threading hook behind their knee, creating a compound off-balancing force that simultaneously attacks the opponent's lateral and posterior base. Standard posting reactions become insufficient because the lapel restriction limits the top player's ability to widen their base or step back, while the hook elevation removes their ability to drive forward.
+**The Squid Guard Sweep is a lapel-based off-balancing technique from bottom Squid Guard that combines lapel tension with a threading-leg hook to collapse the top player's base and sweep them into mount.**
+
+Sitting at the heart of the modern lapel-guard movement, the Squid Guard Sweep is the position's primary point-scoring weapon and the engine that powers its broader attacking system. The sweep combines the mechanical advantage of the lapel wrap around the opponent's leg with the threading hook behind their knee, creating a compound off-balancing force that simultaneously attacks the opponent's lateral and posterior base. Standard posting reactions become insufficient because the lapel restriction limits the top player's ability to widen their base or step back, while the hook elevation removes their ability to drive forward.
 
 The sweep's effectiveness depends on precise coordination between the lapel pull, hook extension, and hip rotation. The bottom player loads the opponent's weight forward and laterally onto the threading leg side, then uses a sharp hip rotation combined with lapel tension to collapse the opponent's base in the direction where they have the least support. Timing is paramount — the sweep works best when the opponent commits their weight forward to attempt a pass or reaches with their hands to strip grips, temporarily compromising their base stability and creating the window for execution.
 

@@ -34,6 +34,18 @@ description: "Master guard recovery from triangle control in BJJ. Step-by-step g
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Recovery from Triangle Control",
+  "description": "Guard Recovery from Triangle Control is the trapped top player's escape from an opponent's triangle, extracting the trapped arm across the centerline and clearing the head to reset in closed guard top rather than tapping.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master guard recovery from triangle control in BJJ. Step-by-step g
 
 <section id="overview" class="content-section">
 
-Guard Recovery from Triangle Control is a defensive transition where the top player caught in their opponent's triangle works to reestablish a neutral guard position. When partial escape from the triangle is achieved but full extraction is not yet complete, the top player must recover to closed guard top where they can reset and work to pass rather than remaining trapped in the dangerous triangle configuration. This recovery involves posture management, systematic hand fighting to address the leg lock, and controlled positioning to prevent the bottom player from re-tightening the triangle or transitioning to armbar or omoplata attacks.
+**Guard Recovery from Triangle Control is the trapped top player's escape from an opponent's triangle, extracting the trapped arm across the centerline and clearing the head to reset in closed guard top rather than tapping.**
+
+Within the triangle-defense subsystem, this transition is where a survival scramble becomes a positional reset rather than a tap, bridging submission escape and guard passing. When partial escape from the triangle is achieved but full extraction is not yet complete, the top player must recover to closed guard top where they can reset and work to pass rather than remaining trapped in the dangerous triangle configuration. This recovery involves posture management, systematic hand fighting to address the leg lock, and controlled positioning to prevent the bottom player from re-tightening the triangle or transitioning to armbar or omoplata attacks.
 
 This technique occupies a unique position in the guard recovery taxonomy because the practitioner is extracting from an active submission threat rather than simply reinserting legs or recomposing guard. The urgency imposed by the choke creates a tension between speed and precision that distinguishes this recovery from all others. Rushing triggers the bottom player's squeeze reflex and typically worsens the position, while excessive patience allows the choke to deepen. The recovery path runs through a narrow corridor of correct posture, deliberate rotation, and incremental arm extraction that must be executed under duress. Understanding the biomechanics of the triangle choke itself—particularly how the trapped shoulder compresses the carotid artery—is essential for identifying the specific movements that dismantle the choking mechanism rather than merely resisting it.
 

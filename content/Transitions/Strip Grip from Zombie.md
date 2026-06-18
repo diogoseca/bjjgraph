@@ -34,6 +34,18 @@ description: "Master the Strip Grip from Zombie in BJJ. Learn systematic grip br
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Strip Grip from Zombie",
+  "description": "Strip Grip from Zombie is a top-position grip-breaking sequence that dismantles the 10th Planet Zombie by neutralizing the underhook, clearing frames, and breaking the lockdown in priority order to free the trapped leg for open guard passing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Strip Grip from Zombie in BJJ. Learn systematic grip br
 </div>
 
 <section id="overview" class="content-section">
+
+**Strip Grip from Zombie is a top-position grip-breaking sequence that dismantles the 10th Planet Zombie by neutralizing the underhook, clearing frames, and breaking the lockdown in priority order to free the trapped leg for open guard passing.**
 
 The Strip Grip from Zombie is a systematic grip-breaking sequence executed from the top position against an opponent utilizing the Zombie lockdown structure from the 10th Planet system. This technique addresses the fundamental challenge of neutralizing the bottom player's lockdown, underhook, and frame grips that constitute the Zombie's defensive architecture, transforming a complex and frustrating passing problem into a manageable open guard scenario.
 
@@ -233,7 +247,7 @@ The Strip Grip from Zombie is a critical utility technique within the passing to
 
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative guard recovery the bottom player may transition to when Zombie structure fails
 
-- [[Transitions/Lockdown Whizzer Pass]] - Related passing technique that uses whizzer mechanics to defeat lockdown control
+- [[Positions/Half Guard/Knee Shield Half Guard]] - New guard structure the bottom player may recover to during the post-extraction scramble window
 
 
 </section>

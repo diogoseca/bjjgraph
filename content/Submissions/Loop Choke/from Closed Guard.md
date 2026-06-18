@@ -33,10 +33,32 @@ description: "Master the Loop Choke from Closed Guard in BJJ. Step-by-step guide
 }
 </script>
 
-> **SAFETY**: Loop Choke from Closed Guard targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid artery compression. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Loop Choke from Closed Guard",
+  "description": "The Loop Choke from Closed Guard is a gi blood choke where the bottom player feeds a deep cross-collar grip, secures head control, then turns underneath to wrap the collar into a self-tightening loop around both carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Loop Choke from Closed Guard is a gi blood choke where the bottom player feeds a deep cross-collar grip, secures head control, then turns underneath to wrap the collar into a self-tightening loop around both carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">55% success</span>
+</div>
+
+> [!danger] Safety
+> Loop Choke from Closed Guard targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,57 +69,13 @@ description: "Master the Loop Choke from Closed Guard in BJJ. Step-by-step guide
 
 <section id="overview" class="content-section">
 
-The Loop Choke from Closed Guard is a high-percentage gi-based blood choke executed by the bottom player, leveraging the opponent's own collar as a strangling mechanism. This technique exploits a fundamental timing window in the guard-passing dynamic: as the top player postures up to begin opening the guard, they create the space needed for the bottom player to insert a deep cross-collar grip, which becomes the foundation of the choking loop.
+Among closed guard attacks, the Loop Choke stands out as a high-percentage gi finish that punishes the exact moment the top player commits to opening the guard. This technique exploits a fundamental timing window in the guard-passing dynamic: as the top player postures up to begin opening the guard, they create the space needed for the bottom player to insert a deep cross-collar grip, which becomes the foundation of the choking loop.
 
 The mechanics rely on a combination of deep collar penetration and rotational turning. After establishing the cross-collar grip with four fingers deep past the trachea, the attacker secures head control, opens the guard, and turns into the opponent. This turning motion wraps the collar around the neck in a loop configuration that compresses both carotid arteries simultaneously. The beauty of this attack lies in its self-tightening nature: the more the opponent resists or tries to posture away, the tighter the loop becomes.
 
 From a strategic standpoint, the Loop Choke pairs naturally with other closed guard attacks. When opponents defend sweeps like the hip bump or scissor sweep, they often expose their collar. When they focus on collar defense, they become vulnerable to sweeps and arm attacks. This creates a cascading dilemma system where the loop choke serves as both a primary finishing technique and a catalyst for opening other offensive pathways from closed guard.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 55%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid artery compression | High | Immediate with proper release, potential confusion lasting 30-60 seconds |
-| Trachea damage from improper collar placement or shallow grip creating air choke | Medium | 3-7 days for minor bruising, weeks for significant damage |
-| Neck strain from defensive posturing and resistance against the turning motion | Low | 1-3 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure
-
-**Tap Signals**:
-- Verbal tap or verbal statement of submission
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal including unusual sounds or loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release the collar grip completely and remove all rotational pressure
-2. Disengage from closed guard position and create space between you and your partner
-3. Check partner's alertness and awareness before continuing
-4. Allow minimum 60 seconds recovery time before resuming training
-
-
-**Training Restrictions**:
-- Never apply sudden jerking or yanking motions with collar grips or during the turning motion
-- Never use competition speed in training - always give partner time to recognize and tap
-- Never continue pressure after tap is felt or heard
-- Always ensure training partner can freely tap with at least one hand during the choke
-- Never practice on partners who are visibly fatigued or disoriented
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -264,10 +242,9 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Loop Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Guillotine Choke]]
@@ -276,34 +253,51 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Closed Guard]] - Primary starting position providing leg control and collar access for the loop choke setup
 - [[Positions/Closed Guard/Diamond Guard]] - Closed guard variant with overhook control that enhances collar access for loop choke entries
 - [[Positions/Open Guard]] - Common result when guard opens during failed loop choke attempt or opponent's counter
 - [[Positions/Half Guard]] - Alternative guard position where similar collar grip attacks can be initiated
-- [[Submissions/Loop Choke]] - Parent submission family with shared collar grip mechanics and finishing principles
-- [[Submissions/Cross Collar Choke]] - Complementary collar attack that creates dilemmas when chained with loop choke from guard
-- [[Transitions/Guillotine Choke]] - Alternative head and neck attack available from closed guard bottom
 - [[Transitions/Hip Bump Sweep]] - Sweep that creates collar exposure when defended, setting up loop choke entries
 - [[Positions/Overhook Guard]] - Guard variation that facilitates deep collar penetration for loop choke setup
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Loop Choke from Closed Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid artery compression | High | Immediate with proper release, potential confusion lasting 30-60 seconds |
+| Trachea damage from improper collar placement or shallow grip creating air choke | Medium | 3-7 days for minor bruising, weeks for significant damage |
+| Neck strain from defensive posturing and resistance against the turning motion | Low | 1-3 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure
+
+**Tap Signals**:
+- Verbal tap or verbal statement of submission
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Any distress signal including unusual sounds or loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release the collar grip completely and remove all rotational pressure
+2. Disengage from closed guard position and create space between you and your partner
+3. Check partner's alertness and awareness before continuing
+4. Allow minimum 60 seconds recovery time before resuming training
+
+
+**Training Restrictions**:
+- Never apply sudden jerking or yanking motions with collar grips or during the turning motion
+- Never use competition speed in training - always give partner time to recognize and tap
+- Never continue pressure after tap is felt or heard
+- Always ensure training partner can freely tap with at least one hand during the choke
+- Never practice on partners who are visibly fatigued or disoriented
+
 
 </section>
 

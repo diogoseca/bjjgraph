@@ -34,6 +34,18 @@ description: "Master modified scarf hold in BJJ. Strategic guide covering contro
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kuzure Kesa-Gatame",
+  "description": "Kuzure Kesa-Gatame (Modified Scarf Hold) is a side control variation where the top player traps one of the opponent's arms across their torso while pinning with hip pressure, converting positional control into immediate armlock and choke threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master modified scarf hold in BJJ. Strategic guide covering contro
 </div>
 
 <section id="overview" class="content-section">
+
+**Kuzure Kesa-Gatame (Modified Scarf Hold) is a side control variation where the top player traps one of the opponent's arms across their torso while pinning with hip pressure, converting positional control into immediate armlock and choke threats.**
 
 Kuzure Kesa-Gatame, or Modified Scarf Hold, represents a critical evolution of traditional scarf hold (Kesa Gatame) in Brazilian Jiu-Jitsu. While maintaining the fundamental side control framework, this variation trades the classic head control for an isolated arm position, creating enhanced submission opportunities while maintaining dominant control. The position emerged from judo's ne-waza (ground fighting) tradition and has been refined through decades of BJJ competition to become one of the most versatile and submission-rich variations of side control.
 
@@ -198,15 +212,15 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Americana from Kuzure Kesa-Gatame/Attacker|Americana from Kuzure Kesa-Gatame]]** (11% of attempts)
+- **[[Americana from Kuzure Kesa-Gatame/Attacker|Americana from Kuzure Kesa-Gatame]]** (10% of attempts)
 
 - **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (10% of attempts)
 
 - **[[Kimura from Kuzure Kesa-Gatame/Attacker|Kimura from Kuzure Kesa-Gatame]]** (10% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (10% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
 
 - **[[Paper Cutter Choke from Kuzure Kesa-Gatame/Attacker|Paper Cutter Choke from Kuzure Kesa-Gatame]]** (9% of attempts)
 
@@ -216,7 +230,9 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
 
-- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (10% of attempts)
+- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (9% of attempts)
+
+- **[[Belly Down Armbar from Kuzure Kesa-Gatame/Attacker|Belly Down Armbar from Kuzure Kesa-Gatame]]** (4% of attempts)
 
 
 ### Common Mistakes

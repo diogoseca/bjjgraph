@@ -103,7 +103,7 @@ description: "Complete attacking guide for the North-South Choke from Side Contr
       "name": "You have threaded your arm and started the transition but the choke feels loose after 5 seconds of pressure — what adjustments should you try?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "First, walk your hips slightly further toward full north-south to change the shoulder angle against the neck. Second, turn your choking-side wrist so your palm faces the ceiling, rotating the radius bone into the carotid more effectively. Third, ensure your sprawl is complete with hips flat on the mat — elevated hips reduce shoulder pressure. If none of these adjustments produce a tighter choke, release and re-establish side control rather than holding a poor position that drains your energy."
+        "text": "First, walk your hips slightly further toward full north-south to change the shoulder angle. Second, turn your choking-side wrist so your palm faces the ceiling, rotating the radius bone into the carotid more effectively. Third, ensure your sprawl is complete with hips flat on the mat — elevated hips reduce shoulder pressure. If none of these adjustments produce a tighter choke, release and re-establish side control rather than holding a poor position that drains your energy."
       }
     },
     {

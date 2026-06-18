@@ -34,6 +34,18 @@ description: "Master Mission Control in BJJ: the dominant rubber guard control p
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mission Control",
+  "description": "Mission Control is the cornerstone control of the 10th Planet rubber guard, established from the bottom by trapping the opponent's head and one shoulder beneath a high-guard leg to break their posture and open triangle, omoplata, and gogoplata attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Mission Control in BJJ: the dominant rubber guard control p
 </div>
 
 <section id="overview" class="content-section">
+
+**Mission Control is the cornerstone control of the 10th Planet rubber guard, established from the bottom by trapping the opponent's head and one shoulder beneath a high-guard leg to break their posture and open triangle, omoplata, and gogoplata attacks.**
 
 Mission Control is the foundational control position within 10th Planet's rubber guard system, representing the critical transitional state between basic high guard and the offensive attacks that define 10th Planet Jiu-Jitsu. From the bottom of closed guard, Mission Control is achieved when the practitioner establishes a high guard with one leg controlling the opponent's shoulder while maintaining strong grips on the opponent's head and arm. This position is characterized by extreme hip elevation, shoulder isolation, and the ability to break down the opponent's posture completely.
 
@@ -127,13 +141,13 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
 
 - **[[Transitions/Omoplata to Sweep/Attacker|Omoplata to Sweep]]** (12% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (12% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (11% of attempts)
 
-- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (14% of attempts)
+- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (13% of attempts)
 
 - **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (10% of attempts)
 
@@ -144,6 +158,8 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 - **[[Transitions/Progression to Zombie/Attacker|Progression to Zombie]]** (8% of attempts)
 
 - **[[Transitions/Advance to Chill Dog/Attacker|Advance to Chill Dog]]** (9% of attempts)
+
+- **[[Belly Down Armbar from Mission Control/Attacker|Belly Down Armbar from Mission Control]]** (3% of attempts)
 
 
 ### Common Mistakes

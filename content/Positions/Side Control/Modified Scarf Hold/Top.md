@@ -21,19 +21,19 @@ description: "Offensive guide for Modified Scarf Hold top position. Master press
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Modified Scarf Hold",
-      "text": "From this position, attempt Americana from Modified Scarf Hold. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Modified Scarf Hold. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
-      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {

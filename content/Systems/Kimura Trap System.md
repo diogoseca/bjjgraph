@@ -4,7 +4,7 @@
 
 ---
 title: "Kimura Trap System | BJJ System | BJJ Graph"
-description: "Master Kimura Trap System in BJJ. Framework connecting control to submissions and back takes. Danaher's systematic approach to offensive dominance."
+description: "Master the Kimura Trap System in BJJ: a control-and-submission framework that chains the figure-four grip into back takes, sweeps, mounts, and finishes."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Kimura Trap System in BJJ. Framework connecting control to 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Kimura Trap System",
-  "description": "Master Kimura Trap System in BJJ. Framework connecting control to submissions and back takes. Danaher's systematic approach to offensive dominance.",
+  "description": "Master the Kimura Trap System in BJJ: a control-and-submission framework that chains the figure-four grip into back takes, sweeps, mounts, and finishes.",
   "url": "https://bjjgraph.org/Systems/Kimura-Trap-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -135,6 +135,16 @@ description: "Master Kimura Trap System in BJJ. Framework connecting control to 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura Trap System",
+  "description": "The Kimura Trap System is a control-and-submission framework that weaponizes the figure-four (kimura) grip as a steering wheel, chaining back takes, sweeps, mount transitions, and shoulder-lock finishes so every defensive reaction opens a new attack.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -149,7 +159,9 @@ description: "Master Kimura Trap System in BJJ. Framework connecting control to 
 
 ## What is Kimura Trap System?
 
-The Kimura Trap System is a comprehensive control and submission framework built around the kimura grip position. Unlike treating the kimura solely as an isolated submission, this system recognizes it as a powerful control mechanism that creates multiple offensive pathways. The system emphasizes using the kimura grip to control the opponent's posture and movement while simultaneously threatening submissions, sweeps, and transitions to dominant positions.
+**The Kimura Trap System is a control-and-submission framework that weaponizes the figure-four (kimura) grip as a steering wheel, chaining back takes, sweeps, mount transitions, and shoulder-lock finishes so every defensive reaction opens a new attack.**
+
+Built around the figure-four (kimura) grip on the opponent's arm, this framework departs sharply from treating the kimura as an isolated submission. Instead, it recognizes the grip as a powerful control mechanism that opens multiple offensive pathways at once — controlling the opponent's posture and movement while simultaneously threatening submissions, sweeps, and transitions to dominant positions.
 
 Developed and refined by John Danaher and popularized through high-level competition by athletes like Gordon Ryan and Garry Tonon, the Kimura Trap System represents a paradigm shift in how grapplers approach the kimura. Rather than immediately hunting for the finish, practitioners learn to use the kimura grip as a steering wheel, directing opponents into increasingly disadvantageous positions while maintaining constant offensive pressure. The system works from multiple starting positions including side control, half guard, turtle, and even standing scenarios.
 

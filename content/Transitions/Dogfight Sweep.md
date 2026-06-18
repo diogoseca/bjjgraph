@@ -34,6 +34,18 @@ description: "Master the Dogfight Sweep in BJJ. Complete guide to this underhook
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Dogfight Sweep",
+  "description": "The Dogfight Sweep is an underhook-powered half guard reversal in which the kneeling bottom player traps and controls the opponent's far leg, then drives diagonally through the underhook to topple them and land in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Dogfight Sweep in BJJ. Complete guide to this underhook
 </div>
 
 <section id="overview" class="content-section">
+
+**The Dogfight Sweep is an underhook-powered half guard reversal in which the kneeling bottom player traps and controls the opponent's far leg, then drives diagonally through the underhook to topple them and land in side control.**
 
 The Dogfight Sweep is the primary sweep from the Dogfight Position, executed when the bottom half guard player has established a deep underhook and risen to their knees. The technique exploits a fundamental mechanical principle: by controlling the opponent's far leg while simultaneously driving forward with underhook pressure, you eliminate their ability to post and resist the lateral force applied to their upper body. The opponent is toppled over their trapped leg into an unrecoverable position, landing the sweeper directly into side control.
 

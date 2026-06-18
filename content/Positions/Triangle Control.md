@@ -34,6 +34,18 @@ description: "Master Triangle Control in BJJ. Dominant submission platform with 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Control",
+  "description": "Triangle Control is a guard-based submission position where one leg traps the opponent's neck and the other locks over it in a figure-four, isolating one arm to compress the carotids and anchor a chain of chokes, armbars, and omoplatas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Triangle Control in BJJ. Dominant submission platform with 
 </div>
 
 <section id="overview" class="content-section">
+
+**Triangle Control is a guard-based submission position where one leg traps the opponent's neck and the other locks over it in a figure-four, isolating one arm to compress the carotids and anchor a chain of chokes, armbars, and omoplatas.**
 
 Triangle Control represents one of the most powerful submission positions in Brazilian Jiu-Jitsu, where the practitioner has locked their legs around the opponent's neck and one arm, creating an imminent choking threat while simultaneously establishing a control platform for multiple submission chains. This position exemplifies the fundamental principle of using the body's strongest muscles—the legs and hips—against the opponent's most vulnerable structure—the neck. The triangle configuration creates a mechanical advantage where the practitioner compresses the carotid arteries while trapping one of the opponent's arms across their own neck, amplifying the choking pressure through their own trapped limb.
 

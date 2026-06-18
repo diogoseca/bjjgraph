@@ -34,6 +34,18 @@ description: "Master Guillotine Defense in BJJ. Systematic escape from guillotin
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Defense",
+  "description": "Guillotine Defense is the systematic escape from a guillotine choke in which the trapped player frames against the choking wrist, creates hip distance, and circles into the choking arm to extract the head and reach side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Guillotine Defense in BJJ. Systematic escape from guillotin
 </div>
 
 <section id="overview" class="content-section">
+
+**Guillotine Defense is the systematic escape from a guillotine choke in which the trapped player frames against the choking wrist, creates hip distance, and circles into the choking arm to extract the head and reach side control top.**
 
 The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jitsu, addressing one of the most common and dangerous submission threats across all levels of competition. When caught in a guillotine choke, whether standing or on the ground, understanding the proper defensive mechanics can mean the difference between tapping and escaping to a superior position. This defensive sequence focuses on alleviating pressure from the carotid arteries while simultaneously creating escape pathways that neutralize the submission threat.
 

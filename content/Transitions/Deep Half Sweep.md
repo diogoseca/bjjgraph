@@ -34,6 +34,18 @@ description: "Master the Deep Half Sweep in BJJ. Step-by-step guide to hip-lift 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Deep Half Sweep",
+  "description": "The Deep Half Sweep is a bottom-position reversal from deep half guard where the attacker wedges a shoulder under the opponent's far hip and drives hip elevation through a deep underhook to topple them into side control top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,9 +57,11 @@ description: "Master the Deep Half Sweep in BJJ. Step-by-step guide to hip-lift 
 
 <section id="overview" class="content-section">
 
-The Deep Half Sweep is a fundamental sweep from deep half guard bottom that leverages the bottom player's positioning underneath the opponent's center of gravity to generate powerful upward force and complete a sweep to top position. By maintaining a deep underhook on the opponent's far leg while using the head and shoulder as a wedge point, the bottom player creates a lever system that can overcome significant size and strength disadvantages.
+**The Deep Half Sweep is a bottom-position reversal from deep half guard where the attacker wedges a shoulder under the opponent's far hip and drives hip elevation through a deep underhook to topple them into side control top.**
 
-This sweep functions as the bread-and-butter attack from deep half guard, distinct from the Waiter Sweep or Old School Sweep in its reliance on direct hip elevation rather than leg manipulation or rolling mechanics. The bottom player walks their feet toward the opponent's head to create the optimal angle, then drives their hips upward to load the opponent's weight before completing the sweep with a coordinated drive to side control.
+As the bread-and-butter attack of the deep half guard system, this sweep weaponizes the top player's own forward weight, converting their pressure into the upward force that topples them. By maintaining a deep underhook on the opponent's far leg while using the head and shoulder as a wedge point, the bottom player creates a lever system that can overcome significant size and strength disadvantages, generating elevation to complete the reversal to top position.
+
+Distinct from the Waiter Sweep or Old School Sweep in its reliance on direct hip elevation rather than leg manipulation or rolling mechanics, the bottom player walks their feet toward the opponent's head to create the optimal angle, then drives their hips upward to load the opponent's weight before completing the sweep with a coordinated drive to side control.
 
 The Deep Half Sweep is most effective when the opponent commits their weight forward or attempts to apply crossface pressure, as this weight commitment provides the loading needed for the elevation phase. Understanding the timing window between when the opponent's weight shifts forward and when they can post to recover base is essential for consistent execution at the competitive level.
 

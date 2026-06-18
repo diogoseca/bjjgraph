@@ -34,6 +34,18 @@ description: "Master Double Jump position in BJJ. Dynamic half guard control tec
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Jump",
+  "description": "Double Jump is a dual-context BJJ position: an explosive bottom entry shooting both legs under the opponent into deep half guard, and a top turtle attack using bilateral leg hooks to force back-take dilemmas.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Double Jump position in BJJ. Dynamic half guard control tec
 </div>
 
 <section id="overview" class="content-section">
+
+**Double Jump is a dual-context BJJ position: an explosive bottom entry shooting both legs under the opponent into deep half guard, and a top turtle attack using bilateral leg hooks to force back-take dilemmas.**
 
 Double Jump is an advanced positional concept in Brazilian Jiu-Jitsu that exists in two distinct tactical contexts: as a dynamic guard recovery entry from bottom and as a turtle attack control position from top. This dual-perspective position represents modern approaches to creating explosive transitions and bypassing traditional defensive structures.
 

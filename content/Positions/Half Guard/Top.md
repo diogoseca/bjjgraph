@@ -21,25 +21,25 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {

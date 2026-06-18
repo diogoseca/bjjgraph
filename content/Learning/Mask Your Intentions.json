@@ -1,6 +1,7 @@
 {
   "name": "Mask Your Intentions",
   "description": "Learn how feints, misdirection, and setups make BJJ techniques effective. Discover why telegraphing kills submissions and how to disguise your true attacks on the mat.",
+  "summary": "Masking your intentions in BJJ means disguising your true attack behind a credible threat, so your opponent commits to the wrong defense and exposes the exact opening you intended to exploit.",
   "tags": [
     "bjj",
     "strategy",
@@ -128,9 +129,9 @@
       "relationship": "Feints exploit action-reaction dynamics by provoking defensive responses that create openings"
     },
     {
-      "name": "Submission Chains",
-      "content_type": "Principle",
-      "relationship": "Chaining submissions is the primary vehicle for masking intentions -- each link disguises the next"
+      "name": "Technique Chaining",
+      "content_type": "Learning",
+      "relationship": "Chaining techniques is the primary vehicle for masking intentions -- each link disguises the next"
     },
     {
       "name": "Fork Attacks",
@@ -138,14 +139,19 @@
       "relationship": "Fork attacks present multiple threats simultaneously, forcing the opponent to choose which to defend"
     },
     {
-      "name": "Timing and Rhythm",
-      "content_type": "Principle",
-      "relationship": "Tempo changes are a powerful way to disguise intentions and break opponent's timing"
+      "name": "Timing Windows",
+      "content_type": "Learning",
+      "relationship": "Tempo changes and well-timed setups create the brief windows where disguised attacks land"
     },
     {
       "name": "Pattern Interrupts",
       "content_type": "Learning",
       "relationship": "Complementary concept -- breaking predictable patterns is another form of masking intentions"
+    },
+    {
+      "name": "Predictable Responses",
+      "content_type": "Learning",
+      "relationship": "Masking intentions works by triggering predictable defensive responses you can anticipate and exploit"
     },
     {
       "name": "Closed Guard",

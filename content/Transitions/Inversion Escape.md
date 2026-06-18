@@ -34,6 +34,18 @@ description: "Master Inversion Escape from Honey Hole in BJJ. Step-by-step techn
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Inversion Escape",
+  "description": "The Inversion Escape is a defensive technique for escaping the Honey Hole (inside sankaku) in which the trapped player explosively inverts over the shoulder to change their leg's angle and extract it before the opponent secures a heel hook grip.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Inversion Escape from Honey Hole in BJJ. Step-by-step techn
 
 <section id="overview" class="content-section">
 
-The Inversion Escape is a critical defensive technique used to extract yourself from the Honey Hole (Inside Sankaku/Saddle) position, one of the most dangerous leg entanglements in modern grappling. This escape relies on explosive rotational movement combined with inversion mechanics to free your trapped leg before your opponent can secure a heel hook grip. The technique exploits the brief window when your opponent transitions between controlling your leg and attacking the heel.
+**The Inversion Escape is a defensive technique for escaping the Honey Hole (inside sankaku) in which the trapped player explosively inverts over the shoulder to change their leg's angle and extract it before the opponent secures a heel hook grip.**
+
+Within modern leg-lock defense, the Inversion Escape is the highest-commitment of the early-stage escapes available from the Honey Hole (Inside Sankaku/Saddle) - one of the most dangerous leg entanglements in modern grappling. It exploits the brief window when your opponent transitions between controlling your leg and attacking the heel, using explosive rotational movement combined with inversion mechanics to free your trapped leg before a heel hook grip can be established.
 
 Strategically, the Inversion Escape represents a high-risk, high-reward defensive option. Unlike linear extraction attempts that work against the mechanical advantage of the inside leg triangle, inversion creates a completely different angle that can temporarily nullify your opponent's control. The escape is most effective when initiated in the first 1-2 seconds after your leg becomes trapped, before the attacker settles weight and establishes heel hook grips.
 

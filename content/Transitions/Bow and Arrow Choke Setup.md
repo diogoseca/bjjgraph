@@ -34,6 +34,18 @@ description: "Master the Bow and Arrow Choke Setup from Gift Wrap in BJJ. Step-b
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bow and Arrow Choke Setup",
+  "description": "The Bow and Arrow Choke Setup is a gi-based back attack entry from Gift Wrap where the attacker trades trapped-arm control for a deep collar grip and a perpendicular hip angle, building the bow-and-arrow finishing frame.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Bow and Arrow Choke Setup from Gift Wrap in BJJ. Step-b
 </div>
 
 <section id="overview" class="content-section">
+
+**The Bow and Arrow Choke Setup is a gi-based back attack entry from Gift Wrap where the attacker trades trapped-arm control for a deep collar grip and a perpendicular hip angle, building the bow-and-arrow finishing frame.**
 
 The Bow and Arrow Choke Setup from Gift Wrap represents a high-percentage gi-based submission entry that capitalizes on the dominant arm control already established. From Gift Wrap position, the attacker has one of the opponent's arms trapped across their body, creating ideal conditions for securing the deep collar grip required for the bow and arrow finish. This setup leverages the Gift Wrap's inherent control to prevent defensive hand fighting while transitioning to the perpendicular hip angle that characterizes the bow and arrow configuration.
 

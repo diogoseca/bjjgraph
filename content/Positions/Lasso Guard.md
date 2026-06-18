@@ -34,6 +34,18 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lasso Guard",
+  "description": "Lasso Guard is a gi open guard in which the bottom player wraps a shin around the outside of the opponent's arm and grips the same-side sleeve, trapping the limb to manage distance and set up sweeps and submissions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 
 <section id="overview" class="content-section">
 
-**Lasso Guard** is a sophisticated open guard variation that combines elements of spider guard control with a unique leg threading mechanism. The position is characterized by threading your shin across the opponent's trapped arm, creating a lasso-like control that severely restricts their mobility and posture. This guard offers exceptional control over one side of the opponent's body while maintaining the ability to attack with sweeps, submissions, and transitions.
+**Lasso Guard is a gi open guard in which the bottom player wraps a shin around the outside of the opponent's arm and grips the same-side sleeve, trapping the limb to manage distance and set up sweeps and submissions.**
+
+Within the gi open-guard family, Lasso Guard sits alongside spider guard as a sleeve-dependent control system, distinguished by the leg-threading mechanism that converts an ordinary sleeve grip into a shoulder-loading trap. This dominance over one side of the opponent's body lets you attack with sweeps, submissions, and transitions while continuously dictating distance and posture.
 
 The mechanical advantage of Lasso Guard comes from the biomechanical stress placed on the opponent's shoulder and arm. By pulling the trapped sleeve while pushing your shin against their tricep, you create a fulcrum that makes it extremely difficult for them to maintain base or generate forward pressure. This control allows you to manipulate their weight distribution and create opportunities for off-balancing attacks.
 
@@ -120,11 +134,11 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (48% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (47% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (12% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (11% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
 
 - **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (5% of attempts)
 
@@ -144,7 +158,9 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (2% of attempts)
 
-- **[[Transitions/Lasso Guard to Russian Leg Lasso/Attacker|Lasso Guard to Russian Leg Lasso]]** (1% of attempts)
+- **[[Transitions/Lasso Guard to Russian Leg Lasso/Attacker|Lasso Guard to Russian Leg Lasso]]** (2% of attempts)
+
+- **[[Belly Down Armbar from Lasso Guard/Attacker|Belly Down Armbar from Lasso Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

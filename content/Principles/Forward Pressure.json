@@ -16,7 +16,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Forward Pressure represents the strategic application of advancing force, momentum, and weight distribution to overcome defensive barriers, eliminate space, and create positional advancement opportunities. Unlike specific techniques, forward pressure is a conceptual framework applicable across all offensive phases of BJJ, particularly in guard passing, pin consolidation, and submission setups. This concept encompasses the mechanical principles, directional control, and psychological aspects of creating consistent, purposeful advancing force that compromises opponent's defensive structures. Forward pressure serves as both an offensive weapon that breaks through resistance and a control mechanism that limits opponent's mobility and recovery options. The ability to apply effective forward pressure often determines whether a practitioner can overcome sophisticated defensive systems or remains neutralized by opponent's frames and space creation, making it one of the most essential conceptual elements for offensive BJJ.",
+  "summary": "Forward Pressure is the principle of applying continuous, directional advancing force through weight, connection points, and body structure to collapse an opponent's frames, eliminate space, and drive positional advancement.",
+  "overview": "Across every offensive phase of jiu-jitsu - guard passing, pin consolidation, and submission setups - the difference between a practitioner who advances and one who stalls often comes down to the quality of their advancing force. Forward pressure is a conceptual framework rather than a single technique, encompassing the mechanical principles, directional control, and psychological aspects of creating consistent, purposeful advancing force that compromises an opponent's defensive structures. It functions both as an offensive weapon that breaks through resistance and as a control mechanism that limits an opponent's mobility and recovery options. The ability to apply effective forward pressure often determines whether a practitioner can overcome sophisticated defensive systems or remains neutralized by an opponent's frames and space creation, making it one of the most essential conceptual elements for offensive BJJ.",
   "key_principles": [
     "Direct force application along strategic advancement pathways",
     "Maintain continuous pressure through positional transitions",
@@ -355,6 +356,40 @@
       "name": "Shoulder Pressure",
       "content_type": "Principle",
       "relationship": "Specific mechanism for Forward Pressure application through shoulder-driven force"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is forward pressure in BJJ?",
+      "answer": "Forward pressure is the application of continuous, directional advancing force - through weight, connection points, and skeletal structure - to collapse an opponent's frames, eliminate space, and drive positional advancement."
+    },
+    {
+      "question": "Why should forward pressure be generated from bodyweight and skeletal structure rather than muscular strength?",
+      "answer": "Using bodyweight and skeletal alignment lets you sustain pressure for entire rounds without fatiguing, keeps you sensitive to the opponent's reactions, and makes the pressure far harder to defend than predictable muscular force."
+    },
+    {
+      "question": "What should you do when forward pressure meets a strong, mechanically sound frame?",
+      "answer": "Rather than forcing directly into it, adjust the pressure vector to bypass or undermine the frame - change angles or target a different connection point, following the path of least resistance instead of grinding into resistance."
+    },
+    {
+      "question": "How does sustained forward pressure create submission opportunities?",
+      "answer": "Sustained pressure produces defensive fatigue and forces compensatory reactions; as the opponent bridges, frames, or exposes limbs to relieve the pressure, those reactions open windows for chokes, joint locks, and back takes."
+    },
+    {
+      "question": "What is a pressure dilemma and why is it effective?",
+      "answer": "A pressure dilemma is coordinating force along multiple vectors - such as crossface plus hip pressure - so that defending one threat exposes the other, making comprehensive defense mechanically impossible for the opponent."
+    },
+    {
+      "question": "What is the most common error when first applying forward pressure?",
+      "answer": "Applying maximum force immediately before establishing base and connection points, which leaves you off-balanced and vulnerable to sweeps while burning energy without achieving any positional advancement."
+    },
+    {
+      "question": "Why is base a prerequisite for effective forward pressure?",
+      "answer": "Advancing force without a stable base makes the top player easy to redirect into sweeps and reversals, so pressure must always be applied from a structure that resists counter-attack and off-balancing."
+    },
+    {
+      "question": "Why is constant uniform pressure less effective than varied pressure?",
+      "answer": "Constant pressure lets the opponent adapt and build a sustainable defensive structure; modulating intensity and angle and pulsing the force prevents adaptation and creates reactive moments that expose vulnerabilities."
     }
   ]
 }

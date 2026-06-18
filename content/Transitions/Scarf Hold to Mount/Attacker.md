@@ -90,6 +90,22 @@ description: "Master the offensive mechanics of transitioning from Scarf Hold to
     },
     {
       "@type": "Question",
+      "name": "What conditions must exist before you commit to the Scarf Hold to Mount step-over?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need an established kesa gatame with stable base and the near arm trapped, secured far-hip or belt control with your near-side hand, and a compromised defender whose framing ability is neutralized by fatigue, an active submission threat, or arm isolation. Without far-hip control anchoring their lower body and a depleted or distracted opponent, the step-over opens more escape space than it closes—build the opening before you commit to clearing the leg."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "In which direction should you direct your weight as the stepping leg clears the opponent's body?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Direct your weight straight down through both hips into the opponent's pelvis the instant your leg clears, not forward or laterally. The step-over arc travels tight and low across their belly while your chest pressure drives toward the mat, and the settling force is vertical—pinning their hips to the ground—rather than a forward push that would create the very space they need to bridge or shrimp out underneath you."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "How does threatening an americana setup create the opening for the mount transition?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -102,22 +118,6 @@ description: "Master the offensive mechanics of transitioning from Scarf Hold to
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than forcing through the frame, swim your near arm inside their frame and redirect it upward toward their head, neutralizing the blocking force. Alternatively, switch to a slide-through entry by keeping your stepping knee tight to the mat and sliding it across their belly below the frame. If the frame is too strong, abandon the mount attempt temporarily and return to scarf hold control to reset while threatening a submission to lower their defensive frames."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What grip should you prioritize before releasing head control for the step-over?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Secure control of the opponent's far hip or belt line with your near-side hand before releasing head control. This far hip grip prevents the two most dangerous counters—the hip escape away from you and the bridge-and-roll toward you—by anchoring their lower body to the mat. Without this grip, releasing head control gives the opponent unrestricted hip mobility during the most vulnerable phase of the transition."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the correct response if your opponent inserts a knee during the step-over, catching you in half guard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Immediately consolidate half guard top control by establishing crossface and underhook before attempting to re-pass. Do not attempt to rip your leg free or force back to mount, as this creates scramble situations where the bottom player has momentum. From half guard top, use the knee slice or pressure pass to work back toward side control and then re-establish scarf hold or mount through a more controlled passing pathway."
       }
     }
   ]

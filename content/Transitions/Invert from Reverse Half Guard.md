@@ -34,6 +34,18 @@ description: "Master the inversion escape from reverse half guard bottom. Comple
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Invert from Reverse Half Guard",
+  "description": "Invert from Reverse Half Guard is a rotational guard recovery in which the bottom player granby-rolls under and away from the passer, turning the compromised reverse orientation into momentum that re-establishes open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the inversion escape from reverse half guard bottom. Comple
 </div>
 
 <section id="overview" class="content-section">
+
+**Invert from Reverse Half Guard is a rotational guard recovery in which the bottom player granby-rolls under and away from the passer, turning the compromised reverse orientation into momentum that re-establishes open guard.**
 
 Inverting from reverse half guard is an advanced guard recovery technique where the bottom player uses a granby roll to rotate through an inverted position and re-establish open guard. This technique exploits the unusual angle of the reverse half guard position, where the bottom player's back already faces the opponent, making a rotational escape more mechanically efficient than trying to face the opponent directly through their pressure.
 

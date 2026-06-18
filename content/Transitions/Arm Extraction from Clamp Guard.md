@@ -34,6 +34,18 @@ description: "Master arm extraction from clamp guard in BJJ. Complete guide to f
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Extraction from Clamp Guard",
+  "description": "Arm Extraction from Clamp Guard is the top player's escape from clamp guard, freeing the trapped arm with internal rotation and a knee wedge while avoiding the armbar, triangle, and sweep that every linear escape path feeds.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master arm extraction from clamp guard in BJJ. Complete guide to f
 
 <section id="overview" class="content-section">
 
-Arm Extraction from Clamp Guard is the top player's primary escape technique when their arm becomes trapped between the bottom player's legs in clamp guard. The clamp guard immobilizes one arm through shin-on-bicep pressure, creating an asymmetric control situation where the guard player has both hands free while the top player operates with a significant structural disadvantage. Successful extraction requires precise mechanics because the direction and method of extraction directly determines whether the top player escapes cleanly or feeds into the guard player's submission chain.
+**Arm Extraction from Clamp Guard is the top player's escape from clamp guard, freeing the trapped arm with internal rotation and a knee wedge while avoiding the armbar, triangle, and sweep that every linear escape path feeds.**
+
+This transition is the top player's highest-priority response the moment their arm is caught in clamp guard, because the position only deteriorates with time. The clamp guard immobilizes one arm through shin-on-bicep pressure, creating an asymmetric control situation where the guard player has both hands free while the top player operates with a significant structural disadvantage. Successful extraction requires precise mechanics because the direction and method of extraction directly determines whether the top player escapes cleanly or feeds into the guard player's submission chain.
 
 The critical challenge is that every intuitive extraction method plays into the guard player's offensive system. Pulling the arm straight back exposes the elbow for an armbar. Circling the arm outward opens the pathway to a triangle or omoplata. Driving forward into the clamp creates sweep opportunities. The top player must use a combination of posture management, angle creation, and rotational extraction mechanics that neutralize the guard player's pre-set submission triggers before committing to the extraction.
 

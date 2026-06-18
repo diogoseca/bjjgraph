@@ -1,5 +1,6 @@
 {
   "name": "Frame from Twister Side Control",
+  "summary": "Frame from Twister Side Control is a bottom-player escape that builds structural shoulder and hip frames to create separation, dismantle the leg entanglement, and systematically recover half guard against 10th Planet twister attacks.",
   "description": "Master the frame escape from twister side control. Complete guide to systematic framing, hip movement, and half guard recovery with step-by-step execution.",
   "tags": [
     "escape",
@@ -30,7 +31,7 @@
     }
   ],
   "success_rate": 40,
-  "overview": "The Frame from Twister Side Control is a fundamental escape technique where the bottom player establishes structural frames against the top player's shoulder and hip to create separation, disrupt the leg entanglement, and recover to half guard. Unlike explosive escape methods that risk energy depletion and can worsen the position by exposing the back, this frame-based approach emphasizes incremental positional improvement through biomechanically sound body positioning that redirects the opponent's weight rather than fighting against it directly.\n\nThe technique addresses the core challenge of twister side control defense: managing simultaneous spinal rotation threats and leg entanglement while creating enough space to begin systematic escape. By building rigid frame structures with bent elbows connected to the body, the bottom player creates barriers that mechanically redirect the top player's pressure. This structural advantage allows the escape to succeed even against larger, stronger opponents, making it one of the most reliable pathways out of this dangerous position.\n\nStrategic deployment requires reading the top player's weight distribution and submission intentions. The optimal timing window occurs when the top player shifts weight to pursue twister or choke attacks, momentarily reducing leg entanglement effectiveness. Successful execution chains frame creation into systematic leg extraction and hip escape, arriving in half guard where the bottom player can immediately establish retention grips and transition to offensive sequences. The technique's reliability makes it a cornerstone of any systematic defense against 10th Planet twister-based attacks.",
+  "overview": "Among the limited escape options available from the dangerous twister side control position, frame-based escapes stand out for their reliability and energy efficiency. Unlike explosive escape methods that risk energy depletion and can worsen the position by exposing the back, this frame-based approach emphasizes incremental positional improvement through biomechanically sound body positioning that redirects the opponent's weight rather than fighting against it directly.\n\nThe technique addresses the core challenge of twister side control defense: managing simultaneous spinal rotation threats and leg entanglement while creating enough space to begin systematic escape. By building rigid frame structures with bent elbows connected to the body, the bottom player creates barriers that mechanically redirect the top player's pressure. This structural advantage allows the escape to succeed even against larger, stronger opponents, making it one of the most reliable pathways out of this dangerous position.\n\nStrategic deployment requires reading the top player's weight distribution and submission intentions. The optimal timing window occurs when the top player shifts weight to pursue twister or choke attacks, momentarily reducing leg entanglement effectiveness. Successful execution chains frame creation into systematic leg extraction and hip escape, arriving in half guard where the bottom player can immediately establish retention grips and transition to offensive sequences. The technique's reliability makes it a cornerstone of any systematic defense against 10th Planet twister-based attacks.",
   "variants_and_adaptations": [
     {
       "variant_name": "Elbow-Knee Connection Frame",
@@ -235,6 +236,10 @@
         "answer": "The optimal window occurs when the top player shifts their weight forward to pursue twister submissions or choke attacks, momentarily reducing their base stability and leg entanglement effectiveness. This weight shift creates a brief period where shoulder pressure decreases slightly, allowing the bottom player to insert frames more easily than during settled, heavy positional control."
       },
       {
+        "question": "What conditions must exist before you commit to the frame escape from twister side control?",
+        "answer": "Your spine must not be locked in a finishing twister position, you need at least one hand free from the opponent's grips, and you should have read the top player's weight distribution to identify framing targets. If your spine is under active rotational torque or both hands are controlled, prioritize spine protection and grip fighting first before attempting any framing sequence."
+      },
+      {
         "question": "Your opponent collapses your shoulder frame with heavy pressure - how do you respond?",
         "answer": "Do not repeatedly attempt the same frame that was collapsed. Switch to a tighter elbow-knee connection frame that sacrifices separation distance for structural resilience. Alternatively, use the momentary weight commitment of their frame collapse to execute a hip escape in the opposite direction, creating space from a different angle. Adapting frame type to counter-pressure is essential."
       },
@@ -253,6 +258,10 @@
       {
         "question": "Your opponent attacks your framing arm with a kimura grip - what is the correct response?",
         "answer": "Immediately withdraw the endangered arm by pulling the elbow tight to your body and tucking the hand against your chest. Do not fight the kimura grip with an extended arm. Once the arm is safe, re-establish a frame from the opposite side or use a shorter elbow-knee connection frame that does not expose the arm to isolation. No single frame is worth risking a submission."
+      },
+      {
+        "question": "Your shoulder frame keeps collapsing and the leg entanglement is tight - what chain of options do you pursue?",
+        "answer": "Switch from the extended frame to a compact elbow-knee connection frame for structural resilience, and if the top player commits weight forward to collapse it, redirect that momentum into a hip escape away from the pressure or a granby roll that changes the angle of engagement entirely toward open guard. The principle is to adapt frame type and force direction rather than forcing the same collapsed structure repeatedly."
       }
     ],
     "safety_considerations": "Frame escape from twister side control involves managing significant spinal rotation forces. Never attempt explosive bridging movements while under active twister torque, as this can amplify rotational stress on the cervical and thoracic spine. If the twister submission is fully locked and you cannot prevent spinal rotation through framing, tap immediately rather than risk neck or spine injury. During training, communicate with your partner about the intensity of spinal pressure and use controlled resistance progressions. Begin all drills with light resistance and increase gradually as technique proficiency develops."

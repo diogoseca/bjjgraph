@@ -34,6 +34,18 @@ description: "Learn to recover posture from the Zombie lockdown position in BJJ.
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture Recovery from Zombie",
+  "description": "Posture Recovery from Zombie is the Zombie-top player's systematic sequence for defeating 10th Planet lockdown control—layering crossface, whizzer, and forward hip pressure—to rebuild broken posture and open a path to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn to recover posture from the Zombie lockdown position in BJJ.
 
 <section id="overview" class="content-section">
 
-Posture Recovery from Zombie is a critical transitional technique for the top player trapped in the 10th Planet Zombie lockdown half guard. When the bottom player has successfully broken the top player's posture using lockdown tension combined with underhook and head control, the top player must systematically work to re-establish structural integrity before any passing sequence becomes viable. This technique represents the essential first step in defeating the Zombie system from top position.
+**Posture Recovery from Zombie is the Zombie-top player's systematic sequence for defeating 10th Planet lockdown control—layering crossface, whizzer, and forward hip pressure—to rebuild broken posture and open a path to side control.**
+
+Few positions stall a top passer like the 10th Planet Zombie, where the bottom player fuses lockdown leg tension with an underhook and head control to keep the passer bent forward and structurally compromised. Before any passing sequence becomes viable, the top player must systematically re-establish structural integrity against these layered controls. This recovery represents the essential first step in defeating the Zombie system from top position.
 
 The recovery process requires a methodical approach combining crossface pressure, strategic weight distribution, and gradual spine extension to overcome the bottom player's pulling forces. Unlike simple posture recovery from closed guard, the lockdown adds significant mechanical resistance that prevents the top player from simply sitting upright. The trapped leg creates a fulcrum that the bottom player exploits to maintain broken posture, requiring the top player to address both upper body control and lower body extraction simultaneously.
 

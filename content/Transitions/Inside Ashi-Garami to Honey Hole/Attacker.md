@@ -85,7 +85,7 @@ description: "How to execute Inside Ashi-Garami to Honey Hole in BJJ. Attacking 
       "name": "What position do you start this transition from and what must be established first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Inside Ashi-Garami/Top position. Before initiating, you must have secure heel control with C-grip or figure-four, inside leg positioned across opponent's hip preventing rotation, and outside leg hooked behind their knee. All control points must be solid before attempting to thread your leg through."
+        "text": "This technique starts from Inside Ashi-Garami/Bottom position. Before initiating, you must have secure heel control with C-grip or figure-four, inside leg positioned across opponent's hip preventing rotation, and outside leg hooked behind their knee. All control points must be solid before attempting to thread your leg through."
       }
     },
     {

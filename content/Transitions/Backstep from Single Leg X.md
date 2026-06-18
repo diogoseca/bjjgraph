@@ -34,6 +34,18 @@ description: "Master the Backstep from Single Leg X-Guard pass in BJJ. Step-by-s
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backstep from Single Leg X",
+  "description": "The Backstep from Single Leg X-Guard is a rotational guard pass where the top player pivots their hips away from the bottom player's sweeping axis, spiraling the trapped leg free of the SLX hooks to land in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Backstep from Single Leg X-Guard pass in BJJ. Step-by-s
 
 <section id="overview" class="content-section">
 
-The backstep from Single Leg X-Guard is a rotational guard pass that exploits the structural commitment inherent in the SLX hook configuration. When the bottom player establishes SLX, their legs create powerful sweeping leverage but lock into a specific orientation that limits their ability to follow rotational movement. The backstep capitalizes on this directional commitment by rotating away from the bottom player's primary sweeping axis, stepping the free leg behind their guard structure and using hip rotation to clear the entangled leg entirely.
+**The Backstep from Single Leg X-Guard is a rotational guard pass where the top player pivots their hips away from the bottom player's sweeping axis, spiraling the trapped leg free of the SLX hooks to land in side control.**
+
+As a rotational answer to the modern leg-entanglement game, the backstep from Single Leg X-Guard exploits the structural commitment inherent in the SLX hook configuration rather than meeting it with direct pressure. When the bottom player establishes SLX, their legs create powerful sweeping leverage but lock into a specific orientation that limits their ability to follow rotational movement. The backstep capitalizes on this directional commitment by rotating away from the bottom player's primary sweeping axis, stepping the free leg behind their guard structure and using hip rotation to clear the entangled leg entirely.
 
 This technique is particularly effective because it bypasses the bottom player's strongest defensive frames rather than fighting through them. Direct pressure passes into SLX play directly into the bottom player's sweeping and leg lock game. The backstep changes the angle of engagement fundamentally, creating a momentary window where the bottom player's hooks lose their mechanical advantage as the top player's hips rotate past the plane of control. The rotational nature of the movement means the trapped leg clears naturally through hip turning rather than requiring forceful extraction against the bottom player's grip.
 

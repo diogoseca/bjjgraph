@@ -149,6 +149,16 @@ description: "Master systematic submission hunting from dominant positions in BJ
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Submission Clinic System",
+  "description": "The Submission Clinic System is an attack framework that establishes dominant control first, then chains submission threats from mount, back, side control, and guard so each defensive reaction the opponent gives opens the next finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -163,7 +173,9 @@ description: "Master systematic submission hunting from dominant positions in BJ
 
 ## What is Submission Clinic System?
 
-The Submission Clinic System represents a comprehensive framework for systematically attacking submissions from dominant positions. Rather than hunting for isolated finishes, this system emphasizes positional dominance first, then creates multiple submission threats that force the opponent into defensive dilemmas. Each defensive reaction opens new attacking pathways, creating an endless cycle of threats.
+**The Submission Clinic System is an attack framework that establishes dominant control first, then chains submission threats from mount, back, side control, and guard so each defensive reaction the opponent gives opens the next finish.**
+
+Born from the modern competitive emphasis on relentless finishing pressure, the Submission Clinic System grew out of the realization that a dominant position is only valuable when it is converted into threats. Rather than hunting for isolated finishes, this system emphasizes positional dominance first, then creates multiple submission threats that force the opponent into defensive dilemmas. Each defensive reaction opens new attacking pathways, creating an endless cycle of threats.
 
 This system integrates seamlessly across mount, back control, side control, and guard positions, teaching practitioners to maintain control while presenting constant submission danger. The key is never committing fully to one submission, but rather using each attempt to improve position or transition to the next threat. By mastering this system, practitioners develop the ability to finish opponents who are desperately defending, using their defensive reactions as the roadmap to victory.
 

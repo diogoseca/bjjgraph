@@ -20,7 +20,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Cross Face Control represents the tactical application of arm and shoulder pressure across opponent's face and neck to control head positioning, restrict rotation toward escape directions, and establish dominant upper body control in top positions. Unlike general shoulder pressure, crossface control focuses specifically on driving arm and shoulder from opponent's near side across their face toward the far side, creating a lever that turns their head away from optimal escape angles and significantly restricts their ability to face into the position for defensive frames. This concept integrates biomechanical understanding of how head rotation affects overall body movement with strategic decisions about crossface establishment timing, pressure intensity, and coordination with other control elements. Crossface control serves as both an immediate restriction mechanism that prevents opponent from creating effective defensive frames and an enabling tool that allows position maintenance and technical advancement with minimal effort through superior head control. The ability to establish and maintain effective crossface control often determines whether a practitioner can dominate side control and passing positions or allows opponent to turn into position and escape, making it one of the most essential technical elements in top control and passing development.",
+  "summary": "Cross Face Control is the application of forearm and shoulder pressure driven across an opponent's face from the near side toward the far side, turning their head away from escape angles to dominate top positions.",
+  "overview": "Rooted in the grappling truism that where the head goes the body follows, crossface control weaponizes that relationship to lock down top positions and passing sequences. Unlike general shoulder pressure, crossface control focuses specifically on driving arm and shoulder from opponent's near side across their face toward the far side, creating a lever that turns their head away from optimal escape angles and significantly restricts their ability to face into the position for defensive frames. This concept integrates biomechanical understanding of how head rotation affects overall body movement with strategic decisions about crossface establishment timing, pressure intensity, and coordination with other control elements. Crossface control serves as both an immediate restriction mechanism that prevents opponent from creating effective defensive frames and an enabling tool that allows position maintenance and technical advancement with minimal effort through superior head control. The ability to establish and maintain effective crossface control often determines whether a practitioner can dominate side control and passing positions or allows opponent to turn into position and escape, making it one of the most essential technical elements in top control and passing development.",
   "key_principles": [
     "Drive arm and shoulder across opponent's face from near side toward far side",
     "Turn opponent's head away from escape direction through crossface lever",
@@ -379,6 +380,48 @@
       "name": "Bernardo Faria Pressure System",
       "content_type": "System",
       "relationship": "Systematic approach emphasizing crossface as core element of pressure passing"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is cross face control and how does it dominate top positions?",
+      "answer": "It is forearm and shoulder pressure driven across the opponent's face from the near side toward the far side, turning their head away from escape angles so the body cannot follow into a defensive frame."
+    },
+    {
+      "question": "Why should crossface pressure come from the forearm and shoulder rather than the hand?",
+      "answer": "Hand pressure is muscular, weak, and easily pushed away; driving the forearm across the jaw with shoulder weight behind it uses skeletal structure and body weight for sustained, low-energy control."
+    },
+    {
+      "question": "How deep must a crossface be to effectively control the opponent's head?",
+      "answer": "The forearm should drive past the centerline of the opponent's head toward the far ear; a shallow crossface that stops short lets them turn back in and rebuild defensive frames."
+    },
+    {
+      "question": "Why is timing critical when establishing a crossface?",
+      "answer": "Crossface must be set during the transition moment before the opponent orients and builds near-side frames, since it is far harder to fight through established frames than to prevent them forming."
+    },
+    {
+      "question": "How do you free your hand for submissions without losing the crossface?",
+      "answer": "Transfer the head control from active hand pressure onto shoulder and body weight first, then peel the hand off; never abandon the crossface before the shoulder is already carrying the load."
+    },
+    {
+      "question": "Why must crossface always be paired with hip pressure?",
+      "answer": "Crossface alone controls only the upper body; without complementary hip control the opponent can shrimp or bridge away even with the head pinned, so both must work together to seal escapes."
+    },
+    {
+      "question": "What is the danger of holding maximal crossface pressure for the entire round?",
+      "answer": "Constant heavy pressure drains your own energy; pressure should be modulated, heavy to create openings or stop active escapes and lighter for maintenance when the position is already secure."
+    },
+    {
+      "question": "From the bottom, what does effective crossface defense look like?",
+      "answer": "Frame against the crossfacing arm and turn your chin toward the pressure before it crosses your centerline, recovering inside space so the head can face the opponent and rebuild guard."
+    },
+    {
+      "question": "How does crossface relate to the broader Head Position principle?",
+      "answer": "Crossface is a specific implementation of Head Position: by steering the head it limits whole-body movement, exploiting the fact that the torso and hips must follow wherever the head is forced to go."
+    },
+    {
+      "question": "Why does the same crossface depth and angle fail across different opponents?",
+      "answer": "Larger, stronger, or differently structured opponents demand adjusted depth, angle, and pressure; a one-size-fits-all crossface leaves gaps that flexible or powerful opponents exploit to turn back in."
     }
   ]
 }

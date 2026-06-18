@@ -34,6 +34,18 @@ description: "Master leg weave position in BJJ. Advanced guard passing control w
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Weave",
+  "description": "Leg Weave is a half-guard passing control where the top player threads a leg through the opponent's legs to pin them flat, neutralizing knee shields and frames while opening knee-slice, leg-drag, and smash-pass finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master leg weave position in BJJ. Advanced guard passing control w
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Weave is a half-guard passing control where the top player threads a leg through the opponent's legs to pin them flat, neutralizing knee shields and frames while opening knee-slice, leg-drag, and smash-pass finishes.**
 
 Leg Weave is a sophisticated guard passing position where one player threads their leg between the opponent's legs to establish control and disrupt defensive structures. This position represents a critical juncture in modern Brazilian Jiu-Jitsu where the passer creates a mechanical advantage through leg positioning while the bottom player must employ specific defensive strategies to prevent the pass or create counter-attacks.
 

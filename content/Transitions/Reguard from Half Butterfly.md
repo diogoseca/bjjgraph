@@ -34,6 +34,18 @@ description: "Master the Reguard from Half Butterfly in BJJ. Learn to recover fu
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reguard from Half Butterfly",
+  "description": "Reguard from Half Butterfly is a guard-recovery transition where the bottom player frees the trapped half-guard leg and inserts it as a second butterfly hook, upgrading the asymmetric half butterfly into a fully active butterfly guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Reguard from Half Butterfly in BJJ. Learn to recover fu
 
 <section id="overview" class="content-section">
 
-The Reguard from Half Butterfly is a guard retention technique where the bottom player transitions from the asymmetric half butterfly configuration to full butterfly guard by freeing the trapped leg from the half guard entanglement and inserting it as a second butterfly hook. Half Butterfly provides a strong sweeping platform with its single hook, but full butterfly guard offers substantially more offensive versatility through bilateral elevation, wider sweep angles, and direct access to X-Guard entries and arm drag back takes. The reguard capitalizes on this positional upgrade by converting a partially compromised guard into a fully active one.
+**Reguard from Half Butterfly is a guard-recovery transition where the bottom player frees the trapped half-guard leg and inserts it as a second butterfly hook, upgrading the asymmetric half butterfly into a fully active butterfly guard.**
+
+Within the bottom player's guard-retention arsenal, the reguard answers a specific problem: a half butterfly whose single-hook attacks are stalling, where forcing sweeps from a deteriorating base only invites the pass. Half Butterfly provides a strong sweeping platform with its single hook, but full butterfly guard offers substantially more offensive versatility through bilateral elevation, wider sweep angles, and direct access to X-Guard entries and arm drag back takes. The reguard capitalizes on this gap by converting a partially compromised guard back into a fully active one before the top player can consolidate passing advantages.
 
 Strategically, the reguard functions as both a guard retention tool and a positional reset. When the top player begins neutralizing the half butterfly position through crossface pressure or underhook control, attempting to force sweeps from a deteriorating position wastes energy and invites passing. Instead, the reguard extracts the trapped leg and restores the dual-hook configuration before the top player can consolidate passing advantages. The technique is particularly effective after failed sweep attempts, when the opponent's defensive reaction creates weight shifts and momentary loosening of the half guard trap that facilitate extraction.
 

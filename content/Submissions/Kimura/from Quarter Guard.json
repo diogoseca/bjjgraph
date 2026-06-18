@@ -1,5 +1,6 @@
 {
   "name": "Kimura from Quarter Guard",
+  "summary": "The Kimura from Quarter Guard is a figure-four shoulder lock applied from the dominant top passing position, attacking the bottom player's near arm with forced internal rotation as their underhook or framing attempts expose the wrist.",
   "description": "Master the Kimura shoulder lock from Quarter Guard top. Expert guide covering figure-four grip attacks, finishing mechanics, counters, and training drills for BJJ.",
   "tags": [
     "bjj",
@@ -133,7 +134,7 @@
     }
   ],
   "attacker": {
-    "name": "from Quarter Guard Attacker",
+    "name": "Kimura from Quarter Guard Attacker",
     "description": "Learn to attack with the Kimura from Quarter Guard top position. Step-by-step execution guide covering grip mechanics, finishing details, counter responses, and progressive training methods.",
     "overview": "Attacking the Kimura from Quarter Guard requires integrating submission mechanics with passing pressure. The top player must recognize the moment when the bottom player's arm becomes vulnerable—typically during underhook attempts or framing sequences—and transition smoothly from pass-focused pressure to figure-four grip control. The key advantage of this position is that your weight distribution and crossface already restrict the defender's escape options, allowing you to focus on wrist isolation and rotational finishing mechanics rather than fighting for positional control. The quarter guard creates a natural funnel where the bottom player's defensive arm movements expose the exact angles needed for kimura entry, making this one of the highest-percentage submission setups available during guard passing sequences.",
     "key_principles": [
@@ -334,7 +335,7 @@
     ]
   },
   "defender": {
-    "name": "from Quarter Guard Defender",
+    "name": "Kimura from Quarter Guard Defender",
     "description": "Defend against the Kimura from Quarter Guard. Learn recognition cues, grip breaking, escape techniques, and recovery strategies to survive this shoulder lock attack.",
     "overview": "Defending the Kimura from Quarter Guard demands early recognition and immediate grip prevention, as the compromised quarter guard position already limits your mobility and framing options significantly. The defender must balance the need to maintain underhook control for sweeps with the risk of exposing their arm to the figure-four grip. Successful defense requires understanding the attacker's grip sequence and intervening before the figure-four locks fully, using body rotation, grip fighting, and guard recovery to neutralize the threat before the shoulder enters dangerous rotation. The quarter guard bottom position adds urgency because your reduced leg engagement means you cannot generate the powerful hip escapes available from full half guard, making early grip prevention far more important than late-stage escape attempts.",
     "key_principles": [

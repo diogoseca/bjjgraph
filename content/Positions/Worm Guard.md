@@ -34,6 +34,18 @@ description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Worm Guard",
+  "description": "Worm Guard is a gi-only lapel guard in which you thread the opponent's own lapel under their leg and wrap it around your shin, immobilizing that leg to create high-percentage sweeps and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps
 
 <section id="overview" class="content-section">
 
-Worm Guard is an advanced lapel-based open guard position developed and popularized by Keenan Cornelius. The position is characterized by feeding the opponent's lapel behind their back and around their leg, creating a lasso-like configuration that immobilizes their movement and creates powerful sweeping and back-taking opportunities. The name derives from the serpentine path the lapel takes around the opponent's body. This guard represents a modern evolution in gi-based grappling, utilizing the gi itself as an extension of your limbs to create control and leverage that would be impossible in no-gi grappling. The position excels at neutralizing larger, stronger opponents through technical manipulation rather than physical force.
+**Worm Guard is a gi-only lapel guard in which you thread the opponent's own lapel under their leg and wrap it around your shin, immobilizing that leg to create high-percentage sweeps and back takes.**
+
+Pioneered and popularized by Keenan Cornelius during the mid-2010s competition scene, Worm Guard represents a modern evolution in gi-based grappling that weaponizes the lapel itself as an extension of your limbs. The configuration feeds the opponent's lapel behind their back and around their leg, creating a lasso-like web that immobilizes their movement, and the name derives from the serpentine path the lapel takes around their body. This control and leverage would be impossible in no-gi grappling, and the position excels at neutralizing larger, stronger opponents through technical manipulation rather than physical force.
 
 The Worm Guard is particularly effective because it simultaneously controls the opponent's posture, limits their base, and creates offensive opportunities. By wrapping the lapel around the opponent's leg and maintaining a firm grip, you create a mechanical disadvantage for your opponent that makes passing extremely difficult. The position allows for seamless transitions to other lapel guards like Squid Guard and Ringworm, as well as traditional positions like De La Riva and X-Guard. Understanding the Worm Guard system opens up an entire universe of lapel-based techniques that can dominate gi competition.
 

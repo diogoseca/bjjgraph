@@ -33,10 +33,32 @@ description: "Master the Buggy Choke finish from turtle top. Complete guide to c
 }
 </script>
 
-> **SAFETY**: Buggy Choke from Buggy Choke targets the Neck. Risk: Carotid artery compression causing loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Buggy Choke from Buggy Choke",
+  "description": "The Buggy Choke finish from turtle top is a bilateral collar strangle: the attacker threads one arm under the opponent's near armpit to the far collar, then compresses both carotids through progressive body pressure until the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Buggy Choke finish from turtle top is a bilateral collar strangle: the attacker threads one arm under the opponent's near armpit to the far collar, then compresses both carotids through progressive body pressure until the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Collar Choke</span>
+<span class="meta-chip">Targets Neck</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Buggy Choke from Buggy Choke targets the Neck. Primary risk: Carotid artery compression causing loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,49 +75,7 @@ What distinguishes this finish from other collar choke variations is the mechani
 
 The primary strategic consideration when attempting this finish is timing the transition from control to active choking pressure. Premature finishing attempts before control consolidation allow defensive grip stripping, while excessive patience gives the opponent time to implement escape sequences. The optimal moment occurs when both grips achieve full depth, body pressure restricts hip movement, and the opponent's defensive options have been systematically eliminated through positional dominance.
 
-**Category**: Choke
-**Type**: Collar Choke
-**Target Area**: Neck
-**Starting Position**: [[Positions/Buggy Choke]]
-**From Position**: [[Positions/Buggy Choke]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression causing loss of consciousness | CRITICAL | Immediate recovery if released promptly upon unconsciousness; potential neurological complications if sustained beyond 10-15 seconds after loss of consciousness |
-| Tracheal compression from misaligned collar grip positioning | High | 1-4 weeks for mild tracheal bruising; 4-8 weeks for significant laryngeal trauma |
-| Cervical spine strain from sustained neck pressure and postural breakdown | Medium | 1-2 weeks for minor strain; 4-6 weeks for moderate cervical injury |
-
-
-**Application Speed**: SLOW and progressive. The collar choke tightens gradually through body positioning rather than explosive force. Apply pressure incrementally and monitor partner's response continuously. Never jerk, spike, or explosively tighten the collar structure.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, own body, or mat
-- Physical foot tap on mat with either leg
-- Any unusual vocalization, gurgling, or distress sound indicating compromised airway
-
-
-**Release Protocol**:
-1. Release all choking pressure immediately upon any tap signal by opening both grips simultaneously
-2. If in doubt whether a signal was a tap, release immediately - position can be re-established but consciousness cannot
-3. After release, maintain brief positional awareness to ensure partner is oriented and conscious before fully disengaging
-4. If partner appears disoriented or unresponsive after release, immediately alert instructor and place partner in recovery position
-
-
-**Training Restrictions**:
-- Beginners should drill finishing mechanics at reduced speed and pressure with experienced partners who can provide real-time feedback on grip placement and pressure trajectory
-- Never apply full finishing pressure in drilling; reserve competition-intensity finishing only for positional sparring with trusted partners
-- Partners with prior neck injuries, cervical disc issues, or cardiovascular conditions should avoid receiving this technique at high intensity
-
+**Starting Position**: [[Positions/Buggy Choke]] · **From**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -246,39 +226,55 @@ The primary strategic consideration when attempting this finish is timing the tr
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Positions/Buggy Choke]]
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Transitions/Clock Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Positions/Buggy Choke]] - Control position from which this finish is executed
 - [[Positions/Turtle]] - Base defensive position where buggy choke attacks develop
 - [[Positions/Back Control]] - Alternative positional advancement when choke finish is defended
 - [[Positions/Crucifix]] - Transition option when opponent extends arm defending the choke
 - [[Positions/Darce Control]] - Switch option when opponent turns into the choking attack
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Buggy Choke from Buggy Choke leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression causing loss of consciousness | CRITICAL | Immediate recovery if released promptly upon unconsciousness; potential neurological complications if sustained beyond 10-15 seconds after loss of consciousness |
+| Tracheal compression from misaligned collar grip positioning | High | 1-4 weeks for mild tracheal bruising; 4-8 weeks for significant laryngeal trauma |
+| Cervical spine strain from sustained neck pressure and postural breakdown | Medium | 1-2 weeks for minor strain; 4-6 weeks for moderate cervical injury |
+
+
+**Application Speed**: SLOW and progressive. The collar choke tightens gradually through body positioning rather than explosive force. Apply pressure incrementally and monitor partner's response continuously. Never jerk, spike, or explosively tighten the collar structure.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, own body, or mat
+- Physical foot tap on mat with either leg
+- Any unusual vocalization, gurgling, or distress sound indicating compromised airway
+
+
+**Release Protocol**:
+1. Release all choking pressure immediately upon any tap signal by opening both grips simultaneously
+2. If in doubt whether a signal was a tap, release immediately - position can be re-established but consciousness cannot
+3. After release, maintain brief positional awareness to ensure partner is oriented and conscious before fully disengaging
+4. If partner appears disoriented or unresponsive after release, immediately alert instructor and place partner in recovery position
+
+
+**Training Restrictions**:
+- Beginners should drill finishing mechanics at reduced speed and pressure with experienced partners who can provide real-time feedback on grip placement and pressure trajectory
+- Never apply full finishing pressure in drilling; reserve competition-intensity finishing only for positional sparring with trusted partners
+- Partners with prior neck injuries, cervical disc issues, or cardiovascular conditions should avoid receiving this technique at high intensity
+
 
 </section>
 

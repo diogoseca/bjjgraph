@@ -1,5 +1,6 @@
 {
   "name": "Hip Escape from Side Control",
+  "summary": "The hip escape from side control is a bottom escape that frames, bridges, and laterally shrimps to create space under a consolidated pin, then inserts a knee shield to recover half guard.",
   "description": "Master the hip escape from consolidated side control. Learn shrimping mechanics, frame timing, and knee insertion to recover half guard under top pressure.",
   "tags": [
     "bjj",
@@ -97,10 +98,6 @@
     {
       "name": "Open Guard",
       "relationship": "Alternative guard recovery target if escape creates significant distance"
-    },
-    {
-      "name": "Side Control",
-      "relationship": "Parent position category for the consolidated variation"
     }
   ],
   "attacker": {

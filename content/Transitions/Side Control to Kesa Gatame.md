@@ -34,6 +34,18 @@ description: "Master the side control to Kesa Gatame transition in BJJ. Step-by-
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Side Control to Kesa Gatame",
+  "description": "Side Control to Kesa Gatame is a top-game positional transition where the player rotates roughly 90 degrees from chest-to-chest side control into the judo scarf hold, wrapping the head and trapping the near arm for crushing upper-body control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the side control to Kesa Gatame transition in BJJ. Step-by-
 </div>
 
 <section id="overview" class="content-section">
+
+**Side Control to Kesa Gatame is a top-game positional transition where the player rotates roughly 90 degrees from chest-to-chest side control into the judo scarf hold, wrapping the head and trapping the near arm for crushing upper-body control.**
 
 The transition from side control to Kesa Gatame (scarf hold) is a fundamental positional shift within the side control family that changes the control geometry from perpendicular chest-to-chest pressure to a rotated scarf hold configuration. This transition is initiated when the top player rotates their hips to face their opponent's head, wraps the near arm around the opponent's head, and traps the opponent's near arm under their armpit. The result is one of the most oppressive pinning positions in grappling, with roots in judo's classical newaza that have been refined for modern BJJ application.
 

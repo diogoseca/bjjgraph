@@ -21,37 +21,37 @@ description: "Master Deep Half Guard Bottom with powerful sweeps, back takes, an
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 39% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair",
-      "text": "From this position, attempt Electric Chair. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Electric Chair from Deep Half Guard",
+      "text": "From this position, attempt Electric Chair from Deep Half Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

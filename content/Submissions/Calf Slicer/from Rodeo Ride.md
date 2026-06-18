@@ -33,10 +33,32 @@ description: "Master the Calf Slicer from Rodeo Ride in BJJ. Complete guide to c
 }
 </script>
 
-> **SAFETY**: Calf Slicer from Rodeo Ride targets the Calf muscle and knee joint. Risk: Knee ligament damage (MCL/LCL tears) from hyperextension force applied through the compression lock. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Calf Slicer from Rodeo Ride",
+  "description": "The Calf Slicer from Rodeo Ride is a leg-compression submission where the rider threads a shin behind a turtled opponent's bent knee and extends the hips, crushing the calf against the shinbone while hyperextending the knee until the opponent taps.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Calf Slicer from Rodeo Ride is a leg-compression submission where the rider threads a shin behind a turtled opponent's bent knee and extends the hips, crushing the calf against the shinbone while hyperextending the knee until the opponent taps.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Calf Crush</span>
+<span class="meta-chip">Targets Calf muscle and knee joint</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Calf Slicer from Rodeo Ride targets the Calf muscle and knee joint. Primary risk: Knee ligament damage (MCL/LCL tears) from hyperextension force applied through the compression lock. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,58 +69,13 @@ description: "Master the Calf Slicer from Rodeo Ride in BJJ. Complete guide to c
 
 <section id="overview" class="content-section">
 
-The Calf Slicer from Rodeo Ride is a powerful compression submission that exploits the dynamic turtle attack position to attack the opponent's calf muscle and knee joint. From the rodeo ride—an advanced turtle control position where the attacker maintains asymmetric pressure on the turtled opponent—the attacker threads their shin behind the defender's knee and folds the leg to create devastating compression between the shin bone and the calf muscle, while simultaneously threatening knee hyperextension.
+Built for the modern turtle-attack game, the Calf Slicer from Rodeo Ride converts a control-oriented riding position into a leg-attack threat, forcing the defender to divide their attention between defending the back take and protecting their own legs. From the rodeo ride—an advanced turtle control position where the attacker maintains asymmetric pressure on the turtled opponent—the attacker threads their shin behind the defender's knee and folds the leg to create devastating compression between the shin bone and the calf muscle, while simultaneously threatening knee hyperextension.
 
 This submission is particularly effective because the rodeo ride's natural positioning places the attacker's legs in close proximity to the defender's knee line, making the entry relatively short compared to other calf slicer setups. The transitional nature of rodeo ride means the defender is already under pressure and dealing with multiple threats, often leaving their legs vulnerable as they focus on defending the back take and collar chokes. The compression submission adds another layer to the dilemma-based attack system that makes rodeo ride so effective.
 
 The calf slicer from this position requires precise leg threading mechanics and proper understanding of when to commit to the submission versus maintaining positional control. Because the attacker must redirect their legs from a control orientation to a submission orientation, there is inherent risk of losing the dominant position if the technique fails. This risk-reward calculation makes timing and recognition of the right opportunity critical—the best entries come when the opponent's defensive reactions to other threats inadvertently expose the leg for the calf slicer entry.
 
-**Category**: Compression
-**Type**: Calf Crush
-**Target Area**: Calf muscle and knee joint
-**Starting Position**: [[Positions/Rodeo Ride]]
-**From Position**: [[Positions/Rodeo Ride]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Knee ligament damage (MCL/LCL tears) from hyperextension force applied through the compression lock | High | 4-12 weeks depending on severity; partial tears may require 6-8 weeks, complete tears may require surgery and 4-6 months |
-| Calf muscle tear or deep tissue contusion from compression of soft tissue against the shin bone fulcrum | Medium | 2-6 weeks for minor strains; severe tears may require 6-10 weeks with physical therapy |
-| Meniscus damage from rotational force combined with compression when opponent attempts to twist free | High | 6-16 weeks; may require arthroscopic surgery with 3-6 month full recovery |
-| Posterior knee capsule strain from sustained hyperextension pressure during the finishing sequence | Medium | 2-4 weeks with rest and ice; chronic cases may require 6-8 weeks rehabilitation |
-
-
-**Application Speed**: SLOW and progressive. The compression builds gradually as hips extend. Never jerk, spike, or explosively apply the leg fold. Allow the opponent adequate time to recognize the submission and tap. The knee joint is particularly vulnerable to sudden force application in this position.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, their own body, or the mat (multiple rapid taps)
-- Physical foot tap with the free leg on the mat or partner's body
-- Any unusual screaming, groaning, or distress vocalization indicating pain
-- Verbal submission to referee in competition settings
-
-
-**Release Protocol**:
-1. Release ALL pressure immediately upon any tap signal—do not complete the movement or hold for even a fraction of a second
-2. If in doubt whether opponent tapped, release immediately—the position can always be re-established but joint damage cannot be undone
-3. Release the figure-four leg lock first, then release foot control, allowing opponent to straighten their leg naturally
-4. After release, maintain safe distance and allow opponent to assess their knee and calf before resuming training
-
-
-**Training Restrictions**:
-- Purple belt and above only for live application due to the rapid onset of knee hyperextension and compression damage potential
-- Always apply with slow, controlled pressure during drilling—never use explosive hip extension to finish
-- Tap early and often when caught in this submission during training; ego tapping leads to preventable knee injuries
-- Do not drill this technique on partners with pre-existing knee injuries, recent meniscus surgery, or ligament reconstruction
-
+**Starting Position**: [[Positions/Rodeo Ride]] · **From**: [[Positions/Rodeo Ride]] (Top)
 
 </section>
 
@@ -266,41 +243,57 @@ The calf slicer from this position requires precise leg threading mechanics and 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Toe Hold/from 50-50]]
 - [[Submissions/Spine Lock/from Truck]]
 - [[Submissions/Banana Split]]
 - [[Submissions/Bicep Slicer]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
-- [[Submissions/Calf Slicer]] - Parent technique family encompassing all calf slicer variations and finishing mechanics
-- [[Submissions/Spine Lock/from Truck]] - Related calf slicer variation from similar leg entanglement control position
-- [[Submissions/Toe Hold/from 50-50]] - Alternative calf slicer entry from guard-based leg entanglement
 - [[Positions/Turtle]] - Base defensive position from which Rodeo Ride control develops
 - [[Positions/Back Control]] - Alternative advancement path from Rodeo Ride instead of calf slicer
 - [[Positions/Twister Control/Truck]] - Related control position offering similar leg-based compression submissions
-- [[Submissions/Banana Split]] - Related leg submission accessible from similar turtle attack control positions
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Calf Slicer from Rodeo Ride leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Knee ligament damage (MCL/LCL tears) from hyperextension force applied through the compression lock | High | 4-12 weeks depending on severity; partial tears may require 6-8 weeks, complete tears may require surgery and 4-6 months |
+| Calf muscle tear or deep tissue contusion from compression of soft tissue against the shin bone fulcrum | Medium | 2-6 weeks for minor strains; severe tears may require 6-10 weeks with physical therapy |
+| Meniscus damage from rotational force combined with compression when opponent attempts to twist free | High | 6-16 weeks; may require arthroscopic surgery with 3-6 month full recovery |
+| Posterior knee capsule strain from sustained hyperextension pressure during the finishing sequence | Medium | 2-4 weeks with rest and ice; chronic cases may require 6-8 weeks rehabilitation |
+
+
+**Application Speed**: SLOW and progressive. The compression builds gradually as hips extend. Never jerk, spike, or explosively apply the leg fold. Allow the opponent adequate time to recognize the submission and tap. The knee joint is particularly vulnerable to sudden force application in this position.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, their own body, or the mat (multiple rapid taps)
+- Physical foot tap with the free leg on the mat or partner's body
+- Any unusual screaming, groaning, or distress vocalization indicating pain
+- Verbal submission to referee in competition settings
+
+
+**Release Protocol**:
+1. Release ALL pressure immediately upon any tap signal—do not complete the movement or hold for even a fraction of a second
+2. If in doubt whether opponent tapped, release immediately—the position can always be re-established but joint damage cannot be undone
+3. Release the figure-four leg lock first, then release foot control, allowing opponent to straighten their leg naturally
+4. After release, maintain safe distance and allow opponent to assess their knee and calf before resuming training
+
+
+**Training Restrictions**:
+- Purple belt and above only for live application due to the rapid onset of knee hyperextension and compression damage potential
+- Always apply with slow, controlled pressure during drilling—never use explosive hip extension to finish
+- Tap early and often when caught in this submission during training; ego tapping leads to preventable knee injuries
+- Do not drill this technique on partners with pre-existing knee injuries, recent meniscus surgery, or ligament reconstruction
+
 
 </section>
 

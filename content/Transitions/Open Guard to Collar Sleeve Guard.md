@@ -34,6 +34,18 @@ description: "Learn to establish collar sleeve guard from open guard bottom. Mas
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Open Guard to Collar Sleeve Guard",
+  "description": "Open Guard to Collar Sleeve Guard is the bottom-player grip sequence — cross-collar grip first, then same-side sleeve grip — that converts an undefined open guard into the structured, sweep- and triangle-ready collar sleeve guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn to establish collar sleeve guard from open guard bottom. Mas
 
 <section id="overview" class="content-section">
 
-Transition to Collar Sleeve Guard is a grip establishment technique executed by the bottom player from open guard to create a structured attacking platform built on cross-collar and same-side sleeve control. The technique converts the general, less defined open guard position into a specific guard system with clear offensive pathways including sweeps, triangles, and omoplatas. The transition requires winning a grip fighting exchange against an opponent who is actively trying to establish their own passing grips, making timing and sequencing the primary determinants of success.
+**Open Guard to Collar Sleeve Guard is the bottom-player grip sequence — cross-collar grip first, then same-side sleeve grip — that converts an undefined open guard into the structured, sweep- and triangle-ready collar sleeve guard.**
+
+Within the open guard game, this transition marks the moment a bottom player stops playing a generic, reactive guard and commits to building a specific, offense-ready system. It converts the general, less defined open guard position into a structured guard with clear offensive pathways including sweeps, triangles, and omoplatas, all anchored on the asymmetric cross-collar and same-side sleeve grips. The transition requires winning a grip fighting exchange against an opponent who is actively trying to establish their own passing grips, making timing and sequencing the primary determinants of success.
 
 The technical core of this transition lies in the grip sequencing hierarchy: the cross-collar grip must be established first because it provides posture control that makes the subsequent sleeve grip much easier to obtain. Reaching for the sleeve first without collar control allows the opponent to posture freely and strip your grip before you can build the full guard structure. Once the collar grip anchors your control over their upper body, the sleeve grip completes the asymmetric structure that generates the rotational off-balancing forces characteristic of collar sleeve guard.
 

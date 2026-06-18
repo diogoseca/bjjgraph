@@ -34,6 +34,18 @@ description: "Master Modified Mount in BJJ. Strategic position trading some cont
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Modified Mount",
+  "description": "Modified Mount is an asymmetric top-mount variation in which one leg posts wide for base while the opposite knee stays across the torso, trading some pinning control for bridge-resistant stability and direct armbar and triangle entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Modified Mount in BJJ. Strategic position trading some cont
 </div>
 
 <section id="overview" class="content-section">
+
+**Modified Mount is an asymmetric top-mount variation in which one leg posts wide for base while the opposite knee stays across the torso, trading some pinning control for bridge-resistant stability and direct armbar and triangle entries.**
 
 Modified Mount represents a strategic adaptation of the traditional mount position where the top practitioner posts one leg out to the side while maintaining the other knee across the opponent's body. This asymmetric configuration sacrifices some of the pure control of standard mount in exchange for significantly enhanced base stability and specific submission setups, particularly for armbars and triangles. The position emerged from competitive necessity when facing opponents with excellent mount escape mechanics, as the posted leg provides a structural brace against explosive bridge-and-roll attempts while maintaining dominant positioning. Modified Mount serves as both a transitional position when moving between mount variations and a deliberate control choice when the opponent demonstrates strong escape ability from traditional mount. The posted leg functions as a stability anchor, allowing the top practitioner to maintain balance while reaching for grips or transitioning to submissions without fear of being reversed. From the bottom perspective, Modified Mount presents unique escape opportunities because the asymmetric weight distribution creates directional vulnerabilities, particularly toward the posted leg side. However, the position also limits certain escape paths because the posted leg blocks some hip escape angles while the across-body knee maintains significant control. Understanding Modified Mount from both perspectives requires recognizing the position as a calculated trade-off between control security and submission accessibility, with each practitioner attempting to exploit the inherent advantages while minimizing the structural weaknesses of this asymmetric configuration.
 

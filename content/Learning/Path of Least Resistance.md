@@ -86,6 +86,18 @@ description: "Master the BJJ principle of going around obstacles rather than thr
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Path of Least Resistance",
+  "description": "Path of least resistance is the strategy of attacking around an opponent's defensive barriers — passing where there is no knee shield, hitting the arm when the neck is guarded — rather than forcing techniques through their strongest defense.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -94,6 +106,8 @@ description: "Master the BJJ principle of going around obstacles rather than thr
 <section id="overview" class="content-section">
 
 ## What is Path of Least Resistance?
+
+**Path of least resistance is the strategy of attacking around an opponent's defensive barriers — passing where there is no knee shield, hitting the arm when the neck is guarded — rather than forcing techniques through their strongest defense.**
 
 When you push a door that says pull, you do not push harder -- you change your approach. Yet in BJJ, grapplers constantly try to force techniques through an opponent's strongest defensive barrier. They push into the guard that is blocking them, fight the grip that is stopping them, or muscle through the frame that is holding them away. The path of least resistance is the strategic discipline of going around obstacles rather than bulldozing through them.
 

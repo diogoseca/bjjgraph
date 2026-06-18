@@ -33,10 +33,32 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
 }
 </script>
 
-> **SAFETY**: Calf Slicer from Truck targets the Calf muscle and knee joint. Risk: Calf muscle tear or rupture (gastrocnemius/soleus). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Calf Slicer from Truck",
+  "description": "The Calf Slicer from Truck is a 10th Planet leg compression submission that wedges your shin across the opponent's trapped calf and folds their heel toward their hamstring, crushing the gastrocnemius for the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Calf Slicer from Truck is a 10th Planet leg compression submission that wedges your shin across the opponent's trapped calf and folds their heel toward their hamstring, crushing the gastrocnemius for the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Leg Compression Lock</span>
+<span class="meta-chip">Targets Calf muscle and knee joint</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Calf Slicer from Truck targets the Calf muscle and knee joint. Primary risk: Calf muscle tear or rupture (gastrocnemius/soleus). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,59 +69,9 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
 
 <section id="overview" class="content-section">
 
-The Calf Slicer from Truck is a high-level compression submission that targets the calf muscle and knee joint simultaneously. Popularized by the 10th Planet system, this technique capitalizes on the unique control offered by the Truck position - where you control your opponent's back while they're turned away, with their legs trapped. The submission works by wedging your shin bone across the back of your opponent's calf while pulling their heel toward their hamstring, creating intense pressure on both the gastrocnemius muscle and the knee ligaments. Unlike traditional joint locks that rely purely on skeletal manipulation, the calf slicer combines muscular compression with joint stress, making it particularly effective against opponents with flexible joints but less conditioned legs. The Truck position provides exceptional control for this finish because your opponent is already compromised - their hips are twisted, their base is broken, and your body weight pins them face-down. This submission requires precise technical execution and carries significant injury risk if applied carelessly, making it essential to master the positional control before attempting the finish. The calf slicer represents the convergence of 10th Planet's innovative approach to leg attacks and traditional compression submissions, offering a powerful finishing option from one of modern no-gi grappling's most dominant positions.
+Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from Truck weaponizes the dominant control of the Truck position into a fight-ending compression. The technique works by wedging your shin bone across the back of your opponent's calf while pulling their heel toward their hamstring, creating intense pressure on both the gastrocnemius muscle and the knee ligaments. Unlike traditional joint locks that rely purely on skeletal manipulation, the calf slicer combines muscular compression with joint stress, making it particularly effective against opponents with flexible joints but less conditioned legs. The Truck position provides exceptional control for this finish because your opponent is already compromised - their hips are twisted, their base is broken, and your body weight pins them face-down. This submission requires precise technical execution and carries significant injury risk if applied carelessly, making it essential to master the positional control before attempting the finish. The calf slicer represents the convergence of 10th Planet's innovative approach to leg attacks and traditional compression submissions, offering a powerful finishing option from one of modern no-gi grappling's most dominant positions.
 
-**Category**: Compression
-**Type**: Leg Compression Lock
-**Target Area**: Calf muscle and knee joint
-**Starting Position**: [[Positions/Twister Control/Truck]]
-**From Position**: [[Positions/Twister Control/Truck]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Calf muscle tear or rupture (gastrocnemius/soleus) | High | 4-12 weeks with complete rest and physical therapy |
-| Posterior knee ligament damage (PCL strain) | High | 6-16 weeks depending on severity, possible surgical intervention |
-| Compartment syndrome from muscle compression | CRITICAL | Medical emergency requiring immediate intervention, potential permanent damage |
-| Hamstring tendon strain at insertion point | Medium | 3-8 weeks with rehabilitation |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progressive pressure. Calf slicers can cause sudden muscle tears before pain signals register.
-
-**Tap Signals**:
-- Verbal tap (primary - opponent may not have hand access)
-- Physical hand tap on your body or mat
-- Physical foot tap with free leg
-- Any vocalization or distress signal
-- Frantic movement or struggle (assume distress)
-
-
-**Release Protocol**:
-1. Immediately release the heel grip and stop pulling
-2. Remove your shin from behind their calf smoothly (no jerking motion)
-3. Release hip control and allow opponent to straighten their leg naturally
-4. Do not stand or apply weight during release
-5. Allow opponent 30+ seconds to assess injury before continuing
-6. Monitor for signs of compartment syndrome (numbness, extreme tightness, color changes)
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply progressive pressure only
-- Never use competition speed in training sessions
-- Never apply to training partners with previous calf or knee injuries without explicit consent
-- Never combine with twisting pressure (straight compression only in training)
-- Always ensure opponent has at least one hand free to tap
-- Require verbal acknowledgment from partner before attempting in drilling
-- Reserved for advanced practitioners only (minimum purple belt recommended)
-
+**Starting Position**: [[Positions/Twister Control/Truck]] · **From**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
 
@@ -272,10 +244,9 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Toe Hold/from 50-50]]
 - [[Submissions/Banana Split]]
@@ -285,35 +256,59 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 - [[Submissions/Boston Crab]]
 - [[Transitions/Heel Hook]]
 - [[Submissions/Spine Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Twister Control/Truck]] - Primary starting position - truck control must be mastered before attempting this submission
 - [[Positions/Twister Control]] - Primary transition when opponent defends by straightening leg - rotate to upper body attack
 - [[Positions/Half Guard/Lockdown]] - Alternative entry - can transition from electric chair position in lockdown system
 - [[Positions/Crab Ride]] - Related control position - similar back exposure with different leg configuration
-- [[Submissions/Banana Split]] - Alternative finish from truck - when calf slicer is defended, switch to hip-splitting attack
 - [[Positions/Half Guard/Deep Half Guard]] - Entry position - can roll into truck from deep half sweeps gone wrong
 - [[Positions/Leg Entanglement]] - Conceptual principle - understanding leg control mechanics applicable to truck position
 - [[Positions/Back Control]] - Alternative position - can transition to back control when calf slicer fails
 - [[Positions/Twister Control/Twister Side Control]] - Related position in the 10th Planet twister system with similar mechanics
-- [[Positions/Half Guard/Electric Chair]] - Entry pathway - electric chair position can transition to truck for calf slicer
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Calf Slicer from Truck leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Calf muscle tear or rupture (gastrocnemius/soleus) | High | 4-12 weeks with complete rest and physical therapy |
+| Posterior knee ligament damage (PCL strain) | High | 6-16 weeks depending on severity, possible surgical intervention |
+| Compartment syndrome from muscle compression | CRITICAL | Medical emergency requiring immediate intervention, potential permanent damage |
+| Hamstring tendon strain at insertion point | Medium | 3-8 weeks with rehabilitation |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum progressive pressure. Calf slicers can cause sudden muscle tears before pain signals register.
+
+**Tap Signals**:
+- Verbal tap (primary - opponent may not have hand access)
+- Physical hand tap on your body or mat
+- Physical foot tap with free leg
+- Any vocalization or distress signal
+- Frantic movement or struggle (assume distress)
+
+
+**Release Protocol**:
+1. Immediately release the heel grip and stop pulling
+2. Remove your shin from behind their calf smoothly (no jerking motion)
+3. Release hip control and allow opponent to straighten their leg naturally
+4. Do not stand or apply weight during release
+5. Allow opponent 30+ seconds to assess injury before continuing
+6. Monitor for signs of compartment syndrome (numbness, extreme tightness, color changes)
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - apply progressive pressure only
+- Never use competition speed in training sessions
+- Never apply to training partners with previous calf or knee injuries without explicit consent
+- Never combine with twisting pressure (straight compression only in training)
+- Always ensure opponent has at least one hand free to tap
+- Require verbal acknowledgment from partner before attempting in drilling
+- Reserved for advanced practitioners only (minimum purple belt recommended)
+
 
 </section>
 

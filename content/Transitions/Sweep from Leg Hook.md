@@ -34,6 +34,18 @@ description: "Master the Sweep from Leg Hook in BJJ. Learn step-by-step executio
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Leg Hook",
+  "description": "Sweep from Leg Hook is a high-percentage half guard bottom reversal in which the bottom player combines an active leg hook on the opponent's near leg with an underhook to off-balance the top passer and roll them over into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Sweep from Leg Hook in BJJ. Learn step-by-step executio
 </div>
 
 <section id="overview" class="content-section">
+
+**Sweep from Leg Hook is a high-percentage half guard bottom reversal in which the bottom player combines an active leg hook on the opponent's near leg with an underhook to off-balance the top passer and roll them over into mount.**
 
 The Sweep from Leg Hook is a fundamental reversal technique executed from the bottom leg hook position, a dynamic half guard variant characterized by active leg entanglement around the top player's near leg. This sweep exploits the mechanical leverage created by the hook to displace the top player's base laterally, driving them over the fulcrum of the hooked leg and achieving a full reversal to mount position. The technique rewards precise timing and coordinated upper-lower body mechanics rather than raw explosive strength.
 
@@ -237,11 +251,9 @@ The Sweep from Leg Hook occupies a critical role in the half guard offensive sys
 
 - [[Transitions/Counter Leg Hook]] - Opposing transition from top player attempting to neutralize the hook
 
-- [[Transitions/Dogfight Sweep]] - Complementary sweep available from nearby dogfight position
+- [[Transitions/Deep Half Entry]] - Chain option when sweep attempt is stuffed and opponent drives forward
 
-- [[Transitions/Deep Half Entry from Half Guard]] - Chain option when sweep attempt is stuffed and opponent drives forward
-
-- [[Transitions/Half Butterfly Sweep]] - Related sweep technique using similar lower body elevation mechanics
+- [[Positions/Butterfly Guard/Half Butterfly]] - Related position using similar lower body elevation mechanics for sweeps
 
 
 </section>

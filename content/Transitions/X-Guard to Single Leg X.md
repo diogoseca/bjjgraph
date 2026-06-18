@@ -34,6 +34,18 @@ description: "Master the X-Guard to Single Leg X transition in BJJ. Learn leg re
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "X-Guard to Single Leg X",
+  "description": "X-Guard to Single Leg X is a bottom-position reconfiguration that trades the X-Guard's bilateral leg hooks for a single-leg ankle wrap plus an active hip hook, opening direct pathways to sweeps and modern leg-lock entanglements.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the X-Guard to Single Leg X transition in BJJ. Learn leg re
 </div>
 
 <section id="overview" class="content-section">
+
+**X-Guard to Single Leg X is a bottom-position reconfiguration that trades the X-Guard's bilateral leg hooks for a single-leg ankle wrap plus an active hip hook, opening direct pathways to sweeps and modern leg-lock entanglements.**
 
 The X-Guard to Single Leg X transition is one of the most fundamental positional shifts in modern open guard play. It involves reconfiguring leg placement from the full X-Guard formation—where both legs create an X around one of the opponent's legs with an inside hook behind the knee and outside leg crossing the hip—to the Single Leg X configuration, where one leg wraps the opponent's ankle while the other foot hooks their hip. This transition occurs naturally when the opponent begins extracting their trapped leg or when the bottom player proactively seeks different sweeping angles and leg entanglement entries.
 

@@ -33,10 +33,32 @@ description: "Complete guide to finishing the Aoki Lock submission from Aoki Loc
 }
 </script>
 
-> **SAFETY**: Aoki Lock from Aoki Lock Control targets the Shoulder joint (glenohumeral complex and rotator cuff). Risk: Shoulder dislocation (glenohumeral subluxation or complete dislocation from excessive rotational force). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Aoki Lock from Aoki Lock Control",
+  "description": "The Aoki Lock from Aoki Lock Control is a leg-entangled shoulder-lock finish in which the attacker drives the hips forward and down to force external rotation on the opponent's isolated glenohumeral joint, submitting without relying on grip strength.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Aoki Lock from Aoki Lock Control is a leg-entangled shoulder-lock finish in which the attacker drives the hips forward and down to force external rotation on the opponent's isolated glenohumeral joint, submitting without relying on grip strength.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (glenohumeral complex and rotator cuff)</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Aoki Lock from Aoki Lock Control targets the Shoulder joint (glenohumeral complex and rotator cuff). Primary risk: Shoulder dislocation (glenohumeral subluxation or complete dislocation from excessive rotational force). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,51 +75,7 @@ From the Aoki Lock position, the attacker has already secured the critical leg e
 
 Strategically, this finish carries a 50% overall success rate reflecting the strong positional control offset by the technical precision required for safe application. When defended, the attacker retains positional advantage and can flow to back control, crucifix, or truck positions, making the Aoki Lock a versatile offensive hub rather than a single-dimension attack.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (glenohumeral complex and rotator cuff)
-**Starting Position**: [[Positions/Aoki Lock Control]]
-**From Position**: [[Positions/Aoki Lock Control]] (Top)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Shoulder dislocation (glenohumeral subluxation or complete dislocation from excessive rotational force) | CRITICAL | 3-6 months, may require surgical repair and extensive rehabilitation |
-| Rotator cuff tear (partial or complete tear of supraspinatus, infraspinatus, or subscapularis tendons) | High | 2-6 months, surgery required for complete tears |
-| Glenoid labrum tear from excessive rotational force on shoulder capsule | High | 3-6 months, often requires arthroscopic surgery |
-| Shoulder capsule sprain (stretching or tearing of glenohumeral ligaments) | Medium | 2-8 weeks with rest and rehabilitation |
-
-
-**Application Speed**: SLOW and PROGRESSIVE. Apply pressure gradually over 3-5 seconds minimum using controlled hip drive. Never jerk, spike, or explosively apply rotational force to the shoulder joint. Allow adequate time for partner to recognize danger and tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress signal)
-- Physical hand tap on partner, mat, or any available surface
-- Physical foot tap on mat with free leg
-- Any unusual screaming, groaning, or distress vocalization
-
-
-**Release Protocol**:
-1. Release leg entanglement pressure immediately upon any tap signal without question or hesitation
-2. If in doubt whether partner tapped, release immediately and ask before continuing
-3. After release, allow opponent's shoulder to return to neutral position naturally without forcing it
-4. Monitor partner for shoulder injury after release — check mobility, pain level, and range of motion before continuing
-
-
-**Training Restrictions**:
-- Practice finishing pressure only with experienced partners who understand shoulder lock risks and mechanics
-- Never apply full finishing pressure speed in training — always use slow progressive application even when drilling at speed
-- Beginners should not attempt this finish until they have demonstrated shoulder lock safety awareness under qualified instruction
-- Do not apply this submission to partners with pre-existing shoulder injuries or recent shoulder surgery
-
+**Starting Position**: [[Positions/Aoki Lock Control]] · **From**: [[Positions/Aoki Lock Control]] (Top)
 
 </section>
 
@@ -261,39 +239,57 @@ Strategically, this finish carries a 50% overall success rate reflecting the str
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
 - [[Submissions/Monoplata]]
 - [[Positions/Half Guard/Electric Chair]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Aoki Lock Control]] - Starting control position for this finish
 - [[Positions/Omoplata Control]] - Similar shoulder lock control mechanics with different leg configuration
 - [[Positions/Back Control]] - Primary transition target when finish is defended
-- [[Transitions/Aoki Lock]] - Generic finishing technique across all entry positions
 - [[Positions/Kimura Trap]] - Related shoulder lock control system with grip-based isolation
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Aoki Lock from Aoki Lock Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Shoulder dislocation (glenohumeral subluxation or complete dislocation from excessive rotational force) | CRITICAL | 3-6 months, may require surgical repair and extensive rehabilitation |
+| Rotator cuff tear (partial or complete tear of supraspinatus, infraspinatus, or subscapularis tendons) | High | 2-6 months, surgery required for complete tears |
+| Glenoid labrum tear from excessive rotational force on shoulder capsule | High | 3-6 months, often requires arthroscopic surgery |
+| Shoulder capsule sprain (stretching or tearing of glenohumeral ligaments) | Medium | 2-8 weeks with rest and rehabilitation |
+
+
+**Application Speed**: SLOW and PROGRESSIVE. Apply pressure gradually over 3-5 seconds minimum using controlled hip drive. Never jerk, spike, or explosively apply rotational force to the shoulder joint. Allow adequate time for partner to recognize danger and tap.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress signal)
+- Physical hand tap on partner, mat, or any available surface
+- Physical foot tap on mat with free leg
+- Any unusual screaming, groaning, or distress vocalization
+
+
+**Release Protocol**:
+1. Release leg entanglement pressure immediately upon any tap signal without question or hesitation
+2. If in doubt whether partner tapped, release immediately and ask before continuing
+3. After release, allow opponent's shoulder to return to neutral position naturally without forcing it
+4. Monitor partner for shoulder injury after release — check mobility, pain level, and range of motion before continuing
+
+
+**Training Restrictions**:
+- Practice finishing pressure only with experienced partners who understand shoulder lock risks and mechanics
+- Never apply full finishing pressure speed in training — always use slow progressive application even when drilling at speed
+- Beginners should not attempt this finish until they have demonstrated shoulder lock safety awareness under qualified instruction
+- Do not apply this submission to partners with pre-existing shoulder injuries or recent shoulder surgery
+
 
 </section>
 

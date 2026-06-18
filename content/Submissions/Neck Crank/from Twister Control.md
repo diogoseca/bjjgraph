@@ -33,10 +33,32 @@ description: "Master the neck crank from Twister Control in BJJ. Learn cervical 
 }
 </script>
 
-> **SAFETY**: Neck Crank from Twister Control targets the Cervical spine and neck muscles. Risk: Cervical disc herniation or vertebral fracture from excessive rotational force. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Neck Crank from Twister Control",
+  "description": "Neck Crank from Twister Control is a no-gi cervical spinal lock that exploits the Twister position's trapped leg and pre-rotated spine, using a chin strap, crossface, or behind-the-head grip to crank the neck for a tap or transition.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**Neck Crank from Twister Control is a no-gi cervical spinal lock that exploits the Twister position's trapped leg and pre-rotated spine, using a chin strap, crossface, or behind-the-head grip to crank the neck for a tap or transition.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Spinal Compression</span>
+<span class="meta-chip">Targets Cervical spine and neck muscles</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Neck Crank from Twister Control targets the Cervical spine and neck muscles. Primary risk: Cervical disc herniation or vertebral fracture from excessive rotational force. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,47 +75,7 @@ The attack works by securing a grip around the opponent's head—typically a chi
 
 From a strategic perspective, the neck crank serves as a high-percentage finishing option within the broader Twister Control attack system. While many practitioners focus exclusively on the classic Twister finish, the neck crank provides a complementary submission that attacks a different angle of the same rotational vulnerability. The technique is particularly effective against opponents who defend the Twister by tucking their far arm, as this defense often exposes the neck to cranking pressure. Training this technique demands rigorous safety protocols due to the cervical spine's vulnerability to rotational force under compressive load.
 
-**Category**: Compression
-**Type**: Spinal Compression
-**Target Area**: Cervical spine and neck muscles
-**Starting Position**: [[Positions/Twister Control]]
-**From Position**: [[Positions/Twister Control]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Cervical disc herniation or vertebral fracture from excessive rotational force | CRITICAL | 3-12 months, may require surgical intervention |
-| Neck muscle strain or ligament sprain from sudden force application | Medium | 2-6 weeks with rest and physical therapy |
-| Cervical nerve compression causing radiating pain or numbness in extremities | High | 4-8 weeks, requires medical evaluation |
-
-
-**Application Speed**: SLOW AND PROGRESSIVE ONLY. Never apply explosive or jerking force to the cervical spine. Increase pressure gradually over several seconds, giving the defender adequate time to recognize danger and tap. The cervical spine provides minimal warning before catastrophic failure.
-
-**Tap Signals**:
-- Physical tap on partner's body, legs, or the mat (minimum two distinct taps)
-- Verbal submission ('tap', 'stop', or any verbal indication of distress)
-- Any sign of distress including grunting, gasping, or going limp—treat as an immediate tap
-
-
-**Release Protocol**:
-1. Release ALL pressure immediately and completely upon any tap signal—do not 'finish the rep'
-2. Gently return the opponent's head to neutral alignment before disengaging the body position
-3. Check on your training partner verbally after every neck crank attempt, even if they did not tap
-
-
-**Training Restrictions**:
-- Prohibited for white and blue belts in most academies; purple belt and above with instructor supervision recommended
-- Never apply full force in training—use controlled progressive pressure at 50-70% intensity maximum
-- Do not drill on partners with pre-existing cervical spine injuries, neck surgery history, or active neck pain
-
+**Starting Position**: [[Positions/Twister Control]] · **From**: [[Positions/Twister Control]] (Top)
 
 </section>
 
@@ -253,39 +235,53 @@ From a strategic perspective, the neck crank serves as a high-percentage finishi
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Banana Split]]
 - [[Submissions/Calf Slicer]]
 - [[Positions/Half Guard/Electric Chair]]
 - [[Submissions/Spine Lock]]
 - [[Positions/Aoki Lock Control]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Twister Control]] - Primary control position from which this submission is executed
 - [[Positions/Twister Control/Truck]] - Variation of Twister Control providing the foundational entry framework
 - [[Positions/Twister Control/Twister Side Control]] - Related control position within the Twister system with alternative neck attack angles
 - [[Positions/Back Control]] - Alternative control position accessible through transition when neck crank fails
-- [[Submissions/Banana Split]] - Complementary submission from the same control position targeting the groin and hips
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Neck Crank from Twister Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Cervical disc herniation or vertebral fracture from excessive rotational force | CRITICAL | 3-12 months, may require surgical intervention |
+| Neck muscle strain or ligament sprain from sudden force application | Medium | 2-6 weeks with rest and physical therapy |
+| Cervical nerve compression causing radiating pain or numbness in extremities | High | 4-8 weeks, requires medical evaluation |
+
+
+**Application Speed**: SLOW AND PROGRESSIVE ONLY. Never apply explosive or jerking force to the cervical spine. Increase pressure gradually over several seconds, giving the defender adequate time to recognize danger and tap. The cervical spine provides minimal warning before catastrophic failure.
+
+**Tap Signals**:
+- Physical tap on partner's body, legs, or the mat (minimum two distinct taps)
+- Verbal submission ('tap', 'stop', or any verbal indication of distress)
+- Any sign of distress including grunting, gasping, or going limp—treat as an immediate tap
+
+
+**Release Protocol**:
+1. Release ALL pressure immediately and completely upon any tap signal—do not 'finish the rep'
+2. Gently return the opponent's head to neutral alignment before disengaging the body position
+3. Check on your training partner verbally after every neck crank attempt, even if they did not tap
+
+
+**Training Restrictions**:
+- Prohibited for white and blue belts in most academies; purple belt and above with instructor supervision recommended
+- Never apply full force in training—use controlled progressive pressure at 50-70% intensity maximum
+- Do not drill on partners with pre-existing cervical spine injuries, neck surgery history, or active neck pain
+
 
 </section>
 

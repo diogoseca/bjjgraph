@@ -34,6 +34,18 @@ description: "Master the armbar from clamp guard in BJJ. Complete guide to conve
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from Clamp Guard",
+  "description": "Armbar from Clamp Guard converts the shin-on-bicep arm isolation of clamp guard into a finishing armbar by swinging the free leg over the opponent's head while retaining wrist control, yielding one of the highest-percentage open-guard submission entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the armbar from clamp guard in BJJ. Complete guide to conve
 </div>
 
 <section id="overview" class="content-section">
+
+**Armbar from Clamp Guard converts the shin-on-bicep arm isolation of clamp guard into a finishing armbar by swinging the free leg over the opponent's head while retaining wrist control, yielding one of the highest-percentage open-guard submission entries.**
 
 The armbar from clamp guard exploits the pre-existing arm isolation that defines the clamp position. Because the shin-on-bicep control already pins the opponent's arm between your legs, the transition to armbar requires extending the existing control mechanism rather than building isolation from scratch. This makes the armbar from clamp guard one of the highest-percentage submission setups available from any open guard variation, as the most difficult component of any armbar attack — separating the arm from the body — has already been accomplished by the guard itself.
 

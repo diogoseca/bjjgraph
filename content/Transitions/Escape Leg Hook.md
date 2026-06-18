@@ -34,6 +34,18 @@ description: "Master the Escape Leg Hook in BJJ. Systematic hip escape and frame
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Leg Hook",
+  "description": "Escape Leg Hook is a methodical guard-recovery sequence from leg-hook bottom that chains defensive frames, incremental hip escapes, and controlled leg extraction to free the trapped leg and restore standard half guard before the top player completes the pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Escape Leg Hook in BJJ. Systematic hip escape and frame
 </div>
 
 <section id="overview" class="content-section">
+
+**Escape Leg Hook is a methodical guard-recovery sequence from leg-hook bottom that chains defensive frames, incremental hip escapes, and controlled leg extraction to free the trapped leg and restore standard half guard before the top player completes the pass.**
 
 The Escape Leg Hook is a methodical guard recovery technique employed when the bottom player is caught in the Leg Hook position, where the top player has threaded their leg underneath or around the bottom player's defending leg during a half guard passing sequence. Unlike the Counter Leg Hook which uses explosive movement to reach turtle, this escape focuses on systematic frame establishment, incremental hip escape, and controlled leg extraction to recover a standard Half Guard position with proper defensive structure intact.
 
@@ -234,8 +248,6 @@ The Escape Leg Hook occupies a critical defensive node in the half guard retenti
 - [[Transitions/Back Door Escape from Half Guard]] - Related escape concept using similar hip movement principles
 
 - [[Positions/Half Guard/Lockdown]] - Alternative leg control position accessible from similar starting configuration
-
-- [[Transitions/Elbow Escape from Flattened Half]] - Related escape technique using comparable hip escape mechanics
 
 - [[Positions/Side Control]] - Worst-case outcome position if escape fails and pass completes
 

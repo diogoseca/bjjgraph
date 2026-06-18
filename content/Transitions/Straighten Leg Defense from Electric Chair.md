@@ -34,6 +34,18 @@ description: "Learn the Straighten Leg Defense from Electric Chair in BJJ. Count
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Straighten Leg Defense from Electric Chair",
+  "description": "The Straighten Leg Defense is the top player's primary escape from the Electric Chair, extending the trapped leg against the lockdown's bending pressure to neutralize the figure-four entanglement and return to half guard top.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn the Straighten Leg Defense from Electric Chair in BJJ. Count
 </div>
 
 <section id="overview" class="content-section">
+
+**The Straighten Leg Defense is the top player's primary escape from the Electric Chair, extending the trapped leg against the lockdown's bending pressure to neutralize the figure-four entanglement and return to half guard top.**
 
 The Straighten Leg Defense from Electric Chair is a fundamental defensive technique used by the top player when caught in the Electric Chair position from lockdown half guard. When the bottom player secures the lockdown and begins splitting the top player's legs apart, the trapped player's most mechanically sound response is to extend and straighten the trapped leg against the lockdown's bending pressure. This extension neutralizes the figure-four configuration that gives the lockdown its power, reduces the crotch-splitting force, and creates the conditions necessary to extract the leg and return to standard half guard top.
 
@@ -219,7 +233,7 @@ The Straighten Leg Defense occupies a critical position in the Electric Chair es
 ## Related Techniques
 
 
-- [[Positions/Half Guard/Electric Chair]] - Source position where this defense is applied against the lockdown split
+- [[Positions/Half Guard/Electric Chair]] - Source position and submission threat this defense is applied against from the lockdown split
 
 - [[Positions/Half Guard]] - Target position after successful defense and leg extraction
 
@@ -230,8 +244,6 @@ The Straighten Leg Defense occupies a critical position in the Electric Chair es
 - [[Transitions/Old School Sweep]] - Primary sweep threat the bottom player can use during the defense attempt
 
 - [[Positions/Half Guard/Deep Half Guard]] - Position the bottom player may transition to if Electric Chair is neutralized
-
-- [[Positions/Half Guard/Electric Chair]] - Submission threat being defended against with this technique
 
 - [[Positions/Twister Control/Truck]] - Position the bottom player may threaten if defense creates transitional openings
 

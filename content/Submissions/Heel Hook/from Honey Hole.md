@@ -33,10 +33,32 @@ description: "Master the heel hook finish from Honey Hole. Step-by-step guide wi
 }
 </script>
 
-> **SAFETY**: Heel Hook from Honey Hole targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Heel Hook from Honey Hole",
+  "description": "The Heel Hook from Honey Hole is a rotational knee submission finished from the inside leg triangle: you cup the exposed heel and rotate it toward the little toe, twisting the knee ligaments while the entanglement blocks the defensive rotation.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Heel Hook from Honey Hole is a rotational knee submission finished from the inside leg triangle: you cup the exposed heel and rotate it toward the little toe, twisting the knee ligaments while the entanglement blocks the defensive rotation.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Heel Hook from Honey Hole targets the Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,60 +75,7 @@ The finishing mechanics involve a specific grip sequence: securing upper body co
 
 This submission is the primary reason Honey Hole is considered one of the most dominant positions in competition. The combination of positional control and direct submission access creates a situation where the defender has extremely limited time to escape before the finish becomes inevitable. The rotational force attacks the ACL, MCL, and LCL simultaneously, making this one of the most dangerous submissions in the sport and demanding strict adherence to safety protocols during training.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity
-**Starting Position**: [[Positions/Ashi Garami/Honey Hole]]
-**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
-| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
-| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
-| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
-| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
-
-
-**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force.
-
-**Tap Signals**:
-- Verbal tap (primary signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap with free leg
-- Any distress vocalization
-- Frantic slapping or waving with hands
-- Leg stiffening or immediate defensive reaction
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon any tap signal
-2. Release heel grip completely before releasing leg entanglement
-3. Slowly unwrap leg configuration while maintaining awareness of opponent's joint
-4. Allow opponent to extract their leg at their own pace
-5. Check with training partner about their knee and ankle status
-6. Report any joint discomfort to instructor immediately, even if minor
-
-
-**Training Restrictions**:
-- NEVER apply sudden or explosive rotational force in training
-- NEVER practice at competition speed with training partners
-- NEVER continue pressure if partner's leg begins rotating with the submission
-- Always allow immediate tap access for both hands
-- Only train with partners who have explicit experience with heel hook defense
-- Prohibited for practitioners below brown belt in most traditional academies
-- Never train heel hooks without instructor supervision during initial learning phases
-- Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg
-
+**Starting Position**: [[Positions/Ashi Garami/Honey Hole]] · **From**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 
 </section>
 
@@ -255,41 +224,67 @@ This submission is the primary reason Honey Hole is considered one of the most d
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Inside Heel Hook]]
 - [[Transitions/Heel Hook]]
-- [[Positions/Aoki Lock Control]]
+- [[Transitions/Aoki Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Transitions/Estima Lock]]
-- [[Submissions/Inside Heel Hook]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Honey Hole]] - Starting position providing inside leg triangle control for heel hook access
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Foundational leg entanglement that precedes full Honey Hole establishment
 - [[Positions/Ashi Garami/Saddle]] - Alternative terminology for the Honey Hole position configuration
 - [[Positions/Ashi Garami/50-50 Guard]] - Common escape destination for the defender via counter-entanglement
-- [[Submissions/Inside Heel Hook]] - Related inside heel hook finish from the same positional family
 - [[Positions/Leg Entanglement]] - Conceptual framework governing all leg lock positions and transitions
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Heel Hook from Honey Hole leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 6-12 months with surgical reconstruction, extensive rehabilitation |
+| MCL/LCL tear (medial/lateral collateral ligament damage) | CRITICAL | 3-6 months for grade 3 tears, potential permanent instability |
+| Meniscus tear (cartilage damage in knee joint) | High | 4-8 weeks to 6 months depending on severity and treatment |
+| Ankle ligament damage and joint capsule injury | High | 6-12 weeks, potential chronic instability |
+| Tibial/fibular fracture from extreme rotational force | CRITICAL | 3-6 months, potential permanent mobility issues |
+
+
+**Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum force in training. NEVER apply sudden rotational force.
+
+**Tap Signals**:
+- Verbal tap (primary signal)
+- Physical hand tap on opponent or mat
+- Physical foot tap with free leg
+- Any distress vocalization
+- Frantic slapping or waving with hands
+- Leg stiffening or immediate defensive reaction
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure upon any tap signal
+2. Release heel grip completely before releasing leg entanglement
+3. Slowly unwrap leg configuration while maintaining awareness of opponent's joint
+4. Allow opponent to extract their leg at their own pace
+5. Check with training partner about their knee and ankle status
+6. Report any joint discomfort to instructor immediately, even if minor
+
+
+**Training Restrictions**:
+- NEVER apply sudden or explosive rotational force in training
+- NEVER practice at competition speed with training partners
+- NEVER continue pressure if partner's leg begins rotating with the submission
+- Always allow immediate tap access for both hands
+- Only train with partners who have explicit experience with heel hook defense
+- Prohibited for practitioners below brown belt in most traditional academies
+- Never train heel hooks without instructor supervision during initial learning phases
+- Stop immediately if any popping, clicking, or unusual sensations occur in opponent's leg
+
 
 </section>
 

@@ -34,6 +34,18 @@ description: "Master the mat return from rear clinch in BJJ. Convert standing re
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mat Return from Rear Clinch",
+  "description": "The mat return from rear clinch is a wrestling-based takedown that converts standing rear clinch control into dominant ground back control by sitting the opponent to the mat while maintaining chest-to-back connection and threading hooks during the descent.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the mat return from rear clinch in BJJ. Convert standing re
 
 <section id="overview" class="content-section">
 
-The mat return from rear clinch is a foundational takedown that converts standing rear clinch control into dominant ground back control. By using bodyweight, hip positioning, and directional force to bring a controlled opponent to the mat, the attacker maintains chest-to-back connection throughout the descent, preserving the positional advantage earned during the standing phase. This technique bridges standing grappling and ground fighting, serving as the primary method for grapplers and wrestlers to capitalize on rear clinch control without risking position during the transition to the mat.
+**The mat return from rear clinch is a wrestling-based takedown that converts standing rear clinch control into dominant ground back control by sitting the opponent to the mat while maintaining chest-to-back connection and threading hooks during the descent.**
+
+Borrowed from folkstyle and freestyle wrestling and adapted for the back-attack-centric grappling of modern jiu-jitsu, the mat return is the connective tissue between standing clinch dominance and the ground game. By using bodyweight, hip positioning, and directional force to bring a controlled opponent to the mat, the attacker maintains chest-to-back connection throughout the descent, preserving the positional advantage earned during the standing phase. This technique bridges standing grappling and ground fighting, serving as the primary method for grapplers and wrestlers to capitalize on rear clinch control without risking position during the transition to the mat.
 
 The mat return operates on the principle of controlled descent rather than explosive throwing. Unlike trips or throws that momentarily separate the attacker from the opponent, the mat return keeps constant pressure through the bodylock or seatbelt grip, ensuring hooks can be inserted immediately upon grounding. The technique demands precise hip placement to one side of the opponent, coordinated leg action to compromise their base, and upper body control that prevents them from posting or turning during the fall. When executed correctly, the attacker lands in back control with hooks already in position, bypassing the often-contested transition from standing to ground entirely.
 

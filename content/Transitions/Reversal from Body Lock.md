@@ -34,6 +34,18 @@ description: "Master the Reversal from Body Lock in BJJ. Systematic guide coveri
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reversal from Body Lock",
+  "description": "The Reversal from Body Lock is a defensive standing transition where the bottom player breaks the opponent's locked grip, rotates their hips, and inserts a knee to recover half guard, escaping an otherwise dominant clinch control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Reversal from Body Lock in BJJ. Systematic guide coveri
 </div>
 
 <section id="overview" class="content-section">
+
+**The Reversal from Body Lock is a defensive standing transition where the bottom player breaks the opponent's locked grip, rotates their hips, and inserts a knee to recover half guard, escaping an otherwise dominant clinch control.**
 
 The Reversal from Body Lock is a critical defensive transition that converts one of grappling's most disadvantageous standing positions into a recoverable ground guard. When an opponent establishes a locked body lock from behind, the bottom player faces immediate threats of mat returns to back control, suplex-style throws, and trips that all lead to dominant ground positions. Rather than passively absorbing these attacks, the reversal employs systematic grip breaking, hip repositioning, and controlled descent to recover half guard where the bottom player regains offensive options.
 
@@ -235,7 +249,7 @@ The Reversal from Body Lock occupies a crucial defensive node in the BJJ positio
 
 - [[Transitions/Body Lock Takedown]] - Offensive technique this reversal directly defends against
 
-- [[Transitions/Pull Guard from Standing]] - Alternative defensive option sharing the controlled descent to guard concept
+- [[Transitions/Sitting Guard Pull]] - Alternative defensive option sharing the controlled descent to guard concept
 
 
 </section>

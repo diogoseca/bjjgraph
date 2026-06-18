@@ -34,6 +34,18 @@ description: "Master Rolling Back Take Reversal from body triangle defense. Coun
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rolling Back Take Reversal",
+  "description": "The Rolling Back Take Reversal is an escape from a body triangle in which the trapped defender controls the choking arm, creates a hip angle, and rolls over their own shoulder to reverse the position and take their opponent's back.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Rolling Back Take Reversal from body triangle defense. Coun
 </div>
 
 <section id="overview" class="content-section">
+
+**The Rolling Back Take Reversal is an escape from a body triangle in which the trapped defender controls the choking arm, creates a hip angle, and rolls over their own shoulder to reverse the position and take their opponent's back.**
 
 The Rolling Back Take Reversal is an advanced escape technique used when trapped in an opponent's body triangle from the defensive (top) position. Rather than fighting the crushing pressure of the triangle lock directly, this technique uses momentum and rotation to reverse the position entirely, ending with you taking back control of your opponent. The technique exploits the inherent commitment of the body triangle - once locked, your opponent cannot easily disengage their legs, making them vulnerable to being carried through a rolling motion.
 

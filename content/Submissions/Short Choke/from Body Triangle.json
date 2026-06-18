@@ -1,5 +1,6 @@
 {
   "name": "Short Choke from Body Triangle",
+  "summary": "The short choke from body triangle is a high-percentage gi blood choke from back control in which the attacker feeds the opponent's own lapel diagonally across both carotid arteries while a figure-four leg lock restricts breathing and prevents escape.",
   "description": "Master the short choke from body triangle in BJJ. Learn lapel feeding mechanics, grip positioning, and finishing details for this high-percentage gi choke.",
   "tags": [
     "bjj",
@@ -18,7 +19,7 @@
   "starting_position": "Body Triangle",
   "from_position": "Body Triangle/Bottom",
   "success_rate": 58,
-  "overview": "The short choke from body triangle combines one of the most secure controlling positions in Brazilian Jiu-Jitsu with a high-percentage lapel choke that attacks both carotid arteries simultaneously. From the body triangle, the attacker has their legs locked in a figure-four configuration around the opponent's torso, creating constant pressure that restricts breathing and prevents the hip movement necessary for most back escapes. This immobilizing platform frees both hands to systematically work the lapel across the opponent's neck without concern for positional maintenance.\n\nThe mechanics of this choke rely on feeding the opponent's own gi lapel across their throat in a diagonal line that crosses both carotid arteries. The body triangle serves as a force multiplier—the constant ribcage compression creates physiological urgency that divides the defender's attention between breathing management and choke defense. Most opponents cannot simultaneously address the lapel feed and the breathing restriction, creating a persistent offensive advantage that compounds over time.\n\nWhat distinguishes this variant from other short choke entries is the stability of the body triangle platform. Standard back control with hooks requires ongoing positional adjustment that can interrupt choke setups, while the body triangle provides a mechanical lock that grows tighter as the opponent struggles. The combination of breathing restriction from the legs and blood flow restriction from the lapel creates dual pressure that accelerates the finish timeline significantly.",
+  "overview": "Sitting at the apex of the back-attack hierarchy, this finish is what elite back players turn to when they want to convert positional dominance into a tap without ever surrendering control of the back. From the body triangle, the attacker has their legs locked in a figure-four configuration around the opponent's torso, creating constant pressure that restricts breathing and prevents the hip movement necessary for most back escapes. This immobilizing platform frees both hands to systematically work the lapel across the opponent's neck without concern for positional maintenance.\n\nThe mechanics of this choke rely on feeding the opponent's own gi lapel across their throat in a diagonal line that crosses both carotid arteries. The body triangle serves as a force multiplier—the constant ribcage compression creates physiological urgency that divides the defender's attention between breathing management and choke defense. Most opponents cannot simultaneously address the lapel feed and the breathing restriction, creating a persistent offensive advantage that compounds over time.\n\nWhat distinguishes this variant from other short choke entries is the stability of the body triangle platform. Standard back control with hooks requires ongoing positional adjustment that can interrupt choke setups, while the body triangle provides a mechanical lock that grows tighter as the opponent struggles. The combination of breathing restriction from the legs and blood flow restriction from the lapel creates dual pressure that accelerates the finish timeline significantly.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -131,7 +132,7 @@
     }
   ],
   "attacker": {
-    "name": "from Body Triangle Attacker",
+    "name": "Short Choke from Body Triangle Attacker",
     "description": "Complete attacking guide for the short choke from body triangle. Step-by-step lapel feeding, grip mechanics, finishing sequences, and counters to common defensive responses.",
     "overview": "Executing the short choke from body triangle requires patient lapel manipulation from the most mechanically secure back control variant in BJJ. The body triangle eliminates positional maintenance concerns entirely, freeing both hands for systematic grip work on the collar and lapel. Your tactical advantage is a dual pressure system where legs compress the ribcage while arms constrict the carotid arteries, forcing the defender into an unsolvable dilemma between breathing defense and choke defense. The lapel feed must be precise—work the material diagonally across the throat, seating it in the grooves alongside the trachea where the carotid arteries run closest to the surface. Timing the choke finish with a body triangle squeeze creates compounding pressure that dramatically shortens the window to unconsciousness, making this one of the most reliable gi finishes from back control.",
     "key_principles": [
@@ -321,7 +322,7 @@
     ]
   },
   "defender": {
-    "name": "from Body Triangle Defender",
+    "name": "Short Choke from Body Triangle Defender",
     "description": "Complete defense guide against the short choke from body triangle. Recognition cues, grip prevention, escape sequences, and survival strategies under dual pressure.",
     "overview": "Defending the short choke from body triangle presents a layered challenge that combines breathing restriction from the locked leg configuration with arterial compression from the lapel choke. Your defensive priorities must be immediate and sequential: protect the neck by blocking lapel access with chin positioning and active hand fighting, manage breathing under ribcage compression through controlled shallow breaths, and work systematically toward clearing the body triangle to create escape opportunities. Time works decisively against you in this position because the dual pressure systems compound—the longer you remain trapped, the less energy and oxygen you have available to execute escape sequences. Early recognition of the lapel feed setup and immediate defensive action before the grip is established are essential for survival. Once the cross-grip is locked in with the lapel seated across both carotid arteries, your window to escape closes rapidly.",
     "key_principles": [

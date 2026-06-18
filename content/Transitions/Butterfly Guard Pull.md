@@ -34,6 +34,18 @@ description: "Master the Butterfly Guard Pull in BJJ. Step-by-step guide to grip
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Guard Pull",
+  "description": "The Butterfly Guard Pull is a standing-to-ground transition where the bottom player sits directly into butterfly guard, inserting both hooks under the opponent's thighs during the descent to land in an immediate offensive sweeping platform rather than a passive guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Butterfly Guard Pull in BJJ. Step-by-step guide to grip
 
 <section id="overview" class="content-section">
 
-The Butterfly Guard Pull is a tactical transition from standing position directly into butterfly guard, bypassing the generic open guard phase to immediately establish hooks and an offensive sweeping platform. Unlike standard guard pulls that land in closed guard or seated guard, the butterfly guard pull places you in a position with immediate sweeping capability, making it a preferred choice for guard players who want to dictate the pace from the moment ground engagement begins.
+**The Butterfly Guard Pull is a standing-to-ground transition where the bottom player sits directly into butterfly guard, inserting both hooks under the opponent's thighs during the descent to land in an immediate offensive sweeping platform rather than a passive guard.**
+
+Within the family of guard-pulling entries, the butterfly guard pull is the choice of aggressive bottom players who treat the descent to the ground as the opening move of an attack rather than a retreat. Unlike standard guard pulls that land in closed guard or seated guard, it places you in a position with immediate sweeping capability, making it a preferred choice for guard players who want to dictate the pace from the moment ground engagement begins.
 
 This technique requires precise timing and grip management to ensure both hooks insert cleanly as you sit. The pull must be executed with purpose — sitting to butterfly guard without proper grips or hook placement results in an easily passed open guard. The key is to coordinate upper body connection (collar and sleeve in gi, or collar tie and wrist control in no-gi) with the simultaneous insertion of both feet as hooks under the opponent's thighs during the descent.
 

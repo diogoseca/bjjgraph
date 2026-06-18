@@ -34,6 +34,18 @@ description: "Master Toe Hold Control position in BJJ. Strategic guide covering 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toe Hold Control",
+  "description": "Toe Hold Control is a leg entanglement position where the attacker figure-fours and isolates the opponent's foot to apply rotational pressure on the ankle, threatening a toe hold finish while chaining to other leg locks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Toe Hold Control position in BJJ. Strategic guide covering 
 </div>
 
 <section id="overview" class="content-section">
+
+**Toe Hold Control is a leg entanglement position where the attacker figure-fours and isolates the opponent's foot to apply rotational pressure on the ankle, threatening a toe hold finish while chaining to other leg locks.**
 
 Toe Hold Control represents a specialized leg entanglement position where rotational pressure is applied to the ankle joint through a figure-four grip configuration, creating one of Brazilian Jiu-Jitsu's most technically demanding submission control scenarios. This position exists at a critical junction in modern leg lock systems, serving as both a legitimate finishing threat and a transitional hub that facilitates movement throughout the leg entanglement hierarchy. The mechanical advantage derives from isolating the opponent's foot while controlling their leg's orientation, allowing the attacking practitioner to generate torque against the ankle's ligamentous structures through precise wrist and forearm positioning.
 
@@ -202,21 +216,23 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ### Available Transitions
 
 
-- **[[Toe Hold from Toe Hold Control/Attacker|Toe Hold from Toe Hold Control]]** (14% of attempts)
+- **[[Toe Hold from Toe Hold Control/Attacker|Toe Hold from Toe Hold Control]]** (13% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (24% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (21% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (14% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (12% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (13% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (12% of attempts)
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (14% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (12% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (12% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (11% of attempts)
 
-- **[[Transitions/Toe Hold to Ashi Garami/Attacker|Toe Hold to Ashi Garami]]** (6% of attempts)
+- **[[Transitions/Toe Hold to Ashi Garami/Attacker|Toe Hold to Ashi Garami]]** (5% of attempts)
 
 - **[[Transitions/Toe Hold to Straight Ankle Lock/Attacker|Toe Hold to Straight Ankle Lock]]** (3% of attempts)
+
+- **[[Kneebar from Toe Hold Control/Attacker|Kneebar from Toe Hold Control]]** (11% of attempts)
 
 
 ### Common Mistakes

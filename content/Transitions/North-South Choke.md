@@ -34,6 +34,18 @@ description: "Master the North-South Choke in BJJ. Devastating blood choke from 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "North-South Choke",
+  "description": "The North-South Choke is a no-gi blood choke applied from North-South top, where the attacker threads a forearm beneath the opponent's chin and drops chest weight to compress both carotid arteries simultaneously for a fast finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,9 +57,11 @@ description: "Master the North-South Choke in BJJ. Devastating blood choke from 
 
 <section id="overview" class="content-section">
 
-The North-South Choke is a devastating blood choke executed from the North-South position, targeting both carotid arteries simultaneously through precise arm positioning and chest pressure. This technique exemplifies the principle of using body weight and structural alignment rather than muscular effort to create submission pressure. The choke becomes available when controlling an opponent from North-South, particularly when they focus on defending arm attacks or attempting to create space.
+**The North-South Choke is a no-gi blood choke applied from North-South top, where the attacker threads a forearm beneath the opponent's chin and drops chest weight to compress both carotid arteries simultaneously for a fast finish.**
 
-Strategically, the North-South Choke serves as a powerful complement to Kimura and Americana attacks from North-South position. When opponents defend these arm locks by keeping their elbows tight and hands connected, they often expose their neck to the choke setup. This creates a potent submission dilemma where defending one attack opens vulnerability to another. The technique is particularly effective in no-gi grappling where the lack of collar grips makes traditional chokes difficult.
+Strategically, this choke turns the crushing top pressure of North-South into a finishing weapon, exemplifying the principle of using body weight and structural alignment rather than muscular effort to create submission pressure. The choke becomes available when controlling an opponent from North-South, particularly when they focus on defending arm attacks or attempting to create space.
+
+The North-South Choke serves as a powerful complement to Kimura and Americana attacks from the North-South position. When opponents defend these arm locks by keeping their elbows tight and hands connected, they often expose their neck to the choke setup. This creates a potent submission dilemma where defending one attack opens vulnerability to another. The technique is particularly effective in no-gi grappling where the lack of collar grips makes traditional chokes difficult.
 
 The key mechanical principle involves threading your choking arm deep under the opponent's neck while your chest drops onto their face, sealing the choke on both sides simultaneously. Unlike collar chokes that can stall or allow breathing, a properly applied North-South Choke produces unconsciousness within seconds due to bilateral carotid compression. This makes it one of the most efficient blood chokes in grappling when executed correctly.
 

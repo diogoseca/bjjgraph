@@ -34,6 +34,18 @@ description: "Master the defensive frame from Side Control in BJJ. Complete guid
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame from Side Control",
+  "description": "Frame from Side Control is a defensive micro-transition where the bottom player wedges forearm-bone frames against the opponent's hip and shoulder to halt consolidation, preserve breathing and hip space, and re-open escape pathways back to neutral side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the defensive frame from Side Control in BJJ. Complete guid
 </div>
 
 <section id="overview" class="content-section">
+
+**Frame from Side Control is a defensive micro-transition where the bottom player wedges forearm-bone frames against the opponent's hip and shoulder to halt consolidation, preserve breathing and hip space, and re-open escape pathways back to neutral side control.**
 
 The Frame from Side Control is the foundational defensive micro-transition that separates competent bottom players from those who get systematically crushed under side pressure. During the consolidation phase, the top player is actively tightening control, settling chest weight, and eliminating space. The bottom player's first and most critical task is establishing skeletal frames using forearm bones against the opponent's hip and shoulder structures. These frames create mechanical barriers that prevent full weight settlement and preserve the breathing space and hip mobility required for subsequent escape sequences.
 

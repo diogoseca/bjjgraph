@@ -33,10 +33,32 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 }
 </script>
 
-> **SAFETY**: Can Opener from Closed Guard targets the Cervical spine and neck muscles. Risk: Cervical spine compression. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Can Opener from Closed Guard",
+  "description": "The Can Opener from Closed Guard is a banned cervical neck crank where the top player clasps both hands behind the trapped opponent's head and curls it forward, compressing the spine to force a guard opening or tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Can Opener from Closed Guard is a banned cervical neck crank where the top player clasps both hands behind the trapped opponent's head and curls it forward, compressing the spine to force a guard opening or tap.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Neck Crank</span>
+<span class="meta-chip">Targets Cervical spine and neck muscles</span>
+<span class="meta-chip">30% success</span>
+</div>
+
+> [!danger] Safety
+> Can Opener from Closed Guard targets the Cervical spine and neck muscles. Primary risk: Cervical spine compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -49,57 +71,7 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 
 The Can Opener is a neck crank technique applied from within an opponent's closed guard, primarily used as a guard-breaking mechanism rather than a finishing submission. The technique involves interlacing fingers behind the opponent's head and driving the forearms into their neck while pulling the head forward and down, creating intense pressure on the cervical spine and neck muscles. This compression submission is banned in most Brazilian Jiu-Jitsu competitions under IBJJF rules and is considered a controversial technique due to its high injury potential. While it can be effective at forcing an opponent to open their guard to relieve pressure, the Can Opener carries significant risks including neck muscle strains, cervical spine compression injuries, and potential disc damage. Modern BJJ practitioners typically learn this technique primarily for defensive purposes - understanding how to recognize and counter it - rather than as an offensive weapon. The technique's effectiveness comes from the mechanical disadvantage created when the defender's own guard restricts their ability to posture away from the pressure. However, higher-level practitioners develop strong defensive responses including grip fighting, posture control, and guard adjustments that significantly reduce the Can Opener's success rate. Understanding this technique is essential for comprehensive grappling education, but its application should be severely restricted or avoided entirely in training environments.
 
-**Category**: Compression
-**Type**: Neck Crank
-**Target Area**: Cervical spine and neck muscles
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Top)
-**Success Rate**: 30%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Cervical spine compression | CRITICAL | 4-12 weeks or permanent damage |
-| Neck muscle strain | High | 2-6 weeks |
-| Intervertebral disc herniation | CRITICAL | 3-6 months or surgical intervention required |
-| Cervical ligament damage | High | 6-12 weeks |
-
-
-**Application Speed**: SHOULD NOT BE APPLIED - This technique is banned in most competitions and carries unacceptable injury risk. If demonstrated for educational purposes only: EXTREMELY SLOW - 7-10 seconds minimum with constant partner communication
-
-**Tap Signals**:
-- Verbal tap (primary due to restricted movement)
-- Physical hand tap on opponent's body
-- Physical foot tap on ground
-- Any distress signal including verbal stop command
-- Immediate cessation if partner shows any neck pain signs
-
-
-**Release Protocol**:
-1. Immediately remove all pressure from neck by releasing hand clasp
-2. Simultaneously posture upward to remove forearm pressure from throat
-3. Allow partner to slowly extend neck naturally without assistance
-4. Check for neck pain, dizziness, or numbness before continuing
-5. Wait minimum 2-3 minutes before resuming any activity
-6. If any pain persists beyond 5 minutes, stop training and seek medical evaluation
-
-
-**Training Restrictions**:
-- NEVER apply this technique in live training or competition where banned
-- NEVER use this as a primary guard-breaking method - safer alternatives exist
-- NEVER apply to training partners with pre-existing neck injuries
-- NEVER apply sudden or jerking pressure to the neck
-- NEVER continue pressure after partner indicates discomfort
-- Only demonstrate with cooperative partner for educational awareness
-- Always prioritize learning legal and safer guard-breaking alternatives
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Top)
 
 </section>
 
@@ -268,10 +240,9 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Guillotine Choke]]
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
@@ -280,35 +251,58 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 - [[Submissions/Ezekiel Choke]]
 - [[Transitions/North-South Choke]]
 - [[Submissions/Cross Collar Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Closed Guard]] - Primary position where Can Opener is attempted as guard-breaking mechanism
-- [[Transitions/Guillotine Choke]] - Legal alternative submission attack from similar hand positioning that targets safely
 - [[Positions/Half Guard]] - Alternative position where Can Opener variation can be attempted with similar risks
 - [[Positions/Butterfly Guard]] - Open guard position defender may transition to when opening guard to escape Can Opener
 - [[Positions/Turtle]] - Position defender may transition to when escaping Can Opener attempt
 - [[Positions/Combat Base]] - Proper posture position for guard passing that prevents dangerous neck attack setups
 - [[Positions/Open Guard]] - Alternative guard position defender transitions to when voluntarily opening guard
 - [[Positions/De La Riva Guard]] - Open guard option for defender after escaping Can Opener pressure
-- [[Transitions/Darce Choke]] - Legal neck attack alternative that uses blood choke mechanics rather than spinal compression
-- [[Transitions/Anaconda Choke]] - Legal neck attack alternative focusing on carotid compression rather than cervical pressure
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Can Opener from Closed Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Cervical spine compression | CRITICAL | 4-12 weeks or permanent damage |
+| Neck muscle strain | High | 2-6 weeks |
+| Intervertebral disc herniation | CRITICAL | 3-6 months or surgical intervention required |
+| Cervical ligament damage | High | 6-12 weeks |
+
+
+**Application Speed**: SHOULD NOT BE APPLIED - This technique is banned in most competitions and carries unacceptable injury risk. If demonstrated for educational purposes only: EXTREMELY SLOW - 7-10 seconds minimum with constant partner communication
+
+**Tap Signals**:
+- Verbal tap (primary due to restricted movement)
+- Physical hand tap on opponent's body
+- Physical foot tap on ground
+- Any distress signal including verbal stop command
+- Immediate cessation if partner shows any neck pain signs
+
+
+**Release Protocol**:
+1. Immediately remove all pressure from neck by releasing hand clasp
+2. Simultaneously posture upward to remove forearm pressure from throat
+3. Allow partner to slowly extend neck naturally without assistance
+4. Check for neck pain, dizziness, or numbness before continuing
+5. Wait minimum 2-3 minutes before resuming any activity
+6. If any pain persists beyond 5 minutes, stop training and seek medical evaluation
+
+
+**Training Restrictions**:
+- NEVER apply this technique in live training or competition where banned
+- NEVER use this as a primary guard-breaking method - safer alternatives exist
+- NEVER apply to training partners with pre-existing neck injuries
+- NEVER apply sudden or jerking pressure to the neck
+- NEVER continue pressure after partner indicates discomfort
+- Only demonstrate with cooperative partner for educational awareness
+- Always prioritize learning legal and safer guard-breaking alternatives
+
 
 </section>
 

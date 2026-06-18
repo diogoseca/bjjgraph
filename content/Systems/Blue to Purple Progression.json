@@ -11,6 +11,7 @@
   ],
   "system_type": "Training Methodology",
   "difficulty_level": "Intermediate",
+  "summary": "The Blue to Purple Progression is a 2-4 year developmental framework that transforms reactive blue belts into proactive purple belts by building specialized guard systems, systematic passing, connected submission chains, and a competition-tested strategic identity.",
   "overview": "The Blue to Purple Belt Progression represents a critical transition in the Brazilian Jiu-Jitsu journey where practitioners move from foundational survival skills to developing coherent offensive and defensive systems. This progression typically requires 2-4 years of consistent training and marks the shift from reactive defense to proactive game planning. At this stage, practitioners must demonstrate technical proficiency across all major positions, develop signature sequences that work against resisting opponents, and show the ability to chain techniques together fluidly. The purple belt represents functional competence - the ability to impose your game on training partners while defending effectively against most attacks. This system provides a structured framework for blue belts to identify technical gaps, develop strategic depth, and prepare for the increased expectations of purple belt performance. Success at this level requires not just accumulating techniques, but understanding how to connect positions, recognize patterns, and execute plans under pressure.",
   "key_principles": [
     "Positional mastery across all major positions with ability to maintain control and escape efficiently",
@@ -266,29 +267,9 @@
       "relationship": "Highest-value position in BJJ requiring systematic approach to achieve and maintain against defensive efforts"
     },
     {
-      "name": "Side Control",
-      "content_type": "Position",
-      "relationship": "Fundamental top position for developing pressure passing and transitional control skills"
-    },
-    {
-      "name": "X-Guard",
-      "content_type": "Position",
-      "relationship": "Advanced guard system providing technical sweeps and transitions valuable for purple belt development"
-    },
-    {
       "name": "Knee on Belly",
       "content_type": "Position",
       "relationship": "Transitional control position useful for maintaining top pressure while setting up submissions"
-    },
-    {
-      "name": "Hip Bump Sweep",
-      "content_type": "Transition",
-      "relationship": "Fundamental closed guard sweep teaching timing and opponent reaction principles"
-    },
-    {
-      "name": "Scissor Sweep",
-      "content_type": "Transition",
-      "relationship": "High-percentage closed guard sweep requiring proper angle creation and base disruption"
     },
     {
       "name": "Butterfly Sweep",
@@ -296,9 +277,19 @@
       "relationship": "Essential elevation sweep demonstrating hook usage and elevation mechanics"
     },
     {
-      "name": "Kimura to Back Take",
+      "name": "Arm Drag",
       "content_type": "Transition",
-      "relationship": "Critical connection showing how submission threats create positional advancement opportunities"
+      "relationship": "Fundamental connection teaching off-balancing and angle creation for back-takes and sweeps"
+    },
+    {
+      "name": "Back Take",
+      "content_type": "Transition",
+      "relationship": "Universal back-taking principles applicable from multiple positions and situations"
+    },
+    {
+      "name": "Berimbolo Entry",
+      "content_type": "Transition",
+      "relationship": "Modern open-guard back-take sequence rewarding inversion timing and grip control at purple belt level"
     },
     {
       "name": "Triangle Setup",
@@ -306,29 +297,9 @@
       "relationship": "Fundamental submission entry teaching angle creation and arm isolation from guard"
     },
     {
-      "name": "Knee Slice Pass",
+      "name": "Back Step Pass",
       "content_type": "Transition",
       "relationship": "Systematic guard pass requiring understanding of pressure, base, and guard retention counters"
-    },
-    {
-      "name": "Side Control Escape",
-      "content_type": "Transition",
-      "relationship": "Essential defensive sequence requiring frame creation and hip escape mechanics"
-    },
-    {
-      "name": "Elbow Escape to Guard",
-      "content_type": "Transition",
-      "relationship": "Fundamental escape from mount and side control teaching shrimping and guard recovery"
-    },
-    {
-      "name": "Pass to Side Control",
-      "content_type": "Transition",
-      "relationship": "Generic passing principles applicable across multiple guard types requiring systematic development"
-    },
-    {
-      "name": "Back Take",
-      "content_type": "Transition",
-      "relationship": "Universal back-taking principles applicable from multiple positions and situations"
     },
     {
       "name": "Positional Hierarchy",
@@ -371,6 +342,16 @@
       "relationship": "Systematic approach to defensive positioning and position recovery from bad situations"
     },
     {
+      "name": "Position Chains",
+      "content_type": "Principle",
+      "relationship": "Core concept linking positions into connected sequences that define purple belt game development"
+    },
+    {
+      "name": "Competition Mindset",
+      "content_type": "Principle",
+      "relationship": "Mental framework for managing pressure, executing game plans, and adapting during competitive matches"
+    },
+    {
       "name": "Competition Strategy",
       "content_type": "System",
       "relationship": "Framework for tournament preparation and strategic game planning under competitive pressure"
@@ -379,6 +360,50 @@
       "name": "Roger Gracie Fundamental System",
       "content_type": "System",
       "relationship": "Exemplary model of fundamental mastery and positional dominance appropriate for purple belt study"
+    },
+    {
+      "name": "Kimura Trap System",
+      "content_type": "System",
+      "relationship": "Control-to-submission framework that connects top control to submissions and back-takes for top-game development"
+    },
+    {
+      "name": "Marcelo Garcia Butterfly Guard System",
+      "content_type": "System",
+      "relationship": "Model open-guard system demonstrating chained sweeps and back-takes appropriate for guard specialization"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "How long does the blue to purple belt progression typically take?",
+      "answer": "It typically requires 2-4 years of consistent training, marking the shift from reactive survival skills to proactive game planning with coherent offensive and defensive systems."
+    },
+    {
+      "question": "How many guard systems should a purple belt candidate develop, and what types?",
+      "answer": "Two to three guards played at a high level against resistance — usually one closed guard, one open guard (spider, De La Riva, or butterfly), and one transitional guard (seated, half, or X-guard), each with chained sweeps and submissions."
+    },
+    {
+      "question": "What is the core difference between a blue belt game and a purple belt game?",
+      "answer": "A blue belt reacts and survives with isolated techniques, while a purple belt proactively imposes a coherent game, chaining connected sequences and creating dilemmas where defending one threat opens another."
+    },
+    {
+      "question": "Why are submission chains emphasized over hunting random submissions?",
+      "answer": "Chained submissions create inescapable dilemmas where defending one attack opens another, raising finish rates well above isolated attempts that opponents can simply defend and reset from."
+    },
+    {
+      "question": "What is the most common obstacle blue belts face on the path to purple?",
+      "answer": "Accumulating many isolated techniques without systematic integration, producing a scattered game with no coherent strategy; the fix is building connected sequences from 2-3 specialty positions before expanding."
+    },
+    {
+      "question": "How does competition validate readiness for purple belt promotion?",
+      "answer": "Competing in 3-5 tournaments proves techniques work against fully resisting opponents under pressure, while developing pre-match routines, adrenaline management, and the resilience to execute a game plan rather than revert to survival mode."
+    },
+    {
+      "question": "What role does positional sparring play in purple belt drilling?",
+      "answer": "Spending 20-30 minutes per session starting from specific positions builds depth in targeted scenarios — sweeping from closed guard, escaping side control, or passing a particular guard — through deliberate practice with clear objectives."
+    },
+    {
+      "question": "Why must offensive development be balanced with defense at this level?",
+      "answer": "Overemphasizing offense creates submission vulnerabilities; dedicating time to escape protocols and starting rounds from bad positions like mount or back control builds the defensive competence required for promotion."
     }
   ]
 }

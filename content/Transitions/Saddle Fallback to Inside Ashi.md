@@ -34,6 +34,18 @@ description: "Master the Saddle Fallback to Inside Ashi in BJJ. Learn when and h
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Saddle Fallback to Inside Ashi",
+  "description": "The Saddle Fallback to Inside Ashi is a deliberate positional retreat from a compromised Saddle to the foundational Inside Ashi-Garami, trading the saddle's dominance to preserve leg-entanglement control and sustain the leg-lock attack.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Saddle Fallback to Inside Ashi in BJJ. Learn when and h
 
 <section id="overview" class="content-section">
 
-The Saddle Fallback to Inside Ashi is a deliberate positional retreat from a deteriorating Saddle position to the foundational Inside Ashi-Garami entanglement. When an opponent successfully disrupts saddle control through frame establishment, hip clearing, or heel extraction, the practitioner faces a binary choice: fight to maintain a collapsing position and risk losing all leg entanglement, or strategically withdraw to a sustainable attacking platform. This transition prioritizes the latter, embodying the principle that any leg entanglement is exponentially better than no entanglement at all.
+**The Saddle Fallback to Inside Ashi is a deliberate positional retreat from a compromised Saddle to the foundational Inside Ashi-Garami, trading the saddle's dominance to preserve leg-entanglement control and sustain the leg-lock attack.**
+
+Within modern leg lock systems, the resilience of an attacking game is defined less by the dominant positions it can reach than by what happens when those positions are defended, and this transition is the canonical example. When an opponent successfully disrupts saddle control through frame establishment, hip clearing, or heel extraction, the practitioner faces a binary choice: fight to maintain a collapsing position and risk losing all leg entanglement, or strategically withdraw to a sustainable attacking platform. This transition prioritizes the latter, embodying the principle that any leg entanglement is exponentially better than no entanglement at all.
 
 The mechanical execution centers on releasing the deeper saddle leg configuration while simultaneously preserving ankle or heel grip continuity and establishing the simpler but still threatening inside ashi structure. The critical challenge is sequencing: the practitioner must secure a transitional grip on the opponent's foot before releasing saddle controls, then establish the inside leg across the hip and outside leg behind the knee in rapid succession. Any gap in this sequence creates a window where the opponent can extract their leg entirely. Timing recognition is equally important—the fallback must be initiated when saddle is compromised but before all control elements have failed.
 

@@ -33,10 +33,32 @@ description: "Master the Cross Collar Choke from Modified Mount. Learn grip plac
 }
 </script>
 
-> **SAFETY**: Cross Collar Choke from Modified Mount targets the Carotid arteries. Risk: Carotid artery compression leading to temporary loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Cross Collar Choke from Modified Mount",
+  "description": "The Cross Collar Choke from Modified Mount is a gi blood choke in which the attacker uses Modified Mount's posted-leg stability to feed both hands deep into opposing collars, crossing the forearms to compress both carotid arteries simultaneously.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Cross Collar Choke from Modified Mount is a gi blood choke in which the attacker uses Modified Mount's posted-leg stability to feed both hands deep into opposing collars, crossing the forearms to compress both carotid arteries simultaneously.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Cross Collar Choke from Modified Mount targets the Carotid arteries. Primary risk: Carotid artery compression leading to temporary loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -51,51 +73,7 @@ The Cross Collar Choke from Modified Mount exploits the asymmetric base of Modif
 
 From a strategic standpoint, this choke functions as a high-percentage finishing option when the defender commits to keeping their arms tight against armbar threats from Modified Mount. By threatening the collar choke, the attacker creates a dilemma: defend the choke by bringing hands up, which exposes the arms to isolation and armbar attacks, or keep arms tight and absorb increasing choke pressure. The finishing mechanics require patience and grip depth rather than explosive force, making this a technically rewarding submission that rewards methodical practitioners who understand collar grip penetration and the biomechanics of bilateral carotid compression from an asymmetric platform.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries
-**Starting Position**: [[Positions/Mount/Modified Mount]]
-**From Position**: [[Positions/Mount/Modified Mount]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to temporary loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held past unconsciousness |
-| Trachea damage from improper hand placement targeting the windpipe instead of carotids | Medium | 1-2 weeks for minor irritation; months for severe damage |
-| Neck strain or whiplash from defensive reactions against the choke | Low | 3-7 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal signal)
-- Physical hand tap on partner's body or mat
-- Physical foot tap on mat or partner
-- Any distress signal including facial expressions or loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release both collar grips upon tap signal
-2. Open guard or disengage controlling position
-3. Allow partner space to recover breathing and circulation
-4. Check partner's alertness and ensure full recovery before continuing
-
-
-**Training Restrictions**:
-- Never apply full pressure during initial learning phases
-- Never hold the choke past the tap signal under any circumstances
-- Never use competition speed or intensity in basic drilling
-- Never practice on partners with neck or circulation issues without instructor supervision
-- Always ensure partner has clear access to tap with hands or feet
-
+**Starting Position**: [[Positions/Mount/Modified Mount]] · **From**: [[Positions/Mount/Modified Mount]] (Top)
 
 </section>
 
@@ -256,39 +234,58 @@ From a strategic standpoint, this choke functions as a high-percentage finishing
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Submissions/Americana]]
 - [[Submissions/Bow and Arrow Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/Modified Mount]] - Starting position providing asymmetric base for collar grip work
 - [[Positions/Mount]] - Parent position from which Modified Mount is established
 - [[Positions/Mount/High Mount]] - Alternative mount variation for collar choke attacks with different angle
 - [[Positions/Armbar Control]] - Primary submission alternative when defender opens arms to defend choke
 - [[Positions/Mount/S Mount]] - Transition target when defender shells up against choke pressure
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Cross Collar Choke from Modified Mount leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to temporary loss of consciousness | High | Immediate recovery if released promptly; potential for serious injury if held past unconsciousness |
+| Trachea damage from improper hand placement targeting the windpipe instead of carotids | Medium | 1-2 weeks for minor irritation; months for severe damage |
+| Neck strain or whiplash from defensive reactions against the choke | Low | 3-7 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum application time in training
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal signal)
+- Physical hand tap on partner's body or mat
+- Physical foot tap on mat or partner
+- Any distress signal including facial expressions or loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release both collar grips upon tap signal
+2. Open guard or disengage controlling position
+3. Allow partner space to recover breathing and circulation
+4. Check partner's alertness and ensure full recovery before continuing
+
+
+**Training Restrictions**:
+- Never apply full pressure during initial learning phases
+- Never hold the choke past the tap signal under any circumstances
+- Never use competition speed or intensity in basic drilling
+- Never practice on partners with neck or circulation issues without instructor supervision
+- Always ensure partner has clear access to tap with hands or feet
+
 
 </section>
 

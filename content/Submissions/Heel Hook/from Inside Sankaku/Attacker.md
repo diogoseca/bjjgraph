@@ -143,6 +143,11 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
     "@type": "WebSite",
     "name": "BJJ Graph",
     "url": "https://bjjgraph.org"
+  },
+  "mainEntityOfPage": {
+    "@type": "CollectionPage",
+    "name": "Heel Hook",
+    "url": "https://bjjgraph.org/Families/heel-hook"
   }
 }
 </script>
@@ -184,6 +189,9 @@ description: "Learn to attack with the heel hook from Inside Sankaku. Step-by-st
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="part-of-family"><em>Part of the</em> <strong>Heel Hook</strong> <em>family</em></p>
+</aside>
 <section id="overview" class="content-section">
 
 Attacking the heel hook from Inside Sankaku demands systematic positional development before committing to the finish. The attacker must establish the figure-four leg entanglement, secure hip-to-hip connection, dominate the knee line to prevent defensive rotation, and isolate heel exposure before applying the finishing grip. This layered approach creates a near-inescapable submission when properly executed because each control layer removes one of the defender's escape options. The mechanical advantage of the Inside Sankaku configuration means that patient positional establishment followed by decisive finishing produces the highest percentage outcomes, while premature attacks before all layers are secured create windows for skilled opponents to escape or initiate counter leg attacks that neutralize the position.

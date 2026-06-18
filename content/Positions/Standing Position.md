@@ -34,6 +34,18 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Position",
+  "description": "The Standing Position is the neutral, upright starting state of a BJJ match where both grapplers contest grips and balance, choosing between takedown entries and tactical guard pulls to dictate how the fight reaches the ground.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
 </div>
 
 <section id="overview" class="content-section">
+
+**The Standing Position is the neutral, upright starting state of a BJJ match where both grapplers contest grips and balance, choosing between takedown entries and tactical guard pulls to dictate how the fight reaches the ground.**
 
 The Standing Position represents the fundamental neutral starting state in BJJ and grappling competitions. This position is characterized by both practitioners standing upright and engaging through various grips, postures, and movements while seeking advantageous entries to ground exchanges. In competition, this is typically the position where matches begin and can also result from stand-ups or resets. The Standing Position encompasses a wide range of specific scenarios depending on grip configurations, stance, and relative positioning, but generally involves both practitioners seeking to establish dominant grips, create off-balancing opportunities, and set up either takedowns or tactical guard pulls. This position serves as the gateway to all subsequent BJJ exchanges and requires a unique blend of skills that differ from ground-based grappling. Mastery of the standing position involves understanding distance management, timing, grip sequences, footwork patterns, and the ability to transition seamlessly between offensive takedown attempts and defensive sprawls or guard pulls. The strategic depth of this position is often underestimated, yet it determines how the majority of competitive matches begin and can significantly impact the overall flow and outcome of a match.
 
@@ -198,65 +212,71 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (44% of attempts)
+- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (39% of attempts)
 
-- **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (7% of attempts)
+- **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (6% of attempts)
 
-- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (8% of attempts)
+- **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (7% of attempts)
 
-- **[[Transitions/Sprawl/Attacker|Sprawl]]** (7% of attempts)
+- **[[Transitions/Sprawl/Attacker|Sprawl]]** (6% of attempts)
 
-- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (4% of attempts)
+- **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (3% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (4% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (3% of attempts)
 
-- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (4% of attempts)
+- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (3% of attempts)
 
-- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (2% of attempts)
+- **[[Transitions/Ankle Pick/Attacker|Ankle Pick]]** (1% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (2% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (1% of attempts)
 
-- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (2% of attempts)
+- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (1% of attempts)
 
-- **[[Transitions/Jumping Guard/Attacker|Jumping Guard]]** (2% of attempts)
+- **[[Transitions/Jumping Guard/Attacker|Jumping Guard]]** (1% of attempts)
 
-- **[[Transitions/Osoto Gari/Attacker|Osoto Gari]]** (2% of attempts)
+- **[[Transitions/Osoto Gari/Attacker|Osoto Gari]]** (1% of attempts)
 
-- **[[Transitions/Ouchi Gari/Attacker|Ouchi Gari]]** (2% of attempts)
+- **[[Transitions/Ouchi Gari/Attacker|Ouchi Gari]]** (1% of attempts)
 
-- **[[Transitions/Tomoe Nage/Attacker|Tomoe Nage]]** (2% of attempts)
+- **[[Transitions/Tomoe Nage/Attacker|Tomoe Nage]]** (1% of attempts)
 
-- **[[Transitions/Deashi Harai/Attacker|Deashi Harai]]** (1% of attempts)
+- **[[Transitions/Deashi Harai/Attacker|Deashi Harai]]** (2% of attempts)
 
-- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (1% of attempts)
+- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (2% of attempts)
 
-- **[[Transitions/Ippon Seoi Nage/Attacker|Ippon Seoi Nage]]** (1% of attempts)
+- **[[Transitions/Ippon Seoi Nage/Attacker|Ippon Seoi Nage]]** (2% of attempts)
 
-- **[[Transitions/Russian Tie to Back Take/Attacker|Russian Tie to Back Take]]** (1% of attempts)
+- **[[Transitions/Russian Tie to Back Take/Attacker|Russian Tie to Back Take]]** (2% of attempts)
 
-- **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (1% of attempts)
+- **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (2% of attempts)
 
-- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (1% of attempts)
+- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (2% of attempts)
 
-- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (0% of attempts)
+- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (2% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (0% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (1% of attempts)
 
-- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (0% of attempts)
+- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (1% of attempts)
 
-- **[[Transitions/Kosoto Gari/Attacker|Kosoto Gari]]** (0% of attempts)
+- **[[Transitions/Kosoto Gari/Attacker|Kosoto Gari]]** (1% of attempts)
 
-- **[[Transitions/Morote Seoi Nage/Attacker|Morote Seoi Nage]]** (0% of attempts)
+- **[[Transitions/Morote Seoi Nage/Attacker|Morote Seoi Nage]]** (1% of attempts)
 
-- **[[Transitions/Sasae Tsurikomi Ashi/Attacker|Sasae Tsurikomi Ashi]]** (0% of attempts)
+- **[[Transitions/Sasae Tsurikomi Ashi/Attacker|Sasae Tsurikomi Ashi]]** (1% of attempts)
 
-- **[[Transitions/Tai Otoshi/Attacker|Tai Otoshi]]** (0% of attempts)
+- **[[Transitions/Tai Otoshi/Attacker|Tai Otoshi]]** (1% of attempts)
 
 - **[[Submissions/Flying Kneebar/Attacker|Flying Kneebar]]** (1% of attempts)
 
-- **[[Submissions/Reverse Kimura/Attacker|Reverse Kimura]]** (0% of attempts)
+- **[[Submissions/Reverse Kimura/Attacker|Reverse Kimura]]** (1% of attempts)
 
 - **[[Transitions/Single Leg to Back Take/Attacker|Single Leg to Back Take]]** (1% of attempts)
+
+- **[[Flying Kneebar from Standing Position/Attacker|Flying Kneebar from Standing Position]]** (1% of attempts)
+
+- **[[Kimura from Standing/Attacker|Kimura from Standing]]** (1% of attempts)
+
+- **[[Reverse Kimura from Standing Position/Attacker|Reverse Kimura from Standing Position]]** (1% of attempts)
 
 
 ### Common Mistakes

@@ -34,6 +34,18 @@ description: "Master the 50-50 Entry from inverted guards. Step-by-step leg thre
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "50-50 Entry",
+  "description": "The 50-50 Entry is a leg-entanglement transition from inverted or open guard in which you thread your legs around the opponent's single leg while rolling or inverting, locking up the symmetrical 50-50 Guard and its heel-hook attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the 50-50 Entry from inverted guards. Step-by-step leg thre
 </div>
 
 <section id="overview" class="content-section">
+
+**The 50-50 Entry is a leg-entanglement transition from inverted or open guard in which you thread your legs around the opponent's single leg while rolling or inverting, locking up the symmetrical 50-50 Guard and its heel-hook attacks.**
 
 The 50-50 Entry represents one of the most important transitions in modern leg lock systems, allowing practitioners to secure the symmetrical 50-50 Guard from various inverted positions. This technique involves threading your legs around your opponent's leg while inverting or rolling, creating the interlocking leg configuration that defines the 50-50 position. The entry is particularly effective against standing opponents who attempt to disengage from your guard, as your rolling and inverting motion follows their movement while simultaneously establishing leg control.
 

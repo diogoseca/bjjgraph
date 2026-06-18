@@ -22,7 +22,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Hip Escape Mechanics represents the fundamental biomechanical framework for creating space and escaping inferior positions through coordinated hip movement, bridging, and frame utilization. Unlike specific escape techniques, hip escape mechanics is a comprehensive conceptual system that applies across all bottom positions where the practitioner must create distance from the opponent's pressure and control. This concept encompasses the coordinated sequence of bridging to create initial space, framing to maintain separation, hip rotation to generate distance, and leg recovery to reestablish defensive positioning. Hip escape mechanics serves as both the primary escape methodology from pins and mounted positions, and the foundational movement pattern for guard recovery and defensive repositioning. The ability to execute effective hip escapes often determines whether a practitioner remains trapped in inferior positions or successfully recovers to neutral or advantageous states, making it one of the most essential survival skills in BJJ.",
+  "summary": "Hip Escape Mechanics are the coordinated bridge-frame-rotate movement system used to create space from beneath an opponent's pressure, generating the distance and angles needed to recover guard or escape inferior positions.",
+  "overview": "Often the first movement pattern taught to a white belt and one of the last fully mastered by a black belt, hip escape mechanics underpins nearly every defensive sequence in Brazilian Jiu-Jitsu. Unlike a specific escape technique tied to a single position, it is a comprehensive conceptual system that applies across all bottom positions where the practitioner must create distance from the opponent's pressure and control. This concept encompasses the coordinated sequence of bridging to create initial space, framing to maintain separation, hip rotation to generate distance, and leg recovery to reestablish defensive positioning. Hip escape mechanics serves as both the primary escape methodology from pins and mounted positions, and the foundational movement pattern for guard recovery and defensive repositioning. The ability to execute effective hip escapes often determines whether a practitioner remains trapped in inferior positions or successfully recovers to neutral or advantageous states, making it one of the most essential survival skills in BJJ.",
   "key_principles": [
     "Bridge vertically to create initial separation and unweight the hips for movement",
     "Frame against opponent's body to maintain created space and prevent pressure recovery",
@@ -130,9 +131,9 @@
       "description": "Hip escape mechanics feeds into position chains by enabling transitions from inferior to neutral positions, serving as the critical link in defensive position chain sequences."
     },
     {
-      "principle_name": "Transition Management",
-      "relationship_type": "Extension",
-      "description": "Hip escape mechanics creates transitional moments that must be managed effectively, ensuring that space created through escapes converts into improved positioning rather than temporary relief."
+      "principle_name": "Dominant Angles",
+      "relationship_type": "Complementary",
+      "description": "Hip escape mechanics generates the off-centerline angles that define dominant angles, with each successful escape repositioning the practitioner to a more advantageous angular relationship relative to the opponent."
     },
     {
       "principle_name": "Control Point Hierarchy",
@@ -428,6 +429,48 @@
       "name": "Knee on Belly",
       "content_type": "Position",
       "relationship": "Pressure position requiring hip escape mechanics for recovery"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the correct sequence of movements in a complete hip escape?",
+      "answer": "Bridge to unweight the hips and create initial space, frame against the opponent to preserve it, rotate the hips perpendicular to their centerline to generate distance, then recover the legs to rebuild guard."
+    },
+    {
+      "question": "Why must you bridge before rotating your hips during an escape?",
+      "answer": "Bridging momentarily unweights the hips so rotation can generate meaningful distance; rotating under full pressure produces little movement, wastes energy, and lets the opponent simply follow you to maintain control."
+    },
+    {
+      "question": "Should your hips escape toward the opponent's head or toward their legs?",
+      "answer": "Toward the opponent's legs, or perpendicular to their centerline. This creates angles that force them to rotate their whole body to chase you, rather than just shifting pressure to recover control."
+    },
+    {
+      "question": "Why are multiple small hip escapes usually more effective than one large escape?",
+      "answer": "Small incremental escapes are hard to anticipate or counter and accumulate distance progressively while conserving energy, whereas one big movement is easily read and stuffed by a resistant opponent."
+    },
+    {
+      "question": "What role do frames play within hip escape mechanics?",
+      "answer": "Frames are rigid skeletal structures (forearms, shins, knees) that preserve the space created by bridging and rotation; if they collapse, the opponent's pressure recovers unopposed and all progress is lost."
+    },
+    {
+      "question": "When is the best moment to initiate a hip escape against a heavy opponent?",
+      "answer": "During the opponent's weight transitions, when they shift position, adjust grips, or move between control points, because their base is momentarily compromised and far less strength is required to move."
+    },
+    {
+      "question": "What common error causes hard-won space to disappear immediately?",
+      "answer": "Letting the frames collapse during the hip movement, or creating space but failing to recover guard decisively, which allows the opponent to re-pressure before the legs are reinserted."
+    },
+    {
+      "question": "How does hip escape mechanics link defense to offense?",
+      "answer": "The angles and space produced by a successful hip escape often set up sweeps and reversals, so the same mechanics that recover guard can chain directly into offensive kuzushi and attacks."
+    },
+    {
+      "question": "What should you do the instant you have created enough space?",
+      "answer": "Transition immediately from escaping to guard construction by inserting a knee shield or hooks and establishing grips, rather than continuing to shrimp, so the space converts into a stable recovered position."
+    },
+    {
+      "question": "What distinguishes hip escape mechanics from a single position-specific escape technique?",
+      "answer": "It is a transferable bridge-frame-rotate-recover movement system underlying many escapes, not one technique; the same mechanics apply from mount, side control, knee-on-belly, north-south, and more."
     }
   ]
 }

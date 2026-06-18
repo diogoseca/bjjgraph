@@ -1,6 +1,7 @@
 {
   "name": "Inside Heel Hook from Ushiro Ashi-Garami",
   "description": "Master the inside heel hook from ushiro ashi-garami with detailed finishing mechanics, grip adjustments, and safety protocols for this advanced leg lock.",
+  "summary": "The inside heel hook from ushiro ashi-garami is a rotational knee submission that attacks the medial ligaments by cupping and turning an inverted opponent's heel after they spin away to escape a standard ashi-garami entanglement.",
   "tags": [
     "bjj",
     "submission",
@@ -72,9 +73,9 @@
   "related_submissions": [
     "Inside Heel Hook",
     "Heel Hook",
-    "Aoki Lock Control",
-    "Inside Heel Hook",
-    "Estima Lock"
+    "Achilles Lock",
+    "Achilles Lock from Inside Ashi-Garami",
+    "Aoki Lock"
   ],
   "related_content": [
     {
@@ -137,7 +138,7 @@
     }
   ],
   "attacker": {
-    "name": "from Ushiro Ashi-Garami Attacker",
+    "name": "Inside Heel Hook from Ushiro Ashi-Garami Attacker",
     "description": "Learn to attack with the inside heel hook from ushiro ashi-garami. Step-by-step guide covering grip mechanics, finishing details, and counter responses.",
     "overview": "Attacking with the inside heel hook from ushiro ashi-garami requires adapting standard heel hook mechanics to the reversed orientation created by the opponent's inversion escape. The attacker has followed the opponent's rotation and maintained leg entanglement, creating a finishing opportunity from an angle that many defenders do not adequately prepare for. Success depends on quickly establishing proper heel grip placement, positioning hips to generate rotational force along the correct vector, and maintaining entanglement integrity while the opponent attempts to complete their escape. The reversed geometry demands that the attacker adjust their entire finishing sequence rather than applying standard inside heel hook mechanics from an unusual angle.",
     "key_principles": [
@@ -333,7 +334,7 @@
     ]
   },
   "defender": {
-    "name": "from Ushiro Ashi-Garami Defender",
+    "name": "Inside Heel Hook from Ushiro Ashi-Garami Defender",
     "description": "Defend against the inside heel hook from ushiro ashi-garami. Recognition cues, escape sequences, and counter-attack options for dangerous leg lock attacks.",
     "overview": "Defending the inside heel hook from ushiro ashi-garami requires immediate recognition of the threat and a systematic response that prioritizes heel protection above all else. The reversed orientation means that standard heel hook defenses may need angular adjustments, and the defender must understand that their incomplete inversion has left them in a position where the attacker has adapted to follow their rotation. The primary defensive objective is preventing heel exposure while either completing the escape to turtle or establishing a counter-entanglement position. Panicked reactions and explosive movements are the most common causes of injury from this position because they create heel exposure during uncontrolled scrambling.",
     "key_principles": [

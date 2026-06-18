@@ -1,5 +1,6 @@
 {
   "name": "Chin Strap Guillotine",
+  "summary": "The Chin Strap Guillotine is a front-headlock blood choke that cups the opponent's chin in a figure-four grip and drives the shoulder into the back of the neck, scissoring the carotid arteries when standard guillotine grips are unavailable.",
   "description": "Master the Chin Strap Guillotine in BJJ. High-control choke targeting the neck from front headlock positions with figure-four grip and shoulder drive mechanics.",
   "tags": [
     "bjj",
@@ -12,14 +13,13 @@
     "no-gi",
     "advanced-technique"
   ],
-  "is_family": true,
+  "family": "Guillotine",
   "submission_category": "Choke",
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and windpipe",
   "starting_position": "Front Headlock",
   "from_position": "Front Headlock/Top",
   "success_rate": 58,
-  "variant_uniqueness": "Chin-cupping figure-four grip creates dual-action scissoring compression",
   "overview": "The Chin Strap Guillotine is a sophisticated variation of the traditional guillotine choke that involves wrapping the arm around the opponent's head from a front headlock position, with the choking arm passing under the chin and connecting to the bicep of the opposite arm. Unlike the standard guillotine where you secure a guillotine grip, the chin strap variation creates a unique angle of attack by cupping the opponent's chin and pulling it toward your chest while simultaneously driving your shoulder into their neck. This technique is particularly effective when the opponent has good posture defense against traditional guillotines or when they're attempting to pass your guard with their head positioned to one side. The chin strap creates tremendous pressure on both the carotid arteries and the windpipe, making it a high-percentage finishing option from various front headlock scenarios.\n\nThe submission works exceptionally well in no-gi situations where collar grips are unavailable, and it can be applied from standing positions, turtle attacks, or guard pull situations where you've secured front headlock control. The figure-four grip configuration provides superior control compared to standard guillotine clasps, as it allows independent action of both arms - one pulling the chin while the other drives the head forward. This dual-action mechanism creates a scissoring compression that is extremely difficult to defend once fully locked. The chin strap has become a staple in modern front headlock systems, offering a reliable finishing option when traditional guillotine grips are stripped or when the opponent's chin defense prevents standard entries.",
   "safety_considerations": {
     "injury_risks": [
@@ -68,11 +68,26 @@
       "Drill at 30-40% pressure maximum until both partners are comfortable"
     ]
   },
-  "variations": [
+  "outcomes": [
     {
-      "name": "from Front Headlock",
-      "slug": "from-front-headlock",
-      "description": "Primary chin strap entry from top front headlock control"
+      "to": "game-over",
+      "probability": 58,
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Top",
+      "probability": 22,
+      "result": "failure"
+    },
+    {
+      "to": "Guillotine Control/Top",
+      "probability": 8,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 12,
+      "result": "counter"
     }
   ],
   "variations_and_setups": [
@@ -109,50 +124,17 @@
     "North-South"
   ],
   "related_submissions": [
-    {
-      "name": "Guillotine Choke",
-      "relationship": "Parent technique from which the chin strap variation derives"
-    },
-    {
-      "name": "High Elbow Guillotine",
-      "relationship": "Alternative guillotine variation using elevated elbow angle for deeper choke"
-    },
-    {
-      "name": "Arm in Guillotine",
-      "relationship": "Related guillotine variation trapping opponent's arm inside the choke"
-    },
-    {
-      "name": "Ten Finger Guillotine",
-      "relationship": "Alternative grip variation using interlocked fingers for compression"
-    },
-    {
-      "name": "Darce Choke",
-      "relationship": "Alternative front headlock choke when chin strap angle is defended"
-    },
-    {
-      "name": "Anaconda Choke",
-      "relationship": "Alternative arm-in choke from same front headlock position"
-    },
-    {
-      "name": "Rear Naked Choke",
-      "relationship": "Related blood choke sharing similar carotid compression mechanics"
-    },
-    {
-      "name": "Arm Triangle",
-      "relationship": "Alternative head-and-arm choke accessible from similar control positions"
-    },
-    {
-      "name": "Von Flue Choke",
-      "relationship": "Counter-choke opponent may apply if guillotine is held from bottom guard"
-    },
-    {
-      "name": "North-South Choke",
-      "relationship": "Alternative choke if position transitions to north-south control"
-    },
-    {
-      "name": "Brabo Choke",
-      "relationship": "Related gi-based head-and-arm choke from front headlock family"
-    }
+    "Guillotine Choke",
+    "High Elbow Guillotine",
+    "Arm in Guillotine",
+    "Ten Finger Guillotine",
+    "Darce Choke",
+    "Anaconda Choke",
+    "Rear Naked Choke",
+    "Arm Triangle",
+    "Von Flue Choke",
+    "North-South Choke",
+    "Brabo Choke"
   ],
   "related_content": [
     {
@@ -191,5 +173,304 @@
       "name": "Guillotine Control",
       "relationship": "Broader guillotine control position from which chin strap is applied"
     }
-  ]
+  ],
+  "attacker": {
+    "name": "Chin Strap Guillotine Attacker",
+    "description": "Execute the Chin Strap Guillotine in BJJ. Figure-four chin cup, shoulder drive, and rotational finishing mechanics to scissor the carotids from front headlock top control.",
+    "overview": "As the attacker, the Chin Strap Guillotine converts front headlock top control into a high-percentage finish by cupping the opponent's chin in a figure-four and scissoring the carotids between your forearm and your shoulder. Your job is to keep their posture broken and their head below their hips, thread the choking arm under the chin before they can tuck it, then rotate their face away while driving your free-side shoulder into the back of their neck. Unlike a standard guillotine you do not grab your own wrist - the figure-four lets one arm pull the chin while the other drives the head forward, producing the dual-action compression that finishes even posture-savvy opponents, while controlling the near leg denies the technical stand-up.",
+    "key_principles": [
+      "The chin strap is a blood choke first - pull and rotate the chin to close the carotid, never torque the spine as a neck crank.",
+      "The figure-four grip lets each arm work independently: one cups and pulls the chin, the other drives the skull forward into the scissor.",
+      "Shoulder pressure on the back of the neck is the second blade of the scissor - without it you only have half the choke.",
+      "Keep the opponent's head below their hips with posture broken; a posturing opponent unwinds the angle and frees the carotid.",
+      "Control the far shoulder or the near leg so the opponent cannot circle, stand, or walk their hips out of the finishing angle.",
+      "Finish by expanding the chest and bringing the elbows together, using skeletal structure rather than only arm strength."
+    ],
+    "setup_requirements": [
+      "Front headlock control established with the opponent's posture broken forward and head below the hip line.",
+      "The choking arm able to pass under the chin before the opponent buries their chin to their chest.",
+      "Constant chest-to-back connection to deny space and prevent the opponent from standing or creating distance.",
+      "Hips and base positioned to sprawl back, preventing the opponent from driving forward and reversing.",
+      "Awareness of the near leg so you can block or hook it to stop the technical stand-up escape."
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish front headlock and break posture",
+        "description": "From a sprawl, snap-down, or turtle attack, drive your chest into the opponent's upper back and pull their head below their hips, collapsing their posture so the neck is exposed and the spine is flexed forward.",
+        "timing": "Immediately on securing head control"
+      },
+      {
+        "step_number": 2,
+        "action": "Thread the choking arm under the chin",
+        "description": "Pass your choking arm under the opponent's chin so the blade of your forearm crosses the throat, keeping the elbow pointed down and the hand traveling toward the far side of the jaw rather than gripping a wrist.",
+        "timing": "Before they can tuck the chin"
+      },
+      {
+        "step_number": 3,
+        "action": "Cup the chin and lock the figure-four",
+        "description": "Drive the hand up to cup the point of the chin, then connect it to the bicep of your opposite arm, forming a figure-four that lets one arm pull the chin while the other drives the head forward.",
+        "timing": "As soon as the arm clears the chin"
+      },
+      {
+        "step_number": 4,
+        "action": "Drive the shoulder into the back of the neck",
+        "description": "Bring your free-side shoulder down onto the back of the opponent's neck and skull, creating the second vector of the scissor so the carotids are compressed between your forearm and your shoulder line.",
+        "timing": "Simultaneous with locking the figure-four"
+      },
+      {
+        "step_number": 5,
+        "action": "Pull the chin toward your chest and rotate",
+        "description": "Pull the cupped chin toward your sternum while rotating their face away from the choking arm, lengthening the near-side neck and closing the gap on the carotid artery to set a true blood choke.",
+        "timing": "Once both vectors are connected"
+      },
+      {
+        "step_number": 6,
+        "action": "Control the near leg to kill the stand-up",
+        "description": "Block or hook the opponent's near leg with your knee, or step a leg over theirs, so they cannot post a foot and walk their hips out of the finishing angle while you complete the squeeze.",
+        "timing": "Before committing to the final squeeze"
+      },
+      {
+        "step_number": 7,
+        "action": "Close the figure-four and squeeze",
+        "description": "Bring the elbows together, expand the chest, and squeeze the figure-four while maintaining shoulder pressure, applying steady scissoring compression until the tap rather than spiking or cranking the neck.",
+        "timing": "Final finishing phase"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Deep chin tuck and two-on-one hand fight on the choking wrist",
+        "effectiveness": "High",
+        "your_response": "Stop forcing the strap and chain to an arm-in choke (anaconda or darce) or a high-elbow guillotine as their defensive turn exposes the far side.",
+        "targets_outcome": "Front Headlock/Top"
+      },
+      {
+        "counter": "Posture up explosively and swim the near arm to clear the head",
+        "effectiveness": "Medium",
+        "your_response": "Follow them up, re-snap the head below the hips, and re-establish front headlock and chest pressure before they can stand and reverse.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Drive forward into your hips to flatten you and pass the head",
+        "effectiveness": "Medium",
+        "your_response": "Sprawl the hips back and downblock the head to keep the figure-four, or bail safely to standard guillotine control rather than getting reversed.",
+        "targets_outcome": "Guillotine Control/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Cranking the head sideways as a neck crank instead of rotating to close the carotid",
+        "consequence": "Stalls on a pain-compliance crank that strong opponents ride out, and risks injuring the cervical spine",
+        "correction": "Pull the chin toward your chest and rotate the face away from the choking arm to convert it into a true blood choke."
+      },
+      {
+        "error": "Grabbing your own wrist instead of cupping the chin and connecting a figure-four",
+        "consequence": "Loses the independent chin-pull and head-drive action and lets the opponent posture into the grip",
+        "correction": "Cup the point of the chin with the choking hand and connect to the opposite bicep to keep both vectors live."
+      },
+      {
+        "error": "Neglecting shoulder pressure on the back of the neck",
+        "consequence": "Only one blade of the scissor is active, so the choke leaks and the opponent breathes and defends",
+        "correction": "Drop your free-side shoulder onto the back of the skull and neck to complete the scissor before squeezing."
+      },
+      {
+        "error": "Letting the opponent's head rise above their hips during the finish",
+        "consequence": "Restores their posture, unwinds the angle, and frees the carotid so the choke dies",
+        "correction": "Keep chest pressure driving down and re-snap the head below the hips before re-applying the squeeze."
+      },
+      {
+        "error": "Ignoring the legs and allowing a technical stand-up",
+        "consequence": "The opponent stands, walks their hips out, and escapes or reverses you to guard",
+        "correction": "Block or hook the near leg, or step over a leg, to anchor the angle before finishing."
+      },
+      {
+        "error": "Rushing the squeeze with a spiking, explosive crank",
+        "consequence": "Creates serious neck-injury risk and often pops the grip loose before compression sets",
+        "correction": "Apply steady, progressive scissoring pressure and finish for the tap, not a sudden jerk."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Positional Isolation",
+        "focus": "Grip and configuration",
+        "description": "From a static front headlock with a compliant partner, drill threading the chin strap, cupping the chin, and connecting the figure-four until the configuration is automatic."
+      },
+      {
+        "phase": "Mechanics Under Light Resistance",
+        "focus": "Rotation and scissor",
+        "description": "Partner gives 30-40% defensive resistance with chin tucked; practice creating the rotation and shoulder pressure to find the carotid without cranking the neck."
+      },
+      {
+        "phase": "Transition Integration",
+        "focus": "Entries and chaining",
+        "description": "Drill entering the chin strap from sprawls, snap-downs, and turtle attacks, and chaining to anaconda or darce when the chin tuck denies the strap."
+      },
+      {
+        "phase": "Live Finishing",
+        "focus": "Timing and control",
+        "description": "In positional sparring from front headlock, hunt the finish against full defense while controlling the legs and bailing safely to guillotine control or guard when defended."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What anatomical structures does the Chin Strap Guillotine attack to produce the tap?",
+        "answer": "It is primarily a blood choke that compresses the carotid arteries by rotating and lengthening the neck, with secondary pressure on the trachea; cutting carotid blood flow forces the tap or causes unconsciousness within seconds.",
+        "safety_critical": true
+      },
+      {
+        "question": "What two simultaneous actions does the figure-four grip allow during the chin strap finish?",
+        "answer": "One arm cups and pulls the opponent's chin toward your chest while the other drives the head forward; this independent dual action creates the scissoring compression that defines the chin strap variation and separates it from a standard guillotine."
+      },
+      {
+        "question": "Your opponent starts to posture up and lift their head above their hips during the finish - what adjustment prevents escape?",
+        "answer": "Re-establish chest pressure to snap the head back below the hip line and reflatten their posture before re-applying the squeeze; a posturing opponent unwinds the rotational angle and frees the carotid, so restoring broken posture is mandatory before finishing."
+      },
+      {
+        "question": "What tactile cue tells you the carotid choke is set and the finish is imminent?",
+        "answer": "When the opponent's face rotates away from the choking arm and the near-side neck lengthens with no slack between your forearm, their throat, and your shoulder, the carotid is sealed and steady squeezing will produce the tap quickly."
+      },
+      {
+        "question": "The opponent buries their chin and you cannot pass the choking arm under it - what is your best continuation?",
+        "answer": "Stop forcing the strap and chain to an arm-in choke: thread for the anaconda or darce as their defensive turn exposes the far side, or switch to a high-elbow guillotine; the chin tuck that defends the strap opens these alternatives."
+      },
+      {
+        "question": "Where exactly should the choking hand sit for the chin strap, and what is a common misplacement?",
+        "answer": "The hand cups the point of the chin and connects to the opposite bicep in a figure-four; a common error is gripping your own wrist instead, which removes the independent chin-pull and lets the opponent posture into the grip."
+      },
+      {
+        "question": "At what moment does the chin strap become very difficult for the opponent to escape?",
+        "answer": "Once the figure-four is locked, the shoulder drives the back of the neck, the head is rotated and below the hips, and the near leg is controlled, both escape vectors - posturing up and the technical stand-up - are shut down and the carotid seal makes hand-fighting too slow to matter."
+      },
+      {
+        "question": "Your opponent plants a foot and begins a technical stand-up while you finish - what do you do?",
+        "answer": "Block or hook the near leg with your knee, or step a leg over theirs, to anchor the angle; the technical stand-up walks their hips out of the finishing line, so killing the leg before squeezing is what keeps the choke stable."
+      },
+      {
+        "question": "What must you do the instant the opponent taps or shows distress in the chin strap?",
+        "answer": "Immediately release the figure-four and remove all chin, neck, and shoulder pressure, then let them recover; because this is a fast blood choke with spinal-load risk, a late release can cause loss of consciousness or cervical injury.",
+        "safety_critical": true
+      },
+      {
+        "question": "Why is it both dangerous and ineffective to finish the chin strap as a sideways neck crank?",
+        "answer": "Torquing the head sideways loads the cervical spine and risks serious neck injury while strong opponents simply ride out the pain; finishing as a blood choke by rotating to close the carotid is both safer and far more reliable.",
+        "safety_critical": true
+      }
+    ]
+  },
+  "defender": {
+    "name": "Chin Strap Guillotine Defender",
+    "description": "Defend the Chin Strap Guillotine in BJJ. Recognize the chin cup early, protect the neck, hand-fight the figure-four, and escape front headlock control safely.",
+    "overview": "Defending the Chin Strap Guillotine starts the moment you feel a hand cup the point of your chin rather than grab a wrist. Your survival hierarchy is fixed: protect the neck first by burying and turning your chin toward the choking arm, prevent the attacker's shoulder from settling on the back of your neck, and only then work your escape. The chin strap is a rotational blood choke, so pulling straight back tightens it - instead you must hand-fight the choking wrist two-on-one, restore your posture, and clear the head perpendicular to the choke. Move early, because once the figure-four, the shoulder pressure, and the rotation are all set, the carotid seal makes hand-fighting too slow and the tap becomes inevitable.",
+    "key_principles": [
+      "Chin protection comes first - bury your chin and turn it toward the choking arm to deny the strap before any escape attempt.",
+      "Never let your head rise; the choke needs your head below your hips, so fight to restore posture and lift the head only after clearing control.",
+      "Hand-fight the choking wrist two-on-one to stop the figure-four from locking around your chin.",
+      "Stay off the back of your neck - keep a strong base and prevent the attacker's shoulder from settling onto your skull.",
+      "Move early; once the figure-four, shoulder pressure, and rotation are all set, escapes are too slow against the carotid seal.",
+      "Escape perpendicular to the choke - clear the head and come up rather than pulling straight back into the squeeze."
+    ],
+    "recognition_cues": [
+      "The attacker's hand cups the point of your chin rather than gripping a wrist - the signature of the chin strap.",
+      "You feel the attacker's forearm blade cross your throat while their shoulder drops onto the back of your neck.",
+      "Your head is rotated and pulled toward the attacker's chest while your posture is driven below your hips.",
+      "Pressure feels rotational, turning your face away from the choking arm, rather than the straight upward pull of a standard guillotine."
+    ],
+    "defensive_options": [
+      {
+        "action": "Two-on-one hand fight on the choking wrist while tucking the chin",
+        "when_to_use": "The instant you feel the arm thread under your chin, before the figure-four locks",
+        "targets_outcome": "Front Headlock/Top",
+        "if_successful": "You strip the chin cup and stay in front headlock with the immediate choke threat neutralized",
+        "risk": "Committing both hands to the wrist can let the attacker flatten you or switch to an arm-in choke"
+      },
+      {
+        "action": "Posture up and clear the head by swimming the near arm over",
+        "when_to_use": "When the figure-four is not yet fully locked and you can drive your hips forward",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You clear the head, come up, and reverse to a top or passing position as the attacker retreats to guard",
+        "risk": "Lifting the head before the choking arm is cleared feeds the carotid choke"
+      },
+      {
+        "action": "Drive forward into the attacker's hips to flatten them and pop the head free",
+        "when_to_use": "When the attacker over-rotates or their base is light and forward",
+        "targets_outcome": "Guillotine Control/Top",
+        "if_successful": "You pressure them onto their back and pop your head out as they bail to a regripped guillotine control",
+        "risk": "Driving in with the head still trapped can deepen the choke if you mistime it"
+      }
+    ],
+    "escape_paths": [
+      "Technical stand-up to clear the head once the choking arm is controlled",
+      "Granby or forward roll to recover guard when posture cannot be restored",
+      "Circle away from the choking-arm side to spin out and come up on top"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Hand-fight the choking wrist, drive your hips forward to clear the head, and come up on top as the attacker is forced to retreat to guard, leaving you in the top position of their half guard."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Lifting the head or extending the neck while trying to escape",
+        "consequence": "Feeds the carotid choke and accelerates the tap or blackout",
+        "correction": "Keep the chin buried and turned toward the choking arm; only raise the head after the arm is cleared."
+      },
+      {
+        "error": "Pulling straight back away from the attacker",
+        "consequence": "Plays into the pulling force, tightens the rotation, and wastes energy",
+        "correction": "Escape perpendicular - clear the head to the side or roll through rather than retreating straight back."
+      },
+      {
+        "error": "Using both hands to push the attacker's body without controlling the choking wrist",
+        "consequence": "Gives the attacker free rein to lock the figure-four and set the chin cup",
+        "correction": "Always keep at least one hand fighting the choking wrist while the other frames or posts."
+      },
+      {
+        "error": "Waiting passively, hoping the attacker tires",
+        "consequence": "Lets the figure-four, shoulder pressure, and rotation all set, after which escape is nearly impossible",
+        "correction": "Defend and move immediately - early, small movements beat late explosive ones against this choke."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the first thing you must do when you feel a chin strap being set?",
+        "answer": "Bury your chin and turn it toward the choking arm to deny the strap, then begin hand-fighting the choking wrist; protecting the neck must come before any escape attempt or you will be choked during the escape.",
+        "safety_critical": true
+      },
+      {
+        "question": "How do you tell a chin strap apart from a standard guillotine while defending?",
+        "answer": "The chin strap pressure is rotational - the attacker cups the point of your chin and turns your face away while dropping a shoulder onto your neck - rather than the straight upward pull of a standard guillotine grip on the throat."
+      },
+      {
+        "question": "You bury your chin so deep the attacker cannot thread the strap - what new threat should you expect?",
+        "answer": "Expect the attacker to chain to an arm-in choke such as the anaconda or darce, or to a high-elbow guillotine; your chin tuck defends the strap but opens those, so keep hand-fighting and circle away from the trapped-arm side."
+      },
+      {
+        "question": "Your posture is broken and you cannot lift your head - which way should you escape?",
+        "answer": "Escape perpendicular to the choke: clear the head to the side or roll through with a granby to recover guard rather than pulling straight back, which only tightens the rotation and deepens the carotid compression."
+      },
+      {
+        "question": "Why should you tap early rather than tough out a tight chin strap?",
+        "answer": "It is a fast blood choke that can cause unconsciousness within seconds and also loads the cervical spine; tapping early to a sealed carotid choke prevents blackout and neck injury, whereas waiting risks both.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition and Chin Defense",
+        "focus": "Early cues",
+        "description": "Partner slowly sets the chin strap while you drill recognizing the chin cup and burying/turning the chin to deny the grip before it locks."
+      },
+      {
+        "phase": "Hand-Fighting Under Pressure",
+        "focus": "Wrist control and posture",
+        "description": "From a live front headlock, practice two-on-one control of the choking wrist and restoring posture against 40-60% resistance."
+      },
+      {
+        "phase": "Escape Integration",
+        "focus": "Clearing and reversing",
+        "description": "Drill technical stand-ups, granby rolls, and circling escapes to a come-up, then add live resistance hunting the reversal to top position."
+      }
+    ]
+  }
 }

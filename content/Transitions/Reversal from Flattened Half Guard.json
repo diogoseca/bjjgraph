@@ -1,6 +1,7 @@
 {
   "name": "Reversal from Flattened Half Guard",
   "description": "Master the reversal from flattened half guard in BJJ. Learn underhook-based sweeps, bridge mechanics, and timing to escape bottom and achieve top position.",
+  "summary": "The Reversal from Flattened Half Guard is a bottom-game sweep in which the pinned half guard player wins a deep far-side underhook, then bridges diagonally off the trapped-leg hook to overturn the top player and land directly in side control.",
   "tags": [
     "bjj",
     "transition",
@@ -86,8 +87,8 @@
       "relationship": "Related underhook-based sweep sharing similar mechanical principles from half guard"
     },
     {
-      "name": "Dogfight Sweep",
-      "relationship": "Follow-up sweep option if the reversal stalls in a Dogfight scramble"
+      "name": "Dogfight Position",
+      "relationship": "Scramble position the reversal can stall into if the sweep is partially defended"
     },
     {
       "name": "Lockdown",

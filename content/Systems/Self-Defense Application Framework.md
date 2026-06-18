@@ -135,6 +135,16 @@ description: "Master self-defense applications of BJJ with systematic framework 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Self-Defense Application Framework",
+  "description": "The Self-Defense Application Framework is a reality-based system that adapts sport BJJ for street confrontations, prioritizing awareness, de-escalation, strike defense, decisive control, and escape within a legally defensible use-of-force structure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -149,7 +159,9 @@ description: "Master self-defense applications of BJJ with systematic framework 
 
 ## What is Self-Defense Application Framework?
 
-The Self-Defense Application Framework provides a systematic approach to translating sport BJJ techniques into effective self-defense strategies. This system addresses the fundamental differences between competition grappling and real-world confrontations, including the presence of strikes, environmental hazards, multiple attackers, and legal implications. The framework emphasizes efficiency, decisiveness, and de-escalation while maintaining technical excellence. Unlike sport BJJ which rewards points and positional control, self-defense applications prioritize rapid neutralization, escape, and personal safety. The system integrates striking defense, clinch control, takedown defense, and ground control principles specifically adapted for self-defense scenarios. It addresses pre-fight awareness, verbal de-escalation, legal use of force considerations, and post-incident protocols. The framework is built on the principle that sport BJJ provides an excellent foundation but requires specific modifications and additions to be truly effective for self-defense. Training methodology emphasizes stress inoculation, scenario-based drilling, and understanding the legal and ethical dimensions of physical confrontation.
+**The Self-Defense Application Framework is a reality-based system that adapts sport BJJ for street confrontations, prioritizing awareness, de-escalation, strike defense, decisive control, and escape within a legally defensible use-of-force structure.**
+
+Sport BJJ provides an excellent foundation for personal protection, but competition grappling and real-world confrontations diverge in critical ways - the presence of strikes, environmental hazards, multiple attackers, weapons, and legal implications. This system addresses those differences head-on, emphasizing efficiency, decisiveness, and de-escalation while maintaining technical excellence. Unlike sport BJJ which rewards points and positional control, self-defense applications prioritize rapid neutralization, escape, and personal safety. The system integrates striking defense, clinch control, takedown defense, and ground control principles specifically adapted for self-defense scenarios. It addresses pre-fight awareness, verbal de-escalation, legal use of force considerations, and post-incident protocols. The framework is built on the principle that sport BJJ provides an excellent foundation but requires specific modifications and additions to be truly effective for self-defense. Training methodology emphasizes stress inoculation, scenario-based drilling, and understanding the legal and ethical dimensions of physical confrontation.
 
 </section>
 

@@ -34,6 +34,18 @@ description: "Master Russian Cowboy position in BJJ. Complete guide covering bac
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Russian Cowboy",
+  "description": "Russian Cowboy is an asymmetric back-control variant where the top player rides with a single leg hook threaded under the opponent's near leg, bridging traditional back mount and the truck to open twister, calf slicer, and choke attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Russian Cowboy position in BJJ. Complete guide covering bac
 
 <section id="overview" class="content-section">
 
-The Russian Cowboy is a highly effective back control variant commonly used in no-gi grappling and submission wrestling. This position features the top practitioner establishing control over the opponent's back while maintaining a hook under one leg, creating powerful leverage for attacks and making escape extremely difficult. The position derives its name from the riding motion resembling a cowboy on a bucking horse, combined with its popularity among Russian and Eastern European grapplers.
+**Russian Cowboy is an asymmetric back-control variant where the top player rides with a single leg hook threaded under the opponent's near leg, bridging traditional back mount and the truck to open twister, calf slicer, and choke attacks.**
+
+Drawn from no-gi and submission wrestling and popularized by Russian and Eastern European grapplers, the Russian Cowboy takes its name from the riding motion of controlling a bucking opponent with a single deep leg hook. The top practitioner establishes control over the opponent's back while maintaining a hook under one leg, creating powerful leverage for attacks and making escape extremely difficult.
 
 From a tactical perspective, the Russian Cowboy represents a transitional state between traditional back control and the truck position, offering unique submission opportunities including the twister, calf slicers, and various choke attacks. The position excels at controlling an opponent who is attempting to turtle or escape from bottom positions, as the single leg hook combined with upper body control creates a powerful pinning mechanism. Advanced practitioners use this position to systematically break down defensive postures and expose submission opportunities.
 
@@ -202,7 +216,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (12% of attempts)
 
-- **[[Rear Naked Choke from Russian Cowboy/Attacker|Rear Naked Choke from Russian Cowboy]]** (11% of attempts)
+- **[[Rear Naked Choke from Russian Cowboy/Attacker|Rear Naked Choke from Russian Cowboy]]** (13% of attempts)
 
 - **[[Calf Slicer from Russian Cowboy/Attacker|Calf Slicer from Russian Cowboy]]** (10% of attempts)
 
@@ -213,8 +227,6 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (11% of attempts)
 
 - **[[Transitions/Russian Cowboy to Back Control/Attacker|Russian Cowboy to Back Control]]** (5% of attempts)
-
-- **[[Rear Naked Choke from Russian Cowboy/Attacker|Rear Naked Choke from Russian Cowboy]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -34,6 +34,18 @@ description: "Master High Mount in BJJ. Strategic guide covering advanced mount 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "High Mount",
+  "description": "High Mount is an advanced mount variation where the top player climbs both knees up to the opponent's armpits, pinning the upper chest to eliminate bridging power and unlock the highest-percentage submission finishes in grappling.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master High Mount in BJJ. Strategic guide covering advanced mount 
 </div>
 
 <section id="overview" class="content-section">
+
+**High Mount is an advanced mount variation where the top player climbs both knees up to the opponent's armpits, pinning the upper chest to eliminate bridging power and unlock the highest-percentage submission finishes in grappling.**
 
 High Mount represents the most dominant variation of the mount position in Brazilian Jiu-Jitsu, where the top player positions their knees high on the opponent's torso—near the armpits or shoulders—creating an elevated platform that maximizes submission opportunities while severely restricting escape options. This advanced position serves as the final checkpoint before submission, offering the highest finishing rate of any mount variation.
 
@@ -208,15 +222,15 @@ In competition contexts, High Mount represents the culmination of successful pas
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (32% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (30% of attempts)
 
-- **[[Cross Collar Choke from High Mount/Attacker|Cross Collar Choke from High Mount]]** (13% of attempts)
+- **[[Cross Collar Choke from High Mount/Attacker|Cross Collar Choke from High Mount]]** (12% of attempts)
 
-- **[[Americana from High Mount/Attacker|Americana from High Mount]]** (8% of attempts)
+- **[[Americana from High Mount/Attacker|Americana from High Mount]]** (7% of attempts)
 
-- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (8% of attempts)
+- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (7% of attempts)
 
-- **[[Kimura from High Mount/Attacker|Kimura from High Mount]]** (8% of attempts)
+- **[[Kimura from High Mount/Attacker|Kimura from High Mount]]** (7% of attempts)
 
 - **[[Arm Triangle from High Mount/Attacker|Arm Triangle from High Mount]]** (6% of attempts)
 
@@ -230,7 +244,9 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 - **[[Transitions/High Mount to S Mount/Attacker|High Mount to S Mount]]** (2% of attempts)
 
-- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (1% of attempts)
+- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (2% of attempts)
+
+- **[[Armbar from High Mount/Attacker|Armbar from High Mount]]** (5% of attempts)
 
 
 ### Common Mistakes

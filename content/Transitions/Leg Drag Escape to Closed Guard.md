@@ -34,6 +34,18 @@ description: "Master Leg Drag Escape to Closed Guard in BJJ. Frame, hip escape, 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag Escape to Closed Guard",
+  "description": "The Leg Drag Escape to Closed Guard is a bottom-player recovery that frames the opponent's upper body, hip-escapes to create an extraction angle, and frees the trapped leg to re-establish closed guard and neutralize the leg drag pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Leg Drag Escape to Closed Guard in BJJ. Frame, hip escape, 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Leg Drag Escape to Closed Guard is a bottom-player recovery that frames the opponent's upper body, hip-escapes to create an extraction angle, and frees the trapped leg to re-establish closed guard and neutralize the leg drag pass.**
 
 The Leg Drag Escape to Closed Guard represents a fundamental defensive recovery when caught in the compromised leg drag position. This escape addresses one of the most dangerous transitional moments in guard passing—when your opponent has successfully dragged your leg across your body and is threatening to consolidate to side control or take your back. The technique requires precise timing, efficient framing, and coordinated hip movement to extract your trapped leg and establish a closed guard position that neutralizes the passing threat.
 
@@ -234,7 +248,7 @@ The Leg Drag Escape to Closed Guard functions as a critical defensive recovery w
 
 - [[Transitions/Leg Drag Counter to Half Guard]] - Alternative escape technique from same starting position
 
-- [[Transitions/Hip Escape to Guard]] - Core movement mechanic used in this escape
+- [[Transitions/Roll to Turtle]] - Defensive fallback when the leg cannot be freed and guard recovery is unavailable
 
 - [[Transitions/Frame and Shrimp to Guard]] - Related escape using similar framing principles
 

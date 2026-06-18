@@ -33,10 +33,32 @@ description: "Master the Kimura shoulder lock from flattened half guard top. Exp
 }
 </script>
 
-> **SAFETY**: Kimura from Flattened Half Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kimura from Flattened Half Guard",
+  "description": "The Kimura from Flattened Half Guard is a top-position shoulder lock that captures the bottom player's far arm in a figure-four grip while sustained chest pressure pins them flat, stripping away the hip mobility they need to defend the rotation.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Kimura from Flattened Half Guard is a top-position shoulder lock that captures the bottom player's far arm in a figure-four grip while sustained chest pressure pins them flat, stripping away the hip mobility they need to defend the rotation.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Kimura from Flattened Half Guard targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,60 +69,13 @@ description: "Master the Kimura shoulder lock from flattened half guard top. Exp
 
 <section id="overview" class="content-section">
 
-The Kimura from flattened half guard top is a high-percentage shoulder lock that exploits the positional dominance achieved when you collapse your opponent's defensive structure. Unlike Kimura attacks from neutral positions where the defender retains significant mobility, this variation benefits from sustained chest pressure that restricts the defender's breathing, hip movement, and standard defensive responses. The attack typically presents when the bottom player extends an arm to establish frames, fight for an underhook, or push against the crossface — necessary survival actions that simultaneously expose the arm to figure-four grip capture.
+Reaching this attack means you have already won the positional battle — your opponent's frames are collapsed, their back is flat, and the shoulder lock becomes a matter of harvesting the arm exposure their survival demands rather than fighting for control. Unlike Kimura attacks from neutral positions where the defender retains significant mobility, this variation benefits from sustained chest pressure that restricts the defender's breathing, hip movement, and standard defensive responses. The attack typically presents when the bottom player extends an arm to establish frames, fight for an underhook, or push against the crossface — necessary survival actions that simultaneously expose the arm to figure-four grip capture.
 
 The defining strategic advantage is the compounding pressure dilemma. Your chest weight restricts the opponent's movement while the Kimura grip creates a secondary threat forcing them to choose between defending the submission and recovering positional frames. When they defend the Kimura by clasping hands or gripping their belt, they abandon frame recovery efforts, allowing you to settle deeper into the flattened position or advance to side control. When they prioritize positional escape, the arm becomes increasingly vulnerable to the shoulder lock. This two-pronged problem is central to why this variation finishes at higher rates than Kimura attacks from more neutral positions.
 
 The finishing mechanics differ from standard Kimura applications because the flattened position eliminates several common defenses. The bridge-and-roll escape is compromised by your weight distribution, hip escaping to create defensive angles is limited by chest pressure, and hiding the hand becomes difficult when the defender needs that arm for positional survival. Understanding these positional advantages allows you to apply the Kimura with controlled precision rather than relying on brute rotational force, making this one of the most reliable shoulder lock finishes available from top position.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Positions/Half Guard/Flattened Half Guard]]
-**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
-| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
-| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
-| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or making any verbal distress sound)
-- Physical hand tap (multiple taps with free hand)
-- Physical foot tap (multiple taps with either foot)
-- Any distress signal including screaming or unusual sounds
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure the instant tap is felt or heard
-2. Return the arm toward neutral position (externally rotate back to starting position)
-3. Release the figure-four grip completely
-4. Allow partner to self-assess shoulder mobility before continuing
-5. Never release suddenly or allow arm to spring back forcefully
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - rotation must be smooth and controlled
-- Never use competition speed or surprise attacks in training
-- Always ensure partner has at least one hand free to tap
-- Do not apply while partner is in awkward body position that prevents tapping
-- Never combine with weight pressure that restricts breathing while finishing
-- Respect immediate taps without testing partner's pain tolerance
-
+**Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] · **From**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 
 </section>
 
@@ -245,39 +220,60 @@ The finishing mechanics differ from standard Kimura applications because the fla
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Darce Choke]]
 - [[Submissions/Far Side Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Half Guard/Flattened Half Guard]] - Primary starting position for this submission variant
 - [[Positions/Half Guard]] - Parent position where flattening pressure creates Kimura opportunities
 - [[Positions/Kimura Trap]] - Control position accessible when opponent defends the initial Kimura
 - [[Positions/Side Control]] - Alternative positional advancement when Kimura defense stalls passing
-- [[Submissions/Americana]] - Related shoulder lock attackable from similar grip configurations
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Kimura from Flattened Half Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis) | High | 3-9 months with potential surgery requirement |
+| Shoulder capsule damage and dislocation | CRITICAL | 6-12 months, may require surgical repair |
+| Labral tear (glenoid labrum) | High | 4-8 months, often requires arthroscopic surgery |
+| Bicep tendon strain or rupture | Medium | 6-12 weeks for strain, 3-6 months for rupture |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training, allowing partner time to recognize danger and tap
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or making any verbal distress sound)
+- Physical hand tap (multiple taps with free hand)
+- Physical foot tap (multiple taps with either foot)
+- Any distress signal including screaming or unusual sounds
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure the instant tap is felt or heard
+2. Return the arm toward neutral position (externally rotate back to starting position)
+3. Release the figure-four grip completely
+4. Allow partner to self-assess shoulder mobility before continuing
+5. Never release suddenly or allow arm to spring back forcefully
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - rotation must be smooth and controlled
+- Never use competition speed or surprise attacks in training
+- Always ensure partner has at least one hand free to tap
+- Do not apply while partner is in awkward body position that prevents tapping
+- Never combine with weight pressure that restricts breathing while finishing
+- Respect immediate taps without testing partner's pain tolerance
+
 
 </section>
 

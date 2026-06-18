@@ -34,6 +34,18 @@ description: "Master Reverse X-Guard in BJJ. Strategic guide covering when to us
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse X-Guard",
+  "description": "Reverse X-Guard is an inverted open guard where the bottom player traps one of the opponent's legs with both hooks stacked on the same side and faces away to generate explosive elevation sweeps, back takes, and leg-entanglement entries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Reverse X-Guard in BJJ. Strategic guide covering when to us
 
 <section id="overview" class="content-section">
 
-Reverse X-Guard is an inverted guard position where the bottom practitioner controls their opponent using leg entanglement while facing away from them. This position creates powerful sweeping mechanics by combining hip elevation, leg control, and rotational pressure. The guard player's outside leg hooks behind the opponent's near knee while the inside leg extends across their far hip, creating a scissoring action that destabilizes their base.
+**Reverse X-Guard is an inverted open guard where the bottom player traps one of the opponent's legs with both hooks stacked on the same side and faces away to generate explosive elevation sweeps, back takes, and leg-entanglement entries.**
+
+Emerging from the modern leg-entanglement era, Reverse X-Guard reorients the classic X-Guard so the bottom player faces away from the opponent while controlling a single leg with both hooks stacked on one side. This position creates powerful sweeping mechanics by combining hip elevation, leg control, and rotational pressure. The guard player's outside leg hooks behind the opponent's near knee while the inside leg extends across their far hip, creating a scissoring action that destabilizes their base.
 
 Developed as an evolution of traditional X-Guard, Reverse X-Guard offers unique advantages in both gi and no-gi contexts. The inverted orientation allows the guard player to generate explosive lifting power while simultaneously controlling distance and preventing passes. This position is particularly effective against standing opponents and creates natural pathways to back takes, leg attacks, and traditional sweeps.
 

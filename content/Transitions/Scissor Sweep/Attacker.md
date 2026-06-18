@@ -237,9 +237,9 @@ The Scissor Sweep integrates seamlessly into the closed guard attack system, wor
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 75% |
-| Failure | [[Positions/Closed Guard]] | 15% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>

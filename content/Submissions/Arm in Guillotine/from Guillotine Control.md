@@ -33,10 +33,32 @@ description: "Master the arm-in guillotine from guillotine control. Learn grip m
 }
 </script>
 
-> **SAFETY**: Arm in Guillotine from Guillotine Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm in Guillotine from Guillotine Control",
+  "description": "The arm-in guillotine from guillotine control finishes by trapping the opponent's arm inside an established front-headlock grip, so their own shoulder compresses the far carotid while your forearm blade attacks the near side for rapid bilateral occlusion.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The arm-in guillotine from guillotine control finishes by trapping the opponent's arm inside an established front-headlock grip, so their own shoulder compresses the far carotid while your forearm blade attacks the near side for rapid bilateral occlusion.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Arm in Guillotine from Guillotine Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,55 +75,7 @@ From guillotine control top, the attacker has already broken the opponent's post
 
 Strategically, this submission creates a particularly difficult defensive puzzle. The defender cannot use their trapped arm for hand fighting or frame creation, eliminating their most effective escape tools. Their remaining options—posturing with one arm, bridging, or attempting to roll—are significantly compromised. High-level competitors recognize the arm-in position as a fight-ending opportunity that demands immediate defensive action before the choke fully locks in.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Guillotine Control]]
-**From Position**: [[Positions/Guillotine Control]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | CRITICAL | Immediate if released promptly, potential for serious complications if held after unconsciousness |
-| Trachea damage from crushing pressure | High | 2-6 weeks for minor damage, months for severe cases |
-| Neck muscle strain or cervical spine stress | Medium | 1-3 weeks with rest |
-| Shoulder or rotator cuff injury to trapped arm | Medium | 2-8 weeks depending on severity |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial contact to finish pressure
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any verbal surrender)
-- Physical hand tap on partner or mat
-- Physical foot tap on mat or partner
-- Any distress signal including going limp
-
-
-**Release Protocol**:
-1. Immediately release choking arm pressure upon any tap signal
-2. Open guard if closed guard is applied
-3. Gently lower opponent to mat if elevated
-4. Release all grips and create space
-5. Check partner's alertness and breathing
-6. Wait for clear verbal confirmation before continuing training
-
-
-**Training Restrictions**:
-- Never spike or jerk the submission - apply smooth, progressive pressure only
-- Never use competition speed in training - always allow time for tap
-- Never continue applying pressure after tap signal
-- Always allow trapped arm access to tap with free hand or feet
-- Never practice this submission on beginners without close supervision
-- Stop immediately if partner's face changes color or they show signs of distress
-
+**Starting Position**: [[Positions/Guillotine Control]] · **From**: [[Positions/Guillotine Control]] (Top)
 
 </section>
 
@@ -266,10 +240,9 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Transitions/Guillotine Choke]]
@@ -278,31 +251,54 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 - [[Submissions/Von Flue Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Chin Strap Guillotine]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Guillotine Control]] - Primary starting position for this submission variant
 - [[Positions/Front Headlock]] - Parent position category - precursor before securing guillotine grip
 - [[Positions/Closed Guard]] - Common guard position used to consolidate control during finish
 - [[Positions/Darce Control]] - Transition target when opponent rotates away from guillotine pressure
 - [[Positions/Anaconda Control]] - Transition target when opponent turns into guillotine defense
-- [[Submissions/Arm in Guillotine]] - Parent submission family - generic version across all positions
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Arm in Guillotine from Guillotine Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | CRITICAL | Immediate if released promptly, potential for serious complications if held after unconsciousness |
+| Trachea damage from crushing pressure | High | 2-6 weeks for minor damage, months for severe cases |
+| Neck muscle strain or cervical spine stress | Medium | 1-3 weeks with rest |
+| Shoulder or rotator cuff injury to trapped arm | Medium | 2-8 weeks depending on severity |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial contact to finish pressure
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any verbal surrender)
+- Physical hand tap on partner or mat
+- Physical foot tap on mat or partner
+- Any distress signal including going limp
+
+
+**Release Protocol**:
+1. Immediately release choking arm pressure upon any tap signal
+2. Open guard if closed guard is applied
+3. Gently lower opponent to mat if elevated
+4. Release all grips and create space
+5. Check partner's alertness and breathing
+6. Wait for clear verbal confirmation before continuing training
+
+
+**Training Restrictions**:
+- Never spike or jerk the submission - apply smooth, progressive pressure only
+- Never use competition speed in training - always allow time for tap
+- Never continue applying pressure after tap signal
+- Always allow trapped arm access to tap with free hand or feet
+- Never practice this submission on beginners without close supervision
+- Stop immediately if partner's face changes color or they show signs of distress
+
 
 </section>
 

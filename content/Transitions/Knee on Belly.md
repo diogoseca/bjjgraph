@@ -34,6 +34,18 @@ description: "Master the Knee on Belly transition in BJJ. Learn proper knee plac
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Knee on Belly",
+  "description": "The Knee on Belly transition advances from Side Control by driving one knee across the opponent's torso into the solar plexus while posting the other leg wide, scoring points and creating concentrated pressure that opens submissions and positional advances.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Knee on Belly transition in BJJ. Learn proper knee plac
 </div>
 
 <section id="overview" class="content-section">
+
+**The Knee on Belly transition advances from Side Control by driving one knee across the opponent's torso into the solar plexus while posting the other leg wide, scoring points and creating concentrated pressure that opens submissions and positional advances.**
 
 Knee on Belly represents one of the most dynamic and high-pressure positions in Brazilian Jiu-Jitsu, serving as both a scoring position worth two or three points in competition and a launching platform for devastating submissions. The transition from Side Control to Knee on Belly requires precise timing, proper weight distribution, and strategic grip selection to prevent the bottom player from capitalizing on the momentary reduction in chest pressure during the transition.
 

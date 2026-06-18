@@ -34,6 +34,18 @@ description: "Master the Shin to Shin Pull in BJJ. Step-by-step execution from S
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Shin to Shin Pull",
+  "description": "The Shin to Shin Pull is a standing guard-pull entry where you sit to seated guard and press your shin across the opponent's same-side shin, off-balancing their base and establishing Shin-to-Shin Guard with immediate single-leg X and sweep threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Shin to Shin Pull in BJJ. Step-by-step execution from S
 
 <section id="overview" class="content-section">
 
-The Shin to Shin Pull is a fundamental guard pulling technique that establishes a shin-to-shin connection before pulling the opponent into your guard. This pull is particularly effective in gi and no-gi competition where you want to establish guard control while maintaining offensive options. The shin-to-shin position provides excellent control of the opponent's posture and base while creating immediate sweeping and back-taking opportunities.
+**The Shin to Shin Pull is a standing guard-pull entry where you sit to seated guard and press your shin across the opponent's same-side shin, off-balancing their base and establishing Shin-to-Shin Guard with immediate single-leg X and sweep threats.**
+
+As an entry into the modern leg-entanglement guard game, the Shin to Shin Pull is particularly effective in gi and no-gi competition where you want to establish guard control while maintaining offensive options. The shin-to-shin position provides excellent control of the opponent's posture and base while creating immediate sweeping and back-taking opportunities.
 
 Unlike traditional guard pulls that rely solely on grips, the shin-to-shin pull uses your shin as a primary control point against the opponent's shin, creating a frame that prevents them from establishing strong top pressure. This connection allows you to control distance, off-balance your opponent, and transition seamlessly into various guard positions including single leg X-guard, X-guard, or deep half guard. The position is especially valuable against opponents who are skilled at passing traditional guard pulls.
 

@@ -34,6 +34,18 @@ description: "Master recovering knee shield from flattened half guard in BJJ. Co
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Recover Knee Shield from Flattened Half",
+  "description": "Recovering Knee Shield from Flattened Half is the bottom-player half-guard transition that fights for an underhook, hip-escapes in increments, and drives the top-leg shin across the opponent's hip line to rebuild the knee shield frame and escape pinning pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master recovering knee shield from flattened half guard in BJJ. Co
 </div>
 
 <section id="overview" class="content-section">
+
+**Recovering Knee Shield from Flattened Half is the bottom-player half-guard transition that fights for an underhook, hip-escapes in increments, and drives the top-leg shin across the opponent's hip line to rebuild the knee shield frame and escape pinning pressure.**
 
 Recovering Knee Shield from Flattened Half Guard is the essential defensive recovery transition in the half guard system. When you have been flattened under heavy chest pressure with your back pinned to the mat, your primary objective is re-establishing the knee shield frame that restores distance, breathing room, and offensive capabilities. This transition represents the critical bridge between survival and active guard play, and every serious half guard practitioner must develop reliable mechanics for executing it under pressure.
 

@@ -1,5 +1,6 @@
 {
   "name": "Grip Strip from Buggy Choke",
+  "summary": "The Grip Strip from Buggy Choke is a positional transition where the top player abandons a stalled buggy choke, peels the turtled opponent's defensive grips and frames, and advances to dominant side control instead of forcing a defended submission.",
   "description": "Master the Grip Strip from Buggy Choke in BJJ. Complete guide to abandoning stalled choke attempts and transitioning to dominant side control position.",
   "tags": [
     "bjj",
@@ -29,7 +30,7 @@
     }
   ],
   "success_rate": 55,
-  "overview": "The Grip Strip from Buggy Choke is a tactical transition used when the buggy choke from turtle top has stalled against effective defensive grip fighting. Rather than continuing to invest energy in a choke that is unlikely to finish, the top player systematically breaks the bottom player's defensive grips and frames, then redirects their control structure to establish side control. This transition reflects the principle that positional advancement is always available when a submission attempt stalls, and experienced practitioners recognize the moment when abandoning the choke becomes the higher-percentage play.\n\nThe technique requires precise timing and awareness of the bottom player's defensive state. Stripping grips during a choke attempt creates a brief moment of positional instability where the bottom player may attempt to escape to guard or reverse position. The top player must maintain sufficient control through body pressure and weight distribution while breaking defensive structures, then immediately consolidate into side control before the bottom player can exploit the transitional gap. This transition is particularly valuable in competition where maintaining dominant position and control time outweighs the diminishing returns of forcing a defended submission.\n\nUnderstanding when to transition from submission attempt to positional control distinguishes advanced practitioners from those who chase submissions at the expense of position. The grip strip from buggy choke embodies this strategic awareness, teaching practitioners to read defensive reactions, recognize stalled attacks, and flow to the next advantageous position without returning to neutral or conceding positional gains.",
+  "overview": "Within modern turtle-attack systems, the grip strip is the disciplined response deployed when the buggy choke from turtle top has stalled against effective defensive grip fighting. Rather than continuing to invest energy in a choke that is unlikely to finish, the top player systematically breaks the bottom player's defensive grips and frames, then redirects their control structure to establish side control. This transition reflects the principle that positional advancement is always available when a submission attempt stalls, and experienced practitioners recognize the moment when abandoning the choke becomes the higher-percentage play.\n\nThe technique requires precise timing and awareness of the bottom player's defensive state. Stripping grips during a choke attempt creates a brief moment of positional instability where the bottom player may attempt to escape to guard or reverse position. The top player must maintain sufficient control through body pressure and weight distribution while breaking defensive structures, then immediately consolidate into side control before the bottom player can exploit the transitional gap. This transition is particularly valuable in competition where maintaining dominant position and control time outweighs the diminishing returns of forcing a defended submission.\n\nUnderstanding when to transition from submission attempt to positional control distinguishes advanced practitioners from those who chase submissions at the expense of position. The grip strip from buggy choke embodies this strategic awareness, teaching practitioners to read defensive reactions, recognize stalled attacks, and flow to the next advantageous position without returning to neutral or conceding positional gains.",
   "conditions": [
     "Buggy choke grips are established from turtle top with threading arm under opponent's armpit",
     "Bottom player is actively defending the choke through grip fighting, framing, or collar grip prevention",
@@ -79,10 +80,6 @@
     {
       "name": "Knee on Belly",
       "relationship": "Advanced positional target accessible through the progressive peel variant"
-    },
-    {
-      "name": "Buggy Choke",
-      "relationship": "Primary submission alternative when the choke is progressing rather than stalling"
     },
     {
       "name": "Back Control",

@@ -135,6 +135,16 @@ description: "Master standing defense with systematic framework for takedown pre
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Defense Strategy",
+  "description": "The Standing Defense Strategy is a defensive framework that prevents takedowns through distance management, base maintenance, grip fighting, and explosive sprawling, while teaching when to pull guard or counter-attack instead of continuing the standing exchange.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -149,7 +159,9 @@ description: "Master standing defense with systematic framework for takedown pre
 
 ## What is Standing Defense Strategy?
 
-The Standing Defense Strategy is a comprehensive defensive system designed to prevent takedowns, maintain favorable positioning in the standing phase, and control the engagement distance. This system integrates wrestling defensive principles with BJJ-specific positioning strategies, emphasizing the prevention of takedowns while creating opportunities to pull guard strategically or counter-attack.
+**The Standing Defense Strategy is a defensive framework that prevents takedowns through distance management, base maintenance, grip fighting, and explosive sprawling, while teaching when to pull guard or counter-attack instead of continuing the standing exchange.**
+
+In both gi and no-gi grappling the match begins on the feet, where the practitioner who dictates whether and how the fight reaches the ground holds a decisive tactical edge. This system integrates wrestling defensive principles with BJJ-specific positioning strategies, emphasizing the prevention of takedowns while creating opportunities to pull guard strategically or counter-attack.
 
 The foundation of this system rests on three core pillars: distance management, base maintenance, and reactive positioning. Unlike purely offensive takedown systems, standing defense requires constant threat assessment and the ability to recognize and neutralize takedown attempts before they fully develop. This system teaches practitioners to fight at optimal ranges where they can defend effectively while minimizing exposure to high-percentage takedowns.
 

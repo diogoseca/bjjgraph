@@ -34,6 +34,18 @@ description: "Master the reversal from flattened half guard in BJJ. Learn underh
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reversal from Flattened Half Guard",
+  "description": "The Reversal from Flattened Half Guard is a bottom-game sweep in which the pinned half guard player wins a deep far-side underhook, then bridges diagonally off the trapped-leg hook to overturn the top player and land directly in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the reversal from flattened half guard in BJJ. Learn underh
 </div>
 
 <section id="overview" class="content-section">
+
+**The Reversal from Flattened Half Guard is a bottom-game sweep in which the pinned half guard player wins a deep far-side underhook, then bridges diagonally off the trapped-leg hook to overturn the top player and land directly in side control.**
 
 The Reversal from Flattened Half Guard is one of the most demanding yet rewarding techniques in the bottom half guard arsenal. When the top player has successfully collapsed your frames and settled chest-to-chest pressure, most bottom players resign themselves to a purely defensive frame recovery sequence. The reversal represents a fundamentally different strategic choice: rather than incrementally rebuilding guard structure, you exploit the top player's forward commitment to generate a sweep that lands you directly in a dominant top position. This approach requires precise timing, committed execution, and the willingness to accept risk in exchange for a dramatic positional improvement.
 
@@ -235,7 +249,7 @@ The Reversal from Flattened Half Guard sits at a critical fork in the bottom hal
 
 - [[Transitions/Old School Sweep]] - Related underhook-based sweep sharing similar mechanical principles from half guard
 
-- [[Transitions/Dogfight Sweep]] - Follow-up sweep option if the reversal stalls in a Dogfight scramble
+- [[Positions/Dogfight Position]] - Scramble position the reversal can stall into if the sweep is partially defended
 
 - [[Positions/Half Guard/Lockdown]] - Leg control system that can enhance reversal effectiveness from flattened position
 

@@ -12,6 +12,7 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
+  "summary": "The Garry Tonon Leg Lock to Back System is a no-gi attack framework that cycles between lower-body submissions and back control, using each defensive reaction to expose the opposite attack category in a perpetual dilemma.",
   "overview": "The Garry Tonon Leg Lock to Back System represents one of the most sophisticated attack frameworks in modern no-gi Brazilian Jiu-Jitsu. This system creates a continuous threat cycle between lower body submissions and back control, forcing opponents into a constant state of defensive decision-making. When an opponent defends the leg attack, they expose pathways to the back. When they defend the back attack, they expose the legs again. The system is built on the principle that no position is terminal—every defensive movement creates an offensive opportunity. Tonon developed this approach through years of high-level competition, recognizing that opponents who successfully defend one attack category often do so by compromising their defense in another area. The beauty of this system lies in its adaptability: it works from standing exchanges, guard passing scenarios, and scrambles. Rather than viewing leg locks and back attacks as separate skillsets, this framework treats them as interconnected components of a unified offensive strategy. Practitioners learn to flow seamlessly between ashi garami variations, truck positions, and back control, maintaining offensive pressure regardless of which position they occupy.",
   "key_principles": [
     "Attack cycling between lower body submissions and back control creates inescapable dilemmas",
@@ -337,7 +338,7 @@
       "relationship": "Core principle of linking multiple submission attempts across position categories"
     },
     {
-      "name": "Transition Management",
+      "name": "Control Maintenance",
       "content_type": "Principle",
       "relationship": "Conceptual framework for smooth positional changes while maintaining offensive pressure"
     },
@@ -347,9 +348,9 @@
       "relationship": "Strategic concept of forcing opponent to choose between defending legs or back"
     },
     {
-      "name": "Control Maintenance",
+      "name": "Control Point Hierarchy",
       "content_type": "Principle",
-      "relationship": "Critical principle of maintaining connection throughout all system transitions"
+      "relationship": "Critical principle of prioritizing connection points throughout all system transitions"
     },
     {
       "name": "Danaher Leg Lock System",
@@ -365,6 +366,44 @@
       "name": "Craig Jones Leg Lock System",
       "content_type": "System",
       "relationship": "Alternative modern leg lock system sharing common positional concepts"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core dilemma the Garry Tonon Leg Lock to Back System imposes on an opponent?",
+      "answer": "Defending the leg attack exposes back-taking pathways, while escaping back control re-exposes leg entanglements, forcing the opponent to concede one attack category to defend the other."
+    },
+    {
+      "question": "Which defensive reaction to a leg attack signals a transition to back control via the seat belt?",
+      "answer": "A forward turn toward you during the leg attack creates the rotation needed to establish a seat belt grip and rotate into back control or rear mount."
+    },
+    {
+      "question": "How does heel hook defense from the saddle typically convert into the truck position?",
+      "answer": "When the opponent turns into the heel hook to defend, that defensive turn exposes the truck; you release heel hook pressure and capture the truck to threaten the twister."
+    },
+    {
+      "question": "Why must submission threats in this system be legitimate rather than positional feints?",
+      "answer": "If opponents do not genuinely fear the finish, they will not make the defensive movements that expose the transitions, so weak finishing collapses the entire dilemma structure."
+    },
+    {
+      "question": "What principle governs grip release during transitions in this system?",
+      "answer": "You release the leg submission grip only after the next control point is secured, maintaining simultaneous old and new connection so the opponent cannot reset to neutral."
+    },
+    {
+      "question": "How does the system handle an opponent who stalls in turtle to defend both legs and back?",
+      "answer": "Use front headlock control as an intermediate position threatening anaconda and darce chokes plus back takes, treating the turtle as another node in the cycle rather than an escape."
+    },
+    {
+      "question": "What role does the Kiss of the Dragon play in the system?",
+      "answer": "It is a dynamic rolling back take that reconnects to back control when leg attacks are defended by forward pressure passing, preserving offensive continuity through the inversion."
+    },
+    {
+      "question": "Which back escapes tend to re-expose leg entanglements, and how do they map to ashi variations?",
+      "answer": "Granby rolls and turn-ins reposition the legs so a forward granby typically exposes outside ashi while backward rolls create inside ashi opportunities, letting you recapture the legs."
+    },
+    {
+      "question": "What common mistake produces a one-dimensional threat profile in this system?",
+      "answer": "Neglecting back attack development in favor of leg locks, which lets opponents specialize their defense and escape the system's two-category dilemma entirely."
     }
   ]
 }

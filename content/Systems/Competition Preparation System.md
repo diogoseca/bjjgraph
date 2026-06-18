@@ -155,6 +155,16 @@ description: "Master BJJ competition preparation. Systematic framework covering 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Competition Preparation System",
+  "description": "The Competition Preparation System is a structured multi-phase framework that integrates periodized physical conditioning, mental rehearsal, strategic game planning, weight management, and match-day protocols to peak an athlete's performance for tournament day.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -168,6 +178,8 @@ description: "Master BJJ competition preparation. Systematic framework covering 
 <section id="overview" class="content-section">
 
 ## What is Competition Preparation System?
+
+**The Competition Preparation System is a structured multi-phase framework that integrates periodized physical conditioning, mental rehearsal, strategic game planning, weight management, and match-day protocols to peak an athlete's performance for tournament day.**
 
 Competition preparation in Brazilian Jiu-Jitsu extends far beyond technical proficiency. A comprehensive competition preparation system integrates physical conditioning, mental fortitude, strategic game planning, nutritional optimization, and tactical adaptation to create peak performance on competition day. This framework addresses the complete athlete preparation cycle from initial tournament selection through post-competition analysis, ensuring systematic development of competitive skills alongside technical ability. The modern competition landscape demands not only technical excellence but also psychological resilience, strategic adaptability, and intelligent energy management across multiple matches. Champions distinguish themselves through superior preparation methodologies that address physical readiness, mental conditioning, tactical planning, and recovery protocols. This system provides the structured framework necessary to transform training room performance into competition success, bridging the gap between technical knowledge and competitive execution through systematic preparation protocols.
 

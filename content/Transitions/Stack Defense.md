@@ -34,6 +34,18 @@ description: "Learn Stack Defense in BJJ. Counter stack passes with frame manage
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Stack Defense",
+  "description": "Stack Defense is the guard-bottom counter to stacking passes, using upper-body frames, lateral hip escapes, and a knee shield to break the passer's forward pressure and recover guard before the spine compresses.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Stack Defense in BJJ. Counter stack passes with frame manage
 </div>
 
 <section id="overview" class="content-section">
+
+**Stack Defense is the guard-bottom counter to stacking passes, using upper-body frames, lateral hip escapes, and a knee shield to break the passer's forward pressure and recover guard before the spine compresses.**
 
 Stack Defense is a fundamental defensive skill for maintaining guard when an opponent attempts to stack you by driving your knees toward your shoulders and passing around your legs. This defensive framework combines frame management, hip escape mechanics, and strategic angle recovery to neutralize one of the most common guard passing approaches in both gi and no-gi grappling. The stack pass creates pressure by folding your body, compressing your spine, and limiting your hip mobility, making it essential to understand proper defensive posture and escape mechanics before the position becomes consolidated.
 

@@ -34,6 +34,18 @@ description: "Learn Arm Triangle from Front Headlock in BJJ. Transition head-arm
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Triangle from Front Headlock",
+  "description": "Arm Triangle from Front Headlock is a no-gi head-and-arm choke transition where, from front headlock control, you trap the opponent's near arm against their own neck and walk to side control to finish the bilateral carotid compression.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Arm Triangle from Front Headlock in BJJ. Transition head-arm
 </div>
 
 <section id="overview" class="content-section">
+
+**Arm Triangle from Front Headlock is a no-gi head-and-arm choke transition where, from front headlock control, you trap the opponent's near arm against their own neck and walk to side control to finish the bilateral carotid compression.**
 
 The arm triangle from front headlock is a high-percentage transition that converts a dominant controlling position into one of the most reliable choke finishes in grappling. When you have front headlock control with your opponent bent forward, their near arm is naturally positioned close to their neck, creating the ideal head-and-arm configuration that the arm triangle demands. Rather than fighting to isolate the arm separately, the front headlock already does much of this work for you.
 

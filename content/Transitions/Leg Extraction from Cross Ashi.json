@@ -1,5 +1,6 @@
 {
   "name": "Leg Extraction from Cross Ashi",
+  "summary": "Leg Extraction from Cross Ashi is a bottom escape that defeats cross ashi-garami by clearing the opponent's outside leg cross to collapse the wedge, stripping the heel grip, then withdrawing the trapped leg to recover open guard.",
   "description": "Master Leg Extraction from Cross Ashi-Garami in BJJ. Systematic escape clearing crossed hooks, stripping heel grips, and recovering open guard safely.",
   "tags": [
     "bjj",
@@ -85,14 +86,6 @@
       "relationship": "Emergency defense when opponent secures heel grip during extraction"
     },
     {
-      "name": "Leg Extraction Escape from Entanglement",
-      "relationship": "Parent concept - general leg extraction principles applied to cross ashi specifically"
-    },
-    {
-      "name": "Heel Strip from Ashi Garami",
-      "relationship": "Complementary technique addressing heel grip before extraction begins"
-    },
-    {
       "name": "Boot Scoot Escape from Saddle",
       "relationship": "Secondary escape when extraction fails and opponent advances to saddle"
     },
@@ -107,10 +100,6 @@
     {
       "name": "Backside 50-50 Entry from Ashi",
       "relationship": "Alternative transition from bottom of leg entanglement hierarchy"
-    },
-    {
-      "name": "Leg Extraction from Inside Ashi",
-      "relationship": "Sibling technique - extraction from inside ashi with different clearing sequence"
     }
   ],
   "attacker": {

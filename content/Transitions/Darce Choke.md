@@ -34,6 +34,18 @@ description: "Master the Darce Choke finish in BJJ. Complete guide covering grip
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Darce Choke",
+  "description": "The Darce Choke is a no-gi blood choke finished from Darce Control, where the attacking arm threads under the opponent's near armpit and across the neck to lock a figure-four that compresses both carotid arteries against the trapped shoulder.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Darce Choke finish in BJJ. Complete guide covering grip
 
 <section id="overview" class="content-section">
 
-The Darce Choke (also known as the Brabo Choke) is a blood choke from the arm triangle family that compresses both carotid arteries using a figure-four grip configuration. Named after Joe D'Arce who popularized the technique in modern grappling, this submission is executed from Darce Control where the attacking arm threads under the opponent's near armpit, across the back of their neck, and locks onto the attacker's own bicep. The choking mechanism creates a tight triangle of pressure using the attacker's arms and the opponent's own trapped shoulder.
+**The Darce Choke is a no-gi blood choke finished from Darce Control, where the attacking arm threads under the opponent's near armpit and across the neck to lock a figure-four that compresses both carotid arteries against the trapped shoulder.**
+
+Named after Joe D'Arce, who popularized it across modern no-gi grappling, the Darce sits within the arm triangle family alongside the anaconda choke and the traditional arm triangle. Executed from Darce Control, the attacking arm threads under the opponent's near armpit, across the back of their neck, and locks onto the attacker's own bicep, building a figure-four that compresses both carotid arteries. The choking mechanism creates a tight triangle of pressure using the attacker's arms and the opponent's own trapped shoulder as the critical fulcrum.
 
 This technique represents the finishing sequence after Darce Control has been established. The finish requires precise hip positioning, shoulder pressure, and grip tightening to create the necessary compression on the carotid arteries. Unlike many chokes that rely primarily on arm strength, the Darce Choke uses body positioning and structural pressure to generate the force needed for submission. The opponent's trapped arm acts as the critical fulcrum that enables the strangle.
 
@@ -62,8 +76,9 @@ The Darce Choke is particularly effective because it attacks from a position whe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Darce Choke]] | 65% |
-| Failure | [[Positions/Darce Control]] | 25% |
+| Success | [[game-over]] | 60% |
+| Failure | [[Positions/Darce Control]] | 22% |
+| Failure | [[Transitions/Darce Choke]] | 8% |
 | Counter | [[Positions/Half Guard]] | 10% |
 
 

@@ -34,6 +34,18 @@ description: "Master the Overhook Strip from Diamond Guard in BJJ. Learn systema
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Overhook Strip from Diamond Guard",
+  "description": "The Overhook Strip from Diamond Guard is a top-player grip-stripping transition that uses wrist control and circular elbow extraction to peel the overhook off one arm, degrading the diamond frame back to a passable closed guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Overhook Strip from Diamond Guard in BJJ. Learn systema
 
 <section id="overview" class="content-section">
 
-The Overhook Strip from Diamond Guard is a targeted grip-breaking technique executed by the top player when trapped inside an opponent's diamond guard configuration. Diamond guard combines an overhook on one arm with head control behind the neck, creating a self-reinforcing frame that severely limits the top player's mobility and exposes them to triangles, omoplatas, and kimuras. The overhook strip addresses the arm control component specifically, with the goal of degrading the diamond back to a standard closed guard where the top player's full defensive and passing repertoire becomes available.
+**The Overhook Strip from Diamond Guard is a top-player grip-stripping transition that uses wrist control and circular elbow extraction to peel the overhook off one arm, degrading the diamond frame back to a passable closed guard.**
+
+Diamond guard combines an overhook on one arm with head control behind the neck, creating a self-reinforcing frame that severely limits the top player's mobility and exposes them to triangles, omoplatas, and kimuras. The overhook strip addresses the arm-control component specifically, degrading the diamond back to a standard closed guard where the top player's full defensive and passing repertoire becomes available once the frame's most dangerous pillar is removed.
 
 Unlike the complete guard pass sequence that addresses both diamond controls and proceeds through guard opening to side control, the overhook strip focuses narrowly on neutralizing the overhook as a standalone objective. This distinction matters because the overhook is the more dangerous of the two diamond controls from a submission-chain perspective — it creates direct entries to triangles and omoplatas when the bottom player adjusts their grip. Removing it eliminates the guard player's highest-percentage attack pathways even if head control remains active. The technique requires precise mechanics, as the extraction phase creates a critical vulnerability window where the bottom player can transition to triangle control if the top player's arm clears without proper defensive positioning.
 

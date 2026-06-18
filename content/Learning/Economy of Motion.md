@@ -86,6 +86,18 @@ description: "Discover why the most effective BJJ players move less, not more. L
 }
 </script>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Economy of Motion",
+  "description": "Economy of motion is the BJJ principle of producing maximum positional effect with the least possible movement and energy, substituting small, precisely timed adjustments for large, explosive, wasteful actions.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
+
+
 > **Category**: Strategy
 
 
@@ -95,7 +107,9 @@ description: "Discover why the most effective BJJ players move less, not more. L
 
 ## What is Economy of Motion?
 
-Watch a black belt roll with a strong white belt and you will notice something counterintuitive: the black belt barely moves. While the white belt explodes, scrambles, grabs, and thrashes, the black belt makes small adjustments -- a hip shift here, a grip change there -- and consistently ends up in dominant position. This is economy of motion: achieving maximum effect with minimum movement and energy expenditure.
+**Economy of motion is the BJJ principle of producing maximum positional effect with the least possible movement and energy, substituting small, precisely timed adjustments for large, explosive, wasteful actions.**
+
+Watch a black belt roll with a strong white belt and you will notice something counterintuitive: the black belt barely moves. While the white belt explodes, scrambles, grabs, and thrashes, the black belt makes small adjustments -- a hip shift here, a grip change there -- and consistently ends up in dominant position. This is the visible signature of an efficient grappler: maximum effect drawn from minimum movement.
 
 Every unnecessary movement in BJJ costs energy and creates openings. When you reach for a grip you do not need, you open space your opponent can exploit. When you bridge explosively without direction, you burn energy without improving your position. When you scramble wildly, you create the very chaos that favors the less skilled grappler. The efficient player replaces large movements with small ones, replaces speed with timing, and replaces strength with leverage. They do not move until moving accomplishes something specific.
 
@@ -207,16 +221,16 @@ A: Roll at reduced speed, limit yourself to one purposeful movement per breath, 
 <section id="related" class="content-section">
 
 ## Related
-- [[Principles/Maximum Efficiency Principle]] (Principle) - The foundational Judo principle of maximum efficiency with minimum effort that underpins economy of motion
-- [[Principles/Energy Conservation]] (Principle) - Specific strategies for conserving energy through efficient technique selection and timing
-- [[Principles/Frames]] (Principle) - Frames use skeletal structure instead of muscle, embodying the economy of motion principle in defense
-- [[Principles/Levers]] (Principle) - Lever principles multiply force, allowing small movements to create large effects
-- [[Principles/Wedges]] (Principle) - Wedges create space efficiently using body structure rather than explosive effort
-- [[Principles/Pressure]] (Principle) - Effective pressure uses body weight and positioning rather than muscular exertion
-- [[Principles/Center of Gravity]] (Principle) - Understanding center of gravity allows efficient movement with minimal displacement
-- [[Principles/Kuzushi]] (Principle) - Off-balancing through efficient redirection rather than brute force
-- [[Learning/Timing Windows]] (Learning) - Acting at the right moment is the ultimate economy -- zero wasted effort when timing is perfect
-- [[Learning/Funneling]] (Learning) - Funneling opponents into your game reduces the total movement and effort needed to win
+- [[Maximum Efficiency Principle]] (Principle) - The foundational Judo principle of maximum efficiency with minimum effort that underpins economy of motion
+- [[Energy Conservation]] (Principle) - Specific strategies for conserving energy through efficient technique selection and timing
+- [[Frames]] (Principle) - Frames use skeletal structure instead of muscle, embodying the economy of motion principle in defense
+- [[Levers]] (Principle) - Lever principles multiply force, allowing small movements to create large effects
+- [[Making Smaller Circles]] (Principle) - Reducing the radius of every motion is the literal expression of economy of motion -- smaller circles mean less wasted travel
+- [[Pressure]] (Principle) - Effective pressure uses body weight and positioning rather than muscular exertion
+- [[Center of Gravity]] (Principle) - Understanding center of gravity allows efficient movement with minimal displacement
+- [[Kuzushi]] (Principle) - Off-balancing through efficient redirection rather than brute force
+- [[Timing Windows]] (Learning) - Acting at the right moment is the ultimate economy -- zero wasted effort when timing is perfect
+- [[Funneling]] (Learning) - Funneling opponents into your game reduces the total movement and effort needed to win
 
 
 

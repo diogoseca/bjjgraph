@@ -34,6 +34,18 @@ description: "Learn to pass collar sleeve guard in BJJ. Complete guide covering 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Collar Sleeve Guard",
+  "description": "Passing the collar sleeve guard is a gi guard pass that systematically strips the opponent's cross-collar and same-side sleeve grips before driving forward through the centerline to clear the legs and establish side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn to pass collar sleeve guard in BJJ. Complete guide covering 
 </div>
 
 <section id="overview" class="content-section">
+
+**Passing the collar sleeve guard is a gi guard pass that systematically strips the opponent's cross-collar and same-side sleeve grips before driving forward through the centerline to clear the legs and establish side control.**
 
 Passing the collar sleeve guard through direct grip elimination and forward pressure is the most fundamental approach to defeating this grip-based open guard. Unlike lateral passing methods such as the toreando or leg drag that navigate around the guard player's legs, this technique strips the guard structure at its foundation by systematically breaking both controlling grips before driving through the centerline to establish side control.
 

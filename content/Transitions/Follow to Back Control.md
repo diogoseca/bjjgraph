@@ -34,6 +34,18 @@ description: "Master Follow to Back Control from Ushiro Ashi-Garami. Learn timin
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Follow to Back Control",
+  "description": "Follow to Back Control is a leg-entanglement-to-back transition where, as the opponent inverts and turns away to escape Ushiro Ashi-Garami, the attacker abandons the degrading heel hook and follows the rotation to secure dominant back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Follow to Back Control from Ushiro Ashi-Garami. Learn timin
 </div>
 
 <section id="overview" class="content-section">
+
+**Follow to Back Control is a leg-entanglement-to-back transition where, as the opponent inverts and turns away to escape Ushiro Ashi-Garami, the attacker abandons the degrading heel hook and follows the rotation to secure dominant back control.**
 
 Follow to Back Control represents a critical transitional technique from the Ushiro Ashi-Garami position when an opponent commits fully to inverting and turning away from leg entanglement attacks. Rather than forcing low-percentage heel hook attempts on a rapidly rotating opponent, this technique capitalizes on their defensive momentum by abandoning the leg attack and securing the superior back control position.
 

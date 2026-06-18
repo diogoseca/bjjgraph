@@ -34,6 +34,18 @@ description: "Master Back Take from Ashi Garami in BJJ. Step-by-step transition 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Take from Ashi",
+  "description": "Back Take from Ashi is a leg-entanglement transition where the attacker converts Inside Ashi-Garami control into back control by exploiting the opponent's forward weight commitment when they sit up or reach to defend leg attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Back Take from Ashi Garami in BJJ. Step-by-step transition 
 </div>
 
 <section id="overview" class="content-section">
+
+**Back Take from Ashi is a leg-entanglement transition where the attacker converts Inside Ashi-Garami control into back control by exploiting the opponent's forward weight commitment when they sit up or reach to defend leg attacks.**
 
 The Back Take from Ashi Garami represents a critical strategic pivot in the modern leg lock game, allowing practitioners to convert leg entanglement control into the most dominant position in Brazilian Jiu-Jitsu. When an opponent successfully defends leg attacks by hiding their heel or creates defensive frames that prevent submission finishes, the back take offers an alternative path to victory that maintains offensive momentum rather than resetting to neutral positions.
 

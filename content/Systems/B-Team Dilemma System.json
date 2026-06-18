@@ -15,6 +15,7 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
+  "summary": "The B-Team Dilemma System is Craig Jones's no-gi attacking framework that chains leg entanglements, back takes, and submissions so every defensive reaction an opponent makes opens the next threat in a perpetual lose-lose loop.",
   "overview": "The B-Team Dilemma System represents a revolutionary approach to modern no-gi grappling, built on the principle of creating perpetual lose-lose scenarios for opponents. Developed and refined by Craig Jones and the B-Team crew, this system forces opponents into making decisions where every choice leads to another dangerous position. Rather than relying on singular techniques, the system connects leg entanglements, back attacks, and submissions into an endless chain of threats that compounds pressure with each defensive reaction.\n\nAt its core, the dilemma system recognizes that elite-level opponents will defend your initial attacks. Instead of viewing defense as failure, the system treats every defensive reaction as an opportunity to transition into an even more dangerous position. When an opponent defends the outside heel hook, they expose the back take. When they defend the back take, they return to leg entanglements. This cyclical nature creates mental and physical exhaustion, as opponents realize there is no 'safe' defensive option.\n\nThe B-Team approach differs from traditional submission hunting by prioritizing positional chains over individual finishes. Success is measured not by immediate taps, but by controlling the tempo of engagement and forcing opponents into progressively worse positions until submission becomes inevitable. This methodology has proven devastatingly effective in competition, producing multiple ADCC medalists and establishing a new paradigm for systematic offensive grappling.",
   "key_principles": [
     "Every defensive reaction opens a different offensive opportunity",
@@ -367,6 +368,40 @@
       "name": "Back Attack System",
       "content_type": "System",
       "relationship": "Complementary system providing back control retention and submission techniques for second half of dilemma"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the core operating principle of the B-Team Dilemma System?",
+      "answer": "Every defensive reaction to one attack opens a different offensive opportunity, so the opponent is forced into a perpetual lose-lose chain of leg locks, back takes, and submissions with no safe defensive option."
+    },
+    {
+      "question": "How does the outside heel hook create the back-take dilemma?",
+      "answer": "When the opponent turns away to hide the heel and defend the outside heel hook, that rotation exposes their back, allowing you to insert hooks and take the back while keeping the leg entanglement as a backup option."
+    },
+    {
+      "question": "Why does the system prioritize position chains over individual submissions?",
+      "answer": "Success is measured by controlling tempo and forcing the opponent into progressively worse positions; cumulative pressure across multiple cycles degrades their defense until a finish becomes inevitable, rather than relying on a single attack landing."
+    },
+    {
+      "question": "How do you re-enter a leg entanglement from back control when the choke is defended?",
+      "answer": "Defending the rear naked choke usually forces the opponent to lower their hips and create space; you exploit that hand-fighting and hip movement to slide back into outside ashi or the saddle, re-entering the leg attack."
+    },
+    {
+      "question": "What is the most common mistake practitioners make when applying this system?",
+      "answer": "Rushing to finish individual submissions before establishing control and genuine dilemmas, which lets the opponent reset; trusting the transition chain and maintaining offensive pressure is far more effective than chasing early taps."
+    },
+    {
+      "question": "How should the 50-50 guard be used within the dilemma system?",
+      "answer": "As an active attacking platform rather than a stalling position — threatening straight ankle locks, toe holds, and calf slicers to force reactions while keeping connection to back-exposure and re-entry opportunities."
+    },
+    {
+      "question": "What role does the front headlock play in the system?",
+      "answer": "It acts as a standing and turtle-based entry point, using snap downs and go-behinds to feed into both leg entanglements and back control, connecting the takedown and scramble game to the core dilemma loops."
+    },
+    {
+      "question": "When should you commit to a finish rather than continuing to cycle?",
+      "answer": "After two to four complete cycles, once the opponent's defensive reactions slow or become predictable; identify the position they defend worst after repeated exposure and commit fully to high-percentage finishing mechanics."
     }
   ]
 }

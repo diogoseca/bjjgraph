@@ -143,6 +143,16 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hand Fighting",
+  "description": "Hand Fighting is the continuous tactical battle for upper-body control in which practitioners use hand placement, movement, and timing to establish their own grips and controls while denying the opponent theirs.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
 
 ## What is Hand Fighting?
 
-Hand Fighting represents the dynamic battle for upper body positional control through strategic management of hand positioning, engagement, and prevention. Unlike grip fighting which focuses specifically on establishing and breaking grips, hand fighting encompasses a broader tactical framework involving all aspects of upper body control through hand placement, movement, and sequencing. This concept applies across all phases of BJJ but is particularly critical in the standing phase, clinch exchanges, and upper body dominant positions. Hand fighting serves as both an offensive mechanism for establishing dominant control pathways and a defensive system for preventing opponent's preferred control structures. The ability to win the hand fighting battle often determines subsequent positional advantages and creates the foundation for effective technique application, making it one of the most fundamental yet frequently overlooked conceptual elements in BJJ.
+**Hand Fighting is the continuous tactical battle for upper-body control in which practitioners use hand placement, movement, and timing to establish their own grips and controls while denying the opponent theirs.**
+
+Often conflated with grip fighting, hand fighting operates at a broader tactical level that governs the entire upper-body control exchange. Unlike grip fighting, which focuses specifically on establishing and breaking grips, hand fighting encompasses all aspects of upper body control through hand placement, movement, and sequencing. This concept applies across all phases of BJJ but is particularly critical in the standing phase, clinch exchanges, and upper body dominant positions. Hand fighting serves as both an offensive mechanism for establishing dominant control pathways and a defensive system for preventing opponent's preferred control structures. The ability to win the hand fighting battle often determines subsequent positional advantages and creates the foundation for effective technique application, making it one of the most fundamental yet frequently overlooked conceptual elements in BJJ.
 
 </section>
 

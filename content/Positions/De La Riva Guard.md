@@ -35,6 +35,18 @@ description: "Master De La Riva Guard in BJJ. Hook-based open guard with berimbo
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "De La Riva Guard",
+  "description": "De La Riva Guard is a hook-based open guard in which the bottom player wraps a foot around the opponent's lead leg to off-balance them, opening sweeps, berimbolo back-takes, and entries to X-Guard and leg locks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -48,6 +60,8 @@ description: "Master De La Riva Guard in BJJ. Hook-based open guard with berimbo
 </div>
 
 <section id="overview" class="content-section">
+
+**De La Riva Guard is a hook-based open guard in which the bottom player wraps a foot around the opponent's lead leg to off-balance them, opening sweeps, berimbolo back-takes, and entries to X-Guard and leg locks.**
 
 De La Riva Guard (DLR) is a sophisticated open guard variation where the bottom player hooks the opponent's lead leg with their outside foot while controlling the ankle or pant with their hand on the same side. The other hand typically controls the opponent's sleeve or collar, creating a structure that limits the opponent's mobility and generates powerful sweeping leverage. This guard has become fundamental in modern BJJ, particularly for setting up berimbolo sequences, back takes, and creating connections to other guard systems.
 
@@ -119,15 +133,15 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 ### Available Transitions
 
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (11% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (10% of attempts)
 
-- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (21% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (20% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (12% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (11% of attempts)
 
 - **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (8% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (12% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (11% of attempts)
 
 - **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (6% of attempts)
 
@@ -142,6 +156,8 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 - **[[Omoplata from De La Riva Guard/Attacker|Omoplata from De La Riva Guard]]** (4% of attempts)
 
 - **[[Transitions/Triangle Setup from De La Riva/Attacker|Triangle Setup from De La Riva]]** (4% of attempts)
+
+- **[[Triangle Choke from De La Riva/Attacker|Triangle Choke from De La Riva]]** (4% of attempts)
 
 
 ### Common Mistakes

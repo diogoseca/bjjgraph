@@ -34,6 +34,18 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Gift Wrap",
+  "description": "Gift Wrap is a dominant back-control variation in BJJ where the attacker threads one arm under the defender's armpit and pins it high across their chest, stripping away half of their defensive capability.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
 </div>
 
 <section id="overview" class="content-section">
+
+**Gift Wrap is a dominant back-control variation in BJJ where the attacker threads one arm under the defender's armpit and pins it high across their chest, stripping away half of their defensive capability.**
 
 Gift Wrap is a highly dominant back control variation in Brazilian Jiu-Jitsu where the attacker isolates and controls one of the defender's arms, effectively removing half of their defensive capabilities. This position derives its name from the visual appearance of the trapped arm being 'wrapped' across the defender's body, similar to wrapping a present.
 
@@ -200,27 +214,31 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Gift Wrap/Attacker|Rear Naked Choke from Gift Wrap]]** (33% of attempts)
+- **[[Rear Naked Choke from Gift Wrap/Attacker|Rear Naked Choke from Gift Wrap]]** (30% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (8% of attempts)
 
-- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (13% of attempts)
+- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (11% of attempts)
 
-- **[[Transitions/Short Choke Attack/Attacker|Short Choke Attack]]** (7% of attempts)
+- **[[Transitions/Short Choke Attack/Attacker|Short Choke Attack]]** (6% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke Setup/Attacker|Bow and Arrow Choke Setup]]** (6% of attempts)
+- **[[Transitions/Bow and Arrow Choke Setup/Attacker|Bow and Arrow Choke Setup]]** (5% of attempts)
 
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (7% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (6% of attempts)
 
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (9% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (8% of attempts)
 
-- **[[Transitions/Kimura on Trapped Arm/Attacker|Kimura on Trapped Arm]]** (9% of attempts)
+- **[[Transitions/Kimura on Trapped Arm/Attacker|Kimura on Trapped Arm]]** (7% of attempts)
 
-- **[[Transitions/Gift Wrap Maintenance/Attacker|Gift Wrap Maintenance]]** (3% of attempts)
+- **[[Transitions/Gift Wrap Maintenance/Attacker|Gift Wrap Maintenance]]** (2% of attempts)
 
 - **[[Submissions/Gift Wrap Armbar/Attacker|Gift Wrap Armbar]]** (2% of attempts)
 
-- **[[Rear Naked Choke from Gift Wrap/Attacker|Rear Naked Choke from Gift Wrap]]** (2% of attempts)
+- **[[Gift Wrap Armbar from Gift Wrap/Attacker|Gift Wrap Armbar from Gift Wrap]]** (2% of attempts)
+
+- **[[Kimura from Gift Wrap/Attacker|Kimura from Gift Wrap]]** (7% of attempts)
+
+- **[[Short Choke from Gift Wrap/Attacker|Short Choke from Gift Wrap]]** (6% of attempts)
 
 
 ### Common Mistakes

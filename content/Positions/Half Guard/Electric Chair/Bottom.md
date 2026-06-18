@@ -21,13 +21,13 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 76% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
     {
       "@type": "HowToStep",
       "name": "Execute Straighten Leg Defense from Electric Chair",
-      "text": "From this position, attempt Straighten Leg Defense from Electric Chair. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Straighten Leg Defense from Electric Chair. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sweep from Electric Chair",
-      "text": "From this position, attempt Sweep from Electric Chair. This technique is attempted in 1% of exchanges from this position.",
+      "text": "From this position, attempt Sweep from Electric Chair. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair",
-      "text": "From this position, attempt Electric Chair. This technique is attempted in 1% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -347,7 +347,6 @@ Start in electric chair bottom position with all grips established. Bottom pract
 - **[[Positions/Twister Control/Truck]]** - Common transition target when opponent defends electric chair
 - **[[Positions/Half Guard/Deep Half Guard]]** - Alternative transition when electric chair is defended
 - **[[Positions/Half Guard/Old School]]** - Primary sweeping technique from this position
-- **[[Positions/Half Guard/Electric Chair]]** - Primary submission threat from this position
 - **[[Submissions/Banana Split]]** - Alternative name for electric chair submission finish
 - **[[Positions/Half Guard]]** - Base guard system
 - **[[Positions/Dogfight Position]]** - Transition option when underhook is strong

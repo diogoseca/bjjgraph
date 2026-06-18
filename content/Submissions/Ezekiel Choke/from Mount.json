@@ -1,5 +1,6 @@
 {
   "name": "Ezekiel Choke from Mount",
+  "summary": "The Ezekiel Choke from Mount is a gi blood choke where the top player threads a sleeve grip and drives the blade of the free forearm across the opponent's throat, using mount's gravity to compress both carotid arteries.",
   "description": "Master the Ezekiel Choke from Mount in BJJ. Learn sleeve grip mechanics, weight-driven finishing sequences, and defenses against this devastating gi blood choke.",
   "tags": [
     "bjj",
@@ -133,7 +134,7 @@
     }
   ],
   "attacker": {
-    "name": "from Mount Attacker",
+    "name": "Ezekiel Choke from Mount Attacker",
     "description": "Learn to attack with the Ezekiel Choke from mount. Step-by-step sleeve grip setup, weight-driven finishing mechanics, and strategies for maintaining mount while threatening the choke.",
     "overview": "Attacking with the Ezekiel Choke from mount combines the dominant position's crushing pressure with a submission that requires minimal telegraphing and exploits the defender's focus on more common mount threats. Unlike the cross collar choke which demands collar grip fighting, or the armbar which requires significant postural changes, the Ezekiel can be initiated from a heavy low mount with both arms close to your body, making it nearly invisible until the blade forearm crosses the throat. Your primary advantage is gravity: the mount position allows you to drive your entire body weight through the choking structure, transforming what would be a forearm squeeze into an irresistible full-body compression mechanism. The mount also provides excellent failure recovery, as an unsuccessful attempt typically leaves you in the same dominant position ready to transition to alternative attacks. Success depends on disguising the sleeve grip entry within normal mount pressure adjustments, maintaining heavy hip control throughout the attack to prevent bridge escapes, and committing decisively once the choking loop is established.",
     "key_principles": [
@@ -329,7 +330,7 @@
     ]
   },
   "defender": {
-    "name": "from Mount Defender",
+    "name": "Ezekiel Choke from Mount Defender",
     "description": "Defend the Ezekiel Choke from mount bottom. Recognize sleeve grip setups, prevent forearm placement, and counter with bridge sweeps exploiting the attacker's arm commitment.",
     "overview": "Defending the Ezekiel Choke from mount bottom compounds the challenge of an already dire positional situation with a submission threat that can develop with very little warning. As the bottom player in mount, you are already managing escape priorities and submission defense, and the Ezekiel adds a choking threat that bypasses the standard collar and arm defenses you may have prepared. Your primary defense lies in early recognition of the sleeve grip threading, which is the earliest and most reliable warning that the Ezekiel is being set up. Once you identify the threat, your defensive options split into two paths: prevent the forearm from crossing your throat through chin protection and two-on-one grip control, or exploit the attacker's arm commitment to the choke as a sweep opportunity using upa bridges. The attacker's decision to commit both arms to the choking structure removes their ability to post for balance, creating a window for bridge escapes that would not exist during normal mount control. Recognizing and exploiting this window is the key to turning the Ezekiel threat into a positional reversal opportunity.",
     "key_principles": [

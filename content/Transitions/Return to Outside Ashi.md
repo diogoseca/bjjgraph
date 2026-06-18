@@ -34,6 +34,18 @@ description: "Learn Return to Outside Ashi transition from Ushiro. Recapture sta
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Return to Outside Ashi",
+  "description": "Return to Outside Ashi is a positional recapture transition in which the top leg-locker reverses an opponent's inversion out of ushiro ashi-garami, driving the trapped knee back to re-establish the mechanically superior outside ashi-garami for heel hook finishing.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,9 +57,11 @@ description: "Learn Return to Outside Ashi transition from Ushiro. Recapture sta
 
 <section id="overview" class="content-section">
 
-Return to Outside Ashi is a positional recapture transition used when an opponent has inverted from a standard ashi-garami position, creating the reversed ushiro configuration. Rather than continuing to attack from the compromised ushiro angle, this technique reverses the opponent's hip rotation and re-establishes the mechanically superior outside ashi-garami position where heel hook and ankle lock mechanics are more straightforward.
+**Return to Outside Ashi is a positional recapture transition in which the top leg-locker reverses an opponent's inversion out of ushiro ashi-garami, driving the trapped knee back to re-establish the mechanically superior outside ashi-garami for heel hook finishing.**
 
-The transition addresses a fundamental problem in leg lock exchanges: when opponents invert to escape, the resulting ushiro configuration changes submission leverage angles and creates escape opportunities. By returning to outside ashi-garami, you restore optimal finishing mechanics while denying the opponent's escape progress. This is particularly valuable when your ushiro control is degrading or when the opponent is successfully working toward turtle recovery.
+In high-level leg lock exchanges, an opponent's inversion is rarely a clean escape — it frequently leaves you holding the reversed ushiro configuration, where finishing leverage is compromised but control is not yet lost. Returning to outside ashi addresses exactly this moment: rather than continuing to attack from the disadvantaged ushiro angle, you reverse the opponent's hip rotation and re-establish the standard outside ashi-garami where heel hook and ankle lock mechanics are more straightforward.
+
+The transition solves a fundamental problem in leg lock scrambles: when opponents invert to escape, the resulting ushiro configuration changes submission leverage angles and opens escape opportunities. By returning to outside ashi-garami, you restore optimal finishing mechanics while denying the opponent's escape progress. This is particularly valuable when your ushiro control is degrading or when the opponent is successfully working toward turtle recovery.
 
 Strategically, this transition represents a positional improvement rather than a direct submission attempt. While ushiro offers attack opportunities, outside ashi-garami provides superior hip control, clearer heel exposure, and better transition options to saddle or honey hole. Advanced practitioners recognize when maintaining ushiro is disadvantageous and proactively return to outside ashi before losing control entirely. The technique requires understanding both leg entanglement configurations and the biomechanical principles that make outside ashi preferable for most finishing sequences.
 

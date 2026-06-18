@@ -34,6 +34,18 @@ description: "Master the Sweep from Cross Ashi-Garami in BJJ. Complete guide to 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Sweep from Cross Ashi-Garami",
+  "description": "The Sweep from Cross Ashi-Garami is a bottom-player reversal that exploits the seated top player's narrow base and occupied hands, using upper-body control plus a timed bridge or sit-up to topple them and come up into Side Control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Sweep from Cross Ashi-Garami in BJJ. Complete guide to 
 
 <section id="overview" class="content-section">
 
-The Sweep from Cross Ashi-Garami is a positional reversal technique used by the bottom player in a cross ashi leg entanglement to off-balance the seated top player and come up to Side Control. This sweep exploits a fundamental structural vulnerability in the cross ashi position: the top player's base is inherently narrow because both legs are committed to controlling the entangled limb, and both hands are typically occupied with heel or ankle grips. When the bottom player can control the top player's upper body and time a powerful hip bridge or sit-up motion, the seated opponent lacks reliable posting options and can be toppled backward or laterally.
+**The Sweep from Cross Ashi-Garami is a bottom-player reversal that exploits the seated top player's narrow base and occupied hands, using upper-body control plus a timed bridge or sit-up to topple them and come up into Side Control.**
+
+Within modern leg-lock exchanges, this sweep gives the bottom player a rare offensive answer to cross ashi control: rather than grinding through a purely defensive escape, it turns the seated top player's own commitment against them and converts a dangerous bottom position into a dominant top one. The technique exploits a fundamental structural vulnerability in the cross ashi position—the top player's base is inherently narrow because both legs are committed to controlling the entangled limb, and both hands are typically occupied with heel or ankle grips. When the bottom player can control the top player's upper body and time a powerful hip bridge or sit-up motion, the seated opponent lacks reliable posting options and can be toppled backward or laterally.
 
 The sweep functions as a critical escape pathway within modern leg lock exchanges, offering the bottom player an alternative to pure leg extraction or counter-entanglement strategies. Rather than fighting to free the trapped leg—which requires overcoming the top player's primary control mechanism—the sweep redirects energy toward disrupting the top player's balance while using the entanglement itself as a fulcrum for leverage. This makes it particularly effective against opponents who become overly focused on finishing heel hooks and neglect their base maintenance. The technique rewards patience, timing, and sensitivity to weight distribution shifts rather than raw explosiveness.
 
@@ -236,8 +250,6 @@ The Sweep from Cross Ashi-Garami occupies a vital niche in the defensive leg ent
 - [[Transitions/Leg Extraction from Cross Ashi]] - Alternative escape technique focusing on freeing the trapped leg
 
 - [[Transitions/Heel Hook Defense Escape]] - Priority defensive option when immediate heel hook threat exists
-
-- [[Transitions/Counter Sweep from Outside Ashi]] - Related sweep defense concepts from the top player perspective
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative leg entanglement the bottom player can enter instead of sweeping
 

@@ -1,5 +1,6 @@
 {
   "name": "Bridge from Modified Scarf Hold",
+  "summary": "The Bridge from Modified Scarf Hold is a bottom escape that drives explosive posterior-chain hip extension, timed to the top player's weight shift, to reverse the pin into Closed Guard top or open space for guard recovery.",
   "description": "Master the bridge escape from Modified Scarf Hold in BJJ. Step-by-step bridging mechanics, timing windows, and reversal technique for escaping this pin.",
   "tags": [
     "escape",
@@ -29,7 +30,7 @@
     }
   ],
   "success_rate": 30,
-  "overview": "The Bridge from Modified Scarf Hold is a fundamental escape technique executed from the bottom of Modified Scarf Hold, leveraging hip power and explosive posterior chain mechanics to create space or achieve a full reversal against an opponent applying crushing chest-to-chest pressure. The bridge remains one of the most reliable escape tools against heavy pinning positions because it utilizes the strongest muscle groups in the body to generate upward force that disrupts the top player's base and weight distribution.\n\nThe strategic importance of this escape is significant. Modified Scarf Hold bottom is one of the most oppressive positions in BJJ, with sustained chest pressure that restricts breathing and drains energy rapidly. Without a reliable bridge escape, the bottom player faces mounting submission threats as fatigue accumulates. The bridge provides an explosive answer to this positional crisis, forcing the top player to react to powerful upward force rather than settling into comfortable attacking sequences.\n\nTiming is the critical variable separating successful bridge escapes from wasted energy. The bridge works best when the top player shifts weight, whether reaching for a submission, adjusting grips, or transitioning between positions. Bridging against a fully settled opponent with optimal weight distribution rarely succeeds and accelerates fatigue. Advanced practitioners develop the patience to wait for the correct timing window while maintaining defensive posture, then commit fully to the bridge with directional intent toward the opponent's weak posting side.",
+  "overview": "Within the bottom escape system of the side-control family, the bridge is the most powerful answer to crushing chest-to-chest pressure precisely because it recruits the strongest muscle groups in the body, the glutes, hamstrings, and spinal erectors, to generate upward force that disrupts the top player's base and weight distribution. From the bottom of Modified Scarf Hold, that explosive hip extension is channeled either into a full reversal or into the space needed to begin a secondary escape, making it a cornerstone of any complete pin-escape game.\n\nThe strategic importance of this escape is significant. Modified Scarf Hold bottom is one of the most oppressive positions in BJJ, with sustained chest pressure that restricts breathing and drains energy rapidly. Without a reliable bridge escape, the bottom player faces mounting submission threats as fatigue accumulates. The bridge provides an explosive answer to this positional crisis, forcing the top player to react to powerful upward force rather than settling into comfortable attacking sequences.\n\nTiming is the critical variable separating successful bridge escapes from wasted energy. The bridge works best when the top player shifts weight, whether reaching for a submission, adjusting grips, or transitioning between positions. Bridging against a fully settled opponent with optimal weight distribution rarely succeeds and accelerates fatigue. Advanced practitioners develop the patience to wait for the correct timing window while maintaining defensive posture, then commit fully to the bridge with directional intent toward the opponent's weak posting side.",
   "variants_and_adaptations": [
     {
       "variant_name": "Explosive Bridge and Roll",
@@ -69,32 +70,32 @@
       "relationship": "Counter outcome if opponent advances during failed bridge"
     },
     {
-      "name": "Bridge Escape from Kesa Gatame",
-      "relationship": "Similar bridge escape from related scarf hold variant"
-    },
-    {
-      "name": "Bridge Escape from Scarf Hold",
-      "relationship": "Bridge escape from traditional scarf hold position"
-    },
-    {
       "name": "Kesa Gatame",
       "relationship": "Related scarf hold position with similar escape mechanics"
-    },
-    {
-      "name": "Scarf Hold Position",
-      "relationship": "Traditional scarf hold variant requiring comparable escape tools"
-    },
-    {
-      "name": "Side Control",
-      "relationship": "Parent position family sharing escape principles"
     },
     {
       "name": "Reverse Scarf Hold",
       "relationship": "Related scarf hold variant in the same position family"
     },
     {
-      "name": "Bridge Escape from 3-4 Mount",
-      "relationship": "Bridge escape concept applied to mount position"
+      "name": "Side Control",
+      "relationship": "Parent position family sharing escape principles"
+    },
+    {
+      "name": "Kuzure Kesa-Gatame",
+      "relationship": "Alternative name for the Modified Scarf Hold this escape addresses"
+    },
+    {
+      "name": "Bridge and Roll",
+      "relationship": "Related bridge-based reversal concept applied from other pins"
+    },
+    {
+      "name": "Roll to Turtle",
+      "relationship": "Secondary escape pathway when the bridge creates space but no reversal"
+    },
+    {
+      "name": "Frame and Shrimp to Guard",
+      "relationship": "Chains from a partial bridge to recover guard"
     }
   ],
   "attacker": {

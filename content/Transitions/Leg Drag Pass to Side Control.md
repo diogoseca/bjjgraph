@@ -34,6 +34,18 @@ description: "Master the Leg Drag Pass to Side Control in BJJ. Step-by-step cons
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Drag Pass to Side Control",
+  "description": "Leg Drag Pass to Side Control is the consolidation transition in which a passer converts temporary leg-drag control into stable, scoring side control by establishing crossface and hip pressure before releasing the trapped leg.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Leg Drag Pass to Side Control in BJJ. Step-by-step cons
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Drag Pass to Side Control is the consolidation transition in which a passer converts temporary leg-drag control into stable, scoring side control by establishing crossface and hip pressure before releasing the trapped leg.**
 
 The Leg Drag Pass to Side Control represents the critical consolidation phase of the leg drag passing sequence, where you convert the transitional leg drag control into a stable, scoring side control position. This technique addresses the fundamental challenge every passer faces: maintaining positional advantage while moving through the transition period when the opponent has their best opportunity to recover guard or escape. The leg drag itself is dynamic and temporary—you cannot hold it indefinitely without advancing or losing the position.
 

@@ -33,10 +33,32 @@ description: "Master the omoplata from inverted guard in BJJ. Complete guide to 
 }
 </script>
 
-> **SAFETY**: Omoplata from Inverted Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Risk: Rotator cuff tear or strain. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Omoplata from Inverted Guard",
+  "description": "The omoplata from inverted guard is a shoulder lock that threads the attacking leg over the opponent's shoulder from an upside-down position, then uses rotational momentum to swing perpendicular and torque the trapped arm against the shoulder joint.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The omoplata from inverted guard is a shoulder lock that threads the attacking leg over the opponent's shoulder from an upside-down position, then uses rotational momentum to swing perpendicular and torque the trapped arm against the shoulder joint.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (rotator cuff, capsule, AC joint)</span>
+<span class="meta-chip">52% success</span>
+</div>
+
+> [!danger] Safety
+> Omoplata from Inverted Guard targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,61 +69,13 @@ description: "Master the omoplata from inverted guard in BJJ. Complete guide to 
 
 <section id="overview" class="content-section">
 
-The omoplata from inverted guard is an advanced shoulder lock entry that exploits the unique angles created by the inverted position. Unlike standard omoplata entries from closed guard or open guard, the inverted entry uses the practitioner's upside-down orientation to thread the attacking leg over the opponent's shoulder from an unexpected angle. This catches opponents who are focused on defending berimbolo and back take attempts, as the omoplata entry shares initial movements with those transitions.
+Disguised as a berimbolo or back take until the leg is already over the shoulder, the inverted-guard omoplata has become a high-value addition to the inverted attacking arsenal. Unlike standard omoplata entries from closed guard or open guard, the inverted entry uses the practitioner's upside-down orientation to thread the attacking leg over the opponent's shoulder from an unexpected angle. This catches opponents who are focused on defending berimbolo and back take attempts, as the omoplata entry shares initial movements with those transitions.
 
 The technique works best when the opponent reaches forward to control the inverted player's hips or legs, exposing their arm to the leg entanglement. The inverted practitioner threads their far leg over the opponent's shoulder while controlling the wrist, then uses rotational momentum from the inverted position to swing perpendicular and establish the classic omoplata finishing position. The momentum advantage from inversion makes the initial entry faster than traditional setups, though the finishing mechanics remain identical once the perpendicular position is achieved.
 
 Strategically, this technique adds a submission threat to the inverted guard position that forces opponents to respect multiple attack vectors simultaneously. When opponents must defend omoplata entries alongside berimbolo and leg entanglement threats, their defensive decision-making becomes overloaded, creating openings for all three attack categories.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (rotator cuff, capsule, AC joint)
-**Starting Position**: [[Positions/Inverted Guard]]
-**From Position**: [[Positions/Inverted Guard]] (Bottom)
-**Success Rate**: 52%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear or strain | High | 6-12 weeks for minor tears, 3-6 months for major tears |
-| AC joint separation | Medium | 4-8 weeks |
-| Shoulder capsule damage | High | 8-16 weeks |
-| Labrum tear | CRITICAL | 6-12 months with surgery |
-
-
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
-
-**Tap Signals**:
-- Verbal tap (any vocal signal)
-- Physical hand tap on opponent or mat
-- Physical foot tap on opponent or mat
-- Any distress signal or sound
-- Roll forward escape attempt (release immediately)
-
-
-**Release Protocol**:
-1. Immediately stop all forward pressure and rotation
-2. Release leg pinch on shoulder
-3. Unwind hip position to neutral
-4. Allow opponent to extract arm slowly
-5. Check for injury before continuing
-
-
-**Training Restrictions**:
-- Never spike or jerk the shoulder rotation
-- Never apply competition speed in training
-- Always allow opponent access to tap
-- Stop immediately if opponent rolls forward (escape attempt)
-- Never apply full finishing pressure until advanced belt level
-- Always control the rate of shoulder rotation
-
+**Starting Position**: [[Positions/Inverted Guard]] · **From**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -249,39 +223,62 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Omoplata]]
 - [[Submissions/Triangle Choke]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Far Side Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Inverted Guard]] - Primary starting position for this submission variant
 - [[Positions/Omoplata Control]] - Control position reached before finishing the shoulder lock
 - [[Positions/De La Riva Guard]] - Common entry guard that flows into inverted omoplata setups
 - [[Positions/Back Control]] - Alternative attack from inverted guard that creates omoplata opportunities when defended
 - [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control]] - Related dynamic omoplata variation with similar rotational mechanics
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Omoplata from Inverted Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear or strain | High | 6-12 weeks for minor tears, 3-6 months for major tears |
+| AC joint separation | Medium | 4-8 weeks |
+| Shoulder capsule damage | High | 8-16 weeks |
+| Labrum tear | CRITICAL | 6-12 months with surgery |
+
+
+**Application Speed**: SLOW and progressive - 4-6 seconds minimum pressure increase
+
+**Tap Signals**:
+- Verbal tap (any vocal signal)
+- Physical hand tap on opponent or mat
+- Physical foot tap on opponent or mat
+- Any distress signal or sound
+- Roll forward escape attempt (release immediately)
+
+
+**Release Protocol**:
+1. Immediately stop all forward pressure and rotation
+2. Release leg pinch on shoulder
+3. Unwind hip position to neutral
+4. Allow opponent to extract arm slowly
+5. Check for injury before continuing
+
+
+**Training Restrictions**:
+- Never spike or jerk the shoulder rotation
+- Never apply competition speed in training
+- Always allow opponent access to tap
+- Stop immediately if opponent rolls forward (escape attempt)
+- Never apply full finishing pressure until advanced belt level
+- Always control the rate of shoulder rotation
+
 
 </section>
 

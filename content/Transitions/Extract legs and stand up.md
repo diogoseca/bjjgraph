@@ -34,6 +34,18 @@ description: "Learn Extract Legs and Stand Up escape from 50-50 Guard. Step-by-s
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Extract legs and stand up",
+  "description": "Extract Legs and Stand Up is a defensive escape from bottom 50-50 Guard where you break grips, protect your heel, clear your trapped leg from the entanglement, and rise to standing to reset the exchange on neutral terms.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Extract Legs and Stand Up escape from 50-50 Guard. Step-by-s
 </div>
 
 <section id="overview" class="content-section">
+
+**Extract Legs and Stand Up is a defensive escape from bottom 50-50 Guard where you break grips, protect your heel, clear your trapped leg from the entanglement, and rise to standing to reset the exchange on neutral terms.**
 
 Extract Legs and Stand Up is the fundamental escape pathway from bottom 50-50 Guard when submission threats exceed your ability to reverse or counter-attack. This technique prioritizes positional safety over positional advancement, recognizing that escaping a dangerous leg entanglement to reset standing creates better opportunities than remaining in a compromised bottom position against a skilled leg locker.
 

@@ -34,6 +34,18 @@ description: "Master the Back Door Escape from Darce Control in BJJ. Step-by-ste
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Door Escape",
+  "description": "The Back Door Escape is a Darce Control escape in which the trapped defender frames on the attacker's hip and rotates backward through the gap behind the choking arm, exiting toward the attacker's back to recover open guard or turtle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Back Door Escape from Darce Control in BJJ. Step-by-ste
 
 <section id="overview" class="content-section">
 
-The Back Door Escape is a critical defensive technique used to escape from Darce Control by moving backward and around the opponent rather than attempting to fight forward through the choke. This counterintuitive escape exploits a fundamental weakness in the Darce grip structure—the attacker's control is strongest when the defender moves forward or laterally, but significantly weaker when the defender retreats toward the attacker's back.
+**The Back Door Escape is a Darce Control escape in which the trapped defender frames on the attacker's hip and rotates backward through the gap behind the choking arm, exiting toward the attacker's back to recover open guard or turtle.**
+
+Within the Darce defense hierarchy, the back door sits alongside arm extraction and the granby roll as one of the few reliable answers once the figure-four grip is locked and forward pressure begins to build. It exploits a fundamental weakness in the Darce grip structure—the attacker's control is strongest when the defender moves forward or laterally, but significantly weaker when the defender retreats toward the attacker's back, where the gap between their choking elbow and hip leaves an exit path.
 
 The technique works by recognizing that the Darce choke requires the attacker to maintain pressure perpendicular to the defender's spine. By stepping or rolling backward through the gap behind the attacker's controlling arm, the defender eliminates the choking angle and creates space to recover guard or establish turtle position. This escape is particularly effective when the Darce is being applied from a perpendicular angle rather than directly in front.
 

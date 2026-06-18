@@ -34,6 +34,18 @@ description: "Master the bridge escape from Reverse Kesa-Gatame in BJJ. Complete
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bridge from Reverse Kesa-Gatame",
+  "description": "The bridge from Reverse Kesa-Gatame is an explosive bottom escape that plants both feet and drives the hips upward toward the trapped-arm side, displacing the top player's weight to turn to turtle or recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the bridge escape from Reverse Kesa-Gatame in BJJ. Complete
 </div>
 
 <section id="overview" class="content-section">
+
+**The bridge from Reverse Kesa-Gatame is an explosive bottom escape that plants both feet and drives the hips upward toward the trapped-arm side, displacing the top player's weight to turn to turtle or recover half guard.**
 
 The bridge escape from Reverse Kesa-Gatame is a fundamental positional escape that exploits the inherent vulnerability of the reverse scarf hold: the top player's compromised base when facing toward the bottom player's legs. Unlike traditional side control escapes that rely primarily on shrimping and frame-based space creation, this escape leverages explosive hip extension to displace the top player's weight and create immediate space for positional improvement.
 
@@ -230,11 +244,13 @@ The bridge from Reverse Kesa-Gatame integrates into the broader escape hierarchy
 
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with analogous bridge escape mechanics
 
-- [[Transitions/Bridge Escape from Kesa Gatame]] - Similar bridge escape technique from traditional scarf hold
+- [[Positions/Side Control/Reverse Scarf Hold]] - Synonymous reverse scarf hold variant sharing identical escape mechanics
 
-- [[Transitions/Bridge Escape from Scarf Hold]] - Related bridge escape from scarf hold family
+- [[Transitions/Elbow Escape to Guard]] - Complementary shrimp-based escape to chain into when the bridge is stuffed
 
-- [[Transitions/Bridge Escape from Reverse Scarf Hold]] - Closely related bridge escape from reverse scarf hold variant
+- [[Transitions/Hip Escape to Guard]] - Fundamental hip escape used as a follow-up after a partial bridge
+
+- [[Transitions/Bridge and Roll]] - Higher-commitment bridging reversal available from the same position
 
 - [[Positions/Side Control]] - Parent position category for pinning escapes
 

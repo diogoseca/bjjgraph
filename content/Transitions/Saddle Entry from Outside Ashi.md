@@ -34,6 +34,18 @@ description: "Master the Saddle Entry from Outside Ashi in BJJ. Advanced counter
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Saddle Entry from Outside Ashi",
+  "description": "The Saddle Entry from Outside Ashi is a counter-entanglement transition where a practitioner whose leg is trapped in an opponent's outside ashi-garami backsteps over their body to establish their own dominant saddle control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Saddle Entry from Outside Ashi in BJJ. Advanced counter
 </div>
 
 <section id="overview" class="content-section">
+
+**The Saddle Entry from Outside Ashi is a counter-entanglement transition where a practitioner whose leg is trapped in an opponent's outside ashi-garami backsteps over their body to establish their own dominant saddle control.**
 
 The Saddle Entry from Outside Ashi-Garami is an advanced counter-entanglement technique that transforms a defensive leg lock situation into a dominant offensive position. When your leg is trapped in an opponent's outside ashi-garami, rather than simply working to extract your leg and escape, this technique allows you to rotate over the opponent's body and establish your own saddle position on their leg. This counter-offensive approach represents the highest level of leg lock defense, where the boundary between defense and offense dissolves entirely into a fluid exchange of positional control.
 

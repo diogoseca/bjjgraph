@@ -14,7 +14,8 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Collar Control represents the fundamental skill of gripping and manipulating opponent's gi collar to establish posture control, create submission opportunities, and generate powerful leverage for sweeps and transitions. Unlike specific techniques, collar control is a comprehensive conceptual framework that applies across all phases of gi BJJ, from standing exchanges to dominant control positions. This concept encompasses the mechanics of collar grip establishment, the strategic use of deep collar grips to control opponent's head and spine positioning, and the integration of collar control with choking mechanics and sweep execution. Collar control serves as both a defensive mechanism that breaks opponent's posture and prevents effective pressure application, and an offensive foundation that enables direct choke submissions and powerful leverage-based attacks. The ability to establish and maintain effective collar control often determines success in both guard positions and dominant controls, making it one of the most essential and versatile conceptual elements in gi BJJ.",
+  "summary": "Collar Control is the gi-specific skill of gripping and manipulating an opponent's collar to break posture, dictate head and spine position, and create leverage for chokes, sweeps, and transitions.",
+  "overview": "In gi jiu-jitsu the collar is the single most contested piece of fabric on the body, and the practitioners who win the grip exchanges around it tend to dictate the terms of every subsequent scramble. Unlike specific techniques, collar control is a comprehensive conceptual framework that applies across all phases of gi BJJ, from standing exchanges to dominant control positions. This concept encompasses the mechanics of collar grip establishment, the strategic use of deep collar grips to control opponent's head and spine positioning, and the integration of collar control with choking mechanics and sweep execution. Collar control serves as both a defensive mechanism that breaks opponent's posture and prevents effective pressure application, and an offensive foundation that enables direct choke submissions and powerful leverage-based attacks. The ability to establish and maintain effective collar control often determines success in both guard positions and dominant controls, making it one of the most essential and versatile conceptual elements in gi BJJ.",
   "key_principles": [
     "Establish deep collar grips penetrating to opponent's far side for maximum control",
     "Control opponent's head and spine positioning through collar manipulation",
@@ -77,9 +78,9 @@
       "description": "Deep collar grips extend into direct head control by manipulating the collar material around opponent's neck and base of skull"
     },
     {
-      "principle_name": "Sleeve Control",
+      "principle_name": "Hand Fighting",
       "relationship_type": "Complementary",
-      "description": "Collar and sleeve control work together to create comprehensive upper body control, with each grip type compensating for limitations of the other"
+      "description": "Collar and sleeve hand fighting work together to create comprehensive upper body control, with each grip type compensating for limitations of the other"
     },
     {
       "principle_name": "Frames",
@@ -87,19 +88,14 @@
       "description": "Collar control from guard positions complements frame creation by controlling opponent's posture and weight distribution, while frames maintain defensive structure when collar grips are temporarily lost"
     },
     {
-      "principle_name": "Hand Fighting",
-      "relationship_type": "Extension",
-      "description": "Collar control represents a specific strategic grip priority within the broader hand fighting framework, where winning collar access often determines the tactical direction of an exchange"
+      "principle_name": "Connection Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Effective collar control requires maintaining strong connection points while preventing opponent from breaking the connection through grip strips or position changes"
     },
     {
       "principle_name": "Control Point Hierarchy",
       "relationship_type": "Complementary",
       "description": "Collar grips represent high-value control points in the hierarchy due to their direct connection to choking mechanics and posture control"
-    },
-    {
-      "principle_name": "Connection Principles",
-      "relationship_type": "Prerequisite",
-      "description": "Effective collar control requires maintaining strong connection points while preventing opponent from breaking the connection through grip strips or position changes"
     },
     {
       "principle_name": "Levers",
@@ -385,6 +381,44 @@
       "name": "Head Position",
       "content_type": "Principle",
       "relationship": "Advanced form of control that extends from deep collar grip penetration"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the primary advantage of a deep collar grip over a shallow one?",
+      "answer": "A palm- or knuckle-deep grip seated toward the far side of the neck resists stripping, anchors the head and spine for posture control, and pre-positions the hand for chokes, while shallow grips offer little control and are easily peeled off."
+    },
+    {
+      "question": "Why must a collar grip stay active rather than passive?",
+      "answer": "A static collar grip lets the opponent keep their posture and drive forward pressure; constant pulling breaks their posture, kills their base, and forces them to react defensively instead of advancing their own position."
+    },
+    {
+      "question": "How do collar and sleeve grips work together to build comprehensive control?",
+      "answer": "The collar manages posture and head position while the sleeve removes a defending or framing arm, forming a two-point upper-body harness where each grip covers the other's weakness and dramatically limits the opponent's escape options."
+    },
+    {
+      "question": "Which submissions become available once deep collar penetration is achieved?",
+      "answer": "Deep grips unlock the cross collar choke, bow and arrow, baseball bat choke, and loop choke, plus ezekiel variations from top positions, since each of these chokes requires the hand already seated deep in the collar."
+    },
+    {
+      "question": "What is a collar drag and when is it most effective?",
+      "answer": "A collar drag pulls the opponent laterally or diagonally off their base to create an attacking angle; it works best when timed against their forward pressure and combined with footwork or hip movement to maximize displacement."
+    },
+    {
+      "question": "What is the consequence of releasing a collar grip prematurely during a transition?",
+      "answer": "Letting go mid-transition surrenders positional advantage, allows the opponent to recover posture or escape, and can hand them a counter-attack, so the grip should be held as long as possible and re-established the instant position stabilizes."
+    },
+    {
+      "question": "How should collar grip configuration differ between closed guard and side control?",
+      "answer": "Configuration must match the objective: same-side or cross-collar grips break posture and set chokes from guard, while far-side or baseball grips from side control block the turn-in and set up paper cutter and baseball chokes."
+    },
+    {
+      "question": "Why is winning the grip-fighting exchange a prerequisite for collar control?",
+      "answer": "If the opponent secures their preferred grips first, they can deny collar access and force you into reactive defense; proactive hand fighting establishes collar priority early and lets you dictate the tactical direction of the exchange."
+    },
+    {
+      "question": "What mistake do practitioners make when they overcommit to a collar choke too early?",
+      "answer": "Lunging for a choke before the grip is deep enough or the position is secure burns the attack, telegraphs intent, and often costs the dominant position; secure depth and control first, then attack only the high-percentage window."
     }
   ]
 }

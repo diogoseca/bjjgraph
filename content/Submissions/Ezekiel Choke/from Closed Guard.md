@@ -33,10 +33,32 @@ description: "Master the Ezekiel Choke from inside closed guard top. Gi sleeve g
 }
 </script>
 
-> **SAFETY**: Ezekiel Choke from Closed Guard targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to loss of consciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ezekiel Choke from Closed Guard",
+  "description": "The Ezekiel Choke from Closed Guard is a surprise gi choke the top player applies from inside the opponent's closed guard, threading one hand into the opposite sleeve and dragging the forearm blade across the throat to compress the carotid arteries.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Ezekiel Choke from Closed Guard is a surprise gi choke the top player applies from inside the opponent's closed guard, threading one hand into the opposite sleeve and dragging the forearm blade across the throat to compress the carotid arteries.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">58% success</span>
+</div>
+
+> [!danger] Safety
+> Ezekiel Choke from Closed Guard targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,54 +75,7 @@ What makes this variant uniquely effective is the element of surprise combined w
 
 The trade-off is significant positional risk. Setting up the Ezekiel requires deliberately compromising top posture, the very thing that keeps you safe in closed guard. A failed attempt leaves you broken down with no posture, vulnerable to hip bump sweeps, triangles, armbars, and guillotines. This high-risk, high-reward dynamic demands precise timing, commitment, and the discipline to abandon the attempt and recover posture when the setup is recognized early.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Closed Guard]] (Top)
-**Success Rate**: 58%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly, potential complications if held too long |
-| Trachea damage from improper blade angle | Medium | 1-2 weeks for minor trauma, longer for severe damage |
-| Neck strain from resisting or jerking movements | Low | 3-7 days |
-| Jaw injury from improper forearm placement | Low | 1-2 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum. Blood chokes should never be spiked or jerked. Apply steady, increasing pressure and release immediately upon tap.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on partner or mat (multiple rapid taps)
-- Physical foot tap on mat or partner
-- Any unusual sound or loss of resistance (immediate release required)
-
-
-**Release Protocol**:
-1. Immediately release blade hand grip upon tap signal
-2. Remove forearm pressure from neck completely
-3. Maintain position briefly to ensure partner is conscious and oriented
-4. Allow partner to recover without immediate movement requirements
-5. Check partner's verbal confirmation they are okay before continuing training
-
-
-**Training Restrictions**:
-- Never apply sudden or jerking pressure to the choke
-- Never hold the choke after tap signal for any reason
-- Never practice on partners with known neck injuries without explicit medical clearance
-- Never apply full pressure during initial learning phase (use 20-30% pressure maximum)
-- Always ensure partner has clear access to tap with at least one hand
-- Never combine with violent bridging or explosive movements
-
+**Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Top)
 
 </section>
 
@@ -264,39 +239,59 @@ The trade-off is significant positional risk. Setting up the Ezekiel requires de
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Guillotine Choke]]
 - [[Transitions/Darce Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Closed Guard]] - Starting position where this submission is executed from top
-- [[Submissions/Ezekiel Choke]] - Parent submission family with shared sleeve grip mechanics
 - [[Positions/Mount]] - Traditional and higher percentage position for Ezekiel Choke attacks
-- [[Submissions/Cross Collar Choke]] - Alternative gi choke available from closed guard top position
 - [[Positions/Half Guard]] - Alternative position where similar Ezekiel sleeve grip mechanics apply
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Ezekiel Choke from Closed Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to loss of consciousness | High | Immediate recovery if released promptly, potential complications if held too long |
+| Trachea damage from improper blade angle | Medium | 1-2 weeks for minor trauma, longer for severe damage |
+| Neck strain from resisting or jerking movements | Low | 3-7 days |
+| Jaw injury from improper forearm placement | Low | 1-2 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum. Blood chokes should never be spiked or jerked. Apply steady, increasing pressure and release immediately upon tap.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on partner or mat (multiple rapid taps)
+- Physical foot tap on mat or partner
+- Any unusual sound or loss of resistance (immediate release required)
+
+
+**Release Protocol**:
+1. Immediately release blade hand grip upon tap signal
+2. Remove forearm pressure from neck completely
+3. Maintain position briefly to ensure partner is conscious and oriented
+4. Allow partner to recover without immediate movement requirements
+5. Check partner's verbal confirmation they are okay before continuing training
+
+
+**Training Restrictions**:
+- Never apply sudden or jerking pressure to the choke
+- Never hold the choke after tap signal for any reason
+- Never practice on partners with known neck injuries without explicit medical clearance
+- Never apply full pressure during initial learning phase (use 20-30% pressure maximum)
+- Always ensure partner has clear access to tap with at least one hand
+- Never combine with violent bridging or explosive movements
+
 
 </section>
 

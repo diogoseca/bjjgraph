@@ -1,5 +1,6 @@
 {
   "name": "Sweep from Electric Chair",
+  "summary": "The Sweep from Electric Chair is a high-percentage lockdown half-guard reversal that exploits the position's split-or-be-swept dilemma to roll the top player over their trapped leg and arrive in dominant mount.",
   "description": "Master the Sweep from Electric Chair in BJJ. Complete lockdown sweep guide covering setup, execution mechanics, and defensive counters for all levels.",
   "tags": [
     "bjj",
@@ -30,7 +31,7 @@
     }
   ],
   "success_rate": 48,
-  "overview": "The Sweep from Electric Chair is the primary positional reversal from the lockdown half guard system, converting the bottom Electric Chair position into dominant mount. This technique capitalizes on the splitting pressure and structural off-balance created by the lockdown configuration, using coordinated hip extension, underhook leverage, and ankle control to roll the opponent over their trapped leg and come up to top position. The sweep represents the culmination of the Electric Chair attack sequence, where submission pressure naturally transitions into sweeping momentum.\n\nThe technique's effectiveness derives from the fundamental dilemma inherent in the Electric Chair position. As the bottom player extends their hips and splits the opponent's legs apart, the top player faces an impossible choice: defend the crotch-splitting submission by pulling their leg inward, which shifts their weight and creates the momentum needed for the sweep, or base out to prevent the sweep, which increases their exposure to the submission finish. This binary threat structure makes the sweep one of the highest-percentage reversals available from bottom half guard.\n\nExecution requires precise coordination between three control points working simultaneously. The lockdown leg configuration maintains constant tension on the trapped leg, preventing extraction. The deep underhook reaching across the opponent's back provides the primary sweeping lever and upper body control. The hand controlling the opponent's near ankle creates the splitting action that drives the entire mechanism. When these three points are engaged and the bottom player commits to a powerful hip extension while driving the underhook across, the opponent's base collapses and the sweep follows naturally as they roll over their compromised trapped leg.",
+  "overview": "Within the 10th Planet lockdown system, this sweep is the payoff that justifies hunting the Electric Chair in the first place. It capitalizes on the splitting pressure and structural off-balance created by the lockdown configuration, using coordinated hip extension, underhook leverage, and ankle control to roll the opponent over their trapped leg and come up to top position. The sweep represents the culmination of the Electric Chair attack sequence, where submission pressure naturally transitions into sweeping momentum.\n\nThe technique's effectiveness derives from the fundamental dilemma inherent in the Electric Chair position. As the bottom player extends their hips and splits the opponent's legs apart, the top player faces an impossible choice: defend the crotch-splitting submission by pulling their leg inward, which shifts their weight and creates the momentum needed for the sweep, or base out to prevent the sweep, which increases their exposure to the submission finish. This binary threat structure makes the sweep one of the highest-percentage reversals available from bottom half guard.\n\nExecution requires precise coordination between three control points working simultaneously. The lockdown leg configuration maintains constant tension on the trapped leg, preventing extraction. The deep underhook reaching across the opponent's back provides the primary sweeping lever and upper body control. The hand controlling the opponent's near ankle creates the splitting action that drives the entire mechanism. When these three points are engaged and the bottom player commits to a powerful hip extension while driving the underhook across, the opponent's base collapses and the sweep follows naturally as they roll over their compromised trapped leg.",
   "conditions": [
     "Lockdown must be fully established with tight figure-four leg configuration trapping opponent's near leg",
     "Deep underhook must be secured reaching across opponent's back to their far lat or belt region",
@@ -90,7 +91,7 @@
       "relationship": "Transition option when underhook is maintained but lockdown is lost"
     },
     {
-      "name": "Old School Sweep",
+      "name": "Old School",
       "relationship": "Related sweep from the same lockdown system with different mechanics"
     },
     {
@@ -102,8 +103,8 @@
       "relationship": "Primary defensive counter used by the top player against this sweep"
     },
     {
-      "name": "Electric Chair Entry from Deep Half",
-      "relationship": "Entry pathway into the source position for this sweep"
+      "name": "Deep Half Entry",
+      "relationship": "Entry pathway into the lockdown system feeding the source position for this sweep"
     }
   ],
   "attacker": {

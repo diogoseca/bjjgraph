@@ -96,6 +96,22 @@ description: "Master the attacker's approach to Cross Body to Side Control. Step
     },
     {
       "@type": "Question",
+      "name": "What grips or control points must you secure before initiating the flatten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before driving the flatten, you need upper body control that prevents the opponent from standing—a harness/seatbelt grip or a deep overhook—plus a near-side control point on their far hip or far armpit. The far-hip control is the non-negotiable grip: without it the opponent simply rotates their hips and recovers guard the instant you commit weight forward."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "In which direction should your weight and force travel during the collapse and slide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Force travels downward through your shoulder into the opponent's near-side shoulder blade to buckle their posting arm, angled slightly toward their head by walking your feet up. Once they collapse, your weight travels laterally along their spine as your chest slides from their back to their chest—down first to break the structure, then sideways to settle into side control, never forward past their head where you can be rolled."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Your opponent begins executing a granby roll as you initiate the flatten—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -108,22 +124,6 @@ description: "Master the attacker's approach to Cross Body to Side Control. Step
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Far hip control is the primary structural element preventing guard recovery. Without it, the opponent can freely rotate their hips, insert a knee between your bodies, and recover half guard or full guard. Establishing far hip control with your near-side hand or knee before initiating the flatten ensures the most common counter—guard recovery through hip rotation—is blocked."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is it an error to lift your chest during the transition from back contact to chest contact?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Lifting your chest creates a gap between your body and the opponent's body. Even a momentary gap allows the opponent to insert frames, re-establish their turtle posting structure, execute a sit-through to guard recovery, or initiate a scramble. The transition must be executed as a continuous slide where your chest maintains unbroken contact, transferring from their back to their chest without separation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What distinguishes the knee block from other hip control methods during this transition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The near-side knee block creates a physical barrier at the opponent's far hip that passively prevents knee insertion for guard recovery. Unlike hand-based hip control which requires grip strength and can be stripped, the knee block uses skeletal structure to maintain the barrier. This frees your hands to establish crossface and underhook control while the knee handles hip management automatically."
       }
     }
   ]

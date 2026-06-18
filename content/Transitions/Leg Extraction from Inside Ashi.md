@@ -34,6 +34,18 @@ description: "Learn the leg extraction escape from Inside Ashi-Garami in BJJ. St
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Extraction from Inside Ashi",
+  "description": "Leg Extraction from Inside Ashi is the fundamental defensive escape that frees a trapped leg from Inside Ashi-Garami by first stripping the opponent's heel control, then clearing their inside and outside leg hooks to recover a safe Open Guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn the leg extraction escape from Inside Ashi-Garami in BJJ. St
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Extraction from Inside Ashi is the fundamental defensive escape that frees a trapped leg from Inside Ashi-Garami by first stripping the opponent's heel control, then clearing their inside and outside leg hooks to recover a safe Open Guard.**
 
 Leg Extraction from Inside Ashi-Garami is one of the most fundamental defensive techniques in the modern leg lock game. When your leg is trapped in the inside ashi configuration, the opponent controls your heel and knee line while threatening straight ankle locks, heel hooks, and transitions to more dominant entanglements like saddle or honey hole. The extraction process centers on systematically removing the control points that keep your leg trapped—primarily the opponent's inside leg across your hip and their outside leg hooking behind your knee—while protecting your heel from submission attempts throughout the escape.
 
@@ -231,8 +245,6 @@ Leg Extraction from Inside Ashi-Garami is the primary defensive escape within th
 
 - [[Positions/Ashi Garami]] - Parent position family governing leg entanglement mechanics
 
-- [[Transitions/Heel Hook Defense Escape]] - Complementary defensive technique addressing heel hook submissions specifically
-
 - [[Positions/Leg Entanglement]] - Conceptual framework governing all leg lock positions and escapes
 
 - [[Positions/Ashi Garami/Saddle]] - Advanced entanglement that opponent may transition to if extraction is slow
@@ -247,7 +259,7 @@ Leg Extraction from Inside Ashi-Garami is the primary defensive escape within th
 
 - [[Transitions/Counter Entangle to 50-50 from Ashi]] - Offensive alternative to extraction that creates counter-entanglement
 
-- [[Transitions/Inversion Escape from Leg Entanglement]] - Alternative escape method using inversion to clear entanglement
+- [[Transitions/Guard Recovery from Inside Ashi-Garami]] - Companion guard-recovery transition reaching Open Guard from the same entanglement
 
 
 </section>

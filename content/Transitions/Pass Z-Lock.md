@@ -34,6 +34,18 @@ description: "Master passing Z-Lock Half Guard in BJJ. Systematic approach to ne
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Z-Lock",
+  "description": "Pass Z-Lock is a half guard pass that defeats the Z-Lock by establishing crossface and shoulder pressure, sequentially stripping the lockdown hook then the butterfly element, and cutting the knee through to side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master passing Z-Lock Half Guard in BJJ. Systematic approach to ne
 
 <section id="overview" class="content-section">
 
-Pass Z-Lock is a systematic guard passing sequence designed to defeat the Z-Lock Half Guard configuration, an advanced lockdown variation that combines traditional lockdown mechanics with a butterfly hook element forming a characteristic Z-shape with the legs. The Z-Lock creates dual-threat defense by simultaneously controlling the trapped leg through lockdown tension and managing distance through the butterfly hook, making it one of the more difficult half guard variations to pass cleanly. The pass requires methodical upper body control establishment followed by systematic dismantling of the leg configuration before completing the advance to side control.
+**Pass Z-Lock is a half guard pass that defeats the Z-Lock by establishing crossface and shoulder pressure, sequentially stripping the lockdown hook then the butterfly element, and cutting the knee through to side control.**
+
+Within the half guard passing hierarchy, Pass Z-Lock answers one of the most technically demanding lockdown variations a top player encounters. The Z-Lock Half Guard combines traditional lockdown mechanics with a butterfly hook element that forms a characteristic Z-shape with the legs, creating dual-threat defense by simultaneously controlling the trapped leg through lockdown tension and managing distance through the butterfly hook. This makes it one of the more difficult half guard variations to pass cleanly, and the pass requires methodical upper body control establishment followed by systematic dismantling of the leg configuration before completing the advance to side control.
 
 The fundamental challenge lies in the Z-Lock's dual-leg defense system. Unlike a standard lockdown where breaking one connection frees the leg, the Z-Lock requires neutralizing both the lockdown hook and the butterfly element in sequence without creating space for the bottom player to recover or initiate sweeps. The passer must maintain constant shoulder pressure throughout the extraction process to prevent the bottom player from re-establishing the Z-Lock configuration or transitioning to alternative guard variations like deep half or standard knee shield.
 
@@ -234,10 +248,6 @@ Pass Z-Lock sits within the broader half guard passing system as a specialized r
 - [[Positions/Half Guard/Flattened Half Guard]] - Intermediate position created when passer successfully breaks Z-Lock tension but hasn't completed the pass
 
 - [[Positions/Half Guard/Deep Half Guard]] - Common escape target for bottom player when Z-Lock retention fails under pressure
-
-- [[Transitions/Escape Z-Lock Half Guard]] - Defender's primary technique for recovering from compromised Z-Lock position
-
-- [[Transitions/Lockdown Break from Z-Lock]] - Related technique focused specifically on breaking the lockdown component of the Z-Lock
 
 - [[Positions/Headquarters Position]] - Alternative passing hub position accessible if passer extracts leg but doesn't complete the pass
 

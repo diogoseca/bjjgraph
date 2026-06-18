@@ -34,6 +34,18 @@ description: "Master the Matrix to Back Control counter in BJJ. Follow your oppo
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Matrix to Back Control",
+  "description": "Matrix to Back Control is a top-position counter where, instead of resisting your opponent's Matrix rolling back take, you follow their rotation and ride its momentum to their exposed back, arriving with hooks and seatbelt control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Matrix to Back Control counter in BJJ. Follow your oppo
 
 <section id="overview" class="content-section">
 
-The Matrix to Back Control is a high-level counter-transition executed from the top position when the opponent initiates a Matrix rolling back take. Rather than simply defending the rotation by sprawling or widening base, the top player reads the entry, follows the rotational movement, and capitalizes on the brief window when the bottom player's back becomes exposed during their inverted roll. This technique converts a defensive scenario into the most dominant position in Brazilian Jiu-Jitsu.
+**Matrix to Back Control is a top-position counter where, instead of resisting your opponent's Matrix rolling back take, you follow their rotation and ride its momentum to their exposed back, arriving with hooks and seatbelt control.**
+
+This counter-transition flips the most dangerous moment of a Matrix attack into the top player's best opportunity. Rather than simply defending the rotation by sprawling or widening base, the top player reads the entry, follows the rotational movement, and capitalizes on the brief window when the bottom player's back becomes exposed during their inverted roll. The technique converts a defensive scenario into the most dominant position in Brazilian Jiu-Jitsu.
 
 The critical insight underlying this transition is that the Matrix rotation, while powerful when properly timed, necessarily exposes the attacker's back during the inversion phase. A top player who recognizes the Matrix entry early enough can match the rotation speed, maintain chest-to-back proximity, and begin inserting hooks while the bottom player is still mid-roll and unable to defend. The rotational momentum that makes the Matrix effective becomes the very mechanism that delivers the top player to back control.
 

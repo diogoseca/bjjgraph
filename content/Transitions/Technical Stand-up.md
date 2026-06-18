@@ -34,6 +34,18 @@ description: "Master Technical Stand-up in BJJ. Essential escape from bottom to 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technical Stand-up",
+  "description": "The Technical Stand-up is a foundational BJJ escape that takes the bottom player from seated guard to a balanced standing base, using a posting hand, lead-leg barrier, and explosive hip elevation to deny the opponent any chance to capitalize.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Technical Stand-up in BJJ. Essential escape from bottom to 
 
 <section id="overview" class="content-section">
 
-The Technical Stand-up is a fundamental defensive movement in Brazilian Jiu-Jitsu that allows a practitioner to safely transition from a seated or grounded position to standing. This technique is essential for guard recovery, creating distance from an aggressive opponent, and resetting to a neutral standing position. The movement emphasizes proper base maintenance, hip positioning, and hand placement to prevent being taken down or swept during the transition. Unlike a simple stand-up, the technical version uses specific biomechanical principles to maintain defensive posture throughout the movement, making it extremely difficult for an opponent to capitalize on the transition.
+**The Technical Stand-up is a foundational BJJ escape that takes the bottom player from seated guard to a balanced standing base, using a posting hand, lead-leg barrier, and explosive hip elevation to deny the opponent any chance to capitalize.**
+
+In modern guard-based grappling, the ability to return to the feet on your own terms is what keeps the bottom player from being trapped under sustained passing pressure — and the technical stand-up is the primary tool for that reset. This technique is essential for guard recovery, creating distance from an aggressive opponent, and resetting to a neutral standing position. The movement emphasizes proper base maintenance, hip positioning, and hand placement to prevent being taken down or swept during the transition. Unlike a simple stand-up, the technical version uses specific biomechanical principles to maintain defensive posture throughout the movement, making it extremely difficult for an opponent to capitalize on the transition.
 
 The technique is particularly valuable in self-defense scenarios, scrambles, and situations where re-establishing guard is not immediately possible. The tripod base structure — posting hand, lead foot, and trail foot — creates a mechanically sound platform that distributes force across three contact points, giving you stability even under forward pressure. The lead leg barrier principle is borrowed from wrestling, where the knee-up position simultaneously blocks opponent advancement and provides a launching platform for the hip elevation phase.
 

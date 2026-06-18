@@ -1,7 +1,15 @@
 {
   "name": "Committed Techniques",
   "description": "Learn why choosing BJJ techniques with high position retention on failure separates smart grapplers from reckless ones. Favor moves that keep you safe when they do not work.",
-  "tags": ["bjj", "strategy", "risk-management", "position-retention", "technique-selection", "decision-making"],
+  "summary": "A committed technique is one whose failure returns you to your starting position or better, while a speculative technique surrenders position when it fails -- committed selection weighs the cost of failure, not just the odds of success.",
+  "tags": [
+    "bjj",
+    "strategy",
+    "risk-management",
+    "position-retention",
+    "technique-selection",
+    "decision-making"
+  ],
   "category": "Strategy",
   "overview": "Every technique in BJJ carries a cost on failure. An armbar from mount that does not finish usually returns you to mount -- cost is near zero. A flying armbar that does not finish dumps you to bottom with your opponent in your guard or worse -- cost is enormous. Committed technique selection means evaluating not just how likely a move is to work, but what happens when it does not.\n\nThis concept sits at the intersection of positional awareness and risk management. A technique with 30% success rate from mount that returns you to mount on the other 70% is far more valuable across a match than a technique with 50% success rate that lands you on bottom half the time. Over ten attempts, the first technique finishes three times and keeps you in mount seven times. The second finishes five times but leaves you fighting from bottom five times. The first is the smarter bet in almost every context.\n\nThe key question to ask about any technique is: 'Where do I end up if this fails?' If the answer is 'roughly where I started,' you have a committed technique with high position retention. If the answer is 'significantly worse than where I started,' you have a speculative technique that should be reserved for specific situations -- last-minute desperation in competition, significant skill advantage, or when the risk is justified by the reward.",
   "key_takeaways": [
@@ -103,42 +111,42 @@
   ],
   "related_content": [
     {
-      "name": "Learning/Position Over Submission",
+      "name": "Position Over Submission",
       "content_type": "Learning",
       "relationship": "Position-first strategy relies on choosing committed techniques that retain dominant positions"
     },
     {
-      "name": "Learning/Probabilistic Thinking",
+      "name": "Probabilistic Thinking",
       "content_type": "Learning",
       "relationship": "Evaluating techniques by their expected value including failure outcomes"
     },
     {
-      "name": "Principles/Positional Hierarchy",
+      "name": "Positional Hierarchy",
       "content_type": "Principle",
       "relationship": "Understanding the positional ladder helps assess the cost of technique failure"
     },
     {
-      "name": "Principles/Control Maintenance",
+      "name": "Control Maintenance",
       "content_type": "Principle",
       "relationship": "Committed techniques inherently support control maintenance because they do not sacrifice position"
     },
     {
-      "name": "Principles/Base",
+      "name": "Base",
       "content_type": "Principle",
       "relationship": "Good base allows you to attempt committed techniques without losing balance or position"
     },
     {
-      "name": "Positions/Mount",
+      "name": "Mount",
       "content_type": "Position",
       "relationship": "The classic position where committed technique selection matters most due to the value of mount retention"
     },
     {
-      "name": "Positions/Side Control",
+      "name": "Side Control",
       "content_type": "Position",
       "relationship": "Multiple committed submission options available that retain the side control position"
     },
     {
-      "name": "Positions/Back Control",
+      "name": "Back Control",
       "content_type": "Position",
       "relationship": "Back control offers committed choke attacks where failure typically retains the back position"
     }

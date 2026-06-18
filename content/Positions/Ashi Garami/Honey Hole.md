@@ -34,6 +34,18 @@ description: "Master Honey Hole position in BJJ. Advanced leg entanglement with 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Honey Hole",
+  "description": "Honey Hole is a dominant inside leg entanglement (inside sankaku) where one player traps the opponent's leg in an inside leg triangle, pinning the hip and unlocking direct heel hook, kneebar, and toe hold attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Honey Hole position in BJJ. Advanced leg entanglement with 
 </div>
 
 <section id="overview" class="content-section">
+
+**Honey Hole is a dominant inside leg entanglement (inside sankaku) where one player traps the opponent's leg in an inside leg triangle, pinning the hip and unlocking direct heel hook, kneebar, and toe hold attacks.**
 
 Honey Hole position, also known as Inside Sankaku, Saddle, or 4/11, represents one of the most dominant and dangerous leg entanglement positions in modern Brazilian Jiu-Jitsu. This position features an inside leg configuration where one practitioner traps their opponent's leg between their own legs with an inside leg triangle, creating mechanical control that severely limits escape options while providing direct access to heel hooks, kneebars, and toe holds.
 
@@ -208,25 +222,27 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Honey Hole/Attacker|Outside Heel Hook from Honey Hole]]** (12% of attempts)
+- **[[Outside Heel Hook from Honey Hole/Attacker|Outside Heel Hook from Honey Hole]]** (10% of attempts)
 
-- **[[Heel Hook from Honey Hole/Attacker|Heel Hook from Honey Hole]]** (42% of attempts)
+- **[[Heel Hook from Honey Hole/Attacker|Heel Hook from Honey Hole]]** (37% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (14% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (12% of attempts)
 
-- **[[Toe Hold from Honey Hole/Attacker|Toe Hold from Honey Hole]]** (8% of attempts)
+- **[[Toe Hold from Honey Hole/Attacker|Toe Hold from Honey Hole]]** (7% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (14% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (12% of attempts)
 
-- **[[Estima Lock from Honey Hole/Attacker|Estima Lock from Honey Hole]]** (3% of attempts)
+- **[[Estima Lock from Honey Hole/Attacker|Estima Lock from Honey Hole]]** (2% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (3% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (2% of attempts)
 
 - **[[Calf Slicer from Honey Hole/Attacker|Calf Slicer from Honey Hole]]** (2% of attempts)
 
-- **[[Transitions/Honey Hole to Saddle/Attacker|Honey Hole to Saddle]]** (1% of attempts)
+- **[[Transitions/Honey Hole to Saddle/Attacker|Honey Hole to Saddle]]** (2% of attempts)
 
-- **[[Inside Heel Hook from Honey Hole/Attacker|Inside Heel Hook from Honey Hole]]** (1% of attempts)
+- **[[Inside Heel Hook from Honey Hole/Attacker|Inside Heel Hook from Honey Hole]]** (2% of attempts)
+
+- **[[Kneebar from Honey Hole/Attacker|Kneebar from Honey Hole]]** (12% of attempts)
 
 
 ### Common Mistakes

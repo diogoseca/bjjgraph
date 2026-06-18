@@ -1,6 +1,7 @@
 {
   "name": "Spinning Armbar from Closed Guard",
   "description": "Master the Spinning Armbar from Closed Guard in BJJ. Complete guide to this dynamic rotational armbar entry with attack strategies and defensive counters.",
+  "summary": "The Spinning Armbar from Closed Guard is a dynamic bottom attack where you isolate the opponent's arm, break their posture, and rotate your hips underneath to finish a hyperextending elbow lock when standard armbar entries are stuffed.",
   "tags": [
     "bjj",
     "submission",
@@ -153,7 +154,7 @@
     }
   ],
   "attacker": {
-    "name": "from Closed Guard Attacker",
+    "name": "Spinning Armbar from Closed Guard Attacker",
     "description": "How to execute the Spinning Armbar from Closed Guard in BJJ. Attacking perspective with setup, rotation mechanics, and finishing details.",
     "overview": "The Spinning Armbar from Closed Guard is a dynamic and versatile submission technique that targets the elbow joint through rotational movement. Unlike traditional static armbars, this technique involves spinning your entire body around the opponent's arm to create a finishing angle, making it particularly effective when standard armbar entries are defended or unavailable. The spinning motion generates momentum that can overcome defensive postures and creates multiple entry points from various positions including mount, guard, scrambles, and standing situations. This submission requires precise timing, spatial awareness, and fluid hip movement to execute successfully. The technique's effectiveness lies in its ability to catch opponents off-guard through the unexpected rotational attack vector, bypassing traditional armbar defenses that focus on preventing hip movement or protecting the arm statically. Mastery of the spinning armbar opens up offensive opportunities from seemingly neutral positions and creates a constant submission threat that keeps opponents defensive and reactive throughout the match.",
     "key_principles": [
@@ -367,7 +368,7 @@
     ]
   },
   "defender": {
-    "name": "from Closed Guard Defender",
+    "name": "Spinning Armbar from Closed Guard Defender",
     "description": "How to defend against the Spinning Armbar from Closed Guard in BJJ. Recognition cues, escape paths, and defensive strategies.",
     "overview": "Defending the spinning armbar requires early recognition of the rotational setup and immediate intervention before the attacker completes their spin. The spinning armbar is particularly dangerous because it generates angular momentum that compounds through the movement, making late-stage defense extremely difficult. Unlike static armbar defense where you can fight incrementally against extension pressure, the spinning armbar demands proactive defense during the initiation and rotation phases rather than reactive defense after the attacker has landed in position.\n\nThe defender's primary advantage is that the spinning armbar requires significant commitment from the attacker - once the spin begins, the attacker cannot easily abort without sacrificing position. This commitment creates defensive windows where following the rotation, posturing aggressively, or attacking the exposed limbs of the spinning attacker can neutralize the submission and potentially reverse the position. Understanding the biomechanics of the spin reveals that the attacker is most vulnerable during the middle of their rotation when they are between positions and cannot generate finishing pressure.\n\nDefensive strategy follows a time-based hierarchy: prevent the initial arm isolation (earliest and most effective), disrupt the rotation by maintaining posture or following the spin (mid-stage defense), and finally stack or extract the arm after the attacker lands (late-stage emergency defense). Each successive stage is harder to execute and carries greater risk, reinforcing that early recognition is the most valuable defensive skill against this technique.",
     "key_principles": [

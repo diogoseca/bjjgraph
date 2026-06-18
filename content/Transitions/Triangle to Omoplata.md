@@ -34,6 +34,18 @@ description: "Learn the Triangle to Omoplata transition in BJJ. Convert failed t
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle to Omoplata",
+  "description": "Triangle to Omoplata is a guard submission chain that converts a defended triangle choke into an omoplata shoulder lock, exploiting the opponent's forward-driving stack defense to swing a leg over their back and isolate the trapped arm.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn the Triangle to Omoplata transition in BJJ. Convert failed t
 
 <section id="overview" class="content-section">
 
-The Triangle to Omoplata transition is a fundamental submission chain that exploits the opponent's defensive reactions to the triangle choke. When an opponent successfully defends the triangle by posturing, stacking, or driving forward, the bottom player can seamlessly transition to an omoplata shoulder lock by releasing the triangle configuration and capturing the trapped arm with a leg swing over the opponent's back. This transition represents a core principle in modern guard work: using the opponent's escape attempts to create new attacking opportunities.
+**Triangle to Omoplata is a guard submission chain that converts a defended triangle choke into an omoplata shoulder lock, exploiting the opponent's forward-driving stack defense to swing a leg over their back and isolate the trapped arm.**
+
+Within the triangle attack system, the Triangle to Omoplata transition is the answer to one of the most common defensive reactions—the forward stack. When an opponent successfully defends the triangle by posturing, stacking, or driving forward, the bottom player can seamlessly transition to an omoplata shoulder lock by releasing the triangle configuration and capturing the trapped arm with a leg swing over the opponent's back. This transition represents a core principle in modern guard work: using the opponent's escape attempts to create new attacking opportunities.
 
 The technique is particularly effective because the opponent's defensive posture—driving forward to relieve triangle pressure—naturally feeds into the omoplata setup. The stacking motion that relieves neck compression simultaneously extends the trapped arm and exposes the shoulder to rotational pressure. This creates a true dilemma where defending one submission opens the path to another, and the defender must choose between absorbing choking pressure or accepting shoulder lock vulnerability.
 

@@ -34,6 +34,18 @@ description: "Master passing the Vaporizer position in BJJ. Step-by-step guide t
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Vaporizer Position",
+  "description": "Pass Vaporizer Position is the top player's escape from the 10th Planet Vaporizer, neutralizing the underhook and degrading the lockdown through controlled leg circulation to extract the trapped leg and establish side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master passing the Vaporizer position in BJJ. Step-by-step guide t
 </div>
 
 <section id="overview" class="content-section">
+
+**Pass Vaporizer Position is the top player's escape from the 10th Planet Vaporizer, neutralizing the underhook and degrading the lockdown through controlled leg circulation to extract the trapped leg and establish side control.**
 
 Passing the Vaporizer requires systematic dismantling of the 10th Planet lockdown and whip-up control system. The top player must simultaneously address two interconnected control mechanisms: the figure-four lockdown trapping one leg, and the underhook providing leverage for the destabilizing whip-up motion. Unlike standard guard passes where clearing a single control point opens the path forward, the Vaporizer demands coordinated neutralization of both lower and upper body entanglements before any passing sequence can succeed.
 

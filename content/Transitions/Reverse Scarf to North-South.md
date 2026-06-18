@@ -34,6 +34,18 @@ description: "Master the Reverse Scarf to North-South transition in BJJ. Learn w
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse Scarf to North-South",
+  "description": "Reverse Scarf to North-South is a top-game pin transition in which the controlling player rotates out of the reverse scarf hold (ushiro kesa gatame) into a perpendicular chest-to-chest north-south pin, pivoting on the chest to keep pressure unbroken throughout the turn.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Reverse Scarf to North-South transition in BJJ. Learn w
 
 <section id="overview" class="content-section">
 
-The Reverse Scarf to North-South transition is a fundamental positional advancement where the top player rotates from the reverse scarf hold (ushiro kesa gatame) into a perpendicular north-south alignment. This transition capitalizes on the unique orientation of reverse scarf hold, where the top player already faces away from the opponent's head, requiring a controlled rotation to achieve the chest-to-chest pressure configuration that defines north-south control. The rotation arc is shorter than transitioning from standard side control, making this a natural and efficient positional progression.
+**Reverse Scarf to North-South is a top-game pin transition in which the controlling player rotates out of the reverse scarf hold (ushiro kesa gatame) into a perpendicular chest-to-chest north-south pin, pivoting on the chest to keep pressure unbroken throughout the turn.**
+
+Within the top-game control hierarchy, this transition bridges a temporary, reversed-orientation pin and the far more sustainable north-south position. It capitalizes on the unique orientation of reverse scarf hold, where the top player already faces away from the opponent's head, requiring a controlled rotation to achieve the chest-to-chest pressure configuration that defines north-south control. The rotation arc is shorter than transitioning from standard side control, making this a natural and efficient positional progression.
 
 The transition serves multiple strategic purposes within the top-game control hierarchy. First, it addresses the inherent instability of reverse scarf hold as a long-term control position by advancing to the more sustainable north-south pin. Second, it opens new submission pathways including the north-south choke, kimura, and armbar variations that are unavailable from the reverse scarf position. Third, it disrupts the bottom player's escape timing by fundamentally changing the pressure angle and control dynamics during the rotation, forcing them to abandon their reverse scarf escape patterns and adapt to an entirely different defensive scenario.
 

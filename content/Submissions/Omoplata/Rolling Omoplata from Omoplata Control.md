@@ -33,10 +33,32 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
 }
 </script>
 
-> **SAFETY**: Rolling Omoplata from Omoplata Control targets the Shoulder joint and rotator cuff. Risk: Rotator cuff tear or strain. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rolling Omoplata from Omoplata Control",
+  "description": "The Rolling Omoplata is a dynamic shoulder lock finished by inverting into your opponent's posted arm during scrambles or failed sweeps, isolating the shoulder and driving rotational torque through hip extension while pinning their head with your leg.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Rolling Omoplata is a dynamic shoulder lock finished by inverting into your opponent's posted arm during scrambles or failed sweeps, isolating the shoulder and driving rotational torque through hip extension while pinning their head with your leg.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint and rotator cuff</span>
+<span class="meta-chip">50% success</span>
+</div>
+
+> [!danger] Safety
+> Rolling Omoplata from Omoplata Control targets the Shoulder joint and rotator cuff. Primary risk: Rotator cuff tear or strain. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,60 +69,11 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
 
 <section id="overview" class="content-section">
 
-The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on momentum and transition phases during scrambles, failed sweeps, or guard recovery situations. Unlike the traditional static omoplata from closed or open guard, this variation involves a rolling motion that allows the practitioner to capture the opponent's shoulder joint while both grapplers are in movement. This technique is particularly effective when transitioning from failed sweep attempts, inverting under pressure, or recovering guard against aggressive passing attempts. The rolling motion generates unexpected leverage on the shoulder while simultaneously off-balancing the opponent, making it difficult to defend once initiated.
+Born from modern BJJ's flow-based evolution toward dynamic, transition-driven attacks, the Rolling Omoplata blurs the line between defense and offense and has become a hallmark of movement-based guard games. Unlike the traditional static omoplata from closed or open guard, this variation involves a rolling motion that allows the practitioner to capture the opponent's shoulder joint while both grapplers are in movement. This technique is particularly effective when transitioning from failed sweep attempts, inverting under pressure, or recovering guard against aggressive passing attempts. The rolling motion generates unexpected leverage on the shoulder while simultaneously off-balancing the opponent, making it difficult to defend once initiated.
 
 The technique requires excellent timing, spatial awareness, and flexibility, as the practitioner must coordinate their hip rotation with leg positioning while maintaining control of the opponent's trapped arm throughout the roll. The finishing mechanics mirror the traditional omoplata - hips perpendicular to the opponent's spine, leg across the head controlling posture, and progressive hip extension driving rotational torque into the shoulder joint. The Rolling Omoplata represents modern BJJ's evolution toward dynamic, flow-based submissions that blur the lines between offense and defense, making it a favorite among competitors who emphasize movement-based games and chain attacks from failed sweep attempts into immediate submission threats.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Positions/Omoplata Control]]
-**From Position**: [[Positions/Omoplata Control]] (Bottom)
-**Success Rate**: 50%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear or strain | High | 6-12 weeks for strain, 3-6 months for tear |
-| Shoulder dislocation | CRITICAL | 3-6 months with potential surgical intervention |
-| Labrum tear | High | 4-9 months, often requires surgery |
-| AC joint separation | Medium | 4-8 weeks |
-
-
-**Application Speed**: SLOW and progressive - 4-6 seconds minimum in training with gradual pressure increase
-
-**Tap Signals**:
-- Verbal tap (most important during rolls)
-- Physical hand tap on body or mat
-- Physical foot tap on mat
-- Any distress vocalization
-- Frantically tapping with free hand
-
-
-**Release Protocol**:
-1. Immediately stop all forward rolling motion
-2. Release leg pressure on shoulder and head
-3. Remove leg triangle if locked
-4. Extend hips backward to create space
-5. Allow partner to safely extract their arm
-6. Check partner's shoulder mobility before continuing
-
-
-**Training Restrictions**:
-- Never complete the roll at full speed in training
-- Never apply sudden jerking or explosive pressure
-- Always allow partner to tap before locking the position
-- Never practice on partners with known shoulder injuries
-- Always telegraph the technique during flow rolling
-- Never combine with neck cranking or cervical spine pressure
-
+**Starting Position**: [[Positions/Omoplata Control]] · **From**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
 
@@ -277,10 +250,9 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Inverted Triangle]]
 - [[Submissions/Baratoplata]]
 - [[Transitions/Gogoplata]]
@@ -289,14 +261,6 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 - [[Positions/Buggy Choke]]
 - [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Kimura]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Omoplata Control]] - Control position achieved before finishing the rolling omoplata submission
 - [[Positions/Triangle Control]] - Alternative control position when omoplata is defended by grabbing belt or turning in
 - [[Positions/Back Control]] - Positional transition follow-up when opponent rolls through the omoplata
@@ -308,16 +272,49 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 - [[Positions/Half Guard]] - Transitional position where half guard sweeps can load into rolling omoplata entries
 - [[Positions/Collar Sleeve Guard]] - Guard variation providing sleeve control that facilitates rolling omoplata arm isolation
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Rolling Omoplata from Omoplata Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear or strain | High | 6-12 weeks for strain, 3-6 months for tear |
+| Shoulder dislocation | CRITICAL | 3-6 months with potential surgical intervention |
+| Labrum tear | High | 4-9 months, often requires surgery |
+| AC joint separation | Medium | 4-8 weeks |
+
+
+**Application Speed**: SLOW and progressive - 4-6 seconds minimum in training with gradual pressure increase
+
+**Tap Signals**:
+- Verbal tap (most important during rolls)
+- Physical hand tap on body or mat
+- Physical foot tap on mat
+- Any distress vocalization
+- Frantically tapping with free hand
+
+
+**Release Protocol**:
+1. Immediately stop all forward rolling motion
+2. Release leg pressure on shoulder and head
+3. Remove leg triangle if locked
+4. Extend hips backward to create space
+5. Allow partner to safely extract their arm
+6. Check partner's shoulder mobility before continuing
+
+
+**Training Restrictions**:
+- Never complete the roll at full speed in training
+- Never apply sudden jerking or explosive pressure
+- Always allow partner to tap before locking the position
+- Never practice on partners with known shoulder injuries
+- Always telegraph the technique during flow rolling
+- Never combine with neck cranking or cervical spine pressure
+
 
 </section>
 

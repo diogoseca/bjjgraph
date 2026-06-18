@@ -34,6 +34,18 @@ description: "Master the Leg Weave Pass in BJJ. Step-by-step pressure passing te
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Weave Pass",
+  "description": "The Leg Weave Pass is a half guard top pass where the top player threads their inside leg through and over the opponent's legs, pinning both flat to immobilize the hips and free the trapped leg into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Leg Weave Pass in BJJ. Step-by-step pressure passing te
 </div>
 
 <section id="overview" class="content-section">
+
+**The Leg Weave Pass is a half guard top pass where the top player threads their inside leg through and over the opponent's legs, pinning both flat to immobilize the hips and free the trapped leg into side control.**
 
 The Leg Weave Pass is a highly effective pressure passing technique used to control and pass the half guard from the top position. This technique involves threading your leg between the opponent's legs while maintaining heavy top pressure, creating a configuration that severely limits the bottom player's mobility and defensive options. The leg weave creates a unique control position that combines elements of smash passing with positional control, making it particularly effective against modern half guard retention strategies.
 

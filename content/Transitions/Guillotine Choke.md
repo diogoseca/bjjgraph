@@ -34,6 +34,18 @@ description: "Learn the Guillotine Choke finish in BJJ. Step-by-step mechanics f
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guillotine Choke",
+  "description": "The Guillotine Choke is a front-headlock finish that clasps the hands around the opponent's neck and drives the forearm blade across the throat while elevating the elbow and breaking posture, compressing the trachea and carotids until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,9 +57,11 @@ description: "Learn the Guillotine Choke finish in BJJ. Step-by-step mechanics f
 
 <section id="overview" class="content-section">
 
-The Guillotine Choke is a high-percentage front headlock submission that attacks the trachea and carotid arteries through compression of the forearm against the front of the opponent's neck. This technique represents one of the most fundamental chokes in Brazilian Jiu-Jitsu, appearing across all grappling contexts from standing clinch exchanges to ground-based guard scenarios. The guillotine's effectiveness stems from its mechanical simplicity—once proper grip depth is achieved and the finishing angle established, the choke applies rapidly escalating pressure that forces either tap or unconsciousness within seconds.
+**The Guillotine Choke is a front-headlock finish that clasps the hands around the opponent's neck and drives the forearm blade across the throat while elevating the elbow and breaking posture, compressing the trachea and carotids until they tap.**
 
-From Guillotine Control Bottom, the finish requires precise coordination between upper body compression and lower body control. The choking arm must maintain constant inward pressure while the legs work to break the opponent's posture and prevent escape. The critical distinction between a controlled guillotine position and a finishing guillotine lies in the activation of the hips and the elevation of the choking elbow. Without proper hip engagement, even a deep grip will stall against a determined defender. The finish demands that you treat the choke as a full-body movement rather than an arm-only squeeze.
+One of the most fundamental chokes in Brazilian Jiu-Jitsu, the Guillotine Choke appears across every grappling context—from standing clinch exchanges to ground-based guard scenarios—and stays high on the finishing-rate charts at every belt level. Its effectiveness stems from mechanical simplicity: once proper grip depth is achieved and the finishing angle is established, the choke applies rapidly escalating pressure that forces either tap or unconsciousness within seconds. The finish hinges on coordinating forearm compression against the front of the neck with posture-breaking control that prevents the opponent from relieving the angle.
+
+From Guillotine Control, the finish requires precise coordination between upper body compression and lower body control. The choking arm must maintain constant inward pressure while the legs work to break the opponent's posture and prevent escape. The critical distinction between a controlled guillotine position and a finishing guillotine lies in the activation of the hips and the elevation of the choking elbow. Without proper hip engagement, even a deep grip will stall against a determined defender. The finish demands that you treat the choke as a full-body movement rather than an arm-only squeeze.
 
 Strategically, the Guillotine Choke creates a powerful dilemma for defenders: protecting the neck requires postural adjustments that often open sweep opportunities, while defending the sweep exposes the neck to tighter finishing pressure. This binary trap makes the guillotine particularly effective when integrated into a systematic guard attack framework that chains submissions with positional improvements.
 
@@ -62,9 +76,10 @@ Strategically, the Guillotine Choke creates a powerful dilemma for defenders: pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Guillotine Choke]] | 55% |
-| Failure | [[Positions/Guillotine Control]] | 30% |
-| Counter | [[Positions/Side Control]] | 15% |
+| Success | [[game-over]] | 55% |
+| Failure | [[Positions/Guillotine Control]] | 18% |
+| Failure | [[Transitions/Guillotine Choke]] | 15% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>

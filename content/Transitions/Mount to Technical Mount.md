@@ -34,6 +34,18 @@ description: "Master the Mount to Technical Mount transition in BJJ. Complete gu
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Mount to Technical Mount",
+  "description": "Mount to Technical Mount is a positional advancement where the top player posts one leg out and inserts the opposite hook as the opponent turns away, converting symmetric mount into an asymmetric platform optimized for armbars and back takes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Mount to Technical Mount transition in BJJ. Complete gu
 
 <section id="overview" class="content-section">
 
-The Mount to Technical Mount transition is a fundamental positional advancement that converts standard mount control into an asymmetric attacking platform optimized for armbars, back takes, and choke setups. This transition occurs when the top practitioner posts one leg out while maintaining a hook with the other, shifting from bilateral symmetry to a configuration that creates superior submission angles. The movement is most commonly triggered by the bottom player turning to their side during escape attempts, which creates the natural opening for the top player to post the far leg and establish technical mount.
+**Mount to Technical Mount is a positional advancement where the top player posts one leg out and inserts the opposite hook as the opponent turns away, converting symmetric mount into an asymmetric platform optimized for armbars and back takes.**
+
+Within the mount offense system, the Mount to Technical Mount transition is the primary mechanism for converting an opponent's defensive turn into positional advancement. The top practitioner posts one leg out while maintaining a hook with the other, shifting from bilateral symmetry to a configuration that creates superior submission angles for armbars, back takes, and choke setups. The movement is most commonly triggered by the bottom player turning to their side during escape attempts, which creates the natural opening for the top player to post the far leg and establish technical mount.
 
 Strategic timing is the defining factor in this transition's success. Premature attempts to post the leg without a clear trigger from the bottom player's movement sacrifice the stability advantage of standard mount. Conversely, hesitating when the opponent turns to their side wastes the window of opportunity and allows them to complete their escape to half guard or turtle. The transition requires reading the opponent's hip movement and shoulder rotation to identify the precise moment when posting the leg creates maximum offensive advantage with minimal positional risk.
 

@@ -34,6 +34,18 @@ description: "Master straight ankle lock control in BJJ. Complete strategic guid
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Straight Ankle Lock Control",
+  "description": "Straight ankle lock control is a foundational leg entanglement in which one practitioner isolates and traps a single ankle across their hip, threatening an Achilles-tendon submission while using it as a hub into more dominant leg-lock systems.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master straight ankle lock control in BJJ. Complete strategic guid
 </div>
 
 <section id="overview" class="content-section">
+
+**Straight ankle lock control is a foundational leg entanglement in which one practitioner isolates and traps a single ankle across their hip, threatening an Achilles-tendon submission while using it as a hub into more dominant leg-lock systems.**
 
 The straight ankle lock control position represents one of the most fundamental leg entanglement positions in Brazilian Jiu-Jitsu, serving as both an entry-level foot lock control and a tactical hub for transitioning to more advanced leg attack systems. This position is characterized by the attacker securing control of their opponent's ankle while establishing positional dominance that limits defensive options and creates submission opportunities.
 
@@ -131,25 +145,27 @@ The position also serves an important pedagogical function in teaching fundament
 ### Available Transitions
 
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (31% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (29% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (13% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (12% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (11% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (10% of attempts)
 
 - **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (6% of attempts)
 
 - **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (8% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (9% of attempts)
 
 - **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (8% of attempts)
 
-- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (8% of attempts)
+- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (7% of attempts)
 
 - **[[Transitions/Straight Footlock/Attacker|Straight Footlock]]** (3% of attempts)
 
 - **[[Transitions/Ankle Lock Escape to Standing/Attacker|Ankle Lock Escape to Standing]]** (2% of attempts)
+
+- **[[Kneebar from Straight Ankle Lock Control/Attacker|Kneebar from Straight Ankle Lock Control]]** (6% of attempts)
 
 
 ### Common Mistakes

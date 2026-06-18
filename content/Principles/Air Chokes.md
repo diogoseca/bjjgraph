@@ -143,6 +143,16 @@ description: "Understand air choke mechanics in BJJ. Learn tracheal compression 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Air Chokes",
+  "description": "Air chokes are strangulation techniques that compress the trachea (windpipe) to block airflow to the lungs, forcing a submission through suffocation rather than the rapid blood-flow cutoff of a vascular blood choke.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Understand air choke mechanics in BJJ. Learn tracheal compression 
 
 ## What are Air Chokes?
 
-Air chokes restrict the opponent's breathing by compressing the trachea (windpipe), preventing airflow to the lungs. Unlike blood chokes that cut circulation to the brain and cause unconsciousness in seconds, air chokes create a suffocation effect that forces a tap through oxygen deprivation and the panic of being unable to breathe. This makes air chokes generally slower to finish than blood chokes, but they remain a viable and sometimes unavoidable finishing mechanic, particularly when the choking angle compresses the front of the throat rather than the sides of the neck.
+**Air chokes are strangulation techniques that compress the trachea (windpipe) to block airflow to the lungs, forcing a submission through suffocation rather than the rapid blood-flow cutoff of a vascular blood choke.**
+
+Within the broader family of strangulation techniques, air chokes occupy a distinct mechanical category from the vascular blood chokes that dominate high-level competition. Unlike blood chokes that cut circulation to the brain and cause unconsciousness in seconds, air chokes create a suffocation effect that forces a tap through oxygen deprivation and the panic of being unable to breathe. This makes air chokes generally slower to finish than blood chokes, but they remain a viable and sometimes unavoidable finishing mechanic, particularly when the choking angle compresses the front of the throat rather than the sides of the neck.
 
 Several common submissions operate as air chokes or have air choke components. The Ezekiel choke uses the sleeve or wrist bone across the trachea. Certain cross collar choke angles push directly into the windpipe. Some guillotine variations, particularly when the forearm sits on the throat rather than the side of the neck, function primarily as air chokes. Many practitioners encounter air choke mechanics even when attempting blood chokes, especially early in their development when choke placement is imprecise.
 

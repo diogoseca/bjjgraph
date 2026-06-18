@@ -34,6 +34,18 @@ description: "Master Crucifix position in BJJ. Dominant arm-trapping control wit
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Crucifix",
+  "description": "The Crucifix is a dominant BJJ control position that isolates both of the opponent's arms simultaneously—one trapped by the legs, the other pinned by the hands—stripping their defenses and opening high-percentage choke and arm-attack finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Crucifix position in BJJ. Dominant arm-trapping control wit
 </div>
 
 <section id="overview" class="content-section">
+
+**The Crucifix is a dominant BJJ control position that isolates both of the opponent's arms simultaneously—one trapped by the legs, the other pinned by the hands—stripping their defenses and opening high-percentage choke and arm-attack finishes.**
 
 The Crucifix position represents one of the most dominant and devastating control positions in Brazilian Jiu-Jitsu, characterized by the systematic isolation and control of both of the opponent's arms simultaneously. The position derives its name from the cross-like appearance created when both arms are trapped and extended away from the body, rendering the opponent virtually defenseless against submissions and positional advances.
 
@@ -206,11 +220,11 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 - **[[Kimura from Crucifix/Attacker|Kimura from Crucifix]]** (6% of attempts)
 
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (19% of attempts)
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (18% of attempts)
 
-- **[[Submissions/Choke from Crucifix/Attacker|Choke from Crucifix]]** (39% of attempts)
+- **[[Submissions/Choke from Crucifix/Attacker|Choke from Crucifix]]** (38% of attempts)
 
-- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (16% of attempts)
+- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (15% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (6% of attempts)
 
@@ -218,7 +232,9 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 - **[[Transitions/Crucifix to Mount/Attacker|Crucifix to Mount]]** (2% of attempts)
 
-- **[[Submissions/Bicep Slicer/Attacker|Bicep Slicer]]** (1% of attempts)
+- **[[Submissions/Bicep Slicer/Attacker|Bicep Slicer]]** (2% of attempts)
+
+- **[[Bicep Slicer from Crucifix/Attacker|Bicep Slicer from Crucifix]]** (2% of attempts)
 
 
 ### Common Mistakes

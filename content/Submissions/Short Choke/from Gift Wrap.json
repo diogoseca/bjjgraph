@@ -1,6 +1,7 @@
 {
   "name": "Short Choke from Gift Wrap",
   "description": "Master the Short Choke from Gift Wrap in BJJ. Complete guide to finishing this forearm choke using arm trap control, with safety protocols and defense strategies.",
+  "summary": "The Short Choke from Gift Wrap is a high-percentage blood choke that exploits the Gift Wrap arm trap, threading the choking forearm beneath the chin to compress both carotid arteries while the defender has only one free hand left to resist.",
   "tags": [
     "bjj",
     "submission",
@@ -19,7 +20,7 @@
   "starting_position": "Gift Wrap",
   "from_position": "Gift Wrap/Top",
   "success_rate": 58,
-  "overview": "The Short Choke from Gift Wrap is a high-percentage blood choke that exploits the unique arm trapping mechanics of the Gift Wrap position. With one of the defender's arms pinned across their own body, the attacker threads the choking forearm beneath the chin and applies bilateral carotid compression using body weight and shoulder pressure. The Gift Wrap's arm trap is the critical differentiator: it removes the defender's primary hand-fighting tool, making the forearm insertion significantly easier than from standard back control or cross body ride.\n\nStrategically, this choke creates a cascading dilemma within the Gift Wrap attack system. When the defender commits their only free hand to blocking the forearm from threading under the chin, they lose the ability to create hip escape frames or fight hook removal. When they prioritize positional escape instead, the neck becomes exposed for the choke entry. This forcing function means the attacker can systematically funnel the defender toward submission by alternating between positional pressure and choke threats.\n\nThe finishing mechanics rely on shoulder-driven pressure rather than pure arm squeeze. Once the forearm is seated beneath the chin with the blade of the wrist across one carotid artery, the attacker drives their shoulder into the back of the opponent's head while pulling the choking elbow tight to their own ribcage. This creates a vise effect compressing both carotid arteries simultaneously. The choke can produce unconsciousness in eight to twelve seconds once fully locked, making controlled application and immediate tap recognition essential for safe training.",
+  "overview": "Within the Gift Wrap attack system, the short choke is the dedicated finishing mechanism that converts the position's arm-trap advantage directly into a submission rather than a positional advance. It works because one of the defender's arms is pinned across their own body, so the attacker can thread the choking forearm beneath the chin and apply bilateral carotid compression using body weight and shoulder pressure against only a single defending hand. The Gift Wrap's arm trap is the critical differentiator: it removes the defender's primary hand-fighting tool, making the forearm insertion significantly easier than from standard back control or cross body ride.\n\nStrategically, this choke creates a cascading dilemma within the Gift Wrap attack system. When the defender commits their only free hand to blocking the forearm from threading under the chin, they lose the ability to create hip escape frames or fight hook removal. When they prioritize positional escape instead, the neck becomes exposed for the choke entry. This forcing function means the attacker can systematically funnel the defender toward submission by alternating between positional pressure and choke threats.\n\nThe finishing mechanics rely on shoulder-driven pressure rather than pure arm squeeze. Once the forearm is seated beneath the chin with the blade of the wrist across one carotid artery, the attacker drives their shoulder into the back of the opponent's head while pulling the choking elbow tight to their own ribcage. This creates a vise effect compressing both carotid arteries simultaneously. The choke can produce unconsciousness in eight to twelve seconds once fully locked, making controlled application and immediate tap recognition essential for safe training.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -134,7 +135,7 @@
     }
   ],
   "attacker": {
-    "name": "from Gift Wrap Attacker",
+    "name": "Short Choke from Gift Wrap Attacker",
     "description": "Learn to finish the Short Choke from Gift Wrap. Step-by-step forearm threading, shoulder pressure mechanics, and grip adjustments for high-percentage choke finishes.",
     "overview": "Attacking with the Short Choke from Gift Wrap leverages the position's fundamental asymmetry: one of the defender's arms is trapped across their body, leaving only a single hand to protect the neck. This dramatically reduces the defensive resources available compared to standard back control choke attacks where the defender has both hands for grip fighting. The attacker's task is to thread the choking forearm beneath the chin against one-handed resistance, then apply bilateral carotid compression using shoulder-driven pressure. The key insight is that the Gift Wrap arm trap does most of the work by removing defensive options, so the choke entry becomes a matter of patient positioning rather than explosive force. Timing the forearm insertion when the defender uses their free hand for escape attempts rather than neck protection creates the highest-percentage finishing windows.",
     "key_principles": [
@@ -330,7 +331,7 @@
     ]
   },
   "defender": {
-    "name": "from Gift Wrap Defender",
+    "name": "Short Choke from Gift Wrap Defender",
     "description": "Defend the Short Choke from Gift Wrap position. Recognition cues, one-handed defense tactics, escape paths to guard recovery, and survival strategies.",
     "overview": "Defending the Short Choke from Gift Wrap is among the most difficult defensive tasks in Brazilian Jiu-Jitsu because the defender faces a blood choke threat with only one arm available for defense. The Gift Wrap arm trap removes the primary hand-fighting tool, reducing defensive options by half compared to standard back control choke defense. Successful defense requires early recognition of the choke setup, efficient use of the single free hand, and strategic hip movement to create escape angles before the forearm is fully seated under the chin.\n\nThe defender must prioritize prevention over escape. Once the forearm is threaded beneath the chin and shoulder pressure is applied, the choke becomes extremely difficult to survive. The defensive window is narrow: it exists primarily during the threading phase when the attacker is working to insert the forearm past the chin. After that point, the focus must shift to tapping safely rather than continuing escape attempts that risk unconsciousness.",
     "key_principles": [

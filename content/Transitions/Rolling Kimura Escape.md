@@ -34,6 +34,18 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rolling Kimura Escape",
+  "description": "The Rolling Kimura Escape is an advanced, last-resort defensive technique that uses a committed forward roll over the trapped shoulder to neutralize a tight Kimura grip's leverage and recover open guard before the shoulder lock finishes.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 
 <section id="overview" class="content-section">
 
-The Rolling Kimura Escape is an advanced defensive technique used to escape when an opponent has secured a tight Kimura grip on your arm from a top or controlling position. This dynamic escape utilizes forward rolling mechanics to relieve shoulder pressure and create space for guard recovery. The technique is particularly effective when traditional defensive frames have failed and the shoulder lock is being applied with significant forward pressure.
+**The Rolling Kimura Escape is an advanced, last-resort defensive technique that uses a committed forward roll over the trapped shoulder to neutralize a tight Kimura grip's leverage and recover open guard before the shoulder lock finishes.**
+
+Sitting at the very bottom of the Kimura defensive hierarchy, the Rolling Kimura Escape is reserved for the moment when grip fighting, posture recovery, and hip escape have all failed and the shoulder lock is closing under heavy forward pressure. Rather than resisting the lock's force vector, this dynamic escape uses forward rolling mechanics to relieve shoulder pressure and create space for guard recovery. It becomes viable specifically when the opponent has committed their weight forward to finish the submission.
 
 The rolling motion works by using momentum and body rotation to change the angle of attack, transforming what would be a devastating submission into an opportunity to return to a neutral guard position. Rather than resisting against the lock's force vector, you move with it in a way that creates momentary relief and allows repositioning. This escape requires excellent timing, spatial awareness, and complete commitment to the rolling motion.
 

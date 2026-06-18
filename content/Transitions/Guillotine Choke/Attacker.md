@@ -178,9 +178,9 @@ description: "How to execute the Guillotine Choke finish in BJJ. Attacking persp
 
 <section id="overview" class="content-section">
 
-The Guillotine Choke finish from bottom is a full-body compression technique that coordinates the choking arm, hip angle, guard positioning, and bridging mechanics to generate submission pressure against the opponent's trachea and carotid arteries. The attacker must understand that the finish is not an arm squeeze but a systemic application of leverage where the hips provide the primary force multiplier and the legs control the opponent's ability to create defensive space.
+The Guillotine Choke finish is a full-body compression technique that coordinates the choking arm, hip angle, guard positioning, and bridging mechanics to generate submission pressure against the opponent's trachea and carotid arteries. The attacker must understand that the finish is not an arm squeeze but a systemic application of leverage where the hips provide the primary force multiplier and the legs control the opponent's ability to create defensive space.
 
-From Guillotine Control Bottom, the finish requires precise coordination between upper body compression and lower body control. The choking arm must maintain constant inward pressure while the legs work to break the opponent's posture and prevent escape. The critical distinction between a controlled guillotine position and a finishing guillotine lies in the activation of the hips and the elevation of the choking elbow. Without proper hip engagement, even a deep grip will stall against a determined defender. The finish demands that you treat the choke as a full-body movement rather than an arm-only squeeze.
+From Guillotine Control, the finish requires precise coordination between upper body compression and lower body control. The choking arm must maintain constant inward pressure while the legs work to break the opponent's posture and prevent escape. The critical distinction between a controlled guillotine position and a finishing guillotine lies in the activation of the hips and the elevation of the choking elbow. Without proper hip engagement, even a deep grip will stall against a determined defender. The finish demands that you treat the choke as a full-body movement rather than an arm-only squeeze.
 
 Strategically, the Guillotine Choke creates a powerful dilemma for defenders: protecting the neck requires postural adjustments that often open sweep opportunities, while defending the sweep exposes the neck to tighter finishing pressure. This binary trap makes the guillotine particularly effective when integrated into a systematic guard attack framework that chains submissions with positional improvements.
 
@@ -242,9 +242,10 @@ Strategically, the Guillotine Choke creates a powerful dilemma for defenders: pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Guillotine Choke]] | 55% |
-| Failure | [[Positions/Guillotine Control]] | 30% |
-| Counter | [[Positions/Side Control]] | 15% |
+| Success | [[game-over]] | 55% |
+| Failure | [[Positions/Guillotine Control]] | 18% |
+| Failure | [[Transitions/Guillotine Choke]] | 15% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>

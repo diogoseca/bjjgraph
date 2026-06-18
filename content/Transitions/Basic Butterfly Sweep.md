@@ -34,6 +34,18 @@ description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution fro
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Basic Butterfly Sweep",
+  "description": "The Basic Butterfly Sweep is a foundational bottom-guard reversal that uses an elevating butterfly hook under the opponent's thigh, paired with upper-body grip control, to off-balance and roll a forward-pressuring opponent into a dominant top position such as mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn the Basic Butterfly Sweep in BJJ. Step-by-step execution fro
 
 <section id="overview" class="content-section">
 
-The Basic Butterfly Sweep is a fundamental technique from the Butterfly Guard that exploits opponent's forward pressure and balance. Using hooks underneath the opponent's thighs combined with proper grip control and hip movement, the practitioner elevates and off-balances the opponent to achieve a dominant top position. This sweep is highly effective against opponents who attempt to establish base in your butterfly guard or pressure forward without proper posture. The technique relies on timing, leverage, and the mechanical advantage created by the butterfly hooks rather than pure strength.
+**The Basic Butterfly Sweep is a foundational bottom-guard reversal that uses an elevating butterfly hook under the opponent's thigh, paired with upper-body grip control, to off-balance and roll a forward-pressuring opponent into a dominant top position such as mount.**
+
+Sitting at the center of the offensive butterfly and half-butterfly game, the Basic Butterfly Sweep turns an opponent's forward pressure and committed base into a clean position reversal. Using hooks underneath the opponent's thighs combined with proper grip control and hip movement, the practitioner elevates and off-balances the opponent to achieve a dominant top position. This sweep is highly effective against opponents who attempt to establish base in your butterfly guard or pressure forward without proper posture. The technique relies on timing, leverage, and the mechanical advantage created by the butterfly hooks rather than pure strength.
 
 When executed properly, the Basic Butterfly Sweep transitions smoothly into mount, side control, or back control depending on the opponent's defensive reactions. The core mechanic involves creating a 45-degree hip angle, driving the sweeping-side hook upward and forward while pulling the opponent's upper body across your centerline with grips. This coordinated action generates rotational force that displaces the opponent's base regardless of size disparity.
 
@@ -249,9 +263,9 @@ The Basic Butterfly Sweep is a cornerstone technique within the broader butterfl
 
 - [[Submissions/Kimura]] - Submission Threat - Attack on posted arm during sweep defense
 
-- [[Transitions/Guillotine Choke]] - Combination Attack - Submission threat from butterfly that facilitates sweep
+- [[Guillotine Choke from Butterfly Guard]] - Combination Attack - Submission threat from butterfly that facilitates sweep
 
-- [[Systems/Marcelo Garcia Butterfly Guard System]] - System Integration - Complete system built around butterfly sweeps
+- [[Positions/Half Guard/Deep Half Guard]] - Transition Hub - Fallback guard when opponent drives heavy forward pressure
 
 
 </section>

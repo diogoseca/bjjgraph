@@ -34,6 +34,18 @@ description: "Master Butterfly Hook Control in BJJ. Strategic guide covering hoo
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Butterfly Hook Control",
+  "description": "Butterfly Hook Control is a dynamic seated guard where the bottom player wedges both insteps inside the opponent's thighs as active elevation hooks, creating off-balancing leverage for sweeps and back takes while the top player fights to flatten the hooks and pass.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Butterfly Hook Control in BJJ. Strategic guide covering hoo
 </div>
 
 <section id="overview" class="content-section">
+
+**Butterfly Hook Control is a dynamic seated guard where the bottom player wedges both insteps inside the opponent's thighs as active elevation hooks, creating off-balancing leverage for sweeps and back takes while the top player fights to flatten the hooks and pass.**
 
 Butterfly Hook Control represents one of the most dynamic and offensive guard positions in Brazilian Jiu-Jitsu, characterized by the bottom practitioner's use of butterfly hooks—feet positioned inside the opponent's thighs—to create constant elevation and off-balancing opportunities. This position excels in both gi and no-gi grappling due to its reliance on fundamental leverage mechanics rather than grip-dependent controls.
 
@@ -123,7 +137,7 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (42% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (41% of attempts)
 
 - **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (9% of attempts)
 
@@ -153,7 +167,7 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 
 - **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (2% of attempts)
 
-- **[[Transitions/Butterfly Hook Sweep/Attacker|Butterfly Hook Sweep]]** (0% of attempts)
+- **[[Transitions/Butterfly Hook Sweep/Attacker|Butterfly Hook Sweep]]** (1% of attempts)
 
 - **[[Transitions/Reguard to Butterfly Guard/Attacker|Reguard to Butterfly Guard]]** (1% of attempts)
 

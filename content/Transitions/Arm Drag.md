@@ -34,6 +34,18 @@ description: "Master the Arm Drag in BJJ. Complete guide covering grip setup, an
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Arm Drag",
+  "description": "The Arm Drag is a grip-fighting transition that pulls an opponent's arm across their centerline while you circle behind their shoulder line, creating the angular access needed to take the back or chain into other attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Arm Drag in BJJ. Complete guide covering grip setup, an
 </div>
 
 <section id="overview" class="content-section">
+
+**The Arm Drag is a grip-fighting transition that pulls an opponent's arm across their centerline while you circle behind their shoulder line, creating the angular access needed to take the back or chain into other attacks.**
 
 The Arm Drag is a fundamental control and positioning technique in Brazilian Jiu-Jitsu that creates superior angles by redirecting the opponent's arm across their body. This versatile movement forms the foundation of countless back takes, guard passes, and positional improvements across all levels of grappling. The biomechanical principle is simple: by pulling one arm past the opponent's centerline, you momentarily eliminate their ability to frame, post, or turn toward you, creating a window to circle behind their shoulder line.
 

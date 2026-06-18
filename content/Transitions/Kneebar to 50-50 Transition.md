@@ -34,6 +34,18 @@ description: "Master the kneebar to 50-50 transition in BJJ. Learn to flow from 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kneebar to 50-50 Transition",
+  "description": "The Kneebar to 50-50 Transition is a leg-lock conversion in which a top-position kneebar attacker, facing a strong bent-knee defense, threads into a symmetrical 50-50 entanglement to open fresh heel hook, calf slicer, and back-take attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the kneebar to 50-50 transition in BJJ. Learn to flow from 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Kneebar to 50-50 Transition is a leg-lock conversion in which a top-position kneebar attacker, facing a strong bent-knee defense, threads into a symmetrical 50-50 entanglement to open fresh heel hook, calf slicer, and back-take attacks.**
 
 The kneebar to 50-50 transition represents a strategic positional shift within the modern leg attack system, employed when the kneebar finish from top control is effectively defended. Rather than continuing to force a low-percentage submission against a bent knee defense, the attacker threads their legs into a 50-50 configuration, converting positional control into a new attack platform with access to heel hooks, calf slicers, and back takes.
 

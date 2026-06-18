@@ -15,7 +15,8 @@
   "application_level": "Advanced",
   "complexity_level": "High",
   "development_timeline": "Intermediate to Expert",
-  "overview": "Compression locks are submissions that cause pain and potential injury by crushing soft tissue — muscle, tendons, or nerves — against bone using a wedging or scissoring action. Unlike joint locks that attack ligaments at a joint's end range, compression locks work by trapping a limb segment and driving a hard surface (typically a shin, forearm, or wrist bone) into the soft tissue on the opposite side. The classic examples are the calf slicer (shin driven into the calf muscle against the femur), the bicep slicer (forearm driven into the bicep against the humerus), and chest compression attacks where the ribcage is used as a crushing surface.\n\nCompression locks occupy a unique niche in BJJ because they are frequently available as secondary attacks from positions where other submissions are the primary threat. A failed armbar can transition to a bicep slicer. A leg entanglement that does not yield a heel hook may offer a calf slicer. They are also valuable because many opponents do not train defenses against them, making them high-percentage surprise attacks at the intermediate and advanced levels.\n\nHowever, compression locks come with significant ruleset considerations. IBJJF rules restrict most compression attacks to brown and black belt divisions. Many local tournaments ban them entirely. No-gi competition rulesets tend to be more permissive, and submission-only formats generally allow all compression attacks. Practitioners must understand which attacks are legal in their competition context and adjust their game accordingly. The mechanics themselves — wedge insertion, scissoring force, angle optimization — transfer across all compression variations once the underlying principle is understood.",
+  "summary": "Compression locks are submissions that crush muscle or tendon against bone by wedging a hard surface — a shin, forearm, or wrist — into the soft tissue and folding the limb around it, as with the calf slicer and bicep slicer.",
+  "overview": "Within the broader submission landscape, compression locks sit apart from joint locks: where a joint lock attacks the ligaments at a joint's end range of motion, a compression lock attacks the muscle belly itself, trapping a limb segment and driving a bony edge into the tissue on the opposite side until the pain forces a tap. The classic vehicles are the calf slicer (shin driven into the calf against the femur), the bicep slicer (forearm driven into the bicep against the humerus), and chest or rib compressions that turn an interlocked body triangle into a crushing ring.\n\nCompression locks occupy a unique niche in BJJ because they are frequently available as secondary attacks from positions where other submissions are the primary threat. A failed armbar can transition to a bicep slicer. A leg entanglement that does not yield a heel hook may offer a calf slicer. They are also valuable because many opponents do not train defenses against them, making them high-percentage surprise attacks at the intermediate and advanced levels.\n\nHowever, compression locks come with significant ruleset considerations. IBJJF rules restrict most compression attacks to brown and black belt divisions. Many local tournaments ban them entirely. No-gi competition rulesets tend to be more permissive, and submission-only formats generally allow all compression attacks. Practitioners must understand which attacks are legal in their competition context and adjust their game accordingly. The mechanics themselves — wedge insertion, scissoring force, angle optimization — transfer across all compression variations once the underlying principle is understood.",
   "key_principles": [
     "Create a wedge by positioning a hard bony surface (shin, forearm, wrist) against the soft tissue side of the opponent's limb",
     "Apply scissoring or folding force to compress the limb around the wedge, crushing muscle against bone",
@@ -351,6 +352,40 @@
       "name": "Submission Defense",
       "content_type": "Principle",
       "relationship": "Understanding compression mechanics informs defensive strategies including limb straightening, wedge extraction, and early positional escape"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "How does a compression lock differ mechanically from a joint lock?",
+      "answer": "A joint lock stresses ligaments at a joint's end range of motion, while a compression lock crushes muscle or tendon against bone by folding a limb around an inserted bony wedge, producing pain through soft-tissue compression rather than joint hyperextension."
+    },
+    {
+      "question": "What are the three classic examples of compression locks?",
+      "answer": "The calf slicer (shin driven into the calf against the femur), the bicep slicer (forearm driven into the bicep against the humerus), and chest or rib compression using an interlocked body triangle as a crushing ring around the torso."
+    },
+    {
+      "question": "Why is deep wedge insertion critical before applying compression?",
+      "answer": "A shallow wedge contacts only the surface of the muscle and produces discomfort that tough opponents can endure; seating the bone deep into the muscle belly first concentrates force on deep tissue and is what turns mere pressure into a tap-producing crush."
+    },
+    {
+      "question": "How should the folding force for a high-percentage compression lock be generated?",
+      "answer": "Through whole-body mechanics — hip bridging, leg extension, or body weight — with the grips merely maintaining the wedge position. Relying on arm strength alone fails against resistance and exhausts the attacker before the submission lands."
+    },
+    {
+      "question": "What common defense relieves a calf slicer or bicep slicer, and how do you prevent it?",
+      "answer": "Straightening the limb removes the fold that creates compression, so the attacker must control the distal end — the foot for calf slicers, the hand for bicep slicers — to keep the limb folded before and throughout the compression."
+    },
+    {
+      "question": "How do compression locks and joint locks function as an integrated attack system?",
+      "answer": "They share control positions and trade off based on the defense: extending the leg to escape a calf slicer opens the kneebar, and straightening the arm to escape a bicep slicer opens the armbar, so each defense feeds the complementary attack."
+    },
+    {
+      "question": "Why must ruleset legality be checked before attempting a compression lock?",
+      "answer": "IBJJF restricts most compression attacks to brown and black belt divisions and many local tournaments ban them outright, so an illegal attempt risks disqualification; no-gi and submission-only formats are generally far more permissive."
+    },
+    {
+      "question": "Where do calf slicer opportunities most naturally arise during leg-lock exchanges?",
+      "answer": "From leg entanglements like Ashi Garami and from failed kneebar attempts, where the attacker's shin already sits behind the opponent's knee, so repositioning to fold the lower leg around that shin converts the control into a calf slicer."
     }
   ]
 }

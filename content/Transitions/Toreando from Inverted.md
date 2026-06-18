@@ -34,6 +34,18 @@ description: "Master the toreando pass against inverted guard in BJJ. Complete g
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toreando from Inverted",
+  "description": "The Toreando from Inverted is a speed-based bullfighter guard pass where the top player grips both of an inverted opponent's legs, redirects them laterally, and circles to the opposite side to reach side control before the inversion can track.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the toreando pass against inverted guard in BJJ. Complete g
 </div>
 
 <section id="overview" class="content-section">
+
+**The Toreando from Inverted is a speed-based bullfighter guard pass where the top player grips both of an inverted opponent's legs, redirects them laterally, and circles to the opposite side to reach side control before the inversion can track.**
 
 The toreando pass from inverted guard exploits the exposed leg positioning inherent to inversion-based defense. When an opponent inverts, their legs extend upward and become accessible for bilateral grip control, creating an opportunity for the bullfighter-style lateral pass. Unlike toreando applications against seated or standing guard where the opponent can immediately re-engage with hooks, the inverted player must rely on hip rotation and grip fighting to track the passer's movement, giving the toreando a distinct timing advantage in this specific context.
 

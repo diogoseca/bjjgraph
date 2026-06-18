@@ -34,6 +34,18 @@ description: "Master the Lapel Elevator Sweep from Lapel Guard to Mount. Learn s
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Lapel Elevator Sweep",
+  "description": "The Lapel Elevator Sweep is a gi-specific reversal from lapel guard bottom that uses the opponent's own trapped lapel as a lever combined with a butterfly hook to off-balance them directly into mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Lapel Elevator Sweep from Lapel Guard to Mount. Learn s
 
 <section id="overview" class="content-section">
 
-The Lapel Elevator Sweep is a powerful off-balancing technique from lapel guard that uses the opponent's own gi fabric as a mechanical lever to execute a clean reversal to mount. This sweep capitalizes on the unique control properties of lapel guards, where the extracted lapel wrapped around the opponent's leg or torso creates persistent connection points that amplify your hip movement into dramatic off-balancing force.
+**The Lapel Elevator Sweep is a gi-specific reversal from lapel guard bottom that uses the opponent's own trapped lapel as a lever combined with a butterfly hook to off-balance them directly into mount.**
+
+Within the modern lapel guard attack system, the elevator sweep is the most direct bottom-to-top reversal, capitalizing on the unique control properties of lapel guards where the extracted lapel wrapped around the opponent's leg or torso creates persistent connection points that amplify your hip movement into dramatic off-balancing force. Because the fabric anchor does not require the constant grip maintenance of a traditional sleeve or collar tie, the bottom player can load the sweep patiently and wait for the exact reaction that makes it unstoppable.
 
 The sweep works by combining a butterfly hook elevation with the pulling tension of the lapel grip to create a compound lever system. As you elevate with your hook, the lapel prevents the opponent from posting their hand or stepping out, channeling all their momentum into the sweep direction. The result is a sweep that feels almost effortless when timed correctly, as you're leveraging mechanical advantage rather than fighting strength against strength.
 

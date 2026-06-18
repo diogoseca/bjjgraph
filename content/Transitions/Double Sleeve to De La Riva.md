@@ -34,6 +34,18 @@ description: "Master the Double Sleeve to De La Riva Guard transition in BJJ. Le
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Sleeve to De La Riva",
+  "description": "Double Sleeve to De La Riva is a gi guard transition that converts one sleeve grip into an ankle grip and threads a De La Riva hook around the opponent's lead leg, flowing from bilateral sleeve control into the dynamic DLR attack system.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Double Sleeve to De La Riva Guard transition in BJJ. Le
 </div>
 
 <section id="overview" class="content-section">
+
+**Double Sleeve to De La Riva is a gi guard transition that converts one sleeve grip into an ankle grip and threads a De La Riva hook around the opponent's lead leg, flowing from bilateral sleeve control into the dynamic DLR attack system.**
 
 The Double Sleeve to De La Riva transition is a fundamental guard flow that converts bilateral sleeve control into one of the most dynamic open guard systems in modern BJJ. This transition occurs when the top player steps one leg forward or shifts their weight laterally while you hold both sleeves, creating the opening to thread your outside leg around their lead leg and establish the De La Riva hook. The key mechanical insight is that double sleeve control already disrupts the opponent's ability to defend their lead leg, making the DLR hook insertion significantly easier than attempting it from a neutral open guard position.
 

@@ -251,7 +251,7 @@ Maintain hip elevation and pull foot deeper behind their head whenever they crea
 
 ### → [[Positions/Triangle Control]]
 
-As the shin begins sliding off the throat during their extraction, immediately transition by bringing your opposite leg over their shoulder while the foot that was behind their head assists in locking the triangle. Time this transition to the moment their head begins moving laterally, using their extraction momentum to help set the triangle lock before they can recover posture.
+As the shin begins sliding off the throat during their extraction, immediately transition by bringing your opposite leg over their shoulder while the foot that was behind their head assists in locking the triangle. Time this transition to the moment their head begins moving laterally, using their extraction momentum to help set the triangle lock before they can recover posture and leaving them trapped in the defensive triangle.
 
 
 

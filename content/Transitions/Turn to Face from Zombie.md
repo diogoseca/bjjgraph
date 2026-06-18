@@ -34,6 +34,18 @@ description: "Master the Turn to Face escape from Zombie position in BJJ. Learn 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Turn to Face from Zombie",
+  "description": "Turn to Face from Zombie is a 10th Planet guard-recovery escape where the bottom player uses frames, a lockdown stretch, and hip rotation to spin from the side-facing Zombie position into a facing Half Guard or Open Guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Turn to Face escape from Zombie position in BJJ. Learn 
 </div>
 
 <section id="overview" class="content-section">
+
+**Turn to Face from Zombie is a 10th Planet guard-recovery escape where the bottom player uses frames, a lockdown stretch, and hip rotation to spin from the side-facing Zombie position into a facing Half Guard or Open Guard.**
 
 The Turn to Face from Zombie is a fundamental guard recovery technique within the 10th Planet system, enabling the bottom practitioner to rotate from the defensive Zombie position into a facing guard structure such as Half Guard or Open Guard. This transition represents one of the most critical safety-valve escapes available from Zombie bottom, where the practitioner is typically on their side with lockdown engaged but facing partially away from their opponent, limiting offensive options.
 

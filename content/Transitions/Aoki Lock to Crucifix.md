@@ -34,6 +34,18 @@ description: "Learn Aoki Lock to Crucifix transition in BJJ. Convert shoulder lo
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Aoki Lock to Crucifix",
+  "description": "Aoki Lock to Crucifix is an advanced no-gi transition that converts unilateral shoulder-lock control into bilateral arm trapping, keeping the near arm pinned by the legs while capturing the exposed far arm to reach the dominant crucifix position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Aoki Lock to Crucifix transition in BJJ. Convert shoulder lo
 </div>
 
 <section id="overview" class="content-section">
+
+**Aoki Lock to Crucifix is an advanced no-gi transition that converts unilateral shoulder-lock control into bilateral arm trapping, keeping the near arm pinned by the legs while capturing the exposed far arm to reach the dominant crucifix position.**
 
 The Aoki Lock to Crucifix transition represents a high-level positional advancement that converts unilateral shoulder lock control into the devastatingly dominant bilateral arm trap of the crucifix. This transition capitalizes on the opponent's defensive responses to the Aoki Lock—when they focus on protecting their trapped shoulder and preventing the finish, they often expose their far arm, creating the opportunity to capture both limbs and achieve complete weapons denial.
 

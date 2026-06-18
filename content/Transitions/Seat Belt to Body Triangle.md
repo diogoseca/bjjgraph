@@ -34,6 +34,18 @@ description: "Master the Seat Belt to Body Triangle transition in BJJ. Learn to 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Seat Belt to Body Triangle",
+  "description": "The Seat Belt to Body Triangle is a back-control upgrade in which the attacker threads one leg across the opponent's torso and locks a figure-four behind their own knee, trading hook mobility for a breathing-restricting compression lock.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Seat Belt to Body Triangle transition in BJJ. Learn to 
 </div>
 
 <section id="overview" class="content-section">
+
+**The Seat Belt to Body Triangle is a back-control upgrade in which the attacker threads one leg across the opponent's torso and locks a figure-four behind their own knee, trading hook mobility for a breathing-restricting compression lock.**
 
 The Seat Belt to Body Triangle transition converts standard hook-based back control into the mechanically superior body triangle configuration. From an established seat belt grip with hooks, the attacker threads one leg across the defender's torso and locks a figure-four behind their own knee, replacing bilateral hook control with a unified compression lock that restricts breathing and eliminates standard hook-clearing escapes. This upgrade represents a critical decision point in back control: sacrificing the dynamic mobility of hooks for the static mechanical dominance of the triangle lock.
 
@@ -225,8 +239,6 @@ The Seat Belt to Body Triangle transition occupies a pivotal role within the bac
 
 - [[Positions/Back Control]] - Parent position category — both seat belt and body triangle are configurations within back control
 
-- [[Transitions/Body Triangle Squeeze]] - Follow-up submission — body triangle compression can be used as a direct finishing technique once established
-
 - [[Rear Naked Choke from Body Triangle]] - Primary submission chain — body triangle platform enables high-percentage rear naked choke finishing
 
 - [[Positions/Half Guard]] - Counter outcome — defender may recover half guard if they exploit the hook release during transition
@@ -237,7 +249,7 @@ The Seat Belt to Body Triangle transition occupies a pivotal role within the bac
 
 - [[Submissions/Bow and Arrow Choke]] - Alternative attack — gi-specific submission available from seat belt that may be preferred over positional upgrade
 
-- [[Transitions/Escape Seat Belt Control]] - Defensive context — understanding defender's escape options informs optimal timing for the transition
+- [[Transitions/Body Triangle Escape to Half Guard]] - Defensive context — understanding the defender's escape route informs optimal timing for the transition
 
 
 </section>

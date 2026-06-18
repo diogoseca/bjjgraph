@@ -34,6 +34,18 @@ description: "Master the Technical Stand Up from Open Guard in BJJ. Complete gui
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technical Stand Up from Open Guard",
+  "description": "The Technical Stand Up from Open Guard is a defensive reset in which the bottom player posts a hand and same-side foot into a tripod base, then rises to their feet behind leg frames that block the opponent from re-engaging.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Technical Stand Up from Open Guard in BJJ. Complete gui
 </div>
 
 <section id="overview" class="content-section">
+
+**The Technical Stand Up from Open Guard is a defensive reset in which the bottom player posts a hand and same-side foot into a tripod base, then rises to their feet behind leg frames that block the opponent from re-engaging.**
 
 The Technical Stand Up from Open Guard is one of the most fundamental yet underutilized transitions in Brazilian Jiu-Jitsu, allowing the bottom player to safely return to standing from a seated or supine open guard position. Unlike simply scrambling to the feet, the technical stand up employs a specific biomechanical sequence of posting, hip elevation, and defensive framing that maintains protection against passes and takedowns throughout the entire standing motion. This technique is essential for any practitioner who wants to control where the fight takes place, whether in competition or self-defense contexts.
 
@@ -229,17 +243,13 @@ The Technical Stand Up from Open Guard serves as a critical bridge between the g
 
 - [[Transitions/Pull Guard from Standing]] - Complementary transition for cycling between standing and guard
 
-- [[Positions/Standing Position]] - Target position reached when stand-up is successfully completed
-
 - [[Transitions/Standing Up from Combat Base]] - Related standing transition using combat base as intermediate position
 
 - [[Positions/Combat Base]] - Intermediate position sometimes used during the stand-up sequence
 
-- [[Positions/Clinch]] - Position that may result if opponent closes distance as you stand
+- [[Positions/Clinch]] - Common resulting position when the stand-up is contested and the opponent closes distance
 
 - [[Positions/Closed Guard]] - Alternative guard position that can also transition to standing
-
-- [[Positions/Clinch]] - Common resulting position when stand-up is contested by opponent
 
 - [[Transitions/Guard Pull from Clinch]] - Option if opponent clinches during your stand-up attempt
 

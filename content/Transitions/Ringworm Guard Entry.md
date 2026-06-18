@@ -34,6 +34,18 @@ description: "Master Ringworm Guard Entry in BJJ. Advanced lapel configuration c
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ringworm Guard Entry",
+  "description": "Ringworm Guard Entry is a gi-specific lapel transition from Lapel Guard bottom that combines worm guard's leg entanglement with squid guard's arm wrap, establishing dual control that simultaneously traps the opponent's leg and posting arm.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Ringworm Guard Entry in BJJ. Advanced lapel configuration c
 
 <section id="overview" class="content-section">
 
-Ringworm Guard Entry represents the most sophisticated evolution of lapel-based guard systems, combining the leg entanglement of worm guard with the arm control of squid guard into a unified configuration. This dual-threat position creates unprecedented control density by simultaneously restricting the opponent's leg mobility and posting arm, essentially eliminating both primary passing mechanisms in one configuration.
+**Ringworm Guard Entry is a gi-specific lapel transition from Lapel Guard bottom that combines worm guard's leg entanglement with squid guard's arm wrap, establishing dual control that simultaneously traps the opponent's leg and posting arm.**
+
+Ringworm Guard Entry occupies the high end of the modern lapel guard system, sitting alongside worm guard and squid guard as one of the most demanding configurations available from bottom lapel play. The position creates unprecedented control density by simultaneously restricting the opponent's leg mobility and posting arm, essentially eliminating both primary passing mechanisms in a single configuration.
 
 The strategic value of ringworm lies in its ability to create compounding dilemmas. Unlike simpler lapel configurations where the opponent can focus defensive resources on a single control point, ringworm requires them to address multiple entanglements simultaneously. Attempting to clear the leg wrap exposes the arm to deeper control; trying to extract the arm allows the leg wrap to tighten. This mechanical trap frustrates even technically proficient passers who understand individual lapel guard solutions.
 

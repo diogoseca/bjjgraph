@@ -34,6 +34,18 @@ description: "Learn Ushiro Ashi-Garami Escape in BJJ. Systematic leg extraction 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ushiro Ashi-Garami Escape",
+  "description": "The Ushiro Ashi-Garami Escape is a systematic leg-clearing sequence that frees the trapped leg from a reversed figure-four entanglement, protecting the heel through constant dorsiflexion while sequentially clearing the attacker's legs to recover open guard or turtle.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn Ushiro Ashi-Garami Escape in BJJ. Systematic leg extraction 
 
 <section id="overview" class="content-section">
 
-The Ushiro Ashi-Garami Escape is a critical defensive technique for extracting the trapped leg from a reversed leg entanglement position. Ushiro ashi-garami occurs when the defender has partially inverted to escape standard ashi-garami but remains entangled with the attacker's legs configured in a reversed figure-four. The escape focuses on systematic leg clearing, heel protection, and controlled extraction rather than explosive scrambling that often worsens the position.
+**The Ushiro Ashi-Garami Escape is a systematic leg-clearing sequence that frees the trapped leg from a reversed figure-four entanglement, protecting the heel through constant dorsiflexion while sequentially clearing the attacker's legs to recover open guard or turtle.**
+
+Within modern leg lock defense, this escape completes a defensive inversion that stalled mid-sequence: the defender turned to flee standard ashi-garami but remained tangled in the attacker's reversed figure-four. Ushiro ashi-garami occurs when that partial inversion leaves the leg trapped with the attacker's outside leg crossing the knee while the inside leg stays underneath. The escape focuses on systematic leg clearing, heel protection, and controlled extraction rather than explosive scrambling that often worsens the position.
 
 The technique requires understanding how the reversed orientation changes both submission threat angles and available escape paths compared to standard ashi-garami escapes. The attacker's outside leg crosses over the trapped knee while the inside leg stays underneath, creating heel hook and ankle lock threats from unconventional angles. Successful escape demands continuous dorsiflexion of the trapped foot, methodical control of the attacker's inside knee to prevent saddle transitions, and sequential clearing of entangling legs while managing grip fighting against submission attempts.
 

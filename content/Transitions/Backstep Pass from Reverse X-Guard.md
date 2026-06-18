@@ -34,6 +34,18 @@ description: "Master the Backstep Pass from Reverse X-Guard in BJJ. Complete gui
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backstep Pass from Reverse X-Guard",
+  "description": "The Backstep Pass from Reverse X-Guard is a rotational guard pass where the top player pivots away from the opponent's stacked hooks, extracts the trapped leg through a controlled arc, and lands perpendicular in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Backstep Pass from Reverse X-Guard in BJJ. Complete gui
 
 <section id="overview" class="content-section">
 
-The Backstep Pass from Reverse X-Guard is a rotational passing technique where the top player uses a backstep to clear the opponent's inverted hook entanglement and arrive in side control. This pass exploits the structural weakness of the Reverse X-Guard configuration: because the guard player's hooks are committed to one side, the top player can rotate away from the hooks, extracting the trapped leg through a controlled arc and landing perpendicular to the opponent.
+**The Backstep Pass from Reverse X-Guard is a rotational guard pass where the top player pivots away from the opponent's stacked hooks, extracts the trapped leg through a controlled arc, and lands perpendicular in side control.**
+
+Against modern leg-entanglement guards, the backstep is one of the highest-percentage ways to convert a compromised top position into a dominant pin. The Backstep Pass from Reverse X-Guard exploits the structural weakness of the Reverse X-Guard configuration: because the guard player's hooks are committed to one side, the top player can rotate away from the hooks, extracting the trapped leg through a controlled arc and landing perpendicular to the opponent in side control.
 
 The backstep pass is particularly effective when the opponent commits strongly to elevation sweeps, as their hook extension creates space for the rotation. Timing is critical—initiating the backstep when the opponent's hooks are at maximum extension reduces the resistance encountered during the rotation. The technique requires precise weight transfer to the posting leg, controlled hip rotation, and immediate consolidation upon landing to prevent guard recovery.
 

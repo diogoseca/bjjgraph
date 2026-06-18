@@ -34,6 +34,18 @@ description: "Master Single Leg X Entry in BJJ. Step-by-step execution from seat
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Single Leg X Entry",
+  "description": "Single Leg X Entry is a guard transition from seated guard where the bottom player traps a standing opponent's leg with an inside hook and hip frame to reach Single Leg X-Guard, opening immediate sweep and leg-lock threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Single Leg X Entry in BJJ. Step-by-step execution from seat
 </div>
 
 <section id="overview" class="content-section">
+
+**Single Leg X Entry is a guard transition from seated guard where the bottom player traps a standing opponent's leg with an inside hook and hip frame to reach Single Leg X-Guard, opening immediate sweep and leg-lock threats.**
 
 The Single Leg X Entry is a fundamental transition in modern leg entanglement systems, allowing practitioners to establish a dominant sweeping position from various seated guard configurations. This entry creates a powerful off-balancing structure by controlling one leg while using your own legs to destabilize your opponent's base. The position excels at creating immediate sweeping opportunities and serves as a gateway to more advanced leg entanglement positions.
 

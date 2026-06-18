@@ -34,6 +34,18 @@ description: "Learn Standing Reset to Open Guard in BJJ. Escape Ringworm Guard b
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Standing Reset to Open Guard",
+  "description": "Standing Reset to Open Guard is a top-player extraction from Ringworm Guard in which the passer stands fully upright to strip away secondary controls, unwind the lapel wrap off the trapped leg, and reset to a neutral open-guard passing engagement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Standing Reset to Open Guard in BJJ. Escape Ringworm Guard b
 </div>
 
 <section id="overview" class="content-section">
+
+**Standing Reset to Open Guard is a top-player extraction from Ringworm Guard in which the passer stands fully upright to strip away secondary controls, unwind the lapel wrap off the trapped leg, and reset to a neutral open-guard passing engagement.**
 
 The Standing Reset to Open Guard is a positional extraction strategy used when the top player is trapped in Ringworm Guard and ground-based grip breaking has proven insufficient. Rather than fighting the lapel wrap on the ground where the bottom player has maximum leverage, the top player stands fully upright to eliminate secondary control points and isolate the lapel grip as the single problem to solve. The elevation fundamentally changes the dynamics of the engagement: the bottom player loses the ability to combine hip movement, leg hooks, and lapel tension into coordinated sweeping attacks.
 

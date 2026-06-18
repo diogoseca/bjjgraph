@@ -34,6 +34,18 @@ description: "Master the Russian Lasso Sweep from lasso guard in BJJ. Step-by-st
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Russian Lasso Sweep",
+  "description": "The Russian Lasso Sweep is a rotational gi sweep from Russian Leg Lasso guard that turns the deep lasso into a fulcrum and, with coordinated collar and sleeve grips, topples the passer into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Russian Lasso Sweep from lasso guard in BJJ. Step-by-st
 
 <section id="overview" class="content-section">
 
-The Russian Lasso Sweep is a high-percentage rotational sweep executed from the Russian Leg Lasso guard, leveraging the deep lasso configuration to generate powerful torque that breaks the opponent's base and deposits the sweeper in side control. The technique exploits the mechanical fulcrum created by the lasso leg—the sweeper's shin crosses the opponent's tricep with the foot positioned near the shoulder, creating a pivot point around which rotational force is amplified through coordinated collar and sleeve grips.
+**The Russian Lasso Sweep is a rotational gi sweep from Russian Leg Lasso guard that turns the deep lasso into a fulcrum and, with coordinated collar and sleeve grips, topples the passer into side control.**
+
+Built on the competitive evolution of the lasso guard, this sweep is the offensive centerpiece of the Russian Leg Lasso system, where the extra grip layers trade energy for the rotational power needed to defeat increasingly sophisticated passers. The technique exploits the mechanical fulcrum created by the lasso leg—the sweeper's shin crosses the opponent's tricep with the foot positioned near the shoulder, creating a pivot point around which rotational force is amplified through coordinated collar and sleeve grips.
 
 What distinguishes this sweep from standard lasso sweeps is the enhanced force generation made possible by the Russian variation's deeper lasso threading and strategic grip placement. The far-side collar grip provides the directional pull that breaks posture, while the sleeve grip prevents the opponent from posting or creating base. When the sweeper elevates their hips and initiates the rotation, the combined mechanical advantage from these three control points creates a sweep that is extremely difficult to resist once properly loaded.
 
@@ -227,11 +241,9 @@ The Russian Lasso Sweep sits at the offensive core of the Russian Leg Lasso guar
 
 - [[Positions/Side Control]] - Primary target position achieved on successful sweep completion
 
-- [[Transitions/Lasso Sweep]] - Related sweep from standard lasso guard using similar rotational mechanics
+- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Alternative lasso configuration with different mechanical properties and force vectors
 
-- [[Transitions/Inverted Lasso Sweep]] - Alternative lasso sweep variation with different angle and force vector
-
-- [[Transitions/Omoplata from Lasso]] - Chain attack when opponent defends sweep by posting hand
+- [[Positions/Omoplata Control]] - Chain attack when opponent defends sweep by posting hand
 
 - [[Positions/Open Guard]] - Degraded guard position resulting from counter when lasso is stripped
 
@@ -239,7 +251,9 @@ The Russian Lasso Sweep sits at the offensive core of the Russian Leg Lasso guar
 
 - [[Positions/Collar Sleeve Guard]] - Related guard sharing grip configurations and transition pathways
 
-- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Alternative lasso configuration with different mechanical properties
+- [[Positions/Triangle Control]] - Secondary submission entry when opponent defends the sweep by posturing
+
+- [[Positions/Spider Guard]] - Related gi open guard sharing sleeve-and-shin control and sweep mechanics
 
 
 </section>

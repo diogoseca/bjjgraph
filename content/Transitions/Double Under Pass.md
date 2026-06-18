@@ -34,6 +34,18 @@ description: "Master the Double Under Pass in BJJ. Pressure-based guard pass usi
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Double Under Pass",
+  "description": "The Double Under Pass is a pressure-based guard pass where the top player threads both arms under the opponent's thighs, stacks the hips toward the head, and rides chest-to-chest weight around the legs to land in side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Double Under Pass in BJJ. Pressure-based guard pass usi
 </div>
 
 <section id="overview" class="content-section">
+
+**The Double Under Pass is a pressure-based guard pass where the top player threads both arms under the opponent's thighs, stacks the hips toward the head, and rides chest-to-chest weight around the legs to land in side control.**
 
 The Double Under Pass is a fundamental pressure-based guard passing technique that relies on establishing bilateral underhooks beneath the opponent's legs. This pass is characterized by its heavy control orientation, making it extremely difficult for the opponent to retain guard once proper positioning is achieved. The technique involves methodically breaking down the opponent's defensive frames, consolidating position with chest-to-chest pressure, and using controlled lateral movement to clear the legs and establish side control.
 
@@ -246,7 +260,7 @@ The double under pass is a cornerstone technique within the pressure passing sys
 
 - [[Positions/Half Guard]] - Common defensive recovery position opponent may achieve during pass
 
-- [[Transitions/Double Under Pass]] - Related passing technique from similar position configuration
+- [[Positions/North-South]] - Alternative dominant position reachable from side control after completing the pass
 
 - [[Positions/Closed Guard]] - Guard position opponent may recover to counter the pass attempt
 

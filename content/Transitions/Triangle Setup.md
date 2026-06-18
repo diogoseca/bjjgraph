@@ -34,6 +34,18 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Triangle Setup",
+  "description": "Triangle Setup is the closed-guard attacking sequence that breaks the opponent's posture, isolates one arm across your centerline, and creates the angle and leg position needed to lock triangle control around their neck and trapped arm.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
 </div>
 
 <section id="overview" class="content-section">
+
+**Triangle Setup is the closed-guard attacking sequence that breaks the opponent's posture, isolates one arm across your centerline, and creates the angle and leg position needed to lock triangle control around their neck and trapped arm.**
 
 The Triangle Setup is a fundamental attacking sequence from closed guard that establishes the control position necessary for finishing the triangle choke. This technique exploits the opponent's defensive posture and arm positioning to create the angle and leg configuration required for effective triangle control. The setup phase is arguably more critical than the finish itself, as poor initial positioning makes the submission nearly impossible to complete regardless of technical knowledge.
 

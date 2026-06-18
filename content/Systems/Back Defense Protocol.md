@@ -135,6 +135,16 @@ description: "Master back defense in BJJ with systematic escape protocols. Learn
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Back Defense Protocol",
+  "description": "The Back Defense Protocol is a systematic defensive framework for escaping back control by prioritizing chin protection and hand fighting first, then using frames, hip escapes, and hook removal to recover guard or a neutral position.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -149,7 +159,9 @@ description: "Master back defense in BJJ with systematic escape protocols. Learn
 
 ## What is Back Defense Protocol?
 
-The Back Defense Protocol is a comprehensive defensive framework designed to systematically escape from back control, one of the most dominant positions in Brazilian Jiu-Jitsu. This system prioritizes survival through chin protection and hand fighting, followed by methodical hip escapes and guard recovery. The protocol emphasizes preventing the finish first, then creating space and frames to escape the position entirely. Unlike reactive scrambling, this system teaches practitioners to follow a clear hierarchy of defensive actions: protect the neck, fight the grips, create frames, hip escape, and recover guard or standing position. The framework scales from fundamental survival techniques for beginners to advanced re-guard strategies for experienced practitioners. By mastering this protocol, students develop the confidence and technical skill to remain calm under back control pressure and systematically work their way back to safety.
+**The Back Defense Protocol is a systematic defensive framework for escaping back control by prioritizing chin protection and hand fighting first, then using frames, hip escapes, and hook removal to recover guard or a neutral position.**
+
+Back control is widely considered the most dominant position in Brazilian Jiu-Jitsu, handing the attacker the seatbelt grip, two hooks, and direct access to the neck — which is precisely why a structured escape methodology matters more here than almost anywhere else on the mat. This protocol replaces panicked scrambling with a disciplined hierarchy of defensive actions: protect the neck, fight the grips, build frames, hip escape, clear the hooks, and recover guard or standing. Each phase is deliberately sequenced so that survival is never sacrificed for escape speed — the practitioner only advances to the next stage once the previous threat is neutralized. The framework scales from fundamental survival techniques for beginners to advanced re-guard strategies for experienced grapplers, and because it targets the position rather than any single submission, it remains effective against rear naked chokes, collar chokes, body-triangle control, and arm attacks alike. Mastering this protocol builds the calm, methodical mindset needed to work back to safety under sustained pressure.
 
 </section>
 
@@ -344,11 +356,10 @@ Begin with static positional drilling where partner has back control but doesn't
 - [[Arm Recovery to Guard]] (Transition) - Final phase of escape protocol returning to guard position
 - [[Hand Fighting]] (Principle) - Critical defensive skill for preventing chokes from back control
 - [[Chin Protection]] (Principle) - First priority in back defense protocol
-- [[Submission Defense]] (Principle) - Specific application of chin protection and grip fighting against chokes
+- [[Defensive Concepts]] (Principle) - Body positioning principles that maximize defensive effectiveness
 - [[Frames]] (Principle) - Essential principle for preventing opponent from flattening you
 - [[Hip Escape Mechanics]] (Principle) - Fundamental movement principle underlying all escape sequences
 - [[Escape Fundamentals]] (Principle) - Strategic framework defining priority order of defensive actions
-- [[Defensive Concepts]] (Principle) - Body positioning principles that maximize defensive effectiveness
 - [[Distance Control]] (Principle) - Core principle of generating room for escape movements
 - [[Energy Conservation]] (Principle) - Critical for surviving extended back control situations
 - [[Dealing with Pressure]] (Principle) - Overall strategic approach to handling dominant pressure situations

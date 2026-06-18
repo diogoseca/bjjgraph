@@ -34,6 +34,18 @@ description: "Learn the Elbow Escape to Guard from Buggy Choke defense in BJJ. S
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Elbow Escape to Guard",
+  "description": "The Elbow Escape to Guard is a defensive transition from the bottom of a Buggy Choke where you wedge your near elbow against the choking forearm and hip-escape diagonally to clear space and recover open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn the Elbow Escape to Guard from Buggy Choke defense in BJJ. S
 </div>
 
 <section id="overview" class="content-section">
+
+**The Elbow Escape to Guard is a defensive transition from the bottom of a Buggy Choke where you wedge your near elbow against the choking forearm and hip-escape diagonally to clear space and recover open guard.**
 
 The Elbow Escape to Guard represents a fundamental defensive technique for recovering guard position when caught in the Buggy Choke from bottom. This escape exploits the mechanical limitations of the buggy choke grip structure by creating separation through strategic elbow positioning and hip movement. Unlike more explosive escapes that rely on power, this technique emphasizes precise body mechanics and proper timing to methodically dismantle the opponent's control.
 

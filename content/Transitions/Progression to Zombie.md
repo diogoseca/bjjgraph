@@ -34,6 +34,18 @@ description: "Learn Progression to Zombie in 10th Planet Rubber Guard. Advance f
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Progression to Zombie",
+  "description": "Progression to Zombie is a 10th Planet Rubber Guard transition where the bottom player elevates the controlling shin from across the opponent's back to wrap their shoulder-neck junction, deepening New York control and unlocking gogoplata and omoplata attacks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Progression to Zombie in 10th Planet Rubber Guard. Advance f
 </div>
 
 <section id="overview" class="content-section">
+
+**Progression to Zombie is a 10th Planet Rubber Guard transition where the bottom player elevates the controlling shin from across the opponent's back to wrap their shoulder-neck junction, deepening New York control and unlocking gogoplata and omoplata attacks.**
 
 Progression to Zombie represents the natural evolution of control within the Rubber Guard system, allowing the bottom player to transition from New York into a deeper, more restrictive control position. The Zombie position intensifies the pressure on the opponent by bringing the controlling leg higher around their shoulder while maintaining the overhook, creating a system where escape becomes exponentially more difficult and submission threats multiply.
 

@@ -11,6 +11,7 @@
     "no-gi",
     "back step pass"
   ],
+  "summary": "The Back Step is a guard pass and leg-entanglement escape in which the top player circles their trapped leg backward over the opponent's body while driving chest pressure forward, breaking outside ashi-garami and arriving in side control.",
   "from_position": "Outside Ashi-Garami/Top",
   "outcomes": [
     {
@@ -30,7 +31,7 @@
     }
   ],
   "success_rate": 58,
-  "overview": "The Back Step is a fundamental leg entanglement escape and guard pass that creates immediate pressure passing opportunities when an opponent attempts to enter outside ashi-garami or other leg entanglement positions. By stepping the trapped leg backward over the opponent's body while maintaining heavy chest pressure, you simultaneously break their leg entanglement structure and establish dominant top position. This technique is essential in modern BJJ, particularly in no-gi competition where leg locks are prevalent. The back step exemplifies the principle of using aggressive forward movement to counter defensive guard retention, turning a potentially dangerous leg entanglement situation into a dominant passing position. When executed properly, the back step not only neutralizes the leg attack but also creates a direct path to side control or knee on belly, often catching opponents off-guard as they transition from offensive to defensive positioning.",
+  "overview": "Within modern no-gi and submission grappling, the back step has emerged as one of the most reliable answers to leg entanglement attacks, particularly when an opponent secures or enters outside ashi-garami or other leg entanglement positions. By stepping the trapped leg backward and over the opponent's body while maintaining heavy chest pressure, you simultaneously break their leg entanglement structure and establish dominant top position. This technique is essential in modern BJJ, particularly in no-gi competition where leg locks are prevalent. The back step exemplifies the principle of using aggressive forward movement to counter defensive guard retention, turning a potentially dangerous leg entanglement situation into a dominant passing position. When executed properly, the back step not only neutralizes the leg attack but also creates a direct path to side control or knee on belly, often catching opponents off-guard as they transition from offensive to defensive positioning.",
   "related_content": [
     {
       "name": "Outside Ashi-Garami",
@@ -61,8 +62,8 @@
       "relationship": "Alternative ending position"
     },
     {
-      "name": "Lachlan Giles Leg Lock Defense Framework",
-      "relationship": "Systematic defensive context"
+      "name": "Leg Entanglement",
+      "relationship": "General leg entanglement category this technique counters"
     },
     {
       "name": "50-50 Guard",

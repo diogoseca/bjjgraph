@@ -34,6 +34,18 @@ description: "Master the Escape from Crab Ride in BJJ. Learn systematic techniqu
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape from Crab Ride",
+  "description": "Escape from Crab Ride is a defensive transition from turtle bottom that strips the top player's single hook, blocks the second-hook insertion, and recovers half guard before crab ride consolidates into full back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Escape from Crab Ride in BJJ. Learn systematic techniqu
 </div>
 
 <section id="overview" class="content-section">
+
+**Escape from Crab Ride is a defensive transition from turtle bottom that strips the top player's single hook, blocks the second-hook insertion, and recovers half guard before crab ride consolidates into full back control.**
 
 The Escape from Crab Ride is a critical defensive transition addressing one of modern grappling's most dangerous intermediate positions. When an opponent establishes crab ride, sitting perpendicular to your turtle with a hook controlling your hip and upper body grips limiting movement, you face an urgent positional crisis. Crab ride serves as a launching pad for back takes, crucifix entries, and submission attacks, making immediate escape action essential rather than optional. The position deteriorates rapidly if left unaddressed, as the top player systematically works to insert a second hook and consolidate full back control.
 

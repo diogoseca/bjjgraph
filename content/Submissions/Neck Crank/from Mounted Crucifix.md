@@ -33,10 +33,32 @@ description: "Master the Neck Crank from Mounted Crucifix in BJJ. Learn the cerv
 }
 </script>
 
-> **SAFETY**: Neck Crank from Mounted Crucifix targets the Cervical spine and neck muscles. Risk: Cervical disc herniation or vertebral fracture from excessive rotational force. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Neck Crank from Mounted Crucifix",
+  "description": "The Neck Crank from Mounted Crucifix is a cervical-spine compression finish applied from mount with both of the opponent's arms leg-trapped, freeing the attacker's hands to crank the head against a pinned, frame-less torso.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Neck Crank from Mounted Crucifix is a cervical-spine compression finish applied from mount with both of the opponent's arms leg-trapped, freeing the attacker's hands to crank the head against a pinned, frame-less torso.**
+<div class="principle-meta">
+<span class="meta-chip">Compression</span>
+<span class="meta-chip">Spinal Compression</span>
+<span class="meta-chip">Targets Cervical spine and neck muscles</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Neck Crank from Mounted Crucifix targets the Cervical spine and neck muscles. Primary risk: Cervical disc herniation or vertebral fracture from excessive rotational force. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,47 +75,7 @@ What distinguishes this variant from the Twister Control neck crank is the direc
 
 Strategically, the neck crank serves dual purpose from this position. As a primary finish, it is high-percentage against opponents who turtle their chin to defend chokes but leave the crown of the head exposed. As a chain threat, attempting the crank forces the defender to open their neck defending the rotation, which creates direct entries to rear naked choke or arm triangle attacks. The submission pairs naturally with the Mounted Crucifix Armbar—defending the arm exposes the neck, and defending the neck exposes the arm, creating an inescapable dilemma for the bottom player.
 
-**Category**: Compression
-**Type**: Spinal Compression
-**Target Area**: Cervical spine and neck muscles
-**Starting Position**: [[Positions/Mount/Mounted Crucifix]]
-**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Cervical disc herniation or vertebral fracture from excessive rotational force | CRITICAL | 3-12 months, may require surgical intervention |
-| Neck muscle strain or ligament sprain from sudden force application | Medium | 2-6 weeks with rest and physical therapy |
-| Cervical nerve compression causing radiating pain or numbness in extremities | High | 4-8 weeks, requires medical evaluation |
-
-
-**Application Speed**: SLOW AND PROGRESSIVE ONLY. Never apply explosive or jerking force to the cervical spine. Increase pressure gradually over several seconds, giving the defender adequate time to recognize danger and tap. The cervical spine provides minimal warning before catastrophic failure.
-
-**Tap Signals**:
-- Physical tap on partner's body, legs, or the mat (minimum two distinct taps)
-- Verbal submission ('tap', 'stop', or any verbal indication of distress)
-- Any sign of distress including grunting, gasping, or going limp—treat as an immediate tap
-
-
-**Release Protocol**:
-1. Release ALL pressure immediately and completely upon any tap signal—do not 'finish the rep'
-2. Gently return the opponent's head to neutral alignment before disengaging the body position
-3. Check on your training partner verbally after every neck crank attempt, even if they did not tap
-
-
-**Training Restrictions**:
-- Prohibited for white and blue belts in most academies; purple belt and above with instructor supervision recommended
-- Never apply full force in training—use controlled progressive pressure at 50-70% intensity maximum
-- Do not drill on partners with pre-existing cervical spine injuries, neck surgery history, or active neck pain
-
+**Starting Position**: [[Positions/Mount/Mounted Crucifix]] · **From**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
 
@@ -234,40 +216,53 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Mounted Crucifix Armbar]]
 - [[Submissions/Spine Lock]]
 - [[Submissions/Banana Split]]
 - [[Submissions/Can Opener]]
 - [[Transitions/Arm Triangle]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount/Mounted Crucifix]] - Starting position providing arm-trapped control for this neck crank variant
 - [[Positions/Crucifix]] - Related control position sharing arm isolation mechanics
 - [[Submissions/Neck Crank]] - Parent submission family—this is the mounted crucifix variant
-- [[Submissions/Mounted Crucifix Armbar]] - Primary chain partner—armbar defense opens neck, neck crank defense opens arm
-- [[Submissions/Spine Lock]] - Related spinal compression submission sharing safety protocols
 - [[Positions/Mount/High Mount]] - Common entry position leading to mounted crucifix arm isolation
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Neck Crank from Mounted Crucifix leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Cervical disc herniation or vertebral fracture from excessive rotational force | CRITICAL | 3-12 months, may require surgical intervention |
+| Neck muscle strain or ligament sprain from sudden force application | Medium | 2-6 weeks with rest and physical therapy |
+| Cervical nerve compression causing radiating pain or numbness in extremities | High | 4-8 weeks, requires medical evaluation |
+
+
+**Application Speed**: SLOW AND PROGRESSIVE ONLY. Never apply explosive or jerking force to the cervical spine. Increase pressure gradually over several seconds, giving the defender adequate time to recognize danger and tap. The cervical spine provides minimal warning before catastrophic failure.
+
+**Tap Signals**:
+- Physical tap on partner's body, legs, or the mat (minimum two distinct taps)
+- Verbal submission ('tap', 'stop', or any verbal indication of distress)
+- Any sign of distress including grunting, gasping, or going limp—treat as an immediate tap
+
+
+**Release Protocol**:
+1. Release ALL pressure immediately and completely upon any tap signal—do not 'finish the rep'
+2. Gently return the opponent's head to neutral alignment before disengaging the body position
+3. Check on your training partner verbally after every neck crank attempt, even if they did not tap
+
+
+**Training Restrictions**:
+- Prohibited for white and blue belts in most academies; purple belt and above with instructor supervision recommended
+- Never apply full force in training—use controlled progressive pressure at 50-70% intensity maximum
+- Do not drill on partners with pre-existing cervical spine injuries, neck surgery history, or active neck pain
+
 
 </section>
 

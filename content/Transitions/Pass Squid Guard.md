@@ -34,6 +34,18 @@ description: "Master passing Squid Guard in BJJ. Complete guide to clearing lape
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Squid Guard",
+  "description": "Pass Squid Guard is a systematic guard pass where the top player strips the bottom player's lapel entanglement and clears the threading hook while keeping posture, then drives to side control without exposing the back to inversion-based counters.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master passing Squid Guard in BJJ. Complete guide to clearing lape
 
 <section id="overview" class="content-section">
 
-Pass Squid Guard is a systematic guard passing sequence designed to neutralize the bottom player's asymmetrical lapel control and threading leg configuration. The pass requires methodical lapel clearing combined with postural discipline before any traditional passing mechanics can be applied. Unlike standard open guard passes where grip fighting and directional pressure are the primary concerns, Squid Guard passing demands a preliminary phase dedicated entirely to removing the fabric entanglement that defines the position.
+**Pass Squid Guard is a systematic guard pass where the top player strips the bottom player's lapel entanglement and clears the threading hook while keeping posture, then drives to side control without exposing the back to inversion-based counters.**
+
+Passing Squid Guard is fundamentally a fabric-clearing problem before it is a passing problem: the bottom player's asymmetrical lapel wrap and threading-leg configuration must be dismantled before any orthodox passing mechanic can be applied. Unlike standard open guard passes where grip fighting and directional pressure are the primary concerns, Squid Guard passing demands a preliminary phase dedicated entirely to removing the fabric entanglement that defines the position, combined with strict postural discipline.
 
 The passing strategy centers on a three-phase approach: first establishing stable posture and preventing the bottom player's inversion attempts, second stripping or clearing the lapel wrap that restricts the passer's mobility, and third executing a directional pass once the primary control mechanism has been neutralized. The critical insight is that attempting any standard passing technique while the lapel remains entangled around your leg will fail because the bottom player retains mechanical leverage through the fabric connection.
 

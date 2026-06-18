@@ -1,5 +1,6 @@
 {
   "name": "Kimura from Standing",
+  "summary": "The Kimura from Standing is an upright shoulder lock that traps the opponent's extended arm in a figure-four grip and rotates it behind their back, forcing a tap or funneling them into a takedown or back take.",
   "description": "Master the Kimura from Standing in BJJ. Complete safety guide with takedown integration, shoulder lock mechanics, control transitions. Beginner 35%, Intermediate 50%, Advanced 65%.",
   "tags": [
     "bjj",
@@ -94,7 +95,6 @@
     "Overhook Control",
     "Front Headlock",
     "Turtle",
-    "Standing Position",
     "Combat Base",
     "Standing Rear Clinch",
     "Body Lock"
@@ -156,7 +156,7 @@
     }
   ],
   "attacker": {
-    "name": "from Standing Attacker",
+    "name": "Kimura from Standing Attacker",
     "description": "How to execute Kimura from Standing in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
     "overview": "The Kimura from Standing represents one of the most versatile shoulder lock applications in Brazilian Jiu-Jitsu, bridging the gap between takedown control and submission finish. This technique capitalizes on the standing position's dynamic nature, where opponents are often less defensive against upper body attacks while focused on maintaining balance and preventing takedowns. The standing Kimura serves multiple strategic purposes: it can force an immediate tap, create a dominant takedown opportunity, or establish superior positional control as both fighters transition to the ground. Unlike ground-based Kimura applications, the standing version requires acute awareness of weight distribution, base management, and the ability to control an opponent who maintains full mobility. The technique's effectiveness stems from its integration with wrestling fundamentals—using the Kimura grip to break down posture, compromise base, and create cascading defensive dilemmas. Advanced practitioners use the standing Kimura as a systematic entry point, recognizing that even when the submission doesn't finish, the control gained opens pathways to dominant positions including back takes, side control entries, and turtle attacks. The standing application demands precise technical execution combined with strategic timing, making it a cornerstone technique for practitioners transitioning between standing and ground phases of combat.",
     "key_principles": [
@@ -387,7 +387,7 @@
     ]
   },
   "defender": {
-    "name": "from Standing Defender",
+    "name": "Kimura from Standing Defender",
     "description": "How to defend against Kimura from Standing in BJJ. Recognition, escape paths, and defensive strategies.",
     "overview": "Defending the Kimura from Standing demands early recognition and immediate action because the standing environment amplifies both the submission danger and the risk of uncontrolled falls. Unlike ground-based Kimura defense where the mat provides bracing and friction, standing defense must account for balance disruption, gravity-assisted rotation, and the attacker's ability to combine shoulder lock pressure with takedown threats. The defender faces a cascading dilemma: defending the shoulder rotation opens vulnerability to trips and takedowns, while defending the takedown exposes the shoulder to increased rotational pressure. Successful defense requires understanding the critical windows where intervention is most effective. The highest percentage defensive moment occurs before the figure-four grip is fully locked - once the attacker establishes a tight figure-four with elbow elevation, defensive options narrow dramatically. Defenders must prioritize arm retraction and elbow pinning in the early phase, then shift to counter-rotation, guard pulling, or explosive forward pressure if the grip is established. Advanced defenders treat the standing Kimura as a positional problem rather than purely a submission defense, recognizing that escaping to closed guard or neutral standing resets the engagement entirely. The willingness to sacrifice standing position by pulling guard is often the highest percentage escape, converting a dangerous standing submission scenario into a manageable ground position where the defender has more defensive tools available.",
     "key_principles": [

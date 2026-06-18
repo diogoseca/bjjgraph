@@ -1,5 +1,6 @@
 {
   "name": "Lumberjack Sweep",
+  "summary": "The Lumberjack Sweep is a half guard bottom sweep that uses a deep far-side underhook and an explosive chopping hip elevation to off-balance a forward-pressuring opponent and rotate them over into side control top.",
   "description": "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step execution with underhook control. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
   "tags": [
     "bjj",
@@ -28,7 +29,7 @@
     }
   ],
   "success_rate": 60,
-  "overview": "The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on underhook control to off-balance and sweep an opponent who is attempting to pass. Named for the chopping motion used to break down the opponent's base, this technique is particularly effective against opponents who overcommit their weight forward or fail to establish proper crossface control. The sweep combines hip movement, underhook leverage, and precise timing to elevate the opponent and transition to a dominant top position.\n\nThis technique serves as a cornerstone of modern half guard systems, providing a reliable option when the opponent is pressuring into your half guard. The Lumberjack Sweep's effectiveness lies in its ability to exploit the opponent's forward momentum, turning their pressure into a liability. By controlling the underhook and creating the proper angle, the bottom player can generate significant leverage despite being in an inferior position.\n\nThis sweep integrates seamlessly with other half guard attacks, forming part of a comprehensive sweeping system that keeps opponents defensive and hesitant to engage. When the opponent defends the lumberjack sweep, they expose themselves to deep half entries, kimura attacks on posted arms, and back takes through the dogfight position, making the sweep threat valuable even when not completed.",
+  "overview": "Named for the chopping motion used to break down the opponent's base, the Lumberjack Sweep earned its place as a cornerstone of modern half guard precisely because it punishes the most common passing mistake: overcommitting weight forward without crossface control. It is particularly effective against opponents who pressure into the pass while leaving their far-side armpit exposed to a deep underhook. The sweep combines hip movement, underhook leverage, and precise timing to elevate the opponent and transition to a dominant top position.\n\nThis technique serves as a cornerstone of modern half guard systems, providing a reliable option when the opponent is pressuring into your half guard. The Lumberjack Sweep's effectiveness lies in its ability to exploit the opponent's forward momentum, turning their pressure into a liability. By controlling the underhook and creating the proper angle, the bottom player can generate significant leverage despite being in an inferior position.\n\nThis sweep integrates seamlessly with other half guard attacks, forming part of a comprehensive sweeping system that keeps opponents defensive and hesitant to engage. When the opponent defends the lumberjack sweep, they expose themselves to deep half entries, kimura attacks on posted arms, and back takes through the dogfight position, making the sweep threat valuable even when not completed.",
   "related_content": [
     {
       "name": "Half Guard",
@@ -75,7 +76,7 @@
       "relationship": "Recovery option if opponent extracts leg during sweep attempt"
     },
     {
-      "name": "Deep Half Entry",
+      "name": "Deep Half Entry from Half Guard",
       "relationship": "Chain transition when crossface prevents sweep completion"
     }
   ],

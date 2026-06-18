@@ -34,6 +34,18 @@ description: "Master Reverse X to Ashi Garami Entry in BJJ. Transition from Reve
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Reverse X to Ashi Garami Entry",
+  "description": "Reverse X to Ashi Garami Entry is a bottom-game transition that reconfigures the hooks of Reverse X-Guard into an Ashi Garami leg entanglement, converting a defended sweep into a heel-hook-threatening leg attack.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Reverse X to Ashi Garami Entry in BJJ. Transition from Reve
 
 <section id="overview" class="content-section">
 
-The Reverse X to Ashi Garami Entry is a systematic transition that converts the sweeping platform of Reverse X-Guard into a powerful leg entanglement position. This technique capitalizes on the bottom player's existing hook configuration behind the opponent's knee to establish inside or outside Ashi Garami control. The transition is particularly effective when sweep attempts are defended or when the opponent begins to posture up and widen their base.
+**Reverse X to Ashi Garami Entry is a bottom-game transition that reconfigures the hooks of Reverse X-Guard into an Ashi Garami leg entanglement, converting a defended sweep into a heel-hook-threatening leg attack.**
+
+As modern leg-lock systems matured, the Reverse X to Ashi Garami Entry emerged as a key bridge between the sweeping platform of Reverse X-Guard and the submission-rich world of leg entanglements. This technique capitalizes on the bottom player's existing hook configuration behind the opponent's knee to establish inside or outside Ashi Garami control. The transition is particularly effective when sweep attempts are defended or when the opponent begins to posture up and widen their base.
 
 This entry represents a fundamental pathway within the modern leg lock game, connecting guard positions to submission-threatening entanglements. By maintaining the primary hook behind the knee throughout the transition, the bottom player retains control while reconfiguring their secondary leg to complete the Ashi Garami structure. The transition works in both gi and no-gi contexts, though it excels in no-gi where heel hook finishes are available.
 

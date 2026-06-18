@@ -34,6 +34,18 @@ description: "Master the hip escape from front headlock in BJJ. Complete guide t
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape from Front Headlock",
+  "description": "The hip escape from front headlock is a defensive guard-recovery escape in which the bottom player frames on the opponent's hip and shrimps laterally to clear their trapped head and rebuild closed guard from underneath.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the hip escape from front headlock in BJJ. Complete guide t
 </div>
 
 <section id="overview" class="content-section">
+
+**The hip escape from front headlock is a defensive guard-recovery escape in which the bottom player frames on the opponent's hip and shrimps laterally to clear their trapped head and rebuild closed guard from underneath.**
 
 The hip escape from front headlock is a fundamental defensive technique that uses shrimping mechanics to create space and recover guard from one of BJJ's most dangerous control positions. When trapped in front headlock bottom, the opponent has access to guillotine, anaconda, darce, and back take threats, making timely escape essential. This technique leverages the principle that lateral hip movement is far more effective than pulling straight back against head control, redirecting force perpendicular to the opponent's pressure to create the space needed for guard recovery.
 
@@ -233,19 +247,19 @@ The hip escape from front headlock occupies a critical defensive role in the fro
 
 - [[Positions/Side Control]] - Risk position if opponent counters the hip escape by advancing
 
-- [[Transitions/Guillotine Escape via Posture]] - Alternative escape when opponent commits to guillotine from front headlock
-
-- [[Transitions/Frame and Posture from Anaconda]] - Related defensive framing concept against front headlock choke threats
-
-- [[Transitions/Hip Escape from Cross Body Ride]] - Similar hip escape mechanics applied from a different control position
+- [[Transitions/Guillotine Defense]] - Alternative escape when opponent commits to guillotine from front headlock
 
 - [[Positions/Turtle]] - Common position preceding front headlock situations where this escape becomes relevant
 
 - [[Positions/Back Control]] - Dangerous position to avoid if hip escape is executed poorly or too late
 
-- [[Transitions/Elbow Escape from Mount]] - Shares fundamental shrimping mechanics used in this hip escape technique
+- [[Transitions/Granby Roll to Guard]] - Chained escape alternative when the hip escape stalls against heavy pressure
+
+- [[Transitions/Technical Stand-up]] - Higher-percentage companion escape from front headlock bottom
 
 - [[Transitions/Arm Drag Escape]] - Alternative escape method from front headlock using arm drag principles
+
+- [[Positions/Half Guard]] - Intermediate recovery position when full closed guard distance is unavailable
 
 
 </section>

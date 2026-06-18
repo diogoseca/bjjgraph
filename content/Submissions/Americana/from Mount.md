@@ -33,10 +33,32 @@ description: "Master the Americana shoulder lock from mount with safety protocol
 }
 </script>
 
-> **SAFETY**: Americana from Mount targets the Shoulder joint (rotator cuff). Risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Americana from Mount",
+  "description": "Americana from Mount is a high-percentage shoulder lock executed from top mount, pinning the opponent's wrist and shoulder blade to the mat while a figure-four grip forces the arm into external rotation until they tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**Americana from Mount is a high-percentage shoulder lock executed from top mount, pinning the opponent's wrist and shoulder blade to the mat while a figure-four grip forces the arm into external rotation until they tap.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint (rotator cuff)</span>
+<span class="meta-chip">68% success</span>
+</div>
+
+> [!danger] Safety
+> Americana from Mount targets the Shoulder joint (rotator cuff). Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,61 +69,13 @@ description: "Master the Americana shoulder lock from mount with safety protocol
 
 <section id="overview" class="content-section">
 
-The Americana from Mount is a fundamental shoulder lock that targets the rotator cuff by isolating the opponent's arm and applying a figure-four grip to force external rotation beyond the joint's natural range. This submission is one of the highest-percentage attacks from the mount position due to the superior control and weight distribution available from top position.
+As a finishing option from the most dominant pin in jiu-jitsu, the Americana from Mount is one of the first high-percentage submissions taught to beginners and one that remains effective into the black-belt ranks. The mount supplies everything the lock demands — a supine opponent whose shoulder can be flattened to the mat, the body weight to keep it pinned, and the upper-body freedom to isolate a wrist — which is why it converts so reliably here relative to the same lock attempted from side control or scarf hold.
 
 The technique's effectiveness stems from the combination of positional dominance and mechanical advantage. When executed properly from mount, the practitioner uses their body weight to pin the opponent's shoulder to the mat while simultaneously controlling the wrist and applying rotational pressure through the elbow. This creates a powerful lever system that attacks multiple points of the shoulder complex simultaneously.
 
 The Americana from Mount serves as a cornerstone technique in any top game arsenal, functioning not only as a direct finishing option but also as a gateway to other submissions and positional advancements. Its reliability in both gi and no-gi competition, combined with its straightforward mechanics, makes it an essential submission for practitioners at all levels.
 
-**Category**: Joint Lock
-**Type**: Shoulder Lock
-**Target Area**: Shoulder joint (rotator cuff)
-**Starting Position**: [[Positions/Mount]]
-**From Position**: [[Positions/Mount]] (Top)
-**Success Rate**: 68%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with potential surgery |
-| Shoulder capsule damage | High | 6-12 weeks |
-| Bicep tendon strain or tear | Medium | 4-8 weeks |
-| AC joint sprain | Medium | 2-6 weeks |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from isolation to finish. Never spike or jerk the shoulder.
-
-**Tap Signals**:
-- Verbal tap (saying 'tap' or any distress vocalization)
-- Physical hand tap on opponent or mat (minimum 2 taps)
-- Physical foot tap on mat
-- Any unusual vocalization or distress signal
-- Head shake or nodding if hands are trapped
-
-
-**Release Protocol**:
-1. Immediately release the figure-four grip on the wrist
-2. Remove pressure from the opponent's shoulder by lifting your chest
-3. Release the arm and allow it to return to neutral position naturally
-4. Do not force the arm back to starting position - let opponent move it themselves
-5. Maintain mount position control while releasing to ensure safe transition
-
-
-**Training Restrictions**:
-- Never apply competition speed or sudden pressure in training
-- Always ensure training partner has at least one hand free to tap
-- Stop immediately at any sign of discomfort or pain
-- Never use this submission on beginners until they understand tap protocols
-- Avoid training this technique with partners who have pre-existing shoulder injuries
-- Communication before and after drilling is mandatory
-
+**Starting Position**: [[Positions/Mount]] · **From**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -279,10 +253,9 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Belly Down Armbar]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Americana]]
@@ -292,37 +265,58 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Flying Armbar]]
 - [[Submissions/Gift Wrap Armbar]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Mount]] - Primary starting position for this submission
 - [[Positions/Mount/High Mount]] - Advanced positional variation that increases americana effectiveness
 - [[Positions/Mount/S Mount]] - Alternative mount position providing greater leverage for americana
 - [[Transitions/Mount to Armbar]] - Primary follow-up transition when opponent defends americana by straightening arm
-- [[Submissions/Americana]] - Parent submission family sharing core shoulder lock mechanics across all variations
-- [[Submissions/Kimura]] - Complementary shoulder lock attacking opposite rotation direction
-- [[Submissions/Ezekiel Choke]] - Alternative mount submission when arms are not available for americana attack
 - [[Transitions/Triangle from Mount]] - Choke option from mount that works in submission chain with americana
 - [[Positions/Gift Wrap]] - Control position that can be used to set up americana
 - [[Positions/Mount/Mounted Crucifix]] - Advanced control position where americana can also be applied
 - [[Positions/Mount/Technical Mount]] - Mount variation providing alternative angle for americana setup
 - [[Positions/Mount/Modified Mount]] - Mount variation with posted leg providing base stability during americana
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Americana from Mount leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Rotator cuff tear (supraspinatus, infraspinatus, teres minor) | High | 3-6 months with potential surgery |
+| Shoulder capsule damage | High | 6-12 weeks |
+| Bicep tendon strain or tear | Medium | 4-8 weeks |
+| AC joint sprain | Medium | 2-6 weeks |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from isolation to finish. Never spike or jerk the shoulder.
+
+**Tap Signals**:
+- Verbal tap (saying 'tap' or any distress vocalization)
+- Physical hand tap on opponent or mat (minimum 2 taps)
+- Physical foot tap on mat
+- Any unusual vocalization or distress signal
+- Head shake or nodding if hands are trapped
+
+
+**Release Protocol**:
+1. Immediately release the figure-four grip on the wrist
+2. Remove pressure from the opponent's shoulder by lifting your chest
+3. Release the arm and allow it to return to neutral position naturally
+4. Do not force the arm back to starting position - let opponent move it themselves
+5. Maintain mount position control while releasing to ensure safe transition
+
+
+**Training Restrictions**:
+- Never apply competition speed or sudden pressure in training
+- Always ensure training partner has at least one hand free to tap
+- Stop immediately at any sign of discomfort or pain
+- Never use this submission on beginners until they understand tap protocols
+- Avoid training this technique with partners who have pre-existing shoulder injuries
+- Communication before and after drilling is mandatory
+
 
 </section>
 

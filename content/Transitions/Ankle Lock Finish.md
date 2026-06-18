@@ -34,6 +34,18 @@ description: "Master the Ankle Lock Finish from Ushiro Ashi-Garami. Step-by-step
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Ankle Lock Finish",
+  "description": "The Ankle Lock Finish is a straight ankle lock applied from Ushiro Ashi-Garami that attacks the exposed Achilles tendon when an opponent inverts to escape, using back-arch and hip-extension mechanics to finish through the reversed entanglement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Ankle Lock Finish from Ushiro Ashi-Garami. Step-by-step
 </div>
 
 <section id="overview" class="content-section">
+
+**The Ankle Lock Finish is a straight ankle lock applied from Ushiro Ashi-Garami that attacks the exposed Achilles tendon when an opponent inverts to escape, using back-arch and hip-extension mechanics to finish through the reversed entanglement.**
 
 The Ankle Lock Finish from Ushiro Ashi-Garami represents a critical submission pathway within the modern leg lock system. When the opponent inverts to escape standard ashi-garami positions but remains partially entangled, the reversed configuration creates unique finishing opportunities that differ mechanically from standard ankle lock applications.
 

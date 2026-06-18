@@ -34,6 +34,18 @@ description: "Master the Bull Pass from Collar Sleeve Guard. Complete BJJ guide 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Bull Pass from Collar Sleeve",
+  "description": "The Bull Pass from Collar Sleeve is a speed-based gi guard pass where the top player breaks the sleeve grip, secures double pant grips, then explosively redirects the opponent's legs laterally to clear the guard into half guard or side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Bull Pass from Collar Sleeve Guard. Complete BJJ guide 
 
 <section id="overview" class="content-section">
 
-The bull pass from collar sleeve guard is a dynamic speed-based guard passing technique that combines aggressive grip fighting with explosive lateral movement. Unlike pressure-based passes that methodically grind through the guard structure, the bull pass exploits momentary grip vulnerability by quickly redirecting the opponent's legs to one side while stepping laterally to clear the guard entirely. The technique derives its name from the bullfighter concept—redirecting the opponent's defensive structure rather than forcing through it.
+**The Bull Pass from Collar Sleeve is a speed-based gi guard pass where the top player breaks the sleeve grip, secures double pant grips, then explosively redirects the opponent's legs laterally to clear the guard into half guard or side control.**
+
+Within the collar sleeve guard passing arsenal, the bull pass occupies the speed-and-timing lane rather than the pressure lane. Unlike pressure-based passes that methodically grind through the guard structure, the bull pass exploits momentary grip vulnerability by quickly redirecting the opponent's legs to one side while stepping laterally to clear the guard entirely. The technique derives its name from the bullfighter concept—redirecting the opponent's defensive structure rather than forcing through it.
 
 From collar sleeve guard specifically, the pass requires first neutralizing the bottom player's controlling sleeve grip before establishing pant or knee grips on both legs. The critical timing window occurs immediately after breaking the sleeve grip, as this removes the bottom player's primary distance management tool and creates a brief opportunity for explosive lateral movement. The collar grip, while still providing the opponent some pulling control, cannot alone prevent the lateral passing motion if the passer commits with proper timing and explosiveness.
 

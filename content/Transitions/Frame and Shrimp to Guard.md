@@ -34,6 +34,18 @@ description: "Master Frame and Shrimp to Guard escape from Leg Drag Control in B
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame and Shrimp to Guard",
+  "description": "Frame and Shrimp to Guard is a defensive escape from leg drag control where the bottom player frames against the passer's shoulder and hip, then explosively hip-escapes to extract the trapped leg and recover open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master Frame and Shrimp to Guard escape from Leg Drag Control in B
 
 <section id="overview" class="content-section">
 
-Frame and Shrimp to Guard is a fundamental defensive escape from the leg drag control position, utilizing the core hip escape movement combined with strategic framing to create space and recover an open guard position. This technique represents the essential building block of guard recovery from compromised bottom positions and serves as the foundation upon which more advanced escapes are built.
+**Frame and Shrimp to Guard is a defensive escape from leg drag control where the bottom player frames against the passer's shoulder and hip, then explosively hip-escapes to extract the trapped leg and recover open guard.**
+
+As the first-line response to leg drag control, Frame and Shrimp to Guard is the essential building block of guard recovery from compromised bottom positions and the foundation upon which more advanced escapes are built. It exploits the transitional nature of the leg drag—the passer has cleared your guard but has not yet consolidated side control or back control, leaving a narrow window to reframe and recover before their weight settles.
 
 The technique operates on the principle that even when your leg is trapped across your body, proper framing against your opponent's controlling points combined with explosive hip movement can generate enough space to extract your leg and re-establish guard. The shrimp motion creates an angle that makes it impossible for the passer to maintain their hip control, while your frames prevent them from following your movement. Timing is critical—the escape works best when your opponent shifts weight or adjusts their grip.
 

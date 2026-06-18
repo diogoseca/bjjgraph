@@ -34,6 +34,18 @@ description: "Master the Leg Extraction Escape from leg entanglements in BJJ. St
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Extraction Escape from Entanglement",
+  "description": "Leg Extraction Escape from Entanglement is a defensive BJJ technique for freeing a trapped leg by sequentially clearing each connection point of an opponent's leg entanglement, then withdrawing the leg to recover open guard while keeping the heel protected.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master the Leg Extraction Escape from leg entanglements in BJJ. St
 
 <section id="overview" class="content-section">
 
-Leg Extraction Escape from Entanglement is the fundamental defensive technique for freeing a trapped leg from an opponent's leg entanglement control. Unlike inversion-based escapes that use rotational movement or boot scoot escapes that create linear distance, leg extraction focuses on systematically clearing each connection point that anchors the entanglement structure, then withdrawing the leg through the created gap. This escape addresses the most common leg entanglement scenarios where the opponent has established outside or inside ashi garami control but has not yet advanced to a fully consolidated finishing position like the saddle.
+**Leg Extraction Escape from Entanglement is a defensive BJJ technique for freeing a trapped leg by sequentially clearing each connection point of an opponent's leg entanglement, then withdrawing the leg to recover open guard while keeping the heel protected.**
+
+Within the systematic leg lock defense game, leg extraction is the first-response escape that purple and brown belts reach for before an opponent consolidates a finishing position. Unlike inversion-based escapes that use rotational movement or boot scoot escapes that create linear distance, leg extraction focuses on systematically clearing each connection point that anchors the entanglement structure, then withdrawing the leg through the created gap. This escape addresses the most common leg entanglement scenarios where the opponent has established outside or inside ashi garami control but has not yet advanced to a fully consolidated finishing position like the saddle.
 
 The technique operates on a simple biomechanical principle: leg entanglements rely on multiple contact points working together to trap the leg. By addressing these connection points sequentially rather than trying to rip the leg free explosively, the escaping practitioner can methodically dismantle the control structure without exposing the heel to dangerous finishing angles. The extraction sequence typically begins with controlling the opponent's grip on the foot or ankle, continues with clearing the inside hook behind the knee, and finishes with withdrawing the leg through the gap while transitioning to a safe guard position.
 

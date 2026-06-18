@@ -1,5 +1,6 @@
 {
   "name": "Guard Recovery from Zombie",
+  "summary": "Guard Recovery from Zombie converts a deteriorating 10th Planet lockdown position into a stable closed guard by releasing the leg entanglement while an overhook or collar frame maintains continuous control through the vulnerable transition.",
   "description": "Master guard recovery from Zombie position in BJJ. Complete guide to lockdown release timing, frame establishment, and closed guard reestablishment.",
   "tags": [
     "bjj",
@@ -89,8 +90,8 @@
       "relationship": "Alternative guard recovery option using butterfly hooks after releasing the Zombie lockdown entanglement"
     },
     {
-      "name": "Guard Recovery from Combat Base",
-      "relationship": "Related guard recovery technique that may follow if the opponent establishes combat base during the transition"
+      "name": "Deep Half Guard",
+      "relationship": "Related rubber-guard-adjacent recovery target reachable when the opponent drives forward during the lockdown release"
     }
   ],
   "attacker": {

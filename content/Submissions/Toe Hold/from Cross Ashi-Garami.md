@@ -33,10 +33,32 @@ description: "Master the toe hold from cross ashi-garami with grip mechanics, ro
 }
 </script>
 
-> **SAFETY**: Toe Hold from Cross Ashi-Garami targets the Ankle, toes, and foot ligaments. Risk: Ankle ligament tears (lateral and medial collateral ligaments). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Toe Hold from Cross Ashi-Garami",
+  "description": "The toe hold from cross ashi-garami is a rotational ankle lock that traps the foot in a figure-four grip across the forefoot and twists it toward the buttock, exploiting the crossed-leg entanglement's superior hip control to prevent foot retraction.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The toe hold from cross ashi-garami is a rotational ankle lock that traps the foot in a figure-four grip across the forefoot and twists it toward the buttock, exploiting the crossed-leg entanglement's superior hip control to prevent foot retraction.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Ankle, toes, and foot ligaments</span>
+<span class="meta-chip">60% success</span>
+</div>
+
+> [!danger] Safety
+> Toe Hold from Cross Ashi-Garami targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,57 +75,7 @@ What makes this variant distinct is the control architecture inherent to cross a
 
 From a competition perspective, the toe hold from cross ashi-garami serves as both a primary finish and a gateway attack. Many high-level grapplers use it to force defensive reactions that expose the heel for the more decisive heel hook. Understanding when to commit to the toe hold finish versus using it as a setup requires reading the opponent's defensive posture and grip fighting responses in real time.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Ankle, toes, and foot ligaments
-**Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
-**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
-**Success Rate**: 60%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Ankle ligament tears (lateral and medial collateral ligaments) | High | 6-12 weeks with potential for chronic instability |
-| Toe fractures and dislocations | Medium | 4-8 weeks |
-| Plantar fascia rupture | High | 8-16 weeks |
-| Lisfranc joint injury (midfoot dislocation) | CRITICAL | 3-6 months, may require surgery |
-| Achilles tendon strain | Medium | 4-6 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The toe hold generates structural damage before pain signals register, making controlled application essential in training.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' loudly)
-- Physical hand tap on partner or mat (multiple taps)
-- Physical foot tap with free leg
-- Any verbal distress signal
-- Slapping the mat with hand
-
-
-**Release Protocol**:
-1. Immediately stop all rotational pressure upon tap
-2. Release toe grip completely before releasing leg control
-3. Release heel control and uncross legs
-4. Allow opponent's foot to return to neutral position naturally
-5. Do not let go abruptly - maintain light contact until opponent signals they are okay
-6. Check with training partner before continuing
-
-
-**Training Restrictions**:
-- Never apply sudden rotational force - all pressure must be gradual and controlled
-- Never grip individual toes - always grip across multiple toes and ball of foot
-- Never combine with explosive hip extension while grip is locked
-- Always allow clear tap access for both hands
-- Stop immediately at any sign of discomfort from training partner
-- Never train this submission at competition speed during drilling
-
+**Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 
 </section>
 
@@ -263,41 +235,65 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
-- [[Positions/Aoki Lock Control]]
-- [[Positions/Estima Lock Control]]
+- [[Transitions/Aoki Lock]]
+- [[Transitions/Estima Lock]]
 - [[Submissions/Calf Slicer]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Primary starting position for this toe hold variant
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Closely related leg entanglement with similar toe hold mechanics
 - [[Positions/Ashi Garami]] - Parent leg entanglement family with alternative toe hold setups
 - [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement reachable when opponent defends the toe hold
-- [[Transitions/Heel Hook]] - Primary alternative submission and common chain partner from same position
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Transition target when opponent rotates inward to defend
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Toe Hold from Cross Ashi-Garami leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Ankle ligament tears (lateral and medial collateral ligaments) | High | 6-12 weeks with potential for chronic instability |
+| Toe fractures and dislocations | Medium | 4-8 weeks |
+| Plantar fascia rupture | High | 8-16 weeks |
+| Lisfranc joint injury (midfoot dislocation) | CRITICAL | 3-6 months, may require surgery |
+| Achilles tendon strain | Medium | 4-6 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - 5-7 seconds minimum from initial grip to any pressure. The toe hold generates structural damage before pain signals register, making controlled application essential in training.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' loudly)
+- Physical hand tap on partner or mat (multiple taps)
+- Physical foot tap with free leg
+- Any verbal distress signal
+- Slapping the mat with hand
+
+
+**Release Protocol**:
+1. Immediately stop all rotational pressure upon tap
+2. Release toe grip completely before releasing leg control
+3. Release heel control and uncross legs
+4. Allow opponent's foot to return to neutral position naturally
+5. Do not let go abruptly - maintain light contact until opponent signals they are okay
+6. Check with training partner before continuing
+
+
+**Training Restrictions**:
+- Never apply sudden rotational force - all pressure must be gradual and controlled
+- Never grip individual toes - always grip across multiple toes and ball of foot
+- Never combine with explosive hip extension while grip is locked
+- Always allow clear tap access for both hands
+- Stop immediately at any sign of discomfort from training partner
+- Never train this submission at competition speed during drilling
+
 
 </section>
 

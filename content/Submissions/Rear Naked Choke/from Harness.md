@@ -33,10 +33,32 @@ description: "Master the Rear Naked Choke from Harness in BJJ. Complete guide to
 }
 </script>
 
-> **SAFETY**: Rear Naked Choke from Harness targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid compression. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Naked Choke from Harness",
+  "description": "The Rear Naked Choke from Harness is a blood choke finished from back control, threading the seatbelt's over-the-shoulder arm under the opponent's chin to compress both carotid arteries and force the tap.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Rear Naked Choke from Harness is a blood choke finished from back control, threading the seatbelt's over-the-shoulder arm under the opponent's chin to compress both carotid arteries and force the tap.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">65% success</span>
+</div>
+
+> [!danger] Safety
+> Rear Naked Choke from Harness targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,62 +69,13 @@ description: "Master the Rear Naked Choke from Harness in BJJ. Complete guide to
 
 <section id="overview" class="content-section">
 
-The Rear Naked Choke from Harness is the highest-percentage submission in Brazilian Jiu-Jitsu, representing the natural offensive culmination of the seatbelt grip control system. From the harness position, the attacker has already established the over-under arm configuration that serves as the foundation for the choking mechanics. The transition from harness grip to rear naked choke involves systematically advancing the choking arm from its controlling position across the opponent's chest to underneath the chin, where it compresses the carotid arteries bilaterally.
+Built on the seatbelt grip already established in the harness, this attack represents the natural offensive culmination of that control system. From the harness position, the attacker has already established the over-under arm configuration that serves as the foundation for the choking mechanics. The transition from harness grip to rear naked choke involves systematically advancing the choking arm from its controlling position across the opponent's chest to underneath the chin, where it compresses the carotid arteries bilaterally.
 
 What distinguishes this entry specifically is the pre-existing structural control. Unlike attacks from scramble positions where the attacker must simultaneously establish control and threaten the neck, the harness provides a stable platform from which to methodically work past hand-fighting defenses. The underhook arm maintains postural control and prevents the rotation needed to escape, while the choking arm progressively advances toward the neck.
 
 Strategically, this creates a cascading dilemma system. The opponent must commit both hands to defending the choking arm, preventing them from removing hooks or creating escape angles. If they release grip control to fight hooks or create space, the choking arm advances. This tension between positional defense and submission defense makes the harness-based RNC the cornerstone of every modern back attack system.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Harness]]
-**From Position**: [[Positions/Harness]] (Top)
-**Success Rate**: 65%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid compression | High | Immediate to 30 seconds with proper release |
-| Trachea damage from improper forearm placement on windpipe | CRITICAL | 2-6 weeks, potential permanent damage |
-| Cervical spine strain from excessive cranking or twisting | Medium | 3-14 days depending on severity |
-| Carotid artery dissection from excessive or rapid force | CRITICAL | Immediate medical attention required, weeks to months |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum squeeze in training. Never snap or jerk the choke. Partner should have full awareness of pressure building before the choke becomes tight.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or any verbal sound indicating submission)
-- Physical hand tap on opponent's body, arm, or mat (multiple taps)
-- Physical foot tap on mat when hands are trapped
-- Going limp or loss of consciousness requires immediate release
-- Any distress signal, unusual gurgling, or panicked movement
-
-
-**Release Protocol**:
-1. Immediately release choking arm upon any tap signal
-2. Remove hooks and disengage body contact
-3. Gently guide partner to side-lying recovery position
-4. Monitor consciousness and breathing for 30 seconds minimum
-5. If partner lost consciousness, keep them lying down with legs slightly elevated until fully alert
-6. Never allow an unconscious partner to sit up or stand immediately
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity when drilling the choke
-- Never apply pressure to the trachea or windpipe - blade of wrist targets carotids only
-- Always ensure partner has clear tap access with at least one hand
-- Stop immediately if partner makes any distress sound or appears to panic
-- Never hold a choke past the tap for any reason, regardless of competition preparation
-- Beginners must practice with extremely slow, controlled progression only
-
+**Starting Position**: [[Positions/Harness]] · **From**: [[Positions/Harness]] (Top)
 
 </section>
 
@@ -265,22 +238,13 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Darce Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Harness]] - Primary starting position providing seatbelt grip control
 - [[Positions/Back Control]] - Parent position category with hooks fully established
 - [[Positions/Back Control/Body Triangle]] - Alternative lower body control that pairs with RNC attacks
@@ -288,16 +252,49 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 - [[Positions/Crucifix]] - Alternative control when opponent turns shoulder to defend
 - [[Positions/Turtle]] - Common position before harness establishment via back take
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Rear Naked Choke from Harness leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid compression | High | Immediate to 30 seconds with proper release |
+| Trachea damage from improper forearm placement on windpipe | CRITICAL | 2-6 weeks, potential permanent damage |
+| Cervical spine strain from excessive cranking or twisting | Medium | 3-14 days depending on severity |
+| Carotid artery dissection from excessive or rapid force | CRITICAL | Immediate medical attention required, weeks to months |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum squeeze in training. Never snap or jerk the choke. Partner should have full awareness of pressure building before the choke becomes tight.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' or any verbal sound indicating submission)
+- Physical hand tap on opponent's body, arm, or mat (multiple taps)
+- Physical foot tap on mat when hands are trapped
+- Going limp or loss of consciousness requires immediate release
+- Any distress signal, unusual gurgling, or panicked movement
+
+
+**Release Protocol**:
+1. Immediately release choking arm upon any tap signal
+2. Remove hooks and disengage body contact
+3. Gently guide partner to side-lying recovery position
+4. Monitor consciousness and breathing for 30 seconds minimum
+5. If partner lost consciousness, keep them lying down with legs slightly elevated until fully alert
+6. Never allow an unconscious partner to sit up or stand immediately
+
+
+**Training Restrictions**:
+- Never use competition speed or intensity when drilling the choke
+- Never apply pressure to the trachea or windpipe - blade of wrist targets carotids only
+- Always ensure partner has clear tap access with at least one hand
+- Stop immediately if partner makes any distress sound or appears to panic
+- Never hold a choke past the tap for any reason, regardless of competition preparation
+- Beginners must practice with extremely slow, controlled progression only
+
 
 </section>
 

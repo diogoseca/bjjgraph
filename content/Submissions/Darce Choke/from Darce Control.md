@@ -33,10 +33,32 @@ description: "Master the Darce Choke finish from Darce Control position. Learn g
 }
 </script>
 
-> **SAFETY**: Darce Choke from Darce Control targets the Carotid arteries and trachea. Risk: Carotid artery compression leading to unconsciousness. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Darce Choke from Darce Control",
+  "description": "The Darce Choke from Darce Control is an arm-in blood choke finished by locking a figure-four grip, dropping the hip to the mat, and extending the body to compress both carotid arteries against the opponent's trapped shoulder.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Darce Choke from Darce Control is an arm-in blood choke finished by locking a figure-four grip, dropping the hip to the mat, and extending the body to compress both carotid arteries against the opponent's trapped shoulder.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and trachea</span>
+<span class="meta-chip">62% success</span>
+</div>
+
+> [!danger] Safety
+> Darce Choke from Darce Control targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to unconsciousness. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,56 +75,7 @@ The finishing mechanics hinge on three coordinated actions: deepening the chokin
 
 From a strategic standpoint, the Darce finish from established control carries a high completion rate because the opponent's defensive options are already limited. The primary defensive window occurs before the hip drop—once the attacker commits their weight to the mat and extends through the choking structure, the submission becomes extremely difficult to escape. This makes recognizing and executing the transition from control to finish one of the most important skills in the front headlock attack chain.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Darce Control]]
-**From Position**: [[Positions/Darce Control]] (Top)
-**Success Rate**: 62%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Carotid artery compression leading to unconsciousness | CRITICAL | Immediate if released; prolonged compression can cause stroke |
-| Neck muscle strain from improper resistance | Medium | 7-14 days |
-| Shoulder impingement from trapped arm position | Medium | 5-10 days |
-| Tracheal compression if applied incorrectly | High | 14-21 days with medical attention |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or 'stop')
-- Physical hand tap on partner's body
-- Physical foot tap on mat
-- Any distress signal or loss of resistance
-- Unconscious body going limp (IMMEDIATE RELEASE)
-
-
-**Release Protocol**:
-1. Immediately unclasp hands and release figure-four grip
-2. Remove shoulder pressure from neck first
-3. Extract choking arm slowly to avoid neck jerk
-4. Allow partner to recover in seated or supine position
-5. Monitor for 30+ seconds for dizziness or disorientation
-6. If unconsciousness occurred, keep airway clear and seek medical evaluation
-
-
-**Training Restrictions**:
-- Never apply full pressure in drilling—use positional control only
-- Never use competition speed or intensity in training
-- Always allow clear tap access with free hand
-- Never spike or jerk the choke—apply smooth progressive pressure
-- Stop immediately at any tap signal without waiting for confirmation
-- Never train this technique while fatigued or with impaired judgment
-
+**Starting Position**: [[Positions/Darce Control]] · **From**: [[Positions/Darce Control]] (Top)
 
 </section>
 
@@ -264,10 +237,9 @@ From a strategic standpoint, the Darce finish from established control carries a
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Transitions/Arm Triangle]]
@@ -275,14 +247,6 @@ From a strategic standpoint, the Darce finish from established control carries a
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Brabo Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Darce Control]] - Primary starting position for this submission finish
 - [[Positions/Front Headlock]] - Precursor position and common entry point into Darce grip
 - [[Positions/Anaconda Control]] - Sister arm-triangle position with opposite arm threading direction
@@ -290,16 +254,49 @@ From a strategic standpoint, the Darce finish from established control carries a
 - [[Positions/Back Control]] - High-percentage transition when opponent rolls to defend the choke
 - [[Positions/North-South]] - Positional alternative when choke finish is blocked
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Darce Choke from Darce Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Carotid artery compression leading to unconsciousness | CRITICAL | Immediate if released; prolonged compression can cause stroke |
+| Neck muscle strain from improper resistance | Medium | 7-14 days |
+| Shoulder impingement from trapped arm position | Medium | 5-10 days |
+| Tracheal compression if applied incorrectly | High | 14-21 days with medical attention |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum to allow tap recognition
+
+**Tap Signals**:
+- Verbal tap (say 'tap' or 'stop')
+- Physical hand tap on partner's body
+- Physical foot tap on mat
+- Any distress signal or loss of resistance
+- Unconscious body going limp (IMMEDIATE RELEASE)
+
+
+**Release Protocol**:
+1. Immediately unclasp hands and release figure-four grip
+2. Remove shoulder pressure from neck first
+3. Extract choking arm slowly to avoid neck jerk
+4. Allow partner to recover in seated or supine position
+5. Monitor for 30+ seconds for dizziness or disorientation
+6. If unconsciousness occurred, keep airway clear and seek medical evaluation
+
+
+**Training Restrictions**:
+- Never apply full pressure in drilling—use positional control only
+- Never use competition speed or intensity in training
+- Always allow clear tap access with free hand
+- Never spike or jerk the choke—apply smooth progressive pressure
+- Stop immediately at any tap signal without waiting for confirmation
+- Never train this technique while fatigued or with impaired judgment
+
 
 </section>
 

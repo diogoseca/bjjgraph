@@ -30,7 +30,8 @@
     }
   ],
   "success_rate": 40,
-  "overview": "The Frame Escape from Kuzure Kesa-Gatame is a systematic escape technique that uses skeletal frames and timed hip escapes to create space and recover guard from the modified scarf hold position. Unlike explosive bridge-based escapes that rely on power and timing, the frame escape employs a methodical approach where the bottom practitioner uses forearm and elbow structures against the top person's hip and shoulder to incrementally create the space necessary for knee insertion and guard recovery.\n\nThe technique's strategic value lies in its energy efficiency and reliability. While bridge-and-roll escapes require precise limb trapping and explosive power, the frame escape works through persistent mechanical advantage, making it effective even when fatigued or outweighed. The free arm establishes a structural barrier that prevents the top person from re-closing distance after each hip escape increment, allowing the bottom practitioner to chain small movements into meaningful positional change.\n\nFrom a systems perspective, the frame escape integrates with the broader defensive toolkit available from Kuzure Kesa-Gatame bottom. It serves as the primary steady-state escape when explosive options are unavailable, and its mechanics naturally set up transitions to half guard where the bottom practitioner can immediately begin offensive sequences. The escape also creates submission defense windows by redirecting the top person's attention from arm attacks to position maintenance.",
+  "summary": "The Frame Escape from Kuzure Kesa-Gatame is an energy-efficient bottom escape that uses forearm frames against the top player's hip and chained hip escapes to manufacture space, insert a knee shield, and recover half guard from modified scarf hold.",
+  "overview": "Within the defensive toolkit available from modified scarf hold bottom, the frame escape is the steady-state option practitioners turn to when explosive reversals are unavailable or too risky against a heavy, well-based opponent. Unlike bridge-based escapes that rely on power and precise limb trapping, this escape employs a methodical approach where the bottom practitioner uses forearm and elbow structures against the top person's hip and shoulder to incrementally create the space necessary for knee insertion and guard recovery.\n\nThe technique's strategic value lies in its energy efficiency and reliability. While bridge-and-roll escapes require precise limb trapping and explosive power, the frame escape works through persistent mechanical advantage, making it effective even when fatigued or outweighed. The free arm establishes a structural barrier that prevents the top person from re-closing distance after each hip escape increment, allowing the bottom practitioner to chain small movements into meaningful positional change.\n\nFrom a systems perspective, the frame escape integrates with the broader defensive toolkit available from Kuzure Kesa-Gatame bottom. It serves as the primary steady-state escape when explosive options are unavailable, and its mechanics naturally set up transitions to half guard where the bottom practitioner can immediately begin offensive sequences. The escape also creates submission defense windows by redirecting the top person's attention from arm attacks to position maintenance.",
   "conditions": [
     "Free arm is available for framing against opponent's hip or shoulder",
     "Bottom practitioner retains enough hip mobility to execute shrimping motion",
@@ -250,6 +251,10 @@
         "answer": "Bridge at a 45-degree angle toward the opponent's posting leg rather than straight upward. This attacks their base structure and creates directional space for the subsequent hip escape. A vertical bridge merely lifts them temporarily without generating useful space, as they simply settle back down when you land."
       },
       {
+        "question": "Before you commit to the frame escape, what entry conditions must exist for it to have a realistic chance of working?",
+        "answer": "Your free arm must be available to establish a forearm frame against the opponent's hip or shoulder, your trapped arm must be bent near 90 degrees and safe from immediate submission, and you need enough residual hip mobility to shrimp. The escape works best when the opponent's weight is channeled through hip contact rather than full chest-to-chest compression, since flat chest pressure removes the room your frame needs to redirect force."
+      },
+      {
         "question": "Your opponent increases hip pressure when you establish your frame - how should you adjust?",
         "answer": "Do not fight the increased pressure directly with your frame. Instead, wait for them to shift weight for a submission attempt or positional adjustment, then use that timing window to execute your hip escape. If they maintain constant heavy pressure without shifting, switch to a bridge-and-roll attempt to force them to address a different threat that disrupts their pressure pattern."
       },
@@ -268,6 +273,10 @@
       {
         "question": "Your opponent begins sliding their knee across your belly during your hip escape - what is the immediate priority?",
         "answer": "Abandon the escape and immediately address the mount transition. Turn your hips toward the opponent and drive your inside knee between your bodies to block their knee from crossing. Preventing mount takes absolute priority over completing the escape, as mount is a significantly worse position than Kuzure Kesa-Gatame. Restart the escape attempt once the mount threat is neutralized."
+      },
+      {
+        "question": "Your opponent shuts down lateral hip escape by driving straight through your frame - what do you chain into?",
+        "answer": "When forward pressure kills the shrimping path, switch threats rather than fighting the jam. Transition immediately to a bridge-and-roll, using their committed forward weight against their base, or initiate a Granby roll, inverting underneath toward turtle or open guard since the inversion does not require the lateral space they just denied. The frame escape and these alternatives form a two-threat system where defending one opens the other."
       },
       {
         "question": "What grip does your framing arm use against the opponent's hip?",

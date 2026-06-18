@@ -1,5 +1,6 @@
 {
   "name": "Heel Hook from Inside Sankaku",
+  "summary": "The heel hook from Inside Sankaku is a high-percentage rotational knee submission that traps the leg in a figure-four entanglement, clamps the exposed inside heel, and rotates the tibia to attack the ACL and collateral ligaments.",
   "description": "Master the heel hook from Inside Sankaku position. Complete guide to grip mechanics, rotational finishing, defensive responses, and safe training protocols.",
   "tags": [
     "bjj",
@@ -14,6 +15,7 @@
     "no-gi",
     "saddle"
   ],
+  "family": "Heel Hook",
   "submission_category": "Joint Lock",
   "submission_type": "Leg Lock",
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
@@ -83,7 +85,6 @@
   ],
   "related_submissions": [
     "Heel Hook",
-    "Inside Heel Hook",
     "Inside Heel Hook",
     "Calf Slicer",
     "Achilles Lock"

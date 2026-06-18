@@ -34,6 +34,18 @@ description: "Learn North-South Escape in BJJ. Step-by-step execution from North
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "North-South Escape",
+  "description": "The North-South Escape is a bottom-player guard-recovery sequence that uses forearm frames, an explosive bridge, and a knee-shield insertion to create space beneath a north-south pin and reclaim half or closed guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn North-South Escape in BJJ. Step-by-step execution from North
 
 <section id="overview" class="content-section">
 
-The North-South Escape is a fundamental defensive technique designed to recover guard from one of the most dominant pinning positions in Brazilian Jiu-Jitsu. When trapped in north-south position, the top player maintains heavy chest pressure and controls your movement with their hips and arms, making escape extremely difficult without proper technique. This escape relies on precise hip movement, frame creation, and timing to create the space necessary to recover to a safer bottom position. The technique emphasizes the principle of creating distance through bridging and shrimping mechanics while preventing your opponent from transitioning to more dangerous positions like mount or side control. Success requires understanding weight distribution, maintaining defensive posture throughout the escape sequence, and capitalizing on small windows of opportunity when the top player adjusts their position. The north-south escape is essential for any practitioner's defensive arsenal, as it addresses a common scenario where opponents achieve dominant control through passing or transitioning from other top positions.
+**The North-South Escape is a bottom-player guard-recovery sequence that uses forearm frames, an explosive bridge, and a knee-shield insertion to create space beneath a north-south pin and reclaim half or closed guard.**
+
+Among the pin escapes every serious bottom player must develop, escaping north-south is one of the most demanding because the perpendicular chest-to-chest pressure restricts breathing and removes the visual reference points and framing angles that side-control and mount escapes rely on. The top player drapes their weight across your head and upper chest while controlling your arms, so success depends on disciplined frame placement, a powerful bridge to convert vertical space into a turn, and timely knee insertion before they can flatten you or advance to a more dominant pin. The escape emphasizes creating distance progressively rather than through panicked single explosions, protecting the neck against north-south chokes and guillotines throughout, and capitalizing on the brief windows when the top player shifts weight to attack or transition. Mastering it builds the same framing, bridging, and shrimping mechanics that transfer to every other bottom-position escape, which is why it belongs in the defensive arsenal of any practitioner who expects to face skilled pressure passers.
 
 **From Position**: [[Positions/North-South]] (Bottom)
 **Success Rate**: 58%

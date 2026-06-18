@@ -1,5 +1,6 @@
 {
   "name": "Buggy Choke to North-South",
+  "summary": "The Buggy Choke to North-South is a top-game transition that abandons a stalling turtle buggy choke and converts the existing chest pressure and grips into a dominant perpendicular north-south pin before the defender can recover.",
   "description": "Master the Buggy Choke to North-South transition in BJJ. Convert stalled turtle choke attacks into dominant north-south pin control with precision timing.",
   "tags": [
     "bjj",
@@ -77,8 +78,8 @@
       "relationship": "Alternative control position accessible from north-south or during transition"
     },
     {
-      "name": "Buggy Choke",
-      "relationship": "Primary submission alternative if choke is progressing rather than stalling"
+      "name": "Anaconda Control",
+      "relationship": "Alternative front-headlock turtle attack to switch to when both the choke and the north-south slide are contested"
     },
     {
       "name": "North-South Choke",

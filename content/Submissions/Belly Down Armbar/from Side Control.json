@@ -18,6 +18,7 @@
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
   "success_rate": 50,
+  "summary": "The belly down armbar from side control is a prone elbow lock where the attacker isolates an arm, steps over the opponent's head, and rotates face-down to hyperextend the elbow while eliminating the stacking and hitchhiker escapes.",
   "overview": "The belly down armbar finish from side control is one of the highest-percentage armbar completions available from a top control position. Unlike standard armbar finishes where the attacker lies on their back with the opponent's arm extended between the legs, the belly down variation has the attacker rotating prone over the trapped arm, using body weight and gravity to generate extension force. This mechanical advantage makes the technique extremely difficult to defend once the rotation is complete, as the opponent loses the ability to stack, hitchhiker escape, or bridge into the attacker.\n\nFrom side control specifically, the setup involves isolating the near or far arm through underhook control, wrist pinning, or kimura grip manipulation, then stepping over the opponent's head to establish the perpendicular angle needed for the armbar. The key transition moment is the rotation from the seated or kneeling armbar position to the prone finish, which must be executed while maintaining constant elbow joint control. The side control starting point provides exceptional stability for this transition because the top player already has heavy chest pressure and crossface control that prevents the bottom player from anticipating and defending the arm isolation.\n\nThis technique is particularly effective in competition because opponents defending standard side control submissions like americana and kimura often expose the arm in ways that create direct entries to the belly down armbar. The prone finishing position eliminates the two most common armbar escapes, making it a reliable closer when the arm is successfully isolated.",
   "safety_considerations": {
     "injury_risks": [
@@ -315,8 +316,18 @@
         "safety_critical": false
       },
       {
+        "question": "What is the key breaking-point indicator that tells you the elbow is locked and ready to finish?",
+        "answer": "The decisive indicator is when the opponent's thumb points toward the ceiling with the elbow crease facing your hips and no slack remains anywhere in the arm. When the wrist is pinned to your chest, the upper arm is vised between your knees, and your hips are flush against the triceps with zero space, the joint is on its end range. From here even a few degrees of hip arch reaches the breaking point, so this is the moment to slow down and apply gradually rather than accelerate.",
+        "safety_critical": true
+      },
+      {
         "question": "What happens if you leave your knees apart instead of squeezing them tightly during the belly down finish?",
         "answer": "The opponent can extract their elbow from between your legs, completely escaping the submission. Without the knee vice around the upper arm, there is nothing preventing the opponent from pulling the arm laterally to free the elbow. This is one of the most common finishing errors and results in losing both the submission and often the positional advantage as the opponent scrambles to guard recovery.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your two-on-one grip is slipping toward the opponent's hand as you settle belly down - what grip adjustment secures the finish?",
+        "answer": "Walk both hands back up the forearm toward the wrist joint so your grip sits just above the wrist crease, not on the slippery hand or fingers. Switch to a palm-to-palm or thumbless monkey grip and clamp the wrist flat against your sternum, keeping your elbows pinched to your ribs so the opponent cannot peel a single finger. Controlling closer to the wrist shortens their lever and removes the rotational slack they need to spin the elbow free.",
         "safety_critical": false
       },
       {

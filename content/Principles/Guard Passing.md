@@ -143,6 +143,16 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Guard Passing",
+  "description": "Guard passing is the systematic process of advancing from inside an opponent's guard to a dominant pinning position by neutralizing their retention tools—grips, frames, hooks, and hip mobility—through sequential control rather than a single explosive movement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -157,6 +167,8 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
 <section id="overview" class="content-section">
 
 ## What is Guard Passing?
+
+**Guard passing is the systematic process of advancing from inside an opponent's guard to a dominant pinning position by neutralizing their retention tools—grips, frames, hooks, and hip mobility—through sequential control rather than a single explosive movement.**
 
 Guard Passing represents the fundamental strategic and biomechanical concepts underlying all successful guard passing, providing systematic framework for advancing from guard to dominant pinning positions. Unlike specific passing techniques, guard passing principles are comprehensive conceptual guidelines that apply across all guard types and determine overall passing effectiveness. This concept encompasses the tactical understanding that successful passing requires neutralizing guard retention mechanics, establishing control points, and progressing through stages from open guard to consolidated side control or mount. Guard passing principles serve as both offensive framework enabling position advancement and strategic guide for pass selection based on opponent's defensive patterns. The ability to apply guard passing principles consistently determines offensive effectiveness against guard players, making it one of the most essential conceptual elements for top game development.
 
@@ -364,8 +376,6 @@ Video review or mental replay of unsuccessful passing attempts to identify speci
 - **[[Control Point Hierarchy]]** (Complementary): Provides systematic framework for prioritizing control objectives during passing sequences, determining which anatomical controls to establish at each passing stage
 - **[[Grips]]** (Prerequisite): Essential foundational skill as grip dominance typically predicts passing success, requiring development before advanced passing principles can be effectively applied
 - **[[Action and Reaction]]** (Advanced form): Represents higher-level passing application where the passer deliberately provokes defensive reactions to create passing openings, incorporating bait-and-counter strategies against the guard player's responses
-- **[[Timing and Rhythm]]** (Extension): Specific passing dimension emphasizing rapid movement, tempo changes, and precise timing windows rather than sustained pressure, demonstrating alternative expression of core passing principles
-- **[[Transition Management]]** (Extension): Technical framework for managing positional changes during passing sequences, enabling smooth progression through intermediate positions and effective chaining between passing systems
 - **[[Forward Pressure]]** (Complementary): Fundamental pressure application concept that supports passing objectives by preventing opponent from establishing comfortable defensive positioning
 - **[[Connection Principles]]** (Complementary): Understanding connection mechanics enables both establishing your own control points during passes and systematically breaking the opponent's guard retention connections
 - **[[Center of Gravity]]** (Prerequisite): Foundational understanding of balance and pressure allocation required for maintaining base while advancing position during passes

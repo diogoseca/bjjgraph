@@ -34,6 +34,18 @@ description: "Master the escape from twister side control in BJJ. Complete guide
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Escape Twister Side Control",
+  "description": "Escape Twister Side Control is a systematic bottom-player escape from the 10th Planet twister side pin that prioritizes spinal protection, then upper-body frames, then leg extraction to reach turtle or recover half guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the escape from twister side control in BJJ. Complete guide
 </div>
 
 <section id="overview" class="content-section">
+
+**Escape Twister Side Control is a systematic bottom-player escape from the 10th Planet twister side pin that prioritizes spinal protection, then upper-body frames, then leg extraction to reach turtle or recover half guard.**
 
 The Escape from Twister Side Control is a systematic defensive technique for extracting yourself from one of the most submission-dense lateral control positions in modern no-gi grappling. Twister Side Control combines leg entanglement with shoulder pressure and rotational torque on the spine, creating immediate threats to spinal integrity that demand a methodical, layered approach rather than explosive movements. The position's unique control mechanics—drawn from the 10th Planet system—neutralize conventional side control escapes, requiring practitioners to develop specialized defensive skills.
 

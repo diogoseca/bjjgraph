@@ -33,10 +33,32 @@ description: "Master the rear naked choke from standing back control in BJJ. Com
 }
 </script>
 
-> **SAFETY**: Rear Naked Choke from Standing Back Control targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Rear Naked Choke from Standing Back Control",
+  "description": "The rear naked choke from standing back control is a figure-four blood choke applied to a standing opponent, compressing both carotid arteries from harness control while threatening a simultaneous mat return to grounded back control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The rear naked choke from standing back control is a figure-four blood choke applied to a standing opponent, compressing both carotid arteries from harness control while threatening a simultaneous mat return to grounded back control.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">65% success</span>
+</div>
+
+> [!danger] Safety
+> Rear Naked Choke from Standing Back Control targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from blood choke. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,58 +75,7 @@ From a strategic standpoint, this submission thrives on the inherent instability
 
 At the competition level, standing back control finishes appear frequently in both gi and no-gi contexts, particularly following successful takedown entries, scramble back takes, and clinch-to-back transitions. The position rewards practitioners who understand timing windows — recognizing when the defender's hands are occupied with balance rather than neck protection — and who can thread the choking arm with precision under dynamic conditions.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Back Control/Standing Back Control]]
-**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
-**Success Rate**: 65%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from blood choke | High | Immediate to 30 seconds with proper release |
-| Trachea damage from improper forearm placement | CRITICAL | 2-6 weeks, potential permanent damage |
-| Neck strain or muscle damage | Medium | 3-7 days |
-| Carotid artery injury from excessive force | CRITICAL | Immediate medical attention required |
-| Head or spinal injury from uncontrolled fall while choke is applied standing | CRITICAL | Variable — potential permanent injury if fall is uncontrolled |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building. Standing application requires extra caution due to fall risk.
-
-**Tap Signals**:
-- Verbal tap (say 'tap' or make any verbal sound)
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Going limp or loss of consciousness — release immediately
-- Any distress signal or unusual sound
-
-
-**Release Protocol**:
-1. Immediately release choking arm upon tap signal
-2. Remove hooks and any body control grips
-3. If standing, carefully guide partner to a controlled seated or side-lying position
-4. Monitor consciousness and breathing for 30 seconds
-5. If partner was unconscious, keep them lying down until fully alert and oriented
-6. Never allow unconscious partner to stand immediately — risk of secondary fall injury
-
-
-**Training Restrictions**:
-- Never use competition speed or intensity in drilling
-- Never apply the choke to the trachea or windpipe — blade of forearm must cross carotid arteries
-- Always ensure partner has clear tap access with both hands
-- Stop immediately if partner makes any distress sound
-- Never hold a choke past the tap for any reason
-- Beginners must practice with extremely slow progression only
-- When drilling standing, use mats and practice controlled descents to prevent fall injuries
-
+**Starting Position**: [[Positions/Back Control/Standing Back Control]] · **From**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -264,39 +235,65 @@ At the competition level, standing back control finishes appear frequently in bo
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
 - [[Transitions/Arm Triangle]]
 - [[Transitions/Guillotine Choke]]
 - [[Transitions/Darce Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Back Control/Standing Back Control]] - Primary starting position — back exposure while both practitioners are standing
 - [[Positions/Back Control]] - Ground-based alternative where choke can be consolidated with greater stability
 - [[Positions/Clinch]] - Common preceding position from which standing back control is achieved
 - [[Positions/Back Control/Body Triangle]] - Advanced lower body control variation that enhances back control stability for RNC finishing
 - [[Positions/Turtle]] - Transitional position — opponent may turtle during escape attempts
 
-
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Rear Naked Choke from Standing Back Control leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from blood choke | High | Immediate to 30 seconds with proper release |
+| Trachea damage from improper forearm placement | CRITICAL | 2-6 weeks, potential permanent damage |
+| Neck strain or muscle damage | Medium | 3-7 days |
+| Carotid artery injury from excessive force | CRITICAL | Immediate medical attention required |
+| Head or spinal injury from uncontrolled fall while choke is applied standing | CRITICAL | Variable — potential permanent injury if fall is uncontrolled |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum in training. Never snap or jerk the choke. Partner should have full awareness of pressure building. Standing application requires extra caution due to fall risk.
+
+**Tap Signals**:
+- Verbal tap (say 'tap' or make any verbal sound)
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Going limp or loss of consciousness — release immediately
+- Any distress signal or unusual sound
+
+
+**Release Protocol**:
+1. Immediately release choking arm upon tap signal
+2. Remove hooks and any body control grips
+3. If standing, carefully guide partner to a controlled seated or side-lying position
+4. Monitor consciousness and breathing for 30 seconds
+5. If partner was unconscious, keep them lying down until fully alert and oriented
+6. Never allow unconscious partner to stand immediately — risk of secondary fall injury
+
+
+**Training Restrictions**:
+- Never use competition speed or intensity in drilling
+- Never apply the choke to the trachea or windpipe — blade of forearm must cross carotid arteries
+- Always ensure partner has clear tap access with both hands
+- Stop immediately if partner makes any distress sound
+- Never hold a choke past the tap for any reason
+- Beginners must practice with extremely slow progression only
+- When drilling standing, use mats and practice controlled descents to prevent fall injuries
+
 
 </section>
 

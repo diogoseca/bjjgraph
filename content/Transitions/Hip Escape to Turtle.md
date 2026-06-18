@@ -34,6 +34,18 @@ description: "Learn Hip Escape to Turtle from Body Triangle. Systematic escape u
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Escape to Turtle",
+  "description": "Hip Escape to Turtle is a body-triangle escape in which the trapped player turns toward the locked leg, shrimps to make space, pops the figure-four foot free, and frames into turtle before the lock can reset.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn Hip Escape to Turtle from Body Triangle. Systematic escape u
 
 <section id="overview" class="content-section">
 
-Hip Escape to Turtle is a fundamental escape from body triangle control, one of the most dominant back control variations in Brazilian Jiu-Jitsu. When trapped in a body triangle, the locked figure-four configuration around your torso restricts breathing and prevents standard back escape sequences. This escape uses systematic hip movement and pressure redirection to create enough space to unlock the triangle and transition to turtle, where you can begin working toward guard recovery or standing.
+**Hip Escape to Turtle is a body-triangle escape in which the trapped player turns toward the locked leg, shrimps to make space, pops the figure-four foot free, and frames into turtle before the lock can reset.**
+
+Body triangle is one of the most dominant back control variations in Brazilian Jiu-Jitsu, and when you are trapped in it the locked figure-four configuration around your torso restricts breathing and prevents standard back escape sequences. This escape uses systematic hip movement and pressure redirection to create enough space to unlock the triangle and transition to turtle, where you can begin working toward guard recovery or standing.
 
 The technique exploits a mechanical weakness in the body triangle: the attacker's hips must be positioned beside you on the mat for stability, meaning they cannot follow your hip movement in all directions. By creating angles and shifting your body toward the locked leg side, you reduce the effectiveness of the squeeze while positioning yourself to attack the lock. The escape requires patience, controlled breathing, and precise technical execution rather than explosive struggling that wastes energy under breathing restriction.
 

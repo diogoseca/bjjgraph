@@ -34,6 +34,18 @@ description: "Master the Armbar from North-South in BJJ. Complete guide covering
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Armbar from North-South",
+  "description": "The Armbar from North-South is a top-position submission setup that isolates the opponent's near-side arm under perpendicular chest pressure, then rotates the hips to trap the extended elbow and transition into armbar control for the finish.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the Armbar from North-South in BJJ. Complete guide covering
 </div>
 
 <section id="overview" class="content-section">
+
+**The Armbar from North-South is a top-position submission setup that isolates the opponent's near-side arm under perpendicular chest pressure, then rotates the hips to trap the extended elbow and transition into armbar control for the finish.**
 
 The Armbar from North-South represents a systematic submission setup that capitalizes on the inherent arm isolation available from perpendicular chest pressure. This technique exploits the fundamental vulnerability of North-South control—when the top practitioner maintains chest-to-chest pressure, the bottom player's arms become naturally separated from their body and exposed to attack. The transition requires precise hip rotation and leg placement to convert a pinning position into a submission control.
 

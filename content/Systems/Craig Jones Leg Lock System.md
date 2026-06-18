@@ -149,6 +149,16 @@ description: "Master Craig Jones Leg Lock System in BJJ. High-percentage leg att
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Craig Jones Leg Lock System",
+  "description": "The Craig Jones Leg Lock System is a modern, competition-proven framework for lower-body submissions that prioritizes high-percentage control—chiefly the saddle (inside sankaku)—and dual-leg dilemma attacks to force defensive errors and finish heel hooks.",
+  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -163,7 +173,9 @@ description: "Master Craig Jones Leg Lock System in BJJ. High-percentage leg att
 
 ## What is Craig Jones Leg Lock System?
 
-The Craig Jones Leg Lock System represents a modern, competition-tested approach to lower body submissions that prioritizes high-percentage control positions and systematic finishing mechanics. Unlike traditional leg lock systems that rely on explosive entries and raw athleticism, this framework emphasizes positional control, opponent management, and creating genuine submission threats from stable configurations. The system integrates seamlessly with contemporary guard passing and top game strategies, allowing practitioners to transition fluidly between leg attacks and traditional positional advancement. Jones's methodology centers on the saddle position (inside sankaku) as the primary control platform, with systematic pathways to enter, maintain, and finish from this dominant configuration. The approach emphasizes controlling the opponent's ability to clear their trapped leg while simultaneously attacking both the near and far leg, creating dilemmas that force defensive errors. This dual-threat framework prevents common escape sequences and maintains offensive pressure throughout the engagement.
+**The Craig Jones Leg Lock System is a modern, competition-proven framework for lower-body submissions that prioritizes high-percentage control—chiefly the saddle (inside sankaku)—and dual-leg dilemma attacks to force defensive errors and finish heel hooks.**
+
+Developed and popularized by Australian black belt Craig Jones through his submission-only competition success and his widely studied instructionals, this framework distills modern leg locking into a compact set of reliable control positions and finishing chains. Unlike traditional leg lock approaches that rely on explosive entries and raw athleticism, it emphasizes positional control, opponent management, and creating genuine submission threats from stable configurations. The system integrates seamlessly with contemporary guard passing and top game strategies, allowing practitioners to transition fluidly between leg attacks and traditional positional advancement. Jones's methodology centers on the saddle position (inside sankaku) as the primary control platform, with systematic pathways to enter, maintain, and finish from this dominant configuration. The approach emphasizes controlling the opponent's ability to clear their trapped leg while simultaneously attacking both the near and far leg, creating dilemmas that force defensive errors. This dual-threat framework prevents common escape sequences and maintains offensive pressure throughout the engagement.
 
 </section>
 

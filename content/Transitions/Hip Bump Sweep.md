@@ -35,6 +35,18 @@ description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step executio
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Hip Bump Sweep",
+  "description": "The Hip Bump Sweep is a fundamental closed-guard reversal in which the bottom player traps one of the opponent's arms, sits up, and drives a hip into the opponent's torso to topple them sideways and land in mount.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -49,7 +61,9 @@ description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step executio
 
 <section id="overview" class="content-section">
 
-The Hip Bump Sweep is a fundamental and high-percentage sweep from closed guard that capitalizes on the opponent's forward posture and broken base. This technique is particularly effective when the opponent attempts to establish strong posture or begins to stand in your guard. By controlling one arm, bumping your hips explosively toward the same side, and using your opponent's reaction, you can reverse position and establish mount.
+**The Hip Bump Sweep is a fundamental closed-guard reversal in which the bottom player traps one of the opponent's arms, sits up, and drives a hip into the opponent's torso to topple them sideways and land in mount.**
+
+As a cornerstone of the fundamental closed guard attack system, the Hip Bump Sweep capitalizes on the opponent's forward posture and broken base, working best when they attempt to establish strong posture or begin to stand inside your guard. By controlling one arm, bumping your hips explosively toward the same side, and using your opponent's reaction, you can reverse position and establish mount.
 
 The beauty of the Hip Bump Sweep lies in its versatility and chain attack potential. It works seamlessly with other closed guard attacks like the Kimura and Guillotine, creating a systematic approach where each technique feeds into the next. When opponents defend the Hip Bump by posting their free hand, they immediately expose themselves to the Kimura. When they pull their arm back, the Guillotine becomes available. This creates the fundamental closed guard attack triangle that every practitioner should master.
 

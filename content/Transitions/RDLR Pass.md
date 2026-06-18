@@ -34,6 +34,18 @@ description: "Learn Reverse De La Riva Pass in BJJ. Step-by-step guard pass from
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "RDLR Pass",
+  "description": "The RDLR Pass is a top-side guard pass against Reverse De La Riva that breaks the ankle grip, clears the inverted hook, and circles into side control while neutralizing berimbolo and kiss-of-the-dragon back-take threats.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Learn Reverse De La Riva Pass in BJJ. Step-by-step guard pass from
 </div>
 
 <section id="overview" class="content-section">
+
+**The RDLR Pass is a top-side guard pass against Reverse De La Riva that breaks the ankle grip, clears the inverted hook, and circles into side control while neutralizing berimbolo and kiss-of-the-dragon back-take threats.**
 
 The Reverse De La Riva (RDLR) Pass is an essential technique for neutralizing one of modern BJJ's most dynamic guard systems. The RDLR guard creates powerful off-balancing angles and back-take opportunities, making it a favorite among competition grapplers. Successfully passing this guard requires understanding the mechanical structure of the position, controlling the key points of contact, and systematically dismantling the guard player's hooks and grips. This pass emphasizes pressure, balance, and timing to transition from a contested guard position into dominant side control. The technique involves clearing the RDLR hook, establishing strong base and pressure, and circling around the guard player's leg frame to achieve side control or other passing positions.
 

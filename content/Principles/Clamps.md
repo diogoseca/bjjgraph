@@ -143,6 +143,16 @@ description: "Master clamps in BJJ. Learn to use paired limbs for squeezing cont
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Clamps",
+  "description": "Clamps are the squeezing together of two paired body parts — legs around a torso, arms around a neck, knees against ribs — to compress, control, or finish, converting muscular contraction into inescapable inward pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Principles/"
+}
+</script>
+
 
 
 <div class="principle-meta">
@@ -158,7 +168,9 @@ description: "Master clamps in BJJ. Learn to use paired limbs for squeezing cont
 
 ## What are Clamps?
 
-A clamp is the act of squeezing two body parts together — legs around a torso, arms around a neck, knees against ribs — to restrict the opponent's movement, maintain a position, or finish a submission. Clamps are among the most intuitive mechanics in grappling. A child wrapping their legs around someone's waist is using a clamp. The closed guard is a clamp. The triangle choke is a clamp. The body lock from back control is a clamp. Every squeeze-based control or submission in BJJ is built on clamp mechanics.
+**Clamps are the squeezing together of two paired body parts — legs around a torso, arms around a neck, knees against ribs — to compress, control, or finish, converting muscular contraction into inescapable inward pressure.**
+
+Clamps are among the most intuitive mechanics in grappling — a child instinctively wrapping their legs around someone's waist is already using one. The closed guard is a clamp. The triangle choke is a clamp. The body lock from back control is a clamp. Every squeeze-based control or submission in BJJ is built on clamp mechanics, which is precisely what makes the concept so foundational once you learn to see it everywhere.
 
 What makes clamps effective is the biomechanical advantage of compression. When you squeeze with paired limbs, you are applying inward force from two sides simultaneously, which the opponent can only resist by expanding outward — a mechanically disadvantaged direction for most body positions. Your legs clamping around someone's torso can generate enormous compressive force because the adductors and glutes are among the strongest muscles in the body. Your arms clamping around a head and arm for a guillotine use the lats, pecs, and biceps in concert. The clamp converts muscular contraction into omnidirectional compression that is extremely difficult to escape once fully locked.
 

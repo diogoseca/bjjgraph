@@ -34,6 +34,18 @@ description: "Master North-South to Kimura transition in BJJ. Step-by-step arm i
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "North-South to Kimura",
+  "description": "North-South to Kimura is a top-control submission setup that isolates the opponent's near-side arm from the North-South pin and locks a figure-four grip to advance into the Kimura Trap, threatening a high-percentage shoulder lock.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master North-South to Kimura transition in BJJ. Step-by-step arm i
 </div>
 
 <section id="overview" class="content-section">
+
+**North-South to Kimura is a top-control submission setup that isolates the opponent's near-side arm from the North-South pin and locks a figure-four grip to advance into the Kimura Trap, threatening a high-percentage shoulder lock.**
 
 The North-South to Kimura transition represents a fundamental attacking sequence from one of BJJ's most dominant control positions. From North-South, the practitioner isolates the opponent's arm and establishes the figure-four Kimura grip to transition into the Kimura Trap control position, threatening a high-percentage shoulder lock. This technique capitalizes on the superior weight distribution and control inherent to North-South, where the opponent's defensive frames are compromised and their shoulders are pinned flat against the mat, making arm isolation significantly easier than from parallel positions like side control.
 

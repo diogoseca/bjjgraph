@@ -34,6 +34,18 @@ description: "Learn Frame and Distance Creation defense from ankle lock control.
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Frame and Distance Creation",
+  "description": "Frame and Distance Creation is a defensive escape from straight ankle lock control where the trapped player plants structural frames on the attacker's upper body to break proximity, loosen the grips, and extract the foot back to open guard.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn Frame and Distance Creation defense from ankle lock control.
 
 <section id="overview" class="content-section">
 
-Frame and Distance Creation is a fundamental defensive technique employed when caught in straight ankle lock control. Rather than attempting to fight the attacker's grips directly, this escape prioritizes establishing structural frames against the opponent's upper body and systematically creating space that loosens their control and facilitates foot extraction.
+**Frame and Distance Creation is a defensive escape from straight ankle lock control where the trapped player plants structural frames on the attacker's upper body to break proximity, loosen the grips, and extract the foot back to open guard.**
+
+Within the leg-lock defensive hierarchy, Frame and Distance Creation is the first-line escape a trapped player turns to the moment straight ankle lock control is recognized, before the position can deteriorate into more dangerous entanglements like inside ashi-garami or saddle. Rather than attempting to fight the attacker's grips directly, this escape prioritizes establishing structural frames against the opponent's upper body and systematically creating space that loosens their control and facilitates foot extraction.
 
 The technique operates on the principle that leg lock control depends heavily on proximity. When the attacker maintains close distance, their grips remain tight, their leg wrap stays secure, and their breaking mechanics maintain full leverage. By inserting frames on the attacker's chest, shoulders, or head, the defender creates separation that diminishes grip security and opens extraction pathways.
 

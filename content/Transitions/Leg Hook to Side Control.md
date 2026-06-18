@@ -34,6 +34,18 @@ description: "Master Leg Hook to Side Control pass in BJJ. Complete guide to cle
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Leg Hook to Side Control",
+  "description": "Leg Hook to Side Control is a half-guard pass completion where the top player extracts their hooked leg from the bottom player's entanglement and clears into dominant side control through continuous upper-body pressure.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Leg Hook to Side Control pass in BJJ. Complete guide to cle
 </div>
 
 <section id="overview" class="content-section">
+
+**Leg Hook to Side Control is a half-guard pass completion where the top player extracts their hooked leg from the bottom player's entanglement and clears into dominant side control through continuous upper-body pressure.**
 
 The Leg Hook to Side Control transition represents the culminating pass completion phase from the leg hook position within the half guard passing system. When the top player has established a controlling leg hook around the bottom player's defending leg, this transition encompasses the systematic extraction of the hooked leg and full clearance into dominant side control. Unlike the Leg Hook to Half Guard consolidation which resets to a stable passing platform, this transition commits fully to completing the pass in a single decisive sequence.
 

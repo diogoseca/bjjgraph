@@ -34,6 +34,18 @@ description: "Master Technical Mount in BJJ. Advanced mount variation with stepp
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Technical Mount",
+  "description": "Technical Mount is an asymmetric mount variation where the top player steps one leg up near the opponent's head, trading some stability for high-percentage armbar, triangle, and back-take attacks while pinning the isolated arm.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Technical Mount in BJJ. Advanced mount variation with stepp
 </div>
 
 <section id="overview" class="content-section">
+
+**Technical Mount is an asymmetric mount variation where the top player steps one leg up near the opponent's head, trading some stability for high-percentage armbar, triangle, and back-take attacks while pinning the isolated arm.**
 
 Technical Mount, also known as S-mount, is an advanced mount variation characterized by one leg stepped over the opponent's head while maintaining mount control with the other leg. This asymmetric configuration creates one of the highest percentage positions for finishing armbars and triangles in Brazilian Jiu-Jitsu. The position gets its name from the "S" shape formed by the practitioner's legs when viewed from the side, and represents a deliberate sacrifice of some stability in exchange for dramatically increased submission opportunities.
 
@@ -123,21 +137,21 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (50% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (40% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (16% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (14% of attempts)
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (10% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (14% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (10% of attempts)
 
 - **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (5% of attempts)
 
-- **[[Transitions/Back Turn from Technical Mount/Attacker|Back Turn from Technical Mount]]** (0% of attempts)
+- **[[Transitions/Back Turn from Technical Mount/Attacker|Back Turn from Technical Mount]]** (3% of attempts)
 
-- **[[Transitions/Escape Technical Mount to Half Guard/Attacker|Escape Technical Mount to Half Guard]]** (0% of attempts)
+- **[[Transitions/Escape Technical Mount to Half Guard/Attacker|Escape Technical Mount to Half Guard]]** (15% of attempts)
 
-- **[[Transitions/Bridge from Technical Mount/Attacker|Bridge from Technical Mount]]** (1% of attempts)
+- **[[Transitions/Bridge from Technical Mount/Attacker|Bridge from Technical Mount]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -194,25 +208,27 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (52% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (34% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (20% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (13% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (10% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (6% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (6% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (4% of attempts)
 
-- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (4% of attempts)
+- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (2% of attempts)
 
-- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (3% of attempts)
+- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (2% of attempts)
 
-- **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** (1% of attempts)
+- **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** (2% of attempts)
 
 - **[[Transitions/Technical Mount to Mount/Attacker|Technical Mount to Mount]]** (1% of attempts)
 
 - **[[Transitions/Technical Mount to S Mount/Attacker|Technical Mount to S Mount]]** (1% of attempts)
 
-- **[[Americana from Technical Mount/Attacker|Americana from Technical Mount]]** (2% of attempts)
+- **[[Americana from Technical Mount/Attacker|Americana from Technical Mount]]** (1% of attempts)
+
+- **[[Armbar from Technical Mount/Attacker|Armbar from Technical Mount]]** (34% of attempts)
 
 
 ### Common Mistakes

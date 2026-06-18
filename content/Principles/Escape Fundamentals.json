@@ -15,7 +15,8 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Escape Fundamentals represent the core principles and mechanical patterns underlying all successful escapes from inferior positions in BJJ, providing systematic framework for defensive survival and position improvement. Unlike specific escape techniques, escape fundamentals are comprehensive conceptual guidelines that apply across all defensive scenarios and determine overall defensive capability. This concept encompasses the biomechanical understanding that successful escapes follow predictable patterns: creating frames, generating space, creating angles, and transitioning to improved positions through sequential movements. Escape fundamentals serve as both immediate survival mechanism enabling defense against submissions and long-term strategic framework for escaping dominant positions. The ability to apply escape fundamentals consistently under pressure often determines defensive success and overall BJJ survivability, making it one of the most essential conceptual elements for practitioners at all levels.",
+  "summary": "Escape Fundamentals are the universal mechanical principles—framing, space creation, angle generation, and sequential position recovery—that govern how a practitioner systematically defends and regains advantage from any inferior or pinned position in BJJ.",
+  "overview": "Across every defensive scenario in BJJ, escape success is not random—it follows repeatable biomechanical patterns that separate practitioners who reliably survive bad positions from those who get submitted. Unlike specific escape techniques tied to a single pin, escape fundamentals are comprehensive conceptual guidelines that apply across all defensive scenarios and determine overall defensive capability. This concept encompasses the biomechanical understanding that successful escapes follow predictable patterns: creating frames, generating space, creating angles, and transitioning to improved positions through sequential movements. Escape fundamentals serve as both an immediate survival mechanism enabling defense against submissions and a long-term strategic framework for escaping dominant positions. The ability to apply escape fundamentals consistently under pressure often determines defensive success and overall BJJ survivability, making it one of the most essential conceptual elements for practitioners at all levels.",
   "key_principles": [
     "Establish frames immediately as first defensive priority to create structural barriers",
     "Generate space between bodies through hip movement and frame pressure",
@@ -405,6 +406,48 @@
       "name": "Bridge and Roll",
       "content_type": "Transition",
       "relationship": "Explosive escape technique that applies fundamental principles through bridging mechanics and timing"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the correct sequence of stages in a fundamentally sound escape?",
+      "answer": "Frames first, then space creation through hip movement, then angle generation perpendicular to the opponent's pressure, and finally recovery to an improved guard position. Each stage prepares the next rather than acting in isolation."
+    },
+    {
+      "question": "Why should you establish frames before attempting any explosive movement?",
+      "answer": "Frames create a structural barrier that stops the opponent from re-consolidating control. Exploding without frames spends energy on a disruption the opponent simply re-closes, leading to fatigue and progressively weaker escape attempts."
+    },
+    {
+      "question": "What is the most common postural error when escaping a pin, and how do you correct it?",
+      "answer": "Staying flat on your back lets the opponent keep full pressure over both shoulders. Correct it by turning to face the opponent, creating a perpendicular angle that frees your hips and enables guard recovery."
+    },
+    {
+      "question": "How should frame pressure be generated to avoid rapid arm fatigue?",
+      "answer": "Drive frames from hip movement and core rotation using skeletal alignment and leverage, not isolated arm strength. Bone structure holds against weight far longer than muscular pushing, which collapses quickly under sustained pressure."
+    },
+    {
+      "question": "Why is recovering to a specific guard better than simply 'creating space'?",
+      "answer": "Without a target guard, the space and angle you create gets re-closed because you have no transition objective. Choosing a destination such as closed, half, or butterfly guard gives the escape a definite endpoint to consolidate."
+    },
+    {
+      "question": "How do escape fundamentals apply differently to back control versus mount?",
+      "answer": "Back control prioritizes hand-fighting to prevent the choke and removing hooks before rotating to face the opponent. Mount prioritizes framing the hips, bridging for displacement, and elbow-escaping the knee through to recover guard."
+    },
+    {
+      "question": "What must you never sacrifice while working an escape?",
+      "answer": "Submission awareness. Protecting the neck, arms, and legs must continue throughout the escape, because a position-focused escape that ignores active threats can directly feed the opponent a submission finish."
+    },
+    {
+      "question": "When should explosive effort be used versus continuous pressure during an escape?",
+      "answer": "Continuous frame pressure maintains defensive structure and conserves energy. Explosive effort is reserved for the critical window when the opponent shifts weight or adjusts base, producing maximum displacement at the right moment."
+    },
+    {
+      "question": "What does it mean that escapes should be continuous rather than discrete attempts?",
+      "answer": "Instead of making isolated attempts and resetting, you maintain constant escape pressure and flow to an alternate pathway the moment one is blocked, preventing the opponent from consolidating control between attempts."
+    },
+    {
+      "question": "How does varying timing and rhythm improve escape success against a skilled opponent?",
+      "answer": "Repeating identical timing lets the opponent anticipate and counter before the escape develops. Alternating between continuous pressure and explosive bursts creates uncertainty that opens gaps in their defensive reactions."
     }
   ]
 }

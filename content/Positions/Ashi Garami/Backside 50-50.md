@@ -34,6 +34,18 @@ description: "Master Backside 50-50 in BJJ. Strategic guide covering leg entangl
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Backside 50-50",
+  "description": "Backside 50-50 is a leg-entanglement position where both grapplers mirror the standard 50-50 leg configuration, but one player's back faces the opponent's chest, creating a clear top/bottom hierarchy with asymmetric leg-attack and escape options.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master Backside 50-50 in BJJ. Strategic guide covering leg entangl
 </div>
 
 <section id="overview" class="content-section">
+
+**Backside 50-50 is a leg-entanglement position where both grapplers mirror the standard 50-50 leg configuration, but one player's back faces the opponent's chest, creating a clear top/bottom hierarchy with asymmetric leg-attack and escape options.**
 
 Backside 50-50 represents a unique leg entanglement configuration where both practitioners maintain the characteristic mirrored leg positioning of standard 50-50, but with one player's back oriented toward the opponent's chest rather than the traditional face-to-face alignment. This asymmetrical orientation fundamentally alters the mechanical and tactical dynamics of the position, creating distinct advantages and disadvantages for each player that don't exist in standard 50-50 variations.
 

@@ -33,10 +33,32 @@ description: "Master the outside heel hook from 50-50 guard. Learn grip mechanic
 }
 </script>
 
-> **SAFETY**: Outside Heel Hook from 50-50 Guard targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Outside Heel Hook from 50-50 Guard",
+  "description": "The outside heel hook from 50-50 guard is a rotational leg lock that secures the opponent's foot in a figure-four grip and rotates the heel laterally to attack the knee ligaments, finished directly from the symmetrical 50-50 entanglement.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The outside heel hook from 50-50 guard is a rotational leg lock that secures the opponent's foot in a figure-four grip and rotates the heel laterally to attack the knee ligaments, finished directly from the symmetrical 50-50 entanglement.**
+<div class="principle-meta">
+<span class="meta-chip">Joint Lock</span>
+<span class="meta-chip">Leg Lock</span>
+<span class="meta-chip">Targets Knee joint, ankle joint, and surrounding ligaments</span>
+<span class="meta-chip">45% success</span>
+</div>
+
+> [!danger] Safety
+> Outside Heel Hook from 50-50 Guard targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -53,61 +75,7 @@ The primary technical challenge is breaking the positional symmetry inherent in 
 
 This submission carries extreme injury risk due to the nature of rotational heel hook mechanics. Ligament damage occurs before pain signals reach the brain, making early tap recognition and controlled application absolutely essential in training. The 50-50 configuration provides both stability for the attack and a natural recovery position when the attempt fails, as the attacker typically returns to 50-50 top rather than losing position entirely.
 
-**Category**: Joint Lock
-**Type**: Leg Lock
-**Target Area**: Knee joint, ankle joint, and surrounding ligaments
-**Starting Position**: [[Positions/Ashi Garami/50-50 Guard]]
-**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
-**Success Rate**: 45%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 9-12 months with surgical reconstruction |
-| MCL tear (medial collateral ligament damage) | CRITICAL | 6-12 months depending on grade |
-| Meniscus tear | High | 3-6 months with potential surgery |
-| LCL damage (lateral collateral ligament) | High | 6-8 weeks to 6 months |
-| PCL strain (posterior cruciate ligament) | High | 3-6 months |
-| Ankle ligament damage | Medium | 4-8 weeks |
-
-
-**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training, NEVER sudden rotation
-
-**Tap Signals**:
-- Verbal tap (primary)
-- Physical hand tap on partner or mat
-- Physical foot tap with free leg
-- Any vocal distress signal
-- Frantic movement or panic response
-- Any indication of discomfort
-
-
-**Release Protocol**:
-1. Immediately release rotational pressure on heel
-2. Release the figure-four grip or heel cup
-3. Remove hip pressure and extension
-4. Allow opponent to straighten leg naturally
-5. Check partner's condition before continuing
-6. Never apply rotation while releasing
-
-
-**Training Restrictions**:
-- NEVER apply sudden rotational force - always slow and progressive
-- NEVER practice at competition speed during training
-- NEVER continue past first sign of discomfort
-- Only train with experienced partners who understand leg locks
-- Always ensure clear communication before training leg locks
-- Tap early and often - do not test flexibility limits
-- Prohibited for white and blue belts in most IBJJF competitions
-- Never practice on injured knees or with prior knee injuries without medical clearance
-
+**Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] · **From**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -271,39 +239,66 @@ This submission carries extreme injury risk due to the nature of rotational heel
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
-- [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
+- [[Transitions/Estima Lock]]
 - [[Positions/Ashi Garami/50-50 Guard]] - Primary starting position for this submission variant
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement with similar heel exposure angles
 - [[Positions/Ashi Garami/Backside 50-50]] - Alternative entanglement for outside heel hook attacks
-- [[Transitions/Heel Hook]] - Parent submission technique with shared finishing mechanics
-- [[Submissions/Inside Heel Hook]] - Complementary heel hook attacking opposite rotational direction
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Outside Heel Hook from 50-50 Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| ACL tear (anterior cruciate ligament rupture) | CRITICAL | 9-12 months with surgical reconstruction |
+| MCL tear (medial collateral ligament damage) | CRITICAL | 6-12 months depending on grade |
+| Meniscus tear | High | 3-6 months with potential surgery |
+| LCL damage (lateral collateral ligament) | High | 6-8 weeks to 6 months |
+| PCL strain (posterior cruciate ligament) | High | 3-6 months |
+| Ankle ligament damage | Medium | 4-8 weeks |
+
+
+**Application Speed**: EXTREMELY SLOW - minimum 5-7 seconds progressive pressure in training, NEVER sudden rotation
+
+**Tap Signals**:
+- Verbal tap (primary)
+- Physical hand tap on partner or mat
+- Physical foot tap with free leg
+- Any vocal distress signal
+- Frantic movement or panic response
+- Any indication of discomfort
+
+
+**Release Protocol**:
+1. Immediately release rotational pressure on heel
+2. Release the figure-four grip or heel cup
+3. Remove hip pressure and extension
+4. Allow opponent to straighten leg naturally
+5. Check partner's condition before continuing
+6. Never apply rotation while releasing
+
+
+**Training Restrictions**:
+- NEVER apply sudden rotational force - always slow and progressive
+- NEVER practice at competition speed during training
+- NEVER continue past first sign of discomfort
+- Only train with experienced partners who understand leg locks
+- Always ensure clear communication before training leg locks
+- Tap early and often - do not test flexibility limits
+- Prohibited for white and blue belts in most IBJJF competitions
+- Never practice on injured knees or with prior knee injuries without medical clearance
+
 
 </section>
 

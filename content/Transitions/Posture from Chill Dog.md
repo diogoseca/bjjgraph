@@ -34,6 +34,18 @@ description: "Master posture recovery from Chill Dog turtle in BJJ. Break compac
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Posture from Chill Dog",
+  "description": "Posture from Chill Dog is a top-player positional transition that breaks the bottom player's compact turtle shell with underhook leverage, a knee post, and hip control, forcing them out into closed or half guard where the passer's game applies.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Master posture recovery from Chill Dog turtle in BJJ. Break compac
 
 <section id="overview" class="content-section">
 
-Posture from Chill Dog is a positional transition executed by the top player to force the bottom player out of the compact Chill Dog turtle defense and into a more workable guard-passing scenario. When the bottom player adopts the tight defensive shell characteristic of Chill Dog — elbows pressed to knees, rounded back, tucked head — the top player may choose to systematically break this frame and posture the defender upward rather than pursuing traditional turtle attacks like back takes or front headlock sequences. The technique involves underhook leverage, hip control, and strategic weight distribution to peel the defender out of their compact ball and into a seated or supine position where their legs naturally recover to guard.
+**Posture from Chill Dog is a top-player positional transition that breaks the bottom player's compact turtle shell with underhook leverage, a knee post, and hip control, forcing them out into closed or half guard where the passer's game applies.**
+
+This transition belongs to the top player's turtle-attacking arsenal and is deployed specifically when the bottom player has buried themselves in the compact Chill Dog shell — elbows pressed to knees, rounded back, tucked head — and traditional back-take or front-headlock attacks have stalled. Rather than continuing to grind against an airtight defensive frame, the top player systematically breaks it and postures the defender upward, using underhook leverage, a knee post, and strategic weight distribution to peel them out of their compact ball into a seated or supine position where their legs naturally recover to guard.
 
 The strategic rationale for this transition is situational. When the bottom player's Chill Dog defense is particularly effective at shutting down back take attempts and the clock is a factor, forcing them into closed guard or half guard creates a position where the top player has established guard-passing systems available. Rather than burning energy against an impenetrable defensive shell, the top player redirects to a more familiar positional battle. This is especially relevant for practitioners whose guard passing is stronger than their turtle attacking game.
 

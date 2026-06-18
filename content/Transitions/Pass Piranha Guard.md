@@ -34,6 +34,18 @@ description: "Learn how to pass Piranha Guard in BJJ. Systematic grip-breaking, 
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Pass Piranha Guard",
+  "description": "Pass Piranha Guard is a systematic gi guard-passing method that defeats the lapel-fed-through-the-legs Piranha Guard by stripping grips in threat-priority order, clearing the threaded collar, then committing to a lateral pass into side control.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -45,7 +57,9 @@ description: "Learn how to pass Piranha Guard in BJJ. Systematic grip-breaking, 
 
 <section id="overview" class="content-section">
 
-Pass Piranha Guard is a specialized guard passing methodology designed to defeat the Piranha Guard, an advanced lapel-based open guard where the bottom player threads the top player's collar through their legs to create controlling leverage and sweep opportunities. The pass demands a disciplined, methodical approach that prioritizes systematic grip stripping before any forward commitment, as the lapel configuration creates mechanical advantages that punish rushed or poorly timed passing attempts.
+**Pass Piranha Guard is a systematic gi guard-passing method that defeats the lapel-fed-through-the-legs Piranha Guard by stripping grips in threat-priority order, clearing the threaded collar, then committing to a lateral pass into side control.**
+
+The Piranha Guard is one of the most punishing modern lapel guards to pass: by threading the top player's collar between their legs, the bottom player builds a pulley-like control system that converts forward pressure into sweeps and rewards patience. This pass answers that problem with a disciplined, methodical approach that prioritizes systematic grip stripping before any forward commitment, as the lapel configuration creates mechanical advantages that punish rushed or poorly timed passing attempts.
 
 The fundamental challenge lies in the pulley-like control system the bottom player establishes through the collar threading. Direct forward pressure feeds into their sweep mechanics, while backward retreat allows them to reload grips and improve position. The solution requires lateral movement combined with hierarchical grip clearing—addressing neck-level threats first, then centerline controls, and finally leg entanglements before committing to a passing lane.
 

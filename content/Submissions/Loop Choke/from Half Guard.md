@@ -33,10 +33,32 @@ description: "Master the Loop Choke from Half Guard Top in BJJ. Learn deep colla
 }
 </script>
 
-> **SAFETY**: Loop Choke from Half Guard targets the Carotid arteries and jugular veins. Risk: Loss of consciousness from bilateral carotid artery compression. Release immediately upon tap.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Loop Choke from Half Guard",
+  "description": "The Loop Choke from Half Guard is a gi blood choke by the top player who threads a deep collar under the chin and sprawls to cinch a self-tightening loop around the carotids, weaponizing the bottom player's underhook and shrimp attempts.",
+  "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
+}
+</script>
+
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+
+**The Loop Choke from Half Guard is a gi blood choke by the top player who threads a deep collar under the chin and sprawls to cinch a self-tightening loop around the carotids, weaponizing the bottom player's underhook and shrimp attempts.**
+<div class="principle-meta">
+<span class="meta-chip">Choke</span>
+<span class="meta-chip">Blood Choke</span>
+<span class="meta-chip">Targets Carotid arteries and jugular veins</span>
+<span class="meta-chip">40% success</span>
+</div>
+
+> [!danger] Safety
+> Loop Choke from Half Guard targets the Carotid arteries and jugular veins. Primary risk: Loss of consciousness from bilateral carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -47,57 +69,13 @@ description: "Master the Loop Choke from Half Guard Top in BJJ. Learn deep colla
 
 <section id="overview" class="content-section">
 
-The Loop Choke from Half Guard is a gi-based blood choke executed by the top player during the half guard engagement, exploiting collar grip access and the bottom player's movement to create a self-tightening strangling loop around the neck. Unlike the Loop Choke from mount where gravity and positional dominance facilitate the finish, the half guard version relies heavily on timing and the opponent's defensive reactions—particularly their attempts to come up for the underhook or shrimp away. The attacker threads a deep collar grip under the opponent's chin and uses sprawling pressure or a rolling finish to cinch the loop tight around the carotid arteries.
+Among half guard top submissions, the Loop Choke fills a uniquely opportunistic niche because it converts the bottom player's own escape attempts into the finishing mechanism rather than relying on positional dominance. Unlike the Loop Choke from mount where gravity and positional dominance facilitate the finish, the half guard version relies heavily on timing and the opponent's defensive reactions—particularly their attempts to come up for the underhook or shrimp away. The attacker threads a deep collar grip under the opponent's chin and uses sprawling pressure or a rolling finish to cinch the loop tight around the carotid arteries.
 
 This submission occupies a unique tactical niche in the half guard top game because it punishes the bottom player's most common offensive movements. When the bottom player fights for the underhook—their primary sweep pathway—they expose their neck to the collar thread. When they shrimp to create distance, they generate the space needed for grip insertion. The loop choke thus functions as a submission trap that weaponizes the opponent's guard recovery attempts, making it an excellent complement to pressure passing strategies.
 
 The attacker must balance commitment to the choke against maintaining top position, as overcommitting to a failed attempt can result in guard recovery or a sweep. The technique rewards patience and sensitivity to the opponent's movement patterns, with the highest-percentage entries occurring when the bottom player initiates a specific defensive action that creates the necessary collar access and neck exposure.
 
-**Category**: Choke
-**Type**: Blood Choke
-**Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Positions/Half Guard]]
-**From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 40%
-
-</section>
-
-<section id="safety-considerations" class="content-section">
-
-## Safety Guide
-
-**Injury Risks**:
-
-| Injury | Severity | Recovery Time |
-|--------|----------|---------------|
-| Loss of consciousness from bilateral carotid artery compression | High | Immediate with proper release, potential for confusion lasting 30-60 seconds |
-| Trachea damage from improper collar placement creating air choke | Medium | 3-7 days for minor bruising, weeks for significant damage |
-| Neck strain from defensive head pulling against collar loop | Low | 1-3 days |
-
-
-**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure
-
-**Tap Signals**:
-- Verbal tap or verbal statement of submission
-- Physical hand tap on opponent's body or mat
-- Physical foot tap on mat
-- Any distress signal including unusual sounds or loss of resistance
-
-
-**Release Protocol**:
-1. Immediately release collar grip and all head control completely
-2. Remove chest and hip pressure by disengaging to a neutral position
-3. Check partner's alertness and awareness before continuing
-4. Allow minimum 60 seconds recovery time before resuming training
-
-
-**Training Restrictions**:
-- Never apply sudden jerking or yanking motions with collar grips
-- Never use competition speed in training - always give partner time to recognize and tap
-- Never continue pressure after tap is felt or heard
-- Always ensure training partner can freely tap with at least one hand
-- Never practice on partners who are visibly fatigued or disoriented
-
+**Starting Position**: [[Positions/Half Guard]] · **From**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -267,10 +245,9 @@ The attacker must balance commitment to the choke against maintaining top positi
 
 </section>
 
-<section id="related-submissions" class="content-section">
+<section id="related" class="content-section">
 
-## Related Submissions
-
+## Related
 - [[Transitions/Darce Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Submissions/Cross Collar Choke]]
@@ -279,35 +256,53 @@ The attacker must balance commitment to the choke against maintaining top positi
 - [[Transitions/Guillotine Choke]]
 - [[Submissions/Kimura]]
 - [[Submissions/Baseball Bat Choke]]
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Additional Related Content
-
 - [[Positions/Half Guard]] - Primary starting position where the top player establishes collar control for the loop choke setup
 - [[Positions/Side Control]] - Common transition destination if the attacker abandons the choke attempt and completes a half guard pass
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Variant position where the loop choke can be applied when the bottom player drops the knee shield to fight for underhook
-- [[Transitions/Darce Choke]] - Complementary neck attack from half guard top that chains naturally when opponent turns into the attacker
 - [[Positions/Closed Guard]] - Counter position the bottom player may recover to if the loop choke attempt fails and top player overcommits
 - [[Positions/Half Guard/Flattened Half Guard]] - Advantageous variant where the bottom player is flat on their back, facilitating collar grip insertion
 - [[Positions/Half Guard/Deep Half Guard]] - Defensive response where the bottom player goes underneath to avoid the collar thread and counter the choke
 - [[Positions/Front Headlock]] - Related control position accessible if the opponent turtles during the choke attempt
 - [[Positions/North-South]] - Transition option if the attacker sprawls past the opponent during the finishing sequence
-- [[Submissions/Kimura]] - Alternative submission from half guard top that creates arm defense reactions exposing the collar
-
 
 </section>
 
-<section id="terminal-state" class="content-section">
+<section id="safety-considerations" class="content-section">
 
-## Match Outcome
+## Safety Guide
 
-Successful execution of Loop Choke from Half Guard leads to → [[game-over|Game Over]]
+**Injury Risks**:
 
-*All submissions in BJJ ultimately converge to the same terminal state: the match ends when your opponent taps.*
+| Injury | Severity | Recovery Time |
+|--------|----------|---------------|
+| Loss of consciousness from bilateral carotid artery compression | High | Immediate with proper release, potential for confusion lasting 30-60 seconds |
+| Trachea damage from improper collar placement creating air choke | Medium | 3-7 days for minor bruising, weeks for significant damage |
+| Neck strain from defensive head pulling against collar loop | Low | 1-3 days |
+
+
+**Application Speed**: SLOW and progressive - 3-5 seconds minimum from initial tightness to full pressure
+
+**Tap Signals**:
+- Verbal tap or verbal statement of submission
+- Physical hand tap on opponent's body or mat
+- Physical foot tap on mat
+- Any distress signal including unusual sounds or loss of resistance
+
+
+**Release Protocol**:
+1. Immediately release collar grip and all head control completely
+2. Remove chest and hip pressure by disengaging to a neutral position
+3. Check partner's alertness and awareness before continuing
+4. Allow minimum 60 seconds recovery time before resuming training
+
+
+**Training Restrictions**:
+- Never apply sudden jerking or yanking motions with collar grips
+- Never use competition speed in training - always give partner time to recognize and tap
+- Never continue pressure after tap is felt or heard
+- Always ensure training partner can freely tap with at least one hand
+- Never practice on partners who are visibly fatigued or disoriented
+
 
 </section>
 

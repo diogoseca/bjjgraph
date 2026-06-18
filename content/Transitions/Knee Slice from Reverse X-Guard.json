@@ -10,6 +10,7 @@
     "top-game",
     "knee-cut"
   ],
+  "summary": "The Knee Slice from Reverse X-Guard is a top guard pass in which the passer degrades the bottom player's inverted hooks, then drives a knee diagonally across their thigh line to clear the legs and consolidate side control.",
   "from_position": "Reverse X-Guard/Top",
   "outcomes": [
     {
@@ -34,7 +35,7 @@
     }
   ],
   "success_rate": 50,
-  "overview": "The Knee Slice from Reverse X-Guard is a precision guard pass that exploits momentary weaknesses in the bottom player's inverted hook structure to drive a cutting knee across their thigh line and establish side control. Unlike a standard knee slice from half guard or headquarters, this variation requires the passer to first address the unique inverted hook configuration of Reverse X-Guard before committing to the slice. The technique bridges the gap between hook management and committed passing, making it essential for any top player regularly facing modern X-Guard systems.\n\nStrategically, this pass succeeds when the bottom player's primary hook behind the knee begins to weaken—whether from fatigue, failed sweep attempts, or the top player's systematic grip fighting. The passer must recognize this window and immediately transition from defensive base management to aggressive passing. Timing is critical: too early and the hooks catch the slice, too late and the bottom player re-establishes full control. The pass combines effectively with backstep passes and smash approaches, as the bottom player cannot defend all angles simultaneously.\n\nThe technique demands precise coordination between upper body control and lower body mechanics. The crossface must be established before or simultaneously with the knee slice to prevent the bottom player from following the movement and recovering guard. This pass is a staple of high-level competition passing, where the ability to transition from guard defense to offensive passing in a single fluid motion separates advanced practitioners from intermediate ones.",
+  "overview": "Born from the modern leg-entanglement era, the Knee Slice from Reverse X-Guard adapts the familiar knee-cut mechanic to the specific problem of inverted, same-side hooks. Unlike a standard knee slice from half guard or headquarters, this variation requires the passer to first address the unique inverted hook configuration of Reverse X-Guard before committing to the slice. The technique bridges the gap between hook management and committed passing, making it essential for any top player regularly facing modern X-Guard systems.\n\nStrategically, this pass succeeds when the bottom player's primary hook behind the knee begins to weaken—whether from fatigue, failed sweep attempts, or the top player's systematic grip fighting. The passer must recognize this window and immediately transition from defensive base management to aggressive passing. Timing is critical: too early and the hooks catch the slice, too late and the bottom player re-establishes full control. The pass combines effectively with backstep passes and smash approaches, as the bottom player cannot defend all angles simultaneously.\n\nThe technique demands precise coordination between upper body control and lower body mechanics. The crossface must be established before or simultaneously with the knee slice to prevent the bottom player from following the movement and recovering guard. This pass is a staple of high-level competition passing, where the ability to transition from guard defense to offensive passing in a single fluid motion separates advanced practitioners from intermediate ones.",
   "conditions": [
     "Opponent's primary hook behind your knee is weakened or partially cleared",
     "Upper body control established through collar grip, sleeve grip, or head control",
@@ -253,6 +254,10 @@
         "answer": "The optimal window opens when the bottom player's primary hook behind your knee weakens—either from fatigue, a failed sweep attempt, or your systematic grip fighting. You should feel the hook losing purchase or becoming shallow. Initiating before this window means slicing into intact hooks that will catch and stall the pass. Waiting too long allows the bottom player to reset their structure. The slice should feel like it falls into the gap created by hook degradation, not like it is being forced through resistance."
       },
       {
+        "question": "Before committing to the knee slice, what positional and control prerequisites must be in place?",
+        "answer": "You need a wide-posted free leg for a stable tripod base, at least one upper body grip (collar, sleeve, or head control) anchoring your passing angle, and forward hip pressure pinning the bottom player so they cannot elevate for a sweep. Most critically, the primary hook behind your knee must already be weakened or partially cleared through pressure or grip fighting. Attempting the slice before these conditions exist drives your knee into intact hooks that catch and stall the pass—the setup phase is what makes the cut possible."
+      },
+      {
         "question": "What grip configuration must be established before committing to the knee slice?",
         "answer": "You need at least one upper body controlling grip—collar grip, sleeve control, or head/neck control in no-gi—to anchor your passing angle and prevent the bottom player from creating off-balancing angles. The ideal configuration is a cross-collar grip or collar tie on the near side combined with a secondary grip on their far sleeve or wrist. This double control prevents them from framing against your hip to block the slice and limits their ability to follow your movement to recover guard."
       },
@@ -267,6 +272,10 @@
       {
         "question": "What is the most common mechanical failure that causes this pass to stall, and how do you prevent it?",
         "answer": "The most common failure is attempting the slice before adequately degrading the primary hook behind the knee. When the hook is still engaged, it catches the knee mid-cut and creates a tug-of-war where the bottom player can re-establish full control. Prevention requires patience during the setup phase—invest in forward pressure, grip fighting, and controlled hook stripping until you feel the hook become shallow or lose purchase. Only then commit to the explosive slice. The setup is 80% of the technique."
+      },
+      {
+        "question": "Your knee slice is stuffed by a strong hip frame and a re-hook—what passing options chain off the failed attempt?",
+        "answer": "Treat the knee slice as one vector in a three-option system. If the slice stalls against a frame, switch to a backstep pass that attacks from the opposite angle, exploiting that their arms are committed to the frame. If their hooks are simply too strong to slice through, abandon the cut and drive a smash pass forward to flatten their structure. Constantly threatening all three forces the bottom player into a defensive choice they cannot fully cover, which eventually reopens the slice as their attention shifts."
       },
       {
         "question": "Your opponent transitions to Single Leg X-Guard during your knee slice attempt—what went wrong and how do you adjust?",

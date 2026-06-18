@@ -34,6 +34,18 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 </script>
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Clinch",
+  "description": "The clinch is a close-range standing position in BJJ where both grapplers fight for upper-body control through underhooks, overhooks, and collar ties, contesting head position and balance to set up takedowns, throws, or guard pulls.",
+  "inDefinedTermSet": "https://bjjgraph.org/Positions/"
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <div class="role-links">
@@ -44,6 +56,8 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 </div>
 
 <section id="overview" class="content-section">
+
+**The clinch is a close-range standing position in BJJ where both grapplers fight for upper-body control through underhooks, overhooks, and collar ties, contesting head position and balance to set up takedowns, throws, or guard pulls.**
 
 The Clinch Position represents a fundamental standing control scenario where practitioners engage in close-range upper body control through various grip configurations and body positioning. Unlike pure striking range or ground positions, the clinch creates a specialized engagement zone where practitioners battle for positional dominance through upper body ties, head position, and balanced pressure. This position serves as a critical junction point between standing exchanges and ground transitions, offering pathways to takedowns, throws, and tactical repositioning. The clinch encompasses numerous specialized variations based on the specific grips employed (over/under hooks, collar ties, body locks) and the strategic objectives of the practitioners. Its importance spans across BJJ, wrestling, judo, and MMA contexts, making it a universal element of grappling systems worldwide.
 
@@ -198,13 +212,13 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 - **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (10% of attempts)
 
-- **[[Transitions/Single Leg Takedown/Attacker|Single Leg Takedown]]** (10% of attempts)
+- **[[Transitions/Single Leg Takedown/Attacker|Single Leg Takedown]]** (9% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (10% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (9% of attempts)
 
-- **[[Transitions/Duck Under/Attacker|Duck Under]]** (10% of attempts)
+- **[[Transitions/Duck Under/Attacker|Duck Under]]** (9% of attempts)
 
-- **[[Transitions/Fireman's Carry/Attacker|Fireman's Carry]]** (10% of attempts)
+- **[[Transitions/Fireman's Carry/Attacker|Fireman's Carry]]** (9% of attempts)
 
 - **[[Transitions/Kouchi Gari/Attacker|Kouchi Gari]]** (9% of attempts)
 
@@ -223,6 +237,8 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 - **[[Transitions/Body Lock Takedown from Clinch/Attacker|Body Lock Takedown from Clinch]]** (2% of attempts)
 
 - **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** (2% of attempts)
+
+- **[[Guillotine Choke from Clinch/Attacker|Guillotine Choke from Clinch]]** (4% of attempts)
 
 
 ### Common Mistakes
