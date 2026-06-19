@@ -300,4 +300,6 @@ In competition, the toe hold from 50-50 has gained prominence as athletes develo
 
 </section>
 
+
+
 </main>

@@ -291,4 +291,6 @@ The finishing mechanics follow established omoplata principles once the perpendi
 
 </section>
 
+
+
 </main>

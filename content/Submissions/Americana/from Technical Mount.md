@@ -300,4 +300,6 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 
 </section>
 
+
+
 </main>

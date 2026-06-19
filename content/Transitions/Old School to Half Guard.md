@@ -260,4 +260,6 @@ The Old School to Half Guard transition serves as a critical reset mechanism wit
 
 </section>
 
+
+
 </main>

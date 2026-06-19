@@ -258,4 +258,6 @@ The Technical Stand Up from Open Guard serves as a critical bridge between the g
 
 </section>
 
+
+
 </main>

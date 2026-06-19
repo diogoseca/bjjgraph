@@ -266,4 +266,14 @@ The guillotine from turtle is a critical component of the complete front headloc
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Systematic entry when opponent turtles defensively</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
+
 </main>

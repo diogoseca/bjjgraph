@@ -336,4 +336,6 @@ This transition involves grip changes and position shifts that carry minimal dir
 
 </section>
 
+
+
 </main>

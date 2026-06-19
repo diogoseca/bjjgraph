@@ -56,6 +56,7 @@ export const sharedPageComponents: SharedLayout = {
     Component.SessionChevrons(),
     Component.RollSessionButton(),
     Component.Search(),
+    Component.AffiliateTracking(),
   ],
   // Footer with no links - may add social links later
   footer: Component.Footer({
@@ -73,6 +74,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TreeExplorer(),
     Component.MoveCards(),
     Component.OutcomeCards(),
+    Component.SystemProgress(),
     Component.Flashcard(),
     Component.Graph({
       localGraph: { showTags: false, depth: 1 },

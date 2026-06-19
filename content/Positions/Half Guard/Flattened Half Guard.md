@@ -284,4 +284,6 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 
 </section>
 
+
+
 </main>

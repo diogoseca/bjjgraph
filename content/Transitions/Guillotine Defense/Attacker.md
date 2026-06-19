@@ -347,4 +347,6 @@ Guillotine defense carries inherent risks due to the nature of blood chokes affe
 
 </section>
 
+
+
 </main>

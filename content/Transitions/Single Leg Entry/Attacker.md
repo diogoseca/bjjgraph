@@ -352,4 +352,16 @@ When practicing single leg entries, execute with controlled application to avoid
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Wrestling-based takedown adapted for MMA timing and cage work</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Common attack this system defends against</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Preparation System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative takedown system for competition offensive strategies</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
+
 </main>

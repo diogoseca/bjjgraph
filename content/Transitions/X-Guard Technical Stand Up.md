@@ -254,4 +254,6 @@ The X-Guard Technical Stand Up integrates X-Guard into the broader BJJ positiona
 
 </section>
 
+
+
 </main>

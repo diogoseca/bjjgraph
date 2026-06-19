@@ -12,6 +12,7 @@ Usage:
 """
 
 import argparse
+import html
 import json
 import re
 import sys
@@ -43,6 +44,33 @@ CATEGORIES = {
 # (single source of truth shared with the graph, redirect, and validation scripts).
 _JINJA_ENV = Environment()
 _JINJA_ENV.filters["slugify"] = slugify
+
+
+def _quartz_url_slug(name: str) -> str:
+    """URL path segment matching Quartz / regenerate_graph.quartz_slug (case-preserving,
+    spaces->hyphens). Used to build hrefs to content pages from raw HTML."""
+    s = str(name).strip()
+    s = s.replace('&', '-and-').replace('%', '-percent').replace('?', '').replace('#', '')
+    s = re.sub(r'\s+', '-', s)
+    return s
+
+
+def _with_utm(url, system_name='', product_id=''):
+    """Append BJJGraph UTM params to a curated affiliate URL for the PostHog funnel.
+    Never touches the vendor's existing query (e.g. ref=) — only adds utm_*."""
+    if not url:
+        return url
+    from urllib.parse import quote
+    params = ['utm_source=bjjgraph', 'utm_medium=affiliate', 'utm_campaign=systems']
+    if system_name:
+        params.append('utm_content=' + quote(_quartz_url_slug(system_name).lower()))
+    if product_id:
+        params.append('utm_term=' + quote(str(product_id)))
+    sep = '&' if '?' in str(url) else '?'
+    return str(url) + sep + '&'.join(params)
+
+
+_JINJA_ENV.filters["with_utm"] = _with_utm
 
 
 def build_wikilink_resolver():
@@ -100,6 +128,97 @@ def build_wikilink_resolver():
                 if isinstance(alias, str) and alias.strip():
                     alias_to_canonical.setdefault(slugify(alias), f"{cat_prefix}/{canonical_name}")
 
+    # Reverse system membership: which Systems reference each node. Powers the
+    # "Related Systems" CTA cards on every node page (the funnel's entry point).
+    # Built from each system's related_content[] — the same canonical edge list the
+    # graph uses for membership — so cards and graph highlight stay consistent.
+    reverse_systems = {}  # slugify(node_name) -> [card dict, ...]
+    systems_dir = Path("content/Systems")
+    if systems_dir.exists():
+        for json_file in sorted(systems_dir.glob("*.json")):
+            try:
+                sdata = json.loads(json_file.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                continue
+            sys_name = sdata.get("name") or json_file.stem
+            related = sdata.get("related_content") or []
+            member_count = sum(
+                1 for it in related
+                if isinstance(it, dict)
+                and (it.get("content_type") or "") != "System"
+                and (it.get("name") or "").strip()
+            )
+            base_card = {
+                "system_name": sys_name,
+                "system_url": "/Systems/" + _quartz_url_slug(sys_name),
+                "system_slug": "systems/" + _quartz_url_slug(sys_name).lower(),
+                "system_type": sdata.get("system_type", ""),
+                "difficulty": sdata.get("difficulty_level", ""),
+                "member_count": member_count,
+            }
+            for it in related:
+                if not isinstance(it, dict) or (it.get("content_type") or "") == "System":
+                    continue
+                nm = (it.get("name") or "").strip()
+                if not nm:
+                    continue
+                card = dict(base_card, relationship=it.get("relationship", ""))
+                reverse_systems.setdefault(slugify(nm), []).append(card)
+
+    def related_systems_html(node_name):
+        """Render the 'Related Systems' CTA card section for a node, or '' if none.
+
+        Cards are crawlable internal <a> links to system pages (no affiliate links —
+        those live only on system pages). data-* attributes feed the PostHog funnel.
+        """
+        if not node_name:
+            return ""
+        cards = reverse_systems.get(slugify(node_name))
+        if not cards:
+            return ""
+        # Dedupe by system (a node may be listed twice), keep the richest relationship,
+        # order by how much of the system this node unlocks.
+        by_sys = {}
+        for c in cards:
+            existing = by_sys.get(c["system_slug"])
+            if existing is None or len(c.get("relationship", "")) > len(existing.get("relationship", "")):
+                by_sys[c["system_slug"]] = c
+        ordered = sorted(by_sys.values(), key=lambda c: (-c["member_count"], c["system_name"]))
+
+        parts = [
+            '<section id="related-systems" class="content-section related-systems">',
+            '',
+            '## Train this with a System',
+            '',
+            '<div class="related-systems-grid">',
+        ]
+        for c in ordered:
+            name_e = html.escape(c["system_name"])
+            rel_e = html.escape(c.get("relationship") or "")
+            n = c["member_count"]
+            badge = f"Unlocks {n} technique" + ("s" if n != 1 else "")
+            chips = ""
+            if c["difficulty"]:
+                chips += f'<span class="system-card__chip">{html.escape(c["difficulty"])}</span>'
+            if c["system_type"]:
+                chips += f'<span class="system-card__chip">{html.escape(c["system_type"])}</span>'
+            parts.append(
+                f'<a class="system-card" href="{html.escape(c["system_url"])}" '
+                f'data-cta="related-system-card" data-system-slug="{html.escape(c["system_slug"])}" '
+                f'data-system-name="{name_e}" data-member-count="{n}">'
+                '<span class="system-card__shine" aria-hidden="true"></span>'
+                '<span class="system-card__type-chip">System</span>'
+                f'<span class="system-card__name">{name_e}</span>'
+                f'<span class="system-card__unlocks-badge">{badge}</span>'
+                + (f'<span class="system-card__blurb">{rel_e}</span>' if rel_e else '')
+                + (f'<span class="system-card__chips">{chips}</span>' if chips else '')
+                + '<span class="system-card__cta">Explore system'
+                '<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span>'
+                '</a>'
+            )
+        parts += ['</div>', '', '</section>']
+        return "\n".join(parts)
+
     def resolve(name):
         if not name:
             return name
@@ -130,6 +249,7 @@ def build_wikilink_resolver():
 
     resolve.page_exists = page_exists
     resolve.family_exists = family_exists
+    resolve.related_systems_html = related_systems_html
     return resolve
 
 

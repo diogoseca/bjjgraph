@@ -269,4 +269,6 @@ The open guard to deep half transition represents a critical component of modern
 
 </section>
 
+
+
 </main>

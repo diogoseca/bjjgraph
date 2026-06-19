@@ -297,4 +297,6 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 
 </section>
 
+
+
 </main>

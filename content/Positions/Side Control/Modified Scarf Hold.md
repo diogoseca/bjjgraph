@@ -288,4 +288,6 @@ Competition applicability is high, particularly in gi competitions where the pos
 
 </section>
 
+
+
 </main>

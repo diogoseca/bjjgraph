@@ -339,4 +339,6 @@ When practicing Sumi Gaeshi, ensure adequate mat space exists behind you for the
 
 </section>
 
+
+
 </main>

@@ -60,6 +60,15 @@ function applyTrainingOverlay() {
   } catch {
     knownSlugs = new Set()
   }
+  // Union deliberately-marked-known nodes (bjj-known) so honor-system marks fade too.
+  try {
+    const known = JSON.parse(localStorage.getItem("bjj-known") || "[]")
+    for (const e of known) {
+      if (e && e.slug) knownSlugs.add(String(e.slug).replace(/^\//, ""))
+    }
+  } catch {
+    /* no-op */
+  }
 
   const links = document.querySelectorAll("#explorer-content a[data-for]")
   for (const link of links) {

@@ -342,4 +342,6 @@ Takedowns carry inherent impact risk for both practitioners. Always ensure suffi
 
 </section>
 
+
+
 </main>

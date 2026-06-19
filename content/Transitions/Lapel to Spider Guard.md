@@ -254,4 +254,6 @@ The Lapel to Spider Transition fits within the broader gi guard retention system
 
 </section>
 
+
+
 </main>

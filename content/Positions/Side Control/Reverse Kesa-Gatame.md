@@ -292,4 +292,6 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 
 </section>
 
+
+
 </main>

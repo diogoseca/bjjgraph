@@ -258,4 +258,6 @@ The Scissor Sweep from Open Guard occupies a foundational role in the BJJ positi
 
 </section>
 
+
+
 </main>

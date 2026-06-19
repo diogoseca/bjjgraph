@@ -262,4 +262,15 @@ The arm drag serves as a fundamental connector between numerous positions in the
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Blue to Purple Progression</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Fundamental connection teaching off-balancing and angle creation for back-takes and sweeps</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Gi-enhanced technique for off-balancing and back takes</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
+
 </main>

@@ -260,4 +260,6 @@ The Omoplata from Lasso Guard occupies a critical junction in the open guard att
 
 </section>
 
+
+
 </main>

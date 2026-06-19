@@ -276,4 +276,6 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 </section>
 
+
+
 </main>

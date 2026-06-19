@@ -267,4 +267,6 @@ The Tomahawk Sweep represents a crucial offensive tool within the X-Guard system
 
 </section>
 
+
+
 </main>

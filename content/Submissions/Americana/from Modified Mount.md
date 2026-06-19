@@ -296,4 +296,6 @@ Competition data consistently shows the Americana from Modified Mount as a high-
 
 </section>
 
+
+
 </main>

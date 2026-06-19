@@ -332,4 +332,6 @@ When practicing the open guard to deep half transition, practitioners must prior
 
 </section>
 
+
+
 </main>

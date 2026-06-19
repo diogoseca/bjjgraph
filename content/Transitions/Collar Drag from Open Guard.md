@@ -254,4 +254,6 @@ The collar drag from open guard serves as a critical bridge between bottom guard
 
 </section>
 
+
+
 </main>

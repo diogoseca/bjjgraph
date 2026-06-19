@@ -265,4 +265,6 @@ Ippon Seoi Nage serves as a high-percentage entry into the top game from standin
 
 </section>
 
+
+
 </main>

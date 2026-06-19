@@ -378,4 +378,6 @@ Partner in bottom position actively moves their head to different defensive posi
 
 </section>
 
+
+
 </main>

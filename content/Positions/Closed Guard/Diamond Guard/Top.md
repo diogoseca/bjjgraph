@@ -346,4 +346,6 @@ Practice escaping diamond guard from the top. Partner establishes diamond with p
 
 </section>
 
+
+
 </main>

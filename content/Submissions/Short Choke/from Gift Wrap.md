@@ -297,4 +297,6 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 
 </section>
 
+
+
 </main>

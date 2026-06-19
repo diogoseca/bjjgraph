@@ -256,4 +256,6 @@ The triangle from Diamond Guard occupies a central position within the closed gu
 
 </section>
 
+
+
 </main>

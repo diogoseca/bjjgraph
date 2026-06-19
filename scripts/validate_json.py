@@ -279,6 +279,39 @@ def validate_disambiguations_reciprocal(data, category, json_path):
     return warnings
 
 
+def validate_products(data, category):
+    """Warn on curated affiliate products that look unfinished. Non-blocking — products
+    are hand-curated; structure is enforced by the schema. Flags placeholder URLs/images
+    left over from scaffolding and duplicate product ids within a system."""
+    warnings = []
+    if category != "Systems":
+        return warnings
+    products = data.get("products")
+    if not isinstance(products, list):
+        return warnings
+    seen_ids = set()
+    for i, p in enumerate(products):
+        if not isinstance(p, dict):
+            continue
+        loc = f"products[{i}]"
+        title = p.get("title", loc)
+        url = str(p.get("affiliate_url", ""))
+        image = str(p.get("image", ""))
+        if not url:
+            warnings.append(f"{loc} ('{title}'): missing affiliate_url")
+        elif "REPLACE_ME" in url or "placehold.co" in image:
+            warnings.append(
+                f"{loc} ('{title}'): placeholder affiliate_url/image not yet replaced "
+                f"with a real BJJFanatics link"
+            )
+        pid = p.get("id")
+        if pid:
+            if pid in seen_ids:
+                warnings.append(f"{loc}: duplicate product id '{pid}'")
+            seen_ids.add(pid)
+    return warnings
+
+
 def extract_references_from_field(data, field_path, field_config):
     """Extract references from a specific field in the JSON data."""
     references = []
@@ -1012,6 +1045,11 @@ def validate_json_file(json_path, schema, category, strict=False):
     disamb_warnings = validate_disambiguations_reciprocal(data, category, json_path)
     warnings.extend(disamb_warnings)
     categories["non_blocking"].extend(disamb_warnings)
+
+    # Curated affiliate products → non_blocking (placeholder/duplicate-id checks)
+    product_warnings = validate_products(data, category)
+    warnings.extend(product_warnings)
+    categories["non_blocking"].extend(product_warnings)
 
     # Build content index for cross-file validation (cached in function)
     if not hasattr(validate_json_file, 'content_index'):

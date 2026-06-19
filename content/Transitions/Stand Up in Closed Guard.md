@@ -260,4 +260,6 @@ Standing up in closed guard connects the fundamental closed guard battle to the 
 
 </section>
 
+
+
 </main>

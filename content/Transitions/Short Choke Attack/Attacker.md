@@ -331,4 +331,6 @@ The Short Choke Attack is a blood choke that compresses the carotid arteries and
 
 </section>
 
+
+
 </main>

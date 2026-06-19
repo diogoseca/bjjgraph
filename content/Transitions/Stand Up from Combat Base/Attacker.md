@@ -336,4 +336,6 @@ The stand up from combat base carries moderate knee stress during the transition
 
 </section>
 
+
+
 </main>

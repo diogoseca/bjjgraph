@@ -300,4 +300,6 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 
 </section>
 
+
+
 </main>

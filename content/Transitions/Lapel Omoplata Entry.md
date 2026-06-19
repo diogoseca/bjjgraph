@@ -248,4 +248,6 @@ Lapel Omoplata Entry occupies a critical position in the lapel guard attack syst
 
 </section>
 
+
+
 </main>

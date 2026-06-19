@@ -340,4 +340,6 @@ The Kimura Defense Arm Extraction carries moderate risk to the shoulder joint of
 
 </section>
 
+
+
 </main>

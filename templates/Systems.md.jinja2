@@ -109,6 +109,50 @@ description: "{{description}}"
 
 </section>
 
+{% if products %}
+{% set member_count = (related_content | rejectattr('content_type', 'equalto', 'System') | list | length) %}
+<section id="unlock-this-system" class="content-section product-cards">
+
+## Unlock This System
+
+<p class="section-subtitle">Go deeper with the instructional that built this system.</p>
+
+<div class="product-cards-grid">
+{% for p in products %}
+<article class="product-card" data-product-id="{{ p.id | default('') }}">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+{% if p.image %}<div class="product-card__cover"><img src="{{ p.image }}" alt="{{ p.title }}" loading="lazy" width="640" height="360" /><span class="product-card__vendor-badge">{{ p.vendor | default('BJJFanatics') }}</span></div>{% endif %}
+<div class="product-card__body">
+<h3 class="product-card__title">{{ p.title }}</h3>
+{% if p.instructor %}<p class="product-card__instructor">with {{ p.instructor }}</p>{% endif %}
+<span class="product-card__unlocks-badge">Unlocks {{ member_count }} technique{{ 's' if member_count != 1 else '' }} in this system</span>
+{% if p.blurb %}<p class="product-card__blurb">{{ p.blurb }}</p>{% endif %}
+</div>
+<a class="product-card__cta affiliate-link" href="{{ p.affiliate_url | with_utm(name, p.id | default('')) }}" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="{{ p.id | default('') }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name }}" data-vendor="{{ (p.vendor | default('bjjfanatics')) | lower }}" data-position="{{ loop.index0 }}">{% if p.price_usd %}Get it &middot; ${{ p.price_usd }}{% else %}Get the instructional{% endif %} <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+{% endfor %}
+</div>
+
+</section>
+{% endif %}
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
+
+</section>
+
 <section id="key-principles" class="content-section">
 
 ## Core Principles

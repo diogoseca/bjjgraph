@@ -343,4 +343,6 @@ The Kimura grip applies significant rotational force to the shoulder joint. Duri
 
 </section>
 
+
+
 </main>

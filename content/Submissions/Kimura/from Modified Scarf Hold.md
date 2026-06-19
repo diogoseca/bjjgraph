@@ -297,4 +297,6 @@ The Kimura from Modified Scarf Hold appears frequently in both gi and no-gi comp
 
 </section>
 
+
+
 </main>

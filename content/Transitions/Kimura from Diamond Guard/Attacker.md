@@ -340,4 +340,6 @@ The Kimura targets the shoulder joint through rotational force on the glenohumer
 
 </section>
 
+
+
 </main>

@@ -336,4 +336,6 @@ Cervical spine loading during inversion requires proper shoulder roll technique 
 
 </section>
 
+
+
 </main>

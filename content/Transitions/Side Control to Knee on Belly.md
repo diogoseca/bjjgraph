@@ -256,4 +256,6 @@ This transition serves as the primary gateway between the consolidation phase of
 
 </section>
 
+
+
 </main>

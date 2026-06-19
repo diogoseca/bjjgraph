@@ -165,6 +165,24 @@ International Brazilian Jiu-Jitsu Federation competition operates under a points
 
 </section>
 
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
+
+</section>
+
 <section id="key-principles" class="content-section">
 
 ## Core Principles

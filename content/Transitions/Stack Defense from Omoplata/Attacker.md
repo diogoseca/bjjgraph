@@ -333,4 +333,6 @@ Stack defense from omoplata involves managing significant compressive forces on 
 
 </section>
 
+
+
 </main>

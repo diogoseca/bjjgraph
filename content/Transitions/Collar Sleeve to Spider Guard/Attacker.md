@@ -337,4 +337,6 @@ This transition involves rapid grip changes that stress the fingers and wrists. 
 
 </section>
 
+
+
 </main>

@@ -336,4 +336,6 @@ The Japanese Necktie is a blood choke targeting carotid arteries and should be p
 
 </section>
 
+
+
 </main>

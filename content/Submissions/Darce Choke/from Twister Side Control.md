@@ -295,4 +295,6 @@ In competition, this variant carries a higher finishing rate than standard Darce
 
 </section>
 
+
+
 </main>

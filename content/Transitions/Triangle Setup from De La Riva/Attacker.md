@@ -336,4 +336,6 @@ The triangle choke compresses carotid arteries and can cause unconsciousness wit
 
 </section>
 
+
+
 </main>

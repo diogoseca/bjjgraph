@@ -260,4 +260,6 @@ The Open Guard to De La Riva transition occupies a critical node within the BJJ 
 
 </section>
 
+
+
 </main>

@@ -262,4 +262,6 @@ The Leg Drag to Back Take is a cornerstone technique in modern guard passing sys
 
 </section>
 
+
+
 </main>

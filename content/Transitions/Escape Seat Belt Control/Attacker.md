@@ -344,4 +344,6 @@ Practice the grip-breaking sequence with progressive resistance to avoid cervica
 
 </section>
 
+
+
 </main>

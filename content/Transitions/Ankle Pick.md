@@ -270,4 +270,14 @@ In the broader BJJ system, the Ankle Pick functions as both a primary attack and
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">2-point opening takedown strategy with lower energy investment</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
+
 </main>

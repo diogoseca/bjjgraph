@@ -1,5 +1,17 @@
 {
   "name": "Danaher Leg Lock System",
+  "products": [
+    {
+      "id": "danaher-leglocks-enter-the-system",
+      "title": "Enter The System: Leglocks",
+      "instructor": "John Danaher",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/enter-the-system-leglocks-by-john-danaher?ref=REPLACE_ME",
+      "image": "https://placehold.co/640x360/1e293b/ffffff?text=Enter+The+System%3A+Leglocks",
+      "blurb": "The complete leg-lock system that defined modern no-gi — ashi garami entries, controls, and breaking mechanics, taught step by step.",
+      "price_usd": 77
+    }
+  ],
   "description": "Master the Danaher Leg Lock System. Systematic framework for ashi-garami positions, leg control, and lower body submissions with 70%+ finish rates.",
   "tags": [
     "bjj",

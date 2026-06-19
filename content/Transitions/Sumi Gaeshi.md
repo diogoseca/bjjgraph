@@ -271,4 +271,6 @@ Sumi Gaeshi occupies a unique position in BJJ's tactical hierarchy, serving as b
 
 </section>
 
+
+
 </main>

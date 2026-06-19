@@ -327,4 +327,6 @@ This transition involves grip reconfiguration rather than joint manipulation or 
 
 </section>
 
+
+
 </main>

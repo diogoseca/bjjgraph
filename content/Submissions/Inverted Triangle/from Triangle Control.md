@@ -295,4 +295,6 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 
 </section>
 
+
+
 </main>

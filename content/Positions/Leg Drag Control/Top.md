@@ -359,4 +359,14 @@ Partner randomly performs one of four defensive reactions (turn away, stay flat,
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Modern-No-Gi-Passing-System" data-cta="related-system-card" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Modern No-Gi Passing System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Advanced passing position accessed from headquarters control</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
+
 </main>

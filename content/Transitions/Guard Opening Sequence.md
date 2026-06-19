@@ -274,4 +274,6 @@ Guard Opening Sequence serves as the critical gateway from closed guard top to a
 
 </section>
 
+
+
 </main>

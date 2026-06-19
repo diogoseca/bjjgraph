@@ -332,4 +332,6 @@ Kosoto Gake is generally one of the safest takedowns to practice and execute. Th
 
 </section>
 
+
+
 </main>

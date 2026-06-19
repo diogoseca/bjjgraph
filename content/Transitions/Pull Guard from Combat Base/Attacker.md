@@ -336,4 +336,6 @@ Guard pull from combat base carries low injury risk compared to most BJJ transit
 
 </section>
 
+
+
 </main>

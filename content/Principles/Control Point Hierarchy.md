@@ -395,4 +395,16 @@ Compare maintenance of position with dispersed control (six different grip/conta
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Critical principle of prioritizing connection points throughout all system transitions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Preparation System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Position selection priorities integrated into game planning</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Passing-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-member-count="17"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gordon Ryan Passing System</span><span class="system-card__unlocks-badge">Unlocks 17 techniques</span><span class="system-card__blurb">Understanding which control points to prioritize during passing sequences</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
+
 </main>

@@ -313,4 +313,6 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 </section>
 
+
+
 </main>

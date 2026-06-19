@@ -342,4 +342,6 @@ Partner attacks with buggy choke using graduated resistance levels: 25%, 50%, 75
 
 </section>
 
+
+
 </main>

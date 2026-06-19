@@ -322,4 +322,6 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 </section>
 
+
+
 </main>

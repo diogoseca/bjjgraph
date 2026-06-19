@@ -341,4 +341,6 @@ The snap down involves significant forces on the cervical spine and neck muscula
 
 </section>
 
+
+
 </main>

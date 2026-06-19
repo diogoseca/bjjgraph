@@ -304,4 +304,6 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 </section>
 
+
+
 </main>

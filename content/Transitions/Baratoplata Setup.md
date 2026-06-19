@@ -252,4 +252,6 @@ The Baratoplata Setup represents the third layer of the Meathook attack system w
 
 </section>
 
+
+
 </main>

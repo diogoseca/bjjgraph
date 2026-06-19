@@ -260,4 +260,6 @@ The Half Guard to X-Guard transition occupies a critical junction in the bottom 
 
 </section>
 
+
+
 </main>

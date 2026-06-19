@@ -142,6 +142,21 @@ const categoryHubSet = new Set([
 // Cache per-page: slug → JSON string or null
 const _pageGraphPositionsCache: Record<string, string | null> = {}
 
+// Member node ids (e.g. "Positions/Ashi-Garami") a System teaches, from graph.json.
+// Drives the system-page graph so it highlights the part of the graph the system
+// covers instead of drawing the system as a single node.
+function getSystemMemberPaths(slug: FullSlug): string[] {
+  const graph = loadGraphData()
+  if (!graph?.systems) return []
+  const key = simplifySlug(slug)
+    .toLowerCase()
+    .replace(/^systems\//, "")
+    .replace(/\/$/, "")
+  const sys = (graph.systems as Record<string, any>)[key]
+  if (!sys || !Array.isArray(sys.members)) return []
+  return sys.members.map((m: any) => m.path).filter(Boolean)
+}
+
 function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): string | null {
   const simpleSlug = simplifySlug(slug).replace(/\/$/, "")
   if (simpleSlug in _pageGraphPositionsCache) {
@@ -154,11 +169,28 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
   const slugLower = simpleSlug.toLowerCase()
   const isHomepage = simpleSlug === "index"
   const isCategoryHub = categoryHubSet.has(slugLower)
+  // System pages render their member constellation, not a single system node.
+  // NOTE: kept in sync with the system-page branch in graph.inline.ts (renderGraph).
+  const isSystemPage = slugLower.startsWith("systems/")
 
   // Build neighbourhood (mirrors client-side logic in graph.inline.ts)
   const neighbourhood = new Set<string>()
 
-  if (isHomepage) {
+  if (isSystemPage) {
+    for (const p of getSystemMemberPaths(slug)) {
+      if (allSlugs.has(p)) {
+        neighbourhood.add(p)
+      } else {
+        const lower = p.toLowerCase()
+        for (const ns of allSlugs) {
+          if (ns.toLowerCase() === lower) {
+            neighbourhood.add(ns)
+            break
+          }
+        }
+      }
+    }
+  } else if (isHomepage) {
     for (const hub of categoryHubSet) {
       for (const nodeSlug of allSlugs) {
         if (nodeSlug.toLowerCase() === hub) {
@@ -512,11 +544,27 @@ function getPageGraphData(slug: FullSlug): string | null {
     }
 
     return JSON.stringify(result)
-  } else if (entry.section === "principles" || entry.section === "systems") {
+  } else if (entry.section === "principles") {
     return JSON.stringify({
-      type: entry.section === "principles" ? "principle" : "system",
+      type: "principle",
       name: data.name,
       flashcards: data.flashcards || [],
+    })
+  } else if (entry.section === "systems") {
+    // Systems carry their resolved graph membership so the page can render the
+    // "unlock this part of the graph" progress + mark-known checklist.
+    return JSON.stringify({
+      type: "system",
+      name: data.name,
+      flashcards: data.flashcards || [],
+      members: (data.members || []).map((m: any) => ({
+        slug: m.slug,
+        path: m.path,
+        type: m.type,
+        name: m.name,
+        relationship: m.relationship,
+      })),
+      productCount: (data.products || []).length,
     })
   }
 

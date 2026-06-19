@@ -341,4 +341,6 @@ The triangle from Diamond Guard involves neck compression through the choking le
 
 </section>
 
+
+
 </main>

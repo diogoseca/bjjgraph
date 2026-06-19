@@ -333,4 +333,6 @@ The inversion places significant load on the cervical spine and neck during the 
 
 </section>
 
+
+
 </main>

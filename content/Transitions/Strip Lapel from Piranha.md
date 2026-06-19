@@ -252,4 +252,6 @@ Strip Lapel from Piranha occupies a critical junction in the guard passing hiera
 
 </section>
 
+
+
 </main>

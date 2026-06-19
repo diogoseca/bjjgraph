@@ -264,4 +264,6 @@ The Transition to Quarter Guard occupies a pivotal position in the guard passing
 
 </section>
 
+
+
 </main>

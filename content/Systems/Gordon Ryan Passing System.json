@@ -1,5 +1,17 @@
 {
   "name": "Gordon Ryan Passing System",
+  "products": [
+    {
+      "id": "gordon-ryan-systematically-attacking-the-guard",
+      "title": "Systematically Attacking The Guard",
+      "instructor": "Gordon Ryan",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?ref=REPLACE_ME",
+      "image": "https://placehold.co/640x360/1e293b/ffffff?text=Systematically+Attacking+The+Guard",
+      "blurb": "Gordon Ryan's complete pressure-passing blueprint — body lock passing, leg drags, and the connection-breaking concepts behind them.",
+      "price_usd": 97
+    }
+  ],
   "description": "Master Gordon Ryan's pressure passing system for no-gi BJJ. Complete framework covering body lock passing, leg drags, and systematic guard neutralization.",
   "tags": [
     "bjj",

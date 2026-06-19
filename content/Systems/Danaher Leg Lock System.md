@@ -181,6 +181,50 @@ The system's effectiveness stems from its emphasis on mechanical hierarchy over 
 
 </section>
 
+
+
+<section id="unlock-this-system" class="content-section product-cards">
+
+## Unlock This System
+
+<p class="section-subtitle">Go deeper with the instructional that built this system.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="danaher-leglocks-enter-the-system">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+<div class="product-card__cover"><img src="https://placehold.co/640x360/1e293b/ffffff?text=Enter+The+System%3A+Leglocks" alt="Enter The System: Leglocks" loading="lazy" width="640" height="360" /><span class="product-card__vendor-badge">BJJFanatics</span></div>
+<div class="product-card__body">
+<h3 class="product-card__title">Enter The System: Leglocks</h3>
+<p class="product-card__instructor">with John Danaher</p>
+<span class="product-card__unlocks-badge">Unlocks 30 techniques in this system</span>
+<p class="product-card__blurb">The complete leg-lock system that defined modern no-gi — ashi garami entries, controls, and breaking mechanics, taught step by step.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/enter-the-system-leglocks-by-john-danaher?ref=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=danaher-leg-lock-system&utm_term=danaher-leglocks-enter-the-system" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="danaher-leglocks-enter-the-system" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-vendor="bjjfanatics" data-position="0">Get it &middot; $77 <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
+
+</section>
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
+
+</section>
+
 <section id="key-principles" class="content-section">
 
 ## Core Principles

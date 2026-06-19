@@ -323,4 +323,6 @@ What makes the Omoplata so valuable for the developing player is its connectivit
 
 </section>
 
+
+
 </main>

@@ -267,4 +267,6 @@ Osoto Gari occupies a critical position in the BJJ takedown hierarchy as a funda
 
 </section>
 
+
+
 </main>

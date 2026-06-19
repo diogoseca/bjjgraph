@@ -269,4 +269,6 @@ Jumping Guard serves as a dynamic entry point to the closed guard system within 
 
 </section>
 
+
+
 </main>

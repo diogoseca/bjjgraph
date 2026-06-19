@@ -266,4 +266,6 @@ The Spider Guard to Omoplata serves as a cornerstone attack in modern gi guard s
 
 </section>
 
+
+
 </main>

@@ -355,6 +355,57 @@
           }
         }
       }
+    },
+    "products": {
+      "type": "array",
+      "description": "Curated BJJFanatics affiliate products mapped to this system. NEVER authored or modified by AI — managed by hand. Each entry maps the system to one instructional.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "affiliate_url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable kebab-case identifier, unique across all products"
+          },
+          "title": {
+            "type": "string"
+          },
+          "instructor": {
+            "type": "string"
+          },
+          "vendor": {
+            "type": "string",
+            "description": "Affiliate vendor, e.g. BJJFanatics"
+          },
+          "affiliate_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Curated affiliate URL including any vendor ref param. UTM is appended at build time."
+          },
+          "image": {
+            "type": "string",
+            "description": "Cover image URL"
+          },
+          "blurb": {
+            "type": "string",
+            "description": "Short 'what it unlocks' marketing line"
+          },
+          "price_usd": {
+            "type": "number"
+          },
+          "covers": {
+            "type": "array",
+            "description": "Optional member-node display names this product specifically teaches",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   }
 }

@@ -260,4 +260,6 @@ The Lapel to De La Riva transition functions as a critical bridge between two po
 
 </section>
 
+
+
 </main>

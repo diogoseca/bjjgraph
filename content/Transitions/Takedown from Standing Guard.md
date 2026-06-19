@@ -263,4 +263,6 @@ The Takedown from Standing Guard integrates into the broader BJJ positional hier
 
 </section>
 
+
+
 </main>

@@ -322,4 +322,6 @@ The technical execution of the triangle from closed guard requires precise angle
 
 </section>
 
+
+
 </main>

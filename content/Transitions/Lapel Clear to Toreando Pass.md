@@ -258,4 +258,6 @@ The Lapel Clear to Toreando Pass occupies a crucial position in modern gi guard 
 
 </section>
 
+
+
 </main>

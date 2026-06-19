@@ -296,4 +296,6 @@ The choke operates on blood restriction principles, compressing the carotid arte
 
 </section>
 
+
+
 </main>

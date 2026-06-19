@@ -298,4 +298,6 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 
 </section>
 
+
+
 </main>

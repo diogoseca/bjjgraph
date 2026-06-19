@@ -161,6 +161,50 @@ What distinguishes this system is its adaptability to different guard types whil
 
 </section>
 
+
+
+<section id="unlock-this-system" class="content-section product-cards">
+
+## Unlock This System
+
+<p class="section-subtitle">Go deeper with the instructional that built this system.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="gordon-ryan-systematically-attacking-the-guard">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+<div class="product-card__cover"><img src="https://placehold.co/640x360/1e293b/ffffff?text=Systematically+Attacking+The+Guard" alt="Systematically Attacking The Guard" loading="lazy" width="640" height="360" /><span class="product-card__vendor-badge">BJJFanatics</span></div>
+<div class="product-card__body">
+<h3 class="product-card__title">Systematically Attacking The Guard</h3>
+<p class="product-card__instructor">with Gordon Ryan</p>
+<span class="product-card__unlocks-badge">Unlocks 17 techniques in this system</span>
+<p class="product-card__blurb">Gordon Ryan's complete pressure-passing blueprint — body lock passing, leg drags, and the connection-breaking concepts behind them.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?ref=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gordon-ryan-passing-system&utm_term=gordon-ryan-systematically-attacking-the-guard" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-position="0">Get it &middot; $97 <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
+
+</section>
+
+
+<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+
+## Unlock this part of the graph
+
+<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+
+<div class="system-progress" data-system-progress>
+<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
+<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
+<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
+</div>
+
+<ul class="system-members" data-system-members></ul>
+
+</section>
+
 <section id="key-principles" class="content-section">
 
 ## Core Principles

@@ -270,4 +270,6 @@ This position appears most commonly in no-gi competition, submission-only format
 
 </section>
 
+
+
 </main>

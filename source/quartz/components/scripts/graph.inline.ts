@@ -79,6 +79,27 @@ function getSRSNodeIds(): Set<string> {
   }
 }
 
+// Load deliberately-marked-known node ids (bjj-known) for graph highlighting.
+// Mirrors getSRSNodeIds normalization so the two sets union cleanly. Parsed inline
+// (no import) to keep the graph bundle small, matching the SRS reader above.
+function getKnownNodeIds(): Set<string> {
+  try {
+    const entries = JSON.parse(localStorage.getItem("bjj-known") || "[]")
+    const ids = new Set<string>()
+    for (const e of entries) {
+      if (!e || !e.slug) continue
+      let s = String(e.slug).replace(/\/$/, "")
+      s = s.replace(/\/(Attacker|Defender)$/i, "")
+      s = s.replace(/^\//, "").toLowerCase()
+      s = s.replace(/\s+/g, "-")
+      ids.add(s)
+    }
+    return ids
+  } catch {
+    return new Set()
+  }
+}
+
 function addToVisited(slug: SimpleSlug) {
   const visited = getVisited()
   visited.add(slug)
@@ -124,6 +145,9 @@ function getHubSlug(nodeId: SimpleSlug): SimpleSlug {
 
 async function renderGraph(container: string, fullSlug: FullSlug) {
   const slug = simplifySlug(fullSlug)
+  // System pages render the member constellation (incl. principles) and ring each
+  // member. NOTE: kept in sync with the isSystemPage branch in renderPage.tsx.
+  const isSystemPage = slug.toLowerCase().startsWith("systems/")
   const graph = document.getElementById(container)
   if (!graph) return
   removeAllChildren(graph)
@@ -236,7 +260,14 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   const isHomepage = slugClean === "index"
   const isCategoryHub = categoryHubs.has(slugLower as SimpleSlug)
 
-  if (isHomepage) {
+  if (isSystemPage && !isGlobalGraph && precomputedGraph) {
+    // System page (local graph): the precomputed payload IS the member constellation
+    // (built by computePageGraphLayout's isSystemPage branch). Show exactly those nodes
+    // instead of BFS-ing from the system slug, which isn't part of the member links.
+    for (const nodeSlug of data.keys()) {
+      neighbourhood.add(nodeSlug)
+    }
+  } else if (isHomepage) {
     // Homepage: Show only the graph category nodes
     graphCategories.forEach((hub) => {
       // Find the actual slug (any case) that matches this hub
@@ -332,10 +363,12 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   const nodes = [...neighbourhood]
     .filter((url) => {
       const lowerUrl = url.toLowerCase()
-      // Only allow graph category hubs and their children
+      // Only allow graph category hubs and their children. On a system page also let
+      // principle members through so the system's full constellation renders.
       const isGraphNode =
         graphCategories.has(lowerUrl as SimpleSlug) ||
         graphPrefixes.some((p) => lowerUrl.startsWith(p)) ||
+        (isSystemPage && lowerUrl.startsWith("principles/")) ||
         lowerUrl.startsWith("tags/")
       // Filter out role pages (playing_as model) - show only hub pages
       return (
@@ -468,8 +501,9 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     {} as Record<(typeof cssVars)[number], string>,
   )
 
-  // Load known SRS technique nodes for highlighting
+  // Load known technique nodes for highlighting: SRS-mastered ∪ honor-system marked.
   const srsNodeIds = getSRSNodeIds()
+  for (const id of getKnownNodeIds()) srsNodeIds.add(id)
 
   // helper function to detect content type from node slug
   function getContentTypeColor(nodeId: SimpleSlug): string {
@@ -701,6 +735,18 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     const isKnownTechnique = srsNodeIds.has(nodeId.toLowerCase())
     const nodeColor = color(n)
     const radius = nodeRadius(n)
+    // On a system page every rendered node is a member the system teaches: ring it in
+    // the system colour, and ring known members in bright white ("unlocked").
+    const isSystemMember = isSystemPage && !isTagNode
+    let strokeWidth = isTagNode ? 2 : 0
+    let strokeColor = nodeColor
+    if (isKnownTechnique) {
+      strokeWidth = 3
+      strokeColor = "#ffffff"
+    } else if (isSystemMember) {
+      strokeWidth = 2
+      strokeColor = computedStyleMap["--graphSystem"]
+    }
     const gfx = new Graphics({
       interactive: true,
       label: nodeId,
@@ -711,8 +757,8 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       .circle(0, 0, radius)
       .fill({ color: isTagNode ? computedStyleMap["--light"] : nodeColor })
       .stroke({
-        width: isKnownTechnique ? 3 : isTagNode ? 2 : 0,
-        color: isKnownTechnique ? "#ffffff" : nodeColor,
+        width: strokeWidth,
+        color: strokeColor,
       })
 
     gfx

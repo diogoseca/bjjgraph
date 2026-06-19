@@ -455,6 +455,14 @@ def build_response_schema(category: str, template_type: str = None) -> dict:
             category_schema.pop(key, None)
         # Resolve $ref for Position DUAL/FAMILY/SINGLE
         category_schema = resolve_schema_refs(category_schema)
+        # `products` is curated affiliate data — never authored by AI. Strip it from the
+        # Systems response contract so the model literally cannot return or invent it.
+        if category == "Systems" and isinstance(category_schema.get("properties"), dict):
+            category_schema["properties"].pop("products", None)
+            if isinstance(category_schema.get("required"), list):
+                category_schema["required"] = [
+                    r for r in category_schema["required"] if r != "products"
+                ]
     except Exception:
         category_schema = {"type": "object", "required": ["name"],
                           "properties": {"name": {"type": "string"}}}
@@ -1027,6 +1035,7 @@ SYSTEMS_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor 
 - key_components[] should reference real techniques and positions
 - implementation_sequence should be logical and progressive
 - related_content[] should have 10-30 items for comprehensive SEO
+- DO NOT add, remove, or modify the `products` field — it is curated affiliate data managed by hand and must be omitted from your output entirely (it is re-merged automatically)
 
 ### 3. Review Content Quality
 - overview must be 400+ characters with substantive BJJ analysis
@@ -1490,6 +1499,14 @@ def check_structural_preservation(original: dict, fixed: dict, category: str) ->
         dropped = {t for t in (orig_to - {o.get("to") for o in fixed.get("outcomes", []) if isinstance(o, dict)}) if t}
         if dropped:
             errors.append("PRESERVATION: dropped outcome targets [" + ", ".join(sorted(map(str, dropped))) + "]; keep the original graph edges.")
+    elif category == "Systems":
+        # `products` is curated affiliate data the AI must never alter. The save path
+        # re-merges it from the original before this runs, so this is a sanity backstop.
+        if original.get("products") != fixed.get("products"):
+            errors.append(
+                "PRESERVATION: 'products' is curated affiliate data and must not change; "
+                "omit it from your output (it is re-merged automatically)."
+            )
     return errors
 
 
@@ -1680,6 +1697,16 @@ def process_file(file_path: Path, refs: Dict[str, List[str]], dry_run: bool = Fa
         elif fixed_content["name"] != expected_name:
             tprint(f"{tag}Correcting name '{fixed_content['name']}' -> '{expected_name}'")
             fixed_content["name"] = expected_name
+
+        # Curation-safety: `products` is hand-curated affiliate data excluded from the AI
+        # response contract. Restore it verbatim from the original so enrichment can never
+        # drop or invent affiliate links.
+        if category == "Systems":
+            orig_products = original_data.get("products") if isinstance(original_data, dict) else None
+            if orig_products is not None:
+                fixed_content["products"] = orig_products
+            else:
+                fixed_content.pop("products", None)
 
         # Curation-safety (2D): auto-normalize probabilities to sum exactly 100 instead
         # of failing/retrying on a near-miss. Preserves Claude's relative weighting and

@@ -343,4 +343,6 @@ Guillotine chokes compress the trachea and carotid arteries, posing risk of unco
 
 </section>
 
+
+
 </main>

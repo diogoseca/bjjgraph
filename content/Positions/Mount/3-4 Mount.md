@@ -298,4 +298,6 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 
 </section>
 
+
+
 </main>

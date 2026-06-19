@@ -382,4 +382,15 @@ Advanced practitioners flow with beginners at appropriate intensity, providing r
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
+
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Teaching Methodology Framework</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Training methodology for developing technical fluency through controlled, continuous practice at reduced intensity</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mental-Game-Framework" data-cta="related-system-card" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-member-count="15"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Mental Game Framework</span><span class="system-card__unlocks-badge">Unlocks 15 techniques</span><span class="system-card__blurb">Training method developing instinctive responses and reducing overthinking</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
+
 </main>

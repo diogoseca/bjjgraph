@@ -292,4 +292,6 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 
 </section>
 
+
+
 </main>

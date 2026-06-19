@@ -301,4 +301,6 @@ The finishing sequence follows standard omoplata mechanics once the leg clears t
 
 </section>
 
+
+
 </main>

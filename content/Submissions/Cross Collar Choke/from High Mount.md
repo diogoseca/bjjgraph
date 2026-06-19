@@ -297,4 +297,6 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 
 </section>
 
+
+
 </main>

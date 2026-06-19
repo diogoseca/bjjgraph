@@ -321,4 +321,6 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 </section>
 
+
+
 </main>

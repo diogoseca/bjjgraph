@@ -725,8 +725,105 @@ def process_principles(content_dir: Path) -> dict:
     return _process_flat_content(content_dir, 'Principles')
 
 
-def process_systems(content_dir: Path) -> dict:
-    return _process_flat_content(content_dir, 'Systems')
+# System members that referenced a node name we couldn't resolve to a real page.
+# Collected during process_systems and reported once at the end (non-fatal).
+_SYSTEM_UNRESOLVED: list = []
+
+
+def _node_id_for_path(plural: str, rel_path: Path) -> str:
+    """Quartz node id for a content file: 'Plural/Hyphenated-Segments' (case-preserving,
+    spaces->hyphens per segment), matching the slugs the graph renderer uses."""
+    return plural + '/' + '/'.join(quartz_slug(seg) for seg in rel_path.with_suffix('').parts)
+
+
+def build_node_index(content_dir: Path) -> dict:
+    """Map a content node's name (and aliases) to its graph identity.
+
+    Returns {(type, name_lower): entry, ('', name_lower): entry} where entry is
+    {'path': '<NodeId>', 'slug': '<nodeid lowercased>', 'type': 'position'|...}.
+    Node ids are derived from the FILE PATH (the authoritative Quartz slug source),
+    so nested variants like Submissions/Calf-Slicer/from-Carni resolve correctly.
+    """
+    cat_map = {
+        'Positions': 'position',
+        'Transitions': 'transition',
+        'Submissions': 'submission',
+        'Principles': 'principle',
+    }
+    index: dict = {}
+    for plural, typ in cat_map.items():
+        d = content_dir / plural
+        if not d.exists():
+            continue
+        for jf in d.rglob('*.json'):
+            try:
+                data = json.loads(jf.read_text(encoding='utf-8'))
+            except Exception:
+                continue
+            name = data.get('name')
+            if not name:
+                continue
+            node_path = _node_id_for_path(plural, jf.relative_to(d))
+            entry = {'path': node_path, 'slug': node_path.lower(), 'type': typ}
+            names = [name] + [a for a in (data.get('aliases') or []) if isinstance(a, str)]
+            for nm in names:
+                key = str(nm).strip().lower()
+                index.setdefault((typ, key), entry)
+                index.setdefault(('', key), entry)
+    return index
+
+
+def process_systems(content_dir: Path, node_index: dict | None = None) -> dict:
+    """Systems carry base flat-content fields plus resolved graph membership.
+
+    `members[]` is derived from related_content (the canonical edge list): each
+    Position/Transition/Submission/Principle reference is resolved to its node id so
+    a System page can highlight exactly the part of the graph it teaches. `products[]`
+    is curated affiliate data passed through verbatim.
+    """
+    systems = _process_flat_content(content_dir, 'Systems')
+    if node_index is None:
+        node_index = build_node_index(content_dir)
+
+    files = load_json_files(content_dir / 'Systems')
+    by_name = {str(d.get('name', '')).strip().lower(): d for d in files if d.get('name')}
+
+    for slug, entry in systems.items():
+        data = by_name.get(str(entry.get('name', '')).strip().lower())
+        if not data:
+            continue
+        members = []
+        seen = set()
+        for item in data.get('related_content', []) or []:
+            if not isinstance(item, dict):
+                continue
+            ct = (item.get('content_type') or '').strip()
+            if ct == 'System':
+                continue  # a System isn't a highlightable graph node
+            nm = (item.get('name') or '').strip()
+            if not nm:
+                continue
+            typ = ct.lower()
+            node = node_index.get((typ, nm.lower())) or node_index.get(('', nm.lower()))
+            if not node:
+                _SYSTEM_UNRESOLVED.append((entry.get('name', slug), nm, ct))
+                continue
+            if node['path'] in seen:
+                continue
+            seen.add(node['path'])
+            members.append({
+                'slug': node['slug'],
+                'path': node['path'],
+                'type': node['type'],
+                'name': nm,
+                'relationship': item.get('relationship', ''),
+            })
+        entry['members'] = members
+        products = data.get('products')
+        if isinstance(products, list) and products:
+            entry['products'] = products
+
+    return systems
 
 
 # ---------------------------------------------------------------------------
@@ -854,7 +951,17 @@ def generate_state_graph(project_root: Path) -> dict:
     print(f"  Processed {len(principles)} principles")
 
     systems = process_systems(content_dir)
-    print(f"  Processed {len(systems)} systems")
+    member_total = sum(len(s.get('members', [])) for s in systems.values())
+    product_total = sum(len(s.get('products', [])) for s in systems.values())
+    print(f"  Processed {len(systems)} systems ({member_total} resolved members, "
+          f"{product_total} affiliate products)")
+    if _SYSTEM_UNRESOLVED:
+        print(f"  WARNING: {len(_SYSTEM_UNRESOLVED)} system member reference(s) did not "
+              f"resolve to a page (skipped):")
+        for sys_name, ref_name, ref_type in _SYSTEM_UNRESOLVED[:25]:
+            print(f"    - {sys_name}: [{ref_type}] {ref_name}")
+        if len(_SYSTEM_UNRESOLVED) > 25:
+            print(f"    ... and {len(_SYSTEM_UNRESOLVED) - 25} more")
 
     # Override success rates with community votes
     if vote_rates:
@@ -1036,6 +1143,7 @@ def generate_state_graph(project_root: Path) -> dict:
             'submissionCount': len(submissions),
             'principleCount': len(principles),
             'systemCount': len(systems),
+            'unresolvedSystemMemberCount': len(_SYSTEM_UNRESOLVED),
         },
     }
 

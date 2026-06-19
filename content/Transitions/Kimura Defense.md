@@ -259,4 +259,6 @@ Kimura defense represents a universal defensive skill that applies across virtua
 
 </section>
 
+
+
 </main>

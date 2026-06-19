@@ -259,4 +259,6 @@ The frame to guard escape integrates into the complete Kesa Gatame bottom escape
 
 </section>
 
+
+
 </main>

@@ -1,5 +1,17 @@
 {
   "name": "Marcelo Garcia X-Guard System",
+  "products": [
+    {
+      "id": "marcelo-garcia-x-guard-formula",
+      "title": "The X-Guard Formula",
+      "instructor": "Marcelo Garcia",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-x-guard-formula-by-marcelo-garcia?ref=REPLACE_ME",
+      "image": "https://placehold.co/640x360/1e293b/ffffff?text=The+X-Guard+Formula",
+      "blurb": "The X-Guard from its creator — entries, sweeps, and back takes that work against bigger, stronger opponents.",
+      "price_usd": 87
+    }
+  ],
   "description": "Master Marcelo Garcia's X-Guard System. Complete framework from entries to sweeps, back takes, and submission chains. Competition-proven systematic approach to X-Guard mastery.",
   "tags": [
     "bjj",

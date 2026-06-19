@@ -264,4 +264,6 @@ Pass Feet on Hips Guard sits at the foundation of the open guard passing system,
 
 </section>
 
+
+
 </main>

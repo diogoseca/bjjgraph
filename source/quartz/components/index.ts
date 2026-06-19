@@ -37,6 +37,8 @@ import DecksModal from "./DecksModal"
 import SettingsModal from "./SettingsModal"
 import SessionChevrons from "./SessionChevrons"
 import RollSessionButton from "./RollSessionButton"
+import SystemProgress from "./SystemProgress"
+import AffiliateTracking from "./AffiliateTracking"
 
 export {
   ArticleTitle,
@@ -78,4 +80,6 @@ export {
   SettingsModal,
   SessionChevrons,
   RollSessionButton,
+  SystemProgress,
+  AffiliateTracking,
 }

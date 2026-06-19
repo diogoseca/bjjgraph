@@ -377,4 +377,6 @@ Start from flattened half guard or nearly-passed position. Bottom player must re
 
 </section>
 
+
+
 </main>

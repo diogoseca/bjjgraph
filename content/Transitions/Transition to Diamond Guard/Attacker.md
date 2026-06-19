@@ -333,4 +333,6 @@ The Transition to Diamond Guard is a relatively low-risk grip transition that do
 
 </section>
 
+
+
 </main>

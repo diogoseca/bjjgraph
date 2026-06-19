@@ -254,4 +254,6 @@ The stack defense from omoplata occupies a critical position within the omoplata
 
 </section>
 
+
+
 </main>

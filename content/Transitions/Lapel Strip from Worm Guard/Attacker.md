@@ -327,4 +327,6 @@ The Lapel Strip from Worm Guard is a grip fighting technique with minimal injury
 
 </section>
 
+
+
 </main>
