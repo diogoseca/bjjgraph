@@ -214,19 +214,13 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (29% of attempts)
+- **[[Guillotine Choke from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (42% of attempts)
 
-- **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** (9% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (17% of attempts)
 
-- **[[Transitions/Hindulotine to Anaconda Choke/Attacker|Hindulotine to Anaconda Choke]]** (7% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (12% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (12% of attempts)
-
-- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (9% of attempts)
-
-- **[[Transitions/Arm Triangle from Top/Attacker|Arm Triangle from Top]]** (8% of attempts)
-
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (12% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (15% of attempts)
 
 - **[[Hindulotine from Hindulotine/Attacker|Hindulotine from Hindulotine]]** (4% of attempts)
 

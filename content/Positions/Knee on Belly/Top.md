@@ -20,38 +20,38 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 31% of exchanges from this position.",
+      "name": "Execute KOB to Mount",
+      "text": "From this position, attempt KOB to Mount. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Far Side Armbar from KOB",
-      "text": "From this position, attempt Far Side Armbar from KOB. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Far Side Armbar from KOB. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Baseball Bat Choke from Knee on Belly",
-      "text": "From this position, attempt Baseball Bat Choke from Knee on Belly. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Baseball Bat Choke from Knee on Belly. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Cross Collar Choke from Knee on Belly",
+      "text": "From this position, attempt Cross Collar Choke from Knee on Belly. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Cross Collar Choke from Knee on Belly",
-      "text": "From this position, attempt Cross Collar Choke from Knee on Belly. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute KOB to Side Control",
+      "text": "From this position, attempt KOB to Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Knee on Belly",
-      "text": "From this position, attempt Kimura from Knee on Belly. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Knee on Belly. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -220,7 +220,7 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 **If opponent remains flat and defensive without creating frames:**
 - Execute **[[Submissions/Baseball Bat Choke/Attacker|Baseball Bat Choke]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** → [[Positions/Mount]] (Probability: 65%)
 
 
 **If opponent pushes against knee or creates frames with arms:**
@@ -230,7 +230,7 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 **If opponent turns to side attempting to escape:**
 - Execute **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
+- Execute **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 70%)
 
 
 **If opponent successfully creates space by shrimping away:**

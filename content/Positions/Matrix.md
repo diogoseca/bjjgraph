@@ -149,9 +149,7 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (7% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (7% of attempts)
-
-- **[[Transitions/Chair Sit to Back/Attacker|Chair Sit to Back]]** (5% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (10% of attempts)
 
 - **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (13% of attempts)
 
@@ -159,7 +157,7 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (1% of attempts)
 
-- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (7% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (9% of attempts)
 
 - **[[Transitions/Counter Roll from Matrix/Attacker|Counter Roll from Matrix]]** (1% of attempts)
 

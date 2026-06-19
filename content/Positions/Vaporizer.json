@@ -299,7 +299,7 @@
     "transitions": [
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 27
+        "attempt_probability": 33
       },
       {
         "transition": "Knee Slice Pass",
@@ -314,12 +314,8 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Lockdown Escape to Half Guard Pass",
-        "attempt_probability": 12
-      },
-      {
         "transition": "Whizzer",
-        "attempt_probability": 12
+        "attempt_probability": 18
       },
       {
         "transition": "Defend Vaporizer Sweep",

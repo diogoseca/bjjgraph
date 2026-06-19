@@ -61,7 +61,7 @@ description: "Master the Knee Tap takedown in BJJ. Wrestling-based technique fro
 
 Rooted in folkstyle wrestling, the Knee Tap has become a staple low-risk entry for BJJ practitioners who need a reliable way to convert standing exchanges into top position. By attacking the knee while controlling the upper body, you create a mechanical advantage that collapses their base. This technique is particularly effective against opponents who overcommit their weight forward or stand square in their stance. The Knee Tap works across all skill levels and translates seamlessly between gi and no-gi environments. It requires minimal setup compared to more complex takedowns, making it an essential tool for pulling guard practitioners who need reliable standing entries. The technique's beauty lies in its simplicity - by simultaneously pulling the upper body while sweeping the lower support, you create an unstoppable collapse that transitions directly into dominant top positions.
 
-**From Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 58%
 
 </section>

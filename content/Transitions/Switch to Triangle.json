@@ -14,7 +14,7 @@
   "from_position": "Closed Guard/Bottom",
   "outcomes": [
     {
-      "to": "Triangle Control/Top",
+      "to": "Triangle Control/Bottom",
       "probability": 55,
       "result": "success"
     },

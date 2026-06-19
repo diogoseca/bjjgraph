@@ -14,12 +14,12 @@
   "from_position": "North-South/Bottom",
   "outcomes": [
     {
-      "to": "Half Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 40,
       "result": "success"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 25,
       "result": "success"
     },

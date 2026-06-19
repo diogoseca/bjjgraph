@@ -145,17 +145,15 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (27% of attempts)
+- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (35% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (15% of attempts)
+- **[[Transitions/Switch to Triangle/Attacker|Switch to Triangle]]** (22% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (14% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (18% of attempts)
 
-- **[[Transitions/Mission Control Recovery/Attacker|Mission Control Recovery]]** (24% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (17% of attempts)
 
-- **[[Transitions/Switch to Triangle/Attacker|Switch to Triangle]]** (18% of attempts)
-
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (2% of attempts)
+- **[[Transitions/Mission Control Recovery/Attacker|Mission Control Recovery]]** (8% of attempts)
 
 
 ### Common Mistakes

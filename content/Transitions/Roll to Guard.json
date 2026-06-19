@@ -14,12 +14,12 @@
   "from_position": "Harness/Bottom",
   "outcomes": [
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 15,
       "result": "success"
     },
@@ -167,7 +167,7 @@
         "counter": "Opponent crosses feet during roll attempting ankle lock",
         "effectiveness": "Low",
         "your_response": "Continue rolling and attack the crossed feet with straight ankle lock or toe hold. Their positional sacrifice for the submission attempt gives you offensive opportunity.",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Closed Guard/Bottom"
       }
     ],
     "common_errors": [

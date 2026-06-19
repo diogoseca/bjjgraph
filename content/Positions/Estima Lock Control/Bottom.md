@@ -27,31 +27,31 @@ description: "Master the Estima Lock Bottom Position in BJJ. Defensive leg entan
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction",
-      "text": "From this position, attempt Leg Extraction. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction. This technique is attempted in 41% of exchanges from this position.",
       "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Counter Sweep",
-      "text": "From this position, attempt Counter Sweep. This technique is attempted in 3% of exchanges from this position.",
-      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Angle Change Escape",
       "text": "From this position, attempt Angle Change Escape. This technique is attempted in 13% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Escape",
       "text": "From this position, attempt Standing Escape. This technique is attempted in 13% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry",
       "text": "From this position, attempt 50-50 Entry. This technique is attempted in 8% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Estima Lock Counter Roll",
+      "text": "From this position, attempt Estima Lock Counter Roll. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -222,12 +222,12 @@ From bottom, the primary concern is preventing the completion of the submission 
 
 
 **If opponent has deep grip with full inversion and hip pressure established:**
-- Execute **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** → [[Transitions/Estima Lock]] (Probability: 35%)
+- Execute **[[Transitions/Estima Lock Counter Roll/Attacker|Estima Lock Counter Roll]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 35%)
 - Execute **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** → [[Positions/Half Guard]] (Probability: 65%)
 
 
 **If free leg can establish hooks or frames on opponent's body:**
-- Execute **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** → [[Transitions/Estima Lock]] (Probability: 45%)
+- Execute **[[Transitions/Estima Lock Counter Roll/Attacker|Estima Lock Counter Roll]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 45%)
 - Execute **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
@@ -338,7 +338,7 @@ Bottom player in Estima Lock position focuses exclusively on using free leg for 
 - **[[Positions/Ashi Garami]]** - Similar defensive leg entanglement requiring comparable escape mechanics
 - **[[Transitions/Ashi Garami Escape]]** - Primary escape transition technique from leg entanglements
 - **[[Transitions/Leg Extraction]]** - Core escape technique for freeing trapped foot from inverted lock
-- **[[Transitions/Counter Sweep]]** - Offensive counter option when opponent over-commits to finishing
+- **[[Transitions/Estima Lock Counter Roll]]** - Offensive counter option when opponent over-commits to finishing
 - **[[Positions/Half Guard]]** - Target position for successful escapes from leg entanglements
 - **[[Positions/Leg Entanglement]]** - Broader category encompassing this specific entanglement variant
 - **[[Positions/Open Guard]]** - Recovery position after successful leg extraction

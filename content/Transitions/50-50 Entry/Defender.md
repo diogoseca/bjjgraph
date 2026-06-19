@@ -237,7 +237,7 @@ If prevention fails and the entanglement begins forming, your defensive prioriti
 
 ### → [[Positions/Inverted Guard]]
 
-Deny the leg thread through early backstep, leg straightening, or grip stripping before the entanglement forms. Maintain your standing base while opponent remains inverted, then immediately apply passing pressure while they are in a compromised upside-down position.
+Deny the leg thread through early backstep, leg straightening, or grip stripping before the entanglement forms. Maintain your standing base while opponent remains inverted on the bottom, then immediately apply passing pressure while they are in a compromised upside-down position.
 
 ### → [[Positions/Side Control]]
 

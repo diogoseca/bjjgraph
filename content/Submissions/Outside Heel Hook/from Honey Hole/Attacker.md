@@ -53,7 +53,7 @@ description: "Master outside heel hook attacking technique from Honey Hole. Grip
     {
       "@type": "HowToStep",
       "name": "Apply Progressive Rotational Finish",
-      "text": "Drive the heel toward the opponent's centerline by rotating your entire torso with elbows pinched to your chest. Simultaneously extend your hips into their trapped leg to prevent space creation. Apply rotation progressively over at least 5-7 seconds in training, monitoring for tap signals throughout.",
+      "text": "Drive the heel laterally away from the opponent's centerline by rotating your entire torso with elbows pinched to your chest. Simultaneously extend your hips into their trapped leg to prevent space creation. Apply rotation progressively over at least 5-7 seconds in training, monitoring for tap signals throughout.",
       "position": 6
     },
     {
@@ -79,7 +79,7 @@ description: "Master outside heel hook attacking technique from Honey Hole. Grip
       "name": "What anatomical structures does the outside heel hook from Honey Hole primarily attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The outside heel hook primarily attacks the lateral collateral ligament and posterolateral corner of the knee by driving rotational force that pulls the heel toward the opponent's centerline. Secondary stress is placed on the ACL and meniscus through the combined rotational and extension forces created by the leg triangle maintaining knee position while the heel is rotated in the lateral direction."
+        "text": "The outside heel hook primarily attacks the lateral collateral ligament and posterolateral corner of the knee by driving rotational force that turns the heel laterally away from the opponent's centerline. Secondary stress is placed on the ACL and meniscus through the combined rotational and extension forces created by the leg triangle maintaining knee position while the heel is rotated in the lateral direction."
       }
     },
     {
@@ -229,7 +229,7 @@ Attacking with the outside heel hook from Honey Hole requires mastery of grip tr
 3. **Read Defensive Reaction**: Observe how your opponent defends the inside heel hook threat. Watch for knee rotation inward, heel hiding by curling toes toward their shin, or grip fighting focused on the inside angle. These defensive commitments expose the outside of the foot for your transition. (Timing: Immediate read during opponent's reaction)
 4. **Transition to Outside Grip**: Withdraw your inside grip hand and reposition your forearm to cross laterally over the outside of their foot. Your forearm travels across the top of the foot from the outside with your hand reaching underneath to cup the heel bone. Maintain leg triangle squeeze throughout this transition. (Timing: 1-2 seconds transition, must be smooth)
 5. **Secure the Heel Cup and Figure-Four**: Lock your figure-four grip with the cupping hand secured under the heel and your other hand controlling your own wrist or forearm. Pinch your elbows together and draw them tight against your chest to eliminate all slack in the grip configuration before applying any rotational pressure. (Timing: 1-2 seconds to lock grip)
-6. **Apply Progressive Rotational Finish**: Drive the heel toward the opponent's centerline by rotating your entire torso with elbows pinched to your chest. Simultaneously extend your hips into their trapped leg to prevent space creation. Apply rotation progressively over at least 5-7 seconds in training, monitoring for tap signals throughout. (Timing: 5-7 seconds minimum progressive pressure in training)
+6. **Apply Progressive Rotational Finish**: Drive the heel laterally away from the opponent's centerline by rotating your entire torso with elbows pinched to your chest. Simultaneously extend your hips into their trapped leg to prevent space creation. Apply rotation progressively over at least 5-7 seconds in training, monitoring for tap signals throughout. (Timing: 5-7 seconds minimum progressive pressure in training)
 7. **Complete Submission and Release**: Maintain steady progressive rotational pressure while monitoring your opponent for any tap signal including verbal, physical, or distress indicators. Upon receiving a tap, immediately release all rotational pressure first, then release the figure-four grip, and finally remove hip pressure to allow your partner to straighten their leg safely. (Timing: Immediate release upon tap)
 
 

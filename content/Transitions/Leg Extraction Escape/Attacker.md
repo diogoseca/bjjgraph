@@ -238,7 +238,7 @@ Strategically, this escape serves as the primary pathway out of gogoplata contro
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 65% |
 | Failure | [[Positions/Gogoplata Control]] | 25% |
-| Counter | [[Positions/Gogoplata Control]] | 10% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -250,7 +250,7 @@ Strategically, this escape serves as the primary pathway out of gogoplata contro
 <p class="section-subtitle">How might your opponent counter Leg Extraction Escape?</p>
 
 - **Opponent re-elevates hips and re-establishes deep foot position behind head as you attempt extraction** (Effectiveness: High) - Your Response: Maintain constant pressure on their hips with both hands, preventing hip elevation. If they regain position, return to step 2 and restart the sequence with heavier hip control. → Leads to [[Positions/Gogoplata Control]]
-- **Opponent transitions to triangle choke as your head moves laterally during extraction attempt** (Effectiveness: Medium) - Your Response: Keep your chin tucked and your shoulder tight against their leg during extraction. If triangle threatens, immediately posture up and address the new submission threat using standard triangle defense. → Leads to [[Positions/Gogoplata Control]]
+- **Opponent transitions to triangle choke as your head moves laterally during extraction attempt** (Effectiveness: Medium) - Your Response: Keep your chin tucked and your shoulder tight against their leg during extraction. If triangle threatens, immediately posture up and address the new submission threat using standard triangle defense. → Leads to [[Positions/Triangle Control]]
 - **Opponent pulls their own foot deeper behind your head when you attempt to address foot position** (Effectiveness: Medium) - Your Response: Increase hip pressure to prevent them from generating the leverage needed to pull the foot deeper. Their pulling motion requires hip elevation which your hip control prevents. → Leads to [[Positions/Gogoplata Control]]
 - **Opponent releases gogoplata and recovers full closed guard as you begin extraction** (Effectiveness: Low) - Your Response: Accept closed guard as a positional improvement over gogoplata control. Begin standard closed guard passing sequence from the improved position. → Leads to [[Positions/Half Guard]]
 

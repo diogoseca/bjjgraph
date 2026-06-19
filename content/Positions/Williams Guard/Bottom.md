@@ -38,8 +38,8 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 17% of exchanges from this position.",
+      "name": "Execute Omoplata to Back",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
@@ -228,7 +228,7 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 
 **Else if opponent attempts to circle away from controlled arm:**
-- Execute **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 75%)
+- Execute **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 75%)
 - Execute **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 60%)
 
 

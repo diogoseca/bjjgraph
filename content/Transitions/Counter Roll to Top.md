@@ -66,7 +66,7 @@ The technique requires precise timing and commitment. Unlike incremental escapes
 From a strategic perspective, this escape is most effective against aggressive opponents who overcommit to submission attacks or positional advancement. The technique capitalizes on the temporary weight distribution changes that occur when the top player shifts to attack the neck, transition to mount, or secure a tighter arm trap. Understanding these windows is essential for successful execution.
 
 **From Position**: [[Positions/Gift Wrap]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 28%
 
 </section>
 
@@ -76,9 +76,9 @@ From a strategic perspective, this escape is most effective against aggressive o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Gift Wrap]] | 55% |
-| Failure | [[Positions/Gift Wrap]] | 30% |
-| Counter | [[Positions/Back Control]] | 15% |
+| Success | [[Positions/Gift Wrap]] | 28% |
+| Failure | [[Positions/Gift Wrap]] | 47% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>

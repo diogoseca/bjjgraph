@@ -65,7 +65,7 @@ Strategically, this technique thrives on a predictable defensive reaction: when 
 
 The arm triangle from top integrates seamlessly with side control attacks. If the opponent defends the americana by bringing their elbow tight, they expose the arm triangle. If they frame against your neck to create escape space, they feed the configuration. This creates a submission chain where defending one attack opens the next, embodying the dilemma-based approach that characterizes high-level top control.
 
-**From Position**: [[Positions/Hindulotine]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 55%
 
 </section>

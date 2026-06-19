@@ -147,7 +147,7 @@
     "overview": "The Reverse Armbar is an advanced elbow hyperextension technique distinguished by its inverted body positioning relative to the standard armbar. Unlike the traditional armbar where you face toward your opponent's head, the reverse armbar requires you to rotate your body 180 degrees so your hips face toward their feet while maintaining control of their arm. This submission is particularly effective in scramble situations, failed standard armbar attempts, or when opponents defend the conventional armbar by turning their thumb down. The reverse mechanics create unexpected leverage angles that catch even experienced practitioners off-guard, as defensive instincts trained for standard armbars often fail against this variation. The technique demands precise hip positioning, tight arm isolation, and careful rotational control to prevent escape while maintaining submission pressure. Success hinges on understanding how the reversed body angle changes the leverage dynamics—your legs must control their shoulder and head differently, and your hip placement becomes critical for generating breaking force without losing control.",
     "key_principles": [
       "Hip rotation must precede extension to establish proper angle",
-      "Arm isolation requires thumb-up positioning before rotation begins",
+      "Arm isolation targets the opponent's thumb-down (pronated) arm, the defensive orientation the reverse rotation attacks",
       "Head and shoulder control prevents rolling escapes during transition",
       "Your hips must stay high and tight to the arm throughout",
       "Rotational momentum must be controlled to maintain arm security",
@@ -156,7 +156,7 @@
     ],
     "setup_requirements": [
       "Secure two-on-one arm control with opponent's arm fully extended",
-      "Opponent's thumb must be pointing up (supinated position)",
+      "Opponent's thumb is pointing down (pronated position), the defensive orientation the reverse armbar is designed to attack",
       "Clear space to rotate your body 180 degrees without obstruction",
       "Head and shoulder control established with your legs",
       "Hip positioning must be tight to their arm before rotation",
@@ -167,7 +167,7 @@
       {
         "step_number": 1,
         "action": "Establish Standard Armbar Control",
-        "description": "From mount or guard, secure traditional armbar position with both hands gripping opponent's wrist and forearm. Ensure their arm is fully extended with thumb pointing upward. Your legs should control their head and far shoulder, with your near leg across their chest or face. This standard position serves as the foundation for the reversal.",
+        "description": "From mount or guard, secure traditional armbar position with both hands gripping opponent's wrist and forearm. As the opponent defends by rotating their arm thumb-down (pronated), keep their arm fully extended in that pronated orientation rather than fighting to re-supinate it. Your legs should control their head and far shoulder, with your near leg across their chest or face. This defended standard position serves as the foundation for the reversal.",
         "timing": "2-3 seconds to secure"
       },
       {
@@ -319,7 +319,7 @@
       },
       {
         "question": "What anatomical structure does the reverse armbar specifically attack, and what makes it vulnerable in this position?",
-        "answer": "The reverse armbar attacks the elbow joint, specifically hyperextending the ulnohumeral articulation against its natural range of motion. The elbow is particularly vulnerable because the arm is isolated with the thumb facing upward (supinated), which positions the joint so the olecranon process of the ulna cannot lock against the humerus for stability. Your hips create a fulcrum directly below the elbow while your grip pulls the wrist in the opposite direction, generating hyperextension force that the ligaments cannot resist once full extension is achieved.",
+        "answer": "The reverse armbar attacks the elbow joint, specifically hyperextending the ulnohumeral articulation against its natural range of motion. The elbow is particularly vulnerable because the arm is isolated with the thumb facing downward (pronated)—the orientation an opponent rotates into to defend the standard armbar—which exposes the joint to the reverse breaking plane where the olecranon process of the ulna cannot lock against the humerus for stability. Your hips create a fulcrum directly below the elbow while your grip pulls the wrist in the opposite direction, generating hyperextension force that the ligaments cannot resist once full extension is achieved.",
         "safety_critical": false
       },
       {
@@ -329,7 +329,7 @@
       },
       {
         "question": "You've just completed the 180-degree rotation and are settling into the reversed position - what specific grip adjustment do you execute before applying the finish?",
-        "answer": "Shift from the two-on-one rotation grip (both hands controlling wrist and forearm with arm pinned to chest) to a finishing grip where both hands control only their wrist with thumbs positioned on top of their forearm. This grip adjustment positions your hands to pull their wrist toward your chest during the finish while your hips elevate for the breaking angle. The thumbs-on-top positioning prevents their wrist from rotating out of the supinated position and maintains the proper arm alignment needed for maximum hyperextension leverage. Never attempt to finish with the rotation grip—it lacks the precision needed for controlled extension.",
+        "answer": "Shift from the two-on-one rotation grip (both hands controlling wrist and forearm with arm pinned to chest) to a finishing grip where both hands control only their wrist with thumbs positioned on top of their forearm. This grip adjustment positions your hands to pull their wrist toward your chest during the finish while your hips elevate for the breaking angle. The thumbs-on-top positioning prevents their wrist from rotating out of the pronated (thumb-down) position and maintains the proper arm alignment needed for maximum hyperextension leverage in the reverse plane. Never attempt to finish with the rotation grip—it lacks the precision needed for controlled extension.",
         "safety_critical": false
       },
       {

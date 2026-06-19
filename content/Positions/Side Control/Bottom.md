@@ -21,25 +21,25 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 41% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master escaping Side Control Bottom in BJJ. Systematic defensive f
     {
       "@type": "HowToStep",
       "name": "Execute Ghost Escape from Side Control",
-      "text": "From this position, attempt Ghost Escape from Side Control. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Ghost Escape from Side Control. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],

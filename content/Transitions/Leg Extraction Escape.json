@@ -23,7 +23,7 @@
       "result": "failure"
     },
     {
-      "to": "Gogoplata Control/Bottom",
+      "to": "Triangle Control/Top",
       "probability": 10,
       "result": "counter"
     }
@@ -135,7 +135,7 @@
         "counter": "Opponent transitions to triangle choke as your head moves laterally during extraction attempt",
         "effectiveness": "Medium",
         "your_response": "Keep your chin tucked and your shoulder tight against their leg during extraction. If triangle threatens, immediately posture up and address the new submission threat using standard triangle defense.",
-        "targets_outcome": "Gogoplata Control/Bottom"
+        "targets_outcome": "Triangle Control/Top"
       },
       {
         "counter": "Opponent pulls their own foot deeper behind your head when you attempt to address foot position",
@@ -271,7 +271,7 @@
       {
         "action": "Transition to triangle by switching the choking leg over the opponent's shoulder and locking ankles as they move their head laterally",
         "when_to_use": "When the opponent has partially extracted their head laterally and the shin is sliding off the throat but their posture is still broken",
-        "targets_outcome": "Gogoplata Control/Bottom",
+        "targets_outcome": "Triangle Control/Top",
         "if_successful": "Opponent is caught in triangle control, converting their escape attempt into a new submission threat from a stronger position",
         "risk": "If triangle lock is not secured quickly, opponent may posture up and escape both gogoplata and triangle attempt"
       },
@@ -296,7 +296,7 @@
         "how": "Maintain hip elevation and foot depth throughout the opponent's extraction attempt by actively pulling the foot deeper and fighting their hip control with core engagement. Each failed escape attempt increases their fatigue and panic, making the submission finish more likely on subsequent attempts."
       },
       {
-        "outcome": "Gogoplata Control/Bottom",
+        "outcome": "Triangle Control/Top",
         "how": "When the escape partially succeeds and the shin slides off the throat, immediately transition to triangle by bringing the opposite leg over the opponent's shoulder. Their lateral head movement during extraction creates the angle needed for triangle entry. Alternatively, if they turn away, redirect to omoplata by controlling their arm across your hip."
       }
     ],

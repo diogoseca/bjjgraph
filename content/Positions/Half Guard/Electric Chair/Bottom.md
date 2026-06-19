@@ -21,7 +21,7 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 50% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 54% of exchanges from this position.",
       "position": 1
     },
     {
@@ -38,20 +38,20 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straighten Leg Defense from Electric Chair",
-      "text": "From this position, attempt Straighten Leg Defense from Electric Chair. This technique is attempted in 4% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Sweep from Electric Chair",
       "text": "From this position, attempt Sweep from Electric Chair. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair",
       "text": "From this position, attempt Electric Chair. This technique is attempted in 12% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Electric Chair from Electric Chair",
+      "text": "From this position, attempt Electric Chair from Electric Chair. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

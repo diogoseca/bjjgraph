@@ -234,7 +234,7 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Closed Guard]] | 70% |
-| Failure | [[Positions/Standing Position]] | 20% |
+| Failure | [[Positions/Standing Guard]] | 20% |
 | Counter | [[Positions/Standing Position]] | 10% |
 
 
@@ -246,7 +246,7 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 
 <p class="section-subtitle">How might your opponent counter Pull guard?</p>
 
-- **Opponent backs away or disengages as you sit** (Effectiveness: High) - Your Response: Maintain grip tension and follow them with your guard, using grips to prevent complete separation. Scoot your hips forward aggressively and re-establish connections with legs or feet on their hips to prevent them from establishing distance. → Leads to [[Positions/Standing Position]]
+- **Opponent backs away or disengages as you sit** (Effectiveness: High) - Your Response: Maintain grip tension and follow them with your guard, using grips to prevent complete separation. Scoot your hips forward aggressively and re-establish connections with legs or feet on their hips to prevent them from establishing distance. → Leads to [[Positions/Standing Guard]]
 - **Opponent sprawls forward with heavy chest pressure** (Effectiveness: Medium) - Your Response: Use the pressure to establish underhooks or create angles for off-balancing sweeps. Convert the forward pressure into sweep opportunities rather than fighting it directly. Rotate hips to side and look for butterfly hooks or deep half guard entries. → Leads to [[Positions/Closed Guard]]
 - **Opponent immediately begins passing sequence** (Effectiveness: High) - Your Response: Establish strong guard retention frames, create distance with pushing frames on hips and shoulders, and circle your hips away from the passing pressure. Use grip fighting to break their grips and re-establish your preferred guard configuration. → Leads to [[Positions/Standing Position]]
 - **Opponent grabs your pants or belt during descent** (Effectiveness: Medium) - Your Response: Accelerate your descent and immediately establish closed guard or tight hooks to prevent them from using the grips for stacking or pressure passing. Break their grips with hand fighting while securing your guard position. → Leads to [[Positions/Closed Guard]]

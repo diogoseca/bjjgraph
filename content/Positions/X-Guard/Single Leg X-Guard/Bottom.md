@@ -21,13 +21,13 @@ description: "Master Single Leg X-Guard Bottom in BJJ. Complete guide covering s
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Sweep",
-      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Entry from Leg Entanglement",
-      "text": "From this position, attempt Ashi Entry from Leg Entanglement. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Entry from Leg Entanglement. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,13 +39,13 @@ description: "Master Single Leg X-Guard Bottom in BJJ. Complete guide covering s
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {

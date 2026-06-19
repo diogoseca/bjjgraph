@@ -66,7 +66,7 @@ Strategically, the Baratoplata Setup exploits the fundamental weakness of Meatho
 The technique requires precise timing and mechanical understanding. Unlike straight armlocks that attack the elbow through hyperextension, the Baratoplata attacks the shoulder through internal rotation combined with extension. This creates a submission that is difficult to defend through strength alone, as the rotational component bypasses the larger muscle groups that typically protect against arm attacks. For purple and brown belt practitioners, the Baratoplata represents an evolution beyond basic Rubber Guard attacks into the system's deeper submission chains.
 
 **From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 50%
 
 </section>
 
@@ -76,9 +76,10 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Armbar Control]] | 55% |
-| Failure | [[Positions/Rubber Guard/Meathook]] | 30% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Submissions/Baratoplata]] | 50% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 25% |
+| Counter | [[Positions/Armbar Control]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -237,7 +238,7 @@ The Baratoplata Setup represents the third layer of the Meathook attack system w
 
 - [[Transitions/Armbar on Free Arm]] - Alternative armbar attack from Meathook when opponent straightens arm to defend figure-four
 
-- [[Positions/Armbar Control]] - Success outcome position where figure-four shoulder lock is secured
+- [[Positions/Armbar Control]] - Counter outcome from the bottom when opponent straightens the arm and you flow to a guard armbar
 
 - [[Positions/Gogoplata Control]] - Alternative attack when opponent stacks forward into Meathook
 

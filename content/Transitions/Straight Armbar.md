@@ -65,7 +65,7 @@ Strategically, the Straight Armbar functions as the primary limb attack within t
 
 The execution demands precise hip positioning and controlled transition from crucifix control to armbar finishing position. The critical challenge is maintaining arm isolation throughout the transition. Rushing the finish before securing proper hip alignment across the elbow is the most common failure point. A systematic approach — isolate, control, align, then extend — produces the highest completion rates and prevents the opponent from extracting the arm during the transition phase.
 
-**From Position**: [[Positions/Armbar Control]] (Top)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 **Success Rate**: 58%
 
 </section>

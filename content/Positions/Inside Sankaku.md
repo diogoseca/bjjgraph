@@ -214,31 +214,27 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ### Available Transitions
 
 
-- **[[Heel Hook from Inside Sankaku/Attacker|Heel Hook from Inside Sankaku]]** (37% of attempts)
+- **[[Transitions/Inside Sankaku Heel Hook/Attacker|Inside Sankaku Heel Hook]]** (40% of attempts)
+
+- **[[Heel Hook from Inside Sankaku/Attacker|Heel Hook from Inside Sankaku]]** (5% of attempts)
+
+- **[[Transitions/Inside Sankaku to Saddle/Attacker|Inside Sankaku to Saddle]]** (8% of attempts)
 
 - **[[Toe Hold from Inside Sankaku/Attacker|Toe Hold from Inside Sankaku]]** (9% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (7% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (7% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (5% of attempts)
 
 - **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (7% of attempts)
+- **[[Kneebar from Inside Sankaku/Attacker|Kneebar from Inside Sankaku]]** (8% of attempts)
 
 - **[[Calf Slicer from Inside Sankaku/Attacker|Calf Slicer from Inside Sankaku]]** (3% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (9% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (7% of attempts)
 
 - **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (5% of attempts)
-
-- **[[Transitions/Inside Sankaku Heel Hook/Attacker|Inside Sankaku Heel Hook]]** (2% of attempts)
-
-- **[[Transitions/Inside Sankaku to Saddle/Attacker|Inside Sankaku to Saddle]]** (2% of attempts)
-
-- **[[Inside Heel Hook from Inside Sankaku/Attacker|Inside Heel Hook from Inside Sankaku]]** (2% of attempts)
-
-- **[[Kneebar from Inside Sankaku/Attacker|Kneebar from Inside Sankaku]]** (7% of attempts)
 
 
 ### Common Mistakes

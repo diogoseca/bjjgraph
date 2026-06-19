@@ -39,7 +39,7 @@ description: "Master the outside heel hook from Honey Hole position. Learn grip 
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Outside Heel Hook from Honey Hole",
-  "description": "The outside heel hook from Honey Hole is a rotational knee submission that cups the opponent's heel from the lateral side and twists it toward their centerline, attacking the LCL and posterolateral corner while the inside leg triangle pins the knee.",
+  "description": "The outside heel hook from Honey Hole is a rotational knee submission that cups the opponent's heel from the lateral side and twists it laterally away from their centerline, attacking the LCL and posterolateral corner while the inside leg triangle pins the knee.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -49,7 +49,7 @@ description: "Master the outside heel hook from Honey Hole position. Learn grip 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The outside heel hook from Honey Hole is a rotational knee submission that cups the opponent's heel from the lateral side and twists it toward their centerline, attacking the LCL and posterolateral corner while the inside leg triangle pins the knee.**
+**The outside heel hook from Honey Hole is a rotational knee submission that cups the opponent's heel from the lateral side and twists it laterally away from their centerline, attacking the LCL and posterolateral corner while the inside leg triangle pins the knee.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
@@ -71,7 +71,7 @@ description: "Master the outside heel hook from Honey Hole position. Learn grip 
 
 While the inside heel hook remains the primary threat from Honey Hole, the outside variation serves as a critical chain attack that capitalizes on the dominant inside leg entanglement to attack the knee's lateral structures. It becomes available when opponents defend the standard inside rotation by hiding their heel or rotating their knee inward to close the inside angle.
 
-Executing the outside heel hook from this position requires a deliberate grip transition from the inside heel hook configuration. The attacker repositions their forearm across the outside of the opponent's foot, cupping the heel from the lateral side, then drives rotational force that pulls the heel toward the opponent's centerline while the knee remains pinned by the leg triangle. This attacks different ligament structures than the inside variant, primarily targeting the LCL and posterolateral corner of the knee.
+Executing the outside heel hook from this position requires a deliberate grip transition from the inside heel hook configuration. The attacker repositions their forearm across the outside of the opponent's foot, cupping the heel from the lateral side, then drives rotational force that turns the heel laterally away from the opponent's centerline while the knee remains pinned by the leg triangle. This attacks different ligament structures than the inside variant, primarily targeting the LCL and posterolateral corner of the knee.
 
 The strategic value of this technique lies in its complementary relationship with the inside heel hook, creating a dual-threat rotational attack system. Opponents who commit heavily to inside heel hook defense expose themselves to the outside grip, and the grip transition itself generates confusion about the direction of attack. Practitioners who develop proficiency with both rotational directions from Honey Hole achieve significantly higher finishing rates by eliminating the predictability of single-direction attacks.
 
@@ -139,7 +139,7 @@ The strategic value of this technique lies in its complementary relationship wit
 
 - **Secure the Heel Cup and Figure-Four**: Lock your figure-four grip with the cupping hand secured under the heel and your other hand controll...
 
-- **Apply Progressive Rotational Finish**: Drive the heel toward the opponent's centerline by rotating your entire torso with elbows pinched to...
+- **Apply Progressive Rotational Finish**: Drive the heel laterally away from the opponent's centerline by rotating your entire torso with elbo...
 
 - **Complete Submission and Release**: Maintain steady progressive rotational pressure while monitoring your opponent for any tap signal in...
 

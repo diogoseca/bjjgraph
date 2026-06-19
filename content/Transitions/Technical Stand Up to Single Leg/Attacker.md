@@ -240,8 +240,8 @@ The Technical Stand Up to Single Leg from the attacker's perspective is about co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 45% |
-| Success | [[Positions/Clinch]] | 15% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 25% |
 | Failure | [[Positions/Turtle]] | 25% |
 | Counter | [[Positions/Front Headlock]] | 15% |
 
@@ -256,7 +256,7 @@ The Technical Stand Up to Single Leg from the attacker's perspective is about co
 
 - **Opponent sprawls hard with hips back and weight down on your shoulders** (Effectiveness: High) - Your Response: Switch immediately to ankle pick by releasing upper grip, grabbing their far ankle, and pulling while driving shoulder into their knee. Alternatively, sit through to Single Leg X-Guard by threading your legs around their trapped leg as you drop your hips underneath them. → Leads to [[Positions/Turtle]]
 - **Opponent crossfaces and drives you down during standup phase** (Effectiveness: High) - Your Response: Abandon standup temporarily and return to turtle defense or pull half guard. Use their forward pressure to execute a sit-through or granby roll. Never force the standup against heavy crossface pressure as it exposes your back and neck to front headlock attacks. → Leads to [[Positions/Turtle]]
-- **Opponent circles away and disengages to avoid the single leg** (Effectiveness: Medium) - Your Response: Maintain standing position and close distance with footwork. Cut angles to prevent circling. If they refuse to engage, establish your preferred guard by pulling to butterfly or De La Riva, or use the space to reset and reattempt on your terms. → Leads to [[Positions/Clinch]]
+- **Opponent circles away and disengages to avoid the single leg** (Effectiveness: Medium) - Your Response: Maintain standing position and close distance with footwork. Cut angles to prevent circling. If they refuse to engage, establish your preferred guard by pulling to butterfly or De La Riva, or use the space to reset and reattempt on your terms. → Leads to [[Positions/Turtle]]
 - **Opponent shoots for guillotine during your level change** (Effectiveness: Medium) - Your Response: Keep your head up and posture strong during entry. If caught, immediately drive forward stacking their weight, secure their hips, and work to pass to side control rather than pulling back. Peel their choking arm by driving your trapped-side shoulder into their sternum while circling your head free. → Leads to [[Positions/Front Headlock]]
 - **Opponent whizzers your penetrating arm and sprawls the hip** (Effectiveness: Medium) - Your Response: Convert to an outside trip by releasing inside grip and using their whizzer commitment against them. As they drive the overhook, circle behind their whizzer-side hip to take the back. Alternatively, drop to Single Leg X-Guard by threading your legs around their posted leg while they are focused on the whizzer. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
 

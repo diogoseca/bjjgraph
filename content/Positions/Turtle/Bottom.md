@@ -27,31 +27,31 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 21% of exchanges from this position.",
+      "name": "Execute Turtle to Standing",
+      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Rolling to Guard",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Forward Roll",
+      "text": "From this position, attempt Forward Roll. This technique is attempted in 8% of exchanges from this position.",
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
       "text": "From this position, attempt Deep Half Entry. This technique is attempted in 14% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Sit Through to Guard",
-      "text": "From this position, attempt Sit Through to Guard. This technique is attempted in 16% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Peterson Roll",
-      "text": "From this position, attempt Peterson Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],

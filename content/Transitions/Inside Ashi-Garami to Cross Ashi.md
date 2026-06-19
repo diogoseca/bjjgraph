@@ -65,7 +65,7 @@ The mechanical change involves reconfiguring your leg position from parallel ash
 
 Strategically, this transition serves as an essential response when opponents successfully defend Inside Ashi attacks by rotating their knee line away from danger. Rather than forcing suboptimal attacks, advanced practitioners recognize when the opponent's defensive movement actually creates better opportunities from Cross Ashi. The ability to fluidly transition between ashi configurations based on opponent reactions is characteristic of high-level leg lock systems and demonstrates sophisticated positional awareness.
 
-**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 **Success Rate**: 58%
 
 </section>

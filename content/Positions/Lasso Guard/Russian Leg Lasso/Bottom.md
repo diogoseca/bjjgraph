@@ -230,8 +230,8 @@ Russian Leg Lasso Bottom represents one of the most technically sophisticated op
 
 
 **If opponent establishes strong base and begins systematic grip breaking:**
+- Execute **[[Omoplata from Russian Leg Lasso/Attacker|Omoplata from Russian Leg Lasso]]** → [[Positions/Omoplata Control]] (Probability: 55%)
 - Execute **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Armbar from Armbar Control/Attacker|Armbar from Armbar Control]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 

@@ -1,0 +1,453 @@
+{
+  "name": "Wrist Lock",
+  "summary": "The Wrist Lock (mão de vaca) is a joint lock that forces the opponent's hand into hyperflexion against the inner forearm, attacking the small wrist joint to force a fast tap; it is most accessible from closed guard top against an opponent's posting, planted hands.",
+  "description": "Finish the Wrist Lock (mão de vaca) from closed guard top: flexion mechanics on planted hands, finishing steps, and defense. Success: 30/45/60%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "joint-lock",
+    "wrist-lock",
+    "mao-de-vaca",
+    "closed-guard",
+    "small-joint"
+  ],
+  "aliases": [
+    "Wristlock",
+    "Mão de Vaca",
+    "Mao de Vaca",
+    "Flexion Wristlock"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Wrist Hyperflexion",
+  "target_area": "Wrist and carpal joint",
+  "starting_position": "Closed Guard",
+  "from_position": "Closed Guard/Bottom",
+  "success_rate": 45,
+  "overview": "The Wrist Lock, known in Portuguese as mão de vaca ('cow's hand') and in judo as a tekubi joint lock, is one of the most accessible and universally legal joint locks in Brazilian Jiu-Jitsu, available to every belt from white up under IBJJF rules. The standard flexion version forces the opponent's hand toward the inside of their own forearm — bending the palm down toward the wrist crease — until the small carpal joint reaches its end range and the opponent taps. From closed guard with you on the bottom, the lock is most often hunted against a posturing opponent who plants a hand on your chest, hip, or the mat to control your guard; that planted, straight-armed hand is exactly the lever the wrist lock attacks. By pinning the opponent's palm flat against your sternum or a controlled surface and then curling their fingers and palm toward their forearm, you load the wrist with very little movement and almost no telegraphing. The wrist lock is prized precisely because it punishes good posture and strong grips: the harder an opponent posts and pushes, the straighter their wrist becomes and the shorter the path to the finish. It chains naturally with collar grips, the Kimura and Americana families, and overhook control, and it serves both as a primary finish and as a way to break grips and open a stubborn defender's hands.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Wrist sprain or ligament tear from hyperflexion",
+        "severity": "Medium",
+        "recovery_time": "2-6 weeks depending on ligament damage"
+      },
+      {
+        "injury": "Carpal joint or scaphoid injury from sudden force",
+        "severity": "High",
+        "recovery_time": "6-12 weeks, longer if a fracture occurs"
+      },
+      {
+        "injury": "Finger or hand strain from gripping resistance",
+        "severity": "Low",
+        "recovery_time": "1-3 days"
+      }
+    ],
+    "application_speed": "SLOW and progressive - the wrist has a very short range before injury, so apply over 2-3 seconds and stop the instant resistance ends",
+    "tap_signals": [
+      "Physical hand or arm tap with the free hand",
+      "Foot tap on the mat",
+      "Verbal tap",
+      "The trapped hand going limp or stopping its resistance",
+      "Any wince or sharp distress signal as the wrist reaches end range"
+    ],
+    "release_protocol": [
+      "Release the flexion pressure on the wrist immediately and completely",
+      "Let the opponent's hand and forearm return to a neutral straight position",
+      "Do not jerk the hand back open — allow it to relax naturally",
+      "Check the partner's wrist and hand for any sign of injury",
+      "Confirm the partner can move the wrist through normal range before continuing"
+    ],
+    "training_restrictions": [
+      "Never apply the wrist lock with a jerk or snap — the joint has almost no margin",
+      "Always apply slowly and progressively, releasing the moment the partner taps",
+      "Never crank past the tap; small-joint locks injure with very little extra force"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 42,
+      "result": "success"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Top",
+      "probability": 18,
+      "result": "counter"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Wrist Lock on Planted Hand (Closed Guard)",
+      "description": "Against an opponent who posts a straight, planted hand on your chest or hip to posture inside closed guard, trap their palm flat with both of your hands and curl it toward their forearm. Their own posting pressure pre-loads the wrist, shortening the finish.",
+      "when_to_use": "When the opponent postures up with a stiff arm and plants a hand on your torso or the mat to control distance"
+    },
+    {
+      "variation_name": "Wrist Lock off the Collar Grip",
+      "description": "When you hold a cross-collar or lapel grip and the opponent grips your sleeve or wrist, fold their gripping hand back over its own wrist while keeping their elbow pinned, attacking the wrist instead of fighting the grip directly.",
+      "when_to_use": "In the gi when an opponent establishes a strong defensive grip on your sleeve or collar that you want to break or finish"
+    },
+    {
+      "variation_name": "Wrist Lock Chained from Kimura/Americana",
+      "description": "When an opponent defends a Kimura or Americana by gripping their own belt, gi, or your body, fold their now-bent wrist into flexion using your figure-four frame, converting the shoulder attack into a wrist finish.",
+      "when_to_use": "When a Kimura or Americana stalls because the opponent has buried their hand in a defensive grip you can fold"
+    }
+  ],
+  "from_positions": [
+    "Closed Guard",
+    "Mount",
+    "Side Control",
+    "North-South",
+    "Back Control",
+    "Knee on Belly"
+  ],
+  "related_submissions": [
+    "Kimura",
+    "Americana",
+    "Omoplata",
+    "Armbar",
+    "Ezekiel Choke",
+    "Monoplata"
+  ],
+  "related_content": [
+    {
+      "name": "Closed Guard",
+      "relationship": "Primary position for attacking the wrist lock against a posturing opponent's planted hands, and the position you retain when it fails"
+    },
+    {
+      "name": "Kimura",
+      "relationship": "Shoulder lock that pairs with the wrist lock — a defended Kimura grip often exposes a foldable wrist"
+    },
+    {
+      "name": "Americana",
+      "relationship": "Companion figure-four shoulder lock; both attack a planted arm and chain into the wrist when the shoulder is defended"
+    },
+    {
+      "name": "Armbar",
+      "relationship": "Elbow-joint attack that threatens the same posting arm, forcing defensive reactions that open the wrist"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Top position where the wrist lock can be applied on a defender's posting or framing hands"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Top position where a framing or underhooking hand can be isolated and folded into a wrist lock"
+    }
+  ],
+  "attacker": {
+    "name": "Wrist Lock Attacker",
+    "description": "Finish the Wrist Lock (mão de vaca) from closed guard: trap the planted hand, fold the palm into flexion against the forearm, and finish safely with minimal motion.",
+    "overview": "As the attacker, your job is to recognize a straight, planted, or gripping hand and convert it into a wrist lock with as little movement as possible. The wrist lock is a flexion attack: you bend the opponent's palm down toward the inside of their own forearm until the carpal joint reaches its end range. The single most important detail is that you must control the elbow line so the opponent cannot relieve the lock by bending their arm or rotating their shoulder. Pin their palm flat against a solid surface — most often your own sternum or the mat — then drive their fingertips toward their wrist crease while keeping their forearm from following. Because the wrist has almost no range, success is about precision and stability rather than power, and a posturing opponent who is pushing hard into you is actually feeding their own wrist into the lock.",
+    "key_principles": [
+      "The wrist lock is flexion: bend the opponent's palm toward the inside of their forearm, not away from it",
+      "Trap the palm flat against a solid base — your sternum, hip, or the mat — so it cannot escape the pressure",
+      "Control the elbow line; if the elbow can travel, the opponent escapes by bending the arm and the lock dies",
+      "Use minimal motion and your whole body, not just your hands, to fold the wrist",
+      "A posting, stiff-armed opponent pre-loads their own wrist — let their pressure shorten your finish",
+      "Keep the opponent's fingers and palm together; a splayed hand can sometimes slip the angle",
+      "Apply slowly and progressively because the joint has almost no margin before injury"
+    ],
+    "setup_requirements": [
+      "The opponent has a straight, planted, or gripping hand within reach on your chest, hip, the mat, or your gi",
+      "You can pin or cup the opponent's palm against a solid surface with at least one of your hands",
+      "Their elbow line is controlled or about to be controlled so the arm cannot simply bend away",
+      "Your torso and hips are positioned to add body weight or rotation behind the fold",
+      "Enough head and posture control that the opponent cannot posture out before you load the wrist"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Identify the planted or gripping hand",
+        "description": "Spot the opponent's straight posting hand on your chest, hip, or the mat, or a defensive grip on your sleeve or collar, which is the lever the wrist lock attacks.",
+        "timing": "The moment the opponent commits weight to a stiff or gripping hand"
+      },
+      {
+        "step_number": 2,
+        "action": "Pin the palm flat to a base",
+        "description": "Cup or clamp the opponent's hand and press the palm flat against a solid surface such as your sternum or the mat so the hand cannot retract while you load the joint.",
+        "timing": "Immediately upon isolating the hand"
+      },
+      {
+        "step_number": 3,
+        "action": "Control the elbow line",
+        "description": "Trap or frame against the opponent's elbow so their arm cannot bend or rotate to follow the wrist, ensuring all the pressure stays in the wrist joint rather than dissipating into the arm.",
+        "timing": "As you pin the palm, before adding flexion"
+      },
+      {
+        "step_number": 4,
+        "action": "Begin the flexion fold",
+        "description": "Drive the opponent's fingertips and palm down toward the inside of their forearm, folding the wrist into flexion while the forearm stays pinned in place.",
+        "timing": "Once the palm and elbow are controlled"
+      },
+      {
+        "step_number": 5,
+        "action": "Add body weight or rotation",
+        "description": "Use your chest, hips, or a slight rotation of your torso to drive the fold rather than relying on hand strength alone, keeping the motion small and controlled.",
+        "timing": "As the wrist begins to load"
+      },
+      {
+        "step_number": 6,
+        "action": "Close the angle to end range",
+        "description": "Continue the flexion smoothly until the opponent's wrist reaches its end range, keeping the elbow trapped so they cannot relieve the pressure by straightening or rotating.",
+        "timing": "The finishing phase, applied slowly"
+      },
+      {
+        "step_number": 7,
+        "action": "Finish and release on the tap",
+        "description": "Apply the final increment of flexion over a couple of seconds and release the instant the opponent taps, allowing their hand to return to neutral without snapping it back.",
+        "timing": "Final phase, always with safety priority"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent bends their elbow and pulls the hand back before you load the wrist",
+        "effectiveness": "High",
+        "your_response": "Stay attached to the hand and re-pin it, or release the wrist and retain your closed guard if the arm escapes the angle.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent straightens and rotates the wrist out of flexion alignment",
+        "effectiveness": "Medium",
+        "your_response": "Re-establish the palm pin against your sternum and trap the elbow before re-applying the fold so the joint cannot rotate free.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives forward, postures, and starts to stack or pass as you reach for the hand",
+        "effectiveness": "Medium",
+        "your_response": "Abandon the wrist if your guard is compromised, re-frame and recover, rather than chasing the finish into a passed guard.",
+        "targets_outcome": "Closed Guard/Top"
+      },
+      {
+        "counter": "Opponent splays the fingers and grips your gi to disperse the pressure",
+        "effectiveness": "Low",
+        "your_response": "Gather their fingers and palm together, re-seat the flat pin, and reapply flexion with the hand as a single unit.",
+        "targets_outcome": "Closed Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Bending the wrist in extension instead of flexion",
+        "consequence": "You attack the wrong direction, the opponent simply resists, and the lock generates no real pressure",
+        "correction": "Fold the palm toward the inside of the forearm; the standard mão de vaca is a flexion lock, not extension"
+      },
+      {
+        "error": "Letting the opponent's elbow travel or bend",
+        "consequence": "The arm follows the wrist, the pressure dissipates into the shoulder and elbow, and the finish disappears",
+        "correction": "Trap or frame the elbow line first so every degree of fold loads the wrist joint itself"
+      },
+      {
+        "error": "Relying on hand and finger strength alone",
+        "consequence": "A strong opponent out-muscles your grip, you fatigue, and the wrist never reaches end range",
+        "correction": "Pin the palm to a solid base and drive the fold with chest, hips, or torso rotation instead of just your hands"
+      },
+      {
+        "error": "Failing to pin the palm flat",
+        "consequence": "The hand retracts or slides off your body and the joint never loads, letting the opponent escape easily",
+        "correction": "Clamp the palm flat against your sternum, hip, or the mat so it cannot retract while you fold the wrist"
+      },
+      {
+        "error": "Applying with a sudden snap",
+        "consequence": "The small wrist joint has almost no margin and a snap risks a serious sprain or fracture even on a tapping partner",
+        "correction": "Apply slowly over two to three seconds and release instantly on the tap to keep training safe"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition",
+        "focus": "Spotting the lever",
+        "description": "Drill identifying a posting or gripping hand from closed guard and naming the flexion direction, without applying pressure, to build the trigger reflex."
+      },
+      {
+        "phase": "Positional pinning",
+        "focus": "Palm and elbow control",
+        "description": "Practice pinning the partner's palm flat to your sternum and trapping the elbow line, holding the controlled position without finishing to ingrain the structure."
+      },
+      {
+        "phase": "Pressure calibration",
+        "focus": "Safe, progressive finishing",
+        "description": "Apply gradual flexion with a cooperative partner who taps early, building feel for the very short range and the immediate release timing."
+      },
+      {
+        "phase": "Live from closed guard",
+        "focus": "Application under resistance",
+        "description": "Spar from closed guard hunting the wrist lock against a posturing partner, finishing or abandoning under progressive resistance while respecting tap signals."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "In which direction do you bend the wrist to finish the standard wrist lock (mão de vaca)?",
+        "answer": "You bend it in flexion — folding the opponent's palm and fingers down toward the inside of their own forearm until the carpal joint reaches end range. The standard mão de vaca is a flexion lock, not an extension lock.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is a posturing opponent who plants a stiff hand on your chest vulnerable to the wrist lock?",
+        "answer": "A straight, posting arm pre-loads the wrist: the harder they push, the straighter the joint becomes and the shorter the path to flexion. You pin that planted palm flat and fold it toward their forearm with minimal motion.",
+        "safety_critical": false
+      },
+      {
+        "question": "What must you control besides the hand for the wrist lock to work?",
+        "answer": "You must control the elbow line. If the opponent can bend their arm or rotate the shoulder, the forearm follows the wrist and the pressure dissipates. Trapping the elbow keeps every degree of fold loading the wrist joint.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why should you pin the opponent's palm to a solid base before applying the lock?",
+        "answer": "Pinning the palm flat against your sternum, hip, or the mat stops the hand from retracting and gives you a stable platform to fold against, so your body weight rather than finger strength loads the wrist.",
+        "safety_critical": false
+      },
+      {
+        "question": "How do you generate finishing pressure on the wrist without out-muscling a strong opponent?",
+        "answer": "Drive the fold with your chest, hips, or a small torso rotation against a pinned palm, using whole-body mechanics. The motion stays small; the wrist has very little range, so precision and a stable base matter more than raw strength.",
+        "safety_critical": false
+      },
+      {
+        "question": "How can a defended Kimura or Americana be converted into a wrist lock?",
+        "answer": "When the opponent buries their hand in a defensive grip on their belt, gi, or your body, their wrist is already bent. Using your figure-four frame, you fold that bent wrist further into flexion, turning the shoulder attack into a wrist finish.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the most common error that makes a wrist lock fail entirely?",
+        "answer": "Bending the wrist in the wrong direction or letting the elbow travel. The mão de vaca must be a flexion fold with the elbow trapped; attacking extension or letting the arm bend dissipates all the pressure.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must the wrist lock be applied slowly, and when do you release?",
+        "answer": "The wrist and carpal joints have almost no margin before a sprain or fracture, so a snap can injure even a tapping partner. Apply over two to three seconds and release the instant the partner taps, goes limp, or signals distress.",
+        "safety_critical": true
+      },
+      {
+        "question": "Your closed-guard opponent postures and plants both hands to open your guard — how do you turn that into an attack?",
+        "answer": "Trap one planted palm flat against your chest, control that elbow line, and fold the hand toward their forearm into flexion. Their posting pressure shortens the finish, and even a failed attempt can break their posture and grip.",
+        "safety_critical": false
+      },
+      {
+        "question": "If your wrist lock fails from closed guard, what is the safe fallback?",
+        "answer": "Retain your closed guard rather than chasing the finish into a passed position. If the opponent escapes the hand and starts to stack or pass, abandon the wrist, re-frame, and recover your guard to stay safe.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "Wrist Lock Defender",
+    "description": "Defend the Wrist Lock (mão de vaca): recognize the flexion attack on a posting hand, free the wrist by bending the elbow, and tap early to protect the small joint.",
+    "overview": "As the defender, you are usually the top player posturing inside closed guard with a planted hand that has just been isolated. The wrist lock attacks your hand by folding it into flexion against your own forearm, so your defense centers on never leaving a stiff, straight, exposed hand for the opponent to trap. The single most important escape principle is that the wrist lock dies when the elbow bends: if you can bend your arm and bring your elbow toward your own body, your forearm follows your hand and the joint unloads. Recognition has to be early because the wrist has almost no range — by the time you feel sharp pain, you are already at the finish. Keep your hands moving and your fingers active rather than posting stiffly, retract a trapped hand by bending the elbow, and if the lock is sealed and your hand is genuinely pinned, tap early. No grip, posture, or position is worth a wrist injury from a joint with so little margin.",
+    "key_principles": [
+      "The wrist lock dies when the elbow bends — pulling your elbow toward your body unloads the joint",
+      "Never leave a stiff, straight, planted hand exposed for the opponent to pin and fold",
+      "Recognize the flexion attack early; the wrist has almost no range before injury",
+      "Keep your hands and fingers active and moving rather than posting rigidly",
+      "Free the trapped hand by retracting the whole arm, not by fighting just the wrist",
+      "If your hand is genuinely pinned and the fold is sealed, tap early rather than risk the joint",
+      "Avoid feeding posting pressure into a hand the opponent has already begun to trap"
+    ],
+    "recognition_cues": [
+      "The opponent traps and pins your posting or gripping hand flat against their chest or the mat",
+      "You feel your palm being folded down toward the inside of your own forearm",
+      "Your elbow is being framed or trapped so your arm cannot bend away",
+      "Sharp, localized pressure building in the wrist rather than the elbow or shoulder"
+    ],
+    "defensive_options": [
+      {
+        "action": "Bend the elbow and retract the trapped hand before the wrist loads",
+        "when_to_use": "The instant you feel the opponent pin your palm and begin folding it",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "You free the wrist, keep your hand, and stay in top position inside the guard",
+        "risk": "Reacting late lets the fold reach end range before the elbow can travel"
+      },
+      {
+        "action": "Posture, drive forward, and start to stack or pass to take the angle away",
+        "when_to_use": "When your guard-passing position is strong and you can pressure forward off the trapped hand",
+        "targets_outcome": "Closed Guard/Top",
+        "if_successful": "You break the opponent's attacking frame and continue toward passing the guard",
+        "risk": "Driving into a deep wrist lock can accelerate the finish if the hand is already sealed"
+      },
+      {
+        "action": "Open the hand, splay the fingers, and grip to disrupt the flat pin",
+        "when_to_use": "When the palm pin is not yet fully seated and you can change the hand's shape",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "You disperse the pressure and prevent the wrist from folding as a single unit",
+        "risk": "If the opponent re-gathers the fingers and re-seats the pin, the lock returns"
+      }
+    ],
+    "escape_paths": [
+      "Bend the elbow and pull the whole arm back to recover a free, mobile hand",
+      "Posture and drive forward to pass and remove the opponent's attacking angle",
+      "Tap early and reset if the wrist is genuinely sealed at end range"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Top",
+        "how": "Recognize the wrist attack early, posture and drive your weight forward off the trapped hand to break the opponent's attacking frame, and continue working to open and pass the closed guard."
+      },
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Bend your elbow and retract the trapped hand before the fold loads, freeing the wrist while the opponent keeps closed guard, so you reset the exchange without conceding the finish."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Leaving a stiff, straight, planted hand on the opponent for too long",
+        "consequence": "You hand the attacker a ready-made lever, and your own posting pressure pre-loads the wrist for the fold",
+        "correction": "Keep your hands active and moving, and avoid posting rigidly with a straight, exposed arm inside the guard"
+      },
+      {
+        "error": "Fighting the wrist instead of bending the elbow",
+        "consequence": "You try to muscle the wrist straight while the elbow stays extended, and the joint stays loaded and reaches end range",
+        "correction": "Bend the elbow and retract the whole arm so the forearm follows the hand and the wrist unloads"
+      },
+      {
+        "error": "Ignoring the lock until it hurts",
+        "consequence": "The wrist has almost no range, so by the time you feel sharp pain you are already at the finish with no time to react",
+        "correction": "Recognize the palm pin and folding cue early, and either escape immediately or tap before the joint is injured"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the single most reliable way to escape a wrist lock once your hand is trapped?",
+        "answer": "Bend your elbow and retract the whole arm toward your body. The wrist lock dies when the elbow bends, because your forearm then follows your hand and the joint unloads instead of reaching end range.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is leaving a straight, planted hand on a closed-guard opponent dangerous?",
+        "answer": "A stiff, posting hand is the exact lever the wrist lock attacks. Your own pushing pressure pre-loads the wrist, so the opponent only has to pin the palm and fold it toward your forearm to reach the finish quickly.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must you recognize the wrist lock early rather than waiting to feel pain?",
+        "answer": "The wrist and carpal joints have almost no range before injury, so by the time you feel sharp pain you are essentially at the finish. Early recognition of the palm pin and fold is what gives you time to escape.",
+        "safety_critical": true
+      },
+      {
+        "question": "How can changing the shape of your hand disrupt a developing wrist lock?",
+        "answer": "Splaying your fingers and gripping disperses the flat palm pin the attacker needs, preventing the wrist from folding as a single rigid unit and buying time to bend the elbow and retract the arm.",
+        "safety_critical": false
+      },
+      {
+        "question": "If your hand is genuinely pinned and the wrist is folded to end range, what should you do?",
+        "answer": "Tap early. No grip, posture, or position is worth a wrist sprain or fracture from a joint with so little margin. Tap with the free hand, foot, or voice, and reset rather than fighting a sealed lock.",
+        "safety_critical": true
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Recognition",
+        "focus": "Spotting the attack early",
+        "description": "Drill from closed guard top recognizing when a cooperative partner pins your posting hand and begins folding it, practicing the early-warning read before any real pressure is applied."
+      },
+      {
+        "phase": "Elbow-bend escape",
+        "focus": "Freeing the trapped hand",
+        "description": "Practice bending the elbow and retracting the whole arm the instant the palm is pinned, building the reflex to unload the wrist by moving the arm rather than fighting the joint."
+      },
+      {
+        "phase": "Live retention vs counter",
+        "focus": "Decision-making under resistance",
+        "description": "Spar from closed guard top against a partner hunting the wrist lock, choosing in real time whether to retract, posture and pass, or tap, while respecting safety on the small joint."
+      }
+    ]
+  }
+}

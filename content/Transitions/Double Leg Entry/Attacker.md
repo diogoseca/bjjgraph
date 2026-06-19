@@ -236,7 +236,7 @@ Successful attackers develop an acute sense of timing that allows them to recogn
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Front Headlock]] | 60% |
+| Success | [[Positions/Clinch]] | 60% |
 | Failure | [[Positions/Standing Position]] | 25% |
 | Counter | [[Positions/Closed Guard]] | 15% |
 

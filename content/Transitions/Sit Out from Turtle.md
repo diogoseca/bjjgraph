@@ -79,7 +79,8 @@ The sit out pairs effectively with other turtle escapes in a chain attack system
 | Success | [[Positions/Half Guard]] | 35% |
 | Success | [[Positions/Open Guard]] | 10% |
 | Failure | [[Positions/Turtle]] | 30% |
-| Counter | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>

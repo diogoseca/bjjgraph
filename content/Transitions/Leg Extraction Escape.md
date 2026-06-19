@@ -78,7 +78,7 @@ Strategically, this escape serves as the primary pathway out of gogoplata contro
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 65% |
 | Failure | [[Positions/Gogoplata Control]] | 25% |
-| Counter | [[Positions/Gogoplata Control]] | 10% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>

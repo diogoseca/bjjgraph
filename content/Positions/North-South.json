@@ -290,11 +290,11 @@
     "transitions": [
       {
         "transition": "North-South Choke from North-South",
-        "attempt_probability": 10
+        "attempt_probability": 18
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 9
+        "attempt_probability": 12
       },
       {
         "transition": "North-South to Kimura",
@@ -302,7 +302,7 @@
       },
       {
         "transition": "Armbar from North-South",
-        "attempt_probability": 9
+        "attempt_probability": 11
       },
       {
         "transition": "Side Control to North-South",
@@ -314,11 +314,11 @@
       },
       {
         "transition": "Knee on Belly",
-        "attempt_probability": 6
+        "attempt_probability": 8
       },
       {
         "transition": "Arm Triangle Setup",
-        "attempt_probability": 6
+        "attempt_probability": 8
       },
       {
         "transition": "Reverse Mount Transition",
@@ -331,10 +331,6 @@
       {
         "transition": "North-South Choke",
         "attempt_probability": 3
-      },
-      {
-        "transition": "Kimura from North-South",
-        "attempt_probability": 17
       }
     ],
     "flashcards": [

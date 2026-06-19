@@ -146,7 +146,7 @@ description: "Prevent the complete triangle escape as the attacking triangle hol
 
 As the person defending against the Complete Triangle Escape, you are the practitioner who has established the triangle choke and must now prevent your opponent from completing their extraction sequence. Your triangle has reached the phase where the trapped person has established defensive posture and is actively working to dismantle your submission, meaning your window for finishing the triangle through tightening alone is closing. Your defensive strategy shifts from pure finishing pressure to a combination of maintaining triangle integrity, disrupting escape mechanics at each phase, and threatening secondary attacks that punish escape attempts. Understanding the escape sequence your opponent is executing allows you to identify which phase they are in and apply the specific counter that disrupts that phase. The most effective defense combines active triangle maintenance with strategic transitions to armbar or omoplata when triangle integrity is compromised beyond recovery.
 
-**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
 

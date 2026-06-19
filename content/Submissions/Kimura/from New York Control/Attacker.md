@@ -180,7 +180,7 @@ description: "Learn to attack with the Kimura from New York Control rubber guard
 
 <section id="overview" class="content-section">
 
-Attacking with the Kimura from New York Control capitalizes on the rubber guard system's inherent arm control to create one of the most efficient shoulder lock entries available from bottom position. The deep overhook that defines New York Control provides a natural pathway to the figure-four grip, bypassing the arm isolation phase that makes traditional guard Kimura setups difficult against resisting opponents. The bottom player converts existing overhook control into the Kimura grip while maintaining active leg pressure across the opponent's back to prevent posture recovery, then uses hip escape mechanics to generate the rotational angle needed for the finish. Success depends on precise grip conversion timing, maintaining leg control throughout the transition, and applying progressive rotational pressure from an angle that maximizes mechanical advantage while minimizing the opponent's defensive leverage.
+Attacking with the Kimura from New York Control capitalizes on the rubber guard system's inherent arm control to create an opportunistic shoulder lock entry from bottom position. It is a secondary threat rather than the position's primary finish, which leads first to the gogoplata, omoplata, and triangle; the Kimura window opens when the top opponent posts heavy and leaves the overhooked arm bent and exposed. The deep overhook that defines New York Control provides a natural pathway to the figure-four grip, bypassing the arm isolation phase that makes traditional guard Kimura setups difficult against resisting opponents. The bottom player converts existing overhook control into the Kimura grip while maintaining active leg pressure across the opponent's back to prevent posture recovery, then uses hip escape mechanics to generate the rotational angle needed for the finish. Success depends on precise grip conversion timing, maintaining leg control throughout the transition, and applying progressive rotational pressure from an angle that maximizes mechanical advantage while minimizing the opponent's defensive leverage.
 
 **From Position**: [[Positions/Rubber Guard/New York Control]] (Bottom)
 
@@ -241,9 +241,9 @@ Attacking with the Kimura from New York Control capitalizes on the rubber guard 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 62% |
-| Failure | [[Positions/Rubber Guard/New York Control]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 13% |
+| Success | [[game-over]] | 42% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 43% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>

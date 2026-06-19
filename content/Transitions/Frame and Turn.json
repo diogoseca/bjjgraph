@@ -13,12 +13,12 @@
   "from_position": "Twister Control/Bottom",
   "outcomes": [
     {
-      "to": "Turtle/Top",
+      "to": "Turtle/Bottom",
       "probability": 45,
       "result": "success"
     },
     {
-      "to": "Half Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 20,
       "result": "success"
     },

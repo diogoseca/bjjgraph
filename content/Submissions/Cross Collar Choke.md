@@ -96,7 +96,7 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
 | [[Submissions/Cross Collar Choke/from 3-4 Mount|3-4 Mount]] | Top | 58% | [[Submissions/Cross Collar Choke/from 3-4 Mount/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from 3-4 Mount/Defender|Defend →]] |
-| [[Submissions/Cross Collar Choke/from Body Triangle|Body Triangle]] | Bottom | 58% | [[Submissions/Cross Collar Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Body Triangle/Defender|Defend →]] |
+| [[Submissions/Cross Collar Choke/from Body Triangle|Body Triangle]] | Top | 58% | [[Submissions/Cross Collar Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Body Triangle/Defender|Defend →]] |
 | [[Submissions/Cross Collar Choke/from Closed Guard|Closed Guard]] | Bottom | 58% | [[Submissions/Cross Collar Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Closed Guard/Defender|Defend →]] |
 | [[Submissions/Cross Collar Choke/from Invisible Collar|Invisible Collar]] | Top | 58% | [[Submissions/Cross Collar Choke/from Invisible Collar/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Invisible Collar/Defender|Defend →]] |
 | [[Submissions/Cross Collar Choke/from Knee on Belly|Knee on Belly]] | Top | 58% | [[Submissions/Cross Collar Choke/from Knee on Belly/Attacker|Attack →]] | [[Submissions/Cross Collar Choke/from Knee on Belly/Defender|Defend →]] |

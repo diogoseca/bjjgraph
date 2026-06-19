@@ -53,7 +53,7 @@ description: "Learn to attack with the Kimura from Quarter Guard top position. S
     {
       "@type": "HowToStep",
       "name": "Apply controlled rotational pressure",
-      "text": "Using hip rotation and body weight rather than arm strength alone, drive the bottom player's wrist in a paintbrush arc toward the mat behind their head. Maintain the elbow pin throughout the rotation as the shoulder enters progressively deeper internal rotation toward the submission finish.",
+      "text": "Using hip rotation and body weight rather than arm strength alone, drive the bottom player's wrist in a paintbrush arc toward the mat down by their hip and lower back, behind their body. Maintain the elbow pin throughout the rotation as the shoulder enters progressively deeper internal rotation toward the submission finish.",
       "position": 6
     },
     {
@@ -229,7 +229,7 @@ Attacking the Kimura from Quarter Guard requires integrating submission mechanic
 3. **Thread arm for figure-four grip**: Slide your crossface-side arm underneath the bottom player's trapped forearm from the outside, threading between their arm and their torso. Connect your threading hand to your own wrist that holds their wrist, establishing the complete figure-four configuration with your forearm pressing against the back of theirs. (Timing: 1-2 seconds for clean threading without rushing)
 4. **Pin the elbow to your hip**: Drive the bottom player's captured elbow tight against your hip bone using the figure-four grip, creating a fixed fulcrum point. This pinning action prevents them from straightening the arm and establishes the mechanical advantage needed for rotational finishing pressure. (Timing: Immediate after figure-four locks)
 5. **Establish finishing angle**: Shift your body weight slightly toward the bottom player's head while keeping your chest heavy on their upper body. This angle adjustment opens the rotational path needed to drive their wrist toward the mat while maintaining control over their torso and preventing escape. (Timing: 1-2 seconds for weight redistribution)
-6. **Apply controlled rotational pressure**: Using hip rotation and body weight rather than arm strength alone, drive the bottom player's wrist in a paintbrush arc toward the mat behind their head. Maintain the elbow pin throughout the rotation as the shoulder enters progressively deeper internal rotation toward the submission finish. (Timing: 3-5 seconds of slow progressive rotation in training)
+6. **Apply controlled rotational pressure**: Using hip rotation and body weight rather than arm strength alone, drive the bottom player's wrist in a paintbrush arc toward the mat down by their hip and lower back, behind their body. Maintain the elbow pin throughout the rotation as the shoulder enters progressively deeper internal rotation toward the submission finish. (Timing: 3-5 seconds of slow progressive rotation in training)
 7. **Complete the finish and release on tap**: Continue smooth progressive rotational pressure until the opponent taps. Keep your base wide and weight heavy through the final phase to resist any last-attempt bridge escapes. Release immediately upon feeling or hearing the tap signal and return the arm gently to neutral position. (Timing: Immediate release upon tap signal)
 
 

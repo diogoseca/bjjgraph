@@ -243,9 +243,9 @@ The mechanical chain requires coordinated action across your entire body: feet d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Gift Wrap]] | 55% |
-| Failure | [[Positions/Gift Wrap]] | 30% |
-| Counter | [[Positions/Back Control]] | 15% |
+| Success | [[Positions/Gift Wrap]] | 28% |
+| Failure | [[Positions/Gift Wrap]] | 47% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>

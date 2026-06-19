@@ -354,23 +354,23 @@
     "transitions": [
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 39
+        "attempt_probability": 36
       },
       {
         "transition": "Elevator Sweep",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Butterfly Guard to X-Guard",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Guillotine Choke from Butterfly Guard",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Sumi Gaeshi",
@@ -411,6 +411,10 @@
       {
         "transition": "Aoki Lock",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Butterfly Guard to Williams Guard",
+        "attempt_probability": 7
       }
     ],
     "decision_tree": [

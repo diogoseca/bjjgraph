@@ -78,7 +78,7 @@ Strategically, leg extraction escape represents the most energy-efficient defens
 |--------|----------|-------------|
 | Success | [[Positions/Open Guard]] | 45% |
 | Failure | [[Positions/Leg Entanglement]] | 35% |
-| Counter | [[Positions/Ashi Garami]] | 20% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>

@@ -65,7 +65,7 @@ This reversal represents a high-risk, high-reward option in the back defense hie
 
 Strategically, this escape works best against opponents who squeeze aggressively with the body triangle while hunting for chokes. Their focus on the submission creates momentary lapses in base maintenance, providing the window needed to execute the roll. The technique is particularly effective in no-gi where friction is reduced and rolling mechanics are more fluid.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 **Success Rate**: 48%
 
 </section>

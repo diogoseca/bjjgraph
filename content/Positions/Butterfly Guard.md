@@ -134,15 +134,15 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (39% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (36% of attempts)
 
-- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (7% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (6% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (11% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (10% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (7% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (6% of attempts)
 
-- **[[Guillotine Choke from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (7% of attempts)
+- **[[Guillotine Choke from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (6% of attempts)
 
 - **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (6% of attempts)
 
@@ -163,6 +163,8 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 - **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (2% of attempts)
 
 - **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
+
+- **[[Transitions/Butterfly Guard to Williams Guard/Attacker|Butterfly Guard to Williams Guard]]** (7% of attempts)
 
 
 ### Common Mistakes

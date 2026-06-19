@@ -384,8 +384,8 @@
         "condition": "If opponent has deep grip with full inversion and hip pressure established",
         "actions": [
           {
-            "technique": "Counter Sweep",
-            "target": "Estima Lock",
+            "technique": "Estima Lock Counter Roll",
+            "target": "50-50 Guard",
             "probability": 35
           },
           {
@@ -399,8 +399,8 @@
         "condition": "If free leg can establish hooks or frames on opponent's body",
         "actions": [
           {
-            "technique": "Counter Sweep",
-            "target": "Estima Lock",
+            "technique": "Estima Lock Counter Roll",
+            "target": "50-50 Guard",
             "probability": 45
           },
           {
@@ -501,7 +501,7 @@
         "relationship": "Core escape technique for freeing trapped foot from inverted lock"
       },
       {
-        "name": "Counter Sweep",
+        "name": "Estima Lock Counter Roll",
         "relationship": "Offensive counter option when opponent over-commits to finishing"
       },
       {
@@ -550,11 +550,7 @@
       },
       {
         "transition": "Leg Extraction",
-        "attempt_probability": 38
-      },
-      {
-        "transition": "Counter Sweep",
-        "attempt_probability": 3
+        "attempt_probability": 41
       },
       {
         "transition": "Angle Change Escape",

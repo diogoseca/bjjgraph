@@ -214,9 +214,9 @@ Both perspectives require specialized drilling and positional understanding, as 
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (22% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (28% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (13% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (18% of attempts)
 
 - **[[Americana from Reverse Scarf Hold/Attacker|Americana from Reverse Scarf Hold]]** (11% of attempts)
 
@@ -224,13 +224,11 @@ Both perspectives require specialized drilling and positional understanding, as 
 
 - **[[Transitions/Back Step/Attacker|Back Step]]** (10% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (15% of attempts)
-
 - **[[Arm Triangle from Reverse Scarf Hold/Attacker|Arm Triangle from Reverse Scarf Hold]]** (9% of attempts)
 
 - **[[Transitions/Reverse Scarf to North-South/Attacker|Reverse Scarf to North-South]]** (4% of attempts)
 
-- **[[Transitions/Reverse Scarf to Side Control/Attacker|Reverse Scarf to Side Control]]** (2% of attempts)
+- **[[Transitions/Reverse Scarf to Side Control/Attacker|Reverse Scarf to Side Control]]** (6% of attempts)
 
 - **[[North-South Choke from Reverse Scarf/Attacker|North-South Choke from Reverse Scarf]]** (2% of attempts)
 

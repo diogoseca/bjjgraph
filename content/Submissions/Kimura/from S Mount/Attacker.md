@@ -79,7 +79,7 @@ description: "Attack with the Kimura from S Mount in BJJ. Step-by-step execution
       "name": "What specific anatomical structures does the Kimura from S Mount attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Kimura from S Mount attacks the shoulder joint complex, specifically the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, the glenoid labrum, and the shoulder capsule. The rotational force created by the figure-four grip forces the humerus into external rotation past its safe range, stressing all of these structures simultaneously."
+        "text": "The Kimura from S Mount attacks the shoulder joint complex, specifically the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, the glenoid labrum, and the shoulder capsule. The rotational force created by the figure-four grip forces the humerus into internal rotation past its safe range, driving the wrist toward the lower back, stressing all of these structures simultaneously."
       }
     },
     {

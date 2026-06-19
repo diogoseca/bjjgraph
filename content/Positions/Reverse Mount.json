@@ -101,17 +101,17 @@
     ],
     "decision_tree": [
       {
-        "condition": "If opponent is relatively flat and not actively defending, assess back control opportunity",
+        "condition": "If opponent is relatively flat and not actively defending, assess the spin to standard mount",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
-            "probability": 65
-          },
-          {
-            "technique": "Side Control to Mount",
+            "technique": "Reverse Mount to Mount",
             "target": "Mount",
             "probability": 70
+          },
+          {
+            "technique": "Reverse Mount to Side Control",
+            "target": "Side Control",
+            "probability": 60
           }
         ]
       },
@@ -119,13 +119,13 @@
         "condition": "If opponent begins to bridge or create upward pressure through hips",
         "actions": [
           {
-            "technique": "Side Control to Mount",
+            "technique": "Reverse Mount to Mount",
             "target": "Mount",
             "probability": 75
           },
           {
-            "technique": "Side Control to Mount",
-            "target": "S Mount",
+            "technique": "Reverse Mount to Side Control",
+            "target": "Side Control",
             "probability": 60
           }
         ]
@@ -134,14 +134,14 @@
         "condition": "If opponent turns to either side attempting hip escape",
         "actions": [
           {
-            "technique": "Back Take",
-            "target": "Back Control",
+            "technique": "Reverse Mount to Side Control",
+            "target": "Side Control",
             "probability": 70
           },
           {
-            "technique": "Turtle to Truck",
-            "target": "Truck",
-            "probability": 50
+            "technique": "Reverse Mount to Mount",
+            "target": "Mount",
+            "probability": 55
           }
         ]
       },
@@ -149,12 +149,12 @@
         "condition": "If opponent extends arm in defensive reaction or attempts to push",
         "actions": [
           {
-            "technique": "Mount to Armbar",
+            "technique": "Armbar from Reverse Mount",
             "target": "Armbar Control",
             "probability": 55
           },
           {
-            "technique": "Side Control to Mount",
+            "technique": "Reverse Mount to Mount",
             "target": "Mount",
             "probability": 65
           }
@@ -263,36 +263,16 @@
     },
     "transitions": [
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 43
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": 26
-      },
-      {
-        "transition": "Mount to Armbar",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Turtle to Truck",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 7
-      },
-      {
         "transition": "Reverse Mount to Mount",
-        "attempt_probability": 3
+        "attempt_probability": 48
       },
       {
         "transition": "Reverse Mount to Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 27
       },
       {
         "transition": "Armbar from Reverse Mount",
-        "attempt_probability": 1
+        "attempt_probability": 25
       }
     ],
     "flashcards": [

@@ -16,7 +16,7 @@ description: "How to execute Hindulotine to Darce Choke in BJJ. Attacking perspe
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Hindulotine to Darce Choke in BJJ",
-  "description": "Step-by-step guide for executing Hindulotine to Darce Choke from Hindulotine/Top.",
+  "description": "Step-by-step guide for executing Hindulotine to Darce Choke from Hindulotine/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -184,7 +184,7 @@ From the bottom Hindulotine position, the attacker recognizes the defensive fram
 
 Strategically, this transition exemplifies the modern submission hunting approach where attackers flow between related chokes based on defensive reactions. The Hindulotine and Darce share similar positional requirements and head control mechanics, making the transition natural once the pattern recognition develops. Advanced practitioners often set up this transition deliberately by applying guillotine pressure that they know will generate the defensive frame they need for the Darce entry.
 
-**From Position**: [[Positions/Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 

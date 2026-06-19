@@ -25,7 +25,7 @@
       "result": "failure"
     },
     {
-      "to": "Ashi Garami/Top",
+      "to": "Saddle/Bottom",
       "probability": 20,
       "result": "counter"
     }
@@ -185,13 +185,13 @@
         "counter": "Opponent transitions to a deeper entanglement (inside ashi or saddle) during your extraction attempt",
         "effectiveness": "High",
         "your_response": "Abort the extraction immediately and address the new entanglement configuration. If they advance to saddle, transition to boot scoot escape. If they achieve inside ashi, reset your connection point clearing sequence for the new configuration before attempting extraction again.",
-        "targets_outcome": "Ashi Garami/Top"
+        "targets_outcome": "Saddle/Bottom"
       },
       {
         "counter": "Opponent grabs the heel during extraction when foot passes through exposed angle",
         "effectiveness": "High",
         "your_response": "Immediately straighten the leg and begin heel strip defense using two-on-one wrist control. Do not continue the extraction with their hand on your heel. The heel strip must be completed before resuming any extraction movement to prevent submission during the escape.",
-        "targets_outcome": "Ashi Garami/Top"
+        "targets_outcome": "Saddle/Bottom"
       },
       {
         "counter": "Opponent uses upper body grips to prevent you from establishing the base needed for extraction",
@@ -344,14 +344,14 @@
       {
         "action": "Advance to inside ashi or saddle during the opponent's grip-stripping phase when their hands are occupied",
         "when_to_use": "When the opponent uses both hands to strip your foot grip, their legs and hips are momentarily undefended, creating a window for advancement",
-        "targets_outcome": "Ashi Garami/Top",
+        "targets_outcome": "Saddle/Bottom",
         "if_successful": "Opponent's extraction attempt fails and they are now in a deeper entanglement with reduced escape options",
         "risk": "If the advancement is sloppy, you may lose the original entanglement without securing the deeper position"
       },
       {
         "action": "Attack the heel when it becomes momentarily exposed during the extraction movement",
         "when_to_use": "When the opponent bends the trapped knee during clearing or changes leg angle during extraction, creating brief heel exposure",
-        "targets_outcome": "Ashi Garami/Top",
+        "targets_outcome": "Saddle/Bottom",
         "if_successful": "Opponent must abandon extraction and address the immediate heel hook threat, resetting their entire escape sequence",
         "risk": "If the heel grab misses, you may have released a connection point to reach for it, facilitating their extraction"
       },
@@ -369,7 +369,7 @@
         "how": "Maintain persistent hip pressure and immediately re-pummel any cleared hooks. Follow the opponent's lateral hip movement to prevent gap creation. Control their free leg to eliminate the push-kick force. Patient retention of the existing entanglement exhausts the opponent's escape energy and preserves your attacking position."
       },
       {
-        "outcome": "Ashi Garami/Top",
+        "outcome": "Saddle/Bottom",
         "how": "Capitalize on the window created when the opponent uses both hands to strip grips by advancing to inside ashi or saddle. Alternatively, attack the heel during momentary exposure created by the opponent's extraction angle changes. Convert their escape attempt into a deeper positional problem through opportunistic advancement."
       }
     ],

@@ -63,7 +63,7 @@ Counter sweeping represents the critical defensive skill of neutralizing an oppo
 
 Against any sweep, the top player must recognize the early indicators: grip changes, hip movement, hook placement, and weight shifts that telegraph the sweep direction. By maintaining proper base principles while remaining mobile enough to follow your opponent's movement, you can either shut down the sweep entirely or use their momentum against them. From bottom position, counter sweeping involves recognizing when your opponent has committed to defending your initial sweep, creating a situation where you can chain to a secondary sweep or transition. This skill separates intermediate practitioners from advanced competitors, as it requires reading multiple layers of action and reaction simultaneously.
 
-**From Position**: [[Positions/Estima Lock Control]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Top)
 **Success Rate**: 60%
 
 </section>

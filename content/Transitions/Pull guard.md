@@ -73,7 +73,7 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Closed Guard]] | 70% |
-| Failure | [[Positions/Standing Position]] | 20% |
+| Failure | [[Positions/Standing Guard]] | 20% |
 | Counter | [[Positions/Standing Position]] | 10% |
 
 

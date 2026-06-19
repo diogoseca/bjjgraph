@@ -39,7 +39,7 @@ description: "Master Posture Recovery from Meathook in BJJ. Learn systematic gri
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Posture Recovery from Meathook",
-  "description": "Posture Recovery from Meathook is the top player's systematic escape from 10th Planet Rubber Guard's Meathook control, using rotational arm extraction and free-arm base widening to free the trapped arm, restore posture, and pass to Side Control.",
+  "description": "Posture Recovery from Meathook is the top player's systematic escape from 10th Planet Rubber Guard's Meathook control, using rotational arm extraction and free-arm base widening to free the trapped arm and restore upright posture in Closed Guard before passing.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -57,13 +57,13 @@ description: "Master Posture Recovery from Meathook in BJJ. Learn systematic gri
 
 <section id="overview" class="content-section">
 
-**Posture Recovery from Meathook is the top player's systematic escape from 10th Planet Rubber Guard's Meathook control, using rotational arm extraction and free-arm base widening to free the trapped arm, restore posture, and pass to Side Control.**
+**Posture Recovery from Meathook is the top player's systematic escape from 10th Planet Rubber Guard's Meathook control, using rotational arm extraction and free-arm base widening to free the trapped arm and restore upright posture in Closed Guard before passing.**
 
 Within the 10th Planet Rubber Guard system, the top player caught in Meathook control faces a rapidly deteriorating situation rather than a neutral exchange. When the bottom player establishes a shin hook over the trapped arm while breaking posture with collar or head control, the top player faces escalating submission threats including Gogoplata, Triangle, and Omoplata. Posture recovery represents the systematic escape methodology that addresses both arm isolation and broken posture through a carefully sequenced approach prioritizing arm extraction before posture restoration.
 
 The technique centers on rotational arm extraction mechanics combined with strategic base widening using the free arm. Unlike explosive escape attempts that often accelerate submissions by feeding into the bottom player's attack chains, posture recovery employs timed explosive movements during the bottom player's transitional moments—specifically when they shift attention from control maintenance to submission setup. The brief loosening of hook pressure during hip adjustments or grip transitions creates extraction windows that trained practitioners learn to recognize and exploit.
 
-Success leads to guard opening and Side Control passing opportunities, while failure keeps the top player trapped in Meathook's deteriorating submission web. The primary counter risk involves the bottom player taking the back during recovery attempts when the top player creates space without adequate hip control. Proper timing, rotational mechanics, and immediate posture consolidation after extraction are essential to avoid this counter. This transition integrates with the broader Rubber Guard defense system and connects to similar posture recovery sequences from other 10th Planet control positions like Carni and Mission Control.
+Success leads to recovered posture in Closed Guard top, the neutral platform from which guard opening and passing sequences begin, while failure keeps the top player trapped in Meathook's deteriorating submission web. The primary counter risk involves the bottom player taking the back during recovery attempts when the top player creates space without adequate hip control. Proper timing, rotational mechanics, and immediate posture consolidation after extraction are essential to avoid this counter. This transition integrates with the broader Rubber Guard defense system and connects to similar posture recovery sequences from other 10th Planet control positions like Carni and Mission Control.
 
 **From Position**: [[Positions/Rubber Guard/Meathook]] (Top)
 **Success Rate**: 45%
@@ -76,7 +76,7 @@ Success leads to guard opening and Side Control passing opportunities, while fai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 45% |
+| Success | [[Positions/Closed Guard]] | 45% |
 | Failure | [[Positions/Rubber Guard/Meathook]] | 35% |
 | Counter | [[Positions/Back Control]] | 20% |
 
@@ -225,7 +225,7 @@ Success leads to guard opening and Side Control passing opportunities, while fai
 
 ## Position Integration
 
-Posture Recovery from Meathook occupies a critical node in the Rubber Guard defensive system, serving as the primary escape pathway for top players caught in 10th Planet's arm isolation control chain. The transition connects backward to Meathook defense and forward to guard passing sequences through Side Control. It parallels similar posture recovery techniques from Carni, Mission Control, and other Rubber Guard controls, creating a transferable defensive skill set. Mastery of this recovery enables confident engagement with Rubber Guard players, removing the psychological advantage that Meathook's submission threats create and allowing the top player to maintain offensive pressure throughout guard passing exchanges.
+Posture Recovery from Meathook occupies a critical node in the Rubber Guard defensive system, serving as the primary escape pathway for top players caught in 10th Planet's arm isolation control chain. The transition connects backward to Meathook defense and forward to recovered Closed Guard top, the launch point for subsequent guard passing sequences. It parallels similar posture recovery techniques from Carni, Mission Control, and other Rubber Guard controls, creating a transferable defensive skill set. Mastery of this recovery enables confident engagement with Rubber Guard players, removing the psychological advantage that Meathook's submission threats create and allowing the top player to maintain offensive pressure throughout guard passing exchanges.
 
 </section>
 
@@ -237,13 +237,13 @@ Posture Recovery from Meathook occupies a critical node in the Rubber Guard defe
 
 - [[Positions/Rubber Guard/Meathook]] - Starting position where top player is trapped with broken posture and isolated arm
 
-- [[Positions/Side Control]] - Primary success target after posture recovery enables guard pass completion
+- [[Positions/Side Control]] - Downstream passing target reached after posture is recovered in Closed Guard and a separate guard pass is completed
 
 - [[Positions/Back Control]] - Counter outcome risk when bottom player takes the back during recovery attempts
 
 - [[Positions/Rubber Guard/Mission Control]] - Related Rubber Guard control position that often precedes Meathook in the attack chain
 
-- [[Positions/Closed Guard]] - Intermediate position after arm extraction where posture recovery continues before passing
+- [[Positions/Closed Guard]] - Primary success target where posture is recovered after arm extraction, before any guard pass is attempted
 
 - [[Transitions/Posture Recovery from Carni]] - Similar posture recovery technique from another Rubber Guard control position
 

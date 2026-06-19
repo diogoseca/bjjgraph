@@ -106,7 +106,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Bottom",
+      "to": "Closed Guard/Top",
       "probability": 13,
       "result": "counter"
     }
@@ -208,7 +208,7 @@
         "counter": "Opponent rolls through to guard to escape the choke and create distance",
         "effectiveness": "Medium",
         "your_response": "Maintain the grip through the roll and finish in the new position. If they recover closed guard, the arm triangle is still viable from inside guard with proper head positioning and hip pressure.",
-        "targets_outcome": "Closed Guard/Bottom"
+        "targets_outcome": "Closed Guard/Top"
       },
       {
         "counter": "Opponent extends trapped arm to remove it from the choking configuration",
@@ -356,7 +356,7 @@
       {
         "action": "Sit-through to guard recovery as attacker transitions to finishing position",
         "when_to_use": "When the attacker begins walking over or driving you to your side to finish—their weight shift creates an opening for the sit-through",
-        "targets_outcome": "Closed Guard/Bottom",
+        "targets_outcome": "Closed Guard/Top",
         "if_successful": "Recover to closed guard where the arm triangle is far more difficult to finish and you have full guard defense options",
         "risk": "If the attacker maintains the grip through the sit-through, you may end in a worse finishing position for them"
       },
@@ -376,7 +376,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Closed Guard/Bottom",
+        "outcome": "Closed Guard/Top",
         "how": "Execute a sit-through during the attacker's transition to side control, turning to face them and closing your guard before they can re-establish the choke from the new position"
       },
       {

@@ -61,9 +61,9 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework coverin
 
 The Kimura Defense represents a critical defensive skill set against one of BJJ's most versatile submissions. The kimura presents danger from virtually every position, making defensive proficiency essential for survival. Understanding proper defensive mechanics protects the shoulder joint while creating opportunities to escape or counter-attack. The defense operates on three levels: prevention (hand fighting and grip denial), early escape (before full lock completion), and late-stage survival (managing locked positions). Success requires recognizing threat stages, maintaining defensive frames, and exploiting timing windows during opponent transitions.
 
-Unlike many submission defenses that focus purely on escape, kimura defense integrates offensive transitions, as the attacker's grip commitment creates vulnerabilities. Advanced practitioners transform defensive sequences into offensive opportunities, using the opponent's kimura grip against them through rolling escapes, back takes, or sweep reversals. The transition from Kimura Trap Top most commonly leads to Half Guard recovery when the defender successfully breaks control, but failed attempts leave you trapped in the same position, and poor execution can result in the attacker consolidating to Side Control.
+Unlike many submission defenses that focus purely on escape, kimura defense integrates offensive transitions, as the attacker's grip commitment creates vulnerabilities. Advanced practitioners transform defensive sequences into offensive opportunities, using the opponent's kimura grip against them through rolling escapes, back takes, or sweep reversals. The transition from Kimura Trap Bottom most commonly leads to Half Guard recovery when the defender successfully breaks control, but failed attempts leave you trapped in the same position, and poor execution can result in the attacker consolidating to Side Control.
 
-**From Position**: [[Positions/Kimura Trap]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 **Success Rate**: 60%
 
 </section>

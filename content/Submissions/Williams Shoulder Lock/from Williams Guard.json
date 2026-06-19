@@ -1,6 +1,6 @@
 {
   "name": "Williams Shoulder Lock from Williams Guard",
-  "summary": "The Williams Shoulder Lock from Williams Guard is a bottom-position shoulder lock that traps the opponent's arm in a figure-four overhook behind the tricep and torques the glenohumeral joint into internal rotation, forcing a tap or feeding omoplata, triangle, and armbar chains.",
+  "summary": "The Williams Shoulder Lock from Williams Guard is a bottom-position shoulder lock that traps the opponent's arm in a figure-four overhook behind the tricep and torques the glenohumeral joint into external (posterior) rotation, forcing a tap or feeding omoplata, triangle, and armbar chains.",
   "description": "Master the Williams Shoulder Lock from Williams Guard. Learn finishing mechanics, grip details, defensive counters, and safety protocols for this shoulder lock.",
   "tags": [
     "bjj",
@@ -18,7 +18,7 @@
   "starting_position": "Williams Guard",
   "from_position": "Williams Guard/Bottom",
   "success_rate": 52,
-  "overview": "The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint through controlled internal rotation using the unique overhook figure-four grip inherent to the Williams Guard position. The guard player secures the opponent's arm in a figure-four configuration behind the tricep, pins the elbow against their own chest to create a rotational fulcrum, then uses hip angle and full body mechanics to generate progressive shoulder torque. This submission integrates seamlessly with the Williams Guard control system, functioning as both the primary finishing threat and the central mechanism that forces defensive reactions exploitable through sweep chains.\n\nWhat distinguishes this variant from standing or top-position shoulder locks is the mechanical integration with guard retention. The same leg frames that maintain guard structure also prevent the opponent from changing angle to relieve shoulder pressure. The opponent faces a compounding dilemma: defending the shoulder lock requires movements that feed omoplata and triangle transitions, while maintaining posture to prevent those transitions increases shoulder lock vulnerability. This creates a systematic attacking environment where each defensive choice opens specific offensive opportunities.\n\nAt the competition level, the Williams Shoulder Lock from Williams Guard functions best as the anchor of a submission chain rather than an isolated technique. The lock itself forces reactions—pulling back opens armbar, driving forward feeds omoplata, circling away creates back take opportunities. Understanding this chain logic transforms the shoulder lock from a single submission into a complete positional attacking system built around shoulder joint vulnerability and predictable defensive patterns.",
+  "overview": "The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint through controlled external (posterior) rotation using the unique overhook figure-four grip inherent to the Williams Guard position. Mechanically it shares the kimura/omoplata family direction, driving the forearm upward and rotating the humerus rearward rather than the medial direction an Americana exploits. The guard player secures the opponent's arm in a figure-four configuration behind the tricep, pins the elbow against their own chest to create a rotational fulcrum, then uses hip angle and full body mechanics to generate progressive shoulder torque. This submission integrates seamlessly with the Williams Guard control system, functioning as both the primary finishing threat and the central mechanism that forces defensive reactions exploitable through sweep chains.\n\nWhat distinguishes this variant from standing or top-position shoulder locks is the mechanical integration with guard retention. The same leg frames that maintain guard structure also prevent the opponent from changing angle to relieve shoulder pressure. The opponent faces a compounding dilemma: defending the shoulder lock requires movements that feed omoplata and triangle transitions, while maintaining posture to prevent those transitions increases shoulder lock vulnerability. This creates a systematic attacking environment where each defensive choice opens specific offensive opportunities.\n\nAt the competition level, the Williams Shoulder Lock from Williams Guard functions best as the anchor of a submission chain rather than an isolated technique. The lock itself forces reactions—pulling back opens armbar, driving forward feeds omoplata, circling away creates back take opportunities. Understanding this chain logic transforms the shoulder lock from a single submission into a complete positional attacking system built around shoulder joint vulnerability and predictable defensive patterns.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -141,7 +141,7 @@
   "attacker": {
     "name": "Williams Shoulder Lock from Williams Guard Attacker",
     "description": "Learn to attack with the Williams Shoulder Lock from Williams Guard. Step-by-step execution, grip mechanics, common counters, and training drills.",
-    "overview": "The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint through controlled internal rotation while maintaining bottom guard position. The figure-four overhook grip isolates the opponent's arm and creates progressive rotational torque that compounds as you angle your hips and engage your full body structure. Unlike standing or top shoulder locks, this bottom-position variant uses guard retention mechanics to prevent escape while simultaneously applying submission pressure, creating a scenario where the opponent must choose between defending the lock and maintaining their passing position.",
+    "overview": "The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint through controlled external (posterior) rotation while maintaining bottom guard position. The figure-four overhook grip isolates the opponent's arm and creates progressive rotational torque, driving the forearm up and the humerus rearward in the kimura/omoplata direction, that compounds as you angle your hips and engage your full body structure. Unlike standing or top shoulder locks, this bottom-position variant uses guard retention mechanics to prevent escape while simultaneously applying submission pressure, creating a scenario where the opponent must choose between defending the lock and maintaining their passing position.",
     "key_principles": [
       "Maintain figure-four overhook integrity as the foundation of all control and finishing mechanics",
       "Generate rotational pressure through hip angle and core engagement rather than arm strength alone",
@@ -174,13 +174,13 @@
       {
         "step_number": 3,
         "action": "Pin Elbow to Chest",
-        "description": "Pull the opponent's elbow tight against your sternum using the figure-four grip. This creates the fulcrum point for the shoulder lock—their elbow becomes the pivot around which their shoulder rotates internally. Without this pinning action the lock lacks sufficient mechanical advantage to generate finishing pressure.",
+        "description": "Pull the opponent's elbow tight against your sternum using the figure-four grip. This creates the fulcrum point for the shoulder lock—their elbow becomes the pivot around which their shoulder rotates externally as the forearm is driven upward. Without this pinning action the lock lacks sufficient mechanical advantage to generate finishing pressure.",
         "timing": "3-5 seconds"
       },
       {
         "step_number": 4,
         "action": "Engage Core and Begin Rotation",
-        "description": "Engage your entire posterior chain—core, hips, and legs—to begin rotating the opponent's shoulder internally. The movement is a controlled progressive squeeze rather than a sudden jerk. Think of tightening a wrench slowly as the pressure builds through your body structure rather than through arm strength alone.",
+        "description": "Engage your entire posterior chain—core, hips, and legs—to begin rotating the opponent's shoulder externally, driving the forearm upward and the humerus rearward. The movement is a controlled progressive squeeze rather than a sudden jerk. Think of tightening a wrench slowly as the pressure builds through your body structure rather than through arm strength alone.",
         "timing": "5-8 seconds"
       },
       {
@@ -192,7 +192,7 @@
       {
         "step_number": 6,
         "action": "Finish with Progressive Pressure",
-        "description": "Complete the submission by continuing gradual internal rotation while maintaining all control points. The finish comes from sustained increasing pressure not sudden force. Watch for tap signals continuously as the opponent should feel progressive discomfort building steadily with clear opportunity to tap.",
+        "description": "Complete the submission by continuing gradual external (posterior) rotation while maintaining all control points. The finish comes from sustained increasing pressure not sudden force. Watch for tap signals continuously as the opponent should feel progressive discomfort building steadily with clear opportunity to tap.",
         "timing": "8-15 seconds"
       },
       {
@@ -290,7 +290,7 @@
     "flashcards": [
       {
         "question": "What anatomical structure does the Williams Shoulder Lock primarily attack and why is it vulnerable?",
-        "answer": "The Williams Shoulder Lock primarily attacks the glenohumeral joint through forced internal rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the joint capsule. The shoulder's large range of motion makes it vulnerable to rotational locks that exceed its normal internal rotation capacity, particularly when the elbow is pinned as a fixed fulcrum point that concentrates all rotational force on the joint.",
+        "answer": "The Williams Shoulder Lock primarily attacks the glenohumeral joint through forced external (posterior) rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the joint capsule. The shoulder's large range of motion makes it vulnerable to rotational locks that exceed its normal external rotation capacity, particularly when the elbow is pinned as a fixed fulcrum point that concentrates all rotational force on the joint.",
         "safety_critical": false
       },
       {
@@ -300,7 +300,7 @@
       },
       {
         "question": "What indicators signal the shoulder lock has reached the point of no escape for the defender?",
-        "answer": "The point of no escape occurs when the opponent's elbow is firmly pinned against your chest, their shoulder has been rotated beyond approximately 70% of its internal rotation range, and your hip angle is fully set with active leg frames preventing any angle changes. At this point the opponent cannot generate enough counter-force to reverse the rotational pressure without risking injury to their shoulder structures. Their only safe option is to tap immediately.",
+        "answer": "The point of no escape occurs when the opponent's elbow is firmly pinned against your chest, their shoulder has been rotated beyond approximately 70% of its external rotation range, and your hip angle is fully set with active leg frames preventing any angle changes. At this point the opponent cannot generate enough counter-force to reverse the rotational pressure without risking injury to their shoulder structures. Their only safe option is to tap immediately.",
         "safety_critical": false
       },
       {
@@ -335,7 +335,7 @@
       },
       {
         "question": "What differentiates the Williams Shoulder Lock from a standard Americana in terms of mechanics?",
-        "answer": "The Williams Shoulder Lock applies internal rotation from bottom guard position using an overhook figure-four grip, while the Americana applies external rotation from top position using a figure-four on the wrist. The key mechanical difference is leverage direction and body positioning—the Williams Lock uses hip angle and full body engagement from bottom position, while the Americana relies on top pressure and gravity. The Williams Lock uniquely integrates guard retention with submission threat.",
+        "answer": "The Williams Shoulder Lock applies external (posterior) rotation from bottom guard position using an overhook figure-four grip, sharing the kimura/omoplata direction, while the Americana applies internal (medial) rotation from top position using a figure-four on the wrist. The key mechanical difference is rotation direction and body positioning—the Williams Lock drives the forearm up and rotates the humerus rearward using hip angle and full body engagement from bottom, while the Americana cranks the forearm down toward the mat relying on top pressure and gravity. The Williams Lock uniquely integrates guard retention with submission threat.",
         "safety_critical": false
       }
     ]
@@ -343,9 +343,9 @@
   "defender": {
     "name": "Williams Shoulder Lock from Williams Guard Defender",
     "description": "Defend the Williams Shoulder Lock from Williams Guard. Recognition cues, escape techniques, defensive options, and safety awareness for this shoulder lock.",
-    "overview": "Defending the Williams Shoulder Lock from Williams Guard requires immediate recognition of the overhook figure-four grip configuration and understanding of shoulder joint vulnerability during internal rotation. The defender must prioritize joint protection above all else—posture recovery and arm extraction are secondary to preventing the submission from reaching its mechanical breaking point. Effective defense combines proper shoulder alignment to reduce rotational vulnerability with systematic grip breaking and base recovery techniques that address the lock's structure rather than fighting its force directly. The most dangerous aspect of this submission is that it chains seamlessly into omoplata, triangle, and armbar attacks, meaning defensive actions that relieve shoulder pressure may inadvertently open alternative submission pathways.",
+    "overview": "Defending the Williams Shoulder Lock from Williams Guard requires immediate recognition of the overhook figure-four grip configuration and understanding of shoulder joint vulnerability during external (posterior) rotation. The defender must prioritize joint protection above all else—posture recovery and arm extraction are secondary to preventing the submission from reaching its mechanical breaking point. Effective defense combines proper shoulder alignment to reduce rotational vulnerability with systematic grip breaking and base recovery techniques that address the lock's structure rather than fighting its force directly. The most dangerous aspect of this submission is that it chains seamlessly into omoplata, triangle, and armbar attacks, meaning defensive actions that relieve shoulder pressure may inadvertently open alternative submission pathways.",
     "key_principles": [
-      "Protect shoulder alignment first—keep elbow close to body and prevent full internal rotation before addressing anything else",
+      "Protect shoulder alignment first—keep elbow close to body and prevent full external rotation before addressing anything else",
       "Address the grip structure through circular extraction rather than fighting the rotational force directly",
       "Maintain posture and base to prevent the guard player from establishing optimal hip angle for the lock",
       "Recognize transition triggers early since the shoulder lock chains to omoplata, triangle, and armbar",

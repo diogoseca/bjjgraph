@@ -12,7 +12,7 @@
     "leg-locks",
     "cross-ashi"
   ],
-  "from_position": "Inside Ashi-Garami/Bottom",
+  "from_position": "Inside Ashi-Garami/Top",
   "outcomes": [
     {
       "to": "Cross Ashi-Garami/Top",

@@ -13,7 +13,7 @@
   "from_position": "Standing Position/Top",
   "outcomes": [
     {
-      "to": "Front Headlock/Top",
+      "to": "Clinch/Top",
       "probability": 60,
       "result": "success"
     },
@@ -70,7 +70,7 @@
     },
     {
       "name": "Front Headlock",
-      "relationship": "Target position - primary success outcome of the entry"
+      "relationship": "Counter outcome - position reached when your shot is stuffed by a sprawl, not the primary success"
     }
   ],
   "attacker": {

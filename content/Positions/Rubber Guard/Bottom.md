@@ -21,37 +21,37 @@ description: "Master Rubber Guard bottom using the 10th Planet system. Learn Mis
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 40% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 34% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata from Rubber Guard",
-      "text": "From this position, attempt Omoplata from Rubber Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata from Rubber Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mission Control Entry from Rubber Guard",
-      "text": "From this position, attempt Mission Control Entry from Rubber Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Mission Control Entry from Rubber Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rubber Guard to Closed Guard",
-      "text": "From this position, attempt Rubber Guard to Closed Guard. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Rubber Guard to Closed Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute New York Entry from Rubber Guard",
-      "text": "From this position, attempt New York Entry from Rubber Guard. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt New York Entry from Rubber Guard. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],

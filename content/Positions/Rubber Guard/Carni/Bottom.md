@@ -21,7 +21,7 @@ description: "Master attacking from Carni position in BJJ. Advanced leg entangle
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Carni",
-      "text": "From this position, attempt Heel Hook from Carni. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Carni. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,20 +32,20 @@ description: "Master attacking from Carni position in BJJ. Advanced leg entangle
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Roll to Truck",
+      "text": "From this position, attempt Roll to Truck. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Roll to Truck",
-      "text": "From this position, attempt Roll to Truck. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Kneebar Finish",
+      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Calf Slicer from Carni",
-      "text": "From this position, attempt Calf Slicer from Carni. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Rolling Back Take",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {

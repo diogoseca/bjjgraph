@@ -241,9 +241,9 @@ Attacking with the Ezekiel Choke from inside closed guard requires precise timin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 58% |
-| Failure | [[Positions/Closed Guard]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[game-over]] | 40% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 35% |
 
 
 </section>

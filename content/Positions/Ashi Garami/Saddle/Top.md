@@ -39,7 +39,7 @@ description: "Master saddle position mechanics with systematic entries, control 
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Saddle",
-      "text": "From this position, attempt Kneebar from Saddle. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar from Saddle. This technique is attempted in 2% of exchanges from this position.",
       "position": 4
     },
     {

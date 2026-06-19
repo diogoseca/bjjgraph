@@ -12,7 +12,7 @@
     "leg-extraction",
     "pressure-passing"
   ],
-  "from_position": "Vaporizer/Top",
+  "from_position": "Lockdown/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",

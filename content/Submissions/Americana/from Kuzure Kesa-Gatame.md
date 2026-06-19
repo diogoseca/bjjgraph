@@ -39,7 +39,7 @@ description: "Master the Americana shoulder lock from Kuzure Kesa-Gatame. Comple
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Americana from Kuzure Kesa-Gatame",
-  "description": "The Americana from Kuzure Kesa-Gatame is a figure-four shoulder lock applied from the modified scarf hold, using the position's pre-trapped near arm to force internal rotation of the glenohumeral joint until the opponent taps.",
+  "description": "The Americana from Kuzure Kesa-Gatame is a figure-four shoulder lock applied from the modified scarf hold, using the position's pre-trapped near arm to force external rotation of the glenohumeral joint until the opponent taps.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -49,7 +49,7 @@ description: "Master the Americana shoulder lock from Kuzure Kesa-Gatame. Comple
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Americana from Kuzure Kesa-Gatame is a figure-four shoulder lock applied from the modified scarf hold, using the position's pre-trapped near arm to force internal rotation of the glenohumeral joint until the opponent taps.**
+**The Americana from Kuzure Kesa-Gatame is a figure-four shoulder lock applied from the modified scarf hold, using the position's pre-trapped near arm to force external rotation of the glenohumeral joint until the opponent taps.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>

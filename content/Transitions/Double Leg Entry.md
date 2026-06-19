@@ -76,7 +76,7 @@ Mastery of the double leg entry provides a reliable method for taking the fight 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Front Headlock]] | 60% |
+| Success | [[Positions/Clinch]] | 60% |
 | Failure | [[Positions/Standing Position]] | 25% |
 | Counter | [[Positions/Closed Guard]] | 15% |
 
@@ -261,7 +261,7 @@ The double leg entry serves as a foundational transition from standing engagemen
 
 - [[Transitions/Ankle Pick]] - Alternative attack - lower-risk entry option that chains well
 
-- [[Positions/Front Headlock]] - Target position - primary success outcome of the entry
+- [[Positions/Front Headlock]] - Counter outcome - position reached when your shot is stuffed by a sprawl, not the primary success
 
 
 </section>

@@ -212,15 +212,15 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (59% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (53% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (18% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (16% of attempts)
 
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (11% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (10% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (4% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (3% of attempts)
 
-- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (4% of attempts)
+- **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (3% of attempts)
 
 - **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (3% of attempts)
 
@@ -231,6 +231,8 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 - **[[Transitions/Saddle Entry from Outside Ashi/Attacker|Saddle Entry from Outside Ashi]]** (0% of attempts)
 
 - **[[Toe Hold from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (1% of attempts)
+
+- **[[Transitions/Outside Ashi to Leg Knot/Attacker|Outside Ashi to Leg Knot]]** (11% of attempts)
 
 
 ### Common Mistakes

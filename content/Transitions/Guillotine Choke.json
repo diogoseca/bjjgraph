@@ -12,7 +12,7 @@
     "guillotine",
     "entry-guide"
   ],
-  "from_position": "Guillotine Control/Top",
+  "from_position": "Guillotine Control/Bottom",
   "outcomes": [
     {
       "to": "game-over",
@@ -25,7 +25,7 @@
       "result": "failure"
     },
     {
-      "to": "Guillotine Choke",
+      "to": "Closed Guard/Bottom",
       "probability": 15,
       "result": "failure"
     },

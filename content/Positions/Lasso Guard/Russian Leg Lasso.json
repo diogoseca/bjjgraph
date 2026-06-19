@@ -424,14 +424,14 @@
         "condition": "If opponent establishes strong base and begins systematic grip breaking",
         "actions": [
           {
+            "technique": "Omoplata from Russian Leg Lasso",
+            "target": "Omoplata Control",
+            "probability": 55
+          },
+          {
             "technique": "Back Take from Bottom",
             "target": "Back Control",
             "probability": 45
-          },
-          {
-            "technique": "Armbar from Armbar Control",
-            "target": "Armbar Control",
-            "probability": 55
           }
         ]
       }

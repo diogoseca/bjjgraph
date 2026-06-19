@@ -142,7 +142,7 @@ The Kimura Defense Defender is the practitioner who holds the kimura grip from t
 
 The key challenge is maintaining the figure-four grip structure while the opponent generates movement and momentum. Rather than fighting every escape with static resistance, the defender uses dynamic pressure adjustments - walking feet for angle, switching between chest pressure and hip pressure, and leveraging the grip itself as a steering mechanism to guide the opponent into worse positions. The defender who reads escape timing and preempts defensive movement maintains offensive initiative throughout the exchange.
 
-**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Top)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 

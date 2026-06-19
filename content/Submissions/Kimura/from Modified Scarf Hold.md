@@ -39,7 +39,7 @@ description: "Master the Kimura from Modified Scarf Hold in BJJ. Complete guide 
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Kimura from Modified Scarf Hold",
-  "description": "The Kimura from Modified Scarf Hold is a figure-four shoulder lock that exploits the pin's trapped near arm, threading under it to force external rotation of the shoulder behind the opponent's back for the tap.",
+  "description": "The Kimura from Modified Scarf Hold is a figure-four shoulder lock that exploits the pin's trapped near arm, threading under it to force internal rotation of the shoulder behind the opponent's back for the tap.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -49,16 +49,16 @@ description: "Master the Kimura from Modified Scarf Hold in BJJ. Complete guide 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Kimura from Modified Scarf Hold is a figure-four shoulder lock that exploits the pin's trapped near arm, threading under it to force external rotation of the shoulder behind the opponent's back for the tap.**
+**The Kimura from Modified Scarf Hold is a figure-four shoulder lock that exploits the pin's trapped near arm, threading under it to force internal rotation of the shoulder behind the opponent's back for the tap.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
-<span class="meta-chip">Arm Lock</span>
-<span class="meta-chip">Targets Shoulder and elbow joint</span>
+<span class="meta-chip">Shoulder Lock</span>
+<span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
 <span class="meta-chip">50% success</span>
 </div>
 
 > [!danger] Safety
-> Kimura from Modified Scarf Hold targets the Shoulder and elbow joint. Primary risk: Shoulder dislocation or torn rotator cuff from excessive external rotation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+> Kimura from Modified Scarf Hold targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Shoulder dislocation or torn rotator cuff from excessive internal rotation. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -69,7 +69,7 @@ description: "Master the Kimura from Modified Scarf Hold in BJJ. Complete guide 
 
 <section id="overview" class="content-section">
 
-The Kimura from Modified Scarf Hold is a high-percentage shoulder lock that exploits the superior arm control inherent in the modified scarf hold position. The chest-to-chest pressure and near-arm entrapment characteristic of this pin create ideal conditions for isolating the opponent's arm and applying the figure-four double wrist lock to attack the shoulder through forced external rotation.
+The Kimura from Modified Scarf Hold is a high-percentage shoulder lock that exploits the superior arm control inherent in the modified scarf hold position. The chest-to-chest pressure and near-arm entrapment characteristic of this pin create ideal conditions for isolating the opponent's arm and applying the figure-four double wrist lock to attack the shoulder through forced internal rotation.
 
 This submission capitalizes on the positional advantages unique to modified scarf hold. The bottom player's near arm is already partially compromised by the pinning mechanics, requiring minimal positional adjustment to secure the kimura grip. The attacker transitions from control to attack by threading under the trapped arm, establishing the figure-four grip, and using a combination of hip pressure and rotational force to walk the wrist behind the opponent's back. The mechanic is particularly effective because the chest pressure limits the defender's ability to create space, sit up, or generate the frames needed to prevent arm isolation.
 
@@ -141,7 +141,7 @@ The Kimura from Modified Scarf Hold appears frequently in both gi and no-gi comp
 
 - **Walk the wrist behind the opponent's back**: Begin rotating their forearm behind their back by walking the wrist in small controlled increments t...
 
-- **Apply finishing rotational pressure**: Continue the external rotation until you meet significant resistance from the shoulder joint reachin...
+- **Apply finishing rotational pressure**: Continue the internal rotation until you meet significant resistance from the shoulder joint reachin...
 
 - **Secure the tap and release safely**: Maintain finishing pressure until the opponent signals submission through verbal or physical tap. On...
 
@@ -267,12 +267,12 @@ The Kimura from Modified Scarf Hold appears frequently in both gi and no-gi comp
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
-| Shoulder dislocation or torn rotator cuff from excessive external rotation | CRITICAL | 3-6 months, may require surgical repair |
+| Shoulder dislocation or torn rotator cuff from excessive internal rotation | CRITICAL | 3-6 months, may require surgical repair |
 | Torn shoulder labrum from rotational force exceeding joint range of motion | High | 4-8 months, often requires arthroscopic surgery |
 | Elbow hyperextension or ligament sprain from combined rotational and extension force | Medium | 2-6 weeks with rest and rehabilitation |
 
 
-**Application Speed**: SLOW and progressive. The shoulder joint has limited external rotation range and injuries occur rapidly once that range is exceeded. Never jerk, spike, or explosively crank the kimura. Apply steady, incremental pressure and give your partner time to recognize and signal submission.
+**Application Speed**: SLOW and progressive. The shoulder joint has limited internal rotation range and injuries occur rapidly once that range is exceeded. Never jerk, spike, or explosively crank the kimura. Apply steady, incremental pressure and give your partner time to recognize and signal submission.
 
 **Tap Signals**:
 - Verbal tap (saying 'tap' or any distress signal)

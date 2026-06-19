@@ -154,7 +154,7 @@ description: "How to defend against Chair Sit to Back in BJJ. Recognition cues, 
 
 Defending the chair sit to back take requires early recognition and immediate action before the attacker can establish their seatbelt grip. Once the attacker threads their blocking leg across your thigh and sits into the chair position, your defensive options become progressively more limited. The key defensive window exists between the moment you feel the leg threading across your thigh and the moment the seatbelt grip connects. During this window, explosive movement in the correct direction can prevent the back take entirely. Your defensive priorities are preventing the seatbelt grip from being established, disrupting the attacker's base through directional movement, and either returning to a strong turtle or creating a scramble that resets the position. Understanding which defensive reactions lead to favorable outcomes versus which reactions the attacker is prepared to exploit is critical for making effective choices under pressure.
 
-**Opponent's Starting Position**: [[Positions/Matrix]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 

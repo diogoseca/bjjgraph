@@ -26,8 +26,8 @@ description: "How to defend against Basic Butterfly Sweep in BJJ. Recognition cu
     },
     {
       "@type": "HowToStep",
-      "name": "Sprawl hips back explosively to disengage hooks and create distance, removing the fulcrum point",
-      "text": "When you feel opponent loading both hooks and pulling your upper body forward - sprawl before the hook drive reaches full extension If successful: Hooks disengage from your thighs, removing the elevation mechanism entirely. You reset to a neutral top position with distance advantage and can re-engage with standing passing or pressure passing approach",
+      "name": "Sprawl hips back explosively to disengage the hook and create distance, removing the fulcrum point",
+      "text": "When you feel opponent loading the hook and pulling your upper body forward - sprawl before the hook drive reaches full extension If successful: Hooks disengage from your thighs, removing the elevation mechanism entirely. You reset to a neutral top position with distance advantage and can re-engage with standing passing or pressure passing approach",
       "position": 2
     },
     {
@@ -152,7 +152,7 @@ description: "How to defend against Basic Butterfly Sweep in BJJ. Recognition cu
 
 <section id="overview" class="content-section">
 
-Defending the Basic Butterfly Sweep requires understanding the mechanical principles that make the technique work so you can systematically deny each one. The sweep relies on three coordinated elements: hooks providing elevation, grips providing rotational pull, and hip angle creating directional force. As the defender (top player in butterfly guard), your primary objective is to deny at least one of these elements while maintaining your base and advancing your passing position. Effective butterfly sweep defense is not merely reactive but proactive, using posture management, grip fighting, and base awareness to prevent the sweep conditions from being established in the first place.
+Defending the Basic Butterfly Sweep requires understanding the mechanical principles that make the technique work so you can systematically deny each one. The sweep relies on three coordinated elements: the single butterfly hook providing elevation on the free-leg side, grips and the underhook providing rotational pull, and hip angle creating directional force. As the defender (top player in half butterfly), your primary objective is to deny at least one of these elements while maintaining your base and advancing your passing position. Effective butterfly sweep defense is not merely reactive but proactive, using posture management, grip fighting, and base awareness to prevent the sweep conditions from being established in the first place.
 
 The defensive hierarchy against the butterfly sweep prioritizes prevention over reaction. First, deny dominant grips through active hand fighting to prevent the sweeper from establishing the upper body control needed to pull you off-balance. Second, maintain strong posture with hips back and chest up to keep your weight from committing forward over the opponent's hooks. Third, if the sweep is initiated, post immediately on the sweeping side with your hand or foot to create a structural brace that prevents the rotation. Fourth, if you cannot prevent the sweep, control the descent and scramble to recover top position or establish a neutral position before the sweeper consolidates.
 
@@ -202,28 +202,28 @@ Advanced defenders recognize that aggressive butterfly sweep defense creates its
 ### 1. Post hand firmly on the mat on the sweeping side to create structural brace against rotation
 
 - **When to use**: As soon as you feel elevation beginning under one leg and upper body pull in one direction - the earlier the post, the more effective
-- **Targets**: [[Positions/Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: Sweep is stopped and you maintain top position. The posted hand creates a tripod base that prevents the rotational force from completing. You can then re-establish passing posture and work to clear hooks
 - **Risk**: Posted arm becomes vulnerable to kimura attack or opponent switches sweep direction to exploit the committed posting side
 
-### 2. Sprawl hips back explosively to disengage hooks and create distance, removing the fulcrum point
+### 2. Sprawl hips back explosively to disengage the hook and create distance, removing the fulcrum point
 
-- **When to use**: When you feel opponent loading both hooks and pulling your upper body forward - sprawl before the hook drive reaches full extension
-- **Targets**: [[Positions/Butterfly Guard]]
+- **When to use**: When you feel opponent loading the hook and pulling your upper body forward - sprawl before the hook drive reaches full extension
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: Hooks disengage from your thighs, removing the elevation mechanism entirely. You reset to a neutral top position with distance advantage and can re-engage with standing passing or pressure passing approach
 - **Risk**: Creates distance that opponent can use to transition to X-guard, single leg X-guard, or technical standup if you do not immediately re-engage
 
 ### 3. Step one leg over the sweeping hook to establish headquarters position and neutralize that hook
 
 - **When to use**: When opponent commits to angling for the sweep on one side, creating an opening to step the targeted leg over their hook before the drive initiates
-- **Targets**: [[Positions/Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: You neutralize the primary sweeping hook and establish headquarters position with one leg free, creating immediate half guard passing opportunities and removing the sweep threat from that side
 - **Risk**: Opponent transitions to single leg X-guard or reverse De La Riva on the remaining hooked leg if you do not immediately advance to passing
 
 ### 4. Drive forward with heavy cross-face pressure while pinning the sweeping-side underhook to flatten opponent
 
 - **When to use**: When opponent is still setting up grips and has not yet created the hip angle - use preemptive pressure to deny the seated posture they need
-- **Targets**: [[Positions/Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: Opponent is flattened onto their back, losing the upright posture essential for butterfly sweep mechanics. Their hooks lose elevation power and you can begin pressure passing sequences
 - **Risk**: If opponent has strong underhooks established, driving forward feeds directly into their sweep by providing the forward weight commitment they need
 
@@ -237,13 +237,13 @@ Advanced defenders recognize that aggressive butterfly sweep defense creates its
 
 <p class="section-subtitle">What is the best outcome when defending Basic Butterfly Sweep?</p>
 
-### → [[Positions/Butterfly Guard]]
+### → [[Positions/Butterfly Guard/Half Butterfly]]
 
-Deny the sweep through posting, grip fighting, or sprawling to maintain your top position while the opponent retains butterfly guard. From here you can continue working your passing game with the advantage of having disrupted their offensive rhythm.
+Deny the sweep through posting, grip fighting, or sprawling to maintain your top position while the opponent retains half butterfly. From here you can continue working your passing game with the advantage of having disrupted their offensive rhythm.
 
-### → [[Positions/Butterfly Guard]]
+### → [[Positions/Butterfly Guard/Half Butterfly]]
 
-Counter the sweep attempt by stepping over a hook to establish headquarters, smashing their butterfly structure flat, or using their commitment against them by timing a guard pass during their sweep attempt. This advances your position from neutral engagement to active passing.
+Counter the sweep attempt by stepping over the hook to establish headquarters, smashing their half-butterfly structure flat, or using their commitment against them by timing a guard pass during their sweep attempt. This advances your position from neutral engagement to active passing.
 
 
 

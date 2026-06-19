@@ -71,7 +71,7 @@ description: "Master Toe Hold from Top in BJJ. Complete guide with safety protoc
 
 Few submissions reward positional control as directly as the Toe Hold from Top, where dominant top pressure in a leg entanglement is converted into a fight-ending rotational foot lock. This technique is particularly effective from various top leg entanglement positions including Ashi Garami, Outside Ashi, and 50-50 Guard. The toe hold creates a combined rotational and hyperextension force on the ankle while placing significant stress on the knee's medial collateral ligament (MCL), making it one of the most versatile and dangerous leg attacks in modern Brazilian Jiu-Jitsu.
 
-Unlike straight ankle locks that primarily target the Achilles tendon, the toe hold's rotational component affects multiple joint structures simultaneously, which is why it requires extremely careful application in training. The submission works by controlling the opponent's leg with your legs (typically in an Ashi Garami configuration) while your arms create a figure-four grip around the foot. The finishing mechanism involves pulling the heel toward you while rotating the toe away from the opponent's centerline, creating a spiraling pressure that attacks both the ankle's lateral ligaments and the knee's MCL.
+Unlike straight ankle locks that primarily target the Achilles tendon, the toe hold's rotational component affects multiple joint structures simultaneously, which is why it requires extremely careful application in training. The submission works by controlling the opponent's leg with your legs (typically in an Ashi Garami configuration) while your arms create a figure-four grip around the foot. The finishing mechanism involves pulling the heel toward you while rotating the toe toward the opponent's centerline (internal/medial rotation), creating a spiraling pressure that attacks both the ankle's lateral ligaments and the knee's MCL.
 
 The toe hold's effectiveness comes from its ability to be applied from dominant top positions where you maintain postural control and can prevent the opponent from rolling or countering. This makes it a favored attack for competitors who specialize in leg lock systems, as it can be seamlessly integrated into sequences with heel hooks, knee bars, and ankle locks. Understanding the proper safety protocols and progressive training methodology is absolutely essential, as the toe hold can cause severe ankle and knee injuries if applied with competition speed or intensity during practice sessions.
 
@@ -117,7 +117,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 - Establish the figure-four grip with proper hand placement: palm-to-palm or gable grip, never finger-locked which can cause hand injuries
 
-- Control the heel by pulling it toward your chest while simultaneously rotating the toe away from opponent's centerline - this creates the dual-axis pressure
+- Control the heel by pulling it toward your chest while simultaneously rotating the toe toward opponent's centerline (medial/internal rotation) - this creates the dual-axis pressure
 
 - Keep your hips close to opponent's hip to prevent them from creating distance and relieving pressure on the ankle and knee
 
@@ -141,7 +141,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 - **Initiate heel pull toward your chest**: Begin pulling the opponent's heel toward your chest by flexing your arms, as if performing a bicep c...
 
-- **Apply external rotation to the toe**: While maintaining the heel pull, begin rotating the toe away from opponent's centerline by turning y...
+- **Apply medial rotation to the toe**: While maintaining the heel pull, begin rotating the toe toward opponent's centerline (medial/interna...
 
 - **Combine heel pull and rotation for finish**: The final finishing phase involves simultaneously pulling the heel toward your chest while continuin...
 
@@ -195,7 +195,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 - Attacker drives their hips forward into yours while adjusting to a perpendicular angle relative to your trapped leg - this indicates they are positioning for optimal finishing leverage
 
-- You feel your heel being pulled toward the attacker's chest combined with initial rotational pressure turning your toes away from your centerline
+- You feel your heel being pulled toward the attacker's chest combined with initial rotational pressure turning your toes toward your centerline (medial/inward rotation)
 
 - Attacker's elbows tighten against their torso as they compact the figure-four grip - this indicates imminent finishing pressure application
 

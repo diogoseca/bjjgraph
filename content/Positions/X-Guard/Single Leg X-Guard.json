@@ -582,11 +582,11 @@
     "transitions": [
       {
         "transition": "Single Leg X Sweep",
-        "attempt_probability": 22
+        "attempt_probability": 18
       },
       {
         "transition": "Ashi Entry from Leg Entanglement",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Single Leg X Entry",
@@ -594,11 +594,11 @@
       },
       {
         "transition": "Technical Stand Up to Single Leg",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Butterfly Guard to X-Guard",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "De La Riva to X-Guard Transition",
@@ -606,11 +606,11 @@
       },
       {
         "transition": "Ankle Pick Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Standing to Single Leg X",
@@ -618,15 +618,23 @@
       },
       {
         "transition": "Heel Grab Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "SLX to Ashi Garami",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "SLX to X-Guard",
-        "attempt_probability": 5
+        "attempt_probability": 4
+      },
+      {
+        "transition": "Single Leg X-Guard to Inside Sankaku",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Single Leg X to Estima Lock",
+        "attempt_probability": 8
       }
     ],
     "flashcards": [

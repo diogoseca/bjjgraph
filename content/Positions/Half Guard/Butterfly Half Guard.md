@@ -139,19 +139,17 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 ### Available Transitions
 
 
-- **[[Transitions/100% Sweep/Attacker|100% Sweep]]** (33% of attempts)
+- **[[Transitions/100% Sweep/Attacker|100% Sweep]]** (36% of attempts)
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (10% of attempts)
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (6% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (8% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (8% of attempts)
 
 - **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (4% of attempts)
 
 - **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (6% of attempts)
-
-- **[[Transitions/Knee Tap/Attacker|Knee Tap]]** (5% of attempts)
 
 - **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (6% of attempts)
 

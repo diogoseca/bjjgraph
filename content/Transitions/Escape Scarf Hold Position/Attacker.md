@@ -238,9 +238,10 @@ As the attacker executing the Escape from Scarf Hold Position, your objective is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 25% |
 | Success | [[Positions/Turtle]] | 10% |
-| Failure | [[Positions/Side Control/Scarf Hold Position]] | 40% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 35% |
 | Counter | [[Positions/Mount]] | 15% |
 
 

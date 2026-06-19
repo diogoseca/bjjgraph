@@ -139,21 +139,15 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (14% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (22% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (12% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (16% of attempts)
 
-- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (26% of attempts)
+- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (30% of attempts)
 
-- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (12% of attempts)
+- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (16% of attempts)
 
-- **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** (12% of attempts)
-
-- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (10% of attempts)
-
-- **[[Transitions/Crackhead Control to New York/Attacker|Crackhead Control to New York]]** (8% of attempts)
-
-- **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (6% of attempts)
+- **[[Transitions/Posture Recovery to Closed Guard/Attacker|Posture Recovery to Closed Guard]]** (16% of attempts)
 
 
 ### Common Mistakes

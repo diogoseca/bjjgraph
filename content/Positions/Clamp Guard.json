@@ -54,7 +54,7 @@
   ],
   "top": {
     "name": "Clamp Guard Top",
-    "description": "Master Clamp Guard in BJJ. Complete guide to trapping opponent's arm with shin-on-bicep control for armbars, triangles, omoplatas, and sweeps. Effective in no-gi.",
+    "description": "Escape Clamp Guard in BJJ. Complete guide for the trapped passer to defend the clamp, extract the arm, posture up, and stack-pass to side control. Effective no-gi.",
     "tags": [
       "bjj",
       "position",
@@ -65,34 +65,34 @@
       "submissions",
       "limb-isolation"
     ],
-    "overview": "Clamp Guard is an open guard variation where the guard player traps one of the opponent's arms between their legs, typically positioning one shin across the opponent's bicep while the other leg clamps from the opposite side. This creates a powerful controlling mechanism that isolates the arm and generates direct submission pathways to armbars, triangles, and omoplatas while simultaneously threatening sweeps.\n\nThe position is particularly effective in no-gi grappling and MMA because it does not rely on gi grips for control. The leg clamp provides structural control through bone-on-bone mechanics rather than friction. The trapped arm creates an asymmetric situation where the opponent has only one free arm to base, post, and defend, while the guard player has both hands free plus the leg clamp for control. This asymmetry is the foundation of the position's offensive power.\n\nClamp Guard operates on the principle of limb isolation. By removing one arm from the opponent's defensive framework, every subsequent attack becomes higher percentage. The position rewards creative guard players who can maintain the clamp under dynamic movement while cycling through submission and sweep threats. From the top player's perspective, the position demands immediate arm extraction because it only deteriorates with time — every second the arm remains trapped allows the guard player to deepen control and set up increasingly dangerous attacks.",
+    "overview": "From the top of Clamp Guard, you are the passer whose arm has been trapped between the guard player's legs, with one of their shins pressing across your bicep and the other leg clamping from the opposite side. Your entire game from here is defensive-to-offensive: extract the trapped arm and convert your standing or kneeling base into a pass before the bottom player can deepen the clamp and chain armbars, triangles, and omoplatas.\n\nThis is a position that only gets worse the longer you stay in it, so urgency is everything. The guard player has both hands free plus the leg clamp, while you have only one free arm to base, frame, and fight grips. Do not stall or try to muscle the trapped arm straight out against the clamp — that plays directly into the armbar and triangle entries. Instead, win the grip-fight on your own wrist, circle the elbow to the path of least resistance, and use your free hand and your base to break the clamp's structure.\n\nThe two primary tools from the top are arm extraction and the stack pass. Arm extraction reclaims the trapped limb by stripping the shin off your bicep — pin the bottom player's clamping knee to the mat, posture your shoulders up and over, and slide the elbow free along their thigh while keeping your spine straight. The stack pass attacks the position structurally: drive your weight forward and stack the bottom player onto their shoulders, which folds their hips, kills the clamp's leverage, and lets you walk the trapped arm free as you pass to side control. Throughout, keep your posture tall, your base wide, and your trapped-side shoulder driving into the bottom player so they cannot create the angle they need to finish.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Low to Medium",
+      "position_type": "Defensive with offensive options",
+      "risk_level": "Medium to High",
       "energy_cost": "Medium",
-      "time_sustainability": "Medium"
+      "time_sustainability": "Short"
     },
     "state_invariants": [
-      "One of the opponent's arms is trapped between the guard player's legs with shin pressing across the bicep, isolating it from their defensive framework",
-      "The other leg reinforces the trap by clamping from the opposite side, creating bilateral pressure that prevents simple arm withdrawal from the position",
-      "Both hands of the guard player remain free for grip fighting, controlling the opponent's posture, and initiating submissions or sweeps independently",
-      "Hips are angled relative to the opponent's torso, creating the leverage needed for submissions and maintaining clamp integrity against extraction attempts"
+      "One of your arms is trapped between the bottom player's legs with their shin pressed across your bicep, leaving you only one free arm to base, frame, and fight grips",
+      "The bottom player's second leg clamps from the opposite side, creating bilateral pressure that prevents you from simply yanking the trapped arm straight back out of the position",
+      "Your posture and base are the priority — keeping your spine straight and your knees wide denies the bottom player the broken posture and angle they need to finish armbars or triangles",
+      "The position decays in the bottom player's favor over time, so you must commit to extracting the arm or stacking to pass rather than stalling inside the clamp"
     ],
     "prerequisites": [
-      "Understanding of shin-on-bicep mechanics and how to establish the clamp from various open guard positions",
-      "Knowledge of armbar, triangle, and omoplata entries from arm isolation configurations",
-      "Hip mobility sufficient to maintain angles and adjust clamp positioning under dynamic opponent movement",
-      "Ability to coordinate leg clamp maintenance with independent hand-based grip fighting and submission setups"
+      "Recognition that your arm has been trapped in the clamp and an understanding of which direction the bottom player intends to attack",
+      "Knowledge of arm-extraction mechanics — pinning the clamping knee and sliding the elbow free along the bottom player's thigh",
+      "Stacking and pressure-passing fundamentals to fold the bottom player's hips and collapse the clamp's leverage",
+      "Base, posture, and framing skills sufficient to deny the bottom player the angle needed for armbar, triangle, or omoplata entries"
     ],
     "key_principles": [
-      "Shin-across-bicep positioning is the foundation — maintain active pressure on the trapped arm at all times to prevent extraction",
-      "Both hands remain free for grip fighting, submission setups, and sweep assistance, creating a numerical advantage",
-      "Angle your hips away from the trapped arm to maximize clamp leverage and create optimal submission angles",
-      "Use the opponent's extraction attempts as triggers for submission entries rather than fighting statically to hold the clamp",
-      "Cycle between armbar, triangle, and omoplata based on extraction direction — the opponent's defense chooses your attack",
-      "Maintain hip connection to prevent opponent from stepping over or disengaging from the clamp entirely",
-      "Clamp depth determines offensive options — deeper clamp enables armbar, shallower positioning enables triangle entry"
+      "Posture first — keep your spine straight and head up; a broken posture is what feeds the bottom player's armbar and triangle finishes",
+      "Win the grip-fight on your own trapped wrist before trying to move the elbow, denying the bottom player the wrist control they need to break you down",
+      "Pin the clamping knee to the mat to neutralize the bottom player's hip elevation before attempting to extract the arm",
+      "Circle the trapped elbow toward the path of least resistance rather than pulling it straight back against the full clamp",
+      "Treat time as the enemy — commit to extraction or a stack pass early, because the clamp only deepens the longer you remain in it",
+      "Drive your trapped-side shoulder forward into the bottom player to kill the angle they need to finish any submission",
+      "When the clamp is too strong to strip directly, stack the bottom player onto their shoulders to fold their hips and collapse the leverage"
     ],
     "transitions": [
       {
@@ -106,117 +106,117 @@
     ],
     "decision_tree": [
       {
-        "condition": "If opponent attempts to pull their trapped arm straight back to escape the clamp",
+        "condition": "If the bottom player has a shallow clamp and has not yet broken your posture down",
         "actions": [
           {
-            "technique": "Armbar from Clamp Guard",
-            "target": "Armbar Control",
+            "technique": "Arm Extraction from Clamp Guard",
+            "target": "Open Guard",
+            "probability": 65
+          },
+          {
+            "technique": "Stack Pass from Clamp Guard",
+            "target": "Side Control",
+            "probability": 35
+          }
+        ]
+      },
+      {
+        "condition": "If the bottom player elevates their hips and angles off to finish an armbar or triangle",
+        "actions": [
+          {
+            "technique": "Stack Pass from Clamp Guard",
+            "target": "Side Control",
             "probability": 60
           },
           {
-            "technique": "Hip Bump Sweep",
-            "target": "Mount",
+            "technique": "Arm Extraction from Clamp Guard",
+            "target": "Open Guard",
             "probability": 40
           }
         ]
       },
       {
-        "condition": "If opponent circles their arm outward trying to slip past the shin-on-bicep pressure",
+        "condition": "If you can pin the clamping knee to the mat and posture up tall over the bottom player",
         "actions": [
           {
-            "technique": "Triangle Setup",
-            "target": "Triangle Control",
-            "probability": 55
+            "technique": "Arm Extraction from Clamp Guard",
+            "target": "Open Guard",
+            "probability": 70
           },
           {
-            "technique": "Closed Guard to Omoplata",
-            "target": "Omoplata Control",
-            "probability": 50
+            "technique": "Stack Pass from Clamp Guard",
+            "target": "Side Control",
+            "probability": 30
           }
         ]
       },
       {
-        "condition": "If opponent drives forward into the clamp to close distance and nullify submission angles",
+        "condition": "If the bottom player flattens to their back and the clamp is too tight to strip directly",
         "actions": [
           {
-            "technique": "Scissor Sweep",
-            "target": "Mount",
-            "probability": 55
+            "technique": "Stack Pass from Clamp Guard",
+            "target": "Side Control",
+            "probability": 65
           },
           {
-            "technique": "Hip Bump Sweep",
-            "target": "Mount",
-            "probability": 45
-          }
-        ]
-      },
-      {
-        "condition": "If opponent posts their free arm on the mat while attempting to extract the trapped arm",
-        "actions": [
-          {
-            "technique": "Scissor Sweep",
-            "target": "Mount",
-            "probability": 55
-          },
-          {
-            "technique": "Armbar from Clamp Guard",
-            "target": "Armbar Control",
-            "probability": 45
+            "technique": "Arm Extraction from Clamp Guard",
+            "target": "Open Guard",
+            "probability": 35
           }
         ]
       }
     ],
     "common_errors": [
       {
-        "error": "Maintaining flat hips instead of angling toward the trapped arm side during clamp retention",
-        "consequence": "Flat hips reduce clamp leverage and make submissions mechanically weaker, allowing the opponent to extract more easily with direct pulling force",
-        "correction": "Angle your hips approximately 30-45 degrees toward the trapped arm side to create the leverage angle needed for both clamp maintenance and submission entries"
+        "error": "Pulling the trapped arm straight back out of the clamp against full bilateral pressure",
+        "consequence": "Yanking straight back fights the clamp at its strongest point and feeds the bottom player the arm extension they need to lock an armbar",
+        "correction": "Circle the elbow toward the path of least resistance and strip the shin off the bicep at an angle while pinning the clamping knee, rather than fighting the clamp head-on"
       },
       {
-        "error": "Allowing the clamp to slide from the bicep down to the forearm or wrist during opponent movement",
-        "consequence": "The forearm and wrist are smaller and easier to extract from the clamp, drastically reducing control and eliminating most submission options",
-        "correction": "Maintain shin-on-bicep positioning by adjusting your hip angle and leg height as the opponent moves, and re-establish the clamp before attacking if it slides"
+        "error": "Letting your posture break and your head get pulled down toward the bottom player's hips",
+        "consequence": "A broken posture gives the bottom player the angle and the head control they need to spin into armbars, triangles, and omoplatas",
+        "correction": "Keep your spine straight and head up, posting your free hand on the mat or on their hip to maintain a tall base while you work the extraction"
       },
       {
-        "error": "Focusing exclusively on one submission without reading the opponent's extraction direction or defensive choices",
-        "consequence": "Single-submission attacks become predictable and allow the opponent to focus all defensive effort on one threat, significantly reducing success rate",
-        "correction": "Read the extraction direction and flow to the corresponding submission: straight back equals armbar, circular equals triangle, forward drive equals sweep opportunity"
+        "error": "Stalling inside the clamp hoping the bottom player tires before committing to extract or pass",
+        "consequence": "The clamp only deepens with time, allowing the guard player to chain control upgrades and submission entries while you lose position",
+        "correction": "Commit early to either arm extraction or a stack pass; treat every second in the clamp as the position decaying against you"
       },
       {
-        "error": "Releasing the clamp prematurely to attack a submission before establishing replacement controls",
-        "consequence": "Without the clamp, submissions become much lower percentage as the opponent recovers full arm use for defense and can posture freely",
-        "correction": "Maintain the clamp until the moment you transition to the submission control position, replacing clamp control with submission-specific grips as the last step"
+        "error": "Attempting to stack-pass while your knees are narrow and your weight is on your heels",
+        "consequence": "A narrow base lets the bottom player elevate your hips and sweep you, or recover the angle to finish before you complete the stack",
+        "correction": "Widen your knees, drive your weight forward over the bottom player's hips, and stack onto their shoulders to fold their spine before walking the arm free"
       },
       {
-        "error": "Neglecting posture control with free hands and relying solely on leg clamp for position maintenance",
-        "consequence": "Opponent can posture up freely and use their height advantage to create enough leverage to power through the leg clamp and extract their arm",
-        "correction": "Use at least one free hand to control the opponent's head, collar, or far shoulder to keep their posture broken and prevent them from generating extraction leverage"
+        "error": "Ignoring the grip-fight on your own trapped wrist before trying to move the elbow",
+        "consequence": "If the bottom player controls your wrist they steer the trapped arm into the submission, and any extraction attempt simply hands them the finishing angle",
+        "correction": "Pummel and clear the wrist grip first, connecting your own hands or pinning your trapped hand to your chest, before circling the elbow to extract"
       },
       {
-        "error": "Clamping with muscular squeeze rather than using skeletal structure and hip angle for control pressure",
-        "consequence": "Muscular clamping fatigues the legs rapidly, degrading guard quality within minutes and leaving insufficient energy for submission attacks",
-        "correction": "Position your shin bone across the bicep and use hip angle to wedge the arm in place structurally, reserving muscular effort for dynamic adjustments and submission entries"
+        "error": "Standing straight up to disengage without first pinning the clamping leg or controlling the hips",
+        "consequence": "Posturing up into full arm extension while the clamp is intact loads the armbar instantly and exposes you to being swept as you rise",
+        "correction": "Control the clamping knee and keep your trapped-side shoulder driving forward before standing, so you rise without surrendering the arm or your base"
       }
     ],
     "training_drills": [
       {
-        "name": "Clamp Establishment from Open Guard",
-        "description": "From various open guard positions (collar-sleeve, feet on hips, seated), practice establishing the clamp when the opponent reaches inside your guard. Focus on timing the shin-on-bicep placement with their arm extension. 15 repetitions per side with progressive resistance from 40% to 70%.",
+        "name": "Arm Extraction Repetitions",
+        "description": "Bottom partner establishes a clamp at light resistance. Drill pinning the clamping knee, postured-up shoulder pressure, and sliding the trapped elbow free along their thigh to recover open guard on top. 15 repetitions per side, increasing resistance from 40% to 70%.",
         "duration": "10 minutes"
       },
       {
-        "name": "Reaction-Based Submission Chains",
-        "description": "Establish clamp guard. Partner attempts extraction using different methods (pull back, circle out, drive forward). React to each method with the corresponding submission or sweep. Develop the read-and-react decision making that makes clamp guard effective as a system.",
+        "name": "Stack Pass from the Clamp",
+        "description": "From a tight clamp where the arm cannot be stripped directly, drill driving forward, stacking the bottom partner onto their shoulders to fold the hips, and walking the trapped arm free to settle into side control. Emphasize wide base and forward weight.",
         "duration": "15 minutes"
       },
       {
-        "name": "Clamp Retention Under Movement",
-        "description": "Maintain the clamp while partner moves laterally, stands up, or changes angles trying to free their arm. Focus on hip adjustment and angle maintenance to keep shin-on-bicep positioning regardless of opponent movement. Progressive resistance from 40% to 80%.",
+        "name": "Posture and Base Retention",
+        "description": "Bottom partner attempts to break your posture and angle off for armbar and triangle entries while you maintain a tall spine, wide knees, and trapped-side shoulder pressure. Survive and reset without giving up the finishing angle. Progressive resistance from 40% to 80%.",
         "duration": "4 rounds of 2 minutes"
       },
       {
-        "name": "Clamp Guard Sweeps",
-        "description": "Focus specifically on sweep opportunities from clamp guard. When partner commits their free arm to post or extraction, attack with scissor sweep or hip bump. The clamp removes one base point from the opponent — drill exploiting this asymmetry through timing and angle.",
+        "name": "Read-and-React Escape Selection",
+        "description": "Partner cycles between shallow clamps, hip elevation, and flattening out. React by choosing arm extraction when the clamp is loose and the stack pass when it is tight, building the decision-making that gets you out before the submission lands.",
         "duration": "10 minutes"
       }
     ],
@@ -231,80 +231,80 @@
       },
       {
         "name": "Armbar Control",
-        "relationship": "Primary submission destination from clamp guard armbar entries"
+        "relationship": "Primary submission threat the trapped passer must defend if posture and base break down"
       },
       {
         "name": "Triangle Control",
-        "relationship": "High-percentage submission accessible from clamp angle adjustments"
+        "relationship": "Submission threat the bottom player accesses if you fail to extract or stack in time"
       },
       {
         "name": "Omoplata Control",
-        "relationship": "Tertiary submission destination when opponent circles arm outward"
+        "relationship": "Submission threat if the bottom player circles the trapped arm and you do not escape"
       },
       {
         "name": "Open Guard",
-        "relationship": "Parent guard family — clamp guard is an open guard variation"
+        "relationship": "Position recovered when the trapped passer successfully extracts the arm from the clamp"
       },
       {
         "name": "Collar Sleeve Guard",
-        "relationship": "Related open guard system that can transition into clamp guard"
+        "relationship": "Related open guard system the bottom player can transition into from clamp guard"
       },
       {
         "name": "Closed Guard",
-        "relationship": "Alternative guard if opponent closes distance past clamp range"
+        "relationship": "Guard the bottom player may close to if you close distance past clamp range"
       },
       {
         "name": "Side Control",
-        "relationship": "Position reached if top player successfully extracts and passes"
+        "relationship": "Position reached when the trapped passer successfully extracts and stack-passes"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 65,
-        "description": "Ability to maintain clamp against extraction attempts with proper hip angle and shin positioning"
+        "value": 40,
+        "description": "Ability to stabilize your posture and base inside the clamp before the bottom player breaks you down to finish"
       },
       "advancement_probability": {
-        "value": 60,
-        "description": "Likelihood of achieving sweep or submission from clamp guard due to limb isolation advantage"
+        "value": 55,
+        "description": "Likelihood of extracting the trapped arm or stacking to pass and escaping the clamp to a top position"
       },
       "submission_probability": {
-        "value": 50,
-        "description": "High submission rate due to isolated arm creating direct armbar, triangle, and omoplata pathways"
+        "value": 5,
+        "description": "Low offensive submission threat for the trapped passer — the game here is escape and pass, not finishing"
       },
-      "average_time": "30 seconds to 2 minutes before position resolves through submission, sweep, or extraction"
+      "average_time": "30 seconds to 2 minutes before the position resolves through extraction, a pass, or the bottom player's submission"
     },
     "flashcards": [
       {
-        "question": "How should you distribute your weight and angle your hips to maintain maximum clamp effectiveness against an opponent who is actively fighting to extract?",
-        "answer": "Angle your hips approximately 30-45 degrees toward the trapped arm side, keeping your weight shifted slightly onto the shoulder blade on that side rather than flat on your back. This creates a wedge effect where the shin-on-bicep pressure increases as the opponent pulls rather than decreases. Your bottom hip should be off the mat, generating structural tension through your core that maintains the clamp without relying on muscular leg squeeze. The hip angle also pre-loads your body for submission entries, meaning maintaining the position and attacking share the same biomechanical alignment."
+        "question": "Your arm has just been trapped in the clamp — what is your immediate priority before attempting anything offensive?",
+        "answer": "Establish and protect your posture before doing anything else. Keep your spine straight and your head up, because a broken posture is exactly what gives the bottom player the angle and head control to spin into armbars, triangles, and omoplatas. Post your free hand on the mat or on their near hip to build a tall, wide base, and drive your trapped-side shoulder forward into them so they cannot create the off-angle they need to finish. Only once your posture and base are stable should you begin working the extraction or the stack pass. Stalling with broken posture is the single fastest way to get submitted from this position."
       },
       {
-        "question": "What are the essential grip priorities with your free hands when maintaining clamp guard, and in what order should you establish them?",
-        "answer": "First priority is wrist or sleeve control on the trapped arm to prevent the opponent from rotating their hand and creating the angle needed for extraction. Second priority is head or collar control on the opposite side to keep the opponent's posture broken and prevent them from generating upward leverage. Third priority is far shoulder or tricep control to limit their ability to circle their body around the clamp. In no-gi, the wrist grip uses a C-clamp on the trapped hand while the other hand cups behind the neck. Never sacrifice both hand controls simultaneously — always maintain at least one grip anchor while transitioning the other."
+        "question": "Why is pulling your trapped arm straight back out of the clamp a mistake, and what should you do instead?",
+        "answer": "Pulling straight back fights the clamp at its strongest point — the bilateral leg pressure is built to resist exactly that line of force — and it feeds the bottom player the arm extension they need to lock an armbar. Instead, circle your elbow toward the path of least resistance, usually toward your own centerline or along the bottom player's thigh, and strip the shin off your bicep at an angle. Pin the clamping knee to the mat first so they cannot elevate their hips and follow your arm, then slide the elbow free. Extracting is about redirection and angle, never a straight-line tug-of-war against the clamp."
       },
       {
-        "question": "Your opponent begins rotating their trapped arm in a circular motion to slip past the shin pressure — what adjustment maintains the trap?",
-        "answer": "Follow their rotation by adjusting your hip angle in the same direction, keeping the bony edge of your shin pressed firmly across the thickest part of their bicep. As they circle outward, your hips rotate slightly further away from them, which maintains or increases shin-on-bicep contact. Simultaneously, tighten your wrist grip and pull their hand toward your hip to counter the rotational force. If their arm is already past the bicep and reaching the forearm, immediately re-hip-escape to deepen the clamp back onto the bicep before they complete the extraction. The circular escape is also the trigger for triangle entry — if re-clamping fails, shoot your leg over their shoulder."
+        "question": "How do you win the grip-fight on your own trapped wrist, and why does it matter before extracting?",
+        "answer": "If the bottom player controls your trapped wrist, they steer your arm into whichever submission they want, so clearing that grip comes first. Pummel your free hand in to connect to your own trapped hand, forming a single strong unit, or pin your trapped hand flat to your chest so the arm cannot be straightened or rotated. Pry against their thumb — the weakest point of any grip — rather than against their whole hand. Once your wrist is yours again, the bottom player loses the steering wheel on the trapped arm, and your extraction or stack pass becomes far higher percentage because they can no longer load the finishing angle."
       },
       {
-        "question": "How does shin-on-bicep pressure differ from shin-on-forearm placement, and why does this distinction matter for clamp retention?",
-        "answer": "The bicep is the thickest part of the upper arm with the largest cross-sectional diameter, making it physically difficult to slide through a tight leg clamp. Shin-on-bicep also pins the arm at its strongest structural point, meaning the opponent must overcome maximum mechanical disadvantage to extract. The forearm is progressively thinner toward the wrist, creating a natural taper that allows the arm to slip free with minimal effort. Additionally, shin-on-bicep controls the elbow joint angle, preventing the opponent from bending their arm to create extraction leverage. When the clamp slides to the forearm, it loses approximately 60% of its retention capacity and most submission setups become impossible."
+        "question": "When the clamp is too tight to strip the arm directly, how does the stack pass solve the problem?",
+        "answer": "The stack pass attacks the position structurally instead of fighting the clamp at its strongest point. Drive your weight forward and stack the bottom player onto their shoulders, folding their hips toward their own face. This collapses the leverage of the clamp — the legs can no longer generate squeezing force or elevate to finish once the hips are folded and weighted. Keep your knees wide and your base heavy as you stack, then walk the trapped arm free along their leg and pass to side control. The key is forward, downward pressure: the more you fold their spine, the less the clamp can do, and the easier the trapped arm comes out."
       },
       {
-        "question": "Your opponent suddenly drives forward aggressively while you have the clamp established — what do you anticipate and how do you adjust?",
-        "answer": "The forward drive signals either a stacking attempt to nullify your guard or an effort to close distance and strip the clamp through compression. Immediately elevate your hips by bridging slightly and pulling your knees toward your chest to absorb the forward pressure. Use one hand to push on their shoulder or hip to redirect the drive laterally rather than letting them stack you. The forward commitment removes their free arm from base — this is the optimal moment for a hip bump sweep or scissor sweep because they have only one arm available and their weight is moving forward past their center of gravity. If the drive is too powerful to redirect, transition to closed guard by wrapping your legs around their torso before they can flatten you."
+        "question": "The bottom player elevates their hips and angles off to set up an armbar — how do you survive and turn it into a pass?",
+        "answer": "Recognize the hip elevation as the armbar trigger and immediately drive your weight forward and down rather than pulling back. Posture cannot save you alone here, so transition to the stack pass: stack them onto their shoulders so their elevated hips have nowhere to go and the leverage for the armbar disappears. Keep your trapped-side shoulder pressed forward into them and your elbow tight to your body to deny the full extension the armbar needs. From the stack, follow your weight around to side control while walking the trapped arm free. Trading the extraction for a stack pass is the correct read once they have already created the finishing angle."
       },
       {
-        "question": "How do you manage energy expenditure when maintaining clamp guard against an opponent who is continuously fighting to extract for extended periods?",
-        "answer": "Use skeletal structure rather than muscular effort as the primary retention mechanism. Position the bony edge of your tibia across the bicep and use hip angle to wedge the arm in place, which requires minimal sustained muscular effort. Reserve active muscular clamping for brief moments when the opponent makes explosive extraction attempts, then immediately return to structural holding. Keep your legs heavy and relaxed between extraction attempts rather than maintaining constant squeeze tension. Alternate between threatening submissions and maintaining the clamp — each submission attempt forces the opponent to pause their extraction to defend, giving your legs recovery time while keeping them under threat."
+        "question": "Why does time work against you in the clamp, and what does that mean for your decision-making?",
+        "answer": "The clamp only deepens the longer you stay in it — every second lets the bottom player improve their grips, sharpen their angle, and chain control upgrades toward a finish, while your trapped arm fatigues and your base wears down. There is no stable holding pattern for the top player here, so stalling and hoping they tire is a losing strategy. This means you must commit early: if the clamp is shallow and your posture is intact, go for the arm extraction; if it is tight or they have already broken you down, go straight to the stack pass. Decisiveness beats caution in this position because the position itself is decaying against you."
       },
       {
-        "question": "The opponent has partially freed their arm and your shin has slid from their bicep to their forearm — how do you recover the full clamp position?",
-        "answer": "Execute an immediate hip escape away from the opponent to create the space needed to re-seat your shin back onto the bicep. As you hip escape, pull their wrist toward your hip with your hand grip to prevent further extraction during the adjustment. Simultaneously lift your clamping leg higher by driving your knee toward the ceiling, which slides your shin back up the arm from forearm to bicep. If the arm has slipped too far for re-clamping, transition immediately to the submission that the partial escape creates: a near-forearm position often opens triangle entry because the arm is partially extended, or use the space to switch to a different guard configuration like spider guard where your foot repositions on their bicep from the front."
+        "question": "How should you manage your base so the bottom player cannot sweep you while you work to escape the clamp?",
+        "answer": "Keep your knees wide and your weight centered forward over the bottom player's hips rather than rocked back onto your heels, which is the posture most vulnerable to elevation and sweeps. Post your free hand actively — on the mat, their hip, or their far knee — to create a stable tripod and to feel for sweep attempts before they develop. As you stack to pass, drive your weight down and forward so their hip elevation has nothing to lift. Avoid standing straight up into full arm extension while the clamp is intact, because rising tall both loads the armbar and momentarily narrows your base, which is the exact moment a sweep lands."
       },
       {
-        "question": "What base fundamentals prevent the opponent from simply standing up to disengage from the clamp guard entirely?",
-        "answer": "Maintain constant downward pressure on the opponent's posture through a combination of wrist grip pulling their trapped arm toward your hip and head or collar control pulling their upper body forward. This posture-breaking force prevents them from straightening their spine, which is a prerequisite for standing. Additionally, use your free leg (the non-clamping leg) as a hook behind their far knee or inside their thigh to disrupt their base and prevent the leg drive needed to stand. If they begin to posture despite your controls, immediately threaten an armbar by extending your hips — the armbar threat forces them to drop back down rather than risk the submission by standing into full arm extension."
+        "question": "If you decide to stand up to relieve the clamp pressure, how do you do it without surrendering the arm?",
+        "answer": "Never stand straight up while the clamp is locked and your arm is straight, because that loads the armbar instantly and narrows your base for a sweep. First pin the bottom player's clamping knee to the mat with your free hand to kill their hip elevation, and keep your trapped elbow bent and tight to your ribs so the arm cannot be extended. Step up to your trapped-side foot first, driving your shoulder forward into them so they cannot follow your hips, then use the standing base to slide the bent elbow free along their thigh. Standing is a tool to break the clamp's angle, but only after the knee is controlled and the arm is protected from extension."
       }
     ]
   },

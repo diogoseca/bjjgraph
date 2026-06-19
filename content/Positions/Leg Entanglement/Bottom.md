@@ -21,26 +21,38 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction Escape from Entanglement",
-      "text": "From this position, attempt Leg Extraction Escape from Entanglement. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction Escape from Entanglement. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Leg Entanglement",
-      "text": "From this position, attempt Guard Recovery from Leg Entanglement. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Leg Entanglement. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Inversion Escape from Leg Entanglement",
-      "text": "From this position, attempt Inversion Escape from Leg Entanglement. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Counter Sweep from Leg Entanglement",
+      "text": "From this position, attempt Counter Sweep from Leg Entanglement. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Counter Sweep from Leg Entanglement",
-      "text": "From this position, attempt Counter Sweep from Leg Entanglement. This technique is attempted in 20% of exchanges from this position.",
+      "name": "Execute Inversion Escape from Leg Entanglement",
+      "text": "From this position, attempt Inversion Escape from Leg Entanglement. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Counter Leg Attack",
+      "text": "From this position, attempt Counter Leg Attack. This technique is attempted in 12% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Counter-entangle to 50-50 Guard",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 10% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -202,34 +214,34 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 <p class="section-subtitle">What should you do from Leg Entanglement (Bottom)?</p>
 
-**If opponent has their knee bent and is defending by keeping their heel hidden from attack:**
-- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
-- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+**If the top attacker is still settling their entanglement and has not yet secured a heel grip or pinched the knee line:**
+- Execute **[[Transitions/Leg Extraction Escape from Entanglement/Attacker|Leg Extraction Escape from Entanglement]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
-**If opponent extends their leg trying to create distance and push away from the entanglement:**
-- Execute **[[Transitions/Kneebar/Attacker|Kneebar]]** → [[Positions/Kneebar Control]] (Probability: 70%)
-- Execute **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** → [[Positions/Ashi Garami]] (Probability: 65%)
+**If the top attacker exposes their own foot or commits a leg deep enough for you to reach a counter-grip:**
+- Execute **[[Transitions/Counter Leg Attack/Attacker|Counter Leg Attack]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 55%)
+- Execute **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** → [[Submissions/Inside Heel Hook]] (Probability: 45%)
 
 
-**If opponent's heel becomes exposed with proper inside or outside positioning established:**
-- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
+**If the top attacker drives forward and loads weight over you while hunting the heel exposure:**
+- Execute **[[Transitions/Counter Sweep from Leg Entanglement/Attacker|Counter Sweep from Leg Entanglement]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Inversion Escape from Leg Entanglement/Attacker|Inversion Escape from Leg Entanglement]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
-**If opponent turns away from you exposing their back to escape the leg entanglement:**
-- Execute **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** → [[Positions/Back Control]] (Probability: 75%)
-- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 60%)
+**If the top attacker straightens and extends your captured leg trying to isolate the knee or ankle:**
+- Execute **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** → [[Positions/Kneebar Control]] (Probability: 45%)
+- Execute **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 40%)
 
 
-**If opponent successfully clears the knee line and begins to escape the entanglement:**
-- Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** → [[Positions/Open Guard]] (Probability: 45%)
+**If the top attacker secures a strong configuration and the safest read is to neutralize into a symmetric exchange:**
+- Execute **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
+- Execute **[[Transitions/Counter Leg Attack/Attacker|Counter Leg Attack]]** → [[Positions/Ashi Garami]] (Probability: 40%)
 
 
-**If both practitioners have equal entanglement creating neutral bilateral control:**
-- Execute **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 60%)
-- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
+**If the top attacker over-rotates or loses hip connection while chasing the finish, opening an escape lane:**
+- Execute **[[Transitions/Inversion Escape from Leg Entanglement/Attacker|Inversion Escape from Leg Entanglement]]** → [[Positions/Butterfly Guard]] (Probability: 50%)
+- Execute **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 

@@ -158,7 +158,7 @@ The critical defensive window exists between the moment the attacker withdraws t
 
 Defensive success depends heavily on maintaining awareness of the attacker's leg positioning even while defending other threats. The attacker will typically precede the threading attempt with an ankle lock or heel hook threat designed to absorb your defensive attention. Recognizing this pattern allows you to allocate defensive resources appropriately: enough attention to the submission threat to survive it, while preserving awareness and physical positioning to deny the threading attempt that follows.
 
-**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 

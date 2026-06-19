@@ -4,7 +4,7 @@
 
 ---
 title: "Body Triangle Top | BJJ Position Guide | BJJ Graph"
-description: "Defend and escape body triangle position in BJJ. Strategic guide covering breathing management, triangle clearing, and systematic escape sequences."
+description: "Master body triangle from bottom perspective. Powerful leg control creating breathing restriction and submission setups with high retention and finishing rates."
 ---
 
 
@@ -20,38 +20,38 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Rear Naked Choke from Body Triangle",
+      "text": "From this position, attempt Rear Naked Choke from Body Triangle. This technique is attempted in 41% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Armbar from Back Transition",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Clear to Side",
-      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 49% of exchanges from this position.",
+      "name": "Execute Bow and Arrow Choke from Body Triangle",
+      "text": "From this position, attempt Bow and Arrow Choke from Body Triangle. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Short Choke from Body Triangle",
+      "text": "From this position, attempt Short Choke from Body Triangle. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take Reversal",
-      "text": "From this position, attempt Rolling Back Take Reversal. This technique is attempted in 2% of exchanges from this position.",
+      "name": "Execute Back Control to Crucifix",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Back Control Maintenance",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -67,42 +67,42 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What happens if you panicking from breathing restriction and attempting explosive scrambling without technical precision?",
+      "name": "What happens if you locking triangle too high on torso near shoulders instead of around lower ribs and diaphragm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wastes precious energy while under breathing restriction, creates submission opportunities for opponent, and fails to address structural problem of the triangle lock The correct approach is: Maintain calm mental state, control breathing with measured breaths, and work systematically on clearing triangle using technical approach rather than athletic scrambling"
+        "text": "Reduces breathing restriction effectiveness, allows opponent more mobility, and makes it easier for them to defend neck and clear the position The correct approach is: Lock triangle around lower ribcage and diaphragm area, ensuring maximum breathing restriction and body control while limiting opponent's ability to expand their chest"
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you focusing exclusively on clearing triangle while completely neglecting neck protection?",
+      "name": "What happens if you failing to secure proper figure-four lock with foot shallow behind knee?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent capitalizes on your distraction with triangle to sink in rear naked choke or other neck attacks, finishing submission while you work on leg position The correct approach is: Maintain constant neck protection with chin tucked and hands defending neck throughout escape process, only exposing neck when absolutely necessary for clearing attempts"
+        "text": "Triangle becomes loose and can be cleared with hip movement, losing the position entirely and allowing opponent to escape back control The correct approach is: Thread foot deep behind your own knee and squeeze legs together actively, creating tight unbreakable lock that cannot be opened through standard escape techniques"
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you attempting to power out of triangle lock with pure strength and muscle?",
+      "name": "What happens if you positioning hips directly on opponent's back instead of beside them on mat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Exhausts your muscles under breathing restriction without breaking properly locked figure-four configuration, leaving you depleted for actual escape attempts and increasing submission danger The correct approach is: Use technical clearing methods that attack the mechanics of the triangle lock, finding weakness in foot position behind knee rather than attempting to overpower locked structure"
+        "text": "Creates unstable base that can be rolled over, reduces squeezing power, and makes it difficult to generate proper leverage for chokes The correct approach is: Keep hips on mat beside opponent with chest on their back, allowing you to post with hip and generate maximum squeezing pressure while maintaining stable base"
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you staying flat on your back and not attempting to turn into opponent or create angles?",
+      "name": "What happens if you neglecting upper body control while focusing only on leg lock?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to maintain optimal back control indefinitely, maximizes effectiveness of triangle pressure, and provides them comfortable position to hunt submissions without defensive pressure The correct approach is: Constantly work to turn your shoulders toward opponent, create angles that reduce triangle effectiveness, and threaten to face them which forces them to adjust control"
+        "text": "Opponent can defend neck easily, work to clear triangle without interference, or even counter-attack with reversals and escapes The correct approach is: Maintain active upper body control with seatbelt, collar grips, or over-under while legs create lower body immobilization, creating complete control of opponent's body"
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if you giving up mentally from discomfort and accepting the position as inescapable?",
+      "name": "What happens if you constant maximum squeezing without strategic application of pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Guarantees eventual submission as opponent works systematically through their attack options while you provide no defensive resistance or escape attempts The correct approach is: Maintain fighting mentality despite discomfort, recognizing that body triangle has technical escape solutions and opponent's position requires energy to maintain submission attempts"
+        "text": "Wastes your energy unnecessarily, causes leg fatigue, and allows opponent to adapt to constant pressure level and work calmly on escapes The correct approach is: Use pulsing pressure or strategic squeezing at key moments, conserving energy while keeping opponent uncomfortable and preventing them from settling into defensive rhythm"
       }
     }
   ]
@@ -115,7 +115,7 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Body Triangle Top",
-  "description": "Defend and escape body triangle position in BJJ. Strategic guide covering breathing management, triangle clearing, and systematic escape sequences.",
+  "description": "Master body triangle from bottom perspective. Powerful leg control creating breathing restriction and submission setups with high retention and finishing rates.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -157,11 +157,11 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
 
 <section id="overview" class="content-section">
 
-From the top perspective in Body Triangle Position, you are the defender who is being controlled from the back with your opponent's legs locked in a triangle configuration around your torso. This is one of the most challenging defensive positions in Brazilian Jiu-Jitsu, as the body triangle provides your opponent exceptional control while restricting your breathing and limiting your escape options. Unlike standard back control with hooks, the triangle lock cannot be cleared through simple hip movement, requiring systematic approach and mental composure under significant physical and psychological pressure.
+From the top perspective in Body Triangle Position, you are the attacker who has secured back control and locked your legs in a triangle configuration around your opponent's torso. This is one of the most dominant positions in Brazilian Jiu-Jitsu, offering exceptional control with minimal energy expenditure while creating tremendous pressure and multiple submission pathways. Your legs create a figure-four lock that cannot be cleared through standard escape techniques, while your upper body is free to hunt for finishing attacks.
 
-The primary challenge of this position is the breathing restriction created by the triangle squeezing your ribcage and diaphragm. This creates genuine physiological stress that compounds over time, forcing you to work urgently while potentially causing panic. Your opponent's legs create a locked structure that prevents hip rotation and limits your ability to turn into them or create escape angles. Meanwhile, their upper body is free to attack your neck and arms without concern for maintaining leg positioning, creating a multi-layered defensive challenge.
+The mechanical advantage of the body triangle is substantial - by crossing one leg over the other and tucking the foot behind your own knee, you create a locked structure that restricts your opponent's breathing and prevents hip rotation. Unlike standard back control with hooks, which requires constant adjustment and can be cleared through systematic hip movement, the body triangle represents a static mechanical lock that grows tighter as the opponent attempts to escape. The breathing restriction is not merely uncomfortable but creates genuine physiological stress that compounds over time, forcing your opponent to work urgently and often make defensive mistakes.
 
-Successful defense from body triangle top requires calm breathing management, systematic clearing of the triangle lock, and protection of your neck throughout the escape process. You must work methodically despite the discomfort, using specific techniques to create space, attack the locked leg configuration, and eventually turn into your opponent or extract yourself from back control entirely. Elite defenders view this position as a temporary problem to be solved through technical precision rather than explosive scrambling. Understanding the mechanics of how the triangle creates pressure allows you to find weaknesses in the lock and systematically dismantle your opponent's control before advancing to neck attacks.
+From this top position, you maintain constant chest-to-back pressure while your hips are positioned beside your opponent on the mat, creating a stable base that prevents them from rolling you over. Your upper body focuses on collar grips, seatbelt control, or other configurations that threaten the neck and arms, while your legs maintain unwavering lower body control. The position is particularly effective in both gi and no-gi contexts, with the breathing restriction creating the same psychological and physical pressure regardless of the ruleset. Elite practitioners view the body triangle as both a holding pattern for point accumulation and a launching platform for high-percentage submissions.
 
 </section>
 
@@ -171,9 +171,9 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 <p class="section-subtitle">What is Body Triangle (Top)?</p>
 
-- Opponent's legs are locked in figure-four triangle configuration around your torso, creating constant squeezing pressure on your ribcage and diaphragm that restricts breathing and prevents hip rotation, forcing you to work urgently for escape
-- Opponent's chest is positioned tight against your back with minimal space between their torso and yours, maintaining chest-to-back connection that limits your ability to turn into them or create distance for escape initiation
-- Your back is exposed to opponent with their upper body controlling you through collar grips, seatbelt configuration, or other upper body controls that threaten your neck while you must simultaneously address the breathing restriction from the triangle
+- Your legs are locked in a figure-four triangle configuration around opponent's torso, with one leg crossing over the other and the foot tucked securely behind your own knee, creating constant squeezing pressure on their ribcage and diaphragm that restricts breathing and prevents hip rotation
+- Your chest is positioned tight against opponent's back with minimal space between your torso and theirs, maintaining chest-to-back connection that prevents them from turning into you or creating distance while allowing you to feel their movement and breathing patterns
+- Your hips are positioned on the mat beside opponent's hips rather than directly on their back, allowing you to generate leverage for the squeeze, adjust the angle of pressure, and maintain a stable base that prevents them from rolling you over or creating escape angles
 
 
 </section>
@@ -184,11 +184,11 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 <p class="section-subtitle">What do you need before playing Body Triangle (Top)?</p>
 
-- Opponent has successfully achieved back control position with access to your back
-- Opponent has locked their legs in triangle configuration around your torso at sufficient height to create breathing restriction
-- Your back is exposed and opponent maintains chest-to-back connection preventing easy turning
-- Opponent has established upper body control threatening your neck or arms
-- You are experiencing breathing restriction and psychological pressure from the triangle squeeze
+- Successful achievement of back control position with access to opponent's back and ability to secure upper body grips
+- Sufficient leg length and flexibility to lock triangle around opponent's torso at appropriate height
+- Opponent's body positioned to allow one leg to cross their centerline without excessive resistance
+- Control of opponent's upper body to prevent them from countering or defending during triangle setup phase
+- Space created between you and opponent to thread leg across their torso and establish secure lock
 
 
 </section>
@@ -199,13 +199,13 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 <p class="section-subtitle">What are the key principles for attacking from Body Triangle?</p>
 
-- Breathing Management: Control your breathing despite restriction, taking measured breaths and avoiding panic that wastes energy and clouds judgment
-- Systematic Approach: Work methodically to clear triangle rather than explosive scrambling that wastes energy without solving the structural problem
-- Neck Protection Priority: Protect your neck throughout escape process as opponent will increase submission attempts when feeling triangle threatened
-- Triangle Mechanics Understanding: Identify how the triangle creates pressure to find weaknesses in the lock and attack the figure-four configuration
-- Distance Control: Generate space between your body and opponent's legs to reduce pressure and create opportunity for clearing attempts
-- Hip Movement: Despite triangle's hip rotation prevention, use whatever limited hip mobility remains to create angles for escape
-- Energy Conservation: Avoid constant maximum effort, instead using precise technique at key moments to avoid exhaustion under breathing restriction
+- Triangle Lock Security: Ensure proper figure-four configuration with foot locked deep behind knee, creating unbreakable connection that cannot be cleared with hip movement
+- Breathing Restriction Mechanics: Position triangle around lower ribs and diaphragm to maximize breathing restriction and create psychological urgency
+- Upper Body Attack Integration: Use leg control to free your hands for aggressive submission hunting without concern for positional maintenance
+- Energy Conservation: Maintain position with minimal effort, using pulsing pressure rather than constant maximum squeeze to conserve stamina
+- Hip Positioning: Keep hips on mat beside opponent for leverage and stability rather than directly on their back where you can be rolled
+- Pressure Modulation: Apply strategic squeezing at key moments rather than constant maximum pressure to prevent adaptation and fatigue
+- Angle Adjustment: Use hip movement to change squeeze angle and attack different areas of ribcage based on opponent's defensive reactions
 
 
 </section>
@@ -216,24 +216,24 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 <p class="section-subtitle">What should you do from Body Triangle (Top)?</p>
 
-**If opponent has tight triangle with maximum pressure and aggressive neck attacks:**
-- Execute **[[Protect neck with chin down and hands/Attacker|Protect neck with chin down and hands]]** → [[Positions/Back Control/Body Triangle]] (Probability: 80%)
-- Execute **[[Focus on breathing management/Attacker|Focus on breathing management]]** → [[Positions/Back Control/Body Triangle]] (Probability: 75%)
+**If opponent is defensive with hands protecting neck and not attempting to clear triangle:**
+- Execute **[[Increase squeeze pressure gradually/Attacker|Increase squeeze pressure gradually]]** → [[Positions/Back Control/Body Triangle]] (Probability: 70%)
+- Execute **[[Work for collar grips systematically/Attacker|Work for collar grips systematically]]** → [[game-over]] (Probability: 60%)
 
 
-**If you create space between your body and opponent's legs:**
-- Execute **[[Attack the figure-four lock/Attacker|Attack the figure-four lock]]** → [[Positions/Turtle]] (Probability: 45%)
-- Execute **[[Work to turn into opponent/Attacker|Work to turn into opponent]]** → [[Positions/Half Guard]] (Probability: 40%)
+**If opponent reaches back to attack triangle lock or grab your legs:**
+- Execute **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 55%)
 
 
-**If opponent's triangle lock is loosening or not optimally positioned:**
-- Execute **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
-- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 48%)
+**If opponent attempts to turn into you to escape:**
+- Execute **[[Submissions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
 
 
-**If you have cleared triangle completely but opponent maintains upper body control:**
-- Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
-- Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 45%)
+**If opponent turtles or rolls forward trying to clear position:**
+- Execute **[[Maintain triangle and take mount/Attacker|Maintain triangle and take mount]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Release and reset back control/Attacker|Release and reset back control]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 
@@ -246,35 +246,35 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 <p class="section-subtitle">What mistakes should you avoid when attacking from Body Triangle?</p>
 
-### 1. Panicking from breathing restriction and attempting explosive scrambling without technical precision
+### 1. Locking triangle too high on torso near shoulders instead of around lower ribs and diaphragm
 
-- ❌ **Consequence**: Wastes precious energy while under breathing restriction, creates submission opportunities for opponent, and fails to address structural problem of the triangle lock
-- ✅ **Correction**: Maintain calm mental state, control breathing with measured breaths, and work systematically on clearing triangle using technical approach rather than athletic scrambling
+- ❌ **Consequence**: Reduces breathing restriction effectiveness, allows opponent more mobility, and makes it easier for them to defend neck and clear the position
+- ✅ **Correction**: Lock triangle around lower ribcage and diaphragm area, ensuring maximum breathing restriction and body control while limiting opponent's ability to expand their chest
 
-### 2. Focusing exclusively on clearing triangle while completely neglecting neck protection
+### 2. Failing to secure proper figure-four lock with foot shallow behind knee
 
-- ❌ **Consequence**: Opponent capitalizes on your distraction with triangle to sink in rear naked choke or other neck attacks, finishing submission while you work on leg position
-- ✅ **Correction**: Maintain constant neck protection with chin tucked and hands defending neck throughout escape process, only exposing neck when absolutely necessary for clearing attempts
+- ❌ **Consequence**: Triangle becomes loose and can be cleared with hip movement, losing the position entirely and allowing opponent to escape back control
+- ✅ **Correction**: Thread foot deep behind your own knee and squeeze legs together actively, creating tight unbreakable lock that cannot be opened through standard escape techniques
 
-### 3. Attempting to power out of triangle lock with pure strength and muscle
+### 3. Positioning hips directly on opponent's back instead of beside them on mat
 
-- ❌ **Consequence**: Exhausts your muscles under breathing restriction without breaking properly locked figure-four configuration, leaving you depleted for actual escape attempts and increasing submission danger
-- ✅ **Correction**: Use technical clearing methods that attack the mechanics of the triangle lock, finding weakness in foot position behind knee rather than attempting to overpower locked structure
+- ❌ **Consequence**: Creates unstable base that can be rolled over, reduces squeezing power, and makes it difficult to generate proper leverage for chokes
+- ✅ **Correction**: Keep hips on mat beside opponent with chest on their back, allowing you to post with hip and generate maximum squeezing pressure while maintaining stable base
 
-### 4. Staying flat on your back and not attempting to turn into opponent or create angles
+### 4. Neglecting upper body control while focusing only on leg lock
 
-- ❌ **Consequence**: Allows opponent to maintain optimal back control indefinitely, maximizes effectiveness of triangle pressure, and provides them comfortable position to hunt submissions without defensive pressure
-- ✅ **Correction**: Constantly work to turn your shoulders toward opponent, create angles that reduce triangle effectiveness, and threaten to face them which forces them to adjust control
+- ❌ **Consequence**: Opponent can defend neck easily, work to clear triangle without interference, or even counter-attack with reversals and escapes
+- ✅ **Correction**: Maintain active upper body control with seatbelt, collar grips, or over-under while legs create lower body immobilization, creating complete control of opponent's body
 
-### 5. Giving up mentally from discomfort and accepting the position as inescapable
+### 5. Constant maximum squeezing without strategic application of pressure
 
-- ❌ **Consequence**: Guarantees eventual submission as opponent works systematically through their attack options while you provide no defensive resistance or escape attempts
-- ✅ **Correction**: Maintain fighting mentality despite discomfort, recognizing that body triangle has technical escape solutions and opponent's position requires energy to maintain submission attempts
+- ❌ **Consequence**: Wastes your energy unnecessarily, causes leg fatigue, and allows opponent to adapt to constant pressure level and work calmly on escapes
+- ✅ **Correction**: Use pulsing pressure or strategic squeezing at key moments, conserving energy while keeping opponent uncomfortable and preventing them from settling into defensive rhythm
 
-### 6. Reaching back to grab or attack opponent's legs without proper strategy
+### 6. Crossing leg over opponent's centerline on wrong side of body
 
-- ❌ **Consequence**: Exposes your arms to armbar attacks and crucifix transitions while failing to effectively clear the triangle, creating multiple submission dangers simultaneously
-- ✅ **Correction**: Only attack triangle lock with specific technical clearing sequences that protect your arms, using proper frames and leverage rather than reaching back blindly
+- ❌ **Consequence**: Creates weak triangle configuration that opponent can escape by turning, reduces control effectiveness, and may expose you to counter techniques
+- ✅ **Correction**: Study proper leg positioning for each body triangle variation, ensuring crossing leg traps opponent on correct side and creates maximum immobilization of their hips
 
 
 
@@ -286,32 +286,32 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 <p class="section-subtitle">How do you train Body Triangle attacks?</p>
 
-### Breathing Under Pressure Drill
+### Triangle Lock Drill
 
-Partner locks body triangle with moderate pressure. Practice maintaining calm breathing, taking measured breaths, and working technically on escape without panic. Partner gradually increases pressure as your comfort improves. Develops mental composure under physical stress.
-
-**Duration**: 3-minute rounds
-
-
-### Triangle Clearing Technique Drill
-
-Start with partner's body triangle locked. Practice specific technical sequences for clearing the figure-four lock, attacking the foot position behind knee, creating space, and eventually opening the triangle. Partner provides resistance but allows successful technique. Work both sides.
+Partner starts in back control with hooks. Practice transitioning to body triangle on both sides, focusing on threading leg across, securing deep figure-four lock, and maintaining position against resistance. Work both sides equally.
 
 **Duration**: 5 minutes each side
 
 
-### Escape Flow from Body Triangle
+### Submission Flow from Body Triangle
 
-Partner locks body triangle and attempts submissions at 50% intensity. Practice full escape sequences from initial neck protection through triangle clearing to final position achievement (turtle, half guard, standing). Focus on systematic progression through escape steps.
+Start in established body triangle position. Partner defends but doesn't escape. Practice flowing between rear naked choke, armbar setups, bow and arrow attempts, and other submissions while maintaining triangle throughout. Focus on using leg pressure to create submission opportunities.
 
 **Duration**: 6 minutes
 
 
-### Defensive Positioning Under Triangle
+### Triangle Retention Against Escapes
 
-Partner maintains body triangle while you focus exclusively on optimal defensive positioning - chin protection, hand fighting, creating angles to reduce pressure. No escape attempts, only defensive management. Develops positional awareness and defensive fundamentals.
+Start in body triangle. Partner uses full effort to escape using approved techniques (hip escapes, rolls, clearing attempts). You must maintain triangle lock and upper body control without finishing submissions. Develops retention skills and pressure management.
 
-**Duration**: 4 minutes
+**Duration**: 3-minute rounds
+
+
+### Squeeze Pressure Control Drill
+
+In body triangle position, practice applying different levels of squeeze pressure from 0-100%. Partner provides feedback on breathing restriction. Learn to conserve energy with minimal squeeze while keeping opponent uncomfortable, then spike pressure at strategic moments.
+
+**Duration**: 5 minutes
 
 
 
@@ -326,11 +326,11 @@ Partner maintains body triangle while you focus exclusively on optimal defensive
 
 | Metric | Rate |
 |--------|------|
-| Retention Rate | 38% |
-| Advancement Probability | 48% |
-| Submission Probability | 40% |
+| Retention Rate | 78% |
+| Advancement Probability | 68% |
+| Submission Probability | 60% |
 
-**Average Time in Position**: 1-3 minutes depending on skill level and opponent's submission timing
+**Average Time in Position**: 2-4 minutes depending on opponent's escape urgency and your submission timing
 
 
 </section>
@@ -339,15 +339,14 @@ Partner maintains body triangle while you focus exclusively on optimal defensive
 
 ## Related Positions and Techniques
 
-- **[[Positions/Back Control]]** - Parent position opponent is controlling you from
-- **[[Positions/Turtle]]** - Common escape target position from body triangle
-- **[[Positions/Half Guard]]** - Alternative escape target achieving guard recovery
-- **[[Transitions/Frame and Shrimp to Guard]]** - Key escape movement pattern for creating space and recovering guard
-- **[[Transitions/Granby Roll to Guard]]** - Advanced escape technique from body triangle control
-- **[[Transitions/Hip Escape to Turtle]]** - Primary escape transition from body triangle
-- **[[Transitions/Standing up in Base]]** - Alternative escape path to standing position
-- **[[Submissions/Rear Naked Choke]]** - Primary submission threat you must defend during escape
-- **[[Transitions/Back Door Escape]]** - Systematic back escape sequence applicable after clearing triangle
+- **[[Positions/Back Control]]** - Parent position - standard back control without triangle lock
+- **[[Submissions/Rear Naked Choke]]** - Primary submission transition from this position
+- **[[Transitions/Armbar from Back Transition]]** - High-percentage submission when opponent defends neck
+- **[[Submissions/Bow and Arrow Choke]]** - Gi-specific submission utilizing triangle control
+- **[[Positions/Crucifix]]** - Transition target when opponent reaches back
+- **[[Positions/Twister Control/Truck]]** - Advanced transition option from body triangle
+- **[[Transitions/Body Triangle Lock]]** - Transition to establish this position from standard hooks
+- **[[Transitions/Kimura from Back]]** - Alternative submission when opponent defends collar and neck
 
 
 </section>

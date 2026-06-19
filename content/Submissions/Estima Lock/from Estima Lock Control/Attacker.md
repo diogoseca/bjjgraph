@@ -4,7 +4,7 @@
 
 ---
 title: "Estima Lock from Estima Lock Control Attacker | BJJ Submission Guide | BJJ Graph"
-description: "Learn to execute the Estima Lock finish from Estima Lock control. Step-by-step guide covering grip mechanics, rotational pressure, and competition strategy."
+description: "Learn to execute the Estima Lock finish from Estima Lock control. Step-by-step guide covering grip mechanics, dorsiflexion pressure, and competition strategy."
 ---
 
 
@@ -41,19 +41,19 @@ description: "Learn to execute the Estima Lock finish from Estima Lock control. 
     {
       "@type": "HowToStep",
       "name": "Drive hips forward into calf fulcrum",
-      "text": "Initiate the finish by driving your hips forward and slightly downward into the opponent's calf. This hip drive serves as the primary power source for the submission by creating the fulcrum point that converts your grip tension into rotational force on the ankle joint. The hip pressure prevents the opponent from retracting their leg.",
+      "text": "Initiate the finish by driving your hips forward and slightly downward into the opponent's calf. This hip drive serves as the primary power source for the submission by creating the fulcrum point that converts your grip tension into upward dorsiflexion force on the ankle joint. The hip pressure prevents the opponent from retracting their leg.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Apply progressive rotational pressure",
-      "text": "With the fulcrum established, begin rotating the foot toward the opponent's body by tightening the figure-four grip while maintaining hip drive. The rotation should be gradual and controlled, increasing by small increments rather than jerking. Feel for the resistance point where the ankle ligaments engage and pressure becomes mechanically significant.",
+      "name": "Apply progressive dorsiflexion pressure",
+      "text": "With the fulcrum established, begin driving the forefoot upward toward the opponent's shin by tightening the figure-four grip while maintaining hip drive. The dorsiflexion should be gradual and controlled, increasing by small increments rather than jerking. Feel for the resistance point where the ankle ligaments engage and pressure becomes mechanically significant.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Coordinate final dorsiflexion",
-      "text": "At the resistance point, coordinate a final increase in both hip drive and grip rotation simultaneously. The combined dorsiflexion and rotation creates the distinctive Estima Lock pressure on the talocrural joint. Maintain this pressure steadily rather than pulsing—constant force is more effective and safer than repeated spikes of pressure.",
+      "text": "At the resistance point, coordinate a final increase in both hip drive and grip tightening simultaneously. The combined upward forefoot drive and fulcrum pressure creates the distinctive Estima Lock dorsiflexion on the talocrural joint. Maintain this pressure steadily rather than pulsing—constant force is more effective and safer than repeated spikes of pressure.",
       "position": 6
     },
     {
@@ -79,7 +79,7 @@ description: "Learn to execute the Estima Lock finish from Estima Lock control. 
       "name": "What anatomical structures does the Estima Lock primarily attack and through what mechanical action?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Estima Lock attacks the talocrural joint (ankle) and surrounding ligament structures including the deltoid ligament complex and talofibular ligaments through combined dorsiflexion and rotational force. The inverted foot orientation positions these structures under mechanical disadvantage, and the forearm fulcrum across the dorsal surface of the foot creates the lever system that produces submission pressure on the joint capsule and supporting ligaments."
+        "text": "The Estima Lock attacks the talocrural joint (ankle) and surrounding ligament structures including the deltoid ligament complex and talofibular ligaments through forced dorsiflexion—driving the forefoot upward over the forearm fulcrum rather than rotating it like a toe hold. The inverted foot orientation positions these structures under mechanical disadvantage, and the forearm fulcrum across the dorsal surface of the foot creates the lever system that produces submission pressure on the joint capsule and supporting ligaments."
       }
     },
     {
@@ -87,7 +87,7 @@ description: "Learn to execute the Estima Lock finish from Estima Lock control. 
       "name": "What role does the hip fulcrum play in the finishing mechanics and what happens if it disengages?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The hip pressure against the opponent's calf creates the primary fulcrum point that converts grip tension into rotational force on the ankle. Without this fulcrum, the submission becomes a pure pulling motion with dramatically reduced mechanical advantage. If the hip fulcrum disengages due to opponent's free leg push or your own positional drift, the lock immediately loses finishing power and the opponent can retract their leg or counter-rotate to neutralize the angle. Re-establishing hip contact is the first priority before continuing any finishing pressure."
+        "text": "The hip pressure against the opponent's calf creates the primary fulcrum point that converts grip tension into upward dorsiflexion force on the ankle. Without this fulcrum, the submission becomes a pure pulling motion with dramatically reduced mechanical advantage. If the hip fulcrum disengages due to opponent's free leg push or your own positional drift, the lock immediately loses finishing power and the opponent can retract their leg or flatten the foot to neutralize the angle. Re-establishing hip contact is the first priority before continuing any finishing pressure."
       }
     },
     {
@@ -103,7 +103,7 @@ description: "Learn to execute the Estima Lock finish from Estima Lock control. 
       "name": "What physical indicators tell you the submission has reached the point of no escape for the defender?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The point of no escape is indicated by the forearm fulcrum being fully seated across the mid-foot with no slack in the figure-four grip, the opponent's heel locked immobile in the crook of your grip hand, hip pressure maintaining continuous contact with their calf eliminating retraction space, and the opponent's free leg either controlled or unable to create sufficient frame pressure to displace your hips. When all four of these conditions are simultaneously met and you feel resistance through the ankle ligaments during rotation, the mechanical completion is imminent."
+        "text": "The point of no escape is indicated by the forearm fulcrum being fully seated across the mid-foot with no slack in the figure-four grip, the opponent's heel locked immobile in the crook of your grip hand, hip pressure maintaining continuous contact with their calf eliminating retraction space, and the opponent's free leg either controlled or unable to create sufficient frame pressure to displace your hips. When all four of these conditions are simultaneously met and you feel resistance through the ankle ligaments during the dorsiflexion drive, the mechanical completion is imminent."
       }
     },
     {
@@ -132,7 +132,7 @@ description: "Learn to execute the Estima Lock finish from Estima Lock control. 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Estima Lock from Estima Lock Control Attacker",
-  "description": "Learn to execute the Estima Lock finish from Estima Lock control. Step-by-step guide covering grip mechanics, rotational pressure, and competition strategy.",
+  "description": "Learn to execute the Estima Lock finish from Estima Lock control. Step-by-step guide covering grip mechanics, dorsiflexion pressure, and competition strategy.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -180,7 +180,7 @@ description: "Learn to execute the Estima Lock finish from Estima Lock control. 
 
 <section id="overview" class="content-section">
 
-Finishing the Estima Lock from an already-established control position provides the methodical advantage of having all positional prerequisites secured before initiating the submission sequence. The figure-four grip is consolidated, hip pressure against the opponent's calf creates the fulcrum, and the opponent's foot is trapped in the inverted orientation. From here, the finishing sequence focuses on optimizing rotation angle, deepening the forearm fulcrum across the dorsal surface of the foot, and progressively applying dorsiflexion pressure through coordinated body mechanics rather than isolated arm strength. The distinction between a stalled Estima Lock and a finishing Estima Lock lies entirely in the precision of the final mechanical adjustments—small changes in forearm angle, hip pressure direction, and grip depth produce dramatic differences in submission effectiveness.
+Finishing the Estima Lock from an already-established control position provides the methodical advantage of having all positional prerequisites secured before initiating the submission sequence. The figure-four grip is consolidated, hip pressure against the opponent's calf creates the fulcrum, and the opponent's foot is trapped in the inverted orientation. From here, the finishing sequence focuses on optimizing the fulcrum angle, deepening the forearm fulcrum across the dorsal surface of the foot, and progressively applying dorsiflexion pressure through coordinated body mechanics rather than isolated arm strength. The distinction between a stalled Estima Lock and a finishing Estima Lock lies entirely in the precision of the final mechanical adjustments—small changes in forearm angle, hip pressure direction, and grip depth produce dramatic differences in submission effectiveness.
 
 **From Position**: [[Positions/Estima Lock Control]] (Top)
 
@@ -194,7 +194,7 @@ Finishing the Estima Lock from an already-established control position provides 
 <p class="section-subtitle">What are the key principles for executing Estima Lock from Estima Lock Control?</p>
 
 - Coordinate hip drive with grip tightening so that pressure increases come from body mechanics rather than forearm strength alone
-- Maintain the heel as an absolutely fixed control point throughout the finish—any heel slippage negates rotational mechanics entirely
+- Maintain the heel as an absolutely fixed control point throughout the finish—any heel slippage lets the foot flatten and negates the dorsiflexion mechanic entirely
 - Position the forearm blade perpendicular to the dorsal surface of the foot to maximize the fulcrum effect during dorsiflexion
 - Control the opponent's free leg throughout the finishing sequence to prevent defensive frames that create escape angles
 - Apply pressure progressively with clear incremental increases, allowing training partners time to recognize and signal a tap
@@ -211,7 +211,7 @@ Finishing the Estima Lock from an already-established control position provides 
 
 - Figure-four grip fully consolidated around heel and forefoot with no slack in the configuration
 - Hip pressure established against opponent's calf creating the primary fulcrum for submission mechanics
-- Opponent's foot trapped in inverted orientation with heel higher than toes and rotation angle accessible
+- Opponent's foot trapped in inverted orientation with heel higher than toes and the dorsiflexion angle accessible
 - Opponent's free leg controlled or neutralized to prevent defensive frames and escape leverage
 - Stable base established with body weight distributed through hips rather than balanced on knees
 
@@ -227,9 +227,9 @@ Finishing the Estima Lock from an already-established control position provides 
 1. **Audit grip configuration**: Before initiating finishing pressure, verify that the figure-four grip is fully seated with no slack. The controlling hand secures the heel as a fixed point while the reinforcing hand locks the forearm position. Any gap between your forearm and the top of the foot will absorb pressure and reduce effectiveness. (Timing: 2-3 seconds)
 2. **Deepen forearm fulcrum placement**: Slide the forearm blade deeper across the dorsal surface of the foot, positioning it as close to the toes as mechanically possible while maintaining grip integrity. The further toward the toes the fulcrum sits, the greater the mechanical advantage for dorsiflexion due to the increased lever arm length. (Timing: 1-2 seconds)
 3. **Neutralize the free leg**: Use your legs or body position to pin or redirect the opponent's free leg before applying finishing pressure. Their free leg is the primary tool for creating defensive frames, pushing your hips, and generating the escape angles that relieve submission pressure. Trapping it removes their strongest defensive asset. (Timing: 2-3 seconds)
-4. **Drive hips forward into calf fulcrum**: Initiate the finish by driving your hips forward and slightly downward into the opponent's calf. This hip drive serves as the primary power source for the submission by creating the fulcrum point that converts your grip tension into rotational force on the ankle joint. The hip pressure prevents the opponent from retracting their leg. (Timing: 1-2 seconds)
-5. **Apply progressive rotational pressure**: With the fulcrum established, begin rotating the foot toward the opponent's body by tightening the figure-four grip while maintaining hip drive. The rotation should be gradual and controlled, increasing by small increments rather than jerking. Feel for the resistance point where the ankle ligaments engage and pressure becomes mechanically significant. (Timing: 3-5 seconds)
-6. **Coordinate final dorsiflexion**: At the resistance point, coordinate a final increase in both hip drive and grip rotation simultaneously. The combined dorsiflexion and rotation creates the distinctive Estima Lock pressure on the talocrural joint. Maintain this pressure steadily rather than pulsing—constant force is more effective and safer than repeated spikes of pressure. (Timing: 2-3 seconds)
+4. **Drive hips forward into calf fulcrum**: Initiate the finish by driving your hips forward and slightly downward into the opponent's calf. This hip drive serves as the primary power source for the submission by creating the fulcrum point that converts your grip tension into upward dorsiflexion force on the ankle joint. The hip pressure prevents the opponent from retracting their leg. (Timing: 1-2 seconds)
+5. **Apply progressive dorsiflexion pressure**: With the fulcrum established, begin driving the forefoot upward toward the opponent's shin by tightening the figure-four grip while maintaining hip drive. The dorsiflexion should be gradual and controlled, increasing by small increments rather than jerking. Feel for the resistance point where the ankle ligaments engage and pressure becomes mechanically significant. (Timing: 3-5 seconds)
+6. **Coordinate final dorsiflexion**: At the resistance point, coordinate a final increase in both hip drive and grip tightening simultaneously. The combined upward forefoot drive and fulcrum pressure creates the distinctive Estima Lock dorsiflexion on the talocrural joint. Maintain this pressure steadily rather than pulsing—constant force is more effective and safer than repeated spikes of pressure. (Timing: 2-3 seconds)
 7. **Monitor for tap and release**: Throughout steps 5 and 6, actively monitor for any tap signal including verbal, physical hand tap, foot tap, or distress sounds. The moment any tap signal is detected, immediately release the grip and allow the foot to return to neutral position. Never apply additional pressure after a tap under any circumstances. In training, err on the side of releasing early. (Timing: Continuous throughout finish)
 
 
@@ -256,7 +256,7 @@ Finishing the Estima Lock from an already-established control position provides 
 
 - **Counter-rotating the ankle to neutralize the inverted lock angle** (Effectiveness: High) - Your Response: Deepen your forearm fulcrum placement and increase hip pressure to prevent the counter-rotation from creating slack. If they successfully neutralize the angle, transition to a toe hold by adjusting your grip to attack the now-exposed toe line. → Leads to [[Positions/Estima Lock Control]]
 - **Pushing your hips away with the free leg to break the fulcrum connection** (Effectiveness: Medium) - Your Response: Trap or redirect the free leg before it can establish a frame on your hips. Use your own legs to pin theirs, or scoot your hips forward to maintain contact against their calf despite the push. If they create significant distance, re-establish the fulcrum before continuing. → Leads to [[Positions/Estima Lock Control]]
-- **Rolling toward the trapped leg to relieve rotational pressure and recover guard** (Effectiveness: Low) - Your Response: Follow the roll while maintaining your grip and hip pressure. Their rolling motion often exposes the foot to deeper grip penetration. If they complete the roll to guard, maintain the grip and transition to a standing Estima Lock finish with gravity assistance. → Leads to [[Positions/Closed Guard]]
+- **Rolling toward the trapped leg to relieve dorsiflexion pressure and recover guard** (Effectiveness: Low) - Your Response: Follow the roll while maintaining your grip and hip pressure. Their rolling motion often exposes the foot to deeper grip penetration. If they complete the roll to guard, maintain the grip and transition to a standing Estima Lock finish with gravity assistance. → Leads to [[Positions/Closed Guard]]
 - **Grip fighting on the figure-four to strip the heel control hand** (Effectiveness: Medium) - Your Response: Squeeze your elbows tight to your body to protect the grip structure. Use your chest and shoulder to shield the grip from their hand fighting. If they break the heel control, immediately re-grip before the foot can retract, or transition to ashi garami to maintain leg control. → Leads to [[Positions/Estima Lock Control]]
 
 
@@ -275,7 +275,7 @@ Finishing the Estima Lock from an already-established control position provides 
 
 ### 2. Allowing the heel to slip during the finishing sequence
 
-- **Consequence**: Complete loss of the rotational mechanic since the heel serves as the fixed point around which all submission force is organized
+- **Consequence**: Complete loss of the dorsiflexion mechanic since the heel serves as the fixed point around which all submission force is organized
 - **Correction**: Before initiating finishing pressure, verify the heel is deeply seated in the crook of your grip hand. If slippage occurs mid-finish, pause the pressure increase to re-seat the heel before continuing.
 
 ### 3. Positioning the forearm fulcrum too close to the ankle rather than across the mid-foot

@@ -35,13 +35,13 @@ description: "Learn to attack with the Williams Shoulder Lock from Williams Guar
     {
       "@type": "HowToStep",
       "name": "Pin Elbow to Chest",
-      "text": "Pull the opponent's elbow tight against your sternum using the figure-four grip. This creates the fulcrum point for the shoulder lock—their elbow becomes the pivot around which their shoulder rotates internally. Without this pinning action the lock lacks sufficient mechanical advantage to generate finishing pressure.",
+      "text": "Pull the opponent's elbow tight against your sternum using the figure-four grip. This creates the fulcrum point for the shoulder lock—their elbow becomes the pivot around which their shoulder rotates externally as the forearm is driven upward. Without this pinning action the lock lacks sufficient mechanical advantage to generate finishing pressure.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Engage Core and Begin Rotation",
-      "text": "Engage your entire posterior chain—core, hips, and legs—to begin rotating the opponent's shoulder internally. The movement is a controlled progressive squeeze rather than a sudden jerk. Think of tightening a wrench slowly as the pressure builds through your body structure rather than through arm strength alone.",
+      "text": "Engage your entire posterior chain—core, hips, and legs—to begin rotating the opponent's shoulder externally, driving the forearm upward and the humerus rearward. The movement is a controlled progressive squeeze rather than a sudden jerk. Think of tightening a wrench slowly as the pressure builds through your body structure rather than through arm strength alone.",
       "position": 4
     },
     {
@@ -53,7 +53,7 @@ description: "Learn to attack with the Williams Shoulder Lock from Williams Guar
     {
       "@type": "HowToStep",
       "name": "Finish with Progressive Pressure",
-      "text": "Complete the submission by continuing gradual internal rotation while maintaining all control points. The finish comes from sustained increasing pressure not sudden force. Watch for tap signals continuously as the opponent should feel progressive discomfort building steadily with clear opportunity to tap.",
+      "text": "Complete the submission by continuing gradual external (posterior) rotation while maintaining all control points. The finish comes from sustained increasing pressure not sudden force. Watch for tap signals continuously as the opponent should feel progressive discomfort building steadily with clear opportunity to tap.",
       "position": 6
     },
     {
@@ -79,7 +79,7 @@ description: "Learn to attack with the Williams Shoulder Lock from Williams Guar
       "name": "What anatomical structure does the Williams Shoulder Lock primarily attack and why is it vulnerable?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Williams Shoulder Lock primarily attacks the glenohumeral joint through forced internal rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the joint capsule. The shoulder's large range of motion makes it vulnerable to rotational locks that exceed its normal internal rotation capacity, particularly when the elbow is pinned as a fixed fulcrum point that concentrates all rotational force on the joint."
+        "text": "The Williams Shoulder Lock primarily attacks the glenohumeral joint through forced external (posterior) rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the joint capsule. The shoulder's large range of motion makes it vulnerable to rotational locks that exceed its normal external rotation capacity, particularly when the elbow is pinned as a fixed fulcrum point that concentrates all rotational force on the joint."
       }
     },
     {
@@ -95,7 +95,7 @@ description: "Learn to attack with the Williams Shoulder Lock from Williams Guar
       "name": "What indicators signal the shoulder lock has reached the point of no escape for the defender?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The point of no escape occurs when the opponent's elbow is firmly pinned against your chest, their shoulder has been rotated beyond approximately 70% of its internal rotation range, and your hip angle is fully set with active leg frames preventing any angle changes. At this point the opponent cannot generate enough counter-force to reverse the rotational pressure without risking injury to their shoulder structures. Their only safe option is to tap immediately."
+        "text": "The point of no escape occurs when the opponent's elbow is firmly pinned against your chest, their shoulder has been rotated beyond approximately 70% of its external rotation range, and your hip angle is fully set with active leg frames preventing any angle changes. At this point the opponent cannot generate enough counter-force to reverse the rotational pressure without risking injury to their shoulder structures. Their only safe option is to tap immediately."
       }
     },
     {
@@ -180,7 +180,7 @@ description: "Learn to attack with the Williams Shoulder Lock from Williams Guar
 
 <section id="overview" class="content-section">
 
-The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint through controlled internal rotation while maintaining bottom guard position. The figure-four overhook grip isolates the opponent's arm and creates progressive rotational torque that compounds as you angle your hips and engage your full body structure. Unlike standing or top shoulder locks, this bottom-position variant uses guard retention mechanics to prevent escape while simultaneously applying submission pressure, creating a scenario where the opponent must choose between defending the lock and maintaining their passing position.
+The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint through controlled external (posterior) rotation while maintaining bottom guard position. The figure-four overhook grip isolates the opponent's arm and creates progressive rotational torque, driving the forearm up and the humerus rearward in the kimura/omoplata direction, that compounds as you angle your hips and engage your full body structure. Unlike standing or top shoulder locks, this bottom-position variant uses guard retention mechanics to prevent escape while simultaneously applying submission pressure, creating a scenario where the opponent must choose between defending the lock and maintaining their passing position.
 
 **From Position**: [[Positions/Williams Guard]] (Bottom)
 
@@ -227,10 +227,10 @@ The Williams Shoulder Lock from Williams Guard attacks the glenohumeral joint th
 
 1. **Confirm Overhook Grip**: From Williams Guard, verify your figure-four overhook is tight with your bottom arm threading behind their tricep and your top hand gripping your own wrist. The grip should feel like a vise around their upper arm with their elbow trapped against your chest. Squeeze elbows together to eliminate slack. (Timing: 0-2 seconds)
 2. **Angle Hips for Maximum Torque**: Turn your hips approximately 30-45 degrees away from the opponent's trapped arm side. This hip angle creates the rotational leverage needed to torque the shoulder joint. Post your outside leg on the mat or their hip to facilitate the angle change while your inside leg frames against their body. (Timing: 2-4 seconds)
-3. **Pin Elbow to Chest**: Pull the opponent's elbow tight against your sternum using the figure-four grip. This creates the fulcrum point for the shoulder lock—their elbow becomes the pivot around which their shoulder rotates internally. Without this pinning action the lock lacks sufficient mechanical advantage to generate finishing pressure. (Timing: 3-5 seconds)
-4. **Engage Core and Begin Rotation**: Engage your entire posterior chain—core, hips, and legs—to begin rotating the opponent's shoulder internally. The movement is a controlled progressive squeeze rather than a sudden jerk. Think of tightening a wrench slowly as the pressure builds through your body structure rather than through arm strength alone. (Timing: 5-8 seconds)
+3. **Pin Elbow to Chest**: Pull the opponent's elbow tight against your sternum using the figure-four grip. This creates the fulcrum point for the shoulder lock—their elbow becomes the pivot around which their shoulder rotates externally as the forearm is driven upward. Without this pinning action the lock lacks sufficient mechanical advantage to generate finishing pressure. (Timing: 3-5 seconds)
+4. **Engage Core and Begin Rotation**: Engage your entire posterior chain—core, hips, and legs—to begin rotating the opponent's shoulder externally, driving the forearm upward and the humerus rearward. The movement is a controlled progressive squeeze rather than a sudden jerk. Think of tightening a wrench slowly as the pressure builds through your body structure rather than through arm strength alone. (Timing: 5-8 seconds)
 5. **Close Escape Angles with Leg Pressure**: As you apply rotational pressure use your legs to prevent the opponent from circling away or driving forward to relieve pressure. Your outside leg controls their hip while your inside leg frames against their shoulder or armpit. These frames ensure the opponent cannot change angle to neutralize the torque. (Timing: 6-10 seconds)
-6. **Finish with Progressive Pressure**: Complete the submission by continuing gradual internal rotation while maintaining all control points. The finish comes from sustained increasing pressure not sudden force. Watch for tap signals continuously as the opponent should feel progressive discomfort building steadily with clear opportunity to tap. (Timing: 8-15 seconds)
+6. **Finish with Progressive Pressure**: Complete the submission by continuing gradual external (posterior) rotation while maintaining all control points. The finish comes from sustained increasing pressure not sudden force. Watch for tap signals continuously as the opponent should feel progressive discomfort building steadily with clear opportunity to tap. (Timing: 8-15 seconds)
 7. **Monitor and Release Safely**: Throughout the finish maintain verbal awareness and watch for all tap signals including verbal and physical taps. The moment any tap signal occurs immediately stop rotational pressure and guide the arm back to a neutral anatomical position slowly. Never release suddenly as this can injure an already-stressed joint. (Timing: Immediate on tap)
 
 

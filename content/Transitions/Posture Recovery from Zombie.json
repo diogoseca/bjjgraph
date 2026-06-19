@@ -16,7 +16,7 @@
   "from_position": "Zombie/Top",
   "outcomes": [
     {
-      "to": "Side Control/Top",
+      "to": "Half Guard/Top",
       "probability": 48,
       "result": "success"
     },

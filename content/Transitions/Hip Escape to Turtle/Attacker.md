@@ -16,7 +16,7 @@ description: "How to execute Hip Escape to Turtle from body triangle in BJJ. Ste
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Hip Escape to Turtle in BJJ",
-  "description": "Step-by-step guide for executing Hip Escape to Turtle from Body Triangle/Top.",
+  "description": "Step-by-step guide for executing Hip Escape to Turtle from Body Triangle/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -182,7 +182,7 @@ As the attacker executing Hip Escape to Turtle, you are the person trapped in bo
 
 The key insight is that the body triangle has a specific structural weakness at the figure-four lock point where the foot tucks behind the knee. By turning toward the triangle leg and creating space through controlled hip escapes, you position yourself to attack this weakness. The escape is iterative rather than explosive - you alternate between defending your neck and clearing the triangle, making incremental progress each cycle until you break free and establish turtle position.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 

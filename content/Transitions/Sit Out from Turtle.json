@@ -29,8 +29,13 @@
       "result": "failure"
     },
     {
+      "to": "Back Control/Bottom",
+      "probability": 15,
+      "result": "counter"
+    },
+    {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": 10,
       "result": "counter"
     }
   ],

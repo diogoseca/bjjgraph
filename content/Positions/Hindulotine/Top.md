@@ -21,37 +21,37 @@ description: "Offensive guillotine variation from top position using body weight
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke from Hindulotine",
-      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 29% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 42% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hindulotine to Darce Choke",
-      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Back Take from Top",
+      "text": "From this position, attempt Back Take from Top. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hindulotine to Anaconda Choke",
-      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Front Headlock to Back",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Top",
-      "text": "From this position, attempt Back Take from Top. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Snap Down to Front Headlock",
+      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Hindulotine from Hindulotine",
+      "text": "From this position, attempt Hindulotine from Hindulotine. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle from Top",
-      "text": "From this position, attempt Arm Triangle from Top. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Finish from Hindulotine",
+      "text": "From this position, attempt Finish from Hindulotine. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -234,7 +234,7 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 **If opponent flattens out completely in defensive turtle position:**
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
 - Execute **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Arm Triangle from Top/Attacker|Arm Triangle from Top]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Arm Triangle from Hindulotine/Attacker|Arm Triangle from Hindulotine]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent creates defensive frames with arms while defending neck:**

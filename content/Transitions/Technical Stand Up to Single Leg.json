@@ -14,13 +14,13 @@
   "from_position": "Turtle/Bottom",
   "outcomes": [
     {
-      "to": "Single Leg X-Guard/Bottom",
-      "probability": 45,
+      "to": "Half Guard/Top",
+      "probability": 35,
       "result": "success"
     },
     {
-      "to": "Clinch/Bottom",
-      "probability": 15,
+      "to": "Single Leg X-Guard/Bottom",
+      "probability": 25,
       "result": "success"
     },
     {
@@ -168,7 +168,7 @@
         "counter": "Opponent circles away and disengages to avoid the single leg",
         "effectiveness": "Medium",
         "your_response": "Maintain standing position and close distance with footwork. Cut angles to prevent circling. If they refuse to engage, establish your preferred guard by pulling to butterfly or De La Riva, or use the space to reset and reattempt on your terms.",
-        "targets_outcome": "Clinch/Bottom"
+        "targets_outcome": "Turtle/Bottom"
       },
       {
         "counter": "Opponent shoots for guillotine during your level change",

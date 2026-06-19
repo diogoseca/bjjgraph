@@ -243,13 +243,13 @@ The Stack Escape from Triangle occupies a critical role in the defensive guard e
 
 - [[Positions/Omoplata Control]] - Counter position opponent may transition to when stack compromises triangle angle
 
-- [[Transitions/Complete Triangle Escape from Top]] - Alternative triangle escape using lateral head extraction rather than stacking mechanics
+- [[Transitions/Complete Triangle Escape]] - Alternative triangle escape using lateral head extraction rather than stacking mechanics
 
 - [[Transitions/Complete Triangle Escape]] - Related escape technique addressing triangle defense from a different mechanical approach
 
 - [[Transitions/Posture Up from Triangle]] - Prerequisite technique for establishing the posture needed to initiate the stack sequence
 
-- [[Transitions/Posture in Triangle]] - Related defensive concept for managing posture inside triangle control before escaping
+- [[Transitions/Posture in Triangle Escape]] - Related defensive concept for managing posture inside triangle control before escaping
 
 - [[Submissions/Triangle Choke]] - The primary submission threat being escaped through the stacking mechanism
 

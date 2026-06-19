@@ -14,8 +14,13 @@
   "from_position": "Scarf Hold Position/Bottom",
   "outcomes": [
     {
+      "to": "Side Control/Top",
+      "probability": 15,
+      "result": "success"
+    },
+    {
       "to": "Half Guard/Bottom",
-      "probability": 35,
+      "probability": 25,
       "result": "success"
     },
     {
@@ -25,7 +30,7 @@
     },
     {
       "to": "Scarf Hold Position/Bottom",
-      "probability": 40,
+      "probability": 35,
       "result": "failure"
     },
     {

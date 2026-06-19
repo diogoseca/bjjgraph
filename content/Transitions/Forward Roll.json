@@ -11,7 +11,7 @@
     "rolling",
     "turtle escape"
   ],
-  "from_position": "Truck/Bottom",
+  "from_position": "Turtle/Bottom",
   "outcomes": [
     {
       "to": "Seated Guard/Bottom",

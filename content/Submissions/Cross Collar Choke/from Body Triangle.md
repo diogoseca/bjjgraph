@@ -75,7 +75,7 @@ From the body triangle, the attacker's legs are fully committed to lower body co
 
 This submission is particularly effective as a complement to the rear naked choke and bow and arrow choke from body triangle. When the defender tucks their chin to defend the RNC, the collar grips become accessible. When they fight collar grips, the neck opens for the RNC. This creates a decision tree where every defensive choice opens a different submission pathway, making the body triangle an elite finishing platform in gi grappling.
 
-**Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 

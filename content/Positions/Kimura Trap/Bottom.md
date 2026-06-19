@@ -21,7 +21,7 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 29% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,14 +32,14 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura Sweep",
-      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Rolling Kimura",
+      "text": "From this position, attempt Rolling Kimura. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Kimura",
-      "text": "From this position, attempt Rolling Kimura. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kimura Sweep",
+      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {

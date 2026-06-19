@@ -76,7 +76,7 @@
       "result": "failure"
     },
     {
-      "to": "Side Control/Top",
+      "to": "Side Control/Bottom",
       "probability": 15,
       "result": "counter"
     }
@@ -233,7 +233,7 @@
         "counter": "Explosive posture recovery to standing with arm extraction",
         "effectiveness": "Low",
         "your_response": "Tighten your figure-four and use your body angle to maintain the bent arm position. If they begin standing, their weight shift actually loads your sweep mechanics - use the trapped arm as a lever to off-balance them into a guard recovery or back take.",
-        "targets_outcome": "Side Control/Top"
+        "targets_outcome": "Side Control/Bottom"
       }
     ],
     "common_errors": [
@@ -395,14 +395,14 @@
       {
         "action": "Circle toward the trapped arm side and drive your knee through to initiate a guard pass",
         "when_to_use": "When you still have base and mobility but your arm is partially controlled; best used before the figure-four is locked",
-        "targets_outcome": "Side Control/Top",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "You pass the guard while extracting your arm, transitioning to side control and escaping the submission entirely",
         "risk": "Medium-high risk - committing to the pass with a partially trapped arm can deepen the submission if the pass fails"
       },
       {
         "action": "Roll forward over your trapped shoulder to relieve pressure and scramble",
         "when_to_use": "As a last resort when the figure-four is locked but the attacker's free leg has not yet secured your far hip",
-        "targets_outcome": "Side Control/Top",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "You escape the submission angle and can scramble to top position or at minimum reset to open guard top",
         "risk": "High risk - the roll can increase shoulder torque if the attacker follows and maintains the figure-four through the roll"
       }
@@ -418,7 +418,7 @@
         "how": "Retract your arm immediately when you feel the overhook deepening and your arm being pulled past the hip line. Drive your posture upward while pulling your elbow tight to your ribs. Re-establish hand placement on the attacker's hips to control distance and return to standard closed guard top position."
       },
       {
-        "outcome": "Side Control/Top",
+        "outcome": "Side Control/Bottom",
         "how": "When the attacker commits to the leg threading motion, they temporarily weaken their guard closure. Seize this window by driving forward with a knee slice or stack pass. The act of threading the leg creates space for you to advance your hips past their guard. Extract your arm during the transition and consolidate side control."
       }
     ],

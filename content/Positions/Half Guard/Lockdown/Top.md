@@ -51,7 +51,7 @@ description: "Master Lockdown Top defense in BJJ. Strategic guide to countering 
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction to Combat Base",
-      "text": "From this position, attempt Leg Extraction to Combat Base. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction to Combat Base. This technique is attempted in 27% of exchanges from this position.",
       "position": 6
     }
   ],

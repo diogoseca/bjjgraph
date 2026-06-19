@@ -234,7 +234,7 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 65% |
+| Success | [[Positions/Combat Base]] | 65% |
 | Failure | [[Positions/X-Guard]] | 25% |
 | Counter | [[Positions/X-Guard]] | 10% |
 

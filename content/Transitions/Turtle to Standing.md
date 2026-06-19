@@ -65,7 +65,7 @@ The movement relies on explosive hip extension coordinated with a strong posting
 
 Strategically, the ability to threaten this escape forces opponents to commit more aggressively to turtle attacks, which paradoxically opens counter-opportunities for granby rolls, sit-throughs, and guard recovery. Practitioners who develop a reliable turtle-to-standing game create a cascading defensive advantage: opponents rush their attacks, make grip errors, and expose themselves to the bottom player's secondary escape options. In competition, successful completion earns no points but prevents opponent advancement and resets to a neutral engagement where guard pulling or re-shooting become available.
 
-**From Position**: [[Positions/Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 60%
 
 </section>

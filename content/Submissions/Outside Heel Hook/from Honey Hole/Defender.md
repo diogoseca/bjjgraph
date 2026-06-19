@@ -93,7 +93,7 @@ description: "Learn to defend the outside heel hook from Honey Hole. Recognition
       "name": "How does defending the outside heel hook differ from defending the inside heel hook from the same position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The key difference is the direction of dangerous rotation. Inside heel hook defense involves preventing outward heel rotation, while outside heel hook defense requires preventing inward heel rotation. The common inside heel hook defense of rotating your knee inward actually exposes you to the outside heel hook. Effective defense against dual threats requires recognizing which direction the grip is configured for and adjusting accordingly, or escaping the position entirely before any grip is secured."
+        "text": "The key difference is the direction of dangerous rotation. Inside heel hook defense involves preventing inward heel rotation toward your centerline, while outside heel hook defense requires preventing outward, lateral heel rotation away from your centerline. The common inside heel hook defense of rotating your knee inward actually exposes the lateral heel and feeds the outside heel hook. Effective defense against dual threats requires recognizing which direction the grip is configured for and adjusting accordingly, or escaping the position entirely before any grip is secured."
       }
     }
   ]

@@ -17,9 +17,9 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "New York Control",
   "from_position": "New York Control/Bottom",
-  "success_rate": 62,
-  "summary": "The Kimura from New York Control is a figure-four shoulder lock attacked from the 10th Planet rubber guard, converting the position's deep overhook directly into the Kimura grip to torque the bottom opponent's shoulder while active leg pressure pins their posture.",
-  "overview": "The Kimura from New York Control leverages the rubber guard system's inherent arm control to set up a high-percentage shoulder lock from bottom position. The deep overhook that defines New York Control provides a natural pathway to the figure-four Kimura grip, bypassing the most difficult phase of traditional guard-based Kimura attacks where establishing initial arm control against a defensive opponent often fails. The bottom player converts existing overhook control directly into the Kimura grip while maintaining leg pressure across the opponent's back to prevent posture recovery.\n\nWhat distinguishes this variation from standard closed guard or half guard Kimura attempts is the pre-existing arm isolation. In conventional guard positions, the attacker must first break posture, then fight to control one arm while the opponent uses both hands for defense. From New York Control, the overhook has already compromised the defender's arm positioning and eliminated their ability to post or create distance. The transition from overhook to figure-four requires only a grip conversion rather than a full arm isolation sequence, making the setup substantially faster and harder to defend.\n\nThe finishing mechanics require precise hip escape movement to create the rotational angle necessary for shoulder torque. The bottom player hip escapes toward the trapped arm side while maintaining active leg pressure, generating mechanical advantage that overcomes defensive grip fighting. The combination of rubber guard positional control and classical Kimura rotational mechanics produces a submission that rewards practitioners who invest in both flexibility development and fundamental shoulder lock finishing details.",
+  "success_rate": 42,
+  "summary": "The Kimura from New York Control is an opportunistic figure-four shoulder lock from 10th Planet rubber guard, converting the bottom player's deep overhook into the Kimura grip to torque the top opponent's shoulder when they post heavy.",
+  "overview": "The Kimura from New York Control leverages the rubber guard system's inherent arm control to set up an opportunistic shoulder lock from bottom position. It is a secondary attack rather than the headline finish from this position, which funnels primarily to the gogoplata, omoplata, and triangle; the Kimura becomes available when the top opponent posts heavy and exposes the overhooked arm. The deep overhook that defines New York Control provides a natural pathway to the figure-four Kimura grip, bypassing the most difficult phase of traditional guard-based Kimura attacks where establishing initial arm control against a defensive opponent often fails. The bottom player converts existing overhook control directly into the Kimura grip while maintaining leg pressure across the opponent's back to prevent posture recovery.\n\nWhat distinguishes this variation from standard closed guard or half guard Kimura attempts is the pre-existing arm isolation. In conventional guard positions, the attacker must first break posture, then fight to control one arm while the opponent uses both hands for defense. From New York Control, the overhook has already compromised the defender's arm positioning and eliminated their ability to post or create distance. The transition from overhook to figure-four requires only a grip conversion rather than a full arm isolation sequence, making the setup substantially faster and harder to defend.\n\nThe finishing mechanics require precise hip escape movement to create the rotational angle necessary for shoulder torque. The bottom player hip escapes toward the trapped arm side while maintaining active leg pressure, generating mechanical advantage that overcomes defensive grip fighting. The combination of rubber guard positional control and classical Kimura rotational mechanics produces a submission that rewards practitioners who invest in both flexibility development and fundamental shoulder lock finishing details.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -106,24 +106,24 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": 42,
       "result": "success"
     },
     {
       "to": "New York Control/Bottom",
-      "probability": 25,
+      "probability": 43,
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 13,
+      "probability": 15,
       "result": "counter"
     }
   ],
   "attacker": {
     "name": "from New York Control Attacker",
     "description": "Learn to attack with the Kimura from New York Control rubber guard position. Step-by-step setup, grip transitions, finishing mechanics, and counter responses.",
-    "overview": "Attacking with the Kimura from New York Control capitalizes on the rubber guard system's inherent arm control to create one of the most efficient shoulder lock entries available from bottom position. The deep overhook that defines New York Control provides a natural pathway to the figure-four grip, bypassing the arm isolation phase that makes traditional guard Kimura setups difficult against resisting opponents. The bottom player converts existing overhook control into the Kimura grip while maintaining active leg pressure across the opponent's back to prevent posture recovery, then uses hip escape mechanics to generate the rotational angle needed for the finish. Success depends on precise grip conversion timing, maintaining leg control throughout the transition, and applying progressive rotational pressure from an angle that maximizes mechanical advantage while minimizing the opponent's defensive leverage.",
+    "overview": "Attacking with the Kimura from New York Control capitalizes on the rubber guard system's inherent arm control to create an opportunistic shoulder lock entry from bottom position. It is a secondary threat rather than the position's primary finish, which leads first to the gogoplata, omoplata, and triangle; the Kimura window opens when the top opponent posts heavy and leaves the overhooked arm bent and exposed. The deep overhook that defines New York Control provides a natural pathway to the figure-four grip, bypassing the arm isolation phase that makes traditional guard Kimura setups difficult against resisting opponents. The bottom player converts existing overhook control into the Kimura grip while maintaining active leg pressure across the opponent's back to prevent posture recovery, then uses hip escape mechanics to generate the rotational angle needed for the finish. Success depends on precise grip conversion timing, maintaining leg control throughout the transition, and applying progressive rotational pressure from an angle that maximizes mechanical advantage while minimizing the opponent's defensive leverage.",
     "key_principles": [
       "The overhook provides pre-existing arm isolation that eliminates the hardest phase of traditional Kimura setups",
       "Leg pressure across the opponent's back must remain active throughout the grip transition to prevent posture recovery",

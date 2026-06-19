@@ -74,12 +74,12 @@
       "result": "success"
     },
     {
-      "to": "Half Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 30,
       "result": "failure"
     },
     {
-      "to": "Side Control/Top",
+      "to": "Side Control/Bottom",
       "probability": 15,
       "result": "counter"
     }
@@ -196,19 +196,19 @@
         "counter": "Posture up and create space by driving forward",
         "effectiveness": "High",
         "your_response": "Maintain your angle by turning harder into them and using your legs to break their posture down. If they successfully create space, transition to sweep attempts or deep half guard recovery.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Half Guard/Bottom"
       },
       {
         "counter": "Free the trapped arm by swimming or pulling it back",
         "effectiveness": "High",
         "your_response": "Immediately tighten your grip on their wrist and use your head position to block their arm extraction. If the arm escapes, switch to alternative half guard attacks like the electric chair or old school sweep.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Half Guard/Bottom"
       },
       {
         "counter": "Turn into the choke to relieve pressure",
         "effectiveness": "Medium",
         "your_response": "Use their turning motion to transition to back control or maintain the choke while adjusting your angle. Your leg position should prevent them from completing the turn.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Half Guard/Bottom"
       },
       {
         "counter": "Tuck chin and protect neck with free hand",
@@ -220,7 +220,7 @@
         "counter": "Complete the guard pass to escape the choke angle entirely",
         "effectiveness": "High",
         "your_response": "Tighten your half guard hooks and use your free leg to prevent the pass. If they begin completing the pass, you must either finish the choke immediately or abandon it to retain guard. Do not hold a losing grip while they consolidate side control.",
-        "targets_outcome": "Side Control/Top"
+        "targets_outcome": "Side Control/Bottom"
       }
     ],
     "common_errors": [
@@ -368,28 +368,28 @@
       {
         "action": "Extract trapped arm by swimming it back toward your hip and turning your elbow down",
         "when_to_use": "As soon as you feel your arm being controlled or threaded across your neck—this is the highest-priority defense",
-        "targets_outcome": "Half Guard/Top",
+        "targets_outcome": "Half Guard/Bottom",
         "if_successful": "Removes the primary choking mechanism and returns you to standard half guard top where you can resume passing",
         "risk": "If extraction fails, opponent may lock the grip tighter; combine with posture to avoid feeding deeper into the choke"
       },
       {
         "action": "Posture up explosively by driving your hips back and extending your spine to break the compression angle",
         "when_to_use": "When the choke setup is in progress but not yet fully locked—creating distance removes the shoulder-to-neck pressure",
-        "targets_outcome": "Half Guard/Top",
+        "targets_outcome": "Half Guard/Bottom",
         "if_successful": "Breaks the compression angle and creates enough space to extract arm and reset to dominant half guard top",
         "risk": "Posturing too aggressively may allow opponent to transition to sweeps if you lose base; maintain half guard control while posturing"
       },
       {
         "action": "Complete the guard pass by driving through to side control, changing the angle and removing the choke mechanics",
         "when_to_use": "When the choke is partially locked but you still have mobility—passing eliminates the half guard structure the choke depends on",
-        "targets_outcome": "Side Control/Top",
+        "targets_outcome": "Side Control/Bottom",
         "if_successful": "Removes half guard control entirely, which destroys the positional foundation of the Buggy Choke",
         "risk": "Driving forward to pass may temporarily increase choking pressure before angle changes; must commit fully and move quickly"
       },
       {
         "action": "Turn your chin toward the choking pressure and tuck to protect your carotid arteries",
         "when_to_use": "Emergency defense when the choke is deeply locked and other options have failed—buys time but does not escape",
-        "targets_outcome": "Half Guard/Top",
+        "targets_outcome": "Half Guard/Bottom",
         "if_successful": "Reduces carotid compression temporarily, allowing you to work on arm extraction or posture recovery",
         "risk": "This is a stalling defense only; opponent will maintain position and wait for your chin defense to fatigue"
       }
@@ -402,11 +402,11 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Top",
+        "outcome": "Half Guard/Bottom",
         "how": "Extract the trapped arm and posture up to reset dominant half guard top position with crossface control re-established"
       },
       {
-        "outcome": "Side Control/Top",
+        "outcome": "Side Control/Bottom",
         "how": "Complete the guard pass by driving through to side control, which eliminates the half guard structure the Buggy Choke depends on"
       }
     ],

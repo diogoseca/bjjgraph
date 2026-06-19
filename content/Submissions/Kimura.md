@@ -54,7 +54,7 @@ description: "Master the Kimura shoulder lock in BJJ. Complete guide covering gr
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Kimura?", "acceptedAnswer": { "@type": "Answer", "text": "The Kimura is a figure-four shoulder lock that rotates the opponent\u0027s arm behind their back to attack the rotator cuff and shoulder capsule, usable as both a finish and a controlling grip from nearly every position in grappling." } },
-    { "@type": "Question", "name": "What positions can you finish the Kimura from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Kimura from Mount, Armbar Control, Butterfly Guard, Crucifix, Flattened Half Guard, Front Headlock, Gift Wrap, Half Guard, High Mount, Kesa Gatame, Knee on Belly, Kuzure Kesa-Gatame, Lasso Guard, Lockdown, Modified Mount, New York Control, Overhook Control, Quarter Guard, Reverse Kesa-Gatame, Reverse Scarf Hold, S Mount, Scarf Hold Position, Side Control, Turtle, Twister Side Control, Closed Guard, North-South, Standing Position, Kimura Trap, Knee Shield Half Guard, Modified Scarf Hold, Shoulder of Justice." } },
+    { "@type": "Question", "name": "What positions can you finish the Kimura from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Kimura from Mount, Armbar Control, Butterfly Guard, Crucifix, Flattened Half Guard, Front Headlock, Gift Wrap, Half Guard, High Mount, Kesa Gatame, Knee on Belly, Kuzure Kesa-Gatame, Lasso Guard, Lockdown, Modified Mount, Overhook Control, Quarter Guard, Reverse Kesa-Gatame, Reverse Scarf Hold, S Mount, Scarf Hold Position, Side Control, Turtle, Twister Side Control, Closed Guard, North-South, Standing Position, Kimura Trap, Knee Shield Half Guard, Modified Scarf Hold, Shoulder of Justice, New York Control." } },
     { "@type": "Question", "name": "Is the Kimura dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Kimura targets the Shoulder joint, rotator cuff, and shoulder capsule. Primary risk: Rotator cuff tear (supraspinatus, infraspinatus, teres minor, subscapularis). Tap early and release immediately on the tap." } }
   ]
 }
@@ -111,7 +111,6 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 | [[Submissions/Kimura/from Lasso Guard|Lasso Guard]] | Top | 62% | [[Submissions/Kimura/from Lasso Guard/Attacker|Attack →]] | [[Submissions/Kimura/from Lasso Guard/Defender|Defend →]] |
 | [[Submissions/Kimura/from Lockdown|Lockdown]] | Bottom | 62% | [[Submissions/Kimura/from Lockdown/Attacker|Attack →]] | [[Submissions/Kimura/from Lockdown/Defender|Defend →]] |
 | [[Submissions/Kimura/from Modified Mount|Modified Mount]] | Top | 62% | [[Submissions/Kimura/from Modified Mount/Attacker|Attack →]] | [[Submissions/Kimura/from Modified Mount/Defender|Defend →]] |
-| [[Submissions/Kimura/from New York Control|New York Control]] | Bottom | 62% | [[Submissions/Kimura/from New York Control/Attacker|Attack →]] | [[Submissions/Kimura/from New York Control/Defender|Defend →]] |
 | [[Submissions/Kimura/from Overhook Control|Overhook Control]] | Top | 62% | [[Submissions/Kimura/from Overhook Control/Attacker|Attack →]] | [[Submissions/Kimura/from Overhook Control/Defender|Defend →]] |
 | [[Submissions/Kimura/from Quarter Guard|Quarter Guard]] | Top | 62% | [[Submissions/Kimura/from Quarter Guard/Attacker|Attack →]] | [[Submissions/Kimura/from Quarter Guard/Defender|Defend →]] |
 | [[Submissions/Kimura/from Reverse Kesa-Gatame|Reverse Kesa-Gatame]] | Top | 62% | [[Submissions/Kimura/from Reverse Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Kimura/from Reverse Kesa-Gatame/Defender|Defend →]] |
@@ -128,6 +127,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 | [[Submissions/Kimura/from Knee Shield Half Guard|Knee Shield Half Guard]] | Bottom | 50% | [[Submissions/Kimura/from Knee Shield Half Guard/Attacker|Attack →]] | [[Submissions/Kimura/from Knee Shield Half Guard/Defender|Defend →]] |
 | [[Submissions/Kimura/from Modified Scarf Hold|Modified Scarf Hold]] | Top | 50% | [[Submissions/Kimura/from Modified Scarf Hold/Attacker|Attack →]] | [[Submissions/Kimura/from Modified Scarf Hold/Defender|Defend →]] |
 | [[Submissions/Kimura/from Shoulder of Justice|Shoulder of Justice]] | Top | 50% | [[Submissions/Kimura/from Shoulder of Justice/Attacker|Attack →]] | [[Submissions/Kimura/from Shoulder of Justice/Defender|Defend →]] |
+| [[Submissions/Kimura/from New York Control|New York Control]] | Bottom | 42% | [[Submissions/Kimura/from New York Control/Attacker|Attack →]] | [[Submissions/Kimura/from New York Control/Defender|Defend →]] |
 
 
 </div>

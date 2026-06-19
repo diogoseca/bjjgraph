@@ -14,7 +14,7 @@
   "from_position": "Gift Wrap/Top",
   "outcomes": [
     {
-      "to": "Body Triangle/Bottom",
+      "to": "Body Triangle/Top",
       "probability": 65,
       "result": "success"
     },

@@ -97,7 +97,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
 | [[Submissions/Rear Naked Choke/from Back Control|Back Control]] | Top | 65% | [[Submissions/Rear Naked Choke/from Back Control/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Back Control/Defender|Defend →]] |
-| [[Submissions/Rear Naked Choke/from Body Triangle|Body Triangle]] | Bottom | 65% | [[Submissions/Rear Naked Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Body Triangle/Defender|Defend →]] |
+| [[Submissions/Rear Naked Choke/from Body Triangle|Body Triangle]] | Top | 65% | [[Submissions/Rear Naked Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Body Triangle/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Crucifix|Crucifix]] | Top | 65% | [[Submissions/Rear Naked Choke/from Crucifix/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Crucifix/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Gift Wrap|Gift Wrap]] | Top | 65% | [[Submissions/Rear Naked Choke/from Gift Wrap/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Gift Wrap/Defender|Defend →]] |
 | [[Submissions/Rear Naked Choke/from Harness|Harness]] | Top | 65% | [[Submissions/Rear Naked Choke/from Harness/Attacker|Attack →]] | [[Submissions/Rear Naked Choke/from Harness/Defender|Defend →]] |

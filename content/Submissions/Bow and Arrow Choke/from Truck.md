@@ -39,7 +39,7 @@ description: "Master the Bow and Arrow Choke from Truck. Learn collar grip setup
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Bow and Arrow Choke from Truck",
-  "description": "The Bow and Arrow Choke from Truck is a gi collar choke launched from the 10th Planet truck entanglement, where the attacker feeds a deep lapel grip across the carotids and extends the trapped legs to compress the neck.",
+  "description": "The Bow and Arrow Choke from Truck is a gi collar choke that uses the 10th Planet truck as an entry: the attacker feeds a deep lapel grip, releases the figure-four to climb to back control with seatbelt and hooks, then hand-grips the opponent's far leg and stretches to finish the bow.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -49,7 +49,7 @@ description: "Master the Bow and Arrow Choke from Truck. Learn collar grip setup
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Bow and Arrow Choke from Truck is a gi collar choke launched from the 10th Planet truck entanglement, where the attacker feeds a deep lapel grip across the carotids and extends the trapped legs to compress the neck.**
+**The Bow and Arrow Choke from Truck is a gi collar choke that uses the 10th Planet truck as an entry: the attacker feeds a deep lapel grip, releases the figure-four to climb to back control with seatbelt and hooks, then hand-grips the opponent's far leg and stretches to finish the bow.**
 <div class="principle-meta">
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
@@ -69,11 +69,11 @@ description: "Master the Bow and Arrow Choke from Truck. Learn collar grip setup
 
 <section id="overview" class="content-section">
 
-The Bow and Arrow Choke from the Truck position represents a uniquely dangerous convergence of the 10th Planet leg entanglement system with traditional gi collar choke mechanics. Unlike the standard bow and arrow from back control, the Truck variation begins from a perpendicular body alignment with the opponent's legs already entangled, meaning the attacker does not need to transition to a side angle because the truck itself provides that geometry. The boot pressure against the opponent's hip creates a natural rotational force that, combined with a deep collar grip, generates enormous choking pressure with relatively little physical effort.
+The Bow and Arrow Choke from the Truck position represents a transition-based convergence of the 10th Planet leg entanglement system with traditional gi collar choke mechanics. Critically, the truck is the ENTRY, not the finishing geometry: the perpendicular figure-four entangles only one of the opponent's legs, so a genuine bow and arrow cannot be completed from inside the perpendicular alignment. Instead, the attacker uses the truck's control to feed a deep cross-collar grip, then releases the figure-four and climbs up to true back control, establishing a seatbelt and back hooks behind the opponent. The bow and arrow is a back-control finish, so this conversion from truck to back is mandatory, not optional.
 
-From the Truck, the bow and arrow functions as one prong of a multi-threat attack system. When the opponent defends the twister by protecting their far arm and resisting spinal rotation, they often neglect collar defense, leaving the neck vulnerable to the bow and arrow entry. Conversely, defending the collar grip by bringing hands high exposes the lower body to calf slicer and banana split attacks. This dilemma makes the bow and arrow from Truck particularly effective at the intermediate and advanced levels, where opponents have learned to defend the more common truck submissions but may be unfamiliar with collar-based attacks from this angle.
+From the Truck, the bow and arrow functions as one prong of a multi-threat attack system. When the opponent defends the twister by protecting their far arm and resisting spinal rotation, they often neglect collar defense, leaving the neck vulnerable to the collar feed. Conversely, defending the collar grip by bringing hands high exposes the lower body to calf slicer and banana split attacks. This dilemma makes the collar attack from Truck particularly effective at the intermediate and advanced levels, where opponents have learned to defend the more common truck submissions but may be unfamiliar with collar-based attacks from this angle.
 
-The mechanical advantage of this variation comes from the existing leg entanglement serving double duty: the legs that control the opponent's lower body for truck maintenance also provide the extension platform for the bow and arrow finish. The attacker does not need to release hooks or reposition to create the characteristic stretching force. Instead, extending the entangled legs while pulling the collar grip creates the opposing-force mechanism that compresses the carotid arteries. This efficiency makes the Truck bow and arrow one of the fastest-finishing collar chokes when the grip is properly established.
+The mechanical key to the bow and arrow is that its far-leg vector comes from a HAND grip on the opponent's far leg or hip, taken from back control. The truck figure-four cannot supply this anchor: it isolates the wrong leg in the wrong plane, perpendicular to the spine rather than in line with the back-mount stretch. To finish, the attacker releases the figure-four, climbs to a seatbelt with both hooks in, then reaches the free hand down to grip the opponent's far pant leg or hip. The finishing force is generated by stretching the torso back and pulling the collar toward the hip while the hand-gripped far leg is driven the opposite direction. Recognizing that the truck must be converted to genuine back control before the bow can be applied, rather than finished from within the entanglement, is what separates a sound application from a fabricated one.
 
 **Starting Position**: [[Positions/Twister Control/Truck]] · **From**: [[Positions/Twister Control/Truck]] (Top)
 
@@ -113,13 +113,13 @@ The mechanical advantage of this variation comes from the existing leg entanglem
 ### Key Principles
 
 
-- Maintain boot pressure on the opponent's hip throughout the collar grip setup to preserve the perpendicular angle and rotational control
+- Maintain boot pressure on the opponent's hip throughout the collar grip setup to preserve rotational control before you convert to back control
 
-- Feed the collar grip deep past the chin line using the perpendicular angle advantage that the truck provides
+- Feed the collar grip deep past the chin line early, using the truck's control to buy time before you climb to the finishing angle
 
-- Use the existing leg entanglement as the extension platform for the finish rather than releasing legs to reposition
+- Release the truck figure-four and climb to a seatbelt with both hooks in: the bow and arrow is a back-control finish, not a truck finish
 
-- Coordinate upper body collar pull with lower body leg extension to create the opposing-force mechanism
+- Take the far-leg anchor with your free HAND, gripping the opponent's far pant leg or hip from back control, then stretch the torso back while pulling the collar to create the opposing-force mechanism
 
 - Threaten the twister and calf slicer to force defensive reactions that expose the collar for grip access
 
@@ -135,11 +135,11 @@ The mechanical advantage of this variation comes from the existing leg entanglem
 
 - **Lock the collar and secure choking position**: Once the collar grip is deep, lock your wrist position by pulling your elbow toward your ribs. Adjus...
 
-- **Control the far leg or establish second anchor point**: With your free hand, reach across and grab the opponent's far pants leg at the knee or shin. If the ...
+- **Release the figure-four and climb to back control**: With the collar locked, release the truck figure-four and climb your hips up the opponent's back, th...
 
-- **Begin extension and create the bow shape**: Extend your entangled legs while pulling the collar grip toward your hip. The opponent's body should...
+- **Take the far-leg hand grip and create the bow shape**: From back control, reach your free hand down and grip the opponent's far pant leg or hip: this hand ...
 
-- **Apply progressive finishing pressure**: With the bow shape established, progressively tighten the choke by pulling the collar toward your ch...
+- **Apply progressive finishing pressure**: With the bow shape established from back control, progressively tighten the choke by pulling the col...
 
 - **Complete finish or transition to alternative attack**: If the opponent taps, immediately release all pressure and grips. If they survive by tucking chin or...
 
@@ -216,13 +216,13 @@ The mechanical advantage of this variation comes from the existing leg entanglem
 ## Variations
 
 
-**Boot Pressure Collar Feed**: From standard truck with boot on hip, use the non-boot hand to reach across and feed into the far collar while maintaining boot pressure. The perpendicular angle gives direct access to the collar without needing to transition from behind. Pull the collar deep past the chin using a caterpillar grip motion while the boot keeps the opponent pinned on their side. (When to use: When opponent is focused on defending the twister and has arms protecting against spinal rotation rather than collar access.)
+**Boot Pressure Collar Feed**: From standard truck with boot on hip, use the non-boot hand to reach across and feed into the far collar while maintaining boot pressure. The perpendicular angle gives early access to the collar, but you must still convert to back control to reach a finishing angle. Pull the collar deep past the chin using a caterpillar grip motion while the boot keeps the opponent pinned on their side, then release the figure-four and climb to a seatbelt before finishing. (When to use: When opponent is focused on defending the twister and has arms protecting against spinal rotation rather than collar access.)
 
 
 **Twister Fake to Bow and Arrow**: Initiate the twister setup by controlling the opponent's far arm and beginning spinal rotation. When the opponent fights the arm control by pulling the arm free and tucking, immediately redirect to the collar grip that their defensive movement has exposed. The twister threat forces them to bring hands low, opening the neck. (When to use: Against opponents who have strong twister defense but neglect collar protection when defending lower body threats.)
 
 
-**Leg Extension Finish Variation**: Instead of the traditional perpendicular slide to finish, maintain the truck leg entanglement and use leg extension through the entanglement to create the bow shape. Extend your entangled legs while pulling the collar toward your hip, using the opponent's own trapped legs as the anchor point. This eliminates the need to release any leg control during the finish. (When to use: When you have deep leg entanglement and do not want to sacrifice lower body control to transition to a traditional bow and arrow finishing angle.)
+**Back-Control Conversion Finish**: Once the deep collar grip is secured from the truck, release the figure-four and climb up the opponent's back, threading both hooks in and locking a seatbelt to reach genuine back control. From there take the standard bow and arrow far-leg anchor with your free HAND, gripping the opponent's far pant leg or hip. Stretch your torso back while pulling the collar toward your hip and driving the hand-gripped far leg the opposite direction, creating the bow. The truck only opened the door; the finish lives in back control. (When to use: Whenever you have the collar fed from the truck and the opponent has not stripped it. This is the correct, mandatory path to a real bow and arrow finish from the truck entry.)
 
 
 

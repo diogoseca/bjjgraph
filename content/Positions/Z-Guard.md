@@ -141,15 +141,13 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (30% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (35% of attempts)
 
 - **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (11% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (10% of attempts)
 
-- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (9% of attempts)
-
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (8% of attempts)
+- **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (12% of attempts)
 
 - **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (10% of attempts)
 

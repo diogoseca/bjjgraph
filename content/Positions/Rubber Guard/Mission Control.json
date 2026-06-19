@@ -627,20 +627,24 @@
     },
     "transitions": [
       {
-        "transition": "Triangle Setup",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Omoplata to Sweep",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Closed Guard to Omoplata",
+        "transition": "Triangle from Guard",
         "attempt_probability": 11
       },
       {
+        "transition": "Triangle Setup",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Omoplata to Sweep",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": 9
+      },
+      {
         "transition": "Closed Guard to Triangle",
-        "attempt_probability": 13
+        "attempt_probability": 9
       },
       {
         "transition": "Gogoplata",

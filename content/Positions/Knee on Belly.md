@@ -218,29 +218,25 @@ Within the BJJ positional hierarchy, Knee on Belly occupies a distinctive role b
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (31% of attempts)
+- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (25% of attempts)
 
-- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (12% of attempts)
+- **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** (14% of attempts)
 
-- **[[Baseball Bat Choke from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (10% of attempts)
+- **[[Baseball Bat Choke from Knee on Belly/Attacker|Baseball Bat Choke from Knee on Belly]]** (12% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (9% of attempts)
+- **[[Cross Collar Choke from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (11% of attempts)
 
-- **[[Cross Collar Choke from Knee on Belly/Attacker|Cross Collar Choke from Knee on Belly]]** (10% of attempts)
+- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (8% of attempts)
 
-- **[[Kimura from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (6% of attempts)
+- **[[Kimura from Knee on Belly/Attacker|Kimura from Knee on Belly]]** (7% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (6% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (7% of attempts)
 
 - **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (6% of attempts)
 
-- **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** (2% of attempts)
+- **[[Armbar from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (5% of attempts)
 
-- **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** (2% of attempts)
-
-- **[[Armbar from Knee on Belly/Attacker|Armbar from Knee on Belly]]** (3% of attempts)
-
-- **[[Belly Down Armbar from Knee on Belly/Attacker|Belly Down Armbar from Knee on Belly]]** (3% of attempts)
+- **[[Belly Down Armbar from Knee on Belly/Attacker|Belly Down Armbar from Knee on Belly]]** (5% of attempts)
 
 
 ### Common Mistakes

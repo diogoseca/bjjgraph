@@ -21,13 +21,13 @@ description: "Master Reverse Scarf Hold Top (Ushiro Kesa Gatame). Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 28% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
@@ -50,8 +50,8 @@ description: "Master Reverse Scarf Hold Top (Ushiro Kesa Gatame). Complete guide
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Arm Triangle from Reverse Scarf Hold",
+      "text": "From this position, attempt Arm Triangle from Reverse Scarf Hold. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -233,7 +233,7 @@ This position is particularly effective against opponents unfamiliar with the co
 
 
 **If opponent creates frames with free arm and begins hip escape:**
-- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Reverse Scarf to Side Control/Attacker|Reverse Scarf to Side Control]]** → [[Positions/Side Control]] (Probability: 60%)
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 45%)
 
 

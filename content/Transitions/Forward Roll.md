@@ -65,7 +65,7 @@ Understanding the biomechanics of rolling forward while maintaining control of y
 
 The forward roll also builds body awareness and coordination that translates to other advanced movements in BJJ, including berimbolo entries, rolling back takes, and inverted guard play. At the highest levels, the forward roll becomes a tool for offensive guard transitions rather than purely defensive escape, allowing practitioners to flow between positions with minimal energy expenditure.
 
-**From Position**: [[Positions/Twister Control/Truck]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 60%
 
 </section>

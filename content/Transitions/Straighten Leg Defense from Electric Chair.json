@@ -10,7 +10,7 @@
     "10th-planet-counter",
     "positional-escape"
   ],
-  "from_position": "Electric Chair/Bottom",
+  "from_position": "Electric Chair/Top",
   "outcomes": [
     {
       "to": "Half Guard/Top",

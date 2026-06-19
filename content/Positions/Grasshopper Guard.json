@@ -599,7 +599,7 @@
       },
       {
         "transition": "50-50 Entry",
-        "attempt_probability": 4
+        "attempt_probability": 3
       },
       {
         "transition": "Reverse De La Riva Recovery",
@@ -615,7 +615,7 @@
       },
       {
         "transition": "Heel Hook from Grasshopper Guard",
-        "attempt_probability": 3
+        "attempt_probability": 6
       },
       {
         "transition": "Outside Ashi Entry",
@@ -623,7 +623,7 @@
       },
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 5
+        "attempt_probability": 3
       }
     ]
   }

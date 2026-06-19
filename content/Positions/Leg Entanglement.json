@@ -468,109 +468,129 @@
     "transitions": [
       {
         "transition": "Leg Extraction Escape from Entanglement",
-        "attempt_probability": 30
+        "attempt_probability": 18
       },
       {
         "transition": "Guard Recovery from Leg Entanglement",
-        "attempt_probability": 28
-      },
-      {
-        "transition": "Inversion Escape from Leg Entanglement",
-        "attempt_probability": 22
+        "attempt_probability": 16
       },
       {
         "transition": "Counter Sweep from Leg Entanglement",
-        "attempt_probability": 20
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Inversion Escape from Leg Entanglement",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Counter Leg Attack",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Inside Heel Hook from Ushiro",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Kneebar from Ushiro",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Ankle Lock Finish",
+        "attempt_probability": 4
       }
     ],
     "decision_tree": [
       {
-        "condition": "If opponent has their knee bent and is defending by keeping their heel hidden from attack",
+        "condition": "If the top attacker is still settling their entanglement and has not yet secured a heel grip or pinched the knee line",
         "actions": [
           {
-            "technique": "Saddle Entry from Top",
-            "target": "Saddle",
-            "probability": 65
-          },
-          {
-            "technique": "Outside Ashi Entry",
-            "target": "Outside Ashi-Garami",
-            "probability": 55
-          }
-        ]
-      },
-      {
-        "condition": "If opponent extends their leg trying to create distance and push away from the entanglement",
-        "actions": [
-          {
-            "technique": "Kneebar",
-            "target": "Kneebar Control",
-            "probability": 70
-          },
-          {
-            "technique": "Ankle Lock Finish",
-            "target": "Ashi Garami",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent's heel becomes exposed with proper inside or outside positioning established",
-        "actions": [
-          {
-            "technique": "Inside Ashi Entry",
-            "target": "Inside Ashi-Garami",
-            "probability": 70
-          },
-          {
-            "technique": "Outside Heel Hook",
-            "target": "Outside Ashi-Garami",
-            "probability": 65
-          }
-        ]
-      },
-      {
-        "condition": "If opponent turns away from you exposing their back to escape the leg entanglement",
-        "actions": [
-          {
-            "technique": "Back Take from Ashi",
-            "target": "Back Control",
-            "probability": 75
-          },
-          {
-            "technique": "Saddle Entry from Top",
-            "target": "Saddle",
+            "technique": "Leg Extraction Escape from Entanglement",
+            "target": "Open Guard",
             "probability": 60
-          }
-        ]
-      },
-      {
-        "condition": "If opponent successfully clears the knee line and begins to escape the entanglement",
-        "actions": [
-          {
-            "technique": "Outside Ashi Entry",
-            "target": "Outside Ashi-Garami",
-            "probability": 55
           },
           {
             "technique": "Guard Recovery from Leg Entanglement",
-            "target": "Open Guard",
+            "target": "Half Guard",
+            "probability": 50
+          }
+        ]
+      },
+      {
+        "condition": "If the top attacker exposes their own foot or commits a leg deep enough for you to reach a counter-grip",
+        "actions": [
+          {
+            "technique": "Counter Leg Attack",
+            "target": "50-50 Guard",
+            "probability": 55
+          },
+          {
+            "technique": "Inside Heel Hook from Ushiro",
+            "target": "Inside Heel Hook",
             "probability": 45
           }
         ]
       },
       {
-        "condition": "If both practitioners have equal entanglement creating neutral bilateral control",
+        "condition": "If the top attacker drives forward and loads weight over you while hunting the heel exposure",
         "actions": [
           {
-            "technique": "50-50 Entry",
-            "target": "50-50 Guard",
-            "probability": 60
+            "technique": "Counter Sweep from Leg Entanglement",
+            "target": "Side Control",
+            "probability": 50
           },
           {
-            "technique": "Inside Ashi Entry",
-            "target": "Inside Ashi-Garami",
+            "technique": "Inversion Escape from Leg Entanglement",
+            "target": "Butterfly Guard",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If the top attacker straightens and extends your captured leg trying to isolate the knee or ankle",
+        "actions": [
+          {
+            "technique": "Kneebar from Ushiro",
+            "target": "Kneebar Control",
+            "probability": 45
+          },
+          {
+            "technique": "Ankle Lock Finish",
+            "target": "Straight Ankle Lock Control",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If the top attacker secures a strong configuration and the safest read is to neutralize into a symmetric exchange",
+        "actions": [
+          {
+            "technique": "Counter-entangle to 50-50 Guard",
+            "target": "50-50 Guard",
             "probability": 50
+          },
+          {
+            "technique": "Counter Leg Attack",
+            "target": "Ashi Garami",
+            "probability": 40
+          }
+        ]
+      },
+      {
+        "condition": "If the top attacker over-rotates or loses hip connection while chasing the finish, opening an escape lane",
+        "actions": [
+          {
+            "technique": "Inversion Escape from Leg Entanglement",
+            "target": "Butterfly Guard",
+            "probability": 50
+          },
+          {
+            "technique": "Guard Recovery from Leg Entanglement",
+            "target": "Half Guard",
+            "probability": 45
           }
         ]
       }

@@ -146,7 +146,7 @@ description: "Defend against the Technical Stand Up from Ground in BJJ. Recognit
 
 From the defender's perspective, preventing the Technical Stand Up from Ground requires maintaining constant forward pressure and grip control to deny the bottom player the space needed to initiate the movement. The defender must recognize the early preparatory cues that signal an imminent stand up attempt and time their response to catch the opponent during the most vulnerable phase of the transition. Effective defense involves either preventing the initial distance creation through pressure maintenance, attacking the posting structures during the transition, or timing offensive entries like takedowns to capitalize on the opponent's compromised balance during the stand up sequence. Understanding the stand up mechanics allows the defender to predict each phase and apply targeted counters at the optimal moment.
 
-**Opponent's Starting Position**: [[Positions/Standing Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
 
@@ -189,7 +189,7 @@ From the defender's perspective, preventing the Technical Stand Up from Ground r
 ### 1. Drive forward with heavy chest pressure to collapse their frames before they can establish a post
 
 - **When to use**: As soon as you feel the opponent begin pushing for distance with their hands, before they can plant the posting hand
-- **Targets**: [[Positions/Standing Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Opponent's frames collapse and they are forced back to seated position, denying the stand up attempt entirely
 - **Risk**: If you drive too aggressively and they time a guard pull, you may end up in their closed guard with poor posture
 
@@ -203,7 +203,7 @@ From the defender's perspective, preventing the Technical Stand Up from Ground r
 ### 3. Grab the posting-side ankle or foot to prevent hip elevation and block the kick-through motion
 
 - **When to use**: When you can reach the posting-side leg as the opponent begins shifting weight to that foot before the kick-through
-- **Targets**: [[Positions/Standing Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Opponent cannot complete the elevation phase and is forced to return to seated position or switch to a different escape
 - **Risk**: Reaching for the ankle may compromise your own base and open passing opportunities if the opponent redirects
 
@@ -224,7 +224,7 @@ From the defender's perspective, preventing the Technical Stand Up from Ground r
 
 <p class="section-subtitle">What is the best outcome when defending Technical Stand Up from Ground?</p>
 
-### → [[Positions/Standing Guard]]
+### → [[Positions/Seated Guard]]
 
 Maintain persistent forward pressure and grip control to deny the bottom player space for framing and posting. Immediately re-close distance any time they push you away, and control their sleeves or collar to prevent the posting hand from reaching the mat.
 

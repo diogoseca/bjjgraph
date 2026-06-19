@@ -44,14 +44,14 @@ description: "Defensive survival position requiring systematic escape mechanics 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Forward Roll",
-      "text": "From this position, attempt Forward Roll. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Back Door Escape",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Defensive Roll",
+      "text": "From this position, attempt Defensive Roll. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -225,7 +225,7 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 **Else if opponent is attacking trapped leg with calf slicer:**
 - Execute **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
-- Execute **[[Transitions/Forward Roll/Attacker|Forward Roll]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 25%)
+- Execute **[[Transitions/Roll to Guard from Truck/Attacker|Roll to Guard from Truck]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 25%)
 - Execute **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** → [[Positions/Open Guard]] (Probability: 25%)
 
 

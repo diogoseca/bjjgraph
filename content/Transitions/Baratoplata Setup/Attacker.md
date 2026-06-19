@@ -236,9 +236,10 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Armbar Control]] | 55% |
-| Failure | [[Positions/Rubber Guard/Meathook]] | 30% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Submissions/Baratoplata]] | 50% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 25% |
+| Counter | [[Positions/Armbar Control]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -250,8 +251,8 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 <p class="section-subtitle">How might your opponent counter Baratoplata Setup?</p>
 
 - **Posture up explosively before figure-four is secured** (Effectiveness: High) - Your Response: If you feel them beginning to posture, immediately transition to Triangle Setup as their upward movement creates the angle for leg over neck → Leads to [[Positions/Closed Guard]]
-- **Straighten the trapped arm to prevent figure-four configuration** (Effectiveness: Medium) - Your Response: A straightened arm opens the Armbar on Free Arm directly—flow to standard armbar mechanics using your shin hook as initial control → Leads to [[Positions/Armbar Control]]
-- **Roll toward the trapped arm side to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Their roll momentum assists your sweep—follow their roll to achieve mount while maintaining the figure-four for mounted Baratoplata finish → Leads to [[Positions/Armbar Control]]
+- **Straighten the trapped arm to prevent figure-four configuration** (Effectiveness: Medium) - Your Response: A straightened arm opens the Armbar on Free Arm directly—staying on the bottom, swing your leg over their head and finish the guard armbar using your shin hook as initial control → Leads to [[Positions/Armbar Control]]
+- **Roll toward the trapped arm side to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Their roll momentum assists your sweep—follow their roll to achieve mount while maintaining the figure-four for mounted Baratoplata finish → Leads to [[Submissions/Baratoplata]]
 - **Stack forward to collapse the attack angle** (Effectiveness: Low) - Your Response: Stacking forward drives them into Gogoplata range—release the Baratoplata attempt and transition to shin across throat for choke → Leads to [[Positions/Rubber Guard/Meathook]]
 
 

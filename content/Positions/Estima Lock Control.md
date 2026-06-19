@@ -139,9 +139,7 @@ From the top attacking perspective, the position offers significant control adva
 
 - **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (23% of attempts)
 
-- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (38% of attempts)
-
-- **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** (3% of attempts)
+- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (41% of attempts)
 
 - **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (13% of attempts)
 

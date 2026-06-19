@@ -63,7 +63,7 @@ description: "Defend and escape the Kimura from Kuzure Kesa-Gatame. Recognition 
       "name": "At what point should you tap to the Kimura from Kuzure Kesa-Gatame to prevent injury?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tap immediately when you feel your wrist being rotated behind the plane of your back. Once the shoulder's external rotation limit has been exceeded, there is no muscular defense available and the joint structures begin to fail rapidly. In training, always err on the side of tapping early—the shoulder joint is slow to heal and injuries frequently become chronic. Use verbal tap, hand tap, or foot tap, whichever signal is available fastest."
+        "text": "Tap immediately when you feel your wrist being rotated behind the plane of your back. Once the shoulder's internal rotation limit has been exceeded, there is no muscular defense available and the joint structures begin to fail rapidly. In training, always err on the side of tapping early—the shoulder joint is slow to heal and injuries frequently become chronic. Use verbal tap, hand tap, or foot tap, whichever signal is available fastest."
       }
     },
     {

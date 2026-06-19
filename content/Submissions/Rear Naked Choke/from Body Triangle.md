@@ -75,7 +75,7 @@ Unlike the standard RNC from hooks where the attacker must constantly manage leg
 
 The finishing mechanics remain identical to the standard RNC — the choking arm slides under the chin with the bicep and forearm compressing both carotid arteries — but the body triangle provides a force multiplier. The squeeze from the legs restricts the defender's ability to expand their chest and generate the power needed for effective hand fighting. Competition data consistently shows that RNC attempts from body triangle convert at significantly higher rates than from standard hooks, making this one of the most feared finishing combinations in modern grappling.
 
-**Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 

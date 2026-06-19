@@ -14,12 +14,12 @@
   "from_position": "Side Control/Bottom",
   "outcomes": [
     {
-      "to": "Half Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 25,
       "result": "success"
     },

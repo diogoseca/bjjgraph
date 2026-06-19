@@ -212,7 +212,7 @@
       {
         "step_number": 6,
         "action": "Apply controlled rotational pressure",
-        "description": "With everything secured, begin applying the submission by rotating their forearm toward their head (or in some variations, toward their back). The rotation should come from your entire upper body structure, not just your arms. Keep the opponent's elbow tight to your body as you rotate. Apply pressure SLOWLY and progressively over 3-5 seconds minimum in training. Watch for the tap and be prepared to release immediately. The pressure should feel like a continuous, controlled rotation rather than a sudden jerk. Maintain chest-to-shoulder contact throughout to prevent escape.",
+        "description": "With everything secured, begin applying the submission by rotating their forearm toward their lower back and feet, driving their wrist behind their back (internal shoulder rotation). The rotation should come from your entire upper body structure, not just your arms. Keep the opponent's elbow tight to your body as you rotate. Apply pressure SLOWLY and progressively over 3-5 seconds minimum in training. Watch for the tap and be prepared to release immediately. The pressure should feel like a continuous, controlled rotation rather than a sudden jerk. Maintain chest-to-shoulder contact throughout to prevent escape.",
         "timing": "Slow, progressive application over 3-5 seconds minimum"
       },
       {
@@ -366,7 +366,7 @@
       },
       {
         "question": "What are the key indicators that you have reached the 'point of no escape' where the opponent must tap or risk injury?",
-        "answer": "The point of no escape occurs when several control elements align simultaneously: (1) Their elbow is pinned tight to your body with no space to extract; (2) Your chest is sealed against their shoulder blade eliminating rotational escape; (3) Their base is broken so they cannot generate power to resist; (4) The forearm rotation has begun moving their wrist toward their head/spine. At this point, further rotation will exceed the shoulder's structural tolerance. The opponent feels this as deep pressure in the shoulder joint and often increased discomfort in the biceps tendon. Recognizing this moment is crucial - you must apply final pressure slowly and be hyper-vigilant for the tap, as injury occurs rapidly beyond this threshold.",
+        "answer": "The point of no escape occurs when several control elements align simultaneously: (1) Their elbow is pinned tight to your body with no space to extract; (2) Your chest is sealed against their shoulder blade eliminating rotational escape; (3) Their base is broken so they cannot generate power to resist; (4) The forearm rotation has begun driving their wrist toward their lower back behind them. At this point, further rotation will exceed the shoulder's structural tolerance. The opponent feels this as deep pressure in the shoulder joint and often increased discomfort in the biceps tendon. Recognizing this moment is crucial - you must apply final pressure slowly and be hyper-vigilant for the tap, as injury occurs rapidly beyond this threshold.",
         "safety_critical": true
       },
       {
@@ -492,7 +492,7 @@
       },
       {
         "question": "Why should you roll toward the trapped arm side rather than away from it when escaping the Kimura from turtle?",
-        "answer": "Rolling toward the trapped arm side is biomechanically correct because it reduces the Kimura's rotational angle and disrupts the attacker's leverage. The Kimura works by rotating your forearm toward your head or back - rolling toward the trapped arm moves your body in the opposite direction of the lock's force, effectively neutralizing the rotation. Rolling away from the trapped arm (toward the attacker) actually accelerates the Kimura's rotational mechanism and can cause the attacker to finish the submission during your escape attempt. The correct roll pulls the attacker over you and typically results in guard or half guard recovery where the Kimura angle is neutralized.",
+        "answer": "Rolling toward the trapped arm side is biomechanically correct because it reduces the Kimura's rotational angle and disrupts the attacker's leverage. The Kimura works by rotating your forearm toward your lower back, driving your wrist behind you (internal rotation) - rolling toward the trapped arm moves your body in the same direction as the lock's force, taking the slack out of the rotation and neutralizing it. Rolling away from the trapped arm (toward the attacker) actually accelerates the Kimura's rotational mechanism and can cause the attacker to finish the submission during your escape attempt. The correct roll pulls the attacker over you and typically results in guard or half guard recovery where the Kimura angle is neutralized.",
         "safety_critical": true
       },
       {

@@ -76,8 +76,8 @@ The chain from standup to single leg is effective because it exploits a timing w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 45% |
-| Success | [[Positions/Clinch]] | 15% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 25% |
 | Failure | [[Positions/Turtle]] | 25% |
 | Counter | [[Positions/Front Headlock]] | 15% |
 

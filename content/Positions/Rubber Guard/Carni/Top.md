@@ -21,37 +21,37 @@ description: "Master defending and escaping Carni position in BJJ. Essential def
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 29% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Kimura Escape",
-      "text": "From this position, attempt Rolling Kimura Escape. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Technical Stand-up",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Posture Recovery from Carni",
+      "text": "From this position, attempt Posture Recovery from Carni. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -227,7 +227,7 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 **If bottom player has loose heel control but strong leg entanglement:**
 - Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Combat Base]] (Probability: 45%)
-- Execute **[[Transitions/Rolling Kimura Escape/Attacker|Rolling Kimura Escape]]** → [[Positions/Standing Position]] (Probability: 40%)
+- Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If bottom player transitions toward saddle and temporarily loosens control:**

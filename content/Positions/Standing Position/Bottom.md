@@ -21,37 +21,37 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "HowToStep",
       "name": "Execute Pull Guard from Standing",
-      "text": "From this position, attempt Pull Guard from Standing. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Pull Guard from Standing. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Guard Pull",
-      "text": "From this position, attempt Standing Guard Pull. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Standing Guard Pull. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard Pull",
-      "text": "From this position, attempt Butterfly Guard Pull. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard Pull. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sprawl Defense from Standing",
-      "text": "From this position, attempt Sprawl Defense from Standing. This technique is attempted in 15% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Arm Drag from Standing",
-      "text": "From this position, attempt Arm Drag from Standing. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
+      "text": "From this position, attempt Arm Drag from Standing. This technique is attempted in 13% of exchanges from this position.",
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Level Change Takedown",
       "text": "From this position, attempt Level Change Takedown. This technique is attempted in 8% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Takedown from Bottom",
+      "text": "From this position, attempt Takedown from Bottom. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],

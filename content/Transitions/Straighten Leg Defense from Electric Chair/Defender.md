@@ -132,7 +132,7 @@ description: "Learn to counter the Straighten Leg Defense when attacking from El
 
 As the bottom player in Electric Chair, your opponent's most immediate defensive response is to straighten their trapped leg against your lockdown. Recognizing and countering this defense is essential for maintaining your attacking position and continuing your offensive sequence. The key to defeating the straighten leg defense lies in understanding the timing—the defense is most effective when attempted early before full extension, so accelerating your setup and maintaining constant pressure prevents the defense from developing. When the top player does attempt to straighten, you have multiple options including deepening the lockdown tension, transitioning to the Old School sweep using their forward pressure as fuel, or flowing to Truck entries when maintaining the Electric Chair is no longer viable.
 
-**Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
 

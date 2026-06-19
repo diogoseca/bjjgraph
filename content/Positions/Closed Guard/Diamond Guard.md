@@ -98,10 +98,10 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Offensive/Controlling | Offensive/Controlling |
-| **Risk Level** | Low to Medium | Low to Medium |
-| **Energy Cost** | Low | Low |
-| **Time** | Long | Long |
+| **Position Type** | Offensive/Controlling | Defensive |
+| **Risk Level** | Low to Medium | Medium to High |
+| **Energy Cost** | Low | High |
+| **Time** | Long | Short |
 
 **Key Difference:** Dual control trades guard mobility for sub access
 
@@ -190,19 +190,19 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 ### Key Principles
 
 
-- Overhook and head control work as an integrated system — losing either element significantly reduces the position's effectiveness
+- Address head control before yanking the trapped arm — broken posture makes arm extraction nearly impossible until the head is freed
 
-- The diamond shape creates a closed frame that amplifies posture-breaking force beyond standard collar grips
+- Posture recovery is the priority: re-stack the spine and lift the head above the hip line to neutralize the diamond's pulling force
 
-- Submission chains flow naturally from grip adjustments within the diamond: triangle, omoplata, kimura
+- Stripping either control point (overhook or head grip) collapses the frame, but doing so opens triangle and omoplata windows that must be managed
 
-- Maintain closed guard legs throughout to prevent distance creation and preserve the offensive framework
+- Stay heavy and drive forward to deny the distance the guard player needs to angle off for submissions
 
-- Create dilemmas by threatening multiple submissions that require different defensive responses
+- Beware committing the free hand to grip fighting — keep it available to base and prevent being swept
 
-- Position requires active management of overhook depth and head control angle to maintain offensive options
+- Escaping burns significant energy against the structural frame, so commit to a clean posture break rather than slow grinding
 
-- Energy advantage favors the guard player as maintaining the frame requires less effort than escaping it
+- Energy disadvantage favors the guard player, so the trapped top must act decisively before fatigue sets in
 
 
 ### Available Transitions

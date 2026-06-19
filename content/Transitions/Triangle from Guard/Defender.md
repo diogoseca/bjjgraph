@@ -158,7 +158,7 @@ The defender's primary strategic advantage is that the triangle entry from Missi
 
 The defender must operate on multiple defensive timelines simultaneously. The immediate priority is preventing the leg from crossing the face entirely. If the leg crosses, the next priority is preventing the figure-four lock by maintaining head position and shoulder width. If the lock establishes, the final priority is preventing the angle cut by controlling the bottom player's hips and maintaining square alignment. Each defensive phase has specific techniques and timing requirements, and understanding this layered defense is essential for surviving against skilled rubber guard practitioners who chain the triangle with omoplata and armbar threats.
 
-**Opponent's Starting Position**: [[Positions/Worm Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
 

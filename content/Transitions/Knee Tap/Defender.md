@@ -162,7 +162,7 @@ description: "How to defend against Knee Tap in BJJ. Recognition cues, defensive
 
 Defending the knee tap requires understanding the attacker's mechanical objectives and disrupting them before the technique develops full momentum. The knee tap relies on a coordinated upper-body pull combined with a lower-body sweep, meaning your defense must address both vectors simultaneously. The most dangerous phase is when the attacker has already established their collar tie and created angle - at this point, purely reactive defense has a low success rate. Effective knee tap defense therefore begins with proactive stance management, grip fighting to deny the collar tie, and weight distribution awareness that keeps your lead leg light enough to retract when threatened. When the attack does initiate, your defensive priority hierarchy is clear: first deny the knee grip by stepping the targeted leg back or circling away, second counter-attack their compromised posture with a front headlock or guillotine if their head drops too low, and third maintain your base through sprawling mechanics if the initial defenses fail. The defender who understands these layers can shut down the knee tap before it develops, or capitalize on the attacker's commitment to secure an advantageous counter position.
 
-**Opponent's Starting Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 

@@ -135,9 +135,13 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 - **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (15% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (16% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (21% of attempts)
+- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (7% of attempts)
+
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (13% of attempts)
+
+- **[[Transitions/Forward Roll/Attacker|Forward Roll]]** (8% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (14% of attempts)
 
@@ -206,27 +210,25 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (69% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (56% of attempts)
 
-- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (3% of attempts)
+- **[[Transitions/Chair Sit to Back/Attacker|Chair Sit to Back]]** (3% of attempts)
 
-- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (3% of attempts)
+- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (2% of attempts)
+
+- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (2% of attempts)
 
 - **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (2% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (6% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (5% of attempts)
 
 - **[[Transitions/Turtle to Truck Entry/Attacker|Turtle to Truck Entry]]** (2% of attempts)
 
-- **[[Transitions/Front Headlock to Guillotine/Attacker|Front Headlock to Guillotine]]** (1% of attempts)
-
 - **[[Transitions/Arm Triangle from Turtle/Attacker|Arm Triangle from Turtle]]** (2% of attempts)
 
-- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (1% of attempts)
+- **[[Transitions/Turtle Attack Sequence/Attacker|Turtle Attack Sequence]]** (1% of attempts)
 
-- **[[Transitions/Turtle Attack Sequence/Attacker|Turtle Attack Sequence]]** (2% of attempts)
-
-- **[[Transitions/Turtle to Matrix/Attacker|Turtle to Matrix]]** (2% of attempts)
+- **[[Transitions/Turtle to Matrix/Attacker|Turtle to Matrix]]** (1% of attempts)
 
 - **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (1% of attempts)
 
@@ -241,6 +243,10 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 - **[[Kimura from Turtle/Attacker|Kimura from Turtle]]** (1% of attempts)
 
 - **[[Loop Choke from Turtle/Attacker|Loop Choke from Turtle]]** (1% of attempts)
+
+- **[[Transitions/Turtle to Aoki Lock/Attacker|Turtle to Aoki Lock]]** (7% of attempts)
+
+- **[[Transitions/Turtle to Russian Cowboy/Attacker|Turtle to Russian Cowboy]]** (10% of attempts)
 
 
 ### Common Mistakes

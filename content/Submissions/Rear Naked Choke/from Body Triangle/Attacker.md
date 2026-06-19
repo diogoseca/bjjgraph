@@ -182,7 +182,7 @@ description: "Finish the Rear Naked Choke from Body Triangle with systematic han
 
 Attacking with the Rear Naked Choke from Body Triangle represents the convergence of two dominant control systems — the mechanical lock of the body triangle and the arterial compression of the RNC. Your legs handle all positional retention through the figure-four lock around the torso, freeing both arms entirely for the systematic process of clearing defensive hands, sliding the choking arm under the chin, and securing the finishing grip. The breathing restriction from your triangle creates a ticking clock that forces your opponent to defend urgently, generating the openings you need to advance your choke. Patient hand fighting combined with strategic squeeze pulses is the hallmark of elite finishing from this position.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 
 </section>

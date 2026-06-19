@@ -11,7 +11,7 @@
     "standing",
     "escape"
   ],
-  "from_position": "Standing Guard/Bottom",
+  "from_position": "Seated Guard/Bottom",
   "outcomes": [
     {
       "to": "Standing Position/Bottom",
@@ -19,7 +19,7 @@
       "result": "success"
     },
     {
-      "to": "Standing Guard/Bottom",
+      "to": "Seated Guard/Bottom",
       "probability": 30,
       "result": "failure"
     },
@@ -155,7 +155,7 @@
         "counter": "Opponent drives forward with heavy pressure to collapse your frames before you can establish your post",
         "effectiveness": "High",
         "your_response": "Abort the stand up attempt and immediately recover guard position using hip escapes and leg frames. Re-establish distance before attempting again.",
-        "targets_outcome": "Standing Guard/Bottom"
+        "targets_outcome": "Seated Guard/Bottom"
       },
       {
         "counter": "Opponent shoots a takedown as you rise through the mid-transition phase when your base is compromised",
@@ -167,7 +167,7 @@
         "counter": "Opponent grabs your posting-side ankle or foot during the kick-through to prevent full elevation",
         "effectiveness": "Medium",
         "your_response": "Circle the trapped foot free using rotational movement or use your free leg to push the opponent's grip-controlling arm away. If the grip holds, switch to standing up on the opposite side.",
-        "targets_outcome": "Standing Guard/Bottom"
+        "targets_outcome": "Seated Guard/Bottom"
       },
       {
         "counter": "Opponent attempts a guillotine choke as your head drops forward during the rising phase of the transition",
@@ -297,7 +297,7 @@
       {
         "action": "Drive forward with heavy chest pressure to collapse their frames before they can establish a post",
         "when_to_use": "As soon as you feel the opponent begin pushing for distance with their hands, before they can plant the posting hand",
-        "targets_outcome": "Standing Guard/Bottom",
+        "targets_outcome": "Seated Guard/Bottom",
         "if_successful": "Opponent's frames collapse and they are forced back to seated position, denying the stand up attempt entirely",
         "risk": "If you drive too aggressively and they time a guard pull, you may end up in their closed guard with poor posture"
       },
@@ -311,7 +311,7 @@
       {
         "action": "Grab the posting-side ankle or foot to prevent hip elevation and block the kick-through motion",
         "when_to_use": "When you can reach the posting-side leg as the opponent begins shifting weight to that foot before the kick-through",
-        "targets_outcome": "Standing Guard/Bottom",
+        "targets_outcome": "Seated Guard/Bottom",
         "if_successful": "Opponent cannot complete the elevation phase and is forced to return to seated position or switch to a different escape",
         "risk": "Reaching for the ankle may compromise your own base and open passing opportunities if the opponent redirects"
       },
@@ -325,7 +325,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Standing Guard/Bottom",
+        "outcome": "Seated Guard/Bottom",
         "how": "Maintain persistent forward pressure and grip control to deny the bottom player space for framing and posting. Immediately re-close distance any time they push you away, and control their sleeves or collar to prevent the posting hand from reaching the mat."
       },
       {

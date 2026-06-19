@@ -248,7 +248,8 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 | Success | [[Positions/Half Guard]] | 35% |
 | Success | [[Positions/Open Guard]] | 10% |
 | Failure | [[Positions/Turtle]] | 30% |
-| Counter | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>

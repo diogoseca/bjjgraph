@@ -133,7 +133,9 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ### Available Transitions
 
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (12% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
+
+- **[[Transitions/Technical Stand Up from Ground/Attacker|Technical Stand Up from Ground]]** (3% of attempts)
 
 - **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (11% of attempts)
 
@@ -212,21 +214,21 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (11% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (10% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (11% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (11% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (10% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
 
 - **[[Transitions/Bodylock Pass from Seated/Attacker|Bodylock Pass from Seated]]** (4% of attempts)
 
-- **[[Transitions/Bull Pass from Seated/Attacker|Bull Pass from Seated]]** (1% of attempts)
+- **[[Transitions/Bull Pass from Seated/Attacker|Bull Pass from Seated]]** (3% of attempts)
 
-- **[[Transitions/Knee Slice from Seated Guard/Attacker|Knee Slice from Seated Guard]]** (0% of attempts)
+- **[[Transitions/Knee Slice from Seated Guard/Attacker|Knee Slice from Seated Guard]]** (4% of attempts)
 
 - **[[Transitions/Toreando Pass from Seated Guard/Attacker|Toreando Pass from Seated Guard]]** (39% of attempts)
 

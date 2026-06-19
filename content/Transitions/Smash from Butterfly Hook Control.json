@@ -24,7 +24,7 @@
       "result": "failure"
     },
     {
-      "to": "Mount/Bottom",
+      "to": "Half Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
@@ -157,7 +157,7 @@
       {
         "counter": "Opponent elevates hooks explosively and sweeps during weight transfer, using the committed weight against you",
         "effectiveness": "High",
-        "targets_outcome": "Mount/Bottom",
+        "targets_outcome": "Half Guard/Bottom",
         "your_response": "Maintain wide base on the non-smashing side and keep weight behind your knees during the initial transfer. If you feel significant elevation beginning, immediately abort the smash by sprawling hips back and resetting your base before re-attempting."
       },
       {
@@ -173,10 +173,10 @@
         "your_response": "Keep your weight forward through chest and shoulders rather than sitting back onto your heels. If you feel them beginning to get underneath, immediately post your hands and sprawl hips away from their body. Controlling their far hip prevents the initial hip escape motion needed for the deep half entry."
       },
       {
-        "counter": "Opponent executes arm drag on your posting arm during the weight shift, taking the back",
+        "counter": "Opponent arm drags your posting arm during the weight shift, clears your hip line, and comes up to sweep you onto the bottom",
         "effectiveness": "High",
-        "targets_outcome": "Mount/Bottom",
-        "your_response": "Keep elbows tight to your ribs throughout the smash. Never extend arms away from your torso while transferring weight. If the drag initiates, immediately circle away from the drag direction while dropping your weight to prevent them from clearing your hip line."
+        "targets_outcome": "Half Guard/Bottom",
+        "your_response": "Keep elbows tight to your ribs throughout the smash. Never extend arms away from your torso while transferring weight. If the drag initiates, immediately circle away from the drag direction while dropping your weight to prevent them from clearing your hip line and coming up on top."
       }
     ],
     "common_errors": [
@@ -297,8 +297,8 @@
       {
         "action": "Pump hooks explosively and execute butterfly sweep during the weight transfer phase",
         "when_to_use": "When you feel the top player begin shifting weight to one side for the smash, before their knee has passed the hook line",
-        "targets_outcome": "Mount/Bottom",
-        "if_successful": "You sweep the opponent using their committed weight distribution against them, achieving mount or top position",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You sweep the opponent using their committed weight distribution against them, coming up on top while they land on the bottom of half guard",
         "risk": "If mistimed or the opponent's base is too wide, the pumping action may actually accelerate their drive through the hook"
       },
       {
@@ -325,8 +325,8 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Mount/Bottom",
-        "how": "Time your hook elevation and butterfly sweep to coincide with the moment the top player commits weight to one side for the smash. Their narrowed base during the weight transfer creates a vulnerability window for sweeping in the opposite direction. Pull with your collar or underhook grip to direct their weight off-balance while pumping the hook on their weakened base side."
+        "outcome": "Half Guard/Bottom",
+        "how": "Time your hook elevation and butterfly sweep to coincide with the moment the top player commits weight to one side for the smash. Their narrowed base during the weight transfer creates a vulnerability window for sweeping in the opposite direction. Pull with your collar or underhook grip to direct their weight off-balance while pumping the hook on their weakened base side, coming up on top as they land on the bottom of half guard."
       },
       {
         "outcome": "Butterfly Hook Control/Top",

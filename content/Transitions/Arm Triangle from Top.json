@@ -11,7 +11,7 @@
     "head and arm choke",
     "blood choke"
   ],
-  "from_position": "Hindulotine/Top",
+  "from_position": "Side Control/Top",
   "outcomes": [
     {
       "to": "Arm Triangle",

@@ -641,7 +641,7 @@
     "transitions": [
       {
         "transition": "Pull guard",
-        "attempt_probability": 36
+        "attempt_probability": 37
       },
       {
         "transition": "Sitting Guard Pull",
@@ -682,10 +682,6 @@
       {
         "transition": "Pull Guard from Ground",
         "attempt_probability": 2
-      },
-      {
-        "transition": "Technical Stand Up from Ground",
-        "attempt_probability": 1
       },
       {
         "transition": "Sweep from Standing Guard",

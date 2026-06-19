@@ -76,8 +76,8 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 70% |
-| Failure | [[Positions/Clinch]] | 20% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Clinch]] | 30% |
 | Counter | [[Positions/Clinch]] | 10% |
 
 

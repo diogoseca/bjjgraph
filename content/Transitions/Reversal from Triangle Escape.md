@@ -65,7 +65,7 @@ Execution demands precise timing and commitment. The practitioner must recognize
 
 This reversal carries moderate risk because committing to the pass requires continued proximity to the triangle. If the triangle structure has not been sufficiently compromised, the lateral movement can actually tighten the choke. Proper assessment of the triangle's remaining integrity is therefore the most critical skill in this technique, separating successful reversals from accelerated submissions. Training this technique develops the broader ability to recognize offensive opportunities within defensive sequences, a skill that distinguishes advanced practitioners from those who treat defense and offense as entirely separate phases of grappling.
 
-**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 **Success Rate**: 38%
 
 </section>
@@ -237,9 +237,9 @@ The Reversal from Triangle Escape sits at the intersection of submission defense
 
 - [[Transitions/Complete Triangle Escape]] - Standard escape sequence that this reversal extends by adding an offensive guard pass component
 
-- [[Transitions/Complete Triangle Escape from Top]] - Alternative full escape technique that disengages entirely rather than converting to a pass
+- [[Transitions/Complete Triangle Escape]] - Alternative full escape technique that disengages entirely rather than converting to a pass
 
-- [[Transitions/Posture in Triangle]] - Essential precursor technique establishing the postural foundation needed to initiate the reversal
+- [[Transitions/Posture in Triangle Escape]] - Essential precursor technique establishing the postural foundation needed to initiate the reversal
 
 - [[Positions/Side Control]] - Target position achieved when the reversal succeeds, requiring immediate consolidation
 

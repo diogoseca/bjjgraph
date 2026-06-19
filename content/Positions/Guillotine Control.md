@@ -137,7 +137,9 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (50% of attempts)
+- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (49% of attempts)
+
+- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (1% of attempts)
 
 - **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (13% of attempts)
 
@@ -220,7 +222,7 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (43% of attempts)
+- **[[Guillotine Choke from Guillotine Control/Attacker|Guillotine Choke from Guillotine Control]]** (44% of attempts)
 
 - **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** (12% of attempts)
 
@@ -239,8 +241,6 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 - **[[Transitions/Guillotine Counter/Attacker|Guillotine Counter]]** (2% of attempts)
 
 - **[[Transitions/Ten Finger Guillotine Variation/Attacker|Ten Finger Guillotine Variation]]** (1% of attempts)
-
-- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (1% of attempts)
 
 - **[[Arm in Guillotine from Guillotine Control/Attacker|Arm in Guillotine from Guillotine Control]]** (1% of attempts)
 

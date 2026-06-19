@@ -58,7 +58,7 @@ description: "Master the outside heel hook from leg entanglement positions. Expe
 </div>
 
 > [!danger] Safety
-> Outside Heel Hook from Leg Entanglement targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: ACL tear (anterior cruciate ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+> Outside Heel Hook from Leg Entanglement targets the Knee joint, ankle joint, and surrounding ligaments. Primary risk: LCL tear (lateral collateral ligament rupture). Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <div class="role-links">
 
@@ -69,7 +69,7 @@ description: "Master the outside heel hook from leg entanglement positions. Expe
 
 <section id="overview" class="content-section">
 
-Applied from general ashi garami configurations, this submission uses lateral rotational force on the heel to attack the knee's ligamentous structures, primarily targeting the medial collateral ligament and anterior cruciate ligament. It stands among the highest-percentage finishing techniques in modern no-gi grappling because it requires precise heel cup positioning and controlled torsional application through hip extension and full-body rotation rather than arm strength alone.
+Applied from general ashi garami configurations, this submission uses lateral rotational force on the heel to attack the knee's ligamentous structures, primarily targeting the lateral collateral ligament, the posterolateral corner, and the anterior cruciate ligament. It stands among the highest-percentage finishing techniques in modern no-gi grappling because it requires precise heel cup positioning and controlled torsional application through hip extension and full-body rotation rather than arm strength alone.
 
 What distinguishes this variant from more specialized positions like the saddle or cross ashi is the need to establish proper outside control from a general entanglement before committing to the finish. The attacker must first ensure their body is positioned to apply outward rotation on the heel while maintaining knee line control. This often involves transitioning from a neutral entanglement to a finishing angle where the opponent's toes point away from the attacker, creating the mechanical pathway for the outside rotation.
 
@@ -266,10 +266,11 @@ This technique carries extreme injury risk because knee ligaments provide minima
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
+| LCL tear (lateral collateral ligament rupture) | CRITICAL | 6-12 months depending on grade and surgical involvement |
 | ACL tear (anterior cruciate ligament rupture) | CRITICAL | 9-12 months with surgical reconstruction |
-| MCL tear (medial collateral ligament damage) | CRITICAL | 6-12 months depending on grade |
+| Posterolateral corner injury (PLC structures) | High | 6-9 months with potential surgical repair |
 | Meniscus tear | High | 3-6 months with potential surgery |
-| LCL damage (lateral collateral ligament) | High | 6-8 weeks to 6 months |
+| MCL damage (medial collateral ligament) | High | 6-8 weeks to 6 months |
 | PCL strain (posterior cruciate ligament) | High | 3-6 months |
 | Ankle ligament damage | Medium | 4-8 weeks |
 

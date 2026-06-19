@@ -141,13 +141,15 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
+- **[[Transitions/Triangle from Guard/Attacker|Triangle from Guard]]** (11% of attempts)
 
-- **[[Transitions/Omoplata to Sweep/Attacker|Omoplata to Sweep]]** (12% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (11% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (11% of attempts)
+- **[[Transitions/Omoplata to Sweep/Attacker|Omoplata to Sweep]]** (10% of attempts)
 
-- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (13% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (9% of attempts)
+
+- **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (9% of attempts)
 
 - **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (10% of attempts)
 

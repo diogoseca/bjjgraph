@@ -133,21 +133,19 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Transitions/Pull Guard from Standing/Attacker|Pull Guard from Standing]]** (20% of attempts)
+- **[[Transitions/Pull Guard from Standing/Attacker|Pull Guard from Standing]]** (24% of attempts)
 
-- **[[Transitions/Standing Guard Pull/Attacker|Standing Guard Pull]]** (18% of attempts)
+- **[[Transitions/Standing Guard Pull/Attacker|Standing Guard Pull]]** (22% of attempts)
 
-- **[[Transitions/Butterfly Guard Pull/Attacker|Butterfly Guard Pull]]** (15% of attempts)
+- **[[Transitions/Butterfly Guard Pull/Attacker|Butterfly Guard Pull]]** (18% of attempts)
 
-- **[[Transitions/Sprawl Defense from Standing/Attacker|Sprawl Defense from Standing]]** (15% of attempts)
-
-- **[[Transitions/Arm Drag from Standing/Attacker|Arm Drag from Standing]]** (10% of attempts)
+- **[[Transitions/Arm Drag from Standing/Attacker|Arm Drag from Standing]]** (13% of attempts)
 
 - **[[Transitions/Level Change Takedown/Attacker|Level Change Takedown]]** (8% of attempts)
 
 - **[[Transitions/Takedown from Bottom/Attacker|Takedown from Bottom]]** (7% of attempts)
 
-- **[[Transitions/Snap Down from Standing/Attacker|Snap Down from Standing]]** (7% of attempts)
+- **[[Transitions/Snap Down from Standing/Attacker|Snap Down from Standing]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -212,13 +210,17 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (39% of attempts)
+- **[[Transitions/Guard Pull/Attacker|Guard Pull]]** (33% of attempts)
 
-- **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (6% of attempts)
+- **[[Transitions/Sprawl Defense from Standing/Attacker|Sprawl Defense from Standing]]** (10% of attempts)
 
 - **[[Transitions/Single Leg Entry/Attacker|Single Leg Entry]]** (7% of attempts)
 
+- **[[Transitions/Double Leg Setup/Attacker|Double Leg Setup]]** (6% of attempts)
+
 - **[[Transitions/Sprawl/Attacker|Sprawl]]** (6% of attempts)
+
+- **[[Transitions/Knee Tap/Attacker|Knee Tap]]** (3% of attempts)
 
 - **[[Transitions/Double Leg Entry/Attacker|Double Leg Entry]]** (3% of attempts)
 
@@ -240,19 +242,19 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 - **[[Transitions/Tomoe Nage/Attacker|Tomoe Nage]]** (1% of attempts)
 
-- **[[Transitions/Deashi Harai/Attacker|Deashi Harai]]** (2% of attempts)
+- **[[Transitions/Deashi Harai/Attacker|Deashi Harai]]** (1% of attempts)
 
-- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (2% of attempts)
+- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (1% of attempts)
 
-- **[[Transitions/Ippon Seoi Nage/Attacker|Ippon Seoi Nage]]** (2% of attempts)
+- **[[Transitions/Ippon Seoi Nage/Attacker|Ippon Seoi Nage]]** (1% of attempts)
 
-- **[[Transitions/Russian Tie to Back Take/Attacker|Russian Tie to Back Take]]** (2% of attempts)
+- **[[Transitions/Russian Tie to Back Take/Attacker|Russian Tie to Back Take]]** (1% of attempts)
 
-- **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (2% of attempts)
+- **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (1% of attempts)
 
-- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (2% of attempts)
+- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (1% of attempts)
 
-- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (2% of attempts)
+- **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** (1% of attempts)
 
 - **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (1% of attempts)
 

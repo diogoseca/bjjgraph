@@ -21,7 +21,7 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
     {
       "@type": "HowToStep",
       "name": "Execute Pull guard",
-      "text": "From this position, attempt Pull guard. This technique is attempted in 36% of exchanges from this position.",
+      "text": "From this position, attempt Pull guard. This technique is attempted in 37% of exchanges from this position.",
       "position": 1
     },
     {

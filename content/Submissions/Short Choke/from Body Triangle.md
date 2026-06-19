@@ -75,7 +75,7 @@ The mechanics of this choke rely on feeding the opponent's own gi lapel across t
 
 What distinguishes this variant from other short choke entries is the stability of the body triangle platform. Standard back control with hooks requires ongoing positional adjustment that can interrupt choke setups, while the body triangle provides a mechanical lock that grows tighter as the opponent struggles. The combination of breathing restriction from the legs and blood flow restriction from the lapel creates dual pressure that accelerates the finish timeline significantly.
 
-**Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 

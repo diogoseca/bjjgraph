@@ -76,7 +76,7 @@ Success in this transition directly enables the top player to begin passing sequ
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 48% |
+| Success | [[Positions/Half Guard]] | 48% |
 | Failure | [[Positions/Rubber Guard/Zombie]] | 32% |
 | Counter | [[Positions/Closed Guard]] | 20% |
 

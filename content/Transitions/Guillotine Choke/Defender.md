@@ -158,7 +158,7 @@ The defender's strategic framework operates on three time horizons: immediate su
 
 Successful guillotine defense at the purple and brown belt level demands the ability to remain calm under choking pressure, systematically address each component of the attacker's control (grip depth, hip angle, guard connection), and exploit the inherent instability of the bottom guillotine position where the attacker must balance offensive finishing with guard retention.
 
-**Opponent's Starting Position**: [[Positions/Guillotine Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
 

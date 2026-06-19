@@ -288,15 +288,19 @@
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 69
+        "attempt_probability": 56
+      },
+      {
+        "transition": "Chair Sit to Back",
+        "attempt_probability": 3
       },
       {
         "transition": "Front Headlock to Anaconda",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Front Headlock to Darce",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Crucifix from Turtle",
@@ -304,31 +308,23 @@
       },
       {
         "transition": "Turtle Flatten to Side Control",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Turtle to Truck Entry",
         "attempt_probability": 2
       },
       {
-        "transition": "Front Headlock to Guillotine",
-        "attempt_probability": 1
-      },
-      {
         "transition": "Arm Triangle from Turtle",
         "attempt_probability": 2
       },
       {
-        "transition": "Turtle to Standing",
+        "transition": "Turtle Attack Sequence",
         "attempt_probability": 1
       },
       {
-        "transition": "Turtle Attack Sequence",
-        "attempt_probability": 2
-      },
-      {
         "transition": "Turtle to Matrix",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Turtle to Rodeo Ride",
@@ -357,6 +353,14 @@
       {
         "transition": "Loop Choke from Turtle",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Turtle to Aoki Lock",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Turtle to Russian Cowboy",
+        "attempt_probability": 10
       }
     ],
     "flashcards": [
@@ -631,11 +635,19 @@
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 16
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Turtle to Standing",
+        "attempt_probability": 7
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 21
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Forward Roll",
+        "attempt_probability": 8
       },
       {
         "transition": "Deep Half Entry",

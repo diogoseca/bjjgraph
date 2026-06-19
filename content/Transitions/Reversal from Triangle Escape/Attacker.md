@@ -16,7 +16,7 @@ description: "Complete guide to executing the reversal from triangle escape in B
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Reversal from Triangle Escape in BJJ",
-  "description": "Step-by-step guide for executing Reversal from Triangle Escape from Triangle Escape Position/Bottom.",
+  "description": "Step-by-step guide for executing Reversal from Triangle Escape from Triangle Escape Position/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,7 +180,7 @@ description: "Complete guide to executing the reversal from triangle escape in B
 
 As the attacker executing the Reversal from Triangle Escape, your objective is to convert your defensive triangle escape sequence into an offensive guard pass that lands you directly in side control. This requires recognizing the precise moment when the triangle structure weakens during your stacking escape, then redirecting your energy from extraction into a lateral passing movement. The technique demands confidence to commit to the pass rather than simply disengaging, understanding that the partially broken triangle creates a unique window where the opponent's guard recovery is compromised by the position of their own legs. Mastery of this reversal transforms triangle defense from a pure survivability exercise into an offensive weapon that punishes opponents for committing to triangles without perfect control.
 
-**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
 

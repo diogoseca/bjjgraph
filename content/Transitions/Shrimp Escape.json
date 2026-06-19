@@ -14,13 +14,13 @@
   "from_position": "Side Control/Bottom",
   "outcomes": [
     {
-      "to": "Closed Guard/Bottom",
-      "probability": 50,
+      "to": "Knee Shield Half Guard/Bottom",
+      "probability": 45,
       "result": "success"
     },
     {
-      "to": "Knee Shield Half Guard/Bottom",
-      "probability": 20,
+      "to": "Closed Guard/Bottom",
+      "probability": 25,
       "result": "success"
     },
     {

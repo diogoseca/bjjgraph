@@ -142,19 +142,19 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (18% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (16% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (11% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (10% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (7% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (6% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (7% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (6% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (5% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (4% of attempts)
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
 
-- **[[Transitions/Deep Half Entry from Half Guard/Attacker|Deep Half Entry from Half Guard]]** (15% of attempts)
+- **[[Transitions/Deep Half Entry from Half Guard/Attacker|Deep Half Entry from Half Guard]]** (14% of attempts)
 
 - **[[Transitions/Knee Torque Sweep/Attacker|Knee Torque Sweep]]** (4% of attempts)
 
@@ -177,6 +177,8 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Buggy Choke from Half Guard/Attacker|Buggy Choke from Half Guard]]** (4% of attempts)
 
 - **[[Kneebar from Half Guard/Attacker|Kneebar from Half Guard]]** (3% of attempts)
+
+- **[[Transitions/Half Guard to Jailbreak/Attacker|Half Guard to Jailbreak]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -237,25 +239,25 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (27% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (22% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (14% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (11% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (11% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (9% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (7% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (6% of attempts)
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (5% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (4% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (5% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (4% of attempts)
 
-- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (4% of attempts)
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (3% of attempts)
 
-- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (3% of attempts)
+- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (2% of attempts)
 
-- **[[Transitions/Half Guard to Double Jump/Attacker|Half Guard to Double Jump]]** (3% of attempts)
+- **[[Transitions/Half Guard to Double Jump/Attacker|Half Guard to Double Jump]]** (2% of attempts)
 
-- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (3% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (2% of attempts)
 
 - **[[Transitions/Crossface to Combat Base/Attacker|Crossface to Combat Base]]** (2% of attempts)
 
@@ -273,7 +275,11 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Loop Choke from Half Guard/Attacker|Loop Choke from Half Guard]]** (2% of attempts)
 
-- **[[Suloev Stretch from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (2% of attempts)
+- **[[Suloev Stretch from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (1% of attempts)
+
+- **[[Transitions/Half Guard to Leg Weave/Attacker|Half Guard to Leg Weave]]** (10% of attempts)
+
+- **[[Transitions/Half Guard Whizzer Counter/Attacker|Half Guard Whizzer Counter]]** (8% of attempts)
 
 
 ### Common Mistakes

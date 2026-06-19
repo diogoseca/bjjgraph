@@ -20,38 +20,38 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook from Inside Sankaku",
-      "text": "From this position, attempt Heel Hook from Inside Sankaku. This technique is attempted in 37% of exchanges from this position.",
+      "name": "Execute Inside Sankaku Heel Hook",
+      "text": "From this position, attempt Inside Sankaku Heel Hook. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Heel Hook from Inside Sankaku",
+      "text": "From this position, attempt Heel Hook from Inside Sankaku. This technique is attempted in 5% of exchanges from this position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Inside Sankaku to Saddle",
+      "text": "From this position, attempt Inside Sankaku to Saddle. This technique is attempted in 8% of exchanges from this position.",
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toe Hold from Inside Sankaku",
       "text": "From this position, attempt Toe Hold from Inside Sankaku. This technique is attempted in 9% of exchanges from this position.",
-      "position": 2
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
       "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 7% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 7% of exchanges from this position.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute 50-50 Entry",
-      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Saddle Entry from Top",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],

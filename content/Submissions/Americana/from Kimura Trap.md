@@ -39,7 +39,7 @@ description: "Master the Americana from Kimura Trap in BJJ. Convert your Kimura 
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Americana from Kimura Trap",
-  "description": "The Americana from Kimura Trap is a shoulder lock that redirects an already-established figure-four grip into internal rotation when the opponent defends the Kimura by pulling their elbow down, finishing the same shoulder from the opposite angle.",
+  "description": "The Americana from Kimura Trap is a shoulder lock that redirects an already-established figure-four grip into external rotation when the opponent defends the Kimura by pulling their elbow down, finishing the same shoulder from the opposite angle.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -49,7 +49,7 @@ description: "Master the Americana from Kimura Trap in BJJ. Convert your Kimura 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Americana from Kimura Trap is a shoulder lock that redirects an already-established figure-four grip into internal rotation when the opponent defends the Kimura by pulling their elbow down, finishing the same shoulder from the opposite angle.**
+**The Americana from Kimura Trap is a shoulder lock that redirects an already-established figure-four grip into external rotation when the opponent defends the Kimura by pulling their elbow down, finishing the same shoulder from the opposite angle.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
@@ -69,7 +69,7 @@ description: "Master the Americana from Kimura Trap in BJJ. Convert your Kimura 
 
 <section id="overview" class="content-section">
 
-The Americana from Kimura Trap exploits the most predictable defensive reaction in the Kimura Trap system. When a top player threatens the standard Kimura finish with external shoulder rotation, skilled defenders instinctively respond by pulling their elbow tight to their ribs and driving their hand toward the mat. This defensive posture neutralizes the Kimura but creates the ideal setup for the Americana—the attacker redirects the captured wrist downward and away in a paintbrush motion, applying internal rotation to the same shoulder joint from the opposite angle.
+The Americana from Kimura Trap exploits the most predictable defensive reaction in the Kimura Trap system. When a top player threatens the standard Kimura finish with internal shoulder rotation, skilled defenders instinctively respond by pulling their elbow tight to their ribs and driving their hand toward the mat. This defensive posture neutralizes the Kimura but creates the ideal setup for the Americana—the attacker redirects the captured wrist downward and away in a paintbrush motion, applying external rotation to the same shoulder joint from the opposite angle.
 
 The figure-four grip transfers seamlessly between Kimura and Americana without any grip reconfiguration, making this one of the fastest submission transitions in grappling. The defender's own protective reaction—elbow pinned, hand low—provides the starting geometry the Americana requires. Combined with the positional dominance inherent in Kimura Trap Top, this creates a submission with an unusually high completion rate because the attacker never relinquishes control during the transition.
 

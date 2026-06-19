@@ -413,11 +413,6 @@
             "technique": "Electric Chair Transition",
             "target": "Electric Chair",
             "probability": 50
-          },
-          {
-            "technique": "Turtle to Truck",
-            "target": "Twister Control",
-            "probability": 55
           }
         ]
       },
@@ -502,7 +497,7 @@
       },
       {
         "name": "Back Take Reaction Drill",
-        "description": "Top player attempts to circle toward backstep position around knee shield. Bottom player practices recognizing circling movement and immediately reacting with appropriate back take or truck entry. Start slow to develop recognition, then progress to live speed. Focus on using opponent's circling momentum to facilitate transitions rather than fighting against their movement.",
+        "description": "Top player attempts to circle toward backstep position around knee shield. Bottom player practices recognizing circling movement and immediately reacting with the appropriate underhook back take or electric chair entry. Start slow to develop recognition, then progress to live speed. Focus on using opponent's circling momentum to facilitate transitions rather than fighting against their movement.",
         "duration": "3 minutes per round, 3-4 rounds per position"
       },
       {
@@ -569,7 +564,7 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 30
+        "attempt_probability": 35
       },
       {
         "transition": "Underhook Sweep from Half",
@@ -581,11 +576,7 @@
       },
       {
         "transition": "Back Take from Bottom",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Turtle to Truck",
-        "attempt_probability": 8
+        "attempt_probability": 12
       },
       {
         "transition": "X-Guard Sweep",

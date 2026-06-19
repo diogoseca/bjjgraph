@@ -94,7 +94,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Defensive with offensive options | Offensive |
+| **Position Type** | Offensive | Defensive |
 | **Risk Level** | Low to Medium | Medium to High |
 | **Energy Cost** | Medium | Medium |
 | **Time** | Medium to Long | Medium |
@@ -230,7 +230,9 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 - **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (9% of attempts)
 
-- **[[Transitions/Leg Extraction to Combat Base/Attacker|Leg Extraction to Combat Base]]** (37% of attempts)
+- **[[Transitions/Leg Extraction to Combat Base/Attacker|Leg Extraction to Combat Base]]** (27% of attempts)
+
+- **[[Transitions/Lockdown Escape to Half Guard Pass/Attacker|Lockdown Escape to Half Guard Pass]]** (10% of attempts)
 
 - **[[Transitions/Lockdown to Z-Lock Half Guard/Attacker|Lockdown to Z-Lock Half Guard]]** (9% of attempts)
 

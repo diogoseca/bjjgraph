@@ -637,31 +637,31 @@
     "transitions": [
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 16
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 9
+        "attempt_probability": 12
       },
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 10
+        "attempt_probability": 15
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 11
+        "attempt_probability": 14
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 8
+        "attempt_probability": 10
       },
       {
         "transition": "Electric Chair Transition",
-        "attempt_probability": 6
+        "attempt_probability": 8
       },
       {
         "transition": "Knee Shield Retention",
-        "attempt_probability": 33
+        "attempt_probability": 12
       },
       {
         "transition": "Lockdown Recovery",

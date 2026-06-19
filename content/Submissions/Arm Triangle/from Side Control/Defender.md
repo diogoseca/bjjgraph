@@ -255,7 +255,7 @@ Retract your near arm during the grip transition or successfully disrupt the att
 
 ### → [[Positions/Closed Guard]]
 
-Bridge powerfully toward the trapped-arm side while shrimping your hips away and pulling the attacker into your closed guard. The guard position eliminates the perpendicular chest compression needed to finish the arm triangle and resets the engagement to a guard passing scenario.
+Bridge powerfully toward the trapped-arm side while shrimping your hips away and pulling the attacker into your closed guard. The guard position eliminates the perpendicular chest compression needed to finish the arm triangle and resets the engagement to a guard passing scenario, with the attacker now on top inside your guard needing to pass.
 
 
 

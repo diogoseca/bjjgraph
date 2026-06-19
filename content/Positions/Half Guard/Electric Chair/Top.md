@@ -21,26 +21,32 @@ description: "Master Electric Chair Top defense in BJJ. Escape the lockdown, cou
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Break and Pass",
-      "text": "From this position, attempt Lockdown Break and Pass. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Break and Pass. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Limp Leg Escape to Pass",
-      "text": "From this position, attempt Limp Leg Escape to Pass. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Limp Leg Escape to Pass. This technique is attempted in 28% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Lockdown Defense",
-      "text": "From this position, attempt Back Take from Lockdown Defense. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Straighten Leg Defense from Electric Chair",
+      "text": "From this position, attempt Straighten Leg Defense from Electric Chair. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce from Lockdown Counter",
-      "text": "From this position, attempt Darce from Lockdown Counter. This technique is attempted in 30% of exchanges from this position.",
+      "name": "Execute Back Take from Lockdown Defense",
+      "text": "From this position, attempt Back Take from Lockdown Defense. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Darce from Lockdown Counter",
+      "text": "From this position, attempt Darce from Lockdown Counter. This technique is attempted in 4% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"

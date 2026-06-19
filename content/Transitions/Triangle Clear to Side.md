@@ -65,7 +65,7 @@ The technique is most effective when the opponent's triangle is positioned on th
 
 Strategically, this escape pairs with neck defense as a dual-priority system. You must protect your neck from rear naked choke and collar attacks throughout the clearing process while simultaneously working the leg configuration. Successful execution lands you in side-facing position where you can establish frames, recover guard, or work to a more neutral engagement. The technique is a high-value skill for anyone competing against back-attack specialists who favor the body triangle over traditional hooks.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 **Success Rate**: 58%
 
 </section>

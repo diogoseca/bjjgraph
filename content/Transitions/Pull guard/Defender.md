@@ -197,7 +197,7 @@ Defending against a guard pull requires the standing player to recognize the att
 ### 1. Strip grips and disengage before opponent sits
 
 - **When to use**: When you recognize the pull attempt early during the grip establishment phase before opponent has committed their weight backward
-- **Targets**: [[Positions/Standing Position]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Opponent is forced to re-engage standing without their preferred grip configuration, resetting the exchange to neutral standing
 - **Risk**: If you strip grips too late, opponent may already be descending and you lose the window to apply immediate passing pressure
 
@@ -232,7 +232,7 @@ Defending against a guard pull requires the standing player to recognize the att
 
 <p class="section-subtitle">What is the best outcome when defending Pull guard?</p>
 
-### → [[Positions/Standing Position]]
+### → [[Positions/Standing Guard]]
 
 Strip opponent's grips using two-on-one grip breaks before they can commit to sitting. Step backward to create space while breaking grips, forcing them to re-engage standing. Maintain active hand fighting to deny re-establishment of pulling grips. This resets the exchange to neutral standing where you retain initiative.
 

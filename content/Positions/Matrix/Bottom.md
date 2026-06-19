@@ -33,25 +33,25 @@ description: "Execute the Matrix back take from bottom position. Technical guide
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Chair Sit to Back",
-      "text": "From this position, attempt Chair Sit to Back. This technique is attempted in 5% of exchanges from this position.",
-      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
       "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 13% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling to Guard",
       "text": "From this position, attempt Rolling to Guard. This technique is attempted in 7% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Berimbolo Entry",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -231,7 +231,7 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 **Opponent widens base or posts hand to block rotation:**
 - Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Chair Sit to Back/Attacker|Chair Sit to Back]]** → [[Positions/Crab Ride]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 **Rotation is blocked mid-movement by weight pressure:**

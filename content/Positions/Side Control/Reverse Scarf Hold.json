@@ -154,7 +154,7 @@
         "condition": "If opponent creates frames with free arm and begins hip escape",
         "actions": [
           {
-            "technique": "Knee Slice Pass",
+            "technique": "Reverse Scarf to Side Control",
             "target": "Side Control",
             "probability": 60
           },
@@ -277,11 +277,11 @@
     "transitions": [
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 22
+        "attempt_probability": 28
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 13
+        "attempt_probability": 18
       },
       {
         "transition": "Americana from Reverse Scarf Hold",
@@ -296,10 +296,6 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Knee Slice Pass",
-        "attempt_probability": 15
-      },
-      {
         "transition": "Arm Triangle from Reverse Scarf Hold",
         "attempt_probability": 9
       },
@@ -309,7 +305,7 @@
       },
       {
         "transition": "Reverse Scarf to Side Control",
-        "attempt_probability": 2
+        "attempt_probability": 6
       },
       {
         "transition": "North-South Choke from Reverse Scarf",

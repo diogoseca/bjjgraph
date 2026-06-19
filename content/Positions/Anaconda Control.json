@@ -244,12 +244,12 @@
         "relationship": "Primary submission - main finishing technique from this control position"
       },
       {
-        "name": "Anaconda Control to Dead Orchard Control",
-        "relationship": "Key transition - technical sequence for advancing to dead orchard control"
+        "name": "Switch to Darce Configuration",
+        "relationship": "Key transition - primary arm-in switch when the trapped arm straightens and the darce angle opens"
       },
       {
-        "name": "Switch to Darce Configuration",
-        "relationship": "System transition - interchange between anaconda and darce arm-in positions"
+        "name": "Anaconda Control to Dead Orchard Control",
+        "relationship": "Secondary transition - situational sequence for advancing to dead orchard control"
       },
       {
         "name": "Side Control",
@@ -281,16 +281,16 @@
         "attempt_probability": 50
       },
       {
-        "transition": "Anaconda Control to Dead Orchard Control",
-        "attempt_probability": 20
-      },
-      {
         "transition": "Switch to Darce Configuration",
-        "attempt_probability": 15
+        "attempt_probability": 25
       },
       {
         "transition": "Anaconda to Side Control",
-        "attempt_probability": 10
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Anaconda Control to Dead Orchard Control",
+        "attempt_probability": 5
       },
       {
         "transition": "Back Take from Anaconda",

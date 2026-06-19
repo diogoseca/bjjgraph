@@ -96,7 +96,7 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
 | [[Submissions/Short Choke/from Back Control|Back Control]] | Top | 58% | [[Submissions/Short Choke/from Back Control/Attacker|Attack →]] | [[Submissions/Short Choke/from Back Control/Defender|Defend →]] |
-| [[Submissions/Short Choke/from Body Triangle|Body Triangle]] | Bottom | 58% | [[Submissions/Short Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Short Choke/from Body Triangle/Defender|Defend →]] |
+| [[Submissions/Short Choke/from Body Triangle|Body Triangle]] | Top | 58% | [[Submissions/Short Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Short Choke/from Body Triangle/Defender|Defend →]] |
 | [[Submissions/Short Choke/from Gift Wrap|Gift Wrap]] | Top | 58% | [[Submissions/Short Choke/from Gift Wrap/Attacker|Attack →]] | [[Submissions/Short Choke/from Gift Wrap/Defender|Defend →]] |
 | [[Submissions/Short Choke/from Harness|Harness]] | Top | 58% | [[Submissions/Short Choke/from Harness/Attacker|Attack →]] | [[Submissions/Short Choke/from Harness/Defender|Defend →]] |
 | [[Submissions/Short Choke/from Seat Belt Control Back|Seat Belt Control Back]] | Top | 58% | [[Submissions/Short Choke/from Seat Belt Control Back/Attacker|Attack →]] | [[Submissions/Short Choke/from Seat Belt Control Back/Defender|Defend →]] |

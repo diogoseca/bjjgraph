@@ -14,7 +14,7 @@
   "from_position": "Leg Knot/Bottom",
   "outcomes": [
     {
-      "to": "Half Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 55,
       "result": "success"
     },

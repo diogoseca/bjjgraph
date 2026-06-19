@@ -21,7 +21,7 @@ description: "Master Guillotine Control Top position in BJJ. Dominant control wi
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke from Guillotine Control",
-      "text": "From this position, attempt Guillotine Choke from Guillotine Control. This technique is attempted in 43% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke from Guillotine Control. This technique is attempted in 44% of exchanges from this position.",
       "position": 1
     },
     {

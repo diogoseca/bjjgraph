@@ -128,7 +128,7 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Cross Collar Choke from Mount",
@@ -144,7 +144,7 @@
       },
       {
         "transition": "High Mount Transition",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Mounted Triangle",
@@ -152,7 +152,7 @@
       },
       {
         "transition": "Consolidate Mount",
-        "attempt_probability": 37
+        "attempt_probability": 35
       },
       {
         "transition": "Mount Control",
@@ -196,7 +196,11 @@
       },
       {
         "transition": "Armbar from Mount",
-        "attempt_probability": 6
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Mount to Modified Mount",
+        "attempt_probability": 5
       }
     ],
     "decision_tree": [

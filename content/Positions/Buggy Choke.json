@@ -1,73 +1,73 @@
 {
   "name": "Buggy Choke",
   "slug": "buggy-choke",
-  "description": "Master Buggy Choke position in BJJ. Strategic guide covering turtle attacks, grip control, and finishing mechanics with complete bottom and top perspective analysis.",
-  "variant_uniqueness": "Threading arm trades stability for submission",
-  "summary": "The Buggy Choke is a turtle-attack position where the top player threads one arm under the opponent's near armpit to the far collar, simultaneously threatening a strangle and branching into back control, crucifix, or truck attacks.",
-  "overview": "The Buggy Choke position represents a sophisticated turtle attack system that bridges the gap between positional control and immediate submission threats. This specialized grip configuration emerged from gi competition where practitioners needed more aggressive turtle attacks beyond traditional back takes. The position's defining characteristic is the threaded arm under the opponent's armpit reaching to the far collar, creating simultaneous choking pressure and postural breakdown.\n\nFrom the bottom perspective, defending the Buggy Choke requires understanding that traditional turtle defensive postures actually facilitate the attack. The position creates a structural dilemma where maintaining turtle posture accelerates the choke, yet escaping movements expose pathways to back control, crucifix, and other dominant positions. Bottom players must recognize the critical early warning signs during the threading phase and implement immediate defensive protocols before the second grip is secured.\n\nFrom the top perspective, the Buggy Choke position serves as a central hub in modern turtle attack systems, connecting to multiple high-percentage submissions and transitions. Top players value this position because it forces movement from defensive turtle specialists who typically stall in that position. The grip configuration naturally leads to finishing the choke, taking the back when opponents sit to guard, attacking the crucifix when they post defensively, or rolling to truck variations when they attempt granby escapes. Understanding both perspectives is essential for developing comprehensive turtle game strategies that work across gi and no-gi competition formats.",
+  "description": "Master the Buggy Choke position in BJJ. Strategic guide covering the arm-trap self-strangle, leg-over-shoulder clamp, and finishing mechanics with complete attacker and defender perspective analysis.",
+  "variant_uniqueness": "Opponent's own trapped arm becomes the choke",
+  "summary": "The Buggy Choke is a control position where the attacker traps the opponent's near arm against the neck and clamps a leg over the shoulder, compressing that arm into the opponent's own carotid for a self-arm strangle and branching into scrambles when defended.",
+  "overview": "The Buggy Choke position represents one of modern jiu-jitsu's most counterintuitive submission systems, popularized in competition around 2021. Its defining characteristic is that the choke is finished with the opponent's own arm: the attacker traps the opponent's near arm tight across the neck, then throws a leg over the opponent's shoulder to clamp that arm in place, driving the opponent's own bicep and shoulder into their carotid. Because the entry so often comes from a pin the defender believes is winning, the choke frequently materializes before the opponent recognizes the danger.\n\nFrom the attacking perspective, the buggy choke rewards calm, structured movement over scrambling. The attacker frames the opponent's near arm across the neck, swings the same-side leg up and over the shoulder, and connects the legs in a figure-four or shin grip to seal the trapped arm. The strangle then comes from turning the hips and torso toward the opponent and extending, not from upper-body strength. When the choke is defended, the same control branches into sweeps, scrambles, and follow-up entanglements rather than collapsing back to neutral, which is what makes the position a genuine attack hub rather than a single-path submission.\n\nFrom the defending perspective, surviving the buggy choke requires immediate recognition that the exchange has become a trap the instant the near arm is framed across the neck. The defender must extract the threatened arm before the attacker's leg clamps the shoulder, posture the head up and away, and resist the instinct to muscle deeper, which only feeds the strangle. Once the leg is over the shoulder and the legs connect, escape percentages drop sharply, and the defender must clear the entanglement or concede position to recover safe distance. Understanding both perspectives is essential for developing comprehensive attacking and defensive systems that account for this position across gi and no-gi competition formats.",
   "key_principles": [
-    "Thread choking arm deep under armpit with palm-up orientation before opponent can defend neck access",
-    "Secure second grip immediately after threading to eliminate defensive windows and complete control structure",
-    "Apply perpendicular pressure with chest downward and hips heavy to flatten opponent and restrict movement",
-    "Read opponent's defensive reactions to determine whether to finish choke or transition to superior positions",
-    "Maintain tight connection between head and opponent's far shoulder to prevent rotation and space creation",
-    "Use progressive pressure application rather than explosive yanking to maximize technical efficiency and control",
-    "Recognize the position as transitional attack hub rather than static holding position"
+    "Trap the opponent's near arm tight across the neck before they can retract it",
+    "Throw the same-side leg over the opponent's shoulder to clamp the arm against their own neck",
+    "Connect the legs immediately in a figure-four or shin grip to seal the trapped arm",
+    "Turn the hips and torso toward the opponent to drive their bicep and shoulder into the carotid",
+    "Keep the opponent's elbow line glued to your centerline so the trapped arm cannot slide free",
+    "Finish by extending the hips progressively rather than yanking with the arms",
+    "Treat the position as an attack hub that branches to scrambles when the choke is defended"
   ],
   "related_positions": [
     {
+      "name": "Side Control",
+      "relationship": "Primary control where the buggy choke is trapped and a frequent scramble destination"
+    },
+    {
       "name": "Turtle",
-      "relationship": "Primary starting position where buggy choke attacks initiate from turtle top control"
+      "relationship": "Scramble position the exchange can pass through when the entanglement is cleared"
     },
     {
       "name": "Back Control",
-      "relationship": "Common transition destination when opponent sits to guard defending the choke"
+      "relationship": "Common transition destination when the defender turns away and exposes the back"
     },
     {
       "name": "Crucifix",
-      "relationship": "Alternative attack when opponent extends far arm to defend choking pressure"
+      "relationship": "Alternative attack when the opponent extends the far arm to base while defending"
     },
     {
       "name": "Truck",
-      "relationship": "Transition target when opponent attempts granby roll escapes from buggy choke control"
+      "relationship": "Transition target when the opponent rolls to escape the buggy choke control"
     },
     {
       "name": "Darce Control",
-      "relationship": "Switch option available when opponent turns into the buggy choke attack angle"
+      "relationship": "Switch option available when the opponent turns into the choke angle"
     },
     {
       "name": "Anaconda Control",
-      "relationship": "Related front headlock submission from similar turtle control configurations"
+      "relationship": "Related front-headlock submission from similar arm-trap configurations"
     },
     {
       "name": "Front Headlock",
-      "relationship": "Related turtle attack position with overlapping control and submission objectives"
+      "relationship": "Related attack position with overlapping control and submission objectives"
     },
     {
-      "name": "Side Control",
-      "relationship": "Fallback position when grips are stripped or significant defensive space is created"
-    },
-    {
-      "name": "Guillotine Control",
-      "relationship": "Alternative turtle submission when buggy choke angle is not available"
+      "name": "Half Guard",
+      "relationship": "Common entry and recovery position from which the buggy choke is set and cleared"
     },
     {
       "name": "North-South",
-      "relationship": "Related top control position with similar pressure and submission principles"
+      "relationship": "Related control the scramble can resolve to when grips are cleared"
     }
   ],
   "top": {
     "name": "Buggy Choke Top",
-    "description": "Attack from Buggy Choke position. Complete offensive guide covering grip establishment, pressure application, and transition pathways to submission or positional advancement.",
+    "description": "Attack from the Buggy Choke position. Complete offensive guide covering the near-arm trap, leg-over-shoulder clamp, finishing mechanics, and branching transitions when the choke is defended.",
     "tags": [
       "bjj",
       "offense",
-      "turtle-attack",
+      "arm-trap-choke",
       "buggy-choke",
       "submission",
       "control"
     ],
-    "overview": "The Buggy Choke from top position represents one of the most versatile and high-percentage turtle attack systems in modern Brazilian Jiu-Jitsu. Unlike many turtle attacks that offer binary outcomes (submission or return to neutral), the buggy choke creates a branching decision tree where every defensive response opens different offensive opportunities. This positional versatility makes it exceptionally valuable in competition where opponents are well-versed in defending single-path attacks but struggle against multi-threat systems.\n\nThe position's effectiveness stems from its ability to simultaneously threaten submission while establishing the control structures needed for positional advancement. When the initial grips are secured, the bottom player faces an immediate dilemma: remain static and accept progressive choking pressure, or move and create pathways to back control, crucifix, truck, or other dominant positions. This dilemma creation is the hallmark of sophisticated attack systems and explains why the buggy choke has become a fundamental component of modern turtle offense.\n\nFrom a technical perspective, the buggy choke teaches important principles about using grip control to multiply attack opportunities rather than committing fully to single submissions. Top players learn to read defensive reactions in real-time and flow between finishing the choke, taking the back, attacking the crucifix, or rolling to truck variations without releasing control or returning to neutral positions. This reactive attack methodology represents advanced jiu-jitsu strategy where the opponent's defensive choices determine the specific path to dominance, but all paths lead to advantageous outcomes for the top player. Mastering this position develops the tactical awareness and technical fluidity required for high-level competition across gi and no-gi formats.",
+    "overview": "The Buggy Choke attack represents one of the most versatile and surprising submission systems in modern Brazilian Jiu-Jitsu. Unlike many chokes that offer binary outcomes, the buggy choke creates a branching decision tree where every defensive response opens different offensive opportunities. Its core mechanism is weaponizing the opponent's own near arm: by trapping that arm across the neck and clamping a leg over the shoulder, the attacker drives the opponent's bicep and shoulder into their own carotid. This makes the position exceptionally valuable in competition, where opponents are well-versed in defending single-path attacks but struggle against a strangle that arrives from a position they believe is safe.\n\nThe position's effectiveness stems from its ability to simultaneously threaten submission while establishing the control structures needed for scrambles and follow-ups. When the near arm is trapped and the leg clamps the shoulder, the opponent faces an immediate dilemma: remain static and accept progressive choking pressure, or move and create pathways to the back, crucifix, truck, or other dominant entanglements. This dilemma creation is the hallmark of sophisticated attack systems and explains why the buggy choke has become a fundamental component of modern submission offense across grappling rule sets.\n\nFrom a technical perspective, the buggy choke teaches important principles about using arm and leg connection to multiply attack opportunities rather than committing fully to a single finish. Attackers learn to read defensive reactions in real time and flow between finishing the choke, taking the back, attacking the crucifix, or rolling to truck variations without releasing control or returning to neutral. The finish itself comes from the hip turn and extension that compress the trapped arm into the neck, not from arm strength. Mastering this position develops the tactical awareness and technical fluidity required for high-level competition across gi and no-gi formats.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive/Controlling",
@@ -76,68 +76,68 @@
       "time_sustainability": "Short to Medium"
     },
     "state_invariants": [
-      "Top player's arm is threaded deep under opponent's near armpit with hand reaching across to far-side collar or neck area in palm-up orientation, establishing primary choking mechanism and postural control",
-      "Top player's opposite hand secures opponent's far-side collar in gi or connects to choking arm in no-gi, completing the grip structure that enables both choking pressure and positional dominance",
-      "Top player's chest applies downward pressure onto opponent's back and shoulder complex while hips remain heavy on opponent's near hip, creating perpendicular pressure that restricts defensive movement",
-      "Top player's head position maintains close contact with opponent's far shoulder, serving as additional control point that prevents opponent from turning into position or creating rotational escape angles",
-      "Opponent remains in compromised turtle structure unable to effectively posture up, create distance, or implement standard turtle escapes due to grip control and pressure application"
+      "Attacker has trapped the opponent's near arm tight across the opponent's own neck, establishing the primary choking mechanism in which the trapped limb compresses the carotid",
+      "Attacker's same-side leg is clamped over the opponent's near shoulder, pinning the trapped arm in place and preventing the opponent from retracting it",
+      "Attacker connects the legs in a figure-four or shin grip to seal the figure, completing the structure that enables both the strangle and positional control",
+      "Attacker turns the hips and torso toward the opponent and extends, driving the opponent's bicep and shoulder inward to apply progressive choking pressure",
+      "Opponent's trapped arm and shoulder are compressed against their own neck, leaving them unable to posture out, retract the limb, or create space once the figure is locked"
     ],
     "prerequisites": [
-      "Opponent is in defensive turtle position with sufficient postural breakdown to allow arm threading",
-      "Top player has established dominant turtle top control with ability to attack neck and collar areas",
-      "Top player has prevented or nullified opponent's immediate turtle escape attempts to create attack window",
-      "Sufficient collar material is available (gi) or proper neck access has been established (no-gi)",
-      "Top player has achieved positional angle that allows threading arm to reach across opponent's back effectively"
+      "Opponent's near arm has crossed or been framed near the attacker's neck, presenting the limb to be trapped",
+      "Attacker has trapped the near arm before the opponent can retract it during the critical window",
+      "Attacker has the hip and shoulder mobility to swing a leg over the opponent's near shoulder",
+      "Attacker has neutralized the opponent's immediate posture or extraction attempts to create an attack window",
+      "Attacker retains the connection needed to bring the legs together and lock the figure"
     ],
     "key_principles": [
-      "Thread choking arm deep under armpit with palm-up orientation before opponent can establish effective defensive frames",
-      "Secure second grip immediately after threading to eliminate defensive window and complete control structure",
-      "Apply body pressure through chest and hips to flatten opponent and restrict movement before attempting choking pressure",
-      "Read opponent's defensive reactions to determine optimal path between finishing choke and transitioning to superior positions",
-      "Maintain head position tight to opponent's far shoulder as active control point preventing rotation and space creation",
-      "Use progressive pressure application rather than explosive movements to maximize control duration and technical efficiency",
-      "Treat position as transitional attack hub connecting multiple high-percentage outcomes based on opponent's defensive choices"
+      "Trap the near arm tight across the neck before the opponent can retract it",
+      "Swing the same-side leg over the opponent's shoulder to clamp the trapped arm in place",
+      "Connect the legs immediately in a figure-four or shin grip to eliminate the extraction window",
+      "Turn the hips and torso toward the opponent to drive their bicep and shoulder into the carotid",
+      "Read the opponent's defensive reaction to choose between finishing and transitioning to a superior scramble",
+      "Apply the strangle by extending the hips progressively rather than yanking with the arms",
+      "Treat the position as a transitional attack hub connecting multiple high-percentage outcomes"
     ],
     "flashcards": [
       {
-        "question": "What is the optimal grip depth for the threading arm in the Buggy Choke?",
-        "answer": "The threading arm must reach deep enough that your palm-up hand can secure the far-side collar or neck area. Shallow threading allows the opponent to easily strip the grip or create defensive frames. The hand should travel completely under the armpit and across the back until it can grip collar material on the opposite side."
+        "question": "What is the core mechanism of the Buggy Choke?",
+        "answer": "The buggy choke strangles the opponent with their own arm. You trap the opponent's near arm tight across their neck, swing your same-side leg over their shoulder to clamp that arm, connect your legs to lock the figure, and turn into them so their own bicep and shoulder compress their carotid. The finish comes from the hip turn and extension, not arm strength."
       },
       {
-        "question": "Your opponent begins sitting to guard while you have buggy choke grips established - what adjustment do you make?",
-        "answer": "Immediately hook the near leg with your leg and use their sitting motion to transition to back control. Their hip exposure during the sit creates the perfect opportunity to insert hooks. Maintain your collar grip as you follow them, converting the choke attempt into a back take with superior control."
+        "question": "Your opponent's near arm crosses your neck while you control the trap - what adjustment do you make?",
+        "answer": "Trap that arm tight against their neck immediately, then swing your same-side leg up and over their shoulder to clamp it in place. Connect your legs to seal the figure, then turn your hips toward them and extend. Acting before they retract the arm is the difference between a finish and a lost opportunity."
       },
       {
-        "question": "How should weight distribution be managed to maintain the Buggy Choke position?",
-        "answer": "Apply perpendicular pressure with chest heavy on the opponent's back and shoulders while keeping hips weighted down on their near hip. This creates a flattening force that restricts their ability to sit, roll, or stand. Avoid keeping hips high or weight centered over your knees, as this allows escape movements."
+        "question": "Why must you connect your legs quickly during the Buggy Choke?",
+        "answer": "Connecting the legs in a figure-four or shin grip seals the trapped arm against the opponent's neck and prevents extraction. Until the legs connect, the opponent can rip the arm free and escape. The lock is what converts the trap into a finishing structure, so closing that window fast is essential."
       },
       {
-        "question": "What is the role of head position in maintaining Buggy Choke control?",
-        "answer": "The head serves as an active control point that must stay tight to the opponent's far shoulder. This prevents them from creating rotational space to turn into the choke, strip grips with improved leverage, or roll away from pressure. Letting the head drift away opens escape angles and weakens the overall control structure."
+        "question": "Your opponent begins turning away while you have the buggy choke trap established - what is your option?",
+        "answer": "Use their rotation to follow to back control. As they turn to relieve the choking pressure, hook the near leg and ride the turn, converting the choke attempt into a back take. Maintaining the arm trap as you follow keeps the threat alive even as the position changes."
       },
       {
-        "question": "When should you prioritize finishing the choke versus transitioning to another position?",
-        "answer": "Finish the choke when the opponent remains static or focuses purely on grip fighting without movement. Transition to back control when they sit to guard, attack the crucifix when they extend their far arm to base, or roll to truck when they attempt granby escapes. The opponent's defensive choice determines your optimal path."
+        "question": "What body movement finishes the buggy choke once the figure is locked?",
+        "answer": "Turn your hips and torso toward the opponent and extend your hips, arching progressively. This drives the opponent's bicep and shoulder into their own carotid for the strangle. Avoid yanking with your arms; the finish comes from the hip turn and extension against the locked figure, not from upper-body strength."
       },
       {
-        "question": "Your opponent extends their far arm to base and prevent being flattened - what opportunity does this create?",
-        "answer": "The extended arm creates a direct pathway to the crucifix position. Immediately trap the extended arm with your legs while maintaining upper body control. The crucifix offers superior control and multiple submission options compared to continuing the choke attempt against an actively defending opponent."
+        "question": "Your opponent extends their far arm to base and prevent the finish - what opportunity does this create?",
+        "answer": "The extended arm creates a direct pathway to the crucifix position. Trap the extended arm with your legs while maintaining upper-body control. The crucifix offers superior control and multiple submission options compared to forcing the choke against an actively defending opponent."
       },
       {
-        "question": "How do you prevent energy depletion when attacking from Buggy Choke Top?",
-        "answer": "Use body mechanics rather than arm strength for choking pressure. Let your chest weight drive the pressure while hips control position. Apply progressive pressure rather than explosive squeezing. The arms should complete the structure through leverage, not power. This allows sustained attacks without exhaustion."
+        "question": "How do you prevent energy depletion when attacking the Buggy Choke?",
+        "answer": "Use body mechanics rather than arm strength. Let the leg clamp and hip turn drive the choke while you stay structured and calm. Apply progressive pressure rather than explosive squeezing. The arms only complete the trap; the strangle comes from leg connection and hip extension, allowing sustained attacks without exhaustion."
       },
       {
-        "question": "What is the critical timing window for securing the second grip after threading?",
-        "answer": "The second grip must be secured immediately after the threading arm reaches depth - within 1-2 seconds. This window is the opponent's primary escape opportunity. Delaying allows them to strip the initial grip, turn into the position, or sit to guard before the choke structure is complete. Eliminate this defensive window by training fast grip connection."
+        "question": "What is the critical timing window for locking the figure after trapping the arm?",
+        "answer": "The leg must come over the shoulder and the legs must connect within one to two seconds of trapping the arm. This window is the opponent's primary escape opportunity. Delaying lets them retract the arm, posture out, or scramble before the figure is sealed. Eliminate this window by drilling fast leg connection."
       }
     ],
     "decision_tree": [
       {
-        "condition": "If opponent remains static and defensive without movement",
+        "condition": "If opponent remains static with the arm trapped and figure locked",
         "actions": [
           {
-            "technique": "Tighten grips and finish buggy choke",
+            "technique": "Turn hips and finish the buggy choke",
             "target": "game-over",
             "probability": 70
           },
@@ -149,10 +149,10 @@
         ]
       },
       {
-        "condition": "If opponent attempts to sit to guard or roll to side",
+        "condition": "If opponent turns away or rolls to escape the choke",
         "actions": [
           {
-            "technique": "Hook near leg and transition to back control",
+            "technique": "Follow the turn and take the back",
             "target": "Back Control",
             "probability": 60
           },
@@ -164,7 +164,7 @@
         ]
       },
       {
-        "condition": "If opponent turns into the choke to defend neck",
+        "condition": "If opponent turns into the choke to relieve pressure",
         "actions": [
           {
             "technique": "Switch to darce configuration",
@@ -184,7 +184,7 @@
         ]
       },
       {
-        "condition": "If opponent extends far arm to base and prevent choke",
+        "condition": "If opponent extends far arm to base and prevent the finish",
         "actions": [
           {
             "technique": "Attack extended arm for crucifix",
@@ -192,14 +192,14 @@
             "probability": 65
           },
           {
-            "technique": "Maintain pressure and re-attack choke",
+            "technique": "Maintain trap and re-attack choke",
             "target": "Buggy Choke Top",
             "probability": 35
           }
         ]
       },
       {
-        "condition": "If opponent successfully strips grips or creates significant space",
+        "condition": "If opponent extracts the arm or creates significant space",
         "actions": [
           {
             "technique": "Transition to side control",
@@ -207,7 +207,7 @@
             "probability": 50
           },
           {
-            "technique": "Reset to standard turtle top control",
+            "technique": "Reset to a controlling pin",
             "target": "Turtle",
             "probability": 30
           },
@@ -221,67 +221,67 @@
     ],
     "common_errors": [
       {
-        "error": "Threading arm too shallow under armpit without reaching deep collar access",
-        "consequence": "Opponent easily defends neck with frames, strips grip without pressure, or sits to guard maintaining defensive structure",
-        "correction": "Drive threading arm deep until hand reaches far collar with palm-up orientation, ensuring maximum depth before attempting second grip"
+        "error": "Trapping the arm shallow without clamping the leg over the shoulder",
+        "consequence": "Opponent easily retracts the arm, frames out, or scrambles free because the trapped limb is never sealed against the neck",
+        "correction": "Trap the near arm tight and immediately swing the same-side leg over the shoulder, then connect the legs to seal the figure"
       },
       {
-        "error": "Applying explosive choking pressure immediately before control structure is consolidated",
-        "consequence": "Opponent reacts with explosive defensive urgency often escaping before position develops, technique becomes strength-based rather than positional",
-        "correction": "Establish both grips and body pressure first with chest weight and hip control, then apply progressive choking pressure once movement is restricted"
+        "error": "Applying explosive choking pressure before the figure is connected",
+        "consequence": "Opponent reacts with explosive defensive urgency and often escapes before the structure develops, turning the choke into a strength contest",
+        "correction": "Trap the arm and lock the legs first, then apply progressive pressure through the hip turn once the limb is sealed"
       },
       {
-        "error": "Keeping hips too high or weight distributed away from opponent's body",
-        "consequence": "Opponent easily sits to guard, executes granby rolls away, or stands up because insufficient weight prevents their escape movements",
-        "correction": "Drive hips down onto opponent's near hip while maintaining chest heavy on back, creating perpendicular pressure that flattens and controls"
+        "error": "Trying to finish with arm strength instead of a hip turn",
+        "consequence": "Pulling with the arms is weak and easy to defend, exhausting the attacker without producing the strangle",
+        "correction": "Turn the hips and torso toward the opponent and extend, driving their own bicep and shoulder into the carotid"
       },
       {
-        "error": "Failing to secure second grip quickly after threading choking arm",
-        "consequence": "Opponent uses time window to strip initial grip, turn into position, or escape to guard before choke structure is complete",
-        "correction": "Immediately secure far collar with opposite hand or connect hands (no-gi) as soon as threading completes, eliminating defensive window"
+        "error": "Failing to connect the legs quickly after clamping the shoulder",
+        "consequence": "Opponent uses the window to retract the arm, posture out, or scramble before the choke structure is complete",
+        "correction": "Connect the legs in a figure-four or shin grip the instant the leg crosses the shoulder, eliminating the extraction window"
       },
       {
-        "error": "Allowing head to drift away from opponent's far shoulder area",
-        "consequence": "Opponent creates rotational space to turn into choke, strip grips with improved leverage, or roll away from pressure",
-        "correction": "Keep head tight to opponent's far shoulder as active control point that prevents rotation and maintains optimal choking angle"
+        "error": "Releasing the arm trap when the opponent turns away",
+        "consequence": "Loses the connection needed to follow to the back, surrendering a high-percentage transition for nothing",
+        "correction": "Maintain the arm trap and ride the opponent's turn, hooking the near leg to convert the choke attempt into a back take"
       },
       {
-        "error": "Committing fully to choking finish when opponent extends arm for crucifix",
-        "consequence": "Missing high-percentage crucifix transition that offers superior control and submission opportunities than continuing choke attempt",
-        "correction": "Monitor opponent's far arm constantly and immediately transition to crucifix attack when extension occurs, prioritizing position over submission"
+        "error": "Committing fully to the choke when the opponent extends the far arm for crucifix",
+        "consequence": "Missing a high-percentage crucifix transition that offers superior control and submission opportunities",
+        "correction": "Monitor the far arm constantly and transition to crucifix when extension occurs, prioritizing position over a defended finish"
       },
       {
-        "error": "Using pure arm strength for choking pressure without engaging body mechanics",
-        "consequence": "Choke becomes exhausting arm-strength contest, opponent defends more effectively, position becomes unsustainable over time",
-        "correction": "Use full body mechanics with chest pressure downward, hip weight controlling position, arms completing structure through leverage not strength"
+        "error": "Using pure arm strength for the strangle without engaging body mechanics",
+        "consequence": "Choke becomes an exhausting arm-strength contest, the opponent defends more effectively, and the position becomes unsustainable",
+        "correction": "Use the leg clamp and hip extension to drive the choke, letting the arms only complete the trap through leverage not power"
       }
     ],
     "training_drills": [
       {
         "name": "Buggy Choke Entry Mechanics Repetition",
-        "description": "Partner in defensive turtle provides 50% resistance. Repeatedly practice threading choking arm under near armpit, securing far collar grip, establishing second grip, and applying body pressure. Focus on smooth entry sequence, grip security, and proper body positioning. Reset to turtle and repeat 10-15 times per round, emphasizing technical precision over speed.",
+        "description": "Partner presents the near arm across your neck at 50% resistance. Repeatedly trap the arm, swing your same-side leg over their shoulder, connect your legs in a figure-four, and apply light hip pressure. Focus on the speed of the leg swing, the security of the leg connection, and the hip turn. Reset and repeat 10-15 times per round, emphasizing technical precision over finishing power.",
         "duration": "5 minutes per round, 3-4 rounds"
       },
       {
         "name": "Defensive Reaction Flow Drill",
-        "description": "Establish buggy choke control position. Partner provides specific defensive reactions on command: static defense (finish choke), sit to guard (hook leg, take back), turn into attack (switch to darce), extend far arm (attack crucifix), strip grips (transition to side control). Develop pattern recognition and immediate appropriate counter-transition execution. Builds reactive decision-making under pressure.",
+        "description": "Establish the buggy choke trap with the arm trapped and leg over the shoulder. Partner provides specific defensive reactions on command: static defense (finish choke), turn away (follow and take back), turn into attack (switch to darce), extend far arm (attack crucifix), extract arm (transition to side control). Develop pattern recognition and immediate counter-transition execution under pressure.",
         "duration": "4 minutes per round, 4-5 rounds"
       },
       {
         "name": "Positional Sparring: Buggy Choke to Finish or Advance",
-        "description": "Start with buggy choke grips established. Top player works to maintain control, finish submission, or advance position. Bottom player uses full defensive arsenal (grip stripping, sitting to guard, granby rolling, posture recovery). Score: top player for maintaining position, submission, or positional advancement; bottom player for escaping to guard or standing. Reset after scoring events.",
+        "description": "Start with the buggy choke trap established. Attacker works to maintain the trap, finish the strangle, or advance position. Defender uses a full defensive arsenal (arm extraction, posture, turning, scrambling). Score: attacker for maintaining the trap, submission, or positional advancement; defender for clearing to a safe position or standing. Reset after scoring events.",
         "duration": "3 minutes per round, 5-6 rounds"
       },
       {
         "name": "Progressive Resistance Development",
-        "description": "Begin from turtle top without grips. Partner provides graduated resistance: Round 1 (25% - focus on entry mechanics), Round 2 (50% - add realistic defense), Round 3 (75% - full defensive options), Round 4 (100% - competition simulation). Allows technical development before competitive intensity, building confidence and competence systematically.",
+        "description": "Begin from a neutral pin without the trap. Partner provides graduated resistance: Round 1 (25% - focus on entry mechanics), Round 2 (50% - add realistic defense), Round 3 (75% - full defensive options), Round 4 (100% - competition simulation). Allows technical development before competitive intensity, building confidence and competence systematically.",
         "duration": "2 minutes per resistance level, 8 minutes total"
       }
     ],
     "related_content": [
       {
-        "name": "Turtle",
-        "relationship": "Primary starting position for buggy choke attack entries"
+        "name": "Side Control",
+        "relationship": "Primary control where the buggy choke is trapped and a scramble destination when cleared"
       },
       {
         "name": "Buggy Choke",
@@ -289,35 +289,35 @@
       },
       {
         "name": "Back Control",
-        "relationship": "High-percentage transition when opponent sits to guard defending choke"
+        "relationship": "High-percentage transition when the opponent turns away defending the choke"
       },
       {
         "name": "Crucifix",
-        "relationship": "Alternative attack when opponent extends far arm defensively"
+        "relationship": "Alternative attack when the opponent extends the far arm defensively"
       },
       {
         "name": "Truck",
-        "relationship": "Transition target when opponent granby rolls to escape pressure"
+        "relationship": "Transition target when the opponent rolls to escape pressure"
       },
       {
         "name": "Darce Control",
-        "relationship": "Switch option when opponent turns into buggy choke attack"
+        "relationship": "Switch option when the opponent turns into the buggy choke attack"
       },
       {
         "name": "Anaconda Control",
-        "relationship": "Alternative front headlock finish from similar control"
+        "relationship": "Alternative front-headlock finish from similar arm-trap control"
       },
       {
-        "name": "Side Control",
-        "relationship": "Fallback position when grips are stripped but opponent remains flattened"
+        "name": "Turtle",
+        "relationship": "Scramble position the exchange can reset to when grips are cleared"
       },
       {
         "name": "Front Headlock",
-        "relationship": "Related turtle attack with similar control and submission principles"
+        "relationship": "Related attack with similar control and submission principles"
       },
       {
         "name": "Guillotine Control",
-        "relationship": "Alternative turtle submission when buggy choke angle unavailable"
+        "relationship": "Alternative submission when the buggy choke angle is unavailable"
       }
     ],
     "position_metrics": {
@@ -374,34 +374,30 @@
       },
       {
         "transition": "Buggy Choke to North-South",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Buggy Choke to Side Control",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Grip Strip from Buggy Choke",
         "attempt_probability": 1
-      },
-      {
-        "transition": "Buggy Choke from Buggy Choke",
-        "attempt_probability": 2
       }
     ]
   },
   "bottom": {
     "name": "Buggy Choke Bottom",
-    "description": "Defend and escape Buggy Choke attacks from turtle. Complete defensive guide covering grip prevention, posture maintenance, and escape pathways to guard recovery.",
+    "description": "Defend and escape Buggy Choke attacks. Complete defensive guide covering early arm extraction, posture management, and escape pathways to guard recovery before the figure locks.",
     "tags": [
       "bjj",
       "defense",
-      "turtle-bottom",
       "buggy-choke-defense",
       "escape",
-      "survival"
+      "survival",
+      "arm-extraction"
     ],
-    "overview": "Defending the Buggy Choke from the bottom represents one of the most challenging defensive scenarios in turtle position because the attack simultaneously threatens submission while breaking down defensive posture. Unlike many turtle attacks that require multiple steps to finish, the buggy choke can materialize rapidly once the initial threading occurs, leaving limited time for defensive intervention. Bottom players must understand that this position punishes the passive defensive turtle strategy that works against less sophisticated attacks.\n\nThe critical defensive window exists during the threading phase before the second grip is secured. Once both grips are established with proper depth and body pressure applied, escape percentages drop significantly and the position often progresses to either submission or transition to worse positions. Bottom players must develop sensitivity to recognize the threading attempt through proprioception and immediately implement grip prevention protocols, posture adjustments, or proactive escape movements before the position consolidates.\n\nSuccessful defense requires abandoning the mindset of maintaining turtle as a safe defensive position. Against competent buggy choke attacks, turtle becomes transitional, and bottom players must actively work toward guard recovery, standing, or accepting controlled transitions to less dangerous positions like half guard. The position teaches the important principle that sometimes the best defense is controlled offense—proactively moving to better positions rather than trying to survive in a deteriorating defensive structure. Understanding these defensive priorities is essential for preventing high-percentage submissions from turtle and developing comprehensive bottom game defensive systems.",
+    "overview": "Defending the Buggy Choke is one of the most deceptive defensive scenarios in jiu-jitsu because the danger arrives from a position the defender often believes is winning. The attack uses the defender's own near arm as the choking mechanism, so the instant that arm is framed across the attacker's neck, the exchange has become a trap. Unlike many submissions that telegraph from inferior positions, the buggy choke can materialize rapidly once the arm is trapped and a leg clamps the shoulder, leaving limited time for defensive intervention. Defenders must understand that a strong pin does not guarantee safety against this attack.\n\nThe critical defensive window exists before the attacker's leg clamps the shoulder and the legs connect. Once the figure is locked with the trapped arm sealed and hip pressure applied, escape percentages drop significantly and the position often progresses to either submission or transition to a worse spot. Defenders must develop sensitivity to recognize when their near arm is being framed across the attacker's neck and immediately extract that arm, posture the head up and away, and avoid muscling deeper, which only feeds the strangle.\n\nSuccessful defense requires abandoning the mindset that a dominant pin is automatically safe. Against a competent buggy choke, the defender must prioritize arm extraction and clearing the leg over the shoulder above maintaining position, even if that means temporarily conceding ground to recover safe distance. The position teaches the important principle that pressure without arm awareness can be a liability, and that escaping a deteriorating entanglement quickly is far better than stubbornly holding a position being converted into a submission. Understanding these defensive priorities is essential for preventing high-percentage strangles and developing comprehensive defensive systems against the modern buggy choke.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive",
@@ -410,68 +406,68 @@
       "time_sustainability": "Short"
     },
     "state_invariants": [
-      "Bottom player remains in turtle structure with hands and knees on mat, attempting to maintain base while opponent applies perpendicular pressure and collar/neck control from top position",
-      "Top player's arm threads under bottom player's near armpit reaching across toward far collar or neck, creating primary choking mechanism that bottom player must prevent from deepening",
-      "Bottom player's near arm is compromised by opponent's threading arm, limiting its defensive utility and creating structural weakness on that side of the defensive turtle frame",
-      "Top player applies downward chest pressure onto bottom player's back and shoulder complex while maintaining hip pressure on bottom player's near hip, restricting rolling and sitting escapes",
-      "Bottom player's neck and collar area are under attack with limited ability to create defensive frames due to opponent's grip configuration and perpendicular pressure application"
+      "Defender's near arm is trapped or being framed across the attacker's neck, the limb that becomes the choking mechanism the defender must extract before it is sealed",
+      "Attacker is swinging or has placed a leg over the defender's near shoulder to clamp the trapped arm against the defender's own neck",
+      "Defender's posture is compromised as the attacker pulls the head and shoulder into the entanglement, restricting the ability to posture up and away",
+      "Defender's forward pressure into the position paradoxically feeds the strangle, so maintaining position without adjusting works against the defender",
+      "Defender's near arm and shoulder are under attack with limited ability to retract the limb once the attacker's legs connect and the figure is locked"
     ],
     "prerequisites": [
-      "Bottom player has entered turtle position from guard passing sequence, scramble, or deliberate defensive choice",
-      "Top player has established dominant turtle top position with ability to attack neck and collar areas",
-      "Bottom player's posture has been compromised sufficiently to allow opponent's arm threading under armpit",
-      "Bottom player has failed to prevent initial threading or grip establishment during critical defensive window",
-      "Top player maintains connection and pressure preventing bottom player's immediate escape to guard or standing position"
+      "Defender's near arm has crossed or been framed near the attacker's neck and throat line",
+      "Attacker has begun trapping the near arm to initiate the buggy choke entry",
+      "Defender has failed to extract the threatened arm during the earliest framing phase",
+      "Attacker retains the connection and angle needed to bring a leg over the defender's shoulder",
+      "Defender's posture has been compromised enough to prevent immediate escape to a safe position"
     ],
     "key_principles": [
-      "Recognize threading attempt immediately through proprioception and implement grip prevention before second grip secures",
-      "Maintain aggressive posture recovery by driving head and shoulders up to prevent flattening and collar access",
-      "Keep near elbow tight to ribs to block threading arm's depth and prevent palm-up collar grip establishment",
-      "Create rotational movement toward the threading arm to face opponent and eliminate choking angle geometry",
-      "Abandon passive turtle maintenance strategy and actively pursue guard recovery or standing escape immediately",
-      "Strip grips aggressively during early phases before body pressure makes grip fighting ineffective",
-      "Accept tactical retreat to half guard or other defensive positions rather than allowing choke to develop in turtle"
+      "Recognize the near arm being framed across the attacker's neck as the first sign of the buggy choke",
+      "Extract the threatened near arm immediately before the attacker's leg can clamp the shoulder",
+      "Posture the head up and away rather than driving deeper into the position",
+      "Avoid feeding the choke by adding forward pressure once the entanglement begins forming",
+      "Clear the leg crossing your shoulder by circling toward the opponent's legs to relieve the angle",
+      "Concede position to recover safe distance rather than holding a spot being converted to a submission",
+      "Treat any near-arm trap from a strong position as a high-priority threat demanding instant response"
     ],
     "flashcards": [
       {
         "question": "What is the critical defensive window for preventing the Buggy Choke?",
-        "answer": "The critical window exists during the threading phase before the second grip is secured. Once both grips are established with proper depth and body pressure applied, escape percentages drop dramatically. You must recognize the threading attempt immediately through feel and implement grip prevention, posture adjustments, or proactive escape movements within 1-2 seconds."
+        "answer": "The critical window exists before the attacker's leg clamps your shoulder and their legs connect. Once the figure is locked with your arm sealed against your neck, escape percentages drop dramatically. You must recognize your near arm being framed across their neck and extract it, posture up, or escape within one to two seconds."
       },
       {
-        "question": "Your opponent begins threading their arm under your armpit - what is your immediate defensive priority?",
-        "answer": "Clamp your near elbow tight to your ribs immediately to block the threading arm's depth and prevent palm-up collar grip establishment. Simultaneously drive your head and shoulders up aggressively to maintain high turtle posture. These two actions combined eliminate the primary choking pathway before it develops."
+        "question": "Your opponent begins trapping your near arm across their neck - what is your immediate defensive priority?",
+        "answer": "Rip the trapped near arm straight back toward your hip to extract it before they can swing a leg over your shoulder. Simultaneously drive your head and shoulders up to maintain posture and create distance. Arm extraction during this early window is the highest-percentage defense before the figure locks."
       },
       {
-        "question": "Why is rolling away from the choking arm a common mistake in Buggy Choke defense?",
-        "answer": "Rolling away actually tightens the collar grip and accelerates the choke because your rotation drives your neck deeper into the grip. Additionally, rolling away often transitions you directly into truck or back control positions. Instead, roll toward the choking arm to face the opponent and eliminate the choking angle, or sit to guard proactively."
+        "question": "Why is muscling deeper into your pin a mistake when defending the Buggy Choke?",
+        "answer": "The buggy choke uses your own near arm, driven by your forward pressure, to compress your carotid through your own bicep and shoulder. The harder you press in, the tighter the strangle becomes. Instead of adding pressure, extract the arm and create posture and distance."
       },
       {
-        "question": "What grip should you prioritize stripping when defending an established Buggy Choke?",
-        "answer": "Prioritize removing or blocking the primary threading arm's depth first, not the second grip. The threading arm is the primary choking mechanism that enables the entire position. Even if you strip the second grip, the threading arm maintains depth with palm-up collar access, making the second grip stripping irrelevant to stopping the choke."
+        "question": "What should you prioritize once the attacker's leg is over your shoulder and legs are connecting?",
+        "answer": "Prioritize clearing the leg off your shoulder and freeing the trapped arm over maintaining position. Circle your body toward their legs to relieve the choking angle. If you cannot clear it quickly, concede position and pull your head out to recover safe distance before the strangle finishes."
       },
       {
-        "question": "When should you accept transitioning to back control rather than continuing to defend the Buggy Choke?",
-        "answer": "Accept back control when full buggy choke control is established with body pressure and you cannot effectively strip grips. Back control, while disadvantageous, allows continued defense with multiple escape options, whereas staying in the fully-locked buggy choke leads to submission. A controlled transition to a survivable position is better than being choked."
+        "question": "When should you accept giving up position to escape the Buggy Choke?",
+        "answer": "Accept giving up position the moment arm extraction stops working and the figure is locking. A controlled retreat to space is far better than being strangled while clinging to a spot that has been converted into a submission against you. Survival outranks position here."
       },
       {
-        "question": "Your opponent has both grips secured but hasn't applied significant body pressure yet - what escape options are available?",
-        "answer": "This is your last high-percentage escape window. Execute an explosive granby roll away to create distance and recover guard, attempt a technical stand up urgently before pressure pins you, or proactively accept back control by sitting to guard and giving up the back take. All three options become much harder once body pressure is applied."
+        "question": "Your opponent has trapped your arm but not yet brought a leg over - what escape options remain?",
+        "answer": "This is your highest-percentage window. Rip the trapped arm back toward your hip to extract it, drive your head up and away, and shift your hips or angle so their leg cannot reach your shoulder. Acting before the leg clamps preserves both your position and your neck."
       },
       {
-        "question": "How does maintaining high turtle posture help defend the Buggy Choke?",
-        "answer": "High turtle posture with head and shoulders driven up creates distance from the collar area, making it harder for the opponent to achieve deep grip access. It also preserves the mobility needed for escape movements like sitting to guard or standing up. Lowering your head or flattening your posture actually facilitates the choking mechanics."
+        "question": "How does head posture help you defend the Buggy Choke?",
+        "answer": "Posturing your head up and away keeps your weight off the entanglement and prevents the attacker from pulling you into the locked figure. A lowered, driving head feeds your shoulder and arm into the choke. High, retracted posture preserves the room needed to extract your arm and clear the leg."
       },
       {
-        "question": "What is the energy management strategy for defending against Buggy Choke attacks?",
-        "answer": "Early intervention requires significantly less energy than late-stage defense. Use energy aggressively in the first 2-3 seconds to strip grips or escape before control consolidates. Once full control is established, conserve energy by accepting positional transitions rather than fighting a losing grip battle. Recognize that sustained turtle defense against a locked buggy choke is energetically unsustainable."
+        "question": "What is the energy management strategy for defending against a Buggy Choke?",
+        "answer": "Spend energy early and decisively on arm extraction in the first one to two seconds, because late defense against a locked figure is exhausting and low-percentage. Once the strangle is locked, conserve effort by clearing the leg and conceding position rather than grinding pressure that only tightens the choke."
       }
     ],
     "decision_tree": [
       {
-        "condition": "If opponent is threading arm but second grip not yet secured",
+        "condition": "If opponent is trapping the arm but the leg is not yet over the shoulder",
         "actions": [
           {
-            "technique": "Strip threading arm aggressively",
+            "technique": "Rip arm free and re-posture",
             "target": "Turtle",
             "probability": 45
           },
@@ -488,10 +484,10 @@
         ]
       },
       {
-        "condition": "If both grips are secured but no significant body pressure yet",
+        "condition": "If the leg is over the shoulder but the figure is not yet locked",
         "actions": [
           {
-            "technique": "Explosive granby roll away",
+            "technique": "Explosive roll to clear the angle",
             "target": "Closed Guard",
             "probability": 35
           },
@@ -501,22 +497,22 @@
             "probability": 25
           },
           {
-            "technique": "Accept back control",
+            "technique": "Concede position to recover",
             "target": "Back Control",
             "probability": 40
           }
         ]
       },
       {
-        "condition": "If full buggy choke control is established with body pressure",
+        "condition": "If the full buggy choke figure is locked with the arm sealed",
         "actions": [
           {
-            "technique": "Fight hands to delay choke",
+            "technique": "Fight the arm to delay the choke",
             "target": "Buggy Choke Bottom",
             "probability": 30
           },
           {
-            "technique": "Accept back control transition",
+            "technique": "Clear the leg and accept a transition",
             "target": "Back Control",
             "probability": 45
           },
@@ -528,7 +524,7 @@
         ]
       },
       {
-        "condition": "If opponent is attempting to flatten but grips are shallow",
+        "condition": "If opponent is setting the trap but grips are shallow",
         "actions": [
           {
             "technique": "Drive posture up aggressively",
@@ -550,60 +546,60 @@
     ],
     "common_errors": [
       {
-        "error": "Remaining static in turtle hoping opponent will transition away rather than finish the choke",
-        "consequence": "Opponent has unlimited time to perfect grips and apply progressive choking pressure until submission is inevitable",
-        "correction": "Move immediately and aggressively toward guard recovery or standing escape, accepting that turtle is no longer viable defensive position"
+        "error": "Remaining static hoping the opponent will abandon the choke rather than finish",
+        "consequence": "Opponent has unlimited time to seal the figure and apply progressive choking pressure until submission is inevitable",
+        "correction": "Extract the arm and move immediately toward guard recovery or standing escape, accepting that the current position is no longer safe"
       },
       {
-        "error": "Focusing grip fighting efforts on the second grip while ignoring the primary threading arm already deep under armpit",
-        "consequence": "Threading arm maintains depth with palm-up collar access, making second grip stripping irrelevant to stopping the choke",
-        "correction": "Prioritize removing or blocking the threading arm's depth first, as this is the primary choking mechanism that enables the entire position"
+        "error": "Fighting the attacker's legs while ignoring your own trapped near arm",
+        "consequence": "The trapped arm remains sealed against your neck as the choking mechanism, making leg fighting alone irrelevant to stopping the strangle",
+        "correction": "Prioritize extracting your own near arm first, as that limb is the primary choking mechanism that enables the entire position"
       },
       {
-        "error": "Attempting to roll away from the choking arm toward open space",
-        "consequence": "Rolling motion actually tightens the collar grip and accelerates the choke while potentially transitioning to truck or back control",
-        "correction": "Roll toward the choking arm to face opponent and eliminate choking angle, or sit to guard proactively rather than rolling away"
+        "error": "Driving deeper into your pin to try to flatten the opponent",
+        "consequence": "Forward pressure feeds your own bicep and shoulder into your carotid, accelerating the strangle you are trying to prevent",
+        "correction": "Stop adding pressure, posture the head up and away, and extract the trapped arm before the figure locks"
       },
       {
-        "error": "Keeping near elbow wide and away from ribs during threading attempt",
-        "consequence": "Creates highway for opponent's arm to thread deep under armpit with optimal palm-up orientation for collar access",
-        "correction": "Clamp near elbow tight to ribs immediately when turtle top control is established, blocking threading pathways before they develop"
+        "error": "Leaving the near arm extended across the opponent's neck",
+        "consequence": "Creates the exact arm position the buggy choke requires, handing the opponent the limb they need to finish",
+        "correction": "Keep the near arm tucked and framing low, never strung across the opponent's neck where it can be trapped"
       },
       {
-        "error": "Lowering head and turtle posture to avoid collar grips",
-        "consequence": "Flattened posture actually facilitates choking mechanics and eliminates mobility needed for escape movements",
-        "correction": "Drive head and shoulders up aggressively to maintain high turtle posture that creates distance from collar and preserves escape options"
+        "error": "Lowering the head and posture once the trap begins",
+        "consequence": "Flattened posture facilitates the choking mechanics and eliminates the mobility needed for escape movements",
+        "correction": "Drive head and shoulders up aggressively to maintain posture that creates distance and preserves escape options"
       }
     ],
     "training_drills": [
       {
-        "name": "Grip Prevention Sensitivity Drill",
-        "description": "Start in turtle bottom with partner in turtle top control. Partner attempts buggy choke entry in slow motion while bottom player practices recognizing threading attempt through feel and implements immediate defensive responses (elbow clamping, posture drive, grip stripping). Gradually increase speed as recognition improves. Focus on proprioceptive awareness of threading motion.",
+        "name": "Arm-Extraction Sensitivity Drill",
+        "description": "Start in a tight pin with partner who, on a cue, frames your near arm across their neck to begin a buggy entry. Practice recognizing the trap instantly and ripping the arm free toward your hip while posturing the head up and away. Gradually increase speed as recognition improves. Focus on proprioceptive awareness of the arm being framed before the leg comes over.",
         "duration": "4 minutes per round, 4 rounds"
       },
       {
         "name": "Escape Window Timing Drill",
-        "description": "Partner establishes buggy choke grips at different stages: Round 1 (one grip only), Round 2 (both grips, no pressure), Round 3 (full control). Bottom player must execute appropriate escape for each stage, learning which techniques work at which defensive windows. Emphasizes timing and technique selection based on position development.",
+        "description": "Partner establishes the buggy choke at staged depths: Round 1 (arm trapped only), Round 2 (leg over shoulder, legs not connected), Round 3 (full figure locked). Defend with the correct escape for each stage, learning which extraction or bail works at which window. Emphasizes timing and technique selection based on how far the position has developed.",
         "duration": "3 minutes per stage, 9 minutes total"
       },
       {
         "name": "Progressive Resistance Buggy Choke Defense",
-        "description": "Partner attacks with buggy choke using graduated resistance levels: 25%, 50%, 75%, 100%. Bottom player practices full defensive sequence from prevention through escape. Lower resistance allows technical refinement, higher resistance builds realistic defensive capability under pressure. Reset after successful defense or submission.",
+        "description": "Partner attacks the buggy choke using graduated resistance levels: 25%, 50%, 75%, 100%. Defend the full sequence from arm extraction through clearing the leg and recovering position. Lower resistance allows technical refinement; higher resistance builds realistic defensive capability under pressure. Reset after a clean escape or a tap, noting which window you should have acted in.",
         "duration": "2 minutes per resistance level, 8 minutes total"
       }
     ],
     "related_content": [
       {
         "name": "Turtle",
-        "relationship": "Starting defensive position where buggy choke attacks develop"
+        "relationship": "Scramble position the defender can recover toward when extracting the arm"
       },
       {
         "name": "Back Control",
-        "relationship": "Common result when buggy choke defense fails and opponent transitions"
+        "relationship": "Common result when buggy choke defense fails and the opponent transitions"
       },
       {
         "name": "Half Guard",
-        "relationship": "Primary escape destination through sitting defense from buggy choke"
+        "relationship": "Primary escape destination through sitting defense from the buggy choke"
       },
       {
         "name": "Deep Half Guard",
@@ -611,7 +607,7 @@
       },
       {
         "name": "Closed Guard",
-        "relationship": "Escape destination via granby roll or turning into opponent"
+        "relationship": "Escape destination via an explosive roll or turning into the opponent"
       }
     ],
     "position_metrics": {

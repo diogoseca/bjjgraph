@@ -39,7 +39,7 @@ description: "Master the toe hold from leg entanglement positions in BJJ. Expert
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Toe Hold from Leg Entanglement",
-  "description": "The toe hold from leg entanglement is a rotational ankle lock that uses a figure-four grip across the ball of the foot to twist the toes outward, attacking the ankle ligaments and midfoot from any ashi garami variant.",
+  "description": "The toe hold from leg entanglement is a rotational ankle lock that uses a figure-four grip across the ball of the foot to twist the toes inward toward the opponent's midline, attacking the ankle ligaments and midfoot from any ashi garami variant.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -49,7 +49,7 @@ description: "Master the toe hold from leg entanglement positions in BJJ. Expert
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The toe hold from leg entanglement is a rotational ankle lock that uses a figure-four grip across the ball of the foot to twist the toes outward, attacking the ankle ligaments and midfoot from any ashi garami variant.**
+**The toe hold from leg entanglement is a rotational ankle lock that uses a figure-four grip across the ball of the foot to twist the toes inward toward the opponent's midline, attacking the ankle ligaments and midfoot from any ashi garami variant.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>

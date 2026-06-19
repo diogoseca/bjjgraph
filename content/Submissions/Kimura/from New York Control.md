@@ -39,7 +39,7 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Kimura from New York Control",
-  "description": "The Kimura from New York Control is a figure-four shoulder lock attacked from the 10th Planet rubber guard, converting the position's deep overhook directly into the Kimura grip to torque the bottom opponent's shoulder while active leg pressure pins their posture.",
+  "description": "The Kimura from New York Control is an opportunistic figure-four shoulder lock from 10th Planet rubber guard, converting the bottom player's deep overhook into the Kimura grip to torque the top opponent's shoulder when they post heavy.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -49,12 +49,12 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Kimura from New York Control is a figure-four shoulder lock attacked from the 10th Planet rubber guard, converting the position's deep overhook directly into the Kimura grip to torque the bottom opponent's shoulder while active leg pressure pins their posture.**
+**The Kimura from New York Control is an opportunistic figure-four shoulder lock from 10th Planet rubber guard, converting the bottom player's deep overhook into the Kimura grip to torque the top opponent's shoulder when they post heavy.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint, rotator cuff, and shoulder capsule</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">42% success</span>
 </div>
 
 > [!danger] Safety
@@ -69,7 +69,7 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
 
 <section id="overview" class="content-section">
 
-The Kimura from New York Control leverages the rubber guard system's inherent arm control to set up a high-percentage shoulder lock from bottom position. The deep overhook that defines New York Control provides a natural pathway to the figure-four Kimura grip, bypassing the most difficult phase of traditional guard-based Kimura attacks where establishing initial arm control against a defensive opponent often fails. The bottom player converts existing overhook control directly into the Kimura grip while maintaining leg pressure across the opponent's back to prevent posture recovery.
+The Kimura from New York Control leverages the rubber guard system's inherent arm control to set up an opportunistic shoulder lock from bottom position. It is a secondary attack rather than the headline finish from this position, which funnels primarily to the gogoplata, omoplata, and triangle; the Kimura becomes available when the top opponent posts heavy and exposes the overhooked arm. The deep overhook that defines New York Control provides a natural pathway to the figure-four Kimura grip, bypassing the most difficult phase of traditional guard-based Kimura attacks where establishing initial arm control against a defensive opponent often fails. The bottom player converts existing overhook control directly into the Kimura grip while maintaining leg pressure across the opponent's back to prevent posture recovery.
 
 What distinguishes this variation from standard closed guard or half guard Kimura attempts is the pre-existing arm isolation. In conventional guard positions, the attacker must first break posture, then fight to control one arm while the opponent uses both hands for defense. From New York Control, the overhook has already compromised the defender's arm positioning and eliminated their ability to post or create distance. The transition from overhook to figure-four requires only a grip conversion rather than a full arm isolation sequence, making the setup substantially faster and harder to defend.
 
@@ -85,9 +85,9 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 62% |
-| Failure | [[Positions/Rubber Guard/New York Control]] | 25% |
-| Counter | [[Positions/Closed Guard]] | 13% |
+| Success | [[game-over]] | 42% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 43% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>

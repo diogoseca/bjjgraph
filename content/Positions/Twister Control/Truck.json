@@ -460,7 +460,7 @@
             "probability": 50
           },
           {
-            "technique": "Forward Roll",
+            "technique": "Roll to Guard from Truck",
             "target": "Deep Half Guard",
             "probability": 25
           },
@@ -631,16 +631,12 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Forward Roll",
-        "attempt_probability": 7
-      },
-      {
         "transition": "Back Door Escape",
         "attempt_probability": 4
       },
       {
         "transition": "Defensive Roll",
-        "attempt_probability": 4
+        "attempt_probability": 7
       },
       {
         "transition": "Escape from Truck",
@@ -656,7 +652,7 @@
       },
       {
         "transition": "Roll to Guard from Truck",
-        "attempt_probability": 4
+        "attempt_probability": 8
       }
     ],
     "flashcards": [

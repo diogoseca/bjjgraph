@@ -39,7 +39,7 @@ description: "Master the Kimura shoulder lock from Armbar Control in BJJ. Learn 
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Kimura from Armbar Control",
-  "description": "The Kimura from Armbar Control is a shoulder-lock chain attack where the top player, facing an opponent who bends their arm to defend the armbar, secures a figure-four grip and externally rotates the trapped forearm to threaten the shoulder.",
+  "description": "The Kimura from Armbar Control is a shoulder-lock chain attack where the top player, facing an opponent who bends their arm to defend the armbar, secures a figure-four grip and internally rotates the trapped forearm, driving the wrist toward the lower back to threaten the shoulder.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -49,7 +49,7 @@ description: "Master the Kimura shoulder lock from Armbar Control in BJJ. Learn 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Kimura from Armbar Control is a shoulder-lock chain attack where the top player, facing an opponent who bends their arm to defend the armbar, secures a figure-four grip and externally rotates the trapped forearm to threaten the shoulder.**
+**The Kimura from Armbar Control is a shoulder-lock chain attack where the top player, facing an opponent who bends their arm to defend the armbar, secures a figure-four grip and internally rotates the trapped forearm, driving the wrist toward the lower back to threaten the shoulder.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
@@ -137,9 +137,9 @@ What makes this attack devastatingly effective is the positional advantage alrea
 
 - **Secure Elbow-to-Chest Contact**: Pull the opponent's bent elbow tight against your chest using the figure-four grip. This creates the...
 
-- **Adjust Hip Angle for Rotation**: Scoot your hips slightly toward the opponent's head to create the optimal angle for external rotatio...
+- **Adjust Hip Angle for Rotation**: Scoot your hips slightly toward the opponent's head to create the optimal angle for internal rotatio...
 
-- **Apply Controlled External Rotation**: Using your figure-four grip, rotate the opponent's forearm away from their body in a controlled arc ...
+- **Apply Controlled Internal Rotation**: Using your figure-four grip, rotate the opponent's forearm in a controlled arc toward their lower ba...
 
 - **Complete the Finish with Combined Pressure**: Complete the submission by simultaneously maintaining hip pressure against the shoulder, squeezing y...
 

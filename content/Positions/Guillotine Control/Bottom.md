@@ -21,37 +21,37 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke from Guillotine Control",
-      "text": "From this position, attempt Guillotine Choke from Guillotine Control. This technique is attempted in 50% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke from Guillotine Control. This technique is attempted in 49% of exchanges from this position.",
       "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Guillotine Choke",
+      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 1% of exchanges from this position.",
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Elbow Guillotine Variation",
       "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 13% of exchanges from this position.",
-      "position": 2
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
       "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 10% of exchanges from this position.",
-      "position": 3
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
       "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 4% of exchanges from this position.",
-      "position": 4
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Triangle",
       "text": "From this position, attempt Closed Guard to Triangle. This technique is attempted in 6% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Guard Recovery from Guillotine Control",
-      "text": "From this position, attempt Guard Recovery from Guillotine Control. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],

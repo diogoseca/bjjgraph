@@ -21,7 +21,7 @@ description: "Master bottom butterfly half guard - hybrid position combining but
     {
       "@type": "HowToStep",
       "name": "Execute 100% Sweep",
-      "text": "From this position, attempt 100% Sweep. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt 100% Sweep. This technique is attempted in 36% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,7 +33,7 @@ description: "Master bottom butterfly half guard - hybrid position combining but
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
@@ -233,7 +233,6 @@ Success in butterfly half guard bottom requires mastering several key technical 
 
 **If opponent stands tall or attempts to step over the trapped leg creating vertical posture:**
 - Execute **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Transitions/Knee Tap/Attacker|Knee Tap]]** → [[Positions/Standing Position]] (Probability: 50%)
 - Execute **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 60%)
 
 

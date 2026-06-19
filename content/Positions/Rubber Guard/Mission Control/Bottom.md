@@ -20,38 +20,38 @@ description: "Master the bottom of Mission Control with complete control mechani
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Triangle from Guard",
+      "text": "From this position, attempt Triangle from Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata to Sweep",
-      "text": "From this position, attempt Omoplata to Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Triangle Setup",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Omoplata to Sweep",
+      "text": "From this position, attempt Omoplata to Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard to Triangle",
-      "text": "From this position, attempt Closed Guard to Triangle. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Closed Guard to Triangle",
+      "text": "From this position, attempt Closed Guard to Triangle. This technique is attempted in 9% of exchanges from this position.",
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gogoplata",
       "text": "From this position, attempt Gogoplata. This technique is attempted in 10% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],

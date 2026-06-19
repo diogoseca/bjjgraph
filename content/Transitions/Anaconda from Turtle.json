@@ -90,7 +90,7 @@
     "description": "How to execute Anaconda from Turtle in BJJ. Attacking perspective with setup, execution steps, and counters.",
     "overview": "The Anaconda from Turtle is a dynamic submission setup that transitions from turtle top position to anaconda control through a committed rolling motion. This technique exploits the opponent's defensive turtle posture by threading your arm under their neck while trapping their near arm, then using a figure-four grip and rolling motion to secure the optimal choking angle. Your bicep compresses one carotid artery while their own trapped arm and shoulder compress the other, creating bilateral vascular pressure. The execution demands precise sequencing: deep palm-down arm threading, near arm verification, maximum grip tightness, and decisive roll commitment before the opponent can establish a defensive base. The rolling momentum is the essential mechanism for creating proper choking angle, not merely a finishing flourish. This technique has become fundamental in modern no-gi grappling because the dynamic roll is unexpected and frequently secures the finish before opponents can mount proper defense. It represents sophisticated front headlock mechanics combined with dynamic movement principles, integrating naturally with other turtle top attacks to create a branching threat tree.",
     "key_principles": [
-      "Thread far arm deep under neck with palm-down orientation toward near shoulder for optimal bone alignment",
+      "Thread near arm deep under neck with palm-down orientation toward far shoulder for optimal bone alignment",
       "Trap the near arm (not far arm) between your choking arm and their neck to create the anaconda-specific bilateral pressure",
       "Secure tight figure-four grip before initiating roll - grip integrity determines finish quality",
       "Commit immediately to the roll once grip is locked, as hesitation of even one second allows defensive base establishment",
@@ -104,7 +104,7 @@
       "Control of opponent's near arm established with your hand before threading begins",
       "Opponent has not anticipated roll or secured extremely strong base with wide posting",
       "Sufficient mat space alongside opponent to execute rolling motion without wall obstruction",
-      "Ability to thread arm deep under neck past near shoulder with palm-down orientation",
+      "Ability to thread arm deep under neck past far shoulder with palm-down orientation",
       "Opponent's posture is forward or neutral rather than extremely defensive with chin buried"
     ],
     "execution_steps": [
@@ -116,7 +116,7 @@
       {
         "step_number": 2,
         "action": "Thread Choking Arm Under Neck",
-        "description": "Thread your far-side arm under opponent's neck toward their near shoulder, maintaining palm-down orientation throughout the threading motion. Drive your arm deep until your wrist clears past their near shoulder to ensure proper depth for the choking position. The deeper the threading, the tighter the eventual finish will be. Palm-down alignment positions the radius bone optimally against the carotid artery."
+        "description": "Thread your near-side arm under opponent's neck toward their far shoulder, maintaining palm-down orientation throughout the threading motion. Drive your arm deep until your wrist clears past their far shoulder to ensure proper depth for the choking position. The deeper the threading, the tighter the eventual finish will be. Palm-down alignment positions the radius bone optimally against the carotid artery."
       },
       {
         "step_number": 3,
@@ -198,9 +198,9 @@
         "correction": "Lock figure-four grip extremely tight before initiating roll and maintain maximum compression throughout the entire rolling transition. Pull elbows together continuously during the roll as a conscious cue."
       },
       {
-        "error": "Threading arm too shallow without reaching past near shoulder",
+        "error": "Threading arm too shallow without reaching past far shoulder",
         "consequence": "Insufficient arm depth means the loop cannot close tightly enough for effective choking position, resulting in a squeeze that creates discomfort but never finishes the submission",
-        "correction": "Drive threading arm deep until your wrist clearly clears past opponent's near shoulder. If you cannot achieve sufficient depth due to their defense, attack a different technique rather than forcing a shallow anaconda."
+        "correction": "Drive threading arm deep until your wrist clearly clears past opponent's far shoulder. If you cannot achieve sufficient depth due to their defense, attack a different technique rather than forcing a shallow anaconda."
       },
       {
         "error": "Failing to control near arm before threading choking arm",
@@ -255,7 +255,7 @@
       },
       {
         "question": "What must be accomplished before rolling in the anaconda setup?",
-        "answer": "Before rolling you must achieve three critical elements in sequence: first, the near arm must be trapped between your choking arm and their neck with no gap; second, your threading arm must have cleared deep past their near shoulder with palm-down orientation; and third, the figure-four grip must be locked with elbows pulled maximally together. All three elements must be verified before committing to the roll. A roll with any element missing will fail and likely result in losing the position entirely."
+        "answer": "Before rolling you must achieve three critical elements in sequence: first, the near arm must be trapped between your choking arm and their neck with no gap; second, your threading arm must have cleared deep past their far shoulder with palm-down orientation; and third, the figure-four grip must be locked with elbows pulled maximally together. All three elements must be verified before committing to the roll. A roll with any element missing will fail and likely result in losing the position entirely."
       },
       {
         "question": "How do you adjust if opponent bases out with a posted hand during your roll attempt?",

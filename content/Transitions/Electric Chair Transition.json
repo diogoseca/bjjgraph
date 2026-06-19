@@ -14,7 +14,7 @@
   "from_position": "Lockdown/Bottom",
   "outcomes": [
     {
-      "to": "Electric Chair/Top",
+      "to": "Electric Chair/Bottom",
       "probability": 65,
       "result": "success"
     },
@@ -155,7 +155,7 @@
         "counter": "Opponent sprawls hips backward to create distance and relieve pressure",
         "effectiveness": "Low",
         "your_response": "Follow their backward movement with continued hip extension. Their sprawling actually amplifies the Electric Chair pressure and often accelerates submission threat",
-        "targets_outcome": "Electric Chair/Top"
+        "targets_outcome": "Electric Chair/Bottom"
       }
     ],
     "common_errors": [

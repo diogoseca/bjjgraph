@@ -244,7 +244,7 @@ As the attacker executing Posture Recovery from Meathook, you are the top player
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 45% |
+| Success | [[Positions/Closed Guard]] | 45% |
 | Failure | [[Positions/Rubber Guard/Meathook]] | 35% |
 | Counter | [[Positions/Back Control]] | 20% |
 

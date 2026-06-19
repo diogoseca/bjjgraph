@@ -242,25 +242,29 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (17% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (12% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (18% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (17% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (9% of attempts)
+- **[[Transitions/Counter Sweep/Attacker|Counter Sweep]]** (4% of attempts)
+
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (8% of attempts)
 
 - **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (9% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
 
 - **[[Transitions/X Pass/Attacker|X Pass]]** (8% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (9% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (8% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
 
 - **[[Transitions/Float Passing/Attacker|Float Passing]]** (4% of attempts)
+
+- **[[Transitions/Open Guard to Double Unders/Attacker|Open Guard to Double Unders]]** (7% of attempts)
 
 
 ### Common Mistakes

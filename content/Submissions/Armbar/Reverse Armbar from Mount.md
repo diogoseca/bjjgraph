@@ -111,7 +111,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 - Hip rotation must precede extension to establish proper angle
 
-- Arm isolation requires thumb-up positioning before rotation begins
+- Arm isolation targets the opponent's thumb-down (pronated) arm, the defensive orientation the reverse rotation attacks
 
 - Head and shoulder control prevents rolling escapes during transition
 

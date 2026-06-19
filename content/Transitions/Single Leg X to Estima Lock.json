@@ -1,0 +1,350 @@
+{
+  "name": "Single Leg X to Estima Lock",
+  "description": "Enter the Estima Lock from Single Leg X-Guard in BJJ. Trap the foot, invert your figure-four grip, and isolate the ankle for the inverted footlock with full technical breakdown.",
+  "tags": [
+    "bjj",
+    "transition",
+    "leg-lock",
+    "single-leg-x",
+    "estima-lock",
+    "footlock",
+    "no-gi"
+  ],
+  "aliases": [
+    "SLX to Estima Lock",
+    "Single Leg X Estima Entry"
+  ],
+  "from_position": "Single Leg X-Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Estima Lock Control/Top",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Single Leg X-Guard/Bottom",
+      "probability": 35,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 50,
+  "summary": "The Single Leg X to Estima Lock is a leg-lock entry in which the bottom player in Single Leg X-Guard traps the opponent's near foot, inverts a figure-four grip around the heel and forefoot, and isolates the ankle to establish the Estima Lock footlock.",
+  "overview": "The Single Leg X to Estima Lock is one of the most direct and reliable entries into the inverted footlock made famous by the Estima brothers, exploiting the foot control that Single Leg X-Guard already grants. Because the bottom player in Single Leg X-Guard is positioned underneath the opponent's hips with one foot hooked behind the standing leg and a shin pressed across the thigh, the opponent's near foot is already partially isolated and within reach. The transition converts that ambient foot exposure into a committed inverted ankle attack by re-gripping the heel in a figure-four, rotating the foot so the heel sits higher than the toes, and clamping the calf against the body to deny retraction.\n\nWhat makes this entry high-percentage is that it does not require the attacker to win a scramble or pass any defensive frame first - the controlling structure of Single Leg X-Guard naturally feeds the Estima grip. As the opponent attempts to step out, free their foot, or pressure forward to flatten the bottom player, their foot tends to drift into the inverted angle the Estima Lock requires. Skilled leg lockers treat the Estima as a finishing option that lives inside the broader Single Leg X attack tree alongside the straight ankle lock, sweeps, and transitions to ashi garami and the saddle.\n\nTiming and grip discipline define success here. The attacker must secure the inverted figure-four before the opponent recognizes the threat and circles their knee toward the mat or pulls their foot free. When the entry fails, the bottom player typically retains Single Leg X-Guard and can re-attack; when the opponent counters by clearing the legs and driving forward, the exchange can spill into a top open-guard scramble. Understanding this entry is essential for any practitioner building a modern leg-lock game from seated and supine guard.",
+  "conditions": [
+    "Single Leg X-Guard established with one foot hooked behind opponent's standing leg and a shin across their thigh",
+    "Opponent's near foot exposed and within reach of both hands for the figure-four grip",
+    "Opponent has not yet cleared the inside hook or driven their knee to the mat",
+    "Attacker able to clamp the opponent's calf against the body to prevent foot retraction"
+  ],
+  "related_content": [
+    {
+      "name": "Estima Lock",
+      "relationship": "Primary submission finished after establishing the control reached by this entry"
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "relationship": "Starting position - the guard from which this entry is executed"
+    },
+    {
+      "name": "Estima Lock Control",
+      "relationship": "Target control position established on successful entry"
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "relationship": "Alternative footlock finish available from the same Single Leg X foot control"
+    },
+    {
+      "name": "Ashi Garami",
+      "relationship": "Adjacent leg entanglement reachable when the Estima entry is defended"
+    },
+    {
+      "name": "Saddle",
+      "relationship": "Deeper leg entanglement reachable by transitioning off a defended Estima entry"
+    },
+    {
+      "name": "Toe Hold from Estima Lock",
+      "relationship": "Chain attack when opponent turns their foot away from the Estima angle"
+    },
+    {
+      "name": "50-50 Guard",
+      "relationship": "Related leg-entanglement guard offering an alternative entry into the same control"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Position the bottom player may concede to the top if the entry is countered"
+    }
+  ],
+  "attacker": {
+    "name": "Single Leg X to Estima Lock Attacker",
+    "description": "How to enter the Estima Lock from Single Leg X-Guard in BJJ. Attacker setup, figure-four inversion, ankle isolation, chain attacks, and counters.",
+    "overview": "From Single Leg X-Guard the attacker already controls the opponent's standing leg, with one foot hooked behind it and a shin wedged across the thigh. This entry converts that control into the inverted Estima footlock by isolating the near foot, building a figure-four grip around the heel and forefoot, and rotating the foot so the heel rides higher than the toes. The opponent's calf is then clamped against the attacker's torso so the foot cannot retract, and rotational pressure is applied to the ankle joint and Achilles.\n\nThe entry is high-percentage because Single Leg X-Guard naturally exposes the foot the Estima Lock attacks - the attacker does not need to win a scramble first. The biggest risks are slipping a hand off the heel during the inversion and allowing the opponent to circle their knee toward the mat to clear the angle. The attacker must therefore commit to the grip quickly and keep the calf pinned throughout. Once the inverted control is established, the Estima finish, toe hold, and transitions to ashi garami or the saddle all become available, making this a key node in a complete supine leg-lock system.",
+    "key_principles": [
+      "Use the existing Single Leg X foot control as the bridge into the inverted Estima grip rather than chasing a new entry",
+      "Build the figure-four around the heel as the fixed point while the forearm blades across the top of the foot",
+      "Rotate the foot so the heel sits higher than the toes to create the characteristic inverted Estima angle",
+      "Clamp the opponent's calf against your torso to deny foot retraction throughout the entry",
+      "Commit to the grip quickly before the opponent circles their knee to the mat to clear the angle",
+      "Keep your own hips connected and elevated so the leg stays isolated away from their defensive frames",
+      "Be ready to chain to toe hold, ashi garami, or saddle if the opponent defends the primary inversion"
+    ],
+    "setup_requirements": [
+      "Single Leg X-Guard established with inside hook behind the opponent's standing leg and shin across the thigh",
+      "Opponent's near foot isolated and accessible to both of your hands",
+      "Strong two-handed control of the opponent's heel and forefoot beginning to form the figure-four",
+      "Opponent's calf pinned or pinnable against your torso to prevent retraction",
+      "Your hips elevated and connected so the trapped leg stays extended away from their base"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm and tighten Single Leg X foot control",
+        "description": "From Single Leg X-Guard, confirm your inside hook is behind the opponent's standing leg and your shin is wedged across their thigh. Slide your near hand down to cup their heel so the foot can no longer slip away. This converts the ambient foot exposure of Single Leg X into a dedicated grip point you can build the Estima configuration around."
+      },
+      {
+        "step_number": 2,
+        "action": "Trap the foot against your torso",
+        "description": "Pull the opponent's foot tight to your chest or shoulder, clamping their calf against your torso so the leg is fully isolated and cannot retract. Their lower leg should be pinned between your arm and your body. This trapping step is what prevents the most common failure - the opponent simply pulling the foot free before the lock is built."
+      },
+      {
+        "step_number": 3,
+        "action": "Cup the heel as the fixed point",
+        "description": "With your primary hand, cup the opponent's heel firmly so it becomes the anchored, fixed point of the lock. The heel must not slide; everything else rotates around it. Keep your wrist tight and your elbow drawn in so the opponent cannot strip the grip by kicking or rotating their foot away during the inversion."
+      },
+      {
+        "step_number": 4,
+        "action": "Blade the forearm across the foot and invert",
+        "description": "Bring your second arm over the top of the foot and lay your forearm blade across the instep, then begin to invert the foot so the heel rises higher than the toes. This inversion is the defining mechanic of the Estima Lock and separates it from a straight ankle lock. Lock your hands into a figure-four around the heel and forefoot to unify the structure."
+      },
+      {
+        "step_number": 5,
+        "action": "Isolate the leg and kill the free foot",
+        "description": "Use your hooks and shin to keep the opponent's leg extended away from their body and to limit their free leg from establishing a defensive frame on your hips. Elevate your hips slightly to lift their weight off their base. The more isolated and extended the trapped leg, the less the opponent can rotate out of the inverted angle."
+      },
+      {
+        "step_number": 6,
+        "action": "Settle into Estima Lock control",
+        "description": "Consolidate the figure-four, keep the calf clamped, and settle your body so the inverted grip is stable and the opponent's foot is angled toward their own body. At this point you have established Estima Lock control and can begin applying gradual rotational pressure for the finish or chain to a toe hold, ashi garami, or saddle if they defend."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent circles their knee toward the mat to clear the inverted angle before you finish the grip",
+        "effectiveness": "High",
+        "your_response": "Follow their rotation by elevating your hips and re-pointing their heel, or abandon the inversion and switch to a straight ankle lock or transition to ashi garami where their kneeling angle is now exposed.",
+        "targets_outcome": "Single Leg X-Guard/Bottom"
+      },
+      {
+        "counter": "Opponent pulls their foot back hard to strip the heel grip before you trap the calf",
+        "effectiveness": "Medium",
+        "your_response": "Re-clamp the calf to your torso immediately and re-cup the heel before they fully extract; if the foot is gone, retain your Single Leg X hooks and re-attack the leg rather than chasing the lost foot.",
+        "targets_outcome": "Single Leg X-Guard/Bottom"
+      },
+      {
+        "counter": "Opponent posts on your hips with their free leg and drives forward to flatten and pass",
+        "effectiveness": "Medium",
+        "your_response": "Frame against the free leg with your shin and reset the inside hook; if they clear your legs entirely, follow them up and meet them in a top open-guard scramble rather than getting flattened underneath.",
+        "targets_outcome": "Open Guard/Top"
+      },
+      {
+        "counter": "Opponent grips your wrists to peel the figure-four off the foot",
+        "effectiveness": "Low",
+        "your_response": "Keep the heel cupped and rotate your forearm blade tight against the instep so there is no slack for them to peel; finishing the inversion quickly removes the wrist-fighting window.",
+        "targets_outcome": "Single Leg X-Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reaching for the heel before trapping the calf against your torso",
+        "consequence": "The opponent simply retracts their foot because nothing pins the leg, and the entry fails before the grip is even built.",
+        "correction": "Always clamp the calf to your chest or shoulder first so the leg is isolated, then build the figure-four around the now-immobilized foot."
+      },
+      {
+        "error": "Letting the heel slide instead of keeping it as a fixed anchor",
+        "consequence": "Without a fixed heel there is no fulcrum for the inversion, so rotational pressure dissipates and the opponent easily kicks free.",
+        "correction": "Cup the heel firmly with your primary hand and keep that grip rigid; the heel must stay anchored while everything else rotates around it."
+      },
+      {
+        "error": "Trying to invert the foot without bringing the forearm blade across the instep",
+        "consequence": "You attack with a straight pull only, which produces minimal ankle torque and lets the opponent flatten their foot to defend.",
+        "correction": "Lay your forearm across the top of the foot to create the lever, then rotate the heel high so the inverted Estima angle is built before applying pressure."
+      },
+      {
+        "error": "Dropping your hips flat and losing leg isolation during the inversion",
+        "consequence": "The opponent's leg returns toward their body, their free leg frames in, and they recover guard or clear the entanglement.",
+        "correction": "Keep your hips elevated and your hooks active so the trapped leg stays extended away from their base throughout the entry."
+      },
+      {
+        "error": "Cranking rotational pressure before the figure-four and calf clamp are fully consolidated",
+        "consequence": "You alert the opponent to defend early and risk a partial, low-control finish that injures a training partner or is easily escaped.",
+        "correction": "Establish complete inverted control first - figure-four set, calf clamped, leg isolated - and only then apply gradual rotational pressure."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Grip Transition Drilling",
+        "focus": "Converting Single Leg X foot control into the inverted figure-four",
+        "description": "From a static Single Leg X-Guard with a compliant partner, repeatedly trap the calf, cup the heel, and build the figure-four with the forearm blade across the instep. No finishing pressure - focus purely on a clean, fast grip transition. 20-30 repetitions per side per session."
+      },
+      {
+        "phase": "Week 3-4: Inversion and Isolation",
+        "focus": "Rotating the foot to the Estima angle while keeping the leg isolated",
+        "description": "Partner offers light resistance, attempting to slide their knee toward the mat. Practice elevating your hips, keeping the leg extended, and rotating the heel high to reach the inverted angle. Stop at control - do not finish. 15-20 repetitions per session focusing on maintaining isolation."
+      },
+      {
+        "phase": "Week 5-8: Counter Reaction and Chaining",
+        "focus": "Reacting to defenses with toe hold, ankle lock, and ashi garami transitions",
+        "description": "Partner provides medium resistance, choosing among knee-circle, foot retraction, and forward pressure. Practice switching to a toe hold when they turn the foot, to a straight ankle lock when they pull back, or to ashi garami when they kneel. 10-15 reps of the full sequence per session."
+      },
+      {
+        "phase": "Week 9-12: Live Entry Sparring",
+        "focus": "Hitting the entry against a resisting opponent from Single Leg X",
+        "description": "Start in Single Leg X-Guard with the partner working to stand out, clear hooks, or pass. Work to time the Estima entry and establish control, resetting after each success or escape. 5-minute rounds emphasizing timing and grip discipline under pressure."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Why is Single Leg X-Guard a natural launching point for the Estima Lock?",
+        "answer": "Single Leg X-Guard already isolates the opponent's near foot - one foot is hooked behind their standing leg and a shin is wedged across their thigh - so the attacker does not have to win a scramble first. The exposed foot can be cupped and converted directly into the inverted figure-four grip the Estima Lock requires, making it one of the most direct entries into the position."
+      },
+      {
+        "question": "What must you secure before reaching for the heel when entering the Estima Lock from Single Leg X?",
+        "answer": "You must trap the opponent's calf against your torso first so the leg is isolated and cannot retract. If you reach for the heel before pinning the leg, the opponent simply pulls their foot free and the entry fails before the grip is built. Calf clamp first, then figure-four around the immobilized foot."
+      },
+      {
+        "question": "What is the defining mechanical difference between the Estima Lock and a straight ankle lock during this entry?",
+        "answer": "The Estima Lock inverts the foot so the heel rides higher than the toes, with the forearm bladed across the instep acting as a fulcrum and the heel cupped as a fixed anchor. Rotational torque is applied around that fixed heel, whereas a straight ankle lock attacks the foot in its natural position with a more linear extension. The inversion is what makes it an Estima."
+      },
+      {
+        "question": "Your opponent circles their knee toward the mat as you build the inverted grip - how do you respond?",
+        "answer": "This is the highest-percentage defense and clears the inverted angle. Follow their rotation by elevating your hips and re-pointing their heel to recover the angle, or abandon the inversion and switch to a straight ankle lock or transition into ashi garami, where their now-kneeling posture is exposed. Do not stubbornly fight a cleared angle."
+      },
+      {
+        "question": "What body mechanic keeps the opponent's leg isolated throughout the Estima entry from Single Leg X?",
+        "answer": "Keeping your hips elevated and your hooks active. Elevated hips lift the opponent's weight off their base and keep the trapped leg extended away from their body, while the inside hook and shin prevent their free leg from framing on your hips. If your hips drop flat, the leg returns toward their body and they recover guard or clear the entanglement."
+      }
+    ],
+    "safety_considerations": "Footlocks load the ankle joint and Achilles tendon, which give little warning before injury, so apply all rotational pressure slowly and progressively and never with a jerking motion. During drilling, establish control fully before adding any pressure, communicate clearly with your partner, and release the instant they tap or signal discomfort. Beginners should drill the entry and grip without finishing pressure until the mechanics are reliable."
+  },
+  "defender": {
+    "name": "Single Leg X to Estima Lock Defender",
+    "description": "How to defend the Estima Lock entry from Single Leg X-Guard in BJJ. Recognition cues, foot extraction, knee-circle defense, and counter passing for the top player.",
+    "overview": "As the top player whose foot is being attacked from Single Leg X-Guard, you are the defender in this exchange. The danger is that the attacker converts the foot control they already have in Single Leg X into the inverted Estima grip before you react. Your defensive priority is to recognize the grip building on your heel and to clear your foot or your angle before the figure-four and calf clamp consolidate.\n\nThe two highest-value defenses are early foot extraction - boot the foot free before the calf is trapped - and the knee-circle, where you rotate your knee toward the mat to clear the inverted angle that the Estima requires. Both work best the instant you feel your heel being cupped. If you are too slow and the inversion is set, your job shifts to protecting the joint, controlling the rotational pressure, and tapping before the ankle is compromised. Recognizing the difference between a shallow grip you can still beat and a consolidated lock you must respect is the core defensive skill here.",
+    "key_principles": [
+      "React the instant you feel your heel being cupped - the entry is only beatable before the calf clamp and figure-four consolidate",
+      "Circle your knee toward the mat to clear the inverted angle the Estima Lock depends on",
+      "Boot your foot free early while the grip is shallow rather than waiting for the lock to deepen",
+      "Keep your free leg active to frame on the attacker's hips and prevent leg isolation",
+      "Stay heavy and forward to pressure-pass when the attacker over-commits to the foot",
+      "Respect a consolidated inverted lock - tap to rotational pressure before the ankle or Achilles is compromised"
+    ],
+    "recognition_cues": [
+      "You feel the bottom player slide a hand down to cup your heel and pull your foot tight to their chest or shoulder",
+      "Your trapped lower leg is being clamped against their torso so you can no longer freely retract the foot",
+      "A forearm lays across the top of your foot and your heel starts to be rotated higher than your toes into an inverted angle"
+    ],
+    "defensive_options": [
+      {
+        "action": "Boot the trapped foot free before the calf is clamped to your attacker's torso",
+        "when_to_use": "The instant you feel the heel being cupped, while the grip is still shallow and the leg is not yet trapped",
+        "targets_outcome": "Single Leg X-Guard/Bottom",
+        "if_successful": "Your foot escapes the inversion and the attacker is left in Single Leg X-Guard without the lock, forcing them to re-establish their entry",
+        "risk": "If you are too slow and the calf is already clamped, yanking the foot can load the ankle and feed the rotational pressure you are trying to avoid"
+      },
+      {
+        "action": "Circle your knee toward the mat to clear the inverted Estima angle",
+        "when_to_use": "As the attacker begins to rotate your heel higher than your toes but before the figure-four fully consolidates",
+        "targets_outcome": "Single Leg X-Guard/Bottom",
+        "if_successful": "The inverted angle is neutralized, the Estima Lock loses its fulcrum, and you can begin clearing the entanglement back to a neutral exchange",
+        "risk": "A telegraphed knee-circle can be followed by the attacker re-pointing the heel or transitioning into ashi garami where your kneeling posture is exposed"
+      },
+      {
+        "action": "Stay heavy, frame on their legs, and drive forward to pass when they over-commit to the foot",
+        "when_to_use": "When the attacker abandons leg isolation to chase the grip and your free leg can post and frame",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You clear the hooks, flatten the entanglement, and arrive in a top open-guard position with passing pressure",
+        "risk": "Driving forward without clearing the foot first can deepen the inverted lock and accelerate the submission"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Single Leg X-Guard/Bottom",
+        "how": "Recognize the heel grip immediately and either boot your foot free or circle your knee to the mat before the calf clamp and figure-four consolidate. Denying the inversion leaves the attacker back in Single Leg X-Guard without the lock, neutralizing the entry."
+      },
+      {
+        "outcome": "Open Guard/Top",
+        "how": "When the attacker over-commits to the foot and stops isolating your leg, stay heavy, frame on their legs with your free leg, and drive forward to clear the hooks and pass into a top open-guard position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reacting only after the figure-four and calf clamp are fully set",
+        "consequence": "Once the inverted lock is consolidated the foot cannot be booted free, and escape attempts can load the joint and trigger the submission.",
+        "correction": "Treat the heel being cupped as the alarm and react immediately with a foot extraction or knee-circle while the grip is still shallow."
+      },
+      {
+        "error": "Yanking the foot straight back against a clamped calf",
+        "consequence": "Pulling against a trapped leg feeds the rotational pressure and can damage the ankle or Achilles before you can tap.",
+        "correction": "If the calf is already clamped, switch from extraction to the knee-circle to clear the angle rather than fighting a straight retraction."
+      },
+      {
+        "error": "Letting your free leg go passive while you focus on the trapped foot",
+        "consequence": "Without the free leg framing, the attacker fully isolates the trapped leg and consolidates the inverted control unopposed.",
+        "correction": "Keep the free leg active to frame on the attacker's hips and disrupt leg isolation while you work your primary escape."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the single most important recognition cue that the Estima Lock is being entered from Single Leg X-Guard?",
+        "answer": "Feeling the bottom player cup your heel and pull your foot tight to their chest or shoulder. This is the moment the ambient Single Leg X foot control is being converted into a dedicated grip, and it is the alarm to react immediately - before the calf clamp and figure-four consolidate, the entry is still beatable."
+      },
+      {
+        "question": "Why is the knee-circle considered a high-value defense against the Estima entry?",
+        "answer": "The Estima Lock depends on an inverted angle where the heel rides higher than the toes around a fixed fulcrum. Circling your knee toward the mat clears that inverted angle, removing the fulcrum the lock needs. It is especially useful when the calf is already clamped and a straight foot extraction would only feed the rotational pressure."
+      },
+      {
+        "question": "When should you stop trying to extract your foot and instead respect the lock by tapping?",
+        "answer": "Once the figure-four is set, the calf is clamped, and rotational pressure is being applied to a heel that is firmly anchored, the inversion is consolidated and the ankle and Achilles are loaded. At that point further struggle risks injury with little chance of escape - tap to the rotational pressure before the joint is compromised."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Recognition and Early Extraction",
+        "focus": "Feeling the heel grip and booting the foot free before the clamp",
+        "description": "Partner builds the Estima grip slowly from Single Leg X while you practice recognizing the heel cup and immediately extracting the foot before the calf is trapped. 20-30 repetitions per session focused on reaction speed."
+      },
+      {
+        "phase": "Week 3-4: Knee-Circle Defense",
+        "focus": "Clearing the inverted angle when extraction is too late",
+        "description": "Partner clamps the calf and begins inverting the foot at light resistance. Practice circling your knee to the mat to clear the angle and neutralize the fulcrum. 15-20 repetitions per session, emphasizing timing before the figure-four sets."
+      },
+      {
+        "phase": "Week 5-8: Counter-Passing and Live Defense",
+        "focus": "Turning a defended entry into a top pass under resistance",
+        "description": "Partner attacks the Estima entry at medium-to-full resistance. Work to recognize over-commitment, frame with the free leg, and drive forward to clear the hooks into a top open-guard pass, or tap cleanly when the lock consolidates. 5-minute rounds with resets."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Gi Single Leg X to Estima Lock",
+      "description": "In the gi, use pant-cuff or sleeve grips to first stabilize the standing leg and slow the opponent's escape, then transition to the inverted heel grip. The cloth grips buy time to build the figure-four, though the finish mechanics on the bare ankle remain identical.",
+      "when_to_use": "Gi competition or training where pant-cuff control is available to delay foot extraction"
+    },
+    {
+      "variant_name": "No-Gi Single Leg X to Estima Lock",
+      "description": "Without cloth grips, the entry relies on tighter clamping of the calf to the torso and a faster figure-four build, since the sweaty foot is easier to extract. Speed and grip discipline matter even more than in the gi.",
+      "when_to_use": "No-gi, submission grappling, or MMA contexts where there are no cloth grips to slow the opponent"
+    },
+    {
+      "variant_name": "Single Leg X to Estima with Hip Elevation",
+      "description": "Add an aggressive bridge or hip elevation as you trap the foot, lifting the opponent's weight off their base so the leg is maximally isolated and extended before you invert. This increases control at the cost of a brief energy spike.",
+      "when_to_use": "Against larger or pressure-heavy opponents who tend to flatten you before you can isolate the leg"
+    }
+  ],
+  "position_integration": "The Single Leg X to Estima Lock entry sits inside the modern supine leg-lock system as one of the primary bridges from a controlling guard into a finishing entanglement. Single Leg X-Guard is a hub for leg attacks, naturally exposing the near foot, and this transition converts that exposure into the inverted Estima control rather than a straight ankle lock. From the resulting Estima Lock control the attacker can finish, chain to a toe hold when the foot turns, or transition to ashi garami and the saddle when the inversion is cleared - making the entry a node that ties Single Leg X-Guard to the broader leg-entanglement tree. For practitioners, learning this entry is essential because it teaches the grip discipline and timing that underpin every inverted footlock, and it gives a reliable finishing path off one of the most common and durable seated guards in both gi and no-gi grappling."
+}

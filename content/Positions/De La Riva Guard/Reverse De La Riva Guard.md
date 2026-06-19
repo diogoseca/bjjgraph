@@ -139,15 +139,15 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 ### Available Transitions
 
 
-- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (12% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (22% of attempts)
 
-- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (31% of attempts)
+- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (14% of attempts)
 
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (13% of attempts)
 
-- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (9% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (12% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (10% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (14% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (4% of attempts)
 

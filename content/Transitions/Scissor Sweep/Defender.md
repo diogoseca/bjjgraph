@@ -27,7 +27,7 @@ description: "How to defend against Scissor Sweep in BJJ. Recognition cues, defe
     {
       "@type": "HowToStep",
       "name": "Step over the bottom leg (the shin across your abdomen) by driving your knee past their leg and re-establishing base on the other side",
-      "text": "When you recognize the shin placement across your abdomen early before the full scissor motion develops, and you have enough posture to move your hips If successful: You neutralize the sweep entirely by removing the pushing leg from the equation and can immediately initiate a guard pass from the new angle",
+      "text": "When you recognize the shin placement across your abdomen early before the full scissor motion develops, and you have enough posture to move your hips If successful: You neutralize the sweep entirely by removing the pushing leg from the equation and can immediately initiate a guard pass from the new angle, passing through to side control",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "How to defend against Scissor Sweep in BJJ. Recognition cues, defe
     {
       "@type": "HowToStep",
       "name": "Drive your weight forward and sprawl your hips into the bottom player, flattening their angle and collapsing the space needed for the scissor motion",
-      "text": "When you have strong posture and feel the opponent beginning to create the perpendicular angle but before their legs are fully positioned If successful: You crush the sweep setup by denying the space and angle required, and can use the forward pressure to begin your own guard opening sequence",
+      "text": "When you have strong posture and feel the opponent beginning to create the perpendicular angle but before their legs are fully positioned If successful: You crush the sweep setup by denying the space and angle required, and can use the forward pressure to begin your own guard opening sequence and pass to side control",
       "position": 4
     }
   ],
@@ -207,8 +207,8 @@ When prevention fails and the sweep is in motion, your defensive options narrow 
 ### 2. Step over the bottom leg (the shin across your abdomen) by driving your knee past their leg and re-establishing base on the other side
 
 - **When to use**: When you recognize the shin placement across your abdomen early before the full scissor motion develops, and you have enough posture to move your hips
-- **Targets**: [[Positions/Closed Guard]]
-- **If successful**: You neutralize the sweep entirely by removing the pushing leg from the equation and can immediately initiate a guard pass from the new angle
+- **Targets**: [[Positions/Side Control]]
+- **If successful**: You neutralize the sweep entirely by removing the pushing leg from the equation and can immediately initiate a guard pass from the new angle, passing through to side control
 - **Risk**: If mistimed, stepping over can result in your leg being caught in half guard or the opponent converting to a different sweep using your movement
 
 ### 3. Strip the sleeve grip by yanking your controlled arm free, then immediately post that hand and drive your weight forward to collapse the sweep angle
@@ -221,8 +221,8 @@ When prevention fails and the sweep is in motion, your defensive options narrow 
 ### 4. Drive your weight forward and sprawl your hips into the bottom player, flattening their angle and collapsing the space needed for the scissor motion
 
 - **When to use**: When you have strong posture and feel the opponent beginning to create the perpendicular angle but before their legs are fully positioned
-- **Targets**: [[Positions/Closed Guard]]
-- **If successful**: You crush the sweep setup by denying the space and angle required, and can use the forward pressure to begin your own guard opening sequence
+- **Targets**: [[Positions/Side Control]]
+- **If successful**: You crush the sweep setup by denying the space and angle required, and can use the forward pressure to begin your own guard opening sequence and pass to side control
 - **Risk**: Driving forward with broken posture plays directly into the sweep - this defense only works when you have structural integrity in your spine and base
 
 
@@ -239,9 +239,9 @@ When prevention fails and the sweep is in motion, your defensive options narrow 
 
 Maintain strong posture and wide base throughout. Strip grips proactively to deny the setup. Post your free hand immediately when you feel lateral pressure. Once the sweep attempt fails, recover your grips and resume your guard passing strategy from inside their now-open guard.
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Side Control]]
 
-Step over the bottom leg when you recognize the shin placement early, landing on the opposite side with your base re-established. Alternatively, use the opponent's failed sweep attempt to initiate a guard pass by immediately pinning their legs and advancing to a dominant angle while they are recovering from the failed technique.
+Step over the bottom leg when you recognize the shin placement early, landing on the opposite side with your base re-established. Use the opponent's failed sweep attempt to drive an immediate guard pass: their guard is already open from the sweep entry, so pin their legs, clear the knee line, and advance to a dominant angle, passing through to side control while they are recovering from the failed technique.
 
 
 

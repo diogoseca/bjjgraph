@@ -159,7 +159,7 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 - **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (13% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (4% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
 
 - **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (6% of attempts)
 
@@ -167,11 +167,11 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 - **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (10% of attempts)
 
-- **[[Heel Hook from Grasshopper Guard/Attacker|Heel Hook from Grasshopper Guard]]** (3% of attempts)
+- **[[Heel Hook from Grasshopper Guard/Attacker|Heel Hook from Grasshopper Guard]]** (6% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (9% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (5% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
 
 
 ### Common Mistakes

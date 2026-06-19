@@ -141,13 +141,13 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (31% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (29% of attempts)
 
 - **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (14% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (10% of attempts)
-
 - **[[Transitions/Rolling Kimura/Attacker|Rolling Kimura]]** (10% of attempts)
+
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (9% of attempts)
 
 - **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (6% of attempts)
 
@@ -159,9 +159,11 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 - **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (6% of attempts)
 
+- **[[Transitions/Kimura Defense/Attacker|Kimura Defense]]** (3% of attempts)
+
 - **[[Transitions/Kimura Counter via Roll/Attacker|Kimura Counter via Roll]]** (3% of attempts)
 
-- **[[Transitions/Kimura Defense Arm Extraction/Attacker|Kimura Defense Arm Extraction]]** (2% of attempts)
+- **[[Transitions/Rolling Kimura Escape/Attacker|Rolling Kimura Escape]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -234,11 +236,11 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 - **[[Americana from Kimura Trap/Attacker|Americana from Kimura Trap]]** (6% of attempts)
 
-- **[[Transitions/Kimura Defense/Attacker|Kimura Defense]]** (3% of attempts)
+- **[[Transitions/Kimura Defense Arm Extraction/Attacker|Kimura Defense Arm Extraction]]** (2% of attempts)
 
 - **[[Transitions/Kimura Trap to Reverse Scarf Hold/Attacker|Kimura Trap to Reverse Scarf Hold]]** (2% of attempts)
 
-- **[[Kimura from Kimura Trap/Attacker|Kimura from Kimura Trap]]** (32% of attempts)
+- **[[Kimura from Kimura Trap/Attacker|Kimura from Kimura Trap]]** (33% of attempts)
 
 
 ### Common Mistakes

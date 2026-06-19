@@ -552,35 +552,23 @@
     "transitions": [
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 22
       },
       {
         "transition": "Standing up in Base",
-        "attempt_probability": 12
+        "attempt_probability": 16
       },
       {
         "transition": "Sit Through Escape",
-        "attempt_probability": 26
+        "attempt_probability": 30
       },
       {
         "transition": "Peterson Roll",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Crackhead Control to Carni",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Crackhead Control to Mission Control",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Crackhead Control to New York",
-        "attempt_probability": 8
+        "attempt_probability": 16
       },
       {
         "transition": "Posture Recovery to Closed Guard",
-        "attempt_probability": 6
+        "attempt_probability": 16
       }
     ],
     "flashcards": [

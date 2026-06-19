@@ -1,0 +1,355 @@
+{
+  "name": "New York Control Entry from Rubber Guard",
+  "description": "Master the New York Control entry from Rubber Guard in 10th Planet BJJ. Walk the controlling leg up and lock the deep overhook. Success: Beginner 30%, Advanced 65%.",
+  "summary": "New York Control Entry from Rubber Guard is a 10th Planet no-gi transition where the bottom player walks the high controlling leg from across the back up onto the opponent's shoulder and locks a deep overhook, establishing the submission-ready New York Control configuration.",
+  "tags": [
+    "bjj",
+    "transition",
+    "rubber-guard",
+    "10th-planet",
+    "no-gi",
+    "guard-transition",
+    "overhook"
+  ],
+  "from_position": "Rubber Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "New York Control/Bottom",
+      "probability": 57,
+      "result": "success"
+    },
+    {
+      "to": "Rubber Guard/Bottom",
+      "probability": 28,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 57,
+  "overview": "New York Control Entry from Rubber Guard is the deliberate 10th Planet sequence in which the bottom player upgrades a standard Rubber Guard arm-trap into the submission-ready New York Control by walking the high controlling leg from across the opponent's back up onto the near shoulder while threading and locking a deep overhook on the same side. Where base Rubber Guard (Mission Control) simply traps the arm and breaks posture with the shin across the back, New York Control deepens both the leg height and the overhook so the shin sits over the shoulder line, immediately opening the gogoplata, triangle, and omoplata chains that define the position.\n\nThe transition is taught as the primary on-ramp into New York Control from the foundational guard, replacing the awkward reality that the position would otherwise only be reachable by failing out of a more advanced control. From an established Rubber Guard the practitioner already owns the trapped arm and broken posture; the entry then sequences a free-hand assist that walks the controlling leg upward, a hip rotation toward the overhook side to create the New York angle, and a deep overhook lock that clasps behind the shoulder or the practitioner's own shin to close the kinetic chain. Each of these increments trades a small amount of stability for a large gain in submission proximity.\n\nStrategically this entry matters because it converts the more conservative, posture-breaking Rubber Guard into an active finishing platform without surrendering the arm trap that makes the system work. It is most reliable when the opponent's posture is already broken and their near arm is committed deep across the practitioner's centerline, since those conditions remove the two most common failure modes: posture recovery and arm extraction. When the opponent reads the leg-walk and explodes their posture, the practitioner simply retains Rubber Guard rather than chasing the upgrade, which keeps the transition low-risk despite its high payoff. Against opponents unfamiliar with rubber guard defense, the leg height and overhook depth achieved here frequently produce a finish within seconds of the entry completing."
+,
+  "related_content": [
+    {
+      "name": "Rubber Guard",
+      "relationship": "Starting position - foundational 10th Planet arm-trap guard"
+    },
+    {
+      "name": "New York Control",
+      "relationship": "Target position - submission-ready rubber guard configuration"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Base rubber guard control this entry upgrades from"
+    },
+    {
+      "name": "New York",
+      "relationship": "Closely related leg-height configuration on the New York pathway"
+    },
+    {
+      "name": "Gogoplata",
+      "relationship": "Signature submission opened by completing this entry"
+    },
+    {
+      "name": "Triangle Setup",
+      "relationship": "Primary follow-up attack from New York Control"
+    },
+    {
+      "name": "Omoplata Sweep",
+      "relationship": "Alternative attack chain available after the entry"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Safety fallback if the leg-walk is read and the guard collapses"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Counter result if the opponent postures clear and stands"
+    }
+  ],
+  "attacker": {
+    "name": "New York Control Entry from Rubber Guard Attacker",
+    "description": "How to execute the New York Control entry from Rubber Guard in BJJ. Attacking perspective with setup, leg-walk execution steps, and counters.",
+    "overview": "From the attacker's perspective, the New York Control entry from Rubber Guard is an incremental upgrade rather than a wholesale repositioning. You already own the trapped arm and broken posture from Rubber Guard; your job is to raise the controlling leg from across the back up onto the shoulder line and deepen the overhook until the New York kinetic chain closes. The single most important attacking concept is that the overhook is the anchor and the leg is the variable - the overhook never loosens while the leg walks upward. You use your free hand to assist the leg-walk and your hips to rotate toward the overhook side, creating the characteristic New York angle that makes the shin-over-shoulder position sustainable.\n\nTiming is everything. The cleanest entry happens when the opponent's posture is already broken and their head is below their hip line, because raising your leg in that window meets no posture resistance. If you try to walk the leg up against a posturing opponent you simply feed them the space to extract the trapped arm. Read the posture first, commit the leg-walk second, and lock the overhook deep the instant the shin clears the shoulder. Once locked, you are immediately in finishing range for gogoplata, triangle, and omoplata, so the entry should flow without pause into your first submission threat to deny the opponent any chance to defend the new configuration.",
+    "key_principles": [
+      "Keep the overhook locked as a constant anchor while the controlling leg walks upward - never trade overhook depth for leg height",
+      "Walk the leg up only when the opponent's posture is already broken and their head sits below their hip line",
+      "Use your free hand to assist the controlling leg from across the back up onto the shoulder line",
+      "Rotate your hips toward the overhook side to create the New York angle that makes the shin-over-shoulder position sustainable",
+      "Maintain trapped-arm control throughout - the arm must stay deep across your centerline during the leg-walk",
+      "Flow immediately into a gogoplata or triangle threat the instant the entry completes to deny defensive reorganization",
+      "Abort to retained Rubber Guard rather than force the upgrade if the opponent explodes their posture mid-entry"
+    ],
+    "setup_requirements": [
+      "Established Rubber Guard with the opponent's near arm trapped across your chest",
+      "Opponent's posture broken with their head below their hip line",
+      "Deep overhook available or already threaded on the trapped-arm side",
+      "Free hand available to assist walking the controlling leg upward",
+      "Sufficient hip and hamstring flexibility to raise the shin over the shoulder line"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm the arm trap and broken posture",
+        "description": "Verify your controlling leg has the opponent's near arm pinned across your chest and their head is broken below their hip line. Without this foundation the leg-walk simply gives them room to extract the arm and posture up."
+      },
+      {
+        "step_number": 2,
+        "action": "Thread the overhook deep",
+        "description": "On the same side as the controlling leg, thread your arm under the opponent's trapped arm and shoulder until your hand can clasp behind their shoulder, their neck, or your own shin. Drive the elbow toward the ceiling so the overhook bites and cannot be posted out."
+      },
+      {
+        "step_number": 3,
+        "action": "Establish a free-hand assist grip",
+        "description": "Reach your free hand to your controlling shin or ankle so you can actively walk the leg upward. This grip lets you raise the leg with arm strength rather than relying on hip flexors alone, which preserves the position if your flexibility is taxed."
+      },
+      {
+        "step_number": 4,
+        "action": "Walk the controlling leg up onto the shoulder",
+        "description": "Using the free-hand assist, slide the controlling shin from across the opponent's back upward until it rests over their near shoulder and against the side of their neck. Keep the shin in contact with their body throughout so no posting space opens during the climb."
+      },
+      {
+        "step_number": 5,
+        "action": "Rotate hips to the New York angle",
+        "description": "As the shin clears the shoulder, rotate your hips toward the overhook side so your body is angled rather than square to the opponent. This angle is what makes the shin-over-shoulder position sustainable and aligns you for the gogoplata and triangle finishes."
+      },
+      {
+        "step_number": 6,
+        "action": "Lock the deep overhook to close the chain",
+        "description": "Re-clasp the overhook hand to your own shin or behind the opponent's shoulder so the trapped arm and controlling leg form a closed kinetic chain. At this point New York Control is established and the opponent cannot easily posture, post, or extract the arm."
+      },
+      {
+        "step_number": 7,
+        "action": "Flow into the first submission threat",
+        "description": "Without pausing, shoot the shin across the throat for gogoplata or kick the leg over the head for triangle, depending on the opponent's defensive reaction. Entering directly into a threat denies them the moment they would need to reorganize against the new configuration."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Opponent explodes their posture upward as your leg leaves the back, before the shin reaches the shoulder",
+        "effectiveness": "High",
+        "your_response": "Abandon the upgrade and re-clamp the shin across their back to retain standard Rubber Guard rather than chasing the failed climb",
+        "targets_outcome": "Rubber Guard/Bottom"
+      },
+      {
+        "counter": "Opponent drives their head and chest forward to stack you as the leg climbs",
+        "effectiveness": "Medium",
+        "your_response": "Use the stack momentum to kick the climbing leg fully over the head into a triangle rather than fighting back to a square base",
+        "targets_outcome": "New York Control/Bottom"
+      },
+      {
+        "counter": "Opponent rips the trapped arm free during the moment your free hand assists the leg-walk",
+        "effectiveness": "Medium",
+        "your_response": "Immediately re-pummel for the overhook or release to retain Rubber Guard with the opposite-side controls before they can clear the leg",
+        "targets_outcome": "Rubber Guard/Bottom"
+      },
+      {
+        "counter": "Opponent stands and steps back to peel the leg off the shoulder and clear the guard",
+        "effectiveness": "Low",
+        "your_response": "Follow them up with active hooks and accept open guard rather than getting flattened, keeping frames to deny the immediate pass",
+        "targets_outcome": "Open Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Loosening the overhook to free a hand for the leg-walk",
+        "consequence": "The opponent extracts the trapped arm and postures up, collapsing the rubber guard entirely before the leg ever reaches the shoulder",
+        "correction": "Keep the overhook locked as a constant - use the genuinely free hand for the leg assist, never the overhooking arm"
+      },
+      {
+        "error": "Walking the leg up against a posturing opponent",
+        "consequence": "Raising the leg off the back removes posture-breaking pressure and gives the opponent the exact space they need to clear the arm and pass",
+        "correction": "Confirm the head is broken below the hip line before initiating the climb; if posture rises, re-break it before attempting the leg-walk"
+      },
+      {
+        "error": "Swinging the controlling leg wide off the body to reach the shoulder",
+        "consequence": "The gap created by the swinging leg invites an underhook and the start of a pass as the opponent slips inside",
+        "correction": "Slide the shin upward in constant contact with the opponent's body rather than swinging it through open space"
+      },
+      {
+        "error": "Staying square to the opponent after the shin reaches the shoulder",
+        "consequence": "Without the New York hip angle the shin slides back off the shoulder and the position decays into ordinary closed guard",
+        "correction": "Rotate the hips toward the overhook side as the shin clears the shoulder to lock in the sustainable New York angle"
+      },
+      {
+        "error": "Pausing to admire the position instead of chaining into a threat",
+        "consequence": "The opponent uses the static moment to tuck the chin, hide the neck, and reorganize their defense against gogoplata and triangle",
+        "correction": "Flow directly from the completed entry into a gogoplata or triangle attempt so the opponent never gets a free defensive beat"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Isolated leg-walk mechanics",
+        "description": "From a static, compliant Rubber Guard, drill walking the controlling shin from across the back up onto the shoulder using the free-hand assist. Focus on keeping the shin in body contact and the overhook locked. No resistance."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Posture reading and timing",
+        "description": "Partner alternates between broken and recovering posture. Practice committing the leg-walk only when the head is below the hip line and retaining Rubber Guard when posture rises. Introduce the hip rotation to the New York angle."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Counter integration and chaining",
+        "description": "Partner actively attempts to posture, stack, and extract the arm during the entry. Practice aborting to Rubber Guard versus pushing through to New York, and chain every successful entry into an immediate gogoplata or triangle threat."
+      },
+      {
+        "phase": "Week 7+",
+        "focus": "Live application",
+        "description": "Full-resistance positional sparring starting from Rubber Guard. Hunt the New York Control entry against realistic defense, measuring how often you complete the upgrade versus how often you correctly retain Rubber Guard, and track finishes off the entry."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the single control that must stay constant throughout the New York Control entry from Rubber Guard?",
+        "answer": "The deep overhook on the trapped-arm side must stay locked throughout the entire entry. It is the anchor that keeps the opponent's arm trapped and posture broken while the controlling leg walks upward. If the overhook loosens to free a hand, the opponent extracts the arm and postures up, collapsing the rubber guard before the leg ever reaches the shoulder."
+      },
+      {
+        "question": "When is the correct moment to walk the controlling leg up onto the opponent's shoulder?",
+        "answer": "Only when the opponent's posture is already broken and their head sits below their hip line. In that window, raising the leg off the back meets no posture resistance. If you walk the leg up while the opponent is posturing, you remove the posture-breaking pressure and hand them the space they need to clear the trapped arm and begin passing."
+      },
+      {
+        "question": "Why do you rotate your hips toward the overhook side as the shin clears the shoulder?",
+        "answer": "The hip rotation creates the characteristic New York angle that makes the shin-over-shoulder position sustainable. Staying square to the opponent lets the shin slide back off the shoulder and the position decays into ordinary closed guard. The angled hips lock the shin in place and align your body for the gogoplata and triangle finishes that define New York Control."
+      },
+      {
+        "question": "Your opponent explodes their posture upward just as your leg leaves their back - what do you do?",
+        "answer": "Abandon the upgrade and re-clamp the shin across their back to retain standard Rubber Guard. Chasing the failed climb against a posturing opponent only feeds them the space to clear the trapped arm and pass. Retaining Rubber Guard keeps your arm trap and broken posture intact, and you can re-attempt the entry once you have re-broken their posture."
+      },
+      {
+        "question": "How should the controlling leg travel from across the back to the shoulder, and why?",
+        "answer": "The shin should slide upward in constant contact with the opponent's body rather than swinging wide through open space. Any gap created by a swinging leg invites an underhook and the start of a pass as the opponent slips inside. Sliding in contact keeps the opponent's frame compressed and denies them the room to begin clearing the guard during the climb."
+      },
+      {
+        "question": "Why should you chain immediately into a submission the instant the entry completes?",
+        "answer": "New York Control places you in immediate finishing range for gogoplata, triangle, and omoplata. Pausing after the entry gives the opponent a free beat to tuck the chin, hide the neck, and reorganize their defense. Flowing directly from the completed entry into a gogoplata or triangle threat denies them that beat and frequently produces a finish before they can defend the new configuration."
+      }
+    ],
+    "safety_considerations": "This entry demands significant hip, hamstring, and external-rotation flexibility to raise the shin over the shoulder line; attempting it cold or beyond your current range risks hip and hamstring strain, so warm up the hips thoroughly and build range gradually. Because the controlling leg passes near the opponent's neck and the entry flows directly into gogoplata and triangle threats, drill it with a cooperative partner first and apply finishing pressure slowly. The trapped opponent should tap early to neck and shoulder pressure rather than enduring a stack, and the attacker must release immediately on the tap. Communicate clearly during live drilling, as the leg-walk can cause the top player to post or stack awkwardly."
+  },
+  "defender": {
+    "name": "New York Control Entry from Rubber Guard Defender",
+    "description": "How to defend the New York Control entry from Rubber Guard in BJJ. Recognition cues, posture and arm-extraction defenses, and escape strategies.",
+    "overview": "Defending the New York Control entry from Rubber Guard means stopping the upgrade before it completes, because once the shin clears your shoulder and the overhook locks you are facing a fully established submission platform threatening gogoplata, triangle, and omoplata. The decisive defensive insight is that this entry is only available when your posture is already broken and your near arm is trapped - so the whole defense reduces to two priorities you should have been working anyway: recover your posture and free the trapped arm. The moment you feel the bottom player's controlling shin begin to climb from your back toward your shoulder, you are in the highest-value defensive window of the entire sequence.\n\nAs the top player, your tactile cues are the leg pressure migrating upward from your mid-back toward your shoulder line and the bottom player freeing a hand to assist that leg-walk. That freed hand is a gift: while it is occupied with the leg, it is not controlling your head or fighting your posture, so an explosive posture recovery in that instant carries a high success rate. If you read the entry late and the shin has already reached your shoulder, shift to extracting the trapped arm and keeping your chin tucked to deny the gogoplata, treating it as a New York Control defense rather than a transition interception. Early recognition turns a dangerous upgrade into a clean escape; late recognition turns it into a grind.",
+    "key_principles": [
+      "Recover posture the instant you feel the controlling leg begin climbing from your back toward your shoulder",
+      "Exploit the bottom player's freed assist hand - while it walks the leg it is not fighting your posture",
+      "Keep your trapped-side elbow tight to your ribs so the leg-walk cannot trap the arm any deeper",
+      "Tuck your chin and protect your neck throughout to deny the gogoplata that the entry sets up",
+      "Drive forward and down rather than pulling back, which would only give the leg room to climb",
+      "Never let the overhook and shin form a closed chain - contest the shoulder before the shin settles"
+    ],
+    "recognition_cues": [
+      "Leg pressure migrates upward from your mid-back toward your shoulder line as the controlling shin begins to climb",
+      "The bottom player frees one hand from head or wrist control to grip their own shin or ankle and assist the leg-walk",
+      "The bottom player's hips rotate toward the overhook side to create the New York angle as the shin nears your shoulder",
+      "The overhook on your trapped arm deepens and the elbow drives toward the ceiling as they prepare to lock the chain",
+      "A brief lightening of head-control pressure as the bottom player redirects effort from posture-breaking to leg-walking"
+    ],
+    "defensive_options": [
+      {
+        "action": "Explosive posture recovery the instant the controlling leg lightens off your back to begin climbing",
+        "when_to_use": "The moment you feel the leg pressure migrate upward and the bottom player's hand leaves your head to assist the leg-walk",
+        "targets_outcome": "Rubber Guard/Bottom",
+        "if_successful": "You drive your head and chest up, the climbing leg cannot reach the shoulder, and the bottom player is forced back to standard Rubber Guard",
+        "risk": "If you mistime the posture before the leg actually lightens, you feed the overhook leverage and may accelerate their entry"
+      },
+      {
+        "action": "Extract the trapped arm by circling the elbow toward your hip while their assist hand is committed to the leg",
+        "when_to_use": "Mid-entry, when the bottom player has a hand on their own shin and their overhook maintenance is briefly divided",
+        "targets_outcome": "Rubber Guard/Bottom",
+        "if_successful": "You free the trapped arm, collapse the rubber guard to an ordinary guard, and can begin posturing and passing",
+        "risk": "A failed extraction lets the bottom player re-deepen the overhook and complete the entry with the arm even more committed"
+      },
+      {
+        "action": "Stand up and step back to peel the climbing shin off your shoulder and clear the leg",
+        "when_to_use": "When you have recovered enough posture to load weight onto your feet and the shin has not yet settled over the shoulder",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "You strip the leg off the shoulder, break free of the rubber guard control, and reset standing into the opponent's open guard",
+        "risk": "Standing exposes you to sweeps and to a triangle if the bottom player kicks the climbing leg over your head as you rise"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Rubber Guard/Bottom",
+        "how": "Time an explosive posture recovery to the exact moment the controlling leg lightens off your back to begin its climb. Drive your head and chest up while keeping your trapped-side elbow pinned to your ribs and your chin tucked. With the bottom player's assist hand committed to the leg-walk, they cannot simultaneously fight your posture, so the leg never reaches the shoulder and the position drops back to standard Rubber Guard where you have far better escape and passing options."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting passively to see what position develops instead of contesting the leg-climb",
+        "consequence": "The shin reaches the shoulder, the overhook locks, and you are now defending a fully established New York Control with live gogoplata and triangle threats",
+        "correction": "Treat the very first upward migration of the leg as your cue to act - begin posture recovery or arm extraction immediately rather than waiting"
+      },
+      {
+        "error": "Pulling your head and chest back to create distance during the entry",
+        "consequence": "Backward movement gives the controlling leg the exact room it needs to climb onto your shoulder and actually assists the entry",
+        "correction": "Drive forward and down into the bottom player instead, compressing the space the leg needs to travel and disrupting the climb"
+      },
+      {
+        "error": "Letting the trapped-side elbow drift away from your ribs",
+        "consequence": "The loose elbow lets the leg-walk and overhook trap the arm deeper and sets up both the triangle and the gogoplata angle",
+        "correction": "Glue the trapped-side elbow to your ribs throughout so the arm cannot be isolated further as the leg climbs"
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the highest-value defensive window during the New York Control entry from Rubber Guard?",
+        "answer": "The instant the controlling leg lightens off your back to begin climbing toward your shoulder, while the bottom player frees a hand to assist the leg-walk. In that moment their hand is committed to the leg and is not fighting your posture, so an explosive posture recovery has a high success rate. Acting on this first cue prevents the shin from ever reaching the shoulder and forces the bottom player back to standard Rubber Guard."
+      },
+      {
+        "question": "Should you drive forward or pull back when you feel the controlling leg start to climb?",
+        "answer": "Drive forward and down into the bottom player. Pulling your head and chest back creates exactly the room the controlling leg needs to climb onto your shoulder, which assists the entry rather than defending it. Forward, downward pressure compresses the space the leg must travel, disrupts the climb, and keeps you heavy on the bottom player while you work your posture recovery or arm extraction."
+      },
+      {
+        "question": "What should you do with your trapped-side elbow throughout this entry, and why?",
+        "answer": "Keep the trapped-side elbow pinned tight to your ribs throughout. A loose, drifting elbow lets the leg-walk and deepening overhook isolate the arm further and sets up both the triangle and the gogoplata angle. Gluing the elbow to your ribs denies the bottom player the deeper arm commitment they need and preserves your ability to circle the elbow toward your hip for an arm extraction while their assist hand is busy with the leg."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2",
+        "focus": "Recognition drilling",
+        "description": "From inside the bottom player's Rubber Guard, have your partner slowly initiate the leg-climb while you call out each cue - leg pressure migrating up, the freed assist hand, the hip rotation. Purely sensory work with no escape attempts yet."
+      },
+      {
+        "phase": "Week 3-4",
+        "focus": "Timed posture recovery and arm extraction",
+        "description": "Partner performs the entry at moderate speed. Drill explosive posture recovery on the leg-lightening cue and arm extraction while their assist hand is committed, matching the correct defense to the phase of the entry you recognize."
+      },
+      {
+        "phase": "Week 5-6",
+        "focus": "Live positional defense",
+        "description": "Full-resistance positional sparring starting in the bottom player's Rubber Guard. Defend the New York Control entry with realistic intensity, tracking how often you retain Rubber Guard or escape versus how often the bottom player completes the upgrade."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Mission Control to New York Control climb",
+      "description": "Begin from a settled Mission Control rather than loose Rubber Guard, with the shin already across the back and the foot secured, then walk the leg up onto the shoulder and deepen the overhook. The pre-secured foot makes the climb more controlled.",
+      "when_to_use": "When you have already consolidated Mission Control and want a stable platform from which to upgrade"
+    },
+    {
+      "variant_name": "Stack-assisted triangle entry",
+      "description": "When the opponent stacks forward as you climb the leg, ride their momentum and kick the controlling leg fully over the head into a triangle instead of settling the shin on the shoulder, converting the entry directly into a finish.",
+      "when_to_use": "When the opponent drives a hard stack as the leg climbs, offering the over-the-head angle"
+    },
+    {
+      "variant_name": "Free-hand-light flexibility entry",
+      "description": "For highly flexible practitioners, raise the controlling leg using hip flexor strength alone without the free-hand shin assist, keeping both hands available for head and wrist control during the climb.",
+      "when_to_use": "When your flexibility allows the leg height without assist and you want to retain extra upper-body control"
+    }
+  ],
+  "conditions": [
+    "Established Rubber Guard with the opponent's near arm trapped across your chest",
+    "Opponent's posture broken with their head below their hip line",
+    "Deep overhook available or threaded on the trapped-arm side",
+    "Free hand available to assist walking the controlling leg upward",
+    "Sufficient hip and hamstring flexibility to raise the shin over the shoulder line"
+  ],
+  "position_integration": "New York Control Entry from Rubber Guard is the primary deliberate on-ramp from the foundational 10th Planet guard into the submission-dense New York Control, converting a posture-breaking arm trap into an active finishing platform. It sits one step above Mission Control on the rubber guard hierarchy and feeds directly into the gogoplata, triangle, and omoplata chains as well as lateral transitions to Invisible Collar and Zombie. Because the entry is low-risk - failure simply retains Rubber Guard - it functions as a repeatable probe: the practitioner can attempt the upgrade whenever posture is broken and fall back to the parent guard when it is not, making New York Control reachable on purpose rather than only by failing out of more advanced controls."
+}

@@ -16,7 +16,7 @@ description: "Master the attacker perspective for Kimura Defense Arm Extraction.
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Kimura Defense Arm Extraction in BJJ",
-  "description": "Step-by-step guide for executing Kimura Defense Arm Extraction from Kimura Trap/Bottom.",
+  "description": "Step-by-step guide for executing Kimura Defense Arm Extraction from Kimura Trap/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -186,7 +186,7 @@ description: "Master the attacker perspective for Kimura Defense Arm Extraction.
 
 As the person executing the Kimura Defense Arm Extraction, your primary objective is to systematically dismantle the opponent's figure-four Kimura grip while maintaining top position and preventing sweeps. The extraction requires precise coordination between your posture, hip pressure, and the direction you drive the trapped arm. The Kimura grip has specific structural weaknesses: the holder's grip is weakest when your arm is straightened and driven toward the mat, as this forces their hands apart and reduces their mechanical advantage. The extraction is a methodical process of removing the grip's leverage points while using your superior weight distribution to suppress the bottom player's ability to create movement or initiate offensive sequences. Success depends on combining forward pressure with targeted arm movement, never allowing the bottom player to establish the dynamic movement patterns needed for sweeps or back takes.
 
-**From Position**: [[Positions/Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 

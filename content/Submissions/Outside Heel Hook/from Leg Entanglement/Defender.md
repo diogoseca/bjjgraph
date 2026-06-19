@@ -69,7 +69,7 @@ description: "Defend against the outside heel hook from leg entanglement. Recogn
       "name": "Why is straightening your trapped leg a dangerous response to an outside heel hook attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Straightening the trapped leg is dangerous because it provides the attacker with maximum rotational leverage on the knee joint. A bent knee has some structural resistance to rotation because the angle creates a mechanical disadvantage for the attacker's torque application. A fully extended knee removes this protective geometry and places the MCL and ACL under direct rotational stress with no structural buffer. Additionally, a straight leg is harder to extract from an entanglement because you lose the ability to use the bend as a pummeling tool. The extended position also makes kneebar attacks immediately available, exposing you to a second submission threat."
+        "text": "Straightening the trapped leg is dangerous because it provides the attacker with maximum rotational leverage on the knee joint. A bent knee has some structural resistance to rotation because the angle creates a mechanical disadvantage for the attacker's torque application. A fully extended knee removes this protective geometry and places the LCL and ACL under direct rotational stress with no structural buffer. Additionally, a straight leg is harder to extract from an entanglement because you lose the ability to use the bend as a pummeling tool. The extended position also makes kneebar attacks immediately available, exposing you to a second submission threat."
       }
     },
     {
@@ -283,7 +283,7 @@ Clear the knee line by pushing the opponent's hips above your knee joint using h
 
 ### 3. Waiting too long to tap when rotational pressure is being applied to the knee
 
-- **Consequence**: Catastrophic knee ligament damage including ACL and MCL tears requiring 6-12 months of surgical recovery and rehabilitation with no guarantee of full return
+- **Consequence**: Catastrophic knee ligament damage including LCL and ACL tears requiring 6-12 months of surgical recovery and rehabilitation with no guarantee of full return
 - **Correction**: Tap immediately at the first sign of rotational pressure reaching the knee joint. There is no flexibility to test and no safe margin for delayed tapping. Knee ligaments fail without warning pain.
 
 ### 4. Making explosive, panicked movements when caught in a deep heel hook position

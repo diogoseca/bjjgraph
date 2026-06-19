@@ -15,7 +15,7 @@
   "from_position": "Ashi Garami/Bottom",
   "outcomes": [
     {
-      "to": "Heel Hook",
+      "to": "game-over",
       "probability": 55,
       "result": "success"
     },

@@ -141,17 +141,17 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (11% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (18% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (35% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (12% of attempts)
 
 - **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (5% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (19% of attempts)
 
-- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (9% of attempts)
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (13% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (18% of attempts)
 
 - **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (5% of attempts)
 

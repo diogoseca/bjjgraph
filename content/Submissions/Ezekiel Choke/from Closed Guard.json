@@ -18,7 +18,7 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Closed Guard",
   "from_position": "Closed Guard/Top",
-  "success_rate": 58,
+  "success_rate": 40,
   "overview": "The Ezekiel Choke from closed guard represents one of the most audacious attacks in Brazilian Jiu-Jitsu, executed by the top player from inside the opponent's closed guard. While conventional wisdom dictates that closed guard top is a defensive position requiring systematic guard opening, the Ezekiel exploits the close proximity to launch a surprise gi choke that catches defenders off guard. The attacker threads one hand deep into their opposite gi sleeve to create a fulcrum, then slides the blade of their free forearm across the opponent's throat, finishing with a scissors-like compression of the carotid arteries.\n\nWhat makes this variant uniquely effective is the element of surprise combined with structural mechanics that favor the attacker once grips are established. The bottom player's closed guard actually assists the choke by maintaining the tight distance needed for the sleeve grip and forearm placement. Defenders are typically focused on their own offensive grips and sweeps, leaving the neck exposed to an attack they rarely anticipate from this position. Once the complete choking structure is locked, the combination of sleeve tension and forearm pressure creates a choke that is extremely difficult to disassemble.\n\nThe trade-off is significant positional risk. Setting up the Ezekiel requires deliberately compromising top posture, the very thing that keeps you safe in closed guard. A failed attempt leaves you broken down with no posture, vulnerable to hip bump sweeps, triangles, armbars, and guillotines. This high-risk, high-reward dynamic demands precise timing, commitment, and the discipline to abandon the attempt and recover posture when the setup is recognized early.",
   "safety_considerations": {
     "injury_risks": [
@@ -102,17 +102,17 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": 40,
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 27,
+      "probability": 25,
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": 35,
       "result": "counter"
     }
   ],

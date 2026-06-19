@@ -220,7 +220,9 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (11% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (5% of attempts)
+
+- **[[Transitions/Front Headlock to Guillotine/Attacker|Front Headlock to Guillotine]]** (6% of attempts)
 
 - **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** (10% of attempts)
 

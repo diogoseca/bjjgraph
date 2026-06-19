@@ -12,7 +12,7 @@
     "hindulotine",
     "submission-chain"
   ],
-  "from_position": "Hindulotine/Top",
+  "from_position": "Hindulotine/Bottom",
   "outcomes": [
     {
       "to": "Darce Control/Top",

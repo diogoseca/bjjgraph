@@ -297,7 +297,11 @@
     "transitions": [
       {
         "transition": "Armbar from Crucifix",
-        "attempt_probability": 15
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Straight Armbar",
+        "attempt_probability": 8
       },
       {
         "transition": "Rear Naked Choke from Mounted Crucifix",
@@ -321,7 +325,7 @@
       },
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 8
+        "attempt_probability": 4
       },
       {
         "transition": "Mounted Crucifix to S Mount",
@@ -614,8 +618,8 @@
     },
     "transitions": [
       {
-        "transition": "Arm Extraction",
-        "attempt_probability": 32
+        "transition": "Hip Escape from Mounted Crucifix",
+        "attempt_probability": 33
       },
       {
         "transition": "Bridge and Roll",
@@ -644,10 +648,6 @@
       {
         "transition": "Rolling Escape to Guard",
         "attempt_probability": 6
-      },
-      {
-        "transition": "Hip Escape from Mounted Crucifix",
-        "attempt_probability": 1
       },
       {
         "transition": "Bridge Escape from Mounted Crucifix",

@@ -18,7 +18,7 @@
       "result": "success"
     },
     {
-      "to": "Inverted Guard/Top",
+      "to": "Inverted Guard/Bottom",
       "probability": 25,
       "result": "failure"
     },
@@ -130,7 +130,7 @@
         "counter": "Opponent backsteps and clears leg before thread completes",
         "effectiveness": "High",
         "your_response": "Follow with re-inversion and transition to outside ashi-garami or single leg X-guard instead",
-        "targets_outcome": "Inverted Guard/Top"
+        "targets_outcome": "Inverted Guard/Bottom"
       },
       {
         "counter": "Opponent drives forward with stack pressure during inversion",
@@ -142,7 +142,7 @@
         "counter": "Opponent establishes strong collar tie or head control",
         "effectiveness": "Medium",
         "your_response": "Frame against their bicep or wrist while threading to maintain distance, or abort to closed guard",
-        "targets_outcome": "Inverted Guard/Top"
+        "targets_outcome": "Inverted Guard/Bottom"
       },
       {
         "counter": "Opponent steps over your threading leg to pass",
@@ -270,7 +270,7 @@
       {
         "action": "Backstep and clear your lead leg by stepping it behind your rear leg, removing the threading target entirely",
         "when_to_use": "As soon as you detect the opponent beginning to invert or shoot their outside leg toward your knee",
-        "targets_outcome": "Inverted Guard/Top",
+        "targets_outcome": "Inverted Guard/Bottom",
         "if_successful": "Opponent's thread misses entirely and they remain inverted without entanglement, leaving them vulnerable to your passing pressure",
         "risk": "If you backstep too late, their leg may follow yours and complete a partial thread, or they redirect to outside ashi-garami on your trailing leg"
       },
@@ -284,22 +284,22 @@
       {
         "action": "Straighten your lead leg explosively and push your knee forward to prevent the calf from hooking behind it, then circle your foot out",
         "when_to_use": "When you feel the opponent's calf beginning to contact the back of your knee but the hook is not yet secured",
-        "targets_outcome": "Inverted Guard/Top",
+        "targets_outcome": "Inverted Guard/Bottom",
         "if_successful": "Their threading leg slides off your straightened leg and they must re-attempt the entry from a less favorable angle",
         "risk": "Straightening your leg shifts your weight forward onto one foot, which can create a sweep opportunity if opponent redirects to X-guard"
       },
       {
         "action": "Strip opponent's grips on your pants or ankle and step completely out of range, resetting to neutral standing",
         "when_to_use": "When opponent is still establishing grips before initiating the inversion, before any leg contact is made",
-        "targets_outcome": "Inverted Guard/Top",
+        "targets_outcome": "Inverted Guard/Bottom",
         "if_successful": "Complete distance reset denies the entry entirely and forces opponent to work from an inferior guard position without controlling grips",
         "risk": "Giving up proximity may allow opponent to recover to a more sustainable guard like De La Riva or seated guard"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Inverted Guard/Top",
-        "how": "Deny the leg thread through early backstep, leg straightening, or grip stripping before the entanglement forms. Maintain your standing base while opponent remains inverted, then immediately apply passing pressure while they are in a compromised upside-down position."
+        "outcome": "Inverted Guard/Bottom",
+        "how": "Deny the leg thread through early backstep, leg straightening, or grip stripping before the entanglement forms. Maintain your standing base while opponent remains inverted on the bottom, then immediately apply passing pressure while they are in a compromised upside-down position."
       },
       {
         "outcome": "Side Control/Bottom",

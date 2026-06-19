@@ -95,7 +95,7 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
 | [[Submissions/Bow and Arrow Choke/from Back Control|Back Control]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Back Control/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Back Control/Defender|Defend →]] |
-| [[Submissions/Bow and Arrow Choke/from Body Triangle|Body Triangle]] | Bottom | 62% | [[Submissions/Bow and Arrow Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Body Triangle/Defender|Defend →]] |
+| [[Submissions/Bow and Arrow Choke/from Body Triangle|Body Triangle]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Body Triangle/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Body Triangle/Defender|Defend →]] |
 | [[Submissions/Bow and Arrow Choke/from Harness|Harness]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Harness/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Harness/Defender|Defend →]] |
 | [[Submissions/Bow and Arrow Choke/from Invisible Collar|Invisible Collar]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Invisible Collar/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Invisible Collar/Defender|Defend →]] |
 | [[Submissions/Bow and Arrow Choke/from Rear Triangle|Rear Triangle]] | Top | 62% | [[Submissions/Bow and Arrow Choke/from Rear Triangle/Attacker|Attack →]] | [[Submissions/Bow and Arrow Choke/from Rear Triangle/Defender|Defend →]] |

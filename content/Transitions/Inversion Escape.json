@@ -16,12 +16,12 @@
   "from_position": "Honey Hole/Bottom",
   "outcomes": [
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 55,
       "result": "success"
     },
     {
-      "to": "50-50 Guard/Top",
+      "to": "50-50 Guard/Bottom",
       "probability": 15,
       "result": "success"
     },
@@ -147,13 +147,13 @@
         "counter": "Opponent follows rotation and maintains inside position by driving hips forward during your inversion attempt",
         "effectiveness": "High",
         "your_response": "If opponent follows aggressively, use their forward momentum to transition directly into 50-50 guard rather than completing to open guard",
-        "targets_outcome": "50-50 Guard/Top"
+        "targets_outcome": "50-50 Guard/Bottom"
       },
       {
         "counter": "Opponent secures heel grip before or during your inversion attempt",
         "effectiveness": "High",
         "your_response": "If heel is secured, abort inversion immediately and transition to grip fighting defense while protecting knee alignment - do not invert with heel grip established",
-        "targets_outcome": "Open Guard/Top"
+        "targets_outcome": "Open Guard/Bottom"
       },
       {
         "counter": "Opponent posts hand on mat to prevent your rotation and maintains base",
@@ -288,7 +288,7 @@
       {
         "action": "Immediately secure heel hook grip with four-fingers-over, thumb-under configuration before opponent can initiate inversion",
         "when_to_use": "The moment you feel your inside leg triangle lock into place - do not wait to settle or adjust position before gripping the heel",
-        "targets_outcome": "Open Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "Opponent cannot safely invert with heel gripped. Apply controlled breaking pressure for submission finish or they tap recognizing the trapped position",
         "risk": "If you rush the grip and get only a partial hold, opponent may strip it during their inversion attempt and escape with momentum"
       },
@@ -302,7 +302,7 @@
       {
         "action": "Transition to kneebar attack as opponent's leg extends during the inversion rotation, targeting the hyperextension angle created by their movement",
         "when_to_use": "When opponent commits to inversion and their trapped leg straightens during the rotation - the extension creates kneebar opportunity",
-        "targets_outcome": "Open Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "The kneebar catches opponent in mid-rotation when they cannot easily curl their leg back, and the momentum of their own inversion drives into the hyperextension",
         "risk": "If opponent completes the inversion faster than you can secure the kneebar, they extract their leg and you lose the entanglement entirely"
       },
@@ -316,7 +316,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "50-50 Guard/Top",
+        "outcome": "50-50 Guard/Bottom",
         "how": "Secure heel hook grip before opponent initiates inversion, or catch the heel during their rotation when it becomes momentarily exposed due to the angle change. Apply controlled breaking pressure once grip is established. Alternatively, transition to kneebar when their leg extends during the inversion attempt, using their own rotational momentum to drive the hyperextension."
       },
       {

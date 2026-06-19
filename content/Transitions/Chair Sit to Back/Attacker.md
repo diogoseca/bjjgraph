@@ -16,7 +16,7 @@ description: "How to execute Chair Sit to Back in BJJ. Attacking perspective wit
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Chair Sit to Back in BJJ",
-  "description": "Step-by-step guide for executing Chair Sit to Back from Matrix/Bottom.",
+  "description": "Step-by-step guide for executing Chair Sit to Back from Turtle/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -186,7 +186,7 @@ description: "How to execute Chair Sit to Back in BJJ. Attacking perspective wit
 
 The Chair Sit to Back Take is a systematic transition from attacking turtle position to establishing dominant back control. The technique exploits the opponent's defensive turtle posture by controlling their hips and preventing forward movement while you climb onto their back through a controlled intermediate position. The chair sit creates a mechanical barrier with your leg across the opponent's thigh, preventing them from turning into you while you establish the seatbelt grip. This intermediate control station is what separates the chair sit from direct back climbing attempts that often fail against experienced defenders. The technique requires precise hip positioning, weight distribution, and grip sequencing to prevent common defensive reactions such as rolling or sitting through. When executed correctly, the chair sit creates a near-inescapable funnel toward back control or truck position.
 
-**From Position**: [[Positions/Matrix]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 

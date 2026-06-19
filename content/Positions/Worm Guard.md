@@ -137,21 +137,19 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ### Available Transitions
 
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (30% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (33% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (9% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (11% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (9% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (10% of attempts)
 
 - **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (10% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (11% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (13% of attempts)
 
 - **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (10% of attempts)
 
 - **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (8% of attempts)
-
-- **[[Transitions/Triangle from Guard/Attacker|Triangle from Guard]]** (8% of attempts)
 
 - **[[Transitions/Collar Drag from Worm Guard/Attacker|Collar Drag from Worm Guard]]** (3% of attempts)
 

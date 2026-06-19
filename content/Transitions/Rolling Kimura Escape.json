@@ -12,7 +12,7 @@
     "shoulder-lock-escape",
     "rolling-mechanics"
   ],
-  "from_position": "Carni/Top",
+  "from_position": "Kimura Trap/Bottom",
   "outcomes": [
     {
       "to": "Open Guard/Bottom",

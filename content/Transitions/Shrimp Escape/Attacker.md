@@ -233,8 +233,8 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Closed Guard]] | 50% |
-| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 20% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 45% |
+| Success | [[Positions/Closed Guard]] | 25% |
 | Failure | [[Positions/Side Control]] | 20% |
 | Counter | [[Positions/Mount]] | 10% |
 

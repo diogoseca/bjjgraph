@@ -39,7 +39,7 @@ description: "Master the Kimura shoulder lock from Kuzure Kesa-Gatame with exper
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Kimura from Kuzure Kesa-Gatame",
-  "description": "The Kimura from Kuzure Kesa-Gatame is a figure-four shoulder lock that exploits the position's already-trapped near arm, rotating the opponent's wrist behind their back to attack the shoulder's external-rotation limit while hip pressure denies escape.",
+  "description": "The Kimura from Kuzure Kesa-Gatame is a figure-four shoulder lock that exploits the position's already-trapped near arm, rotating the opponent's wrist behind their back to attack the shoulder's internal-rotation limit while hip pressure denies escape.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -49,7 +49,7 @@ description: "Master the Kimura shoulder lock from Kuzure Kesa-Gatame with exper
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Kimura from Kuzure Kesa-Gatame is a figure-four shoulder lock that exploits the position's already-trapped near arm, rotating the opponent's wrist behind their back to attack the shoulder's external-rotation limit while hip pressure denies escape.**
+**The Kimura from Kuzure Kesa-Gatame is a figure-four shoulder lock that exploits the position's already-trapped near arm, rotating the opponent's wrist behind their back to attack the shoulder's internal-rotation limit while hip pressure denies escape.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
@@ -155,7 +155,7 @@ The submission chains available from this position further elevate its strategic
 
 - **Attempting to finish by pulling the opponent's wrist upward toward the ceiling**
   - Consequence: Attacks the wrong plane of shoulder rotation and is easily defended by the opponent simply flattening their arm against the mat
-  - Correction: Rotate the wrist behind the opponent's back toward the mat, attacking the external rotation limit of the shoulder joint where defensive strength is minimal
+  - Correction: Rotate the wrist behind the opponent's back toward the mat, attacking the internal rotation limit of the shoulder joint where defensive strength is minimal
 
 
 </section>

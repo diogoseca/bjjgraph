@@ -21,13 +21,13 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 34% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
@@ -44,14 +44,14 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ezekiel Choke from Side Control",
-      "text": "From this position, attempt Ezekiel Choke from Side Control. This technique is attempted in 1% of exchanges from this position.",
+      "name": "Execute Arm Triangle from Top",
+      "text": "From this position, attempt Arm Triangle from Top. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Kesa Gatame",
-      "text": "From this position, attempt Side Control to Kesa Gatame. This technique is attempted in 1% of exchanges from this position.",
+      "name": "Execute Ezekiel Choke from Side Control",
+      "text": "From this position, attempt Ezekiel Choke from Side Control. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],

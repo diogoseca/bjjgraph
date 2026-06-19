@@ -218,21 +218,11 @@ The position's moderate risk level reflects its transitional nature - dominant e
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (43% of attempts)
+- **[[Transitions/Reverse Mount to Mount/Attacker|Reverse Mount to Mount]]** (48% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (26% of attempts)
+- **[[Transitions/Reverse Mount to Side Control/Attacker|Reverse Mount to Side Control]]** (27% of attempts)
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (12% of attempts)
-
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (7% of attempts)
-
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (7% of attempts)
-
-- **[[Transitions/Reverse Mount to Mount/Attacker|Reverse Mount to Mount]]** (3% of attempts)
-
-- **[[Transitions/Reverse Mount to Side Control/Attacker|Reverse Mount to Side Control]]** (1% of attempts)
-
-- **[[Transitions/Armbar from Reverse Mount/Attacker|Armbar from Reverse Mount]]** (1% of attempts)
+- **[[Transitions/Armbar from Reverse Mount/Attacker|Armbar from Reverse Mount]]** (25% of attempts)
 
 
 ### Common Mistakes

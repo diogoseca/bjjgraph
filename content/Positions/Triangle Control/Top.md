@@ -21,37 +21,37 @@ description: "Master Triangle Control defense from top in BJJ. Learn escape tech
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Escape",
-      "text": "From this position, attempt Triangle Escape. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Escape. This technique is attempted in 35% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 26% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Triangle Control",
-      "text": "From this position, attempt Guard Recovery from Triangle Control. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Triangle Control. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Clear to Side",
-      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Clear to Side. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Choke from Triangle Control",
-      "text": "From this position, attempt Triangle Choke from Triangle Control. This technique is attempted in 37% of exchanges from this position.",
+      "name": "Execute Posture Up from Triangle",
+      "text": "From this position, attempt Posture Up from Triangle. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -79,7 +79,7 @@ description: "Learn to finish the Kimura from Kimura Trap as the attacker. Step-
       "name": "What is the primary anatomical structure attacked by the Kimura from Kimura Trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary target is the glenohumeral shoulder joint, attacked through forced external rotation and abduction of the humerus. The figure-four grip generates rotational torque that exceeds the shoulder's natural range of motion, threatening dislocation of the humeral head from the glenoid fossa. Secondary stress is applied to the elbow's medial collateral ligament when the arm is bent during rotation."
+        "text": "The primary target is the glenohumeral shoulder joint, attacked through forced internal rotation of the humerus, driving the bent forearm and wrist behind the opponent's back. The figure-four grip generates rotational torque that exceeds the shoulder's natural range of motion, threatening dislocation of the humeral head from the glenoid fossa. Secondary stress is applied to the elbow's medial collateral ligament when the arm is bent during rotation."
       }
     },
     {

@@ -98,10 +98,10 @@ From this position, you maintain upper body control with your arms while your le
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Offensive/Controlling | Defensive |
-| **Risk Level** | Low to Medium | High |
-| **Energy Cost** | Low | High |
-| **Time** | Long | Short |
+| **Position Type** | Defensive | Offensive/Controlling |
+| **Risk Level** | High | Low to Medium |
+| **Energy Cost** | High | Low |
+| **Time** | Short | Long |
 
 **Key Difference:** Figure-four lock trades mobility for control
 
@@ -115,87 +115,6 @@ From this position, you maintain upper body control with your arms while your le
 ## Playing as Bottom
 
 [[Body Triangle/Bottom|→ Full Bottom Guide]]
-
-### Key Principles
-
-
-- Triangle Lock Security: Ensure proper figure-four configuration with foot locked deep behind knee, creating unbreakable connection that cannot be cleared with hip movement
-
-- Breathing Restriction Mechanics: Position triangle around lower ribs and diaphragm to maximize breathing restriction and create psychological urgency
-
-- Upper Body Attack Integration: Use leg control to free your hands for aggressive submission hunting without concern for positional maintenance
-
-- Energy Conservation: Maintain position with minimal effort, using pulsing pressure rather than constant maximum squeeze to conserve stamina
-
-- Hip Positioning: Keep hips on mat beside opponent for leverage and stability rather than directly on their back where you can be rolled
-
-- Pressure Modulation: Apply strategic squeezing at key moments rather than constant maximum pressure to prevent adaptation and fatigue
-
-- Angle Adjustment: Use hip movement to change squeeze angle and attack different areas of ribcage based on opponent's defensive reactions
-
-
-### Available Transitions
-
-
-- **[[Rear Naked Choke from Body Triangle/Attacker|Rear Naked Choke from Body Triangle]]** (42% of attempts)
-
-- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (7% of attempts)
-
-- **[[Bow and Arrow Choke from Body Triangle/Attacker|Bow and Arrow Choke from Body Triangle]]** (11% of attempts)
-
-- **[[Short Choke from Body Triangle/Attacker|Short Choke from Body Triangle]]** (8% of attempts)
-
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (6% of attempts)
-
-- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (13% of attempts)
-
-- **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (4% of attempts)
-
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (3% of attempts)
-
-- **[[Cross Collar Choke from Body Triangle/Attacker|Cross Collar Choke from Body Triangle]]** (4% of attempts)
-
-- **[[Transitions/Body Triangle Escape to Half Guard/Attacker|Body Triangle Escape to Half Guard]]** (1% of attempts)
-
-- **[[Transitions/Body Triangle Escape to Side Control/Attacker|Body Triangle Escape to Side Control]]** (1% of attempts)
-
-
-### Common Mistakes
-
-
-- ❌ **Locking triangle too high on torso near shoulders instead of around lower ribs and diaphragm**
-  - Consequence: Reduces breathing restriction effectiveness, allows opponent more mobility, and makes it easier for them to defend neck and clear the position
-  - ✅ Correction: Lock triangle around lower ribcage and diaphragm area, ensuring maximum breathing restriction and body control while limiting opponent's ability to expand their chest
-
-- ❌ **Failing to secure proper figure-four lock with foot shallow behind knee**
-  - Consequence: Triangle becomes loose and can be cleared with hip movement, losing the position entirely and allowing opponent to escape back control
-  - ✅ Correction: Thread foot deep behind your own knee and squeeze legs together actively, creating tight unbreakable lock that cannot be opened through standard escape techniques
-
-- ❌ **Positioning hips directly on opponent's back instead of beside them on mat**
-  - Consequence: Creates unstable base that can be rolled over, reduces squeezing power, and makes it difficult to generate proper leverage for chokes
-  - ✅ Correction: Keep hips on mat beside opponent with chest on their back, allowing you to post with hip and generate maximum squeezing pressure while maintaining stable base
-
-- ❌ **Neglecting upper body control while focusing only on leg lock**
-  - Consequence: Opponent can defend neck easily, work to clear triangle without interference, or even counter-attack with reversals and escapes
-  - ✅ Correction: Maintain active upper body control with seatbelt, collar grips, or over-under while legs create lower body immobilization, creating complete control of opponent's body
-
-- ❌ **Constant maximum squeezing without strategic application of pressure**
-  - Consequence: Wastes your energy unnecessarily, causes leg fatigue, and allows opponent to adapt to constant pressure level and work calmly on escapes
-  - ✅ Correction: Use pulsing pressure or strategic squeezing at key moments, conserving energy while keeping opponent uncomfortable and preventing them from settling into defensive rhythm
-
-- ❌ **Crossing leg over opponent's centerline on wrong side of body**
-  - Consequence: Creates weak triangle configuration that opponent can escape by turning, reduces control effectiveness, and may expose you to counter techniques
-  - ✅ Correction: Study proper leg positioning for each body triangle variation, ensuring crossing leg traps opponent on correct side and creates maximum immobilization of their hips
-
-
-</section>
-
-<section id="top-summary" class="content-section">
-
-
-## Playing as Top
-
-[[Body Triangle/Top|→ Full Top Guide]]
 
 ### Key Principles
 
@@ -218,23 +137,23 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (14% of attempts)
+- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (28% of attempts)
+
+- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (15% of attempts)
+
+- **[[Transitions/Body Triangle Escape to Side Control/Attacker|Body Triangle Escape to Side Control]]** (13% of attempts)
+
+- **[[Transitions/Body Triangle Escape to Half Guard/Attacker|Body Triangle Escape to Half Guard]]** (11% of attempts)
 
 - **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (9% of attempts)
 
-- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (49% of attempts)
+- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (8% of attempts)
+
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (8% of attempts)
 
 - **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (5% of attempts)
 
-- **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (2% of attempts)
-
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (9% of attempts)
-
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (9% of attempts)
-
-- **[[Transitions/Body Triangle Squeeze/Attacker|Body Triangle Squeeze]]** (1% of attempts)
-
-- **[[Rear Naked Choke from Body Triangle/Attacker|Rear Naked Choke from Body Triangle]]** (2% of attempts)
+- **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -263,6 +182,85 @@ From this position, you maintain upper body control with your arms while your le
 - ❌ **Reaching back to grab or attack opponent's legs without proper strategy**
   - Consequence: Exposes your arms to armbar attacks and crucifix transitions while failing to effectively clear the triangle, creating multiple submission dangers simultaneously
   - ✅ Correction: Only attack triangle lock with specific technical clearing sequences that protect your arms, using proper frames and leverage rather than reaching back blindly
+
+
+</section>
+
+<section id="top-summary" class="content-section">
+
+
+## Playing as Top
+
+[[Body Triangle/Top|→ Full Top Guide]]
+
+### Key Principles
+
+
+- Triangle Lock Security: Ensure proper figure-four configuration with foot locked deep behind knee, creating unbreakable connection that cannot be cleared with hip movement
+
+- Breathing Restriction Mechanics: Position triangle around lower ribs and diaphragm to maximize breathing restriction and create psychological urgency
+
+- Upper Body Attack Integration: Use leg control to free your hands for aggressive submission hunting without concern for positional maintenance
+
+- Energy Conservation: Maintain position with minimal effort, using pulsing pressure rather than constant maximum squeeze to conserve stamina
+
+- Hip Positioning: Keep hips on mat beside opponent for leverage and stability rather than directly on their back where you can be rolled
+
+- Pressure Modulation: Apply strategic squeezing at key moments rather than constant maximum pressure to prevent adaptation and fatigue
+
+- Angle Adjustment: Use hip movement to change squeeze angle and attack different areas of ribcage based on opponent's defensive reactions
+
+
+### Available Transitions
+
+
+- **[[Rear Naked Choke from Body Triangle/Attacker|Rear Naked Choke from Body Triangle]]** (41% of attempts)
+
+- **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (7% of attempts)
+
+- **[[Bow and Arrow Choke from Body Triangle/Attacker|Bow and Arrow Choke from Body Triangle]]** (11% of attempts)
+
+- **[[Short Choke from Body Triangle/Attacker|Short Choke from Body Triangle]]** (8% of attempts)
+
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (6% of attempts)
+
+- **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (13% of attempts)
+
+- **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (4% of attempts)
+
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (3% of attempts)
+
+- **[[Cross Collar Choke from Body Triangle/Attacker|Cross Collar Choke from Body Triangle]]** (4% of attempts)
+
+- **[[Transitions/Body Triangle Squeeze/Attacker|Body Triangle Squeeze]]** (3% of attempts)
+
+
+### Common Mistakes
+
+
+- ❌ **Locking triangle too high on torso near shoulders instead of around lower ribs and diaphragm**
+  - Consequence: Reduces breathing restriction effectiveness, allows opponent more mobility, and makes it easier for them to defend neck and clear the position
+  - ✅ Correction: Lock triangle around lower ribcage and diaphragm area, ensuring maximum breathing restriction and body control while limiting opponent's ability to expand their chest
+
+- ❌ **Failing to secure proper figure-four lock with foot shallow behind knee**
+  - Consequence: Triangle becomes loose and can be cleared with hip movement, losing the position entirely and allowing opponent to escape back control
+  - ✅ Correction: Thread foot deep behind your own knee and squeeze legs together actively, creating tight unbreakable lock that cannot be opened through standard escape techniques
+
+- ❌ **Positioning hips directly on opponent's back instead of beside them on mat**
+  - Consequence: Creates unstable base that can be rolled over, reduces squeezing power, and makes it difficult to generate proper leverage for chokes
+  - ✅ Correction: Keep hips on mat beside opponent with chest on their back, allowing you to post with hip and generate maximum squeezing pressure while maintaining stable base
+
+- ❌ **Neglecting upper body control while focusing only on leg lock**
+  - Consequence: Opponent can defend neck easily, work to clear triangle without interference, or even counter-attack with reversals and escapes
+  - ✅ Correction: Maintain active upper body control with seatbelt, collar grips, or over-under while legs create lower body immobilization, creating complete control of opponent's body
+
+- ❌ **Constant maximum squeezing without strategic application of pressure**
+  - Consequence: Wastes your energy unnecessarily, causes leg fatigue, and allows opponent to adapt to constant pressure level and work calmly on escapes
+  - ✅ Correction: Use pulsing pressure or strategic squeezing at key moments, conserving energy while keeping opponent uncomfortable and preventing them from settling into defensive rhythm
+
+- ❌ **Crossing leg over opponent's centerline on wrong side of body**
+  - Consequence: Creates weak triangle configuration that opponent can escape by turning, reduces control effectiveness, and may expose you to counter techniques
+  - ✅ Correction: Study proper leg positioning for each body triangle variation, ensuring crossing leg traps opponent on correct side and creates maximum immobilization of their hips
 
 
 </section>

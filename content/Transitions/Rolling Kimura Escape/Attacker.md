@@ -16,7 +16,7 @@ description: "How to execute Rolling Kimura Escape in BJJ. Complete guide to tim
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Rolling Kimura Escape in BJJ",
-  "description": "Step-by-step guide for executing Rolling Kimura Escape from Carni/Top.",
+  "description": "Step-by-step guide for executing Rolling Kimura Escape from Kimura Trap/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,7 +180,7 @@ description: "How to execute Rolling Kimura Escape in BJJ. Complete guide to tim
 
 The Rolling Kimura Escape from the attacker (escaper) perspective requires mastery of forward rolling mechanics under the specific constraint of having one arm trapped in a figure-four shoulder lock. The escape works by rotating your entire body in the direction of the lock's force, temporarily relieving shoulder pressure and disrupting your opponent's control alignment. This is not a technique you force through strength but rather one you execute through precise timing and full commitment to the rolling motion. The key biomechanical insight is that your opponent's Kimura finishing mechanics require them to drive your wrist toward your spine along a specific angle. By rolling forward over your trapped shoulder, you change the geometric relationship between your shoulder, their grip, and the direction of force, creating a momentary window where the lock's pressure dissipates enough for you to reposition into guard. Success requires reading the exact moment when your opponent commits their weight forward for the finish, because this forward commitment is precisely what prevents them from following your roll.
 
-**From Position**: [[Positions/Rubber Guard/Carni]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 

@@ -46,8 +46,8 @@ description: "How to execute Kimura from Mount in BJJ. Attacking perspective wit
     },
     {
       "@type": "HowToStep",
-      "name": "Walk Hands Toward Head",
-      "text": "While maintaining elbow height and grip integrity, begin moving their hand in a circular arc toward their head. The motion should be smooth and controlled, rotating the shoulder internally. Your hands move together as a unit - do not pull with one hand more than the other. The pressure increases progressively as you move through the arc. Watch for the tap, which typically comes when their hand reaches ear level.",
+      "name": "Walk Hands Toward Hip",
+      "text": "While maintaining elbow height and grip integrity, begin moving their hand in a circular arc down toward their hip and lower back, driving the wrist behind their body. The motion should be smooth and controlled, rotating the shoulder internally. Your hands move together as a unit - do not pull with one hand more than the other. The pressure increases progressively as you move through the arc. Watch for the tap, which typically comes as their hand passes the line of their hip.",
       "position": 5
     },
     {
@@ -97,7 +97,7 @@ description: "How to execute Kimura from Mount in BJJ. Attacking perspective wit
       "name": "What is the correct rotational direction and path for applying the Kimura from mount, and why does this matter?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The correct motion is a circular arc that moves the opponent's hand toward their head while maintaining elbow height at approximately ribcage level. This creates internal rotation of the shoulder joint, which engages the posterior shoulder capsule and rotator cuff tendons for maximum mechanical pressure. The motion should be smooth and circular, like stirring a large pot, not lifting straight up. Incorrect angles (pulling straight up or away from the body) fail to engage the shoulder joint properly and reduce submission effectiveness while potentially directing pressure to less vulnerable structures."
+        "text": "The correct motion is a circular arc that moves the opponent's hand down toward their hip and lower back while maintaining elbow height at approximately ribcage level. This creates internal rotation of the shoulder joint, which engages the posterior shoulder capsule and rotator cuff tendons for maximum mechanical pressure. The motion should be smooth and circular, like stirring a large pot, not lifting straight up. Driving the hand toward the head instead is the Americana arc, not the Kimura. Incorrect angles (pulling straight up or away from the body) fail to engage the shoulder joint properly and reduce submission effectiveness while potentially directing pressure to less vulnerable structures."
       }
     },
     {
@@ -225,7 +225,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 2. **Feed the Wrist and Secure Figure-Four Grip**: While maintaining wrist control, thread your opposite hand (left hand for right arm attack) underneath their elbow and grip your own wrist, creating the figure-four configuration. Your grip should be as deep as possible on your wrist - the further from their arm you grip, the more leverage you create. Keep their elbow bent at approximately 90 degrees and tight to their torso during this transition. (Timing: 1-2 seconds for grip transition)
 3. **Create Angle and Establish Base**: Shift your hips and upper body toward the trapped arm side, creating a perpendicular angle to their body. Your chest should now be oriented toward their head rather than directly down on their torso. Maintain one knee tight against their ribs on the trapped arm side while extending the other leg for base. This angle is critical - it aligns your body mechanics for optimal torque application. (Timing: 1-2 seconds for positional adjustment)
 4. **Lift the Elbow and Control Height**: Using your figure-four grip, lift their elbow off the mat while keeping their hand pinned toward their body or the mat. The elbow should rise to approximately the height of their ribcage or slightly higher. This creates the necessary leverage arm for the submission. Keep their wrist close to their body - if their hand moves too far from their torso, the submission loses effectiveness. (Timing: 1-2 seconds)
-5. **Walk Hands Toward Head**: While maintaining elbow height and grip integrity, begin moving their hand in a circular arc toward their head. The motion should be smooth and controlled, rotating the shoulder internally. Your hands move together as a unit - do not pull with one hand more than the other. The pressure increases progressively as you move through the arc. Watch for the tap, which typically comes when their hand reaches ear level. (Timing: 3-5 seconds progressive application)
+5. **Walk Hands Toward Hip**: While maintaining elbow height and grip integrity, begin moving their hand in a circular arc down toward their hip and lower back, driving the wrist behind their body. The motion should be smooth and controlled, rotating the shoulder internally. Your hands move together as a unit - do not pull with one hand more than the other. The pressure increases progressively as you move through the arc. Watch for the tap, which typically comes as their hand passes the line of their hip. (Timing: 3-5 seconds progressive application)
 6. **Finish or Transition**: Continue the circular rotation until opponent taps. If they resist strongly or begin to roll, be prepared to transition: maintain your figure-four grip and follow their roll to take the back, or step over their head into an armbar position. Never release the grip prematurely - the Kimura control allows multiple submission and positional options even if the shoulder lock itself doesn't finish immediately. (Timing: Until tap or transition initiated)
 
 
@@ -250,7 +250,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 <p class="section-subtitle">How might your opponent defend against Kimura from Mount?</p>
 
-- **Grabbing their own gi pants or belt (defensive grip)** (Effectiveness: Medium) - Your Response: Maintain pressure and use your bodyweight to break the grip by continuing the circular motion. Alternatively, post your hand on their head and use leverage to force their hand away from their body, then complete the arc toward their head. → Leads to [[Positions/Mount]]
+- **Grabbing their own gi pants or belt (defensive grip)** (Effectiveness: Medium) - Your Response: Maintain pressure and use your bodyweight to break the grip by continuing the circular motion. Alternatively, post your hand on their head and use leverage to force their hand away from their body, then complete the arc down toward their hip and lower back. → Leads to [[Positions/Mount]]
 - **Rolling toward the trapped arm to relieve pressure** (Effectiveness: Low) - Your Response: Follow the roll while maintaining figure-four grip. As they roll, transition your legs to take the back with seat belt control, or use the momentum to transition to a crucifix position. The Kimura grip remains secure throughout the transition. → Leads to [[Positions/Closed Guard]]
 - **Bridging explosively to disrupt base and mount control** (Effectiveness: Medium) - Your Response: Lower your hips and widen your base immediately when you feel the bridge. Post your head on the mat on the trapped arm side to prevent being swept. Keep the figure-four grip locked and maintain elbow height - even if mount is threatened, the submission pressure continues. → Leads to [[Positions/Closed Guard]]
 - **Straightening the trapped arm to prevent rotation** (Effectiveness: Low) - Your Response: If they straighten the arm, you gain access to a straight armbar. Simply adjust your angle, bring your leg over their face, and fall back for the armbar. The Kimura grip naturally transitions to armbar control when they extend. → Leads to [[Positions/Mount]]
@@ -275,10 +275,10 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 - **Consequence**: Insufficient leverage to generate adequate shoulder torque - submission lacks power and opponent can easily defend
 - **Correction**: Grip your own wrist as far from opponent's arm as possible. Maximum distance between your hands creates maximum leverage. Extend your bottom arm fully when establishing the figure-four.
 
-### 3. Lifting straight up instead of rotating in circular arc toward head
+### 3. Lifting straight up instead of rotating in a circular arc toward the hip
 
 - **Consequence**: Incorrect pressure angle fails to engage shoulder joint properly - submission feels weak and opponent can resist indefinitely
-- **Correction**: The motion must be circular and rotational, not linear. Move their hand in an arc toward their head while maintaining elbow height. Think of stirring a large pot rather than lifting a weight.
+- **Correction**: The motion must be circular and rotational, not linear. Move their hand in an arc down toward their hip and lower back while maintaining elbow height. Think of stirring a large pot rather than lifting a weight.
 
 ### 4. Allowing opponent's hand to move away from their body
 
@@ -314,7 +314,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 Practice establishing the figure-four grip from mount with a compliant partner at 0% resistance. Focus on proper hand placement distance, wrist depth, and threading the arm under the elbow. Drill mount retention separately, maintaining position while partner performs light bridge and hip escape attempts. Combine both elements only after each is comfortable individually. 20 repetitions per side per session.
 
 **Phase 2: Dominant Angles and Pressure** - Body positioning, perpendicular alignment, and controlled rotational mechanics
-With the grip established, practice shifting to the perpendicular angle while maintaining mount pressure. Partner provides 25-50% resistance. Focus on the circular arc motion toward the head at slow, controlled speed. Drill elbow elevation and wrist proximity to the body. Partner provides verbal feedback on pressure direction and intensity. Emphasize the progressive pressure curve over 3-5 seconds minimum.
+With the grip established, practice shifting to the perpendicular angle while maintaining mount pressure. Partner provides 25-50% resistance. Focus on the circular arc motion driving the hand down toward the hip and lower back at slow, controlled speed. Drill elbow elevation and wrist proximity to the body. Partner provides verbal feedback on pressure direction and intensity. Emphasize the progressive pressure curve over 3-5 seconds minimum.
 
 **Phase 3: Counter Recognition and Transition Chains** - Reading defensive reactions and flowing to alternative attacks or positions
 Partner provides specific defensive reactions in sequence: grip defense (grabbing belt/pants), rolling toward trapped arm, bridging, arm extension. Practice the correct response to each: grip breaking mechanics, following the roll to back control, base adjustment against bridges, and transitioning to armbar on extension. 50-75% resistance with emphasis on maintaining the figure-four grip throughout all transitions.

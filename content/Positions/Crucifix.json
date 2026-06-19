@@ -572,10 +572,6 @@
     ],
     "transitions": [
       {
-        "transition": "Arm Extraction",
-        "attempt_probability": 40
-      },
-      {
         "transition": "Shrimp Escape",
         "attempt_probability": 12
       },
@@ -597,7 +593,7 @@
       },
       {
         "transition": "Arm Recovery from Crucifix",
-        "attempt_probability": 3
+        "attempt_probability": 43
       },
       {
         "transition": "Crucifix Choke Defense",

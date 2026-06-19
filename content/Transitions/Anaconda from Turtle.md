@@ -90,7 +90,7 @@ This technique has become a staple of modern no-gi grappling, particularly effec
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Thread far arm deep under neck with palm-down orientation to... | Prevention is vastly easier than escape - deny the arm trap ... |
+| **Key Principles** | Thread near arm deep under neck with palm-down orientation t... | Prevention is vastly easier than escape - deny the arm trap ... |
 | **Options** | 7 execution steps | 4 defensive options |
 
 </section>
@@ -104,7 +104,7 @@ This technique has become a staple of modern no-gi grappling, particularly effec
 ### Key Principles
 
 
-- Thread far arm deep under neck with palm-down orientation toward near shoulder for optimal bone alignment
+- Thread near arm deep under neck with palm-down orientation toward far shoulder for optimal bone alignment
 
 - Trap the near arm (not far arm) between your choking arm and their neck to create the anaconda-specific bilateral pressure
 
@@ -124,7 +124,7 @@ This technique has become a staple of modern no-gi grappling, particularly effec
 
 - **Establish Turtle Top Control**: Secure turtle top position with chest pressure on opponent's back while controlling their near-side ...
 
-- **Thread Choking Arm Under Neck**: Thread your far-side arm under opponent's neck toward their near shoulder, maintaining palm-down ori...
+- **Thread Choking Arm Under Neck**: Thread your near-side arm under opponent's neck toward their far shoulder, maintaining palm-down ori...
 
 - **Trap the Near Arm**: Ensure opponent's near arm is trapped between your choking arm and their neck. This is the critical ...
 

@@ -315,7 +315,7 @@
       },
       {
         "transition": "Kneebar from Saddle",
-        "attempt_probability": 3
+        "attempt_probability": 2
       },
       {
         "transition": "Back Take from Ashi",
@@ -331,11 +331,11 @@
       },
       {
         "transition": "Calf Slicer from Saddle",
-        "attempt_probability": 3
+        "attempt_probability": 1
       },
       {
         "transition": "Estima Lock from Saddle",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Fallback to Inside Ashi-Garami",
@@ -343,7 +343,7 @@
       },
       {
         "transition": "Heel Hook from Saddle",
-        "attempt_probability": 40
+        "attempt_probability": 44
       },
       {
         "transition": "Saddle Fallback to Inside Ashi",

@@ -39,7 +39,7 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Electric Chair",
-  "description": "The Electric Chair is a 10th Planet compression submission from the lockdown in half guard that splits the opponent's trapped leg away from their body to torque the knee, hip, and groin while doubling as a powerful sweep.",
+  "description": "The Electric Chair is a 10th Planet compression submission from the lockdown in half guard that splits the opponent's trapped leg away from their body, hyperabducting the hip to tear the adductors and groin while doubling as a powerful sweep.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -52,9 +52,9 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    { "@type": "Question", "name": "What is the Electric Chair?", "acceptedAnswer": { "@type": "Answer", "text": "The Electric Chair is a 10th Planet compression submission from the lockdown in half guard that splits the opponent\u0027s trapped leg away from their body to torque the knee, hip, and groin while doubling as a powerful sweep." } },
+    { "@type": "Question", "name": "What is the Electric Chair?", "acceptedAnswer": { "@type": "Answer", "text": "The Electric Chair is a 10th Planet compression submission from the lockdown in half guard that splits the opponent\u0027s trapped leg away from their body, hyperabducting the hip to tear the adductors and groin while doubling as a powerful sweep." } },
     { "@type": "Question", "name": "What positions can you finish the Electric Chair from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Electric Chair from Deep Half Guard, Electric Chair." } },
-    { "@type": "Question", "name": "Is the Electric Chair dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Electric Chair targets the Knee joint, hip flexors, and posterior chain. Primary risk: Medial collateral ligament (MCL) sprain or tear. Tap early and release immediately on the tap." } }
+    { "@type": "Question", "name": "Is the Electric Chair dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Electric Chair targets the Hip joint, adductors (groin), and inner thigh. Primary risk: Hip labral tear or hip joint capsule damage from forced hyperabduction. Tap early and release immediately on the tap." } }
   ]
 }
 </script>
@@ -64,22 +64,22 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Electric Chair is a 10th Planet compression submission from the lockdown in half guard that splits the opponent's trapped leg away from their body to torque the knee, hip, and groin while doubling as a powerful sweep.**
+**The Electric Chair is a 10th Planet compression submission from the lockdown in half guard that splits the opponent's trapped leg away from their body, hyperabducting the hip to tear the adductors and groin while doubling as a powerful sweep.**
 <div class="principle-meta">
 <span class="meta-chip">Compression</span>
-<span class="meta-chip">Knee and Hip Compression</span>
-<span class="meta-chip">Targets Knee joint, hip flexors, and posterior chain</span>
+<span class="meta-chip">Hip and Groin Compression</span>
+<span class="meta-chip">Targets Hip joint, adductors (groin), and inner thigh</span>
 <span class="meta-chip">~62% avg</span>
 </div>
 
 > [!danger] Safety
-> Electric Chair targets the Knee joint, hip flexors, and posterior chain. Primary risk: Medial collateral ligament (MCL) sprain or tear. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
+> Electric Chair targets the Hip joint, adductors (groin), and inner thigh. Primary risk: Hip labral tear or hip joint capsule damage from forced hyperabduction. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <section id="overview" class="content-section">
 
-The Electric Chair is a signature submission technique from 10th Planet Jiu-Jitsu, primarily executed from the lockdown position in half guard. This compression-based submission creates intense pressure on the opponent's trapped leg by combining hip extension, knee torque, and spinal rotation. Unlike traditional joint locks that isolate a single articulation, the Electric Chair simultaneously attacks multiple anatomical structures including the knee joint, hip flexors, IT band, and lower back.
+The Electric Chair is a signature submission technique from 10th Planet Jiu-Jitsu, primarily executed from the lockdown position in half guard. This compression-based submission works by forcing the opponent's trapped leg outward and away from their centerline, hyperabducting the hip and stretching the adductor (groin) muscles past their range. Unlike traditional joint locks that isolate a single articulation, the Electric Chair drives the hip joint and inner-thigh structures to their limit while loading the trapped knee with secondary rotational torque, making the hip and groin the primary danger zone.
 
-The submission derives its effectiveness from the lockdown control system, where the bottom player uses a figure-four leg configuration to trap and extend the opponent's leg while controlling their posture. From this foundation, the practitioner transitions to an inverted position, creating a powerful lever that forces the opponent's knee into hyperextension while applying rotational torque to the hip joint. The Electric Chair represents a perfect example of how systematic position control can lead to high-percentage finishing opportunities.
+The submission derives its effectiveness from the lockdown control system, where the bottom player uses a figure-four leg configuration to trap and extend the opponent's leg while controlling their posture. From this foundation, the practitioner transitions to an inverted position and underhooks the trapped leg, creating a powerful lever that splits that leg away from the body. This forced hyperabduction wrenches the hip capsule and tears the adductors; the knee absorbs rotational load as a secondary structure. The Electric Chair represents a perfect example of how systematic position control can lead to high-percentage finishing opportunities.
 
 Historically developed and refined within the 10th Planet system, the Electric Chair has proven effective in both gi and no-gi competition contexts. The technique emphasizes pressure over speed, rewarding practitioners who develop strong lockdown mechanics and understand the progressive nature of compression submissions. When executed properly with controlled application speed, it serves as both a legitimate finishing threat and a powerful sweeping mechanism that forces opponents into defensive reactions.
 
@@ -150,11 +150,11 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 | Injury | Severity | Recovery Time |
 |--------|----------|---------------|
-| Medial collateral ligament (MCL) sprain or tear | High | 4-12 weeks for grade 1-2 sprains; 3-6 months for grade 3 tears |
-| Posterior cruciate ligament (PCL) strain | Medium | 2-8 weeks for minor strains; 3-6 months for significant injuries |
-| IT band inflammation and hip flexor strain | Medium | 2-6 weeks with proper rest and treatment |
-| Lower back strain from spinal rotation | Medium | 1-4 weeks depending on severity |
-| Hamstring and adductor muscle strains | Low | 1-3 weeks for minor strains |
+| Hip labral tear or hip joint capsule damage from forced hyperabduction | CRITICAL | 3-6 months conservatively; surgical labral repair can require 4-6 months or longer |
+| Groin strain or adductor muscle tear from the leg split | High | 3-8 weeks for grade 1-2 strains; 3-4 months for severe adductor tears |
+| Medial collateral ligament (MCL) sprain from rotational force on the trapped knee | Medium | 4-12 weeks for grade 1-2 sprains; 3-6 months for grade 3 tears |
+| Lower back strain from asymmetric hip loading and spinal rotation | Medium | 1-4 weeks depending on severity |
+| IT band inflammation and hip flexor strain | Low | 2-6 weeks with proper rest and treatment |
 
 
 **Application Speed**: EXTREMELY SLOW and progressive - minimum 5-7 seconds from initial pressure to maximum extension; compression submissions require gradual intensity increase
@@ -174,7 +174,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 3. Control opponent's leg as you release to prevent sudden movement
 4. Gradually lower opponent's leg back to neutral position
 5. Maintain communication to ensure partner safety
-6. Allow partner time to assess their knee and hip before continuing
+6. Allow partner time to assess their hip, groin, and knee before continuing
 
 
 **Training Restrictions**:
@@ -182,7 +182,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 - Never use competition-speed application in training environments
 - Always maintain verbal communication with training partner
 - Never continue pressure after tap signal for any reason
-- Avoid training this submission with partners who have existing knee injuries
+- Avoid training this submission with partners who have existing hip, groin, or knee injuries
 - Never practice on partners who lack flexibility in hips and hamstrings without proper warm-up
 - Always ensure partner has clear access to tap with both hands
 - Never attempt full extension in initial learning phases

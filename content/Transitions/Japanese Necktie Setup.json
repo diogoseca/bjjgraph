@@ -15,7 +15,7 @@
   "from_position": "Front Headlock/Top",
   "outcomes": [
     {
-      "to": "Darce Control/Top",
+      "to": "Japanese Necktie",
       "probability": 55,
       "result": "success"
     },
@@ -38,8 +38,8 @@
       "relationship": "Starting position for setup"
     },
     {
-      "name": "Darce Control",
-      "relationship": "Finishing control position reached on success"
+      "name": "Japanese Necktie",
+      "relationship": "Finishing strangle reached on success"
     },
     {
       "name": "Darce Setup",
@@ -164,8 +164,8 @@
       {
         "counter": "Opponent tucks chin and defends neck",
         "effectiveness": "Low",
-        "your_response": "Use chin as fulcrum point for leverage, continue with technique focusing on shoulder pressure and body positioning rather than forcing through chin defense",
-        "targets_outcome": "Darce Control/Top"
+        "your_response": "Use chin as fulcrum point for leverage, continue with technique focusing on shoulder pressure and body positioning rather than forcing through chin defense to finish the strangle",
+        "targets_outcome": "Japanese Necktie"
       }
     ],
     "common_errors": [

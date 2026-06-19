@@ -65,7 +65,7 @@ The biomechanics of posture recovery against a locked triangle require precise c
 
 Timing is the primary determinant of success rate, outweighing physical attributes by a significant margin. The optimal posture recovery window occurs during the attacker's leg adjustment phases, when the triangle lock loosens briefly as they reposition for tighter closure. Recognizing these adjustment windows through tactile sensitivity and executing immediate posture recovery during them dramatically increases escape probability. Conversely, attempting posture against a fully cinched triangle with optimal perpendicular angle represents one of the lowest-percentage defensive scenarios in the art. The technique's success leads to half guard top when the postural disruption creates sufficient space for partial extraction and leg clearing, establishing an offensive passing platform from what was moments earlier a life-threatening submission scenario.
 
-**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -245,7 +245,7 @@ Posture in Triangle Escape serves as the foundational defensive transition withi
 
 - [[Transitions/Complete Triangle Escape]] - Full escape sequence from same position that builds upon successful posture recovery as prerequisite
 
-- [[Transitions/Complete Triangle Escape from Top]] - Related complete escape from the top perspective of triangle escape position
+- [[Transitions/Complete Triangle Escape]] - Related complete escape from the top perspective of triangle escape position
 
 - [[Transitions/Posture Up from Triangle]] - Closely related posture technique initiated from Triangle Control rather than Triangle Escape Position
 

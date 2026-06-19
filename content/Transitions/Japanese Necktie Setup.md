@@ -76,7 +76,7 @@ Strategically, the Japanese Necktie functions as a high-value option within the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Darce Control]] | 55% |
+| Success | [[Submissions/Japanese Necktie]] | 55% |
 | Failure | [[Positions/Front Headlock]] | 30% |
 | Counter | [[Positions/Turtle]] | 15% |
 
@@ -237,7 +237,7 @@ The Japanese Necktie Setup is a crucial component of the front headlock attack s
 
 - [[Positions/Front Headlock]] - Starting position for setup
 
-- [[Positions/Darce Control]] - Finishing control position reached on success
+- [[Submissions/Japanese Necktie]] - Finishing strangle reached on success
 
 - [[Transitions/Darce Setup]] - Alternative attack from same position
 

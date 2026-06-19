@@ -222,29 +222,29 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 ### Available Transitions
 
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (16% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (6% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (14% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (7% of attempts)
-
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (4% of attempts)
-
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (6% of attempts)
-
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (8% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
 
 - **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (11% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (29% of attempts)
-
 - **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
 
-- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (8% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (9% of attempts)
 
-- **[[Transitions/Stack from Inverted/Attacker|Stack from Inverted]]** (2% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (8% of attempts)
 
-- **[[Transitions/Toreando from Inverted/Attacker|Toreando from Inverted]]** (1% of attempts)
+- **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (6% of attempts)
+
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (5% of attempts)
+
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (4% of attempts)
+
+- **[[Transitions/Stack from Inverted/Attacker|Stack from Inverted]]** (3% of attempts)
+
+- **[[Transitions/Toreando from Inverted/Attacker|Toreando from Inverted]]** (2% of attempts)
 
 
 ### Common Mistakes

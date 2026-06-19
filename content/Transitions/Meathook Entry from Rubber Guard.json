@@ -1,0 +1,400 @@
+{
+  "name": "Meathook Entry from Rubber Guard",
+  "summary": "Meathook Entry from Rubber Guard is a 10th Planet progression where the bottom player climbs the controlling leg high over the opponent's trapped arm and shoulder, hooking the shin across the tricep to isolate the limb and break posture into Meathook control.",
+  "description": "Master the Meathook Entry from Rubber Guard. Complete 10th Planet guide to climbing the shin over the trapped arm into Meathook overhook control with setup and counters.",
+  "tags": [
+    "bjj",
+    "transition",
+    "rubber-guard",
+    "10th-planet",
+    "meathook",
+    "arm-isolation",
+    "no-gi",
+    "guard-advancement"
+  ],
+  "from_position": "Rubber Guard/Bottom",
+  "outcomes": [
+    {
+      "to": "Meathook/Bottom",
+      "probability": 57,
+      "result": "success"
+    },
+    {
+      "to": "Rubber Guard/Bottom",
+      "probability": 28,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 57,
+  "overview": "The Meathook Entry from Rubber Guard is the deliberate, commonly-taught pathway by which the bottom player advances out of standard Rubber Guard (Mission Control or New York) into the Meathook overhook-and-shin control of the 10th Planet system. Rather than waiting for the opponent to err, the practitioner actively climbs the controlling leg higher across the opponent's back so the shin hooks directly over the trapped arm and presses against the tricep. This converts the general posture control of Rubber Guard into the extreme single-arm isolation that defines Meathook, where the opponent's near-side arm is suspended and removed from the defensive equation entirely.\n\nMechanically, the entry depends on first having a broken posture and a secured overhook or deep collar tie on the non-trapped side. From there the practitioner walks the controlling shin up the back, clears the ankle past the shoulder line, and settles the shin over the tricep while the opposite-side grip pulls the head down. The opposing forces compress posture as the leg climbs. Insufficient flexibility, a shallow climb that leaves the ankle below the shoulder, or a released collar grip during the climb are the usual reasons the entry fails and the practitioner slides back to standard Rubber Guard.\n\nStrategically this is one of the most important advancement decisions in the Rubber Guard tree. Meathook is a high-control, high-attack hub that feeds gogoplata, triangle, omoplata, and the baratoplata/tarikoplata family, so deliberately climbing into it converts a holding guard into an immediate submission platform. Because Meathook carries a steep energy cost, the entry should be reserved for moments when the opponent is posture-broken and momentarily passive, allowing the climb to complete before the position must be cashed in for a finish.",
+  "conditions": [
+    "Rubber Guard (Mission Control or New York) must be established with the controlling shin across the opponent's back",
+    "Opponent's posture must be broken with their head pulled below the practitioner's shoulder line",
+    "An overhook or deep collar grip must be secured on the opponent's non-trapped side",
+    "The near-side arm must already be trapped and isolated against the practitioner's chest",
+    "Sufficient hip and hamstring flexibility to climb the shin over the shoulder line while keeping guard connection"
+  ],
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Direct Climb from Mission Control",
+      "description": "The fundamental pathway in which the practitioner walks the controlling shin straight up the opponent's back from Mission Control until the ankle clears the shoulder and the shin settles over the tricep. Executed methodically with the collar grip pulling the head down to keep posture broken throughout the climb.",
+      "when_to_use": "When the opponent is passive in Mission Control with broken posture and is not actively fighting to extract the trapped arm, giving time for a controlled leg climb."
+    },
+    {
+      "variant_name": "Meathook from New York",
+      "description": "An entry that diverts an established New York configuration into Meathook by hooking the already-elevated leg over the trapped arm rather than advancing toward an omoplata. The existing arm control is reused, shortening the climb.",
+      "when_to_use": "When New York is set but the opponent shrugs off the immediate omoplata threat, leaving the trapped arm available for a shin hook over the tricep."
+    },
+    {
+      "variant_name": "Reactive Climb on Arm Relaxation",
+      "description": "An accelerated entry where the practitioner snaps the shin over the shoulder the instant the opponent relaxes the trapped arm or drops their head, achieving the hook before defensive tension re-engages. Trades some control for speed and surprise.",
+      "when_to_use": "When the opponent momentarily relaxes the trapped arm or lowers their head, creating a brief window to complete the shin hook before they re-posture."
+    }
+  ],
+  "position_integration": "The Meathook Entry from Rubber Guard occupies a pivotal spot in the 10th Planet positional tree, converting the foundational Rubber Guard hub (Mission Control, New York) into the Meathook attack platform. It sits upstream of the high-percentage finishing chains—gogoplata, triangle, omoplata, baratoplata, and tarikoplata—all of which become directly available once the shin isolates the arm. Within the broader BJJ hierarchy the entry transforms Rubber Guard from a posture-control holding position into a branching submission system, and it pairs naturally with Crackhead Control and Carni as parallel advancements that respond to different defensive reactions from the trapped opponent.",
+  "related_content": [
+    {
+      "name": "Rubber Guard",
+      "relationship": "Starting position from which this entry is executed"
+    },
+    {
+      "name": "Meathook",
+      "relationship": "Target position achieved on successful execution of the entry"
+    },
+    {
+      "name": "Mission Control",
+      "relationship": "Primary sub-position used as the launching point for the leg climb"
+    },
+    {
+      "name": "New York",
+      "relationship": "Alternative Rubber Guard configuration from which the entry can be diverted"
+    },
+    {
+      "name": "Gogoplata Control",
+      "relationship": "Direct finish available once Meathook is established and opponent drives forward"
+    },
+    {
+      "name": "Triangle Control",
+      "relationship": "High-percentage finish when the opponent extracts the trapped arm upward from Meathook"
+    },
+    {
+      "name": "Omoplata Control",
+      "relationship": "Submission chain available when the opponent spins the trapped arm free from Meathook"
+    },
+    {
+      "name": "Crackhead Control",
+      "relationship": "Parallel Rubber Guard advancement emphasizing cross-body arm isolation"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Foundational position from which the entire Rubber Guard system originates"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Position resulting from a failed climb when the opponent counters and clears the leg"
+    }
+  ],
+  "attacker": {
+    "name": "Meathook Entry from Rubber Guard Attacker",
+    "description": "Execute the Meathook Entry from Rubber Guard bottom. Master the 10th Planet shin-over-arm climb into Meathook control with step-by-step mechanics and timing windows.",
+    "overview": "From the attacker's perspective, the Meathook Entry from Rubber Guard is a calculated climb that escalates standard Rubber Guard control into the extreme single-arm isolation of Meathook. The attacker walks the controlling shin up the opponent's back and hooks it over the trapped arm so the shin presses the tricep, while the opposite-side collar or overhook grip keeps the head pulled down and posture broken. Success demands coordination between the climbing leg, both hands, and continuous hip-angle management, executed in windows where the opponent's posture is maximally compromised. The entry rewards patience: climbing prematurely against strong posture lets the opponent extract the arm and recover, while a smooth climb timed to a passive moment locks the shin over the shoulder and opens the entire Meathook attack web of gogoplata, triangle, and omoplata.",
+    "key_principles": [
+      "Keep the opponent's posture fully broken throughout the climb so the shin can clear the shoulder line without resistance",
+      "Maintain the non-trapped-side collar or overhook grip continuously to prevent posture recovery as the leg climbs",
+      "Climb the shin past the shoulder line rather than settling for a shallow hook that the opponent can shrug off",
+      "Press the shin into the tricep, not the bicep or forearm, to create the arm-isolating lever that defines Meathook",
+      "Use hip-angle adjustment to walk the leg up the back smoothly instead of lifting and replacing it",
+      "Time the entry for moments of opponent passivity or relaxed arm tension rather than forcing it against active defense",
+      "Treat the entry as a commitment to attack—Meathook is high energy cost, so plan the finishing chain before completing the climb"
+    ],
+    "setup_requirements": [
+      "Established Rubber Guard (Mission Control or New York) with the controlling shin across the opponent's back",
+      "Opponent's posture fully broken with their head pulled below the practitioner's shoulder line",
+      "Overhook or deep collar grip secured on the opponent's non-trapped side",
+      "Near-side arm already trapped and isolated against the practitioner's chest",
+      "Sufficient hip and hamstring flexibility to climb the shin over the shoulder line during the entry"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm Control Position",
+        "description": "Verify your Rubber Guard is secure: controlling shin across the opponent's back, the near-side arm trapped against your chest, posture broken with the head below your shoulder line, and a collar or overhook grip secured on the non-trapped side. Do not begin the climb until all checkpoints are confirmed."
+      },
+      {
+        "step_number": 2,
+        "action": "Deepen the Collar Grip",
+        "description": "Tighten your grip on the opponent's non-trapped collar or overhook and pull their head down toward your sternum. This deep grip keeps posture broken and creates the opposing force that lets the climbing leg work without the opponent posturing up during the transition."
+      },
+      {
+        "step_number": 3,
+        "action": "Adjust Hip Angle",
+        "description": "Shift your hips roughly 20-30 degrees toward the trapped-arm side, opening the angle that lets the controlling shin travel higher up the opponent's back toward the shoulder. This hip rotation creates the mechanical pathway for the climb and must precede lifting the leg."
+      },
+      {
+        "step_number": 4,
+        "action": "Walk the Shin Up the Back",
+        "description": "Using your same-side hand on your foot or shin, walk the controlling leg up the opponent's back in small increments rather than one large lift. Keep the leg heavy and connected to their body throughout so there is no gap for the opponent to slip their head or arm free during the climb."
+      },
+      {
+        "step_number": 5,
+        "action": "Hook the Shin Over the Trapped Arm",
+        "description": "Clear your ankle completely past the opponent's shoulder line and settle the shin directly over their trapped arm so it presses against the tricep. The ankle must cross the shoulder; a shallow hook below the shoulder allows the opponent to pull the arm straight back and escape."
+      },
+      {
+        "step_number": 6,
+        "action": "Compress Posture into Meathook",
+        "description": "Drive the hooked shin downward against the tricep while pulling the head down with your collar grip, creating the opposing forces that fully break posture and suspend the trapped arm. The opponent's near-side arm is now isolated and removed from base and defense, establishing Meathook."
+      },
+      {
+        "step_number": 7,
+        "action": "Lock and Anchor the Hook",
+        "description": "Secure the hooked leg with hand or opposite-leg support so the shin stays over the tricep without relying on hip-flexor strength alone. Anchoring through structure rather than muscle makes the Meathook sustainable for the short window you need to attack."
+      },
+      {
+        "step_number": 8,
+        "action": "Establish the Attack Platform",
+        "description": "With Meathook locked, read the opponent's reaction and select the finishing chain: gogoplata if they drive forward, triangle if they extract the arm upward, omoplata if they spin the arm free. The isolated arm makes each of these substantially higher percentage than from standard Rubber Guard."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Explosive posture recovery, driving upward with the free arm before the shin clears the shoulder line",
+        "effectiveness": "High",
+        "your_response": "Increase collar pressure and pull the head back down before continuing the climb. If they posture before you commit, hold Mission Control and wait rather than forcing the shin up against active resistance.",
+        "targets_outcome": "Rubber Guard/Bottom"
+      },
+      {
+        "counter": "Trapped-arm extraction by circling the elbow out and pulling it back before the shin hooks the tricep",
+        "effectiveness": "Medium",
+        "your_response": "Follow the arm with your leg, racing the shin over the shoulder before extraction completes. If the arm escapes, recycle the freed space into a triangle setup since the upward arm motion opens the neck.",
+        "targets_outcome": "Rubber Guard/Bottom"
+      },
+      {
+        "counter": "Stack pass, driving forward to fold the bottom player and relieve the climbing leg pressure",
+        "effectiveness": "Medium",
+        "your_response": "Use the forward stacking momentum to load an omoplata or roll to your shoulder; frame on the hip and rotate rather than fighting the stack head-on. Their pressure assists the rotation.",
+        "targets_outcome": "Open Guard/Bottom"
+      },
+      {
+        "counter": "Leg clear by pinning the climbing shin and swimming the arm under it to strip the hook",
+        "effectiveness": "High",
+        "your_response": "If they pin the shin, abandon the high climb and re-close to a tight Rubber Guard or closed guard, keeping at least the collar grip so they cannot stand and open the guard entirely.",
+        "targets_outcome": "Open Guard/Bottom"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Climbing the leg before the opponent's posture is fully broken",
+        "consequence": "The upright opponent resists the climb and extracts the trapped arm, escaping Rubber Guard toward open guard or a pass",
+        "correction": "Break posture completely with the collar grip first, confirming the head is below your shoulder line, before walking the shin up. Posture breaking is the prerequisite, not a parallel task."
+      },
+      {
+        "error": "Settling for a shallow hook with the ankle below the shoulder line",
+        "consequence": "The opponent pulls the trapped arm straight back and slips free because the shin never isolates the tricep, collapsing the entry",
+        "correction": "Climb until the ankle clears the shoulder completely and the shin lands across the tricep. A hook that stops below the shoulder is decorative and functionally useless for arm isolation."
+      },
+      {
+        "error": "Releasing the collar or overhook grip during the leg climb",
+        "consequence": "The opponent immediately postures up into the gap, recovers base, and the half-climbed leg slides off, leaving a position weaker than Mission Control",
+        "correction": "Maintain constant pulling pressure on the collar throughout the climb. The grip and the climbing leg work as coordinated opposing forces; never trade one away for the other."
+      },
+      {
+        "error": "Lifting and replacing the leg instead of walking it up the back",
+        "consequence": "The momentary gap lets the opponent slip their head or arm free, stalling the transition in an unstable halfway position",
+        "correction": "Walk the shin up in small increments while keeping it heavy and connected to the opponent's body, so there is never a control gap during the climb."
+      },
+      {
+        "error": "Forcing the climb without adequate hip and hamstring flexibility",
+        "consequence": "The shin cannot clear the shoulder, the hook stays shallow, and the practitioner risks hip-flexor strain or hamstring injury",
+        "correction": "Develop hip and hamstring range before drilling live, and break posture more aggressively to shorten the climb when flexibility is limited, bringing the opponent closer rather than reaching higher."
+      },
+      {
+        "error": "Treating the completed Meathook as a resting position rather than an attack platform",
+        "consequence": "The high energy cost drains the hip flexors, the hook loosens, and the opponent escapes before any submission is attempted",
+        "correction": "Plan the finishing chain before completing the climb and begin attacking immediately once the hook is set. Meathook is a 30-45 second attack window, not a hold."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Mechanics",
+        "focus": "Leg climb and shin placement",
+        "description": "Drill the full climb on a non-resisting partner from Mission Control, focusing on walking the shin up the back and clearing the ankle past the shoulder line onto the tricep. Perform 20-30 reps per side, confirming each checkpoint before settling the hook."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Recognizing entry windows",
+        "description": "Partner offers moderate resistance from Rubber Guard top with periodic passive moments. Practitioner identifies posture breaks and relaxed arm tension as triggers and times the climb to those windows, holding Mission Control when posture is strong."
+      },
+      {
+        "phase": "Phase 3: Chain Integration",
+        "focus": "Connecting Meathook to finishes",
+        "description": "Once the hook is set, flow immediately into gogoplata, triangle, and omoplata setups based on the partner's reaction. Build automatic links from the established Meathook to each finish so the entry never stalls as a static hold."
+      },
+      {
+        "phase": "Phase 4: Live Application",
+        "focus": "Execution under full resistance",
+        "description": "Positional sparring from established Rubber Guard, attempting the Meathook climb against a fully resisting opponent. Track success rate and note whether failures come from shallow hooks, lost grips, or mistimed climbs. Minimum 10 rounds of 3 minutes."
+      },
+      {
+        "phase": "Phase 5: Counter Adaptation",
+        "focus": "Adapting to defensive reactions",
+        "description": "Partner cycles through posture recovery, arm extraction, and stacking while the practitioner adapts—racing the shin over the arm, recycling into triangle, or loading an omoplata off the stack. Develop fluid switching between the climb and alternative attacks."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the defining mechanical action that distinguishes the Meathook Entry from other Rubber Guard advancements?",
+        "answer": "The defining action is climbing the controlling shin high over the opponent's trapped arm so it presses directly against the tricep, hooking the limb and suspending it. Unlike Crackhead Control which pulls the arm cross-body, the Meathook Entry elevates the leg over the shoulder line to create a shin-over-tricep lever that isolates the arm and breaks posture simultaneously."
+      },
+      {
+        "question": "Why must the ankle clear the opponent's shoulder line before the hook is considered established?",
+        "answer": "If the ankle stops below the shoulder line, the shin never traps the tricep and the opponent can simply pull their arm straight back to escape. Clearing the shoulder completely places the shin across the tricep, creating the mechanical trap that prevents extraction regardless of the opponent's strength. A shallow climb is decorative and functionally useless for arm isolation."
+      },
+      {
+        "question": "What role does the non-trapped-side collar or overhook grip play during the leg climb?",
+        "answer": "The collar or overhook grip keeps the opponent's posture broken throughout the climb by pulling the head down toward your sternum. It forms the opposing force to the climbing leg: the grip pulls the head down while the shin climbs over the arm, compressing posture. Releasing the grip during the climb lets the opponent posture up into the gap and slide the half-climbed leg off."
+      },
+      {
+        "question": "When is the optimal moment to initiate the Meathook climb from Mission Control?",
+        "answer": "Initiate when the opponent's posture is fully broken with their head below your shoulder line and their trapped arm has relaxed from active resistance. Passive or slow-defending moments are ideal because the leg can climb without fighting structural tension. Climbing against strong, upright posture lets the opponent resist and extract the arm, so hold Mission Control and wait for a better window."
+      },
+      {
+        "question": "Why should the shin press the tricep rather than the bicep or forearm during the entry?",
+        "answer": "Pressing the tricep creates the arm-isolating lever that defines Meathook: it suspends the upper arm and prevents the opponent from posting or framing with that limb. Pressure on the bicep or forearm fails to load the shoulder properly and lets the opponent bend the elbow to relieve the lever, so the shin must settle across the tricep at the back of the upper arm for the control to hold."
+      },
+      {
+        "question": "What submission chains become available once the Meathook hook is locked?",
+        "answer": "From locked Meathook the primary chains are gogoplata when the opponent drives forward into the shin, triangle when they extract the trapped arm upward and expose the neck, and omoplata when they spin the arm free. The baratoplata and tarikoplata are also available off the isolated shoulder. The extreme arm isolation makes each of these substantially higher percentage than from standard Rubber Guard."
+      },
+      {
+        "question": "How should you manage energy given Meathook's high cost once the entry completes?",
+        "answer": "Anchor the hooked leg through structure rather than squeezing with the hip flexors, plan the finishing chain before the climb completes, and begin attacking immediately. Meathook is sustainable for only about 30-45 seconds, so treat the entry as a commitment to finish, not a hold. If no finish develops, transition back to Mission Control to recover rather than burning out in static Meathook."
+      },
+      {
+        "question": "Your opponent stacks you during the climb—what is the immediate tactical response?",
+        "answer": "Use the forward stacking momentum rather than fighting it: frame on their hip with your free hand and rotate your body to load an omoplata, or roll to your shoulder to follow the pressure. The stack provides the rotational angle an omoplata needs, converting their defensive drive into your offense. Only commit to this when you can keep the trapped arm controlled through the rotation."
+      },
+      {
+        "question": "What are the flexibility prerequisites for the Meathook climb, and how do you compensate if limited?",
+        "answer": "The climb requires enough hip flexion and hamstring length to walk the shin over the shoulder line while keeping guard connection. If flexibility is limited, break the opponent's posture more aggressively first so their body is closer to yours, shortening the distance the leg must travel. Long term, develop hip-flexor and hamstring range with a dedicated stretching program before relying on the entry live."
+      }
+    ],
+    "safety_considerations": "This entry loads the practitioner's own hip flexors, hamstrings, and groin heavily during the leg climb, so warm up hip external rotation and hamstring flexibility thoroughly and never force the climb beyond your range, which risks groin strain or acute hip injury. The resulting Meathook isolates the partner's shoulder; apply shin and shoulder pressure gradually in drilling so they can tap before the shoulder is compromised, and communicate clearly about intensity, especially when the position chains into gogoplata or triangle where neck and shoulder pressure escalate quickly."
+  },
+  "defender": {
+    "name": "Meathook Entry from Rubber Guard Defender",
+    "description": "Defend the Meathook Entry from Rubber Guard top. Learn recognition cues, leg-clear timing, and posture recovery to stop the shin from hooking your trapped arm.",
+    "overview": "Defending the Meathook Entry requires the top player to recognize the leg climb early and act before the shin clears the shoulder line to hook the trapped arm. The defender's primary objective is to prevent the controlling shin from settling over the tricep, because once the arm is suspended in Meathook the limb is removed from base and defense and submission threats multiply. The critical defensive window is the climb itself: while the bottom player walks the leg up the back and momentarily adjusts hip angle, the hook is incomplete and posture recovery or arm extraction is still realistic. Effective defense means disrupting the climb proactively rather than fighting the locked Meathook, which is extremely difficult to escape once the shin is anchored over the shoulder.",
+    "key_principles": [
+      "Recognize the leg climb during the shin walk-up—this is the primary and most effective defensive window",
+      "Fight to recover posture before the shin clears the shoulder rather than escaping after the arm is hooked",
+      "Keep the trapped arm tight to your body so it cannot be suspended by the climbing shin",
+      "Drive your head upward and forward to counter the collar grip's posture-breaking pressure",
+      "Use your free hand to pin or strip the climbing shin before the ankle clears your shoulder line",
+      "Time explosive posture recovery to the moment the bottom player shifts hip angle and the leg is momentarily mobile",
+      "If the hook begins to set, commit immediately to leg clear or extraction—partial hook becomes full Meathook within seconds"
+    ],
+    "recognition_cues": [
+      "Bottom player deepens their collar or overhook grip and pulls your head harder toward their sternum, signaling preparation to break posture for the climb",
+      "Hip angle shifts beneath you toward your trapped-arm side, opening the pathway for the shin to travel up your back",
+      "The controlling shin begins walking higher up your back from the standard Mission Control position toward your shoulder",
+      "Increased downward pressure on your trapped arm as the bottom player loads the limb for the shin hook over the tricep",
+      "The bottom player's same-side hand guides their own foot or shin upward, indicating an active leg climb rather than a static hold"
+    ],
+    "defensive_options": [
+      {
+        "action": "Explosive posture recovery, driving upward with the free arm while pushing the hips back to break the collar control",
+        "when_to_use": "During the leg climb when the shin is still below your shoulder line and the bottom player's hip angle is open and momentarily committed",
+        "targets_outcome": "Rubber Guard/Bottom",
+        "if_successful": "The climb is disrupted and the bottom player drops back to standard Rubber Guard, needing to re-break posture before attempting the entry again",
+        "risk": "If timed poorly while the bottom player keeps the collar grip, the upward drive can feed a triangle by creating space at the neck"
+      },
+      {
+        "action": "Trapped-arm extraction by circling the elbow outward and downward and pulling it back to your hip",
+        "when_to_use": "When you feel downward pressure loading the arm but before the shin has cleared your shoulder to hook the tricep",
+        "targets_outcome": "Rubber Guard/Bottom",
+        "if_successful": "The arm returns to a neutral defensive position against your body, reducing control to standard Rubber Guard and forcing the climb to restart",
+        "risk": "Circling the elbow can open space at your neck that the bottom player converts into a triangle if they abandon the climb"
+      },
+      {
+        "action": "Stack and smash defense, driving forward with shoulder pressure while walking your feet toward the bottom player's head",
+        "when_to_use": "When the bottom player commits to the hip-angle shift and elevated leg, leaving their guard asymmetric and vulnerable to compression",
+        "targets_outcome": "Open Guard/Bottom",
+        "if_successful": "The bottom player is compressed and forced to release the climbing leg, opening the guard and allowing you to begin passing",
+        "risk": "Forward pressure can be redirected into an omoplata if the bottom player uses the stacking momentum for rotation"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Open Guard/Bottom",
+        "how": "Stack forward into the bottom player as they commit to the elevated leg, compressing them until the climbing leg must release. Drive your shoulder in and walk your feet toward their head to break the Rubber Guard configuration entirely and force a reset to open guard where you can pass."
+      },
+      {
+        "outcome": "Rubber Guard/Bottom",
+        "how": "Pin or strip the climbing shin and recover posture before the ankle clears your shoulder line, forcing the bottom player to stay in standard Rubber Guard without advancing to Meathook. Keep hand-fighting their collar grip to prevent immediate re-attempts of the climb."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Reacting only after the shin has hooked over the trapped arm and Meathook is established",
+        "consequence": "Meathook is extremely difficult to escape once the shin is anchored over the shoulder; extraction against a locked hook rarely succeeds and the submission chain is already live",
+        "correction": "React to the climb cues—the deepening collar grip, hip shift, and rising shin—not to the finished hook. Disrupt the leg while it is still walking up your back, before the ankle clears your shoulder."
+      },
+      {
+        "error": "Pulling the trapped arm straight back against the loading pressure",
+        "consequence": "Linear extraction fights the shin pressure at its strongest angle, exhausts you quickly, and rarely frees the arm before the hook completes",
+        "correction": "Circle the elbow outward and downward to change the angle of force and slip the arm along the path of least resistance, rather than fighting straight against the loading pressure."
+      },
+      {
+        "error": "Burying your head down into the bottom player's chest while defending",
+        "consequence": "Drives your head into gogoplata and guillotine range from the elevated leg and obscures your view of the climbing shin",
+        "correction": "Keep your head up and chin driving toward the ceiling during defense; upward head drive aids posture recovery and keeps your neck clear of the submissions that the Meathook chain threatens."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What are the earliest recognition cues that a Meathook Entry is being attempted from Rubber Guard?",
+        "answer": "The earliest cues are the bottom player deepening their collar or overhook grip and pulling your head harder toward their sternum, a hip-angle shift toward your trapped-arm side, and the controlling shin beginning to walk higher up your back toward your shoulder. These precede the completed hook by one to two seconds and mark the critical window to recover posture or strip the climbing leg before the shin clears your shoulder."
+      },
+      {
+        "question": "Why is it essential to defend during the leg climb rather than after the Meathook hook is set?",
+        "answer": "Once the shin clears the shoulder and anchors over the tricep, the trapped arm is suspended and removed from defense, and the position chains directly into gogoplata, triangle, and omoplata. Escaping a locked Meathook is extremely difficult against a skilled opponent. During the climb the hook is incomplete and the leg is mobile, so posture recovery, arm extraction, or stripping the shin are all still realistic—defending early is far higher percentage."
+      },
+      {
+        "question": "Why is circular arm extraction more effective than pulling the trapped arm straight back?",
+        "answer": "Pulling straight back fights the shin's loading pressure at its strongest angle and turns into an exhausting tug-of-war the bottom player wins through leg and body leverage. Circling the elbow outward and downward changes the angle of force, slips the arm along the path of least resistance, and exploits the weaker edge of the developing hook before the shin fully traps the tricep."
+      },
+      {
+        "question": "How does the stacking defense counter the Meathook climb, and what risk does it create?",
+        "answer": "Stacking drives your weight forward and down, compressing the bottom player and removing the space the climbing leg needs to reach your shoulder, often forcing them to release the leg. The risk is that a skilled opponent redirects the forward momentum into an omoplata, since the stack provides the rotational angle the omoplata needs. Stack only when you can keep your trapped arm tight to your body throughout the pressure."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition",
+        "focus": "Identifying climb cues before the hook sets",
+        "description": "Partner executes the Meathook climb at slow speed from Rubber Guard. Defender calls out each cue—collar deepening, hip shift, rising shin—as it occurs, with no physical defense, building tactile and visual pattern awareness of the climb."
+      },
+      {
+        "phase": "Phase 2: Timing",
+        "focus": "Defensive window exploitation",
+        "description": "Partner climbs at moderate speed. Defender practices a single response—posture recovery, arm extraction, or shin strip—timed precisely to the climb phase before the ankle clears the shoulder. Track success rate across 20-plus repetitions, prioritizing timing over variety."
+      },
+      {
+        "phase": "Phase 3: Response Selection",
+        "focus": "Matching defense to the climb variation",
+        "description": "Partner varies the climb speed, the entry side, and whether it comes from Mission Control or New York. Defender selects the appropriate response for each variation and practices switching when the first defense is countered or proves insufficient."
+      },
+      {
+        "phase": "Phase 4: Live Defense",
+        "focus": "Full-resistance defensive application",
+        "description": "Positional sparring from established Rubber Guard with the bottom player attempting the Meathook climb and other Rubber Guard advancements. Defender uses the full toolkit against unpredictable attacks, tracking which defensive sequences stop the climb most consistently."
+      }
+    ]
+  }
+}

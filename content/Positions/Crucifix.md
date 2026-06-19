@@ -139,8 +139,6 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (40% of attempts)
-
 - **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (12% of attempts)
 
 - **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (12% of attempts)
@@ -151,7 +149,7 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 - **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (7% of attempts)
 
-- **[[Transitions/Arm Recovery from Crucifix/Attacker|Arm Recovery from Crucifix]]** (3% of attempts)
+- **[[Transitions/Arm Recovery from Crucifix/Attacker|Arm Recovery from Crucifix]]** (43% of attempts)
 
 - **[[Transitions/Crucifix Choke Defense/Attacker|Crucifix Choke Defense]]** (1% of attempts)
 

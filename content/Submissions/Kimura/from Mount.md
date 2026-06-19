@@ -135,7 +135,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 - **Lift the Elbow and Control Height**: Using your figure-four grip, lift their elbow off the mat while keeping their hand pinned toward the...
 
-- **Walk Hands Toward Head**: While maintaining elbow height and grip integrity, begin moving their hand in a circular arc toward ...
+- **Walk Hands Toward Hip**: While maintaining elbow height and grip integrity, begin moving their hand in a circular arc down to...
 
 - **Finish or Transition**: Continue the circular rotation until opponent taps. If they resist strongly or begin to roll, be pre...
 
@@ -151,9 +151,9 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
   - Consequence: Insufficient leverage to generate adequate shoulder torque - submission lacks power and opponent can easily defend
   - Correction: Grip your own wrist as far from opponent's arm as possible. Maximum distance between your hands creates maximum leverage. Extend your bottom arm fully when establishing the figure-four.
 
-- **Lifting straight up instead of rotating in circular arc toward head**
+- **Lifting straight up instead of rotating in a circular arc toward the hip**
   - Consequence: Incorrect pressure angle fails to engage shoulder joint properly - submission feels weak and opponent can resist indefinitely
-  - Correction: The motion must be circular and rotational, not linear. Move their hand in an arc toward their head while maintaining elbow height. Think of stirring a large pot rather than lifting a weight.
+  - Correction: The motion must be circular and rotational, not linear. Move their hand in an arc down toward their hip and lower back while maintaining elbow height. Think of stirring a large pot rather than lifting a weight.
 
 
 </section>
@@ -214,7 +214,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 ## Variations
 
 
-**S-Mount Kimura**: From S-mount position (one leg extended toward opponent's head), establish the figure-four grip and use the elevated hip position to increase downward pressure while rotating toward their head. The S-mount variation provides superior control and prevents rolling defenses more effectively than standard mount. (When to use: When opponent is defending aggressively and attempting to roll or bridge - S-mount provides maximum stability and control)
+**S-Mount Kimura**: From S-mount position (one leg extended toward opponent's head), establish the figure-four grip and use the elevated hip position to increase downward pressure while rotating their hand down toward their hip and lower back. The S-mount variation provides superior control and prevents rolling defenses more effectively than standard mount. (When to use: When opponent is defending aggressively and attempting to roll or bridge - S-mount provides maximum stability and control)
 
 
 **High Mount to Kimura Bait**: From high mount with your knees under opponent's armpits, threaten a cross collar choke or armbar to opposite side. When opponent frames or reaches across their body to defend, immediately transition to Kimura on the extended arm. The threat creates the opening. (When to use: Against defensive opponents who keep arms tight - use attacking threats to force arm extension)

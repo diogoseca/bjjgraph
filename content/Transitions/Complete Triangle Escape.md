@@ -65,7 +65,7 @@ This escape demands precise coordination of multiple mechanics operating simulta
 
 Strategic context positions this technique as the culmination of triangle defense methodology. While earlier defensive measures buy time and reduce immediate danger, the Complete Triangle Escape converts defensive survival into genuine positional improvement. The resulting closed guard top position, while not dominant, represents a massive improvement from submission danger and provides the platform for systematic guard passing. Understanding when defensive structure is sufficient to initiate the complete escape versus when further consolidation is needed separates competent triangle defenders from practitioners who repeatedly escape only to be re-caught in the same cycle.
 
-**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 **Success Rate**: 50%
 
 </section>

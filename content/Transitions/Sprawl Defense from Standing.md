@@ -65,7 +65,7 @@ Beyond simple shot defense, the sprawl functions as a critical transition point 
 
 The strategic depth of the sprawl extends well beyond reactive defense. Advanced practitioners recognize that the sprawl-to-front-headlock sequence creates one of the highest-percentage submission chains available from standing. The key differentiator between competent and elite sprawl defense lies in the seamless transition from stuffing the shot to immediately attacking with chokes or positional advancement, rather than simply returning to neutral standing. Practitioners who bait takedown attempts specifically to trigger their front headlock offense represent the highest evolution of this technique.
 
-**From Position**: [[Positions/Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>

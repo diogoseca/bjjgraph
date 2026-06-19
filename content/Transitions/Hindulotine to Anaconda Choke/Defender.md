@@ -158,7 +158,7 @@ The defender's primary challenge is managing the dilemma between relieving guill
 
 Defensive success depends on early recognition and decisive action during the transition window. If you feel the attacker's arm beginning to slide under your armpit rather than continuing to squeeze the guillotine, you must immediately retract your frame and re-establish tight defensive posture. Waiting even one second too long allows the anaconda grip to lock, at which point your defensive options narrow significantly to grip fighting and hip escape rather than outright denial of the position.
 
-**Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 

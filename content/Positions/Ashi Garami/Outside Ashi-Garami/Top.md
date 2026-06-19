@@ -21,31 +21,31 @@ description: "Master Outside Ashi-Garami Top defense in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 59% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 53% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Back Step. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter heel hook",
-      "text": "From this position, attempt Counter heel hook. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar Setup",
-      "text": "From this position, attempt Kneebar Setup. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar Setup. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {

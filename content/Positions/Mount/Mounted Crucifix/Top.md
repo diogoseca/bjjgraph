@@ -21,37 +21,37 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Crucifix",
-      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Straight Armbar",
+      "text": "From this position, attempt Straight Armbar. This technique is attempted in 8% of exchanges from this position.",
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Mounted Crucifix",
       "text": "From this position, attempt Rear Naked Choke from Mounted Crucifix. This technique is attempted in 9% of exchanges from this position.",
-      "position": 2
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
       "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 9% of exchanges from this position.",
-      "position": 3
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
       "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap to Technical Mount",
       "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 9% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Neck Crank from Mounted Crucifix",
-      "text": "From this position, attempt Neck Crank from Mounted Crucifix. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],

@@ -21,13 +21,13 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke from North-South",
-      "text": "From this position, attempt North-South Choke from North-South. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke from North-South. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,7 +39,7 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from North-South",
-      "text": "From this position, attempt Armbar from North-South. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from North-South. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {

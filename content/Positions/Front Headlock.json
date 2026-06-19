@@ -292,7 +292,11 @@
     "transitions": [
       {
         "transition": "Guillotine Setup",
-        "attempt_probability": 11
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Front Headlock to Guillotine",
+        "attempt_probability": 6
       },
       {
         "transition": "Anaconda Setup",

@@ -24,7 +24,7 @@
       "result": "failure"
     },
     {
-      "to": "Combat Base/Top",
+      "to": "Combat Base/Bottom",
       "probability": 20,
       "result": "counter"
     }
@@ -164,7 +164,7 @@
         "counter": "Opponent drives heavy forward pressure after grip break, pinning your hips flat and preventing the hip escape needed for guard closure",
         "effectiveness": "High",
         "your_response": "Frame on the opponent's shoulders with both hands to create immediate distance, then use the frame as a platform for a powerful hip escape. If they establish combat base, transition to combat base guard recovery mechanics rather than fighting for closed guard.",
-        "targets_outcome": "Combat Base/Top"
+        "targets_outcome": "Combat Base/Bottom"
       },
       {
         "counter": "Opponent grabs your ankles or pants and redirects your legs to one side, initiating a toreando or leg drag pass",
@@ -293,14 +293,14 @@
       {
         "action": "Drive forward through the bottom player's centerline immediately after grip stripping, pinning their hips flat with chest pressure to prevent hip escape",
         "when_to_use": "Immediately after stripping one or both sleeve grips when the bottom player's legs are still in extended position",
-        "targets_outcome": "Combat Base/Top",
+        "targets_outcome": "Combat Base/Bottom",
         "if_successful": "Bottom player's hips are pinned flat preventing guard closure angle, allowing you to establish combat base and begin systematic passing",
         "risk": "If bottom player frames on your shoulders effectively, your forward pressure may stall and they recover composure for alternative guard recomposition"
       },
       {
         "action": "Grab the bottom player's ankles or pants as their legs retract and redirect them to one side for a toreando pass",
         "when_to_use": "When the bottom player begins retracting their legs from extended position but has not yet gotten knees to their chest",
-        "targets_outcome": "Combat Base/Top",
+        "targets_outcome": "Combat Base/Bottom",
         "if_successful": "Legs are displaced to one side eliminating guard closure possibility and opening direct toreando or leg drag passing lanes",
         "risk": "If the bottom player pummels legs back to centerline, you may lose your grip advantage and they can recompose guard"
       },
@@ -314,7 +314,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Combat Base/Top",
+        "outcome": "Combat Base/Bottom",
         "how": "Strip both sleeve grips explosively and immediately drive forward with heavy chest pressure while blocking the far hip with your hand, preventing the hip escape needed for guard closure and establishing combat base for systematic passing"
       }
     ],

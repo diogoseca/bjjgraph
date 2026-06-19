@@ -20,7 +20,7 @@
       "result": "success"
     },
     {
-      "to": "Turtle/Top",
+      "to": "Turtle/Bottom",
       "probability": 20,
       "result": "success"
     },

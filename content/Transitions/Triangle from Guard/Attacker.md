@@ -16,7 +16,7 @@ description: "How to execute Triangle from Guard in BJJ. Attacking perspective w
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Triangle from Guard in BJJ",
-  "description": "Step-by-step guide for executing Triangle from Guard from Worm Guard/Bottom.",
+  "description": "Step-by-step guide for executing Triangle from Guard from Mission Control/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -184,7 +184,7 @@ The technique exploits a critical timing window when the opponent attempts to re
 
 Strategically, the Triangle from Guard serves as the cornerstone threat that makes the entire Mission Control system functional. Without a credible triangle threat, the top person can focus entirely on posture recovery without consequence. The threat of the triangle forces the opponent into defensive arm positioning that opens omoplata entries, and attempts to defend the omoplata reopen the triangle. This creates the dilemma-based offense that defines effective rubber guard play. Advanced practitioners chain the triangle threat with New York transitions, omoplata sweeps, and gogoplata entries, using the triangle as the hub of a submission web that forces opponents into increasingly compromised defensive positions.
 
-**From Position**: [[Positions/Worm Guard]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
 

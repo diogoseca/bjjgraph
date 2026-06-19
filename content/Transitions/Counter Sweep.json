@@ -11,7 +11,7 @@
     "timing",
     "position recovery"
   ],
-  "from_position": "Estima Lock Control/Bottom",
+  "from_position": "Open Guard/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",

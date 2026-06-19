@@ -204,21 +204,19 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (22% of attempts)
+- **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** (35% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (16% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (26% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (12% of attempts)
+- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (20% of attempts)
 
-- **[[Transitions/Guard Recovery from Triangle Control/Attacker|Guard Recovery from Triangle Control]]** (5% of attempts)
+- **[[Transitions/Guard Recovery from Triangle Control/Attacker|Guard Recovery from Triangle Control]]** (7% of attempts)
 
-- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (5% of attempts)
+- **[[Transitions/Triangle Clear to Side/Attacker|Triangle Clear to Side]]** (7% of attempts)
 
-- **[[Triangle Choke from Triangle Control/Attacker|Triangle Choke from Triangle Control]]** (37% of attempts)
+- **[[Transitions/Posture Up from Triangle/Attacker|Posture Up from Triangle]]** (3% of attempts)
 
-- **[[Transitions/Posture Up from Triangle/Attacker|Posture Up from Triangle]]** (2% of attempts)
-
-- **[[Transitions/Stack Escape from Triangle/Attacker|Stack Escape from Triangle]]** (1% of attempts)
+- **[[Transitions/Stack Escape from Triangle/Attacker|Stack Escape from Triangle]]** (2% of attempts)
 
 
 ### Common Mistakes

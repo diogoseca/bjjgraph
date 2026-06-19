@@ -577,11 +577,11 @@
     "transitions": [
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 11
+        "attempt_probability": 18
       },
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 35
+        "attempt_probability": 12
       },
       {
         "transition": "Granby Roll to Guard",
@@ -589,15 +589,15 @@
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 13
+        "attempt_probability": 19
       },
       {
         "transition": "Upa Escape",
-        "attempt_probability": 9
+        "attempt_probability": 13
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 12
+        "attempt_probability": 18
       },
       {
         "transition": "Shrimp Escape",

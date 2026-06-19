@@ -1,0 +1,355 @@
+{
+  "name": "Buggy Choke from Bottom Side Control",
+  "description": "Set the Buggy Choke from under side control. Frame the near arm, trap it across the neck, throw your leg over the shoulder, and lock the figure for the self-arm strangle.",
+  "tags": [
+    "bjj",
+    "transition",
+    "buggy-choke",
+    "side-control-escape",
+    "no-gi",
+    "arm-trap-choke",
+    "submission-entry"
+  ],
+  "aliases": [
+    "Buggy Choke Entry from Side Control Bottom",
+    "Bottom Side Control Buggy Choke"
+  ],
+  "from_position": "Side Control/Bottom",
+  "outcomes": [
+    {
+      "to": "Buggy Choke/Top",
+      "probability": 45,
+      "result": "success"
+    },
+    {
+      "to": "Side Control/Bottom",
+      "probability": 40,
+      "result": "failure"
+    },
+    {
+      "to": "Mount/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 45,
+  "summary": "The Buggy Choke from Bottom Side Control is a counterintuitive submission entry where the pinned bottom player frames their own near arm across the top player's neck, throws a leg over the shoulder, and locks a figure to strangle the opponent with the bottom player's trapped arm.",
+  "overview": "The Buggy Choke from Bottom Side Control is the canonical entry into one of modern jiu-jitsu's most surprising submissions: from a position the top player believes is dominant, the bottom player turns their pinned near arm into a strangle. Popularized in competition around 2021, the entry exploits the moment the top player drives a crossface or buries their head into the bottom player's chest while passing or holding side control. Instead of pure escape, the bottom player frames the near arm tight across the top player's neck, swings the same-side leg up and over the top player's shoulder, and connects the legs to clamp the trapped arm against the top player's carotid.\n\nWhat makes this entry so dangerous is the disguise: it arrives from underneath a winning pin, so the top player frequently keeps pressuring forward, feeding their own neck into the figure. The bottom player does not need to bridge or shrimp out first. The choke is finished by turning the hips and torso into the opponent and extending, driving the opponent's head and the bottom player's own shoulder into the carotid line. Because the legs do the sealing, this is a low-energy, high-leverage attack ideally suited to smaller grapplers stuck under heavier pressure.\n\nStrategically, the entry rewards patience and timing over scrambling. The bottom player must recognize when the top player commits their head and weight forward, then trap and clamp within a tight window before the top player postures up and clears. When the entry is defended, the same control branches to scrambles, the back, or simply a return to bottom side control rather than collapsing into a worse spot, which is what makes it a genuine attack rather than a desperate flail from the bottom.",
+  "conditions": [
+    "Bottom player is held in side control with the top player's head and chest pressure committed forward",
+    "Top player's head or near shoulder has dipped low enough that the bottom player's near arm can frame across the top player's neck",
+    "Bottom player has the hip and shoulder mobility to throw the same-side leg over the top player's shoulder",
+    "Bottom player can connect the legs in a figure-four or shin grip before the top player postures up and clears"
+  ],
+  "related_content": [
+    {
+      "name": "Side Control",
+      "relationship": "Starting position - the pin from which the bottom player initiates the buggy choke entry"
+    },
+    {
+      "name": "Buggy Choke",
+      "relationship": "Target position achieved on successful entry - the locked figure that strangles with the trapped arm"
+    },
+    {
+      "name": "Finish Buggy Choke",
+      "relationship": "Follow-up transition that completes the strangle once the buggy figure is locked"
+    },
+    {
+      "name": "Elbow Escape to Guard",
+      "relationship": "Alternative bottom side control action when the near arm is not available for the buggy frame"
+    },
+    {
+      "name": "Mount",
+      "relationship": "Worse position the bottom player can be advanced to if the entry is read and countered"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Recovery position the exchange can resolve to when the entry fails and the bottom player frames back to guard"
+    },
+    {
+      "name": "Crucifix",
+      "relationship": "Branching attack available from the buggy figure when the top player extends the far arm to base"
+    },
+    {
+      "name": "Hook Leg and Take Back",
+      "relationship": "Branching transition when the top player turns away from the locked buggy figure"
+    }
+  ],
+  "attacker": {
+    "name": "Buggy Choke from Bottom Side Control Attacker",
+    "description": "How to set the Buggy Choke from under side control. Attacking perspective with framing, leg-over-shoulder mechanics, locking the figure, and finishing the self-arm strangle.",
+    "overview": "The attacker in this transition is the bottom player held under side control, which is what makes the buggy choke so deceptive: the submission is launched from a position everyone is taught is losing. The core mechanism weaponizes the attacker's own near arm. Rather than fight to escape immediately, the attacker frames that near arm tight across the top player's neck, then throws the same-side leg over the top player's near shoulder to clamp the arm in place. Connecting the legs in a figure-four seals the figure, and turning the hips into the opponent drives the trapped arm and the opponent's head into the carotid for the strangle.\n\nThe entry's effectiveness comes from timing and the top player's own pressure. When the top player commits a heavy crossface or buries their head to flatten the bottom player, they feed their neck directly into the framing window. The attacker exploits this by trapping and clamping before the top player can posture up and clear the head. Because the legs do the sealing work, this attack is exceptionally efficient for smaller or fatigued grapplers who cannot out-muscle a top-side pin, letting them threaten a high-value submission from the worst pinning position in jiu-jitsu.\n\nTechnically, the buggy entry teaches the principle that defense and offense are not separate phases. The same near-arm frame that protects the neck under side control becomes the choking limb when paired with a leg over the shoulder. Attackers learn to read when the top player commits their head forward, to clamp the figure fast, and to branch to the back, crucifix, or a return to bottom side control when the entry is defended rather than burning out on a single attempt. Mastering this entry converts a defensive nightmare into a legitimate attacking hub.",
+    "key_principles": [
+      "Frame the near arm tight across the top player's neck before they can posture up and clear their head",
+      "Wait for the top player to commit their head and weight forward, feeding their neck into the framing window",
+      "Throw the same-side leg over the top player's near shoulder to clamp the trapped arm against their carotid",
+      "Connect the legs in a figure-four or shin grip immediately to seal the figure and eliminate the escape window",
+      "Turn the hips and torso into the opponent and extend to drive the trapped arm and their head into the strangle",
+      "Use leg and hip mechanics rather than arm strength so the attack stays low-energy from the bottom",
+      "Treat the locked figure as a hub that branches to the back, crucifix, or bottom side control when defended"
+    ],
+    "setup_requirements": [
+      "Held in side control with the top player's chest and head pressure committed forward onto you",
+      "Top player's head or near shoulder dipped low enough that your near arm can reach across their neck",
+      "Your near arm framed and trapped tight across the top player's neck rather than buried under their chest",
+      "Hip and shoulder mobility available to swing your same-side leg up and over the top player's shoulder",
+      "A clear path to connect your legs in a figure-four before the top player postures and clears the head"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Read the top player's forward commitment",
+        "description": "From under side control, wait for or bait the top player into committing a heavy crossface or burying their head and chest forward to flatten you. This forward head commitment is the trigger: it brings their neck and near shoulder into range for your near-arm frame. Do not initiate while they are postured up and based out wide, as the framing window will not exist."
+      },
+      {
+        "step_number": 2,
+        "action": "Frame the near arm across the neck",
+        "description": "Drive your near-side forearm and bicep tight across the front of the top player's neck and throat line, threading your arm so it crosses their neck rather than getting pinned flat against your own chest. Keep the elbow high and the wrist connected to their far shoulder if possible. This frame is simultaneously your defense and the limb that will become the choking mechanism, so seat it deep and tight."
+      },
+      {
+        "step_number": 3,
+        "action": "Trap the head and create the angle",
+        "description": "Pull the top player's head down and into you with the framing arm, trapping their head between your trapped arm and your torso so they cannot posture up and pull the neck out. Begin turning your hips slightly toward them and load your near-side leg, creating the angle needed to swing that leg up and over their near shoulder without your arm coming free."
+      },
+      {
+        "step_number": 4,
+        "action": "Throw the leg over the shoulder",
+        "description": "Explosively swing your same-side leg up and over the top player's near shoulder, hooking your knee pit over the back of their shoulder so your shin and thigh clamp down onto your own trapped arm and their neck. The leg over the shoulder is what converts the frame into a sealed choking structure, pinning your arm against their carotid so it cannot be cleared."
+      },
+      {
+        "step_number": 5,
+        "action": "Connect the legs and lock the figure",
+        "description": "Bring your second leg up and connect your legs in a figure-four or shin-on-shin grip behind the top player's shoulder and head, sealing the figure. This lock eliminates the top player's ability to slide their head out or strip your arm. Until the legs connect, the entry can still be defended, so close this window within a second or two of the leg coming over."
+      },
+      {
+        "step_number": 6,
+        "action": "Turn the hips and apply the strangle",
+        "description": "With the figure locked, turn your hips and torso toward the top player and extend progressively, driving their head and your own trapped bicep and shoulder into their carotid line. The finish comes from the hip turn and leg-driven compression, not from pulling with the arms. Apply pressure steadily and watch for the tap or the defensive reaction that opens a branch to the back or crucifix."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Top player postures up hard and pulls their head straight back before the leg clamps",
+        "effectiveness": "High",
+        "your_response": "Commit to throwing the leg over the shoulder the instant their head dips; if they beat you to posture, abandon the choke and re-frame to recover bottom side control or shrimp to half guard rather than chasing a lost head.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Top player strips your framing arm down and clears it across their chest",
+        "effectiveness": "Medium",
+        "your_response": "Fight to keep the elbow high and the wrist connected; if the arm is stripped before the figure locks, release and use the created space to elbow-escape or sit to half guard instead of leaving the arm exposed for an arm attack.",
+        "targets_outcome": "Side Control/Bottom"
+      },
+      {
+        "counter": "Top player frees the head, drives the knee across, and advances to mount",
+        "effectiveness": "Medium",
+        "your_response": "If they read the entry early and start a knee-cross to mount, retract your leg, reframe with both arms, and concede to mount bottom under control rather than getting flattened with your arm trapped underneath.",
+        "targets_outcome": "Mount/Bottom"
+      },
+      {
+        "counter": "Top player extends the far arm to base wide and refuses to be turned into",
+        "effectiveness": "Low",
+        "your_response": "Use the extended far arm to switch to a crucifix entry by trapping that arm with your legs, or keep the figure and patiently turn your hips harder to re-thread the strangle line into their carotid.",
+        "targets_outcome": "Buggy Choke/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Initiating the frame while the top player is postured up and based wide",
+        "consequence": "There is no framing window when their head is high, so the near arm gets buried flat and you simply get flattened and passed.",
+        "correction": "Wait for or bait the top player to commit their head and chest forward before threading the near arm across their neck."
+      },
+      {
+        "error": "Framing the arm shallow without trapping the head into your torso",
+        "consequence": "The top player postures and pulls their neck straight out before you can throw the leg, and the entry collapses.",
+        "correction": "Seat the frame deep across the throat line and pull their head into you, trapping it so they cannot posture out while you load the leg."
+      },
+      {
+        "error": "Throwing the leg over the shoulder without connecting the second leg",
+        "consequence": "The figure is never sealed, so the top player strips the arm or slides the head free through the gap left by the unconnected leg.",
+        "correction": "Connect your legs in a figure-four or shin grip within a second of the leg crossing the shoulder to seal the figure and remove the escape window."
+      },
+      {
+        "error": "Trying to finish by yanking with the framing arm instead of the hip turn",
+        "consequence": "Arm-pulling is weak, telegraphs the choke, and exhausts you while the top player simply rides the pressure.",
+        "correction": "Lock the figure first, then turn your hips and torso into them and extend, letting the legs and hips drive the strangle."
+      },
+      {
+        "error": "Chasing the choke after the top player has clearly postured and cleared the head",
+        "consequence": "You stay flat with your leg up and arm committed, opening an easy pass to mount or back exposure for the top player.",
+        "correction": "Recognize the lost window, retract the leg, reframe, and recover bottom side control or half guard instead of forcing a dead entry."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Frame and Trap Mechanics",
+        "focus": "Threading the near arm across the neck and trapping the head from bottom side control",
+        "description": "Partner holds a static, head-forward side control at light pressure. Repeatedly thread your near arm across their neck, seat the frame deep, and trap their head into your torso. Focus on arm placement and head control only, no leg yet. Drill 15-20 repetitions per side per session, building the proprioceptive feel for when the head is in range."
+      },
+      {
+        "phase": "Week 3-4: Leg Over and Figure Lock",
+        "focus": "Adding the leg-over-shoulder clamp and connecting the legs to seal the figure",
+        "description": "With the frame and head trap established at 50% resistance, practice swinging the same-side leg over the shoulder and connecting the second leg into a figure-four. Emphasize the speed of the leg connection and keeping the arm sealed. Reset and repeat 10-15 times per round, prioritizing a clean, fast lock over finishing pressure."
+      },
+      {
+        "phase": "Week 5-8: Timing Off Top Pressure",
+        "focus": "Entering the buggy choke reactively as the top player commits forward",
+        "description": "Partner cycles between postured side control and committing their head forward to flatten you, at 60-70% intensity. Recognize the forward commitment and enter the frame, leg, and lock in one flow only when the window opens. Develop the timing to bait the head down and clamp before they recover posture."
+      },
+      {
+        "phase": "Week 9-12: Branch and Finish Integration",
+        "focus": "Finishing the strangle and branching when the entry is defended",
+        "description": "From the locked figure at 70-80% intensity, practice the hip-turn finish and, when defended, branching to back take when they turn away or crucifix when they extend the far arm. When the entry fails, drill a clean recovery to bottom side control or half guard so failure never becomes a flattened pass."
+      },
+      {
+        "phase": "Month 4+: Live Positional Sparring",
+        "focus": "Full-resistance buggy entries from bottom side control",
+        "description": "Start under live side control with the top player passing and pressuring at full resistance. Hunt for buggy entries while defending the pass, finishing, branching, or recovering as the situation dictates. Run 4-5 minute rounds, multiple per session, treating the buggy as one tool within a complete bottom side control game."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What is the trigger that opens the buggy choke entry from bottom side control?",
+        "answer": "The trigger is the top player committing their head and chest forward, usually with a heavy crossface or by burying their head to flatten you. This forward commitment brings their neck and near shoulder into range so you can thread your near arm across their neck. If they stay postured up and based wide, the framing window does not exist and you should not initiate."
+      },
+      {
+        "question": "Why does the buggy choke from bottom side control work despite being launched from a losing position?",
+        "answer": "It weaponizes the top player's own pressure. When they drive forward to flatten you, they feed their neck into your near-arm frame. Your trapped near arm becomes the choking limb once you clamp a leg over their shoulder and lock the figure. The harder they pressure forward, the more they feed the strangle, turning the dominant pin into the setup for their own submission."
+      },
+      {
+        "question": "What is the critical timing window for locking the figure during this entry?",
+        "answer": "The figure must be sealed within a second or two of throwing your leg over the shoulder. Until your second leg connects in a figure-four or shin grip, the top player can strip your arm or slide their head free through the gap. That window is their primary escape opportunity, so you must drill a fast leg connection so the lock follows the leg-over immediately."
+      },
+      {
+        "question": "Your leg is over the shoulder but the top player extends their far arm to base and refuses to be turned into - what is your option?",
+        "answer": "Use the extended far arm to branch to a crucifix by trapping that arm with your legs while keeping the upper-body control, or keep the buggy figure and turn your hips harder to re-thread the strangle line into their carotid. The extended far arm is a defensive base, but it also presents a limb you can attack instead of forcing a stalled finish."
+      },
+      {
+        "question": "What body movement finishes the buggy choke once the figure is locked from this entry?",
+        "answer": "Turn your hips and torso toward the top player and extend progressively, driving their head and your own trapped bicep and shoulder into their carotid. The finish comes from the hip turn and the leg-driven compression of the locked figure, not from pulling with the framing arm. Yanking with the arm is weak and telegraphed; the legs and hips do the work."
+      },
+      {
+        "question": "When should you abandon the buggy entry and recover position instead?",
+        "answer": "Abandon the entry the moment the top player postures up and clearly pulls their head out, or strips your framing arm before the figure locks. Chasing a dead entry leaves you flat with your leg up and arm committed, inviting a pass to mount or back exposure. Retract the leg, reframe with both arms, and recover bottom side control or shrimp to half guard."
+      },
+      {
+        "question": "Why is the buggy choke from bottom side control especially valuable for smaller grapplers?",
+        "answer": "Because the legs and hips do the sealing and finishing work rather than upper-body strength, a smaller grappler can threaten a high-value submission from underneath a heavier opponent's pin without trying to out-muscle the pressure. It converts the worst pinning position in jiu-jitsu into a legitimate attack, rewarding timing and leverage over size and strength."
+      }
+    ],
+    "safety_considerations": "The buggy choke is a true blood choke that compresses the carotid arteries and can render an opponent unconscious quickly, so finish progressively and release the instant the partner taps verbally or physically. Because the choke is sealed by a leg over the shoulder and a figure-four lock, the opponent's shoulder and neck can be torqued if you crank the hip turn explosively; apply pressure smoothly rather than violently. During drilling, communicate clearly, never spike the entry, and have the bottom partner practice tapping early since this strangle arrives faster than most people expect from a pinned position."
+  },
+  "defender": {
+    "name": "Buggy Choke from Bottom Side Control Defender",
+    "description": "How to defend the Buggy Choke from top side control. Recognition cues, posture management, arm clearing, and passing options before the bottom player locks the figure.",
+    "overview": "The defender here is the top player in side control, which is exactly why this choke is so dangerous: the threat arrives from the position the top player believes is dominant. The bottom player uses their own near arm, fed by the top player's forward pressure, to build a strangle. The defender's entire job is to recognize that a strong pin is not automatically safe and to deny the framing window before the bottom player can thread their near arm across the neck and clamp a leg over the shoulder.\n\nThe critical defensive window exists before the bottom player connects their legs and locks the figure. The moment the top player feels the bottom player's near arm threading across their neck, the exchange has become a trap. Defense centers on managing the head and posture: keeping the head up and out of the framing line, basing wide rather than diving the head forward to flatten, and clearing the bottom player's near arm before a leg can come over the shoulder. Once the figure locks, escape percentages drop sharply and the defender must clear the leg and accept a transition rather than be strangled.\n\nAdvanced defense treats the buggy as a reason to pass with discipline rather than to crush forward recklessly. Heavy, head-down pressure that feels dominant is precisely what feeds the choke. The top player must learn to keep the head high, control the bottom player's near arm, and recognize the instant a leg starts traveling toward the shoulder so they can posture up and clear before the strangle is sealed. Understanding this attack makes the top player a safer, more methodical passer.",
+    "key_principles": [
+      "Recognize that heavy head-forward pressure from side control is exactly what feeds the buggy choke",
+      "Keep the head high and out of the bottom player's near-arm framing line to deny the entry",
+      "Control the bottom player's near arm so it cannot thread across your neck and become the choking limb",
+      "Base wide and posture up the instant you feel the near arm framing across your throat",
+      "Clear or block the bottom player's leg before it can come over your shoulder and clamp the figure",
+      "If the figure locks, prioritize clearing the leg and conceding a transition over being strangled",
+      "Pass with disciplined posture rather than diving the head forward to crush the bottom player flat"
+    ],
+    "recognition_cues": [
+      "The bottom player's near forearm or bicep threading tight across the front of your neck and throat line rather than staying buried under your chest",
+      "The bottom player pulling your head down and into them, trapping your head against their torso so you cannot posture out",
+      "The bottom player turning their hips toward you and loading their near-side leg as if to swing it up toward your shoulder"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture the head up and pull your neck straight back out of the framing line",
+        "when_to_use": "Earliest recognition - the moment you feel the bottom player's near arm threading across your neck, before any leg comes over",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Your head clears the frame, the choking limb has nothing to compress, and you settle back into a strong side control pin",
+        "risk": "Posturing up can momentarily lighten your pin and give the bottom player room to shrimp toward guard recovery if you over-commit your weight upward"
+      },
+      {
+        "action": "Strip the bottom player's framing arm down and across their own chest, then re-pin it",
+        "when_to_use": "When the near arm is framed across your neck but the bottom player has not yet thrown a leg over your shoulder",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "Removing the framing arm eliminates the choking limb entirely, neutralizing the entry and letting you re-establish a clean pin",
+        "risk": "Committing both hands to strip the arm can free the bottom player's hips, briefly opening space for them to elbow-escape or recover half guard"
+      },
+      {
+        "action": "Free the head, drive the knee across, and advance toward mount",
+        "when_to_use": "When the entry is read early and you can beat the bottom player to the pass before the leg clamps and the figure locks",
+        "targets_outcome": "Mount/Bottom",
+        "if_successful": "You convert the bottom player's failed buggy attempt into a knee-cross pass and settle into a more dominant mount position",
+        "risk": "If you misjudge the timing and the figure is already sealing, driving forward into the pass can feed your head deeper into the strangle"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Side Control/Bottom",
+        "how": "Keep your head high and out of the framing line, control the bottom player's near arm before it threads across your neck, and base wide so heavy pressure never dives your head forward. Denying the frame keeps you in a clean, dominant side control pin and prevents the entry from ever starting."
+      },
+      {
+        "outcome": "Mount/Bottom",
+        "how": "When you read the buggy entry early, free your head before the leg clamps, drive your near knee across the bottom player's belt line, and advance to mount, converting their failed submission attempt into an even more dominant top position."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Diving the head forward and down to flatten the bottom player from side control",
+        "consequence": "Head-forward pressure feeds your neck directly into the bottom player's near-arm frame, handing them the exact setup the buggy choke requires.",
+        "correction": "Keep your head high and your weight driving through the chest and hips, not the head, so your neck never enters the framing line."
+      },
+      {
+        "error": "Ignoring the bottom player's near arm and focusing only on chest pressure",
+        "consequence": "The unmanaged near arm threads across your neck and becomes the choking limb before you realize the pin has turned into a trap.",
+        "correction": "Actively control the bottom player's near arm with a deep underhook or by pinning it, denying the limb that the buggy choke weaponizes."
+      },
+      {
+        "error": "Continuing to drive forward after the figure begins to lock",
+        "consequence": "Forward pressure into a sealing buggy figure accelerates the strangle, finishing the choke faster instead of escaping it.",
+        "correction": "The instant you feel the leg clamp and the figure sealing, stop driving forward, posture up, and work to clear the leg and concede a transition rather than being choked."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Why does heavy, head-forward pressure from side control make you vulnerable to the buggy choke?",
+        "answer": "Driving your head down and forward to flatten the bottom player feeds your neck directly into their near-arm frame. The buggy choke uses the bottom player's own arm, sealed by a leg over your shoulder, to compress your carotid - and your forward pressure supplies the neck. The pin that feels most dominant is precisely the one that feeds the strangle, so keep your head high."
+      },
+      {
+        "question": "What is your immediate priority when you feel the bottom player's near arm threading across your neck?",
+        "answer": "Posture your head up and pull your neck straight back out of the framing line before any leg comes over your shoulder. Simultaneously work to strip or pin their near arm so it cannot become the choking limb. This earliest window, before the leg clamps and the figure locks, is your highest-percentage chance to neutralize the entry without conceding position."
+      },
+      {
+        "question": "What should you do if the buggy figure has fully locked with your head trapped?",
+        "answer": "Stop driving forward immediately, since forward pressure only tightens the strangle. Posture up as much as the lock allows, work to clear the leg off your shoulder, and accept conceding a transition or even giving up the pass to get your head out. Once the figure is sealed, survival outranks position, and stubbornly holding the pin risks getting choked unconscious."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Posture and Head Awareness",
+        "focus": "Maintaining high head posture and recognizing the framing line from top side control",
+        "description": "Hold side control while your partner repeatedly tries to thread their near arm across your neck at light resistance. Practice keeping your head high, basing wide, and feeling when your head drifts into the framing line. 15-20 repetitions per session, building the habit of pressuring through the chest and hips rather than the head."
+      },
+      {
+        "phase": "Week 3-4: Arm Control and Frame Denial",
+        "focus": "Controlling the bottom player's near arm before it can frame across your neck",
+        "description": "Partner attempts the buggy frame at 50% resistance. Practice securing a deep underhook or pinning the near arm before it threads across, and stripping it down when it does. Emphasize neutralizing the choking limb early. Reset and repeat 10-15 times per round, prioritizing clean arm control over force."
+      },
+      {
+        "phase": "Week 5+: Live Defense and Disciplined Passing",
+        "focus": "Defending committed buggy entries and passing without feeding the choke",
+        "description": "Partner hunts the buggy choke from bottom side control at 60-80% intensity while you work to pass. Practice keeping the head high, clearing the arm and leg, and converting failed entries into a knee-cross to mount. When the figure starts to lock, drill posturing up and clearing the leg rather than driving forward. Run 4-5 minute rounds, multiple per session."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Gi Buggy Choke from Bottom Side Control",
+      "description": "In the gi, the framing arm can reinforce the strangle using the top player's own collar or your own lapel to tighten the trapped-arm compression, and grips help keep the head trapped while you throw the leg over. The mechanics of the leg-over-shoulder clamp are identical, but collar control buys more time to seal the figure.",
+      "when_to_use": "Gi training and competition where collar and lapel grips are available to reinforce the trap"
+    },
+    {
+      "variant_name": "No-Gi Buggy Choke from Bottom Side Control",
+      "description": "Without grips, the entry relies entirely on the tightness of the near-arm frame, the head trap, and the speed of the leg connection. Because there is nothing to grip, you must clamp the figure faster and turn the hips harder to keep the strangle line, making timing off the top player's forward pressure even more critical.",
+      "when_to_use": "No-gi training, submission grappling, and MMA where collar grips are unavailable"
+    }
+  ],
+  "position_integration": "The Buggy Choke from Bottom Side Control sits at the intersection of escape and attack in the bottom side control game, transforming the most-feared pinning position in jiu-jitsu into a legitimate submission entry. It integrates with the broader bottom side control framework alongside elbow escapes, guard recovery, and underhook battles: the same near-arm frame used defensively to protect the neck becomes the choking limb when the top player overcommits their head forward. Once the buggy figure is locked, the position becomes an attack hub that branches to the back when the opponent turns away, to the crucifix when they extend the far arm to base, and back to bottom side control or half guard when the entry is defended. Strategically, this entry rewards patient bottom players who bait the top player's pressure rather than scrambling, and it pairs naturally with the family of trapped-arm strangles. Mastering it teaches the principle that defense and offense are continuous from the bottom, and it gives smaller grapplers a high-leverage threat that does not depend on out-muscling a heavier opponent's pin."
+}

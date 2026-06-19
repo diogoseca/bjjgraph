@@ -66,7 +66,7 @@ The sweep functions as the positional advancement layer within the Hindulotine a
 Strategically, this technique bridges the gap between bottom guard attacking and top mount finishing. Landing in mount with residual guillotine control gives you immediate offensive options - you can finish the mounted guillotine, transition to standard mount attacks, or use the neck control to set up high mount advancement. The sweep is most effective against opponents who commit their weight forward or laterally while attempting to neutralize the Hindulotine grip, making their base structurally vulnerable to directional force application.
 
 **From Position**: [[Positions/Hindulotine]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 65%
 
 </section>
 

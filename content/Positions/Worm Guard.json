@@ -458,7 +458,7 @@
         "condition": "If opponent attempts to clear lapel wrap by extracting their trapped leg",
         "actions": [
           {
-            "technique": "Triangle from Guard",
+            "technique": "Triangle Setup",
             "target": "Triangle Control",
             "probability": 45
           },
@@ -585,15 +585,15 @@
     "transitions": [
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 30
+        "attempt_probability": 33
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 9
+        "attempt_probability": 11
       },
       {
         "transition": "Omoplata to Back",
-        "attempt_probability": 9
+        "attempt_probability": 10
       },
       {
         "transition": "Lapel Elevator Sweep",
@@ -601,7 +601,7 @@
       },
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 13
       },
       {
         "transition": "De La Riva Sweep",
@@ -609,10 +609,6 @@
       },
       {
         "transition": "Bolo Sweep",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Triangle from Guard",
         "attempt_probability": 8
       },
       {

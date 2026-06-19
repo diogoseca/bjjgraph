@@ -16,7 +16,7 @@ description: "How to execute Counter Sweep in BJJ. Attacking perspective with se
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Counter Sweep in BJJ",
-  "description": "Step-by-step guide for executing Counter Sweep from Estima Lock Control/Bottom.",
+  "description": "Step-by-step guide for executing Counter Sweep from Open Guard/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,7 +180,7 @@ description: "How to execute Counter Sweep in BJJ. Attacking perspective with se
 
 Counter sweeping from the attacker's perspective means you are the top player neutralizing the bottom player's sweep attempt and converting it into a guard pass or positional advancement. The attacker reads the sweep initiation through grip changes, hip angles, and hook placement, then applies the correct base adjustment and counter-pressure to shut down the sweep mechanics. The highest-level application goes beyond mere defense: by following the sweep direction with controlled movement, you use the bottom player's committed weight distribution against them, creating passing lanes that would not exist if they were in a neutral guard configuration. Mastery requires cataloguing the counter-pressure vectors for every major sweep family (elevation sweeps, lateral sweeps, rotational sweeps) and developing the reflexive base adjustments that keep you in dominant passing position even under dynamic attack.
 
-**From Position**: [[Positions/Estima Lock Control]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 

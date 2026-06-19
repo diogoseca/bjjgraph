@@ -75,7 +75,7 @@ The mechanics differ from the standard bow and arrow in critical ways. The body 
 
 At the competition level, this combination represents one of the most dominant finishing sequences from back control. The defender faces a near-impossible defensive puzzle: clearing the collar grip requires removing hands from triangle defense, while addressing the triangle opens the neck to deeper collar penetration. This technical dilemma makes the body triangle bow and arrow a reliable finish even against skilled opponents who typically survive standard back attacks.
 
-**Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Bottom)
+**Starting Position**: [[Positions/Back Control/Body Triangle]] · **From**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 

@@ -197,14 +197,14 @@ As the defender (the person maintaining the leg entanglement while the opponent 
 ### 2. Advance to inside ashi or saddle during the opponent's grip-stripping phase when their hands are occupied
 
 - **When to use**: When the opponent uses both hands to strip your foot grip, their legs and hips are momentarily undefended, creating a window for advancement
-- **Targets**: [[Positions/Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent's extraction attempt fails and they are now in a deeper entanglement with reduced escape options
 - **Risk**: If the advancement is sloppy, you may lose the original entanglement without securing the deeper position
 
 ### 3. Attack the heel when it becomes momentarily exposed during the extraction movement
 
 - **When to use**: When the opponent bends the trapped knee during clearing or changes leg angle during extraction, creating brief heel exposure
-- **Targets**: [[Positions/Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent must abandon extraction and address the immediate heel hook threat, resetting their entire escape sequence
 - **Risk**: If the heel grab misses, you may have released a connection point to reach for it, facilitating their extraction
 
@@ -229,7 +229,7 @@ As the defender (the person maintaining the leg entanglement while the opponent 
 
 Maintain persistent hip pressure and immediately re-pummel any cleared hooks. Follow the opponent's lateral hip movement to prevent gap creation. Control their free leg to eliminate the push-kick force. Patient retention of the existing entanglement exhausts the opponent's escape energy and preserves your attacking position.
 
-### → [[Positions/Ashi Garami]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Capitalize on the window created when the opponent uses both hands to strip grips by advancing to inside ashi or saddle. Alternatively, attack the heel during momentary exposure created by the opponent's extraction angle changes. Convert their escape attempt into a deeper positional problem through opportunistic advancement.
 

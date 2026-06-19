@@ -96,10 +96,10 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 
 | &nbsp; | Bottom | Top |
 |--------|--------|-----|
-| **Position Type** | Offensive | Offensive |
-| **Risk Level** | Medium | Medium |
+| **Position Type** | Defensive | Offensive |
+| **Risk Level** | High | Medium |
 | **Energy Cost** | Medium | Medium |
-| **Time** | Medium | Medium |
+| **Time** | Short | Medium |
 
 **Key Difference:** Inside leg across hip for superior heel control
 
@@ -117,87 +117,65 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Key Principles
 
 
-- Secure heel control with proper gripping - C-grip or figure-four depending on submission target
+- Hide the heel first - keep your trapped knee bent and rotate your heel toward your own hip so the opponent cannot align a finishing heel hook
 
-- Use inside leg to control distance and hip positioning - this is your defensive frame
+- Keep the knee line safe - point your knee away from the direction the opponent would rotate to finish, denying the finishing angle
 
-- Maintain mobile hips for angle creation and attacks - static hips lead to escapes
+- Use your free leg as a frame - plant your free foot on the opponent's hip to create the space needed to extract the trapped leg
 
-- Control opponent's knee line with outside leg - prevent knee rotation
+- Fight the grip - strip or prevent the opponent's heel grip with two-on-one hand fighting, because without it their entanglement collapses
 
-- Transition fluidly between submissions and positions - leg locks are a system, not isolated techniques
+- Turn in, not out - rotate toward the entanglement rather than away from it, since turning into the opponent reduces heel hook leverage
 
-- Keep chest connection to opponent's leg - breaking this connection loses control
+- Escape early - act before the opponent advances to saddle or honey hole, where extraction becomes far harder
 
-- SAFETY FIRST: Always apply leg locks slowly and progressively with constant communication
+- SAFETY FIRST: Tap immediately to any heel or knee rotation; never spin explosively against a secured heel grip
 
 
 ### Available Transitions
 
 
-- **[[Heel Hook from Inside Ashi-Garami/Attacker|Heel Hook from Inside Ashi-Garami]]** (4% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (45% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (33% of attempts)
+- **[[Transitions/Guard Recovery from Inside Ashi-Garami/Attacker|Guard Recovery from Inside Ashi-Garami]]** (18% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (11% of attempts)
+- **[[Transitions/Standing Up from Inside Ashi/Attacker|Standing Up from Inside Ashi]]** (12% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (6% of attempts)
+- **[[Transitions/Leg Extraction from Inside Ashi/Attacker|Leg Extraction from Inside Ashi]]** (10% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (4% of attempts)
+- **[[Transitions/Counter Entangle to 50-50 from Ashi/Attacker|Counter Entangle to 50-50 from Ashi]]** (8% of attempts)
 
-- **[[Toe Hold from Inside Ashi-Garami/Attacker|Toe Hold from Inside Ashi-Garami]]** (6% of attempts)
+- **[[Transitions/Back Step/Attacker|Back Step]]** (4% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
-
-- **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (8% of attempts)
-
-- **[[Transitions/Inside Ashi-Garami to Cross Ashi/Attacker|Inside Ashi-Garami to Cross Ashi]]** (3% of attempts)
-
-- **[[Transitions/Guard Recovery from Inside Ashi-Garami/Attacker|Guard Recovery from Inside Ashi-Garami]]** (5% of attempts)
-
-- **[[Transitions/Counter Entangle to 50-50 from Ashi/Attacker|Counter Entangle to 50-50 from Ashi]]** (2% of attempts)
-
-- **[[Transitions/Leg Extraction from Inside Ashi/Attacker|Leg Extraction from Inside Ashi]]** (2% of attempts)
-
-- **[[Transitions/Standing Up from Inside Ashi/Attacker|Standing Up from Inside Ashi]]** (2% of attempts)
-
-- **[[Submissions/Achilles Lock/Attacker|Achilles Lock]]** (2% of attempts)
-
-- **[[Inside Heel Hook from Inside Ashi-Garami/Attacker|Inside Heel Hook from Inside Ashi-Garami]]** (2% of attempts)
-
-- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (2% of attempts)
-
-- **[[Achilles Lock from Inside Ashi-Garami/Attacker|Achilles Lock from Inside Ashi-Garami]]** (3% of attempts)
-
-- **[[Toe Hold from Top/Attacker|Toe Hold from Top]]** (2% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (3% of attempts)
 
 
 ### Common Mistakes
 
 
-- ❌ **Poor heel control with loose gripping or improper hand configuration**
-  - Consequence: Allows opponent to free their leg and escape the entanglement, eliminates submission opportunities and wastes positional advantage
-  - ✅ Correction: Secure heel with C-grip (four fingers on heel, thumb on Achilles) or figure-four grip depending on submission target, maintain constant pressure with heel pulled against your torso, use entire upper body to control heel rather than just arms
+- ❌ **Leaving the trapped leg straight and the heel exposed**
+  - Consequence: Full leg extension provides the opponent the optimal mechanical configuration for a heel hook finish and can result in immediate knee ligament damage if rotation is applied
+  - ✅ Correction: Keep your trapped knee bent at all times and rotate your heel toward your own hip, using hamstring tension to resist any straightening force - a bent, hidden heel is dramatically harder to finish than a straight one
 
-- ❌ **Weak inside leg positioning with insufficient hip pressure**
-  - Consequence: Reduces distance control and allows opponent to close distance, pass over inside leg, and escape entanglement while potentially achieving top position
-  - ✅ Correction: Drive inside leg across opponent's hip with active extension, create strong frame with shin or knee, adjust angle as needed to prevent them from stepping over or collapsing distance
+- ❌ **Leaving the free leg passive and flat on the mat**
+  - Consequence: A passive free leg surrenders your primary escape lever, letting the opponent control distance and advance to saddle or honey hole unopposed
+  - ✅ Correction: Keep your free leg active and post the free foot on the opponent's hip or inside thigh to frame, create space, and push their controlling inside leg off your hip
 
-- ❌ **Static hips without mobility or angle adjustment**
-  - Consequence: Opponent can defend heel position easily, reduces finishing percentage dramatically, makes transitions to better positions difficult
-  - ✅ Correction: Keep hips mobile and constantly adjust angles, practice hip rotation drills, be prepared to move entire body around opponent's leg to maintain optimal attacking angle
+- ❌ **Panicking and spinning explosively away from the entanglement**
+  - Consequence: Rotating away against a secured heel grip feeds the exact finishing force of the heel hook and can cause catastrophic knee injury in fractions of a second
+  - ✅ Correction: Stay calm and systematic; if you must rotate, rotate in toward the opponent rather than away, which reduces heel hook leverage, and tap immediately to any knee rotation
 
-- ❌ **Losing chest connection to opponent's leg**
-  - Consequence: Creates space for opponent to escape, reduces control quality, makes it easier for them to defend submissions and extract their leg
-  - ✅ Correction: Maintain tight chest-to-leg connection throughout the position, treat opponent's leg like you would control an opponent's back - constant connection with no space
+- ❌ **Ignoring the opponent's heel grip while only fighting the leg**
+  - Consequence: Even a partial leg extraction fails if the heel grip remains, because the opponent can re-attach the entanglement or finish during your escape attempt
+  - ✅ Correction: Strip or prevent the heel grip with two-on-one hand fighting first or simultaneously with extraction - without the grip the opponent's entanglement is significantly weakened
 
-- ❌ **Attempting heel hooks before mastering straight ankle locks**
-  - Consequence: Dangerous for training partners due to lack of control and understanding, leads to injuries and poor technical development, skips fundamental learning progression
-  - ✅ Correction: Master straight ankle locks from Inside Ashi for minimum 6-12 months before attempting heel hooks, work with experienced coach, progress gradually with safety as priority
+- ❌ **Waiting passively for the opponent to advance instead of escaping early**
+  - Consequence: Allowing the opponent to thread to saddle or honey hole drops your escape percentage dramatically as control and finishing leverage increase
+  - ✅ Correction: Act during the earliest control gap, especially when the opponent transitions or their grip loosens, committing fully to extraction or a counter-entangle to 50-50 before they consolidate
 
-- ❌ **Ignoring opponent's free leg and allowing them to establish frames**
-  - Consequence: Opponent uses free leg to create distance, establish defensive frames, and potentially escape or counter with their own leg attacks
-  - ✅ Correction: Monitor and control opponent's free leg with hand fighting, use grips to prevent them from establishing strong frames, be aware of counter-entanglement threats
+- ❌ **Attempting to stand up while the knee line is still exposed**
+  - Consequence: Loading weight onto a compromised, exposed leg can worsen the position by improving the opponent's finishing angle or injuring your own knee
+  - ✅ Correction: Protect and hide the heel first, then base up with the free foot to change the angle - standing should follow heel safety, not precede it
 
 
 </section>
@@ -228,9 +206,9 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Available Transitions
 
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (40% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (28% of attempts)
 
-- **[[Heel Hook from Inside Ashi-Garami/Attacker|Heel Hook from Inside Ashi-Garami]]** (5% of attempts)
+- **[[Heel Hook from Inside Ashi-Garami/Attacker|Heel Hook from Inside Ashi-Garami]]** (18% of attempts)
 
 - **[[Toe Hold from Inside Ashi-Garami/Attacker|Toe Hold from Inside Ashi-Garami]]** (8% of attempts)
 
@@ -238,7 +216,7 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 
 - **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (8% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (2% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (1% of attempts)
 
 - **[[Transitions/Inside Ashi-Garami to Cross Ashi/Attacker|Inside Ashi-Garami to Cross Ashi]]** (4% of attempts)
 

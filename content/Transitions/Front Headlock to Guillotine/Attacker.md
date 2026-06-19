@@ -16,7 +16,7 @@ description: "How to execute Front Headlock to Guillotine in BJJ. Attacking pers
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Front Headlock to Guillotine in BJJ",
-  "description": "Step-by-step guide for executing Front Headlock to Guillotine from Turtle/Top.",
+  "description": "Step-by-step guide for executing Front Headlock to Guillotine from Front Headlock/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -178,7 +178,7 @@ This transition's effectiveness lies in its ability to capitalize on the opponen
 
 The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling and MMA, where collar controls are unavailable. It serves as both a submission threat and a gateway to other attacks within the front headlock system, including the darce choke, anaconda choke, and various back takes. Mastering this transition requires understanding proper head positioning, grip mechanics, and the ability to maintain control throughout the adjustment phase while preventing the opponent from establishing defensive frames or creating distance.
 
-**From Position**: [[Positions/Turtle]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 

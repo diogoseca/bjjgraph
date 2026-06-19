@@ -76,7 +76,7 @@ Strategically, the heel hook represents the finishing sequence of the modern leg
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Heel Hook]] | 55% |
+| Success | [[game-over]] | 55% |
 | Failure | [[Positions/Ashi Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 

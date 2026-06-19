@@ -16,7 +16,7 @@ description: "How to execute Inside Ashi-Garami to Honey Hole in BJJ. Attacking 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Inside Ashi-Garami to Honey Hole in BJJ",
-  "description": "Step-by-step guide for executing Inside Ashi-Garami to Honey Hole from Inside Ashi-Garami/Bottom.",
+  "description": "Step-by-step guide for executing Inside Ashi-Garami to Honey Hole from Inside Ashi-Garami/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -85,7 +85,7 @@ description: "How to execute Inside Ashi-Garami to Honey Hole in BJJ. Attacking 
       "name": "What position do you start this transition from and what must be established first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Inside Ashi-Garami/Bottom position. Before initiating, you must have secure heel control with C-grip or figure-four, inside leg positioned across opponent's hip preventing rotation, and outside leg hooked behind their knee. All control points must be solid before attempting to thread your leg through."
+        "text": "This technique starts from the Inside Ashi-Garami/Top position - the attacker controlling the leg entanglement. Before initiating, you must have secure heel control with C-grip or figure-four, inside leg positioned across opponent's hip preventing rotation, and outside leg hooked behind their knee. All control points must be solid before attempting to thread your leg through."
       }
     },
     {
@@ -184,7 +184,7 @@ Strategically, this transition should be attempted when opponent defends your in
 
 The timing window for this transition typically opens when opponent commits weight to defend one attack, creating the momentary looseness in their defensive posture that allows your leg to thread through. Masters of this transition recognize that it functions as part of an attack chain: threatening straight ankle lock forces defensive posture that opens Honey Hole entry, and vice versa. The position after successful transition places you in arguably the most dominant leg entanglement in grappling.
 
-**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 

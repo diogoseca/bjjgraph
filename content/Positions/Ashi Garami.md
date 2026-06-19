@@ -103,7 +103,7 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 | [[Backside 50-50]] | Medium to High | Medium | Medium | Medium | Back-facing orientation creates pressure asymmetry |
 | [[Cross Ashi-Garami]] | Medium | Medium | Medium | Medium | Crossed legs trade mobility for heel exposure |
 | [[Honey Hole]] | High | Medium | High | Medium | Inside leg triangle creates control asymmetry |
-| [[Inside Ashi-Garami]] | Medium | Medium | Medium | Medium | Inside leg across hip for superior heel control |
+| [[Inside Ashi-Garami]] | High | Medium | Medium | Medium | Inside leg across hip for superior heel control |
 | [[Outside Ashi-Garami]] | Medium | High | Medium | Medium | Outside leg angle enables direct heel hooks |
 | [[Saddle]] | High | Medium | High | Medium | Perpendicular entanglement submission dilemma |
 | [[Ushiro Ashi-Garami]] | High | Medium | Medium | Medium | Reverse entanglement with unique heel angles |
@@ -136,17 +136,17 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Available Transitions
 
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (65% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (58% of attempts)
 
-- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (5% of attempts)
+- **[[Transitions/Cross Ashi Transition/Attacker|Cross Ashi Transition]]** (4% of attempts)
 
 - **[[Heel Hook from Ashi Garami/Attacker|Heel Hook from Ashi Garami]]** (2% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (10% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (9% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (2% of attempts)
 
-- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (3% of attempts)
+- **[[Toe Hold from Ashi Garami/Attacker|Toe Hold from Ashi Garami]]** (2% of attempts)
 
 - **[[Transitions/Kneebar Setup/Attacker|Kneebar Setup]]** (2% of attempts)
 
@@ -165,6 +165,8 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 - **[[Aoki Lock from Ashi Garami/Attacker|Aoki Lock from Ashi Garami]]** (1% of attempts)
 
 - **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (1% of attempts)
+
+- **[[Transitions/Ashi Garami to Toe Hold Control/Attacker|Ashi Garami to Toe Hold Control]]** (11% of attempts)
 
 
 ### Common Mistakes

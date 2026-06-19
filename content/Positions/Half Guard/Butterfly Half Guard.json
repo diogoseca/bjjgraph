@@ -388,11 +388,6 @@
             "probability": 55
           },
           {
-            "technique": "Knee Tap",
-            "target": "Standing Position",
-            "probability": 50
-          },
-          {
             "technique": "Butterfly Guard to X-Guard",
             "target": "X-Guard",
             "probability": 60
@@ -559,7 +554,7 @@
     "transitions": [
       {
         "transition": "100% Sweep",
-        "attempt_probability": 33
+        "attempt_probability": 36
       },
       {
         "transition": "Old School Sweep",
@@ -567,7 +562,7 @@
       },
       {
         "transition": "Butterfly Sweep",
-        "attempt_probability": 6
+        "attempt_probability": 8
       },
       {
         "transition": "Deep Half Entry",
@@ -580,10 +575,6 @@
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": 6
-      },
-      {
-        "transition": "Knee Tap",
-        "attempt_probability": 5
       },
       {
         "transition": "Half Guard to Back Take",

@@ -257,9 +257,9 @@ The psychological dimension of this counter is significant. Opponents who have b
 
 <p class="section-subtitle">How might your opponent counter Reverse Heel Hook Counter?</p>
 
-- **Opponent accelerates their heel hook finish before you can establish counter position, forcing you to tap or accept injury** (Effectiveness: High) - Your Response: If opponent accelerates, abandon counter and prioritize heel defense. Resume systematic escape rather than racing to a losing exchange. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent accelerates their heel hook finish before you can establish counter position, forcing you to tap or accept injury** (Effectiveness: High) - Your Response: If opponent accelerates, abandon counter and prioritize heel defense. Resume systematic escape rather than racing to a losing exchange. → Leads to [[Transitions/Heel Hook]]
 - **Opponent withdraws attacking leg when sensing counter attempt, returning to neutral entanglement** (Effectiveness: Medium) - Your Response: Use their withdrawal momentum to continue your escape sequence or transition to single leg x-guard as they retract. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
-- **Opponent transitions to saddle or honey hole before you establish inside position, deepening control** (Effectiveness: High) - Your Response: Recognize saddle transition early and switch to turtle escape or granby roll rather than forcing failed counter. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent transitions to saddle or honey hole before you establish inside position, deepening control** (Effectiveness: High) - Your Response: Recognize saddle transition early and switch to turtle escape or granby roll rather than forcing failed counter. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent posts with free leg and creates distance, preventing your counter-entanglement entry** (Effectiveness: Medium) - Your Response: Use their posting motion to create space for your own leg extraction, converting to escape rather than counter. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 

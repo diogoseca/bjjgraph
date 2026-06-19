@@ -65,7 +65,7 @@ The extraction requires understanding the mechanical weaknesses of the figure-fo
 
 Timing is paramount in this technique. The extraction must be initiated before the bottom player can consolidate secondary controls such as lockdown legs or underhook positioning that compound the Kimura threat. Practitioners who recognize the Kimura grip establishment early and immediately begin the extraction process have significantly higher success rates than those who allow the grip to settle and strengthen. The technique integrates naturally with half guard passing sequences, as a successful extraction typically returns both players to a standard half guard configuration where the top player can resume their passing campaign.
 
-**From Position**: [[Positions/Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 **Success Rate**: 55%
 
 </section>

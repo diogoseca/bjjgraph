@@ -603,11 +603,11 @@
     "transitions": [
       {
         "transition": "Waiter Sweep",
-        "attempt_probability": 12
+        "attempt_probability": 22
       },
       {
         "transition": "Kiss of the Dragon",
-        "attempt_probability": 31
+        "attempt_probability": 14
       },
       {
         "transition": "Berimbolo Entry",
@@ -615,11 +615,11 @@
       },
       {
         "transition": "De La Riva to X-Guard Transition",
-        "attempt_probability": 9
+        "attempt_probability": 12
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 10
+        "attempt_probability": 14
       },
       {
         "transition": "Omoplata Sweep",

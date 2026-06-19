@@ -147,11 +147,9 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 - **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (4% of attempts)
 
-- **[[Transitions/Forward Roll/Attacker|Forward Roll]]** (7% of attempts)
-
 - **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (4% of attempts)
 
-- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (4% of attempts)
+- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (7% of attempts)
 
 - **[[Transitions/Escape from Truck/Attacker|Escape from Truck]]** (4% of attempts)
 
@@ -159,7 +157,7 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 - **[[Transitions/Leg Extraction from Truck/Attacker|Leg Extraction from Truck]]** (3% of attempts)
 
-- **[[Transitions/Roll to Guard from Truck/Attacker|Roll to Guard from Truck]]** (4% of attempts)
+- **[[Transitions/Roll to Guard from Truck/Attacker|Roll to Guard from Truck]]** (8% of attempts)
 
 
 ### Common Mistakes

@@ -65,7 +65,7 @@ The technique exploits a mechanical weakness in the body triangle: the attacker'
 
 This escape is particularly effective because turtle, while not an ideal position, offers significantly more mobility and escape options than remaining trapped in body triangle. From turtle, you can work toward guard recovery, technical standup, or granby roll sequences. The transition also temporarily removes the neck attack threat, giving you breathing room to reassess and continue your escape sequence.
 
-**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 **Success Rate**: 55%
 
 </section>

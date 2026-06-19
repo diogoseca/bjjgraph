@@ -133,31 +133,37 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 ### Available Transitions
 
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (10% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (8% of attempts)
 
-- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (20% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (17% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (11% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (9% of attempts)
 
-- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (8% of attempts)
+- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (7% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (11% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (9% of attempts)
 
-- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (6% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (5% of attempts)
 
-- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (5% of attempts)
+- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (4% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (5% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (4% of attempts)
 
 - **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (4% of attempts)
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (8% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (6% of attempts)
 
 - **[[Omoplata from De La Riva Guard/Attacker|Omoplata from De La Riva Guard]]** (4% of attempts)
 
-- **[[Transitions/Triangle Setup from De La Riva/Attacker|Triangle Setup from De La Riva]]** (4% of attempts)
+- **[[Transitions/Triangle Setup from De La Riva/Attacker|Triangle Setup from De La Riva]]** (3% of attempts)
 
-- **[[Triangle Choke from De La Riva/Attacker|Triangle Choke from De La Riva]]** (4% of attempts)
+- **[[Triangle Choke from De La Riva/Attacker|Triangle Choke from De La Riva]]** (3% of attempts)
+
+- **[[Transitions/De La Riva to Inverted Guard/Attacker|De La Riva to Inverted Guard]]** (5% of attempts)
+
+- **[[Transitions/De La Riva to Grasshopper Guard/Attacker|De La Riva to Grasshopper Guard]]** (6% of attempts)
+
+- **[[Transitions/De La Riva to Lapel Guard/Attacker|De La Riva to Lapel Guard]]** (6% of attempts)
 
 
 ### Common Mistakes

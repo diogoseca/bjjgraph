@@ -4,13 +4,13 @@
 
 ---
 title: "Aoki Lock from Aoki Lock Control Defender | BJJ Defense Guide | BJJ Graph"
-description: "Defend against the Aoki Lock finish from Aoki Lock control. Recognition cues, escape techniques, and survival strategies for this dangerous shoulder lock attack."
+description: "Defend against the Aoki Lock compression from Aoki Lock control. Recognition cues, escape techniques, and survival strategies for this dangerous leg lock."
 ---
 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Aoki Lock from Aoki Lock Control targets the Shoulder joint (glenohumeral complex and rotator cuff). Tap early and often. Your safety is more important than any training round.
+> **SAFETY**: Aoki Lock from Aoki Lock Control targets the Shin and ankle compression (forced plantar flexion crushing the shin, calf, and Achilles). Tap early and often. Your safety is more important than any training round.
 
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
@@ -22,26 +22,26 @@ description: "Defend against the Aoki Lock finish from Aoki Lock control. Recogn
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Rolling escape toward trapped arm direction to relieve shoulder torque and recover guard",
-      "text": "Early in the finish attempt before pressure becomes dangerous, when leg entanglement has any looseness If successful: Relieves shoulder pressure and creates path to closed guard recovery or scramble position",
+      "name": "Extract the trapped foot before the figure-four closes by dorsiflexing and pulling the knee to your chest with internal hip rotation",
+      "text": "As soon as you recognize the figure-four threading, before the closed loop and compression are established — this is the highest-percentage window If successful: Returns you to neutral leg-entanglement control where you can work standard leg-lock defense or attempt to extract fully",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Attack opponent's posted leg base with free hand to destabilize their finishing platform",
-      "text": "When opponent adjusts their base position creating a moment of instability in their posted leg If successful: Disrupts opponent's ability to generate hip pressure, creating window for arm extraction or position escape",
+      "name": "Sit up aggressively and drive forward to collapse the attacker's hip extension and break the figure-four structure",
+      "text": "When the figure-four is partially locked but full compression has not yet engaged — forward pressure disrupts the hip mechanics that drive the lock If successful: Breaks the figure-four configuration and lets you re-establish position or begin a full escape",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Hip escape to create distance and change the pressure angle on shoulder joint",
-      "text": "When leg entanglement loosens during opponent's adjustment or after partially successful escape attempt If successful: Creates enough space to extract trapped arm and recover to closed guard or open guard position",
+      "name": "Roll toward the trapped leg following the entanglement to create a scramble and recover guard",
+      "text": "Early in the finish attempt before compression becomes dangerous, when the figure-four has any looseness If successful: Relieves compression and creates a path to closed guard recovery or scramble position",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Tap immediately when shoulder pressure reaches dangerous threshold",
-      "text": "When you feel sharp pain, cannot prevent arm extension, or shoulder rotation reaches uncomfortable levels with no escape path available If successful: Prevents serious shoulder injury including rotator cuff tears, labrum damage, and glenohumeral dislocation",
+      "name": "Tap immediately when compression reaches a dangerous threshold",
+      "text": "When you feel sharp pain in the ankle, Achilles, or shin, cannot dorsiflex or extract the foot, or compression is increasing with no escape path available If successful: Prevents serious lower-leg injury including Achilles rupture, ankle ligament damage, and calf tears",
       "position": 4
     }
   ],
@@ -61,7 +61,7 @@ description: "Defend against the Aoki Lock finish from Aoki Lock control. Recogn
       "name": "How do you recognize the Aoki Lock finish is being initiated from Aoki Lock control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Key recognition cues include opponent's hip drive increasing forward and downward into your shoulder, their leg entanglement tightening around your upper arm, your elbow being forced further from your body, and their hands securing control on your far hip to prevent rotation. The transition from control to finish is marked by progressive pressure increase rather than a sudden change."
+        "text": "Key recognition cues include the opponent weaving their legs into a figure-four around your lower leg, increasing squeezing compression on your shin and calf rather than a twist on your knee, your foot being guided into plantar flexion and seated deeper into a pocket, and the opponent extending and elevating their hips while keeping the entanglement tight. The transition from control to finish is marked by progressive compression increase rather than a sudden change."
       }
     },
     {
@@ -69,7 +69,7 @@ description: "Defend against the Aoki Lock finish from Aoki Lock control. Recogn
       "name": "When should you tap to the Aoki Lock finish rather than continuing to defend?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tap immediately when you feel sharp pain in the shoulder joint, when you cannot prevent your arm from full extension through the leg entanglement, when your shoulder rotation reaches uncomfortable levels, or when opponent's pressure is increasing and you have no viable escape path. Shoulder injuries from this position include rotator cuff tears and dislocation — neither is worth continuing defense in training or competition."
+        "text": "Tap immediately when you feel sharp pain in the ankle, Achilles, or shin, when you can no longer dorsiflex or extract your foot, when compression reaches uncomfortable levels, or when the attacker's pressure is increasing and you have no viable escape path. Aoki Lock injuries include Achilles rupture, ankle ligament damage, and calf tears — none is worth continuing defense in training or competition, and damage accumulates faster than pain signals register."
       }
     },
     {
@@ -77,23 +77,23 @@ description: "Defend against the Aoki Lock finish from Aoki Lock control. Recogn
       "name": "What defensive options are available against the Aoki Lock finish from Aoki Lock control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Primary options are rolling toward your trapped arm to relieve shoulder torque and recover guard, attacking opponent's posted leg base with your free hand to destabilize their finishing platform, and hip escaping toward the trapped arm side when leg entanglement loosens. The critical principle is addressing the leg control before attempting arm extraction, and always moving toward (never away from) the trapped arm direction."
+        "text": "Primary options are extracting the foot through dorsiflexion and internal hip rotation before the figure-four locks, sitting up and posturing forward to collapse the attacker's hip extension, and rolling toward the trapped leg to create a scramble when the loop loosens. The critical principle is addressing the figure-four and foot trap before anything else, and using circular hip movement rather than pulling the leg straight back, which only tightens the lock."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is rolling away from your trapped arm dangerous when defending the Aoki Lock finish?",
+      "name": "Why is pulling your leg straight back dangerous when defending the Aoki Lock finish?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rolling away from the trapped arm compounds the external rotation force on your shoulder rather than relieving it. Your opponent's leg entanglement acts as a fulcrum, and rolling away increases the lever arm exponentially. This can cause immediate shoulder dislocation or rotator cuff tear even without your opponent increasing their pressure. Always roll toward the trapped arm to reduce torque."
+        "text": "Pulling the trapped leg straight back tightens the figure-four configuration and drives your foot deeper into the compression pocket rather than relieving it. The closed loop acts as a one-way ratchet, so linear pulling seats the foot into deeper plantar flexion and accelerates the crush on the shin, calf, and Achilles. Always use circular internal hip rotation and a knee-to-chest curl to collapse the loop instead."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent adjusts their posted leg position during the finish — how do you capitalize?",
+      "name": "Your opponent adjusts their hip position during the finish — how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Attack their base immediately with your free hand before they re-establish stable posting. Time your arm extraction attempt to coincide with their adjustment since leg entanglement often loosens during repositioning. Use their momentary instability to create hip movement toward your trapped arm side. This is typically your best window for a successful escape attempt."
+        "text": "Attack the moment of instability by sitting up and driving forward to collapse their hip extension before they re-establish it. Time your foot-extraction attempt to coincide with the adjustment, since the figure-four often loosens during repositioning. Use their momentary instability to create internal hip rotation and pull the knee to your chest. This is typically your best window for a successful escape attempt."
       }
     },
     {
@@ -101,7 +101,7 @@ description: "Defend against the Aoki Lock finish from Aoki Lock control. Recogn
       "name": "How should you manage your energy when defending the Aoki Lock finish over an extended period?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Avoid fighting the submission with constant maximum tension, which exhausts you within seconds against leg-based pressure. Focus on efficient movement patterns and time your escape attempts to coincide with opponent's adjustments or pressure changes rather than fighting continuously. Accept that some pressure is inevitable and conserve energy for explosive escape attempts at the specific moments when their control loosens."
+        "text": "Avoid fighting the compression with constant maximum tension, which exhausts you within seconds against leg-based squeezing. Focus on efficient movement patterns and time your escape attempts to coincide with the attacker's adjustments or pressure changes rather than fighting continuously. Maintain dorsiflexion to slow the lock, accept that some compression is inevitable, and conserve energy for explosive extraction attempts at the specific moments when the figure-four loosens."
       }
     }
   ]
@@ -114,7 +114,7 @@ description: "Defend against the Aoki Lock finish from Aoki Lock control. Recogn
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Aoki Lock from Aoki Lock Control Defender",
-  "description": "Defend against the Aoki Lock finish from Aoki Lock control. Recognition cues, escape techniques, and survival strategies for this dangerous shoulder lock attack.",
+  "description": "Defend against the Aoki Lock compression from Aoki Lock control. Recognition cues, escape techniques, and survival strategies for this dangerous leg lock.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -162,7 +162,7 @@ description: "Defend against the Aoki Lock finish from Aoki Lock control. Recogn
 
 <section id="overview" class="content-section">
 
-Defending against the Aoki Lock finish from Aoki Lock control is one of the most urgent defensive scenarios in no-gi grappling. Your shoulder is under progressive rotational pressure from your opponent's hip drive, with your arm isolated by their leg entanglement. Traditional shoulder lock defenses are limited because the primary control mechanism is legs rather than grips, making grip breaks ineffective. Your survival depends on addressing the leg entanglement before it tightens, rolling toward your trapped arm to reduce shoulder torque, and attacking your opponent's posted leg base to destabilize their finishing platform. Recognizing your tap threshold early is critical because the Aoki Lock attacks the glenohumeral joint and rotator cuff, where injuries are severe, require surgery, and can be career-altering. No defensive position is worth risking a shoulder dislocation.
+Defending against the Aoki Lock finish from Aoki Lock control is one of the most urgent defensive scenarios in no-gi grappling. Your foot is trapped in a figure-four under progressive compression, with the attacker squeezing the shin and calf while driving extreme plantar flexion. Standard heel-hook defenses are limited because the Aoki Lock attacks through compression and plantar flexion rather than isolated tibial rotation, so preventing knee rotation does not stop the crush. Your survival depends on recognizing the figure-four threading early, fighting to keep the foot in dorsiflexion and extract it before the loop closes, and disrupting the attacker's hip extension with aggressive posture before the compression engages. Recognizing your tap threshold early is critical because the Aoki Lock loads the Achilles, ankle ligaments, and calf simultaneously, where damage accumulates faster than pain signals register. No defensive position is worth risking an Achilles rupture.
 
 **Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Top)
 
@@ -175,11 +175,11 @@ Defending against the Aoki Lock finish from Aoki Lock control is one of the most
 
 <p class="section-subtitle">How do you know when someone is attempting Aoki Lock from Aoki Lock Control?</p>
 
-- Opponent's legs wrapping around your arm and shoulder with their thigh settling directly over your shoulder joint
-- Increasing rotational pressure on your shoulder from opponent's hip drive pushing forward and downward
-- Your trapped arm being forced into extension with elbow pointing away from your body through leg pressure
-- Opponent's hands controlling your far hip preventing you from rotating to relieve shoulder pressure
-- Loss of ability to bend your trapped elbow back toward your torso indicating the entanglement is fully secured
+- Opponent weaving their legs into a figure-four around your lower leg and trapping your foot between their legs
+- Increasing squeezing compression on your shin and calf rather than a twisting force on your knee
+- Your foot being guided into plantar flexion (toes pointing) as it is seated deeper into the compression pocket
+- Opponent extending and elevating their hips away from you while keeping the leg entanglement tight
+- Loss of ability to dorsiflex or extract your foot indicating the figure-four is fully secured
 
 
 </section>
@@ -190,12 +190,12 @@ Defending against the Aoki Lock finish from Aoki Lock control is one of the most
 
 <p class="section-subtitle">What are the key principles for defending Aoki Lock from Aoki Lock Control?</p>
 
-- Keep shoulder internally rotated to resist the external rotation pressure generated by opponent's hip drive
-- Address the leg entanglement first before attempting arm extraction — pulling your arm without freeing the legs increases shoulder torque
-- Roll toward your trapped arm direction following the path of least resistance rather than fighting against the pressure angle
-- Use your free hand to attack opponent's posted leg base or control their hip to create escape angles
-- Recognize your tap threshold early — shoulder injuries from this position include rotator cuff tears, labrum damage, and dislocation
-- Create continuous movement toward escape rather than holding static defensive positions that allow opponent to perfect their pressure
+- Keep the foot in dorsiflexion (toes toward shin) to resist the plantar flexion the attacker needs to finish
+- Address the figure-four and foot trap first — pulling your leg straight back without freeing the loop drives the foot deeper into compression
+- Extract the foot before the figure-four closes, using internal hip rotation and a knee-to-chest pull while the loop still has slack
+- Sit up and posture forward to collapse the attacker's hip extension and break the compression structure
+- Recognize your tap threshold early — Aoki Lock injuries include Achilles rupture, ankle ligament damage, and calf tears that accumulate before pain registers
+- Create continuous movement toward escape rather than holding static positions that let the attacker perfect the squeeze
 
 
 </section>
@@ -206,32 +206,32 @@ Defending against the Aoki Lock finish from Aoki Lock control is one of the most
 
 <p class="section-subtitle">What can you do to defend against Aoki Lock from Aoki Lock Control?</p>
 
-### 1. Rolling escape toward trapped arm direction to relieve shoulder torque and recover guard
+### 1. Extract the trapped foot before the figure-four closes by dorsiflexing and pulling the knee to your chest with internal hip rotation
 
-- **When to use**: Early in the finish attempt before pressure becomes dangerous, when leg entanglement has any looseness
+- **When to use**: As soon as you recognize the figure-four threading, before the closed loop and compression are established — this is the highest-percentage window
 - **Targets**: [[Positions/Aoki Lock Control]]
-- **If successful**: Relieves shoulder pressure and creates path to closed guard recovery or scramble position
-- **Risk**: If opponent follows the roll effectively, they may convert to back control rather than losing position
+- **If successful**: Returns you to neutral leg-entanglement control where you can work standard leg-lock defense or attempt to extract fully
+- **Risk**: If extraction fails midway, you may expose your heel to an inside heel hook as a backup threat
 
-### 2. Attack opponent's posted leg base with free hand to destabilize their finishing platform
+### 2. Sit up aggressively and drive forward to collapse the attacker's hip extension and break the figure-four structure
 
-- **When to use**: When opponent adjusts their base position creating a moment of instability in their posted leg
+- **When to use**: When the figure-four is partially locked but full compression has not yet engaged — forward pressure disrupts the hip mechanics that drive the lock
 - **Targets**: [[Positions/Aoki Lock Control]]
-- **If successful**: Disrupts opponent's ability to generate hip pressure, creating window for arm extraction or position escape
-- **Risk**: Committing your free hand to base attack means you cannot use it for shoulder protection
+- **If successful**: Breaks the figure-four configuration and lets you re-establish position or begin a full escape
+- **Risk**: If the attacker maintains the lock during your sit-up, closing distance can drive your own foot deeper into compression
 
-### 3. Hip escape to create distance and change the pressure angle on shoulder joint
+### 3. Roll toward the trapped leg following the entanglement to create a scramble and recover guard
 
-- **When to use**: When leg entanglement loosens during opponent's adjustment or after partially successful escape attempt
+- **When to use**: Early in the finish attempt before compression becomes dangerous, when the figure-four has any looseness
 - **Targets**: [[Positions/Closed Guard]]
-- **If successful**: Creates enough space to extract trapped arm and recover to closed guard or open guard position
-- **Risk**: Hip movement may tighten the shoulder lock if done in wrong direction — always move toward trapped arm side
+- **If successful**: Relieves compression and creates a path to closed guard recovery or scramble position
+- **Risk**: If the attacker follows the roll effectively, the rotation can seat the foot deeper and tighten the compression
 
-### 4. Tap immediately when shoulder pressure reaches dangerous threshold
+### 4. Tap immediately when compression reaches a dangerous threshold
 
-- **When to use**: When you feel sharp pain, cannot prevent arm extension, or shoulder rotation reaches uncomfortable levels with no escape path available
+- **When to use**: When you feel sharp pain in the ankle, Achilles, or shin, cannot dorsiflex or extract the foot, or compression is increasing with no escape path available
 - **Targets**: [[game-over]]
-- **If successful**: Prevents serious shoulder injury including rotator cuff tears, labrum damage, and glenohumeral dislocation
+- **If successful**: Prevents serious lower-leg injury including Achilles rupture, ankle ligament damage, and calf tears
 - **Risk**: None — tapping is always the correct decision when injury is imminent
 
 
@@ -244,9 +244,9 @@ Defending against the Aoki Lock finish from Aoki Lock control is one of the most
 
 <p class="section-subtitle">How do you escape Aoki Lock from Aoki Lock Control?</p>
 
-- Roll toward trapped arm to relieve shoulder torque, using opponent's forward pressure momentum to assist guard recovery
-- Attack opponent's posted leg base with free hand to destabilize their platform, then extract arm through loosened leg entanglement
-- Hip escape toward trapped arm side when leg entanglement loosens during opponent's adjustments to recover open guard
+- Extract the foot through dorsiflexion, internal hip rotation, and a knee-to-chest pull before the figure-four locks, returning to neutral entanglement control
+- Sit up and posture forward to collapse the attacker's hip extension, breaking the figure-four structure before compression engages
+- Roll toward the trapped leg following the entanglement to create a scramble and recover closed guard when the loop loosens
 
 
 </section>
@@ -259,11 +259,11 @@ Defending against the Aoki Lock finish from Aoki Lock control is one of the most
 
 ### → [[Positions/Closed Guard]]
 
-Time your rolling escape toward the trapped arm direction to coincide with opponent's pressure adjustment. Use their forward momentum to assist your roll, extracting your arm as the leg entanglement loosens during the positional change, then immediately close your guard to prevent re-attack.
+Time your roll toward the trapped leg to coincide with the attacker's pressure adjustment. Use their forward pressure to assist the roll, extracting your foot as the figure-four loosens during the positional change, then immediately close your guard to prevent re-attack.
 
 ### → [[Positions/Aoki Lock Control]]
 
-Disrupt opponent's base by attacking their posted leg while simultaneously working arm extraction. If successful, you return to the Aoki Lock position without active finishing pressure, giving you time to execute a more complete escape sequence.
+Disrupt the attacker's hip extension by sitting up and posturing forward while working foot extraction. If successful, you collapse the figure-four and return to the neutral entanglement without active compression, giving you time to execute a more complete escape sequence.
 
 
 
@@ -275,25 +275,25 @@ Disrupt opponent's base by attacking their posted leg while simultaneously worki
 
 <p class="section-subtitle">What mistakes should you avoid when defending Aoki Lock from Aoki Lock Control?</p>
 
-### 1. Rolling away from trapped arm direction against the rotational pressure
+### 1. Pulling the trapped leg straight back against the figure-four configuration
 
-- **Consequence**: Dramatically increases shoulder torque, often leading to immediate submission or serious shoulder injury including dislocation
-- **Correction**: Always roll toward your trapped arm, following the path of least resistance and using opponent's forward control momentum to assist your escape
+- **Consequence**: Straight pulling tightens the loop and drives the foot deeper into the compression pocket, accelerating the submission and increasing injury risk to the ankle and shin
+- **Correction**: Use circular internal hip rotation and a knee-to-chest curl to collapse the figure-four rather than linear pulling, addressing the closed-loop mechanics directly
 
-### 2. Attempting to muscle the trapped arm free without first addressing the leg entanglement
+### 2. Attempting standard heel-hook defense (boot defense, knee rotation) against the compression mechanics
 
-- **Consequence**: Exhausts energy rapidly while increasing shoulder stress — the legs are stronger than your arm and will win the tug-of-war every time
-- **Correction**: Address leg control first by creating hip angles or attacking opponent's base before attempting arm extraction through the loosened entanglement
+- **Consequence**: Boot defense and knee rotation address rotational force, not compression and plantar flexion — they waste the critical defense window while the figure-four is being secured
+- **Correction**: Focus on dorsiflexion, foot extraction, and collapsing the attacker's hip extension rather than rotation-based heel-hook defenses
 
-### 3. Remaining static and defensive without active escape attempts hoping opponent releases
+### 3. Remaining static and defensive without active escape attempts hoping the attacker releases
 
-- **Consequence**: Allows opponent time to perfect their pressure angle, tighten leg entanglement, and finish the submission at their pace
+- **Consequence**: Allows the attacker time to seat the foot, perfect the compression angle, and finish at their pace
 - **Correction**: Move immediately upon recognizing the position — create continuous movement toward escape. Static defense is losing defense against this submission.
 
-### 4. Defending beyond safe shoulder range of motion to avoid tapping
+### 4. Defending beyond safe ankle and Achilles range to avoid tapping
 
-- **Consequence**: Serious shoulder injury including rotator cuff tears requiring surgery, labrum damage, or complete shoulder dislocation with 3-6 month recovery
-- **Correction**: Tap early when shoulder pressure reaches your discomfort threshold. No training round or competition match is worth a shoulder reconstruction.
+- **Consequence**: Serious lower-leg injury including Achilles rupture, ankle ligament damage, or calf tear with 6-16 week recovery
+- **Correction**: Tap early when compression reaches your discomfort threshold. The multi-structure attack means there is no safe threshold to fight through — no round or match is worth an Achilles reconstruction.
 
 
 
@@ -306,16 +306,16 @@ Disrupt opponent's base by attacking their posted leg while simultaneously worki
 <p class="section-subtitle">How do you train defense against Aoki Lock from Aoki Lock Control?</p>
 
 **Phase 1: Recognition and Safety** - Identifying the finish attempt and developing tap awareness
-Partner establishes Aoki Lock and applies very slow progressive pressure at 30% intensity. Practice recognizing the transition from control to active finish, identifying your personal shoulder safety threshold, and tapping promptly with clear signals. Build confidence in early tap recognition.
+Partner establishes the Aoki Lock and applies very slow progressive compression at 30% intensity. Practice recognizing the transition from control to active finish, identifying your personal ankle and Achilles safety threshold, and tapping promptly with clear signals. Build confidence in early tap recognition.
 
-**Phase 2: Escape Mechanics** - Drilling individual escape techniques with cooperative partner
-Practice each escape path individually: rolling toward trapped arm, base attacks on posted leg, and hip escape when entanglement loosens. Partner maintains position but allows controlled movement. Focus on correct escape direction and movement patterns rather than speed or power.
+**Phase 2: Escape Mechanics** - Drilling individual escape techniques with a cooperative partner
+Practice each escape path individually: foot extraction with dorsiflexion and internal hip rotation, sit-up to collapse the hip extension, and rolling toward the trapped leg when the figure-four loosens. Partner maintains position but allows controlled movement. Focus on correct escape direction and circular movement patterns rather than speed or power.
 
 **Phase 3: Defensive Flow** - Chaining defensive options against increasing resistance
-Partner provides 50-70% resistance while you chain escape attempts together. When one escape is blocked, flow immediately to the next option. Develop the habit of continuous defensive movement rather than committing entirely to a single escape attempt.
+Partner provides 50-70% resistance while you chain escape attempts together. When one escape is blocked, flow immediately to the next option. Develop the habit of continuous defensive movement rather than committing entirely to a single escape attempt, while maintaining dorsiflexion throughout.
 
-**Phase 4: Live Defense** - Full resistance situational sparring from Aoki Lock bottom
-Start in Aoki Lock bottom position with partner at full resistance. Practice reading their finishing attempts in real time, selecting appropriate defensive responses, and executing escapes under pressure. Two-minute rounds with position reset and emphasis on surviving without injury.
+**Phase 4: Live Defense** - Full-resistance situational sparring from Aoki Lock bottom
+Start in Aoki Lock bottom position with the partner at full resistance. Practice reading their finishing attempts in real time, selecting appropriate defensive responses, and executing escapes under pressure. Two-minute rounds with position reset and emphasis on surviving without injury.
 
 
 

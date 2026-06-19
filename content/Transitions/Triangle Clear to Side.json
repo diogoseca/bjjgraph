@@ -11,7 +11,7 @@
     "side-control"
   ],
   "summary": "Triangle Clear to Side is a defensive escape from body triangle back control in which the trapped player attacks the figure-four lock at the ankle, then rotates the hips laterally to extract and establish side control.",
-  "from_position": "Body Triangle/Top",
+  "from_position": "Body Triangle/Bottom",
   "outcomes": [
     {
       "to": "Side Control/Top",
@@ -19,7 +19,7 @@
       "result": "success"
     },
     {
-      "to": "Body Triangle/Top",
+      "to": "Body Triangle/Bottom",
       "probability": 30,
       "result": "failure"
     },
@@ -134,7 +134,7 @@
         "counter": "Opponent re-locks the triangle during your clearing attempt by pulling their ankle back behind the knee before you can complete the extraction",
         "effectiveness": "High",
         "your_response": "Maintain your frame between your body and their legs after each clearing attempt. Keep your elbow wedged in the space you created so the triangle cannot fully re-lock. Repeat the bridge-and-clear sequence with the frame already in place to prevent full re-establishment.",
-        "targets_outcome": "Body Triangle/Top"
+        "targets_outcome": "Body Triangle/Bottom"
       },
       {
         "counter": "Opponent attacks rear naked choke aggressively when they feel you redirecting a hand from neck defense to attack the triangle lock",
@@ -146,7 +146,7 @@
         "counter": "Opponent shifts their hips and adjusts the triangle angle to maintain pressure as you turn toward the triangle side, following your rotation",
         "effectiveness": "Medium",
         "your_response": "Accelerate your rotation and combine it with a strong shrimp away from their hips. Their adjustment requires them to loosen chest-to-back connection momentarily, creating a window to extract. Use the momentum of their adjustment to drive your hip escape further than they can follow.",
-        "targets_outcome": "Body Triangle/Top"
+        "targets_outcome": "Body Triangle/Bottom"
       },
       {
         "counter": "Opponent transitions to hooks or rear triangle when they feel the body triangle being compromised to maintain back control",
@@ -276,7 +276,7 @@
       {
         "action": "Re-lock the triangle by pulling your ankle deeper behind your knee the moment you feel any loosening, using your free hand to assist repositioning the foot if necessary",
         "when_to_use": "Immediately when you feel the opponent's hand contact your ankle or when the figure-four begins to loosen during their bridge, before they can insert a frame to block re-locking",
-        "targets_outcome": "Body Triangle/Top",
+        "targets_outcome": "Body Triangle/Bottom",
         "if_successful": "Triangle is fully re-established with opponent having wasted energy on the failed clearing attempt, increasing fatigue and breathing difficulty while resetting their escape progress to zero",
         "risk": "If you reach down to assist your ankle repositioning with your hand, you momentarily reduce upper body control, potentially allowing them to create distance or improve their turning angle"
       },
@@ -290,7 +290,7 @@
       {
         "action": "Shift your hips and adjust the triangle angle to follow their rotation, maintaining your position behind them as they attempt to turn toward the triangle side",
         "when_to_use": "When opponent begins rotating their torso and hips toward the triangle side after partially loosening the lock, before they can complete the full lateral escape to side-facing position",
-        "targets_outcome": "Body Triangle/Top",
+        "targets_outcome": "Body Triangle/Bottom",
         "if_successful": "You remain behind the opponent with the triangle still engaged, denying them the side-facing angle they need to complete the escape and forcing them to restart the clearing sequence from scratch",
         "risk": "Following their rotation requires you to loosen chest-to-back connection momentarily, and if your timing is off they can accelerate through the gap to complete the escape"
       },
@@ -304,7 +304,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Body Triangle/Top",
+        "outcome": "Body Triangle/Bottom",
         "how": "Re-lock the triangle immediately when you feel loosening by pulling your ankle deeper behind your knee and tightening the figure-four. Use your free hand to assist foot repositioning if needed. Increase squeeze pressure after re-locking to punish the failed escape attempt and accelerate their fatigue. Combine with aggressive upper body control to reduce future clearing opportunities."
       },
       {

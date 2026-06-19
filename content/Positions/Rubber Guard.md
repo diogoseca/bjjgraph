@@ -133,25 +133,29 @@ Emerging from Eddie Bravo's 10th Planet Jiu-Jitsu, the Rubber Guard reimagined w
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (40% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (34% of attempts)
 
-- **[[Omoplata from Rubber Guard/Attacker|Omoplata from Rubber Guard]]** (15% of attempts)
+- **[[Omoplata from Rubber Guard/Attacker|Omoplata from Rubber Guard]]** (13% of attempts)
 
-- **[[Transitions/Mission Control Entry from Rubber Guard/Attacker|Mission Control Entry from Rubber Guard]]** (12% of attempts)
+- **[[Transitions/Mission Control Entry from Rubber Guard/Attacker|Mission Control Entry from Rubber Guard]]** (10% of attempts)
 
-- **[[Transitions/Rubber Guard to Closed Guard/Attacker|Rubber Guard to Closed Guard]]** (7% of attempts)
+- **[[Transitions/Rubber Guard to Closed Guard/Attacker|Rubber Guard to Closed Guard]]** (6% of attempts)
 
-- **[[Transitions/New York Entry from Rubber Guard/Attacker|New York Entry from Rubber Guard]]** (5% of attempts)
+- **[[Transitions/New York Entry from Rubber Guard/Attacker|New York Entry from Rubber Guard]]** (4% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (5% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (4% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (5% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (4% of attempts)
 
 - **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (4% of attempts)
 
 - **[[Transitions/Rubber Guard Sweep/Attacker|Rubber Guard Sweep]]** (4% of attempts)
 
 - **[[Transitions/Crackhead Control Entry/Attacker|Crackhead Control Entry]]** (3% of attempts)
+
+- **[[Transitions/Meathook Entry from Rubber Guard/Attacker|Meathook Entry from Rubber Guard]]** (10% of attempts)
+
+- **[[Transitions/New York Control Entry from Rubber Guard/Attacker|New York Control Entry from Rubber Guard]]** (4% of attempts)
 
 
 ### Common Mistakes

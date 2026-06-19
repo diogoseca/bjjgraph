@@ -435,8 +435,8 @@
             "probability": 55
           },
           {
-            "technique": "Chair Sit to Back",
-            "target": "Crab Ride",
+            "technique": "Rolling Back Take",
+            "target": "Back Control",
             "probability": 50
           }
         ]
@@ -586,11 +586,7 @@
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Chair Sit to Back",
-        "attempt_probability": 5
+        "attempt_probability": 10
       },
       {
         "transition": "Granby Roll to Guard",
@@ -606,7 +602,7 @@
       },
       {
         "transition": "Turtle to Guard",
-        "attempt_probability": 7
+        "attempt_probability": 9
       },
       {
         "transition": "Counter Roll from Matrix",

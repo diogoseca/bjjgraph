@@ -21,31 +21,31 @@ description: "Master Butterfly Guard Bottom in BJJ. Dynamic open guard with expl
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 36% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elevator Sweep",
-      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Elevator Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke from Butterfly Guard",
-      "text": "From this position, attempt Guillotine Choke from Butterfly Guard. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke from Butterfly Guard. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {

@@ -210,11 +210,11 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 
 - **[[Anaconda Choke from Anaconda Control/Attacker|Anaconda Choke from Anaconda Control]]** (50% of attempts)
 
-- **[[Transitions/Anaconda Control to Dead Orchard Control/Attacker|Anaconda Control to Dead Orchard Control]]** (20% of attempts)
+- **[[Transitions/Switch to Darce Configuration/Attacker|Switch to Darce Configuration]]** (25% of attempts)
 
-- **[[Transitions/Switch to Darce Configuration/Attacker|Switch to Darce Configuration]]** (15% of attempts)
+- **[[Transitions/Anaconda to Side Control/Attacker|Anaconda to Side Control]]** (15% of attempts)
 
-- **[[Transitions/Anaconda to Side Control/Attacker|Anaconda to Side Control]]** (10% of attempts)
+- **[[Transitions/Anaconda Control to Dead Orchard Control/Attacker|Anaconda Control to Dead Orchard Control]]** (5% of attempts)
 
 - **[[Transitions/Back Take from Anaconda/Attacker|Back Take from Anaconda]]** (5% of attempts)
 

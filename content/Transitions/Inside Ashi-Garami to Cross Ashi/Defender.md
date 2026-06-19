@@ -158,7 +158,7 @@ The most dangerous aspect of this transition from the defender's perspective is 
 
 Successful defense relies on three pillars: early recognition of the transition attempt, aggressive exploitation of the control gap when the outside leg releases, and disciplined leg retraction mechanics that protect your heel throughout the escape. Advanced defenders also develop the ability to convert defensive movement into counter-entanglement opportunities, turning the attacker's transitional vulnerability into your own leg attack entries.
 
-**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 

@@ -59,7 +59,7 @@ description: "Attack the Kimura from High Mount with precise figure-four grip me
     {
       "@type": "HowToStep",
       "name": "Complete the finish with structural pressure",
-      "text": "Continue the controlled rotation until the opponent taps or you reach the natural endpoint of shoulder external rotation. Maintain chest pressure on the defender's upper body throughout the entire finishing sequence to prevent them from rolling toward you to relieve rotational pressure on the shoulder. The finishing force comes from your body structure and weight distribution, not from muscular effort in your arms.",
+      "text": "Continue the controlled rotation until the opponent taps or you reach the natural endpoint of shoulder internal rotation. Maintain chest pressure on the defender's upper body throughout the entire finishing sequence to prevent them from rolling toward you to relieve rotational pressure on the shoulder. The finishing force comes from your body structure and weight distribution, not from muscular effort in your arms.",
       "position": 7
     }
   ],
@@ -79,7 +79,7 @@ description: "Attack the Kimura from High Mount with precise figure-four grip me
       "name": "What anatomical structures does the Kimura from High Mount primarily attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Kimura targets the shoulder joint through forced external rotation, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule ligaments, and the glenoid labrum. The figure-four grip creates a lever that rotates the humerus past its natural range of motion within the glenohumeral socket, with the elbow serving as the fulcrum point. Secondary stress occurs on the bicep tendon and the acromioclavicular joint."
+        "text": "The Kimura targets the shoulder joint through forced internal rotation, driving the bent forearm and wrist toward the lower back, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule ligaments, and the glenoid labrum. The figure-four grip creates a lever that rotates the humerus past its natural range of motion within the glenohumeral socket, with the elbow serving as the fulcrum point. Secondary stress occurs on the bicep tendon and the acromioclavicular joint."
       }
     },
     {
@@ -231,7 +231,7 @@ Attacking the Kimura from High Mount requires securing the figure-four grip on t
 4. **Pin the elbow to the mat as the fulcrum**: Drive the defender's elbow toward the mat beside their head using steady downward pressure through your figure-four grip. This step establishes the critical fulcrum point for the shoulder rotation. Their elbow must be on or near the mat before you begin rotating, otherwise the submission lacks the mechanical advantage needed to finish against a resisting opponent who can still move their arm through space. (Timing: 1-2 seconds)
 5. **Adjust hip position for optimal leverage angle**: Shift your hips slightly toward the trapped arm side, angling your body to maximize rotational leverage while keeping your weight on the defender's chest. This subtle angle change transforms the finish from a muscular pulling motion into a structural rotation where your entire body weight and positioning drive the submission rather than just your arms pulling against the defender's resistance. (Timing: 1 second)
 6. **Apply controlled rotational pressure toward the mat**: Begin rotating the defender's wrist toward the mat behind their back using a smooth, progressive arc. The rotation should move their hand in a paintbrush motion toward their hip while their elbow remains pinned to the mat as the fulcrum. Increase pressure gradually in training, allowing your partner time to recognize the submission and tap before the shoulder joint reaches its structural limit. (Timing: 2-4 seconds)
-7. **Complete the finish with structural pressure**: Continue the controlled rotation until the opponent taps or you reach the natural endpoint of shoulder external rotation. Maintain chest pressure on the defender's upper body throughout the entire finishing sequence to prevent them from rolling toward you to relieve rotational pressure on the shoulder. The finishing force comes from your body structure and weight distribution, not from muscular effort in your arms. (Timing: 1-2 seconds)
+7. **Complete the finish with structural pressure**: Continue the controlled rotation until the opponent taps or you reach the natural endpoint of shoulder internal rotation. Maintain chest pressure on the defender's upper body throughout the entire finishing sequence to prevent them from rolling toward you to relieve rotational pressure on the shoulder. The finishing force comes from your body structure and weight distribution, not from muscular effort in your arms. (Timing: 1-2 seconds)
 
 
 </section>

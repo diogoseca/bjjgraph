@@ -105,7 +105,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 | Variant | Bottom Risk | Top Risk | Bottom Energy | Top Energy | Key Difference |
 |---------|-------------|----------|---------------|------------|----------------|
 | [[Closed Guard]] | Medium | Medium | Medium | Medium | Bottom offensive despite being underneath |
-| [[Diamond Guard]] | Low to Medium | Low to Medium | Low | Low | Dual control trades guard mobility for sub access |
+| [[Diamond Guard]] | Low to Medium | Medium to High | Low | High | Dual control trades guard mobility for sub access |
 
 
 
@@ -137,15 +137,17 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (20% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (16% of attempts)
 
-- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (8% of attempts)
+- **[[Submissions/Wrist Lock/Attacker|Wrist Lock]]** (3% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (7% of attempts)
+- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (7% of attempts)
 
-- **[[Cross Collar Choke from Closed Guard/Attacker|Cross Collar Choke from Closed Guard]]** (6% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (6% of attempts)
 
-- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (6% of attempts)
+- **[[Cross Collar Choke from Closed Guard/Attacker|Cross Collar Choke from Closed Guard]]** (5% of attempts)
+
+- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (5% of attempts)
 
 - **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (5% of attempts)
 
@@ -202,6 +204,8 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 - **[[Tarikoplata from Closed Guard/Attacker|Tarikoplata from Closed Guard]]** (1% of attempts)
 
 - **[[Triangle Choke from Closed Guard/Attacker|Triangle Choke from Closed Guard]]** (2% of attempts)
+
+- **[[Transitions/Closed Guard to Hindulotine/Attacker|Closed Guard to Hindulotine]]** (5% of attempts)
 
 
 ### Common Mistakes

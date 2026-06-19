@@ -133,13 +133,23 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ### Available Transitions
 
 
-- **[[Transitions/Leg Extraction Escape from Entanglement/Attacker|Leg Extraction Escape from Entanglement]]** (30% of attempts)
+- **[[Transitions/Leg Extraction Escape from Entanglement/Attacker|Leg Extraction Escape from Entanglement]]** (18% of attempts)
 
-- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (28% of attempts)
+- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (16% of attempts)
 
-- **[[Transitions/Inversion Escape from Leg Entanglement/Attacker|Inversion Escape from Leg Entanglement]]** (22% of attempts)
+- **[[Transitions/Counter Sweep from Leg Entanglement/Attacker|Counter Sweep from Leg Entanglement]]** (14% of attempts)
 
-- **[[Transitions/Counter Sweep from Leg Entanglement/Attacker|Counter Sweep from Leg Entanglement]]** (20% of attempts)
+- **[[Transitions/Inversion Escape from Leg Entanglement/Attacker|Inversion Escape from Leg Entanglement]]** (12% of attempts)
+
+- **[[Transitions/Counter Leg Attack/Attacker|Counter Leg Attack]]** (12% of attempts)
+
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (10% of attempts)
+
+- **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** (8% of attempts)
+
+- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (6% of attempts)
+
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (4% of attempts)
 
 
 ### Common Mistakes

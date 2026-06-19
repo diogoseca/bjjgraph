@@ -139,8 +139,8 @@
         "condition": "If opponent attempts to roll through or turn into the submission",
         "actions": [
           {
-            "technique": "Straight Armbar",
-            "target": "Armbar Control",
+            "technique": "Belly Down Armbar Transition",
+            "target": "Belly Down Armbar",
             "probability": 55
           },
           {
@@ -285,11 +285,11 @@
     "transitions": [
       {
         "transition": "Armbar from Armbar Control",
-        "attempt_probability": 51
+        "attempt_probability": 55
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 21
+        "attempt_probability": 23
       },
       {
         "transition": "Omoplata from Armbar Control",
@@ -297,11 +297,7 @@
       },
       {
         "transition": "Kimura from Armbar Control",
-        "attempt_probability": 7
-      },
-      {
-        "transition": "Straight Armbar",
-        "attempt_probability": 7
+        "attempt_probability": 8
       },
       {
         "transition": "Back Take from Armbar",

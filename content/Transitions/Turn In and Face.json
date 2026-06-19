@@ -13,12 +13,12 @@
   "from_position": "Buggy Choke/Bottom",
   "outcomes": [
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 15,
       "result": "success"
     },

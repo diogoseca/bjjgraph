@@ -39,7 +39,7 @@ description: "Master the Kimura from Guard in BJJ. Complete guide covering setup
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Kimura from Guard",
-  "description": "The Kimura from Guard is a figure-four shoulder lock applied from bottom guard positions that isolates and externally rotates the opponent's arm, threatening submission while doubling as a control hub for sweeps, back takes, and the Kimura trap.",
+  "description": "The Kimura from Guard is a figure-four shoulder lock applied from bottom guard positions that isolates and internally rotates the opponent's arm (wrist driven behind their back toward the lower back), threatening submission while doubling as a control hub for sweeps, back takes, and the Kimura trap.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -49,7 +49,7 @@ description: "Master the Kimura from Guard in BJJ. Complete guide covering setup
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Kimura from Guard is a figure-four shoulder lock applied from bottom guard positions that isolates and externally rotates the opponent's arm, threatening submission while doubling as a control hub for sweeps, back takes, and the Kimura trap.**
+**The Kimura from Guard is a figure-four shoulder lock applied from bottom guard positions that isolates and internally rotates the opponent's arm (wrist driven behind their back toward the lower back), threatening submission while doubling as a control hub for sweeps, back takes, and the Kimura trap.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
@@ -119,7 +119,7 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 - **Elbow Isolation**: Pin opponent's elbow to your chest or body to create a fixed fulcrum point; the shoulder lock requires a stable pivot point to generate rotational pressure
 
-- **Rotational Direction**: Apply pressure by rotating the arm away from opponent's back (externally rotating the shoulder); internal rotation reduces effectiveness and may allow escape
+- **Rotational Direction**: Apply pressure by rotating the forearm toward the opponent's lower back and feet, driving their wrist behind their back (internally rotating the shoulder); rotating toward the head is the Americana arc, not the Kimura, and reduces effectiveness here
 
 - **Progressive Pressure**: Gradually increase rotational force over 3-5 seconds minimum; sudden jerking movements risk catastrophic injury and prevent partner from tapping safely
 
@@ -141,7 +141,7 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 - **Secure hip connection and arm positioning**: Bring opponent's elbow tight to your chest while placing your right leg over their back or shoulder....
 
-- **Apply controlled rotational pressure**: Keeping the elbow fixed to your chest, slowly rotate opponent's wrist toward their head and away fro...
+- **Apply controlled rotational pressure**: Keeping the elbow fixed to your chest, slowly rotate opponent's wrist toward their lower back and fe...
 
 
 ### Common Mistakes
@@ -232,7 +232,7 @@ The position operates on the principle that the figure-four grip isolates the sh
 **Triangle to Kimura Transition**: When opponent defends triangle choke by straightening their trapped arm, release the triangle and immediately transition to Kimura on the extended arm. The extended arm position makes it extremely difficult for them to defend the shoulder lock. (When to use: When triangle choke is defended with arm extension. The transition is seamless and capitalizes on their defensive posture.)
 
 
-**Reverse Kimura (Americana Mechanics from Guard)**: Apply Kimura grip but rotate opponent's wrist toward their own hip instead of their head, creating internal rotation pressure. Less common from guard but effective when standard Kimura angle is unavailable. (When to use: When opponent successfully defends external rotation by turning their thumb down or when angle prevents standard Kimura application.)
+**Reverse Kimura (Americana Mechanics from Guard)**: Apply the figure-four grip but rotate opponent's wrist toward their head instead of their lower back, creating external rotation pressure (the Americana arc). Less common from guard but effective when the standard Kimura internal-rotation angle is unavailable. (When to use: When opponent successfully defends the Kimura's internal rotation by pointing the hand toward the ceiling, or when the angle prevents standard Kimura application and the head-side arc is open.)
 
 
 

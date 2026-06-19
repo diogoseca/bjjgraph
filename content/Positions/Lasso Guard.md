@@ -134,21 +134,21 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (47% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (24% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (11% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (13% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (5% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (8% of attempts)
 
-- **[[Transitions/Omoplata from Lasso/Attacker|Omoplata from Lasso]]** (5% of attempts)
+- **[[Transitions/Omoplata from Lasso/Attacker|Omoplata from Lasso]]** (9% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (4% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (5% of attempts)
 
-- **[[Transitions/Lasso Sweep/Attacker|Lasso Sweep]]** (4% of attempts)
+- **[[Transitions/Lasso Sweep/Attacker|Lasso Sweep]]** (7% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (3% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (5% of attempts)
 
 - **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
 

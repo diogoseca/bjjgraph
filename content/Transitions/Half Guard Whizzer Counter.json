@@ -1,0 +1,356 @@
+{
+  "name": "Half Guard Whizzer Counter",
+  "description": "Master the Half Guard Whizzer Counter in BJJ. Kill the bottom player's underhook with an overhook (whizzer) from half guard top to establish overhook control, flatten, and pass.",
+  "tags": [
+    "bjj",
+    "transition",
+    "half_guard",
+    "whizzer",
+    "overhook",
+    "guard_passing",
+    "control"
+  ],
+  "aliases": [
+    "Half Guard Overhook Counter",
+    "Whizzer over the Underhook"
+  ],
+  "from_position": "Half Guard/Top",
+  "outcomes": [
+    {
+      "to": "Overhook Control/Top",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "success_rate": 60,
+  "summary": "The Half Guard Whizzer Counter is a top-game transition where the passer answers the bottom player's underhook by wrapping an overhook (whizzer) over that same arm, killing the underhook and establishing overhook control to flatten and pass.",
+  "overview": "The Half Guard Whizzer Counter is the passer's direct answer to the single most important grip in the half guard battle: the bottom player's underhook. When the bottom player digs an underhook to come to their side, threaten sweeps, and take the back, the top player wraps their own arm over that underhooking arm from above, sealing the armpit over the opponent's shoulder. This converts the dangerous underhook into a controlled, elevated, and neutralized limb, landing the passer in overhook control (the whizzer) as the dominant, controlling player.\n\nThis counter is a cornerstone of high-level half guard passing because it does not merely defend the underhook; it weaponizes the exchange. By overhooking the arm and driving it upward and across, the passer breaks the bottom player's structure, flattens them back to the mat, and removes their primary engine for sweeps and back takes. From the resulting overhook control, the passer has clear pathways to complete the pass to side control, take the back when the opponent turns, or attack Kimura and front-headlock submissions. The whizzer effectively turns the bottom player's offense into the top player's offense.\n\nThe Half Guard Whizzer Counter rewards timing and structure over strength. Beginners often try to muscle the underhook out and end up trading grips repeatedly; advanced players read the underhook attempt early, overhook before it is fully established, and immediately convert the elevation and armpit seal into a flattening, passing, or back-taking sequence. Mastering this counter is what allows a passer to feel safe initiating pressure passing against a strong half guard, because the most threatening bottom-side grip becomes the entry to a controlling position.",
+  "conditions": [
+    "Top player is engaged in half guard with one leg trapped between the bottom player's legs",
+    "Bottom player is establishing or has just established an underhook on the top player's lead-side arm",
+    "Top player has the angle and space to wrap their arm over the opponent's underhooking arm from above",
+    "Top player can maintain chest-to-chest or shoulder pressure to prevent the bottom player from fully coming to their side"
+  ],
+  "related_content": [
+    {
+      "name": "Overhook Control",
+      "relationship": "Target position - successful whizzer establishes overhook control as the dominant top player"
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Starting position - this counter is executed from half guard top against the bottom player's underhook"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Common follow-up - when the bottom player turns away to escape the whizzer, the top player takes the back"
+    },
+    {
+      "name": "Side Control",
+      "relationship": "Primary passing destination from overhook control after the underhook is neutralized"
+    },
+    {
+      "name": "Kimura Trap",
+      "relationship": "Submission chain available from the overhook when the opponent's elevated arm is exposed"
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "relationship": "Related half guard variation where underhook battles and whizzer counters frequently occur"
+    },
+    {
+      "name": "Old School",
+      "relationship": "Bottom-side underhook sweep the whizzer counter is specifically designed to neutralize"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Related context where overhook/whizzer control is established to attack the back"
+    }
+  ],
+  "attacker": {
+    "name": "Half Guard Whizzer Counter Attacker",
+    "description": "How to execute the Half Guard Whizzer Counter in BJJ. Top-game perspective: overhook the bottom player's underhook, establish overhook control, flatten, and pass.",
+    "overview": "As the top player in half guard, your most pressing threat is the bottom player's underhook, which is the engine for nearly all of their offense: coming to the side, the Old School sweep, the back take, and deep half entries. The Half Guard Whizzer Counter is your direct, structural answer. Rather than fighting to strip the underhook with strength, you wrap your own arm over theirs from above, sealing your armpit tightly over their shoulder. This single action neutralizes the underhook, elevates their arm above its power angle, and lands you in overhook control as the dominant player.\n\nThe whizzer works because it inverts the leverage of the exchange. The bottom player's underhook is strong when it is low and tight to your ribs; by overhooking and driving the arm up and across, you lift it out of its effective position and break their connection to your hips. From overhook control you can flatten them, drive your hips down to kill their shrimp, and begin your pass to side control, or you can read their reaction and take the back when they turn away.\n\nThis counter is high-percentage because it is reactive and timing-based rather than strength-based. You are not creating the grip out of nothing; you are answering a grip the opponent hands you. The most common error is overhooking without sealing the armpit or without flattening the opponent first, which leaves a gap they exploit to finish their underhook offense. Done correctly, the whizzer counter turns the most dangerous moment in half guard passing into your entry to a controlling, attacking position.",
+    "key_principles": [
+      "Seal the armpit tightly over the opponent's shoulder - the armpit seal, not the hand grip, neutralizes the underhook",
+      "Elevate and drive the overhooked arm upward and across to lift it out of its power angle and break their structure",
+      "Flatten the opponent first - kill their ability to come to their side before working the pass or back take",
+      "Time the overhook as the underhook is being established, not after it is fully locked and tight to your ribs",
+      "Keep chest and shoulder pressure forward to prevent the bottom player from creating the space to recover",
+      "Read the reaction: when they turn away from the whizzer, take the back; when they stay flat, pass to side control"
+    ],
+    "setup_requirements": [
+      "Engaged in half guard top with your lead-side knee or hip controlling the bottom player's frame",
+      "Recognition that the bottom player is digging or has just secured an underhook on your lead-side arm",
+      "Angle and space to wrap your lead arm over their underhooking arm from above before it locks tight",
+      "Forward chest or shoulder pressure available to flatten the opponent as you establish the overhook",
+      "Hips ready to drop and base ready to widen so you can convert the overhook into flattening and passing"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Recognize and intercept the underhook",
+        "description": "As the bottom player drives their arm under your lead-side armpit to establish the underhook, recognize the threat immediately. Do not let the underhook settle deep and tight against your ribs. The moment you feel their forearm sliding under your arm and their shoulder turning toward you, prepare to convert rather than fight the grip head-on."
+      },
+      {
+        "step_number": 2,
+        "action": "Wrap the overhook over their arm",
+        "description": "Drive your lead arm over the top of their underhooking arm, wrapping from above so your armpit comes down over their shoulder. Bring your elbow tight to your own ribs as you wrap, trapping their upper arm. The goal is to sandwich their underhooking arm between your overhook from above and your torso, converting their grip into your control."
+      },
+      {
+        "step_number": 3,
+        "action": "Seal the armpit and elevate the arm",
+        "description": "Clamp your armpit down over the front of their shoulder with zero gap, then drive their elevated arm upward and slightly across their own body. This armpit seal is the heart of the whizzer - it removes their arm from its low, powerful underhook position and lifts it above the angle where it can drive into your hips or set up sweeps."
+      },
+      {
+        "step_number": 4,
+        "action": "Flatten the opponent to the mat",
+        "description": "With the overhook sealed, walk your chest and shoulder pressure into them and use the elevated arm as a lever to turn their shoulders back to the mat. Drive your free-side shoulder across their jaw or chest to flatten them. Flattening kills their ability to stay on their side, which is the platform for every underhook-based attack they have."
+      },
+      {
+        "step_number": 5,
+        "action": "Establish overhook control and base",
+        "description": "Settle into a stable overhook control position: armpit sealed over their shoulder, their arm elevated and pinned, your hips heavy and your base wide so they cannot bridge or shrimp you off. You are now the controlling top player in overhook control, with their primary offensive arm neutralized and your free hand available to control their head or set up the next phase."
+      },
+      {
+        "step_number": 6,
+        "action": "Convert to the pass or back take",
+        "description": "Read their reaction. If they stay flat and defensive, begin freeing your trapped leg and pass to side control while maintaining the overhook to prevent recovery. If they turn away from the whizzer to escape the pressure, follow their hips and take the back, using the elevated arm and your free hand to ride into back control. The overhook is a transitional control - move from it within seconds."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Bottom player buries the underhook deep and tight before you can overhook over it",
+        "effectiveness": "High",
+        "your_response": "If the underhook is already deep, do not force a late overhook into a gap. Instead, switch your hips, post your free hand, and use a crossface to lift their shoulder and create the space to re-wrap the overhook, or transition to a different passing route entirely rather than getting swept.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player drives into you and comes up to their knees to negate the flatten",
+        "effectiveness": "Medium",
+        "your_response": "Use their upward drive: keep the armpit seal and the elevated arm, then ride the whizzer up with them and convert directly to a back take or front headlock as they come to their knees rather than fighting to flatten them back down.",
+        "targets_outcome": "Half Guard/Top"
+      },
+      {
+        "counter": "Bottom player frames on your hip and shrimps to recover full guard before you settle the overhook",
+        "effectiveness": "Medium",
+        "your_response": "Drop your overhooked-side hip down to follow their shrimp and pin the recovering knee with your free hand, keeping the armpit seal so their underhook stays dead while you re-pressure and re-flatten before they complete the recovery.",
+        "targets_outcome": "Half Guard/Bottom"
+      },
+      {
+        "counter": "Bottom player abandons the underhook entirely and switches to a knee shield to keep distance",
+        "effectiveness": "Low",
+        "your_response": "If they retract the arm and frame with a knee shield, you have already won the underhook battle - release the now-empty overhook, address the knee shield with standard half guard passing, and re-engage the whizzer only if they re-establish the underhook.",
+        "targets_outcome": "Half Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Wrapping the overhook without sealing the armpit over the shoulder",
+        "consequence": "A loose overhook leaves a gap that the bottom player drives back through, re-establishing the underhook and continuing their sweep or back-take offense unimpeded.",
+        "correction": "Always clamp the armpit down over the front of their shoulder with zero gap and pull your elbow tight to your ribs. The control comes from the armpit seal, not from reaching for a hand grip behind their back."
+      },
+      {
+        "error": "Overhooking but never flattening the opponent",
+        "consequence": "If the bottom player stays on their side, they retain the platform for the Old School sweep and back take even with the arm elevated, and your control is unstable.",
+        "correction": "Immediately use the elevated arm as a lever and drive your chest and shoulder pressure to turn their shoulders flat to the mat. Flattening is what converts the overhook from a stalemate into a passing or back-taking position."
+      },
+      {
+        "error": "Reacting to the underhook too late, after it is locked tight to your ribs",
+        "consequence": "A fully settled, deep underhook is very difficult to overhook cleanly, and forcing it late often opens space the opponent uses to sweep you.",
+        "correction": "Develop early recognition of the underhook entry and overhook as the arm is sliding in, before it locks. If you are already late, create space with a crossface and post first, then re-wrap."
+      },
+      {
+        "error": "Carrying too much weight forward onto the overhook without maintaining base",
+        "consequence": "Overcommitting your weight lets the bottom player use your momentum to roll you or recover guard underneath, and you lose the controlling position you just earned.",
+        "correction": "Keep your hips heavy but your base wide and reactive. Apply forward pressure through the overhook while keeping your knees and feet positioned to absorb bridges and shrimps."
+      },
+      {
+        "error": "Holding the overhook statically instead of transitioning",
+        "consequence": "A static whizzer gives the bottom player time to fight the grip, frame, and methodically work their recovery, eroding your advantage.",
+        "correction": "Treat overhook control as a 3-5 second transitional position. Once you have flattened and sealed, immediately commit to either passing to side control or taking the back based on the opponent's reaction."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Underhook Recognition and Overhook Wrap",
+        "focus": "Recognizing the underhook entry and wrapping the overhook with a tight armpit seal",
+        "description": "Partner repeatedly establishes the underhook from half guard bottom at low intensity. Practice intercepting and wrapping the overhook, focusing entirely on sealing the armpit over their shoulder and pulling your elbow tight to your ribs. 20-30 repetitions per session, alternating sides, with the partner offering minimal resistance so you can groove the wrap and seal."
+      },
+      {
+        "phase": "Week 3-4: Elevation and Flattening",
+        "focus": "Using the overhook to elevate the arm and flatten the opponent to the mat",
+        "description": "Partner establishes the underhook and comes onto their side. Practice elevating the overhooked arm and driving chest and shoulder pressure to turn their shoulders flat. Partner gives light resistance to coming to their side. 15-20 repetitions per session, learning to feel the moment their structure breaks and they go flat."
+      },
+      {
+        "phase": "Week 5-8: Reading the Reaction (Pass vs Back Take)",
+        "focus": "Converting overhook control into either the pass or the back take",
+        "description": "Partner reacts at medium intensity, sometimes staying flat and sometimes turning away to escape the whizzer. Practice passing to side control when they stay flat and taking the back when they turn. 10-15 repetitions per session, focusing on reading the reaction quickly and committing to the correct follow-up."
+      },
+      {
+        "phase": "Week 9-12: Counter-Defense Integration",
+        "focus": "Handling deep underhooks, drives to the knees, and shrimp recoveries",
+        "description": "Partner uses the full bottom-side underhook offense at 60-70% intensity, including burying the underhook deep, driving to their knees, and shrimping to recover. Practice the appropriate responses for each: re-wrapping after a crossface, riding to the back, and dropping the hip to follow the shrimp. Flow drilling for 5-10 minutes per session."
+      },
+      {
+        "phase": "Month 4+: Live Positional Sparring",
+        "focus": "Applying the whizzer counter under full half guard resistance",
+        "description": "Start in half guard with the bottom player free to fight for the underhook and run their full offense. The top player works to time the whizzer counter, establish overhook control, and convert to a pass or back take against full resistance. 5-minute rounds, multiple rounds per session, with video review to refine timing and the armpit seal."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Why is the armpit seal more important than the hand grip when establishing the whizzer counter?",
+        "answer": "The armpit seal over the opponent's shoulder is what actually neutralizes their underhook and elevates their arm out of its power angle. Reaching for a hand grip behind their back without first sealing the armpit leaves a gap the opponent drives back through to re-establish the underhook. The clamped armpit with the elbow tight to your ribs creates the vice-like connection that makes the overhook control effective, while the hand grip is secondary."
+      },
+      {
+        "question": "What is the danger of overhooking the underhook but failing to flatten the opponent?",
+        "answer": "If you wrap the overhook but the bottom player stays on their side, they retain the platform for their entire underhook-based offense - the Old School sweep, coming up to take the back, and deep half entries remain available even with the arm elevated. The whizzer becomes a stalemate rather than a controlling position. You must use the elevated arm as a lever and drive chest and shoulder pressure to turn their shoulders flat to the mat, which removes that platform and converts the overhook into a passing or back-taking position."
+      },
+      {
+        "question": "When should you overhook the opponent's underhook relative to its establishment?",
+        "answer": "You should wrap the overhook as the underhook is being established - while their forearm is sliding under your armpit and before it locks deep and tight against your ribs. Early recognition and interception is far higher percentage than trying to overhook a fully settled underhook. If you are already late and the underhook is deep, do not force a late wrap into a gap; instead create space with a crossface and post first, then re-wrap the overhook."
+      },
+      {
+        "question": "Your opponent drives into you and comes up to their knees instead of staying flat under the whizzer - what do you do?",
+        "answer": "Use their upward momentum rather than fighting to flatten them back down. Maintain the armpit seal and keep their arm elevated, then ride the whizzer up with them and convert directly to a back take or a front headlock as they come to their knees. The whizzer that controls their arm in half guard transitions cleanly to back control or front-headlock attacks when the opponent stands up into it, so read the drive and flow into the standing follow-up instead of resisting it."
+      },
+      {
+        "question": "After establishing overhook control from the whizzer counter, how do you decide between passing and taking the back?",
+        "answer": "Read the opponent's reaction. If they stay flat and defensive under your pressure, free your trapped leg and pass to side control while keeping the overhook to prevent guard recovery. If they turn away from the whizzer to escape the shoulder pressure, follow their hips and take the back, using the elevated arm and your free hand to ride into back control. Overhook control is a transitional position, so commit to the correct follow-up within a few seconds based on which way they react rather than holding statically."
+      },
+      {
+        "question": "What base and weight principles prevent you from being reversed while holding the whizzer counter?",
+        "answer": "Keep your hips heavy to maintain forward pressure through the overhook, but keep your base wide and reactive with your knees and feet positioned to absorb bridges and shrimps. Overcommitting your weight forward onto the overhook lets the bottom player use your momentum to roll you or recover guard underneath. The goal is constant forward pressure balanced with the mobility to instantly adjust if the opponent attempts to bridge, shrimp, or scramble out."
+      }
+    ],
+    "safety_considerations": "The whizzer counter itself is a control transition and is generally safe, but the elevated arm and shoulder pressure carry specific risks. Driving the overhooked arm too aggressively upward and across can stress the opponent's shoulder, so elevate to break structure rather than to crank, and never wrench the arm to finish a position. The crossface and shoulder pressure used to flatten the opponent should be applied with controlled weight, not by dropping your full bodyweight onto their face or neck. During live drilling, communicate clearly when transitioning toward back takes or Kimura threats so the partner can tap to shoulder pressure before any submission tension builds. Beginners should drill the flatten and seal at low intensity before adding speed to avoid accidental shoulder torque."
+  },
+  "defender": {
+    "name": "Half Guard Whizzer Counter Defender",
+    "description": "How to defend the Half Guard Whizzer Counter in BJJ. Bottom-game perspective: recognize the overhook, protect your underhook, and recover guard or sweep before overhook control settles.",
+    "overview": "As the half guard bottom player, your underhook is your most valuable asset, and the Half Guard Whizzer Counter is the top player's direct attempt to take it away by overhooking your underhooking arm. Defending this counter means recognizing the overhook early and acting before the top player seals their armpit and flattens you. Once they establish overhook control and flatten your shoulders to the mat, your offense collapses and you are facing a pass or a back take, so the defensive window is narrow and timing-critical.\n\nYour primary defensive goals are to keep your underhook deep and tight before they can wrap over it, to stay on your side and prevent being flattened, and to use the moments of the exchange to launch your own offense rather than purely defending. A whizzer attempt is also an opportunity: if the top player commits to the overhook and elevates your arm, you can sometimes pummel the underhook deeper, switch to the Old School sweep, or use their forward pressure to come up and reverse. The exchange is a two-way street, and a passive defender loses while an active one can turn the whizzer into their own sweep.\n\nThe most common defensive mistakes are letting the underhook stay shallow so it is easy to overhook, allowing your shoulders to be flattened without fighting to stay on your side, and freezing once the overhook is established instead of immediately attacking the recovery or the sweep. Strong half guard bottom defense against the whizzer is about winning the underhook battle early and, when the overhook does come, refusing to be flattened while looking for the sweep or guard recovery before overhook control solidifies.",
+    "key_principles": [
+      "Keep your underhook deep and tight to your opponent's ribs so there is no room for them to overhook over it",
+      "Stay on your side at all costs - being flattened is what surrenders your entire underhook offense",
+      "Recognize the overhook attempt early and pummel or switch before the armpit seal is set",
+      "Treat the whizzer attempt as an opportunity to sweep or recover, not only as a threat to defend",
+      "Frame on the hips and shoulders to maintain the space you need to come to your side and shrimp",
+      "Keep your bottom elbow connected to your own body so the top player cannot easily elevate and isolate the arm"
+    ],
+    "recognition_cues": [
+      "You feel the top player's arm wrapping over the top of your underhooking arm from above, with their armpit dropping toward your shoulder",
+      "Your underhooking arm is being driven upward and across your own body, lifting it out of its low, powerful position",
+      "The top player's chest and shoulder pressure increases as they try to turn your shoulders flat to the mat",
+      "Your ability to come up onto your side or attack the Old School sweep suddenly feels blocked as your arm is elevated and pinned"
+    ],
+    "defensive_options": [
+      {
+        "action": "Pummel the underhook deeper and tighter before the overhook seals",
+        "when_to_use": "The instant you feel the top player begin to wrap over your arm, while the overhook is still loose and the armpit not yet sealed",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "Your underhook stays deep and live, the overhook cannot seal, and you retain your full half guard offense",
+        "risk": "If you pummel too slowly or telegraph it, the top player completes the overhook and seals around your now-extended arm"
+      },
+      {
+        "action": "Switch to the Old School sweep using the top player's overhook commitment",
+        "when_to_use": "When the top player commits to the overhook and elevates your arm but has not yet flattened you, leaving their weight forward and their far leg vulnerable",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You capture their leg with your free arm and come up to reverse the position, turning their whizzer attempt into your sweep",
+        "risk": "If you commit to the sweep but they have already begun flattening you, you expose your back as they ride the whizzer to take it"
+      },
+      {
+        "action": "Fight to stay on your side and frame on the hips to prevent the flatten",
+        "when_to_use": "As the top player drives their chest and shoulder pressure to turn your shoulders to the mat",
+        "targets_outcome": "Half Guard/Bottom",
+        "if_successful": "You stay on your side, retain the platform for sweeps and recovery, and deny the top player the flatten they need to pass",
+        "risk": "Sustained framing without an attacking plan lets the top player methodically grind you flat over time"
+      }
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Half Guard/Bottom",
+        "how": "Win the underhook battle early by keeping the underhook deep before they can overhook, and when they do attempt the whizzer, pummel it back, stay on your side, and either retain your half guard or use their overhook commitment to hit the Old School sweep and reverse. Refusing to be flattened keeps you in your offense rather than facing the pass."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Leaving the underhook shallow so it is easy for the top player to overhook over it",
+        "consequence": "A shallow underhook gives the top player room to wrap their arm over the top and seal the overhook, neutralizing your most important grip and setting up the pass or back take.",
+        "correction": "Drive your underhook deep and tight to their ribs with your shoulder pressed up into their armpit. The deeper and tighter the underhook, the less room there is for them to overhook over it."
+      },
+      {
+        "error": "Allowing your shoulders to be flattened to the mat without fighting to stay on your side",
+        "consequence": "Once you are flat, the platform for the Old School sweep, the back take, and guard recovery disappears, and you are passive under overhook control facing a pass.",
+        "correction": "Fight relentlessly to stay on your side - frame on their hips, keep your bottom shoulder off the mat, and shrimp to maintain the angle. Staying on your side preserves every offensive option you have from half guard bottom."
+      },
+      {
+        "error": "Freezing once the overhook is established instead of immediately attacking",
+        "consequence": "A passive reaction gives the top player time to seal the armpit, flatten you, and convert to the pass or back take while you have surrendered the initiative.",
+        "correction": "Treat the whizzer attempt as a moment to act, not to wait. Immediately pummel the underhook back, attack the Old School sweep off their forward weight, or scramble to recover before overhook control solidifies."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Why is keeping your underhook deep the best defense against the whizzer counter?",
+        "answer": "A deep, tight underhook with your shoulder pressed up into the top player's armpit leaves no room for them to wrap their arm over the top of yours. The whizzer counter relies on having space to overhook over a shallow or loose underhook. By burying the underhook deep before they can react, you deny them the entry to the overhook entirely and keep your most important half guard grip alive for sweeps and back takes."
+      },
+      {
+        "question": "How can the top player's whizzer attempt actually become your sweep?",
+        "answer": "When the top player commits to the overhook and elevates your arm but has not yet flattened you, their weight is forward and their far leg is often exposed. This is the ideal moment to capture their leg with your free arm and come up for the Old School sweep, using their own forward commitment to reverse the position. The whizzer attempt is a two-way exchange, and an active bottom player turns the top player's overhook commitment into a sweep rather than passively defending it."
+      },
+      {
+        "question": "What is the single most important thing to prevent once the top player wraps the overhook?",
+        "answer": "Prevent being flattened. Staying on your side is what preserves the entire half guard bottom offense - the Old School sweep, the back take, and guard recovery all require you to be on your side rather than flat on your back. The moment the top player tries to drive your shoulders to the mat, fight to stay on your side by framing on their hips, keeping your bottom shoulder off the mat, and shrimping to maintain your angle before overhook control solidifies."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Week 1-2: Underhook Depth and Recognition",
+        "focus": "Maintaining a deep underhook and recognizing the overhook attempt early",
+        "description": "Partner attempts to overhook your underhook from half guard top at low intensity. Practice keeping your underhook deep and tight and recognizing the instant they begin to wrap over it. 20-30 repetitions per session focused on underhook depth and early recognition before the seal sets."
+      },
+      {
+        "phase": "Week 3-4: Pummel and Stay on Your Side",
+        "focus": "Pummeling the underhook back and refusing to be flattened",
+        "description": "Partner commits to the overhook at medium-low intensity and tries to flatten you. Practice pummeling the underhook back deep before the seal sets and framing to stay on your side. 15-20 repetitions per session, building the reflex to act immediately rather than freeze."
+      },
+      {
+        "phase": "Week 5-8: Converting the Whizzer into the Old School Sweep",
+        "focus": "Using the top player's overhook commitment to sweep",
+        "description": "Partner commits to the whizzer with forward weight at medium intensity. Practice capturing their exposed leg and coming up for the Old School sweep off their commitment. 10-15 repetitions per session, learning to feel the window between their overhook commitment and their flatten attempt."
+      },
+      {
+        "phase": "Month 3+: Live Positional Sparring",
+        "focus": "Defending the whizzer counter under full half guard resistance",
+        "description": "Start in half guard bottom with the top player free to fight for the whizzer counter. Work to win the underhook battle, refuse to be flattened, and convert the exchange into sweeps or guard recovery against full resistance. 5-minute rounds, multiple rounds per session, with attention to the early defensive window."
+      }
+    ]
+  },
+  "variants_and_adaptations": [
+    {
+      "variant_name": "Gi Whizzer with Cross-Collar Control",
+      "description": "In the gi, after sealing the overhook, use your free hand to grip the far collar or shoulder fabric for additional flattening leverage and to lock the opponent's posture. The friction of the gi makes the armpit seal more secure and gives extra control over the elevated arm, but you must avoid getting your overhooking sleeve gripped by the bottom player.",
+      "when_to_use": "Gi competition or training when collar and sleeve grips are available to reinforce the overhook control"
+    },
+    {
+      "variant_name": "No-Gi Whizzer to Front Headlock",
+      "description": "Without gi grips, when the bottom player drives up to their knees against the whizzer, flow the overhook directly into a front headlock by chaining your free arm around their neck. This converts the half guard exchange into a front-headlock attacking position and threatens guillotine and Darce chokes off the same arm elevation.",
+      "when_to_use": "No-gi and MMA contexts when the bottom player comes up to their knees rather than staying flat"
+    },
+    {
+      "variant_name": "Whizzer to Direct Back Take",
+      "description": "When the bottom player turns away from the whizzer pressure to escape, ride the elevated arm and follow their hips immediately into back control rather than completing the pass to side control. The overhook keeps their near arm out of the way as you establish your hooks and seatbelt grip.",
+      "when_to_use": "When the bottom player reacts to the flatten by turning away, exposing their back"
+    }
+  ],
+  "position_integration": "The Half Guard Whizzer Counter sits at the center of the top player's half guard passing system as the dedicated answer to the underhook, the grip that powers nearly all half guard bottom offense. It connects the half guard battle directly to overhook control, which in turn branches into the pass to side control, the back take, and front-headlock and Kimura submission chains. Because the underhook is the single most contested grip in half guard, mastering the whizzer counter is what allows a passer to feel safe initiating pressure passing rather than playing tentatively to avoid the sweep. Within the broader positional hierarchy, this transition turns the most dangerous moment for the top player - the opponent securing the underhook - into an entry to a controlling, attacking position, mirroring how the whizzer functions in wrestling. It pairs naturally with knee-cut and other half guard passes as the reactive option when the bottom player wins the underhook, and it feeds the same overhook control decision tree used from turtle and clinch exchanges, making it a unifying skill across multiple areas of the game."
+}

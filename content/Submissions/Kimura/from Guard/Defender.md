@@ -77,7 +77,7 @@ description: "How to defend against Kimura from Guard in BJJ. Recognition, escap
       "name": "Why is driving the trapped arm toward the mat more effective than pulling it backward when defending against the figure-four grip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Driving the arm toward the mat works against the Kimura's rotational mechanics rather than feeding into them. The Kimura generates power through external rotation of the shoulder with the elbow as fulcrum - pulling backward actually assists this rotation by moving the wrist in the same arc the attacker wants. Driving downward toward the mat straightens the arm, which removes the rotational angle the attacker needs and disrupts their elbow-to-centerline pin. A straight arm driven into the mat distributes force along its entire length rather than concentrating it at the shoulder joint, making the figure-four mechanically ineffective and creating conditions to strip the grip."
+        "text": "Driving the arm toward the mat works against the Kimura's rotational mechanics rather than feeding into them. The Kimura generates power through internal rotation of the shoulder with the elbow as fulcrum, driving the wrist toward the lower back - pulling backward actually assists this rotation by moving the wrist in the same arc the attacker wants. Driving downward toward the mat straightens the arm, which removes the rotational angle the attacker needs and disrupts their elbow-to-centerline pin. A straight arm driven into the mat distributes force along its entire length rather than concentrating it at the shoulder joint, making the figure-four mechanically ineffective and creating conditions to strip the grip."
       }
     },
     {

@@ -16,7 +16,7 @@ description: "How to execute the Guillotine Choke finish in BJJ. Attacking persp
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Guillotine Choke in BJJ",
-  "description": "Step-by-step guide for executing Guillotine Choke from Guillotine Control/Top.",
+  "description": "Step-by-step guide for executing Guillotine Choke from Guillotine Control/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -184,7 +184,7 @@ From Guillotine Control, the finish requires precise coordination between upper 
 
 Strategically, the Guillotine Choke creates a powerful dilemma for defenders: protecting the neck requires postural adjustments that often open sweep opportunities, while defending the sweep exposes the neck to tighter finishing pressure. This binary trap makes the guillotine particularly effective when integrated into a systematic guard attack framework that chains submissions with positional improvements.
 
-**From Position**: [[Positions/Guillotine Control]] (Top)
+**From Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
 
@@ -244,7 +244,7 @@ Strategically, the Guillotine Choke creates a powerful dilemma for defenders: pr
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
 | Failure | [[Positions/Guillotine Control]] | 18% |
-| Failure | [[Transitions/Guillotine Choke]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 15% |
 | Counter | [[Positions/Side Control]] | 12% |
 
 

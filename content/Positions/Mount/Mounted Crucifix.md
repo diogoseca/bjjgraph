@@ -145,7 +145,7 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (32% of attempts)
+- **[[Transitions/Hip Escape from Mounted Crucifix/Attacker|Hip Escape from Mounted Crucifix]]** (33% of attempts)
 
 - **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
 
@@ -160,8 +160,6 @@ The mounted crucifix also serves as an excellent teaching position for understan
 - **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (3% of attempts)
 
 - **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (6% of attempts)
-
-- **[[Transitions/Hip Escape from Mounted Crucifix/Attacker|Hip Escape from Mounted Crucifix]]** (1% of attempts)
 
 - **[[Transitions/Bridge Escape from Mounted Crucifix/Attacker|Bridge Escape from Mounted Crucifix]]** (1% of attempts)
 
@@ -224,7 +222,9 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (15% of attempts)
+- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (11% of attempts)
+
+- **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** (8% of attempts)
 
 - **[[Rear Naked Choke from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (9% of attempts)
 
@@ -236,7 +236,7 @@ The mounted crucifix also serves as an excellent teaching position for understan
 
 - **[[Neck Crank from Mounted Crucifix/Attacker|Neck Crank from Mounted Crucifix]]** (5% of attempts)
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (8% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (4% of attempts)
 
 - **[[Transitions/Mounted Crucifix to S Mount/Attacker|Mounted Crucifix to S Mount]]** (8% of attempts)
 

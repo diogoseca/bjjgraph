@@ -590,27 +590,23 @@
     "transitions": [
       {
         "transition": "Gogoplata",
-        "attempt_probability": 27
-      },
-      {
-        "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Mission Control Recovery",
-        "attempt_probability": 24
+        "attempt_probability": 35
       },
       {
         "transition": "Switch to Triangle",
+        "attempt_probability": 22
+      },
+      {
+        "transition": "Back Take",
         "attempt_probability": 18
       },
       {
-        "transition": "Gogoplata",
-        "attempt_probability": 2
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Mission Control Recovery",
+        "attempt_probability": 8
       }
     ]
   }

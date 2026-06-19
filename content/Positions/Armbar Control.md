@@ -218,15 +218,13 @@ From the bottom, survival depends on understanding the same five-point control s
 ### Available Transitions
 
 
-- **[[Armbar from Armbar Control/Attacker|Armbar from Armbar Control]]** (51% of attempts)
+- **[[Armbar from Armbar Control/Attacker|Armbar from Armbar Control]]** (55% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (21% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (23% of attempts)
 
 - **[[Omoplata from Armbar Control/Attacker|Omoplata from Armbar Control]]** (7% of attempts)
 
-- **[[Kimura from Armbar Control/Attacker|Kimura from Armbar Control]]** (7% of attempts)
-
-- **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** (7% of attempts)
+- **[[Kimura from Armbar Control/Attacker|Kimura from Armbar Control]]** (8% of attempts)
 
 - **[[Transitions/Back Take from Armbar/Attacker|Back Take from Armbar]]** (3% of attempts)
 

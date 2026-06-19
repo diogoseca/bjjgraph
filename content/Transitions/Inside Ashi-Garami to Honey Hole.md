@@ -65,7 +65,7 @@ Strategically, this transition should be attempted when opponent defends your in
 
 The timing window for this transition typically opens when opponent commits weight to defend one attack, creating the momentary looseness in their defensive posture that allows your leg to thread through. Masters of this transition recognize that it functions as part of an attack chain: threatening straight ankle lock forces defensive posture that opens Honey Hole entry, and vice versa. The position after successful transition places you in arguably the most dominant leg entanglement in grappling.
 
-**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 **Success Rate**: 58%
 
 </section>

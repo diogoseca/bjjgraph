@@ -65,7 +65,7 @@ This transition is particularly effective from the bottom Hindulotine position b
 
 Strategically, threatening this transition forces opponents into a dilemma: maintain tight defensive posture and remain vulnerable to the guillotine, or create space to relieve pressure and expose themselves to the anaconda. Advanced practitioners use this dynamic to control the pace of engagement, keeping opponents reactive rather than allowing them to establish settled defensive positions.
 
-**From Position**: [[Positions/Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 **Success Rate**: 58%
 
 </section>

@@ -144,7 +144,7 @@
         "condition": "If opponent extends arm defensively while in mount and fails to immediately retract",
         "actions": [
           {
-            "technique": "Mount to Armbar",
+            "technique": "Armbar from Technical Mount",
             "target": "Armbar Control",
             "probability": 70
           },
@@ -189,7 +189,7 @@
         "condition": "If opponent bridges explosively or attempts to roll while arm is controlled",
         "actions": [
           {
-            "technique": "Mount to Armbar",
+            "technique": "Armbar from Technical Mount",
             "target": "Armbar Control",
             "probability": 65
           },
@@ -280,7 +280,7 @@
         "relationship": "Alternative submission - available when opponent creates space defending armbar"
       },
       {
-        "name": "Mount to Armbar",
+        "name": "Armbar from Technical Mount",
         "relationship": "Primary technique - main transition used from this position"
       },
       {
@@ -305,48 +305,44 @@
     },
     "transitions": [
       {
-        "transition": "Mount to Armbar",
-        "attempt_probability": 34
+        "transition": "Armbar from Technical Mount",
+        "attempt_probability": 42
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 13
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Triangle Setup",
+        "attempt_probability": 8
       },
       {
         "transition": "Consolidate Mount",
         "attempt_probability": 6
       },
       {
-        "transition": "Triangle Setup",
-        "attempt_probability": 4
-      },
-      {
         "transition": "Gift Wrap Control",
-        "attempt_probability": 2
+        "attempt_probability": 6
       },
       {
         "transition": "High Mount Transition",
-        "attempt_probability": 2
+        "attempt_probability": 4
       },
       {
         "transition": "Technical Mount to Back Control",
-        "attempt_probability": 2
+        "attempt_probability": 4
       },
       {
         "transition": "Technical Mount to Mount",
-        "attempt_probability": 1
+        "attempt_probability": 4
       },
       {
         "transition": "Technical Mount to S Mount",
-        "attempt_probability": 1
+        "attempt_probability": 4
       },
       {
         "transition": "Americana from Technical Mount",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Armbar from Technical Mount",
-        "attempt_probability": 34
+        "attempt_probability": 4
       }
     ]
   },

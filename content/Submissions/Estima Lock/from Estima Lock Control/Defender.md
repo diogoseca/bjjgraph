@@ -23,7 +23,7 @@ description: "Learn to defend against the Estima Lock finish from Estima Lock co
     {
       "@type": "HowToStep",
       "name": "Counter-rotate ankle while establishing frames on attacker's hips to create extraction space",
-      "text": "Immediately when you feel the inverted grip consolidating and rotational pressure beginning—the earlier this defense begins the more effective it is If successful: Returns to Estima Lock control position with submission threat neutralized, allowing you to work systematic escape from the entanglement",
+      "text": "Immediately when you feel the inverted grip consolidating and dorsiflexion pressure beginning—the earlier this defense begins the more effective it is If successful: Returns to Estima Lock control position with submission threat neutralized, allowing you to work systematic escape from the entanglement",
       "position": 1
     },
     {
@@ -34,8 +34,8 @@ description: "Learn to defend against the Estima Lock finish from Estima Lock co
     },
     {
       "@type": "HowToStep",
-      "name": "Roll toward the trapped leg to relieve rotational angle and recover guard position",
-      "text": "When counter-rotation and free leg push have both failed and the lock angle is deepening—this is a later-stage defense with more risk If successful: Relieves the rotational pressure on the ankle and can create enough positional change to recover closed guard",
+      "name": "Roll toward the trapped leg to relieve the dorsiflexion angle and recover guard position",
+      "text": "When counter-rotation and free leg push have both failed and the lock angle is deepening—this is a later-stage defense with more risk If successful: Relieves the dorsiflexion pressure on the ankle and can create enough positional change to recover closed guard",
       "position": 3
     },
     {
@@ -61,7 +61,7 @@ description: "Learn to defend against the Estima Lock finish from Estima Lock co
       "name": "What are the earliest recognition cues that an Estima Lock finish is being initiated from the control position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The earliest cues include the attacker tightening their figure-four grip with increased pressure on your heel as a fixed point, their forearm blade pressing more firmly across the top of your foot, increased hip drive against your calf establishing the finishing fulcrum, and attempts to control or pin your free leg. The grip tightening and hip pressure increase typically precede the actual rotational finishing motion by 2-3 seconds, providing a critical defensive window."
+        "text": "The earliest cues include the attacker tightening their figure-four grip with increased pressure on your heel as a fixed point, their forearm blade pressing more firmly across the top of your foot, increased hip drive against your calf establishing the finishing fulcrum, and attempts to control or pin your free leg. The grip tightening and hip pressure increase typically precede the actual dorsiflexion finishing motion by 2-3 seconds, providing a critical defensive window."
       }
     },
     {
@@ -85,7 +85,7 @@ description: "Learn to defend against the Estima Lock finish from Estima Lock co
       "name": "How does maintaining a slight knee bend in the trapped leg protect the ankle during defense?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A bent knee creates an angle in the force chain between the attacker's grip and your ankle joint, absorbing a portion of the rotational and dorsiflexion force through the larger knee joint rather than concentrating it entirely on the smaller ankle ligaments. A fully straightened leg transmits all force directly through the ankle without absorption, dramatically amplifying the submission pressure and accelerating the rate at which dangerous load levels are reached on the ligament structures."
+        "text": "A bent knee creates an angle in the force chain between the attacker's grip and your ankle joint, absorbing a portion of the dorsiflexion force through the larger knee joint rather than concentrating it entirely on the smaller ankle ligaments. A fully straightened leg transmits all force directly through the ankle without absorption, dramatically amplifying the submission pressure and accelerating the rate at which dangerous load levels are reached on the ligament structures."
       }
     },
     {
@@ -185,7 +185,7 @@ Defending the Estima Lock finish from an established control position is signifi
 - Keep the free leg constantly active as your primary defensive tool for pushing hips, hooking legs, and creating escape angles
 - Create frames on the attacker's hips or torso before attempting grip breaks to address the positional advantage rather than just the grip
 - Recognize the mechanical completion point where further defense risks injury and tap decisively to preserve long-term joint health
-- Use circular hip movements rather than linear pushing to reduce the rotational force vector attacking the ankle
+- Use circular hip movements rather than linear pushing to reduce the dorsiflexion force vector attacking the ankle
 - Maintain slight knee bend in the trapped leg to absorb pressure rather than transmitting it directly through a straight leg to the ankle
 
 
@@ -199,7 +199,7 @@ Defending the Estima Lock finish from an established control position is signifi
 
 ### 1. Counter-rotate ankle while establishing frames on attacker's hips to create extraction space
 
-- **When to use**: Immediately when you feel the inverted grip consolidating and rotational pressure beginning—the earlier this defense begins the more effective it is
+- **When to use**: Immediately when you feel the inverted grip consolidating and dorsiflexion pressure beginning—the earlier this defense begins the more effective it is
 - **Targets**: [[Positions/Estima Lock Control]]
 - **If successful**: Returns to Estima Lock control position with submission threat neutralized, allowing you to work systematic escape from the entanglement
 - **Risk**: If counter-rotation is too aggressive or explosive, you may create additional torque on your own ankle in an unexpected direction
@@ -211,11 +211,11 @@ Defending the Estima Lock finish from an established control position is signifi
 - **If successful**: Breaks the hip fulcrum that powers the submission, reducing the lock to an ineffective grip that you can systematically address
 - **Risk**: Requires the free leg to be positioned correctly on their hip rather than their chest or knee where it has less leverage
 
-### 3. Roll toward the trapped leg to relieve rotational angle and recover guard position
+### 3. Roll toward the trapped leg to relieve the dorsiflexion angle and recover guard position
 
 - **When to use**: When counter-rotation and free leg push have both failed and the lock angle is deepening—this is a later-stage defense with more risk
 - **Targets**: [[Positions/Closed Guard]]
-- **If successful**: Relieves the rotational pressure on the ankle and can create enough positional change to recover closed guard
+- **If successful**: Relieves the dorsiflexion pressure on the ankle and can create enough positional change to recover closed guard
 - **Risk**: The rolling motion can increase torque on the ankle if the attacker follows the roll while maintaining their grip, potentially worsening the submission
 
 ### 4. Strip the heel control hand from the figure-four grip while framing on hips
@@ -267,7 +267,7 @@ Neutralize the finishing mechanics through counter-rotation and free leg frames 
 
 ### 1. Straightening the trapped leg completely under pressure, transmitting full force directly to the ankle joint
 
-- **Consequence**: Dramatically amplifies submission pressure on the ankle ligaments because there is no knee bend to absorb rotational force, accelerating the submission and increasing injury risk
+- **Consequence**: Dramatically amplifies submission pressure on the ankle ligaments because there is no knee bend to absorb the dorsiflexion force, accelerating the submission and increasing injury risk
 - **Correction**: Maintain a slight bend in the knee of the trapped leg at all times. Use circular hip movements to reduce linear force transmission through the ankle rather than pushing or pulling in a straight line.
 
 ### 2. Leaving the free leg passive on the mat instead of actively deploying it for defense
@@ -296,7 +296,7 @@ Neutralize the finishing mechanics through counter-rotation and free leg frames 
 <p class="section-subtitle">How do you train defense against Estima Lock from Estima Lock Control?</p>
 
 **Phase 1: Recognition and Tap Awareness** - Identifying the lock and building safe tap reflexes
-Partner establishes Estima Lock control and applies very light finishing pressure at 20%. Defender practices recognizing the grip configuration, feeling the rotational angle, and tapping at appropriate pressure levels. Build the reflex to tap decisively before dangerous pressure develops. Drill for 10 minutes per side with emphasis on communication.
+Partner establishes Estima Lock control and applies very light finishing pressure at 20%. Defender practices recognizing the grip configuration, feeling the dorsiflexion angle, and tapping at appropriate pressure levels. Build the reflex to tap decisively before dangerous pressure develops. Drill for 10 minutes per side with emphasis on communication.
 
 **Phase 2: Systematic Escape Mechanics** - Counter-rotation, free leg activation, and frame creation
 Partner holds Estima Lock at 40% pressure while defender practices each escape component in isolation: counter-rotating the ankle, pushing hips with the free leg, creating frames, and extracting the trapped leg. Then combine components into the full escape sequence. Partner allows escapes when proper technique is applied.

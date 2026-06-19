@@ -114,8 +114,8 @@
             "probability": 45
           },
           {
-            "technique": "Rolling Kimura Escape",
-            "target": "Standing Position",
+            "technique": "Granby Roll to Guard",
+            "target": "Half Guard",
             "probability": 40
           }
         ]
@@ -275,27 +275,23 @@
     "transitions": [
       {
         "transition": "Stack Defense",
-        "attempt_probability": 24
-      },
-      {
-        "transition": "Rolling Kimura Escape",
-        "attempt_probability": 16
+        "attempt_probability": 29
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Leg Drag Pass",
-        "attempt_probability": 13
+        "attempt_probability": 18
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Leg Drag Pass",
+        "attempt_probability": 15
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 11
+        "attempt_probability": 13
       },
       {
         "transition": "Posture Recovery from Carni",
@@ -593,18 +589,26 @@
     "transitions": [
       {
         "transition": "Heel Hook from Carni",
-        "attempt_probability": 11
+        "attempt_probability": 25
       },
       {
         "transition": "Saddle Entry from Top",
         "attempt_probability": 15
       },
       {
-        "transition": "Rolling Back Take",
-        "attempt_probability": 10
+        "transition": "Roll to Truck",
+        "attempt_probability": 12
       },
       {
-        "transition": "Roll to Truck",
+        "transition": "Kneebar Finish",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Outside Ashi Entry",
         "attempt_probability": 11
       },
       {
@@ -612,24 +616,8 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Outside Ashi Entry",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Kneebar Finish",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 8
-      },
-      {
         "transition": "Carni to Gogoplata Setup",
         "attempt_probability": 4
-      },
-      {
-        "transition": "Kneebar from Carni",
-        "attempt_probability": 10
       }
     ],
     "flashcards": [

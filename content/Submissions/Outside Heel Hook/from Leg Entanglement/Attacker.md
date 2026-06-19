@@ -10,7 +10,7 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Outside Heel Hook from Leg Entanglement targets the Knee joint, ankle joint, and surrounding ligaments. Risk: ACL tear (anterior cruciate ligament rupture). Release immediately upon tap.
+> **SAFETY**: Outside Heel Hook from Leg Entanglement targets the Knee joint, ankle joint, and surrounding ligaments. Risk: LCL tear (lateral collateral ligament rupture). Release immediately upon tap.
 
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
@@ -79,7 +79,7 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
       "name": "What anatomical structures does the outside heel hook primarily attack and how does the rotational direction determine which ligaments are stressed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The outside heel hook primarily attacks the medial collateral ligament (MCL) and anterior cruciate ligament (ACL) by applying lateral (outward) rotation on the heel while the knee is held stationary by the leg clamp. The outward rotation creates torsional stress on the medial side of the knee. This is distinct from the inside heel hook, which rotates the heel inward and primarily attacks the lateral collateral ligament (LCL). The meniscus is also at risk from both rotational directions due to the shearing forces created between the femur and tibia."
+        "text": "The outside heel hook primarily attacks the lateral collateral ligament (LCL), the posterolateral corner, and the anterior cruciate ligament (ACL) by applying lateral (outward) rotation on the heel while the knee is held stationary by the leg clamp. The outward rotation creates torsional stress on the lateral side of the knee. This is distinct from the inside heel hook, which rotates the heel inward and primarily attacks the medial collateral ligament (MCL). The meniscus is also at risk from both rotational directions due to the shearing forces created between the femur and tibia."
       }
     },
     {

@@ -309,11 +309,11 @@
     "transitions": [
       {
         "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": 40
+        "attempt_probability": 28
       },
       {
         "transition": "Heel Hook from Inside Ashi-Garami",
-        "attempt_probability": 5
+        "attempt_probability": 18
       },
       {
         "transition": "Toe Hold from Inside Ashi-Garami",
@@ -329,7 +329,7 @@
       },
       {
         "transition": "Back Take from Ashi",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Inside Ashi-Garami to Cross Ashi",
@@ -367,31 +367,31 @@
   },
   "bottom": {
     "name": "Inside Ashi-Garami Bottom",
-    "description": "Foundational leg entanglement attacking position with heel control mechanics and systematic progression to advanced submissions. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
+    "description": "Defensive trapped-leg position where the opponent controls your leg in inside ashi-garami. Priorities are hiding the heel, clearing the knee line, and extracting the leg. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
     "tags": [
       "bjj",
       "position",
       "leg-entanglement",
       "bottom",
-      "offensive",
+      "defensive",
       "leg-locks",
       "ashi-garami",
       "advanced"
     ],
-    "overview": "Inside Ashi-Garami Bottom is the foundational leg entanglement position where the attacker controls one of the opponent's legs between their own legs while positioned on their back or side. The position is characterized by the outside leg hooking around the opponent's trapped leg with control of the heel, while the inside leg is positioned across the opponent's hip to control distance and prevent escape.\n\nInside Ashi-Garami serves as the foundational position for modern leg lock attacks and is the entry point for more advanced leg entanglements. The position requires technical precision and safety awareness, particularly when applying heel hooks. Proper training progression emphasizes mastering straight ankle locks before advancing to heel hook attacks.\n\nThis position has become increasingly prominent in modern no-gi competition, serving as both an attacking platform and a transitional hub to more dominant leg entanglement configurations. Understanding Inside Ashi-Garami is essential for any practitioner seeking to develop a comprehensive leg lock game while maintaining safety and control throughout the engagement.",
+    "overview": "Inside Ashi-Garami Bottom is the defensive perspective of the position, where your leg is trapped in the opponent's inside ashi-garami / single-leg-X configuration with your heel exposed to ankle locks and heel hooks. You are the player whose leg is captured between the opponent's legs, with their inside leg across your hip controlling rotation and their outside leg hooking behind your knee to prevent extraction. Your objective is survival and escape, not attacking.\n\nFrom this position the defensive priorities are non-negotiable and ordered: protect the heel by keeping your knee bent and rotating your heel toward your own hip, deny knee-line exposure so the opponent cannot align a finishing heel hook, and then work to extract the trapped leg or clear the entanglement. Boltz-style escapes hinge on getting your free foot onto the opponent's hip to frame and create the space needed to slide the trapped knee free, while a technical stand-up or backside re-guard can neutralize the threat when extraction stalls.\n\nThis position is one of the more dangerous defensive scenarios in modern no-gi grappling because catastrophic knee damage can occur within seconds if the opponent secures the heel and applies rotation. Calm, systematic defense beats explosive panic: thrashing against a secured heel grip feeds the very rotation that finishes the lock. Understanding Inside Ashi-Garami from the bottom is essential for anyone training leg locks safely, and the escapes here transfer directly to defending saddle, 50-50, and outside ashi.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Offensive",
-      "risk_level": "Medium",
+      "position_type": "Defensive",
+      "risk_level": "High",
       "energy_cost": "Medium",
-      "time_sustainability": "Medium"
+      "time_sustainability": "Short"
     },
     "state_invariants": [
-      "Your outside leg (same side as opponent's trapped leg) hooks around their leg with your foot positioned near their heel, creating a secure grip on their lower leg with your calf and hamstring muscles actively squeezing to maintain control",
-      "Your inside leg is positioned across opponent's hip or thigh, with your shin or knee creating a frame that controls distance and prevents them from pulling their leg free or closing distance to pass",
-      "Your upper body is positioned to face their trapped leg with torso angled, hands securing their heel with C-grip or figure-four grip configuration, creating a triangle-like control structure around their leg",
-      "Your hips remain mobile and can adjust angles for attacking heel hooks or ankle locks, with the ability to turn your entire body to increase pressure on the leg joint",
-      "Opponent's leg is trapped between your legs with their knee controlled by your outside leg, preventing them from rotating their knee line away from danger"
+      "Your trapped leg is captured between the opponent's legs with their outside leg hooking behind your knee, so you must keep that knee bent and your heel rotated toward your own hip to deny the heel hook finishing angle",
+      "The opponent's inside leg is positioned across your near hip controlling rotation, so your free leg must stay active and ready to frame on their hip to create the space needed to extract your trapped leg",
+      "Your heel is the primary target and must be hidden at all times by keeping your foot turned inward and your knee line pointed away from the direction the opponent would rotate to finish the lock",
+      "Hand fighting is continuous: you fight to strip or prevent the opponent's heel grip (C-grip or figure-four) because without that grip their entanglement is significantly weaker and your extraction becomes far higher percentage",
+      "Your hips stay mobile so you can turn into the entanglement rather than away from it, because rotating toward the opponent reduces heel hook leverage while rotating away feeds the finishing mechanic"
     ],
     "prerequisites": [
       "Understanding of leg lock safety protocols and tap awareness",
@@ -402,211 +402,211 @@
       "Fundamental understanding of hip movement and angle creation"
     ],
     "key_principles": [
-      "Secure heel control with proper gripping - C-grip or figure-four depending on submission target",
-      "Use inside leg to control distance and hip positioning - this is your defensive frame",
-      "Maintain mobile hips for angle creation and attacks - static hips lead to escapes",
-      "Control opponent's knee line with outside leg - prevent knee rotation",
-      "Transition fluidly between submissions and positions - leg locks are a system, not isolated techniques",
-      "Keep chest connection to opponent's leg - breaking this connection loses control",
-      "SAFETY FIRST: Always apply leg locks slowly and progressively with constant communication"
+      "Hide the heel first - keep your trapped knee bent and rotate your heel toward your own hip so the opponent cannot align a finishing heel hook",
+      "Keep the knee line safe - point your knee away from the direction the opponent would rotate to finish, denying the finishing angle",
+      "Use your free leg as a frame - plant your free foot on the opponent's hip to create the space needed to extract the trapped leg",
+      "Fight the grip - strip or prevent the opponent's heel grip with two-on-one hand fighting, because without it their entanglement collapses",
+      "Turn in, not out - rotate toward the entanglement rather than away from it, since turning into the opponent reduces heel hook leverage",
+      "Escape early - act before the opponent advances to saddle or honey hole, where extraction becomes far harder",
+      "SAFETY FIRST: Tap immediately to any heel or knee rotation; never spin explosively against a secured heel grip"
     ],
     "flashcards": [
       {
-        "question": "Your opponent begins stepping over your inside leg to pass - what immediate adjustment prevents this escape?",
-        "answer": "Drive your inside leg deeper across their hip while simultaneously elevating your hips to create a stronger frame. If they're already partway over, turn your body toward them and use your outside leg to hook their stepping leg, potentially converting to X-Guard or sweeping them off-balance. The key is early recognition - as soon as you feel them shifting weight to step over, extend your inside leg forcefully to push their hip away and reset the distance."
+        "question": "Your leg is trapped in inside ashi-garami and the opponent is hunting your heel - what is your single most important defensive priority?",
+        "answer": "Hide the heel. Keep your trapped knee bent and rotate your heel toward your own hip so the opponent cannot align the rotational finishing angle for a heel hook. A bent, hidden heel is dramatically safer than an extended leg with the heel exposed. Only once the heel is protected do you begin working extraction. Never straighten the trapped leg against a secured grip, as full extension hands the opponent the exact mechanics they need to finish."
       },
       {
-        "question": "What are the essential grips for maintaining Inside Ashi-Garami from bottom?",
-        "answer": "The primary grip is the C-grip on opponent's heel - four fingers wrapped around the heel bone with thumb positioned on the Achilles tendon. For finishing, this transitions to figure-four grip with your wrist behind their Achilles. Your outside leg hooks around their trapped leg with your foot near their heel. Inside leg creates a frame across their hip. Chest stays connected to their leg to prevent space. These combined controls form a triangle structure around their trapped leg."
+        "question": "What is the role of your free leg when defending inside ashi-garami from the bottom?",
+        "answer": "Your free leg is your primary escape tool. Plant your free foot on the opponent's hip or inside thigh to frame and create the space you need to slide your trapped knee free. The frame also pushes the opponent's controlling inside leg off your hip, weakening their entanglement. Keep the free leg active and never let it go flat on the mat, because a passive free leg surrenders the only lever you have to manufacture distance and extract."
       },
       {
-        "question": "How do you prevent the most common escape where opponent tries to pull their heel free by retracting their leg?",
-        "answer": "Maintain constant chest-to-leg connection and follow their leg movement by scooting your hips toward them as they pull back. Increase grip pressure on the heel while driving your inside leg into their hip to maintain distance. If they successfully create space, immediately pursue by crawling toward them rather than reaching with arms only. Often their retraction attempt opens Outside Ashi-Garami - follow the leg and transition rather than fighting to maintain the original position."
+        "question": "How do you defend the opponent's heel grip before it becomes a finishing threat?",
+        "answer": "Use two-on-one hand fighting to strip or prevent their grip on your heel. Without a secure C-grip or figure-four behind your Achilles, the opponent cannot generate finishing rotation and their entire entanglement becomes far weaker. Peel one finger or break the connection at the wrist, then immediately work your leg out before they re-grip. Addressing the grip first or simultaneously with leg extraction gives you the cleanest escape."
       },
       {
-        "question": "What grip priorities should you establish when first entering Inside Ashi-Garami from bottom?",
-        "answer": "First priority is heel control with C-grip before opponent can rotate their knee away. Second priority is establishing your inside leg across their hip to control distance. Third priority is securing your outside leg hook behind their knee. Only after these three elements are established should you worry about refining position or threatening submissions. Rushing to attack before establishing these controls results in easy escapes and wasted effort."
+        "question": "Why is turning toward the entanglement safer than rolling away when caught in inside ashi-garami?",
+        "answer": "Turning into the opponent (toward the trapped leg) reduces the heel hook's rotational leverage because it follows the direction your knee can safely move. Rolling or spinning away from the entanglement against a secured heel grip feeds the exact finishing rotation and can cause catastrophic knee ligament damage in fractions of a second. If you must rotate to escape, always rotate in toward the opponent, never out and away."
       },
       {
-        "question": "How do you apply breaking pressure to the ankle without burning excessive energy?",
-        "answer": "Use body mechanics rather than arm strength alone. Pull the heel to your chest and pin it there using your entire upper body weight. To finish the ankle lock, extend your hips away from opponent rather than squeezing with arms. The breaking pressure comes from hip extension driving your body away while the heel remains pinned to your chest. This structural approach can be sustained much longer than trying to muscle the submission with arm strength."
+        "question": "When should you commit to a technical stand-up to escape inside ashi-garami?",
+        "answer": "Commit to standing when you have already protected your heel and can post your free foot to base up, ideally when the opponent's heel grip is loose or broken. Standing changes the angle on your trapped leg and lets you pull the knee free while driving your weight down and back. Do not attempt to stand while the heel grip is tight and your knee is exposed, because loading weight onto a compromised joint can worsen the position or injure your own knee."
       },
       {
-        "question": "Your opponent rotates their knee outward away from you to defend heel exposure - how do you respond to this movement?",
-        "answer": "Immediately switch your angle by turning your entire body to follow their knee rotation. As they rotate out, this often exposes opportunities to transition to Outside Ashi-Garami where your positioning is now advantageous. Alternatively, their outward rotation creates a direct path to straight ankle lock since their foot is now pointed away from you. Don't fight the rotation - use it as a trigger to flow to the next attacking position in the system."
+        "question": "The opponent is threading their leg to advance from inside ashi to honey hole - how do you intervene?",
+        "answer": "Act during the threading window, not after. The instant you feel their outside leg unhook from behind your knee, kick your free leg over their withdrawing leg to block the thread, or explosively rotate your hips to deny the space. If the thread is already partway through and blocking is impossible, counter-thread your own leg to race them to 50-50, which is a far better outcome than arriving in honey hole bottom where finishing danger spikes."
       },
       {
-        "question": "How do you manage energy when defending against an opponent who is aggressively trying to pass over your inside leg?",
-        "answer": "Use frames and angles rather than muscular resistance. Your inside leg should be extended with structural strength rather than constant tension. Between their passing attempts, reset your position with minimal effort. When they commit weight to pass, use their momentum against them by angling off or threatening sweeps that force them to address your offense. If they're burning energy on passing attempts, maintain position efficiently and let them tire while you conserve energy for submissions or transitions when they slow down."
+        "question": "How do you manage energy and stay safe while defending a prolonged inside ashi-garami entanglement?",
+        "answer": "Stay calm and systematic rather than thrashing, because uncontrolled movement burns energy and can feed the finish. Use structural frames - free foot on the hip, bent knee, hidden heel - to hold a safe defensive shell with minimal muscular tension. Reset between the opponent's advances and pick one committed escape rather than attempting several half-measures. Conserve effort for the decisive extraction window when their control momentarily loosens during a transition."
       },
       {
-        "question": "Your opponent manages to stand up while you maintain heel control - how do you recover your leg entanglement or adjust your strategy?",
-        "answer": "Immediately transition your inside leg from hip frame to hooking behind their standing leg at the knee or ankle. This converts your position toward Single Leg X-Guard or creates sweep opportunities. Maintain heel control throughout - their standing creates vulnerability to ankle lock finishes if you can control their base. Use your outside leg to attack their standing leg's balance while threatening the submission. If they establish strong base, consider releasing to pursue guard recovery rather than holding a compromised position."
+        "question": "The opponent's grip momentarily loosens during their adjustment - what do you do?",
+        "answer": "Exploit the window immediately. Frame on their hip with your free leg, retract your trapped knee toward your chest, and pull your heel out along the path of least resistance while their control is weakest. If full extraction is not available, at minimum clear the knee line to a safer angle or counter-entangle into 50-50 to neutralize their offense. The brief loosening during any transition is your highest-percentage chance to escape, so commit fully when you feel it."
       }
     ],
     "decision_tree": [
       {
-        "condition": "If opponent has strong heel defense and keeps knee rotated away from you",
+        "condition": "If your heel is still hidden and the opponent's grip is loose or not yet set",
         "actions": [
           {
-            "technique": "Saddle Entry from Top",
-            "target": "Saddle",
+            "technique": "Ashi Garami Escape",
+            "target": "Open Guard",
             "probability": 65
           },
           {
-            "technique": "Outside Ashi Entry",
-            "target": "Outside Ashi-Garami",
+            "technique": "Leg Extraction from Inside Ashi",
+            "target": "Open Guard",
             "probability": 55
           }
         ]
       },
       {
-        "condition": "If opponent extends leg to create distance and escape",
+        "condition": "If you can post your free foot and base up to change the angle",
         "actions": [
           {
-            "technique": "Straight Ankle Lock Entry",
-            "target": "Straight Ankle Lock Control",
-            "probability": 60
-          },
-          {
-            "technique": "Kneebar",
-            "target": "Kneebar Control",
-            "probability": 50
-          }
-        ]
-      },
-      {
-        "condition": "If opponent's heel is exposed and knee line is controlled",
-        "actions": [
-          {
-            "technique": "Heel Hook",
-            "target": "Saddle",
+            "technique": "Standing Up from Inside Ashi",
+            "target": "Standing Position",
             "probability": 55
           },
           {
-            "technique": "Toe Hold",
-            "target": "Toe Hold Control",
+            "technique": "Back Step",
+            "target": "Open Guard",
             "probability": 45
           }
         ]
       },
       {
-        "condition": "If opponent attempts to establish mirror entanglement",
+        "condition": "If the opponent has strong heel control and you cannot extract cleanly",
         "actions": [
           {
-            "technique": "50-50 Entry from Standing",
+            "technique": "Counter Entangle to 50-50 from Ashi",
             "target": "50-50 Guard",
-            "probability": 60
+            "probability": 50
           },
           {
-            "technique": "Cross Ashi Transition",
-            "target": "Cross Ashi-Garami",
+            "technique": "Guard Recovery from Inside Ashi-Garami",
+            "target": "Open Guard",
+            "probability": 45
+          }
+        ]
+      },
+      {
+        "condition": "If the opponent fully commits to a heel hook finish and exposes their own leg",
+        "actions": [
+          {
+            "technique": "Counter heel hook",
+            "target": "Saddle",
+            "probability": 40
+          },
+          {
+            "technique": "Counter Entangle to 50-50 from Ashi",
+            "target": "50-50 Guard",
             "probability": 50
           }
         ]
       },
       {
-        "condition": "If opponent successfully begins extracting heel",
+        "condition": "If the opponent attempts to advance to saddle or honey hole by threading",
         "actions": [
-          {
-            "technique": "Outside Ashi Entry",
-            "target": "Outside Ashi-Garami",
-            "probability": 55
-          },
           {
             "technique": "Guard Recovery from Inside Ashi-Garami",
             "target": "Open Guard",
-            "probability": 40
+            "probability": 45
+          },
+          {
+            "technique": "Counter Entangle to 50-50 from Ashi",
+            "target": "50-50 Guard",
+            "probability": 50
           }
         ]
       }
     ],
     "common_errors": [
       {
-        "error": "Poor heel control with loose gripping or improper hand configuration",
-        "consequence": "Allows opponent to free their leg and escape the entanglement, eliminates submission opportunities and wastes positional advantage",
-        "correction": "Secure heel with C-grip (four fingers on heel, thumb on Achilles) or figure-four grip depending on submission target, maintain constant pressure with heel pulled against your torso, use entire upper body to control heel rather than just arms"
+        "error": "Leaving the trapped leg straight and the heel exposed",
+        "consequence": "Full leg extension provides the opponent the optimal mechanical configuration for a heel hook finish and can result in immediate knee ligament damage if rotation is applied",
+        "correction": "Keep your trapped knee bent at all times and rotate your heel toward your own hip, using hamstring tension to resist any straightening force - a bent, hidden heel is dramatically harder to finish than a straight one"
       },
       {
-        "error": "Weak inside leg positioning with insufficient hip pressure",
-        "consequence": "Reduces distance control and allows opponent to close distance, pass over inside leg, and escape entanglement while potentially achieving top position",
-        "correction": "Drive inside leg across opponent's hip with active extension, create strong frame with shin or knee, adjust angle as needed to prevent them from stepping over or collapsing distance"
+        "error": "Leaving the free leg passive and flat on the mat",
+        "consequence": "A passive free leg surrenders your primary escape lever, letting the opponent control distance and advance to saddle or honey hole unopposed",
+        "correction": "Keep your free leg active and post the free foot on the opponent's hip or inside thigh to frame, create space, and push their controlling inside leg off your hip"
       },
       {
-        "error": "Static hips without mobility or angle adjustment",
-        "consequence": "Opponent can defend heel position easily, reduces finishing percentage dramatically, makes transitions to better positions difficult",
-        "correction": "Keep hips mobile and constantly adjust angles, practice hip rotation drills, be prepared to move entire body around opponent's leg to maintain optimal attacking angle"
+        "error": "Panicking and spinning explosively away from the entanglement",
+        "consequence": "Rotating away against a secured heel grip feeds the exact finishing force of the heel hook and can cause catastrophic knee injury in fractions of a second",
+        "correction": "Stay calm and systematic; if you must rotate, rotate in toward the opponent rather than away, which reduces heel hook leverage, and tap immediately to any knee rotation"
       },
       {
-        "error": "Losing chest connection to opponent's leg",
-        "consequence": "Creates space for opponent to escape, reduces control quality, makes it easier for them to defend submissions and extract their leg",
-        "correction": "Maintain tight chest-to-leg connection throughout the position, treat opponent's leg like you would control an opponent's back - constant connection with no space"
+        "error": "Ignoring the opponent's heel grip while only fighting the leg",
+        "consequence": "Even a partial leg extraction fails if the heel grip remains, because the opponent can re-attach the entanglement or finish during your escape attempt",
+        "correction": "Strip or prevent the heel grip with two-on-one hand fighting first or simultaneously with extraction - without the grip the opponent's entanglement is significantly weakened"
       },
       {
-        "error": "Attempting heel hooks before mastering straight ankle locks",
-        "consequence": "Dangerous for training partners due to lack of control and understanding, leads to injuries and poor technical development, skips fundamental learning progression",
-        "correction": "Master straight ankle locks from Inside Ashi for minimum 6-12 months before attempting heel hooks, work with experienced coach, progress gradually with safety as priority"
+        "error": "Waiting passively for the opponent to advance instead of escaping early",
+        "consequence": "Allowing the opponent to thread to saddle or honey hole drops your escape percentage dramatically as control and finishing leverage increase",
+        "correction": "Act during the earliest control gap, especially when the opponent transitions or their grip loosens, committing fully to extraction or a counter-entangle to 50-50 before they consolidate"
       },
       {
-        "error": "Ignoring opponent's free leg and allowing them to establish frames",
-        "consequence": "Opponent uses free leg to create distance, establish defensive frames, and potentially escape or counter with their own leg attacks",
-        "correction": "Monitor and control opponent's free leg with hand fighting, use grips to prevent them from establishing strong frames, be aware of counter-entanglement threats"
+        "error": "Attempting to stand up while the knee line is still exposed",
+        "consequence": "Loading weight onto a compromised, exposed leg can worsen the position by improving the opponent's finishing angle or injuring your own knee",
+        "correction": "Protect and hide the heel first, then base up with the free foot to change the angle - standing should follow heel safety, not precede it"
       }
     ],
     "training_drills": [
       {
-        "name": "Inside Ashi Entry and Control Progression",
-        "description": "Practice entering Inside Ashi from various positions including open guard, scrambles, and transitions with progressive resistance starting at 0%, then 25%, then 50%. Focus on securing proper heel control and establishing correct leg positioning before opponent can defend. Spend 3-5 minutes per resistance level.",
+        "name": "Heel Protection and Knee-Line Drill",
+        "description": "Partner establishes inside ashi-garami and slowly hunts your heel while you drill keeping the trapped knee bent and the heel rotated to your hip. Focus purely on denying the finishing angle with no escape attempts yet. Build the reflexive habit of hiding the heel under increasing grip pressure. Spend 3-5 minutes, then switch roles.",
+        "duration": "10-15 minutes"
+      },
+      {
+        "name": "Free-Leg Framing and Extraction Drill",
+        "description": "From inside ashi-garami bottom, drill posting your free foot on the partner's hip to frame, create space, and slide your trapped knee free. Start with no resistance, then progress to 25% and 50%. Emphasize using the free leg as the lever and extracting along the path of least resistance rather than muscling the leg out.",
         "duration": "15-20 minutes"
       },
       {
-        "name": "Straight Ankle Lock Mastery from Inside Ashi",
-        "description": "Drill straight ankle locks exclusively from Inside Ashi for extended period (minimum 3-6 months) before progressing to heel hooks. Develop proper mechanics including heel control, hip positioning, and finishing pressure. Practice both finishing the submission and recognizing when opponent defends successfully. This builds foundational control necessary for safe heel hook training.",
-        "duration": "10-15 minutes per session"
-      },
-      {
-        "name": "Leg Entanglement Position Flow Drill",
-        "description": "Flow between Inside Ashi, Outside Ashi, 50-50, Cross Ashi, and Saddle positions without resistance, learning to recognize optimal moments for transitions and maintaining control throughout position changes. Partner provides light positional resistance. Focus on smooth transitions while maintaining constant leg control.",
+        "name": "Hand-Fighting the Heel Grip Drill",
+        "description": "Partner secures a C-grip or figure-four on your heel while you practice two-on-one breaks and grip prevention. Once the grip is broken, immediately extract or clear the knee line before they re-grip. Focus on linking grip stripping to leg extraction as one continuous defensive action rather than separate steps.",
         "duration": "10-12 minutes"
       },
       {
-        "name": "Inside Ashi Escape Defense Drill",
-        "description": "Partner attempts common escapes (heel extraction, knee rotation, hip escape, backstep) while you maintain position and counter with transitions or submissions. Practice recognizing escape attempts early and responding with appropriate counters. Alternate roles every 2-3 minutes.",
+        "name": "Inside Ashi Escape Sparring Drill",
+        "description": "Positional sparring starting with you trapped in inside ashi-garami bottom. Partner attempts to advance or finish while you select and execute the best escape: extraction, technical stand-up, or counter-entangle to 50-50. Practice recognizing the control gap during transitions and committing fully. Alternate roles every 2-3 minutes.",
         "duration": "10-15 minutes"
       }
     ],
     "related_content": [
       {
         "name": "Saddle",
-        "relationship": "Primary advancement target - more dominant leg entanglement"
+        "relationship": "Danger position to avoid - the opponent's advancement target if you fail to escape"
       },
       {
         "name": "Outside Ashi-Garami",
-        "relationship": "Common transition when inside heel is defended"
+        "relationship": "Common entanglement the opponent shifts to when you hide the inside heel"
       },
       {
         "name": "50-50 Guard",
-        "relationship": "Mirror entanglement that can develop from Inside Ashi"
+        "relationship": "Neutralizing counter-entanglement you can reach to equalize the exchange"
       },
       {
         "name": "Cross Ashi-Garami",
-        "relationship": "Alternative leg entanglement configuration"
+        "relationship": "Alternative entanglement the opponent may reconfigure into"
       },
       {
         "name": "Kneebar Control",
-        "relationship": "Submission position when opponent extends leg"
+        "relationship": "Submission threat to avoid if you straighten the trapped leg"
       },
       {
         "name": "Single Leg X-Guard",
-        "relationship": "Related leg control position with different strategic purpose"
+        "relationship": "Related leg position you can recover toward when extracting"
       },
       {
         "name": "Straight Ankle Lock",
-        "relationship": "Foundational submission from this position"
+        "relationship": "Primary submission threat against your trapped foot from this position"
       },
       {
         "name": "Inside Heel Hook",
-        "relationship": "Advanced submission requiring proper training progression"
+        "relationship": "Most dangerous submission threat - the reason heel protection is priority one"
       },
       {
         "name": "Leg Entanglement",
@@ -619,88 +619,44 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "value": 60
+        "value": 30
       },
       "advancement_probability": {
-        "value": 60
+        "value": 45
       },
       "submission_probability": {
-        "value": 42
+        "value": 8
       },
-      "average_time": "20-45 seconds before submission or position change"
+      "average_time": "20-45 seconds before escape or position change"
     },
     "transitions": [
       {
-        "transition": "Heel Hook from Inside Ashi-Garami",
-        "attempt_probability": 4
-      },
-      {
-        "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": 33
-      },
-      {
-        "transition": "Saddle Entry from Top",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Outside Ashi Entry",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Kneebar Finish",
-        "attempt_probability": 4
-      },
-      {
-        "transition": "Toe Hold from Inside Ashi-Garami",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "50-50 Entry",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Inside Ashi-Garami to Honey Hole",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Inside Ashi-Garami to Cross Ashi",
-        "attempt_probability": 3
+        "transition": "Ashi Garami Escape",
+        "attempt_probability": 45
       },
       {
         "transition": "Guard Recovery from Inside Ashi-Garami",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "Counter Entangle to 50-50 from Ashi",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Leg Extraction from Inside Ashi",
-        "attempt_probability": 2
+        "attempt_probability": 18
       },
       {
         "transition": "Standing Up from Inside Ashi",
-        "attempt_probability": 2
+        "attempt_probability": 12
       },
       {
-        "transition": "Achilles Lock",
-        "attempt_probability": 2
+        "transition": "Leg Extraction from Inside Ashi",
+        "attempt_probability": 10
       },
       {
-        "transition": "Inside Heel Hook from Inside Ashi-Garami",
-        "attempt_probability": 2
+        "transition": "Counter Entangle to 50-50 from Ashi",
+        "attempt_probability": 8
       },
       {
-        "transition": "Aoki Lock",
-        "attempt_probability": 2
+        "transition": "Back Step",
+        "attempt_probability": 4
       },
       {
-        "transition": "Achilles Lock from Inside Ashi-Garami",
+        "transition": "Counter heel hook",
         "attempt_probability": 3
-      },
-      {
-        "transition": "Toe Hold from Top",
-        "attempt_probability": 2
       }
     ]
   }

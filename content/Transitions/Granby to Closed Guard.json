@@ -14,7 +14,7 @@
   "from_position": "Turtle/Bottom",
   "outcomes": [
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 65,
       "result": "success"
     },

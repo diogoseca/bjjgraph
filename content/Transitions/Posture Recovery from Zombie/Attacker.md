@@ -245,7 +245,7 @@ As the attacker executing Posture Recovery from Zombie, your objective is to sys
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 48% |
+| Success | [[Positions/Half Guard]] | 48% |
 | Failure | [[Positions/Rubber Guard/Zombie]] | 32% |
 | Counter | [[Positions/Closed Guard]] | 20% |
 

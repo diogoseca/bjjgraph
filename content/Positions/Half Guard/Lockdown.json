@@ -63,7 +63,7 @@
     "overview": "Lockdown Top represents the defensive perspective against 10th Planet's signature lockdown half guard system. From this position, the top practitioner must navigate the challenging task of freeing their trapped leg from the figure-four lock while defending against constant sweep attempts, submission threats, and back take opportunities. The position requires a systematic approach to leg extraction, posture maintenance, and pressure application to neutralize the bottom player's offensive advantages. Success from Lockdown Top depends on understanding the lockdown's mechanical principles and exploiting its weaknesses through proper weight distribution, grip control, and strategic leg extraction sequences. The top player must balance defensive priorities (preventing sweeps and submissions) with offensive passing opportunities, often requiring patient, methodical pressure to break down the lockdown control before completing passes to dominant positions.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Offensive",
+      "position_type": "Defensive",
       "risk_level": "Medium to High",
       "energy_cost": "Medium",
       "time_sustainability": "Medium"
@@ -313,7 +313,11 @@
       },
       {
         "transition": "Leg Extraction to Combat Base",
-        "attempt_probability": 37
+        "attempt_probability": 27
+      },
+      {
+        "transition": "Lockdown Escape to Half Guard Pass",
+        "attempt_probability": 10
       },
       {
         "transition": "Lockdown to Z-Lock Half Guard",
@@ -348,7 +352,7 @@
     "overview": "Lockdown Bottom is 10th Planet's signature half guard variation where the bottom practitioner uses a triangled leg configuration to control the opponent's trapped leg. This 10th Planet system position transforms traditional half guard from a stalling position into a dynamic offensive platform. The lockdown prevents the top player from completing passes while creating leverage for sweeps and back takes. By extending and controlling the trapped leg, the bottom practitioner can off-balance opponents, create angles, and attack with the whip-up, Old School sweep, and Electric Chair submissions. The position emphasizes active offense over passive defense, using the leg triangle as both a retention mechanism and an attacking lever. This position revolutionized half guard play in no-gi grappling and has become a fundamental component of modern BJJ game plans.",
     "state_properties": {
       "point_value": 0,
-      "position_type": "Defensive with offensive options",
+      "position_type": "Offensive",
       "risk_level": "Low to Medium",
       "energy_cost": "Medium",
       "time_sustainability": "Medium to Long"

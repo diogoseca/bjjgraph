@@ -19,7 +19,7 @@
   "starting_position": "Kuzure Kesa-Gatame",
   "from_position": "Kuzure Kesa-Gatame/Top",
   "success_rate": 68,
-  "summary": "The Americana from Kuzure Kesa-Gatame is a figure-four shoulder lock applied from the modified scarf hold, using the position's pre-trapped near arm to force internal rotation of the glenohumeral joint until the opponent taps.",
+  "summary": "The Americana from Kuzure Kesa-Gatame is a figure-four shoulder lock applied from the modified scarf hold, using the position's pre-trapped near arm to force external rotation of the glenohumeral joint until the opponent taps.",
   "overview": "The Americana from Kuzure Kesa-Gatame exploits the inherent arm isolation of modified scarf hold to create one of the highest-percentage shoulder lock finishes available from any side control variant. Unlike the Americana from standard side control or mount, where the attacker must first win an arm isolation battle, Kuzure Kesa-Gatame provides the arm already trapped between the attacker's armpit and chest. This pre-existing control eliminates the most failure-prone phase of the submission sequence and dramatically increases finishing reliability, making it a natural and high-percentage attacking option whenever this position is established.\n\nThe finishing mechanics differ from other Americana entries in several critical ways. The attacker's seated base creates a unique leverage angle where hip pressure pins the opponent's shoulder to the mat while the figure-four grip paints the arm toward the hip. The low chest position and constant rib pressure prevent the standard Americana defense of bridging into the attacker, and the arm's trapped position makes the common grab-your-own-wrist defense substantially harder to execute. The combination of positional pressure and submission leverage creates a cascading defensive problem where addressing one threat directly exposes the other.\n\nStrategically, the Americana from Kuzure Kesa-Gatame anchors a submission chain that includes the kimura, straight armbar, and arm triangle. When opponents defend the Americana by straightening their trapped arm, the armbar becomes immediately available. When they turn into the attacker to relieve rotational shoulder pressure, the arm triangle setup opens. This interconnected threat network makes Kuzure Kesa-Gatame one of the most dangerous submission positions in grappling and represents an essential weapon for any practitioner developing a systematic top game.",
   "safety_considerations": {
     "injury_risks": [
@@ -193,7 +193,7 @@
       {
         "step_number": 6,
         "action": "Paint the arm toward the hip",
-        "description": "Begin sliding their hand along the mat in a controlled arc toward their hip while simultaneously applying upward pressure on their elbow through your figure-four grip. This coordinated dual motion creates internal rotation at the shoulder joint that attacks the rotator cuff and capsular ligaments. Move slowly and progressively over three to five seconds.",
+        "description": "Begin sliding their hand along the mat in a controlled arc toward their hip while simultaneously applying upward pressure on their elbow through your figure-four grip. This coordinated dual motion creates external rotation at the shoulder joint that attacks the rotator cuff and capsular ligaments. Move slowly and progressively over three to five seconds.",
         "timing": "3-5 seconds of progressive pressure"
       },
       {
@@ -291,7 +291,7 @@
     "flashcards": [
       {
         "question": "What anatomical structures does the Americana from Kuzure Kesa-Gatame specifically attack?",
-        "answer": "The Americana attacks the glenohumeral joint through forced internal rotation, stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the associated ligaments. The paint motion creates maximum torque on these structures by using the forearm as a lever against the pinned shoulder, with the elbow serving as the fulcrum point.",
+        "answer": "The Americana attacks the glenohumeral joint through forced external rotation, stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the associated ligaments. The paint motion creates maximum torque on these structures by using the forearm as a lever against the pinned shoulder, with the elbow serving as the fulcrum point.",
         "safety_critical": false
       },
       {

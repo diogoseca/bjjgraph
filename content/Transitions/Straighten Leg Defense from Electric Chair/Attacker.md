@@ -16,7 +16,7 @@ description: "Master the Straighten Leg Defense from Electric Chair as the top p
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Straighten Leg Defense from Electric Chair in BJJ",
-  "description": "Step-by-step guide for executing Straighten Leg Defense from Electric Chair from Electric Chair/Bottom.",
+  "description": "Step-by-step guide for executing Straighten Leg Defense from Electric Chair from Electric Chair/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,7 +180,7 @@ description: "Master the Straighten Leg Defense from Electric Chair as the top p
 
 As the top player caught in the Electric Chair, executing the Straighten Leg Defense requires understanding the biomechanics of the lockdown configuration and the specific angle of force needed to overcome the figure-four entanglement. The defense begins with recognizing the Electric Chair setup before full extension is achieved, then systematically driving the trapped leg straight while maintaining forward pressure through your chest and crossface. Success depends on combining leg extension with proper upper body control to prevent the bottom player from converting your defensive movement into a sweep opportunity. The technique demands patience and proper force direction—engaging the posterior chain through the hip rather than simply kicking at the knee—to generate the sustained pressure that breaks down the lockdown's mechanical advantage.
 
-**From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
 

@@ -10,7 +10,7 @@ description: "Master attacking the Kimura from Modified Scarf Hold. Step-by-step
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kimura from Modified Scarf Hold targets the Shoulder and elbow joint. Risk: Shoulder dislocation or torn rotator cuff from excessive external rotation. Release immediately upon tap.
+> **SAFETY**: Kimura from Modified Scarf Hold targets the Shoulder joint, rotator cuff, and shoulder capsule. Risk: Shoulder dislocation or torn rotator cuff from excessive internal rotation. Release immediately upon tap.
 
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
@@ -59,7 +59,7 @@ description: "Master attacking the Kimura from Modified Scarf Hold. Step-by-step
     {
       "@type": "HowToStep",
       "name": "Apply finishing rotational pressure",
-      "text": "Continue the external rotation until you meet significant resistance from the shoulder joint reaching its range-of-motion limit. Apply steady, progressive pressure by continuing to walk the wrist behind their back and toward the ceiling. Monitor the opponent's reactions carefully for tap signals. The shoulder approaches its structural limit before pain fully registers, so apply pressure slowly enough that your partner has time to tap.",
+      "text": "Continue the internal rotation until you meet significant resistance from the shoulder joint reaching its range-of-motion limit. Apply steady, progressive pressure by continuing to walk the wrist behind their back and toward the ceiling. Monitor the opponent's reactions carefully for tap signals. The shoulder approaches its structural limit before pain fully registers, so apply pressure slowly enough that your partner has time to tap.",
       "position": 7
     },
     {
@@ -85,7 +85,7 @@ description: "Master attacking the Kimura from Modified Scarf Hold. Step-by-step
       "name": "What anatomical structures does the Kimura from Modified Scarf Hold primarily attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The kimura primarily attacks the shoulder joint through forced external rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule. Secondary stress is placed on the elbow joint through the combined rotational and extension forces transmitted through the forearm lever. The glenohumeral ligaments and labrum are at greatest risk of injury when the submission is applied past the shoulder's natural range of external rotation."
+        "text": "The kimura primarily attacks the shoulder joint through forced internal rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule. Secondary stress is placed on the elbow joint through the combined rotational and extension forces transmitted through the forearm lever. The glenohumeral ligaments and labrum are at greatest risk of injury when the submission is applied past the shoulder's natural range of internal rotation."
       }
     },
     {
@@ -236,7 +236,7 @@ Executing the Kimura from Modified Scarf Hold requires methodical progression fr
 4. **Clear the elbow from the ribs**: Use your hip pressure and body weight to pry the opponent's elbow away from their ribcage. Drive your hips forward into their arm while lifting with the figure-four grip to create separation between their elbow and their body. This is often the most contested phase—if their elbow stays connected to their ribs, the finish becomes extremely difficult. Use your near knee to wedge underneath their elbow if necessary. (Timing: 3-8 seconds depending on resistance)
 5. **Pin the upper arm to the mat**: Once the elbow clears the ribs, drive the opponent's upper arm to the mat using downward pressure from your chest and shoulder weight. Position yourself so that your body weight helps pin their upper arm against the ground. This creates the fulcrum point required for the rotational finish and prevents the defender from retracting the arm back toward their body or reconnecting elbow to ribs. (Timing: 1-2 seconds to establish pin)
 6. **Walk the wrist behind the opponent's back**: Begin rotating their forearm behind their back by walking the wrist in small controlled increments toward their far hip and then toward the ceiling. Use your entire upper body turning motion rather than isolated hand movement. Your figure-four grip stays tight while your body rotation generates the torque. Small controlled movements accumulate into irresistible rotational force on the shoulder joint. (Timing: 3-5 seconds of progressive rotation)
-7. **Apply finishing rotational pressure**: Continue the external rotation until you meet significant resistance from the shoulder joint reaching its range-of-motion limit. Apply steady, progressive pressure by continuing to walk the wrist behind their back and toward the ceiling. Monitor the opponent's reactions carefully for tap signals. The shoulder approaches its structural limit before pain fully registers, so apply pressure slowly enough that your partner has time to tap. (Timing: 2-4 seconds of controlled finishing pressure)
+7. **Apply finishing rotational pressure**: Continue the internal rotation until you meet significant resistance from the shoulder joint reaching its range-of-motion limit. Apply steady, progressive pressure by continuing to walk the wrist behind their back and toward the ceiling. Monitor the opponent's reactions carefully for tap signals. The shoulder approaches its structural limit before pain fully registers, so apply pressure slowly enough that your partner has time to tap. (Timing: 2-4 seconds of controlled finishing pressure)
 8. **Secure the tap and release safely**: Maintain finishing pressure until the opponent signals submission through verbal or physical tap. Once any tap signal is received, release the grip immediately by gently lowering the arm back to a neutral position. Do not drop the arm suddenly. Return to Modified Scarf Hold control or disengage as appropriate for the training or competition context. Check your partner's shoulder comfort after release. (Timing: Immediate release upon tap signal)
 
 

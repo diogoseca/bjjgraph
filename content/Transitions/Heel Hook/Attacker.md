@@ -235,7 +235,7 @@ Your body mechanics drive the finish, not arm strength. The rotation comes from 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Heel Hook]] | 55% |
+| Success | [[game-over]] | 55% |
 | Failure | [[Positions/Ashi Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 

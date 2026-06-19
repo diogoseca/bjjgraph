@@ -65,7 +65,7 @@ The rolling motion works by using momentum and body rotation to change the angle
 
 Success depends heavily on recognizing the exact moment when your opponent is committed forward to the finish and cannot easily adjust their base to follow your roll. The technique represents a last-resort option in the Kimura defense hierarchy, employed only after conventional defenses such as grip fighting, posture recovery, and hip escape have been exhausted. Understanding the biomechanics of the Kimura lock progression is essential for identifying the narrow timing window where this escape becomes viable without excessive injury risk.
 
-**From Position**: [[Positions/Rubber Guard/Carni]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 **Success Rate**: 55%
 
 </section>

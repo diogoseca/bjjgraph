@@ -12,7 +12,7 @@
     "arm-isolation",
     "advanced"
   ],
-  "from_position": "Armbar Control/Top",
+  "from_position": "Mounted Crucifix/Top",
   "outcomes": [
     {
       "to": "Armbar Control/Top",

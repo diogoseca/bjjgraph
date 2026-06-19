@@ -24,7 +24,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Side Control/Bottom",
       "probability": 15,
       "result": "counter"
     }
@@ -149,7 +149,7 @@
         "counter": "Opponent steps over your bottom leg to prevent the scissor motion",
         "effectiveness": "Medium",
         "your_response": "Convert to a Hook Sweep using the top leg as a hook, or transition to Flower Sweep by switching your leg positioning",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Closed Guard/Bottom"
       },
       {
         "counter": "Opponent grips your pants at the knees to control your legs",
@@ -297,8 +297,8 @@
       {
         "action": "Step over the bottom leg (the shin across your abdomen) by driving your knee past their leg and re-establishing base on the other side",
         "when_to_use": "When you recognize the shin placement across your abdomen early before the full scissor motion develops, and you have enough posture to move your hips",
-        "targets_outcome": "Closed Guard/Top",
-        "if_successful": "You neutralize the sweep entirely by removing the pushing leg from the equation and can immediately initiate a guard pass from the new angle",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You neutralize the sweep entirely by removing the pushing leg from the equation and can immediately initiate a guard pass from the new angle, passing through to side control",
         "risk": "If mistimed, stepping over can result in your leg being caught in half guard or the opponent converting to a different sweep using your movement"
       },
       {
@@ -311,8 +311,8 @@
       {
         "action": "Drive your weight forward and sprawl your hips into the bottom player, flattening their angle and collapsing the space needed for the scissor motion",
         "when_to_use": "When you have strong posture and feel the opponent beginning to create the perpendicular angle but before their legs are fully positioned",
-        "targets_outcome": "Closed Guard/Top",
-        "if_successful": "You crush the sweep setup by denying the space and angle required, and can use the forward pressure to begin your own guard opening sequence",
+        "targets_outcome": "Side Control/Bottom",
+        "if_successful": "You crush the sweep setup by denying the space and angle required, and can use the forward pressure to begin your own guard opening sequence and pass to side control",
         "risk": "Driving forward with broken posture plays directly into the sweep - this defense only works when you have structural integrity in your spine and base"
       }
     ],
@@ -322,8 +322,8 @@
         "how": "Maintain strong posture and wide base throughout. Strip grips proactively to deny the setup. Post your free hand immediately when you feel lateral pressure. Once the sweep attempt fails, recover your grips and resume your guard passing strategy from inside their now-open guard."
       },
       {
-        "outcome": "Closed Guard/Top",
-        "how": "Step over the bottom leg when you recognize the shin placement early, landing on the opposite side with your base re-established. Alternatively, use the opponent's failed sweep attempt to initiate a guard pass by immediately pinning their legs and advancing to a dominant angle while they are recovering from the failed technique."
+        "outcome": "Side Control/Bottom",
+        "how": "Step over the bottom leg when you recognize the shin placement early, landing on the opposite side with your base re-established. Use the opponent's failed sweep attempt to drive an immediate guard pass: their guard is already open from the sweep entry, so pin their legs, clear the knee line, and advance to a dominant angle, passing through to side control while they are recovering from the failed technique."
       }
     ],
     "common_errors": [

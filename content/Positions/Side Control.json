@@ -120,11 +120,11 @@
     "transitions": [
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 34
+        "attempt_probability": 31
       },
       {
         "transition": "Knee on Belly",
-        "attempt_probability": 8
+        "attempt_probability": 6
       },
       {
         "transition": "Side Control to North-South",
@@ -133,6 +133,10 @@
       {
         "transition": "Arm Triangle from Side Control",
         "attempt_probability": 5
+      },
+      {
+        "transition": "Arm Triangle from Top",
+        "attempt_probability": 4
       },
       {
         "transition": "Ezekiel Choke from Side Control",
@@ -176,7 +180,7 @@
       },
       {
         "transition": "Kimura from Side Control",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Kneebar Finish",
@@ -237,6 +241,10 @@
       {
         "transition": "Von Flue Choke from Side Control",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Side Control to Kuzure Kesa-Gatame",
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [
@@ -480,19 +488,19 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 41
+        "attempt_probability": 38
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 20
+        "attempt_probability": 19
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Side Control Escape",
@@ -500,7 +508,7 @@
       },
       {
         "transition": "Ghost Escape from Side Control",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Sit Out from Side Control",
@@ -517,6 +525,10 @@
       {
         "transition": "Hip Escape from Side Control",
         "attempt_probability": 1
+      },
+      {
+        "transition": "Buggy Choke from Bottom Side Control",
+        "attempt_probability": 7
       }
     ],
     "decision_tree": [

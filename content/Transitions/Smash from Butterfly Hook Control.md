@@ -78,7 +78,7 @@ Strategic integration of the butterfly smash into a broader passing system creat
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 55% |
 | Failure | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 30% |
-| Counter | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>

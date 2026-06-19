@@ -132,17 +132,17 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (41% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (38% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (20% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (19% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (16% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (8% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (7% of attempts)
 
 - **[[Transitions/Side Control Escape/Attacker|Side Control Escape]]** (3% of attempts)
 
-- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (10% of attempts)
+- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (9% of attempts)
 
 - **[[Transitions/Sit Out from Side Control/Attacker|Sit Out from Side Control]]** (1% of attempts)
 
@@ -151,6 +151,8 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 - **[[Transitions/Frame from Side Control/Attacker|Frame from Side Control]]** (0% of attempts)
 
 - **[[Transitions/Hip Escape from Side Control/Attacker|Hip Escape from Side Control]]** (1% of attempts)
+
+- **[[Transitions/Buggy Choke from Bottom Side Control/Attacker|Buggy Choke from Bottom Side Control]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -211,13 +213,15 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (34% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (31% of attempts)
 
-- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (8% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (6% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (5% of attempts)
 
 - **[[Arm Triangle from Side Control/Attacker|Arm Triangle from Side Control]]** (5% of attempts)
+
+- **[[Transitions/Arm Triangle from Top/Attacker|Arm Triangle from Top]]** (4% of attempts)
 
 - **[[Ezekiel Choke from Side Control/Attacker|Ezekiel Choke from Side Control]]** (1% of attempts)
 
@@ -239,7 +243,7 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 - **[[Far Side Armbar from Side Control/Attacker|Far Side Armbar from Side Control]]** (1% of attempts)
 
-- **[[Kimura from Side Control/Attacker|Kimura from Side Control]]** (10% of attempts)
+- **[[Kimura from Side Control/Attacker|Kimura from Side Control]]** (9% of attempts)
 
 - **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (1% of attempts)
 
@@ -270,6 +274,8 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 - **[[Triangle Choke Side from Side Control/Attacker|Triangle Choke Side from Side Control]]** (1% of attempts)
 
 - **[[Von Flue Choke from Side Control/Attacker|Von Flue Choke from Side Control]]** (1% of attempts)
+
+- **[[Transitions/Side Control to Kuzure Kesa-Gatame/Attacker|Side Control to Kuzure Kesa-Gatame]]** (2% of attempts)
 
 
 ### Common Mistakes

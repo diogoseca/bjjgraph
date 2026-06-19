@@ -20,8 +20,8 @@ description: "Escape the mounted crucifix position in BJJ. Comprehensive guide c
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 32% of exchanges from this position.",
+      "name": "Execute Hip Escape from Mounted Crucifix",
+      "text": "From this position, attempt Hip Escape from Mounted Crucifix. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {

@@ -18,12 +18,12 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 70,
+      "probability": 60,
       "result": "success"
     },
     {
       "to": "Clinch/Top",
-      "probability": 20,
+      "probability": 30,
       "result": "failure"
     },
     {

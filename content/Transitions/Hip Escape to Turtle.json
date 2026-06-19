@@ -11,7 +11,7 @@
     "hip-escape",
     "back-defense"
   ],
-  "from_position": "Body Triangle/Top",
+  "from_position": "Body Triangle/Bottom",
   "outcomes": [
     {
       "to": "Turtle/Bottom",
@@ -19,7 +19,7 @@
       "result": "success"
     },
     {
-      "to": "Body Triangle/Top",
+      "to": "Body Triangle/Bottom",
       "probability": 30,
       "result": "failure"
     },
@@ -138,19 +138,19 @@
         "counter": "Opponent increases squeeze pressure when you turn toward the triangle leg, crushing your ribs harder",
         "effectiveness": "High",
         "your_response": "Pause the escape attempt and focus on breathing management. Wait for them to adjust their grip or relax slightly before continuing. The increased squeeze is metabolically costly for them and cannot be maintained at maximum indefinitely.",
-        "targets_outcome": "Body Triangle/Top"
+        "targets_outcome": "Body Triangle/Bottom"
       },
       {
         "counter": "Opponent attacks your neck aggressively as soon as you redirect attention to clearing the triangle",
         "effectiveness": "High",
         "your_response": "Immediately return to neck defense with chin tucked and hands protecting. Accept that escapes from body triangle require iterative attempts - defend the choke first, then resume triangle clearing work when the neck threat is neutralized.",
-        "targets_outcome": "Body Triangle/Top"
+        "targets_outcome": "Body Triangle/Bottom"
       },
       {
         "counter": "Opponent follows your hip escape by adjusting their hip position to maintain optimal squeezing angle",
         "effectiveness": "Medium",
         "your_response": "Continue hip escaping in the same direction - they cannot follow indefinitely without compromising their own base and chest-to-back connection. Each adjustment they make creates micro-opportunities and fatigues their positioning.",
-        "targets_outcome": "Body Triangle/Top"
+        "targets_outcome": "Body Triangle/Bottom"
       },
       {
         "counter": "Opponent transitions to standard hooks when they feel the triangle failing, maintaining back control",
@@ -288,21 +288,21 @@
       {
         "action": "Increase squeeze pressure and pull opponent back to center alignment when they begin turning toward the triangle leg",
         "when_to_use": "As soon as you feel opponent rotating their shoulders toward your triangle leg side, before they complete the turn",
-        "targets_outcome": "Body Triangle/Top",
+        "targets_outcome": "Body Triangle/Bottom",
         "if_successful": "Opponent is forced back to a flat or neutral position where the squeeze is maximally effective and their escape angle is eliminated",
         "risk": "Sustained maximum squeeze is metabolically expensive and your legs will fatigue if you maintain peak pressure for extended periods"
       },
       {
         "action": "Attack the neck with rear naked choke or collar choke whenever opponent moves their hands from neck defense to work on the triangle lock",
         "when_to_use": "The moment opponent removes their defensive hand from their neck to push on your ankle or foot, creating an immediate window for choke entry",
-        "targets_outcome": "Body Triangle/Top",
+        "targets_outcome": "Body Triangle/Bottom",
         "if_successful": "Opponent must abandon triangle clearing to defend neck, resetting their escape and potentially leading to submission finish",
         "risk": "If your choke attempt is defended, you may briefly loosen your upper body control, giving opponent a window to continue escape work"
       },
       {
         "action": "Follow opponent's hip escape with your own hip adjustment to maintain optimal squeezing angle and chest-to-back connection",
         "when_to_use": "When opponent shrimps or hip escapes to create distance between their body and your locked legs",
-        "targets_outcome": "Body Triangle/Top",
+        "targets_outcome": "Body Triangle/Bottom",
         "if_successful": "You negate the space creation and maintain the same relative position, forcing opponent to restart their escape sequence",
         "risk": "Following too aggressively can compromise your own base and potentially allow opponent to roll you or create scramble opportunities"
       },
@@ -316,7 +316,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Body Triangle/Top",
+        "outcome": "Body Triangle/Bottom",
         "how": "Shut down the escape at the earliest phase by maintaining tight chest-to-back connection, following hip movement, and attacking the neck whenever opponent redirects their hands to work on the lock. Periodically re-set your figure-four lock depth to prevent gradual loosening."
       },
       {

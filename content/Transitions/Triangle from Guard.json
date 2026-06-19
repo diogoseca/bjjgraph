@@ -12,7 +12,7 @@
     "mission control",
     "10th planet"
   ],
-  "from_position": "Worm Guard/Bottom",
+  "from_position": "Mission Control/Bottom",
   "outcomes": [
     {
       "to": "Triangle Control/Bottom",

@@ -77,7 +77,7 @@ description: "How to defend against Kimura from Turtle in BJJ. Recognition, esca
       "name": "Why should you roll toward the trapped arm side rather than away from it when escaping the Kimura from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rolling toward the trapped arm side is biomechanically correct because it reduces the Kimura's rotational angle and disrupts the attacker's leverage. The Kimura works by rotating your forearm toward your head or back - rolling toward the trapped arm moves your body in the opposite direction of the lock's force, effectively neutralizing the rotation. Rolling away from the trapped arm (toward the attacker) actually accelerates the Kimura's rotational mechanism and can cause the attacker to finish the submission during your escape attempt. The correct roll pulls the attacker over you and typically results in guard or half guard recovery where the Kimura angle is neutralized."
+        "text": "Rolling toward the trapped arm side is biomechanically correct because it reduces the Kimura's rotational angle and disrupts the attacker's leverage. The Kimura works by rotating your forearm toward your lower back, driving your wrist behind you (internal rotation) - rolling toward the trapped arm moves your body in the same direction as the lock's force, taking the slack out of the rotation and neutralizing it. Rolling away from the trapped arm (toward the attacker) actually accelerates the Kimura's rotational mechanism and can cause the attacker to finish the submission during your escape attempt. The correct roll pulls the attacker over you and typically results in guard or half guard recovery where the Kimura angle is neutralized."
       }
     },
     {

@@ -21,13 +21,13 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pull",
-      "text": "From this position, attempt Guard Pull. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Guard Pull. This technique is attempted in 33% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Double Leg Setup",
-      "text": "From this position, attempt Double Leg Setup. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Sprawl Defense from Standing",
+      "text": "From this position, attempt Sprawl Defense from Standing. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
@@ -38,20 +38,20 @@ description: "Master standing position in BJJ. Complete guide covering grips, ta
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sprawl",
-      "text": "From this position, attempt Sprawl. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Double Leg Setup",
+      "text": "From this position, attempt Double Leg Setup. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Double Leg Entry",
-      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Sprawl",
+      "text": "From this position, attempt Sprawl. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Knee Tap",
+      "text": "From this position, attempt Knee Tap. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],

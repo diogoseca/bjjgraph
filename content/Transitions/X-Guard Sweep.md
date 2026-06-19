@@ -39,7 +39,7 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "X-Guard Sweep",
-  "description": "The X-Guard Sweep is a high-percentage bottom-position sweep that elevates a standing opponent's trapped leg with the inside hook while controlling their other leg, destroying their base to topple them into mount or side control.",
+  "description": "The X-Guard Sweep is a high-percentage bottom-position sweep that elevates a standing opponent's trapped leg with the inside hook while controlling their other leg, destroying their base so you come up to a dominant top passing position.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -57,7 +57,7 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
 
 <section id="overview" class="content-section">
 
-**The X-Guard Sweep is a high-percentage bottom-position sweep that elevates a standing opponent's trapped leg with the inside hook while controlling their other leg, destroying their base to topple them into mount or side control.**
+**The X-Guard Sweep is a high-percentage bottom-position sweep that elevates a standing opponent's trapped leg with the inside hook while controlling their other leg, destroying their base so you come up to a dominant top passing position.**
 
 Popularized by Marcelo Garcia and now a cornerstone of both gi and no-gi open-guard systems, this sweep is the primary offensive weapon of the X-Guard position. By controlling both legs while maintaining upper body connection, the bottom player creates a powerful mechanical advantage that makes the sweep extremely difficult to defend. The technique exploits the opponent's unstable base by removing their ability to post or widen their stance, forcing them into a position where they cannot recover balance. This sweep is particularly effective against standing opponents and those attempting to pass the guard, as it capitalizes on their forward pressure and commitment to forward movement.
 
@@ -76,7 +76,7 @@ Strategically, the X-Guard Sweep creates a powerful dilemma for the standing opp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 65% |
+| Success | [[Positions/Combat Base]] | 65% |
 | Failure | [[Positions/X-Guard]] | 25% |
 | Counter | [[Positions/X-Guard]] | 10% |
 

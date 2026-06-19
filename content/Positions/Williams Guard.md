@@ -143,15 +143,13 @@ From the top perspective, Williams Guard presents significant challenges requiri
 
 - **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (12% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (17% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (17% of attempts)
 
 - **[[Transitions/Back Take from Bottom/Attacker|Back Take from Bottom]]** (11% of attempts)
 
 - **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (12% of attempts)
 
-- **[[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Rolling Armbar from Closed Guard]]** (12% of attempts)
-
-- **[[Transitions/Williams Guard Sweep/Attacker|Williams Guard Sweep]]** (6% of attempts)
+- **[[Transitions/Williams Guard Sweep/Attacker|Williams Guard Sweep]]** (18% of attempts)
 
 - **[[Belly Down Armbar from Williams Guard/Attacker|Belly Down Armbar from Williams Guard]]** (3% of attempts)
 

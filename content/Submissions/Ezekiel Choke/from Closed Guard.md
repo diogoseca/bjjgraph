@@ -54,7 +54,7 @@ description: "Master the Ezekiel Choke from inside closed guard top. Gi sleeve g
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and trachea</span>
-<span class="meta-chip">58% success</span>
+<span class="meta-chip">40% success</span>
 </div>
 
 > [!danger] Safety
@@ -85,9 +85,9 @@ The trade-off is significant positional risk. Setting up the Ezekiel requires de
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 58% |
-| Failure | [[Positions/Closed Guard]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[game-over]] | 40% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 35% |
 
 
 </section>

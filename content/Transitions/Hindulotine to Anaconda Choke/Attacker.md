@@ -16,7 +16,7 @@ description: "How to execute Hindulotine to Anaconda Choke in BJJ. Attacking per
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Hindulotine to Anaconda Choke in BJJ",
-  "description": "Step-by-step guide for executing Hindulotine to Anaconda Choke from Hindulotine/Top.",
+  "description": "Step-by-step guide for executing Hindulotine to Anaconda Choke from Hindulotine/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -178,7 +178,7 @@ This transition is particularly effective from the bottom Hindulotine position b
 
 Strategically, threatening this transition forces opponents into a dilemma: maintain tight defensive posture and remain vulnerable to the guillotine, or create space to relieve pressure and expose themselves to the anaconda. Advanced practitioners use this dynamic to control the pace of engagement, keeping opponents reactive rather than allowing them to establish settled defensive positions.
 
-**From Position**: [[Positions/Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 

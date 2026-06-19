@@ -109,7 +109,7 @@
             "probability": 55
           },
           {
-            "technique": "Side Control to Mount",
+            "technique": "KOB to Mount",
             "target": "Mount",
             "probability": 65
           }
@@ -139,8 +139,8 @@
             "probability": 50
           },
           {
-            "technique": "Side Control to North-South",
-            "target": "North-South",
+            "technique": "S-Mount Transition",
+            "target": "S Mount",
             "probability": 70
           }
         ]
@@ -266,52 +266,44 @@
     },
     "transitions": [
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 31
+        "transition": "KOB to Mount",
+        "attempt_probability": 25
       },
       {
         "transition": "Far Side Armbar from KOB",
-        "attempt_probability": 12
+        "attempt_probability": 14
       },
       {
         "transition": "Baseball Bat Choke from Knee on Belly",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 9
+        "attempt_probability": 12
       },
       {
         "transition": "Cross Collar Choke from Knee on Belly",
-        "attempt_probability": 10
+        "attempt_probability": 11
+      },
+      {
+        "transition": "KOB to Side Control",
+        "attempt_probability": 8
       },
       {
         "transition": "Kimura from Knee on Belly",
-        "attempt_probability": 6
+        "attempt_probability": 7
       },
       {
         "transition": "Back Take from Top",
-        "attempt_probability": 6
+        "attempt_probability": 7
       },
       {
         "transition": "S-Mount Transition",
         "attempt_probability": 6
       },
       {
-        "transition": "KOB to Mount",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "KOB to Side Control",
-        "attempt_probability": 2
-      },
-      {
         "transition": "Armbar from Knee on Belly",
-        "attempt_probability": 3
+        "attempt_probability": 5
       },
       {
         "transition": "Belly Down Armbar from Knee on Belly",
-        "attempt_probability": 3
+        "attempt_probability": 5
       }
     ],
     "flashcards": [

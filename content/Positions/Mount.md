@@ -228,7 +228,7 @@ Understanding Mount from both perspectives is essential for complete grappling d
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (6% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (5% of attempts)
 
 - **[[Cross Collar Choke from Mount/Attacker|Cross Collar Choke from Mount]]** (4% of attempts)
 
@@ -236,11 +236,11 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 - **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (3% of attempts)
 
-- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (6% of attempts)
+- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (5% of attempts)
 
 - **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (3% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (37% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (35% of attempts)
 
 - **[[Transitions/Mount Control/Attacker|Mount Control]]** (3% of attempts)
 
@@ -262,7 +262,9 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 - **[[Submissions/Armbar/Reverse Armbar from Mount/Attacker|Reverse Armbar from Mount]]** (2% of attempts)
 
-- **[[Armbar from Mount/Attacker|Armbar from Mount]]** (6% of attempts)
+- **[[Armbar from Mount/Attacker|Armbar from Mount]]** (5% of attempts)
+
+- **[[Transitions/Mount to Modified Mount/Attacker|Mount to Modified Mount]]** (5% of attempts)
 
 
 ### Common Mistakes

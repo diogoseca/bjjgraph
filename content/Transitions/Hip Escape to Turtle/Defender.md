@@ -156,7 +156,7 @@ As the defender against Hip Escape to Turtle, you are the person maintaining bod
 
 Your primary tools are squeeze pressure modulation, upper body attack timing, and positional adjustments that follow your opponent's movement. The hip escape to turtle attempt creates predictable defensive patterns you can exploit: when they turn toward your triangle leg, their neck becomes more accessible; when they focus on the lock, their neck defense weakens; when they hip escape, they create space you can fill by following with your hips. Mastering the retention game from body triangle means understanding the escape mechanics well enough to counter each phase before it gains momentum.
 
-**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 

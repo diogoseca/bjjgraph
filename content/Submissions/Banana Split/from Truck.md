@@ -4,7 +4,7 @@
 
 ---
 title: "Banana Split from Truck | BJJ Submission | BJJ Graph"
-description: "Master the Banana Split compression submission in BJJ. Complete guide covering setup from truck and deep half guard, execution, and safety. 48% success rate."
+description: "Master the Banana Split compression submission from the truck in BJJ. Complete guide covering the twister-hook setup, execution, and safety. 48% success rate."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Banana Split compression submission in BJJ. Complete gu
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Banana Split from Truck",
-  "description": "Master the Banana Split compression submission in BJJ. Complete guide covering setup from truck and deep half guard, execution, and safety. 48% success rate.",
+  "description": "Master the Banana Split compression submission from the truck in BJJ. Complete guide covering the twister-hook setup, execution, and safety. 48% success rate.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -69,13 +69,13 @@ description: "Master the Banana Split compression submission in BJJ. Complete gu
 
 <section id="overview" class="content-section">
 
-The Banana Split is a unique compression submission that targets the opponent's hip adductors, groin muscles, and lower back through forced over-extension of the legs. Primarily executed from the truck position, deep half guard, or lockdown configurations, this technique creates extreme discomfort by splitting the opponent's legs apart while controlling their upper body. The submission gained prominence through the 10th Planet system, where it serves as both a finishing technique and a powerful position to force reactions.
+The Banana Split from Truck is a compression submission that targets the opponent's hip adductors, groin muscles, and lower back through forced over-extension of the legs. Executed from the truck position - a 10th Planet leg-entanglement where you sit perpendicular behind and beneath the opponent with one of their legs trapped by your twister hook - this finish splits the legs apart by driving the twister-hooked leg one way while your hands isolate and pull the far leg the other way. The truck itself supplies the control, so no lockdown or deep half guard is required; the entanglement is established the moment you enter the truck off a back take, turtle break, or rolling entry.
 
-Unlike traditional joint locks that attack a specific articulation point, the Banana Split relies on muscular compression and flexibility limitations, making it particularly effective against less flexible opponents. The technique requires precise control of the opponent's legs and hips while maintaining a stable base. Understanding the biomechanics of hip rotation and groin flexibility is essential for safe application, as there is no clear structural stopping point before tissue damage occurs.
+Unlike traditional joint locks that attack a specific articulation point, the Banana Split relies on muscular compression and flexibility limitations, making it particularly effective against less flexible opponents. From the truck the twister hook already pins the near leg deep behind the thigh, giving you a mechanical anchor; the work is isolating the far leg and opening the angle. Understanding the biomechanics of hip abduction and groin flexibility is essential for safe application, as there is no clear structural stopping point before tissue damage occurs.
 
-The Banana Split often works in combination with other attacks from half guard and truck positions, creating multiple offensive threats that force defensive errors. When an opponent defends the split by driving forward, they expose themselves to electric chair sweeps and back takes. When they pull their leg back, they compromise their base for other attacks. This dilemma-based approach makes the banana split threat valuable even when the finish itself is not achieved.
+The Banana Split integrates naturally into the truck attacking system alongside the calf slicer, spine lock, and twister, creating multiple offensive threats that force defensive errors. When the opponent fights to free the trapped leg, they often expose the back take or twister; when they roll to escape the truck, they feed the calf slicer or recover guard at the cost of position. This dilemma-based approach makes the banana split threat valuable even when the finish itself is not achieved.
 
-**Starting Position**: [[Positions/Half Guard/Deep Half Guard]] · **From**: [[Positions/Twister Control/Truck]] (Top)
+**Starting Position**: [[Positions/Twister Control/Truck]] · **From**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
 
@@ -86,8 +86,8 @@ The Banana Split often works in combination with other attacks from half guard a
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 48% |
-| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
-| Counter | [[Positions/Back Control]] | 22% |
+| Failure | [[Positions/Twister Control/Truck]] | 30% |
+| Counter | [[Positions/Half Guard]] | 22% |
 
 
 </section>
@@ -99,7 +99,7 @@ The Banana Split often works in combination with other attacks from half guard a
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Control opponent's upper body to prevent escape while splitt... | Deny far leg isolation at all costs - this is the critical d... |
+| **Key Principles** | Keep the twister hook deep behind the thigh as the fixed anc... | Deny far leg isolation at all costs - this is the critical d... |
 | **Options** | 6 execution steps | 3 defensive options |
 
 </section>
@@ -113,17 +113,17 @@ The Banana Split often works in combination with other attacks from half guard a
 ### Key Principles
 
 
-- Control opponent's upper body to prevent escape while splitting legs
+- Keep the twister hook deep behind the thigh as the fixed anchor for the near leg
 
-- Create opposing forces between near leg control and far leg isolation
+- Create opposing forces between the twister-hook near leg and far leg isolation
 
-- Maintain stable base on bottom to generate splitting pressure through hip extension
+- Stay tight to the opponent's hips from the truck to generate the splitting wedge
 
 - Target groin and hip flexibility limitations rather than joint mechanics
 
 - Use progressive pressure application over minimum 5 seconds to allow tap opportunity
 
-- Combine with electric chair and twister threats to create submission chains
+- Combine with calf slicer, back take, and twister threats to create submission chains
 
 - Assess individual flexibility variations before committing to the finish
 
@@ -131,17 +131,17 @@ The Banana Split often works in combination with other attacks from half guard a
 ### Execution Steps
 
 
-- **Establish Deep Half Control**: From deep half guard, secure your lockdown on the near leg while maintaining your shoulder underneat...
+- **Confirm the Truck and Deepen the Twister Hook**: From the truck, confirm your twister hook is deep on the near leg - your calf wedged behind the oppo...
 
-- **Isolate the Far Leg**: Reach across with your far hand to grab opponent's far ankle, knee, or lower thigh. Some variations ...
+- **Isolate the Far Leg**: Reach across with both hands to grab the opponent's free far leg at the ankle, knee, or lower thigh ...
 
-- **Create the Splitting Angle**: While maintaining lockdown control on the near leg, begin to pull the far leg toward you and away fr...
+- **Create the Splitting Angle**: While maintaining the twister hook on the near leg, begin to pull the far leg toward you and away fr...
 
-- **Control Upper Body**: Use your free hand to control opponent's upper body, typically by grabbing their belt, pants, or est...
+- **Anchor the Hips and Prevent the Roll**: Keep your hips and shoulders glued to the opponent's lower back and hip line so they cannot roll, gr...
 
-- **Extend Hips and Increase Split**: From your bottom position, extend your hips upward while maintaining the opposing forces on their le...
+- **Extend the Twister-Hook Leg and Increase Split**: Straighten and extend your twister-hook leg while rotating your hips, driving the trapped leg away a...
 
-- **Apply Finishing Pressure**: Continue to increase the leg split by pulling the far leg while maintaining lockdown pressure on the...
+- **Apply Finishing Pressure**: Continue to increase the leg split by pulling the far leg while driving the twister-hooked near leg ...
 
 
 ### Common Mistakes
@@ -151,13 +151,13 @@ The Banana Split often works in combination with other attacks from half guard a
   - Consequence: High risk of causing groin muscle tears or severe strains before partner can tap
   - Correction: Always apply pressure progressively over minimum 5-7 seconds. The banana split should feel like slowly increasing discomfort, not sudden pain. Communication with training partners is essential.
 
-- **Failing to control opponent's upper body before loading the split**
-  - Consequence: Opponent drives forward with pressure and collapses your structure, escaping the position entirely
-  - Correction: Establish upper body control (underhook, belt grip, or body lock) before fully committing to the leg split. Your shoulder frame under their hips must remain strong throughout.
+- **Failing to stay connected to the opponent's hips before loading the split**
+  - Consequence: Opponent rolls or squares out of the truck and escapes the position entirely
+  - Correction: Stay glued to their hips and lower back before fully committing to the leg split. Your connection to their hips must remain tight throughout so they cannot roll or granby out.
 
-- **Losing lockdown control on the near leg during far leg isolation**
-  - Consequence: Opponent frees their leg and escapes, potentially passing to dominant position
-  - Correction: Maintain constant tension on the lockdown throughout the entire sequence. If lockdown loosens, re-tighten before continuing with far leg isolation. The near leg control is your foundation.
+- **Losing the twister hook on the near leg during far leg isolation**
+  - Consequence: Opponent frees their leg and escapes, potentially recovering guard or reversing
+  - Correction: Maintain a deep twister hook throughout the entire sequence. If the hook loosens, re-seat it before continuing with far leg isolation. The hooked near leg is your foundation.
 
 
 </section>
@@ -173,41 +173,41 @@ The Banana Split often works in combination with other attacks from half guard a
 
 - Deny far leg isolation at all costs - this is the critical defensive priority before the split loads
 
-- Drive forward with heavy pressure to collapse the attacker's bottom structure and negate their wedge angle
+- Square your hips back toward the attacker to collapse their wedge angle and disrupt the truck
 
-- Free the trapped near leg from lockdown as early as possible to eliminate the foundation of the attack
+- Free the trapped near leg from the twister hook as early as possible to eliminate the foundation of the attack
 
-- Keep knees together and base wide to prevent the splitting mechanics from engaging
+- Keep knees together and the free leg posted wide to prevent the splitting mechanics from engaging
 
 - Tap early and without hesitation - there is no structural limit warning before muscle tissue tears
 
 - Recognize the setup before the split is loaded, when defense is still high-percentage
 
-- Use forward rolling or cartwheeling to escape the leg configuration when trapped late
+- Use a forward roll or granby to escape the truck entanglement when trapped late
 
 
 ### Recognition Cues
 
 
-- Opponent establishes lockdown on your near leg and begins reaching for your far ankle, knee, or thigh with their free hand
+- Opponent has the truck with their twister hook deep on your near leg and begins reaching for your far ankle, knee, or thigh with both hands
 
-- You feel your legs being pulled in opposite directions while opponent's body creates a wedge between your thighs from underneath
+- You feel your legs being pulled in opposite directions while the opponent's body wedges between your thighs from behind and beneath
 
-- From truck position, opponent adjusts from twister or calf slicer grips to isolate your far leg and begins hip extension
+- From the truck, opponent adjusts from twister or calf slicer grips to isolate your far leg and begins extending the hooking leg
 
-- Opponent secures underhook across your back while maintaining lockdown, then their free hand moves toward your far leg rather than staying on your hip
+- Opponent stays glued to your hips and lower back while their hands move toward your far leg rather than working a choke or back take
 
-- Increasing stretch sensation in your groin and inner thighs while opponent extends their hips upward from beneath you
+- Increasing stretch sensation in your groin and inner thighs while opponent extends their twister-hook leg
 
 
 ### Escape Paths
 
 
-- Break lockdown by addressing the figure-four ankle configuration, then extract your near leg and establish wide base in deep half guard top to reset
+- Strip the twister hook by prying their hooking foot off your shin, then extract your near leg and post your free leg wide to neutralize the split while they hold the truck
 
-- Forward roll or cartwheel over the attacker's body to clear the leg entanglement, accepting potential back exposure rather than groin injury
+- Forward roll or granby over the attacker's body to clear the truck entanglement and recover a guard, accepting a degraded position rather than groin injury
 
-- Walk hips toward the attacker to close the splitting angle, then use your far leg to post and establish base before they can readjust their wedge position
+- Walk your hips toward the attacker to close the splitting angle, then use your far leg to post and establish base before they can readjust their wedge position
 
 
 </section>
@@ -218,16 +218,16 @@ The Banana Split often works in combination with other attacks from half guard a
 ## Variations
 
 
-**Lockdown Banana Split**: Classic entry from lockdown position where you establish the lockdown first, then isolate the far leg. This is the most common variation taught in the 10th Planet system. The lockdown provides excellent control of the near leg while you work to trap the far leg with your free hand. (When to use: When opponent is heavily pressuring from top half guard and you have time to establish lockdown. Most effective against opponents who maintain narrow base.)
+**Standard Truck Banana Split**: The core variation from this page. From the truck, keep the twister hook deep on the near leg as your fixed anchor, then reach across with both hands to isolate and pull the far leg away while extending the hooking leg in the opposite direction. The twister hook serves as one control point while the hands manage the free leg, opening the split through the opponent's groin and adductors. (When to use: Whenever you hold the truck and want a direct finish. Most effective immediately after entering the truck when the opponent has not yet started rolling or squaring out.)
 
 
-**Electric Chair to Banana Split Transition**: Begin with electric chair setup (lockdown with far leg controlled) but instead of rolling for the crotch ripper finish, maintain bottom position and split the legs. This creates multiple submission threats that are difficult to defend simultaneously. (When to use: When opponent defends the electric chair sweep by preventing the roll. The banana split becomes the backup attack from the same position.)
+**Twister to Banana Split**: Begin hunting the twister from the truck, and when the opponent defends the spinal lock by fighting your head-and-arm control, switch their reaction into the banana split by isolating the free leg and splitting. The threats chain because both share the truck and twister-hook foundation. (When to use: When the opponent successfully defends the twister but leaves their free leg available for isolation.)
 
 
-**Reverse Banana Split from Turtle**: From opponent's turtle position, trap one leg while controlling the far leg, then roll to your back to apply splitting pressure. This variation requires excellent timing and is less common but highly effective against turtled opponents. (When to use: When opponent turtles from your attacks and presents their legs in a vulnerable configuration. Requires quick leg trapping skills.)
+**Calf Slicer to Banana Split**: Start the calf slicer from the truck by wedging your shin into their calf; if they defend by straightening the leg out, redirect into the banana split by capturing the now-extended far leg and opening the split. This keeps the attacker ahead of the defender's reactions from the same entanglement. (When to use: When the opponent escapes the calf slicer by extending their leg, feeding the banana split's far-leg isolation.)
 
 
-**Truck to Banana Split**: From truck position, if the twister or calf slicer are unavailable, transition to banana split mechanics by adjusting your leg controls and creating splitting pressure. The twister hook serves as one control point while hands isolate the far leg. (When to use: When you have truck position but opponent defends the primary attacks. The banana split provides an alternative finish from similar positioning.)
+**Back Take Bait to Banana Split**: Threaten the back take from the truck to draw the opponent into defending their back; as they turn and post to deny the back, capture the exposed far leg and load the banana split before they re-establish base. (When to use: When the opponent over-commits to defending the back take from the truck and exposes their far leg in the scramble.)
 
 
 
@@ -238,13 +238,11 @@ The Banana Split often works in combination with other attacks from half guard a
 
 ## From Which Positions?
 
-- [[Positions/Half Guard/Deep Half Guard]]
-- [[Positions/Half Guard/Lockdown]]
-- [[Positions/Half Guard/Electric Chair]]
-- [[Positions/Half Guard]]
-- [[Positions/Turtle]]
 - [[Positions/Twister Control/Truck]]
-- [[Positions/Quarter Guard]]
+- [[Positions/Twister Control/Twister Side Control]]
+- [[Positions/Turtle]]
+- [[Positions/Back Control]]
+- [[Positions/Crab Ride]]
 
 
 </section>
@@ -252,22 +250,19 @@ The Banana Split often works in combination with other attacks from half guard a
 <section id="related" class="content-section">
 
 ## Related
-- [[Positions/Half Guard/Electric Chair]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Twister]]
+- [[Submissions/Spine Lock]]
+- [[Positions/Half Guard/Electric Chair]]
 - [[Submissions/Crotch Ripper]]
 - [[Submissions/Boston Crab]]
-- [[Transitions/Estima Lock]]
-- [[Submissions/Achilles Lock]]
 - [[Submissions/Toe Hold]]
 - [[Transitions/Kneebar]]
-- [[Positions/Half Guard/Deep Half Guard]] - Primary starting position for banana split entries
-- [[Positions/Half Guard/Lockdown]] - Essential control mechanism for near leg in classic variation
-- [[Positions/Twister Control/Truck]] - Alternative entry position with similar leg trapping mechanics
-- [[Positions/Leg Entanglement]] - Core principle for controlling opponent's legs during setup
-- [[Positions/Half Guard]] - Parent guard system from which banana split entries develop
-- [[Positions/Back Control]] - Alternative target when opponent defends banana split by rolling
-- [[Positions/Crab Ride]] - Related control position with similar leg entanglement mechanics from back
+- [[Positions/Twister Control/Truck]] - Primary starting position for this banana split variation
+- [[Positions/Leg Entanglement]] - Core principle for controlling the opponent's legs during the split
+- [[Positions/Back Control]] - Adjacent control reached via the back take when the split is defended
+- [[Positions/Crab Ride]] - Related control position with similar leg entanglement mechanics from the back
+- [[Positions/Turtle]] - Common entry point where the truck is established before the split
 
 </section>
 

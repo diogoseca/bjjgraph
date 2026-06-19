@@ -1204,7 +1204,7 @@ Master Body Lock position in BJJ. Complete guide covering standing control, mat 
 
 ### [[Buggy Choke]]
 
-Master Buggy Choke position in BJJ. Strategic guide covering turtle attacks, grip control, and finishing mechanics with complete bottom and top perspective analysis.
+Master the Buggy Choke position in BJJ. Strategic guide covering the arm-trap self-strangle, leg-over-shoulder clamp, and finishing mechanics with complete attacker and defender perspective analysis.
 
 ### [[Clamp Guard]]
 
@@ -1444,7 +1444,7 @@ Master Toe Hold Control position in BJJ. Strategic guide covering ankle isolatio
 
 ### [[Triangle Escape Position]]
 
-Master triangle escape techniques in BJJ. Complete defensive guide covering posture recovery, systematic escape sequences, and counter-passing strategies with success rates from 25-70% across skill levels.
+Master both sides of the triangle in BJJ. Complete guide covering the attacker finishing the choke and chaining to armbar, omoplata, and the back, plus the defender's posture recovery, stacking, and escape sequences, with success rates from 25-75% across skill levels.
 
 ### [[Turtle]]
 
