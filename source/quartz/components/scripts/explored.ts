@@ -8,18 +8,30 @@ export interface ExploredEntry {
   firstVisited: string // ISO date "2026-04-06"
 }
 
+import { safeSetItem } from "./util"
+import { localDateKey } from "./dateUtil"
+
 const EXPLORED_KEY = "bjj-explored"
 
 export function loadExplored(): ExploredEntry[] {
   try {
-    return JSON.parse(localStorage.getItem(EXPLORED_KEY) || "[]")
+    const parsed = JSON.parse(localStorage.getItem(EXPLORED_KEY) || "[]")
+    if (!Array.isArray(parsed)) return []
+    return parsed.filter(
+      (e) =>
+        e &&
+        typeof e === "object" &&
+        typeof e.slug === "string" &&
+        typeof e.name === "string" &&
+        typeof e.type === "string",
+    )
   } catch {
     return []
   }
 }
 
 export function saveExplored(entries: ExploredEntry[]) {
-  localStorage.setItem(EXPLORED_KEY, JSON.stringify(entries))
+  safeSetItem(EXPLORED_KEY, JSON.stringify(entries))
   import("./supabase").then((m) => m.syncAfterWrite()).catch(() => {})
 }
 
@@ -31,7 +43,7 @@ export function addExplored(slug: string, name: string, type: string): boolean {
     slug,
     name,
     type,
-    firstVisited: new Date().toISOString().slice(0, 10),
+    firstVisited: localDateKey(),
   })
   saveExplored(entries)
   return true

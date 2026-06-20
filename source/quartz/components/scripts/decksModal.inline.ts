@@ -162,8 +162,15 @@ function buildCtaState(): { label: string; enabled: boolean; source: SessionSour
 // removed, so it needs no explicit cleanup.
 let escHandler: ((e: KeyboardEvent) => void) | null = null
 
+// Synchronous re-entrancy guard for open(). The DOM guard (getElementById) can't
+// catch a double-tap because the overlay isn't appended until after an await, so
+// two fast calls would both pass it and append two overlays (#30). Set true at
+// the top of open() and cleared once the overlay lands (and on close / error).
+let opening = false
+
 function close() {
   document.getElementById(MODAL_ID)?.remove()
+  opening = false
   if (escHandler) {
     document.removeEventListener("keydown", escHandler)
     escHandler = null
@@ -179,9 +186,20 @@ function escapeHtml(s: string): string {
 }
 
 async function open() {
-  // If already open, do nothing
-  if (document.getElementById(MODAL_ID)) return
+  // If already open (or an open is mid-flight across an await), do nothing.
+  if (opening || document.getElementById(MODAL_ID)) return
+  opening = true
 
+  try {
+    await openInner()
+  } finally {
+    // Always release the sentinel so a later open can run, even if openInner
+    // threw before appending the overlay.
+    opening = false
+  }
+}
+
+async function openInner() {
   const settings = loadSettings()
   const progress = loadDailyProgress()
   const streak = loadStreak()
@@ -295,6 +313,9 @@ async function open() {
     }
   })
   escHandler = (e: KeyboardEvent) => {
+    // Topmost-only: when the Settings modal (z 9991) is stacked above us, let it
+    // own Esc. Otherwise one Esc would close both stacked overlays at once (#29).
+    if (document.getElementById("settings-modal-overlay")) return
     if (e.key.startsWith("Esc")) {
       e.preventDefault()
       close()

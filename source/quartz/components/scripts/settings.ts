@@ -21,9 +21,14 @@ export interface StreakData {
   longestStreak: number
 }
 
+import { safeSetItem } from "./util"
+import { localDateKey, addDays } from "./dateUtil"
+
 const STORAGE_KEY = "bjj-settings"
 const PROGRESS_KEY = "bjj-daily-progress"
 const STREAK_KEY = "bjj-streak"
+
+const VALID_GAME_MODES: GameMode[] = ["off", "normal", "hard", "ultra"]
 
 export const DEFAULT_SETTINGS: BJJSettings = {
   gameMode: "off",
@@ -31,8 +36,10 @@ export const DEFAULT_SETTINGS: BJJSettings = {
   showFlashcards: true,
 }
 
-function today(): string {
-  return new Date().toISOString().slice(0, 10)
+const today = localDateKey
+
+function intGE0(v: unknown, fallback: number): number {
+  return typeof v === "number" && Number.isFinite(v) ? Math.max(0, Math.round(v)) : fallback
 }
 
 export function loadDailyProgress(): DailyProgress {
@@ -40,7 +47,13 @@ export function loadDailyProgress(): DailyProgress {
     const raw = localStorage.getItem(PROGRESS_KEY)
     if (raw) {
       const parsed = JSON.parse(raw) as DailyProgress
-      if (parsed.date === today()) return parsed
+      if (parsed && parsed.date === today()) {
+        return {
+          date: today(),
+          learned: intGE0(parsed.learned, 0),
+          reviewed: intGE0(parsed.reviewed, 0),
+        }
+      }
     }
   } catch {
     // corrupt data
@@ -49,7 +62,7 @@ export function loadDailyProgress(): DailyProgress {
 }
 
 export function saveDailyProgress(progress: DailyProgress) {
-  localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress))
+  safeSetItem(PROGRESS_KEY, JSON.stringify(progress))
   import("./supabase").then((m) => m.syncAfterWrite()).catch(() => {})
 }
 
@@ -74,6 +87,26 @@ export function incrementReviewed() {
   saveDailyProgress(p)
 }
 
+// Clamp/repair a parsed settings object over the defaults so callers always get
+// a usable BJJSettings (sane dailyGoal range, valid gameMode enum).
+function sanitizeSettings(parsed: Partial<BJJSettings>): BJJSettings {
+  const merged = { ...DEFAULT_SETTINGS, ...parsed }
+  const goal = Math.round(num(merged.dailyGoal, DEFAULT_SETTINGS.dailyGoal))
+  merged.dailyGoal = Math.min(
+    1000,
+    Math.max(1, Number.isFinite(goal) ? goal : DEFAULT_SETTINGS.dailyGoal),
+  )
+  if (!VALID_GAME_MODES.includes(merged.gameMode)) {
+    merged.gameMode = DEFAULT_SETTINGS.gameMode
+  }
+  merged.showFlashcards = !!merged.showFlashcards
+  return merged
+}
+
+function num(v: unknown, fallback: number): number {
+  return typeof v === "number" && Number.isFinite(v) ? v : fallback
+}
+
 export function loadSettings(): BJJSettings {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
@@ -83,9 +116,9 @@ export function loadSettings(): BJJSettings {
       if ("opponentOnFail" in parsed && !("gameMode" in parsed)) {
         parsed.gameMode = parsed.opponentOnFail ? "normal" : "off"
         delete parsed.opponentOnFail
-        localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...DEFAULT_SETTINGS, ...parsed }))
+        safeSetItem(STORAGE_KEY, JSON.stringify(sanitizeSettings(parsed)))
       }
-      return { ...DEFAULT_SETTINGS, ...parsed }
+      return sanitizeSettings(parsed)
     }
   } catch {
     // corrupt data, use defaults
@@ -94,14 +127,23 @@ export function loadSettings(): BJJSettings {
 }
 
 export function saveSettings(settings: BJJSettings) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(settings))
+  safeSetItem(STORAGE_KEY, JSON.stringify(settings))
   import("./supabase").then((m) => m.syncAfterWrite()).catch(() => {})
 }
 
 export function loadStreak(): StreakData {
   try {
     const raw = localStorage.getItem(STREAK_KEY)
-    if (raw) return JSON.parse(raw) as StreakData
+    if (raw) {
+      const parsed = JSON.parse(raw) as StreakData
+      if (parsed && typeof parsed === "object") {
+        return {
+          currentStreak: intGE0(parsed.currentStreak, 0),
+          lastActiveDate: typeof parsed.lastActiveDate === "string" ? parsed.lastActiveDate : "",
+          longestStreak: intGE0(parsed.longestStreak, 0),
+        }
+      }
+    }
   } catch {
     // corrupt data
   }
@@ -114,9 +156,7 @@ export function updateStreak(): StreakData {
 
   if (streak.lastActiveDate === t) return streak // already active today
 
-  const yesterday = new Date()
-  yesterday.setDate(yesterday.getDate() - 1)
-  const yesterdayStr = yesterday.toISOString().slice(0, 10)
+  const yesterdayStr = addDays(t, -1)
 
   if (streak.lastActiveDate === yesterdayStr) {
     streak.currentStreak++
@@ -129,7 +169,7 @@ export function updateStreak(): StreakData {
     streak.longestStreak = streak.currentStreak
   }
 
-  localStorage.setItem(STREAK_KEY, JSON.stringify(streak))
+  safeSetItem(STREAK_KEY, JSON.stringify(streak))
   import("./supabase").then((m) => m.syncAfterWrite()).catch(() => {})
   return streak
 }

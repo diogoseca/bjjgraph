@@ -3,6 +3,8 @@
 import { findCard, addCard, reviewCard, masterFlashcard, nextInterval, isMastered } from "./srs"
 import { incrementLearned, incrementReviewed, updateStreak, loadSettings } from "./settings"
 import { isInSession, advanceSession, getSession } from "./trainingSession"
+import { safeSetItem } from "./util"
+import { localDateKey } from "./dateUtil"
 
 type FlashcardPageType = "transition" | "submission" | "position" | "principle" | "system"
 
@@ -61,7 +63,7 @@ function migrateSRSFieldNames() {
         dirty = true
       }
     }
-    if (dirty) localStorage.setItem("bjj-srs-cards", JSON.stringify(cards))
+    if (dirty) safeSetItem("bjj-srs-cards", JSON.stringify(cards))
   } catch {
     // corrupt storage — ignore
   }
@@ -87,7 +89,7 @@ function loadBannedFlashcards(): Set<string> {
 function banFlashcard(technique: string, question: string) {
   const banned = loadBannedFlashcards()
   banned.add(`${technique}::${question}`)
-  localStorage.setItem(BANNED_KEY, JSON.stringify(Array.from(banned)))
+  safeSetItem(BANNED_KEY, JSON.stringify(Array.from(banned)))
 }
 
 function isFlashcardBanned(banned: Set<string>, technique: string, question: string): boolean {
@@ -125,11 +127,11 @@ function getJourney(): JourneyStep[] {
 function addToJourney(step: JourneyStep) {
   const journey = getJourney()
   journey.push(step)
-  localStorage.setItem("bjj-journey", JSON.stringify(journey))
+  safeSetItem("bjj-journey", JSON.stringify(journey))
 }
 
 function clearJourney() {
-  localStorage.setItem("bjj-journey", "[]")
+  safeSetItem("bjj-journey", "[]")
 }
 
 // Expose journey functions globally
@@ -168,7 +170,7 @@ document.addEventListener("nav", () => {
 
   // Check SRS status for this technique
   const srsCard = findCard(data.name)
-  const isSRSDue = srsCard && srsCard.nextReview <= new Date().toISOString().slice(0, 10)
+  const isSRSDue = srsCard && srsCard.nextReview <= localDateKey()
   const mastered = !!srsCard && isMastered(srsCard)
 
   // Show the container, reset to minimized state on every page load
@@ -215,6 +217,10 @@ document.addEventListener("nav", () => {
   const usedQuestionIndices: Set<number> = new Set()
   let currentQuestionIndex = -1
   let knownCount = 0 // questions answered Hard or Easy
+  // One-shot guard: a fast key+click can fire Hard/Easy twice for the same
+  // question, double-recording reviewed/streak and double-advancing SRS. Set on
+  // the first grade; reset whenever a new question is staged (or re-shown).
+  let rated = false
 
   const totalQuestions = data.flashcards.length
 
@@ -288,6 +294,7 @@ document.addEventListener("nav", () => {
       return
     }
     currentQuestionIndex = qa.index
+    rated = false
     minQuestionEl!.textContent = qa.question
     // Pre-populate the full UI too so the first click reveals everything instantly
     questionEl!.textContent = qa.question
@@ -320,6 +327,7 @@ document.addEventListener("nav", () => {
     }
 
     currentQuestionIndex = qa.index
+    rated = false
 
     // Show/hide "Add to Training" button
     updateAddTrainingBtn()
@@ -350,6 +358,9 @@ document.addEventListener("nav", () => {
     answerEl!.style.display = "block"
     revealBtn!.style.display = "none"
     resultBtns!.style.display = "flex"
+    // A fresh reveal re-enables exactly one grade; clear the one-shot `rated` guard
+    // (set by Again/Hard/Easy) so re-grading after a re-reveal works.
+    rated = false
 
     // Show interval previews on buttons (Again has no interval — it means "again")
     const previews = getIntervalPreviews(data!.name)
@@ -359,6 +370,11 @@ document.addEventListener("nav", () => {
   }
 
   function handleAgain() {
+    // One-shot guard, symmetric with Hard/Easy: block a same-tick double-dispatch
+    // (fast key+click) from double-lapsing the card / double-counting reviewed.
+    // revealAnswer() clears `rated` when the user re-reveals to grade again.
+    if (rated) return
+    rated = true
     // Update SRS if card exists
     const card = findCard(data!.name)
     if (card) {
@@ -412,6 +428,8 @@ document.addEventListener("nav", () => {
   }
 
   function handleHard() {
+    if (rated) return
+    rated = true
     knownCount++
     recordSuccessfulReview("hard")
     showSavePromptIfNeeded()
@@ -419,6 +437,8 @@ document.addEventListener("nav", () => {
   }
 
   function handleEasy() {
+    if (rated) return
+    rated = true
     knownCount++
     recordSuccessfulReview("easy")
     showSavePromptIfNeeded()

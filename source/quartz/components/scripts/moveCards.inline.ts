@@ -1,6 +1,7 @@
 // Move Cards - Display available moves on position pages
 // Reads per-page graph data injected at build time (no runtime fetch)
-import { removeAllChildren } from "./util"
+import { removeAllChildren, safeSetItem } from "./util"
+import { localDateKey } from "./dateUtil"
 
 // Only accept leading-slash relative paths (no protocol, no javascript:, no "<").
 function safeRelPath(p: string): string {
@@ -109,7 +110,7 @@ function setVote(positionSlug: string, technique: string, adjustedRate: number, 
   } else {
     votes[positionSlug][technique] = Math.round(adjustedRate)
   }
-  localStorage.setItem("bjj-move-votes", JSON.stringify(votes))
+  safeSetItem("bjj-move-votes", JSON.stringify(votes))
   import("./supabase").then((m) => m.syncAfterWrite()).catch(() => {})
 }
 
@@ -263,7 +264,7 @@ document.addEventListener("nav", () => {
     if (srsCard) {
       if (isMastered(srsCard)) {
         srsClass = " mastered"
-      } else if (srsCard.nextReview <= new Date().toISOString().slice(0, 10)) {
+      } else if (srsCard.nextReview <= localDateKey()) {
         srsClass = " srs-due"
       } else {
         srsClass = " srs-learning"
@@ -309,7 +310,7 @@ document.addEventListener("nav", () => {
       // Static icon markup only (no data interpolation)
       masteryBadge.innerHTML = "&#10022; Mastered"
       header.appendChild(masteryBadge)
-    } else if (srsCard && srsCard.nextReview <= new Date().toISOString().slice(0, 10)) {
+    } else if (srsCard && srsCard.nextReview <= localDateKey()) {
       const reviewBadge = document.createElement("span")
       reviewBadge.className = "move-card-badge move-card-badge--review"
       reviewBadge.textContent = "Review"
@@ -680,11 +681,11 @@ function getJourney(): JourneyStep[] {
 function addToJourney(step: JourneyStep) {
   const journey = getJourney()
   journey.push(step)
-  localStorage.setItem("bjj-journey", JSON.stringify(journey))
+  safeSetItem("bjj-journey", JSON.stringify(journey))
 }
 
 function clearJourney() {
-  localStorage.setItem("bjj-journey", "[]")
+  safeSetItem("bjj-journey", "[]")
 }
 
 // Expose globally

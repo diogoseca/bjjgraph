@@ -76,7 +76,32 @@ function updateActiveSection() {
   }
 }
 
+// Module-scope refs to the live inner listeners so repeated setupToc() calls
+// (fired on every resize, e.g. mobile address-bar show/hide or rotate) tear down
+// the previous run's listeners before re-adding, instead of stacking them.
+let tocWheelTarget: HTMLElement | null = null
+let tocWheelHandler: ((e: WheelEvent) => void) | null = null
+let tocScrollHandler: ((e: Event) => void) | null = null
+let tocRafId = 0
+
+function teardownTocListeners() {
+  if (tocWheelTarget && tocWheelHandler) {
+    tocWheelTarget.removeEventListener("wheel", tocWheelHandler)
+  }
+  tocWheelTarget = null
+  tocWheelHandler = null
+  if (tocScrollHandler) {
+    window.removeEventListener("scroll", tocScrollHandler)
+  }
+  tocScrollHandler = null
+  cancelAnimationFrame(tocRafId)
+  tocRafId = 0
+}
+
 function setupToc() {
+  // Idempotent: remove any listeners from a prior setup before re-adding.
+  teardownTocListeners()
+
   // Prevent page scroll when scrolling TOC content
   const tocContent = document.getElementById("toc-content")
   if (tocContent) {
@@ -84,31 +109,31 @@ function setupToc() {
       e.stopPropagation()
     }
     tocContent.addEventListener("wheel", preventPageScroll, { passive: true })
-    window.addCleanup(() => tocContent.removeEventListener("wheel", preventPageScroll))
+    tocWheelTarget = tocContent
+    tocWheelHandler = preventPageScroll
   }
 
   // Set up scroll-based section tracking with rAF coalescing
   lastBestId = null
   updateActiveSection()
 
-  let rafId = 0
   const onScroll = () => {
-    if (!rafId) {
-      rafId = requestAnimationFrame(() => {
-        rafId = 0
+    if (!tocRafId) {
+      tocRafId = requestAnimationFrame(() => {
+        tocRafId = 0
         updateActiveSection()
       })
     }
   }
 
   window.addEventListener("scroll", onScroll, { passive: true })
-  window.addCleanup(() => {
-    window.removeEventListener("scroll", onScroll)
-    cancelAnimationFrame(rafId)
-  })
+  tocScrollHandler = onScroll
 }
 
 window.addEventListener("resize", setupToc)
 document.addEventListener("nav", () => {
   setupToc()
+  // Drain the listeners added by this setup on the next SPA navigation. Registered
+  // only here (not inside setupToc) so resize re-runs don't stack cleanup closures.
+  window.addCleanup(teardownTocListeners)
 })

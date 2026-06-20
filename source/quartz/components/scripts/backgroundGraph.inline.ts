@@ -45,6 +45,12 @@ let currentRole = "top"
 // Animation
 let animationRunning = false
 let animFrameHandle: number | null = null
+// Van Wijk fly-to RAF tracking (separate from animate()'s animFrameHandle): a
+// newer fly-to supersedes the old one so overlapping camera tweens don't fight
+// over `stage`. vanWijkGen invalidates stale frame loops; vanWijkRaf holds the
+// in-flight handle so it can be cancelled.
+let vanWijkGen = 0
+let vanWijkRaf: number | null = null
 // First-reveal: zoom-out animation only fires once per page load
 let firstRevealDone = false
 let userHasInteractedWithZoom = false
@@ -252,6 +258,13 @@ function animateVanWijk(
   toCam: [number, number, number],
   duration: number,
 ): Promise<void> {
+  // Supersede any in-flight fly-to: bump the generation and cancel the pending
+  // RAF so only the newest animation drives the camera.
+  const myGen = ++vanWijkGen
+  if (vanWijkRaf !== null) {
+    cancelAnimationFrame(vanWijkRaf)
+    vanWijkRaf = null
+  }
   return new Promise((resolve) => {
     const interp = interpolateZoom(fromCam, toCam)
     const start = performance.now()
@@ -259,6 +272,13 @@ function animateVanWijk(
     const h = bgApp!.canvas.height / (window.devicePixelRatio || 1)
 
     function frame(now: number) {
+      // A newer fly-to has superseded this one — abandon this frame loop, but
+      // resolve so awaiters (e.g. onNodeClick's Promise.all) don't hang forever;
+      // the new animation now owns the camera.
+      if (myGen !== vanWijkGen) {
+        resolve()
+        return
+      }
       const t = Math.min(1, (now - start) / duration)
       // Ease-in-out cubic for smoother feel
       const eased = t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2
@@ -283,8 +303,9 @@ function animateVanWijk(
       bgApp!.renderer.render(stage!)
 
       if (t < 1) {
-        requestAnimationFrame(frame)
+        vanWijkRaf = requestAnimationFrame(frame)
       } else {
+        vanWijkRaf = null
         // Sync D3 zoom state
         if (d3ZoomBehavior && bgApp) {
           select(bgApp.canvas as HTMLCanvasElement).call(d3ZoomBehavior.transform, currentTransform)
@@ -292,7 +313,7 @@ function animateVanWijk(
         resolve()
       }
     }
-    requestAnimationFrame(frame)
+    vanWijkRaf = requestAnimationFrame(frame)
   })
 }
 
@@ -696,8 +717,16 @@ async function initializeBackgroundGraph(container: HTMLElement, slug: string) {
   if (fitBtn) {
     fitBtn.addEventListener("click", () => fitAll(800))
   }
-  // Observe body.graph-focused toggling so we update visibility when entering/leaving graph mode
-  const bodyObserver = new MutationObserver(() => updateFitAllBtnVisibility())
+  // Observe body.graph-focused toggling so we update visibility when entering/leaving graph mode.
+  // Gate on the actual graph-focused boolean — the body class attribute changes for many
+  // unrelated reasons, and we only care when graph mode is entered/left.
+  let wasGraphFocused = document.body.classList.contains("graph-focused")
+  const bodyObserver = new MutationObserver(() => {
+    const isGraphFocused = document.body.classList.contains("graph-focused")
+    if (isGraphFocused === wasGraphFocused) return
+    wasGraphFocused = isGraphFocused
+    updateFitAllBtnVisibility()
+  })
   bodyObserver.observe(document.body, {
     attributes: true,
     attributeFilter: ["class"],
@@ -714,10 +743,56 @@ async function initializeBackgroundGraph(container: HTMLElement, slug: string) {
     bgApp!.renderer.render(stage!)
   })
 
-  // Resize handler
-  window.addEventListener("resize", () => {
-    if (bgApp) bgApp.renderer.render(stage!)
-  })
+  // Resize handler. Coalesce bursts of resize events into a single rAF render
+  // (resize fires rapidly during a drag) and re-center the camera so the graph
+  // stays framed after the viewport changes size. Snap (no animation) keeps it
+  // cheap and avoids fighting an in-flight fly-to.
+  let resizeRafPending = false
+  const onResize = () => {
+    if (resizeRafPending) return
+    resizeRafPending = true
+    requestAnimationFrame(() => {
+      resizeRafPending = false
+      if (!bgApp || !stage) return
+      snapToFitAll()
+      bgApp.renderer.render(stage)
+    })
+  }
+  // The background graph is a persistent singleton (initializeBackgroundGraph is
+  // once-guarded and never re-runs), so its resize listener and body observer are
+  // intentionally permanent — exactly one of each ever exists. Do NOT register them
+  // in addCleanup: that runs on the next SPA nav and would remove them for good
+  // (init won't re-add them), permanently killing resize re-fit + fit-all visibility.
+  window.addEventListener("resize", onResize)
+}
+
+// --- Snap the camera to the fit-all framing without animating. Used by the
+// resize handler so the graph re-centers when the viewport changes size. ---
+function snapToFitAll() {
+  if (!bgApp || !stage) return
+  const fit = calculateFitScale()
+  const w = bgApp.canvas.width / (window.devicePixelRatio || 1)
+  const h = bgApp.canvas.height / (window.devicePixelRatio || 1)
+  const scale = fit.scale
+  const tx = w / 2 - fit.cx * scale
+  const ty = h / 2 - fit.cy * scale
+  stage.position.set(tx, ty)
+  stage.scale.set(scale, scale)
+  currentTransform = zoomIdentity.translate(tx, ty).scale(scale)
+  updateLOD(scale)
+
+  // Keep the CSS background grid in sync with the camera.
+  const bgEl = document.getElementById("background-graph")
+  if (bgEl) {
+    const gridSize = 60 * scale
+    bgEl.style.backgroundSize = `${gridSize}px ${gridSize}px`
+    bgEl.style.backgroundPosition = `${tx}px ${ty}px`
+  }
+
+  // Sync D3 zoom state so subsequent pan/zoom starts from the new transform.
+  if (d3ZoomBehavior) {
+    select(bgApp.canvas as HTMLCanvasElement).call(d3ZoomBehavior.transform, currentTransform)
+  }
 }
 
 // --- Check if camera is at the minimum zoom-out (fit-all) within tolerance ---
@@ -822,6 +897,67 @@ async function onNodeClick(node: GlobalNode) {
   riseToContent()
 }
 
+// Journey step shape mirrors victoryDisplay.inline.ts JourneyStep. We only read
+// `slug` (a pathname like "/Submissions/Rear-Naked-Choke/Attacker") and `type`.
+type JourneyStep = {
+  slug: string
+  name: string
+  type: "position" | "transition" | "submission"
+}
+
+// --- Map a slug/pathname to a graph node id, mirroring highlightCurrentNode's
+// own transform: simplify (strips leading slash + trailing index), drop any
+// trailing slash, then collapse the role suffix to the hub. ---
+function slugToNodeId(slug: string): string {
+  return getHubSlug(simplifySlug(slug as FullSlug).replace(/\/$/, ""))
+}
+
+// --- Resolve the graph node for the submission that finished the current game.
+// Reads bjj-journey, walks BACKWARD to the last `type === "submission"` step and
+// maps its slug to a node id. Returns null if there's no journey / no submission
+// step / the node isn't in the graph. ---
+function resolveFinishingSubmissionNode(): NodeEntry | null {
+  let journey: JourneyStep[]
+  try {
+    journey = JSON.parse(localStorage.getItem("bjj-journey") || "[]")
+  } catch {
+    return null
+  }
+  if (!Array.isArray(journey)) return null
+  for (let i = journey.length - 1; i >= 0; i--) {
+    const step = journey[i]
+    if (step && step.type === "submission" && step.slug) {
+      return nodesMap.get(slugToNodeId(step.slug)) ?? null
+    }
+  }
+  return null
+}
+
+// --- Game-over framing: zoom OUT to a wide view centered on the finishing
+// submission node (kept emphasized + labelled), so the finisher is visible in
+// context rather than the 10x close-up used for normal nav. Falls back to a
+// clean fit-all overview when the finisher can't be resolved. ---
+function highlightGameOver() {
+  resetEmphasis()
+  const finisher = resolveFinishingSubmissionNode()
+  if (!finisher || !bgApp || !stage) {
+    fitAll()
+    return
+  }
+  currentHighlight = finisher.data.id
+  finisher.gfx.scale.set(1.8, 1.8)
+  finisher.label.visible = true
+
+  // Wide framing: start from the fit-all viewport width (the maximum zoom-out),
+  // centered on the finisher so it sits in the middle of the overview.
+  const fit = calculateFitScale()
+  const w = bgApp.canvas.width / (window.devicePixelRatio || 1)
+  const wideViewportWidth = w / fit.scale
+  const currentCam = getCameraState()
+  const targetCam: [number, number, number] = [finisher.data.x, finisher.data.y, wideViewportWidth]
+  animateVanWijk(currentCam, targetCam, 800)
+}
+
 // --- Highlight current page's node + pan camera ---
 // Zooms 10x into the current node so it shows in the peek strip above the content card.
 function highlightCurrentNode(slug: string) {
@@ -853,6 +989,15 @@ function highlightCurrentNode(slug: string) {
     settleEmphasis(hubSlug, 350)
     const settled = nodesMap.get(hubSlug)
     if (settled) settled.label.visible = true
+    return
+  }
+
+  // Game-over has no static graph node (it's dynamic only). Zoom OUT and
+  // emphasize the finishing submission instead of looking up "game-over".
+  if (hubSlug === "game-over") {
+    highlightGameOver()
+    const snapToContent = (window as any).__snapToContent
+    if (snapToContent) snapToContent()
     return
   }
 

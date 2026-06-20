@@ -121,9 +121,19 @@ document.addEventListener("nav", () => {
     setMode("graph")
     updateProgress()
   } else {
-    window.scrollTo({ top: dockY(), behavior: "instant" as ScrollBehavior })
-    setMode("content")
-    updateProgress()
+    // Deep link to a heading (#hash) — honor it instead of bare-docking, which
+    // would otherwise clobber spa.inline.ts's scrollIntoView and land the user at
+    // the top of the article. Falls back to the dock when there's no hash target.
+    const hashId = location.hash ? decodeURIComponent(location.hash.slice(1)) : ""
+    const hashTarget = hashId ? document.getElementById(hashId) : null
+    if (hashTarget) {
+      hashTarget.scrollIntoView({ block: "start" })
+      updateProgress()
+    } else {
+      window.scrollTo({ top: dockY(), behavior: "instant" as ScrollBehavior })
+      setMode("content")
+      updateProgress()
+    }
   }
 
   // Snap helpers — JS-driven smooth scroll-to. The transform follows naturally.

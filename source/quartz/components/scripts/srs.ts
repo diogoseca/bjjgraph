@@ -14,17 +14,12 @@ export interface SRSCard {
   flashcardsMastered: number[] // indices of flashcards answered correctly (Hard/Easy)
 }
 
+import { safeSetItem } from "./util"
+import { localDateKey, addDays } from "./dateUtil"
+
 const STORAGE_KEY = "bjj-srs-cards"
 
-function today(): string {
-  return new Date().toISOString().slice(0, 10)
-}
-
-function addDays(dateStr: string, days: number): string {
-  const d = new Date(dateStr)
-  d.setDate(d.getDate() + Math.round(days))
-  return d.toISOString().slice(0, 10)
-}
+const today = localDateKey
 
 // SM-2 tuning. Ease is bounded so "easy" streaks cannot run away; intervals use
 // fixed graduating steps for the first reps, then grow by ease, with an absolute
@@ -61,28 +56,54 @@ export function isMastered(card: SRSCard): boolean {
   return card.repetitions >= 5 && card.easeFactor >= 2.5
 }
 
+// Coerce a value to a finite number, else fall back.
+function num(v: unknown, fallback: number): number {
+  return typeof v === "number" && Number.isFinite(v) ? v : fallback
+}
+
+function intGE0(v: unknown, fallback: number): number {
+  const n = num(v, fallback)
+  return Math.max(0, Math.round(n))
+}
+
 export function loadSRSCards(): SRSCard[] {
   try {
-    const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]") as Array<
-      SRSCard & { questionsMastered?: number[] }
-    >
-    // Ensure flashcardsMastered exists on every card. Also handles in-memory
-    // migration for any legacy card that still has questionsMastered (the
-    // persisted migration runs once in flashcard.inline.ts).
-    for (const card of raw) {
-      if (!card.flashcardsMastered) {
-        card.flashcardsMastered = card.questionsMastered ?? []
+    const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]")
+    if (!Array.isArray(parsed)) return []
+    const out: SRSCard[] = []
+    for (const c of parsed as Array<SRSCard & { questionsMastered?: number[] }>) {
+      // Drop entries that aren't a usable card (technique must be a string).
+      if (!c || typeof c !== "object" || typeof c.technique !== "string") continue
+
+      // Migrate legacy questionsMastered → flashcardsMastered in-memory.
+      const mastered = Array.isArray(c.flashcardsMastered)
+        ? c.flashcardsMastered
+        : (c.questionsMastered ?? [])
+
+      const card: SRSCard = {
+        technique: c.technique,
+        type: c.type === "submission" ? "submission" : "transition",
+        slug: typeof c.slug === "string" ? c.slug : "",
+        easeFactor: num(c.easeFactor, 2.5),
+        interval: num(c.interval, 1),
+        nextReview: typeof c.nextReview === "string" ? c.nextReview : today(),
+        repetitions: intGE0(c.repetitions, 0),
+        lastReview: typeof c.lastReview === "string" ? c.lastReview : today(),
+        history: Array.isArray(c.history) ? c.history : [],
+        flashcardsMastered: (Array.isArray(mastered) ? mastered : []).filter(
+          (n) => typeof n === "number" && Number.isFinite(n),
+        ),
       }
-      if (card.questionsMastered) delete card.questionsMastered
+      out.push(card)
     }
-    return raw as SRSCard[]
+    return out
   } catch {
     return []
   }
 }
 
 export function saveSRSCards(cards: SRSCard[]) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(cards))
+  safeSetItem(STORAGE_KEY, JSON.stringify(cards))
   import("./supabase").then((m) => m.syncAfterWrite()).catch(() => {})
 }
 

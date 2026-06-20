@@ -17,6 +17,9 @@ export interface KnownEntry {
   markedAt: string // ISO date "2026-06-19"
 }
 
+import { safeSetItem } from "./util"
+import { localDateKey } from "./dateUtil"
+
 const KNOWN_KEY = "bjj-known"
 
 export function loadKnown(): KnownEntry[] {
@@ -29,7 +32,7 @@ export function loadKnown(): KnownEntry[] {
 }
 
 export function saveKnown(entries: KnownEntry[]) {
-  localStorage.setItem(KNOWN_KEY, JSON.stringify(entries))
+  safeSetItem(KNOWN_KEY, JSON.stringify(entries))
   import("./supabase").then((m) => m.syncAfterWrite()).catch(() => {})
 }
 
@@ -41,7 +44,7 @@ export function isKnown(slug: string): boolean {
 export function markKnown(slug: string, name: string, type: string): boolean {
   const entries = loadKnown()
   if (entries.some((e) => e.slug === slug)) return false
-  entries.push({ slug, name, type, markedAt: new Date().toISOString().slice(0, 10) })
+  entries.push({ slug, name, type, markedAt: localDateKey() })
   saveKnown(entries)
   return true
 }
@@ -69,7 +72,7 @@ export function toggleKnown(slug: string, name: string, type: string): boolean {
 export function markManyKnown(items: Array<{ slug: string; name: string; type: string }>): number {
   const entries = loadKnown()
   const have = new Set(entries.map((e) => e.slug))
-  const today = new Date().toISOString().slice(0, 10)
+  const today = localDateKey()
   let added = 0
   for (const it of items) {
     if (!it.slug || have.has(it.slug)) continue

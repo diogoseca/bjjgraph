@@ -102,16 +102,29 @@ function applyTrainingOverlay() {
   }
 }
 
+// Tracks teardown fns for every inner listener added by the latest setupExplorer()
+// run. setupExplorer fires on every resize, so without removing the prior run's
+// listeners first, click/scroll/wheel handlers would stack on each resize.
+let explorerListenerCleanups: Array<() => void> = []
+
+function teardownExplorerListeners() {
+  for (const cleanup of explorerListenerCleanups) cleanup()
+  explorerListenerCleanups = []
+}
+
 function setupExplorer() {
   const explorer = document.getElementById("explorer")
   if (!explorer) return
+
+  // Idempotent: remove listeners from a prior setup before re-adding.
+  teardownExplorerListeners()
 
   if (explorer.dataset.behavior === "collapse") {
     for (const item of document.getElementsByClassName(
       "folder-button",
     ) as HTMLCollectionOf<HTMLElement>) {
       item.addEventListener("click", toggleFolder)
-      window.addCleanup(() => item.removeEventListener("click", toggleFolder))
+      explorerListenerCleanups.push(() => item.removeEventListener("click", toggleFolder))
     }
   }
 
@@ -120,7 +133,7 @@ function setupExplorer() {
     "folder-icon",
   ) as HTMLCollectionOf<HTMLElement>) {
     item.addEventListener("click", toggleFolder)
-    window.addCleanup(() => item.removeEventListener("click", toggleFolder))
+    explorerListenerCleanups.push(() => item.removeEventListener("click", toggleFolder))
   }
 
   // Set up scrollable list fade classes
@@ -135,7 +148,7 @@ function setupExplorer() {
     }
     updateFade()
     list.addEventListener("scroll", updateFade, { passive: true })
-    window.addCleanup(() => list.removeEventListener("scroll", updateFade))
+    explorerListenerCleanups.push(() => list.removeEventListener("scroll", updateFade))
   }
 
   // Unified wheel scrolling for the drawer. Native overscroll-behavior already
@@ -184,7 +197,7 @@ function setupExplorer() {
       }
     }
     overlay.addEventListener("wheel", onWheel, { passive: false })
-    window.addCleanup(() => overlay.removeEventListener("wheel", onWheel))
+    explorerListenerCleanups.push(() => overlay.removeEventListener("wheel", onWheel))
   }
 
   // Start with all folders collapsed
@@ -317,6 +330,8 @@ function setupExplorer() {
 window.addEventListener("resize", setupExplorer)
 document.addEventListener("nav", () => {
   setupExplorer()
+  // Drain the listeners added by this setup on the next SPA navigation.
+  window.addCleanup(teardownExplorerListeners)
   observer.disconnect()
 
   // select pseudo element at end of list

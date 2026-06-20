@@ -143,6 +143,13 @@ function getHubSlug(nodeId: SimpleSlug): SimpleSlug {
   return nodeId
 }
 
+// Per-container render generation. renderGraph is async (it awaits app.init and,
+// for the global graph, the contentIndex fetch); its teardown addCleanup is only
+// registered at the very end. If a newer render for the same container starts
+// (e.g. fast SPA nav) before an older one finishes, the older one would leak its
+// PixiJS/WebGL app. This token lets a superseded render self-destroy its app.
+const renderGenerations: Record<string, number> = {}
+
 async function renderGraph(container: string, fullSlug: FullSlug) {
   const slug = simplifySlug(fullSlug)
   // System pages render the member constellation (incl. principles) and ring each
@@ -151,6 +158,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   const graph = document.getElementById(container)
   if (!graph) return
   removeAllChildren(graph)
+  const myGen = (renderGenerations[container] = (renderGenerations[container] ?? 0) + 1)
 
   let {
     drag: enableDrag,
@@ -690,6 +698,15 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   tweens.forEach((tween) => tween.stop())
   tweens.clear()
 
+  // A newer render for this container superseded us during an earlier await
+  // (e.g. the contentIndex fetch) — stop the d3 simulation we may have started
+  // (its internal timer keeps ticking otherwise) and bail before allocating a
+  // WebGL context.
+  if (myGen !== renderGenerations[container]) {
+    simulation?.stop()
+    return
+  }
+
   const app = new Application()
   await app.init({
     width,
@@ -702,6 +719,14 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     resolution: window.devicePixelRatio,
     eventMode: "static",
   })
+  // If a newer render started while app.init() was awaiting, destroy this now-
+  // orphaned app instead of leaking its WebGL context (our addCleanup is not
+  // registered until the end of renderGraph).
+  if (myGen !== renderGenerations[container]) {
+    simulation?.stop()
+    app.destroy(true, { children: true, texture: true })
+    return
+  }
   graph.appendChild(app.canvas)
 
   const stage = app.stage
