@@ -6368,6 +6368,90 @@
     "Anaconda Choke from Dead Orchard": {
       "success_rate": 50.0,
       "vote_count": 30
+    },
+    "Closed Guard to Hindulotine": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Ashi Garami to Toe Hold Control": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Mount to Modified Mount": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "New York Control Entry from Rubber Guard": {
+      "success_rate": 57.0,
+      "vote_count": 30
+    },
+    "Half Guard to Jailbreak": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Butterfly Guard to Williams Guard": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Turtle to Aoki Lock": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Meathook Entry from Rubber Guard": {
+      "success_rate": 57.0,
+      "vote_count": 30
+    },
+    "De La Riva to Grasshopper Guard": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Outside Ashi to Leg Knot": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Half Guard Whizzer Counter": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "De La Riva to Lapel Guard": {
+      "success_rate": 58.0,
+      "vote_count": 30
+    },
+    "Open Guard to Double Unders": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Single Leg X-Guard to Inside Sankaku": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Buggy Choke from Bottom Side Control": {
+      "success_rate": 45.0,
+      "vote_count": 30
+    },
+    "Side Control to Kuzure Kesa-Gatame": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Turtle to Russian Cowboy": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "De La Riva to Inverted Guard": {
+      "success_rate": 60.0,
+      "vote_count": 30
+    },
+    "Single Leg X to Estima Lock": {
+      "success_rate": 50.0,
+      "vote_count": 30
+    },
+    "Half Guard to Leg Weave": {
+      "success_rate": 55.0,
+      "vote_count": 30
+    },
+    "Wrist Lock": {
+      "success_rate": 45.0,
+      "vote_count": 30
     }
   }
 }
