@@ -147,6 +147,7 @@ def main() -> None:
     # or `outcomes[*].to` (transitions/submissions)
     adjacency: dict[str, set[str]] = {}
     titles: dict[str, str] = {}
+    node_meta: dict[str, dict] = {}
 
     def add_node(slug: str, title: str = "") -> None:
         if slug not in adjacency:
@@ -192,6 +193,11 @@ def main() -> None:
         if not is_hub_node(slug):
             continue
         add_node(slug, entry.get("name", ""))
+        node_meta[slug] = {
+            "fromPosition": entry.get("fromPosition", ""),
+            "fromPositionId": entry.get("fromPositionId", ""),
+            "fromRole": entry.get("fromRole", ""),
+        }
 
         starting = entry.get("startingPosition", "")
         if starting and isinstance(starting, str):
@@ -222,6 +228,11 @@ def main() -> None:
         if not is_hub_node(slug):
             continue
         add_node(slug, entry.get("name", ""))
+        node_meta[slug] = {
+            "fromPosition": entry.get("fromPosition", ""),
+            "fromPositionId": entry.get("fromPositionId", ""),
+            "fromRole": entry.get("fromRole", ""),
+        }
 
         for fp in entry.get("fromPositions", []) or []:
             if not fp:
@@ -300,19 +311,34 @@ def main() -> None:
     def to_canonical(slug: str) -> str:
         return canonical_map.get(slug, slug)
 
+    # Title-case a slug tail for the rare fallback (a node with no graph.json name),
+    # keeping connector words like "from" lowercase — avoids the "X From Y" casing
+    # the designer flagged.
+    _MINOR = {"from", "to", "and", "the", "of", "on", "in", "a"}
+
+    def _slug_title(tail: str) -> str:
+        words = tail.replace("-", " ").split()
+        return " ".join(w if w in _MINOR else w.capitalize() for w in words)
+
     # Emit JSON with same shape as backgroundGraph.inline.ts expects
     out_nodes = []
     for i, n in enumerate(nodes):
-        title = titles.get(n) or n.split("/")[-1].replace("-", " ").title()
-        out_nodes.append(
-            {
-                "id": to_canonical(n),
-                "x": round(float(coords[i, 0]), 1),
-                "y": round(float(coords[i, 1]), 1),
-                "t": title,
-                "tags": [],
-            }
-        )
+        title = titles.get(n) or _slug_title(n.split("/")[-1])
+        out_node = {
+            "id": to_canonical(n),
+            "x": round(float(coords[i, 0]), 1),
+            "y": round(float(coords[i, 1]), 1),
+            "t": title,
+            "tags": [],
+        }
+        # Structured canonical origin for technique nodes — consumers filter/link by
+        # these instead of string-parsing the title.
+        meta = node_meta.get(n)
+        if meta and meta.get("fromPositionId"):
+            out_node["fromPosition"] = meta["fromPosition"]
+            out_node["fromPositionId"] = meta["fromPositionId"]
+            out_node["fromRole"] = meta["fromRole"]
+        out_nodes.append(out_node)
 
     out_links = [{"source": to_canonical(a), "target": to_canonical(b)} for a, b in edges]
 

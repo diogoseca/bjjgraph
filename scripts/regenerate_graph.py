@@ -162,6 +162,10 @@ def rewrite_aliases(graph: dict, pos_map: dict, tech_map: dict) -> int:
             if sp in pos_map:
                 entry['startingPosition'] = pos_map[sp]
                 count += 1
+            fpid = entry.get('fromPositionId', '')
+            if fpid in pos_map:
+                entry['fromPositionId'] = pos_map[fpid]
+                count += 1
 
     return count
 
@@ -477,8 +481,10 @@ def process_transitions(content_dir: Path) -> dict:
         if from_position_raw:
             starting_pos_name = from_position_raw.split('/')[0]
             starting_position_slug = slugify(starting_pos_name)
+            from_position_name = starting_pos_name.strip()
         else:
             starting_position_slug = ''
+            from_position_name = ''
 
         effectiveness_map = {'High': 70, 'Medium': 50, 'Low': 30}
         cc_source = attacker.get('common_counters', trans_data.get('common_counters', []))
@@ -541,6 +547,11 @@ def process_transitions(content_dir: Path) -> dict:
             'startingPosition': starting_position_slug,
             'startingPositionPath': starting_position_path,
             'startingPositionRole': starting_position_role,
+            # Canonical structured origin (consumers filter/link by these, not the title).
+            # fromPosition = position display name; fromPositionId = position node id/slug.
+            'fromPosition': from_position_name,
+            'fromPositionId': starting_position_slug,
+            'fromRole': starting_position_role,
             'endingPosition': ending_slug,
             'endingPositionPath': ending_path,
             'successRate': success_rate,
@@ -620,10 +631,10 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
         if from_position_raw:
             starting_pos_name = from_position_raw.split('/')[0]
             starting_position_slug = slugify(starting_pos_name)
-            from_position_slug = slugify(from_position_raw.replace('/', '-'))
+            from_position_name = starting_pos_name.strip()
         else:
             starting_position_slug = slugify(sub_data.get('starting_position', ''))
-            from_position_slug = ''
+            from_position_name = sub_data.get('starting_position', '').strip()
 
         # Extract starting position role and path for outcome card navigation
         starting_position_role = ''
@@ -643,6 +654,11 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
             'startingPosition': starting_position_slug,
             'startingPositionPath': starting_position_path,
             'startingPositionRole': starting_position_role,
+            # Canonical structured origin (unified with transitions).
+            # fromPosition = position display name; fromPositionId = position node id/slug.
+            'fromPosition': from_position_name,
+            'fromPositionId': starting_position_slug,
+            'fromRole': starting_position_role,
             'fromPositions': from_positions,
             'successRate': success_rate,
             'attackerFlashcards': attacker_flashcards,
@@ -650,10 +666,7 @@ def process_submissions(content_dir: Path) -> tuple[dict, set, dict]:
             'flashcards': dedupe_flashcards(attacker_flashcards + defender_flashcards),
         }
 
-        # Add from_position and outcomes if present (graph edge data)
-        if from_position_raw:
-            sub_entry['fromPosition'] = from_position_slug
-
+        # Add outcomes if present (graph edge data)
         outcomes_raw = sub_data.get('outcomes', [])
         if outcomes_raw:
             sub_entry['outcomes'] = [
